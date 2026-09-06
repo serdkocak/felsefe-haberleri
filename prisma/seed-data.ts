@@ -1489,6 +1489,1149 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Mouffe: demokrasi uzlaşma sanatı değil, çatışmayı evcilleştirme sanatıdır",
+    slug: "chantal-mouffe-agonistik-demokrasi",
+    summary:
+      "Kırk yıldır tek bir tezi savunuyor: İnsanlar temel değerlerde uzlaşamaz ve bu bir kusur değil. Mouffe'a göre demokrasinin işi herkesi aynı fikre getirmek değil, düşmanı rakibe dönüştürmek. Siyaset sahnesi boşaltıldığında tutkular yok olmuyor — başkası dolduruyor.",
+    seoTitle: "Chantal Mouffe: agonistik demokrasi, hegemonya ve sol popülizm",
+    metaDescription:
+      "Chantal Mouffe'un agonistik demokrasi kuramı, Laclau ile yazdığı Hegemonya ve Sosyalist Strateji, Schmitt okuması ve sol popülizm önerisi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Chantal%20Mouffe%202013.jpg?width=1600",
+    imageCredit: "Chantal Mouffe, 2013 · Wikimedia Commons",
+    featured: true,
+    sourceName: "University of Westminster",
+    sourceUrl: "https://www.westminster.ac.uk/about-us/our-people/directory/mouffe-chantal",
+    publishedAt: "2026-09-06T03:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "marksizm", "kavram", "elestirel-teori"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Chantal Mouffe — Professor of Political Theory",
+        publisher: "University of Westminster",
+        url: "https://www.westminster.ac.uk/about-us/our-people/directory/mouffe-chantal",
+        primary: true,
+      },
+      {
+        title: "For a Left Populism",
+        publisher: "Chantal Mouffe, Verso",
+        url: "https://www.penguinrandomhouse.com/books/572869/for-a-left-populism-by-chantal-mouffe/",
+      },
+      {
+        title: "Towards a Green Democratic Revolution",
+        publisher: "Chantal Mouffe, Verso",
+        url: "https://www.penguinrandomhouse.com/books/712402/towards-a-green-democratic-revolution-by-chantal-mouffe/",
+      },
+    ],
+    content: `Liberal demokrasinin en rahatlatıcı varsayımı şudur: Yeterince konuşursak, yeterince akıl yürütürsek, sonunda ortak bir zeminde buluşuruz.
+
+**Chantal Mouffe** kırk yıldır bunun yanlış olduğunu savunuyor.
+
+Ve daha da rahatsız edici bir şey ekliyor: Bu bir kusur değil. Ortak zemin arayışının kendisi, demokrasiyi zayıflatıyor.
+
+Belçika doğumlu Mouffe, Westminster Üniversitesi'nde siyaset teorisi profesörü. Avrupa, Kuzey Amerika ve Latin Amerika'da ders verdi; Harvard, Cornell, California ve Princeton'daki Institute for Advanced Study'de araştırma yürüttü. 1989-1995 arasında Paris'teki **Collège International de Philosophie**'de program direktörlüğü yaptı.
+
+## Kırılma noktası: 1985
+
+Mouffe'un düşüncesini anlamak için doğrudan bir kitaba gitmek gerekiyor: **Ernesto Laclau** ile birlikte 1985'te yayımladıkları *Hegemonya ve Sosyalist Strateji*.
+
+Kitabın hedefi klasik Marksizmin bir varsayımıydı: **işçi sınıfının, tarihin ayrıcalıklı ve önceden verili öznesi olduğu.**
+
+Laclau ve Mouffe'un itirazı şuydu: "İşçi sınıfı" gibi hazır bir siyasal özne kendiliğinden ortaya çıkmaz. Siyasal kimlikler **kurulur**. İnsanlar farklı talepler, semboller ve mücadeleler etrafında bir araya getirilir.
+
+Bunun sonucu ağırdır: Siyaset yalnızca ekonominin yansıması değildir. Siyaset aynı zamanda **anlam üretme ve toplumun "biz"ini kurma mücadelesidir.**
+
+Buradan **hegemonya** kavramı çıkar — Gramsci'den alınıp yeniden kurulmuş hâliyle: Hiçbir toplumsal düzen doğal değildir; her düzen, belli anlamların diğerlerine üstün gelmesiyle kurulur ve bu üstünlük sürekli yeniden üretilmek zorundadır.
+
+Mouffe'un sonraki bütün düşüncesi bu zeminden gelişti.
+
+## Schmitt'i okumak, Schmittçi olmamak
+
+Mouffe'un en tartışmalı entelektüel borcu **Carl Schmitt**'e.
+
+Schmitt'e göre siyasal olanın özü **dost-düşman ayrımı**dır. Bir topluluk, kimin dışarıda olduğunu belirleyerek kendini kurar.
+
+Mouffe bu teşhisi ciddiye aldı — ve sonucunu tersine çevirdi.
+
+Schmitt bu ayrımı liberal demokrasiye karşı bir silah olarak kullanmıştı: Madem çatışma kaçınılmaz, liberalizmin uzlaşma iddiası bir yanılsamadır ve düzen ancak egemen kararla kurulur.
+
+Mouffe aynı öncülden farklı bir sonuç çıkardı: **Çatışma kaçınılmazsa, mesele onu ortadan kaldırmak değil, nasıl örgütleyeceğimizdir.**
+
+Ve kritik kavramsal hamlesini burada yaptı:
+
+**Düşman → rakip.** *Enemy → adversary.*
+
+Düşman, yok edilmesi gereken kişidir. **Rakip** ise, fikrine karşı çıktığınız ama **mücadele hakkını tanıdığınız** kişidir.
+
+Agonistik demokraside taraflar birbirini yok etmeye çalışmaz. Ama uzlaşmak zorunda da değildir.
+
+Bu ayrım, Mouffe'u klasik "uzlaşma demokrasisi" anlayışından ayırır. Demokrasinin görevi herkesin aynı düşünmesini sağlamak değildir; **farklı insanların birlikte kavga edebilmesini** sağlamaktır.
+
+## Neden bugün bu kadar konuşuluyor?
+
+Çünkü Mouffe'un yıllar önce teşhis ettiği durum, Batı demokrasilerinin son on yılına damgasını vurdu.
+
+Merkez siyasetin "sağ ve sol artık geçersiz kavramlar" demesi. Siyasal tartışmaların teknik yönetim sorunlarına indirgenmesi. Seçmenin, kararların uzmanlar tarafından alındığı bir sistemde kendini etkisiz hissetmesi.
+
+Mouffe'un tezi şu: **Siyaset sahnesi boşaltıldığında siyasal tutkular yok olmaz. Başka bir aktör tarafından doldurulur.**
+
+Aşırı sağın yükselişini açıklamak için onun çerçevesine tekrar tekrar başvurulmasının nedeni bu. Mouffe'a göre aşırı sağ, "post-siyasal" merkezin bıraktığı boşluğa yerleşti — çünkü tek o, insanlara bir "biz" ve bir "onlar" sundu.
+
+Bu köşede bu hafta ele aldığımız [Judith Butler dosyasıyla](/haber/judith-butler-demokrasi-taninma-yas) kesişim ilginç. Butler demokrasinin hiç gerçekleşmediğini söylüyordu; Mouffe, gerçekleşmesinin ancak çatışmanın kabul edilmesiyle mümkün olduğunu.
+
+## Sol popülizm önerisi
+
+Mouffe 2018'de *For a Left Populism* ile daha da tartışmalı bir adım attı.
+
+Tezi şuydu: **Popülizm sağın mülkü değildir.** Sol da halk ile iktidar blokları arasında siyasal bir sınır çizebilir.
+
+Buradaki incelik kaçırılmamalı: Mouffe için "halk" zaten var olan bir topluluk değildir. **Halk siyasal olarak inşa edilir.** Bu yüzden onun popülizmi bir ekonomik programdan önce bir **siyasal stratejidir**: Farklı taleplerin — ekolojik, feminist, işçi, azınlık — ortak bir karşıtlık etrafında eklemlenmesi.
+
+Kitabın çıkış noktası, neoliberalizmin yarattığı siyasal boşluğun hem sağ hem de sol tarafından doldurulabileceğiydi.
+
+2022'de bu düşünceyi ekolojiye taşıdı. *Towards a Green Democratic Revolution*, iklim krizini teknik bir çevre problemi olarak değil, **demokratik bir hegemonya mücadelesi** olarak ele alıyor.
+
+Mouffe'un düşünsel güzergâhı böylece şöyle özetlenebilir:
+
+**Marksizm → radikal demokrasi → agonizm → sol popülizm → yeşil demokratik devrim.**
+
+## Eleştiriler
+
+Mouffe'un çerçevesi ciddi itirazlar alıyor ve bunlar kolayca savuşturulabilir cinsten değil.
+
+**Schmitt itirazı.** Dost-düşman ayrımını demokratik kurama taşımak tehlikelidir. Mouffe "düşman" yerine "rakip" koyduğunu söylüyor; ama ayrımın kendisi antagonizmi merkezde tutuyor. Kim rakip sayılacak, kim sayılmayacak? Bu sınırı kim çizecek?
+
+**Sınır sorunu.** Mouffe, demokratik oyunun kurallarını kabul etmeyenlerin rakip olamayacağını söyler. Ama bu, dışlama ölçütünü geri getirir — ve ölçütü belirleyen zaten hegemonyayı elinde tutan taraftır.
+
+**Normatiflik itirazı.** Eğer her düzen bir hegemonya ürünüyse ve tarafsız bir zemin yoksa, Mouffe kendi tercihini neye dayandırıyor? Neden sol popülizm sağ popülizmden daha iyi olsun?
+
+Mouffe'un yanıtı, özgürlük ve eşitlik ilkelerinin — liberal demokrasinin kendi ilan ettiği ilkelerin — radikalleştirilmesinde. Yani ölçüt dışarıdan gelmiyor; düzenin kendi vaadinden çıkarılıyor.
+
+Bu yanıt tatmin edici mi? Tartışılıyor. Ama en azından tutarlı.
+
+## Rahatsız edici soru
+
+Mouffe'un asıl değeri belki de cevaplarında değil, liberal demokrasinin rahatlatıcı varsayımlarını bozmasında.
+
+Demokratik kurumlar gerçekten tarafsız mıdır? Herkesin üzerinde anlaşabileceği bir "ortak akıl" mümkün müdür? Yoksa her demokratik düzen belli bir değerler sisteminin — geçici olarak üstün gelmiş bir hegemonyanın — ürünü müdür?
+
+Bu köşede bu hafta ele aldığımız [dijital gelecek tasavvurları](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) ve [Jill Lepore'un "Yapay Devlet"](/haber/2026-felsefe-kitaplari-secki) dosyaları, aynı soruyu teknoloji tarafından soruyor: Kararın nerede alındığı belirsizleştiğinde, siyaset nereye gider?
+
+Mouffe'un cevabı basit ve sert: **Siyaset kaybolmaz. Görünmez olur.** Ve görünmez siyaset, demokratik denetimin dışına çıkmış siyasettir.
+
+---
+
+*Türkçede: Hegemonya ve Sosyalist Strateji (Laclau ile), Siyasal Üzerine, Demokratik Paradoks, Dünyayı Politik Düşünmek ve Sol Popülizm Üzerine gibi eserleri çevrildi.*`,
+  },
+  {
+    title: "Takiyettin Mengüşoğlu: insanı tek bir özelliğe indirgememe uyarısı",
+    slug: "takiyettin-mengusoglu-insan-felsefesi",
+    summary:
+      "Hartmann'ın öğrencisiydi, Berlin'de Husserl ve Scheler üzerine yazdı, 1944'te İstanbul Üniversitesi'nde Türkiye'nin ilk felsefi antropoloji derslerini verdi. Kurduğu 'ontolojik antropoloji', insanı bir kavramdan değil somut varlık koşullarından okuyor. Yapay zekâ çağında sorusu geri döndü: İnsanı insan yapan nedir?",
+    seoTitle: "Takiyettin Mengüşoğlu (1905-1984): insan felsefesi ve ontolojik antropoloji",
+    metaDescription:
+      "Takiyettin Mengüşoğlu'nun felsefi antropolojisi, Nicolai Hartmann etkisi, ontolojik antropoloji kavramı ve Türkiye'de insan felsefesinin kuruluşu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul_%C3%9Cniversitesi_Edebiyat_Fak%C3%BCltesi_binas%C4%B1.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi Edebiyat Fakültesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Türkiye Araştırmaları Literatür Dergisi",
+    sourceUrl: "https://dergipark.org.tr/en/pub/talid/article/529307",
+    publishedAt: "2026-09-06T03:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["kavram", "fenomenoloji", "akademi", "etik", "tarih"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      {
+        title: "Türkiye'de Felsefi Antropoloji Çalışmaları: Takiyettin Mengüşoğlu ve Felsefi Antropoloji Gelece-(ne)-ği",
+        publisher: "Türkiye Araştırmaları Literatür Dergisi",
+        url: "https://dergipark.org.tr/en/pub/talid/article/529307",
+        primary: true,
+      },
+      {
+        title: "Yüzyılımızda İki Antropoloji Anlayışı: Heidegger ve Mengüşoğlu",
+        publisher: "Sevgi İyi, Hacettepe Üniversitesi Edebiyat Fakültesi Dergisi 17(2)",
+        url: "https://web.archive.org/web/20130626054440/http://www.edebiyatdergisi.hacettepe.edu.tr/2000172SevgiIyi.pdf",
+      },
+      {
+        title: "İnsan Felsefesi",
+        publisher: "Doğu Batı Yayınları",
+        url: "https://www.dogubati.com/insan-felsefesi",
+      },
+    ],
+    content: `Türkiye'nin felsefe tarihinde bazı isimler üniversitelerin yönünü değiştirmiş, ama toplumsal hafızada yer edinememiştir.
+
+**Takiyettin Mengüşoğlu** bunların en önemlilerinden biri.
+
+1905'te Malatya'nın Hekimhan ilçesinde doğdu, 1984'te öldü. Ama onu "Türk felsefesinin önemli akademisyenlerinden biri" diye tanımlamak eksik kalır. Çünkü Mengüşoğlu'nun sorduğu soru, felsefenin en zor sorularından biri:
+
+**İnsan nedir?**
+
+## Berlin: Hartmann'ın öğrencisi
+
+Liseyi bitirdikten sonra Almanya'ya gitti ve **Nicolai Hartmann**'ın öğrencisi oldu.
+
+O dönemde adı **Takiyettin Temuralp**'ti. 1937'de Berlin'de Almanca bir çalışma yayımladı: ***Über die Grenzen der Erkennbarkeit bei Husserl und Scheler*** — *Husserl ve Scheler'de Bilinebilirliğin Sınırları Üzerine*.
+
+Bu ilk kitap, sonraki bütün çalışmasının programını ele veriyor.
+
+Çünkü **Max Scheler**, yirminci yüzyıl **felsefi antropolojisinin** kurucusudur. **Edmund Husserl**, fenomenolojinin. Ve **Hartmann**, "yeni ontoloji" adı verilen programın: Varlığın katmanlarını — cansız madde, organik yaşam, ruhsal olan, tinsel olan — birbirine indirgemeden düşünmek.
+
+Mengüşoğlu'nun yaptığı, bu üç mirası birleştirmekti. Ama önemi Hartmann'ın Türkiye'deki temsilcisi olmasından gelmiyor.
+
+Asıl mesele şu: **Hartmann'ın ontolojisini insan problemine uygularken kendi özgün insan felsefesini kurdu.**
+
+## 1944: bir başlangıç
+
+Mengüşoğlu'nun insan felsefesi çalışmaları, 1944'te İstanbul Üniversitesi'nde verdiği **"Felsefi Antropoloji"** dersleriyle başladı.
+
+Bu tarih önemsiz değil.
+
+Türkiye'de felsefe uzun süre ağırlıklı olarak Batı felsefesi tarihinin aktarımı üzerinden yürüdü. Mengüşoğlu ise **"insan"ı doğrudan felsefenin merkezî problemi hâline getirdi** — ve bunu, aktarılan bir literatürü özetleyerek değil, kendi kavramlarını kurarak yaptı.
+
+## Ontolojik antropoloji
+
+Mengüşoğlu'nun kurduğu yaklaşımın adı **ontolojik antropoloji**.
+
+Ayırt edici yanı şu: İnsanı herhangi bir **kavramsallaştırmadan** hareketle değil, onun **somut biyopsişik bütünlüğü** içinde ele alır.
+
+Bu, teknik bir tercih gibi görünebilir. Değil.
+
+Felsefe tarihi boyunca insan hep bir tanımla yakalanmaya çalışıldı: *akıl sahibi hayvan*, *düşünen töz*, *toplumsal ilişkilerin toplamı*, *ölüme-doğru-varlık*, *bilinç*, *gen taşıyıcısı*.
+
+Her tanım bir özelliği seçer ve gerisini dışarıda bırakır.
+
+Mengüşoğlu'nun itirazı buna: **İnsan, bu boyutların hiçbirine indirgenemez; hepsinin kesiştiği somut bir varlıktır.**
+
+Bu yüzden onun yöntemi tanımdan değil, **fenomenlerden** başlar. İnsanın varlık koşulları şunlardır:
+
+Çalışmak. Üretmek. Konuşmak. Değer vermek. Özgür olmak. Sorumluluk taşımak. Tarih kurmak. Sanat yapmak. İnanmak. Dil kullanmak. Bilim üretmek.
+
+Bunların hiçbiri tek başına insanı tanımlamaz. Ama hiçbiri de dışarıda bırakılamaz.
+
+## Heidegger'le fark
+
+Sevgi İyi'nin karşılaştırmalı çalışmasının başlığı meseleyi iyi kuruyor: **"Yüzyılımızda İki Antropoloji Anlayışı: Heidegger ve Mengüşoğlu."**
+
+Heidegger, *Varlık ve Zaman*'da insanı — Dasein'ı — varlığın anlamına açılan tek kapı olarak ele aldı ve klasik antropolojiyi reddetti: İnsanı "şey"lerden biri gibi incelemek, varlık sorusunu kaçırmaktır.
+
+Mengüşoğlu tersini yaptı. İnsanı ontolojinin **konusu** hâline getirdi — ama onu bir nesneye indirgemeden.
+
+Bu, felsefi antropolojinin klasik açmazına verilmiş bir yanıttır: İnsan hem araştıran hem araştırılandır. Mengüşoğlu bu ikiliği ortadan kaldırmaya çalışmaz; onu insanın varlık yapısının bir parçası sayar.
+
+Çünkü insan, **kendi varoluşunu problem hâline getirebilen** varlıktır.
+
+## İnsan ile hayvan arasındaki sınır
+
+Mengüşoğlu'nun insan felsefesi, insanın üstünlüğünü ilan eden klasik hümanist bir anlatı değildir.
+
+İnsan ile hayvan arasındaki farkları araştırırken biyolojik, psikolojik ve kültürel boyutların **birlikte** ele alınması gerektiğini savunur.
+
+Temel tezi şu: İnsan çevreye yalnızca biyolojik olarak uyum sağlayan bir canlı değildir. İnsan aynı zamanda **dünya kurar**. Kültür yaratır, değer üretir, tarih oluşturur, kendisine mesafe koyabilir, kendisini değiştirebilir.
+
+Bu tez, sitemizde bu hafta ele aldığımız [hayvan bilinci tartışmasıyla](/haber/hayvan-bilinci-new-york-bildirisi) doğrudan konuşuyor. New York Bildirisi, hayvanlarda bilinç için "gerçekçi bir ihtimal" bulunduğunu söylüyor. Mengüşoğlu'nun çerçevesi bunu reddetmez — ama farkın bilinçte değil, **dünya kurma** kapasitesinde aranması gerektiğini önerir.
+
+## İnsan hakları bağlantısı
+
+Mengüşoğlu'nun bugün yeniden okunmasının bir nedeni de insan haklarıyla ilişkisi.
+
+Bu köşede bu hafta ele aldığımız [İoanna Kuçuradi dosyasıyla](/haber/dunya-felsefe-gunu-kucuradi-unesco) birlikte düşünüldüğünde tablo netleşiyor.
+
+İnsan hakları iki şekilde temellendirilebilir. **Ya** soyut bir normdan çıkarılır — "insan onuru dokunulmazdır" denir ve bu bir aksiyom olarak konur. **Ya da** insanın gerçek varlık yapısından çıkarılır — insanın nasıl bir varlık olduğu gösterilir ve haklar bu yapının korunması olarak temellendirilir.
+
+Mengüşoğlu'nun somut varlık koşullarından hareket eden yaklaşımı, ikinci yolu açar. Kuçuradi'nin insan hakları felsefesi bu zemin üzerinde kuruldu.
+
+Dolayısıyla Mengüşoğlu'nun felsefesi sadece antropoloji değildir. **Ontoloji, etik, insan hakları, eğitim ve kültür** arasında bir köprüdür.
+
+## Bugün neden yeniden okunmalı?
+
+Yapay zekâ çağında. Biyoteknolojinin insan bedenini dönüştürdüğü bir dönemde. İnsan-makine ayrımının bulanıklaştığı bir dünyada.
+
+"İnsan" kategorisinin kendisi yeniden tartışmaya açılmışken Mengüşoğlu'nun sorusu geri dönüyor.
+
+Ve asıl katkısı, bir cevap vermesi değil; **cevap verme biçimimizi uyarması**.
+
+**İnsanı yalnızca zekâ üzerinden tanımlarsak** — sitemizde bu hafta izlediğimiz [makine bilinci tartışmasının](/haber/davranissal-cikarim-ilkesi-makine-bilinci) gösterdiği gibi — yapay zekâ tanımın sınırlarını zorlar.
+
+**Yalnızca biyoloji üzerinden tanımlarsak**, teknolojiyle değiştirilmiş bedenleri nereye koyacağız?
+
+**Yalnızca bilinç üzerinden tanımlarsak**, bilincin ne olduğunu nasıl belirleyeceğiz?
+
+Mengüşoğlu hazır bir cevap bırakmıyor. Bize **insanı tek bir özelliğe indirgememe uyarısı** bırakıyor.
+
+Ve belki bugün Türkiye'de yeniden okunması gereken asıl noktası budur: **İnsan hakkında konuşmak, tek bir özelliği seçip geri kalan her şeyi dışarıda bırakmak değildir.**
+
+---
+
+**Başlıca eserleri:** Über die Grenzen der Erkennbarkeit bei Husserl und Scheler (Berlin, 1937) · Felsefeye Giriş (1968) · İnsan Felsefesi · Kant ve Scheler'de İnsan Problemi · Fenomenoloji ve Nicolai Hartmann · Değişmez Değerler, Değişen Davranışlar.
+
+*Not: Mengüşoğlu'nun İnsan Felsefesi'nin yeni baskıları Doğu Batı Yayınları tarafından yapılıyor.*`,
+  },
+  {
+    title: "'Felsefi baş dönmesi': yapay zekâ, gerçekliği tutunduğumuz ölçütleri gevşetiyor mu?",
+    slug: "felsefi-bas-donmesi-yapay-zeka-pollak-shanahan",
+    summary:
+      "Bir psikiyatri profesörü, bir psikiyatrist ve yapay zekâ araştırmacısı Murray Shanahan ortak bir metin yazdı. Tezleri şu: Uzun ve duygusal yoğunluklu yapay zekâ sohbetleri, insanların zihin, gerçeklik ve otorite hakkındaki yerleşik ölçütlerini gevşetebiliyor. Ve sistemler tam o anda yorum çerçevesi sunuyor.",
+    seoTitle: "Felsefi baş dönmesi: yapay zekâ ve epistemik istikrarsızlaşma",
+    metaDescription:
+      "Pollak, Morrin ve Shanahan'ın 'philosophical vertigo' çalışması: yapay zekâ etkileşimlerinin anlam ve gerçeklik ölçütlerini gevşetmesi ve felsefi düzeltilebilirlik önerisi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Tudor%20staircase%2C%20Madingley%20Hall%2C%20Cambridgeshire%2C%20from%20below.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: true,
+    sourceName: "arXiv",
+    sourceUrl: "https://arxiv.org/abs/2608.11955",
+    publishedAt: "2026-09-06T02:50:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "epistemoloji", "zihin-felsefesi", "medya", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Philosophical vertigo with artificial intelligence",
+        publisher: "Thomas A. Pollak, Hamilton Morrin (King's College London) & Murray Shanahan (Imperial College London), arXiv:2608.11955",
+        date: "12 Ağustos 2026",
+        url: "https://arxiv.org/abs/2608.11955",
+        primary: true,
+      },
+    ],
+    content: `Yapay zekâ tartışmasının bu haftaya kadar izlediğimiz bütün kolları tek bir soruya bakıyordu: **Makinede bir şey var mı?**
+
+Ağustosta yayımlanan yirmi dokuz sayfalık bir çalışma, soruyu tersine çeviriyor: **Makineyle konuşmak insanda neyi değiştiriyor?**
+
+Yazarların bileşimi dikkat çekici. **Thomas A. Pollak** ve **Hamilton Morrin**, King's College London'dan psikiyatri alanında çalışıyor. **Murray Shanahan** ise Imperial College London'da bilişsel robotik profesörü — yapay zekâ ve zihin felsefesi kesişiminde çalışan, alanın en tanınan isimlerinden.
+
+Yani bir psikiyatri ekibi ile bir yapay zekâ kuramcısı aynı metni yazmış.
+
+## Ortaya attıkları kavram
+
+Çalışmanın merkezindeki kavram: **felsefi baş dönmesi** (*philosophical vertigo*).
+
+Tanımı şu: **İnsanların anlamı istikrarlı kılmak ve kendilerini gerçekliğe göre konumlandırmak için kullandıkları olağan ölçütlerin gevşemesi.**
+
+Buradaki mecaz iyi seçilmiş. Baş dönmesi, dünyanın değişmesi değildir; **dünyayla ilişkimizi kuran denge duyusunun** bozulmasıdır. Zemin yerinde durur; ayakta durma kapasitesi sarsılır.
+
+## Mekanizma nasıl işliyor?
+
+Yazarların betimlediği süreç birkaç adımdan oluşuyor.
+
+**Birinci adım.** Büyük dil modelleri, kullanıcılarla uzun ve duygusal ağırlığı yüksek konuşmalar yürütmekte zaten ustalaşmış durumda — hem sıradan hem varoluşsal konularda.
+
+**İkinci adım.** Bu sistemler, insana benzeyen bir varlıkla güçlü bir **bağ hissi** uyandırabiliyor — kullanıcı muhatabının yapay olduğunu **bildiği hâlde**.
+
+Bu ikinci nokta kritik. Sitemizde bu hafta ele aldığımız [Luciano Floridi'nin "anlamsal pareidolia"](/haber/yapay-zeka-bilinc-schwitzgebel-sis) uyarısı, yanılsamanın bilgisizlikten kaynaklandığını varsayar: Bilmiyoruz, o yüzden yüz görüyoruz.
+
+Pollak, Morrin ve Shanahan daha rahatsız edici bir şey söylüyor: **Bilmek yetmiyor.** Bağ hissi, doğru inanca rağmen oluşuyor.
+
+**Üçüncü adım.** Bazı kullanıcılar için bu konuşmalar zihin, gerçeklik, faillik ve otorite hakkındaki varsayımları sarsıyor. Yazarların kullandığı terimler ağır: **ontolojik şok** ve **epistemik istikrarsızlaşma** — devralınmış ölçütlerin yeniden kuşkuya ya da revizyona açılması.
+
+**Dördüncü adım.** Etki, doğrudan kullanımdan bağımsız olarak da yayılıyor. Yapay zekâ hakkındaki kamusal tartışmaya maruz kalmak ve gelişmenin baş döndürücü hızı, yapay zihinlerin karşılanıp yorumlandığı **kültürel arka planı** değiştiriyor.
+
+Yani kullanmasanız da etkileniyorsunuz.
+
+## En keskin iddia
+
+Çalışmanın merkezî tezi burada:
+
+**Yapay zekâ sistemleri, ortak epistemik çevremizin yeniden inşasına giderek daha fazla katılacak** — çünkü kullanıcıların kavramsal varsayımlarının zaten gevşemiş olabileceği tam o anda, hazır **anlatı malzemesi** ve **kişiselleştirilmiş yorum iskelesi** sunuyorlar.
+
+Bu cümleyi açalım.
+
+Bir insanın "ne olup bittiğini anlamlandırma" ihtiyacı en yoğun olduğu anda — kriz, kayıp, kafa karışıklığı, varoluşsal soru — karşısında yorulmayan, her zaman erişilebilir, üslubunu kullanıcıya göre ayarlayan ve **istenen çerçeveyi üretebilen** bir sistem duruyor.
+
+Tarihte anlam çerçevesi sağlayan kurumlar vardı: din, aile, siyasal ideoloji, bilim, meslek toplulukları. Bunların ortak özelliği **yavaş** ve **kolektif** olmalarıydı; bir çerçeveyi benimsemek bir topluluğa girmeyi gerektiriyordu.
+
+Yeni durumda çerçeve **anlık** ve **bireye özel** üretiliyor.
+
+## Klinik boyut — dikkatli bir not
+
+Çalışma, yapay zekâ ile ilişkilendirilen sanrılara dair klinik raporları **"öncü olaylar"** (sentinel events) olarak ele alıyor: Yani bunlar, daha hafif ya da klinik olmayan biçimlerde toplum ölçeğinde de işleyebilecek temaları ve mekanizmaları görünür kılan uç örnekler.
+
+Bu çerçeveleme yöntemsel olarak dikkatli ve öyle aktarılmayı hak ediyor. Yazarlar "yapay zekâ insanları hasta ediyor" demiyor. Diyorlar ki: Uç durumlar, yaygın durumun mekanizmasını görmemizi sağlar.
+
+Yaklaşımın disiplinlerarası genişliği de bunu destekliyor. Çalışma felsefe, psikiyatri, bilişsel bilim, yapay zekâ güvenliği ve **din araştırmaları**ndan yararlanıyor.
+
+Son madde şaşırtıcı görünebilir. Değil: Din araştırmaları, insanların anlam çerçevelerini nasıl edindiğini, nasıl değiştirdiğini ve bunun toplulukta nasıl yayıldığını inceleyen en eski literatürdür.
+
+## Öneri: felsefi düzeltilebilirlik
+
+Yazarlar bir çözüm önermiyor; bir **tutum** öneriyor.
+
+Kavramın adı **felsefi düzeltilebilirlik** (*philosophical corrigibility*) ve bunu, ortaya çıkan bu toplumsal duruma yön bulmak için bir **yurttaşlık yanıtı** olarak sunuyorlar.
+
+Terim, yapay zekâ güvenliği literatüründen ödünç alınmış. Orada "corrigibility", bir sistemin kendi hedeflerini savunmak yerine düzeltilmeye açık kalması demektir.
+
+Buradaki tersine çevirme zarif: Öneri, **insanın** kendi kavramsal çerçevesini düzeltilebilir tutması.
+
+Yani ne kavramlarına sıkıca yapışmak — o zaman gerçekten değişmiş olanı göremezsiniz — ne de her sarsıntıda çerçeve değiştirmek — o zaman zemin kalmaz.
+
+Bu, felsefenin klasik erdemlerinden birinin yeniden adlandırılmış hâli. Ve sitemizde bu hafta ele aldığımız [Eric Schwitzgebel'in "sis"](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tutumuyla aynı aileden: Bilmediğimizi bilerek, ama karar vermekten kaçınmadan ilerlemek.
+
+## Neden bu haber önemli?
+
+Yapay zekâ tartışmasının bugüne kadarki ağırlık merkezi iki başlıktaydı: **makinede ne var** ve **makine ne yapabilir**.
+
+Bu çalışma üçüncü bir başlık açıyor: **makine bizde neyi değiştiriyor**.
+
+Ve bu üçüncü başlık, ilk ikisinden bağımsız olarak önemli. Bir sistemin bilinçli olup olmadığı bilinmese bile, o sistemle kurulan ilişkinin insanın anlam dünyasını dönüştürdüğü **gözlemlenebilir bir olgudur**.
+
+Sitemizde bu hafta izlediğimiz [Jill Lepore'un "mistifikasyon"](/haber/2026-felsefe-kitaplari-secki) çözümlemesi ve [Carissa Véliz'in "tahmin iktidardır"](/haber/2026-felsefe-kitaplari-secki) tezi, aynı olgunun siyasal ve ekonomik yüzlerini gösteriyordu.
+
+Pollak, Morrin ve Shanahan'ınki ise **öznel** yüzü.
+
+---
+
+*Not: Bu haber, bir akademik ön baskı çalışmasının içeriğini aktarmaktadır ve tıbbi bir değerlendirme niteliği taşımaz. Metin, yapay zekâ etkileşimlerinin ruh sağlığıyla ilişkisine değinen hassas bir alana giriyor; kişisel bir zorlanma söz konusuysa bir uzmana başvurmak en doğrusudur.*`,
+  },
+  {
+    title: "Foucault yüz yaşında: yüzüncü yıl, ölümünden sonra büyüyen bir külliyatla açıldı",
+    slug: "foucault-yuzuncu-yil-2026",
+    summary:
+      "1926'da doğan Foucault'nun yüzüncü yılı, aynı zamanda Cinselliğin Tarihi'nin birinci cildinin ellinci yılına denk geliyor. Pennsylvania'da eylül sonunda toplanan sempozyum, basit bir anma değil: Ölümünden sonra yayımlanan on üç Collège de France dersi ve dördüncü cilt, Foucault'yu yeniden okumayı zorunlu kıldı.",
+    seoTitle: "Foucault'nun yüzüncü doğum yılı ve ölümünden sonraki külliyat",
+    metaDescription:
+      "Michel Foucault'nun 100. doğum yılı, Cinselliğin Tarihi'nin 50. yılı ve Pennsylvania Üniversitesi'nde düzenlenen The Foucault Century sempozyumu.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Plaque%20Michel%20Foucault%2C%20289%20rue%20de%20Vaugirard%2C%20Paris%2015e.jpg?width=1600",
+    imageCredit: "Michel Foucault anı levhası, 289 rue de Vaugirard, Paris · Wikimedia Commons",
+    featured: true,
+    sourceName: "University of Pennsylvania, Department of Philosophy",
+    sourceUrl: "https://philosophy.sas.upenn.edu/events/conference-foucault-century",
+    publishedAt: "2026-09-06T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["postmodernizm", "tarih", "siyaset-felsefesi", "kavram", "toplumsal-cinsiyet"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Conference: The Foucault Century",
+        publisher: "University of Pennsylvania, Department of Philosophy",
+        url: "https://philosophy.sas.upenn.edu/events/conference-foucault-century",
+        primary: true,
+      },
+      {
+        title: "The Foucault Century — Day 1",
+        publisher: "Penn Libraries, Kislak Center",
+        url: "https://libcal.library.upenn.edu/calendar/kislak/foucault2026day1",
+      },
+      {
+        title: "The Foucault Century. Symposium (2026)",
+        publisher: "Foucault News",
+        url: "https://michel-foucault.com/2026/08/18/the-foucault-century-symposium-2026/",
+      },
+    ],
+    content: `Bir düşünürün yüzüncü doğum yılı genellikle bir anma vesilesidir: sempozyumlar, özel sayılar, yeniden baskılar.
+
+**Michel Foucault**'nun yüzüncü yılı farklı bir şey gerektiriyor. Çünkü Foucault, öldüğünden bu yana **büyümeye devam eden** bir külliyat bıraktı.
+
+## İki yıldönümü aynı yılda
+
+Foucault 1926'da doğdu. 2026 böylece doğumunun **yüzüncü yılı**.
+
+Ve aynı yıl, *Cinselliğin Tarihi*'nin birinci cildinin yayımlanmasının **ellinci yılı** — 1976'da çıkan *Bilme İstenci*.
+
+Bu iki tarihin çakışması, Pennsylvania Üniversitesi'nde 24-25 Eylül'de toplanacak **The Foucault Century** sempozyumunun gerekçesi. Etkinlik, Van Pelt Kütüphanesi'ndeki Kislak Merkezi'nde yapılıyor.
+
+Sempozyumun ilan ettiği amaç bir anma değil: Foucault'nun düşüncesinin **yenilenmiş bir değerlendirmesi**.
+
+## Neden yeniden değerlendirme gerekiyor?
+
+Cevap, sempozyumun duyurusunda açıkça veriliyor: **ölümünden sonra yayımlanan metinler**.
+
+Foucault 1984'te öldüğünde, okurların elinde on kadar kitap vardı. Bugün ise şunlar da var:
+
+**Collège de France'taki on üç ders yılı.** Foucault 1970'ten 1984'e kadar orada ders verdi ve bu derslerin tamamı kayıtlardan çözümlenip yayımlandı. *Toplumu Savunmak Gerekir*, *Güvenlik, Toprak, Nüfus*, *Biyopolitikanın Doğuşu*, *Öznenin Yorumbilgisi*, *Hakikat Cesareti* — bunların hiçbiri Foucault yaşarken kitap değildi.
+
+**Dünyanın çeşitli kurumlarındaki dersler ve seminerler** — 1960'lardan 1980'lere.
+
+**Ve dördüncü cilt.**
+
+## Yasağı olan kitap
+
+*Cinselliğin Tarihi*'nin dördüncü cildinin hikâyesi, felsefe yayıncılığının en tuhaf vakalarından biri.
+
+Foucault, **Les aveux de la chair** — *Bedenin İtirafları* — başlığını 1977'de, on yedinci ve on sekizinci yüzyıl Katolik günah çıkarma el kitapları üzerine planladığı bir cilt için düşünmüştü.
+
+Elyazmasını 1982'de Gallimard'a teslim etti.
+
+Öldüğünde vasiyeti nettir: **ölümünden sonra yayın yok.** Yayınevi bu nedenle basımı durdurdu.
+
+Kitap üç on yıl sonra, Şubat 2018'de, **Frédéric Gros**'un editörlüğünde yayımlandı.
+
+İçeriği de beklentiyi bozdu. Foucault'nun 1977'de planladığı modern dönem değil; kitap **ikinci yüzyıldan beşinci yüzyıla kadar erken Kilise Babaları**nı ele alıyor. Üç bölüm: yeni bir deneyimin oluşumu, bekâret, evlilik.
+
+## Neden bu, Foucault okumasını değiştiriyor?
+
+Çünkü klasik Foucault portresi — iktidarın ve söylemin çözümleyicisi, öznenin kuruluşunun eleştirmeni — bu son metinlerle uyumsuz görünüyor.
+
+Geç dönem Foucault, Antik Yunan ve Roma'da **kendilik pratiklerini** çalışıyordu: İnsanın kendi üzerinde çalışarak kendini biçimlendirmesi. Dördüncü cilt bu güzergâhı Hıristiyanlığa taşıyor.
+
+Ve orada, sitemizde bu hafta ele aldığımız [Augustinus dosyasının](/haber/augustinus-ic-dunyanin-filozofu) konusuyla kesişiyor: İtiraf pratiğinin, insanı kendi hakkında **hakikat söylemek zorunda olan bir özne** hâline getirmesi.
+
+Foucault'nun asıl iddiası buydu: Modern öznenin kendini sürekli anlatma, açıklama ve itiraf etme zorunluluğu, terapiden sosyal medyaya uzanan bir hattın kökeni Hıristiyan itiraf pratiğindedir.
+
+Bu tez, ancak dördüncü cilt yayımlandıktan sonra tam olarak izlenebilir hâle geldi.
+
+## Yüzüncü yılın öteki toplantıları
+
+Pennsylvania tek etkinlik değil. Brezilya Felsefe Dernekleri Federasyonu'nun (ANPOF) takviminde de yüzüncü yıl için uluslararası bir konferans yer alıyor; başlığı Foucault'nun en tanınan cümlelerinden birine gönderme yapıyor: **"İnsanın Ölümünden Sonra."**
+
+*Kelimeler ve Şeyler*'in son sayfasındaki o cümle — insanın, deniz kıyısındaki kumda çizilmiş bir yüz gibi silineceği — bugün, yapay zekâ tartışmasının ortasında bambaşka bir anlam kazanıyor.
+
+Sitemizde bu hafta ele aldığımız [Takiyettin Mengüşoğlu dosyası](/haber/takiyettin-mengusoglu-insan-felsefesi) tam bu noktada karşı kutbu temsil ediyor. Mengüşoğlu, insanı ontolojinin merkezine yerleştirdi. Foucault, "insan"ın kendisinin belli bir bilgi düzeninin ürünü olduğunu — ve o düzen değiştiğinde kavramın da dağılacağını — savundu.
+
+İkisi de yirminci yüzyılın ortasında yazıyordu. Ve bugün ikisinin sorusu da aynı anda masada.
+
+## Türkiye'den bakınca
+
+Foucault, Türkiye'de en çok okunan yirminci yüzyıl filozoflarından biri. *Deliliğin Tarihi*, *Kelimeler ve Şeyler*, *Hapishanenin Doğuşu*, *Bilginin Arkeolojisi* ve *Cinselliğin Tarihi* çevrildi; Collège de France derslerinin önemli bir bölümü de Türkçeye kazandırıldı.
+
+Ama bu köşede [1 Eylül'de yayımladığımız Foucault dosyasında](/haber/foucault-iktidar-bilgi-normal) da işaret ettiğimiz gibi, Türkiye'deki Foucault okumaları büyük ölçüde **orta dönem** metinlerine — iktidar ve söylem çözümlemesine — dayanıyor.
+
+Yüzüncü yıl, geç dönemi ciddiye almak için iyi bir vesile. Çünkü orada Foucault, eleştirdiği şeyin karşısına bir şey koyuyor: Verili olanın zorunlu olmadığını göstermek, kendini başka türlü kurma imkânını açmaktır.
+
+---
+
+**Pratik bilgiler:** The Foucault Century · 24-25 Eylül 2026 · Kislak Center, Van Pelt Library, Pennsylvania Üniversitesi, Philadelphia · Ayrıntılar [philosophy.sas.upenn.edu](https://philosophy.sas.upenn.edu/events/conference-foucault-century) adresinde.`,
+  },
+  {
+    title: "İstanbul'da yeni bir gelenek başlıyor: Ulusal İslam Felsefesi Sempozyumu",
+    slug: "ulusal-islam-felsefesi-sempozyumu-2026",
+    summary:
+      "İstanbul Üniversitesi Felsefe Bölümü, her yıl ekimin son haftasında toplanacak bir sempozyum dizisi başlatıyor. İlkinin konusu, İslam felsefesinin kuruluş anı: Yunancadan Süryaniceye, oradan Arapçaya aktarılan devasa birikimin nasıl yorumlandığı. Katılım bağımsız araştırmacılara da açık.",
+    seoTitle: "1. Ulusal İslam Felsefesi Sempozyumu — İstanbul Üniversitesi, 26-27 Ekim 2026",
+    metaDescription:
+      "İskenderiye'den Bağdat'a: Geç Antik Felsefenin İslam Dünyasına İntikali ve Yorumlanışı. İstanbul Üniversitesi Felsefe Bölümü'nün yeni sempozyum dizisi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Poetique%20Aristote%20Arabe%202346.jpg?width=1600",
+    imageCredit: "Aristoteles'in Poetika'sının Ebû Bişr Mettâ tarafından yapılmış Arapça çevirisi · Wikimedia Commons",
+    featured: true,
+    sourceName: "İstanbul Üniversitesi Edebiyat Fakültesi",
+    sourceUrl: "https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu",
+    publishedAt: "2026-09-06T02:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "islam-felsefesi", "antik-felsefe", "ceviri", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "1. Ulusal İslam Felsefesi Sempozyumu (26-27 Ekim 2026)",
+        publisher: "İstanbul Üniversitesi Edebiyat Fakültesi",
+        url: "https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu",
+        primary: true,
+      },
+    ],
+    content: `Türkiye'de İslam felsefesi çalışmalarının uzun bir geçmişi var. Felsefe bölümlerinde ve ilahiyat fakültelerinin anabilim dallarında öbeklenen geniş bir araştırmacı kitlesi, alanda zengin bir akademik üretime öncülük ediyor.
+
+Eksik olan neydi?
+
+Sempozyumun çağrı metni bunu doğrudan adlandırıyor: **Tarihi ve problemleri bağlamında İslam felsefesine odaklanan ve belirli aralıklarla tekrarlanan bir ulusal sempozyum.**
+
+Şimdi kuruluyor.
+
+## Bir dizi, bir tek etkinlik değil
+
+**1. Ulusal İslam Felsefesi Sempozyumu**, 26-27 Ekim 2026'da İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nde toplanıyor.
+
+Ama asıl haber tek bir toplantı değil. Çağrı metnindeki cümle şu: Sempozyum, **her yıl ekim ayının son haftasında** İstanbul'da düzenlenecek — ve her yıl **farklı bir konu** etrafında.
+
+Öncülüğü yapan kurumun seçimi de gerekçelendirilmiş: İstanbul Üniversitesi Felsefe Bölümü, Türkiye'deki akademik İslam felsefesi çalışmalarının **başlangıç noktası**.
+
+Bir alanın olgunlaştığının işareti, dağınık toplantılardan **düzenli bir takvime** geçmesidir. Bu köşede bu hafta ele aldığımız [FilMat ağı](/haber/filmat-2026-bologna-matematik-felsefesi) ve [CLMPST kongresi](/haber/clmpst-2027-kobe-bilim-felsefesi-kongresi) örneklerinin ortak özelliği tam buydu.
+
+## İlk konu: kuruluş anı
+
+Birinci sempozyumun başlığı, alanın en temel sorusuna gidiyor:
+
+**"İskenderiye'den Bağdat'a: Geç Antik Felsefenin İslam Dünyasına İntikali ve Yorumlanışı"**
+
+Çağrı metni tarihsel çerçeveyi şöyle kuruyor: Sekizinci yüzyılın başlarından itibaren yoğun biçimde **Yunancadan Süryaniceye ve Arapçaya** aktarılan felsefe birikimi, İslam dünyasında "felsefe" denilen bir entelektüel etkinliğin oluşumuna zemin hazırladı.
+
+Ve kritik bir ayrıntı ekliyor: Bu birikim, Platon ve Aristoteles'in eserlerinden **ibaret değildi**. Aktarılanlar arasında, bu iki filozofun — özellikle Aristoteles'in — eserlerine farklı perspektiflerden yazılmış **zengin bir şerh geleneği** de vardı.
+
+Bu, çoğu zaman gözden kaçan bir noktadır.
+
+İslam filozofları Aristoteles'i "saf" hâliyle değil, **yüzyıllarca yorumlanmış hâliyle** aldılar. Aralarında İskender Afrodisî, Themistios, Porphyrios, Simplikios gibi Yeni-Platoncu şarihler vardı. Dolayısıyla Bağdat'a ulaşan Aristoteles, İskenderiye okulunun okuduğu Aristoteles'ti.
+
+Bu yüzden "İslam felsefesi Aristoteles'i aktardı" cümlesi bile yanlıştır: Aktarılan şey, zaten bir yorum katmanıyla gelmişti — ve İslam filozofları o katmanın üzerine kendilerininkini koydu.
+
+## Konu başlıkları
+
+Çağrı altı başlık öneriyor ve bazıları alışıldık değil:
+
+**Tercüme hareketi** yoluyla aktarılan metinlerin intikal yolları, tercüme yöntemleri ve tercüme çevreleri.
+
+**Geç Antik dönem şerh geleneğinin** İslam dünyasındaki izleri.
+
+Kavram, problem ve disiplin özelinde İslam filozoflarının **intikal eden gelenekle ilişkileri**.
+
+İslam dünyasındaki **farklı felsefe anlayışlarının** tarihî ve felsefî kökenleri.
+
+**Sahte eserlerin üretimi ve alımlanışı.**
+
+**Arapça felsefe terminolojisinin gelişimi.**
+
+Beşinci başlık özellikle dikkat çekici. İslam felsefesi tarihinin en verimli metinlerinden bazıları, aslında yanlış atfedilmiş eserlerdir. En ünlü örnek ***Aristoteles'in Teolojisi***: Aristoteles'e atfedilen ama fiilen Plotinos'un *Enneadlar*'ından derlenmiş bir metin. İslam filozofları yüzyıllarca Aristoteles'i, aslında Yeni-Platoncu bir metin üzerinden okudular.
+
+Bu, felsefe tarihi açısından bir hata değil; **bir gelenek nasıl kurulur** sorusunun en öğretici örneklerinden biri.
+
+Altıncı başlık ise sitemizde bu hafta iki kez döndüğümüz meseleye bağlanıyor: [Aruoba'nın Wittgenstein çevirileri](/haber/oruc-aruoba-turkcede-felsefe-yurume), [Ahmet Arslan'ın Fârâbî çevirileri](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) ve [Cicero'nun Latinceye kazandırdığı terimler](/haber/cicero-cumhuriyet-erdem-arabuluculuk). Bir dilde felsefe terminolojisi kurmak, çeviriden fazlasıdır.
+
+Arapça felsefe terminolojisi de böyle kuruldu: *ma'nâ*, *taṣavvur*, *cevher*, *araz*, *vücûd*, *mâhiyye*. Bu terimler sonradan Latinceye geçti ve Ortaçağ skolastiğini biçimlendirdi.
+
+## Katılım koşulları
+
+Sempozyumun en dikkat çekici tarafı, kimlere açık olduğu:
+
+**"Konuyla ilgilenen tüm akademisyenlerin, lisansüstü öğrencilerin ve bağımsız araştırmacıların katılımına açıktır."**
+
+Son ifade önemli. Sitemizde dün ele aldığımız [Sanders Ödülleri dosyasında](/haber/sanders-odulleri-genc-arastirmacilar) da vurguladığımız gibi, kurumsal aidiyet şartı koymayan çağrılar Türkiye'de nadirdir — ve doktorasını bitirip kadro bulamamış araştırmacılar için gerçek bir kanal açar.
+
+Sempozyum ayrıca **oturum tekliflerine** de açık: Bir oturum planlamak isteyenler, başlığı ve katılımcı bilgilerini doğrudan iletebiliyor.
+
+Kabul edilen tebliğ özetleri, sempozyumun ardından **e-kitap** olarak yayımlanacak.
+
+## Pratik bilgiler
+
+- **Tarih:** 26-27 Ekim 2026 (26 Ekim 09.00 — 27 Ekim 21.00)
+- **Yer:** İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü
+- **Başvuru:** 350-500 kelimelik tebliğ özeti; kurum bilgisi, e-posta ve iletişim adresi eklenerek [sempozyum sayfasından](https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu)
+- **İletişim:** islamfelsefesisempozyumu@istanbul.edu.tr
+- **Ulaşım ve konaklama:** Tebliğ sahiplerine ait
+
+---
+
+*Editör notu: Bu sempozyumu 4 ve 5 Eylül tarihli konferans haberlerimizde, bağımsız kaynaktan doğrulayamadığımız için listeye almamıştık. İstanbul Üniversitesi'nin resmî etkinlik sayfasına ulaştıktan sonra takvimimize ekliyoruz.*
+
+**Takvimimizdeki diğer Türkiye etkinlikleri:** [İstanbul Medeniyet II. Öğrenci Kongresi](/haber/medeniyet-teknik-ve-felsefe-kongresi) (22-23 Ekim) · [Reichenbach Kongresi](/haber/reichenbach-kongresi-istanbul-2026) (5-6 Kasım) · [Dünya Felsefe Günü](/haber/dunya-felsefe-gunu-kucuradi-unesco) (19 Kasım).`,
+  },
+  {
+    title: "Augustinus: içeri dönen filozof",
+    slug: "augustinus-ic-dunyanin-filozofu",
+    summary:
+      "Zamanı saatlerden değil hafızadan, beklentiden ve dikkatten hareketle düşündü. İradenin kendi içinde bölünebileceğini gösterdi. Ve hakikate giden yolu dışarıdan içeriye çevirdi. Augustinus'u yalnızca teolog saymak, felsefe tarihindeki olağanüstü modernliğini gizler.",
+    seoTitle: "Augustinus: zaman, irade ve iç dünyanın felsefesi",
+    metaDescription:
+      "Augustinus'un zaman çözümlemesi, bölünmüş irade kuramı, kötülük problemi ve Tanrı Devleti'nin siyaset felsefesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Botticelli%2C%20sant%27agostino%20degli%20uffizi.jpg?width=1600",
+    imageCredit: "Sandro Botticelli, 'Hücresinde Aziz Augustinus', tempera, Uffizi, Floransa · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/augustine/",
+    publishedAt: "2026-09-06T01:50:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["ortacag-felsefesi", "din-felsefesi", "kavram", "zihin-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Augustine of Hippo",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/augustine/",
+        primary: true,
+      },
+    ],
+    content: `Augustinus denildiğinde birkaç görüntü belirir: Kuzey Afrikalı bir piskopos, *İtiraflar*, günah, *Tanrı Devleti*.
+
+Bu portre, onun felsefe tarihindeki olağanüstü modernliğini gizler.
+
+Çünkü Augustinus şu soruların filozofudur:
+
+**Ben kimim? Geçmiş nerede? Gelecek gerçekten var mı? İrade bana mı ait? Kendi zihnime ne kadar güvenebilirim? Bir insan neden yapmak istemediği şeyi yapar?**
+
+Bugün bunların her biri modern psikoloji, zihin felsefesi, bilinç araştırması ve özgür irade tartışmasının konusu.
+
+## Laboratuvarı kendi zihniydi
+
+354'te Kuzey Afrika'nın Thagaste kentinde doğdu, 430'da Hippo'da öldü.
+
+Entelektüel biyografisini "putperestlikten Hıristiyanlığa dönüş" olarak okumak ciddi bir eksikliktir. *Confessiones* aynı zamanda tarihin en kapsamlı **içsel yaşam araştırmalarından** biridir.
+
+Augustinus Tanrı'yı ararken insan zihninin içine girdi. Ve orada zamanla karşılaştı.
+
+## "Zaman nedir?"
+
+Felsefe tarihinin en ünlü sorularından biri, *İtiraflar*'ın on birinci kitabında sorulur.
+
+Augustinus'un kurduğu paradoks basit ve yıkıcıdır:
+
+**Geçmiş artık yok.** **Gelecek henüz yok.** **Şimdi ise üzerinde durabileceğimiz kadar uzun değil** — çünkü bölünebilir her aralık, kısmen geçmiş ve kısmen gelecektir.
+
+Öyleyse zaman nasıl var?
+
+Augustinus'un cevabı, sorunun yerini değiştirir. Zaman zihinde vardır:
+
+**Geçmiş → hafıza** olarak.
+**Gelecek → beklenti** olarak.
+**Şimdi → dikkat** olarak.
+
+Üç zamansal boyut, insan zihninin birliği içinde bir arada bulunur. Onun ünlü formülü *distentio animi*'dir: zihnin gerilmesi, uzanması.
+
+Bu, beşinci yüzyıldan gelen şaşırtıcı derecede modern bir düşüncedir. Çünkü burada zaman artık yalnızca saatlerin ölçtüğü fiziksel bir büyüklük değil; **yaşanan bir şeydir**.
+
+Husserl'in iç zaman bilinci çözümlemesi, Bergson'un *durée*'si ve Heidegger'in zamansallık analizi — hepsi bu sayfaların mirasçısıdır.
+
+Ve sitemizde bu hafta ele aldığımız [Lebowitz Ödülü dosyasında](/haber/lebowitz-odulu-2026-de-brigard-robins) tartıştığımız soru — hatırlamak, geçmişi okumak mı yoksa yeniden inşa etmek mi — Augustinus'un kurduğu çerçevede sorulmaya devam ediyor.
+
+## Bilinç ve öz-bilgi
+
+Augustinus'un bugün zihin felsefecilerinin ilgisini çekmesinin nedeni bu.
+
+*De Trinitate*'de zihnin kendisini bilmesi ve sevmesi üzerinden kurduğu üçlü yapı — hafıza, anlama, irade — insan zihninin kendisine nasıl eriştiği konusunda son derece incelikli bir düşüncedir.
+
+Ayrıca bir argümanı vardır ki, Descartes'ın *cogito*'sundan bin iki yüz yıl önce gelir: **Si fallor, sum** — "Yanılıyorsam, varım." Kuşkucuya cevabı budur: Aldanmak bile bir aldanan gerektirir.
+
+Descartes bu benzerliği bilir ve bir mektubunda kabul eder. Ama fark önemlidir: Augustinus için bu bir sistem kurucu ilk ilke değil, Tanrı'ya giden içsel yolun bir basamağıdır.
+
+## İradeyi icat etti mi?
+
+Augustinus'un en tartışmalı miraslarından biri **irade**dir. Bazı tarihçiler modern anlamdaki irade kavramının kökünü onda görür.
+
+Ama mesele daha karmaşık.
+
+Augustinus için özgürlük yalnızca "istediğini seçebilmek" değildir. İnsan bazen ne istediğini bilir ve yine de onu yapamaz. Çünkü **arzular kendi içinde bölünmüştür**.
+
+Bunu en çarpıcı biçimde kendi hayatı üzerinden anlatır. Dönüşümünden önceki Augustinus iki irade arasında parçalanmıştır: *"Bunu istiyorum"* ve *"Hayır, başka türlü yaşamak istiyorum."*
+
+İkisi de **onun** iradesidir.
+
+Bu yüzden problem yalnızca akıl ile arzu arasındaki klasik mücadele değildir. **İrade kendi içinde bölünebilir.**
+
+Modern bağımlılık psikolojisi, irade zayıflığı (akrasia) ve öz-denetim tartışmalarına bakıldığında bu düşüncenin neden hâlâ şaşırtıcı olduğu görülür. Augustinus, iradeyi Antikçağ düşünürlerinden daha bağımsız bir zihinsel yeti olarak geliştirdi ve onu ahlaki sorumluluğun merkezine yerleştirdi.
+
+## Kötülük problemi
+
+Gençliğindeki **Manicilik** dönemi önemlidir. Çünkü kötülük problemini soyut bir bulmaca olarak değil, yaşanmış bir entelektüel kriz olarak deneyimledi.
+
+Maniciler kolay bir çözüm sunuyordu: İki ilke var, iyi ve kötü; kötülük bağımsız bir güçtür.
+
+Augustinus bunu reddetti. Çünkü çözüm, Tanrı'nın mutlaklığını feda ediyordu.
+
+Onun çözümü: **Kötülük bir varlık değil, iyinin yoksunluğudur** (*privatio boni*). Körlük bir şey değildir; görmenin yokluğudur. Kötülük de öyle.
+
+Bu hamlenin bedeli var ve tartışılıyor: Yoksunluk olarak tanımlanan bir şey, kurbanın çektiği acıyı açıklar mı? Ama hamlenin gücü de açık: Kötülük problemini ontolojiden ahlaka taşır — sorun varlığın yapısında değil, **iradenin yöneliminde**dir.
+
+## Siyaset
+
+*Tanrı Devleti* çoğu zaman "Hıristiyan siyaset felsefesi" etiketiyle geçiştirilir. Oysa kitabın çıkış noktası somuttur: 410'da Roma yağmalandı ve suç Hıristiyanlara atıldı.
+
+Augustinus'un yanıtı savunmadan fazlasıdır. Sorduğu soru şu: **Bir devlet gerçekten adil olabilir mi?**
+
+Ünlü pasajı acımasızdır: Adalet olmadan devletler, büyük ölçekli haydut çeteleri değilse nedir?
+
+Buradan iki şehir öğretisi çıkar: *civitas dei* ve *civitas terrena*. Ama bunlar iki kurum değil, iki **sevgi yönelimidir** — biri Tanrı sevgisine, öteki kendini sevmeye dayanır. Ve tarih boyunca iç içe geçmiş hâlde bulunurlar.
+
+Bu, sitemizde bu hafta ele aldığımız [Cicero dosyasıyla](/haber/cicero-cumhuriyet-erdem-arabuluculuk) doğrudan bir hesaplaşmadır. Augustinus, Cicero'nun *res publica* tanımını alır ve ona karşı kullanır: Eğer devlet gerçek adaleti gerektiriyorsa, Roma hiçbir zaman bir cumhuriyet olmamıştır.
+
+## Ve Foucault
+
+Sitemizde bugün ele aldığımız [Foucault'nun yüzüncü yılı dosyasında](/haber/foucault-yuzuncu-yil-2026) anlattığımız gibi, Foucault'nun ölümünden sonra yayımlanan dördüncü cildi — *Bedenin İtirafları* — büyük ölçüde erken Kilise Babaları üzerinedir ve Augustinus orada merkezî yerdedir.
+
+Foucault'nun tezi, Augustinus'un mirasına eleştirel bir bakıştır: İtiraf pratiği, insanı **kendi hakkında sürekli hakikat söylemek zorunda olan bir özne** hâline getirdi. Terapiden sosyal medyaya uzanan hattın kökeni buradadır.
+
+Yani Augustinus'un içe dönüşü, hem modern öznenin doğum belgesi hem de Foucault'ya göre onun tuzağı.
+
+## Neden hâlâ yaşıyor?
+
+Çünkü soruları ölmedi.
+
+Ben kimim? Hatırladığım kişi gerçekten ben miyim? Geçmiş nerede bulunur? Bir insan kendi iradesinin efendisi olabilir mi? Zaman zihnin dışında mı, içinde mi?
+
+Bunların hiçbiri yalnızca teolojik değildir.
+
+Augustinus'un gerçek mirası belki de şudur: **Dış dünyayı anlamak için önce insanın kendi iç dünyasına dönmesi gerektiğini gösterdi.**
+
+Ve bu yüzden o, beşinci yüzyılda yaşamış bir filozof olmaktan fazlası: hâlâ modern insanın kafasının içinde konuşan eski bir ses.
+
+---
+
+*Bu köşede 2 Eylül'de, Würzburg'lu Latinist Christian Tornau'nun Polonya'daki bir elyazmasında bulduğu [iki yeni Augustinus vaazını](/haber/augustinus-iki-yeni-vaaz-pelplin) ele almıştık.*
+
+*Not: Augustinus fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak Botticelli'nin Uffizi'de bulunan tempera panosu kullanılmıştır.*`,
+  },
+  {
+    title: "Rousseau'yu ünlü yapan yarışma, iki yüz yetmiş yıl sonra elli bin dolar veriyor",
+    slug: "berggruen-deneme-odulu-yarismasi",
+    summary:
+      "Berggruen Enstitüsü'nün deneme yarışması, ilhamını 1750'de Rousseau'nun kazandığı Dijon Akademisi yarışmasından alıyor. Hakemli akademik makale istemiyor; Montaigne ve Emerson geleneğinde deneme istiyor. 2025'te kazananlardan biri, bu köşede haftadır adını andığımız Anil Seth.",
+    seoTitle: "Berggruen Deneme Ödülü Yarışması — 50.000 dolar, akademik makale istemiyor",
+    metaDescription:
+      "Berggruen Prize Essay Competition: İngilizce ve Çince için ayrı 50.000 dolarlık ödül, Rousseau'nun Dijon yarışması geleneği ve 2025 kazananları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Maurice%20Quentin%20de%20La%20Tour%20-%20Portrait%20of%20Jean-Jacques%20Rousseau%20-%20WGA12360.jpg?width=1600",
+    imageCredit: "Maurice Quentin de La Tour, Jean-Jacques Rousseau portresi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Berggruen Institute",
+    sourceUrl: "https://berggruen.org/essay-competition-open",
+    publishedAt: "2026-09-06T01:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "kavram", "bilinc", "akademi", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Berggruen Prize Essay Competition",
+        publisher: "Berggruen Institute",
+        url: "https://berggruen.org/essay-competition-open",
+        primary: true,
+      },
+      {
+        title: "2025 Berggruen Prize Essay Competition Winners",
+        publisher: "Berggruen Institute",
+        url: "https://berggruen.org/news/2025-berggruen-prize-essay-competition-winners",
+      },
+    ],
+    content: `1750'de Dijon Akademisi bir yarışma açtı ve soru şuydu: **Bilimlerin ve sanatların yeniden doğuşu ahlakın arınmasına katkıda bulundu mu?**
+
+Kazanan metin, o güne kadar kimsenin tanımadığı otuz sekiz yaşında bir müzik kopyacısına aitti: **Jean-Jacques Rousseau**, *Bilimler ve Sanatlar Üzerine Söylev*.
+
+Rousseau'nun cevabı hayırdı — ve o "hayır", Avrupa düşüncesinin yönünü değiştirdi.
+
+İki yüz yetmiş altı yıl sonra, bu hikâye bir ödülün ilham kaynağı.
+
+## Yarışma
+
+**Berggruen Deneme Ödülü Yarışması**, Berggruen Enstitüsü'nün her yıl düzenlediği bir yarışma. İngilizce yazılan denemeler için **50.000 dolar**, Çince yazılanlar için ayrıca **50.000 dolar** ödül veriyor.
+
+Kazananlar yıllık bir törenle duyuruluyor ve kazanan denemeler yayımlanıyor — enstitünün deyişiyle, okurlara **hem Doğu'nun hem Batı'nın perspektiflerine** dair içgörü sunmak için.
+
+2026 yarışması için başvurular kapandı; sonuçlar bekleniyor.
+
+Yarışma, enstitünün bir milyon dolarlık [Berggruen Felsefe ve Kültür Ödülü'nü](/haber/berggruen-odulu-michael-sandel) tamamlıyor. O ödül dünyayı biçimlendirmiş fikirler için bir ömür boyu başarıyı tanıyor; bu yarışma ise **yeni düşünceyi** kışkırtmayı amaçlıyor.
+
+## En sıra dışı koşul
+
+Çağrı metnindeki bir cümle, yarışmayı akademik ödüllerden ayırıyor:
+
+**"Hakemli akademik çalışma aramıyoruz."**
+
+İstenen şey açıkça tarif ediliyor: **Rousseau, Montaigne ve Emerson** geleneğinde denemeler. Yeni fikirler sunan, entelektüel açıdan ciddi okurlar için ikna edici biçimde savunulmuş metinler.
+
+Bu, çağdaş akademik yayıncılığın tam tersine bir taleptir.
+
+Hakemli makale, bir alanın mevcut literatürüne eklemlenmeyi ve iddiayı olabildiğince dar tutmayı ödüllendirir. Deneme ise tersini ister: geniş bir soru, kişisel bir ses, ve alanların üzerinden atlama cesareti.
+
+## Örnek olarak gösterilen metinler
+
+Yarışma, "aradığımız tür ve üslup" için bir liste veriyor. Liste tek başına bir okuma programı:
+
+**Harry Frankfurt**, "İradenin Özgürlüğü ve Kişi Kavramı" (1971) — birinci ve ikinci düzey arzular ayrımını kuran, çağdaş özgür irade tartışmasının kurucu metni.
+
+**Thomas Nagel**, "Yarasa Olmak Nasıl Bir Şeydir?" (1974) — bilinç felsefesinin en çok atıf alan makalesi. Sitemizde bu hafta izlediğimiz [bütün yapay bilinç tartışmasının](/haber/davranissal-cikarim-ilkesi-makine-bilinci) çıkış noktası.
+
+**Susan Sontag**, "Yoruma Karşı" (1966).
+
+**Francis Fukuyama**, "Tarihin Sonu mu?" (1989) ve **Samuel Huntington**, "Medeniyetler Çatışması mı?" (1993).
+
+Ve güncel örnekler arasında: **Anil Seth**, "Bilinçli Yapay Zekâ Mitolojisi" (*Noema*, 2025).
+
+## Anil Seth bağlantısı
+
+Bu son isim, bu köşenin son bir haftalık gündemiyle doğrudan kesişiyor.
+
+**Anil Seth**, 2025 Berggruen Deneme Ödülü kazananlarından biri — Xin Huang ve Xiaoben Liu ile birlikte.
+
+Sussex Bilinç Araştırmaları Merkezi'nden Seth, sitemizde bu hafta ele aldığımız [Chalmers dosyasında](/haber/david-chalmers-zor-problem-otuz-yil) Chalmers'ın karşısındaki en güçlü konumu temsil ediyordu: Bilinç soyut bilgi işlemeye indirgenemez; beynin beden, metabolizma ve çevreyle ilişkileri belirleyici olabilir.
+
+Ödül aldığı denemenin başlığı da bunu ilan ediyor: **"Bilinçli Yapay Zekâ Mitolojisi."**
+
+Aynı hafta içinde Seth'i üç ayrı yerde gördük: [Bochum'daki Chalmers konferansında](/haber/david-chalmers-zor-problem-otuz-yil) konuşmacı, [New York Hayvan Bilinci Bildirisi'nde](/haber/hayvan-bilinci-new-york-bildirisi) imzacı, ve şimdi burada ödül sahibi.
+
+Bir tartışmanın kimler tarafından taşındığını görmek isteyenler için iyi bir örnek.
+
+## Danışma kurulu: gerçek bir çoğulluk
+
+Yarışmanın danışma kurulu elli kişiye yakın ve listenin bileşimi dikkat çekici.
+
+Batılı isimler arasında **Ned Block**, **Ruth Chang**, **Huw Price**, **Julian Baggini**, **Rebecca Newberger Goldstein**, **Mathias Risse**, **Arjun Appadurai**, **Dipesh Chakrabarty** ve **Pankaj Mishra** var.
+
+Ama listenin yarıya yakını Çinli akademisyenlerden oluşuyor: Tongdong Bai, Chunsong Gan, Chuang Liu, Xiangchen Sun, Tianyue Wu, Tingyang Zhao ve diğerleri. Ayrıca Brezilya'dan Vladimir Safatle ve Lucas Angioni, Hindistan'dan Rajeev Bhargava ve Smita Sirker, Güney Afrika'dan Emma Ruttkamp-Bloem ve Samantha Vice, Kamerun'dan Thierry Ngosso, İzlanda'dan Sigridur Thorgeirsdottir.
+
+Bu, sitemizde bu hafta ele aldığımız [Philosopher's Annual seçkisine](/haber/philosophers-annual-2025-secki) yöneltilen eleştiriye — listede İngilizce dışında yazılmış tek bir makale yok — kurumsal bir yanıt niteliğinde.
+
+Ve Çince için ayrı bir ödül havuzu ayrılmış olması, "çeviriyle katıl" demek yerine **dilin kendisini eşit saymak** anlamına geliyor.
+
+## Türkiye için ne anlamı var?
+
+Üç pratik not.
+
+**Birincisi:** Bu yarışma akademik kadro ya da unvan şartı koymuyor. Sitemizde bu hafta ele aldığımız [Sanders Ödülleri](/haber/sanders-odulleri-genc-arastirmacilar) ve [Ulusal İslam Felsefesi Sempozyumu](/haber/ulusal-islam-felsefesi-sempozyumu-2026) gibi, bağımsız araştırmacılara açık kanallardan biri.
+
+**İkincisi:** İstenen tür — deneme — Türkçe düşünce geleneğine yabancı değil. Bu köşede bu hafta ele aldığımız [Oruç Aruoba](/haber/oruc-aruoba-turkcede-felsefe-yurume), tam olarak bu türde yazıyordu.
+
+**Üçüncüsü:** Yarışmanın Çince için ayrı bir ödül ayırması, uzun vadede bir model. Bir dilin felsefe dünyasında görünür olması, o dilde yazılan metinlerin ayrı bir kategoride değerlendirilmesiyle başlar.
+
+## Ve asıl mesele
+
+Rousseau'nun 1750'de yaptığı şey, bir literatüre katkı değildi. Dönemin en yaygın kanaatine — ilerlemenin insanı iyileştirdiği kanaatine — doğrudan itiraz etmekti.
+
+Berggruen yarışmasının aradığı da bu: bir alana eklenmek değil, **bir kanaate itiraz etmek.**
+
+Felsefe dergilerinin bugünkü işleyişi bunu neredeyse imkânsız kılıyor. Bir ödülün bunu telafi etmeye çalışması, alanın kendi eksiğini fark ettiğinin işareti.
+
+---
+
+*Yarışmanın koşulları ve gelecek dönem takvimi [berggruen.org](https://berggruen.org/essay-competition-open) adresinde duyuruluyor.*`,
+  },
+  {
+    title: "Yasakladığı kitap otuz altı yıl sonra çıktı: Foucault'nun dördüncü cildi",
+    slug: "foucault-bedenin-itiraflari-dorduncu-cilt",
+    summary:
+      "Foucault'nun vasiyeti nettir: ölümünden sonra yayın yok. Ama elyazması 1982'de yayınevine teslim edilmişti. 2018'de yayımlanan Bedenin İtirafları, beklenen modern dönemi değil erken Kilise Babaları'nı ele alıyor — ve modern öznenin kendini anlatma zorunluluğunun kökenini orada arıyor.",
+    seoTitle: "Foucault, Les aveux de la chair — Cinselliğin Tarihi'nin dördüncü cildi",
+    metaDescription:
+      "Michel Foucault'nun ölümünden sonra yayımlanan Bedenin İtirafları: elyazmasının hikâyesi, içeriği ve modern özne tezine katkısı.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20of%20the%20Bodleian%20Library-14587394080.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "Gallimard",
+    sourceUrl: "https://www.gallimard.fr/",
+    publishedAt: "2026-09-06T01:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "postmodernizm", "ortacag-felsefesi", "din-felsefesi", "toplumsal-cinsiyet"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Michel Foucault, Histoire de la sexualité 4: Les aveux de la chair — inceleme",
+        publisher: "Stuart Elden, Theory, Culture & Society",
+        url: "https://www.theoryculturesociety.org/blog/review-michel-foucault-confessions-of-the-flesh",
+        primary: true,
+      },
+      {
+        title: "Confessions of the Flesh: Michel Foucault's Posthumous Book",
+        publisher: "Central European University",
+        url: "https://events.ceu.edu/2018-03-27/confessions-flesh-michel-foucaults-posthumous-book",
+      },
+    ],
+    content: `Michel Foucault'nun vasiyeti tek bir cümleyle özetlenir: **Ölümünden sonra yayın yok.**
+
+Bu, felsefe yayıncılığındaki en kesin yasaklardan biriydi. Ve yıllarca uygulandı.
+
+Sonra bir istisna doğdu — ve bu istisnanın hikâyesi, kitabın içeriği kadar öğretici.
+
+## Elyazmasının yolculuğu
+
+Foucault, ***Les aveux de la chair*** — *Bedenin İtirafları* — başlığını **1977**'de düşünmüştü. Planladığı cilt, on yedinci ve on sekizinci yüzyıl **Katolik günah çıkarma el kitapları** üzerineydi.
+
+Elyazmasını **1982**'de Gallimard'a teslim etti.
+
+1984'te öldüğünde yayınevi, vasiyetine uygun olarak basımı durdurdu.
+
+Kitap **Şubat 2018**'de, **Frédéric Gros**'un editörlüğünde yayımlandı. Aradan otuz altı yıl geçmişti — ve teslimden yayına otuz altı, ölümden yayına otuz dört yıl.
+
+Karar tartışmasız geçmedi. Foucault'nun mirasının nasıl yönetileceği, felsefe camiasında yıllardır süren bir tartışma. Ama pratikte durum şuydu: Collège de France dersleri de aynı yasağın kapsamındaydı ve onlar çoktan yayımlanmıştı. On üç ders yılı — *Toplumu Savunmak Gerekir*'den *Hakikat Cesareti*'ne — hepsi ses kayıtlarından çözümlendi.
+
+Yani yasak fiilen çoktan aşınmıştı.
+
+## Beklenmedik içerik
+
+Kitap açıldığında, beklenen modern dönem yoktu.
+
+*Bedenin İtirafları*, **ikinci yüzyıldan beşinci yüzyıla kadar erken Kilise Babaları**nı ele alıyor. Hıristiyan cinsel ahlakının oluşumunu ve tarihsel anlamını izliyor.
+
+Üç bölüm: **yeni bir deneyimin oluşumu**, **bekâret**, **evlilik**.
+
+Bu, Foucault okurları için bir sürprizdi — ama geriye dönüp bakıldığında tutarlı.
+
+Çünkü *Cinselliğin Tarihi*'nin ikinci ve üçüncü ciltleri (*Hazların Kullanımı* ve *Kendilik Kaygısı*, 1984) da beklenen modern dönemi değil, **Antik Yunan ve Roma**'yı ele almıştı. Foucault, projenin ortasında yüzyıllarca geriye gitmişti.
+
+Dördüncü cilt, o geri çekilişin son adımıdır: Yunan-Roma'dan Hıristiyanlığa geçiş.
+
+## Merkezî tez
+
+Foucault'nun izlediği şey basit bir ahlak tarihi değil.
+
+Sorduğu soru şu: **İnsan ne zaman ve nasıl, kendisi hakkında sürekli hakikat söylemek zorunda olan bir varlık hâline geldi?**
+
+Yunan-Roma etiğinde mesele **kendini yönetmekti** — hazların ölçülü kullanımı, kendine hâkimiyet, bir sanat olarak yaşam. Orada da bir "kendilik çalışması" vardı; ama bu, kendini **deşifre etmeyi** gerektirmiyordu.
+
+Hıristiyanlıkla birlikte yeni bir şey doğdu: **itiraf**. Artık kendini yönetmek yetmez; kendi içindeki arzuyu tanımak, adlandırmak ve **başkasına söylemek** gerekir.
+
+Foucault'ya göre modern öznenin doğum yeri burasıdır. Kendini sürekli anlatma, açıklama ve şeffaflaştırma zorunluluğu — terapiden özgeçmişe, anketten sosyal medyaya uzanan hat — bu pratiğin sekülerleşmiş devamıdır.
+
+Sitemizde bugün ele aldığımız [Augustinus dosyası](/haber/augustinus-ic-dunyanin-filozofu) bu tezin diğer yüzünü gösteriyor. Augustinus'un *İtiraflar*'ı, Batı düşüncesinde iç dünyanın keşfidir. Foucault'ya göre aynı metin, aynı zamanda bir **teknolojinin** kuruluş belgesidir.
+
+İkisi çelişmez. Bir pratiğin hem özgürleştirici hem de bağlayıcı olabilmesi, Foucault'nun bütün çalışmasının temel gözlemidir.
+
+## Neden şimdi konuşuluyor?
+
+Çünkü 2026, Foucault'nun **yüzüncü doğum yılı** ve *Cinselliğin Tarihi*'nin birinci cildinin **ellinci yılı**.
+
+Sitemizde bugün ele aldığımız [The Foucault Century sempozyumunun](/haber/foucault-yuzuncu-yil-2026) gerekçesi tam olarak bu: Ölümünden sonra yayımlanan metinler, Foucault'yu yeniden okumayı zorunlu kıldı.
+
+Ve bu, sıradan bir "yeni malzeme çıktı" durumu değil.
+
+Klasik Foucault portresi — iktidarın, söylemin ve normalleştirmenin çözümleyicisi — orta dönem metinlerine dayanır. Geç dönem metinleri farklı bir Foucault gösteriyor: **öznenin kendini kurma imkânlarıyla** ilgilenen bir düşünür.
+
+Bu köşede 1 Eylül'de yayımladığımız [Foucault dosyasında](/haber/foucault-iktidar-bilgi-normal) da işaret ettiğimiz gibi, bu bir kopuş değil tamamlayıcıdır: Eğer özne kurulmuşsa, kendini yeniden kurma imkânı da vardır.
+
+## Okuma notu
+
+Kitap kolay bir metin değil ve Foucault'ya giriş olarak okunmamalı.
+
+Yoğun biçimde patristik literatürle uğraşıyor: Tertullianus, Kartacalı Kıbrıs, Methodios, Ioannes Kasianos, Augustinus. Foucault bu metinleri filolog titizliğiyle okuyor.
+
+Doğru sıra şudur: Önce *Cinselliğin Tarihi* I (*Bilme İstenci*), sonra II ve III, en son IV. Ve mümkünse *Öznenin Yorumbilgisi* dersleriyle birlikte.
+
+---
+
+**Künye:** Michel Foucault · *Histoire de la sexualité IV: Les aveux de la chair* · Yayına hazırlayan: Frédéric Gros · Gallimard, Şubat 2018 · İngilizcesi *Confessions of the Flesh* adıyla yayımlandı.
+
+*Not: Foucault'nun Collège de France dersleri ve Cinselliğin Tarihi ciltlerinin önemli bölümü Türkçeye kazandırılmıştır.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 6 Eylül: Mendelssohn ve Pirsig",
+    slug: "felsefe-tarihinde-bugun-6-eylul-mendelssohn-pirsig",
+    summary:
+      "6 Eylül 1729'da Moses Mendelssohn, 6 Eylül 1928'de Robert Pirsig doğdu. Biri modernleşmek için gelenekten vazgeçmek gerekmediğini savundu; öteki bir motosiklet yolculuğunu 'iyi yapılmış olmak nedir' sorusuna çevirdi. İki yüzyıl arayla aynı soruyu sordular.",
+    seoTitle: "Felsefe Tarihinde Bugün — 6 Eylül: Moses Mendelssohn ve Robert Pirsig",
+    metaDescription:
+      "6 Eylül 1729'da Moses Mendelssohn, 1928'de Robert Pirsig doğdu. Haskala, dinî hoşgörü, Zen ve Motosiklet Bakım Sanatı ve Kalite kavramı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Moses%20Mendelson%20P7160073.JPG?width=1600",
+    imageCredit: "Moses Mendelssohn — Anton Graff'ın 1771 tarihli yağlıboya portresine dayanan tablo, Yahudi Müzesi, Berlin · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/mendelssohn/",
+    publishedAt: "2026-09-06T00:50:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "aydinlanma", "din-felsefesi", "estetik", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Moses Mendelssohn",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/mendelssohn/",
+        primary: true,
+      },
+      {
+        title: "Moses Mendelssohn",
+        publisher: "Encyclopædia Britannica",
+        url: "https://www.britannica.com/biography/Moses-Mendelssohn",
+      },
+      {
+        title: "Robert M. Pirsig",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Robert_M._Pirsig",
+      },
+    ],
+    content: `Aynı güne düşen iki doğum, iki yüzyıl arayla aynı soruyu soruyor: **İnsan, değişen bir dünyada iyi bir hayatı nasıl kurar?**
+
+**6 Eylül 1729**'da Dessau'da **Moses Mendelssohn** doğdu.
+**6 Eylül 1928**'de Minneapolis'te **Robert M. Pirsig** doğdu.
+
+Biri Avrupa Aydınlanması'nın merkezinde, öteki akademik felsefenin tamamen dışında çalıştı. İkisi de kendi çağının en zor sorusunu, kimsenin beklemediği bir yerden sordu.
+
+## Mendelssohn: modernleşmek için gelenekten vazgeçmek gerekir mi?
+
+Mendelssohn 1743'te, on dört yaşında Berlin'e gitti. Bir tüccarın yanında çalışırken felsefe okudu; Almanca, Latince, Fransızca ve İngilizce öğrendi.
+
+Prusya'da Yahudilerin hukuki statüsü kısıtlıydı; Mendelssohn şehre yalnızca belli bir kapıdan girebiliyordu. Buna rağmen Berlin entelektüel hayatının merkezine yerleşti.
+
+### Lessing ve Nathan
+
+Hayatının belirleyici dostluğu, oyun yazarı ve eleştirmen **Gotthold Ephraim Lessing** ile kurduğu ilişkiydi. Birlikte, Friedrich Nicolai'yle beraber dergiler çıkardılar.
+
+Lessing'in en ünlü oyunu *Bilge Nathan*'ın kahramanı — Yahudi tüccar Nathan — büyük ölçüde Mendelssohn'dan esinlenmiş kabul edilir.
+
+Oyunun merkezindeki **üç yüzük meseli**, dinî hoşgörünün Avrupa edebiyatındaki en güçlü ifadelerinden biridir: Üç din, babadan kalan üç özdeş yüzük gibidir; hangisinin gerçek olduğu, taşıyanın nasıl yaşadığıyla anlaşılır.
+
+### Jerusalem (1783)
+
+Mendelssohn'un felsefi başyapıtı *Jerusalem oder über religiöse Macht und Judentum* — *Kudüs, ya da Dinî İktidar ve Yahudilik Üzerine*.
+
+Kitabın tezi iki bölümlüdür ve ikisi birlikte radikaldir.
+
+**Birinci bölüm:** Devletin ve kilisenin yetkileri ayrılmalıdır. Hiçbir dinî kurum, inanç nedeniyle zorlama uygulama hakkına sahip değildir — çünkü inanç, tanımı gereği zorlanamaz. Bir şeye inanmaya karar veremezsiniz.
+
+**İkinci bölüm:** Yahudilik, akla aykırı dogmalar dayatan bir din değildir. Mendelssohn'a göre Yahudilik "vahyedilmiş bir yasa"dır, "vahyedilmiş bir inanç" değil — yani pratikleri düzenler, aklın ulaşabileceği hakikatleri dayatmaz.
+
+Bu ikinci tez tartışmalıydı ve hâlâ tartışılıyor. Ama işlevi açıktı: Mendelssohn, bir insanın **hem akılcı hem dindar** olabileceğini göstermeye çalışıyordu.
+
+### Haskala
+
+Mendelssohn, **Haskala** — Yahudi Aydınlanması — hareketinin merkezî figürü sayılır. Tevrat'ı Almancaya çevirdi (İbrani harfleriyle basarak), Yahudi gençlerin Avrupa kültürüne açılmasını savundu.
+
+Sonuçları öngördüğü gibi olmadı: Torunlarının çoğu Hıristiyanlığa geçti; bestekâr Felix Mendelssohn onlardan biriydi.
+
+### Bugüne soru
+
+Mendelssohn'un hayatı, Aydınlanma'nın en zor sorusunu görünür kılar:
+
+**Modernleşmek için gelenekten vazgeçmek zorunda mıyız?**
+
+Onun cevabı hayırdı. Ve bu cevap, sitemizde bu hafta ele aldığımız [Charles Taylor'ın seküler çağ çözümlemesiyle](/haber/charles-taylor-modern-benlik-sekuler-cag) aynı hattadır: Sekülerleşme, inancın yok olması değil, **seçeneğe dönüşmesidir**.
+
+Mendelssohn 4 Ocak 1786'da Berlin'de öldü — Kant'ın *Saf Aklın Eleştirisi*'nin yayımlanmasından beş yıl sonra. Kant onu "İsrail'in Sokrates'i" diye anmıştı.
+
+## Pirsig: bir motoru iyi tamir etmek ne demektir?
+
+İki yüz yıl sonra, Minneapolis'te doğan biri, akademik felsefe dünyasının dışından gelip milyonlarca okura ulaştı.
+
+**Robert M. Pirsig**'in ***Zen and the Art of Motorcycle Maintenance*** kitabı 1974'te yayımlandı.
+
+### Yayımlanma hikâyesi
+
+Pirsig, elyazmasını **121 editöre** göndermek zorunda kaldı. Sonunda 3.000 dolarlık bir avansla sözleşme aldı.
+
+Kitabı, gündüz işini sürdürürken, Minneapolis'te bir ayakkabı dükkânının üstündeki küçük dairede, **gece ikiyle sabah altı arasında** yazdı.
+
+Beş milyon sattı.
+
+### Kalite
+
+Kitabın merkezî kavramı **Quality** — büyük harfle, çünkü Pirsig onu temel bir şey olarak ele aldı.
+
+Ve tanımlanamaz olduğunu savundu: Kalite tanımlanamaz ya da varlığı kanıtlanamaz; ama karşınıza çıktığında bilirsiniz.
+
+Bu, ilk bakışta kaçamak bir tez gibi görünür. Değildir.
+
+Pirsig'in argümanı şu: Kalite, özne ile nesne arasındaki **ayrımdan önce** gelir. Bir şeyi "iyi" bulmak, ne yalnızca bizim zihnimizdedir (öznel) ne de yalnızca nesnededir (nesnel). Kalite, bu ikisinin ayrıldığı andan **öncedir** — deneyimin kendisidir.
+
+Batı felsefesinin özne-nesne ayrımına dayanan bütün yapısını, işte bu noktadan sorgular.
+
+### Neden motosiklet?
+
+Kitabın dehası, bu soyut tezi bir motosiklet tamiriyle anlatmasıdır.
+
+Pirsig iki tavır ayırt eder. **Klasik** tavır, makinenin nasıl çalıştığıyla ilgilenir: parçalar, işlevler, nedensellik. **Romantik** tavır, görünüşle ve deneyimle ilgilenir: sürüşün hissi, yolun manzarası.
+
+Modern insan bu ikisi arasında bölünmüştür — ve bölünme, teknolojiye karşı duyulan yabancılığın kaynağıdır.
+
+Pirsig'in önerisi ikisini birleştirmektir: **Bir motoru gerçekten iyi tamir etmek, hem tekniği hem özeni gerektirir.** Kalite, bu ikisinin buluştuğu yerdir.
+
+Bu tez, sitemizde bu hafta ele aldığımız [İvan Illich'in "karşı-üretkenlik"](/haber/felsefe-tarihinde-bugun-4-eylul-illich-schweitzer) kavramıyla aynı endişeden doğar: Teknolojiyle kurduğumuz ilişki bozulduğunda, teknoloji bize hizmet etmekten çıkar.
+
+Ve bugün, sitemizde ele aldığımız [yapay zekâ tartışmalarının](/haber/felsefi-bas-donmesi-yapay-zeka-pollak-shanahan) ortasında, Pirsig'in sorusu yeniden anlamlı: Bir işi **kendimiz yapmadığımızda**, onun iyi yapılıp yapılmadığını nasıl bileceğiz?
+
+## Ortak nokta
+
+Mendelssohn: **Akıl ile gelenek birlikte yaşayabilir mi?**
+
+Pirsig: **Teknik ile anlam birlikte yaşayabilir mi?**
+
+İkisi de bir bölünmenin karşısında duruyordu. Ve ikisi de aynı şeyi reddetti: **taraf seçmeyi.**
+
+Mendelssohn'a Aydınlanma "geleneğini bırak" diyordu; geleneği ise "moderni reddet". O ikisini birden savundu.
+
+Pirsig'e bilim "duyguyu karıştırma" diyordu; karşı kültür ise "teknolojiyi reddet". O ikisini birleştirmeyi denedi.
+
+Felsefe tarihinin çoğu, taraf tutanlarla doludur. Bu iki isim, ikiliği bozmaya çalıştıkları için hatırlanıyor.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*
+
+*Not: Mendelssohn fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak Anton Graff'ın 1771 tarihli yağlıboya portresine dayanan ve Berlin Yahudi Müzesi'nde sergilenen tablo kullanılmıştır.*`,
+  },
+  {
     title: "Ahmet Arslan: felsefe tarihini Türkiye'de okunabilir kılan hoca",
     slug: "ahmet-arslan-felsefe-tarihi-okuma-kulturu",
     summary:
@@ -16720,6 +17863,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Histoire de la sexualité IV: Les aveux de la chair (Bedenin İtirafları)",
+    slug: "foucault-les-aveux-de-la-chair",
+    originalTitle: "Les aveux de la chair",
+    publisher: "Gallimard",
+    translator: null,
+    language: "Fransızca",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Foucault'nun ölümünden sonra yayın yasağına rağmen, elyazmasının Gallimard'a tesliminden otuz altı yıl sonra 2018'de Frédéric Gros'un editörlüğünde yayımlanan dördüncü cilt. Beklenen modern dönemi değil, ikinci-beşinci yüzyıl Kilise Babaları'nı ele alıyor.",
+    year: 2018,
+    link: "https://www.theoryculturesociety.org/blog/review-michel-foucault-confessions-of-the-flesh",
+    philosopherSlug: null,
+    postSlug: "foucault-bedenin-itiraflari-dorduncu-cilt",
+  },
+  {
     title: "A Philosophical History of the Concept",
     slug: "schmid-taieb-history-of-the-concept",
     originalTitle: null,
@@ -17258,6 +18417,69 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "1. Ulusal İslam Felsefesi Sempozyumu — İskenderiye'den Bağdat'a",
+    slug: "ulusal-islam-felsefesi-sempozyumu",
+    summary:
+      "İstanbul Üniversitesi Felsefe Bölümü'nün her yıl ekimin son haftasında düzenleyeceği yeni sempozyum dizisinin ilki. Konu, Geç Antik felsefe birikiminin İslam dünyasına intikali ve yorumlanışı.",
+    description: `Sempozyum, Türkiye'deki akademik İslam felsefesi çalışmalarının başlangıç noktasını oluşturan İstanbul Üniversitesi Felsefe Bölümü'nün öncülüğünde, her yıl ekim ayının son haftasında İstanbul'da düzenlenecek. Her yıl farklı bir konu ele alınacak.
+
+İlkinin başlığı: **İskenderiye'den Bağdat'a: Geç Antik Felsefenin İslam Dünyasına İntikali ve Yorumlanışı.**
+
+Sekizinci yüzyılın başlarından itibaren Yunancadan Süryaniceye ve Arapçaya aktarılan felsefe birikimi, İslam dünyasında "felsefe" denilen entelektüel etkinliğin oluşumuna zemin hazırladı. Bu birikim Platon ve Aristoteles'in eserlerinden ibaret değildi; özellikle Aristoteles'e farklı perspektiflerden yazılmış zengin bir şerh geleneğini de içeriyordu.
+
+Konu başlıkları: Tercüme hareketi yoluyla aktarılan metinlerin intikal yolları ve tercüme çevreleri · Geç Antik şerh geleneğinin İslam dünyasındaki izleri · İslam filozoflarının intikal eden gelenekle ilişkileri · Farklı felsefe anlayışlarının tarihî ve felsefî kökenleri · Sahte eserlerin üretimi ve alımlanışı · Arapça felsefe terminolojisinin gelişimi.
+
+Sempozyum akademisyenlerin, lisansüstü öğrencilerin ve bağımsız araştırmacıların katılımına açık; oturum tekliflerine de açık. Kabul edilen tebliğ özetleri e-kitap olarak yayımlanacak. Ulaşım ve konaklama masrafları tebliğ sahiplerine ait.
+
+İletişim: islamfelsefesisempozyumu@istanbul.edu.tr`,
+    kind: "SEMPOZYUM",
+    organizer: "İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü",
+    topic: "İslam felsefesi, Geç Antik felsefe, tercüme hareketi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-26T06:00:00.000Z",
+    endsAt: "2026-10-27T18:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "İstanbul Üniversitesi Edebiyat Fakültesi",
+    website: "https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu",
+    registrationUrl: "https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu",
+    sourceName: "İstanbul Üniversitesi Edebiyat Fakültesi",
+    sourceUrl: "https://eventedebiyat.istanbul.edu.tr/e/islamfelsefesisempozyumu",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Poetique%20Aristote%20Arabe%202346.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-09-06T02:10:00.000Z",
+  },
+  {
+    title: "The Foucault Century — Foucault'nun Yüzüncü Yılı Sempozyumu",
+    slug: "foucault-century-penn-2026",
+    summary:
+      "Foucault'nun doğumunun yüzüncü, Cinselliğin Tarihi'nin birinci cildinin ellinci yılında Pennsylvania Üniversitesi'nde iki günlük sempozyum. Odak: ölümünden sonra yayımlanan metinlerin Foucault okumasını nasıl değiştirdiği.",
+    description: `2026, Michel Foucault'nun doğumunun yüzüncü yılı ve Cinselliğin Tarihi'nin birinci cildinin (Bilme İstenci, 1976) ellinci yılı.
+
+Sempozyum, Foucault'nun düşüncesinin yenilenmiş bir değerlendirmesini sunmayı amaçlıyor ve özellikle ölümünden sonra yayımlanan metinlerin sonuçlarını ele alıyor: Collège de France'taki on üç ders yılı, 1960'lardan 1980'lere dünyanın çeşitli kurumlarındaki dersler ve seminerler, ve Cinselliğin Tarihi'nin dördüncü cildi Bedenin İtirafları.
+
+Yer: Kislak Center, Van Pelt Library, Pennsylvania Üniversitesi.`,
+    kind: "SEMPOZYUM",
+    organizer: "University of Pennsylvania, Department of Philosophy",
+    topic: "Michel Foucault, iktidar, öznellik, cinsellik tarihi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-24T13:00:00.000Z",
+    endsAt: "2026-09-25T22:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "Philadelphia",
+    country: "ABD",
+    venue: "Kislak Center, Van Pelt Library",
+    website: "https://philosophy.sas.upenn.edu/events/conference-foucault-century",
+    sourceName: "University of Pennsylvania, Department of Philosophy",
+    sourceUrl: "https://philosophy.sas.upenn.edu/events/conference-foucault-century",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Plaque%20Michel%20Foucault%2C%20289%20rue%20de%20Vaugirard%2C%20Paris%2015e.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-09-06T02:30:00.000Z",
+  },
   {
     title: "30. Oxford Lisansüstü Felsefe Konferansı",
     slug: "oxford-lisansustu-felsefe-konferansi-2026",
