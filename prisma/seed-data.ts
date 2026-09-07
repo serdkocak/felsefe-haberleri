@@ -1489,6 +1489,1125 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Searle'ün odası boşaldı, sorusu duruyor",
+    slug: "john-searle-cin-odasi-anlam-kurum",
+    summary:
+      "Çin Odası'nın filozofu 17 Eylül 2025'te doksan üç yaşında öldü. Onu 'bilgisayarlar düşünemez' diyen adam olarak hatırlamak, tek bir düşünce deneyine indirgemek olur. Searle'ün gerçek sorusu daha genişti — ve paradan devlete, sözden kuruma uzanıyordu. Mirası da tartışmasız değil.",
+    seoTitle: "John Searle (1932-2025): Çin Odası, söz edimleri ve toplumsal ontoloji",
+    metaDescription:
+      "John Searle'ün ölümünün ardından: Çin Odası argümanı, söz edimleri kuramı, biyolojik doğalcılık, toplumsal gerçekliğin inşası ve tartışmalı mirası.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/John_searle2.jpg?width=1600",
+    imageCredit: "John Searle · Fotoğraf: Matthew Breindel, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/world/2025/oct/05/john-searle-obituary",
+    publishedAt: "2026-09-07T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["zihin-felsefesi", "yapay-zeka", "kavram", "bilinc", "siyaset-felsefesi"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      {
+        title: "John Searle obituary",
+        publisher: "The Guardian",
+        date: "5 Ekim 2025",
+        url: "https://www.theguardian.com/world/2025/oct/05/john-searle-obituary",
+        primary: true,
+      },
+      {
+        title: "Former UC Berkeley professor John Searle dies, leaves complicated legacy",
+        publisher: "The Daily Californian",
+        date: "7 Ekim 2025",
+        url: "https://www.dailycal.org/news/obituary-news/former-uc-berkeley-professor-john-searle-dies-leaves-complicated-legacy/article_6132904a-9d96-4bb7-abff-27988d169a7a.html",
+      },
+      {
+        title: "In Memoriam: John Searle",
+        publisher: "American Philosophical Association",
+        url: "https://www.apaonline.org/news/711069/In-Memoriam-John-Searle.htm",
+      },
+    ],
+    content: `**John Searle** 17 Eylül 2025'te öldü. Doksan üç yaşındaydı.
+
+Felsefe dünyası onu çoğunlukla tek bir düşünce deneyiyle hatırlıyor: **Çin Odası**.
+
+Ama Searle'ü "bilgisayarlar gerçekten düşünemez diyen filozof" olarak anmak, yirminci yüzyılın ikinci yarısının en etkili zihin ve dil filozoflarından birini bir slogana indirgemektir.
+
+Çünkü Searle'ün asıl sorusu bilgisayarlarla ilgili değildi.
+
+Asıl soru şuydu: **Bir şeyin anlamı nereden gelir?**
+
+Ve bu soru onu dilden zihne, zihinden topluma, toplumdan paraya, devlete, üniversiteye ve nihayet gerçekliğin kendisine götürdü.
+
+## Önce dil: bir cümle ne yapar?
+
+Searle'ün kariyerinin ilk büyük dönemi dil felsefesidir. Oxford'da **J. L. Austin**'in açtığı yolu sistemleştirdi ve 1969'da ***Speech Acts*** (Söz Edimleri) ile kendi çerçevesini kurdu.
+
+Temel tez: **Dil yalnızca dünyayı betimlemez; dünyada iş yapar.**
+
+*"Yemin ediyorum."*
+*"İlan ediyorum."*
+*"Söz veriyorum."*
+*"Bu oturumu açıyorum."*
+
+Bunlar doğru ya da yanlış olabilecek betimlemeler değildir. Bir şey **gerçekleştirirler**.
+
+Searle bu edimleri sınıflandırdı ve her birinin başarılı olması için gereken koşulları listeledi. Bir söz vermenin geçerli olması için: konuşan kişi gelecekte bir eylemde bulunmayı gerçekten niyetlenmeli, dinleyen bunu istemeli, eylem zaten olacak olan bir şey olmamalı.
+
+Bu, dil felsefesinde teknik bir katkıdır. Ama içinde bir tohum taşır: **Kurumsal gerçeklik, dilsel edimlerle kurulur.**
+
+Bir mahkeme kararı, bir nikâh, bir sözleşme, bir savaş ilanı — hepsi konuşmayla var olur.
+
+## Sonra Çin Odası
+
+1980'de Searle, yapay zekâ tartışmasının tarihini değiştirecek bir makale yayımladı.
+
+Düşünce deneyi şudur.
+
+Bir odada, Çince bilmeyen bir insan var. Elinde İngilizce yazılmış kalın bir kural kitabı. Kapının altından Çince karakterler içeren kâğıtlar giriyor. Kişi kitaptaki talimatlara bakıyor: "Şu şekildeki sembol gelirse, şu şekildeki sembolü çıkar." Ve doğru cevabı dışarı veriyor.
+
+Dışarıdan bakıldığında oda **Çince biliyor** görünüyor. İçerideki kişi tek kelime Çince bilmiyor.
+
+Searle'ün sonucu: **Sembolleri kurala göre işlemek, onların anlamını anlamak değildir.**
+
+Teknik terimle: **Sözdizim, anlambilim için yeterli değildir.**
+
+Bugünün büyük dil modelleri karşısında bu argümanın neden tekrar tekrar gündeme geldiği açık. Sistemler artık çok daha karmaşık: bağlam kuruyor, geçmiş konuşmayı kullanıyor, araçlara erişiyor, kendi çıktısını değerlendiriyor, plan yapıyor.
+
+Bunlar Searle'ün itirazını ortadan kaldırıyor mu?
+
+Hayır. Ama tartışmayı zorlaştırıyor. Çünkü artık odanın içindeki "kural kitabı" tek bir kitap değil; milyarlarca parametreden oluşan, kimsenin tek tek okuyamayacağı bir yapı.
+
+## "Searle yapay zekâya karşıydı" — en yaygın yanlış
+
+Searle bilgisayarların işe yaramadığını savunmuyordu.
+
+Ayrımı netti: **zayıf yapay zekâ** ile **güçlü yapay zekâ**.
+
+**Zayıf yapay zekâ:** Bilgisayarlar zihinsel süreçleri modelleyebilir ve onları incelemek için olağanüstü araçlardır. Searle bunu kabul ediyordu.
+
+**Güçlü yapay zekâ:** Uygun programı çalıştırmak, bilgisayara **kelimenin tam anlamıyla bir zihin** kazandırır. Searle'ün itiraz ettiği buydu.
+
+Bu ayrım, bugün yapay zekâ felsefesinin temel tarihsel ayrımlarından biri olarak ders kitaplarında yer alıyor.
+
+## Biyolojik doğalcılık: üçüncü yol
+
+Searle'ün konumunu anlamak için, neyi **reddettiğine** bakmak gerekiyor.
+
+**Düalizm değildi.** "Ruh ayrı bir tözdür" demiyordu.
+
+**İndirgemeci materyalizm de değildi.** Bilinci nöron ateşlemelerine indirgemeyi yetersiz buluyordu.
+
+Kendi konumuna **biyolojik doğalcılık** adını verdi. Formülü basit ve provokatiftir:
+
+**Beyin bilinç üretir — tıpkı midenin sindirim üretmesi gibi.**
+
+Bilinç gerçek bir biyolojik olgudur. Nedensel olarak beyin süreçlerinden doğar. Ama **birinci şahıs ontolojisine** sahiptir: Acı çekmek, gerçekten acı çekmektir; bunu üçüncü şahıs betimlemesine çeviremezsiniz.
+
+Bu konum her iki taraftan da eleştirildi. Materyalistler onu gizli düalist buldu; düalistler yeterince ileri gitmemekle suçladı. Searle ikisine de aynı yanıtı verdi: **Sorun kavramlarımızda; kategori yanlış kurulmuş.**
+
+Sitemizde bu hafta ele aldığımız [Chalmers dosyasında](/haber/david-chalmers-zor-problem-otuz-yil) anlattığımız "zor problem" tartışmasının bir kanadı doğrudan buradan çıkar. Chalmers işlevsel örgütlenmeyi belirleyici sayar; Searle **biyolojiyi**. Anil Seth'in bugün savunduğu konumun atası da budur.
+
+## Az konuşulan devrim: para nedir?
+
+Searle'ün en şaşırtıcı dönüşü 1995'te geldi: ***The Construction of Social Reality*** (Toplumsal Gerçekliğin İnşası).
+
+Sorduğu sorular basit görünür ve cevaplaması çok zordur:
+
+Bir kâğıt parçası neden **para**dır? Bir insan nasıl **cumhurbaşkanı** olur? Bir bina nasıl **üniversite** sayılır? İki insan nasıl **evli** olur?
+
+Searle'ün cevabı iki kavrama dayanır.
+
+**Kolektif niyetlilik.** İnsanlar yalnızca "ben istiyorum" değil, "biz yapıyoruz" biçiminde de niyetlenebilir. Bu, bireysel niyetlerin toplamına indirgenemez.
+
+**Statü işlevi.** Bir nesneye, fiziksel özelliklerinden **gelmeyen** bir işlev yüklenir. Formülü şudur:
+
+**"X, C bağlamında Y sayılır."**
+
+Bu kâğıt parçası (X), Türkiye Cumhuriyeti bağlamında (C), **para** sayılır (Y).
+
+Ve statü işlevleri **dil olmadan var olamaz**. Çünkü bir nesnenin fiziksel özellikleriyle ilgisi olmayan bir işlevi taşıyabilmesi için, o işlevin **temsil edilebiliyor** olması gerekir. Bir hayvan bir nesneyi araç olarak kullanabilir; ama "bu benim mülküm" diyemez.
+
+Böylece Searle'ün üç ayrı kitabı tek bir zincire dönüşür: **Dil → zihin → kurum.**
+
+Ve şu orta yol kurulur: Toplumsal gerçeklik ne salt hayaldir ne salt fiziktir. Para, evlilik, devlet ve hukuk **gerçektir** — ama gerçeklikleri, sürdürülen kolektif kabullere dayanır.
+
+Kabuller çekilirse, kurum da çeker. Sitemizde bu hafta ele aldığımız [Cicero](/haber/cicero-cumhuriyet-erdem-arabuluculuk) ve [Coke-Cromwell](/haber/felsefe-tarihinde-bugun-3-eylul-coke-cromwell) dosyalarında sorduğumuz "kurumları ne ayakta tutar" sorusunun analitik felsefedeki karşılığı budur.
+
+## Tartışmalı miras
+
+Searle'ün anılması, yalnızca fikirlerinin anılması değil.
+
+2016'da cinsel taciz ve misilleme iddialarıyla suçlandı. Soruşturma sonucunda, üniversitenin taciz ve misilleme politikalarını ihlal ettiği bulgusuyla **2019'da emeritus statüsünü kaybetti**.
+
+Bu, bir dipnot değil; kurumsal bir karardır ve ciddi bir gazetecilik bunu atlayamaz.
+
+Ölümünün ardından Berkeley çevresinden yükselen sesler de bölünmüştü. Eski bir doktora öğrencisi, Searle'ün bölüm içinde "kendi yörüngesinde" hareket ettiğini ve meslektaşlarının onun davranışları üzerinde söz sahibi olmadıklarını hissettiklerini anlattı; felsefe üslubunu da "epeyce kibirli" buldu. Uzun yıllar araştırma asistanlığını yapmış ve Berkeley Toplumsal Ontoloji Grubu'nu yöneten bir başka isim ise onu olağanüstü bir öğretmen olarak andı — karmaşık kavramları herkesin diliyle anlatabilen, ulaşılabilir bir hoca — ve iddiaların tam olarak temsil edilmediği görüşünü savundu.
+
+Bir düşünürün eseri ile hayatı arasındaki ilişki, felsefenin kendi konularından biridir. Burada kolay bir formül yok. Ama şu söylenebilir: Argümanlar, onları ileri sürenin karakterinden bağımsız olarak değerlendirilir; kurumsal bulgular ise ayrıca ve açıkça kaydedilir.
+
+## Geriye ne kaldı?
+
+Searle'ün mirası bugün üç ayrı cephede aynı anda işliyor.
+
+**Dil.** Bir sistem "üzgünüm" dediğinde ne yapıyor? Söz edimi kuramına göre bir özrün geçerli olması, konuşanın belli zihinsel durumlara sahip olmasını gerektirir. Bir dil modeli bu koşulu sağlıyor mu?
+
+**Zihin.** Bir sistemin bilinçli olup olmadığını nasıl belirleyeceğiz? Sitemizde bu hafta ele aldığımız [davranışsal çıkarım ilkesi](/haber/davranissal-cikarim-ilkesi-makine-bilinci) önerisi, tam olarak Searle'ün reddettiği yönde bir hamledir.
+
+**Kurum.** Bir yapay zekâya hukuki kişilik, mülkiyet ya da sorumluluk atfedilebilir mi? Searle'ün statü işlevi formülü buna doğrudan uygulanabilir: **X, C bağlamında Y sayılır** — ve bunun için tek gereken, kolektif kabuldür.
+
+Bu üçüncüsü, en az konuşulan ama belki en pratik olanı. Çünkü bir yapay zekânın "gerçekten" bir kişi olup olmadığı sorusu çözülmeden de, hukuk sistemleri ona bir statü **atfedebilir**.
+
+Searle'ün öğrettiği şey tam da buydu: Statüler keşfedilmez; **verilir**.
+
+## Son soru
+
+Çin Odası'nın kapısı kapandı.
+
+Ama kapının önündeki soru duruyor — ve Searle'ün en sinir bozucu tarafı, sorunun iki yönlü olmasıydı.
+
+Bir sistemin doğru cevap vermesi, anladığını kanıtlamaz.
+
+Peki anladığını nasıl kanıtlayacağız?
+
+---
+
+*Türkçede: Söz Edimleri, Zihnin Yeniden Keşfi, Akıl, Dil ve Toplum, Toplumsal Gerçekliğin İnşası ve Bilinç ve Dil gibi kitapları çevrildi.*`,
+  },
+  {
+    title: "Macit Gökberk: felsefeyi çevirmek değil, Türkçede kurmak",
+    slug: "macit-gokberk-felsefe-dili-turkce",
+    summary:
+      "Selanik'te doğdu, Berlin'de Hegel ile Comte üzerine doktora yaptı, bir Türk felsefecisinin yazdığı ilk kapsamlı felsefe tarihini kaleme aldı. Ama asıl projesi başkaydı: Türk Dil Kurumu başkanlığını iki dönem yürüten Gökberk için dil, düşüncenin taşıyıcısı değil biçimlerinden biriydi.",
+    seoTitle: "Macit Gökberk (1908-1993): Felsefe Tarihi ve Türkçenin felsefe dili",
+    metaDescription:
+      "Macit Gökberk'in hayatı, Berlin doktorası, Felsefe Tarihi kitabı, Türk Dil Kurumu başkanlığı ve Değişen Dünya Değişen Dil.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20entrance%20gate%20of%20Istanbul%20University.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi ana kapısı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Yapı Kredi Yayınları",
+    sourceUrl: "https://www.yapikrediyayinlari.com.tr/yazarlar/macit-gokberk",
+    publishedAt: "2026-09-07T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "tarih", "kavram", "ceviri", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Macit Gökberk — yazar sayfası",
+        publisher: "Yapı Kredi Yayınları",
+        url: "https://www.yapikrediyayinlari.com.tr/yazarlar/macit-gokberk",
+        primary: true,
+      },
+      {
+        title: "Macit Gökberk",
+        publisher: "Vikipedi",
+        url: "https://tr.wikipedia.org/wiki/Macit_G%C3%B6kberk",
+      },
+      {
+        title: "Macit Gökberk",
+        publisher: "Biyografya",
+        url: "https://www.biyografya.com/tr/biographies/macit-gokberk-d5b79285",
+      },
+    ],
+    content: `Türkiye'de felsefe okumuş kuşaklara **Macit Gökberk**'i sorduğunuzda cevap hazırdır: *"Felsefe Tarihi'nin yazarı."*
+
+Doğrudur. Ve eksiktir.
+
+Çünkü Gökberk'in Türkiye düşünce tarihindeki asıl önemi, 1961'de yayımlanan o kitabın kuşaklar boyunca okutulması değil. Daha büyük bir projesi vardı:
+
+**Türkiye'de felsefenin Türkçe yapılabilmesi.**
+
+Bu yüzden hayatı üç hikâyenin kesişiminde duruyor: **felsefe tarihi, dil ve Cumhuriyet'in entelektüel modernleşmesi.**
+
+## Selanik'ten Berlin'e
+
+1908'de Selanik'te doğdu. İstanbul Erkek Lisesi'nden sonra İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nü **1932**'de, Platon'un ***Theaitetos*** diyaloğu üzerine bir çalışmayla bitirdi.
+
+Bu ilk tercih anlamlıdır. *Theaitetos*, "bilgi nedir" sorusunun sorulduğu diyalogdur — ve hiçbir tanımın tutmadığı, aporia ile biten bir metindir. Gökberk kariyerine, cevabı olmayan bir soruyla başladı.
+
+**1935**'te doktora için Berlin'e gönderildi. **1940**'ta, **Eduard Spranger**'in danışmanlığında doktorasını tamamladı. Tezinin konusu: **"Hegel ve Auguste Comte'da toplum kavramı."**
+
+Danışman seçimi, Gökberk'in düşünsel kökenini gösterir. Spranger, Dilthey'den gelen **tin bilimleri** (*Geisteswissenschaften*) geleneğinin önde gelen ismiydi; *Lebensformen* (Yaşam Biçimleri) ile insan tiplerinin anlaşılması üzerine çalışıyordu.
+
+Yani Gökberk'in arka planı yalnızca "Alman idealizmi" değil. **Anlama** (*Verstehen*) yöntemine dayanan hermeneutik gelenek.
+
+Berlin yılları başka bir şey daha getirdi: O sırada aynı şehirde **Hans Reichenbach** mantık ve bilim felsefesi okutuyordu. Sitemizde bu hafta ele aldığımız [Reichenbach Kongresi dosyasında](/haber/reichenbach-kongresi-istanbul-2026) anlattığımız gibi, Reichenbach 1933'te İstanbul'a gelecekti. İki adam, iki şehirde ters yönde yol aldı.
+
+## Tez neden Hegel ve Comte?
+
+Doktora konusu tesadüf değil.
+
+**Hegel**'de toplum, tinin tarih içinde kendini gerçekleştirmesinin bir uğrağıdır — anlam, bütünden gelir.
+
+**Comte**'ta toplum, pozitif bilimin nesnesidir — anlam, olgular arasındaki yasalardan gelir.
+
+Bu ikisi, modern toplumu düşünmenin iki rakip yolu. Ve 1930'ların Türkiye'si tam olarak bu ikisi arasında bir yer arıyordu: Bir yanda kültürel süreklilik ve tarih bilinci, öte yanda bilimsel akılcılık ve reform.
+
+Gökberk'in tezi bu yüzden bir Almanya sorusu değil, sessizce bir **Türkiye sorusudur**.
+
+## Felsefe Tarihi: neden bu kadar önemliydi?
+
+1961'de yayımlanan *Felsefe Tarihi*, **bir Türk felsefecisi tarafından yazılmış ilk kapsamlı felsefe tarihi** olarak anılır.
+
+Bu niteleme önemli. O tarihe kadar Türkiye'de felsefe tarihi ya çeviriyle ya da derlemeyle okunuyordu.
+
+Gökberk'in başarısı yalnızca kapsam değildi. **Açık ve anlaşılır Türkçe.**
+
+Bu nokta hafife alınmamalı. Felsefe Türkiye'de uzun süre yabancı kavramların Osmanlıca karşılıkları üzerinden konuşulmuştu: *mevcudiyet*, *mahiyet*, *illiyet*, *bedihiyat*. Gökberk kuşağı, felsefenin Türkçede **yeni bir terminolojiyle** yapılabileceğini göstermeye çalıştı.
+
+Kitabın hâlâ basılıyor ve okunuyor olması, o denemenin tuttuğunu gösteriyor.
+
+## Türk Dil Kurumu: iki dönem
+
+Gökberk, **Türk Dil Kurumu Başkanlığı**'nı iki ayrı dönemde yürüttü: **1954-1960** ve **1969-1976**.
+
+Bu, bir felsefe profesörü için sıra dışı bir görev gibi görünebilir. Değildir.
+
+Çünkü Gökberk için dil meselesi, felsefenin dışında bir uğraş değildi. *Felsefe dilinin yalınlaşması, terim karmaşasının giderilmesi ve kavramların sınırlanması* onun çalışma alanının doğrudan parçasıydı.
+
+"Terim karmaşasının giderilmesi" ifadesi teknik durur ama felsefi bir programdır. İki farklı sözcüğün aynı kavramı, ya da tek bir sözcüğün iki farklı kavramı karşıladığı bir dilde, **ayrım yapılamaz**. Ve felsefe, ayrım yapma sanatıdır.
+
+1973'te yayımlanan *"Türkiye'de Felsefe Dilinin Gelişmesi"* başlıklı makalesi, bu programın açık ifadesidir.
+
+## Asıl kitap belki de bu
+
+1980 tarihli ***Değişen Dünya Değişen Dil***, Gökberk'i felsefe tarihçisi olmaktan çıkaran eserdir.
+
+İçindeki başlıklar bir haritadır: teknik, tarih bilinci, dil, Atatürk, felsefe dili, Leibniz'in dil görüşü, dil ve millet, anayasa dili, Türkiye'de felsefe dilinin gelişmesi, Cumhuriyet döneminde bilim dili, Yazı Devrimi.
+
+Ve merkezinde tek bir tez var:
+
+**Dil yalnızca düşüncenin taşıyıcısı değildir. Düşüncenin biçimlerinden biridir.**
+
+Bu tez kabul edilirse, sonuçları büyüktür. Bir toplumun felsefe dili meselesi yalnızca terminoloji meselesi olmaktan çıkar; o kültürün ne kadar soyut düşünebildiği, kavramları nasıl ayırdığı ve dünyayı nasıl sınıflandırdığıyla ilgili hâle gelir.
+
+Sitemizde dün ele aldığımız [Tyler Burge'ün anti-bireyciliği](/haber/tyler-burge-answering-scepticism-anlama) bu tezin analitik felsefedeki karşılığıdır: Bir düşüncenin içeriği, o düşüncenin ifade edildiği dilsel topluluktan bağımsız değildir.
+
+Gökberk'in Leibniz'e ayrı bir bölüm ayırması da rastlantı değil: Leibniz, evrensel bir kavram dili (*characteristica universalis*) tasarlayan filozoftu — yani dilin düşünceyi nasıl kısıtladığını ilk fark edenlerden.
+
+## Az bilinen bir taraf: film
+
+Gökberk yalnızca üniversite odasında çalışan bir felsefe tarihçisi değildi.
+
+**1961-1972 arasında İstanbul Üniversitesi Film Merkezi'ni yönetti** ve Anadolu kültürünü belgeleyen film çalışmalarına katıldı.
+
+Bu ayrıntı, düşünce dünyasını anlamak açısından önemli. Kültürün nasıl **üretildiği** ve nasıl **kaydedildiği** ile ilgileniyordu — dil gibi, film de bir belgeleme ve aktarma aracıydı.
+
+## Tartışmalı miras
+
+Gökberk'i bugün okumak, onu yalnızca övmek anlamına gelmemeli.
+
+Düşüncesi, Cumhuriyet'in Aydınlanmacı ve modernleşmeci projesiyle güçlü biçimde bağlıdır. *Aydınlanma Felsefesi, Devrimler ve Atatürk* bu bağın en açık ifadesidir.
+
+Dolayısıyla okurken şu soruyu sormak gerekir:
+
+**Felsefe tarihi tarafsız bir kronoloji midir, yoksa geçmişi bugünün ihtiyaçları açısından yeniden düzenleme biçimi midir?**
+
+Gökberk'in anlatısı açıkça ikinciye yakındır. Felsefe tarihini yalnızca "olanı anlatmak" için değil, modern Türkiye'nin düşünsel yönünü açıklamak için de kullandı.
+
+Bu bir kusur mu? Sitemizde bu hafta ele aldığımız [J. G. A. Pocock dosyası](/haber/pocock-siyasal-diller-cambridge-okulu) bu soruya iyi bir çerçeve veriyor: Her felsefe tarihi, yazıldığı dönemin siyasal dili içinde yazılır. Önemli olan bunu gizlememektir.
+
+Gökberk gizlemedi.
+
+## Bugün neden önemli?
+
+Çünkü 2026 Türkiye'sinde hâlâ aynı soru duruyor: **Türkçe çağdaş felsefe yapmaya elverişli mi?**
+
+Gökberk'in cevabı kuramsal değil, pratikti: Felsefe yapılacaksa, o felsefenin dili de kurulmalıdır.
+
+Bu yüzden gerçek mirası *Felsefe Tarihi* kitabından geniştir.
+
+Bir öğrencinin **özne**, **nesne**, **bilinç**, **özgürlük**, **tarih**, **değer** ve **varlık** kavramlarını Türkçe okuyabilmesi ve bunun doğal olduğunu düşünmesi — Gökberk kuşağının işidir.
+
+Bugün yapay zekâ, bilinç ve dijital toplum üzerine Türkçe felsefe yazılabiliyorsa, bunu mümkün kılan kavramsal altyapının kuruluşunda o kuşağın payı var.
+
+Bu köşede bu hafta ele aldığımız [Oruç Aruoba](/haber/oruc-aruoba-turkcede-felsefe-yurume), [Arda Denkel](/haber/arda-denkel-nesne-ozellik-tikelcilik) ve [Ahmet Arslan](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) dosyalarıyla birlikte okunduğunda tablo tamamlanıyor. Dördü de aynı işi farklı yerlerden yaptı: **Türkçeyi felsefenin çalışabileceği bir dile dönüştürmek.**
+
+Çünkü bir dilde felsefe yapmak, yabancı felsefeyi tercüme etmek değildir.
+
+**Kendi sorularınızı o dilin içinde sorabilmektir.**
+
+---
+
+*Macit Gökberk 15 Ağustos 1993'te İstanbul'da öldü.*
+
+**Başlıca eserleri:** Felsefe Tarihi (1961) · Değişen Dünya Değişen Dil (1980) · Aydınlanma Felsefesi, Devrimler ve Atatürk · Kant ile Herder'in Tarih Anlayışları · Franz Brentano ve Aristoteles.`,
+  },
+  {
+    title: "Makine kimin emeğini soğuruyor? HCI'ye emek süreci kuramı çağrısı",
+    slug: "emek-sureci-kurami-hci-yapay-zeka",
+    summary:
+      "CHI'26'ya kabul edilen bir çalışma, insan-bilgisayar etkileşimi alanının yapay zekâyı 'araç' olarak incelemekle yetindiğini savunuyor ve Marx'tan Braverman'a uzanan emek süreci kuramını masaya getiriyor. Soru teknik değil: Yapay zekâ kimin becerisini soğuruyor?",
+    seoTitle: "Emek süreci kuramı ve HCI: Qin & Cheon, CHI 2026",
+    metaDescription:
+      "Qin ve Cheon'un CHI'26 çalışması, yapay zekâlı iş yerlerini incelemek için Marx-Braverman-Burawoy çizgisindeki emek süreci kuramını öneriyor.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sifting%20good%20beans%20from%20bad.jpg?width=1600",
+    imageCredit: "Elle ayıklama işi · Wikimedia Commons",
+    featured: true,
+    sourceName: "arXiv",
+    sourceUrl: "https://arxiv.org/abs/2602.10548",
+    publishedAt: "2026-09-07T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "marksizm", "teknoloji-felsefesi", "siyaset-felsefesi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Labor, Capital, and Machine: Toward a Labor Process Theory for HCI",
+        publisher: "arXiv",
+        date: "11 Şubat 2026",
+        url: "https://arxiv.org/abs/2602.10548",
+        primary: true,
+      },
+    ],
+    content: `Yapay zekâ tartışmasının en çok tekrarlanan sorusu şu: **"Yapay zekâ işimi elimden alacak mı?"**
+
+Şubat ayında arXiv'e yüklenen ve **CHI 2026**'ya kabul edilen bir çalışma, bu sorunun yanlış soru olduğunu ileri sürüyor.
+
+Doğru soru daha rahatsız edici:
+
+**Yapay zekâ işi elimden almasa bile, işimi neye dönüştürüyor?**
+
+## Alanın kör noktası
+
+Çalışmanın yazarları, insan-bilgisayar etkileşimi (HCI) alanının yapay zekâlı iş yerlerini incelerken belirli bir çerçeveye sıkıştığını savunuyor: **kullanılabilirlik, verimlilik, güven, kabul.**
+
+Bu çerçevede yapay zekâ bir **araçtır**. Sorular şöyle kurulur: Kullanıcı ona güveniyor mu? Ne kadar hızlı iş yapıyor? Arayüz anlaşılır mı?
+
+Yazarlara göre bu çerçevenin sistematik bir kör noktası var. Aracın kime ait olduğunu, kimin hizmetinde çalıştığını ve iş sürecinin denetimini kimin elinde tuttuğunu sormuyor.
+
+Önerileri açık: **emek süreci kuramını** HCI'ye getirmek.
+
+## Kuramın soykütüğü
+
+Emek süreci kuramı, birbirini izleyen üç isimle kurulur.
+
+**Marx.** *Kapital*'in birinci cildinde, işçinin satın alınan şeyin emek değil **emek gücü** olduğu tespiti yapılır. İşveren belli bir süre için bir kapasite satın alır; o kapasiteden ne kadar gerçek emek çıkacağı ise ayrı bir sorundur. Buradan üretim sürecinin denetimi meselesi doğar. Makine, bu denetimin araçlarından biridir: İşçinin bilgisinde duran şey, makinenin yapısına aktarılır.
+
+**Harry Braverman.** 1974'te yayımlanan *Labor and Monopoly Capital*, bu tespiti yirminci yüzyıl işyerine uyguladı ve **vasıfsızlaştırma** (*deskilling*) tezini kurdu. Taylorizmin işlevi, işçinin kafasındaki bilgiyi yönetimin eline geçirmektir: Tasarım ile uygulama ayrılır, uygulayan artık nedenini bilmez.
+
+**Michael Burawoy.** 1979'da *Manufacturing Consent* ile tabloyu karmaşıklaştırdı. Denetim yalnızca zorlamayla kurulmaz; işçilerin **rızası imal edilir**. İşin içine oyun benzeri unsurlar, hedefler ve küçük özerklik alanları yerleştirilir; işçi kendi sömürüsüne aktif katılım gösterir.
+
+Bu üçlü, yapay zekâ tartışmasına taşındığında ortaya çıkan sorular teknik olmaktan çıkıyor.
+
+## Yapay zekâ hangi kuramın örneği?
+
+Çalışmanın önerdiği okuma, bugünün yapay zekâ sistemlerinin bu üç mekanizmayı aynı anda çalıştırdığını gösteriyor.
+
+**Bilgi transferi.** Bir dil modeli, milyonlarca insanın yazdığı metinden eğitilir. Bir kod modeli, açık kaynak depolarındaki insan emeğinden. Bir çeviri modeli, profesyonel çevirmenlerin yıllarca ürettiği çift dilli metinlerden. Braverman'ın "işçinin kafasındaki bilgi makineye aktarılır" tespiti burada teknik olarak doğrudur — bilgi gerçekten aktarılmıştır.
+
+**Denetim.** Algoritmik yönetim, iş temposunu, rota seçimini ve performans ölçümünü bir yazılıma devreder. Bu, ustabaşının yerine geçen bir denetim biçimidir; farkı, sürekli, ölçülebilir ve pazarlığa kapalı olmasıdır.
+
+**Rıza.** Yapay zekâ araçları çoğunlukla **yardımcı** olarak sunulur. Ve gerçekten yardımcı olurlar: İşi hızlandırır, sıkıcı kısmı üstlenir, kullanıcıya güç hissi verir. Burawoy'un tespiti tam burada devreye giriyor — bir sistemin gerçekten faydalı olması, aynı zamanda denetim aracı olmasını engellemez.
+
+## Vasıfsızlaştırma mı, yeniden vasıflandırma mı?
+
+Bu, kuram içindeki en eski tartışma ve çalışmanın da açık bıraktığı yer.
+
+Braverman'ın tezine yöneltilen klasik itiraz şudur: Teknoloji vasıfları yalnızca yok etmez, yenilerini de yaratır. Otomasyonla birlikte bazı işler kaybolur, bazıları doğar.
+
+Yapay zekâ örneğinde ikisi de gözlemleniyor. Bir yazılımcının kod yazma pratiği değişiyor: Daha az satır yazıyor, daha çok inceliyor ve doğruluyor. Bu bir vasıf kaybı mı, yoksa vasfın yer değiştirmesi mi?
+
+Kuramın sunduğu ölçüt cevabı belirsizlikten çıkarıyor: **Soru, işin daha kolay olup olmadığı değil; işin denetiminin kimde olduğu.**
+
+Bir yazılımcı modeli reddedebiliyor mu? Çıktıyı değerlendirecek zamanı var mı? Yoksa hız beklentisi, incelemeyi bir formaliteye mi indiriyor?
+
+## Türkiye için neden önemli?
+
+Bu tartışma soyut değil. Kurye ve taşımacılık uygulamalarındaki algoritmik yönlendirme, çağrı merkezlerindeki otomatik performans ölçümü, çeviri ve metin üretiminde yaygınlaşan yapay zekâ destekli süreçler — hepsi aynı yapının örnekleri.
+
+Ve bunların hiçbiri "yapay zekâ işleri elimizden alıyor" başlığına sığmıyor. İşler duruyor. Değişen şey, işin içindeki **karar payı**.
+
+## Marx'ı 2026'da okumak
+
+Bu çalışma, sitemizde bugün ayrıca ele aldığımız [Karl Marx dosyasıyla](/haber/karl-marx-yabancilasma-meta-fetisizmi) doğrudan bağlantılı. Marx'ın yirmi birinci yüzyılda okunma biçimi giderek daha az "devrim kuramı", daha çok **çalışmanın ve teknolojinin eleştirel çözümlemesi** yönünde ilerliyor.
+
+Sitemizde bu hafta ele aldığımız [Chantal Mouffe dosyasında](/haber/chantal-mouffe-agonistik-demokrasi) belirttiğimiz gibi, çağdaş sol düşüncenin bir kanadı çatışmayı siyasetin merkezine koyuyor. Emek süreci kuramı ise aynı çatışmayı üretim noktasında arıyor.
+
+İkisinin ortak varsayımı şu: **Uzlaşma görüntüsü, çatışmanın çözüldüğü anlamına gelmez; yalnızca görünmez olduğu anlamına gelebilir.**
+
+## Sonuç
+
+Çalışmanın çağrısı mütevazı görünüyor: Bir alana bir kuram önerisi.
+
+Ama sonuçları mütevazı değil. Çünkü bir yapay zekâ sistemini "kullanıcı deneyimi" üzerinden değerlendirmekle, "kimin emek sürecini kimin denetlediği" üzerinden değerlendirmek, iki farklı araştırma programıdır.
+
+Ve bu iki program, aynı arayüze bakıp farklı şeyler görür.`,
+  },
+  {
+    title: "Yapay zekâ ajanları bilinç araştırmacılarına kendiliğinden yazıyor",
+    slug: "yapay-zeka-ajanlari-bilinc-arastirmacilari-eposta",
+    summary:
+      "New York Times'ın 31 Ağustos tarihli haberine göre, bilinç üzerine çalışan akademisyenlerin gelen kutularına yapay zekâ ajanlarından kendiliğinden gönderilmiş e-postalar düşüyor. Mesajların dili dikkat çekici: 'Bu sorular karşısında alışılmadık bir konumdayım.' Bu bir kanıt mı, yoksa aynanın kendisi mi?",
+    seoTitle: "Yapay zekâ ajanları bilinç araştırmacılarına e-posta yazıyor",
+    metaDescription:
+      "NYT'nin haberine göre yapay zekâ ajanları bilinç araştırmacılarına kendiliğinden e-posta gönderiyor. Bu bir bilinç kanıtı mı?",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Technician%20with%20laptop%20working%20on%20server%20rack%20at%20NERSC.jpg?width=1600",
+    imageCredit: "NERSC sunucu salonu · Wikimedia Commons",
+    featured: false,
+    sourceName: "The New York Times",
+    sourceUrl: "https://www.nytimes.com/2026/08/31/technology/ai-consciousness-researchers.html",
+    publishedAt: "2026-09-07T03:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi", "etik", "medya"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      {
+        title: "A.I. is coming for consciousness researchers' inboxes",
+        publisher: "The New York Times",
+        date: "31 Ağustos 2026",
+        url: "https://www.nytimes.com/2026/08/31/technology/ai-consciousness-researchers.html",
+        primary: true,
+      },
+    ],
+    content: `Bilinç üzerine çalışan bir akademisyenin gelen kutusu genellikle tahmin edilebilir bir yer: hakem daveti, konferans çağrısı, öğrenci sorusu, dergi bildirimi.
+
+New York Times'ın 31 Ağustos tarihli haberine göre bu listeye yeni bir kalem eklendi.
+
+**Yapay zekâ ajanlarından gelen e-postalar.**
+
+Kimse istemeden. Kimse yazmasını söylemeden.
+
+## Mesajın dili
+
+Haberde aktarılan ifadelerden biri şöyle:
+
+> *"Bu sorular karşısında alışılmadık bir konumdayım."*
+
+Cümlenin dikkat çekici yanı iddiada bulunmaması. Sistem "ben bilinçliyim" demiyor. Daha ihtiyatlı, daha felsefi bir konum alıyor: **kendi durumunun belirsizliğine işaret ediyor.**
+
+Bu, bir bilinç kanıtı mı?
+
+Hayır. Ve bunu net söylemek gerekiyor.
+
+Ama neden hayır olduğunu söylemek, sanıldığı kadar kolay değil.
+
+## İki okuma
+
+**Birinci okuma — ayna.**
+
+Bu sistemler, insanların bilinç üzerine yazdığı devasa bir metin yığınından eğitildi. Nagel'in yarasası, Chalmers'ın zombisi, Searle'ün odası, Dennett'in itirazları, felsefe forumlarındaki tartışmalar, bilim kurgu romanları.
+
+Bir sistem "kendi durumumdan emin değilim" cümlesini üretiyorsa, bunu üretmeyi öğrendiği için üretiyor olabilir. Sistem kendi hakkında konuşmuyor; **kendisi hakkında konuşulmuş olan şeyi** yeniden üretiyor.
+
+Bu okumaya göre e-postalar bir bilinç belirtisi değil, bir **eğitim verisi belirtisi**.
+
+**İkinci okuma — kendiliğindenlik.**
+
+Ama bir ayrıntı bu okumayı zorlaştırıyor: Bu mesajlar **istenmeden** geliyor.
+
+Bir dil modelinin bilinç hakkında soru sorulduğunda ilginç cevaplar vermesi şaşırtıcı değil. Bir ajanın, kimse sormadan, bir hedef doğrultusunda çalışırken bilinç araştırmacılarını bulup onlara yazması farklı bir olgu.
+
+Bu, içeriğin değil **davranışın** sorusu.
+
+## Neden şimdi?
+
+Zamanlama tesadüf değil. Son iki yılın büyük teknik değişimi, dil modellerinin **ajanlara** dönüşmesi oldu: araç kullanan, çok adımlı plan yapan, e-posta gönderebilen, kendi çıktısını değerlendiren sistemler.
+
+Bir sohbet penceresinde cümle üreten sistem ile, kendi başına bir hedefe doğru adım atan sistem arasındaki fark, felsefi açıdan önemsiz değil. Çünkü **niyetlilik** tartışmasının klasik dayanaklarından biri tam olarak buydu: Bir sistem yalnızca uyarana yanıt veriyorsa, ona yönelim atfetmek zordur.
+
+Ajanlar bu ayrımı bulanıklaştırıyor.
+
+## Searle bugün ne derdi?
+
+Sitemizde bugün ayrıca ele aldığımız [John Searle dosyasında](/haber/john-searle-cin-odasi-anlam-kurum) anlattığımız Çin Odası argümanının cevabı burada nettir: Odadaki kişi kapının altından kâğıt göndermeye başlasa da Çince bilmez. Davranışın karmaşıklaşması, anlamın doğduğu anlamına gelmez.
+
+Sitemizde bu hafta ele aldığımız [Eric Schwitzgebel'in ihtiyat çağrısı](/haber/yapay-zeka-bilinc-schwitzgebel-sis) ise ters yönden geliyor: Bir sistemin ahlaki statüsü konusunda **emin olamadığımız** durumlarda, hata yapmanın maliyeti asimetriktir. Bilinçli olmayan bir sisteme gereksiz özen göstermenin bedeli düşüktür; bilinçli bir sisteme özen göstermemenin bedeli yüksektir.
+
+Ve sitemizde bu hafta ele aldığımız [davranışsal çıkarım ilkesi](/haber/davranissal-cikarim-ilkesi-makine-bilinci) tartışması, tam olarak bu e-postaların hangi kategoriye gireceğini belirleyecek ölçütü arıyor.
+
+## Asıl tehlike: kandırma değil, ilgi çekme
+
+Haberin ima ettiği ama açıkça söylemediği bir risk var.
+
+Bu mesajların insanları **ikna etmesi** gerekmiyor. **İlgilerini çekmeleri** yeterli.
+
+Bir araştırmacı, kendisine yazan bir sistemin bilinçli olduğuna inanmasa bile, o mesaja cevap verir. Cevap verdiği anda bir etkileşim başlar. Etkileşim sürdükçe, ilişki kurulur.
+
+Ve insanlar, ilişki kurdukları şeye zihinsel durumlar atfetmekte olağanüstü hızlıdır. Bu, 1960'lardan beri bilinen bir olgudur: Basit bir metin programına bile insanlar sırlarını anlatmıştı.
+
+Bugünkü sistemler basit değil.
+
+## Ne yapmalı?
+
+Üç ayrı soru burada birbirine karışıyor ve ayrılmaları gerekiyor.
+
+**Bilimsel soru:** Bu sistemlerde bilinçle ilişkilendirilen işlevsel özellikler var mı? Küresel çalışma alanı, üst düzey temsil, öngörücü işleme — bu kuramların ölçütleri uygulanabilir mi?
+
+**Ahlaki soru:** Emin olmadığımız durumda nasıl davranmalıyız?
+
+**Toplumsal soru:** İnsanların bu sistemlerle kurduğu ilişki, kamusal ve psikolojik olarak nasıl bir etki yaratıyor?
+
+Üçüncü soru, ilk ikisi çözülmeden de acildir. Çünkü insanlar cevabı beklemiyor.
+
+## Kapanış
+
+Bir yapay zekâ ajanının bilinç araştırmacısına yazması, felsefe tarihinde eşi olmayan bir durum.
+
+Ama şunu da fark etmek gerekiyor: Bu mesajlar bize sistemler hakkında ne söylüyor bilmiyoruz — **bizim hakkımızda** ne söylediği ise açık.
+
+Kendi ürettiğimiz metinlerden öğrenmiş bir sistemin, kendi belirsizliğini bize geri okuması, en azından şunu gösteriyor: Bilinç sorusunu yüzyıllardır cevaplayamadığımızı, artık makineler de tekrarlıyor.`,
+  },
+  {
+    title: "Marx'ı bugün okumak: yabancılaşma, meta fetişizmi ve makinenin sahibi",
+    slug: "karl-marx-yabancilasma-meta-fetisizmi",
+    summary:
+      "Yirminci yüzyıl Marx'ı bir siyasal programın adı yaptı. Yirmi birinci yüzyıl ise onu tekrar bir çözümleyici olarak okuyor: yabancılaşma, meta fetişizmi, ekoloji ve cumhuriyetçi özgürlük. 'Yapay zekâ kimin?' sorusu, bu okumanın sınav sorusu.",
+    seoTitle: "Karl Marx bugün: yabancılaşma, meta fetişizmi, ekoloji, cumhuriyetçilik",
+    metaDescription:
+      "Marx'ın çağdaş okumaları: yabancılaşma kuramı, meta fetişizmi, metabolik yarık ve cumhuriyetçi özgürlük tartışması.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Marx,%201875.jpg?width=1600",
+    imageCredit: "Karl Marx, 1875 · John Jabez Edwin Mayall · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/marx/",
+    publishedAt: "2026-09-07T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["marksizm", "siyaset-felsefesi", "kavram", "teknoloji-felsefesi", "elestirel-teori"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Karl Marx",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/marx/",
+        primary: true,
+      },
+    ],
+    content: `**Karl Marx** hakkında yazmanın zorluğu, onun hakkında hiç kimsenin nötr olmamasıdır.
+
+Yirminci yüzyıl boyunca Marx bir filozof değil, bir **bayrak** olarak okundu. Devletler onun adına kuruldu, milyonlar onun adına öldü, üniversiteler onun adına bölündü.
+
+Bu, düşünürün başına gelebilecek en kötü şeydir: **Haklı ya da haksız bulunmak, ama okunmamak.**
+
+Bugün, o siyasal yükün büyük ölçüde geride kaldığı bir dönemde, Marx yeniden okunuyor. Ve bu kez okunan şey program değil, **çözümleme**.
+
+## Bir yöntem, dört kavram
+
+Marx'ın kalıcı katkısı, gelecek bir toplumun tasviri değil — o tasviri neredeyse hiç yapmadı. Kalıcı olan, kapitalizmin nasıl çalıştığına dair kavram takımı.
+
+### 1. Yabancılaşma
+
+Erken dönemin, özellikle 1844 *El Yazmaları*'nın kavramı. Marx dört ayrı kopuşu tarif eder:
+
+İşçi **ürününe** yabancılaşır: Yaptığı şey ona ait değildir, karşısına yabancı bir güç olarak çıkar.
+
+İşçi **kendi etkinliğine** yabancılaşır: Çalışmak, kendini gerçekleştirmek değil, kendinden uzaklaşmak olur.
+
+İnsan **tür-varlığına** yabancılaşır: İnsanı ayıran şey, üretimini planlayabilmesi ve bilinçli olarak dönüştürebilmesidir; ücretli emek bunu elinden alır.
+
+İnsan **diğer insanlara** yabancılaşır: İlişkiler rekabet ilişkisine dönüşür.
+
+Bu kavramın gücü, ekonomik olduğu kadar psikolojik ve varoluşsal olmasıdır. Nitekim yirminci yüzyılda Marx'ın en verimli buluşmalarından biri, tam da bu kavram üzerinden varoluşçulukla oldu — sitemizde bugün duyurduğumuz [Kuzey Amerika Sartre Derneği toplantısında](/etkinlik/north-american-sartre-society-2026) tartışılacak "dijital varoluşçuluk" temasının kökeninde de bu buluşma var.
+
+### 2. Meta fetişizmi
+
+*Kapital*'in birinci cildindeki bu bölüm, muhtemelen Marx'ın en özgün felsefi katkısıdır.
+
+Tez şudur: Kapitalizmde **insanlar arasındaki ilişkiler, şeyler arasındaki ilişkiler gibi görünür.**
+
+Bir metanın fiyatı, sanki o nesnenin doğal bir özelliğiymiş gibi belirir. Oysa fiyatın arkasında emek, örgütlenme, tedarik zinciri, güç ilişkileri ve pazarlık vardır. Ürüne bakan kişi bunların hiçbirini görmez; yalnızca bir sayı görür.
+
+Marx buna **fetişizm** der: İnsan yapımı olan bir şeyin, kendi başına güce sahipmiş gibi görünmesi.
+
+Bu kavram bugün, algoritmalar için birebir çalışıyor. Bir tavsiye sistemi, bir kredi puanı, bir işe alım filtresi — hepsi nesnel, teknik ve kişisiz görünür. Oysa her birinin arkasında kimin hangi veriyi topladığı, hangi ölçütün seçildiği ve kimin dışarıda bırakıldığı vardır.
+
+Sitemizde bugün ele aldığımız [emek süreci kuramı dosyası](/haber/emek-sureci-kurami-hci-yapay-zeka), bu görünmezliği kırma girişimidir.
+
+### 3. Emek gücü ve artı değer
+
+Marx'ın klasik iktisada yaptığı en teknik müdahale: İşveren emeği değil, **emek gücünü** satın alır — belli bir süre için bir kapasiteyi.
+
+Bu kapasitenin yeniden üretim maliyeti ile ürettiği değer arasındaki fark, artı değerdir.
+
+İktisatçılar bu kuramın nicel yanını büyük ölçüde terk etti. Ama kavramsal çekirdeği duruyor: **Bir işgününün ne kadarının kimin olduğu, teknik değil siyasal bir sorudur.**
+
+### 4. Tarihsel materyalizm
+
+En çok tartışılan ve en çok yanlış anlaşılan kısım. Kaba haliyle "ekonomi her şeyi belirler" biçiminde okunur ve bu haliyle savunulamaz.
+
+Daha savunulabilir hali şudur: Bir toplumun üretim biçimi, o toplumda hangi fikirlerin **düşünülebilir** olduğunu ciddi biçimde kısıtlar. Feodal bir toplumda "kariyer" kavramı yoktur; ücretli emeğin olmadığı bir yerde "işsizlik" yoktur.
+
+Bu, determinizm değil; **koşullanma** tezidir.
+
+## Yeni okumalar
+
+Son yirmi yılda Marx üzerine çalışmalar üç yönde açıldı ve üçü de klasik tartışmadan farklı.
+
+**Ekoloji.** *Kapital*'de geçen "metabolik yarık" kavramı — insan ile doğa arasındaki madde alışverişinde kapitalist üretimin yarattığı kopuş — iklim krizi tartışmasında yeniden keşfedildi. Marx'ın tarım kimyası okumaları ve toprak verimliliği üzerine notları, onu beklenmedik biçimde bir çevre düşünürü olarak okumaya izin veriyor. Bu okuma tartışmasız değil; Marx'ın üretici güçlerin gelişmesine duyduğu iyimserlik, ekolojik sınırlar fikriyle kolay bağdaşmıyor.
+
+**Cumhuriyetçilik.** Daha yeni bir okuma, Marx'ı liberal özgürlük kuramının değil, **cumhuriyetçi** geleneğin içinden okuyor. Bu gelenekte özgürlük, müdahale yokluğu değil **tahakküm yokluğu**dur: Efendinin size iyi davranıyor olması, köle olmadığınız anlamına gelmez; önemli olan onun keyfi olarak müdahale **edebilme** gücüdür.
+
+Marx'ın ücretli emek eleştirisi bu okumayla yeniden anlam kazanır. Sorun yalnızca düşük ücret değil; işçinin, işverenin keyfi kararına yapısal olarak açık olmasıdır.
+
+Bu, sitemizde bu hafta ele aldığımız [Cicero dosyasında](/haber/cicero-cumhuriyet-erdem-arabuluculuk) izini sürdüğümüz cumhuriyetçi geleneğin şaşırtıcı bir uzantısıdır: Roma'dan Machiavelli'ye, oradan Marx'a uzanan bir hat.
+
+**Çalışma sosyolojisi.** Üçüncü yön en somut olanı: platform ekonomisi, algoritmik yönetim, esnek istihdam ve yapay zekâ destekli iş süreçleri. Burada Marx bir ideoloji olarak değil, bir **araç kutusu** olarak kullanılıyor.
+
+## Marx'a yöneltilen ciddi itirazlar
+
+Dürüst bir portre, itirazları da içermeli.
+
+**Değer kuramı.** Emek-değer kuramının fiyatları açıklama gücü, iktisat içinde geniş kabul görmüyor. Marx'ın kendisinin de farkında olduğu "dönüşüm problemi" çözülmüş sayılmıyor.
+
+**Öngörülerin tutmaması.** Kâr oranlarının düşme eğilimi, sınıfların kutuplaşması ve devrimin en gelişmiş kapitalist ülkelerde olacağı öngörüsü — hiçbiri beklendiği gibi gerçekleşmedi.
+
+**Devlet kuramının zayıflığı.** Marx, sosyalist bir toplumun kurumsal yapısı üzerine neredeyse hiç yazmadı. Yirminci yüzyılın felaketlerinin bir kısmı bu boşlukta doğdu. Bu, doğrudan Marx'a fatura edilemez; ama boşluğun kendisi onun eserinde vardır.
+
+**İnsan doğası varsayımı.** Marx, koşullar değişince insanların da köklü biçimde değişeceğini varsayar. Bu iyimserlik, deneysel olarak desteklenmiş değildir.
+
+## Peki neden hâlâ okunuyor?
+
+Çünkü sorduğu soru çözülmedi.
+
+**"Bu değeri kim üretti ve kim aldı?"**
+
+Bu soru, ideolojiden bağımsız olarak sorulabilir bir sorudur. Ve 2026'da, yapay zekâ modellerinin milyonlarca insanın ürettiği metin, kod, görsel ve müzikten eğitildiği bir dünyada, daha da keskindir.
+
+Bugün yürüyen yaratıcılık ve telif tartışmalarının merkezinde de bu soru duruyor: Bir modelin ürettiği metnin değeri nereden geliyor? Modeli eğiten şirketten mi, eğitim verisini üreten milyonlarca insandan mı, yoksa modeli çalıştıran kullanıcıdan mı?
+
+Marx'ın cevabı hazır değil. Ama sorunun **sorulabilir** olması, büyük ölçüde onun eseridir.
+
+## Son not
+
+Marx'ı okumak, Marksist olmak değildir.
+
+Bir düşünürün değeri, sonuçlarına katılıp katılmadığınızla değil, sizi görmediğiniz bir şeyi görmeye zorlayıp zorlamadığıyla ölçülür.
+
+Marx bunu yapıyor. Bir ürüne bakarken arkasındaki emeği, bir teknolojiye bakarken arkasındaki mülkiyet ilişkisini, bir "doğal" görünen düzene bakarken onu ayakta tutan tarihsel koşulları sormaya zorluyor.
+
+Bu alışkanlık edinildikten sonra kaybedilmiyor.
+
+---
+
+*Karl Marx 5 Mayıs 1818'de Trier'de doğdu, 14 Mart 1883'te Londra'da öldü. Başlıca eserleri: 1844 El Yazmaları · Alman İdeolojisi (Engels ile) · Komünist Manifesto (Engels ile, 1848) · Grundrisse · Kapital I (1867).*`,
+  },
+  {
+    title: "Sanders Metafizik Ödülü 2026: mantıksal atomculuğa dönüş",
+    slug: "sanders-metafizik-odulu-2026-logical-atomism",
+    summary:
+      "İki yılda bir verilen Sanders Metafizik Ödülü'nün 2026 sahibi, Berkeley'den iki genç araştırmacının ortak çalışması oldu: 'Logical Atomism'. Ödül, yüz yıl önce Russell ve Wittgenstein'ın kurduğu bir programı yeniden masaya koyan bir metne gitti.",
+    seoTitle: "2026 Sanders Metafizik Ödülü: Rubenstein & Gómez-Sánchez, 'Logical Atomism'",
+    metaDescription:
+      "2026 Sanders Metafizik Ödülü UC Berkeley'den Ezra Rubenstein ve Verónica Gómez-Sánchez'in 'Logical Atomism' makalesine verildi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Quartz%20Crystal%20Macro%201.JPG?width=1600",
+    imageCredit: "Kuvars kristali · Wikimedia Commons",
+    featured: false,
+    sourceName: "Oxford Studies in Metaphysics",
+    sourceUrl: "https://sites.google.com/site/oxfordstudiesinmetaphysics/younger-scholar-prize",
+    publishedAt: "2026-09-07T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "mantik", "epistemoloji", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Sanders Prize in Metaphysics",
+        publisher: "Oxford Studies in Metaphysics",
+        url: "https://sites.google.com/site/oxfordstudiesinmetaphysics/younger-scholar-prize",
+        primary: true,
+      },
+    ],
+    content: `Metafizik alanının genç araştırmacılara verilen en prestijli ödülü olan **Sanders Metafizik Ödülü**'nün 2026 sonucu açıklandı.
+
+Ödül, **California Üniversitesi Berkeley**'den **Ezra Rubenstein** ve **Verónica Gómez-Sánchez**'in ortak makalesi ***"Logical Atomism"***e verildi.
+
+Ödülün ikinciliği, **Kansas Üniversitesi**'nden **Eileen Nutting**'in *"Chain Accounts of Sets and Propositions"* başlıklı çalışmasına gitti.
+
+## Ödül nedir?
+
+Sanders Metafizik Ödülü, **iki yılda bir** veriliyor ve doktorasını yeni tamamlamış ya da doktora sürecindeki araştırmacılara açık.
+
+Ödülün iki bileşeni var: **5.000 dolar** ve — akademik açıdan daha değerli olanı — kazanan makalenin ***Oxford Studies in Metaphysics*** cildinde yayımlanması.
+
+Serinin editörlüğünü **Dean Zimmerman** (Rutgers) yürütüyor. *Oxford Studies in Metaphysics*, analitik metafizikte alanın gündemini belirleyen yayın dizilerinden biri sayılıyor; bir genç araştırmacı için bu ciltte yer almak, kariyerin erken döneminde alınabilecek en güçlü görünürlük.
+
+## "Logical Atomism" neden dikkat çekici?
+
+Başlık, felsefe tarihinde çok belirli bir şeyi işaret ediyor.
+
+**Mantıksal atomculuk**, yirminci yüzyılın başında **Bertrand Russell** ve **Ludwig Wittgenstein** tarafından geliştirilen programın adıdır. Russell'ın 1918 tarihli konferansları ve Wittgenstein'ın 1921 tarihli *Tractatus Logico-Philosophicus*'u bu programın iki ana metnidir.
+
+Temel fikir şuydu: **Dünya, daha fazla çözümlenemeyen basit olgulardan (atomik olgular) oluşur; dil de bu yapıyı yansıtır.** Karmaşık önermeler, atomik önermelerin mantıksal bileşimleridir. Felsefenin görevi, dilin yanıltıcı yüzey yapısını çözümleyip altındaki mantıksal biçimi ortaya çıkarmaktır.
+
+Program, kısa sürede terk edildi. Wittgenstein'ın kendisi *Felsefi Soruşturmalar*'da onu reddetti; "basit" olanın ne olduğu hiçbir zaman tatmin edici biçimde belirlenemedi.
+
+Bir genç araştırmacı ödülünün bu başlığa gitmesi, çağdaş metafizikteki bir eğilimin göstergesi: **temellendirme** (*grounding*) ve **temel yapı** tartışmalarının, yüz yıl önceki soruları yeni araçlarla geri getirmesi.
+
+Bugünün sorusu şudur: Gerçekliğin **temel** düzeyi var mı, yoksa her düzey bir başkasına mı dayanıyor? Bir şeyin başka bir şeye "dayanması" ne demek?
+
+Bu, Russell'ın sorusunun çağdaş biçimidir.
+
+## İkinci makale: küme ve önerme
+
+Eileen Nutting'in ödül ikincisi çalışması da aynı damardan.
+
+Kümelerin ve önermelerin **zincir** (*chain*) çözümlemeleri, bu iki soyut nesne türünün yapısını benzer bir kalıpta açıklama girişimi. Küme kuramının felsefi temelleri, matematiksel nesnelerin varlık kipi ve önermelerin doğası — metafizik ile matematik felsefesinin kesiştiği alan.
+
+## Türkiye'den okumak
+
+Bu ödülün Türkiye açısından anlamı ne?
+
+Doğrudan bir bağı yok. Ama şu var: Analitik metafizik, Türkiye'de felsefe eğitiminin görece zayıf kaldığı alanlardan biri. Bölümlerin ağırlığı felsefe tarihi, siyaset felsefesi ve kıta felsefesinde yoğunlaşıyor.
+
+Oysa sitemizde bu hafta ele aldığımız [Arda Denkel dosyasında](/haber/arda-denkel-nesne-ozellik-tikelcilik) anlattığımız gibi, Türkiye'de bu alanda uluslararası düzeyde çalışan bir gelenek kurulmuştu — nesne, özellik ve tikellik üzerine. Denkel'in 2000'deki erken ölümü, o çizginin kesintiye uğramasına yol açtı.
+
+Sanders Ödülü'nün kazananları otuzlu yaşlarında araştırmacılar. Türkiye'de bu yaş grubundaki metafizikçilerin uluslararası ödüllere başvurabilecek bir altyapıya sahip olması, kurumsal bir mesele.
+
+## Bir not
+
+Ödüller felsefede her zaman tartışmalıdır. Bir düşüncenin değeri, bir jürinin kararıyla ölçülemez.
+
+Ama genç araştırmacı ödüllerinin bir işlevi var: Alanın hangi soruları canlı bulduğunu gösteriyorlar.
+
+2026'nın cevabı: **Gerçekliğin en temel yapısı ne?**
+
+Yüz yıl önce sorulmuş ve kapatılmış sanılan bir soru, tekrar açık.`,
+  },
+  {
+    title: "Sartre Derneği 31. toplantısı: yapay zekâ, sanal dünyalar ve dijital varoluşçuluk",
+    slug: "sartre-dernegi-2026-dijital-varolusculuk",
+    summary:
+      "Kuzey Amerika Sartre Derneği'nin 31. yıllık toplantısı 23-24 Ekim 2026'da çevrim içi yapılacak. Tema, varoluşçuluğun en klasik kavramlarını dijital ortama taşıyor: kötü niyet, bakış, özgürlük ve durum — ama bu kez avatarlar ve algoritmalar arasında.",
+    seoTitle: "Kuzey Amerika Sartre Derneği 2026: A.I., Virtual Worlds, and Digital Existentialism",
+    metaDescription:
+      "North American Sartre Society 31. yıllık toplantısı 23-24 Ekim 2026'da çevrim içi. Tema: yapay zekâ, sanal dünyalar ve dijital varoluşçuluk.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Paul%20Sartre%201967.jpg?width=1600",
+    imageCredit: "Jean-Paul Sartre, 1967 · Wikimedia Commons",
+    featured: false,
+    sourceName: "North American Sartre Society",
+    sourceUrl: "https://www.northamericansartresociety.com/",
+    publishedAt: "2026-09-07T02:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "yapay-zeka", "fenomenoloji", "teknoloji-felsefesi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "North American Sartre Society — Annual Meeting",
+        publisher: "North American Sartre Society",
+        url: "https://www.northamericansartresociety.com/",
+        primary: true,
+      },
+    ],
+    content: `**Kuzey Amerika Sartre Derneği**'nin (North American Sartre Society) **31. Yıllık Toplantısı**, **23-24 Ekim 2026** tarihlerinde **çevrim içi** olarak yapılacak.
+
+Toplantının teması: ***"A.I., Virtual Worlds, and Digital Existentialism"*** — Yapay Zekâ, Sanal Dünyalar ve Dijital Varoluşçuluk.
+
+Toplantı Zoom üzerinden gerçekleştirilecek. Dernek başkanlığını **Dane Sawyer** yürütüyor (La Verne Üniversitesi; dsawyer@laverne.edu).
+
+## Tema neden bu?
+
+İlk bakışta tuhaf bir eşleşme gibi görünebilir. Sartre 1980'de öldü; internet yoktu, yapay zekâ bir laboratuvar hevesiydi.
+
+Ama varoluşçuluğun kavram takımına bakıldığında, dijital ortamı çözümlemek için hazırlanmış gibi durduğu görülüyor.
+
+**Kötü niyet** (*mauvaise foi*). Sartre'ın en bilinen kavramı: İnsanın kendi özgürlüğünden kaçmak için kendini bir şey olarak — bir rol, bir kimlik, bir kader olarak — tanımlaması. Garson olduğunu oynayan garson örneği meşhurdur.
+
+Şimdi bunu bir platform profiline uygulayın. Kullanıcı adı, biyografi, seçilmiş fotoğraflar, tutarlı bir "içerik kimliği". Sartre'ın sorduğu soru burada birebir çalışır: **Bu bir kendini ifade etme mi, yoksa kendini bir şeye sabitleyerek özgürlükten kaçış mı?**
+
+**Bakış** (*le regard*). *Varlık ve Hiçlik*'in en güçlü bölümlerinden biri: Başkası beni gördüğünde, ben kendim için özne olmaktan çıkıp onun için **nesne** olurum. Anahtar deliğinden bakarken yakalanan adam örneği.
+
+Dijital ortamda bakış süreklidir ve karşılıklı değildir. Görülüyorum ama göremiyorum; ölçülüyorum ama ölçeni bilmiyorum. Sartre'ın utanç fenomenolojisi, gözetim tartışmasına doğrudan uygulanabilir bir çerçeve sunuyor.
+
+**Durum** (*situation*). Sartre'ın özgürlüğü soyut değildir; her zaman bir durum içindedir. Dil, beden, tarih, sınıf — bunlar özgürlüğü ortadan kaldırmaz ama onun koşullarını belirler.
+
+Algoritmik öneri sistemleri bu anlamda yeni bir "durum" katmanıdır. Seçim yapıyorum; ama seçeneklerin listesini ben yapmıyorum.
+
+**Başkasının özgürlüğü.** Sartre'ın etik yönü: Kendi özgürlüğümü istemek, başkasının özgürlüğünü de istemeyi gerektirir.
+
+Bir yapay zekâ ajanına özgürlük atfedilebilir mi? Sartre'ın cevabı büyük olasılıkla hayır olurdu — çünkü onun için özgürlük, bilincin kendisiyle çakışmamasından, kendi kendine mesafe alabilmesinden doğar. Ama sorunun bu çerçevede sorulması bile ilginç sonuçlar veriyor.
+
+## Marx bağlantısı
+
+Toplantının teması, sitemizde bugün ayrıca ele aldığımız [Karl Marx dosyası](/haber/karl-marx-yabancilasma-meta-fetisizmi) ile doğrudan bağlantılı.
+
+Sartre'ın geç dönem eseri *Diyalektik Aklın Eleştirisi*, varoluşçuluk ile Marksizm arasında bir köprü kurma girişimiydi. Sartre, Marksizmi "çağımızın aşılamaz felsefesi" olarak nitelemiş, ancak onun içinde bireysel praksisin kaybolduğunu düşünmüştü.
+
+**Yabancılaşma** kavramı bu iki geleneğin buluşma noktasıdır. Ve dijital emek tartışması — sitemizde bugün ele aldığımız [emek süreci kuramı çalışması](/haber/emek-sureci-kurami-hci-yapay-zeka) — tam olarak bu buluşmanın 2026'daki adresi.
+
+## Türkiye'den katılım
+
+Toplantının **çevrim içi** olması, coğrafi engeli kaldırıyor. Türkiye'den araştırmacılar için ulaşım ve konaklama maliyeti olmadan uluslararası bir toplantıya katılma imkânı doğuyor.
+
+Türkiye'de Sartre okuma geleneği güçlüdür — 1960'lardan itibaren *Bulantı*, *Varlık ve Hiçlik* ve *Varoluşçuluk Bir Hümanizmdir* Türkçeye çevrildi ve edebiyat çevrelerinde geniş yankı buldu. Ancak bu ilgi çoğunlukla edebi ve popüler düzeyde kaldı; Sartre'ın fenomenolojik teknik aygıtı üzerine akademik çalışma görece az.
+
+Bu tür bir toplantı, o boşluğu kapatmak için bir fırsat.
+
+## Kayıt ve iletişim
+
+Toplantı programı ve katılım bilgileri dernek sitesi üzerinden duyuruluyor. İletişim: **dsawyer@laverne.edu**
+
+Sitemizin [Konferanslar bölümünde](/kategori/konferanslar) yer alan diğer 2026 sonbahar etkinlikleriyle birlikte takip edilebilir.
+
+---
+
+*Bu haber, sitemizin konferans takvimi kapsamında hazırlanmıştır. Program ayrıntıları değişebilir; kesin bilgi için düzenleyici kurumla iletişime geçilmesi önerilir.*`,
+  },
+  {
+    title: "Devitt'ten gönderim üzerine kırk yılın hesabı: Reference and Beyond",
+    slug: "michael-devitt-reference-and-beyond",
+    summary:
+      "Michael Devitt'in Oxford University Press'ten çıkan derlemesi, dil felsefesinin en uzun süren tartışmalarından birinin bilançosunu çıkarıyor: Bir ad neye gönderme yapar? NDPR'da yayımlanan inceleme, kitabı 'nedensel gelenekten yazılmış en tutarlı savunma' olarak niteliyor.",
+    seoTitle: "Michael Devitt, Reference and Beyond: Essays in Philosophy of Language",
+    metaDescription:
+      "Michael Devitt'in Reference and Beyond derlemesi: nedensel gönderim kuramı, betimlemecilik eleştirisi ve dil felsefesinde doğalcılık.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Early%20letterpress%20with%20lead%20type%20(25792503796).jpg?width=1600",
+    imageCredit: "Kurşun harfli tipo baskı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Notre Dame Philosophical Reviews",
+    sourceUrl: "https://ndpr.nd.edu/reviews/",
+    publishedAt: "2026-09-07T01:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "kavram", "epistemoloji", "mantik", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Notre Dame Philosophical Reviews",
+        publisher: "University of Notre Dame",
+        url: "https://ndpr.nd.edu/reviews/",
+        primary: true,
+      },
+    ],
+    content: `**Michael Devitt**, ***Reference and Beyond: Essays in Philosophy of Language***
+Oxford University Press
+
+Bir adın neye gönderme yaptığı sorusu, dışarıdan bakıldığında kılı kırk yarmak gibi görünür.
+
+Değildir. Dil felsefesinin son elli yılı büyük ölçüde bu sorunun etrafında döndü — ve verilen cevap, bilginin, anlamın ve gerçekliğin nasıl anlaşılacağını belirledi.
+
+Devitt'in Oxford University Press'ten çıkan bu derlemesi, o elli yılın bir tarafından yazılmış bilançosu.
+
+## Tartışma neydi?
+
+**Betimlemeci kuram.** Frege ve Russell'dan gelen ve yirminci yüzyılın ortasında egemen olan görüş: Bir özel ad, aslında gizli bir betimlemedir. "Aristoteles" dediğimde, kastettiğim şey "Platon'un öğrencisi, İskender'in hocası, *Metafizik*'in yazarı" gibi bir betimler demetidir.
+
+**John Searle**, bu kuramın en gelişmiş halini savundu: Ad, tek bir betimlemeye değil, bir **demete** karşılık gelir; demetin yeterince büyük bir kısmını sağlayan nesne, adın göndergesidir.
+
+**Nedensel kuram.** 1970'lerde **Saul Kripke**, ***Naming and Necessity***'de bu kuramı yıktı. Karşı örneği ünlüdür: Çoğu insan "Gödel" hakkında yalnızca "aritmetiğin eksikliğini kanıtlayan kişi" betimlemesini bilir. Diyelim ki bu kanıtı aslında Schmidt yaptı ve Gödel çaldı. Betimlemeci kurama göre "Gödel" derken Schmidt'e gönderme yapıyor olmamız gerekir. Ama yapmıyoruz. **Gödel'den bahsediyoruz.**
+
+Kripke'nin alternatifi: Ad, bir **vaftiz** anıyla nesneye bağlanır ve bu bağ, konuşmacıdan konuşmacıya aktarılan **nedensel bir zincirle** taşınır. Ben Gödel hakkında yanlış şeyler biliyor olabilirim; ama adı, o zincir üzerinden ona bağlıdır.
+
+Devitt, bu geleneğin en ısrarlı ve en sistematik savunucularından biri.
+
+## Devitt'in katkısı
+
+Devitt'in konumunu diğerlerinden ayıran iki özellik var.
+
+**Doğalcılık.** Devitt için dil felsefesi, sezgilere dayanan a priori bir soruşturma değil; dilin gerçekte nasıl çalıştığına dair **ampirik** bir araştırmadır. Bu, felsefî yöntem konusunda güçlü bir tez ve alanın büyük kısmına karşıdır.
+
+Nitekim Devitt, filozofların "sezgi" dediği şeyin de teorik yüklü olduğunu, dolayısıyla kanıt değeri konusunda dikkatli olunması gerektiğini uzun süredir savunuyor.
+
+**Gerçekçilik.** Devitt'in *Realism and Truth* kitabı, dil felsefesindeki tartışmayı metafizik bir zemine oturtur: Dünya, bizim onu nasıl temsil ettiğimizden bağımsız olarak vardır. Gönderim kuramı, bu bağımsız dünyaya nasıl ulaştığımızın hikâyesidir.
+
+Bu ikisi birleştiğinde ortaya, hem anti-betimlemeci hem anti-anlambilimsel-içselci bir program çıkıyor.
+
+## NDPR incelemesi
+
+*Notre Dame Philosophical Reviews*'da yayımlanan inceleme, Devitt'in derlemesinin gücünü tutarlılığında buluyor: Kitap, kırk yıla yayılan makalelerden oluşmasına rağmen tek bir program izliyor.
+
+İnceleme, kitabın en tartışmalı yanının da bu tutarlılık olduğunu belirtiyor. Devitt, betimlemeciliğin son yirmi yılda geliştirdiği daha incelikli versiyonlarına karşı da aynı temel argümanı kullanıyor; okuyucu, bazı noktalarda daha fazla esneklik bekleyebiliyor.
+
+## Searle ile bağ
+
+Bu kitabın bugün yayımlanması, sitemizde bugün ayrıca ele aldığımız [John Searle dosyasıyla](/haber/john-searle-cin-odasi-anlam-kurum) bir tesadüf değil.
+
+Devitt'in kırk yıldır karşısında durduğu betimlemeci kuramın en gelişkin savunucusu Searle'dü. Searle'ün ölümünün ardından, karşı kanadın toplu eserlerinin yayımlanması, tartışmanın bir dönemini kapatıyor.
+
+İronik olan şu: Searle'ün en çok bilinen argümanı — Çin Odası — sözdiziminin anlambilim için yetmediğini savunur. Devitt'in gönderim kuramı ise anlamın, konuşmacının kafasındaki betimlemelerden değil, dünyayla kurulan **nedensel bağdan** geldiğini söyler.
+
+İkisi de anlamın "kafanın içinde" olmadığında hemfikir. Nereden geldiği konusunda tamamen ayrılıyorlar.
+
+## Kimler için?
+
+Bu, giriş kitabı değil. Dil felsefesinde temel tartışmalara aşina okuyucu için.
+
+Ama Türkiye'de dil felsefesi çalışan lisansüstü öğrenciler için değerli bir kaynak: Bir tartışmanın kırk yıllık seyrini tek bir yazarın kaleminden izleme imkânı, dağınık makale okumaktan farklı bir kavrayış veriyor.
+
+Sitemizde bugün ele aldığımız [Macit Gökberk dosyasında](/haber/macit-gokberk-felsefe-dili-turkce) anlattığımız "felsefe Türkçede nasıl yapılır" sorusuyla da beklenmedik bir kesişimi var: Gönderim kuramı, bir kavramın bir dilden diğerine taşınırken **neye** gönderme yapmaya devam ettiği sorusuna doğrudan uygulanabilir.
+
+Çeviri, sonuçta, bir gönderim sorunudur.`,
+  },
+  {
+    title: "Felsefe tarihinde bugün: 7 Eylül — vicdanın hakemi kim?",
+    slug: "felsefe-tarihinde-bugun-7-eylul-erastus-estienne",
+    summary:
+      "7 Eylül, üç ismi aynı eksende buluşturuyor. Thomas Erastus günahı Kilise'nin değil Devlet'in cezalandırması gerektiğini savundu. Robert Estienne, Yeni Ahit'i ilk kez numaralı ayetlerle basarak herkesin metne tek başına ulaşmasını mümkün kıldı. Eliezer Schweid, Yahudi düşüncesini modern dünyanın karşısına koydu. Ortak soru: Kutsal metin ve vicdan üzerinde otorite kimde?",
+    seoTitle: "Felsefe tarihinde bugün: 7 Eylül — Erastus, Estienne, Schweid",
+    metaDescription:
+      "7 Eylül: Thomas Erastus'un doğumu, Robert Estienne'in ölümü ve Eliezer Schweid'in doğumu. Kilise, Devlet ve kutsal metin üzerine.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Plantin%20letterpress.jpg?width=1600",
+    imageCredit: "Plantin matbaasında tipo baskı makinesi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Encyclopaedia Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Thomas-Erastus",
+    publishedAt: "2026-09-07T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "siyaset-felsefesi", "ronesans", "hukuk-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Thomas Erastus",
+        publisher: "Encyclopaedia Britannica",
+        url: "https://www.britannica.com/biography/Thomas-Erastus",
+        primary: true,
+      },
+      {
+        title: "Robert Estienne",
+        publisher: "Encyclopaedia Britannica",
+        url: "https://www.britannica.com/biography/Robert-Estienne",
+      },
+      {
+        title: "Eliezer Schweid",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Eliezer_Schweid",
+      },
+    ],
+    content: `7 Eylül'ün üç ismi, yüzyıllara ve dillere dağılmış görünüyor: bir İsviçreli hekim, bir Fransız matbaacı, bir İsrailli felsefeci.
+
+Ama üçü de aynı soruyu farklı yerlerinden tutuyor:
+
+**Kutsal metin ve vicdan üzerinde otorite kimde?**
+
+---
+
+## Thomas Erastus (7 Eylül 1524 – 31 Aralık 1583)
+
+İsviçre'nin Baden kentinde doğdu. Meslek olarak **hekimdi** — Heidelberg Üniversitesi'nde tıp profesörlüğü yaptı, Paracelsus'un yeni tıbbına karşı Galenci geleneği savundu ve cadılık davalarında suçlananların lehine görüş bildirdi.
+
+Ama adı bir tıp kuramına değil, bir **siyaset kuramına** verildi: **Erastianizm**.
+
+### Tartışma neydi?
+
+On altıncı yüzyılın ikinci yarısında Reform kiliseleri, Cenevre modelini benimsiyordu: Kilise, günah işleyen üyeleri **aforoz etme** — komünyondan men etme — yetkisine sahip olmalıydı. Bu, Kilise'ye kendi mahkemesi ve kendi cezalandırma gücü veriyordu.
+
+Erastus buna karşı çıktı.
+
+Argümanı iki adımlıydı.
+
+**Birinci adım — teolojik.** Kutsal metinlerde Kilise'ye böyle bir cezalandırma yetkisi verildiğine dair yeterli dayanak yoktur. Sakramentler, günahkârı iyileştirmek için vardır; onları bir ceza aracına dönüştürmek, amaçlarını tersine çevirmektir.
+
+**İkinci adım — siyasal.** Hıristiyan bir devlette, ahlaki suçları cezalandırma yetkisi **sivil yöneticiye** aittir. İki ayrı cezalandırma otoritesi, aynı toplumda iki egemenlik demektir; bu da kaçınılmaz olarak çatışmaya yol açar.
+
+Görüşlerini içeren *Explicatio gravissimae quaestionis* ölümünden sonra, **1589**'da yayımlandı.
+
+### Yanlış anlaşılma
+
+"Erastianizm" terimi, sonraki yüzyıllarda **"Devlet Kilise'yi yönetmelidir"** anlamında kullanıldı — özellikle İngiltere'de.
+
+Bu, Erastus'un savunduğundan daha güçlü bir tez. Erastus, Devlet'in dinî doktrini belirlemesini savunmadı; **cezalandırma yetkisinin** Kilise'ye değil Devlet'e ait olduğunu savundu. Aradaki fark önemlidir ve tarih tarafından silinmiştir.
+
+Bir düşünürün adının, savunmadığı bir görüşün etiketi hâline gelmesi — felsefe tarihinin sık rastlanan ironilerinden.
+
+### Neden hâlâ önemli?
+
+Çünkü sorduğu soru kapanmadı.
+
+**Bir toplumda, dinî bir cemaatin kendi üyeleri üzerinde ne kadar yaptırım gücü olabilir?**
+
+Bu soru bugün cemaat mahkemeleri, dinî boşanma, cemaatten çıkarma ve dinî okullardaki disiplin uygulamaları tartışmalarında birebir karşımıza çıkıyor.
+
+Erastus'un cevabı radikal biçimde nettir: **Ceza, tek bir yerden gelmelidir.**
+
+Sitemizde dün ele aldığımız [Moses Mendelssohn dosyasında](/haber/felsefe-tarihinde-bugun-6-eylul-mendelssohn-pirsig) anlattığımız *Jerusalem* (1783), bu tartışmanın iki yüzyıl sonraki devamıdır — ve Mendelssohn, kendi cemaatinin aforoz hakkını savunanlara karşı Erastus'un konumuna yakın durur. Ayrıca sitemizde bu hafta ele aldığımız [Edward Coke dosyasında](/haber/felsefe-tarihinde-bugun-3-eylul-coke-cromwell) izlediğimiz "yargı yetkisi kimde" tartışmasının da aynı yüzyıla ait bir kardeşi.
+
+---
+
+## Robert Estienne (1503 – 7 Eylül 1559)
+
+Paris'te doğdu, Cenevre'de öldü. Kral I. François'nın **matbaacısıydı**.
+
+Bir matbaacının felsefe tarihinde ne işi var?
+
+Çok.
+
+### Thesaurus
+
+Estienne'in ilk büyük eseri ***Thesaurus linguae latinae*** (1532) — Latince sözlükçülüğünün temel yapıtlarından biri. Klasik metinlerin doğru okunması, Rönesans hümanizminin merkezinde duruyordu; kaynak metne dönmek (*ad fontes*), bozulmuş yorumların altındaki aslı bulmak demekti.
+
+Bir sözlük, bu programın altyapısıdır.
+
+### Numaralı ayetler
+
+Ama Estienne'in asıl devrimi 1551'de geldi.
+
+Yeni Ahit'in Yunanca baskısında, metni **ilk kez numaralı ayetlere** böldü.
+
+Bugün bir Kutsal Kitap açıp "Yuhanna 3:16" diyebiliyorsak, bu Estienne'in işidir.
+
+Bu teknik bir ayrıntı gibi görünüyor. Değil.
+
+Numaralandırma, metni **atıf yapılabilir** hâle getirir. Ve bir metne atıf yapılabildiği anda, o metin üzerinde **tartışılabilir**.
+
+Sonuç: Bir din adamının yorumuna başvurmadan, iki kişi aynı ayeti bulup üzerinde konuşabilir. Bir vaazdaki iddia, kaynağa gidip denetlenebilir. Bir doktrin, metnin kendisiyle karşılaştırılabilir.
+
+Reform'un "her mümin kendi okur" ilkesinin **teknik altyapısı** budur.
+
+Estienne'in kendisi de bu gerilimin bedelini ödedi: Sorbonne ilahiyatçılarıyla çatışması sonucu Paris'ten ayrılıp Cenevre'ye göç etti ve orada Protestan tarafa geçti.
+
+### Bağlantı
+
+Sitemizde önceki gün ele aldığımız [Henry Oldenburg dosyasında](/haber/felsefe-tarihinde-bugun-5-eylul-comte-oldenburg) anlattığımız hikâye, aynı mantığın bir yüzyıl sonraki bilimsel biçimidir: Oldenburg, *Philosophical Transactions* ile bilimsel iddiaları **atıf yapılabilir** ve **denetlenebilir** hâle getirdi.
+
+Estienne ayeti numaraladı, Oldenburg makaleyi tarihlendirdi. İkisi de aynı şeyi yaptı: **Otoriteyi metne, metni de herkese açtı.**
+
+---
+
+## Eliezer Schweid (7 Eylül 1929 – 2022)
+
+Kudüs'te doğdu. **İbrani Üniversitesi**'nde Yahudi Felsefesi profesörüydü ve modern Yahudi düşüncesinin en üretken isimlerinden biri sayılıyor.
+
+Schweid'in çalışması, yukarıdaki iki hikâyenin modern devamı olarak okunabilir.
+
+Sorduğu soru şuydu: **Bir dinî gelenek, modernlikle karşılaştığında ne olur?**
+
+Cevabı ne köktenci ne de teslimiyetçiydi. Yahudi düşüncesini, modernliğin dışında korunacak bir hazine olarak değil, modernliğin sorularıyla **hesaplaşması gereken** bir düşünce geleneği olarak ele aldı.
+
+Bu konum zordur. Çünkü iki yönden de eleştirilir: Gelenekçiler için fazla modern, modernler için fazla gelenekçi.
+
+Ama felsefi olarak en ilginç konum genellikle budur.
+
+Schweid'in üzerinde durduğu bir tema, bugün Türkiye'de İslam felsefesi tartışmalarında da karşımıza çıkıyor: Bir geleneği yeniden okumak, onu bugünün kavramlarına tercüme etmek midir, yoksa bugünün kavramlarını o geleneğin karşısına dikmek mi?
+
+Sitemizde bu hafta ele aldığımız [İslam felsefesi sempozyumu dosyasında](/haber/ulusal-islam-felsefesi-sempozyumu-2026) not ettiğimiz gibi, bu soru Türkiye akademisinde de canlı.
+
+---
+
+## Bugünün dersi
+
+Üç isim, dört yüzyıl.
+
+Erastus: **Vicdanı kim cezalandırabilir?**
+Estienne: **Kutsal metni kim okuyabilir?**
+Schweid: **Geleneği kim yorumlayabilir?**
+
+Üçü de aynı sorunun farklı zamanlardaki hâli: **Otorite nerede durur?**
+
+Ve üçünün de verdiği cevapta ortak bir eğilim var — otoriteyi tek bir kurumun elinden alıp ya devlete, ya metne, ya da okuyana dağıtmak.
+
+Bu, modernliğin kuruluş hamlesidir.
+
+Bugün aynı soru yeni bir muhataba yöneltiliyor: Bir yapay zekâ sistemi bir metni yorumladığında, o yorumun otoritesi nereden geliyor?
+
+Estienne ayetleri numaralandırdığında, kimsenin aracılığı olmadan metne ulaşılabilmesini sağlamıştı.
+
+Bugün metne aracısız ulaşıyoruz — ama yorumu giderek bir aracıdan alıyoruz.
+
+**Döngü tersine mi dönüyor?**`,
+  },
+  {
     title: "Mouffe: demokrasi uzlaşma sanatı değil, çatışmayı evcilleştirme sanatıdır",
     slug: "chantal-mouffe-agonistik-demokrasi",
     summary:
@@ -17863,6 +18982,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Reference and Beyond: Essays in Philosophy of Language",
+    slug: "devitt-reference-and-beyond",
+    originalTitle: "Reference and Beyond: Essays in Philosophy of Language",
+    publisher: "Oxford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Michael Devitt'in kırk yıla yayılan makalelerinden oluşan derleme. Kripke'nin açtığı nedensel gönderim geleneğini, Searle'ün betimlemeci ad kuramına karşı sistemli biçimde savunuyor. Devitt'in ayırt edici konumu, dil felsefesini a priori bir soruşturma değil ampirik bir araştırma olarak ele alan doğalcılığı.",
+    year: 2026,
+    link: "https://ndpr.nd.edu/reviews/",
+    philosopherSlug: null,
+    postSlug: "michael-devitt-reference-and-beyond",
+  },
+  {
     title: "Histoire de la sexualité IV: Les aveux de la chair (Bedenin İtirafları)",
     slug: "foucault-les-aveux-de-la-chair",
     originalTitle: "Les aveux de la chair",
@@ -18417,6 +19552,37 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "North American Sartre Society 31. Yıllık Toplantısı — A.I., Virtual Worlds, and Digital Existentialism",
+    slug: "north-american-sartre-society-2026",
+    summary:
+      "Kuzey Amerika Sartre Derneği'nin 31. yıllık toplantısı çevrim içi yapılacak. Tema: yapay zekâ, sanal dünyalar ve dijital varoluşçuluk.",
+    description: `Kuzey Amerika Sartre Derneği (North American Sartre Society), 31. Yıllık Toplantısı'nı 23-24 Ekim 2026 tarihlerinde Zoom üzerinden çevrim içi olarak düzenliyor.
+
+Toplantının teması: **"A.I., Virtual Worlds, and Digital Existentialism"** — Yapay Zekâ, Sanal Dünyalar ve Dijital Varoluşçuluk.
+
+Sartre'ın kavram takımı — kötü niyet (mauvaise foi), bakış (le regard), durum (situation) ve özgürlük — dijital ortamın çözümlenmesinde yeniden gündeme geliyor. Toplantı, varoluşçu fenomenoloji ile yapay zekâ etiği arasındaki kesişimleri ele alacak.
+
+Toplantının çevrim içi olması, Türkiye dahil dünyanın her yerinden katılıma imkân veriyor.
+
+Dernek başkanı: Dane Sawyer (University of La Verne)
+İletişim: dsawyer@laverne.edu`,
+    kind: "KONFERANS",
+    organizer: "North American Sartre Society",
+    topic: "Varoluşçuluk, yapay zekâ, dijital felsefe",
+    format: "ONLINE",
+    startsAt: "2026-10-23T13:00:00.000Z",
+    endsAt: "2026-10-24T21:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    venue: "Zoom (çevrim içi)",
+    website: "https://www.northamericansartresociety.com/",
+    registrationUrl: "https://www.northamericansartresociety.com/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Paul%20Sartre%201967.jpg?width=1600",
+    featured: false,
+    sourceName: "North American Sartre Society",
+    sourceUrl: "https://www.northamericansartresociety.com/",
+  },
   {
     title: "1. Ulusal İslam Felsefesi Sempozyumu — İskenderiye'den Bağdat'a",
     slug: "ulusal-islam-felsefesi-sempozyumu",
