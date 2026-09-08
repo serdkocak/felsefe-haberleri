@@ -260,6 +260,58 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Robert Alexy",
+    slug: "robert-alexy",
+    headline: "Hukuk filozofu — Kiel Üniversitesi (1945-2026)",
+    bio: "Kurallar ile ilkeler arasındaki ayrımı sistemleştiren, orantılılık ve dengeleme kuramını geliştiren Alman hukuk filozofu. Hukukun \"ikili doğası\" tezinin kurucusu. 5 Eylül 2026'da öldü.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20alexy.jpg?width=600",
+    country: "Almanya",
+    birthYear: 1945,
+    affiliation: "Kiel Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Robert Alexy",
+    birthDate: "9 Eylül 1945, Oldenburg",
+    deathDate: "5 Eylül 2026",
+    alive: false,
+    period: "Çağdaş",
+    school: "Analitik hukuk kuramı · pozitivizm karşıtı",
+    areas: "Hukuk felsefesi, anayasa kuramı, hukuki argümantasyon, temel haklar",
+    majorWorks: "Theorie der juristischen Argumentation (1978)\nTheorie der Grundrechte (1985)\nBegriff und Geltung des Rechts (1992)\nThe Argument from Injustice\nLaw's Ideal Dimension (2021)",
+    keyConcepts: "Hukukun ikili doğası, kurallar-ilkeler ayrımı, optimizasyon buyruğu, orantılılık, dengeleme, ağırlık formülü, doğruluk iddiası",
+    influencedBy: "Gustav Radbruch, Ralf Dreier, Günther Patzig, Jürgen Habermas, Ronald Dworkin",
+    influenced: "Latin Amerika ve Orta-Doğu Avrupa anayasa hukuku doktrini",
+    longBio: "Göttingen Üniversitesi'nde hukuk ve felsefeyi birlikte okudu; felsefede Günther Patzig'in, hukukta Ralf Dreier'in öğrencisi oldu. 1976'da hukuki argümantasyon kuramı üzerine doktorasını, 1984'te temel haklar kuramı üzerine doçentliğini tamamladı. Akademik hayatının büyük kısmını Kiel Üniversitesi'nde geçirdi. 2002'de Göttingen Bilimler Akademisi'ne seçildi, 2010'da Almanya Federal Cumhuriyeti Liyakat Nişanı'nı aldı.\n\nTemel tezi, hukukun hem olgusal-kurumsal hem de ideal bir boyut taşıdığı; hukuk düzeninin zorunlu olarak bir doğruluk iddiasında bulunduğudur. Kurallar ile ilkeler arasındaki ayrımı sistemleştirerek, ilkeleri \"mümkün olan azami ölçüde gerçekleştirilmesi gereken optimizasyon buyrukları\" olarak tanımladı ve buradan üç aşamalı orantılılık sınamasını geliştirdi. Etkisi, özellikle Brezilya başta olmak üzere Latin Amerika anayasa yargısında olağanüstü genişti.",
+    sources: "Consultor Jurídico — https://conjur.com.br/2026-set-07/morre-o-filosofo-do-direito-robert-alexy-aos-80-anos/\nLeiter Reports — https://leiterreports.com/2026/09/07/in-memoriam-robert-alexy-1945-2026/",
+  },
+  {
+    name: "Nermi Uygur",
+    slug: "nermi-uygur",
+    headline: "Felsefeci ve denemeci — İstanbul Üniversitesi (1925-2005)",
+    bio: "Türkiye'de denemeci felsefe anlayışının öncüsü. Dil, kültür ve gündelik yaşantı üzerine yazdı; felsefeyi akademik uzmanlıktan çıkarıp kamusal bir düşünme biçimine dönüştürmeye çalıştı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1925,
+    affiliation: "İstanbul Üniversitesi (emekli)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Nermi Uygur",
+    birthDate: "15 Ocak 1925, İstanbul",
+    deathDate: "21 Şubat 2005",
+    alive: false,
+    period: "Cumhuriyet dönemi Türk felsefesi",
+    school: "Fenomenoloji · kültür felsefesi · denemecilik",
+    areas: "Dil felsefesi, kültür felsefesi, mantık, estetik, yaşama felsefesi",
+    majorWorks: "Felsefenin Çağrısı\nDilin Gücü\nYaşama Felsefesi\nKültür Kuramı (1984)\nİnsan Açısından Edebiyat\nBunalımdan Yaşama Kültürü\nGüneşle",
+    keyConcepts: "Dilin dünya kurucu işlevi, kültür varlığı olarak insan, yaşama felsefesi, denemeci yöntem",
+    influencedBy: "Edmund Husserl, Ernst Cassirer, Wilhelm Dilthey",
+    influenced: "Oruç Aruoba, Türkiye'de denemeci felsefe geleneği",
+    longBio: "Galatasaray Lisesi'nin ardından İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nü 1948'de bitirdi. Köln Üniversitesi'nde çalıştı ve 1952'de kültür bilimlerinin ontolojik yapısı üzerine doktorasını tamamladı. Doktora sonrasında Almanya, Fransa ve Belçika'ya araştırma görevleriyle gönderildi; bu ülkeleri bisikletle dolaşarak fenomenoloji üzerine çalıştı.\n\n1963'ten itibaren İstanbul Üniversitesi'nde görev yaptı, 1964'te profesör oldu. Almanya'da Wuppertal Üniversitesi'nde mantık, dil, sanat ve kültür felsefesi dersleri verdi. 1992'de emekli oldu.\n\nFelsefeyi hazır cevaplar deposu değil bir soru sorma biçimi olarak gördü; dili ise düşünceyi taşıyan bir araç değil, dünyayı ayrıştıran ve kuran bir etkinlik olarak ele aldı. Bütün Eserleri Yapı Kredi Yayınları tarafından iki cilt hâlinde yayımlandı.",
+    sources: "Yapı Kredi Yayınları — https://www.yapikrediyayinlari.com.tr/yazarlar/nermi-uygur\nVikipedi — https://tr.wikipedia.org/wiki/Nermi_Uygur",
+  },
+  {
     name: "Michael Sandel",
     slug: "michael-sandel",
     headline: "Siyaset felsefecisi — Harvard Üniversitesi",
@@ -1488,6 +1540,1279 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Robert Alexy öldü: hukuka \"doğru olduğunu iddia etme\" yükünü geri veren adam",
+    slug: "robert-alexy-hukukun-ikili-dogasi",
+    summary:
+      "Hukuk felsefesinin son yarım yüzyıldaki en etkili isimlerinden Robert Alexy 5 Eylül Cumartesi günü 80 yaşında öldü — 81. doğum gününe dört gün kala. Geride bir yöntem bıraktı: orantılılık. Ama asıl bıraktığı, bir soru. Bir devletin yaptığı her şey hukuk mudur?",
+    seoTitle: "Robert Alexy (1945-2026): hukukun ikili doğası, ilkeler ve orantılılık",
+    metaDescription:
+      "Alman hukuk filozofu Robert Alexy 5 Eylül 2026'da 80 yaşında öldü. Kurallar-ilkeler ayrımı, orantılılık, dengeleme ve hukukun ikili doğası kuramı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20alexy.jpg?width=1600",
+    imageCredit: "Robert Alexy · Wikimedia Commons",
+    featured: true,
+    sourceName: "Consultor Jurídico",
+    sourceUrl: "https://conjur.com.br/2026-set-07/morre-o-filosofo-do-direito-robert-alexy-aos-80-anos/",
+    publishedAt: "2026-09-08T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["hukuk-felsefesi", "vefat", "siyaset-felsefesi", "kavram", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Morre aos 80 anos o constitucionalista e filósofo do Direito Robert Alexy",
+        publisher: "Consultor Jurídico",
+        date: "7 Eylül 2026",
+        url: "https://conjur.com.br/2026-set-07/morre-o-filosofo-do-direito-robert-alexy-aos-80-anos/",
+        primary: true,
+      },
+      {
+        title: "In Memoriam: Robert Alexy (1945-2026)",
+        publisher: "Leiter Reports",
+        date: "7 Eylül 2026",
+        url: "https://leiterreports.com/2026/09/07/in-memoriam-robert-alexy-1945-2026/",
+      },
+      {
+        title: "The Dual Nature of Law",
+        publisher: "Ratio Juris",
+        date: "2010",
+        url: "https://doi.org/10.1111/j.1467-9337.2010.00449.x",
+      },
+    ],
+    content: `**Robert Alexy** 5 Eylül Cumartesi günü öldü. Seksen yaşındaydı.
+
+Dört gün sonra, 9 Eylül'de seksen birine basacaktı.
+
+Hukuk felsefesinde bazı isimler hukuk hakkında konuşur. Bazıları ise "hukuk nedir?" sorusunun kendisini değiştirir.
+
+Alexy ikinci gruptandı.
+
+Ve onu yalnızca "orantılılık testinin kuramcısı" olarak anmak — ki bugün dünyanın pek çok yerinde böyle anılacak — bir yöntemi anıp arkasındaki inadı görmemek olur.
+
+## Bir hekim değil, bir hukukçu-filozof
+
+1945'te Oldenburg'da doğdu. Göttingen Üniversitesi'nde **hukuk ve felsefeyi birlikte** okudu — bu birlikte okuma, sonraki her şeyi belirledi.
+
+Felsefede hocası **Günther Patzig**'di: Aristoteles mantığı ve etik üzerine çalışan, analitik gelenekten gelen bir isim. Hukukta ise **Ralf Dreier**: Alman hukuk kuramında pozitivizm eleştirisinin önde gelen adı.
+
+Bu iki ismin kesişimi Alexy'nin tüm programını açıklar. **Analitik felsefenin kesinlik talebi** ile **hukukun ahlaki boyutunu terk etmeme ısrarı.**
+
+1976'da *Theorie der juristischen Argumentation* (Hukuki Argümantasyon Kuramı) ile doktorasını verdi. 1984'te *Theorie der Grundrechte* (Temel Haklar Kuramı) ile doçentliğini aldı. İkisi de bugün çağdaş klasik sayılıyor.
+
+Akademik hayatının büyük kısmını **Kiel Üniversitesi**'nde geçirdi. 2002'de Göttingen Bilimler Akademisi'ne seçildi; 2010'da Almanya Federal Cumhuriyeti Liyakat Nişanı'nı aldı.
+
+Ama bunlar künye. Asıl mesele başka.
+
+## Yirminci yüzyılın büyük kavgası
+
+Alexy'nin girdiği tartışma, hukuk felsefesinin en eski kavgasıydı.
+
+**Pozitivizm** der ki: Bir normun hukuk olup olmadığı, içeriğinin adil olup olmamasından bağımsızdır. Kelsen'in normlar hiyerarşisi, Hart'ın tanıma kuralı — ikisi de hukuku toplumsal ve kurumsal olgulara dayandırır. Adaletsiz bir yasa, adaletsiz bir **yasadır**; yasa olmaktan çıkmaz.
+
+Bu konumun ahlaki bir erdemi vardır ve genellikle unutulur: Hukuku ahlaktan ayırmak, hukuku **eleştirmeyi** mümkün kılar. "Bu hukuktur ama adaletsizdir" diyebilmek, bir imkândır.
+
+Alexy buna karşı çıktı — ama kaba bir doğal hukukçu olarak değil.
+
+## Hukukun ikili doğası
+
+Alexy'nin en özgün tezi budur ve dikkatle okunmayı hak eder.
+
+Hukuk, ona göre **iki boyutlu** bir kurumdur.
+
+Bir yanıyla **olgusaldır**: Konulmuştur, yürürlüktedir, yaptırımı vardır, kurumsaldır. Bu, pozitivistlerin gördüğü boyuttur ve Alexy bunu reddetmez.
+
+Öte yanıyla **ideal** bir boyut taşır: Hukuk, kendisi hakkında zorunlu olarak bir **doğruluk iddiasında** bulunur.
+
+Bu ikinci nokta kritik. Alexy'nin iddiası "hukuk ahlaki olmalıdır" değil. İddiası şu: **Hukuk, yapısı gereği, doğru olduğunu iddia eder.**
+
+Bir mahkeme kararı düşünün. Karar yalnızca "böyle olacak" demez. Gerekçe yazar. Gerekçe yazmak, "bu karar savunulabilirdir" demektir. Hiçbir yargıç kararının sonuna "bu hüküm keyfîdir" diye yazmaz — yazsa, kararın kendisi çelişkiye düşer.
+
+Alexy buna **performatif çelişki** diyordu. Hukuk, doğruluk iddiasından vazgeçemez; çünkü vazgeçtiği anda kendi kendini iptal eder.
+
+Ve buradan Radbruch'un ünlü formülüne varılır: Bir norm **dayanılmaz ölçüde adaletsiz** olduğunda, artık hukuk değildir. Alexy bu formülü çağdaş analitik araçlarla yeniden inşa etti.
+
+Eşiği yüksek tuttuğunu belirtmek gerekir. Alexy'nin tezi "haksız bulduğum yasa hukuk değildir" değil; eşik, insanlığın vicdanını sarsan uçlar için ayrılmıştır.
+
+## Kurallar başka, ilkeler başka
+
+Alexy'nin en kalıcı teknik katkısı bu ayrımdır.
+
+**Kurallar** kesin buyruklardır: Ya uygulanır ya uygulanmaz. "Kırmızı ışıkta durulur." İki kural çatışırsa biri geçersizdir ya da istisna tanınır.
+
+**İlkeler** ise **optimizasyon buyruklarıdır**. Bir ilke, *hukuken ve fiilen mümkün olan azami ölçüde* gerçekleştirilmesi gereken bir taleptir.
+
+İfade özgürlüğü bir ilkedir. Kişilik hakkı bir ilkedir. Kamu güvenliği bir ilkedir.
+
+İkisi çatıştığında biri geçersiz olmaz. Somut olayda **hangisinin ne ölçüde geri çekileceği** sorulur.
+
+## Orantılılık: keyfiliğe karşı yapı
+
+Buradan Alexy'nin dünyaya yayılan yöntemi doğar. Bir hak sınırlaması üç aşamada sınanır.
+
+**Elverişlilik.** Bu önlem, hedeflenen amaca gerçekten hizmet ediyor mu?
+
+**Gereklilik.** Aynı amaca, hakkı daha az kısıtlayan bir yolla ulaşılabilir mi? Ulaşılabiliyorsa, bu önlem gereksizdir.
+
+**Dar anlamda orantılılık.** Feda edilen ile kazanılan arasında makul bir denge var mı?
+
+Alexy son aşamayı biçimselleştirmeye çalıştı ve **ağırlık formülü** (*Gewichtsformel*) adını verdiği bir yapı önerdi: Bir ilkeye yapılan müdahalenin yoğunluğu, karşı ilkenin somut ağırlığı ve ampirik varsayımların güvenilirliği birlikte hesaba katılır.
+
+Bu formül çok eleştirildi — "hukuki muhakemeyi aritmetiğe çevirmek" suçlamasıyla. Alexy'nin savunması netti: Formül sayı üretmiyor; **yargıcı hangi soruları sormaya mecbur bıraktığını** gösteriyor.
+
+Yani amaç hesap değil, **görünürlük**. Bir yargıç dengeleme yaptığını söylüyorsa, neyi neye karşı tarttığını açıkça yazmak zorunda kalsın.
+
+## Asıl mesele: gerekçe
+
+Alexy'yi yalnızca orantılılık üzerinden okumak, onun asıl sorusunu kaçırmak olur.
+
+Soru şuydu:
+
+**Bir yargıç, verdiği kararı neden doğru kabul etmemizi bekliyor?**
+
+Cevap, Alexy için, "çünkü karar veren makam benim" olamazdı.
+
+Cevap **gerekçe** olmalıydı.
+
+Hukuki argümantasyon kuramı bu yüzden Habermas'ın söylem etiğiyle akrabadır: Hukuk, kurumsallaşmış bir tartışmadır. Bir hükmün meşruiyeti, mahkemeden çıkmış olmasından değil, rasyonel olarak savunulabilir olmasından gelir.
+
+Sitemizde bu hafta ele aldığımız [John Searle dosyasında](/haber/john-searle-cin-odasi-anlam-kurum) anlattığımız toplumsal ontoloji ile buradaki akrabalık dikkat çekicidir: Searle kurumların dilsel edimlerle kurulduğunu gösterir; Alexy o kurumların kendilerini **gerekçelendirmek zorunda** olduğunu ekler.
+
+## İtirazlar
+
+Dürüst bir portre, karşı tarafı da yazmalı.
+
+**Belirsizlik itirazı.** Dengeleme, yargıca gerçekte ne kadar sınır koyuyor? Eleştirmenlere göre orantılılık, keyfiliği engellemekten çok ona teknik bir kılıf sağlıyor olabilir: Yargıç sonucu önce seçer, formülü sonra doldurur.
+
+**Ölçülemezlik itirazı.** İfade özgürlüğü ile kamu düzeni ortak bir birimle tartılabilir mi? Eğer tartılamıyorsa, "dengeleme" bir metafordan ibarettir.
+
+**Demokrasi itirazı.** Anayasa mahkemeleri, orantılılık aracılığıyla, seçilmiş meclislerin siyasal tercihleri üzerinde sınırsız bir denetim yetkisi mi kazanıyor?
+
+Bu itirazların en sert biçimi, hukuki gerçekçilik geleneğinden gelir. Sitemizde bugün ayrıca ele aldığımız [Brian Leiter dosyasında](/haber/brian-leiter-from-a-realist-point-of-view) anlattığımız üzere, gerçekçiler yargıç kararlarının gerekçelerle değil psikolojik, ideolojik ve toplumsal etkenlerle açıklanması gerektiğini savunur.
+
+Tuhaf bir tesadüf değil: Alexy'nin ölümünü duyuran ilk kaynaklardan biri, tam da bu geleneğin en etkili çağdaş savunucusu olan Leiter'in bloguydu.
+
+## Bugünün soruları
+
+Alexy'nin ölümü, sorularının kapanması anlamına gelmiyor. Tersine.
+
+Bir **algoritmanın** verdiği karar hukuken gerekçelendirilebilir mi? Alexy'nin ölçütüne göre bir kararın meşruiyeti gerekçesindedir; peki gerekçesi denetlenemeyen bir sistem karar verebilir mi?
+
+Yüz milyonlarca insanı etkileyen bir içerik moderasyon kuralına **orantılılık testi** nasıl uygulanır?
+
+Güvenlik gerekçesiyle özgürlüklerin sınırı nerede çizilir — ve bu sınırı çizen kim?
+
+Çoğunluğun iradesi temel hakları ihlal ettiğinde anayasa yargısı ne yapmalıdır?
+
+Ve hepsinin altındaki soru:
+
+**Bir devletin yaptığı her şey hukuk mudur?**
+
+Alexy'nin bütün eseri, bu soruya verilen rahat bir "evet"in tehlikesini göstermek üzerine kuruluydu.
+
+Mirası tek cümleye sıkıştırılabilirse şudur:
+
+**Hukuk, güç kullanma yetkisi değil; kendini gerekçelendirme zorunluluğudur.**
+
+---
+
+*Robert Alexy 9 Eylül 1945'te Oldenburg'da doğdu, 5 Eylül 2026'da öldü. Türkçede: Hukuki Argümantasyon Kuramı · Anayasal Haklar Teorisi · Hukukun Kavramı ve Geçerliliği.*
+
+*Alexy'nin Latin Amerika'daki olağanüstü etkisini ve bu etkinin doğurduğu tartışmayı [Dünya bölümündeki dosyamızda](/haber/alexy-brezilya-ponderacao-hukuk-kuramlarinin-yolculugu) ele aldık.*`,
+  },
+  {
+    title: "Bir kuram göç ederse: Alexy'nin Brezilya'da başına gelenler",
+    slug: "alexy-brezilya-ponderacao-hukuk-kuramlarinin-yolculugu",
+    summary:
+      "Alexy'nin ölümünün ardından Brezilya Federal Yüksek Mahkemesi taziye notu yayımladı. Bu, bir Alman akademisyen için sıra dışı bir jest. Ama hikâyenin ilginç kısmı şu: Brezilya hukukçuları yıllardır \"Brezilya usulü dengeleme\" diye bir şeyi tartışıyor — ve bunu bir övgü olarak söylemiyorlar.",
+    seoTitle: "Alexy ve Brezilya: \"ponderação à brasileira\" tartışması",
+    metaDescription:
+      "Robert Alexy'nin Brezilya anayasa hukukundaki olağanüstü etkisi ve dengeleme kuramının orada uğradığı dönüşüm üzerine.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Supremo%20Tribunal%20Federal%20por%20Henrique%20Goldenstein%20(01).jpg?width=1600",
+    imageCredit: "Brezilya Federal Yüksek Mahkemesi, Brasília · Henrique Goldenstein · Wikimedia Commons",
+    featured: false,
+    sourceName: "Consultor Jurídico",
+    sourceUrl: "https://conjur.com.br/2026-set-07/morre-o-filosofo-do-direito-robert-alexy-aos-80-anos/",
+    publishedAt: "2026-09-08T03:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["hukuk-felsefesi", "siyaset-felsefesi", "demokrasi", "kavram", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Morre aos 80 anos o constitucionalista e filósofo do Direito Robert Alexy",
+        publisher: "Consultor Jurídico",
+        date: "7 Eylül 2026",
+        url: "https://conjur.com.br/2026-set-07/morre-o-filosofo-do-direito-robert-alexy-aos-80-anos/",
+        primary: true,
+      },
+      {
+        title: "Robert Alexy e a vulgata da ponderação de princípios",
+        publisher: "Consultor Jurídico — Diário de Classe",
+        date: "16 Kasım 2013",
+        url: "https://www.conjur.com.br/2013-nov-16/diario-classe-robert-alexy-vulgata-ponderacao-principios/",
+      },
+    ],
+    content: `Bir Alman hukuk profesörü öldüğünde, Brezilya'nın en yüksek mahkemesi taziye notu yayımlar mı?
+
+Bu hafta yayımladı.
+
+**Robert Alexy**'nin 5 Eylül'deki ölümünün ardından **Brezilya Federal Yüksek Mahkemesi** (Supremo Tribunal Federal) resmî bir taziye metni yayımladı. Mahkemenin en kıdemli üyelerinden Gilmar Mendes, Alexy'nin bir kuşak hukukçuyu biçimlendirdiğini ve hukukun yorumlanma biçimini derinden etkilediğini yazdı.
+
+Bu, akademik bir nezaket jestinden fazlası. Ve tam da bu yüzden, felsefe açısından ilginç bir vaka.
+
+## Rakamların anlattığı
+
+Brezilyalı hukukçuların ortak tespiti şu: 1988 Anayasası'ndan sonra Brezilya'da Alexy kadar okunmuş yabancı yazar neredeyse yok.
+
+São Paulo Üniversitesi Hukuk Fakültesi'nden Otavio Luiz Rodrigues Jr.'ın ifadesiyle, Alexy'nin Brezilya anayasa hukukundaki, Yüksek Mahkeme içtihadındaki ve hukuk eğitimindeki etkisi "iyisiyle kötüsüyle kaçınılmaz" hâle geldi.
+
+Berlin Humboldt Üniversitesi'nde ceza hukuku kürsüsünü yürüten Brezilyalı hukukçu Luis Greco ise Alexy'yi "son on yılların en geniş yankı uyandıran Alman anayasa hukukçusu" ve gerçek bir düşünce okulunun başı olarak niteledi: Alman Anayasa Mahkemesi'nin içtihadını analitik hukuk kuramının kavramsal aygıtıyla yeniden inşa etme çabası.
+
+Bir mahkeme içtihadı arama motoruna Alexy'nin adını yazdığınızda, akademik makalelerden çok **mahkeme kararı** çıkıyor.
+
+## Peki bu neden bir sorun olsun?
+
+Burada hikâye tersine dönüyor.
+
+Brezilyalı hukukçular yıllardır kendi aralarında bir terim kullanıyor: ***"ponderação à brasileira"*** — Brezilya usulü dengeleme.
+
+Ve bunu bir övgü olarak söylemiyorlar.
+
+Eleştirinin özü şu: Alexy'nin orantılılık kuramı Brezilya'ya geldiğinde, **bir yöntem olmaktan çıkıp bir formüle dönüştü.** Hatta formülden de az: bir **ifadeye**.
+
+Kararlarda "ilkeler tartıldı", "orantılılık ilkesi uyarınca", "somut olayda dengeleme yapıldı" cümleleri yer alıyor — ama Alexy'nin talep ettiği üç aşamalı sınama, ağırlık ölçütleri ve ampirik varsayımların açıkça belirtilmesi çoğu zaman yapılmıyor.
+
+Eleştirmenlere göre bunun sonucu, bir **otorite argümanının** teknik bir kılıfa bürünmesi: Yargıç sonucu önce seçer, "orantılılık" sözcüğünü sonra ekler.
+
+Aynı eleştiri, Yüksek Mahkeme'nin orantılılık ile makullüğü zaman zaman eşanlamlı kullandığına ve tutarlı bir uygulama standardı geliştirmediğine de işaret ediyor.
+
+## İroninin adı
+
+Buradaki ironi, bir hukuk felsefesi dersinin tamamına değer.
+
+Alexy'nin **bütün projesi** keyfiliğe karşıydı. Dengeleme kuramını, yargıcın "vicdanım böyle diyor" diyerek karar vermesini engellemek için geliştirdi. Ağırlık formülü, gerekçenin **görünür** olması içindi.
+
+Ve kuram, bazı yerlerde tam tersi işlevi görmekle suçlandı: keyfiliği gizleyen bir teknik dil.
+
+Bu, Alexy'nin hatası mı?
+
+Muhtemelen değil. Ama bir kuramın yazarının niyetiyle ölçülemeyeceğini gösteriyor.
+
+## Bir kuram nasıl seyahat eder?
+
+Asıl felsefi soru burada.
+
+Bir hukuk kuramı, doğduğu kurumsal ortamdan koparıldığında ne olur?
+
+Alexy'nin kuramı, belirli bir bağlamda doğdu: Savaş sonrası Almanya'sında, Nazi hukukunun yarattığı travmayla kurulmuş bir Anayasa Mahkemesi'nin altmış yıllık içtihadını rasyonelleştirme çabası. O içtihat zaten vardı; Alexy onu **yeniden inşa etti**.
+
+Aynı kuram, farklı bir yargı kültürüne — farklı bir dava yüküne, farklı bir gerekçe yazma geleneğine, farklı bir siyasal kutuplaşmaya — taşındığında, aynı işi yapmayabilir.
+
+Sitemizde bu hafta ele aldığımız [J. G. A. Pocock dosyasında](/haber/pocock-siyasal-diller-cambridge-okulu) izlediğimiz Cambridge Okulu'nun temel uyarısı tam buydu: Bir kavram, kullanıldığı **siyasal dil** içinde anlam kazanır. Dili değiştirin, kavram başka bir şey olur.
+
+Ve sitemizde dün ele aldığımız [Macit Gökberk dosyası](/haber/macit-gokberk-felsefe-dili-turkce) aynı soruyu Türkçe için sormuştu: Bir kavramı çevirmek, onu taşımak mıdır yoksa dönüştürmek mi?
+
+## Türkiye açısından
+
+Bu tartışma bize uzak değil.
+
+Orantılılık ilkesi Türk anayasa hukukunda da yerleşik. Anayasa'nın 13. maddesi temel hak ve hürriyetlerin sınırlanmasında "ölçülülük ilkesine" açıkça atıf yapıyor; Anayasa Mahkemesi kararlarında elverişlilik, gereklilik ve orantılılık üçlüsü düzenli olarak anılıyor.
+
+Dolayısıyla Brezilya'da sorulan soru burada da sorulabilir: **Ölçülülük, kararı üreten bir muhakeme mi, yoksa üretilmiş bir kararı açıklayan bir başlık mı?**
+
+Bunun cevabı Alexy'nin kuramında yok. Cevap, kararların kendisinde — gerekçelerin ne kadar açık, denetlenebilir ve tartışılabilir yazıldığında.
+
+Alexy'nin bütün ısrarı da zaten buydu.
+
+## Kapanış
+
+Bir düşünürün etkisini ölçmenin iki yolu var.
+
+Biri, kaç kişinin onu okuduğu.
+
+Diğeri, adının **kullanıldığı** yerlerde gerçekten onun düşüncesinin mi işlediği.
+
+Alexy birinci ölçüte göre yirmi birinci yüzyılın en etkili hukuk filozoflarından biri.
+
+İkinci ölçüt hâlâ tartışılıyor — ve bu tartışmanın kendisi, onun kuramının canlı olduğunun kanıtı.
+
+---
+
+*Alexy'nin hukuk felsefesini ve ikili doğa kuramını [Gündem bölümündeki dosyamızda](/haber/robert-alexy-hukukun-ikili-dogasi) ayrıntılı olarak ele aldık.*`,
+  },
+  {
+    title: "Chomsky konuşamıyor, tartışma sürüyor: The Monist ekimde özel sayı çıkarıyor",
+    slug: "chomsky-monist-ozel-sayi-dil-zihin",
+    summary:
+      "Noam Chomsky 2024'te geçirdiği ağır beyin kanamasından bu yana Brezilya'da tedavi görüyor; kamusal hayattan çekildi. Ama tartışmadan çekilmedi. Felsefenin en eski dergilerinden The Monist, ekim ayında yalnızca Chomsky'nin felsefi mirasına ayrılmış bir sayı yayımlıyor — ve büyük dil modelleri tartışmanın tam ortasında.",
+    seoTitle: "Chomsky'nin felsefi mirası: The Monist özel sayısı, Ekim 2026",
+    metaDescription:
+      "The Monist ekim 2026'da Chomsky'ye özel sayı yayımlıyor. Evrensel dilbilgisi, içselcilik, doğalcılık ve büyük dil modelleri tartışması.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Noam%20Chomsky%20portrait%202017.jpg?width=1600",
+    imageCredit: "Noam Chomsky, 2017 · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Monist — Oxford Academic",
+    sourceUrl: "https://academic.oup.com/monist/pages/cfp-noam-chomsky",
+    publishedAt: "2026-09-08T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["zihin-felsefesi", "yapay-zeka", "kavram", "epistemoloji", "dergi"],
+    philosopherSlugs: ["noam-chomsky"],
+    sources: [
+      {
+        title: "Call for Papers: Noam Chomsky",
+        publisher: "The Monist — Oxford Academic",
+        url: "https://academic.oup.com/monist/pages/cfp-noam-chomsky",
+        primary: true,
+      },
+      {
+        title: "Chomsky, Naturalism, and Conceptual Engineering",
+        publisher: "The Monist",
+        date: "Temmuz 2026",
+        url: "https://academic.oup.com/monist/advance-article/doi/10.1093/monist/onag021/8758440",
+      },
+      {
+        title: "Large Language Models and the Rationalist-Empiricist Debate",
+        publisher: "The Monist",
+        date: "2026",
+        url: "https://academic.oup.com/monist/advance-article/doi/10.1093/monist/onag024/8758428",
+      },
+      {
+        title: "Noam Chomsky Leaves Hospital After Suffering Stroke",
+        publisher: "Democracy Now!",
+        date: "20 Haziran 2024",
+        url: "https://www.democracynow.org/2024/6/20/headlines/noam_chomsky_leaves_hospital_after_suffering_stroke",
+      },
+    ],
+    content: `Bir düşünürün hâlâ canlı olup olmadığının en iyi ölçütü, kendisinin konuşuyor olması değildir.
+
+Başkalarının onunla tartışmaya devam ediyor olmasıdır.
+
+**Noam Chomsky** Haziran 2024'te ağır bir beyin kanaması geçirdi. Uzun bir hastane sürecinin ardından, eşinin memleketi olan Brezilya'da tedavisini evde sürdürüyor. Konuşmakta güçlük çekiyor. Kamusal tartışmadan fiilen çekildi. Doksan yedi yaşında.
+
+Ve tam bu dönemde, felsefe dünyasının en eski dergilerinden biri, tümüyle onun düşüncesine ayrılmış bir sayı hazırlıyor.
+
+***The Monist***, **Ekim 2026**'da Chomsky özel sayısını yayımlıyor. Konuk editörlüğünü **John Collins** (East Anglia Üniversitesi) yürütüyor.
+
+## Neden bu bir haber?
+
+Çünkü özel sayının kapsamı, Chomsky'nin bir dilbilim tarihi figürü olarak değil, **hâlâ tartışılan bir filozof** olarak ele alındığını gösteriyor.
+
+Sayının davet ettiği başlıklar şunlar: Quine ile tartışması, davranışçılık, doğalcılık, dilsel içselcilik, anlam, bilinç, temsil — ve Putnam, Kripke, Davidson, Dummett, Searle ile Dennett'e karşı geliştirdiği konumlar.
+
+Bu bir anma dosyası değil. Bir **hesaplaşma** dosyası.
+
+Derginin şimdiden yayımladığı çalışmalar da bunu doğruluyor. Ryan M. Nefdt'in *"Chomsky, Naturalism, and Conceptual Engineering"* başlıklı makalesi, Chomsky'nin yetmiş yılı aşan katkısını, felsefenin son yıllardaki en canlı alanlarından biri olan **kavram mühendisliği** üzerinden yeniden okuyor.
+
+Bir diğeri daha da doğrudan: *"Large Language Models and the Rationalist-Empiricist Debate."*
+
+## Asıl kavga hiç dilbilim kavgası değildi
+
+Bu ikinci başlık, Chomsky'yi anlamanın anahtarını veriyor.
+
+Chomsky'nin Skinner ve Quine ile girdiği tartışmalar, bugün çoğu okur tarafından "dilbilim içi bir teknik anlaşmazlık" olarak hatırlanıyor.
+
+Değildi.
+
+O tartışmalar, on yedinci yüzyıldaki **akılcılık-deneycilik** kavgasının yirminci yüzyıl versiyonuydu.
+
+Deneyci konum: Zihin başlangıçta boştur; bilgi deneyimden gelir; öğrenme, genel amaçlı çağrışım mekanizmalarıyla açıklanabilir.
+
+Chomsky'nin itirazı ampirikti ve tek bir gözleme dayanıyordu: **Çocuğun maruz kaldığı veri, edindiği dil bilgisini açıklamaya yetmez.**
+
+Çocuk hiç duymadığı cümleleri kurar. Hiç örneği verilmemiş yapıların *yanlış* olduğunu bilir. Ve bunu, kimse ona düzeltme yapmadan, üç dört yılda başarır.
+
+Chomsky'nin sonucu: İnsan zihni, dilsel yapıyı keşfetmesini mümkün kılan **türe özgü bir donanıma** sahip olmalıdır.
+
+Buna **uyarımın yoksulluğu** argümanı denir. Ve Descartes'tan Humboldt'a uzanan bir hattı, yirminci yüzyıl biliminin diline tercüme eder.
+
+## Evrensel dilbilgisi ne demek değildi
+
+En çok çarpıtılan kavram bu.
+
+Popüler versiyon: "Beynimizde doğuştan bir dilbilgisi vardır."
+
+Chomsky'nin kastettiği bu değildi. Sorusu, birbirinden son derece farklı dillerin altında hangi **hesaplama ve temsil ilkelerinin** ortak olduğuydu.
+
+Nitekim program zaman içinde defalarca değişti: dönüşümsel-üretici dilbilgisi, ilkeler ve parametreler, minimalist program. Chomsky kendi kuramını en çok kendisi yıktı.
+
+Sitemizde bu hafta ele aldığımız [Michael Devitt dosyasında](/haber/michael-devitt-reference-and-beyond) anlattığımız gibi, Chomsky'nin dilbilimi ampirik bir doğa bilimi sayan tutumu, dil felsefesindeki doğalcı kanadın da beslendiği kaynaklardan biri — ikisi anlam konusunda taban tabana zıt olsalar bile.
+
+## Büyük dil modelleri Chomsky'yi çürüttü mü?
+
+2026'nın en çok tartışılan sorusu bu ve cevabı sanıldığı kadar açık değil.
+
+**"Çürüttü" diyen taraf** şunu söylüyor: Chomsky, genel amaçlı istatistiksel öğrenmenin insan diline benzer bir yetkinlik üretemeyeceğini savundu. Bugün, doğuştan bir dilbilgisi modülü verilmemiş sistemler, dilbilgisel olarak neredeyse kusursuz metin üretiyor. Deneycilik bir sınavı geçti.
+
+**Karşı taraf** iki itiraz getiriyor.
+
+Birincisi **veri ölçeği**. Bir çocuk, birkaç yılda, milyonlarca kelimelik bir girdiyle dili edinir. Bir dil modeli, bir insanın ömrü boyunca duyabileceğinden kat kat fazla metinle eğitilir. İki sistem aynı problemi çözmüyor.
+
+İkincisi Chomsky'nin en eski ayrımı: **yetkinlik ve performans**. Bir sistemin doğru cümleler üretmesi, o sistemin dil hakkında bir bilgiye sahip olduğunu göstermez. Chomsky'nin ilgilendiği şey, gözlenen davranış değil, o davranışın altındaki **yapıydı**.
+
+Bu ayrım, sitemizde bu hafta ele aldığımız [John Searle dosyasındaki](/haber/john-searle-cin-odasi-anlam-kurum) Çin Odası argümanıyla akrabadır — akraba ama aynı değil. Searle **anlamın** olmadığını söyler; Chomsky **açıklamanın** yanlış yerde arandığını.
+
+Bir uyarı da eklemek gerekiyor: Chomsky'nin dil modelleri hakkındaki kamuya açık değerlendirmeleri, kendi teknik kuramından ayrı okunmalıdır. Bir filozofun bir teknolojiye dair kanaati ile kuramının o teknoloji karşısındaki durumu, iki ayrı meseledir.
+
+## Siyaset ayrı bir Chomsky değil
+
+Chomsky'nin siyasal yazıları çoğu zaman ikinci bir kariyer gibi sunulur.
+
+Bu okuma yanlıştır ve iki soruyu birbirinden kopardığı için yanlıştır.
+
+Dilbilimci Chomsky'nin sorusu: **İnsan zihni nasıl oluyor da sonsuz sayıda yeni yapı üretebiliyor?**
+
+Siyasal Chomsky'nin sorusu: **Bu üretkenliği kısıtlayan kurumlar neye dayanarak meşru sayılıyor?**
+
+Chomsky için insan doğası, boş bir levha değil, **yaratıcı bir kapasitedir**. Ve bu kapasiteyi engelleyen her düzenleme, kendini gerekçelendirmek zorundadır.
+
+İlginç biçimde bu, sitemizde bugün ele aldığımız [Robert Alexy dosyasındaki](/haber/robert-alexy-hukukun-ikili-dogasi) temel iddiayla aynı yapıya sahiptir: Yetki, kendi kendini gerekçelendiremiyorsa meşru değildir.
+
+İki adam birbirinden uzaktır; talebi aynıdır.
+
+## Kapanış
+
+Chomsky bugün Brezilya'da, bir evde, konuşmakta zorlanarak yaşıyor.
+
+Eşinin bir Brezilya gazetesine anlattığına göre haberleri hâlâ takip ediyor ve Gazze'den gelen görüntüleri gördüğünde sol kolunu öfkeyle kaldırıyor.
+
+Bu tabloyu duygusallaştırmaya gerek yok.
+
+Ama şunu kaydetmek gerekiyor: Ekim ayında, dünyanın dört bir yanından felsefeciler onun otuz-kırk yıl önce yazdıklarına cevap verecekler.
+
+Bir düşünürün başına gelebilecek en iyi şey budur.
+
+---
+
+*Noam Chomsky 7 Aralık 1928'de Philadelphia'da doğdu. MIT'de emeritus profesör; son yıllarında Arizona Üniversitesi'nde de ders verdi.*`,
+  },
+  {
+    title: "Nermi Uygur: felsefeyi bisikletle taşıyan adam",
+    slug: "nermi-uygur-dil-kultur-yasama",
+    summary:
+      "Doktorasını Köln'de kültür bilimlerinin ontolojik yapısı üzerine yaptı, Avrupa'yı bisikletle dolaşarak fenomenoloji üzerine çalıştı, sonra Türkiye'de felsefeyi kürsüden indirip mutfağa, sokağa, dile soktu. Nermi Uygur'un mirası bir sistem değil — bir dikkat biçimi.",
+    seoTitle: "Nermi Uygur (1925-2005): dil, kültür ve yaşama felsefesi",
+    metaDescription:
+      "Nermi Uygur'un hayatı, Köln doktorası, Dilin Gücü, Kültür Kuramı, Yaşama Felsefesi ve Türkiye'de denemeci felsefe geleneği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hauptgeb%C3%A4ude%20der%20Universit%C3%A4t%20zu%20K%C3%B6ln-5634.jpg?width=1600",
+    imageCredit: "Köln Üniversitesi ana binası · Wikimedia Commons",
+    featured: true,
+    sourceName: "Yapı Kredi Yayınları",
+    sourceUrl: "https://www.yapikrediyayinlari.com.tr/yazarlar/nermi-uygur",
+    publishedAt: "2026-09-08T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "fenomenoloji", "kavram", "estetik", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Nermi Uygur — yazar sayfası",
+        publisher: "Yapı Kredi Yayınları",
+        url: "https://www.yapikrediyayinlari.com.tr/yazarlar/nermi-uygur",
+        primary: true,
+      },
+      {
+        title: "Nermi Uygur",
+        publisher: "Vikipedi",
+        url: "https://tr.wikipedia.org/wiki/Nermi_Uygur",
+      },
+      {
+        title: "Felsefede denemeci anlayışın öncü ismi: Prof. Dr. Nermi Uygur",
+        publisher: "Anadolu Ajansı",
+        url: "https://www.aa.com.tr/tr/portre/felsefede-denemeci-anlayisin-oncu-ismi-prof-dr-nermi-uygur/3142747",
+      },
+    ],
+    content: `Türkiye'de felsefeci portreleri genellikle aynı cümlelerle başlar: doğum yılı, bitirdiği okul, doktora konusu, kürsü, kitaplar.
+
+**Nermi Uygur** için de böyle yapılabilir. Yapılırsa, en önemli şey kaçırılır.
+
+Çünkü Uygur'un felsefeye kattığı şey bir kuram değildi. Bir **tutum**du.
+
+Ve o tutumun en iyi özeti, biyografisindeki küçük bir ayrıntıda saklı.
+
+## Bisikletle fenomenoloji
+
+Uygur, 15 Ocak 1925'te İstanbul'da doğdu. Galatasaray Lisesi'nin ardından İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nü **1948**'de bitirdi.
+
+Köln Üniversitesi'nde çalıştı ve **1952**'de doktorasını verdi. Tezinin konusu: **kültür bilimlerinin ontolojik yapısı.**
+
+Doktorasından sonra Almanya, Fransa ve Belçika'ya araştırma görevleriyle gönderildi. Ve bu ülkeleri **bisikletle dolaşarak** fenomenoloji üzerine çalıştı.
+
+Bu ayrıntı anekdot değil.
+
+Fenomenoloji, dünyanın bize **nasıl göründüğünü** inceleyen felsefedir. Husserl'in çağrısı buydu: "Şeylerin kendisine." Kavramlardan önce, deneyimin kendisine dönmek.
+
+Bir adamın fenomenoloji üzerine çalışmak için Avrupa'yı bisikletle geçmesi, o çağrıyı fazlasıyla ciddiye almış olmak demektir. Trenin penceresinden bakmak başka; yolun kendisini pedal çevirerek katetmek başka.
+
+Uygur'un sonraki bütün felsefesi bu farkın üzerine kuruludur.
+
+**1963**'ten itibaren İstanbul Üniversitesi'nde görev yaptı, **1964**'te profesör oldu. Almanya'da Wuppertal Üniversitesi'nde mantık, dil, sanat ve kültür felsefesi dersleri verdi. 1992'de emekli oldu.
+
+21 Şubat 2005'te İstanbul'da öldü.
+
+## Felsefe kimin işi?
+
+*Felsefenin Çağrısı*, Uygur'un en karakteristik kitabıdır ve adı bir programdır.
+
+Felsefe onun için hazır cevaplar deposu değil, bir **soru sorma biçimidir**. Ve bu biçim, uzmanların tekelinde değildir.
+
+Bu iddia, Türkiye'de felsefenin kurumsallaşma döneminde söylenmiş olması bakımından cesurdur. 1950'ler ve 60'larda Türkiye'de felsefe, kendini bir **uzmanlık alanı** olarak kurmaya çalışıyordu — haklı olarak, çünkü kurumsallaşmadan süreklilik olmaz.
+
+Uygur bu çabanın içindeydi ama aynı zamanda ona bir uyarı koydu: **Felsefe uzmanlaşırken kendi konusunu kaybedebilir.**
+
+Çünkü felsefenin konusu, uzmanların ürettiği literatür değil; insanın dünyayla ilişkisidir.
+
+## Dil: taşıyıcı değil, kurucu
+
+Uygur'un en güçlü damarı dil üzerinedir ve *Dilin Gücü* bunun merkezî metnidir.
+
+Tezi şu: **Dil, hazır bir dünyayı aktaran bir araç değildir. Dünyayı ayrıştıran, adlandıran ve böylece kuran bir etkinliktir.**
+
+Bir dilde bir ayrım için sözcük yoksa, o ayrım düşünülemez değildir — ama düşünülmesi zorlaşır. Bir dil hangi şeyleri tek kelimeyle söylüyorsa, o dili konuşan topluluk o şeyleri "doğal" bir birim olarak görür.
+
+Bu, sitemizde dün ele aldığımız [Macit Gökberk dosyasında](/haber/macit-gokberk-felsefe-dili-turkce) anlattığımız "dil düşüncenin biçimlerinden biridir" tezinin kardeşidir. İki adam aynı kuşaktan ve aynı meseleden geliyorlar; ama Gökberk meseleyi **kurumsal** yerden tutar — terminoloji, dil kurumu, felsefe dilinin standartlaşması. Uygur ise **fenomenolojik** yerden: dilin, yaşanan deneyimi nasıl biçimlendirdiğinden.
+
+Uygur bugün yaşasaydı sorusunun ne olacağını tahmin etmek zor değil:
+
+**Dünyayı bize artık yalnızca sözcükler değil, öneri algoritmaları tarif etmeye başladıysa, kültürümüz neye dönüşür?**
+
+Bu soru, sitemizde bu hafta ele aldığımız [emek süreci ve algoritmik yönetim dosyasının](/haber/emek-sureci-kurami-hci-yapay-zeka) felsefi arka planıdır. Bir sistem hangi kategorileri kullanıyorsa, dünya o kategorilerle görünür olur.
+
+## Yaşama Felsefesi: neden hâlâ satılıyor?
+
+*Yaşama Felsefesi*, Türkiye'de bir felsefe kitabının nasıl kırk yıl boyunca okunabildiğinin örneğidir.
+
+Sebebi basit: Kitap felsefeyi hayattan kaçış değil, hayata **daha dikkatli bakma** biçimi olarak sunar.
+
+Uygur'un ele aldığı konular kasten "küçük"tür: alışkanlıklar, gündelik işler, yemek, yürümek, başkasıyla karşılaşmak, sıkılmak, beklemek.
+
+Ve tam da bu yüzden felsefidir. Çünkü bir insanın hayatı büyük kararlardan değil, tekrarlanan küçük yönelimlerden kuruludur.
+
+Burada Uygur'un yöntemi de içerikle uyumludur: **deneme**. Sistem kurmaz, tez savunmaz, tanımdan başlamaz. Bir olguya bakar, çevresinde döner, ayrımlar açar.
+
+Türkiye'de "denemeci felsefe" denen çizginin öncüsü sayılmasının nedeni budur. Ve sitemizde bu hafta ele aldığımız [Oruç Aruoba dosyasıyla](/haber/oruc-aruoba-turkcede-felsefe-yurume) doğrudan bir soy bağı vardır: Aruoba'nın parçalı, yürüyüşe dayalı yazısı, Uygur'un açtığı alanda mümkün olmuştur.
+
+## Kültür Kuramı: erken bir soru
+
+1984 tarihli *Kültür Kuramı*, Uygur'un en sistematik kitabıdır.
+
+Burada kültürü tek bir alan olarak değil, toplum, dil, eğitim, sanat, devlet, siyaset ve gündelik hayatın kesiştiği bir örgü olarak ele alır.
+
+Bazı çağdaş okumalar, Uygur'un bu çerçevede **çokkültürlülük** meselesini Türkiye'deki felsefi tartışmaya oldukça erken taşıdığına dikkat çekiyor. 1980'lerin ortasında, bu terimin Türkiye'de neredeyse hiç dolaşımda olmadığı bir dönemde.
+
+Bu tespit dikkatli okunmalı: Uygur'un derdi kimlik siyaseti değildi. Derdi, **insanın kültür varlığı olması** — yani hiçbir insanın kültürsüz, çıplak, "sadece insan" olarak var olamaması.
+
+Buradan da şu çıkar: Kültürü tek biçimli düşünmek, insanı tek biçimli düşünmektir.
+
+## Neden yeterince hatırlanmıyor?
+
+Bunun ironik bir sebebi var.
+
+Türkiye'de "filozof" dendiğinde ağır kavramlar, kapalı sistemler ve zor cümleler beklenir. Anlaşılırlık, çoğu zaman derinliksizlik sanılır.
+
+Uygur açık yazdı. Türkçesi berraktı. Almanca kavramları Türkçeye zorlamadan taşıdı.
+
+Ve bu, ona pahalıya mal oldu.
+
+Oysa açık yazmak, düşünceyi basitleştirmek değildir. Genellikle tam tersidir: Ancak bir şeyi gerçekten anlamış olan, onu sade söyleyebilir.
+
+Yapı Kredi Yayınları'nın iki ciltlik *Bütün Eserleri*, mantıktan dile, edebiyattan sanata ve kültüre uzanan yarım yüzyıllık bir üretimin genişliğini gösteriyor.
+
+## Bıraktığı ders
+
+Nermi Uygur'un mirası bir kuram değil.
+
+Bir cümlede toplanabilir:
+
+**Felsefe, hayattan kaçmak değil; hayatın içine daha dikkatli bakmaktır.**
+
+Ve bu ders, Türkiye'de felsefenin kamusal bir düşünme biçimine dönüşebilmesinin — hâlâ tamamlanmamış — projesinin merkezinde duruyor.
+
+---
+
+*Başlıca eserleri: Felsefenin Çağrısı · Dilin Gücü · Yaşama Felsefesi · Kültür Kuramı (1984) · İnsan Açısından Edebiyat · Güneşle · Bunalımdan Yaşama Kültürü · Denemeli Denemesiz.*`,
+  },
+  {
+    title: "Hegel'in en modern kavramı diyalektik değil: tanınma",
+    slug: "hegel-taninma-ozgurluk-zaman",
+    summary:
+      "Hegel iki yüz yıldır \"anlaşılmaz\" diye anılıyor. Oysa bugün en çok konuşulan kavramı hiç de karanlık değil: Kendimizin kim olduğunu ancak başkalarının bakışında öğreniriz. Ekim ayında Amerika Hegel Derneği bu kez zaman üzerine toplanıyor.",
+    seoTitle: "Hegel: tanınma, özgürlük ve efendi-köle diyalektiği",
+    metaDescription:
+      "Hegel'in tanınma kavramı, efendi-köle diyalektiği, özgürlük anlayışı ve 2026'daki çağdaş Hegel çalışmaları üzerine.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/1831%20Schlesinger%20Philosoph%20Georg%20Friedrich%20Wilhelm%20Hegel%20anagoria.JPG?width=1600",
+    imageCredit: "G. W. F. Hegel · Jakob Schlesinger, 1831 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/hegel/",
+    publishedAt: "2026-09-08T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["alman-idealizmi", "kavram", "siyaset-felsefesi", "elestirel-teori", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Georg Wilhelm Friedrich Hegel",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/hegel/",
+        primary: true,
+      },
+      {
+        title: "Hegel and Time — 28th Biennial Meeting of the Hegel Society of America",
+        publisher: "Northwestern University Events",
+        date: "16-18 Ekim 2026",
+        url: "https://planitpurple.northwestern.edu/event/643850",
+      },
+    ],
+    content: `Hegel hakkında yazılan metinlerin ortak kaderi vardır: Hegel'i açıklarken Hegel kadar kapalı hâle gelirler.
+
+Birkaç anahtar kelime sıralanır — tez, antitez, sentez; Mutlak Tin; diyalektik; efendi-köle — ve dosya kapanır.
+
+Oysa Hegel'e girmek için basit bir soru yeter:
+
+**Bir insan nasıl özgür olur?**
+
+Bütün sistemi, bir bakıma, bu sorunun etrafında döner. Ve verdiği cevap, "kimse bana karışmasın" cevabına taban tabana zıttır.
+
+## Yanlış tanıtım: "tez-antitez-sentez"
+
+Önce bir düzeltme.
+
+Hegel'in metinlerinde "tez-antitez-sentez" formülü **geçmez**. Bu şema, ona sonradan atfedilmiş bir okul özetidir ve düşüncesini basitleştirdiği kadar çarpıtır da.
+
+Hegel'in yaptığı şey, bir kavramın kendi içindeki gerilimi izlemektir. Bir kavramı ciddiye alıp sonuna kadar götürdüğünüzde, o kavram kendi sınırına çarpar ve kendinden başka bir şeye dönüşür.
+
+Bu bir formül değil, bir **okuma yöntemi**dir. Ve tam da bu yüzden mekanik bir şemaya indirgenemez.
+
+## Tanınma: en modern kavram
+
+Bugün Hegel çalışmalarının en canlı damarı diyalektik değil, **tanınma** (*Anerkennung*).
+
+Fikir şudur: Bir öznenin kendi hakkındaki bilinci, tek başına kurulamaz.
+
+Kim olduğumu, ne yapabileceğimi, neye değdiğimi ancak **başkalarının beni nasıl gördüğü** üzerinden bilirim. Ve bu, bir psikoloji gözlemi değil; Hegel'de yapısal bir tezdir.
+
+Sonucu radikal: **Özgürlük, başkalarından bağımsızlık değildir.**
+
+Özgürlük, kişinin kendi iradesini toplumsal dünyada gerçekleştirebilmesi ve bunu yaparken başkaları tarafından da özgür bir özne olarak **tanınmasıdır**.
+
+Bu tanım, liberal özgürlük kavrayışına yöneltilmiş sessiz bir eleştiridir. Yalnız bırakılmak, özgür olmak değildir. Bir insan, kimsenin kendisini muhatap almadığı bir dünyada, hiçbir engelle karşılaşmadan da özgürsüz olabilir.
+
+Sitemizde bu hafta ele aldığımız [Axel Honneth dosyası](/haber/axel-honneth-taninma-ve-calisma), bu kavramın yirmi birinci yüzyıldaki en sistematik devamıdır.
+
+## Efendi-köle: neden hâlâ okunuyor?
+
+*Tin'in Fenomenolojisi*'ndeki bu birkaç sayfa, felsefe tarihinin en çok okunan bölümlerinden biri.
+
+Sahne şudur. İki özbilinç karşılaşır. Her biri diğerinden tanınmak ister. Bir ölüm kalım mücadelesi çıkar. Biri korkar ve boyun eğer: köle olur. Diğeri efendi olur.
+
+Efendi kazanmış görünür.
+
+Ama Hegel'in gösterdiği şey bunun tersidir.
+
+Efendi, kölenin tanımasına muhtaçtır — ve kölenin tanıması **değersizdir**, çünkü köle özgür bir özne sayılmamıştır. Efendi, kendisine değer vermediği birinin onayına bağımlı hâle gelir.
+
+Köle ise **çalışır**. Doğayı dönüştürür. Ürettiği şeyde kendi emeğini görür. Ve dünyayı biçimlendirebildiğini fark ettiği anda, kendi bilinci dönüşür.
+
+Bu analiz, sitemizde bu hafta ele aldığımız [Karl Marx dosyasında](/haber/karl-marx-yabancilasma-meta-fetisizmi) anlattığımız emek ve yabancılaşma kuramının doğrudan atasıdır. Marx bu bölümü tersine çevirmedi; **maddileştirdi**.
+
+Bir uyarı: Bu bölüm tarihsel bir anlatı değildir. Hegel gerçek bir köleci toplumu anlatmıyor; özbilincin mantıksal bir uğrağını çözümlüyor. Metni sosyolojik bir tez gibi okumak, en yaygın hatalardan biri.
+
+## "Devletin filozofu" suçlaması
+
+Hegel uzun süre şöyle okundu: Devleti yücelten, tarihi mutlaklaştıran, bireyi bütünün içinde eriten, totaliterliğin entelektüel öncüsü.
+
+Bu okumanın güçlü savunucuları oldu ve tümüyle temelsiz değildi: *Hukuk Felsefesinin Prensipleri*'ndeki bazı formülasyonlar rahatsız edicidir.
+
+Ama savaş sonrası Hegel araştırmaları tabloyu esaslı biçimde değiştirdi.
+
+Stanford Felsefe Ansiklopedisi'nin güncel Hegel maddesi, özellikle etik ve siyaset felsefesinin, klasik "metafizik sistem" yorumundan bağımsız olarak okunabileceğini vurguluyor; savaş sonrası çalışmalarda daha sistematik ve daha az metafizik okumaların ağırlık kazandığını da kaydediyor.
+
+Bu okumada Hegel'in *Sittlichkeit* (töresel yaşam) kavramı merkezdedir: Aile, sivil toplum ve devlet, bireyi ezen yapılar değil, özgürlüğün **gerçekleşebileceği** kurumsal ortamlardır.
+
+Katılmak zorunda değilsiniz. Ama tartışmanın bu noktada olduğunu bilmek gerekiyor.
+
+## 2026'da Hegel nerede?
+
+Hegel çalışmaları bugün bir tarihçilik alanı değil.
+
+**16-18 Ekim 2026**'da, **Amerika Hegel Derneği** (Hegel Society of America) 28. iki yıllık toplantısını **Northwestern Üniversitesi**'nde (Evanston, Illinois) yapıyor. Toplantının teması: ***"Hegel and Time"*** — Hegel ve Zaman.
+
+Tema tesadüf değil. Hegel'de zaman, en zor konulardan biridir: Tarihin bir yönü var mıdır? "Şimdi" nedir? Tin'in kendini gerçekleştirmesi zamansal bir süreç midir, yoksa mantıksal bir yapı mı?
+
+Bu sorular bugün, sitemizde bu hafta ele aldığımız [Sanders Metafizik Ödülü dosyasında](/haber/sanders-metafizik-odulu-2026-logical-atomism) izlediğimiz analitik metafizikteki temellendirme tartışmalarıyla beklenmedik biçimde kesişiyor.
+
+Aynı yıl, Hegel'in genç Foucault üzerindeki etkisini inceleyen çalışmalar da yayımlandı — Foucault'nun 1949 tarihli mezuniyet tezi *Tin'in Fenomenolojisi* üzerineydi. Yapısalcılık sonrası düşüncenin Hegel'le hesaplaşarak kurulduğu, artık yeterince belgelenmiş bir tez.
+
+## Neden okumalı?
+
+Hegel zor bir yazar ve bu gerçeği yumuşatmaya gerek yok.
+
+Ama okunmasının pratik bir sebebi var: Modern dünyanın kurumlarını — devlet, hukuk, piyasa, aile — ne salt bireysel tercihlere indirger ne de değişmez doğal yapılar sayar.
+
+Onları **tarihsel olarak kurulmuş, çelişkiler taşıyan ve dönüşebilir** yapılar olarak görür.
+
+Bu bakış, sitemizde bugün ele aldığımız [Robert Alexy dosyasında](/haber/robert-alexy-hukukun-ikili-dogasi) anlattığımız "hukukun ikili doğası" tezinin uzak akrabasıdır: Bir kurum hem olgudur hem de kendini gerekçelendirme yükü taşır.
+
+Hegel'in bıraktığı en güçlü cümle belki de şudur:
+
+**Özgürlük, çelişkilerin ortadan kalkması değil; çelişkilerin içinden kendini gerçekleştirebilme kapasitesidir.**
+
+---
+
+*Georg Wilhelm Friedrich Hegel 27 Ağustos 1770'te Stuttgart'ta doğdu, 14 Kasım 1831'de Berlin'de öldü. Kapak görseli, Jakob Schlesinger'in 1831 tarihli portresidir; Hegel fotoğrafın icadından önce yaşadığı için dönem portresi kullanılmıştır.*`,
+  },
+  {
+    title: "Assos'ta başlayan gelenek Selçuk'ta sürüyor: Mantık, Matematik ve Felsefe XI",
+    slug: "mantik-matematik-felsefe-xi-selcuk-2026",
+    summary:
+      "2003'te Assos'ta başlayan, sonra uzun süre sessizliğe gömülen bir sempozyum dizisi yeniden açılıyor. Bu yıl 1-3 Ekim'de Selçuk'ta. Teması bir kelime: ÂRÂF — kesinlik ile belirsizlik arasındaki ara bölge.",
+    seoTitle: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu — 1-3 Ekim 2026, Selçuk",
+    metaDescription:
+      "MMF XI Ulusal Sempozyumu 1-3 Ekim 2026'da Selçuk'ta. Tema: ÂRÂF — Belirsiz Kesinlikler, Kesin Belirsizlikler Arasında İnsan ve Bilgi.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk%20Ephesus%20Celsus-Library%2032%203x2-R%205K.jpg?width=1600",
+    imageCredit: "Celsus Kütüphanesi, Efes — Selçuk, İzmir · Wikimedia Commons",
+    featured: false,
+    sourceName: "İstanbul Kültür Üniversitesi",
+    sourceUrl: "https://mmf2026.iku.edu.tr/",
+    publishedAt: "2026-09-08T02:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "mantik", "bilim-felsefesi", "sempozyum", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu",
+        publisher: "İstanbul Kültür Üniversitesi",
+        url: "https://mmf2026.iku.edu.tr/",
+        primary: true,
+      },
+      {
+        title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu Daveti",
+        publisher: "Toros Üniversitesi",
+        url: "https://toros.edu.tr/duyurular/istanbul-kultur-universitesi-mantik-matematik-ve-felsefe-xi-ulusal-sempozyumu-daveti",
+      },
+    ],
+    content: `Türkiye'de akademik gelenekler kolay kurulmaz, kolay kaybolur.
+
+**Mantık, Matematik ve Felsefe Ulusal Sempozyumu**, bu cümlenin hem doğrulanması hem de çürütülmesi.
+
+Dizi **2003**'te **Assos**'ta başladı. Bir dönem Türkiye'de mantık, matematik felsefesi ve bilim felsefesi çalışanların düzenli buluşma yeriydi. Sonra uzun bir sessizlik.
+
+Şimdi, İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin öncülüğünde yeniden açılıyor.
+
+**XI. Ulusal Sempozyum**, **1-3 Ekim 2026** tarihlerinde **Selçuk, İzmir**'de yapılacak. Düzenleme, Selçuk Belediyesi ve Türk Matematik Derneği işbirliğiyle yürütülüyor.
+
+## Tema: ÂRÂF
+
+Sempozyumun başlığı dikkat çekici:
+
+***"ÂRÂF: Belirsiz Kesinlikler, Kesin Belirsizlikler Arasında İnsan ve Bilgi"***
+
+Âraf, klasik anlamıyla iki âlem arasındaki ara bölgedir — ne tam burası, ne tam orası.
+
+Mantık ve matematik felsefesi için bundan iyi bir metafor bulmak zor.
+
+Çünkü yirminci yüzyıl, kesinlik arayışının kendi sınırlarına çarptığı yüzyıldı.
+
+**Gödel** (1931): Yeterince güçlü ve tutarlı hiçbir biçimsel sistem, kendi tutarlılığını kendi içinde kanıtlayamaz; her böyle sistemde, doğru olduğu halde sistem içinde kanıtlanamayan önermeler bulunur.
+
+**Tarski**: Bir dilin doğruluk yüklemi, o dilin kendi içinde tanımlanamaz.
+
+**Turing** (1936): Bir programın duracağını genel olarak belirleyecek bir yöntem yoktur.
+
+Bunların hiçbiri "matematik güvenilmezdir" demez. Hepsi daha incelikli bir şey söyler: **Kesinlik gerçektir, ama sınırlıdır. Ve sınırın nerede olduğu, kesin olarak bilinebilir.**
+
+Bu, âraf'ın tam tarifi.
+
+## Neden Selçuk?
+
+Sempozyumun Selçuk'ta yapılması bir turizm tercihi gibi görünebilir. Değildir.
+
+Selçuk, antik **Efes**'in bulunduğu yerdir. Ve Efes'ten yaklaşık elli kilometre kuzeyde **Kolophon**, güneyde ise İyonya'nın felsefe kuşağı uzanır.
+
+Daha doğrudan bir bağ da var: **Herakleitos** Efesliydi.
+
+Ve Herakleitos'un bütün fragmanları, tam olarak sempozyumun temasını konuşur: Bir şey aynı anda hem kendisi hem karşıtı olabilir mi? Değişen bir dünyada bilgi mümkün müdür? Aynı nehre iki kez girilebilir mi?
+
+Assos'ta başlayıp Selçuk'ta devam eden bir dizinin, Türkiye'nin antik felsefe coğrafyasını izlemesi anlamlı. Sitemizde bu hafta duyurduğumuz [Assos'ta Felsefe etkinliği](/etkinlik/assosta-felsefe-2026) de aynı haritanın parçası.
+
+Aristoteles'in Assos'ta üç yıl kalıp biyoloji araştırmaları yaptığı hatırlanırsa, tablo tamamlanıyor.
+
+## Neden önemli?
+
+Türkiye'de felsefe bölümlerinin ağırlığı felsefe tarihi, siyaset felsefesi ve kıta felsefesindedir. Mantık ve matematik felsefesi görece dar bir alan.
+
+Oysa bu alan, felsefenin diğer alanlarıyla en fazla kesişen alanlardan biri:
+
+**Yapay zekâ** tartışması, hesaplanabilirlik kuramı olmadan konuşulamaz.
+**Zihin felsefesi**, temsil ve hesaplama kavramları olmadan yürümez.
+**Dil felsefesi**, biçimsel anlambilim olmadan eksiktir.
+**Bilim felsefesi**, olasılık ve tümevarım olmadan yapılamaz.
+
+Sitemizde bu hafta ele aldığımız [Reichenbach Kongresi](/haber/reichenbach-kongresi-istanbul-2026) (5-6 Kasım, İstanbul Üniversitesi) ile bu sempozyum, aynı sonbaharda aynı damarı besliyor. İkisi birlikte, Türkiye'de bilim ve mantık felsefesinin yeniden görünürlük kazandığı bir dönemi işaret ediyor olabilir.
+
+## Sonbahar takvimi
+
+2026 sonbaharı Türkiye'de felsefe açısından yoğun geçecek:
+
+**1-3 Ekim · Selçuk** — Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu
+
+**26-27 Ekim · İstanbul Üniversitesi** — [1. Ulusal İslam Felsefesi Sempozyumu](/haber/ulusal-islam-felsefesi-sempozyumu-2026): "İskenderiye'den Bağdat'a"
+
+**5-6 Kasım · İstanbul Üniversitesi** — [Reichenbach in İstanbul](/haber/reichenbach-kongresi-istanbul-2026): bilim felsefesi, nedensellik, olasılık, uzay-zaman
+
+Dünyada ise ekim-kasım dolu:
+
+**9-10 Ekim · Ohio State** — Fizik Felsefesi Konferansı: kuantum kuramı yorumlarının metafizik varsayımları
+
+**13-15 Ekim · Radboud, Hollanda** — COMET 2026: çağdaş kıta felsefesinde metafizik
+
+**16-18 Ekim · Northwestern** — [Amerika Hegel Derneği: "Hegel and Time"](/haber/hegel-taninma-ozgurluk-zaman)
+
+**23-24 Ekim · çevrim içi** — [Kuzey Amerika Sartre Derneği](/haber/sartre-dernegi-2026-dijital-varolusculuk): dijital varoluşçuluk
+
+**13-14 Kasım · Oxford** — [30. Oxford Lisansüstü Felsefe Konferansı](/etkinlik/oxford-lisansustu-felsefe-konferansi-2026): Chalmers, Chadha, Simpson, Moore
+
+**20-21 Kasım · Duke** — [Hayvan Refahı Felsefesi](/etkinlik/duke-hayvan-refahi-felsefesi-2026)
+
+---
+
+*Ayrıntılı bilgi ve bildiri başvurusu için: mmf2026.iku.edu.tr · Program ayrıntıları değişebilir; kesin bilgi için düzenleyici kurumla iletişime geçilmesi önerilir.*`,
+  },
+  {
+    title: "Leiter'den gerçekçi cephe: \"Gerçek normatiflik diye bir şey yoktur\"",
+    slug: "brian-leiter-from-a-realist-point-of-view",
+    summary:
+      "Alexy'nin ölümünü duyuran blogun sahibi, hukuk felsefesinde onun tam karşı kutbunda duruyor. Brian Leiter'in Oxford'dan çıkan yeni derlemesi, yargıçların kararlarını gerekçelerin değil psikolojinin, ideolojinin ve toplumsal koşulların açıkladığını savunuyor. NDPR'daki inceleme bir çelişkiye işaret ediyor.",
+    seoTitle: "Brian Leiter, From a Realist Point of View (Oxford, 2026)",
+    metaDescription:
+      "Brian Leiter'in From a Realist Point of View derlemesi: hukuki gerçekçilik, doğalcılık, emsal kuramı ve NDPR incelemesindeki normatiflik itirazı.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20view%20-%20Wisconsin%20Supreme%20Court%20-%20DSC03183.JPG?width=1600",
+    imageCredit: "Wisconsin Yüksek Mahkemesi salonu · Wikimedia Commons",
+    featured: false,
+    sourceName: "Notre Dame Philosophical Reviews",
+    sourceUrl: "https://ndpr.nd.edu/reviews/from-a-realist-point-of-view/",
+    publishedAt: "2026-09-08T02:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "hukuk-felsefesi", "nietzsche", "epistemoloji", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "From a Realist Point of View — inceleme: Adrian Kreutz",
+        publisher: "Notre Dame Philosophical Reviews",
+        date: "Temmuz 2026",
+        url: "https://ndpr.nd.edu/reviews/from-a-realist-point-of-view/",
+        primary: true,
+      },
+      {
+        title: "From a Realist Point of View",
+        publisher: "Oxford University Press",
+        url: "https://global.oup.com/academic/product/from-a-realist-point-of-view-9780197749821",
+      },
+    ],
+    content: `**Brian Leiter**, ***From a Realist Point of View***
+Oxford University Press, Oxford Legal Philosophy dizisi, 2026, 464 s.
+
+Bu kitabı bugün tanıtmak bir tesadüf değil.
+
+**Robert Alexy**'nin ölümünü duyuran ilk kaynaklardan biri Leiter'in bloguydu. Ve Leiter, hukuk felsefesinde Alexy'nin durduğu yerin **tam karşısında** duruyor.
+
+Bu karşıtlık, hukuk felsefesinin bugün nerede olduğunu anlamak için iyi bir kesit veriyor.
+
+## İki kutup
+
+**Alexy** der ki: Hukuk zorunlu olarak bir doğruluk iddiasında bulunur. Bir kararın meşruiyeti, rasyonel gerekçesindedir. Yargıç, ilkeleri tartmak zorundadır ve bu tartma denetlenebilir bir yapıya sahiptir.
+
+**Leiter** der ki: Temyiz mahkemesi yargıçları kararlarını çoğu zaman hukuk kurallarının mekanik olarak belirlemesi nedeniyle değil, **psikolojik, ideolojik ve toplumsal** etkenler nedeniyle verirler. Ve hukuk felsefesinin işi, bu etkenleri açıklamaktır.
+
+Leiter'in konumunun adı: **hukuki gerçekçilik** — özellikle Amerikan Hukuki Gerçekçilik geleneği.
+
+## Doğalcılık ne demek?
+
+Leiter'in yöntemsel tezi, kitabın omurgasını oluşturuyor.
+
+Hukuk felsefesi, ona göre, koltukta oturup "hukukun doğası" hakkında kavramsal sezgiler üretmemelidir. Hukuku, insan davranışının diğer yönlerini açıklayan **aynı bilimsel yöntemlerle** açıklamalıdır.
+
+Bu, doğrudan bir cephe açar. NDPR incelemesinin belirttiğine göre kitabın başlıca hedefleri arasında Waldron, Dworkin, Rawls, Raz ve Finnis var — yani analitik hukuk felsefesinin ana akımı.
+
+Leiter'in eleştirisi tek cümlede toplanabilir: **Hukuk felsefesi, mahkemelerin gerçekte ne yaptığına çok uzun süre kayıtsız kaldı.**
+
+## Üç güçlü bölüm
+
+**Emsal (stare decisis).** Leiter, emsalin yargıcı sanıldığı kadar bağlamadığını savunuyor. Çünkü hangi benzerliğin hukuken **anlamlı** olduğuna karar veren yine yargıçtır. Emsal, mekanik olarak sonuç üretmez; tartışmalı bir yorum edimiyle işler. Yani bir kural değil, argüman için **belirsiz bir kaynaktır**.
+
+**Mahkemeler ve demokrasi.** Yargısal denetim kuramlarının çoğu, yargıçların yetkinliği ve kurumların işleyişi hakkında idealleştirilmiş varsayımlara dayanır. Gerçekçi bakış, soyut ilkelerden değil, **tarihsel olarak konumlanmış, kusurlu ve bilişsel sınırları olan** kurumlardan başlar.
+
+**Hart'ın yanlış anlaşılması.** Leiter'e göre Hart, gerçekçileri "hukuk kuralları yoktur diyenler" olarak yanlış tanıttı. Gerçekçiler kuralların varlığını yadsımıyorlardı; mahkemelerin **pratikte** nasıl karar verdiğini açıklamaya çalışıyorlardı. Leiter daha da ileri gider: Hart'ın pozitivizmi, gerçekçiliğin karşıtı değil **devamıdır**.
+
+## Sınır problemi
+
+Kitabın en cesur bölümlerinden biri, hukuk felsefesinin klasik sorusuna saldırıyor: Hukuku ahlaktan ayıran özsel özellikler nelerdir?
+
+Leiter'in cevabı: Bu soru **yanlış kurulmuş**.
+
+Hukuk, diğer insan yapımı kurumlar gibi, sabit ve zorunlu tanımlayıcı özelliklere sahip değildir. "Öz" arayışı, bilim felsefesinde zaten çökmüş bir programın tekrarıdır: Bilim ile bilim-olmayan arasına keskin bir sınır çizilemediği gibi, hukuk ile ahlak arasına da çizilemez.
+
+Alexy'nin bütün projesinin tam da bu sınırı — dayanılmaz adaletsizlik eşiğini — belirlemek olduğu düşünülürse, karşıtlık netleşiyor.
+
+## İncelemenin itirazı
+
+*Notre Dame Philosophical Reviews*'da yayımlanan incelemede **Adrian Kreutz** (Amsterdam Üniversitesi), kitabı gerçekçi geleneğin "en tutarlı ve en incelikli işlenmiş" ifadesi olarak nitelendiriyor.
+
+Ama önemli bir itiraz getiriyor.
+
+Leiter, kitapta açık bir ifadeyle **"gerçek normatiflik diye bir şey yoktur"** diyor. Yalnızca ahlaki değil, neye inanılması gerektiği konusunda bile nesnel bir doğru-yanlış olmadığını savunuyor.
+
+Kreutz'un sorusu şu: Peki o zaman Leiter, yargıçların akıl yürütmesindeki **çarpıtmayı** hangi ölçütle teşhis ediyor?
+
+Bir kararın "ideolojik olarak bozulmuş" ya da "sonradan uydurulmuş bir gerekçelendirme" olduğunu söylemek, bir standart varsaymaktır. Standart ahlaki olmak zorunda değil — ama **epistemik** olarak normatiftir.
+
+Kreutz'un önerisi: Leiter'in gerçekçiliği, ahlakçılığa dönmeden, epistemik bir normatiflik boyutuyla tamamlanabilir. Bu, projesini zayıflatmaz; güçlendirir.
+
+## Nietzsche bağlantısı
+
+Kitabın az konuşulan ama belirleyici bir damarı var: **Nietzsche**.
+
+Leiter, Nietzsche üzerine de çalışan bir felsefeci ve gerçekçiliğini açıkça Nietzscheci bir soykütük tavrına bağlıyor: Bir düşüncenin gerekçelerine değil, **kaynağına** bakmak; ahlaki dilin arkasındaki güç ilişkilerini görünür kılmak.
+
+Sitemizde bu hafta ele aldığımız [Ahlakın Soykütüğü dosyasında](/haber/nietzschenin-soykutugu-degerlerin-degeri) izlediğimiz yöntemin hukuka uygulanmış hâli.
+
+Kreutz'un itirazının en keskin noktası da burada: Nietzscheci bir gerçekçilik, yalnızca nedenleri saptamakla kalmaz; **kendini aldatan ve ideolojik olarak bozulmuş akıl yürütme biçimlerini teşhir eder.** Bu ise değerlendirme yapmaktır.
+
+## Türkiye açısından
+
+Bu tartışma Türkiye'de doğrudan karşılığı olan bir tartışma.
+
+Bir mahkeme kararını değerlendirmenin iki yolu vardır.
+
+**Birincisi:** Gerekçe tutarlı mı? Normlar doğru uygulanmış mı? Ölçülülük testi işletilmiş mi?
+
+**İkincisi:** Bu karar hangi koşullarda, hangi kurumsal baskı altında, hangi eğilimlerle verildi?
+
+Alexy birinci yolun kuramcısı, Leiter ikincisinin.
+
+Ve gerçek şu ki, iki soruyu birlikte sormadan bir yargı sistemi anlaşılamaz.
+
+Sitemizde bu hafta ele aldığımız [Scott Shapiro dosyası](/haber/scott-shapiro-hukuk-kod-yapay-zeka) da bu iki kutup arasında üçüncü bir yol arıyor.
+
+## Kimler için?
+
+Giriş kitabı değil. Hukuk felsefesi, siyaset felsefesi ve metaetik alanlarında çalışanlar için.
+
+Ama Türkiye'de hukuk fakültelerinde hâkim olan Kelsen-Hart-Alexy ekseninin dışında bir ses duymak isteyen lisansüstü öğrenciler için değerli bir karşı-kutup.
+
+Fiyatı yüksek (170 dolar, ciltli). Kütüphane siparişi için not edilmeli.`,
+  },
+  {
+    title: "Al-Rodhan Ödülü 2026 uzun listesi: felsefenin sorduğu soru değişti",
+    slug: "nayef-al-rodhan-odulu-2026-uzun-liste",
+    summary:
+      "Kraliyet Felsefe Enstitüsü'nün 20.000 sterlinlik disiplinlerarası felsefe ödülünün 2026 uzun listesi açıklandı. Altı kitap, altı ayrı disiplinden geliyor. Ama hepsi tek bir soruyu soruyor — ve bu soru, felsefenin 2026'daki asıl gündemini ele veriyor: İnsan tam olarak ne?",
+    seoTitle: "Nayef Al-Rodhan Ödülü 2026 uzun listesi açıklandı",
+    metaDescription:
+      "Kraliyet Felsefe Enstitüsü'nün Nayef Al-Rodhan Disiplinlerarası Felsefe Ödülü 2026 uzun listesi: altı kitap, 20.000 sterlin.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Books%20in%20stack%20with%20lamps%20(Unsplash).jpg?width=1600",
+    imageCredit: "Kitaplar · Unsplash · Wikimedia Commons",
+    featured: false,
+    sourceName: "Royal Institute of Philosophy",
+    sourceUrl: "https://royalinstitutephilosophy.org/news/announcing-the-2026-nayef-al-rodhan-book-prize-longlist/",
+    publishedAt: "2026-09-08T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "yeni-kitap", "yapay-zeka", "bilinc", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Announcing the 2026 Nayef Al-Rodhan Book Prize Longlist",
+        publisher: "Royal Institute of Philosophy",
+        date: "3 Temmuz 2026",
+        url: "https://royalinstitutephilosophy.org/news/announcing-the-2026-nayef-al-rodhan-book-prize-longlist/",
+        primary: true,
+      },
+      {
+        title: "Winner of the 2025 Nayef Al-Rodhan Book Prize Announced",
+        publisher: "Royal Institute of Philosophy",
+        url: "https://royalinstitutephilosophy.org/news/winner-of-the-2025-nayef-al-rodhan-book-prize-announced/",
+      },
+    ],
+    content: `Ödüller genellikle kazananla ilgilidir.
+
+Uzun listeler ise başka bir şey söyler: **Alanın neyi önemli bulduğunu.**
+
+**Kraliyet Felsefe Enstitüsü** (The Royal Institute of Philosophy), **Nayef Al-Rodhan Uluslararası Disiplinlerarası Felsefe Ödülü**'nün 2026 uzun listesini açıkladı. Ödül dördüncü yılında ve **20.000 sterlin** değerinde.
+
+Altı kitap listede. Ve altısı bir arada okunduğunda, 2026 felsefesinin haritası çıkıyor.
+
+## Uzun liste
+
+**Blaise Agüera y Arcas — *What Is Intelligence?: Lessons from AI About Evolution, Computing, and Minds*** (MIT Press). Yapay zekânın bize evrim, hesaplama ve zihin hakkında ne öğrettiği. Yazar bir bilgisayar bilimcisi; sorusu felsefi.
+
+**Frances Egan — *Deflating Mental Representation*** (MIT Press). Zihin felsefesinin en teknik tartışmalarından birine müdahale: Zihinsel temsil kavramı, bilişsel bilimin sandığı kadar sağlam bir zemine mi oturuyor? Egan'ın cevabı deflasyonist — temsil dilini kullanmaya devam edebiliriz, ama ona ağır bir metafizik yük bindirmeden.
+
+**Gareth S. Owen — *Psychiatry and Human Nature*** (Cambridge University Press). Psikiyatri ne tür bir bilgi üretir? Zihinsel bozukluk kavramı, insan doğası hakkında hangi varsayımları taşır?
+
+**Andrea Pinotti — *At the Threshold of the Image: From Narcissus to Virtual Reality*** (Zone Books). Narkissos'tan sanal gerçekliğe: Bir görüntünün "içine girmek" ne demektir? Görüntü ile gerçeklik arasındaki eşik nasıl inceldi?
+
+**Dan Turello — *Connection: How Technology Can Make Us Better Humans*** (Columbia University Press). Teknoloji eleştirisinin baskın karamsar tonuna karşı bir karşı-tez.
+
+**Christine Webb — *The Arrogant Ape: And A New Way To See Humanity*** (Little, Brown). İnsan istisnacılığına karşı: Kendimizi diğer hayvanların üstünde konumlandırma alışkanlığımız, bilimsel olarak ne kadar savunulabilir?
+
+## Ortak eksen
+
+Bu altı kitap altı ayrı disiplinden geliyor: bilgisayar bilimi, bilişsel bilim, psikiyatri, görsel kültür, medya kuramı, primatoloji.
+
+Ve altısı da aynı soruyu farklı yerinden tutuyor:
+
+**İnsan tam olarak ne?**
+
+Agüera y Arcas soruyor: Zekâ insana özgü mü?
+Egan soruyor: Zihin temsil eden bir şey mi?
+Owen soruyor: Normal zihin nedir?
+Pinotti soruyor: Deneyim ile onun görüntüsü arasındaki fark nerede?
+Turello soruyor: Teknoloji insanı azaltmak zorunda mı?
+Webb soruyor: İnsan neden merkezde olduğunu düşünüyor?
+
+Jüri başkanı **Constantine Sandis** (Lex Academic, Hertfordshire), altı kitabın da disiplin sınırlarını aşarak insan davranışının anlaşılmasını ilerlettiğini belirtti.
+
+Jüride ayrıca Francesca Cacucci (UCL), Christina Easton (Birmingham), Edward Harcourt (Oxford), Carey Jewitt (UCL), Lambros Malafouris (Oxford) ve Barry Smith (Londra Felsefe Enstitüsü) yer alıyor.
+
+## Geçen yılın kazananı: bir hukuk metni gibi okunan felsefe
+
+2025 ödülü, **Jonathan Birch**'in ***The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI*** (Oxford University Press) kitabına verilmişti.
+
+Bu kitap, ödülün ne aradığını en iyi gösteren örnek.
+
+Birch'in sorusu şu: **Bir varlığın duyarlı (sentient) olup olmadığından emin olmadığımızda ne yapmalıyız?**
+
+Kitap, duyarlılığı "değerli deneyim kapasitesi" — acı ve haz gibi — olarak tanımlıyor ve ardından belirsizlik altında karar verme sorununa geçiyor: bilinç bozukluğu olan hastalar, fetüsler, ahtapotlar ve böcekler gibi omurgasızlar, ve gelecekteki yapay zekâ sistemleri.
+
+Birch'in yaklaşımı bir bilinç kuramı önermez. Onun yerine bir **ihtiyat çerçevesi** kurar: Kanıt eşiği neresidir? Hangi belirtiler ciddiye alınmalıdır? Ve en önemlisi — kim karar vermeli?
+
+Bu üçüncü soru kitabı sıra dışı kılıyor. Birch, bu kararların uzmanlara bırakılamayacağını, **vatandaş panelleri** gibi katılımcı süreçlerle alınması gerektiğini savunuyor.
+
+Yani bir bilinç felsefesi kitabı, demokratik karar verme kitabına dönüşüyor.
+
+## Neden burada duruyoruz?
+
+Sitemizde bu hafta izlediğimiz üç dosya, bu ödülün etrafında birleşiyor.
+
+Birch'in ihtiyat çerçevesi, [yapay zekâ ajanlarının bilinç araştırmacılarına yazdığı e-postalar](/haber/yapay-zeka-ajanlari-bilinc-arastirmacilari-eposta) haberinin doğrudan cevabıdır: Karşımızda ne olduğunu bilmediğimizde nasıl davranırız?
+
+Aynı çerçeve, Eric Schwitzgebel'in [*AI and Consciousness*](/haber/yapay-zeka-bilinc-schwitzgebel-sis) kitabındaki kuşkuculukla ve Keeling ile Street'in [*Emerging Questions in AI Welfare*](/haber/keeling-street-yapay-zeka-refahi) çalışmasıyla aynı masada duruyor.
+
+Ve **20-21 Kasım**'da Duke Üniversitesi'nde yapılacak [Hayvan Refahı Felsefesi konferansı](/etkinlik/duke-hayvan-refahi-felsefesi-2026), aynı sorunun hayvanlar cephesindeki hâli.
+
+## Bir not
+
+Ödülün adını taşıyan Nayef Al-Rodhan, felsefeci ve sinirbilimci; Cenevre Güvenlik Politikası Merkezi'nde jeopolitik programını yürütüyor ve disiplinlerarası felsefe için ayrı bir manifesto kaleme almış durumda.
+
+Ödülün başvuru kategorileri de bu programı yansıtıyor: insanlığın geleceği felsefesi, sınır riskleri ve yıkıcı teknolojiler felsefesi, küresel yönetişim ve kültürlerarası anlayış felsefesi, insan doğası ve bilimsel yenilik felsefesi, disiplinlerarası yöntemler felsefesi.
+
+Bu kategoriler tartışılabilir — "disiplinlerarasılık" bazen derinlik yerine genişlik ödüllendirebilir.
+
+Ama listedeki kitaplara bakıldığında, en azından bu yıl, endişe yersiz görünüyor.
+
+---
+
+*Kraliyet Felsefe Enstitüsü 1925'te kuruldu, 1947'de kraliyet beratını aldı. Kısa liste ve kazanan önümüzdeki aylarda açıklanacak.*`,
+  },
+  {
+    title: "Felsefe tarihinde bugün: 8 Eylül — yöntem anlamı üretebilir mi?",
+    slug: "felsefe-tarihinde-bugun-8-eylul-bar-hillel-pareyson",
+    summary:
+      "8 Eylül'de doğan bir matematikçi, makinelerin çeviremeyeceğini kanıtladı. Aynı gün ölen bir İtalyan filozof, yorumun bir teknik değil bir varoluş biçimi olduğunu savundu. Ve yine aynı gün ölen bir Amerikalı, kitabına \"Tekniğin Yanılsaması\" adını verdi. Üçü aynı şeyi söylüyor.",
+    seoTitle: "Felsefe tarihinde bugün: 8 Eylül — Bar-Hillel, Pareyson, Barrett",
+    metaDescription:
+      "8 Eylül: Yehoshua Bar-Hillel'in doğumu, Luigi Pareyson ve William Barrett'ın ölümü. Makine çevirisi, yorum ve tekniğin sınırları.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20Electronic%20Data%20Processing%20Machine%20-%20GPN-2000-001881.jpg?width=1600",
+    imageCredit: "IBM elektronik veri işleme makinesi, 1950'ler · NASA · Wikimedia Commons",
+    featured: false,
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Yehoshua_Bar-Hillel",
+    publishedAt: "2026-09-08T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "yapay-zeka", "mantik", "estetik", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Yehoshua Bar-Hillel",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Yehoshua_Bar-Hillel",
+        primary: true,
+      },
+      {
+        title: "Luigi Pareyson",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Luigi_Pareyson",
+      },
+      {
+        title: "William Barrett (philosopher)",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/William_Barrett_(philosopher)",
+      },
+    ],
+    content: `Takvimler bazen tesadüfen küme yapar.
+
+8 Eylül'ün üç ismi — bir Viyanalı matematikçi, bir Torinolu estetikçi, bir New Yorklu varoluşçu — birbirini muhtemelen hiç okumadı.
+
+Ama üçü de aynı şeye itiraz etti:
+
+**Anlamın bir yöntemle üretilebileceği fikrine.**
+
+---
+
+## Yehoshua Bar-Hillel (8 Eylül 1915 – 1975)
+
+Viyana'da doğdu. Filozof, matematikçi ve dilbilimciydi. Kudüs İbrani Üniversitesi'nde çalıştı ve biçimsel dilbilim ile makine çevirisi alanlarının kurucularından sayılıyor.
+
+Ve 1950'lerin sonunda, kendi alanının en büyük hayaline ilk ağır darbeyi vurdu.
+
+### Hayal
+
+1950'ler, makine çevirisinde büyük iyimserlik dönemiydi. Soğuk Savaş'ın ortasında, Rusça belgeleri otomatik olarak İngilizceye çeviren makineler hayal ediliyordu. Sözlük artı dilbilgisi kuralları eşittir çeviri — hesap böyleydi.
+
+Bar-Hillel bu alanda çalışan ilk kişilerden biriydi. MIT'de makine çevirisi araştırmalarını yürüttü.
+
+Ve sonra, kendi alanının imkânsızlığını gösteren raporu yazdı.
+
+### Kalem ve kutu
+
+1959-60 tarihli çalışmasının adı doğrudandı: *"Tam otomatik yüksek nitelikli çevirinin yapılamazlığının bir gösterimi."*
+
+Argümanı bir cümleye dayanıyordu:
+
+> *"The box was in the pen."*
+
+İngilizcede **pen** hem "kalem" hem "çocuk parkı / ağıl" anlamına gelir.
+
+Bir insan bu cümleyi okuduğunda tereddüt etmez: Kutu, kalemin içinde olamaz; demek ki bir çocuk parkının içinde.
+
+Peki bunu nereden bilir?
+
+Sözlükten değil. Dilbilgisinden değil. **Dünyanın nasıl bir yer olduğunu bildiği için** bilir. Kutuların büyüklüğünü, kalemlerin küçüklüğünü, fiziksel kapsanma ilişkilerini.
+
+Bar-Hillel'in sonucu: Doğru çeviri, **ansiklopedik dünya bilgisi** gerektirir. Ve bu bilgiyi bir makineye kural olarak yüklemek pratik olarak imkânsızdır.
+
+Bu tespit, makine çevirisi araştırmalarına ayrılan fonların kesilmesinde etkili oldu. Alan yıllarca durdu.
+
+### Peki bugün ne oldu?
+
+Cevap ilginç, çünkü hem "Bar-Hillel yanıldı" hem "Bar-Hillel haklıydı" denebiliyor.
+
+**Yanıldı**, çünkü bugün makineler bu cümleyi doğru çeviriyor.
+
+**Haklıydı**, çünkü doğru çevirmelerinin sebebi, dünya bilgisine sahip olmaları değil; milyarlarca insan cümlesinde bu tür kullanımların istatistiksel izini taşımaları.
+
+Yani Bar-Hillel'in teşhisi doğruydu — problemin çözümü yalnızca beklemediği bir yerden geldi. Dünya bilgisi makineye **kural olarak** değil, **metin olarak** yüklendi.
+
+Ve buradan yeni bir soru doğuyor: Bir sistem, dünyayı bilmeden dünya hakkında doğru cümleler kurabiliyorsa, "bilmek" ne demektir?
+
+Bu soru, sitemizde bu hafta ele aldığımız [John Searle](/haber/john-searle-cin-odasi-anlam-kurum) ve bugün ele aldığımız [Chomsky](/haber/chomsky-monist-ozel-sayi-dil-zihin) dosyalarının tam ortasında duruyor.
+
+Bar-Hillel'in ayrıca biçimsel dilbilime katkısı da vardır: kategoryal dilbilgisi üzerindeki çalışmaları ve enformasyon kuramına dair katkıları, bilgisayar bilimi ile mantığın kesişiminde temel metinler arasında sayılır.
+
+---
+
+## Luigi Pareyson (4 Şubat 1918 – 8 Eylül 1991)
+
+Torino'da ders verdi. İtalyan hermeneutik okulunun kurucusu sayılıyor ve 1990'lara kadar İtalyan felsefe manzarasına damgasını vuran çizginin kaynağında duruyor.
+
+Türkiye'de neredeyse hiç bilinmiyor. Oysa iki büyük ismin hocasıydı: **Umberto Eco** ve **Gianni Vattimo**.
+
+### Formatività
+
+1954 tarihli ***Estetica: Teoria della formatività***, Benedetto Croce'nin o dönem İtalya'da egemen olan estetiğine karşı yazıldı.
+
+Croce'ye göre sanat, sanatçının zihninde tamamlanmış bir sezgidir; maddi gerçekleşme ikincildir.
+
+Pareyson buna itiraz etti.
+
+Ona göre sanat bir **formatività**dir — kendi kuralını yaparken bulan bir etkinlik. Sanatçı önceden bilinen bir yöntemi uygulamaz. Yapma sürecinin içinde, neyi yapması gerektiğini keşfeder.
+
+Bu, teknik bir estetik tezi gibi görünür. Değildir. Genel bir insan etkinliği kuramıdır.
+
+Çünkü aynı yapı düşünmede de vardır: Bir problemi çözerken, çözümün ne olacağını önceden bilmezsiniz; arayışın içinde ölçütü de kurarsınız.
+
+### Yorum
+
+Pareyson buradan hermeneutiğe geçer ve İtalya'da o güne dek yalnızca hukuk metinleri yorumuyla sınırlı kalmış bir disiplini felsefenin merkezine taşır — kendisinden önce hukukçu Emilio Betti'nin açtığı yolda.
+
+Tezi şudur: **Hakikat vardır ama yalnızca yorum içinde erişilebilir.**
+
+Bu ikili tez önemli. Pareyson bir görecelikçi değildir; hakikatin varlığını yadsımaz. Ama hakikate yorumdan bağımsız, "yöntemsel" bir erişim olduğunu da reddeder.
+
+Her yorum kişiseldir ve her yorum evrensele açıktır. İkisi birden.
+
+Eco'nun *Açık Yapıt*'ı ve Vattimo'nun "zayıf düşünce"si, bu tezin iki farklı yönde geliştirilmesidir. Eco yorumun sınırlarını arar; Vattimo sınırların gevşemesini savunur.
+
+Sitemizde bu hafta ele aldığımız [Robert Estienne dosyasında](/haber/felsefe-tarihinde-bugun-7-eylul-erastus-estienne) anlattığımız "metne aracısız erişim" idealinin felsefi sınırı burada çizilir: Metne erişebilirsiniz; **yorumsuz** erişemezsiniz.
+
+---
+
+## William Barrett (30 Aralık 1913 – 8 Eylül 1992)
+
+New York'ta doğdu, Tarrytown'da öldü. 1950-1979 arasında New York Üniversitesi'nde felsefe profesörlüğü yaptı, sonra Pace Üniversitesi'nde.
+
+Kuşağının pek çok entelektüeli gibi gençliğinde Marksizmle ilgilendi; sonra enerjisini Avrupa felsefesini Amerikan okuruna anlatmaya verdi.
+
+### Irrational Man
+
+1958 tarihli ***Irrational Man: A Study in Existential Philosophy***, varoluşçuluğu İngilizce konuşan dünyaya tanıtan kitaptır.
+
+Kierkegaard, Nietzsche, Heidegger ve Sartre'ı, akademik jargon olmadan, bir kültür tarihi anlatısı içinde sundu.
+
+Kitabın hâlâ basılıyor olması, o işin ne kadar iyi yapıldığını gösteriyor.
+
+### The Illusion of Technique
+
+Ama Barrett'ı bugün okumaya değer kılan kitap 1978 tarihli ***The Illusion of Technique***'tir.
+
+Başlık, üç ismin ortak eksenini veriyor: **tekniğin yanılsaması**.
+
+Barrett'ın tezi şudur: Modern kültür, her problemin bir yöntemle çözülebileceğine inanır. Doğru prosedür bulunursa, sonuç gelir.
+
+Bu inanç bilimde ve mühendislikte olağanüstü verimli oldu.
+
+Ama bir yerde durur.
+
+Nasıl yaşanacağı, neyin değerli olduğu, bir hayatın anlamlı olup olmadığı — bunlar prosedürle çözülmez. Ve prosedürle çözülemeyen soruları prosedürleştirmeye çalışmak, onları yok etmek anlamına gelir.
+
+---
+
+## Bugünün ekseni
+
+Üç isim, üç ayrı gelenek.
+
+**Bar-Hillel:** Anlam, kurallara indirgenemez.
+**Pareyson:** Yorum, bir tekniğe indirgenemez.
+**Barrett:** Yaşam, bir yönteme indirgenemez.
+
+Üçü de aynı sınırı işaret ediyor.
+
+Ve bu sınır, 2026'da her zamankinden daha canlı. Çünkü elimizde ilk kez, anlam gerektiren işleri anlam olmadan yapıyor görünen sistemler var.
+
+Bar-Hillel'in kalem-kutu cümlesi bugün doğru çevriliyor.
+
+Ama soru duruyor:
+
+**Çeviren, cümleyi anlıyor mu — yoksa yalnızca doğru mu çeviriyor?**
+
+Ve daha rahatsız edici olanı:
+
+**Fark ediyor mu?**`,
+  },
   {
     title: "Searle'ün odası boşaldı, sorusu duruyor",
     slug: "john-searle-cin-odasi-anlam-kurum",
@@ -18982,6 +20307,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "From a Realist Point of View",
+    slug: "leiter-from-a-realist-point-of-view",
+    originalTitle: "From a Realist Point of View",
+    publisher: "Oxford University Press (Oxford Legal Philosophy)",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780197749821",
+    coverImage: null,
+    description:
+      "Brian Leiter'in yirmi yıla yayılan hukuki gerçekçilik makalelerinin, kapsamlı yeni bir giriş yazısıyla derlenmiş hâli. Temyiz yargıçlarının kararlarını hukuk kurallarının değil psikolojik, ideolojik ve toplumsal etkenlerin açıkladığını savunuyor; hukuk ile ahlak arasında özsel bir sınır çizme çabasını (\"sınır problemi\") yanlış kurulmuş sayıyor. 464 sayfa.",
+    year: 2026,
+    link: "https://ndpr.nd.edu/reviews/from-a-realist-point-of-view/",
+    philosopherSlug: null,
+    postSlug: "brian-leiter-from-a-realist-point-of-view",
+  },
+  {
     title: "Reference and Beyond: Essays in Philosophy of Language",
     slug: "devitt-reference-and-beyond",
     originalTitle: "Reference and Beyond: Essays in Philosophy of Language",
@@ -19552,6 +20893,68 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu — ÂRÂF",
+    slug: "mantik-matematik-felsefe-xi-2026",
+    summary:
+      "2003'te Assos'ta başlayan sempozyum dizisi, uzun bir aradan sonra Selçuk'ta yeniden açılıyor. Tema: kesinlik ile belirsizlik arasındaki ara bölge.",
+    description: `İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin öncülüğünde, Selçuk Belediyesi ve Türk Matematik Derneği işbirliğiyle düzenleniyor.
+
+Sempozyumun teması: **"ÂRÂF: Belirsiz Kesinlikler, Kesin Belirsizlikler Arasında İnsan ve Bilgi"**
+
+Matematiksel kesinlik, mantıksal tutarlılık, felsefi derinlik ve sanatsal yaratıcılık arasındaki yapısal bağlar, disiplinlerarası bir platformda ele alınacak.
+
+Dizi 2003'te Assos'ta başlamış, bir dönem Türkiye'de mantık, matematik felsefesi ve bilim felsefesi çalışanların düzenli buluşma yeri olmuştu. Uzun bir sessizliğin ardından yeniden canlandırılıyor.
+
+Sempozyumun Selçuk'ta yapılması anlamlı: Antik Efes'in bulunduğu bu yer, aynı zamanda Herakleitos'un memleketi.
+
+Ayrıntılı bilgi: mmf2026.iku.edu.tr`,
+    kind: "SEMPOZYUM",
+    organizer: "İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi · Selçuk Belediyesi · Türk Matematik Derneği",
+    topic: "Mantık, matematik felsefesi, bilim felsefesi, belirsizlik",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-01T06:00:00.000Z",
+    endsAt: "2026-10-03T18:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "Selçuk, İzmir",
+    country: "Türkiye",
+    website: "https://mmf2026.iku.edu.tr/",
+    registrationUrl: "https://mmf2026.iku.edu.tr/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk%20Ephesus%20Celsus-Library%2032%203x2-R%205K.jpg?width=1600",
+    featured: true,
+    sourceName: "İstanbul Kültür Üniversitesi",
+    sourceUrl: "https://mmf2026.iku.edu.tr/",
+  },
+  {
+    title: "Hegel and Time — Amerika Hegel Derneği 28. İki Yıllık Toplantısı",
+    slug: "hegel-society-hegel-and-time-2026",
+    summary:
+      "Amerika Hegel Derneği'nin 28. toplantısı Northwestern Üniversitesi'nde yapılacak. Tema: Hegel ve zaman.",
+    description: `Amerika Hegel Derneği (The Hegel Society of America) 28. iki yıllık toplantısını Northwestern Üniversitesi'nde (Evanston, Illinois) düzenliyor.
+
+Toplantının teması: **"Hegel and Time"**
+
+Ele alınacak sorular: Hegel'in farklı eserlerindeki açık zaman tartışmaları; tarih, şimdi ve gelecek kavrayışları; Hegel'in konumunun başka düşünürlerin zaman anlayışlarıyla ilişkisi; ve genel olarak zamansallık temaları.
+
+İlk oturum 16 Ekim Cuma 13.30'da başlıyor, son oturum 18 Ekim Pazar 12.30'da sona eriyor.`,
+    kind: "KONFERANS",
+    organizer: "The Hegel Society of America · Northwestern University",
+    topic: "Hegel, zaman, tarih felsefesi, Alman idealizmi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-16T18:30:00.000Z",
+    endsAt: "2026-10-18T17:30:00.000Z",
+    timezone: "America/Chicago",
+    hasTime: false,
+    city: "Evanston, Illinois",
+    country: "ABD",
+    venue: "Northwestern University",
+    website: "https://www.hegel.org/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/1831%20Schlesinger%20Philosoph%20Georg%20Friedrich%20Wilhelm%20Hegel%20anagoria.JPG?width=1600",
+    featured: false,
+    sourceName: "Northwestern University Events",
+    sourceUrl: "https://planitpurple.northwestern.edu/event/643850",
+  },
   {
     title: "North American Sartre Society 31. Yıllık Toplantısı — A.I., Virtual Worlds, and Digital Existentialism",
     slug: "north-american-sartre-society-2026",
