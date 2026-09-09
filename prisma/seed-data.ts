@@ -260,6 +260,83 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Seyla Benhabib",
+    slug: "seyla-benhabib",
+    headline: "Siyaset felsefecisi — Yale Üniversitesi",
+    bio: "İstanbul doğumlu siyaset felsefecisi. Söylem etiği, göç, yurttaşlık ve tanınma üzerine çalışıyor. 2026 Johan Skytte Siyaset Bilimi Ödülü sahibi.",
+    avatar: null,
+    country: "ABD · Türkiye",
+    birthYear: 1950,
+    affiliation: "Yale Üniversitesi — Eugene Meyer Siyaset Bilimi ve Felsefe Profesörü",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Seyla Benhabib",
+    birthDate: "9 Eylül 1950, İstanbul",
+    alive: true,
+    period: "Çağdaş",
+    school: "Eleştirel teori · Frankfurt Okulu geleneği · feminist kuram",
+    areas: "Siyaset felsefesi, eleştirel teori, göç ve yurttaşlık, feminist kuram, Arendt çalışmaları",
+    majorWorks: "Critique, Norm and Utopia (1986)\nSituating the Self (1992)\nThe Reluctant Modernism of Hannah Arendt (1996)\nThe Claims of Culture (2002)\nThe Rights of Others (2004)\nAnother Cosmopolitanism (2006)\nExile, Statelessness, and Migration (2018)",
+    keyConcepts: "Somut öteki, genelleştirilmiş öteki, demokratik yinelemeler, gözenekli sınırlar, kozmopolit normlar",
+    influencedBy: "Hannah Arendt, Jürgen Habermas, Immanuel Kant, Hegel",
+    influenced: "Çağdaş göç etiği ve kozmopolitizm tartışmaları",
+    longBio: "İstanbul'un Sefarad Yahudi cemaatinde büyüdü; Amerikan Kız Koleji'nde okudu. Brandeis ve Yale'de eğitim gördü; Harvard, New School ve Yale'de görev yaptı.\n\nAhlak felsefesine en özgün katkısı, \"genelleştirilmiş öteki\" ile \"somut öteki\" ayrımıdır: Kant'tan Rawls'a uzanan gelenek ahlaki muhatabı soyut bir özne olarak kurar; Benhabib bunun eşitliği mümkün kıldığını kabul ederken, belirli bir tarihi ve kırılganlıkları olan gerçek kişinin bu çerçevede görünmez kaldığını gösterir.\n\nGöç ve yurttaşlık çalışmalarında geliştirdiği \"demokratik yinelemeler\" kavramı, evrensel hak iddialarının ulusal siyasal topluluklarda tartışılarak ve yeniden yorumlanarak yerleşme sürecini adlandırır. Hannah Arendt'in \"hakları olma hakkı\" formülünü çağdaş göç tartışmasına taşıması, alanın standart referanslarından biridir.\n\n2026 Johan Skytte Siyaset Bilimi Ödülü'ne, \"sürekli insan hareketliliğinin olduğu bir dünyada adaletin nasıl mümkün olduğunu, hem bireylerin hem devletlerin haklarına derin bir saygıyla incelemesi\" gerekçesiyle layık görüldü.",
+    sources: "Uppsala Üniversitesi — https://www.uu.se/en/news/2026/2026-04-24-seyla-benhabib-is-awarded-the-skytte-prize-in-political-science\nWikipedia — https://en.wikipedia.org/wiki/Seyla_Benhabib",
+  },
+  {
+    name: "Azra Erhat",
+    slug: "azra-erhat",
+    headline: "Klasik filolog, çevirmen ve yazar (1915-1982)",
+    bio: "Homeros'un İlyada ve Odysseia'sını A. Kadir ile Türkçeye kazandıran klasik filolog. Mavi Anadolu düşüncesinin ve Mavi Yolculuk geleneğinin kurucularından.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1915,
+    affiliation: "Ankara Üniversitesi DTCF (1948'e kadar)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Azra Erhat",
+    birthDate: "1915, İstanbul",
+    deathDate: "1982",
+    alive: false,
+    period: "Cumhuriyet dönemi",
+    school: "Klasik filoloji · Mavi Anadoluculuk · hümanizma",
+    areas: "Klasik filoloji, çeviri, mitoloji, kültür tarihi",
+    majorWorks: "İlyada (A. Kadir ile)\nOdysseia (A. Kadir ile)\nMavi Anadolu (1960)\nMitoloji Sözlüğü (1972)\nMavi Yolculuk\nİşte İnsan\nSevgi Yönetimi\nEkte Mektuplar",
+    keyConcepts: "Mavi Anadoluculuk, hümanizma, Mavi Yolculuk, çeviri yoluyla kültür kurmak",
+    influencedBy: "Homeros, Halikarnas Balıkçısı (Cevat Şakir Kabaağaçlı), Sabahattin Eyüboğlu",
+    influenced: "Türkiye'de klasik filoloji ve Anadolu kültür tarihi çalışmaları",
+    longBio: "1915'te İstanbul'da doğdu; çocukluğunun önemli bölümünü Avrupa'da geçirdi ve Brüksel'de klasik diller okudu. Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi'nden 1939'da mezun oldu, aynı fakültenin Klasik Filoloji kürsüsünde çalıştı ve 1946'da doçent oldu. Fransızca, Almanca, İngilizce, Yunanca ve Latince biliyordu.\n\n1948'de Pertev Naili Boratav, Behice Boran, Niyazi Berkes ve Adnan Cemgil ile birlikte siyasal görüşleri gerekçesiyle üniversiteden uzaklaştırıldı. Akademiden ayrılması, klasik filolojiyle ilişkisini bitirmek yerine çalışmalarını çok daha geniş bir okur kitlesine taşıdı.\n\nHasan Âli Yücel'in kurduğu Tercüme Bürosu çevresinde Sophokles, Aristophanes ve Hesiodos çevirileri yaptı; şair A. Kadir ile birlikte hazırladığı İlyada ve Odysseia çevirileri Türkçede başvuru metinleri hâline geldi.\n\nSabahattin Eyüboğlu ve Halikarnas Balıkçısı ile birlikte, Anadolu'da yaşamış eski kültürlerin Türkiye'nin kültürel mirasının parçası olduğunu savunan Mavi Anadolu düşüncesini geliştirdi; \"Mavi Yolculuk\" terimini ortaklaşa kullanıma soktular. 1971 sonrasında yeniden tutuklandı, ardından beraat etti.",
+    sources: "Türkiye İş Bankası Kültür Yayınları — https://www.iskultur.com.tr/yazarlar/azra-erhat\nEge Üniversitesi Mütercim Tercümanlık — https://translex.ege.edu.tr/tr-6586/azra_erhat.html",
+  },
+  {
+    name: "Ludwig Wittgenstein",
+    slug: "ludwig-wittgenstein",
+    headline: "Dil ve zihin filozofu (1889-1951)",
+    bio: "Yirminci yüzyılın en etkili filozoflarından. Tractatus'ta dilin mantıksal sınırlarını çizdi, sonra kendi sistemini yıkarak dil oyunları ve aile benzerliği kavramlarını geliştirdi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20Wittgenstein.jpg?width=600",
+    country: "Avusturya · Birleşik Krallık",
+    birthYear: 1889,
+    affiliation: "Cambridge Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Ludwig Josef Johann Wittgenstein",
+    birthDate: "26 Nisan 1889, Viyana",
+    deathDate: "29 Nisan 1951",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Analitik felsefe · dil felsefesi",
+    areas: "Dil felsefesi, zihin felsefesi, mantık, matematik felsefesi, etik",
+    majorWorks: "Tractatus Logico-Philosophicus (1921)\nFelsefi Soruşturmalar (1953, ölümünden sonra)\nMatematiğin Temelleri Üzerine Düşünceler\nKesinlik Üstüne\nMavi ve Kahverengi Kitaplar",
+    keyConcepts: "Dil oyunları, aile benzerliği, özel dil argümanı, kural izlemek, söylenebilir ve gösterilebilir ayrımı, resim kuramı",
+    influencedBy: "Gottlob Frege, Bertrand Russell, Arthur Schopenhauer, Søren Kierkegaard",
+    influenced: "Gilbert Ryle, J. L. Austin, Saul Kripke, Stanley Cavell, ordinary language philosophy",
+    longBio: "Viyana'nın en zengin ailelerinden birinde doğdu. Manchester'da havacılık mühendisliği okurken matematiğin temellerine ilgi duydu ve Frege'nin yönlendirmesiyle Cambridge'de Russell'ın öğrencisi oldu.\n\nI. Dünya Savaşı sırasında cephede tuttuğu defterlerden doğan Tractatus Logico-Philosophicus (1921), dilin mantıksal yapısını açığa çıkararak felsefi problemlerin önemli bir kısmının yanlış kurulmuş olduğunu göstermeyi amaçlıyordu. Kitabın sonunda kendi önermelerinin de anlamsız olduğunu, okurun onları bir merdiven gibi kullanıp atması gerektiğini söyler.\n\nFelsefe problemlerini çözdüğüne inanarak akademiden ayrıldı; servetindeki payını dağıttı, köy okullarında öğretmenlik, bir manastırda bahçıvanlık yaptı, kız kardeşi için Viyana'da bir ev tasarladı. 1929'da Cambridge'e döndü ve kendi erken dönem konumunu eleştirmeye başladı.\n\nGeç dönem düşüncesinin merkezinde dil oyunları ve aile benzerliği kavramları ile özel dil argümanı bulunur: Anlam, zihinde saklı bir nesne değil, bir topluluk içindeki kullanım düzenidir. 1929-1944 arasındaki yazılarının yarısından fazlası matematik felsefesi üzerinedir. Felsefi Soruşturmalar ölümünden sonra, 1953'te yayımlandı.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/wittgenstein/\nWittgenstein's Philosophy of Mathematics — https://plato.stanford.edu/entries/wittgenstein-mathematics/",
+  },
+  {
     name: "Robert Alexy",
     slug: "robert-alexy",
     headline: "Hukuk filozofu — Kiel Üniversitesi (1945-2026)",
@@ -1540,6 +1617,1433 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Demokrasi sandıkta değil, yenilgiyi kabul etme biçiminde sınanıyor",
+    slug: "demokratik-normlar-kutuplasma-dokuz-ulke",
+    summary:
+      "Dokuz demokraside 18 bin kişiyle yapılan yeni bir deney, kutuplaşmanın demokrasiye etkisinin sanıldığı kadar evrensel olmadığını gösteriyor. Müdahale dokuz ülkenin altısında işe yaradı. Ve tam da bu, en rahatsız edici bulgu: Kutuplaşmanın zararı, ülkenin kurumlarına bağlı.",
+    seoTitle: "Demokratik normlar ve duygusal kutuplaşma: dokuz ülkeli deney",
+    metaDescription:
+      "European Journal of Political Research'te yayımlanan dokuz ülkeli deney, duygusal kutuplaşmanın demokratik normlar üzerindeki etkisinin bağlama bağlı olduğunu gösteriyor.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ballot%20dropped%20into%20ballot%20box%202024%20Swedish%20EU%20election%20at%20St%C3%A5ngen%C3%A4sskolan%2C%20Brastad.jpg?width=1600",
+    imageCredit: "Oy sandığı, 2024 · Wikimedia Commons",
+    featured: true,
+    sourceName: "European Journal of Political Research",
+    sourceUrl: "https://doi.org/10.1017/S1475676526101273",
+    publishedAt: "2026-09-09T06:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["demokrasi", "siyaset-felsefesi", "etik", "kavram", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The (alleged) consequences of affective polarization: A survey experiment in nine democracies",
+        publisher: "European Journal of Political Research",
+        date: "2026",
+        url: "https://doi.org/10.1017/S1475676526101273",
+        primary: true,
+      },
+      {
+        title: "The Global State of Democracy 2025: Democracy on the Move",
+        publisher: "International IDEA",
+        url: "https://www.idea.int/publications/catalogue/html/global-state-democracy-2025-democracy-move",
+      },
+    ],
+    content: `Demokrasi hakkında konuşurken hep aynı yere bakıyoruz: **sandığa**.
+
+Seçim yapıldı mı? Oylar sayıldı mı? Muhalefet yarışabildi mi? İktidar değişebildi mi?
+
+Bu soruların hepsi önemli. Ama hiçbiri, demokrasinin asıl kırılgan yerini ölçmüyor.
+
+Asıl yer şurası: **Kaybeden ne yapıyor?**
+
+## Yazılı olmayan anayasa
+
+Hiçbir anayasa, iktidar sahiplerinin bütün davranışlarını önceden düzenleyemez. Bu yüzden her demokraside, metinde yazmayan ama sistemin ayakta kalması için gereken davranış kuralları oluşur.
+
+Siyaset biliminde bunlara **demokratik normlar** deniyor.
+
+Birkaç örnek:
+
+Bir iktidar, teknik olarak sahip olduğu yetkileri her durumda son sınırına kadar kullanmaz. **Kurumsal ölçülülük** budur.
+
+Muhalefet iktidara geldiğinde devlet aygıtını rakiplerini tasfiye etmek için kullanmaz.
+
+Seçimi kaybeden taraf, sırf kaybettiği için sistemi gayrimeşru ilan etmez.
+
+Ve hepsinin altındaki norm: **Rakibin yanlış olması, onun haklarını ortadan kaldırmaz.**
+
+Bu normlar çöktüğünde anayasa kâğıt üzerinde yürürlükte kalır. Ama demokrasi içeriden boşalır.
+
+## Kutuplaşma otomatik olarak kötü mü?
+
+Burada dikkatli olmak gerekiyor, çünkü bu noktada yaygın bir hata yapılıyor.
+
+**Kutuplaşma tek başına demokrasi düşmanı değildir.**
+
+Demokrasi, farklı çıkarların ve değerlerin **rekabet ettiği** bir sistemdir. Vergi, göç, din, iklim, savaş, devletin büyüklüğü — bunlarda toplumun tamamen uzlaşması ne mümkündür ne de arzu edilir.
+
+Dahası: Aşırı "uzlaşma" talebi, iktidarın muhalefeti etkisizleştirme aracına dönüşebilir. Sitemizde bu hafta ele aldığımız [Chantal Mouffe dosyasında](/haber/chantal-mouffe-agonistik-demokrasi) anlattığımız agonistik çoğulculuk kuramının çıkış noktası tam buydu: Çatışmayı bastıran bir demokrasi, çatışmayı yok etmez — onu kurumsal kanallardan çıkarır.
+
+Sorun, fikir ayrılığında değil. **Fikir ayrılığının kimlik düşmanlığına dönüştüğü** noktada.
+
+Literatürde buna **duygusal kutuplaşma** (*affective polarization*) deniyor: Yurttaş artık rakibinin politikalarını yanlış bulmuyor; rakibinden **hoşlanmıyor**. Komşusu olmasını istemiyor. Ve giderek, onun haklarını kendi grubunun çıkarına göre değerlendirmeye başlıyor.
+
+## Yeni bulgu: hikâye evrensel değil
+
+*European Journal of Political Research*'te yayımlanan bir çalışma bu tartışmaya önemli bir düzeltme getiriyor.
+
+Eelco Harteveld (Amsterdam Üniversitesi) ve meslektaşları, **dokuz demokraside yaklaşık 18 bin kişiyle** bir deney yürüttü: Brezilya, Fransa, Almanya, İtalya, Polonya, İspanya, İsveç, Birleşik Krallık ve ABD.
+
+Yöntem doğrudan: Katılımcıların duygusal kutuplaşma düzeyini deneysel olarak **düşürüp**, sonra bunun ne değiştirdiğine bakmak. Ölçülen sonuçlar arasında rakiplerden kaçınma ve ayrımcılık, saldırganlığa destek, siyasal uzlaşmaya isteksizlik, **demokratik normlara destek**, demokrasiden memnuniyetsizlik ve siyasal katılım vardı.
+
+Sonuçlar üç katmanlı.
+
+**Birincisi:** Müdahale, dokuz ülkenin **altısında** kutuplaşmayı gerçekten azalttı.
+
+**İkincisi:** Azaldığı yerlerde, kişilerarası ilişkilerde anlamlı bir iyileşme *ve* — son dönem ABD çalışmalarının aksine — **demokratik normlara destekte artış** görüldü.
+
+**Üçüncüsü, ve en önemlisi:** Etki ülkeden ülkeye değişti. Yazarların ihtiyatlı ifadesiyle, duygusal kutuplaşmanın sonuçları "daha önce anlaşıldığından daha bağlama bağlı" olabilir.
+
+## Bu neden rahatsız edici bir bulgu?
+
+Çünkü kolay reçeteyi elimizden alıyor.
+
+"Kutuplaşmayı azaltırsak demokrasi kurtulur" cümlesi, siyasal iletişim endüstrisinin son on yılda en çok sattığı cümle. Bu araştırma onu tam olarak yanlışlamıyor — ama **koşullu** hâle getiriyor.
+
+Aynı müdahale, İsveç'te işe yarayıp ABD'de yaramıyorsa, belirleyici olan yurttaşların duyguları değil; o duyguların içinde dolaştığı **kurumsal yapı**.
+
+Seçim sistemi. Parti sayısı. Medya düzeni. Yargının konumu. Federal yapı. Anayasa mahkemesinin yetkileri.
+
+Yani mesele psikolojik değil, **kurumsal**.
+
+## Kurumlar gerçekten fark ediyor mu?
+
+Ediyor — ve bunun ampirik kanıtı var.
+
+Uluslararası IDEA'nın 2025 Küresel Demokrasi Raporu, iki ülkeyi öne çıkarıyor.
+
+**Brezilya**, 2022 seçiminin ardından 2022-2024 arasında demokrasi kalitesini ölçen **on faktörde** iyileşme kaydetti — özellikle **etkin parlamento** ve **yargı bağımsızlığı** başlıklarında.
+
+**Polonya**, 2023 seçiminin ardından **altı faktörde** ilerledi: haklar, hukuk devleti ve temsil.
+
+Her iki durumda da aynı mekanizma çalıştı: Yeni bir hükümetin seçilmesi, yıllardır süren bir aşınmayı — yürütmenin şişmesi, hukuk devletinin ve yargı bağımsızlığının zayıflatılması, medya üzerindeki baskı, sivil toplum alanının daraltılması — durdurdu.
+
+Ders açık: **Seçimler yalnızca demokrasinin aşındığı yer değil; onarıldığı yer de olabilir.**
+
+Ama tablonun tamamı iyimser değil. Aynı rapora göre **temsil** — altı göstergenin birleşimi — 2001'den bu yana en düşük düzeyine indi; 2024'te bu kategoride gerileyen ülke sayısı ilerleyenin **yedi katıydı**.
+
+## Kritik ayrım: çoğunluk mu, demokrasi mi?
+
+Bu noktada, sitemizde bugün ayrıca ele aldığımız [Meksika yargı seçimleri dosyası](/haber/meksika-yargi-secimleri-demokrasi-paradoksu) devreye giriyor.
+
+Meksika 2025'te, dünyada ilk kez, ulusal düzeydeki bütün yargıçlarını halk oyuyla seçti. Bu, "daha fazla halk iradesi" demek. Peki daha fazla demokrasi demek mi?
+
+Cevap tartışmalı — ve tartışmanın kendisi, demokrasinin **iki farklı ilkeden** oluştuğunu hatırlatıyor.
+
+**Çoğunluk yönetimi:** Kararları çoğunluk verir.
+
+**Sınırlı iktidar:** Çoğunluk, kendi gücünü sınırlayan kurumları da kabul eder.
+
+Bu ikisi her zaman aynı yöne çekmez. Ve bir demokrasi, ikincisini birincisi adına feda ettiğinde, genellikle bunu "demokratikleşme" diye adlandırır.
+
+## Asıl kırılma noktası
+
+Demokrasinin ölümcül hastalığı görüş ayrılığı değil. **Düşmanlaştırma**.
+
+Kırılma dört aşamada ilerliyor ve her aşama bir öncekini normalleştiriyor:
+
+*"Yanılıyorsun."* — Bu demokratik.
+
+*"Sen bu ülkeye ait değilsin."* — Burada eşik aşılıyor.
+
+*"Senin seçilmen meşru değil."* — Kurumsal norm çöküyor.
+
+*"Senin haklarını kaldırmak meşrudur."* — Rejim değişmiş demektir.
+
+İlk cümle ile son cümle arasında hiçbir anayasa değişikliği gerekmiyor. Yalnızca alışkanlıkların değişmesi yeterli.
+
+## Dört cümle
+
+Bugünün demokratik normları belki dört cümlede özetlenebilir.
+
+**Rakibim yanılıyor olabilir.**
+
+**Rakibim iktidara gelebilir.**
+
+**Rakibim iktidara gelirse onu demokratik yollarla değiştirebilirim.**
+
+**Bu yüzden rakibimin haklarını korumak, kendi haklarımı korumaktır.**
+
+Dördüncü cümle, ilk üçünün mantıksal sonucu. Ve pratikte en zor olanı.
+
+Çünkü bugün kendi grubunuzun kazanması için askıya aldığınız bir norm, yarın kaybettiğinizde ihtiyaç duyacağınız normdur.
+
+Rawls'ın "cehalet peçesi" düşünce deneyinin siyasal pratikteki karşılığı budur: Kuralları, hangi tarafta olacağınızı bilmeden seçmek.
+
+## Ve nihayet
+
+2024, dünyada 74 ulusal seçimin yapıldığı olağanüstü bir seçim yılıydı. Sandıklar kuruldu, oylar sayıldı.
+
+Yine de temsil ölçütü yirmi beş yılın en düşük seviyesine indi.
+
+Bu, "seçim yapıldı mı?" sorusunun artık yeterli olmadığını gösteriyor.
+
+Yirmi birinci yüzyıl demokrasisinin gerçek sınavı sandığa gitmek değil:
+
+**Sandıkta kaybettiğimiz gün demokrat kalabilmek.**`,
+  },
+  {
+    title: "Meksika bütün yargıçlarını seçti — ve demokrasiye bir soru bıraktı",
+    slug: "meksika-yargi-secimleri-demokrasi-paradoksu",
+    summary:
+      "1 Haziran 2025'te Meksika, dünyada ilk kez ulusal düzeydeki tüm yargıçlarını halk oyuyla belirledi: 881 makam, 9 Yüksek Mahkeme üyesi. Katılım yüzde 13'ün altında kaldı. Ortaya çıkan soru teknik değil: Halkın seçmediği bir kurum demokratik olabilir mi?",
+    seoTitle: "Meksika yargı seçimleri: kuvvetler ayrılığı ve demokrasi paradoksu",
+    metaDescription:
+      "Meksika 2025'te tüm federal yargıçlarını halk oyuyla seçti. Katılım yüzde 13'ün altında kaldı. Yargı bağımsızlığı ve çoğunluk yönetimi tartışması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Suprema%20Corte%20de%20Justicia%20de%20la%20Naci%C3%B3n%202025%2003.jpg?width=1600",
+    imageCredit: "Meksika Ulusal Yüksek Adalet Divanı, Mexico City · Wikimedia Commons",
+    featured: true,
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/2025_Mexican_judicial_elections",
+    publishedAt: "2026-09-09T06:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["hukuk-felsefesi", "demokrasi", "siyaset-felsefesi", "kavram", "risk"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "2025 Mexican judicial elections",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/2025_Mexican_judicial_elections",
+        primary: true,
+      },
+      {
+        title: "Mexico's judicial elections 2025: A step toward a more accessible justice system?",
+        publisher: "Thomson Reuters Institute",
+        url: "https://www.thomsonreuters.com/en-us/posts/government/mexico-judicial-elections-2025/",
+      },
+      {
+        title: "Mexico - September 2024",
+        publisher: "International IDEA Democracy Tracker",
+        url: "https://www.idea.int/democracytracker/report/mexico/september-2024",
+      },
+    ],
+    content: `1 Haziran 2025'te Meksika'da bir şey oldu ve dünyada benzeri yoktu.
+
+Bir ülke, **ulusal düzeydeki bütün yargıçlarını halk oyuyla seçti.**
+
+Rakamlar şöyle: **881 yargı makamı.** Dokuz Yüksek Mahkeme üyesi. Seçim Mahkemesi'nin Üst Kurul'unda iki, Bölge Kurulları'nda on beş yargıç. Yeni kurulan Yargı Disiplin Mahkemesi'ne beş üye. **464 bölge mahkemesi hâkimi ve 386 asliye hâkimi.**
+
+Bu, Eylül 2024'te kabul edilen anayasal yargı reformunun sonucuydu.
+
+Ve tam da bu yüzden, siyaset felsefesinin en eski gerilimlerinden birinin canlı bir deneyi oldu.
+
+## Reformun savunması
+
+Hükümetin gerekçesi tutarlıydı ve hafife alınmamalı.
+
+Meksika yargısına yöneltilen eleştiriler yeni değil: yolsuzluk, kayırmacılık, ulaşılmazlık, ağır işleyiş, seçkinci bir yapı. Yargıçlar atamayla geliyor; kimseye hesap vermiyor; toplumun büyük kısmı için adalet sistemi fiilen kapalı bir kutu.
+
+Reformun savunucularının sorusu meşru: **Hiç kimsenin seçmediği ve kimseye hesap vermeyen bir kurum, demokratik bir düzenin parçası nasıl olur?**
+
+Bu soru, hukuk felsefesinde "karşı-çoğunlukçu güçlük" (*counter-majoritarian difficulty*) adıyla anılır ve en az yetmiş yıldır tartışılır. Seçilmemiş yargıçlar, seçilmiş meclislerin kararlarını iptal edebiliyorsa, egemenlik gerçekte kimde?
+
+## Sonuç
+
+Seçim yapıldı. Ve sonuçlar, reformun savunucularının beklediği yerde çıkmadı.
+
+**Katılım yüzde 12,57 ile 13,32 arasında kaldı.** Amerika Devletleri Örgütü'ne göre bu oran, Latin Amerika'da kaydedilmiş en düşük seçim katılımları arasında.
+
+Kullanılan oyların yaklaşık **yüzde 12'si boş ya da geçersizdi.**
+
+Yani seçmenlerin yaklaşık yüzde 87'si sandığa gitmedi; gidenlerin de sekizde biri geçerli oy kullanmadı.
+
+## Bu neden bir sorun?
+
+Çünkü reformun kendi mantığını çürütüyor.
+
+Argüman şuydu: Yargıçlar halk tarafından seçilirse **halka hesap verir**.
+
+Ama yüzde 13'lük bir katılımda, seçilen yargıç kime hesap veriyor?
+
+Daha da önemlisi: Bir seçmenden 881 makam için — çoğunu hiç duymadığı, mesleki geçmişini bilmediği, kararlarını okumadığı adaylar arasından — bilinçli tercih yapması nasıl beklenir?
+
+Bir milletvekilini parti programına, ideolojisine ve söylemine bakarak seçebilirsiniz. Bir hâkimi neye bakarak seçersiniz?
+
+Eleştirmenlerin cevabı sert: **Tanınırlığa.** Ve tanınırlığı üreten şey, örgütlü siyasal yapılardır.
+
+## Yargıç ne yapar?
+
+Buradan tartışmanın felsefi çekirdeğine geliyoruz.
+
+Bir milletvekilinin işi **temsil etmektir**. Seçmeninin tercihlerini yasama sürecine taşır. Halkın çoğunluğu ne istiyorsa onu savunması, işinin tanımıdır.
+
+Bir yargıcın işi bu değildir.
+
+Bir yargıç, çoğunluğun **istemediği** kararı vermek zorunda kalabilir. Nefret edilen bir sanığın adil yargılanma hakkını korumak; popüler bir yasayı anayasaya aykırı bulmak; sayıca az ve sevilmeyen bir azınlığın hakkını tanımak.
+
+Yargıç, seçmenine hoş görünmek zorunda **olmadığı için** bu işi yapabilir.
+
+Yargı bağımsızlığı denen şey, bir ayrıcalık değil; **bu işlevin çalışma koşuludur.**
+
+Şimdi soru şu: Bir yargıç dört yıl sonra yeniden seçilmek zorundaysa, çoğunluğun nefret ettiği sanığı beraat ettirebilir mi?
+
+## Alexy açısından
+
+Sitemizde bu hafta ele aldığımız [Robert Alexy dosyası](/haber/robert-alexy-hukukun-ikili-dogasi) bu tartışmaya doğrudan bir ölçüt sunuyor.
+
+Alexy'ye göre hukuki bir kararın meşruiyeti, kararı verenin makamından değil, kararın **rasyonel gerekçesinden** gelir. Hukuk, yapısı gereği, doğru olduğunu iddia eder.
+
+Bu ölçütle bakıldığında, yargıcın nasıl göreve geldiği ikincil bir sorudur. Belirleyici olan, verdiği kararın gerekçesinin denetlenebilir olup olmadığıdır.
+
+Ama pratikte iki mesele birbirinden ayrılmıyor. Çünkü bir yargıç, gerekçesini kimin için yazdığını bilir. Meslektaşları ve temyiz mercii için yazmakla, seçmen kitlesi için yazmak aynı metni üretmez.
+
+Sitemizde dün ele aldığımız [Brian Leiter dosyasındaki](/haber/brian-leiter-from-a-realist-point-of-view) gerçekçi konum ise ters yönden aynı yere varıyor: Yargıçlar zaten psikolojik, ideolojik ve toplumsal etkenlerle karar veriyorsa, seçim bu etkenleri yok etmez — yalnızca **görünür ve düzenli** hâle getirir.
+
+Bu, reformun lehine bir argüman olarak da okunabilir. Gerçekçi der ki: Yargı zaten siyasaldı; şimdi en azından bu açıkça kabul ediliyor.
+
+## Adaylar meselesi
+
+Reformun en çok tartışılan yanlarından biri aday niteliği oldu.
+
+Aday listelerinde, uyuşturucu kaçakçılığından hüküm giymiş bir kişinin ve büyük bir kartel liderinin eski avukatının yer alması, uluslararası basında geniş yankı buldu.
+
+Bu, tekil örneklerin genelleştirilmesi riski taşıyor — 881 makam için binlerce aday vardı. Ama tasarım sorununa işaret ediyor: Adaylık için mesleki eşiklerin nasıl belirleneceği ve kimin belirleyeceği.
+
+Reformun eleştirmenleri için asıl kaygı burada: Aday havuzunu şekillendiren yapı, iktidar partisine yakınsa, "halkın seçtiği yargı" fiilen **iktidarın seçtiği yargı** olabilir.
+
+## Genelleştirilebilir ders
+
+Bu vaka, sitemizde bugün ayrıca ele aldığımız [demokratik normlar dosyasının](/haber/demokratik-normlar-kutuplasma-dokuz-ulke) en somut örneği.
+
+Demokrasi iki ilkeden oluşur ve bunlar her zaman aynı yöne çekmez.
+
+**Halk egemenliği:** Kararları halk verir.
+
+**Anayasal sınırlama:** Halkın çoğunluğu bile bazı şeyleri yapamaz.
+
+İkincisi olmadan birincisi kendi kendini yiyebilir. Çünkü bugünün çoğunluğu, yarının çoğunluğunun oluşmasını engelleyecek kararlar alabilir.
+
+Meksika örneğinin dünyaya bıraktığı soru bu yüzden yalnızca Meksika'yla ilgili değil:
+
+**Bir kuruma daha fazla halk iradesi eklemek, onu her zaman daha demokratik yapar mı?**
+
+Cevap "hayır" olabiliyorsa — ve bu vaka en azından cevabın açık olmadığını gösteriyor — demokrasi kuramının basit bir formüle indirgenemeyeceğini kabul etmek gerekiyor.
+
+## Türkiye açısından
+
+Bu tartışma Türkiye'de soyut değil.
+
+Hâkim ve savcıların nasıl atandığı, yargı kurullarının nasıl oluştuğu, Anayasa Mahkemesi üyelerinin kim tarafından seçildiği — bunların hepsi Meksika'nın sorduğu sorunun farklı biçimleri.
+
+Ve Meksika deneyi bir şeyi net gösteriyor: **Atama yöntemini değiştirmek, bağımsızlık sorununu kendiliğinden çözmüyor.**
+
+Belirleyici olan yöntem değil; o yöntemin, yargıcı kimin memnun etmek zorunda bıraktığı.`,
+  },
+  {
+    title: "Elizabeth Anderson: demokratik ülkede işyeri neden demokratik değil?",
+    slug: "elizabeth-anderson-ozel-hukumet-iliskisel-esitlik",
+    summary:
+      "Anderson'ı \"eşitlik filozofu\" diye etiketlemek kolay ama eksik. Asıl sorusu dağıtım değil tahakküm: İnsanların birbirlerine eşit yurttaşlar gibi davranmasını engelleyen iktidar biçimleri nelerdir? Ve cevabı sizi işyerinin kapısına götürüyor.",
+    seoTitle: "Elizabeth Anderson: ilişkisel eşitlik, özel hükümet ve çalışma ahlakı",
+    metaDescription:
+      "Elizabeth Anderson'ın ilişkisel eşitlik kuramı, Private Government kitabı, luck egalitarianism eleştirisi ve Hijacked'de çalışma ahlakının tarihi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Alpha%20Factory-Sewing%20Floor%2080-90.jpg?width=1600",
+    imageCredit: "Fabrika üretim katı · Wikimedia Commons",
+    featured: true,
+    sourceName: "University of Michigan",
+    sourceUrl: "https://lsa.umich.edu/philosophy/people/faculty/eandersn.html",
+    publishedAt: "2026-09-09T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "etik", "demokrasi", "kavram", "toplumsal-cinsiyet"],
+    philosopherSlugs: ["elizabeth-anderson"],
+    sources: [
+      {
+        title: "Elizabeth Anderson — fakülte sayfası",
+        publisher: "University of Michigan LSA Philosophy",
+        url: "https://lsa.umich.edu/philosophy/people/faculty/eandersn.html",
+        primary: true,
+      },
+      {
+        title: "Hijacked: How Neoliberalism Turned the Work Ethic Against Workers, and How Workers Can Take It Back",
+        publisher: "Cambridge University Press",
+        date: "2023",
+        url: "https://www.cambridge.org/core/books/hijacked/8F24A346B587CE7FC4BA6183D41F31AB",
+      },
+    ],
+    content: `Bir soruyla başlayalım.
+
+Demokratik bir ülkede yaşıyorsunuz. Oy veriyorsunuz. İfade özgürlüğünüz var. Devlet size ne giyeceğinizi söyleyemez, konuşmalarınızı denetleyemez, nereye gideceğinizi belirleyemez.
+
+Sonra sabah işe gidiyorsunuz.
+
+Ve kapıdan girer girmez bunların çoğu askıya alınıyor.
+
+**Elizabeth Anderson'ın felsefesi, bu kapının eşiğinde başlıyor.**
+
+## Kim?
+
+Anderson, Michigan Üniversitesi'nde **Max Shaye Kamusal Felsefe Profesörü**. 1987'de Harvard'da doktorasını tamamladı ve aynı yıl Michigan'a katıldı; kırk yıla yaklaşan bir süredir orada.
+
+2019'da **MacArthur "deha" bursunu** aldı. Amerikan Sanat ve Bilimler Akademisi ile British Academy üyesi.
+
+Çalışma alanları listesi alışılmadık ölçüde geniş: ahlak felsefesi, siyaset felsefesi, feminist kuram, toplumsal epistemoloji, iktisat felsefesi, ırk, toplumsal cinsiyet ve eşitlik.
+
+Türkiye'de henüz Rawls ya da Butler kadar tanınmıyor. Bu bir eksiklik — çünkü sorduğu sorular Türkiye'de fazlasıyla güncel.
+
+## "Ne kadarın var?" değil, "aramızda ne var?"
+
+Yirminci yüzyılın büyük eşitlik tartışmaları **dağıtım** üzerine kuruluydu.
+
+Kim ne kadar kazanıyor? Kim ne kadar kaynak almalı? Talihsizlik yaşayana ne kadar telafi verilmeli?
+
+Anderson bu soruların yanlış olduğunu söylemez. Daha temel bir şeyin gözden kaçtığını söyler:
+
+**İnsanların birbirleriyle nasıl ilişki kurduğu.**
+
+Onun **demokratik eşitlik** anlayışının merkezinde, yurttaşların birbirlerine aşağılık, uşak, efendi ya da toplumsal olarak görünmez kişi gibi davranmadığı ilişkiler var.
+
+Bu yüzden Anderson'ın eşitliği "herkeste aynı miktarda şey olsun" değildir. Şudur:
+
+**Kimsenin başka biri üzerinde keyfî ve aşağılayıcı bir iktidara sahip olmaması.**
+
+Literatürde bu yaklaşım **ilişkisel eşitlikçilik** (*relational egalitarianism*) adıyla anılıyor ve son yirmi beş yılın en verimli tartışma damarlarından birini açtı.
+
+## 1999: kırılma makalesi
+
+Anderson'ın 1999 tarihli **"What Is the Point of Equality?"** makalesi, çağdaş eşitlik felsefesinde ciddi bir sarsıntı yarattı.
+
+Hedeflerinden biri **şans eşitlikçiliğiydi** (*luck egalitarianism*).
+
+Bu kuram kabaca şunu sorar: Bir eşitsizlik ne kadar kişinin **seçiminin**, ne kadar **şansın** sonucudur? Şanstan kaynaklananı telafi etmeliyiz; seçimden kaynaklanandan kişi kendi sorumludur.
+
+Sezgisel olarak makul görünüyor. Anderson'ın gösterdiği şey, bu makullüğün nereye vardığı.
+
+Çünkü bu kuram, yardım isteyen herkesten bir **hikâye** talep eder: Bu duruma nasıl düştün? Suçun ne kadarı senin?
+
+Ve toplumu iki gruba böler: **hak eden** ve **hak etmeyen** mağdurlar.
+
+Anderson'ın itirazı iki katmanlı.
+
+**Birincisi, aşağılayıcı.** Bir insana yardım etmek için ondan kendi başarısızlığının muhasebesini istemek, ona eşit yurttaş olarak değil, denetlenen bir başvurucu olarak davranmaktır.
+
+**İkincisi, tutarsız.** Kötü seçimlerin bedelini tam olarak ödetmek, insanları sefalete mahkûm edebilir. Ve hiçbir eşitlikçi bunu gerçekten savunmaz.
+
+Kuram elbette savunmasız kalmadı; şans eşitlikçiliğini savunan filozoflar sorumluluk boyutunun korunabileceğini ileri sürdü. Ama tartışmanın zemini değişti.
+
+## Private Government: patron neden küçük bir devlet?
+
+Anderson'ın en çarpıcı kitabı **Private Government: How Employers Rule Our Lives** (2017).
+
+Kitabın gücü, basit bir gözlemi sonuna kadar götürmesinde.
+
+Şirketler çalışanlarının hayatı üzerinde, çoğu demokratik devletin yurttaşları üzerinde kullanamayacağı genişlikte bir otorite alanına sahip olabilir.
+
+Çalışma saatlerini belirler. Kılık kıyafeti düzenler. İletişimi denetler. Fiziksel hareketi kısıtlar. Performansı ölçer. Ve çoğu yerde, gerekçe göstermeden ilişkiyi sonlandırabilir.
+
+Anderson buna **özel hükümet** (*private government*) diyor. "Hükümet" kelimesini mecazi olarak kullanmıyor: Bir yönetim aygıtı, kendisine tabi olanlar üzerinde kural koyuyor, uyguluyor ve yaptırıyor.
+
+Farkı şu: Devletin bu gücü anayasayla sınırlanmış ve seçimle hesap verebilir kılınmıştır. İşyerinin gücü genellikle ikisinden de muaftır.
+
+## En keskin tarihsel hamle
+
+Kitabın en dikkat çekici bölümü tarihsel bir tespit içeriyor.
+
+On sekizinci ve on dokuzuncu yüzyılın erken **serbest piyasa savunucuları** — bugün liberalizmin kurucuları sayılan isimler — piyasayı **eşitlikçi** bir proje olarak savunuyorlardı.
+
+Mantıkları şuydu: Küçük mülk sahipliğinin yaygınlaştığı bir ekonomide, herkes kendi işinin sahibi olur ve kimse kimsenin emrinde çalışmaz. Piyasa, feodal tahakkümü çözecek araçtı.
+
+Sonra sanayi devrimi geldi ve ölçek büyüdü. Küçük üretici yerine büyük şirket, bağımsız zanaatkâr yerine ücretli işçi.
+
+Piyasa özgürleştirici olmaya devam etti — ama **piyasanın içindeki firma**, tam da tasfiye etmesi beklenen tahakküm ilişkisini yeniden üretti.
+
+Anderson'ın vurgusu şu: Serbest piyasa savunusu, bu dönüşümden sonra **aynı sözcüklerle** sürdürüldü. Söylem yerinde kaldı; gerçeklik altından kaydı.
+
+## Hijacked: çalışma ahlakı kimin tarafında?
+
+2023 tarihli **Hijacked: How Neoliberalism Turned the Work Ethic Against Workers, and How Workers Can Take It Back**, bu tarihi geriye doğru sürüyor.
+
+Anderson'ın tezi, çalışma ahlakının başından beri **iki yönde** okunabildiği.
+
+**Birinci okuma — özgürleştirici.** Çalışmak insan onurunun kaynağıdır; emeğiyle geçinen kişi kimseye muhtaç değildir; bu yüzden çalışan insan **eşit yurttaştır**. Bu okuma, aristokrasiye karşı devrimci bir silahtı.
+
+**İkinci okuma — disiplinci.** Yoksulluk tembelliğin sonucudur; yardım tembelliği besler; yoksul çalışmaya zorlanmalıdır.
+
+Kitap bu çatışmayı Locke'tan Adam Smith'e, Ricardo'dan Mill'e, Marx'a ve sosyal demokrasiye uzanan geniş bir düşünce tarihi içinde izliyor. Cambridge University Press'in özetiyle mesele şu: Çalışma ahlakı **işçilerin onuruna mı**, yoksa **varlıklıların iktidarına mı** hizmet edecek?
+
+Anderson'ın çağdaş uygulaması net. Düşük ücretli bir çalışana "daha çok çalış" diyoruz. Aynı soruyu sermaye gelirine sormuyoruz:
+
+**Bu servetin ne kadarı çalışmadan, ne kadarı mülkiyetten, mirastan ve kurumsal güçten geliyor?**
+
+Sitemizde bu hafta ele aldığımız [Karl Marx dosyasıyla](/haber/karl-marx-yabancilasma-meta-fetisizmi) buradaki akrabalık açık — ama Anderson Marksist değil. Kaynakları pragmatizm, Mill'in liberalizmi ve cumhuriyetçi özgürlük geleneği.
+
+## Irk: entegrasyon aynı mekânda bulunmak değil
+
+**The Imperative of Integration** (2010), aynı çerçeveyi ırk ilişkilerine uyguluyor.
+
+Anderson'a göre entegrasyon, farklı grupların aynı mekânda **bulunması** değildir. Eşit toplumsal statü, eşit karşılaşma ve insanların birbirlerini hiyerarşide sabit bir yere yerleştirmemesidir.
+
+Bu, ayrımcılık sorununu yalnızca kaynak dağıtımı üzerinden değil, **statü ve ilişki** üzerinden ele almayı gerektiriyor. Ve dağıtımsal önlemlerin neden tek başına yetmediğini açıklıyor.
+
+## 2026'da neden okunmalı?
+
+Çünkü "özel hükümet" kavramı, Anderson'ın 2017'de yazdığından beri **daha da genişledi**.
+
+Bir depo çalışanının hareketleri sensörle ölçülüyorsa, **denetleyen kim?**
+
+Bir kurye uygulamasının rotayı ve süreyi algoritma belirliyorsa, **emir veren kim?**
+
+Bir işe alım filtresi adayları eliyorsa, **karar veren kim** — ve o karara **itiraz mercii** var mı?
+
+Sitemizde bu hafta ele aldığımız [emek süreci kuramı dosyası](/haber/emek-sureci-kurami-hci-yapay-zeka), Anderson'ın sorusunun teknik cephesini oluşturuyor. Anderson'ın eklediği şey, sorunun **normatif** biçimi:
+
+Bir işçi, kararın nasıl verildiğini bilmiyorsa, o kararın öznesi mi yoksa nesnesi mi?
+
+Ve daha keskin olanı: Anderson'ın çerçevesinde, algoritmik yönetim yeni bir sorun yaratmıyor. **Eski sorunu daha görünmez hâle getiriyor.** Çünkü bir insan yöneticiye itiraz edebilirsiniz; bir sisteme itiraz için önce sistemin var olduğunu fark etmeniz gerekiyor.
+
+## Şimdi ne üzerine çalışıyor?
+
+Michigan'ın güncel bilgisine göre Anderson şu anda **eşitlikçiliğin tarihi** üzerine çalışıyor: on yedinci yüzyıl İngiltere'sindeki Levellers hareketinden bugüne uzanan bir proje; ahlaki öğrenmenin toplumsal epistemolojisini de kapsıyor.
+
+Bu, Anderson'ın yönteminin özeti aslında. Bir kavramı savunmadan önce, o kavramın **nereden geldiğini** anlatıyor.
+
+## Kapanış
+
+Anderson'ı "eşitlik filozofu" diye etiketlemek kolay. Ama asıl meselesi eşitlik değil.
+
+**Tahakküm.**
+
+İnsanların birbirlerinin üzerinde nasıl iktidar kurduğu — ve bu iktidarın ne zaman görünmez hâle geldiği.
+
+Sitemizde bu hafta ele aldığımız [Hegel'in tanınma kavramıyla](/haber/hegel-taninma-ozgurluk-zaman) buradaki bağ derindir: Özgürlük, kimsenin size karışmaması değil; sizi eşit bir özne olarak tanıyan ilişkiler içinde yaşayabilmektir.
+
+Anderson'ın bütün felsefesi tek soruda toplanabilir:
+
+**Bir toplumda insanların gerçekten eşit olması için, ellerindeki şeylerin eşit olması yeterli mi?**
+
+Cevabı hayır.
+
+Çünkü insan yalnızca gelirle değil; statüyle, saygıyla, çalışma koşullarıyla ve başkalarıyla kurduğu ilişkiyle de yaşar.
+
+---
+
+**Başlıca eserleri:** Value in Ethics and Economics (1993) · The Imperative of Integration (2010) · Private Government: How Employers Rule Our Lives (2017) · Hijacked (2023).`,
+  },
+  {
+    title: "Azra Erhat: çeviriyi kültürel altyapı olarak düşünen kadın",
+    slug: "azra-erhat-homeros-mavi-anadolu",
+    summary:
+      "Onu \"İlyada'nın çevirmeni\" diye anmak, Cumhuriyet'in en iddialı kültür projelerinden birini görmemek olur. 1948'de üniversiteden atıldı ve asıl etkisi ondan sonra başladı. Sorduğu soru bugün hâlâ tartışılıyor: Anadolu'nun geçmişi kimin geçmişidir?",
+    seoTitle: "Azra Erhat (1915-1982): Homeros çevirileri, Mavi Anadolu, 1948 tasfiyeleri",
+    metaDescription:
+      "Azra Erhat'ın hayatı, İlyada ve Odysseia çevirileri, Mavi Anadolu düşüncesi, Mavi Yolculuk ve 1948 DTCF tasfiyeleri.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Knidos%20ancient%20city.jpg?width=1600",
+    imageCredit: "Knidos antik kenti, Datça · Wikimedia Commons",
+    featured: true,
+    sourceName: "Türkiye İş Bankası Kültür Yayınları",
+    sourceUrl: "https://www.iskultur.com.tr/yazarlar/azra-erhat",
+    publishedAt: "2026-09-09T05:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["ceviri", "antik-felsefe", "arkeoloji", "akademi", "tarih"],
+    philosopherSlugs: ["azra-erhat"],
+    sources: [
+      {
+        title: "Azra Erhat — yazar sayfası",
+        publisher: "Türkiye İş Bankası Kültür Yayınları",
+        url: "https://www.iskultur.com.tr/yazarlar/azra-erhat",
+        primary: true,
+      },
+      {
+        title: "Azra Erhat",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Azra_Erhat",
+      },
+      {
+        title: "Azra Erhat",
+        publisher: "Ege Üniversitesi Mütercim Tercümanlık Bölümü",
+        url: "https://translex.ege.edu.tr/tr-6586/azra_erhat.html",
+      },
+    ],
+    content: `Türkiye'de bir kitap açıp Homeros okuyabiliyorsak, bu kendiliğinden olmadı.
+
+Ve bunu mümkün kılan kişinin hikâyesi, bir çevirmen biyografisi olarak başlayıp bambaşka bir yere gidiyor.
+
+## Filolog
+
+**Azra Erhat** 1915'te İstanbul'da doğdu. Çocukluğunun önemli bir bölümünü Avrupa'da geçirdi; Brüksel'de klasik diller okudu.
+
+Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi'nden **1939**'da mezun oldu ve aynı fakültenin Klasik Filoloji kürsüsünde çalıştı; **1946**'da doçent oldu.
+
+Fransızca, Almanca, İngilizce, Yunanca ve Latince biliyordu.
+
+Bu donanım, Cumhuriyet'in kültür programının tam merkezine denk düşüyordu. Hasan Âli Yücel'in kurduğu **Tercüme Bürosu** çevresine katıldı ve klasikleri Türkçeye kazandırma seferberliğinin önemli isimlerinden biri oldu: Sophokles, Aristophanes, Hesiodos, Homeros.
+
+## Kopuş
+
+**1948**'de üniversiteden uzaklaştırıldı.
+
+Yalnız değildi. Aynı tasfiyede **Pertev Naili Boratav**, **Behice Boran**, **Niyazi Berkes** ve **Adnan Cemgil** de görevlerinden edildi. Gerekçe, siyasal görüşleriydi.
+
+Bu, Türk akademi tarihinin en çok çalışılan olaylarından biri ve Cumhuriyet'in erken döneminde siyasal baskının üniversiteyi nasıl biçimlendirdiğinin ders kitabı örneği.
+
+Erhat 1971 sonrasında yeniden tutuklandı; ardından beraat etti.
+
+Ve şimdi paradoksa geliyoruz.
+
+## Akademiden atılan filolog nasıl kamusal bir entelektüele dönüştü?
+
+Erhat'ın klasik filolojiyle ilişkisi 1948'de bitmedi. Tersine — **daha geniş bir okur kitlesine açıldı**.
+
+Üniversite dışında kalmak onu kürsü diline mecbur olmaktan kurtardı. Ve bu, Türkiye'de klasik filolojinin akademik bir uzmanlık olmaktan çıkıp **kamusal bir kültür meselesi** hâline gelmesini sağladı.
+
+Bu, sitemizde dün ele aldığımız [Nermi Uygur dosyasında](/haber/nermi-uygur-dil-kultur-yasama) anlattığımız hikâyenin bir başka biçimi: Felsefeyi ve klasik kültürü kürsüden indirmek. Aradaki fark şu ki Uygur bunu tercih etti; Erhat'a mecbur bırakıldı.
+
+## İlyada: neden yalnızca bir çeviri değil?
+
+Erhat ve şair **A. Kadir**'in *İlyada* çevirisi, Türkçede bir klasik metnin nasıl yerleşeceğinin örneğidir. *Odysseia* çevirisi de aynı ortaklığın ürünü.
+
+Ortaklığın kendisi anlamlıdır: Bir filolog ve bir şair. Erhat metnin doğruluğunu, A. Kadir Türkçenin şiirini üstlendi. İkisi olmadan Homeros ya kuru bir sadakat ya da serbest bir uyarlama olurdu.
+
+Bugün *İlyada* Türkçede sanki hep varmış gibi okunuyor. Değildi.
+
+Sitemizde bu hafta ele aldığımız [Macit Gökberk dosyasında](/haber/macit-gokberk-felsefe-dili-turkce) anlattığımız "felsefeyi Türkçede kurmak" projesinin edebiyat ve klasik kültür cephesi budur. Aynı kuşak, farklı alanlar, aynı iş.
+
+## "Mavi Anadolu" ne demekti?
+
+Erhat'ın düşüncesinin en tartışmalı ve en ilginç tarafı burada.
+
+**1960**'ta yayımlanan *Mavi Anadolu*, Anadolu coğrafyasını arkeoloji, mitoloji, tarih, edebiyat ve seyahat deneyimi üzerinden okuyan bir metin.
+
+Ardındaki fikir — Sabahattin Eyüboğlu ve Halikarnas Balıkçısı (Cevat Şakir Kabaağaçlı) ile paylaştığı fikir — şuydu:
+
+**Anadolu'da yaşamış eski kültürler, Türkiye'nin kültürel mirasının parçasıdır.**
+
+İyonya felsefesi, Homeros, Efes, Milet, Bergama — bunlar "Batı'nın geçmişi" değil, bu toprakların geçmişidir.
+
+## Bu fikir savunulabilir mi?
+
+Dürüst olmak gerekirse: kısmen.
+
+**İtirazlar ciddi.** Kültürel süreklilik ile coğrafi süreklilik aynı şey değildir. Miletli Thales ile bugünkü Türkiye arasında bir dil, din ya da kurum sürekliliği yok. Bir uygarlığı "bizim" saymak için aynı toprakta yaşamak yeterli midir?
+
+Dahası, Mavi Anadoluculuk zaman zaman romantik bir köken arayışına ve seçmeci bir tarih okumasına kayabildi.
+
+**Ama savunulabilir bir çekirdeği var** ve bu çekirdek, itirazlardan daha dayanıklı.
+
+Bir toplumun kendi coğrafyasındaki kalıntıları "yabancı" saymasının pratik sonucu, onları **korumamaktır**. Bir harabeyi başkasının mirası olarak görmek, onu terk etmeyi kolaylaştırır.
+
+Mavi Anadolucular, tam da bu terk edişe karşı yazdılar.
+
+## Mavi Yolculuk aslında bir yöntemdi
+
+Bugün "Mavi Yolculuk" denince akla tekne turu geliyor.
+
+Erhat'ın dünyasında bu bir **okuma yöntemiydi**.
+
+Bir koyun adının arkasındaki antik yerleşimi görmek. Bir köyün yanındaki harabenin turistik eser değil, sürekli bir yerleşimin katmanı olduğunu anlamak. Denizi ulaşım alanı değil, **hafıza alanı** olarak okumak.
+
+Bu, aslında bir **hermeneutik** pratiktir: Metni değil, coğrafyayı yorumlamak. Sitemizde bugün ayrıca tanıttığımız [Schleiermacher'in Hermeneutik Dersleri](/haber/schleiermacher-hermeneutik-dersleri-turkce) ile kurulabilecek bağ tam burada — anlamak, bir nesneyi kendi bağlamı içinde yeniden kurmaktır.
+
+Akademik çalışmalar da Mavi Yolculuk'un doğuşunda Erhat, Eyüboğlu ve Halikarnas Balıkçısı'nın tarih, arkeoloji, dil, edebiyat ve ulusal kimlik meselelerini **birlikte** düşündüğünü gösteriyor.
+
+## Zincir
+
+Erhat'ın *Mitoloji Sözlüğü* (1972), *Mavi Anadolu*, *Mavi Yolculuk* ve Homeros çevirileri yan yana konduğunda ortaya bir yapı çıkıyor.
+
+Önce Homeros'u **çeviriyor**.
+Sonra Homeros'un dünyasını **açıklıyor**.
+Sonra o dünyayı Anadolu'yla **ilişkilendiriyor**.
+Sonra okuru o coğrafyaya **götürüyor**.
+
+**Çeviri → yorum → coğrafya → hafıza.**
+
+Erhat'ın asıl özgünlüğü burada: Çeviriyi tek tek eserlerin aktarılması olarak değil, bir **kültürel altyapı** olarak düşündü.
+
+Bir metni çevirmek yetmez; o metnin okunabileceği bir kültürel ortam da kurulmalıdır.
+
+## Bugün neden okunmalı?
+
+Çünkü sorduğu soru kapanmadı:
+
+**Anadolu'nun geçmişi kimin geçmişidir?**
+
+Yunan mı, Roma mı, Bizans mı, Selçuklu mu, Osmanlı mı, Cumhuriyet mi — yoksa hepsinin üst üste bindiği daha karmaşık bir katman mı?
+
+Erhat'ın cevabı bir tarih formülü değil. Bir **entelektüel öneri**:
+
+**Bir coğrafyada yaşamış bütün kültürleri tanımak, o coğrafyayı daha az değil, daha fazla "bizim" yapar.**
+
+Bir kültürü sahiplenmenin en güçlü yolu, geçmiştekileri silmek değil — **onları okuyabilmek**.
+
+---
+
+*Azra Erhat 1982'de öldü. Başlıca eserleri: İlyada (A. Kadir ile) · Odysseia (A. Kadir ile) · Mavi Anadolu (1960) · Mitoloji Sözlüğü (1972) · Mavi Yolculuk · İşte İnsan · Sevgi Yönetimi · Ekte Mektuplar.*`,
+  },
+  {
+    title: "Wittgenstein: yanlış cevaplarla değil, yanlış sorularla uğraşan filozof",
+    slug: "wittgenstein-dil-oyunlari-kural-izlemek",
+    summary:
+      "\"Önce dilin sınırlarını çizdi, sonra anlamın kullanım olduğunu söyledi.\" Bu özet Wittgenstein'ı iki filozofa böler ve ikisini de kaybeder. Asıl yaptığı şey daha rahatsız edici: Felsefi problemlerin bir kısmının cevabı değil, gramerinin sorunlu olduğunu göstermek.",
+    seoTitle: "Ludwig Wittgenstein: dil oyunları, aile benzerliği, özel dil, kural izlemek",
+    metaDescription:
+      "Wittgenstein'ın Tractatus'tan Felsefi Soruşturmalar'a düşüncesi: dil oyunları, aile benzerliği, özel dil argümanı ve yapay zekâ çağındaki güncelliği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20Wittgenstein.jpg?width=1600",
+    imageCredit: "Ludwig Wittgenstein · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/wittgenstein/",
+    publishedAt: "2026-09-09T05:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["kavram", "mantik", "zihin-felsefesi", "yapay-zeka", "epistemoloji"],
+    philosopherSlugs: ["ludwig-wittgenstein"],
+    sources: [
+      {
+        title: "Ludwig Wittgenstein",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/wittgenstein/",
+        primary: true,
+      },
+      {
+        title: "Wittgenstein's Philosophy of Mathematics",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/wittgenstein-mathematics/",
+      },
+    ],
+    content: `Wittgenstein'ı anlatmanın kolay yolu şudur:
+
+İki kitap söylersiniz — *Tractatus* ve *Felsefi Soruşturmalar*. Sonra "ilkinde dilin sınırlarını çizdi, ikincisinde anlamın kullanım olduğunu söyledi" dersiniz. Dosya kapanır.
+
+Bu özet yanlış değil. Ama Wittgenstein'ı iki ayrı filozofa bölüp ikisini de kaybediyor.
+
+Nitekim Stanford Felsefe Ansiklopedisi'nin güncel maddesi, erken ve geç dönem arasındaki klasik ayrımın bugün araştırmacılar tarafından sorgulandığını; bazı yorumcuların düşüncesinde çok daha büyük bir **süreklilik** gördüğünü kaydediyor.
+
+Bu yüzden onu iki filozof olarak değil, **tek bir radikal deneyin iki aşaması** olarak okumak daha verimli.
+
+Deneyin adı şu: **Felsefi problemler gerçekten problem mi?**
+
+## Birinci aşama: dünya nerede biter?
+
+*Tractatus Logico-Philosophicus*, I. Dünya Savaşı sırasında, cephede tutulan defterlerden doğdu.
+
+Merkezinde dil ile dünya arasındaki ilişki var. Bir önerme gerçekliği nasıl temsil eder? Anlamlı olmak ne demektir? Mantığın sınırı nerede?
+
+Wittgenstein'ın erken dönem hamlesi, modern mantığı metafizik sorunlara uygulayarak dilin **mantıksal yapısını** açığa çıkarmaktı. Amaç, felsefi problemlerin önemli bir kısmının yanlış kurulmuş olduğunu göstermek.
+
+Kitabın sonunda gelinen yer sıra dışıdır: Wittgenstein, kendi kitabının önermelerinin de aslında anlamsız olduğunu, okurun onları bir merdiven gibi kullanıp attıktan sonra doğru göreceğini söyler.
+
+Bir kitabın kendi kendini iptal etmesi.
+
+Ve sonra **susar**.
+
+## Araya giren yirmi yıl
+
+*Tractatus* yayımlandığında Wittgenstein felsefenin özünü çözdüğüne inanıyordu. Akademiden ayrıldı.
+
+Ailesinin devasa servetindeki payını dağıttı. Avusturya'da köy okullarında öğretmenlik yaptı. Bir manastırda bahçıvanlık yaptı. Kız kardeşi için Viyana'da bir ev tasarladı — mimarlığı, bir felsefe metni gibi katı bir eviydi.
+
+Bu ayrıntılar genellikle biyografik tuhaflık olarak anlatılır.
+
+Değiller.
+
+Wittgenstein için felsefe hiçbir zaman bir meslek değildi. **Nasıl düşündüğünüz ile nasıl yaşadığınız arasında bir bağ** kuruyordu. Ve *Tractatus*'un sonucu doğruysa, felsefe profesörü olarak kalmanın bir anlamı yoktu.
+
+Yanıldığını fark edince geri döndü. 1929'da Cambridge'e.
+
+## İkinci aşama: dil tek bir şey yapmaz
+
+Dönüşünde fark ettiği şey basitti ve sistemini yıkmaya yetti.
+
+İnsanlar dille tek bir şey yapmıyor.
+
+Emir verir. Soru sorar. Şaka yapar. Yemin eder. Dua eder. Hikâye anlatır. Teşekkür eder. Hesap yapar. Bir çocuğu azarlar. Bir oyunun kurallarını açıklar. Aşkını ilan eder.
+
+Bunların hepsinde dil kullanılır. Ama hiçbiri diğerinin işleyişine indirgenemez.
+
+**Dil oyunları** (*Sprachspiele*) kavramı buradan doğuyor. "Oyun" benzetmesi kasıtlı: Her oyunun kendi kuralları, kendi başarı ölçütleri, kendi hamleleri var. Ve satrancın kurallarıyla futbolu oynayamazsınız.
+
+*Tractatus*'un hatası, dilin **tek bir** oyun olduğunu varsaymaktı: gerçekliği betimleme oyunu.
+
+## Aile benzerliği
+
+Peki bütün bu farklı şeylere neden aynı adı — "dil" — veriyoruz?
+
+Wittgenstein'ın cevabı, kavram analizinin tarihini değiştirdi.
+
+"Oyun" kelimesini düşünün. Satranç, futbol, tek başına yapılan bir yapboz, çocukların top atıp tutması, şans oyunları, bilgisayar oyunları.
+
+Hepsinde ortak olan **tek bir özellik** bulmaya çalışın. Rekabet mi? Yapboz rekabet değil. Eğlence mi? Profesyonel sporcu için değil. Kural mı? Bazı çocuk oyunlarında kural doğaçlama kurulur.
+
+Ortak bir öz yok. Ama bir **benzerlik ağı** var: A ile B bir yönden, B ile C başka bir yönden benzer; A ile C hiç benzemeyebilir.
+
+Wittgenstein buna **aile benzerliği** diyor: Bir ailenin üyeleri gibi — burun, göz rengi, yürüyüş; hepsinde ortak tek bir özellik yok, yine de aynı aileden oldukları görülüyor.
+
+Bu, Platon'dan beri süren "özü tanımla" programına yöneltilmiş en etkili itirazlardan biri. Ve etkisi felsefeyle sınırlı kalmadı: antropoloji, hukuk, sınıflandırma kuramı ve bugün makine öğrenmesindeki kategori tartışmaları bu kavrama borçlu.
+
+## Özel dil: en zor ve en önemli argüman
+
+Wittgenstein'ın en tartışılan bölümü.
+
+Soru şu: Yalnızca bana ait, sadece benim erişebildiğim bir iç deneyimin dili olabilir mi?
+
+Diyelim ki içimde tekrarlayan bir duyum var. Ona **"S"** diyorum. Günlüğüme her hissettiğimde "S" yazıyorum.
+
+Wittgenstein'ın sorusu: **"S"yi doğru kullandığımı nasıl bilirim?**
+
+Ölçüt yalnızca benim hafızamsa, "doğru hatırlıyorum" ile "doğru hatırladığımı sanıyorum" arasındaki farkı kuramam. Ve bir ayrımın yapılamadığı yerde, kural da yoktur.
+
+Sonuç: **Bir kuralı izlemek, özel bir zihinsel edim değildir. Kamusal bir pratiktir.**
+
+Bu, zihin felsefesinde büyük sonuçlar doğurur. Anlam, kafanın içinde saklı bir nesne değil; bir topluluk içindeki kullanım düzenidir.
+
+Sitemizde bu hafta ele aldığımız [Michael Devitt dosyasında](/haber/michael-devitt-reference-and-beyond) izlediğimiz "anlam kafanın içinde değildir" tezinin bir kaynağı burasıdır — Devitt bunu nedensel gönderimle, Wittgenstein toplumsal pratikle açıklar.
+
+## Terapi olarak felsefe
+
+Wittgenstein'ın asıl özgünlüğü, filozofların **yanlış cevaplar** verdiğini düşünmemesi.
+
+Daha rahatsız edici bir şey söylüyordu: **Bazen yanlış sorular soruyoruz.**
+
+"Zaman nedir?"
+"Zihin nerede?"
+"Anlam hangi nesnedir?"
+
+Bu soruların dilbilgisi, cevabı olan bir soru izlenimi veriyor. Ama sorunun kendisi, bir kelimenin çalıştığı dil oyunundan koparılmasıyla üretilmiş olabilir.
+
+"Zaman" kelimesini gündelik hayatta sorunsuz kullanırız — "saat kaç", "geç kaldım", "iki gün sürdü". Sorun, kelimeyi bu bağlamlardan çıkarıp "peki zaman **kendisi** nedir?" diye sorduğumuzda başlıyor.
+
+Wittgenstein'a göre felsefenin işi yeni bir kuram kurmak değil; bu düğümleri **çözmek**.
+
+Bu yüzden felsefesi bir öğreti değil, bir **terapi** gibi okunabilir. Amacı yeni bilgi vermek değil, bir karışıklıktan kurtarmak.
+
+Bu, elbette bir zayıflık olarak da okunabilir ve okundu: Bir filozof, kendi tezini de aynı çözücü işleme tabi tutmak zorunda kalır. Wittgenstein bunun farkındaydı.
+
+## Unutulan alan: matematik
+
+Wittgenstein'ın matematik felsefesi genellikle gölgede kalır.
+
+Oysa Stanford Ansiklopedisi'nin ilgili maddesi çarpıcı bir bilgi veriyor: **1929-1944 arasındaki yazılarının yarısından fazlası matematik üzerine.** Ve Wittgenstein 1944'te, felsefeye asıl katkısının matematik felsefesinde olduğunu düşünüyordu.
+
+Buradaki tezi de aynı damardan: Matematiksel doğrular ne zihinde keşfedilen nesnelerdir ne de dış dünyada bulunan olgular. Matematik bir **pratiktir** — kural izleme, hesaplama ve ispatlama pratiği.
+
+Bu görüş çok eleştirildi; matematikçilerin çoğu kabul etmez. Ama "bir ispatı anlamak ne demektir?" sorusunu açık tutuyor.
+
+## Etik ve din: söylenemeyen
+
+Wittgenstein'ı yalnızca dil ve mantık filozofu saymak büyük bir haksızlık.
+
+Erken döneminde etik, din, ölüm ve hayatın anlamı üzerine yoğun biçimde düşündü. *Tractatus*'un mantık kısmını, asıl önemli olanın **söylenemeyen** olduğunu göstermek için yazdığını ima eden mektupları var.
+
+Ayrım şudur: **Söylenebilir** olan, olguları betimleyen önermelerdir. **Gösterilebilir** olan ise dilin sınırında durur — etik, estetik, hayatın anlamı.
+
+Bunu "Wittgenstein mistikti" diyerek kapatmak fazla kolay. Asıl ilgisi, **dilin sınırlarının insanın anlam arayışını nasıl biçimlendirdiğiydi.**
+
+## 2026'da neden okunuyor?
+
+Çünkü sorularının hepsi geri geldi.
+
+Bir dil modeli "anlıyorum" dediğinde — **"anlamak" kelimesini hangi durumda kullanıyoruz?**
+
+Bir sistem "üzgünüm" dediğinde — özür bir dil oyunudur ve o oyunun kuralları vardır. Sistem o kuralların içinde mi?
+
+Bir model bir kuralı uyguladığında — **bir kuralı izlemek ile kuralla uyumlu davranmak** aynı şey mi? Wittgenstein'ın kural izleme tartışması tam bu ayrım üzerine kuruludur.
+
+Bugünün yapay zekâ tartışması genellikle "makine düşünüyor mu?" diye soruyor.
+
+Wittgenstein muhtemelen önce şunu sorardı: **"Düşünüyor" kelimesini insanlar hangi durumlarda kullanıyor — ve bu durum onlardan biri mi?**
+
+Bu, kaçamak bir soru gibi görünüyor. Değil. Çünkü "düşünmenin özü nedir" sorusunun cevabı yoksa — ve Wittgenstein'a göre yok — o zaman "makine düşünüyor mu" sorusu da öze değil, **kullanıma** karar vermemizi gerektiriyor.
+
+Sitemizde bu hafta ele aldığımız [John Searle](/haber/john-searle-cin-odasi-anlam-kurum) ve [Chomsky](/haber/chomsky-monist-ozel-sayi-dil-zihin) dosyalarıyla birlikte okunduğunda üç ayrı strateji görünüyor: Searle anlamın **olmadığını** söyler, Chomsky **yapının** yanlış yerde arandığını, Wittgenstein ise **sorunun** yanlış kurulduğunu.
+
+## Miras
+
+Wittgenstein hiçbir konuda son sözü söylemedi. Söylemeye çalışmadı.
+
+Felsefesi okura hazır bir dünya görüşü vermez. Daha rahatsız edici bir şey yapar:
+
+**Nasıl düşündüğünüze bakmanızı sağlar.**
+
+Ve belki en kalıcı dersi şudur: Felsefenin amacı her zaman yeni bilgi üretmek değildir.
+
+Bazen mesele, bildiğimizi sandığımız şeye **ilk kez gerçekten bakmaktır.**
+
+---
+
+*Ludwig Wittgenstein 26 Nisan 1889'da Viyana'da doğdu, 29 Nisan 1951'de Cambridge'de öldü. Felsefi Soruşturmalar ölümünden sonra, 1953'te yayımlandı.*`,
+  },
+  {
+    title: "Anahtar konuşmacısı olmayan konferans: COMET 2026 kıta felsefesinde metafiziği tartışıyor",
+    slug: "comet-2026-radboud-kita-felsefesi-metafizik",
+    summary:
+      "13-15 Ekim'de Nijmegen'de toplanacak COMET 2026'nın programı, akademik konferans formatına sessiz bir itiraz içeriyor: anahtar konuşmacı yok, paralel oturum yok, katılım ücreti yok. Her konuşmacıya tam bir saat. Tema: süreç ve eylem ontolojileri.",
+    seoTitle: "COMET 2026: Metaphysics in Contemporary Continental Philosophy, Radboud",
+    metaDescription:
+      "COMET 2026, 13-15 Ekim'de Radboud Üniversitesi'nde. Süreç ve eylem ontolojileri; Rein Raud ve Mercedes Valmisa Oviedo davetli konuşmacılar.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20UCLA%20Royce%20Hall%202.jpg?width=1600",
+    imageCredit: "Üniversite binası · Wikimedia Commons",
+    featured: false,
+    sourceName: "Radboud University",
+    sourceUrl: "https://www.ru.nl/en/about-us/events/comet-2026",
+    publishedAt: "2026-09-09T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "fenomenoloji", "kavram", "akademi", "postmodernizm"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "COMET 2026",
+        publisher: "Radboud University",
+        url: "https://www.ru.nl/en/about-us/events/comet-2026",
+        primary: true,
+      },
+      {
+        title: "COMET 2026 - Metaphysics in Contemporary Continental Philosophy",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/150413",
+      },
+    ],
+    content: `Akademik konferansların çoğu aynı şekilde kurulur.
+
+Bir ya da iki **anahtar konuşmacı** — genellikle alanın en tanınmış ismi. Onların etrafında paralel oturumlar. Her konuşmacıya yirmi dakika, ardından beş dakika soru. Ve bir katılım ücreti.
+
+**COMET 2026**'nın programı bunların hiçbirini içermiyor.
+
+## Etkinlik
+
+**COMET 2026 — Metaphysics in Contemporary Continental Philosophy**, **13-15 Ekim 2026** tarihlerinde **Radboud Üniversitesi**'nde (Nijmegen, Hollanda) yapılacak.
+
+Düzenleyen: **Çağdaş Avrupa Felsefesi Merkezi** (Center for Contemporary European Philosophy, CCEP).
+
+Salı öğleden sonra açılış, tematik bir oturumla başlıyor: **süreç ve eylem ontolojileri**. Davetli konuşmacılar **Prof. Rein Raud** (Tallinn Üniversitesi) ve **Dr. Mercedes Valmisa Oviedo** (Gettysburg Üniversitesi). Çarşamba ve perşembe, çağrıyla seçilen açık oturumlara ayrılmış.
+
+Ve programın künyesinde şu not var: **Anahtar konuşmacı yok. Paralel oturum yok. Katılım ücreti yok.** Her konuşmacıya sunum ve tartışma için **tam bir saat**.
+
+## Bu neden dikkate değer?
+
+Çünkü bir konferansın biçimi, orada nasıl düşünüleceğini belirler.
+
+Yirmi dakikalık bir sunum, bir argümanı **tanıtmaya** yeter. Kurmaya yetmez. Beş dakikalık soru süresi, bir itirazı dile getirmeye yeter; tartışmaya yetmez.
+
+Sonuç, herkesin bildiği bir şey: Akademik konferansların çoğu, düşüncenin üretildiği yer değil, **duyurulduğu** yerdir.
+
+Bir saat vermek farklı bir şey talep ediyor: Konuşmacının argümanını gerçekten kurması, dinleyicinin gerçekten itiraz etmesi ve ikisinin karşılıklı ilerlemesi.
+
+Anahtar konuşmacı olmaması da tesadüf değil. Anahtar konuşma, bir hiyerarşi kurar: Kimin dinleneceği ve kimin dinleyeceği önceden bellidir. Bu yapıyı kaldırmak, bir eşitlik iddiasıdır.
+
+Sitemizde bugün ayrıca ele aldığımız [Elizabeth Anderson dosyasının](/haber/elizabeth-anderson-ozel-hukumet-iliskisel-esitlik) sorusu burada da geçerli: Bir kurumun biçimi, içindeki insanları eşit özneler olarak mı konumlandırıyor?
+
+## Tema: süreç ve eylem
+
+Açılış oturumunun konusu, çağdaş metafiziğin en canlı damarlarından biri.
+
+Batı metafiziğinin baskın geleneği, dünyayı **şeylerden** oluşan bir yer olarak düşünür: Önce nesneler vardır, sonra bu nesneler değişir. Değişim, sabit bir tözün başına gelen bir şeydir.
+
+**Süreç ontolojileri** bunu tersine çevirir: Temel olan süreçtir; "şey" dediğimiz şey, yeterince yavaş değişen bir süreçtir.
+
+Bu, Herakleitos'a kadar geri giden bir alternatif — sitemizde dün ele aldığımız [Selçuk'taki Mantık, Matematik ve Felsefe Sempozyumu](/haber/mantik-matematik-felsefe-xi-selcuk-2026) dosyasında değindiğimiz üzere, Herakleitos'un memleketi bu yıl bir başka sempozyuma ev sahipliği yapıyor.
+
+Ve yirminci yüzyılda Whitehead, Bergson ve Deleuze'le yeniden kuruldu.
+
+## Sınırların dışına
+
+Davetli konuşmacıların seçimi, toplantının en ilginç yanı.
+
+**Rein Raud**, Estonyalı bir kuramcı ve aynı zamanda Japon çalışmaları uzmanı. **Mercedes Valmisa Oviedo** ise Çin felsefesi üzerine çalışıyor — özellikle erken dönem Çin düşüncesinde eylem, uyum ve durumsallık kavramları üzerine.
+
+Yani "kıta felsefesinde metafizik" başlıklı bir toplantı, açılış oturumunda **Avrupa dışı** düşünce geleneklerine söz veriyor.
+
+Bu, bir nezaket jesti değil. Süreç ontolojisi tartışmasında Çin ve Japon geleneklerinin söyleyeceği şey, tarihsel olarak Avrupa'nınkinden daha zengin.
+
+Çünkü klasik Çin düşüncesi, sabit töz metafiziğini hiç kurmadı. *Değişim* orada açıklanması gereken bir anormallik değil, başlangıç noktasıdır. Bir eylemin doğruluğu, evrensel bir kurala uygunluğuyla değil, **durumla uyumuyla** ölçülür.
+
+Bir Avrupa metafizik toplantısının bu geleneği rakip değil **kaynak** olarak masaya koyması, alandaki gerçek bir kaymanın işareti.
+
+Sitemizde bu hafta ele aldığımız [Kavramın Felsefi Tarihi dosyası](/haber/kavramin-felsefi-tarihi-schmid-taieb) da aynı yönelimin bir başka örneğiydi: Bir kavramın tarihini yalnızca Yunan-Latin hattından değil, Çin, Budist, Brahmanik ve İslam geleneklerinden de izlemek.
+
+## Türkiye açısından
+
+COMET'in katılım ücreti almaması, Türkiye'den araştırmacılar için pratik bir anlam taşıyor. Ulaşım ve konaklama dışında maliyet yok.
+
+Türkiye'de kıta felsefesi güçlü bir gelenek — fenomenoloji, hermeneutik ve eleştirel kuram bölümlerde yaygın olarak çalışılıyor. Ama metafizik cephesi görece zayıf: Kıta felsefesi Türkiye'de çoğunlukla metin yorumu ve düşünce tarihi olarak yapılıyor, sistematik ontoloji olarak değil.
+
+COMET tam bu boşluğa denk düşüyor.
+
+## Sonbahar takvimi
+
+**1-3 Ekim · Selçuk** — [Mantık, Matematik ve Felsefe XI](/haber/mantik-matematik-felsefe-xi-selcuk-2026)
+
+**9-10 Ekim · Ohio State** — Fizik Felsefesi: kuantum yorumlarının metafizik varsayımları
+
+**13-15 Ekim · Nijmegen** — COMET 2026
+
+**16-18 Ekim · Northwestern** — [Amerika Hegel Derneği: "Hegel and Time"](/haber/hegel-taninma-ozgurluk-zaman)
+
+**23-24 Ekim · çevrim içi** — [Kuzey Amerika Sartre Derneği](/haber/sartre-dernegi-2026-dijital-varolusculuk)
+
+**26-27 Ekim · İstanbul** — [1. Ulusal İslam Felsefesi Sempozyumu](/haber/ulusal-islam-felsefesi-sempozyumu-2026)
+
+**5-6 Kasım · İstanbul** — [Reichenbach in İstanbul](/haber/reichenbach-kongresi-istanbul-2026)
+
+**13-14 Kasım · Oxford** — [30. Oxford Lisansüstü Felsefe Konferansı](/etkinlik/oxford-lisansustu-felsefe-konferansi-2026)
+
+**20-21 Kasım · Duke** — [Hayvan Refahı Felsefesi](/etkinlik/duke-hayvan-refahi-felsefesi-2026)
+
+**3-5 Aralık · Atina** — 9. Panhelenik Bilim Felsefesi Kongresi
+
+---
+
+*Program ayrıntıları değişebilir; kesin bilgi için düzenleyici kurumla iletişime geçilmesi önerilir.*`,
+  },
+  {
+    title: "Schleiermacher'in hermeneutik dersleri ilk kez Almanca aslından Türkçede",
+    slug: "schleiermacher-hermeneutik-dersleri-turkce",
+    summary:
+      "Modern hermeneutiğin kurucu metinleri, Kaan H. Ökten'in çevirisiyle Alfa Kitap'tan çıktı. Schleiermacher'in iddiası iki yüzyıl sonra hâlâ tartışılıyor: Bir yazarı, kendini anladığından daha iyi anlamak mümkün müdür?",
+    seoTitle: "Schleiermacher, Hermeneutik Dersleri — çev. Kaan H. Ökten, Alfa Kitap",
+    metaDescription:
+      "Schleiermacher'in 1809/1810 ve 1819 hermeneutik dersleri Kaan H. Ökten çevirisiyle Alfa Kitap'tan yayımlandı. Türkçede bir ilk.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Friedrich%20Ernst%20Daniel%20Schleiermacher%2C%20RP-P-1914-4018.jpg?width=1600",
+    imageCredit: "Friedrich Schleiermacher · Rijksmuseum · Wikimedia Commons",
+    featured: true,
+    sourceName: "Edebiyat Haber",
+    sourceUrl: "https://www.edebiyathaber.net/schleiermacherin-hermeneutik-dersleri-okurla-bulustu/",
+    publishedAt: "2026-09-09T04:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "ceviri", "kavram", "din-felsefesi", "alman-idealizmi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Schleiermacher'in Hermeneutik Dersleri okurla buluştu",
+        publisher: "Edebiyat Haber",
+        date: "1 Eylül 2026",
+        url: "https://www.edebiyathaber.net/schleiermacherin-hermeneutik-dersleri-okurla-bulustu/",
+        primary: true,
+      },
+      {
+        title: "Friedrich Schleiermacher",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/schleiermacher/",
+      },
+    ],
+    content: `**Friedrich Schleiermacher**, *Hermeneutik Dersleri — 1809/1810 Güz ve 1819 Bahar Yarıyılı*
+Çeviri ve sunuş: **Kaan H. Ökten** · Alfa Kitap · 216 sayfa · ISBN 9786253894931
+
+Türkçede hermeneutik literatürü uzun süredir tuhaf bir eksiklikle yaşıyordu.
+
+Gadamer vardı. Ricœur vardı. Heidegger'in *Varlık ve Zaman*'ı — yine Kaan H. Ökten'in çevirisiyle — vardı. Dilthey üzerine çalışmalar vardı.
+
+Ama bütün bu geleneğin **başladığı yer** yoktu.
+
+Şimdi var.
+
+## Neden başlangıç noktası?
+
+Schleiermacher'den önce de metin yorumu vardı. Ama parçalıydı.
+
+**Teolojik hermeneutik**, kutsal metni yorumluyordu. **Hukuki hermeneutik**, yasayı. **Filolojik hermeneutik**, klasik metinleri. Her biri kendi kurallarını geliştirmişti ve bu kuralların ortak bir zemini yoktu.
+
+Schleiermacher'in hamlesi şuydu: Bunlar ayrı sanatlar değil. **Tek bir sorunun** farklı uygulamaları.
+
+Ve soru şu: **Bir başkasının söylediğini anlamak nasıl mümkün olur?**
+
+Bu soruyu genel bir kuramın konusu hâline getirmek — hermeneutiği bir teknikler derlemesinden bir **felsefi disipline** dönüştürmek — Schleiermacher'in işidir.
+
+Kitabın tanıtım metnindeki formülasyon bunu iyi özetliyor: Anlama çabası tesadüfi bir kavrayışla yol alamaz; **sistemli bir açımlama sanatına** ihtiyaç duyar.
+
+## Yanlış anlama normaldir
+
+Schleiermacher'in en radikal hamlesi burada ve genellikle atlanır.
+
+Klasik hermeneutik varsayımı şuydu: Anlama normaldir, yanlış anlama istisnadır. Bir metin karşısında zorlandığımızda — metin bozuksa, dil eskimişse, bağlam kaybolmuşsa — devreye yorum kuralları girer.
+
+Schleiermacher bunu tersine çevirdi.
+
+**Yanlış anlama normaldir.** Anlama, elde edilmesi gereken bir başarıdır.
+
+Bu neden böyle? Çünkü her konuşan, ortak bir dili **kendine özgü** biçimde kullanır. Sözcükler ortaktır; ama o sözcüklerin belirli bir insanın zihninde taşıdığı ağırlık, çağrışım ve amaç ortak değildir.
+
+Dolayısıyla anlamak, iki şeyi birden yapmayı gerektirir.
+
+**Dilbilgisel yorum:** Bu cümle, bu dilin ve bu dönemin kuralları içinde ne söylüyor?
+
+**Psikolojik (teknik) yorum:** Bu kişi, bu cümleyi kurarken ne yapıyordu?
+
+İkisi birbirini denetler. Yalnızca ilkiyle yetinirseniz, metni bir sözlük olarak okursunuz. Yalnızca ikincisiyle yetinirseniz, yazarın yerine kendi tahmininizi koyarsınız.
+
+## O meşhur cümle
+
+Kitabın tanıtımında yer alan Schleiermacher alıntısı, hermeneutik tarihinin en çok tartışılan cümlelerinden biri:
+
+> **"Hermeneutiğin hedefi en yüksek anlamda anlamadır. Buna yazarı, onun kendini anladığından daha iyi anlamak da dahildir."**
+
+İlk okuyuşta küstahça geliyor. Bir okur, yazarı yazardan iyi nasıl anlar?
+
+Ama iddia sanıldığı gibi değil.
+
+Schleiermacher'in kastettiği şu: Bir yazar, kendi dilinin ve döneminin **içinde** yazar. Kullandığı kavramların tarihini, dilinin kendisine dayattığı sınırları, metnin kendi niyetini aşan yapısını çoğu zaman göremez.
+
+Yazar metni **üretir**; okur metni **görebilir**.
+
+Bir insanın kendi aksanını duymaması gibi.
+
+Bu tez, sonraki iki yüzyılın büyük tartışmasını başlattı. Gadamer bunu genişletti — anlama, okurun kendi ufkunu da işin içine katar. Ricœur "kuşku hermeneutiği"ni ekledi — Marx, Nietzsche ve Freud, metnin kendisinin gizlediğini arar. Ve sonunda, yazarın niyetinin bağlayıcı olup olmadığı sorusu edebiyat kuramının merkezine yerleşti.
+
+## Hermeneutik döngü
+
+Schleiermacher'in ikinci büyük kavramı, bugün her yorum tartışmasında karşımıza çıkıyor.
+
+Bir cümleyi anlamak için metnin bütününü bilmek gerekir. Ama metnin bütününü anlamak için cümleleri anlamak gerekir.
+
+Bu bir kısırdöngü mü?
+
+Schleiermacher'e göre hayır — **spiral**. Parçadan bütüne, bütünden parçaya gidip gelirsiniz ve her turda anlayışınız düzelir. Anlama, tek seferde ulaşılan bir durum değil; **yaklaşan** bir süreçtir.
+
+Ve bu yüzden hiçbir yorum nihai değildir.
+
+## Kitabın yapısı
+
+Kitap, Ökten'in hazırladığı kapsamlı bir **"Sunuş"** bölümüyle açılıyor: Schleiermacher'in biyografisi, eserleri, hermeneutik kuramın genel hatları ve çevrilen derslerin özetleri.
+
+Bu bölüm, kitabı bir kaynak metin olmanın ötesine taşıyor. Türkçede hermeneutiğe giriş arayan okur için doğrudan bir başlangıç noktası sunuyor.
+
+Ardından **1809/1810 güz** ve **1819 bahar** yarıyıllarındaki dersler geliyor — Schleiermacher'in açımlamanın temel kurallarını ve örneklerini ortaya koyduğu metinler. Her ikisi de **ilk kez Almanca aslından** Türkçeye çevriliyor.
+
+Çevirmen **Kaan H. Ökten**, Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü öğretim üyesi ve Türkçedeki Heidegger literatürünün kurucu isimlerinden.
+
+## Bugüne bağlanan yer
+
+Bu kitabı 2026'da okumanın özel bir nedeni var.
+
+Bir dil modeline bir metin verip "bunu yorumla" dediğimizde, Schleiermacher'in iki yüzyıl önce ayırdığı iki işlemi birden talep ediyoruz.
+
+**Dilbilgisel yorum** — bu, sistemlerin iyi yaptığı iş. Sözcüklerin dil içindeki düzenini, dönemsel kullanımını, kavramsal ağını çıkarabiliyorlar.
+
+**Psikolojik yorum** — bu, sorunlu olan. Bir metnin arkasında **bir kişinin bir şey yapıyor olduğunu** kavramak, o kişinin niyetini, durumunu ve sınırlarını hesaba katmak.
+
+Bir sistem birinciyi ikincisi olmadan yapabilir mi? Yapıyorsa, ortaya çıkan şeye "yorum" demeli miyiz?
+
+Sitemizde dün ele aldığımız [8 Eylül dosyasında](/haber/felsefe-tarihinde-bugun-8-eylul-bar-hillel-pareyson) Bar-Hillel'in makine çevirisi üzerine 1959 tarihli itirazını anlatmıştık: Doğru çeviri, dünya bilgisi gerektirir. Schleiermacher'in itirazı bir kat daha derin: Doğru yorum, **bir başkasının olduğunu bilmeyi** gerektirir.
+
+Aynı dosyada andığımız Luigi Pareyson'ın hattı da buradan geçiyor: Yorum bir teknik değil, yorumlayanın kendisini de içine katan bir edimdir.
+
+## Kimler için?
+
+Hermeneutik, dil felsefesi, yorum kuramı, Alman idealizmi ve modern felsefe tarihiyle ilgilenenler için.
+
+Ama daha geniş bir okur kitlesi de var: Hukuk yorumu, ilahiyat, edebiyat eleştirisi ve tarih yazımıyla uğraşan herkes, aslında Schleiermacher'in açtığı sorunun içinde çalışıyor.
+
+Türkçede felsefe yayıncılığı açısından 2026'nın kayda değer başlıklarından biri.`,
+  },
+  {
+    title: "Skytte Ödülü İstanbul doğumlu bir filozofa: Seyla Benhabib",
+    slug: "seyla-benhabib-skytte-odulu-2026",
+    summary:
+      "Siyaset biliminin en prestijli ödüllerinden Johan Skytte Ödülü'nün 2026 sahibi Seyla Benhabib. Gerekçe, göç çağının en zor sorusuna işaret ediyor: Devletlerin kimi kabul edeceğine karar etme hakkı ile insanların onur görme hakkı nasıl bir arada durur? Benhabib bugün 76 yaşına giriyor.",
+    seoTitle: "Seyla Benhabib 2026 Johan Skytte Ödülü'nü aldı",
+    metaDescription:
+      "İstanbul doğumlu siyaset felsefecisi Seyla Benhabib, 2026 Johan Skytte Siyaset Bilimi Ödülü'ne layık görüldü. Tören 10 Ekim'de Uppsala'da.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Uppsala%20University%20House.jpg?width=1600",
+    imageCredit: "Uppsala Üniversitesi ana binası · Wikimedia Commons",
+    featured: true,
+    sourceName: "Uppsala Üniversitesi",
+    sourceUrl: "https://www.uu.se/en/news/2026/2026-04-24-seyla-benhabib-is-awarded-the-skytte-prize-in-political-science",
+    publishedAt: "2026-09-09T04:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "siyaset-felsefesi", "demokrasi", "elestirel-teori", "toplumsal-cinsiyet"],
+    philosopherSlugs: ["seyla-benhabib"],
+    sources: [
+      {
+        title: "Seyla Benhabib is awarded the Skytte Prize in Political Science",
+        publisher: "Uppsala Üniversitesi",
+        date: "24 Nisan 2026",
+        url: "https://www.uu.se/en/news/2026/2026-04-24-seyla-benhabib-is-awarded-the-skytte-prize-in-political-science",
+        primary: true,
+      },
+      {
+        title: "Seyla Benhabib",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Seyla_Benhabib",
+      },
+    ],
+    content: `Siyaset biliminin en prestijli ödülü sayılan **Johan Skytte Siyaset Bilimi Ödülü**'nün 2026 sahibi belli oldu.
+
+Ödül, Yale Üniversitesi'nde **Eugene Meyer Siyaset Bilimi ve Felsefe Profesörü** olan **Seyla Benhabib**'e verildi.
+
+Ve bugünün tarihi, haberi ayrıca anlamlı kılıyor: Benhabib **9 Eylül 1950'de İstanbul'da doğdu.** Bugün yetmiş altı yaşına giriyor.
+
+## Gerekçe
+
+Ödül komitesinin gerekçesi tek cümlede toplanmış — ve o cümle, çağın en zor siyasal sorusunu içeriyor:
+
+> **"Sürekli insan hareketliliğinin olduğu bir dünyada adaletin nasıl mümkün olduğunu, hem bireylerin hem devletlerin haklarına derin bir saygıyla incelemesi."**
+
+Bu formülasyondaki denge kasıtlı.
+
+Göç tartışması genellikle iki uçtan yürütülür. Bir uçta, devletin sınırlarını belirleme hakkı mutlaktır. Diğer uçta, insan hakları sınır tanımaz.
+
+Benhabib'in kırk yıllık çalışması, bu iki iddianın da tek başına savunulamayacağını göstermek üzerine kuruludur. Komitenin vurguladığı da bu: Yaklaşımı **pragmatik ve müzakereci**; siyasetçiler, geniş kamuoyu ve akademisyenler için aynı ölçüde ilgi çekici.
+
+## Ödül
+
+Johan Skytte Ödülü, Skytte Vakfı tarafından **1994**'te kuruldu ve her yıl, siyaset bilimine "en değerli katkıyı" yapmış araştırmacıya veriliyor.
+
+Ödül **500.000 İsveç kronu** ve bir madalyadan oluşuyor.
+
+Kaynağı ise dikkat çekici: **1622**'de Danışma Meclisi üyesi Johan Skytte'nin Uppsala Üniversitesi'nde belagat ve yönetim kürsüsü kurulması için yaptığı bağış. Dört yüz yıllık bir vakıf, bugün siyaset biliminin en büyük ödülünü finanse ediyor.
+
+Önceki ödül sahipleri arasında **Elinor Ostrom**, **Robert Dahl** ve **Jürgen Habermas** var.
+
+Bu son isim özellikle anlamlı — çünkü Benhabib, Habermas'ın söylem etiğinin hem en önemli geliştiricilerinden hem de en ciddi eleştirmenlerinden biri.
+
+Tören **10 Ekim 2026**'da Uppsala'da yapılacak. Benhabib, geçen yılın sahibi Herbert P. Kitschelt ile birlikte ödülünü alacak.
+
+## Benhabib ne yaptı?
+
+Onu tanımayan okur için: Benhabib'in katkısı üç eksende toplanabilir.
+
+### 1. Somut öteki
+
+En özgün kavramsal hamlesi bu ve 1980'lerde yapıldı.
+
+Ahlak felsefesinin egemen geleneği — Kant'tan Rawls'a — ahlaki muhatabı **soyut** bir özne olarak kurar: Herkes gibi akıl sahibi, herkes gibi haklara sahip, hiçbir ayırt edici özelliği hesaba katılmayan bir kişi. Rawls'ın cehalet peçesi bunun en açık ifadesidir.
+
+Benhabib bunun bir kazanım olduğunu kabul eder: Soyutlama, eşitliği mümkün kılar.
+
+Ama bir bedeli olduğunu da gösterir. **Somut öteki** — belirli bir tarihi, bağları, ihtiyaçları ve kırılganlıkları olan gerçek kişi — bu çerçevede görünmez olur.
+
+Ve görünmeyen bir kişiye adalet dağıtmak zordur.
+
+Benhabib'in önerisi ikisinden birini seçmek değil; ikisi arasında **gidip gelmeyi** ahlaki muhakemenin parçası yapmak.
+
+Sitemizde bugün ayrıca ele aldığımız [Elizabeth Anderson dosyasıyla](/haber/elizabeth-anderson-ozel-hukumet-iliskisel-esitlik) buradaki yakınlık dikkat çekici: İkisi de dağıtımcı adalet kuramlarının, insanlar arasındaki **fiilî ilişkileri** gözden kaçırdığını savunuyor.
+
+### 2. Demokratik yinelemeler
+
+İkinci büyük kavramı, göç ve yurttaşlık tartışmasının merkezinde.
+
+Sorun şu: İnsan hakları evrensel olduğunu iddia eder, ama yalnızca belirli bir devletin sınırları içinde uygulanabilir. Haklar evrensel; onları tanıyacak merci ise yereldir.
+
+Benhabib bu gerilimin çözülemeyeceğini, ama **işletilebileceğini** söyler.
+
+**Demokratik yinelemeler** (*democratic iterations*), evrensel hak iddialarının ulusal siyasal topluluklarda tartışılarak, itiraz edilerek ve yeniden yorumlanarak yerleştiği süreçlerdir. Her yineleme, kavramı biraz değiştirir.
+
+Bu, ne saf kozmopolitizmdir ne de saf egemenlik savunusu. Aradaki alanı çalışılabilir kılar.
+
+### 3. Arendt okuması
+
+Benhabib, Hannah Arendt'in en etkili yorumcularından biri.
+
+Özellikle Arendt'in "hakları olma hakkı" formülünü çağdaş göç tartışmasına taşıması, alanın standart referanslarından biri hâline geldi.
+
+Arendt'in tespiti şuydu: Devletsiz kalan insan, teorik olarak insan haklarına sahiptir; pratikte hiçbirini kullanamaz. Çünkü hakları uygulayacak bir siyasal topluluğun üyesi değildir.
+
+Benhabib bu tespiti bir çıkmaz değil, bir **çalışma programı** olarak okur.
+
+## Türkiye bağı
+
+Benhabib'in İstanbul doğumlu olması bir biyografik ayrıntı değil.
+
+İstanbul'un Sefarad Yahudi cemaatinde büyüdü; Amerikan Kız Koleji'nde okudu. Türkiye'den ayrılıp Brandeis ve Yale üzerinden Amerikan akademisinin merkezine yerleşti.
+
+Bir azınlık cemaatinde büyümek ile aidiyet, yurttaşlık ve tanınma üzerine çalışmak arasında kurulacak bağ, kolay bir psikolojik açıklamaya indirgenmemeli.
+
+Ama şu söylenebilir: Benhabib'in çalışmasının merkezinde duran soru — **bir siyasal topluluğun sınırı nerede çizilir ve bunu kim belirler** — soyut bir akademik problem olarak değil, yaşanmış bir deneyimin kavramsallaştırılması olarak okunabilir.
+
+Sitemizde bu hafta ele aldığımız [Nermi Uygur](/haber/nermi-uygur-dil-kultur-yasama) ve bugün ele aldığımız [Azra Erhat](/haber/azra-erhat-homeros-mavi-anadolu) dosyalarıyla birlikte, Türkiye'nin yirminci yüzyıl düşünce hayatının ne kadar çok yönlü olduğunu hatırlatan bir başka isim.
+
+Türkiye'de doğup dünya siyaset felsefesinin merkezine yerleşen bir düşünürün, alanın en büyük ödülünü doğum gününe yakın bir tarihte alması — bu köşenin kaydetmesi gereken türden bir tesadüf.
+
+## Bugünün çerçevesinde
+
+Bu ödül, sitemizde bugün ele aldığımız [demokratik normlar dosyasıyla](/haber/demokratik-normlar-kutuplasma-dokuz-ulke) doğrudan bağlantılı.
+
+O dosyada sorduğumuz soru şuydu: Bir toplum ne kadar bölünüp yine de demokratik kalabilir?
+
+Benhabib'in kırk yıldır çalıştığı soru ise bunun bir adım öncesi:
+
+**Bir siyasal topluluk, kimlerden oluştuğuna karar verirken, dışarıda bıraktıklarına ne borçlu?**
+
+İkinci soruya verilen cevap, birincinin sınırını belirliyor.
+
+---
+
+*Seyla Benhabib 9 Eylül 1950'de İstanbul'da doğdu. Başlıca eserleri: Critique, Norm and Utopia (1986) · Situating the Self (1992) · The Reluctant Modernism of Hannah Arendt (1996) · The Claims of Culture (2002) · The Rights of Others (2004) · Another Cosmopolitanism (2006) · Exile, Statelessness, and Migration (2018).*`,
+  },
+  {
+    title: "Felsefe tarihinde bugün: 9 Eylül — gelmeyen bir doğum günü ve iki isyankâr",
+    slug: "felsefe-tarihinde-bugun-9-eylul-passmore-goodman",
+    summary:
+      "Robert Alexy bugün seksen bir yaşına basacaktı; dört gün önce öldü. Aynı gün doğan iki isim ise birbirini hiç tanımadı: Avustralyalı John Passmore doğaya karşı sorumluluğumuzu sordu, New Yorklu Paul Goodman gençliğin neden saçma bir dünyada büyüdüğünü. Üçünü de bağlayan bir soru var.",
+    seoTitle: "Felsefe tarihinde bugün: 9 Eylül — Passmore, Goodman, Benhabib, Alexy",
+    metaDescription:
+      "9 Eylül: John Passmore ve Paul Goodman'ın doğumu, Seyla Benhabib'in doğum günü ve Robert Alexy'nin gelmeyen doğum günü.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Beech%20Forest%20(AU)%2C%20Great%20Otway%20National%20Park%20--%202019%20--%201294.jpg?width=1600",
+    imageCredit: "Kayın ormanı, Great Otway Ulusal Parkı, Avustralya · Wikimedia Commons",
+    featured: false,
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/John_Passmore",
+    publishedAt: "2026-09-09T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "siyaset-felsefesi", "teknoloji-felsefesi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "John Passmore",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/John_Passmore",
+        primary: true,
+      },
+      {
+        title: "Remembering John Passmore (9 September 1914 – 25 July 2004)",
+        publisher: "International Society for Environmental Ethics",
+        url: "https://iseethics.wordpress.com/2004/07/25/remembering-john-passmore-9-september-1914-%E2%80%93-25-july-2004/",
+      },
+      {
+        title: "Paul Goodman",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Paul_Goodman",
+      },
+    ],
+    content: `Bu köşede genellikle doğumları ve ölümleri kaydediyoruz.
+
+Bugün bir de **gerçekleşmeyen** bir yıldönümü var.
+
+## Gelmeyen doğum günü
+
+**Robert Alexy** 9 Eylül 1945'te Oldenburg'da doğdu.
+
+Bugün seksen bir yaşına basacaktı.
+
+**5 Eylül Cumartesi günü öldü** — dört gün önce, seksen yaşında.
+
+Sitemizde dün [hukuk felsefesindeki mirasını](/haber/robert-alexy-hukukun-ikili-dogasi) ve [Brezilya'daki olağanüstü etkisini](/haber/alexy-brezilya-ponderacao-hukuk-kuramlarinin-yolculugu) ele almıştık.
+
+Takvim bazen gereksiz yere şiirsel oluyor.
+
+## Ve gelen bir doğum günü
+
+Aynı gün, 1950'de, İstanbul'da **Seyla Benhabib** doğdu.
+
+Bugün yetmiş altı yaşına giriyor — ve 2026 **Johan Skytte Siyaset Bilimi Ödülü**'nü aldı. Ödülünü 10 Ekim'de Uppsala'da alacak.
+
+Ayrıntılar sitemizin [Ödüller bölümünde](/haber/seyla-benhabib-skytte-odulu-2026).
+
+---
+
+Şimdi asıl iki isme geçelim. Birbirlerini muhtemelen hiç okumadılar. Ama aynı soruyu iki ayrı yerinden tuttular.
+
+---
+
+## John Passmore (9 Eylül 1914 – 25 Temmuz 2004)
+
+Sydney'de doğdu. Avustralya'nın uluslararası alanda en tanınmış filozofuydu ve kariyerinin büyük kısmını Avustralya Ulusal Üniversitesi'nde geçirdi.
+
+Türkiye'de en çok ***A Hundred Years of Philosophy*** ile bilinir — 1957 tarihli bu kitap, on dokuzuncu yüzyılın ortasından yirminci yüzyılın ortasına felsefenin haritasını çıkarır ve hâlâ pek çok bölümde başvuru kaynağıdır.
+
+Ama Passmore'un asıl özgün katkısı başka yerde.
+
+### Doğaya karşı sorumluluk
+
+1974 tarihli ***Man's Responsibility for Nature***, çevre etiğinin kurucu metinlerinden biri.
+
+Kitabın yaptığı iş, tipik bir çevre manifestosu değil. Passmore bir felsefe tarihçisi gibi çalışıyor ve şunu soruyor:
+
+**Batı düşüncesi, insanın doğayla ilişkisini tarihsel olarak nasıl kurdu?**
+
+Bulduğu şey tek bir gelenek değil, birkaç rakip gelenek.
+
+**Despotluk geleneği:** Doğa insan için yaratılmıştır; insan onun efendisidir. Kökleri Yaratılış anlatısının belirli bir okumasında ve Stoacı düşüncenin bazı damarlarında.
+
+**Kâhyalık (stewardship) geleneği:** İnsan doğanın sahibi değil, emanetçisidir. Aynı dinî kaynaklardan çıkan farklı bir okuma.
+
+**İşbirliği geleneği:** İnsan doğayı geliştirir, ona ortaktır — bahçıvanlık modeli.
+
+Passmore'un tezi, çevre krizinin çözümü için **yeni bir din ya da yeni bir metafizik** aramanın gereksiz olduğuydu. Batı geleneğinin içinde zaten kullanılabilir kaynaklar var; sorun, hangisinin baskın hâle geldiği.
+
+Bu, dönemin radikal ekoloji akımlarına — doğanın kendinde değeri olduğunu savunan derin ekolojiye — karşı bir konumdu ve sert eleştirildi.
+
+Passmore'un yanıtı pragmatikti: Bir ahlaki dönüşüm beklemek, kirliliği durdurmaz. Elimizde olan geleneği daha iyi kullanmak, yeni bir gelenek icat etmekten hızlıdır.
+
+### Mükemmelleşebilirlik
+
+1970 tarihli ***The Perfectibility of Man*** ise başka bir tarihi çıkarıyor: İnsanın kusursuzlaştırılabileceği fikrinin tarihi.
+
+Passmore, bu fikrin dinî, ütopyacı, eğitimsel ve siyasal biçimlerini izliyor ve dikkatli bir uyarı yapıyor: İnsanı mükemmelleştirme projeleri, çoğu zaman **insanları** mükemmelleştirme projelerine dönüşür. Ve bunun bedelini ödeyenler, mükemmel sayılmayanlardır.
+
+Bu tez, yirmi birinci yüzyılda beklenmedik bir güncellik kazandı. Genetik düzenleme, bilişsel geliştirme, "insan sonrası" tartışmaları — hepsi Passmore'un incelediği fikrin yeni teknolojik biçimleri.
+
+Sitemizde bu hafta ele aldığımız [Al-Rodhan Ödülü uzun listesinde](/haber/nayef-al-rodhan-odulu-2026-uzun-liste) yer alan Christine Webb'in *The Arrogant Ape*'i, Passmore'un açtığı tartışmanın bugünkü uzantısı.
+
+---
+
+## Paul Goodman (9 Eylül 1911 – 2 Ağustos 1972)
+
+New York'ta doğdu. Ve tek bir sıfatla tanımlanamıyor: yazar, şair, romancı, anarşist düşünür, toplum eleştirmeni, eğitim kuramcısı, Gestalt terapinin kurucularından biri.
+
+Akademik kariyeri hiçbir zaman istikrarlı olmadı. Görüşleri ve yaşam biçimi yüzünden birkaç üniversiteden ayrılmak zorunda kaldı.
+
+### Growing Up Absurd
+
+**1960**'ta yayımlanan ***Growing Up Absurd***, onu bir anda ülke çapında tanınan bir isme çevirdi ve 1960'ların gençlik hareketlerinin entelektüel kaynaklarından biri oldu. Goodman "Yeni Sol'un filozofu" olarak anılır oldu.
+
+Kitabın sorusu şu: Amerikan gençliği neden "sorunlu"?
+
+Dönemin baskın cevabı psikolojikti: gençler uyumsuz, aileler zayıf, disiplin eksik.
+
+Goodman bunu tersine çevirdi.
+
+**Sorun gençlerde değil; gençlere sunulan dünyada.**
+
+Argümanı somuttu. Bir genç insanın büyüyebilmesi için **anlamlı iş** gerekir — sonucunu gördüğü, gurur duyabildiği, topluma bağlandığını hissettiği bir uğraş.
+
+Goodman'a göre savaş sonrası Amerikan ekonomisi bunu üretmiyordu. İşler ya anlamsızdı, ya da işe yaramayan şeyler üretiyordu. Okullar gençleri bu işlere hazırlıyordu.
+
+Bu koşullarda uyum sağlamak sağlıklı değil; **uyum sağlayamamak** anlaşılır bir tepkiydi.
+
+### Neden bugün okunmalı?
+
+Goodman'ın anarşizmi, devlet karşıtı bir doktrin değildi. Daha somut bir şeydi: **Kurumlar insan ölçeğinde olmalı.**
+
+Okullar küçük olmalı. Şehirler yürünebilir olmalı. İş, sonucu görünebilir olmalı. Kararlar, o kararlardan etkilenenlere yakın alınmalı.
+
+Bu, sitemizde bugün ayrıca ele aldığımız [Elizabeth Anderson dosyasındaki](/haber/elizabeth-anderson-ozel-hukumet-iliskisel-esitlik) "özel hükümet" kavramının atalarından biri: Özgürlüğü yalnızca devlet baskısı üzerinden değil, **okul, şehir, işyeri ve gündelik hayatın örgütlenmesi** üzerinden düşünmek.
+
+Goodman'ın kaygıları bugün başka adlarla dolaşıyor: anlamsız iş tartışması, kentsel yaya alanları, eğitimde ölçme takıntısı, gençlerde amaçsızlık.
+
+---
+
+## Bugünün ekseni
+
+Üç isim, üç ayrı alan.
+
+**Alexy:** Bir iktidar, kendini gerekçelendirmek zorundadır.
+**Passmore:** İnsan, doğa üzerindeki gücünü gerekçelendirmek zorundadır.
+**Goodman:** Kurumlar, insanlar üzerindeki düzenlerini gerekçelendirmek zorundadır.
+
+Üçü de aynı şeyi talep ediyor: **Gücün, kendisini açıklama yükümlülüğü.**
+
+Ve bugün doğum gününü kutlayan Benhabib, bu talebi bir adım daha ileri götürüyor: Peki bu açıklama **kime** yapılacak? Yalnızca yurttaşlara mı — yoksa sınırın dışında bırakılanlara da mı?
+
+Dört soru, tek bir yapı.
+
+Ve hiçbirinin cevabı 2026'da kapanmış değil.`,
+  },
   {
     title: "Robert Alexy öldü: hukuka \"doğru olduğunu iddia etme\" yükünü geri veren adam",
     slug: "robert-alexy-hukukun-ikili-dogasi",
@@ -20307,6 +21811,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Hermeneutik Dersleri — 1809/1810 Güz ve 1819 Bahar Yarıyılı",
+    slug: "schleiermacher-hermeneutik-dersleri",
+    originalTitle: "Vorlesungen zur Hermeneutik",
+    publisher: "Alfa Kitap",
+    translator: "Kaan H. Ökten",
+    language: "Türkçe",
+    isbn: "9786253894931",
+    coverImage: null,
+    description:
+      "Modern hermeneutiğin kurucu metinleri ilk kez Almanca aslından Türkçeye çevrildi. Kitap, Kaan H. Ökten'in hazırladığı kapsamlı bir \"Sunuş\" bölümüyle açılıyor: Schleiermacher'in biyografisi, eserleri, hermeneutik kuramın genel hatları ve derslerin özetleri. Ardından 1809/1810 güz ve 1819 bahar yarıyıllarındaki dersler geliyor. 216 sayfa.",
+    year: 2026,
+    link: "https://www.edebiyathaber.net/schleiermacherin-hermeneutik-dersleri-okurla-bulustu/",
+    philosopherSlug: null,
+    postSlug: "schleiermacher-hermeneutik-dersleri-turkce",
+  },
+  {
     title: "From a Realist Point of View",
     slug: "leiter-from-a-realist-point-of-view",
     originalTitle: "From a Realist Point of View",
@@ -20893,6 +22413,39 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "COMET 2026 — Metaphysics in Contemporary Continental Philosophy",
+    slug: "comet-2026-radboud",
+    summary:
+      "Çağdaş kıta felsefesinde metafizik üzerine yıllık uzman toplantısı. Anahtar konuşmacı yok, paralel oturum yok, katılım ücreti yok.",
+    description: `Radboud Üniversitesi bünyesindeki Çağdaş Avrupa Felsefesi Merkezi (CCEP) tarafından düzenleniyor.
+
+Salı öğleden sonra tematik bir oturumla açılıyor: **süreç ve eylem ontolojileri**. Davetli konuşmacılar Prof. Rein Raud (Tallinn Üniversitesi) ve Dr. Mercedes Valmisa Oviedo (Gettysburg Üniversitesi).
+
+Çarşamba ve perşembe, açık çağrıyla seçilen oturumlara ayrılmış.
+
+Toplantının biçimi alışılmışın dışında: anahtar konuşmacı yok, paralel oturum yok, katılım ücreti yok. Her konuşmacıya sunum ve tartışma için tam bir saat ayrılıyor.
+
+Konu başlıkları arasında spekülatif realizm, yeni materyalizm, yeni realizm, süreç ontolojileri, eylem kuramı ve Batı dışı felsefe gelenekleri yer alıyor.`,
+    kind: "KOLOKYUM",
+    organizer: "Center for Contemporary European Philosophy (CCEP), Radboud University",
+    speakers: "Rein Raud (Tallinn Üniversitesi) · Mercedes Valmisa Oviedo (Gettysburg Üniversitesi)",
+    topic: "Kıta felsefesi, metafizik, süreç ontolojisi, eylem kuramı",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-13T12:00:00.000Z",
+    endsAt: "2026-10-15T16:00:00.000Z",
+    timezone: "Europe/Amsterdam",
+    hasTime: false,
+    city: "Nijmegen",
+    country: "Hollanda",
+    venue: "Radboud University",
+    fee: "Ücretsiz",
+    website: "https://www.ru.nl/en/about-us/events/comet-2026",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20UCLA%20Royce%20Hall%202.jpg?width=1600",
+    featured: false,
+    sourceName: "Radboud University",
+    sourceUrl: "https://www.ru.nl/en/about-us/events/comet-2026",
+  },
   {
     title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu — ÂRÂF",
     slug: "mantik-matematik-felsefe-xi-2026",
