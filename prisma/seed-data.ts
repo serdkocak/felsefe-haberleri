@@ -260,6 +260,185 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Immanuel Wallerstein",
+    slug: "immanuel-wallerstein",
+    headline: "Sosyolog ve tarihsel toplumbilimci (1930-2019)",
+    bio: "Dünya-sistemleri çözümlemesinin kurucusu. Modern kapitalizmi tek tek ülkeler üzerinden değil, merkez-yarı çevre-çevre işbölümü üzerinden okumayı önerdi.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1930,
+    affiliation: "Binghamton Üniversitesi · Fernand Braudel Merkezi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Immanuel Maurice Wallerstein",
+    birthDate: "28 Eylül 1930, New York",
+    deathDate: "31 Ağustos 2019",
+    alive: false,
+    period: "Çağdaş",
+    school: "Dünya-sistemleri çözümlemesi · tarihsel toplumbilim",
+    areas: "Tarihsel sosyoloji, siyasal iktisat, sömürgecilik sonrası çalışmalar, bilgi sosyolojisi",
+    majorWorks: "The Modern World-System (dört cilt, 1974-2011)\nHistorical Capitalism\nWorld-Systems Analysis: An Introduction\nUtopistics\nAfter Liberalism",
+    keyConcepts: "Dünya-sistem, merkez, yarı-çevre, çevre, dünya-ekonomisi, antisistemik hareketler, yapısal kriz",
+    influencedBy: "Karl Marx, Fernand Braudel, bağımlılık kuramı, Afrika ulusal kurtuluş hareketleri",
+    influenced: "Küresel tarih, sömürgecilik sonrası çalışmalar, siyasal iktisat",
+    longBio: "New York'ta doğdu, Columbia Üniversitesi'nde okudu. Akademik hayatına Afrika çalışmalarıyla başladı ve elli ile altmışlı yıllarda sömürgecilik sonrası Afrika'daki ulusal kurtuluş hareketlerini inceledi. Bu saha deneyimi, kuramının çıkış noktası oldu: Bağımsızlığını kazanan ülkelerin karşılaştığı sorunlar, o ülkelerin iç özellikleriyle açıklanamıyordu.\n\n1974'te yayımlanan The Modern World-System, modern kapitalizmin doğuşunu on altıncı yüzyıl Avrupa dünya-ekonomisine bağladı. Kuramın merkezinde, ülkelerin değil bir dünya-sisteminin inceleme birimi olduğu tezi bulunur; merkez, yarı-çevre ve çevre kavramları coğrafi bir sınıflandırma değil, bir işbölümü haritasıdır.\n\nSosyal bilimin disiplinlere bölünmesini de eleştirdi: Ekonomi, siyaset, tarih ve sosyolojiyi ayrı alanlar saymanın gerçekliğe değil, on dokuzuncu yüzyıl ideolojisine karşılık geldiğini savundu.\n\nColumbia, McGill ve Binghamton üniversitelerinde görev yaptı; Binghamton'daki Fernand Braudel Merkezi'ni yönetti.",
+    sources: "World-Systems Analysis — Duke University Press — https://www.dukeupress.edu/world-systems-analysis\nTimes Higher Education anma yazısı — https://www.timeshighereducation.com/people/immanuel-wallerstein-1930-2019-obituary",
+  },
+  {
+    name: "Nami Başer",
+    slug: "nami-baser",
+    headline: "Felsefeci, çevirmen ve tiyatro eğitmeni",
+    bio: "Türkiye'de Fransız düşüncesinin — özellikle Lacan, Derrida ve Levinas'ın — alımlanmasında belirleyici rol oynadı. Felsefe, psikanaliz, sinema ve tiyatro arasında çalışıyor.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1950,
+    affiliation: "İstanbul Okan Üniversitesi Konservatuvarı · Galatasaray Üniversitesi (1993-2017)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Nami Başer",
+    birthDate: "1950, Mudanya",
+    alive: true,
+    period: "Çağdaş",
+    school: "Fransız düşüncesi · psikanaliz · fenomenoloji",
+    areas: "Dil felsefesi, psikanaliz, Alman idealizmi, estetik, tiyatro ve sinema kuramı",
+    majorWorks: "Lacan (Say Yayınları)\nEmmanuel Levinas, Ölüm ve Zaman — çeviri (Ayrıntı, 2006)\nÉlisabeth Roudinesco, Lacan Herkese ve Herşeye Karşı — çeviri\nÉlisabeth Roudinesco, İçimizdeki Karanlık Taraf — çeviri",
+    keyConcepts: "Bilinçdışının dilsel yapısı, dissémination, başkalık, felsefe ile sanat arasındaki geçişler",
+    influencedBy: "Jean-Luc Nancy, Jacques Lacan, Jacques Derrida, Emmanuel Levinas, Hegel",
+    influenced: "Türkiye'de psikanaliz ve çağdaş Fransız felsefesi çalışmaları",
+    longBio: "1950'de Mudanya'da doğdu; ilkokulu orada okudu, Galatasaray Lisesi'ni birincilikle bitirdi. 1968-1969'da özel bir bursla Fransa'ya gitti ve Strasbourg Üniversitesi'nde felsefe ile edebiyat okudu. Fransa'daki yıllarında Jean-Luc Nancy'nin öğrencisi oldu; Jacques Derrida ve Roland Barthes ile tanıştı.\n\nDoktorasını Paris-8 Üniversitesi'nde tamamladı; edebiyatta Rimbaud, felsefede Hegel-Marx ilişkisi üzerine çalıştı.\n\n1993'ten 2017'deki emekliliğine kadar Galatasaray Üniversitesi Felsefe Bölümü'nde görev yaptı. Emekliliğinden sonra İstanbul Okan Üniversitesi Konservatuvarı Tiyatro Bölümü'nde Metinlerle Dünya Tiyatrosu Tarihi dersleri vermeye başladı.\n\nAntonio Negri, Jean-Luc Nancy, Alain Badiou, Jacques Rancière ile psikanalistler Élisabeth Roudinesco, Christian Hoffmann, Gérard Meignand ve René Major Türkiye'ye geldiğinde simultane çevirilerini yaptı. Maupassant, Rimbaud, André Gide ve Mallarmé çevirileri de bulunuyor.",
+    sources: "Okan Üniversitesi özgeçmiş — https://www.okan.edu.tr/uploads/staff_person/nami-baser/nami-baser-cv-tr.pdf\nVikipedi — https://tr.wikipedia.org/wiki/Nami_Ba%C5%9Fer",
+  },
+  {
+    name: "Gottfried Wilhelm Leibniz",
+    slug: "gottfried-wilhelm-leibniz",
+    headline: "Filozof, matematikçi ve mantıkçı (1646-1716)",
+    bio: "Diferansiyel ve integral hesabı Newton'dan bağımsız geliştirdi. Asıl felsefi projesi, düşüncenin sembolik bir hesaplama sistemine çevrilebileceği fikriydi — modern mantığın ve bilgisayarın uzak atası.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Christoph%20Bernhard%20Francke%20-%20Bildnis%20des%20Philosophen%20Leibniz%20(ca.%201695).jpg?width=600",
+    country: "Almanya",
+    birthYear: 1646,
+    affiliation: "Hannover Sarayı · Berlin Bilimler Akademisi (kurucu başkan)",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Gottfried Wilhelm Leibniz",
+    birthDate: "1 Temmuz 1646, Leipzig",
+    deathDate: "14 Kasım 1716",
+    alive: false,
+    period: "Erken modern · Aydınlanma öncesi",
+    school: "Rasyonalizm",
+    areas: "Metafizik, mantık, matematik, din felsefesi, hukuk, epistemoloji",
+    majorWorks: "De Arte Combinatoria (1666)\nMetafizik Üzerine Konuşma (1686)\nİnsan Anlığı Üzerine Yeni Denemeler (1704)\nTheodicée (1710)\nMonadoloji (1714)",
+    keyConcepts: "Evrensel karakteristik, calculus ratiocinator, monad, önceden kurulmuş uyum, yeter neden ilkesi, mümkün dünyalar, ayırt edilemezlerin özdeşliği",
+    influencedBy: "Aristoteles, Skolastik gelenek, Descartes, Spinoza, Hobbes",
+    influenced: "Kant, Frege, Russell, modal mantık, bilgisayar bilimi, analitik metafizik",
+    longBio: "Leipzig'de doğdu, Hannover'de öldü. Felsefe, matematik, mantık, hukuk, tarih, fizik ve din felsefesiyle uğraştı; diferansiyel ve integral hesabın gelişiminde Newton'dan bağımsız olarak belirleyici rol oynadı — bugün kullanılan gösterim büyük ölçüde onunkidir. İkili sayı sistemi üzerine çalıştı, mekanik hesap makinesi tasarladı, Berlin Bilimler Akademisi'nin kurucu başkanı oldu.\n\nGençlik eseri De Arte Combinatoria, düşüncenin temel kavramların bileşimlerinden oluştuğu ve bu kavramlara semboller atanarak hesaplanabilir kılınabileceği fikrini içeriyordu. Bu programı iki araçla tasarladı: evrensel karakteristik (kavramların dili) ve calculus ratiocinator (akıl yürütme hesabı). Hedefi, anlaşmazlıkların tartışılarak değil hesaplanarak çözülmesiydi.\n\nMonad kuramı, uzamın sonsuza kadar bölünebilir olması nedeniyle maddenin gerçek bir birlik taşıyamayacağı gözleminden doğar: Gerçekliğin temelinde uzamı olmayan, bölünemez ve etkin basit tözler bulunmalıdır. Her monad evrenin tamamını kendi perspektifinden temsil eder.\n\nYeter neden ilkesi — hiçbir şeyin, neden başka türlü değil de böyle olduğunun bir nedeni olmaksızın var olmadığı — hem bilimin hem metafiziğin temel ilkelerinden biri olmayı sürdürüyor.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/leibniz/",
+  },
+  {
+    name: "Elena Esposito",
+    slug: "elena-esposito",
+    headline: "Sosyolog ve dijital teknoloji kuramcısı — Bielefeld ve Bologna",
+    bio: "Yapay iletişim kavramının kurucusu. Algoritmaların anlama olmaksızın toplumsal alışverişe katılabildiğini savunarak yapay zekâ tartışmasını yeniden çerçeveledi. 2026 Balzan Ödülü sahibi.",
+    avatar: null,
+    country: "İtalya · Almanya",
+    birthYear: null,
+    affiliation: "Bielefeld Üniversitesi · Bologna Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Elena Esposito",
+    alive: true,
+    period: "Çağdaş",
+    school: "Sistem kuramı (Luhmann geleneği)",
+    areas: "Dijital teknoloji sosyolojisi, algoritmik tahmin, iletişim kuramı, gelecek ve belirsizlik",
+    majorWorks: "Artificial Communication: How Algorithms Produce Social Intelligence (MIT Press)\nThe Future of Futures: The Time of Money in Financing and Society",
+    keyConcepts: "Yapay iletişim, algoritmik tahmin, belirsizliğin toplumsal yönetimi, gelecek zamanın kurulması",
+    influencedBy: "Niklas Luhmann",
+    influenced: "Yapay zekâ sosyolojisi, algoritma çalışmaları",
+    longBio: "Bielefeld Üniversitesi ve Bologna Üniversitesi'nde profesör. Dijital teknolojilerin ve algoritmik tahminin, toplumların belirsizlikle ve gelecekle başa çıkma biçimini nasıl değiştirdiğini inceliyor.\n\n2019'da aldığı ERC İleri Araştırma Bursu ile algoritmik tahminin toplumsal sonuçlarını kişiselleştirilmiş sigortacılık, hassas tıp ve öngörücü polislik alanlarında araştırdı.\n\nKuramsal kökeni Niklas Luhmann'ın sistem kuramında. Luhmann'da iletişim, iki zihin arasında anlam aktarımı değil, kendi başına işleyen toplumsal bir süreçtir. Esposito bu çerçeveyi yapay zekâya uygulayarak yapay iletişim kavramını geliştirdi: Bir sistem anlamıyor olsa bile, ürettiği metne insanlar cevap veriyor ve döngü toplumsal sonuçlar doğuruyorsa, iletişim gerçekleşmiştir.\n\n2026 Balzan Ödülü'nü dijital teknolojinin toplumsal bilimi dalında kazandı.",
+    sources: "European Research Council — https://erc.europa.eu/news-events/news/erc-grantee-wins-2026-balzan-prize\nBalzan Vakfı — https://www.balzan.org/en/updates/the-2026-balzan-prizewinners-press-release",
+  },
+  {
+    name: "Georges Bataille",
+    slug: "georges-bataille",
+    headline: "Yazar ve düşünür (1897-1962)",
+    bio: "Erotizm, ölüm, kurban, kutsallık ve aşırılığı felsefi problem olarak ele aldı. Foucault, Derrida ve Baudrillard'ın aklın sınırları tartışmasındaki öncülü.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Bataille%20vers%201943.jpg?width=600",
+    country: "Fransa",
+    birthYear: 1897,
+    affiliation: "Bibliothèque nationale de France",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Georges Albert Maurice Victor Bataille",
+    birthDate: "10 Eylül 1897, Billom",
+    deathDate: "9 Temmuz 1962",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Fransız düşüncesi · heterodoks",
+    areas: "Din felsefesi, estetik, antropoloji, iktisat felsefesi, edebiyat",
+    majorWorks: "İç Deney (1943)\nLanetli Pay (1949)\nErotizm (1957)\nEdebiyat ve Kötülük (1957)\nNietzsche Üzerine",
+    keyConcepts: "Genel ekonomi, lanetli pay, harcama, egemenlik, aşırılık, iç deney, kutsal olan",
+    influencedBy: "Nietzsche, Hegel (Kojève okuması), Marcel Mauss, Freud",
+    influenced: "Michel Foucault, Jacques Derrida, Jean Baudrillard, Julia Kristeva",
+    longBio: "Billom'da doğdu. Meslek olarak kütüphaneciydi; Paris Ulusal Kütüphanesi'nde madalya bölümünde çalıştı.\n\nFelsefenin uzun süre kapıda bıraktığı konuları — erotizm, ölüm, kurban, kutsallık, aşırılık, israf — edebiyat malzemesi olarak değil felsefi problem olarak ele aldı. Merkezî sorusu, akıl her şeyi hesaplamaya ve yararlı kılmaya çalışırken hesaba sığmayanın ne olduğuydu.\n\nEn özgün kuramsal katkısı genel ekonomi kavramıdır: Klasik iktisat kıtlıkla başlarken, Bataille asıl sorunun fazlalık olduğunu savundu. Bir sistem kullanamayacağı bir artık ürettiğinde, o artık harcanmak zorundadır — şölenler, anıtlar, sanat, lüks ya da savaş biçiminde. Fazlalığı anlamlı biçimlerde harcamayan bir toplumun onu yıkıcı biçimlerde harcayacağı tezi, iki dünya savaşının ardından, 1949'da yazıldı.\n\nYaşarken marjinal kaldı; sonraki kuşak üzerindeki etkisi belirleyici oldu.",
+    sources: "Wikipedia — https://en.wikipedia.org/wiki/Georges_Bataille",
+  },
+  {
+    name: "Mary Wollstonecraft",
+    slug: "mary-wollstonecraft",
+    headline: "Filozof ve yazar (1759-1797)",
+    bio: "Modern feminist düşüncenin kurucu metinlerinden A Vindication of the Rights of Woman'ın yazarı. Aydınlanma'ya dışarıdan değil içeriden itiraz etti.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1759,
+    affiliation: null,
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Mary Wollstonecraft",
+    birthDate: "27 Nisan 1759, Londra",
+    deathDate: "10 Eylül 1797",
+    alive: false,
+    period: "Aydınlanma",
+    school: "Aydınlanma · erken feminist düşünce · cumhuriyetçilik",
+    areas: "Siyaset felsefesi, eğitim felsefesi, ahlak felsefesi, toplumsal cinsiyet",
+    majorWorks: "Kız Çocuklarının Eğitimi Üzerine Düşünceler (1787)\nİnsan Haklarının Gerekçelendirilmesi (1790)\nKadın Haklarının Gerekçelendirilmesi (1792)\nİsveç, Norveç ve Danimarka'da Kısa Bir İkametten Mektuplar (1796)",
+    keyConcepts: "Akıl sahibi olarak kadın, eğitim yoluyla bağımlılık üretimi, eşit yurttaşlık, erdem ve özerklik",
+    influencedBy: "John Locke, Richard Price, Aydınlanma cumhuriyetçiliği",
+    influenced: "Feminist siyaset felsefesi, John Stuart Mill, çağdaş eşitlik kuramları",
+    longBio: "1792 tarihli A Vindication of the Rights of Woman, modern feminist düşüncenin kurucu metinlerinden sayılır. Kitabın argümanı, kadınların erkeklerden farksız olduğu iddiası değildir: Kadınların gözlenen zayıflıklarının doğalarının değil eğitimlerinin sonucu olduğu tezidir. Bir insanı ciddi eğitimden mahrum bırakıp yalnızca hoşa gitmeyi öğretmek, sonra da hafifliğinden şikâyet etmek, üretilen şeyi doğa sanmaktır.\n\nMetnin gücü Aydınlanma'ya dışarıdan değil içeriden saldırmasındadır: Aklın evrenselliği fikrini reddetmez, sonuna kadar götürür. Rousseau'nun Émile'ine yönelttiği eleştiri de buradan gelir — erkek çocuğun özerklik, kız çocuğun hoşa gitmek için yetiştirilmesi bir eğitim programı değil, bir bağımlılık üretimidir.\n\n10 Eylül 1797'de, ikinci kızını doğurduktan on bir gün sonra septisemiden öldü; doğan bebek daha sonra Frankenstein'ı yazacak olan Mary Shelley'ydi. Ölümünden sonra kocası William Godwin'in yayımladığı anı kitabı özel hayatını açıkça anlattı ve adı bir yüzyıl boyunca skandalla anıldı; fikirleri yirminci yüzyılda yeniden keşfedildi.",
+    sources: "Wikipedia — https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+  },
+  {
+    name: "Paul Virilio",
+    slug: "paul-virilio",
+    headline: "Kent kuramcısı ve teknoloji filozofu (1932-2018)",
+    bio: "Hız bilimini (dromoloji) kurdu. Her yeni teknolojinin yeni bir kaza türü icat ettiği tezi, dijital çağın en çok alıntılanan sezgilerinden biri.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1932,
+    affiliation: "École Spéciale d'Architecture, Paris",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Paul Virilio",
+    birthDate: "4 Ocak 1932, Paris",
+    deathDate: "10 Eylül 2018",
+    alive: false,
+    period: "Çağdaş",
+    school: "Teknoloji felsefesi · kent kuramı",
+    areas: "Teknoloji felsefesi, kent kuramı, savaş ve medya, mimarlık",
+    majorWorks: "Bunker Archéologie (1975)\nHız ve Politika (1977)\nSavaş ve Sinema (1984)\nKaza Sanatı\nEnformasyon Bombası (1998)",
+    keyConcepts: "Dromoloji, bütünsel kaza, hızın siyaseti, kaybolma estetiği, gerçek zaman",
+    influencedBy: "Maurice Merleau-Ponty, Fenomenoloji, İkinci Dünya Savaşı deneyimi",
+    influenced: "Medya kuramı, siber güvenlik tartışmaları, teknoloji eleştirisi",
+    longBio: "Paris'te doğdu; mimar, kent kuramcısı ve kültür teorisyeni olarak çalıştı. İkinci Dünya Savaşı'ndan kalan Atlantik kıyısındaki beton sığınakları inceleyerek başladı; bu çalışma Bunker Archéologie olarak yayımlandı.\n\nKendi alanına isim verdi: dromoloji, yani hız bilimi. Tezi, modern tarihi anlamak için üretim ilişkilerine ya da fikirlere değil hıza bakmak gerektiğiydi. Siyasal iktidar, ona göre giderek hızın denetimi haline geldi; hız arttıkça karar için ayrılan süre kısaldı. En somut örneği nükleer caydırıcılıktır: Füze uçuş süresi dakikalarla ölçüldüğünde karar vermek insani bir edim olmaktan çıkıp bir refleks prosedürüne dönüşür.\n\nEn kalıcı sezgisi ise şudur: Her yeni teknoloji, yeni bir kaza türünü icat eder. Gemiyi icat etmek deniz kazasını, uçağı icat etmek uçak kazasını icat etmektir. Kaza, teknolojinin arızası değil, içinde gizli olan diğer yüzüdür. Teknoloji küreselleştikçe kazanın ölçeği de küreselleşir — Virilio buna bütünsel kaza diyordu.\n\n10 Eylül 2018'de Paris'te, seksen altı yaşında öldü.",
+    sources: "Wikipedia — https://en.wikipedia.org/wiki/Paul_Virilio",
+  },
+  {
     name: "Seyla Benhabib",
     slug: "seyla-benhabib",
     headline: "Siyaset felsefecisi — Yale Üniversitesi",
@@ -1617,6 +1796,1396 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Balzan Ödülü, algoritmaların anlamadan konuşabildiğini gösteren kuramcıya",
+    slug: "elena-esposito-balzan-odulu-yapay-iletisim",
+    summary:
+      "2026 Balzan Ödülü'nün dijital teknoloji dalı Elena Esposito'ya verildi. Jürinin gerekçesi, yapay zekâ tartışmasının kilit cümlesini içeriyor: Algoritmalar, anlama olmaksızın toplumsal alışverişe katılabiliyor. Bu, Çin Odası'na verilmiş yeni bir cevap.",
+    seoTitle: "Elena Esposito 2026 Balzan Ödülü'nü kazandı — yapay iletişim kuramı",
+    metaDescription:
+      "Elena Esposito, yapay iletişim kavramıyla 2026 Balzan Ödülü'nü aldı. 750.000 İsviçre frangı; tören 19 Kasım'da Roma'da.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Quirinale%20palazzo%20e%20obelisco%20con%20dioscuri%20Roma.jpg?width=1600",
+    imageCredit: "Quirinale Sarayı, Roma · Wikimedia Commons",
+    featured: true,
+    sourceName: "European Research Council",
+    sourceUrl: "https://erc.europa.eu/news-events/news/erc-grantee-wins-2026-balzan-prize",
+    publishedAt: "2026-09-10T02:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "yapay-zeka", "teknoloji-felsefesi", "kavram", "medya"],
+    philosopherSlugs: ["elena-esposito"],
+    sources: [
+      {
+        title: "ERC grantee wins 2026 Balzan Prize",
+        publisher: "European Research Council",
+        date: "7 Eylül 2026",
+        url: "https://erc.europa.eu/news-events/news/erc-grantee-wins-2026-balzan-prize",
+        primary: true,
+      },
+      {
+        title: "The 2026 Balzan Prizewinners — Press Release",
+        publisher: "Fondazione Internazionale Premio Balzan",
+        url: "https://www.balzan.org/en/updates/the-2026-balzan-prizewinners-press-release",
+      },
+    ],
+    content: `Ödül gerekçeleri genellikle diplomatik metinlerdir. Bu yılki Balzan gerekçelerinden biri değil.
+
+**Elena Esposito**, 2026 Balzan Ödülü'nü **dijital teknolojinin toplumsal bilimi** dalında kazandı. Jürinin ifadesi şöyle:
+
+> "Dijital teknolojinin toplumsal bilimine yaptığı çığır açıcı kuramsal katkı için; özellikle de **yapay iletişim** kavramı için — bu kavram, algoritmaların **anlama olmaksızın** toplumsal alışverişe katılabildiğini göstererek yapay zekâ sorusunu yeniden çerçeveliyor."
+
+Bu cümleyi yavaş okumaya değer. Çünkü içinde, otuz yıllık bir felsefi tıkanmanın etrafından dolaşma önerisi var.
+
+## Ödül
+
+Balzan Ödülleri her yıl dördü verilir: ikisi doğa bilimlerinde, ikisi beşerî ve toplumsal bilimlerde. Kazananlar Milano'da, Balzan Vakfı Başkanı Maria Cristina Messa ve Genel Ödül Komitesi Başkanı Marta Cartabia tarafından açıklandı.
+
+Her ödülün değeri **750.000 İsviçre frangı** — yaklaşık 800.000 avro. Ve ödülün ayırt edici bir kuralı var: **Tutarın yarısı, genç araştırmacıların yürüteceği araştırma projelerine ayrılmak zorunda.**
+
+Bu kural, ödülü bir onurlandırmadan çıkarıp bir araştırma yatırımına dönüştürüyor.
+
+Bu yıl ayrıca **İnsanlık, Barış ve Halklar Arasında Kardeşlik** özel ödülü verildi; Sudan'daki **Emergency Response Rooms** ağına gitti.
+
+Töreni **19 Kasım 2026**'da Roma'da, İtalya Cumhurbaşkanı'nın huzurunda yapılacak.
+
+## Kim?
+
+Elena Esposito, **Bielefeld Üniversitesi** ve **Bologna Üniversitesi**'nde profesör.
+
+Çalışma alanı, dijital teknolojilerin ve algoritmik tahminin toplumların **belirsizlikle ve gelecekle** başa çıkma biçimini nasıl değiştirdiği.
+
+2019'da aldığı **ERC İleri Araştırma Bursu** ile algoritmik tahminin toplumsal sonuçlarını üç somut alanda inceledi: kişiselleştirilmiş sigortacılık, hassas tıp ve öngörücü polislik.
+
+Kuramsal kökeni Alman sosyolog **Niklas Luhmann**'ın sistem kuramında. Ve bu köken, önereceği çözümün biçimini belirliyor.
+
+## Tıkanma neredeydi?
+
+Yapay zekâ felsefesinin son kırk yılı, büyük ölçüde tek bir soruya kilitlendi:
+
+**Makine gerçekten anlıyor mu?**
+
+Sitemizde bu hafta ele aldığımız [John Searle dosyasında](/haber/john-searle-cin-odasi-anlam-kurum) anlattığımız Çin Odası argümanı bu sorunun en ünlü biçimidir: Sembolleri kurala göre işlemek, onların anlamını kavramak değildir.
+
+Searle'e verilen cevaplar ve karşı cevaplar kütüphaneler doldurdu. Ama tartışma bir yerde durdu, çünkü her iki taraf da aynı zemini paylaşıyordu:
+
+**İletişimin gerçekleşmesi için, iki tarafın da anlaması gerekir.**
+
+Searle "makine anlamıyor, o halde iletişim yok" diyordu. Karşı taraf "makine bir anlamda anlıyor, o halde iletişim var" diyordu.
+
+Esposito'nun hamlesi, bu ortak varsayımı reddetmek.
+
+## Yapay iletişim
+
+Luhmann'ın kuramında iletişim, iki zihin arasında anlam aktarımı **değildir**.
+
+İletişim, kendi başına işleyen toplumsal bir süreçtir: Bir bilgi seçilir, bir bildirim biçimi seçilir, ve karşı taraf bu ikisi arasında bir ayrım yapar. Bu üçlü işlem gerçekleştiğinde iletişim olmuştur.
+
+Dikkat edilecek nokta şu: Bu tanımın hiçbir yerinde "anlamak" geçmiyor.
+
+Esposito bu çerçeveyi yapay zekâya uyguluyor.
+
+Bir dil modeli anlamıyor olabilir — bu tartışmayı kabul edelim. Ama üretilen metne bir insan cevap veriyorsa, o cevaba göre yeni bir metin üretiliyorsa ve bu döngü toplumsal sonuçlar doğuruyorsa, **iletişim gerçekleşmiştir**.
+
+Çünkü iletişimin gerçekleşmesi için gereken şey, katılımcıların içsel durumları değil; sürecin **devam etmesidir**.
+
+Esposito buna **yapay iletişim** diyor. Vurgu "yapay zekâ" değil, "yapay **iletişim**" — çünkü ona göre üretilen şey zekâ değil, iletişim ortağıdır.
+
+## Bu neden önemli?
+
+Kavramın gücü, tartışmayı çözülemez bir yerden çözülebilir bir yere taşıması.
+
+"Makine anlıyor mu?" sorusuna cevap veremiyoruz, çünkü anlamanın ne olduğu konusunda anlaşamıyoruz ve başkasının zihnine erişimimiz yok.
+
+"Bu sistem toplumsal iletişime katılıyor mu ve hangi sonuçları doğuruyor?" sorusu ise **ampirik olarak incelenebilir**.
+
+Bir kredi algoritması bir başvuruyu reddettiğinde, o reddin anlaşılıp anlaşılmadığı değil, hangi toplumsal etkiyi ürettiği ölçülebilir.
+
+Bu, felsefi soruyu ortadan kaldırmıyor. Ama onu beklerken elimizin bağlı kalmasını engelliyor.
+
+## İtiraz
+
+Kuramın ciddi bir eleştirisi de kaydedilmeli.
+
+Anlama sorusunu bir kenara koymak, onu **gereksiz** kılmıyor.
+
+Sitemizde bu hafta ele aldığımız [Eric Schwitzgebel dosyasında](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tartıştığımız gibi, bir sistemin iç durumları — bilinçli mi, acı çekiyor mu — ahlaki olarak belirleyicidir. Bir varlığa nasıl davranmamız gerektiği, onunla kurduğumuz iletişimin işleyip işlememesinden değil, onun ne olduğundan çıkar.
+
+Esposito'nun kuramı bu soruyu cevaplamıyor; kapsamı dışında bırakıyor. Bu bir kusur değil, bir sınır. Ama sınırın bilinmesi gerekiyor.
+
+Bir ikinci itiraz da şu: "Anlama olmadan iletişim" formülü, gündelik dilde iletişim sözcüğünün taşıdığı normatif yükü boşaltabilir. İki insan konuştuğunda beklenen şey yalnızca sürecin devam etmesi değil, karşılıklı olarak **muhatap alınmaktır**.
+
+Sitemizde bu hafta ele aldığımız [Hegel'in tanınma kavramı](/haber/hegel-taninma-ozgurluk-zaman) tam da bu farkın adı.
+
+## Leibniz'in değirmeni
+
+Bugün ayrıca ele aldığımız [Leibniz dosyasında](/haber/leibniz-hesaplanabilir-dusunce-monad) anlattığımız düşünce deneyi burada üçüncü kez karşımıza çıkıyor.
+
+Leibniz, düşünen bir makinenin içine girip dolaşabilseydik yalnızca birbirini iten parçalar göreceğimizi, algıyı açıklayacak hiçbir şey bulamayacağımızı söylemişti.
+
+Searle aynı şeyi odanın içinden söyledi.
+
+Esposito ise şunu ekliyor: **Belki de yanlış yere bakıyoruz.**
+
+Değirmenin içinde ne olduğu değil; değirmenin dışında, onunla konuşan insanların hayatında ne olduğu.
+
+## Türkiye açısından
+
+Esposito'nun çalıştığı üç alan — sigortacılıkta kişiselleştirilmiş fiyatlama, tıpta öngörü, polislikte risk skorlaması — Türkiye'de de hızla yaygınlaşıyor ve kamusal tartışması neredeyse hiç yok.
+
+Bu üç alanın ortak özelliği şu: Hiçbirinde algoritmanın "anlaması" gerekmiyor. Yeterince iyi tahmin etmesi yetiyor.
+
+Ve tam da bu yüzden, Esposito'nun sorusu Türkiye için de doğru soru:
+
+**Anlamayan bir sistemin verdiği kararla yaşamak zorunda kalan insanın hakları nelerdir?**
+
+---
+
+*Balzan Uluslararası Ödül Vakfı 1957'de kuruldu. Önceki ödül sahipleri arasında ahlak felsefesi dalında Martha Nussbaum (2022) ve İslam çalışmaları dalında Michael Cook (2019) bulunuyor. Elena Esposito'nun Türkçeye kazandırılmış eseri henüz yok; Artificial Communication: How Algorithms Produce Social Intelligence (MIT Press) temel metni sayılıyor.*`,
+  },
+  {
+    title: "Bilinçli olmak, bilinçli olduğunu bilmek midir? Cambridge'den bugün çıkan derleme",
+    slug: "bilinc-ve-ic-farkindalik-cambridge-derleme",
+    summary:
+      "Bugün yayımlanan bir derleme, zihin felsefesinin en eski ama en az sorgulanan varsayımını masaya yatırıyor: Her bilinçli hâl, öznesinin farkında olduğu bir hâl midir? Erken fenomenologlar ve erken analitik filozoflar bunu neredeyse tartışmasız kabul ediyordu. Bugün etmiyorlar.",
+    seoTitle: "Consciousness and Inner Awareness — Bordini, Dewalque, Giustina (Cambridge, 2026)",
+    metaDescription:
+      "Cambridge University Press'ten çıkan Consciousness and Inner Awareness derlemesi, Farkındalık İlkesi tartışmasını ele alıyor.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Versailles%20Galerie%20des%20Glaces.jpg?width=1600",
+    imageCredit: "Aynalar Galerisi, Versailles Sarayı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Cambridge University Press",
+    sourceUrl: "https://www.cambridge.org/core/books/consciousness-and-inner-awareness/B7F50CD74AD04444472264A70C2E3495",
+    publishedAt: "2026-09-10T01:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "bilinc", "zihin-felsefesi", "fenomenoloji", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Consciousness and Inner Awareness",
+        publisher: "Cambridge University Press",
+        date: "10 Eylül 2026",
+        url: "https://www.cambridge.org/core/books/consciousness-and-inner-awareness/B7F50CD74AD04444472264A70C2E3495",
+        primary: true,
+      },
+    ],
+    content: `**Davide Bordini, Arnaud Dewalque & Anna Giustina (ed.)**, *Consciousness and Inner Awareness*
+Cambridge University Press · **bugün, 10 Eylül 2026** · ISBN 9781009383769
+
+Zihin felsefesinde bazı varsayımlar o kadar temeldir ki, sorgulanmaları için önce **fark edilmeleri** gerekir.
+
+Bugün Cambridge'den çıkan bu derleme, böyle bir varsayımı ele alıyor.
+
+## Farkındalık İlkesi
+
+İlke şöyle biçimselleştiriliyor:
+
+**Herhangi bir S öznesi ve S'nin herhangi bir bilinçli M zihinsel hâli için: S, M'nin farkındadır.**
+
+Yani bilinçli bir hâlde bulunmak, o hâlin farkında olmayı **içerir**.
+
+Sezgisel olarak makul görünüyor. Bir ağrı çekiyorsanız, ağrı çektiğinizi bilirsiniz. Kırmızıyı görüyorsanız, gördüğünüzün farkındasınızdır. "Bilinçli ama sahibinin hiç farkında olmadığı bir hâl" ifadesi, kulağa çelişkili geliyor.
+
+Bu içsel farkındalığa literatürde **iç farkındalık** (*inner awareness*) deniyor.
+
+Kitabın sorduğu soru üçlü: **İlke doğru mu? İç farkındalık tam olarak nedir? Ve bilinçli zihni anlamamız açısından ne fark ediyor?**
+
+## Neden şimdi tartışılıyor?
+
+Tarihsel olarak ilginç bir durum var.
+
+Farkındalık İlkesi — ya da ona yakın bir fikir — hem **erken fenomenologlar** hem de **erken analitik filozoflar** tarafından büyük ölçüde kabul ediliyordu.
+
+Brentano, bilinçli her edimin ikincil bir biçimde kendisini de nesne aldığını savunuyordu. Husserl'in iç zaman bilinci çözümlemeleri aynı damardan geliyor. Analitik tarafta ise Russell'ın tanışıklık kuramı benzer bir varsayım taşıyordu.
+
+Yirminci yüzyılın ikinci yarısında bu ortaklık dağıldı.
+
+Çünkü zihin felsefesi giderek işlevselci ve doğalcı bir çerçeveye yerleşti; ve bu çerçevede "her bilinçli hâl kendisinin farkındadır" iddiası hem gereksiz hem de açıklanması zor bir yük gibi görünmeye başladı.
+
+Bugün ilke **tartışmalı**. Ve tartışma iki büyük kampa ayrılmış durumda.
+
+## İki kamp
+
+**Üst düzey kuramlar** (*higher-order theories*), bir zihinsel hâli bilinçli kılan şeyin, o hâli konu alan **başka** bir zihinsel hâl olduğunu savunur. Bir algı, ancak onu temsil eden bir üst düzey düşünce varsa bilinçli olur.
+
+Bu görüşün avantajı, bilinci doğalcı bir çerçeveye oturtabilmesi. Dezavantajı ise sonsuz gerileme riski ve "boş üst düzey temsil" problemi: Ya üst düzey düşünce yanlışsa? Var olmayan bir alt düzey hâli temsil ediyorsa, kişi ne yaşar?
+
+**Aynı düzey kuramlar** (*same-order theories*), iç farkındalığın ayrı bir hâl gerektirmediğini, bilinçli hâlin **kendi yapısının** bir parçası olduğunu savunur. Bir ağrı, kendisini de kapsayan bir yapıya sahiptir.
+
+Bu görüş gerilemeden kaçınır ama açıklama yükünü artırır: Bir şeyin kendisini kapsaması tam olarak ne demek?
+
+Derlemede, bu tartışmanın önde gelen isimlerinden **Uriah Kriegel** ve **Daniel Stoljar** da yazılarıyla yer alıyor.
+
+## Neden önemli?
+
+Bu, ilk bakışta uzmanlara özgü teknik bir kavga gibi görünebilir. Değil — ve nedeni bugünün gündemiyle doğrudan ilgili.
+
+**Birincisi, ölçüt sorunu.** Sitemizde bu hafta ele aldığımız [yapay zekâ ve bilinç tartışmasında](/haber/yapay-zeka-bilinc-schwitzgebel-sis) sorulan soru şuydu: Bir sistemin bilinçli olup olmadığını nasıl belirleriz?
+
+Farkındalık İlkesi doğruysa, ölçüt kısmen netleşir: Bilinçli bir sistemin, kendi hâllerini temsil eden bir yapıya sahip olması gerekir. Ve bu, ampirik olarak aranabilecek bir özelliktir.
+
+İlke yanlışsa, kendi hâllerini temsil etmeyen ama yine de bilinçli olan sistemler mümkündür — ve arama çok daha zorlaşır.
+
+**İkincisi, hayvan zihinleri.** Basit sinir sistemlerine sahip canlıların kendi hâlleri hakkında temsil taşıdığını varsaymak zor. Farkındalık İlkesi doğruysa, bu canlıların bilinçli olmadığı sonucu çıkabilir — ki bu, davranışsal kanıtlarla çelişiyor.
+
+**Üçüncüsü, fenomenoloji ile analitik felsefe arasındaki köprü.** Derlemenin editör kadrosu bu köprüyü temsil ediyor: Arnaud Dewalque, Brentano ve Avusturya felsefesi geleneğinden geliyor; tartışmaya katılan diğer isimler analitik zihin felsefesinden.
+
+İki geleneğin aynı kitapta, aynı teknik problem üzerinde buluşması, son yirmi yılın en verimli gelişmelerinden biri.
+
+## Aynanın metaforu
+
+Bu tartışma için en yaygın kullanılan benzetme ayna: Bilinç, kendisine bakan bir zihin.
+
+Ama benzetme yanıltıcı ve derlemedeki tartışmaların bir kısmı tam olarak bunu gösteriyor.
+
+Aynada kendinize baktığınızda **iki** şey vardır: siz ve görüntünüz. Üst düzey kuramlar bu yapıyı benimser.
+
+Oysa aynı düzey kuramlar, iç farkındalığın böyle bir ikilik gerektirmediğini savunur. Bir ışık kaynağının hem çevresini hem kendisini aydınlatması gibi — ayrı bir ışık gerekmez.
+
+Hangi benzetmenin doğru olduğu, benzetme meselesi değil. Yapı meselesi.
+
+## Kimler için?
+
+Zihin felsefesi ve fenomenoloji alanında çalışanlar için. Giriş kitabı değil; tartışmanın terimlerine aşinalık gerektiriyor.
+
+Ama Türkiye'de bilinç felsefesi çalışan lisansüstü öğrenciler için önemli bir kaynak: Alanın iki büyük geleneğinin aynı problem üzerinde buluştuğu güncel bir kesit sunuyor.
+
+Ve daha geniş bir okur için kitabın sorduğu soru, göründüğünden yakın:
+
+**Kendinizin farkında olmadığınız bir an yaşadınız mı — ve nasıl bilebilirsiniz?**`,
+  },
+  {
+    title: "Felsefe tarihinde bugün: 10 Eylül — sınırda duran üç düşünür",
+    slug: "felsefe-tarihinde-bugun-10-eylul-bataille-wollstonecraft-virilio",
+    summary:
+      "Bugün doğan Georges Bataille aklın sınırını sordu. Bugün ölen Mary Wollstonecraft yurttaşlığın sınırını. Ve yine bugün ölen Paul Virilio teknolojinin sınırını — bıraktığı sezgi bugünkü yapay zekâ tartışmasını neredeyse birebir tarif ediyor.",
+    seoTitle: "Felsefe tarihinde bugün: 10 Eylül — Bataille, Wollstonecraft, Virilio",
+    metaDescription:
+      "10 Eylül: Georges Bataille'ın doğumu, Mary Wollstonecraft ve Paul Virilio'nun ölümü. Aklın, yurttaşlığın ve teknolojinin sınırları üzerine.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Bataille%20vers%201943.jpg?width=1600",
+    imageCredit: "Georges Bataille, y. 1943 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Georges_Bataille",
+    publishedAt: "2026-09-10T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "toplumsal-cinsiyet", "teknoloji-felsefesi", "estetik", "aydinlanma"],
+    philosopherSlugs: ["georges-bataille", "mary-wollstonecraft", "paul-virilio"],
+    sources: [
+      {
+        title: "Georges Bataille",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Georges_Bataille",
+        primary: true,
+      },
+      {
+        title: "Mary Wollstonecraft",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+      },
+      {
+        title: "Paul Virilio",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Paul_Virilio",
+      },
+    ],
+    content: `Takvimler bazen fazla anlamlı kümeler kurar.
+
+10 Eylül'ün üç ismi birbirini okumadı, aynı dilde yazmadı, aynı sorunlarla uğraşmadı.
+
+Ama üçü de aynı yerde durdu: **bir sınırın kenarında.**
+
+---
+
+## Georges Bataille doğdu — 10 Eylül 1897
+
+Billom'da, Puy-de-Dôme'da doğdu. Meslek olarak **kütüphaneciydi** — Paris Ulusal Kütüphanesi'nde madalya bölümünde çalıştı.
+
+Bu ayrıntıyı akılda tutmak gerekiyor, çünkü Bataille'ın yazdıklarıyla arasındaki mesafeyi gösteriyor: Gündüzleri kataloglayan, geceleri aşırılık üzerine yazan bir adam.
+
+### Neyle uğraştı?
+
+Bataille'ın konuları, felsefenin uzun süre kapıda bıraktığı şeylerdi: **erotizm, ölüm, kurban, kutsallık, aşırılık, egemenlik, israf.**
+
+Bunları edebiyat malzemesi olarak değil, **felsefi problem** olarak ele aldı.
+
+Merkezî sorusu şuydu: Akıl her şeyi hesaplamaya, düzenlemeye ve yararlı kılmaya çalışırken, hesaba **sığmayan** ne kalıyor?
+
+### Genel ekonomi
+
+Bataille'ın en özgün kuramsal katkısı burada.
+
+Klasik iktisat kıtlıkla başlar: Kaynaklar sınırlıdır, ihtiyaçlar sonsuzdur, mesele dağıtımdır.
+
+Bataille bunun tersini önerdi. Ona göre asıl sorun **fazlalıktır**.
+
+Güneş dünyaya karşılıksız enerji verir. Canlılık bu enerjiyle büyür. Ama büyüme sonsuza kadar süremez; bir noktada sistem, kullanamayacağı bir artık üretir.
+
+Ve o artık **harcanmak** zorundadır.
+
+Toplumlar bunu farklı biçimlerde yapar: şölenler, anıtlar, kurban törenleri, sanat, lüks — ve savaş.
+
+Bataille'ın rahatsız edici tezi şuydu: Fazlalığı **anlamlı** biçimlerde harcamayan bir toplum, onu **yıkıcı** biçimlerde harcar.
+
+Bu, 1949'da, iki dünya savaşının ardından yazıldı.
+
+### Etkisi
+
+Bataille yaşarken marjinal kaldı. Sartre onu ağır biçimde eleştirdi.
+
+Ama sonraki kuşak üzerindeki etkisi belirleyici oldu: **Foucault**, **Derrida** ve **Baudrillard**, aklın kendi sınırlarıyla karşılaşması meselesini büyük ölçüde Bataille'ın açtığı yerden devraldı.
+
+Sitemizde bu hafta ele aldığımız [Foucault dosyasında](/haber/foucault-iktidar-bilgi-normal) anlattığımız "normalin nasıl kurulduğu" sorusunun bir kaynağı burada.
+
+---
+
+## Mary Wollstonecraft öldü — 10 Eylül 1797
+
+İkinci kızını doğurduktan **on bir gün sonra**, septisemiden öldü. Otuz sekiz yaşındaydı.
+
+Doğan bebek, yıllar sonra *Frankenstein*'ı yazacak olan **Mary Shelley**'ydi.
+
+### Kadın Haklarının Gerekçelendirilmesi
+
+1792 tarihli ***A Vindication of the Rights of Woman***, modern feminist düşüncenin kurucu metinlerinden sayılıyor.
+
+Ama kitabın argümanı sanıldığından daha incelikli ve daha keskin.
+
+Wollstonecraft, kadınların erkeklerden farksız olduğunu iddia etmiyordu. Şunu iddia ediyordu: **Kadınların gözlenen zayıflıkları, doğalarının değil, eğitimlerinin sonucudur.**
+
+Bir insanı ciddi eğitimden mahrum bırakır, ona yalnızca hoşa gitmeyi öğretir, sonra da hafifliğinden şikâyet ederseniz — ürettiğiniz şeyi doğa sanıyorsunuz demektir.
+
+### Aydınlanmaya içeriden itiraz
+
+Metnin gücü, Aydınlanma'ya **dışarıdan** değil **içeriden** saldırmasında.
+
+Wollstonecraft, aklın evrenselliği fikrini reddetmiyor. Tersine, sonuna kadar götürüyor.
+
+Argüman şöyle işler: Aydınlanma, insanın akıl sahibi olduğu için hak sahibi olduğunu söylüyor. Kadınlar akıl sahibi. O halde?
+
+Sitemizde bu hafta ele aldığımız [Elizabeth Anderson dosyasında](/haber/elizabeth-anderson-ozel-hukumet-iliskisel-esitlik) anlattığımız ilişkisel eşitlik kuramının en erken atalarından biri bu metindir: Wollstonecraft için mesele kadınlara kaynak dağıtmak değil, onların **eşit yurttaşlar olarak muhatap alınmasıydı**.
+
+Rousseau'ya yönelttiği eleştiri de buradan geliyor. *Émile*'de erkek çocuk özerklik için, kız çocuk ise hoşa gitmek için yetiştirilir. Wollstonecraft bunun bir eğitim programı değil, bir **bağımlılık üretimi** olduğunu gösterdi.
+
+### Unutulma ve dönüş
+
+Ölümünden sonra kocası William Godwin, iyi niyetle bir anı kitabı yazdı ve Wollstonecraft'ın özel hayatını — evlilik dışı ilişkilerini, intihar girişimlerini — açıkça anlattı.
+
+Sonuç, dönemin ahlak anlayışında yıkıcı oldu. Wollstonecraft'ın adı bir yüzyıl boyunca skandalla anıldı; fikirleri okunmadı.
+
+Yirminci yüzyılda yeniden keşfedildi.
+
+Bir düşünürün eseri ile hayatının nasıl karıştırıldığına ve bunun bedelinin kimin tarafından ödendiğine dair, felsefe tarihindeki en açık örneklerden biri.
+
+---
+
+## Paul Virilio öldü — 10 Eylül 2018
+
+Paris'te, seksen altı yaşında öldü. Filozof, kent kuramcısı ve mimardı; İkinci Dünya Savaşı'nın Atlantik kıyısındaki beton sığınaklarını inceleyerek başladı.
+
+### Dromoloji
+
+Virilio, kendi alanına isim verdi: **dromoloji** — hız bilimi.
+
+Tezi şuydu: Modern tarihi anlamak için üretim ilişkilerine ya da fikirlere değil, **hıza** bakmak gerekir.
+
+Kim daha hızlı hareket edebiliyor? Bilgi ne kadar hızlı yayılıyor? Karar ne kadar hızlı alınıyor?
+
+Ona göre siyasal iktidar, giderek **hızın denetimi** haline geldi. Ve hız arttıkça, karar için ayrılan süre kısaldı.
+
+Bu tezin en somut örneği nükleer caydırıcılıktır: Füze uçuş süresi dakikalarla ölçüldüğünde, "karar vermek" insani bir edim olmaktan çıkıp bir refleks prosedürüne dönüşür.
+
+### Bütünsel kaza
+
+Virilio'nun en kalıcı sezgisi şu:
+
+**Her yeni teknoloji, yeni bir kaza türünü icat eder.**
+
+Gemiyi icat ettiğinizde deniz kazasını icat etmiş olursunuz. Uçağı icat ettiğinizde uçak kazasını. Demiryolunu icat ettiğinizde tren kazasını.
+
+Kaza, teknolojinin arızası değil; **teknolojinin içinde gizli olan diğer yüzüdür**.
+
+Ve teknoloji küreselleştikçe, kazanın ölçeği de küreselleşir. Virilio buna **bütünsel kaza** (*accident intégral*) diyordu: aynı anda her yerde olabilen kaza.
+
+### Bugün
+
+Bu kavramı bugünkü tartışmaya uygulamak için fazla çaba gerekmiyor.
+
+Yapay zekânın "kazası" nedir?
+
+Sitemizde bugün ele aldığımız [politik yapay zekâ dosyasında](/haber/politik-yapay-zeka-secim-hakikat) anlattığımız tabloya bakalım: Sistemin arızası değil, **tam olarak çalışması** bir kaza üretiyor. Sentetik içerik kusursuz hale geldikçe, gerçek içeriğin kanıt değeri düşüyor.
+
+Virilio'nun formülüyle: Yapay zekâ imgeyi icat ederken, **imgeye güvenmemeyi** de icat etti.
+
+Ve bu kaza, tek bir yerde değil, aynı anda her yerde.
+
+---
+
+## Bugünün ekseni
+
+Üç isim, üç sınır.
+
+**Bataille:** Aklın hesaplayamadığı ne kalıyor?
+**Wollstonecraft:** Yurttaşlığın dışında kim bırakılıyor?
+**Virilio:** Teknoloji neyi mümkün kılarken neyi imha ediyor?
+
+Üçü de aynı yöntemi kullandı: Bir sistemin **kendi mantığı içinde** göremediği noktayı aramak.
+
+Bataille için bu, yararlılık hesabının dışında kalan israftı.
+Wollstonecraft için, evrensel akıl iddiasının dışında bırakılan kadınlardı.
+Virilio için, ilerleme anlatısının dışında bırakılan kazaydı.
+
+Bir sistemin en çok, **göremediği** yerden öğrenilir.
+
+Bu, üçünün ortak dersi.`,
+  },
+  {
+    title: "Nami Başer: Türkiye'de Fransız felsefesinin sesi olan adam",
+    slug: "nami-baser-felsefe-psikanaliz-sahne",
+    summary:
+      "Negri, Nancy, Badiou ve Rancière Türkiye'ye geldiğinde onların Türkçesi Nami Başer'di. Ama simultane çeviri kabinindeki bu iş, kariyerinin yan ürünü değil — felsefeyi disiplinler ve diller arasında dolaşan canlı bir pratik sayan bir anlayışın doğal sonucuydu.",
+    seoTitle: "Nami Başer: Lacan, Derrida ve Türkiye'de felsefe-psikanaliz-sahne kesişimi",
+    metaDescription:
+      "Nami Başer'in hayatı: Galatasaray, Strasbourg, Paris-8 doktorası, Galatasaray Üniversitesi'ndeki yılları, Lacan kitabı, Levinas ve Roudinesco çevirileri.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Passerelle%2C%20Universit%C3%A9%20Paris%208%20Vincennes-Saint-Denis%202024.jpg?width=1600",
+    imageCredit: "Paris-8 Vincennes-Saint-Denis Üniversitesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Okan Üniversitesi",
+    sourceUrl: "https://www.okan.edu.tr/uploads/staff_person/nami-baser/nami-baser-cv-tr.pdf",
+    publishedAt: "2026-09-10T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["psikanaliz", "ceviri", "akademi", "sinema", "postmodernizm"],
+    philosopherSlugs: ["nami-baser"],
+    sources: [
+      {
+        title: "Nami Başer — özgeçmiş",
+        publisher: "İstanbul Okan Üniversitesi",
+        url: "https://www.okan.edu.tr/uploads/staff_person/nami-baser/nami-baser-cv-tr.pdf",
+        primary: true,
+      },
+      {
+        title: "Nami Başer",
+        publisher: "Vikipedi",
+        url: "https://tr.wikipedia.org/wiki/Nami_Ba%C5%9Fer",
+      },
+    ],
+    content: `Bir düşünürün Türkiye'ye gelip konuştuğu salonlarda, dinleyicilerin kulaklığından duyduğu ses çoğu zaman konuşmacının değildir.
+
+Antonio Negri, Jean-Luc Nancy, Alain Badiou ve Jacques Rancière İstanbul'da konuştuğunda; Élisabeth Roudinesco psikanaliz üzerine bir oturuma katıldığında — o kulaklıklardan gelen ses uzun yıllar boyunca aynı kişiye aitti.
+
+**Nami Başer.**
+
+Bu ayrıntıyla başlamak, bir portreye alışılmadık bir giriş. Ama Başer'in düşünsel duruşunu en iyi anlatan şey belki de bu.
+
+Çünkü simultane çeviri, felsefe yapmanın en zor biçimlerinden biridir: Bir cümlenin nereye gittiğini, o cümle bitmeden bilmek zorundasınız. Bunu yapabilmek için konuşmacının kavram dünyasının içinde durmanız gerekir.
+
+Başer, kırk yıla yakın bir süre boyunca Türkiye'de Fransız düşüncesinin **gerçek zamanlı** aktarıcısı oldu.
+
+## Mudanya'dan Strasbourg'a
+
+1950'de Mudanya'da doğdu. İlkokulu orada okudu, ardından **Galatasaray Lisesi**'ne girdi ve okulu birincilikle bitirdi.
+
+1968-1969'da özel bir bursla Fransa'ya gitti. **Strasbourg Üniversitesi**'nde felsefe ve edebiyat okudu.
+
+Bu ikili tercih rastlantı değil ve sonraki her şeyi belirledi. Başer hiçbir zaman yalnızca felsefeci ya da yalnızca edebiyatçı olmadı; iki alanın arasında durdu.
+
+Fransa'daki yıllarında **Jean-Luc Nancy**'nin öğrencisi oldu; **Jacques Derrida** ve **Roland Barthes** ile tanışma imkânı buldu.
+
+Bu, altmışların sonu ve yetmişlerin Fransa'sı. Yapısalcılık sonrası düşüncenin tam merkezinde, tam da kurulduğu anda bulunmak.
+
+Doktorasını **Paris-8 Üniversitesi**'nde tamamladı. Tezi iki ayaklıydı: edebiyatta **Rimbaud**, felsefede **Hegel-Marx ilişkisi**.
+
+Bu birleşim tuhaf görünebilir. Değil.
+
+Rimbaud, on dokuz yaşında şiiri bırakıp Afrika'ya giden şair; dilin sınırlarını zorlayıp sonra dilden çıkan kişi. Hegel-Marx hattı ise tarihin bir yönü olup olmadığı sorusu.
+
+İkisinin ortak noktası: **Bir şey kendi sınırına vardığında ne olur?**
+
+## Galatasaray yılları
+
+Türkiye'ye döndükten sonra **1993'ten 2017'deki emekliliğine kadar Galatasaray Üniversitesi Felsefe Bölümü**'nde çalıştı.
+
+Yirmi dört yıl. Bir bölümün kurulup oturduğu, bir kuşağın yetiştiği süre.
+
+Galatasaray Üniversitesi'nin Türkiye'deki özel konumu burada önem kazanıyor: Fransızca eğitim veren bir devlet üniversitesi olarak, Fransız düşüncesinin Türkiye'ye aktarımında doğal bir kavşak. Başer bu kavşağın merkezinde durdu.
+
+Emekliliğinden sonra **İstanbul Okan Üniversitesi Konservatuvarı Tiyatro Bölümü**'nde ders vermeye başladı: **Metinlerle Dünya Tiyatrosu Tarihi**.
+
+Bir felsefe profesörünün emeklilikten sonra konservatuvara geçmesi, kariyer planlaması açısından anlaşılmaz görünür.
+
+Düşünsel olarak son derece tutarlıdır.
+
+## Neden tiyatro?
+
+Çünkü Başer'in bütün çalışması, felsefi kavramların **yalnızca kitaplarda düşünülmediği** varsayımına dayanıyor.
+
+Arzu bir romanda düşünülür. Yabancılık bir filmde. Ölüm bir sahnede. Başkalık bir karşılaşmada.
+
+Sitemizde bu hafta ele aldığımız [Nermi Uygur dosyasında](/haber/nermi-uygur-dil-kultur-yasama) anlattığımız "felsefeyi kürsüden indirme" çabasının bir kuşak sonraki biçimi bu. Uygur felsefeyi gündelik hayata taşımıştı; Başer sanat biçimlerine.
+
+Aradaki fark yöntemsel: Uygur denemeci, Başer **karşılaştırmacı**. Filozofu özetlemek yerine filozoflar arasında dolaşıyor.
+
+## Lacan: psikanalizi felsefeye geri vermek
+
+Başer'in *Lacan* kitabı, Türkçede Lacan literatürünün ayırt edici metinlerinden biri.
+
+Ayırt edici, çünkü Lacan'ı klinik bir teknik olarak değil, bir **insan anlayışı** olarak ele alıyor.
+
+Lacan'ın merkezi tezi şudur: **Bilinçdışı, bir dil gibi yapılanmıştır.**
+
+Bu cümle çoğu zaman şiirsel bir benzetme sanılır. Değildir. İddia teknik ve serttir.
+
+Bilinçdışı, zihnin derinliğinde saklanan bastırılmış içerikler deposu değildir. Yer değiştirme ve yoğunlaşma gibi işlemlerle çalışan bir **yapıdır** — ve bu işlemler dilbilimdeki eğretileme ile düzdeğişmecenin karşılığıdır.
+
+Sonuç radikal: Özne kendi kendisinin sahibi değildir. Konuştuğu dil ondan önce vardır ve onu biçimlendirir.
+
+Bu, sitemizde bu hafta ele aldığımız [Wittgenstein dosyasındaki](/haber/wittgenstein-dil-oyunlari-kural-izlemek) özel dil argümanıyla beklenmedik biçimde kesişir. İki düşünür birbirinden habersiz aynı yere varır: **Anlam, kafanın içinde özel olarak kurulamaz.**
+
+Başer, Lacan'ın Roudinesco tarafından yazılmış iki kitabını da Türkçeye kazandırdı: *Lacan Herkese ve Herşeye Karşı* ve *İçimizdeki Karanlık Taraf*.
+
+## Levinas: ölüm ve zaman
+
+Başer'in çevirmen kimliği, düşünsel profilinin ayrılmaz parçası.
+
+**Emmanuel Levinas**'ın *Ölüm ve Zaman*'ı 2006'da onun çevirisiyle Ayrıntı Yayınları'ndan çıktı.
+
+Levinas çevirmek kolay değil. Çünkü Levinas'ın bütün projesi, Batı felsefesinin ana kavramlarını — varlık, bilgi, özne — bir **başkasıyla karşılaşma** anından yeniden düşünmek.
+
+Levinas'a göre etik, ontolojiden sonra gelen bir alan değildir. **İlk felsefedir.** Başkasının yüzüyle karşılaştığımda, onu kavramaya çalışmadan önce ona karşı sorumlu olurum.
+
+Bu tezin Türkçede kurulabilmesi, terimlerin karşılıklarının bulunması demek. Sitemizde bu hafta ele aldığımız [Macit Gökberk dosyasında](/haber/macit-gokberk-felsefe-dili-turkce) anlattığımız "felsefe dilini kurmak" işinin, bir kuşak sonraki devamı.
+
+Başer ayrıca Maupassant, Rimbaud, André Gide ve Mallarmé çevirileri yaptı. Yani hem felsefe hem edebiyat; hem kavram hem imge.
+
+## Derrida'yı doğru anlatmak
+
+Başer'in Derrida okumasında dikkat çeken bir vurgu var.
+
+Türkiye'de Derrida uzun süre "her metin her anlama gelir" biçiminde, yani bir tür anlam keyfiliği olarak sunuldu. Bu, yaygın ama yanlış bir okuma.
+
+Derrida'nın *dissémination* — dağıtma, saçılma — kavramı, anlamın **belirsiz** olduğunu söylemez. Anlamın hiçbir zaman tek bir merkeze tam olarak **kapanmadığını** söyler.
+
+Aradaki fark büyüktür. Birincisi yorumu gereksiz kılar; ikincisi yorumu **bitmez** kılar.
+
+Ve bu, dün tanıttığımız [Schleiermacher'in Hermeneutik Dersleri](/haber/schleiermacher-hermeneutik-dersleri-turkce) ile doğrudan bağlantılı: Schleiermacher de anlamayı tek seferde ulaşılan bir durum değil, yaklaşan bir süreç olarak tarif etmişti.
+
+Derrida'nın yaptığı, o sürecin neden asla tamamlanamayacağını göstermek.
+
+Aynı hat, sitemizde bu hafta ele aldığımız [Derrida ve yapay zekâ dosyasında](/haber/derrida-yapay-zeka-arsiv-iz-sorumluluk) bugünün sorularına bağlanıyor.
+
+## Neden yeterince konuşulmuyor?
+
+Başer'in Türkiye'deki görünürlüğü, etkisiyle orantılı değil. Bunun birkaç nedeni var.
+
+**Birincisi, aracılık görünmez bir iştir.** Bir düşünürü çeviren, tanıtan ve tartışmaya sokan kişi, o düşünürün gölgesinde kalır. Türkiye'de Lacan okunuyorsa, Levinas tartışılıyorsa, bunu mümkün kılan emek genellikle kaydedilmez.
+
+**İkincisi, disiplinler arası çalışmak kurumsal olarak cezalandırılır.** Felsefe, psikanaliz, sinema ve tiyatro arasında dolaşan biri, hiçbirinin "kendi" ismi sayılmaz.
+
+**Üçüncüsü, Türkiye'de Fransız düşüncesi uzmanlık alanlarına bölünerek alımlandı.** Derrida uzmanları, Deleuze uzmanları, Foucault uzmanları. Başer ise bu isimleri aynı harita üzerinde karşılaştırdı — ki asıl zor olan budur.
+
+## Bugün neden okunmalı?
+
+Çünkü Başer'in dolaştığı kesişim bugün her zamankinden canlı.
+
+Bir dil modeli metin üretiyorsa, **anlam nerede**? Lacan'ın "bilinçdışı dil gibi yapılanmıştır" tezi, dilin öznesiz de işleyebileceğini ima ediyor muydu?
+
+Bir görüntü sentetik olarak üretilebiliyorsa, imgenin tanıklık değeri ne olur? Sitemizde bugün ele aldığımız [politik yapay zekâ dosyasının](/haber/politik-yapay-zeka-secim-hakikat) epistemolojik çekirdeği bu.
+
+Bir yapay zekâ ile karşılaşmak, Levinas'ın anlamında bir **karşılaşma** mıdır? Yüzü olmayan bir muhataba karşı sorumluluk mümkün mü?
+
+Bu soruların hiçbiri tek bir disiplinin içinden cevaplanamıyor.
+
+Nami Başer'in kırk yıldır savunduğu şey de tam olarak buydu.
+
+---
+
+*Nami Başer 1950'de Mudanya'da doğdu. Galatasaray Üniversitesi Felsefe Bölümü'nde 1993-2017 arasında görev yaptı; halen İstanbul Okan Üniversitesi Konservatuvarı'nda ders veriyor. Başlıca eserleri ve çevirileri: Lacan (Say Yayınları) · Emmanuel Levinas, Ölüm ve Zaman (Ayrıntı, 2006) · Élisabeth Roudinesco, Lacan Herkese ve Herşeye Karşı · Roudinesco, İçimizdeki Karanlık Taraf.*`,
+  },
+  {
+    title: "Resim yapan hayvan: Barselona'da homo pictor kongresi",
+    slug: "homo-pictor-kongresi-barselona-2026",
+    summary:
+      "İnsanı tanımlamak için kullanılan sıfatların çoğu tartışmalı: akıllı hayvan, konuşan hayvan, alet yapan hayvan. Barselona'da 30 Eylül'de başlayan kongre, daha az kullanılan ama belki daha ayırt edici olanını masaya koyuyor — imge yapan hayvan. Yapay zekânın imge ürettiği bir yılda.",
+    seoTitle: "Homo pictor: 16. Uluslararası Felsefi Antropoloji Kongresi, Barselona",
+    metaDescription:
+      "İspanyol Felsefi Antropoloji Derneği'nin 16. kongresi 30 Eylül - 2 Ekim 2026'da UIC Barcelona'da. Tema: Homo pictor — sanat, imgelem ve yaratım.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux%2C%20horse.JPG?width=1600",
+    imageCredit: "Lascaux mağara resmi (kopya) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Universitat Internacional de Catalunya",
+    sourceUrl: "https://www.uic.es/en/congress/16th-international-congress-hispanic-society-philosophical-anthropology",
+    publishedAt: "2026-09-10T02:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "estetik", "yapay-zeka", "kavram", "arkeoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "16th International Congress of the Hispanic Society of Philosophical Anthropology",
+        publisher: "Universitat Internacional de Catalunya",
+        url: "https://www.uic.es/en/congress/16th-international-congress-hispanic-society-philosophical-anthropology",
+        primary: true,
+      },
+      {
+        title: "Sociedad Hispánica de Antropología Filosófica",
+        publisher: "SHAF",
+        url: "https://shaf.filosofia.net/",
+      },
+    ],
+    content: `Felsefe tarihi, insanı tanımlama denemeleriyle dolu ve her denemenin bir zayıf noktası var.
+
+**Akıllı hayvan** — akıl nedir, ve ölçütü kim koyuyor?
+
+**Konuşan hayvan** — arı dansı, balina şarkısı, vervet maymunlarının yırtıcıya göre değişen alarm çağrıları?
+
+**Alet yapan hayvan** — Jane Goodall'ın Gombe'de termit avlayan şempanzeleri gördüğü günden beri savunulması zor.
+
+**Gülen hayvan**, **ölümünü bilen hayvan**, **söz veren hayvan** — her biri bir felsefi geleneğin özeti ve her biri tartışmalı.
+
+Barselona'da bu ay toplanacak bir kongre, listenin daha az kullanılan bir maddesini masaya koyuyor.
+
+## Kongre
+
+**16. Uluslararası Felsefi Antropoloji Kongresi**, **30 Eylül - 2 Ekim 2026** tarihlerinde **Universitat Internacional de Catalunya**'nın Barselona kampüsünde yapılacak.
+
+Düzenleyen: **İspanyol Felsefi Antropoloji Derneği** (Sociedad Hispánica de Antropología Filosófica, SHAF), UIC Barcelona ile birlikte.
+
+Tema: ***Homo pictor: Sanat, İmgelem ve Yaratım.***
+
+Kongrenin çıkış noktası şu: İmge yaratma yetisi, insanın dünyayla ve kendisiyle kurduğu ilişkiyi biçimlendiren **temel bir edim**.
+
+Program, sanatsal yaratım, imgelem, beceri, yeni teknolojilerin — **yapay zekâ dahil** — etkisi ve günümüzün ekolojik sorunları etrafında kurulmuş. Düzenleyiciler, insanın yaratıcı konumuna dair soruların bu kesişimde yeniden sorulması gerektiğini vurguluyor.
+
+## Homo pictor nereden geliyor?
+
+Kavramın felsefi ağırlığı, Alman antropolog ve filozof **Hans Jonas**'ın 1961 tarihli bir denemesinden gelir.
+
+Jonas'ın argümanı zarif ve sıkı.
+
+Bir hayvan alet kullanabilir. Bir kunduz baraj yapar, bir kuş yuva örer, bir şempanze dal soyup termit çıkarır. Bunların hepsi **işlevsel** edimlerdir: Bir ihtiyacı karşılarlar.
+
+Ama bir mağara duvarına bizon çizmek bir ihtiyacı karşılamaz.
+
+Bir imge yaptığınızda, orada **olmayan** bir şeyi orada olan bir şeyle temsil edersiniz. Duvardaki çizgiler bizon değildir; bizonu **gösterir**.
+
+Bu, Jonas'a göre kritik eşiktir. Çünkü imge yapan varlık, gerçeklik ile temsil arasındaki farkı kavramış demektir. Ve bu farkı kavrayan varlık, gerçekliğin **başka türlü olabileceğini** de düşünebilir.
+
+İmge, bu yüzden, **özgürlüğün** kanıtıdır: Verili olanla yetinmeyen bir zihnin izi.
+
+## Otuz beş bin yıllık soru
+
+Bu tezin ampirik dayanağı sanıldığından güçlü.
+
+Bilinen en eski figüratif mağara resimleri on binlerce yıl öncesine tarihleniyor ve dünyanın birbirinden çok uzak bölgelerinde — Fransa'dan Endonezya'ya — birbirinden bağımsız olarak ortaya çıkıyor.
+
+Yani imge yapmak, bir kültürün icadı değil. **Türe özgü** bir eğilim gibi görünüyor.
+
+Ve dikkat çekici olan şu: Bu resimler yararlı değil. Ulaşılması zor mağara derinliklerinde, karanlıkta, ışık taşıyarak yapılmışlar. Kimse onları avlanmak için yapmadı.
+
+## 2026'da neden bu tema?
+
+Kongrenin programında yapay zekânın açıkça yer alması, temayı güncel bir tartışmanın içine yerleştiriyor.
+
+Çünkü 2026'da imge üretmek artık insana özgü değil.
+
+Bir sistem saniyeler içinde binlerce görüntü üretebiliyor. Ve bu görüntüler yalnızca teknik olarak yeterli değil; çoğu zaman insanların yaptığından ayırt edilemez durumda.
+
+Jonas'ın ölçütü hâlâ işliyor mu?
+
+Burada iki savunulabilir konum var ve kongrenin bunları tartışacağı anlaşılıyor.
+
+**Birinci konum:** Ölçüt çöktü. İmge üretmek insanı tanımlıyorsa ve makineler imge üretiyorsa, tanım geçersizdir.
+
+**İkinci konum:** Jonas'ın ölçütü üretim değil, **kavrayıştı**. Bir sistemin imge üretmesi, o sistemin gerçeklik ile temsil arasındaki farkı kavradığı anlamına gelmez. Duvara bizon çizen insan, bizonun orada olmadığını bilir. Bir difüzyon modeli neyi bilmediğini bilmez.
+
+Bu ikinci konum, sitemizde bu hafta ele aldığımız [John Searle dosyasındaki](/haber/john-searle-cin-odasi-anlam-kurum) Çin Odası argümanının görsel alandaki karşılığı.
+
+Ve bugün ele aldığımız [politik yapay zekâ dosyasıyla](/haber/politik-yapay-zeka-secim-hakikat) doğrudan bağlantılı: Bir imgenin tanıklık değeri, onu yapanın gerçekliğe bağlı olmasından geliyordu. O bağ koparsa, imge neyin kanıtı olur?
+
+## Ekoloji neden programda?
+
+Kongrenin ekolojik krizi de kapsaması ilk bakışta konu dağılması gibi görünebilir. Değil.
+
+Çünkü homo pictor tezinin bir gölge yüzü var.
+
+Verili olanla yetinmeyen, dünyayı başka türlü hayal edebilen ve sonra o hayali gerçekleştirmeye girişen varlık — aynı zamanda gezegeni dönüştüren varlıktır.
+
+Yaratıcılık ile tahakküm arasındaki mesafe, düşünüldüğü kadar uzun değil. İnsanı yücelten aynı yeti, onu sorumlu da kılıyor.
+
+Sitemizde dün ele aldığımız [John Passmore dosyasında](/haber/felsefe-tarihinde-bugun-9-eylul-passmore-goodman) anlattığımız çevre etiği tartışmasının felsefi antropoloji cephesi tam burası.
+
+## Türkiye açısından
+
+Felsefi antropoloji, Türkiye'de kurumsal olarak zayıf ama tarihsel olarak güçlü bir alan.
+
+**Takiyettin Mengüşoğlu**, Türkiye'de felsefi antropolojinin kurucu ismidir ve *İnsan Felsefesi*, bu alanda Türkçe yazılmış temel metinlerden biri olmayı sürdürüyor. Mengüşoğlu'nun yaklaşımı, insanı tek bir özellikle tanımlamak yerine **fenomenler bütünü** olarak ele almaktı — tam da Barselona kongresinin yöntemsel duruşu.
+
+Bugün Türkiye'de bu alanda çalışanların uluslararası ağlara bağlanması, kongrenin sunduğu türden imkânlardan geçiyor.
+
+## Sonbahar takvimi
+
+**30 Eylül - 2 Ekim · Barselona** — Homo pictor kongresi
+
+**1-3 Ekim · Selçuk** — [Mantık, Matematik ve Felsefe XI](/haber/mantik-matematik-felsefe-xi-selcuk-2026)
+
+**9-10 Ekim · Ohio State** — Fizik Felsefesi Konferansı
+
+**13-15 Ekim · Nijmegen** — [COMET 2026](/haber/comet-2026-radboud-kita-felsefesi-metafizik)
+
+**16-18 Ekim · Northwestern** — [Amerika Hegel Derneği: Hegel and Time](/haber/hegel-taninma-ozgurluk-zaman)
+
+**23-24 Ekim · çevrim içi** — [Kuzey Amerika Sartre Derneği](/haber/sartre-dernegi-2026-dijital-varolusculuk)
+
+**26-27 Ekim · İstanbul** — [1. Ulusal İslam Felsefesi Sempozyumu](/haber/ulusal-islam-felsefesi-sempozyumu-2026)
+
+**5-6 Kasım · İstanbul** — [Reichenbach in İstanbul](/haber/reichenbach-kongresi-istanbul-2026)
+
+**13-14 Kasım · Oxford** — [30. Lisansüstü Felsefe Konferansı](/etkinlik/oxford-lisansustu-felsefe-konferansi-2026)
+
+**19-20 Kasım · Priştine** — Dünya Felsefe Günü Konferansı
+
+**20-21 Kasım · Duke** — [Hayvan Refahı Felsefesi](/etkinlik/duke-hayvan-refahi-felsefesi-2026)
+
+**3-5 Aralık · Atina** — 9. Panhelenik Bilim Felsefesi Kongresi
+
+---
+
+*Ayrıntılı bilgi: uic.es ve shaf.filosofia.net · Program ayrıntıları değişebilir; kesin bilgi için düzenleyici kurumla iletişime geçilmesi önerilir.*`,
+  },
+  {
+    title: "Leibniz: bilgisayardan üç yüzyıl önce düşüncenin hesaplanabilirliğini soran adam",
+    slug: "leibniz-hesaplanabilir-dusunce-monad",
+    summary:
+      "Leibniz'i monadlar ve mümkün dünyaların en iyisiyle anlatmak, felsefe tarihinin en şaşırtıcı zekâlarından birini bir karikatüre indirger. Asıl hayali daha büyüktü: Anlaşmazlıklar tartışılarak değil, hesaplanarak çözülsün. Bugün o hayalin içinde yaşıyoruz.",
+    seoTitle: "Leibniz: evrensel karakteristik, monadlar, yeter neden ilkesi ve yapay zekâ",
+    metaDescription:
+      "Leibniz'in düşünceyi hesaplanabilir kılma projesi, monad kuramı, yeter neden ilkesi, mümkün dünyalar ve bugünkü yapay zekâ tartışmasındaki yeri.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Christoph%20Bernhard%20Francke%20-%20Bildnis%20des%20Philosophen%20Leibniz%20(ca.%201695).jpg?width=1600",
+    imageCredit: "Gottfried Wilhelm Leibniz · Christoph Bernhard Francke, y. 1695 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/leibniz/",
+    publishedAt: "2026-09-10T02:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["mantik", "kavram", "yapay-zeka", "din-felsefesi", "epistemoloji"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
+    sources: [
+      {
+        title: "Gottfried Wilhelm Leibniz",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/leibniz/",
+        primary: true,
+      },
+    ],
+    content: `Felsefe ders kitaplarında Leibniz genellikle iki şeyle anılır: **monadlar** ve **mümkün dünyaların en iyisi**.
+
+İlki anlaşılmaz bulunur, ikincisi gülünç.
+
+Bu, on yedinci yüzyılın en geniş zihinlerinden birine yapılabilecek en büyük haksızlık.
+
+Çünkü Leibniz'i modern yapan şey ne monad kuramıdır ne de iyimserliği. Şudur:
+
+**Düşüncenin kendisini hesaplanabilir kılma projesi.**
+
+## Kim?
+
+1646'da Leipzig'de doğdu, 1716'da Hannover'de öldü.
+
+Yaptığı işlerin listesi, tek bir insanın ömrüne sığmayacak gibi görünür: Diferansiyel ve integral hesabı Newton'dan bağımsız olarak geliştirdi — bugün kullandığımız gösterim büyük ölçüde onunki. İkili sayı sistemi üzerine çalıştı. Mekanik hesap makinesi tasarladı. Madencilikte su tahliyesi için makineler geliştirdi. Hannover hanedanının resmî tarihçiliğini yürüttü. Kiliseleri birleştirmek için diplomatik girişimlerde bulundu. Hukuk üzerine yazdı. Ve bütün bunları yaparken felsefenin en zor sorularıyla uğraştı.
+
+Ölümünde cenazesine neredeyse kimse gelmedi. Bir yüzyıl sonra Avrupa'nın en çok okunan filozoflarından biri oldu.
+
+## Hesaplayalım
+
+Leibniz'in gençlik dönemi eseri ***De Arte Combinatoria*** (1666), yirmi yaşında yazıldı ve içinde bir ömür sürecek bir program taşıyordu.
+
+Fikir şuydu: İnsan düşüncesi, temel kavramların bileşimlerinden oluşur. Eğer bu temel kavramları belirleyip her birine bir sembol atayabilirsek, karmaşık düşünceleri sembollerin bileşimi olarak yazabiliriz.
+
+Leibniz buna **evrensel karakteristik** (*characteristica universalis*) dedi — kavramların dili.
+
+Ve bunun yanına ikinci bir araç koydu: **calculus ratiocinator**, akıl yürütme hesabı.
+
+İkisi birlikte olağanüstü bir sonuç verecekti:
+
+İki kişi bir konuda anlaşamadığında tartışmayacaklardı. Kalemlerini alıp **hesap yapacaklardı**.
+
+Leibniz'in bu hayali dile getirdiği cümle, mantık tarihinin en çok alıntılanan cümlelerinden biridir ve özü şudur: *Hesaplayalım.*
+
+## Bu hayal gerçekleşti mi?
+
+Kısmen — ve gerçekleşme biçimi Leibniz'in beklemediği yönde oldu.
+
+**Mantık tarafında gerçekleşti.** Frege'nin kavram yazısı, Boole'un cebiri, Russell ve Whitehead'in *Principia*'sı, nihayet Turing'in hesaplanabilirlik kuramı — hepsi Leibniz'in programının uzantısı sayılabilir. Bugünkü bilgisayarın mantıksal temeli bu hattan geliyor.
+
+**Ama sınırı da bulundu.** Gödel'in eksiklik teoremleri ve Turing'in durma probleminin çözülemezliği, biçimsel sistemlerin kendi içinde kapalı ve tam olamayacağını gösterdi.
+
+Yani Leibniz'in rüyası hem gerçekleşti hem sınırlandı: Hesap yapabiliyoruz, ama her şeyi hesaplayamıyoruz. Ve hangi şeylerin hesaplanamayacağını **kesin olarak** biliyoruz.
+
+Sitemizde bu hafta ele aldığımız [Selçuk'taki Mantık, Matematik ve Felsefe Sempozyumu](/haber/mantik-matematik-felsefe-xi-selcuk-2026) dosyasında anlattığımız gibi, bu sınır bir yenilgi değil; kesinliğin nerede bittiğinin kesin bilgisi.
+
+## Monadlar: garip değil, zorunlu
+
+Monad kuramı, yalnızca kendi başına anlatıldığında tuhaf görünür. Çözmeye çalıştığı problemle birlikte okunduğunda değil.
+
+Problem şuydu: Descartes'ın ardından fizik, maddeyi **uzam** olarak tanımlıyordu — yer kaplayan, bölünebilen, itilip çekilen bir şey.
+
+Leibniz bu tanımın yetersiz olduğunu düşündü. Basit bir gerekçeyle: **Uzam sonsuza kadar bölünebilir.**
+
+Bir şeyi bölmeye devam ederseniz, hep daha küçük parçalar bulursunuz. Ama o zaman gerçekten **var olan** nedir? Her şey parçaların toplamıysa ve parçalanma bitmiyorsa, hiçbir yerde gerçek bir birlik yoktur.
+
+Leibniz'in cevabı: Gerçekliğin temelinde, uzamı olmayan ve bu yüzden bölünemeyen basit tözler bulunmalıdır. **Monadlar.**
+
+Ve bu tözler pasif olamaz — çünkü pasif bir şeyin kendi başına birliği açıklanamaz. Monadlar **etkinlik** taşır: algı (*perceptio*) ve yönelim (*appetitus*).
+
+Burada "algı" bilinçli farkındalık demek değil. Bir monadın evrenin geri kalanını kendi bakış açısından **temsil etmesi** demek.
+
+Her monad, evrenin tamamını farklı bir perspektiften yansıtır. Aynı şehrin farklı sokaklardan görünüşü gibi.
+
+## Yeter neden
+
+Leibniz'in bugüne en güçlü biçimde ulaşan mirası muhtemelen bu ilke:
+
+**Hiçbir şey, neden başka türlü değil de böyle olduğunun bir nedeni olmaksızın var değildir.**
+
+Bu, bilimin de metafiziğin de kalbinde duruyor. Bir olay gerçekleştiğinde "oldu" demek yetmez; **neden** olduğu sorulur.
+
+İlkenin en uç uygulaması, Leibniz'in kendi sorusudur ve felsefe tarihinin en temel sorusu sayılır:
+
+**Neden hiçbir şey yerine bir şey var?**
+
+Bu soruya verilecek her cevap tartışmalıdır. Ama sorunun kendisi, sorulabilir olduğu için, felsefeyi ayakta tutar.
+
+## Mümkün dünyalar
+
+Leibniz'e göre Tanrı yaratmadan önce sonsuz sayıda **mümkün dünyayı** düşündü ve birini gerçekleştirdi.
+
+Bu fikir, on sekizinci yüzyılda Voltaire'in *Candide*'inde acımasızca hicvedildi ve o hiciv o kadar etkili oldu ki, Leibniz'in tezi hâlâ genellikle Candide üzerinden hatırlanıyor.
+
+Oysa iki şeyi ayırmak gerekiyor.
+
+**Birincisi, "en iyi dünya" tezi.** Bu tez, dünyanın kusursuz olduğunu söylemez. Tanrı'nın seçtiği dünyanın, mümkün olanlar arasında en iyi **denge** olduğunu söyler: azami çeşitlilik ile azami düzenin bir arada bulunduğu dünya. Kötülük, bu dengenin bedeli olarak açıklanır.
+
+Bu açıklama tatmin edici midir? Çoğu okur için değil — ve Leibniz'in kendisi de sorunun ağırlığını biliyordu. *Theodicée* bütün bir kitap boyunca bu soruyla boğuşur.
+
+**İkincisi, mümkün dünyalar kavramının kendisi.** Ve bu, teolojik çerçevesinden bağımsız olarak yaşamaya devam etti.
+
+Yirminci yüzyılda modal mantık, "zorunlu" ve "mümkün" kavramlarını tam olarak bu çerçeveyle biçimselleştirdi: Bir önerme bütün mümkün dünyalarda doğruysa zorunludur; en az birinde doğruysa mümkündür.
+
+Sitemizde bu hafta ele aldığımız [Sanders Metafizik Ödülü dosyasında](/haber/sanders-metafizik-odulu-2026-logical-atomism) izlediğimiz çağdaş metafizik tartışmalarının teknik dili, doğrudan Leibniz'den geliyor.
+
+## Ve yapay zekâ
+
+Şimdi başa dönelim.
+
+Leibniz'in evrensel karakteristik hayali, düşüncenin sembollere çevrilip işlenebileceği varsayımına dayanıyordu.
+
+2026'da elimizde, sembolleri devasa ölçekte işleyen ve çıktıları insan düşüncesinden ayırt edilemeyen sistemler var.
+
+Leibniz'in rüyası gerçekleşti mi?
+
+Cevap, onun **kendi** felsefesinden çıkarılabilir — ve ilginç biçimde olumsuzdur.
+
+Çünkü Leibniz için gerçekliğin temel birimi olan monad, yalnızca hesap yapan bir şey değildi. **Algılayan** ve **bir bakış açısına sahip** bir şeydi.
+
+Leibniz'in kendisi bu noktayı bir düşünce deneyiyle anlatır ve bu deney, Searle'ün Çin Odası'ndan iki yüz elli yıl öncedir:
+
+Düşünmeyi ve algılamayı sağlayan bir makine tasarlansa ve bu makine bir değirmen büyüklüğüne çıkarılsa, içine girip dolaşabilseydik — yalnızca birbirini iten parçalar görürdük. Algıyı açıklayacak hiçbir şey bulamazdık.
+
+Yani Leibniz, mekanik bir düzeneğin **davranışı** üretebileceğini ama **deneyimi** açıklayamayacağını savunuyordu.
+
+Bu, sitemizde bu hafta ele aldığımız [John Searle](/haber/john-searle-cin-odasi-anlam-kurum) ve [Chomsky](/haber/chomsky-monist-ozel-sayi-dil-zihin) dosyalarındaki tartışmanın en eski biçimi.
+
+Ve bugün ele aldığımız [Elena Esposito dosyasında](/haber/elena-esposito-balzan-odulu-yapay-iletisim) anlattığımız "anlama olmadan toplumsal alışverişe katılma" tezi, Leibniz'in değirmenine üçüncü bir cevap veriyor: Belki soru, makinenin içinde ne olduğu değil; onunla kurduğumuz ilişkinin ne olduğudur.
+
+## Kapanış
+
+Leibniz'in modernliği, çok şey bilmesinde değil.
+
+Bilginin **biçimini** sorgulamasındaydı.
+
+Düşünce hesaplanabilir mi? Anlaşmazlıklar çözülebilir mi? Bir sistem sembolleri işliyorsa düşünüyor mudur?
+
+Bu soruları bilgisayardan üç yüzyıl önce sordu.
+
+Ve cevaplarını hâlâ arıyoruz.
+
+---
+
+*Gottfried Wilhelm Leibniz 1 Temmuz 1646'da Leipzig'de doğdu, 14 Kasım 1716'da Hannover'de öldü. Kapak görseli Christoph Bernhard Francke'nin y. 1695 tarihli portresidir; Leibniz fotoğrafın icadından önce yaşadığı için dönem portresi kullanılmıştır. Başlıca eserleri: Monadoloji · Theodicée · İnsan Anlığı Üzerine Yeni Denemeler · Metafizik Üzerine Konuşma · De Arte Combinatoria.*`,
+  },
+  {
+    title: "Politik yapay zekâ: asıl tehlike sahteye kanmak değil, gerçeğe inanmamak",
+    slug: "politik-yapay-zeka-secim-hakikat",
+    summary:
+      "Teksas'ta bir senato adayı, rakibinin yapay zekâ ile üretilmiş kopyasına rakibin kendi sözlerini söyletti. Macaristan'da iktidar partisi, babası infaz edilen bir çocuğun sentetik görüntüsünü kampanya videosu yaptı. Ama uzmanların asıl kaygısı bunlar değil.",
+    seoTitle: "Politik yapay zekâ, deepfake ve 2026 seçimleri: hakikatin aşınması",
+    metaDescription:
+      "Yapay zekâ üretimi kampanya reklamları, Macaristan ve ABD örnekleri, yalancının kârı kavramı ve demokratik kamusal alanın algoritmikleşmesi üzerine analiz.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/SKY%20Sport24%20PCR.jpg?width=1600",
+    imageCredit: "Yayın kontrol odası · Wikimedia Commons",
+    featured: true,
+    sourceName: "Axios",
+    sourceUrl: "https://www.axios.com/2026/09/09/ai-political-ads-deepfakes-2026-elections",
+    publishedAt: "2026-09-10T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "demokrasi", "medya", "siyaset-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Welcome to the AI election where your eyes lie to you",
+        publisher: "Axios",
+        date: "9 Eylül 2026",
+        url: "https://www.axios.com/2026/09/09/ai-political-ads-deepfakes-2026-elections",
+        primary: true,
+      },
+      {
+        title: "Fear, war, and algorithms: the limits of regulating AI-generated campaign speech in Hungary",
+        publisher: "Frontiers in Communication",
+        date: "Temmuz 2026",
+        url: "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2026.1864468/full",
+      },
+    ],
+    content: `Propaganda siyasetin en eski teknolojisidir. Yeni olan, onu üreten emeğin ortadan kalkması.
+
+Bir gazete manşeti yazılırdı. Bir afiş çizilirdi. Bir konuşma hazırlanırdı. Her birinin arkasında saatler, bazen günler vardı — ve o saatler, propagandanın hacmine doğal bir sınır koyuyordu.
+
+O sınır kalktı.
+
+## İki vaka
+
+**Teksas.** Senato yarışında Cumhuriyetçi aday Ken Paxton, Demokrat rakibi James Talarico'yu hedef alan bir reklam yayımladı. Reklamda Talarico'nun **yapay zekâ ile üretilmiş bir versiyonu**, Talarico'nun kendi tartışmalı sözlerini söylüyordu.
+
+Ayrıntı önemli: Sözler **gerçekti**. Ama bağlamlarından koparılmış, bazı ifadeler değiştirilmiş ve hepsi tek bir sentetik konuşmada birleştirilmişti.
+
+Yani teknik olarak "yalan" değildi. Ama söyleyen kişi de gerçek değildi.
+
+**Macaristan.** 19 Şubat 2026'da iktidardaki Fidesz, Facebook'ta yaklaşık otuz saniyelik bir video yayımladı. Sinematik siyah-beyaz. Küçük bir kız babasını arıyor; baba savaş ortamında yakın mesafeden başından vuruluyor.
+
+Kapanış yazısı şuydu: **"Bu şimdilik yalnızca bir kâbus, ama Brüksel bunu gerçeğe dönüştürmeye hazırlanıyor."**
+
+Seçime yaklaşık iki ay vardı ve anketlerde on altı yıllık iktidar geriliyordu.
+
+Muhalefet videoyu "ruhsuz manipülasyon" diye niteledi. *Frontiers in Communication* dergisinde temmuzda yayımlanan akademik inceleme, vakayı yapay zekâ, korku siyaseti ve seçim hukukunun kesiştiği bir sınır durumu olarak ele alıyor.
+
+## Ama asıl mesele bu değil
+
+Bu iki örnek, tartışmanın **görünen** yüzü. Uzmanların kaygısı daha derinde.
+
+Stanford Hukuk Fakültesi Yapay Zekâ Girişimi'nin eş direktörü **Nate Persily**, Axios'a verdiği demeçte bunu açıkça söylüyor:
+
+> "Yapay zekâ ile kurulmuş medyanın yükselişinden gelen asıl zarar, insanların yapay zekâ ürünü bir şeye kanması değildir."
+
+Peki nedir?
+
+Kötü niyetli bir aktörün, **gerçek** olan bir şeyi "bu da deepfake" diyerek reddedebilmesi.
+
+Hukuk literatüründe buna **yalancının kârı** (*liar's dividend*) deniyor. Sahte içeriğin bolluğu, yalan söyleyene bir savunma hediye eder: Artık her kanıt tartışmalıdır.
+
+Bir siyasetçinin rüşvet aldığı gerçek bir ses kaydı ortaya çıktığında, on yıl önce istifa etmesi gerekirdi. Bugün "yapay zekâ ürünü" demesi yeterli olabilir.
+
+## Yorgunluk
+
+İkinci mekanizma daha sinsi.
+
+Cornell Teknoloji Politikaları Enstitüsü direktörü **Sarah Kreps**, sürekli şüphenin **yorucu** hale geldiğine dikkat çekiyor: İnsanlar bir noktadan sonra her içeriği aksi kanıtlanana kadar sahte varsaymaya başlıyor.
+
+Bu, sağlıklı bir şüphecilik değil. Şüpheciliğin **çöküşü**.
+
+Çünkü sağlıklı şüphecilik ayırt etmeyi gerektirir — hangi kaynak güvenilir, hangi kanıt sağlam. Herkesin her şeyden şüphe ettiği bir ortamda ayırt etme kapasitesi işe yaramaz hale gelir ve insanlar en kolay ölçüte döner: **Kime güveniyorsam ona inanırım.**
+
+Bu, epistemik bir çöküş değil; epistemik bir **kabile**leşmedir.
+
+Kreps'in aktardığı bir başka bulgu da ilginç: Sağın ve solun üzerinde anlaştığı nadir konulardan biri yapay zekâya duyulan güvensizlik. İnsanlar otantiklik istiyor.
+
+## Anlamak yetmiyor
+
+Üçüncü mekanizma en rahatsız edici olanı ve doğrudan bir felsefeciden geliyor.
+
+UC Irvine'dan epistemolog **Cailin O'Connor**, seçmen bir reklamın sentetik olduğunu **bilse bile** duygusal etkinin kalıcı olabileceğini belirtiyor: Bir kamusal figürü kötü bir şey yaparken gördüyseniz, sahte olduğunu bilmeniz o görüntünün bıraktığı olumsuz duyguyu silmiyor.
+
+Bu, bilişsel psikolojide uzun süredir bilinen bir olgu. Ama siyasal sonucu şudur:
+
+**Etiketleme, zararı önlemeyebilir.**
+
+Avrupa Birliği'nin ve pek çok eyaletin düzenleme stratejisi büyük ölçüde şeffaflığa dayanıyor: İçerik yapay zekâ ürünüyse söylensin, seçmen bilsin, karar versin.
+
+O'Connor'ın bulgusu bu stratejinin varsayımını sarsıyor. Bilmek, etkilenmemek anlamına gelmiyor.
+
+## Her yapay zekâ aynı şey değil
+
+Burada bir ayrım yapmak gerekiyor, çünkü tartışma kolayca topyekûn bir teknoloji reddine kayabiliyor.
+
+Los Angeles belediye yarışındaki bir adayın karikatürize yapay zekâ reklamları, kimseyi kandırmaya çalışmıyordu; mem gibi işliyordu. Kimse onları gerçek sanmadı, sanmaları da beklenmiyordu.
+
+Aldatıcı olan ile **abartılı** olan arasındaki fark, siyasal iletişimin en eski ayrımlarından biri. Karikatür bir yalan değildir.
+
+Sorun, bu ayrımın kimin tarafından ve hangi ölçütle yapılacağı. New York'ta bir valilik kampanyasının yapay zekâ reklamı için Demokratlar seçim kuruluna başvurdu: "aldatıcı" etiketi eksikti. Cumhuriyetçi taraf ise içeriğin **hiciv** olduğunu savundu.
+
+Hiciv ile aldatma arasındaki sınırı çizmek, bir teknoloji sorunu değil. Bir yorum sorunu.
+
+## Foucault'nun sorusu
+
+Bu tartışma genellikle "deepfake yasaklansın mı?" sorusuna sıkışıyor. Oysa daha temel bir katman var.
+
+Sitemizde bu hafta ele aldığımız [Foucault dosyasında](/haber/foucault-iktidar-bilgi-normal) anlattığımız gibi, iktidar yalnızca yasaklayan bir güç değildir. **Neyin görünür, neyin söylenebilir, neyin normal olduğunu üretir.**
+
+Yapay zekâ bu anlamda bir propaganda makinesi olmaktan önce bir **görünürlük makinesidir**.
+
+Bir konu gündeme getirilmiyorsa yurttaş onu daha az görür. Bir aday hakkında sürekli belirli tonda içerik üretiliyorsa, o adayın kamusal karakteri gerçek performansından bağımsız olarak kurulabilir.
+
+O halde soru şu:
+
+**Algoritmalar kimin görünür olacağına karar veriyorsa, seçim hâlâ yalnızca seçmenin yaptığı bir seçim midir?**
+
+## Habermas'ın kamusal alanı bölünüyor
+
+Jürgen Habermas'ın kamusal alan kuramı — sitemizde [ölümünün ardından ayrıntılı ele aldığımız](/haber/jurgen-habermas-1929-2026) gibi — yurttaşların **ortak bir tartışma alanında** fikirlerini karşılaştırabilmesini varsayar.
+
+Sosyal medya bu varsayımı zaten zorlamıştı. Yapay zekâ bir adım daha atıyor.
+
+Çünkü artık aynı kampanya, her seçmene **farklı bir versiyon** gönderebilir. Birine ekonomik kaygı, diğerine göç, üçüncüsüne güvenlik üzerinden konuşan; hangi mesajın kimde tuttuğunu ölçerek öğrenen bir sistem.
+
+Bu durumda siyaset "kamuoyunu ikna etmek" olmaktan çıkıp **kişiye özel gerçeklikler üretmeye** yaklaşabilir.
+
+Ve Hannah Arendt'in totalitarizm çözümlemelerindeki uyarı burada geri döner: Siyasetin sürdürülebilmesi için insanların **ortak bir dünyayı** paylaşması gerekir. Ortak dünya dağılırsa, ortak siyaset de dağılır.
+
+## Mouffe'un ayrımı ve yeni bir risk
+
+Sitemizde bu hafta ele aldığımız [Chantal Mouffe dosyasında](/haber/chantal-mouffe-agonistik-demokrasi) anlattığımız agonistik demokrasi kuramının çekirdeği şuydu: Demokrasi çatışmayı ortadan kaldırmaz; onu **düşmanlık** yerine **rekabet** olarak tutar.
+
+Rakip, yenilmesi gereken bir düşman değil, meşru bir muhataptır.
+
+Algoritmik kampanya yönetimi bu ayrımı sessizce aşındırabilir. Çünkü optimizasyon mantığında rakibin seçmeni bir muhatap değil, **hedeflenecek bir davranış profilidir**. Onunla konuşulmaz; üzerinde çalışılır.
+
+Siyaset felsefesinin düşman–rakip–yurttaş ayrımı, böylece teknik bir katman kazanıyor.
+
+## Peki ne yapılabilir?
+
+Bu noktada dürüst olmak gerekiyor: Kolay bir cevap yok, ve "yapay zekâ iyi mi kötü mü" sorusu tartışmanın seviyesini düşürüyor.
+
+Sorulması gereken soru şu: **Yapay zekânın siyasal gücü hangi kurumlar tarafından sınırlanacak?**
+
+Şeffaflık ve etiketleme mi? Siyasi reklam finansmanının açıklanması mı? Hedefleme yöntemlerinin denetlenmesi mi? Platform sorumluluğu mu? Yoksa bazı kullanımların doğrudan yasaklanması mı?
+
+Avrupa Birliği bunların birkaçını birden deniyor. Ama sonucu, sitemizde bugün ayrıca ele aldığımız [AB dosyasında](/haber/ab-yapay-zeka-yasasi-secim-kurali-erteleme) anlattığımız gibi, iç açıcı değil: Seçim yapay zekâsını yüksek riskli ilan eden kural, yürürlüğe girmesine altı gün kala ertelendi.
+
+Amerika Birleşik Devletleri'nde federal düzenleme fiilen yok; eyaletler dağınık bir yama düzeni uyguluyor.
+
+Hukuk teknolojiden yavaş. Siyaset hukuktan da yavaş.
+
+## Son soru
+
+Politik yapay zekânın en büyük dönüşümü belki seçim sonuçlarında değil, **yurttaşlık fikrinde** yaşanacak.
+
+Demokratik yurttaş, klasik tanımıyla bilgi edinir, tartışır, ikna olur, ikna eder ve karar verir. Bu tanımın merkezinde **fail** olmak vardır.
+
+Algoritmik siyaset ise yurttaşı giderek bir **tahmin nesnesi** olarak ele alabilir: neyden korktuğu, hangi görüntüye tepki verdiği, hangi saatte çevrimiçi olduğu, hangi kelimelerden etkilendiği ölçülebilir.
+
+Ölçülen yurttaş ile yönetilen yurttaş arasındaki mesafe, sanıldığından kısa.
+
+Ve bu mesafenin korunması teknolojik bir mesele değil, kurumsal bir mesele.
+
+Çünkü nihayetinde soru yapay zekânın ne kadar akıllı olduğu değil:
+
+**İnsanların kendi siyasal kararlarını verme hakkını ne kadar koruyacağımız.**`,
+  },
+  {
+    title: "Avrupa seçim yapay zekâsını yüksek riskli ilan etti — ve kuralı altı gün kala erteledi",
+    slug: "ab-yapay-zeka-yasasi-secim-kurali-erteleme",
+    summary:
+      "AB Yapay Zekâ Yasası, seçmen davranışını etkilemeye yönelik sistemleri açıkça yüksek riskli sayıyor. Bu yükümlülükler 2 Ağustos 2026'da başlayacaktı. 27 Temmuz'da yürürlüğe giren bir düzenlemeyle 2 Aralık 2027'ye ertelendi. Aradaki fark: bir seçim yılı.",
+    seoTitle: "AB Yapay Zekâ Yasası: seçim kuralı 2027'ye ertelendi (Digital Omnibus)",
+    metaDescription:
+      "Regulation (EU) 2026/1744 ile AI Act'in Ek III yüksek riskli yükümlülükleri 2 Aralık 2027'ye ertelendi. Etiketleme yükümlülüğü yürürlükte kaldı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Belgique%20-%20Bruxelles%20-%20Schuman%20-%20Berlaymont%20-%2001.jpg?width=1600",
+    imageCredit: "Berlaymont, Avrupa Komisyonu binası, Brüksel · Wikimedia Commons",
+    featured: true,
+    sourceName: "European Commission",
+    sourceUrl: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+    publishedAt: "2026-09-10T03:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "hukuk-felsefesi", "demokrasi", "risk", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Annex III — High-risk AI systems",
+        publisher: "AI Act Service Desk, European Commission",
+        url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+        primary: true,
+      },
+      {
+        title: "EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes",
+        publisher: "Gibson Dunn",
+        url: "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+      },
+    ],
+    content: `Avrupa Birliği Yapay Zekâ Yasası'nın **Ek III** listesinde şöyle bir madde var:
+
+Bir seçimin ya da referandumun sonucunu veya seçmenlerin oy verme davranışını **etkilemeye yönelik** yapay zekâ sistemleri — **yüksek riskli**.
+
+Bu, hukuki olarak ciddi bir nitelendirme. Yüksek riskli sayılan bir sistem için sağlayıcının risk yönetim sistemi kurması, teknik dokümantasyon tutması, kalite yönetim sistemi işletmesi, uygunluk değerlendirmesi yaptırması ve AB veri tabanına kayıt olması gerekiyor.
+
+Bu yükümlülüklerin başlama tarihi **2 Ağustos 2026** idi.
+
+Başlamadı.
+
+## Altı gün
+
+**Regulation (EU) 2026/1744** — kamuoyunda **Digital Omnibus on AI** olarak bilinen düzenleme — Resmî Gazete'de **24 Temmuz 2026**'da yayımlandı ve **27 Temmuz 2026**'da yürürlüğe girdi.
+
+Orijinal tarihten altı gün önce.
+
+Getirdiği değişiklik: Ek III kapsamındaki bağımsız yüksek riskli sistemler için yükümlülükler **2 Aralık 2027**'ye ertelendi. Ek I'deki düzenlenmiş ürünlere gömülü yapay zekâ için tarih **2 Ağustos 2028**.
+
+Komisyon'un gerekçesi teknik: Ulusal yetkili otoritelerin atanmasında gecikmeler yaşandı; uyumlaştırılmış standartlar ve uyum araçları tamamlanamadı. Yükümlülükleri, uyulmasını mümkün kılan altyapı hazır olmadan başlatmak anlamsız olurdu.
+
+Bu gerekçe savunulabilir. Ama zamanlamanın yarattığı tabloyu değiştirmiyor.
+
+## Ertelenmeyenler
+
+Tabloyu doğru kurmak için ne kaldığını da söylemek gerekiyor, çünkü "AB kuralı kaldırdı" özeti yanlış olur.
+
+**Madde 50 — şeffaflık ve etiketleme.** Yapay zekâ tarafından üretilen ya da değiştirilen içeriğin işaretlenmesi yükümlülüğü **2 Ağustos 2026'da yürürlüğe girdi** ve ertelenmedi. Deepfake içeriklerin açıkça belirtilmesi bu maddenin kapsamında.
+
+**Madde 5 — yasaklı uygulamalar.** Bilinçaltı teknikleriyle davranış manipülasyonu, kırılganlıkların istismarı ve sosyal puanlama gibi uygulamalar **Şubat 2025**'ten beri yasak.
+
+**Genel amaçlı yapay zekâ sağlayıcı yükümlülükleri.** Ağustos 2025'ten beri uygulanıyor.
+
+Yani bir kampanya, ürettiği sentetik videoyu etiketlemek zorunda. Ama o videoyu üreten sistemin risk değerlendirmesinden geçmesi zorunlu değil — en az on beş ay daha.
+
+## Etiketleme yeterli mi?
+
+Burası, haberin felsefi olarak ilginç kısmı.
+
+Erteleme sonrası ayakta kalan rejim, tek bir varsayıma dayanıyor: **Bilgilendirilmiş yurttaş kendini korur.**
+
+İçerik yapay zekâ ürünüyse söylenir; seçmen bunu bilir; ona göre değerlendirir.
+
+Sitemizde bugün ayrıca ele aldığımız [politik yapay zekâ dosyasında](/haber/politik-yapay-zeka-secim-hakikat) aktardığımız bulgu tam da bu varsayımı hedef alıyor: UC Irvine'dan epistemolog Cailin O'Connor'a göre bir seçmen reklamın sentetik olduğunu bilse bile **duygusal etki kalıcı olabiliyor**.
+
+Bunu ciddiye alırsak, etiketleme rejimi bir çözüm değil, bir **sorumluluk devri** olur: Zarar önlenmiş olmaz; zarardan korunma yükümlülüğü, sistemi kurandan onu izleyene aktarılır.
+
+Bu tam olarak yeni bir tartışma değil. Sigara paketlerindeki uyarılardan gıda etiketlerine kadar, düzenleme kuramının klasik gerilimlerinden biri: **Bilgilendirme mi, sınırlama mı?**
+
+Aradaki fark şu ki sigara paketini okuyan kişi kendi kararını verir. Kişiselleştirilmiş bir siyasal mesaj, kararın verildiği zemini biçimlendirir.
+
+## Alexy açısından bakmak
+
+Sitemizde bu hafta ele aldığımız [Robert Alexy dosyasında](/haber/robert-alexy-hukukun-ikili-dogasi) anlattığımız orantılılık sınaması, bu ertelemeyi değerlendirmek için kullanılabilir bir çerçeve sunuyor.
+
+**Elverişlilik:** Erteleme, hedeflenen amaca — uygulanabilir bir düzenleme rejimine — hizmet ediyor mu? Standartlar hazır değilse, evet.
+
+**Gereklilik:** Aynı amaca, korumayı daha az zayıflatan bir yolla ulaşılabilir miydi? Örneğin yalnızca seçimle ilgili sistemleri kapsam dışı bırakmayan, kademeli bir geçiş takvimi mümkün müydü? Bu soru kamuoyunda yeterince tartışılmadı.
+
+**Dar anlamda orantılılık:** Feda edilen — bir seçim yılında seçmen davranışını hedefleyen sistemlerin denetimsiz kalması — ile kazanılan — sağlayıcılar için uyum kolaylığı — arasında makul bir denge var mı?
+
+Alexy'nin ısrarı, bu sorulara verilen cevapların **açıkça yazılması** gerektiğiydi. Ertelemenin gerekçesinde teknik zorluklar ayrıntılı biçimde yer alıyor; korumanın gecikmesinin bedeli ise çok daha az.
+
+## Ölçek sorunu
+
+Bir başka boyut daha var ve genellikle atlanıyor.
+
+AB'nin düzenlediği şey, sistemleri **piyasaya sürenlerdir**. Ama seçim döneminde sentetik içerik üreten aktörlerin önemli bir kısmı sağlayıcı değil, **kullanıcı**. Ücretsiz araçlarla, dakikalar içinde, kimliği belirsiz sayfalar üzerinden.
+
+Macaristan örneğinde, Fidesz'in videosuna benzeyen içeriklerin kimliği belirsiz bir sayfa üzerinden reklam olarak yayıldığı belgelendi.
+
+Bir sağlayıcıya risk yönetim sistemi kurdurabilirsiniz. Bir anonim Facebook sayfasına kurduramazsınız.
+
+Bu, düzenlemenin işe yaramayacağı anlamına gelmiyor. Ama düzenlemenin **nereye** yerleşeceği sorusunu açıyor: üretim noktasına mı, dağıtım noktasına mı?
+
+## Türkiye açısından
+
+Türkiye AB Yapay Zekâ Yasası'na tabi değil. Ancak iki nedenle bu gelişme takip edilmeli.
+
+Birincisi, AB düzenlemeleri tarihsel olarak sınırlarının ötesine yayılıyor — veri koruma alanında yaşandığı gibi. Küresel platformlar tek bir uyum standardı kurmayı tercih ediyor.
+
+İkincisi ve daha önemlisi: Erteleme kararının kendisi, **hukukun teknolojiyi izleme kapasitesi** hakkında bir veri. Avrupa Birliği, dünyanın en kapsamlı yapay zekâ düzenlemesini yazdı, dört yıla yakın hazırlandı ve yine de zamanında uygulayamadı.
+
+Bu, kötü niyetin değil, hızın sonucu.
+
+## Kapanış
+
+Bir kural yazmak ile bir kuralı işletmek arasındaki mesafe, hukuk felsefesinin en eski konularından biri.
+
+Ek III'te "seçim yapay zekâsı yüksek risklidir" yazıyor. Bu cümle 2026'da da doğruydu, 2027'de de doğru olacak.
+
+Değişen tek şey, cümlenin ne zaman **bağlayıcı** olduğu.
+
+Ve seçimler, kuralın beklediği tarihi beklemiyor.`,
+  },
+  {
+    title: "Wallerstein: ülkelere bakarak dünyayı anlayamazsınız",
+    slug: "immanuel-wallerstein-dunya-sistemleri",
+    summary:
+      "Bir ülkenin zengin, diğerinin yoksul olması Wallerstein için iki ayrı hikâye değildi. Aynı hikâyenin iki ucuydu. Dünya-sistemleri çözümlemesi, sosyal bilimin en rahatsız edici sorusunu sordu: Ya inceleme birimimiz baştan yanlışsa?",
+    seoTitle: "Immanuel Wallerstein ve dünya-sistemleri çözümlemesi",
+    metaDescription:
+      "Wallerstein'ın dünya-sistemleri kuramı: merkez, yarı-çevre ve çevre; 1968'in anlamı; disiplinlerin eleştirisi ve kuramın bugünkü sınırları.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Container%20ships%20Jessica%20B%20(IMO%209226384)%20at%20the%20container%20terminal%20Burchardkai%2C%20port%20of%20Hamburg-4749.jpg?width=1600",
+    imageCredit: "Burchardkai konteyner terminali, Hamburg Limanı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Duke University Press",
+    sourceUrl: "https://www.dukeupress.edu/world-systems-analysis",
+    publishedAt: "2026-09-10T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["marksizm", "siyaset-felsefesi", "tarih", "kavram", "postkolonyalizm"],
+    philosopherSlugs: ["immanuel-wallerstein"],
+    sources: [
+      {
+        title: "World-Systems Analysis: An Introduction",
+        publisher: "Duke University Press",
+        url: "https://www.dukeupress.edu/world-systems-analysis",
+        primary: true,
+      },
+      {
+        title: "Immanuel Wallerstein, 1930-2019 — obituary",
+        publisher: "Times Higher Education",
+        url: "https://www.timeshighereducation.com/people/immanuel-wallerstein-1930-2019-obituary",
+      },
+    ],
+    content: `Sosyal bilimde en zor soru genellikle "cevap nedir?" değildir.
+
+**"Neyi inceliyoruz?"** sorusudur.
+
+Bir ülkenin ekonomisini incelemeye karar verdiğinizde, o ülkenin bir inceleme birimi olduğunu çoktan varsaymış olursunuz. Sınırları anlamlıdır, içerisi ile dışarısı ayrılabilir, kalkınma ya da geri kalma o sınırların içinde açıklanabilir.
+
+**Immanuel Wallerstein**'ın kariyeri, bu varsayımı reddetmekle geçti.
+
+## Afrika'dan başlayan yol
+
+1930'da New York'ta doğdu. Columbia Üniversitesi'nde okudu ve akademik hayatına bir Amerikan sosyologundan beklenmeyecek bir alanla başladı: **Afrika çalışmaları**. Elli ve altmışlı yıllarda sömürgecilik sonrası Afrika'daki ulusal kurtuluş hareketleri üzerine çalıştı.
+
+Bu ayrıntı biyografik bir not değil; kuramın çıkış noktası.
+
+Çünkü Wallerstein sahada şunu gördü: Bağımsızlığını kazanan ülkelerin karşılaştığı sorunlar, o ülkelerin iç özellikleriyle açıklanamıyordu. Farklı tarihlere, farklı kültürlere, farklı yönetimlere sahip ülkeler benzer duvarlara çarpıyordu.
+
+Ortak olan şey ülkelerin içinde değil, **aralarındaki ilişkideydi**.
+
+## Modernleşme kuramına itiraz
+
+O dönemin egemen açıklaması **modernleşme kuramıydı**. Kabaca şöyle işliyordu: Bütün toplumlar aynı yoldan geçer. Bazıları önde, bazıları geride. Geride olanlar doğru kurumları kurar, doğru değerleri benimser ve zamanla öndekilere yetişir.
+
+Bu kuramın örtük varsayımı, her ülkenin kendi yolunda **bağımsız** olarak ilerlediğiydi.
+
+Wallerstein'ın itirazı basit ve yıkıcıydı:
+
+**Bir ülkenin zengin olması ile bir diğerinin yoksul kalması, bağımsız iki olgu değil, aynı sürecin iki yüzü olabilir.**
+
+Bu doğruysa, "geri kalmışlık" bir gecikme değil, bir **konumdur**.
+
+## Merkez, yarı-çevre, çevre
+
+1974'te yayımlanan ***The Modern World-System***, modern kapitalizmin doğuşunu on altıncı yüzyıl Avrupa dünya-ekonomisine bağlar.
+
+Wallerstein'ın kavram takımı üç kademelidir ve coğrafi bir sınıflandırma değildir — bir **işbölümü** haritasıdır.
+
+**Merkez:** Yüksek katma değerli üretim, güçlü devlet yapıları, sermaye birikimi, nitelikli emek.
+
+**Çevre:** Hammadde ve düşük katma değerli üretim, zayıf devlet kapasitesi, ucuz ve çoğu zaman zorlayıcı emek biçimleri.
+
+**Yarı-çevre:** İkisinin arasında. Hem sömürülen hem sömüren; sistemin siyasal olarak istikrar kazanmasını sağlayan tampon.
+
+Yarı-çevre kavramı, kuramın en özgün parçası. Çünkü ikili bir dünya modeli — zengin kuzey, yoksul güney — siyaseten kırılgandır. Arada bir katman varsa, mutlak bir karşıtlık oluşmaz ve sistem kendini yeniden üretir.
+
+Türkiye, Brezilya, Güney Kore gibi ülkelerin farklı dönemlerde bu kademede tartışılması tesadüf değil.
+
+## Asıl hedef: parçalanmış bilgi
+
+Wallerstein'ın ikinci ve daha az konuşulan kavgası, sosyal bilimin **kendi yapısıylaydı**.
+
+Ekonomiyi ekonomistlere, siyaseti siyaset bilimcilere, tarihi tarihçilere, toplumu sosyologlara bölmenin masum bir işbölümü olmadığını savundu.
+
+Bu bölünme, on dokuzuncu yüzyılda belirli bir dünya görüşü içinde kurulmuştu: Piyasa, devlet ve toplum ayrı alanlar sayılıyordu; her birinin kendi yasaları vardı.
+
+Wallerstein'a göre bu ayrım gerçekliğe değil, **ideolojiye** karşılık geliyordu. Ve modern dünyanın gerçek işleyişi tam da bu alanların kesiştiği yerde olup bitiyordu.
+
+Duke University Press'in *World-Systems Analysis* tanıtımında öne çıkarılan üç yöntemsel ilke bunu özetliyor: ulus-devlet yerine dünya-sistem; kısa dönem yerine **uzun tarihsel süre**; ayrı disiplinler yerine tek bir çerçeve.
+
+Bu yönüyle Wallerstein yalnızca bir sosyolog değil, bir **bilgi eleştirmenidir**. Sitemizde bu hafta ele aldığımız [Michel Foucault dosyasıyla](/haber/foucault-iktidar-bilgi-normal) buradaki akrabalık açık: İkisi de bilginin nasıl bölündüğünün, iktidarın nasıl işlediğinden ayrılamayacağını savundu.
+
+## 1968 neden dönüm noktası?
+
+Wallerstein'ın düşüncesinde 1968, Paris'teki barikatlardan ibaret değildir. Dünya-sistemin **meşruiyetinde** bir kırılmadır.
+
+Argümanı şöyle işler.
+
+On dokuzuncu yüzyıldan itibaren sisteme karşı üç büyük hareket doğdu: komünist hareketler, sosyal demokrasi ve ulusal kurtuluş hareketleri. Üçü de ortak bir strateji izledi — **önce devlet iktidarını al, sonra dünyayı değiştir**.
+
+Yirminci yüzyılın ortasına gelindiğinde bu strateji büyük ölçüde başarılı olmuştu. Hareketler iktidara geldi.
+
+Ve dünya beklendiği gibi değişmedi.
+
+1968, Wallerstein'a göre bu hayal kırıklığının patladığı andır. İsyan yalnızca hükümetlere değil, **eski muhalefete** de yönelikti.
+
+Buradan çıkan soru bugün de duruyor:
+
+**Sistemi değiştirmek için iktidara gelen hareketler, iktidara geldiklerinde sistemin parçası mı oluyor?**
+
+Sitemizde bu hafta ele aldığımız [Karl Marx dosyasında](/haber/karl-marx-yabancilasma-meta-fetisizmi) belirttiğimiz gibi, Marx'ın devlet kuramındaki boşluk yirminci yüzyılın en pahalı boşluklarından biri oldu. Wallerstein'ın sorusu o boşluğun içinden geliyor.
+
+## İtirazlar
+
+Dürüst bir portre eleştirileri de içermeli, çünkü dünya-sistemleri kuramı geniş kabul görmüş bir doktrin değil.
+
+**Belirlenimcilik itirazı.** Kuram, ulusal aktörlere ne kadar hareket alanı bırakıyor? Bir ülkenin izlediği politikalar sistemdeki konumu tarafından belirleniyorsa, siyasetin anlamı ne? Güney Kore ve Tayvan gibi örneklerin çevreden merkeze doğru hareketi, kuramın tahmin gücünü tartışmalı hale getiriyor.
+
+**Ekonomi indirgemeciliği itirazı.** Kültür, din, ulusal kimlik ve siyasal geleneklerin açıklamadaki payı yeterince ağır mı?
+
+**Tarihsel itirazlar.** On altıncı yüzyıl Avrupa'sını tek bir dünya-ekonomisinin merkezi saymak, aynı dönemde Çin ve Hint Okyanusu ticaret ağlarının hacmi karşısında Avrupa merkezci bir okuma mı? Son yirmi yılın küresel tarih çalışmaları bu soruyu güçlü biçimde sordu.
+
+Bunlar ciddi itirazlar ve kuramın bazı iddialarını gerçekten zayıflatıyor.
+
+## Yine de neden okunuyor?
+
+Çünkü sorduğu soru duruyor.
+
+Bugün küresel tedarik zincirleri, veri merkezlerinin coğrafi dağılımı, nadir toprak elementleri, iklim yükünün eşitsiz paylaşımı ve göç hareketleri tartışılırken kullanılan çerçevelerin çoğu, Wallerstein'ın açtığı yolda ilerliyor.
+
+Bir örnek yeter: Yapay zekâ tartışması genellikle bir teknoloji tartışması olarak yürütülüyor. Oysa modellerin eğitildiği veri, o veriyi etiketleyen düşük ücretli emek, sistemleri çalıştıran enerji ve o enerjinin çıkarıldığı bölgeler yan yana konduğunda ortaya çıkan tablo, **klasik bir işbölümü haritasıdır**.
+
+Sitemizde bu hafta ele aldığımız [emek süreci kuramı dosyası](/haber/emek-sureci-kurami-hci-yapay-zeka) bu haritanın işyeri ölçeğindeki halini gösteriyordu. Wallerstein'ın katkısı, aynı soruyu **gezegen ölçeğinde** sormak.
+
+## Sistem kriz içindeyse
+
+Wallerstein'ın son dönem yazılarının merkezinde dünya-sisteminin **yapısal krizi** fikri vardı.
+
+Bu bir çöküş kehaneti değildi ve öyle okunması yanlış olur.
+
+Söylediği daha ilginçti: Bir sistem yapısal krize girdiğinde, küçük müdahalelerin sonuçları öngörülemez hale gelir. Normal dönemlerde bireysel eylemin etkisi sınırlıdır; kriz dönemlerinde ise **belirlenmemişlik artar**.
+
+Yani gelecek, ekonominin otomatik sonucu değildir. Mücadelenin sonucudur.
+
+Bu, kuramın kaderci görünen yüzüne konmuş bilinçli bir karşı ağırlıktı.
+
+## Kapanış
+
+Wallerstein 2019'da, seksen sekiz yaşında öldü.
+
+Geride bir doktrin bırakmadı — bıraktığı şey bir **bakış açısı değişikliğiydi**.
+
+Bir ülkenin neden yoksul olduğunu sorduğunuzda, cevabı o ülkenin içinde aramak zorunda değilsiniz.
+
+Bazen doğru soru şudur: **Bu yoksulluk kimin zenginliğinin koşulu?**
+
+---
+
+*Immanuel Wallerstein 28 Eylül 1930'da New York'ta doğdu, 31 Ağustos 2019'da öldü. Columbia, McGill ve Binghamton üniversitelerinde görev yaptı; Binghamton'daki Fernand Braudel Merkezi'ni yönetti. Başlıca eserleri: The Modern World-System (dört cilt, 1974-2011) · Historical Capitalism · World-Systems Analysis: An Introduction · Utopistics.*`,
+  },
   {
     title: "Demokrasi sandıkta değil, yenilgiyi kabul etme biçiminde sınanıyor",
     slug: "demokratik-normlar-kutuplasma-dokuz-ulke",
@@ -21811,6 +23380,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Consciousness and Inner Awareness",
+    slug: "bordini-dewalque-giustina-inner-awareness",
+    originalTitle: "Consciousness and Inner Awareness",
+    publisher: "Cambridge University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781009383769",
+    coverImage: null,
+    description:
+      "Davide Bordini, Arnaud Dewalque ve Anna Giustina'nın derlediği yeni denemeler cildi, zihin felsefesinin temel bir varsayımını sorguluyor: Farkındalık İlkesi — her bilinçli zihinsel hâl için, öznesinin o hâlin farkında olduğu iddiası. İlke erken fenomenologlar ve erken analitik filozoflar tarafından büyük ölçüde kabul ediliyordu; çağdaş zihin felsefesinde ise tartışmalı. Katkıda bulunanlar arasında Uriah Kriegel ve Daniel Stoljar var.",
+    year: 2026,
+    link: "https://www.cambridge.org/core/books/consciousness-and-inner-awareness/B7F50CD74AD04444472264A70C2E3495",
+    philosopherSlug: null,
+    postSlug: "bilinc-ve-ic-farkindalik-cambridge-derleme",
+  },
+  {
     title: "Hermeneutik Dersleri — 1809/1810 Güz ve 1819 Bahar Yarıyılı",
     slug: "schleiermacher-hermeneutik-dersleri",
     originalTitle: "Vorlesungen zur Hermeneutik",
@@ -22413,6 +23998,41 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "16. Uluslararası Felsefi Antropoloji Kongresi — Homo pictor: Sanat, İmgelem ve Yaratım",
+    slug: "homo-pictor-shaf-barselona-2026",
+    summary:
+      "İspanyol Felsefi Antropoloji Derneği'nin 16. kongresi, insanın imge yaratan varlık olarak konumunu ele alıyor. Yapay zekâ ve ekolojik kriz de programda.",
+    description: `Universitat Internacional de Catalunya (UIC Barcelona) ile İspanyol Felsefi Antropoloji Derneği (Sociedad Hispánica de Antropología Filosófica, SHAF) tarafından düzenleniyor.
+
+Kongrenin teması: **Homo pictor — hayal eden, betimleyen ve yaratan insan.**
+
+Bu bakış açısında imge yaratma yetisi, insanın dünyayla ve kendisiyle kurduğu ilişkiyi biçimlendiren temel bir edim olarak ele alınıyor. Kongre, bu çekirdek insan deneyimini bütünleştirici ve disiplinlerarası bir perspektiften incelemeyi amaçlıyor.
+
+Program başlıkları: sanatsal yaratım, imgelem, beceri, yeni teknolojilerin (yapay zekâ dahil) etkisi ve günümüzün ekolojik sorunlarının insanın yaratıcı konumu açısından doğurduğu sorular.
+
+Kongre araştırmacıların, öğretim elemanlarının, öğrencilerin ve konuya ilgi duyan herkesin katılımına açık.
+
+Ayrıntılı bilgi: uic.es ve shaf.filosofia.net`,
+    kind: "KONGRE",
+    organizer: "Universitat Internacional de Catalunya · Sociedad Hispánica de Antropología Filosófica (SHAF)",
+    topic: "Felsefi antropoloji, imge, yaratıcılık, yapay zekâ, ekoloji",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-30T07:00:00.000Z",
+    endsAt: "2026-10-02T17:00:00.000Z",
+    timezone: "Europe/Madrid",
+    hasTime: false,
+    city: "Barselona",
+    country: "İspanya",
+    venue: "UIC Barcelona, Campus Barcelona (Inmaculada 22)",
+    website: "https://www.uic.es/en/congress/16th-international-congress-hispanic-society-philosophical-anthropology",
+    registrationUrl: "https://www.uic.es/en/congress/16th-international-congress-hispanic-society-philosophical-anthropology",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux%2C%20horse.JPG?width=1600",
+    sourceName: "Universitat Internacional de Catalunya",
+    sourceUrl: "https://www.uic.es/en/congress/16th-international-congress-hispanic-society-philosophical-anthropology",
+    featured: false,
+    publishedAt: "2026-09-10T02:40:00.000Z",
+  },
   {
     title: "COMET 2026 — Metaphysics in Contemporary Continental Philosophy",
     slug: "comet-2026-radboud",
