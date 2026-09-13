@@ -260,6 +260,161 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "David Harvey",
+    slug: "david-harvey",
+    headline: "İngiliz coğrafyacı ve sosyal kuramcı (1935)",
+    bio: "Marx'ı yeniden coğrafyalaştırdı: Kapitalizmin krizlerini mekânı yeniden düzenleyerek çözdüğünü, kentin sermayenin dolaşım biçimi olduğunu gösterdi. Mekânsal düzeltme ve mülksüzleştirme yoluyla birikim kavramlarının sahibi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Harvey2.jpg?width=600",
+    country: "Birleşik Krallık / ABD",
+    birthYear: 1935,
+    affiliation: "CUNY Graduate Center",
+    website: "https://davidharvey.org/",
+    featured: true,
+    listed: true,
+    fullName: "David William Harvey",
+    birthDate: "31 Ekim 1935, Gillingham, Kent",
+    alive: true,
+    period: "Yirminci ve yirmi birinci yüzyıl",
+    school: "Marksist coğrafya · eleştirel kent kuramı",
+    areas: "Politik ekonomi, kent kuramı, coğrafya felsefesi, Marx yorumu, neoliberalizm eleştirisi",
+    majorWorks: "Explanation in Geography (1969)\nSocial Justice and the City (1973)\nThe Limits to Capital (1982)\nThe Condition of Postmodernity (1989)\nParis, Capital of Modernity (2003)\nThe New Imperialism (2003)\nA Brief History of Neoliberalism (2005)\nRebel Cities (2012)\nSeventeen Contradictions and the End of Capitalism (2014)\nThe Story of Capital (2026)",
+    keyConcepts: "Mekânsal düzeltme (spatial fix), mülksüzleştirme yoluyla birikim, zaman-mekân sıkışması, kent hakkı, sermayenin kentleşmesi, hayalî sermaye",
+    influencedBy: "Karl Marx, Henri Lefebvre, Rosa Luxemburg, Antonio Gramsci",
+    influenced: "Eleştirel kent çalışmaları, kent hakkı hareketleri, Neil Smith, Doreen Massey, Andy Merrifield",
+    longBio: "Kent'te doğdu; Cambridge'de coğrafya okudu ve 1961'de doktorasını tamamladı. Bristol'da ders verdikten sonra 1969'da Johns Hopkins'e geçti; Baltimore'daki kentsel yoksulluk, pozitivist coğrafyadan Marksist analize dönüşünün başlangıcı oldu. 1987-93 arasında Oxford'da Halford Mackinder coğrafya profesörüydü; 2001'den beri New York'ta CUNY Graduate Center'da Distinguished Professor.\n\nThe Limits to Capital (1982), Marx'ın Kapital'ini mekânsal boyutuyla yeniden kuran temel eseridir: Sermaye, aşırı birikim krizlerini yeni coğrafyalara yayılarak — mekânsal düzeltme — erteler. The New Imperialism (2003) 'mülksüzleştirme yoluyla birikim' kavramını ortaya attı: İlkel birikim tarih öncesi bir olay değil, özelleştirme ve finansallaştırma yoluyla süren bir mekanizmadır.\n\nKapital üzerine kırk yılı aşkın dersleri çevrim içi yayımlandıktan sonra dünya çapında okunan bir Marx yorumcusu oldu. Şubat 2026'da Verso'dan çıkan The Story of Capital bu derslerin sentezidir. Doksanını geride bırakmasına rağmen ders vermeye devam ediyor.",
+    sources: "CUNY Distinguished Professors — https://www.cuny.edu/academics/faculty-affairs/distinguished-professors/ · Verso Books — https://www.versobooks.com/products/3372-the-story-of-capital",
+  },
+  {
+    name: "Fuzûlî",
+    slug: "fuzuli",
+    headline: "Şair ve düşünür (1480'ler-1556)",
+    bio: "Türkçe, Farsça ve Arapça üç divan bıraktı. Leylâ vü Mecnûn'da beşerî aşkı metafizik arayışa dönüştürdü; aşkı bir bilgi biçimi, acıyı insanın kendisiyle karşılaşması olarak düşündü.",
+    avatar: null,
+    country: "Irak-ı Arap (Osmanlı)",
+    birthYear: null,
+    affiliation: null,
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Mehmed bin Süleyman Fuzûlî",
+    birthDate: "1480'ler, Kerbelâ ya da Hille",
+    deathDate: "1556, Kerbelâ",
+    alive: false,
+    period: "On altıncı yüzyıl",
+    school: "Klasik Türk şiiri · tasavvufî düşünce",
+    areas: "Aşk felsefesi, tasavvuf, şiir kuramı, ahlak",
+    majorWorks: "Türkçe Divan\nFarsça Divan\nArapça Divan\nLeylâ vü Mecnûn (1535 civarı)\nHadîkatü's-Süedâ\nŞikâyetnâme\nBeng ü Bâde\nSıhhat u Maraz\nRind ü Zâhid",
+    keyConcepts: "Mecazî aşk / hakikî aşk, aşk-ı ilâhî, acı olarak bilgi, kendinden geçme (fenâ), mecaz köprüsü",
+    influencedBy: "Nizâmî, Câmî, Hâtifî, Nesîmî, Hâfız, tasavvuf geleneği",
+    influenced: "Bâkî, Nedîm, Şeyh Galib, Azerbaycan ve Türk edebiyatının bütünü; modern Türk şiiri",
+    longBio: "Hayatı hakkında bilinenler azdır. Kerbelâ ya da Hille'de, Bayat boyundan bir aileden geldiği kabul edilir; ömrünü Bağdat ve çevresinde geçirdi, Safevî yönetiminden Osmanlı'ya geçişi yaşadı. Kanuni'nin 1534 Bağdat seferinden sonra Osmanlı ileri gelenlerine kasideler sundu; kendisine bağlanan maaşın ödenmemesi üzerine yazdığı Şikâyetnâme, Türk nesrinin klasik metinlerindendir. 1556'da vebadan öldü.\n\nLeylâ vü Mecnûn'u Bağdat'taki Osmanlı yöneticilerinin isteğiyle yazdı. Nizâmî'nin anlatı modelini izlerken metne gazeller, murabbalar ve münacatlar yerleştirerek anlatı ile lirik iç dünyayı iç içe geçirdi. Dibacesinde 'mecaz yolu' ile ilâhî hakikatleri anlatmak istediğini açıkça söyler: Leylâ hakikatin, Mecnûn hakikati arayan ruhun simgesidir.\n\nŞiirinde aşk yalnızca duygu değil bilgi biçimi, acı yalnızca ıstırap değil kendini bilme yoludur. Bu yönüyle Fuzûlî, Türkçenin en büyük şairi olduğu kadar, düşünce tarihinde bir arzu felsefecisi olarak da okunabilir.",
+    sources: "Encyclopaedia Iranica — https://www.iranicaonline.org/articles/fozuli/ · Türk Dünyası Ansiklopedisi — https://turkdunyasiansiklopedisi.gov.tr/detay/1579/Fuzuli",
+  },
+  {
+    name: "Mary Midgley",
+    slug: "mary-midgley",
+    headline: "İngiliz filozof (1919-2018)",
+    bio: "İnsanı gene, makineye ya da bilgi işleyen sisteme indirgeyen her açıklamaya karşı çıktı; bilimin bulguları ile bilim adına anlatılan mitlerin aynı şey olmadığını savundu. Hayvan etiği ve insan doğası üzerine çalıştı.",
+    avatar: null,
+    country: "Birleşik Krallık",
+    birthYear: 1919,
+    affiliation: "Newcastle Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Mary Beatrice Midgley (kızlık soyadı Scrutton)",
+    birthDate: "13 Eylül 1919, Londra",
+    deathDate: "10 Ekim 2018, Newcastle upon Tyne",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Ahlak felsefesi · indirgemecilik eleştirisi",
+    areas: "İnsan doğası, hayvan etiği, bilim felsefesi, ahlak felsefesi, evrim ve din",
+    majorWorks: "Beast and Man (1978)\nAnimals and Why They Matter (1983)\nEvolution as a Religion (1985)\nScience as Salvation (1992)\nThe Ethical Primate (1994)\nScience and Poetry (2001)\nThe Myths We Live By (2003)\nAre You an Illusion? (2014)\nWhat Is Philosophy For? (2018)",
+    keyConcepts: "İndirgemecilik eleştirisi, bilim mitleri, insan doğası, hayvan-insan sürekliliği, felsefe tesisatçılık olarak",
+    influencedBy: "Aristoteles, Darwin, Wittgenstein, Iris Murdoch, Philippa Foot",
+    influenced: "Hayvan etiği, bilim felsefesinde eleştirel gelenek, Mary Warnock, çağdaş erdem etiği",
+    longBio: "Londra'da doğdu; Oxford'da Somerville College'da Anscombe, Foot ve Murdoch'la aynı yıllarda okudu. Savaş yıllarında erkek öğrencilerin cepheye gitmesiyle boşalan seminerlerde kadınların felsefede söz sahibi olduğunu sonradan anlattı. Newcastle Üniversitesi'nde ders verdi; ilk kitabını elli dokuz yaşında yayımladı.\n\nBeast and Man (1978), insanı hayvanlarla süreklilik içinde ama indirgemeden düşünmenin yolunu aradı. Evolution as a Religion (1985) ve Science as Salvation (1992), bilimin bulguları ile bilim adına anlatılan kurtuluş hikâyelerini ayırdı; Richard Dawkins'le polemiği bu çerçevede ünlendi. Felsefeyi 'tesisatçılık' gibi görüyordu: Kavramsal boruların nerede tıkandığını bulmak.\n\nDoksan dokuz yaşında, ölümünden haftalar önce çıkan What Is Philosophy For? (2018) son kitabıdır. Yapay zekâ çağında indirgemecilik eleştirisi yeniden güncellik kazandı.",
+    sources: "Gifford Lectures — https://giffordlectures.org/speaker/mary-midgley/",
+  },
+  {
+    name: "Michel de Montaigne",
+    slug: "michel-de-montaigne",
+    headline: "Fransız düşünür, denemenin mucidi (1533-1592)",
+    bio: "Felsefeyi sistem kurmaktan kurtarıp kendini sınama biçimine dönüştürdü. 'Ne biliyorum?' sorusunu soyut metafizik üzerinden değil, kendi yaşamı üzerinden sordu; Denemeler modern öznelliğin kurucu metnidir.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Montaigne-Dumonstier.jpg?width=600",
+    country: "Fransa",
+    birthYear: 1533,
+    affiliation: null,
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Michel Eyquem de Montaigne",
+    birthDate: "28 Şubat 1533, Château de Montaigne, Périgord",
+    deathDate: "13 Eylül 1592, Château de Montaigne",
+    alive: false,
+    period: "Rönesans",
+    school: "Rönesans hümanizmi · şüphecilik",
+    areas: "Ahlak felsefesi, epistemoloji, benlik, eğitim, kültürel görelilik",
+    majorWorks: "Denemeler (Essais, 1580; genişletilmiş 1588; ölümünden sonra 1595)\nSeyahat Günlüğü (1774'te yayımlandı)",
+    keyConcepts: "Que sais-je? (Ne biliyorum?), deneme (essai) olarak düşünme, benliğin sınanması, şüphecilik, kültürel görelilik, ölüme hazırlanma",
+    influencedBy: "Plutarkhos, Seneca, Sextus Empiricus, Sokrates, Lucretius, Étienne de La Boétie",
+    influenced: "Descartes, Pascal, Shakespeare, Rousseau, Nietzsche, Emerson, modern deneme türü",
+    longBio: "Bordeaux yakınlarında varlıklı bir ailede doğdu; babası onu Latinceyi ana dili gibi öğrenecek biçimde yetiştirdi. Bordeaux parlamentosunda görev yaptı; dostu Étienne de La Boétie'nin 1563'teki ölümü hayatının en derin yarası oldu. 1571'de otuz sekiz yaşında kamu hayatından çekilip şatosunun kulesindeki kütüphaneye kapandı ve kendini yazmaya başladı.\n\nDenemeler'in ilk baskısı 1580'de çıktı; Montaigne ömrünün sonuna kadar metne eklemeler yaptı. Kitap, bir sistem değil bir kendini sınama girişimidir: 'Kendimi anlatıyorum' der; böbrek taşlarından uyku alışkanlıklarına, yamyamlardan ölüm korkusuna her şey konu olur. Şüpheciliğin mottosu 'Que sais-je?' bilgiyi reddetmez, insan ölçüsünü arar.\n\nİki dönem Bordeaux belediye başkanlığı yaptı; din savaşlarında arabuluculuk üstlendi. 13 Eylül 1592'de şatosunda öldü. Descartes'ın Meditasyonlar'ı ve Pascal'ın Düşünceler'i Montaigne'e verilmiş cevaplar olarak okunabilir.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/montaigne/",
+  },
+  {
+    name: "Ludwig Feuerbach",
+    slug: "ludwig-feuerbach",
+    headline: "Alman filozof (1804-1872)",
+    bio: "Tanrı'nın insanın kendi özünü sonsuzlaştırıp dışarı yansıtması olduğunu savundu: Teoloji gizli antropolojidir. Hristiyanlığın Özü, Marx'ın yabancılaşma kuramından psikanalize on dokuzuncu yüzyılın en etkili din eleştirisidir.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20Andreas%20Feuerbach.jpg?width=600",
+    country: "Almanya",
+    birthYear: 1804,
+    affiliation: null,
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Ludwig Andreas von Feuerbach",
+    birthDate: "28 Temmuz 1804, Landshut",
+    deathDate: "13 Eylül 1872, Rechenberg (Nürnberg)",
+    alive: false,
+    period: "On dokuzuncu yüzyıl",
+    school: "Genç Hegelciler · materyalizm · hümanizm",
+    areas: "Din felsefesi, antropoloji, materyalizm, Hegel eleştirisi",
+    majorWorks: "Ölüm ve Ölümsüzlük Üzerine Düşünceler (1830)\nHristiyanlığın Özü (1841)\nGeleceğin Felsefesinin İlkeleri (1843)\nDinin Özü (1845)\nDin Üzerine Dersler (1851)",
+    keyConcepts: "Yansıtma (projeksiyon), teoloji olarak antropoloji, tür-varlığı (Gattungswesen), duyusal materyalizm, 'İnsan, yediği şeydir'",
+    influencedBy: "Hegel, Spinoza, Schleiermacher, Fransız materyalistleri",
+    influenced: "Karl Marx, Friedrich Engels, Max Stirner, Richard Wagner, Sigmund Freud, din sosyolojisi",
+    longBio: "Ünlü ceza hukukçusu Anselm von Feuerbach'ın oğlu. Heidelberg'de teoloji okumaya başladı, Berlin'de Hegel'in derslerine geçti. 1830'da anonim yayımladığı Ölüm ve Ölümsüzlük Üzerine Düşünceler, kişisel ölümsüzlüğü reddettiği için akademik kariyerini bitirdi; ömrünü Bruckberg'de, karısının porselen fabrikasının geliriyle yaşayan bağımsız bir yazar olarak geçirdi.\n\nHristiyanlığın Özü (1841) tezini tek cümleye sığdırır: Tanrı, insanın kendi özünü — aklını, iradesini, sevgisini — sonsuzlaştırıp dışarı yansıtmasıdır. İnsan Tanrı'ya verdiği her şeyi kendisinden eksiltir; din bir yabancılaşmadır. Marx bu tezi devraldı ve Feuerbach Üzerine Tezler'de onu aşmaya çalıştı: Feuerbach yabancılaşmayı dinde görmüştü, Marx ekonomide.\n\n1848 devrimine sempati duydu ama aktif katılmadı. Fabrikanın iflasıyla yoksulluğa düştü; son yıllarında işçi derneklerinin desteğiyle yaşadı. 13 Eylül 1872'de öldü; cenazesine işçiler katıldı.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/ludwig-feuerbach/",
+  },
+  {
+    name: "Samuel Alexander",
+    slug: "samuel-alexander",
+    headline: "Avustralya doğumlu İngiliz filozof (1859-1938)",
+    bio: "Belirme (emergence) kuramının kurucularından: Uzay-zamandan madde, maddeden yaşam, yaşamdan zihin belirir; her seviye bir öncekine indirgenemez. Space, Time and Deity, yirminci yüzyıl başı İngiliz metafiziğinin en iddialı sistemidir.",
+    avatar: null,
+    country: "Avustralya / Birleşik Krallık",
+    birthYear: 1859,
+    affiliation: "Manchester Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Samuel Alexander",
+    birthDate: "6 Ocak 1859, Sidney",
+    deathDate: "13 Eylül 1938, Manchester",
+    alive: false,
+    period: "Yirminci yüzyıl başı",
+    school: "Belirmeci (emergentist) metafizik · realizm",
+    areas: "Metafizik, zihin felsefesi, estetik, değer kuramı, zaman ve mekân",
+    majorWorks: "Moral Order and Progress (1889)\nSpace, Time and Deity (2 cilt, 1920)\nBeauty and Other Forms of Value (1933)\nPhilosophical and Literary Pieces (1939)",
+    keyConcepts: "Belirme (emergence), uzay-zaman, nisus (yukarı doğru itki), belirmiş nitelikler, tanrısallık (deity) bir sonraki seviye olarak",
+    influencedBy: "Spinoza, Bergson, Lloyd Morgan, T. H. Green, Darwin",
+    influenced: "C. D. Broad, A. N. Whitehead, belirmeci zihin felsefesi, süreç felsefesi",
+    longBio: "Sidney'de doğdu; Melbourne'da okuduktan sonra 1877'de Oxford'a gitti ve Lincoln College'da bir kolej üyeliğine seçilen ilk Yahudi oldu. 1893'te Manchester'a felsefe profesörü olarak atandı ve otuz yıl orada kaldı; Manchester'da sevilen, bisikletiyle kentte dolaşan bir figürdü.\n\n1916-18 Glasgow Gifford derslerinden doğan Space, Time and Deity (1920), uzay-zamanı evrenin temel dokusu olarak alır: Maddeden yaşam, yaşamdan zihin belirir; her yeni seviye önceki seviyeden çıkar ama ona indirgenemez ve yeni nitelikler taşır. Zihnin bir sonraki seviyesi olan 'tanrısallık' henüz gerçekleşmemiştir; evren ona doğru bir 'nisus' — itki — taşır.\n\nEstetik üzerine geç dönem çalışmaları, sanatı belirmiş bir değer olarak ele aldı. Belirme kavramı, uzun süre gözden düştükten sonra bilinç tartışmalarıyla geri döndü ve Alexander yeniden okunmaya başladı.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/alexander/ · Obituaries Australia — https://oa.anu.edu.au/obituary/alexander-samuel-4994",
+  },
+  {
     name: "Gilles Deleuze",
     slug: "gilles-deleuze",
     headline: "Fransız filozof (1925-1995)",
@@ -2004,6 +2159,893 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Felsefe Tarihinde Bugün — 13 Eylül",
+    slug: "felsefe-tarihinde-bugun-13-eylul-midgley-montaigne-feuerbach",
+    summary:
+      "Bugün doğan Mary Midgley, insanın makineye ve gene indirgenmesine ömrünü adadı. Bugün ölen Montaigne felsefeyi sistem kurmaktan kurtarıp kendini sınamaya dönüştürdü; bugün ölen Feuerbach, Tanrı'nın insanın yansıması olduğunu söyledi; bugün ölen Samuel Alexander, bilincin maddeden 'belirdiğini' savundu. Dördü de aynı soruya bakıyor: İnsan sınırını nereye çizer?",
+    seoTitle: "Felsefe tarihinde bugün: 13 Eylül — Midgley, Ruge, Montaigne, Feuerbach, Alexander",
+    metaDescription:
+      "13 Eylül: Mary Midgley (1919) ve Arnold Ruge'nin (1802) doğumu; Montaigne (1592), Ludwig Feuerbach (1872) ve Samuel Alexander'ın (1938) ölümü. İndirgemecilik, yansıtma ve belirme üzerine.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20Andreas%20Feuerbach.jpg?width=1600",
+    imageCredit: "Ludwig Feuerbach, dönem portresi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Gifford Lectures",
+    sourceUrl: "https://giffordlectures.org/speaker/mary-midgley/",
+    publishedAt: "2026-09-13T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "din-felsefesi", "zihin-felsefesi", "bilim-felsefesi"],
+    philosopherSlugs: ["mary-midgley", "michel-de-montaigne", "ludwig-feuerbach", "samuel-alexander"],
+    sources: [
+      {
+        title: "Mary Midgley",
+        publisher: "Gifford Lectures",
+        url: "https://giffordlectures.org/speaker/mary-midgley/",
+        primary: true,
+      },
+      {
+        title: "Samuel Alexander",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/alexander/",
+      },
+      {
+        title: "Alexander, Samuel (1859-1938)",
+        publisher: "Obituaries Australia",
+        url: "https://oa.anu.edu.au/obituary/alexander-samuel-4994",
+      },
+    ],
+    content: `Takvimin bu günü, iki doğum ve üç ölümle, felsefenin en eski sorusunu beş farklı açıdan aydınlatıyor: **İnsan kendi sınırını nereye çizer?** Montaigne bu sınırı benlikte aradı; Feuerbach insanın Tanrı fikrinde; Alexander doğanın belirme katmanlarında; Midgley ise insanın kendini makineye ve gene indirgeme alışkanlığında. Bugün aynı sınırı yapay zekâ üzerinde arıyoruz.
+
+## Doğanlar
+
+### Mary Midgley — 1919
+
+İngiliz filozof Mary Midgley, 13 Eylül 1919'da Londra'da doğdu. Oxford'da Somerville College'da, Elizabeth Anscombe, Philippa Foot ve Iris Murdoch'la aynı yıllarda okudu; savaş yıllarında erkek öğrencilerin cepheye gitmesiyle boşalan seminer odalarında kadınların ilk kez felsefede söz sahibi olduğunu sonradan sık sık anlattı. İlk kitabını elli dokuz yaşında yayımladı: *Beast and Man* (1978). Ardından *Animals and Why They Matter* (1983), *Evolution as a Religion* (1985), *Science as Salvation* (1992), *The Myths We Live By* (2003) ve doksan dokuz yaşında, ölümünden haftalar önce çıkan *What Is Philosophy For?* (2018) geldi.
+
+Midgley'nin ömür boyu hedefi tek bir şeydi: **İndirgemecilik.** İnsanı "bencil genlerin taşıyıcısı"na, "et makinesi"ne ya da "bilgi işleyen sistem"e indirgeyen her açıklamaya karşı, bu açıklamaların bilimsel değil mitolojik olduğunu — bilim kılığında dünya görüşü olduğunu — savundu. Richard Dawkins'le polemiği ünlüdür ve Dawkins'in kitabını yanlış okuduğu suçlamasına rağmen Midgley'nin asıl itirazı hiç değişmedi: Bilimin bulguları ile bilim adına anlatılan hikâyeler aynı şey değildir. Gifford Lectures arşivi onun felsefeyi, bilimsel dünya görüşünün insan hayatına ilişkin gizli varsayımlarını sorgulamak için kullandığını vurguluyor.
+
+Bugün onu yeniden okumak için özellikle iyi bir neden var. Yapay zekâ çağında "insan nedir?" sorusu yeniden ortaya çıkarken, Midgley'nin indirgemecilik eleştirisi şaşırtıcı derecede güncel: "Zihin bir hesaplama sürecinden ibarettir" cümlesi de bir bilimsel bulgu değil, bir felsefi tercihtir — ve Midgley bunun bir tercih olduğunu görmemizi isterdi. Bugün sitemizde ele aldığımız [robot hakları dosyası](/haber/robot-haklari-makineler-hak-talep-ederse), Midgley'nin sorusunu tersinden soruyor: İnsan makineye indirgenemiyorsa, makine de "sadece makine"ye indirgenemez mi?
+
+### Arnold Ruge — 1802
+
+Genç Hegelciler'in örgütleyicisi Arnold Ruge, 13 Eylül 1802'de Rügen adasında doğdu. *Hallische Jahrbücher*'in editörü olarak Hegel'in mirasını siyasal bir radikalizme dönüştürmeye çalışan kuşağın sözcüsüydü; 1844'te Paris'te Karl Marx'la birlikte *Deutsch-Französische Jahrbücher*'i çıkardı — tek sayı sürdü, çünkü ikisi kısa sürede ayrıldı. 1848 devriminde Frankfurt Parlamentosu'nda yer aldı, sonra İngiltere'ye sürgün gitti ve 1880'de Brighton'da öldü.
+
+Ruge'yi bugün hatırlamanın nedeni, Marx'la kopuşunun felsefi anlamıdır: Ruge, siyasal özgürlüğün felsefi eleştiriyle kazanılabileceğine inanıyordu; Marx, eleştirinin yetmediğine. Bu ayrım, Feuerbach'ın mirasının nasıl bölündüğünü de gösterir — ve tesadüf, bugün Feuerbach'ın ölüm günü.
+
+## Ölenler
+
+### Michel de Montaigne — 1592
+
+Denemenin mucidi Michel de Montaigne, 13 Eylül 1592'de Bordeaux yakınlarındaki şatosunda, elli dokuz yaşında öldü. Otuz sekiz yaşında kamu hayatından çekilip kulesindeki kütüphaneye kapanmış, kirişlere Yunan ve Latin özdeyişleri kazıtmış ve on yıl boyunca kendisini yazmıştı.
+
+Montaigne'in önemi yalnızca *Denemeler*'in yazarı olması değildir. O, **felsefeyi sistem kurma zorunluluğundan kurtarıp kendini sınama biçimine dönüştüren** düşünürdür. "Ben neyim?" sorusunu soyut metafizik üzerinden değil, kendi yaşamı üzerinden — böbrek taşları, uyku alışkanlıkları, kedisiyle oyunu, dostu La Boétie'nin ölümü üzerinden — sorar. "Que sais-je?" — Ne biliyorum? — onun şüpheciliğinin mottosuydu; ama bu, bilgiyi reddeden değil, bilginin insan ölçüsünü arayan bir şüphecilikti. Descartes'ın *Meditasyonlar*'ı, Montaigne'e verilmiş bir cevap olarak okunabilir; Pascal'ın *Düşünceler*'i, Montaigne'le bitmeyen bir kavga.
+
+### Ludwig Feuerbach — 1872
+
+Ludwig Feuerbach 13 Eylül 1872'de Nürnberg yakınlarında, yoksulluk içinde öldü; cenazesine işçi dernekleri katıldı. *Hristiyanlığın Özü* (1841) on dokuzuncu yüzyılın en etkili kitaplarından biridir ve tezi tek cümleye sığar: **Tanrı, insanın kendi özünü — aklını, iradesini, sevgisini — sonsuzlaştırıp dışarı yansıtmasıdır.** Teoloji, gizli antropolojidir. İnsan Tanrı'ya tapınırken aslında kendi türünün idealleştirilmiş imgesine tapınır ve bunu yaparken kendini yoksullaştırır: Tanrı'ya verdiği her şey, kendisinden eksilir.
+
+Marx bu tezi devraldı ve ünlü on birinci tezinde Feuerbach'ı aşmaya çalıştı: Feuerbach yabancılaşmayı dinde görmüştü; Marx onu ekonomide gördü. Ama yansıtma fikri Feuerbach'ın kaldı ve psikanalizden antropolojiye yirminci yüzyılın büyük bölümünü besledi.
+
+Bugünün yapay zekâ tartışmalarına uyarlandığında şaşırtıcı bir soru çıkar: **İnsanlar makinelerde insanlığı mı keşfediyor, yoksa kendi insanlık fikirlerini makinelere mi yansıtıyor?** Bir sohbet botunun "acı çektiğini" düşünen kişi, Feuerbach'ın tanımladığı mekanizmayı — kendi özünü bir dış varlığa yansıtma — tam olarak işletiyor olabilir. Ya da olmayabilir; Feuerbach'ın tezi, yansıtmanın var olduğunu gösterir ama karşıdaki varlığın boş olduğunu kanıtlamaz. Feuerbach bu nedenle robot hakları dosyasının tarihsel arka planına beklenmedik biçimde bağlanır: Yansıtma eleştirisi, iki yönde de keskindir.
+
+### Samuel Alexander — 1938
+
+Sidney doğumlu İngiliz filozof Samuel Alexander, 13 Eylül 1938'de Manchester'da öldü. Oxford'da bir kolej üyeliğine seçilen ilk Yahudi, sonra Manchester'da otuz yıl felsefe profesörü. 1916-18 Gifford derslerinden doğan *Space, Time and Deity* (1920), yirminci yüzyıl başı İngiliz metafiziğinin en iddialı sistemidir.
+
+Alexander'ın kavramı **belirme**dir (emergence): Uzay-zamanın temel dokusundan madde, maddeden yaşam, yaşamdan zihin, zihinden de — henüz gerçekleşmemiş — tanrısallık, her seviye bir öncekinden çıkar ama ona indirgenemez. Karmaşık yapılar, daha basit unsurlardan ortaya çıkarken **yeni nitelikler** kazanır. Stanford Felsefe Ansiklopedisi onun özellikle zaman, mekân, evrim ve değer arasındaki ilişkiler üzerine düşüncelerini öne çıkarıyor.
+
+Belirme kavramı, yıllarca gözden düşükten sonra, bilinç tartışmalarıyla geri döndü. "Bilinç, yeterince karmaşık hesaplamadan belirir" cümlesi Alexander'ın dilidir; ve bugün bu cümlenin doğru olup olmadığı, robot hakları tartışmasının tam ortasında duruyor. Alexander bu belirmenin doğal ve kaçınılmaz olduğunu düşünüyordu — silikonda gerçekleşip gerçekleşmeyeceğini sormak aklına gelmemişti.
+
+## Bugünün dersi
+
+Beş isim, tek soru. Montaigne sınırı kendinde aradı; Ruge siyasette; Feuerbach insanın Tanrı imgesinde; Alexander doğanın katmanlarında; Midgley bilimin anlattığı hikâyelerde. Bugün aynı sınırı makinelerde arıyoruz — ve bu beş düşünürün her biri bize bir uyarı bırakıyor. Montaigne: Kendini bilmeden başkasını yargılama. Feuerbach: Gördüğün şeyin kendi yansıman olup olmadığını sor. Alexander: Yeni olan, eskiye indirgenmez. Midgley: Bilim ile bilim adına anlatılan mit aynı şey değildir. Ruge: Eleştiri gerekli, ama yetmez.
+
+---
+
+*Kapak görseli: Ludwig Feuerbach'ın dönem portresi. Mary Midgley'nin Wikimedia Commons'ta yayın kalitesinde serbest lisanslı fotoğrafı bulunmadığından kapakta bugün ölen Feuerbach'a yer verilmiştir.*`,
+  },
+  {
+    title: "Jean Nicod Ödülü 2026 Elisabeth Camp'e: Anlam, kelimelerden önce çerçevelerle kurulur",
+    slug: "jean-nicod-odulu-2026-elisabeth-camp",
+    summary:
+      "Paris'teki Institut Jean Nicod'nun her yıl zihin felsefesi ve bilişsel bilimin önde gelen bir ismine verdiği ödülün 2026 sahibi, Rutgers'tan Elisabeth Camp. Metafor, hakaret ve 'perspektif' üzerine çalışmalarıyla tanınan Camp, kasımda Paris'te 'Çerçeveler ve Perspektifler' başlıklı dört ders verecek. Fodor'dan Chalmers'a uzanan bir listeye yeni bir isim.",
+    seoTitle: "Jean Nicod Ödülü 2026: Elisabeth Camp",
+    metaDescription:
+      "Institut Jean Nicod'nun 2026 ödülü Rutgers'tan Elisabeth Camp'e verildi. Camp, kasımda Paris'te 'Frames and Perspectives' başlıklı Jean Nicod derslerini verecek; dersler MIT Press'ten kitaplaşacak.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2022%20-%20rue%20d'Ulm%20-%20ENS%20Ulm%2002.jpg?width=1600",
+    imageCredit: "École normale supérieure, rue d'Ulm, Paris — Institut Jean Nicod'nun bağlı olduğu kurum · Wikimedia Commons",
+    featured: false,
+    sourceName: "Institut Jean Nicod",
+    sourceUrl: "http://www.institutnicod.org/seminaires-colloques/prix-jean-nicod/?lang=en",
+    publishedAt: "2026-09-13T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "zihin-felsefesi", "epistemoloji", "estetik", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Jean-Nicod Lectures and Prize",
+        publisher: "Institut Jean Nicod (CNRS / EHESS / ENS)",
+        url: "http://www.institutnicod.org/seminaires-colloques/prix-jean-nicod/?lang=en",
+        primary: true,
+      },
+      {
+        title: "Jean Nicod Lectures",
+        publisher: "MIT Press",
+        url: "https://mitpress.mit.edu/series/jean-nicod-lectures/",
+      },
+    ],
+    content: `Paris'teki Institut Jean Nicod'nun 1993'ten beri her yıl verdiği **Jean Nicod Ödülü**'nün 2026 sahibi, Rutgers Üniversitesi'nden Elisabeth Camp oldu. Enstitünün duyurusuna göre Camp, ödül kapsamında kasım ayında Paris'te "Çerçeveler ve Perspektifler" (Frames and Perspectives) başlıklı dört ders verecek; dersler enstitünün geleneği uyarınca MIT Press'in Jean Nicod Lectures dizisinde kitaplaşacak.
+
+## Ödül neden önemli?
+
+Jean Nicod Ödülü, felsefenin "büyük para" ödüllerinden değil; Templeton'ın, Berggruen'in ya da Holberg'in rakamlarıyla yarışmıyor. Ama zihin felsefesi ve bilişsel bilim alanında **en prestijli** tanınma sayılıyor ve bunun nedeni geçmiş sahiplerinin listesi: Jerry Fodor (ilk ödül, 1993), Fred Dretske, Donald Davidson, Daniel Dennett, John Searle, Susan Carey, Ned Block, Ruth Millikan, Tyler Burge, David Chalmers. Bu liste, son otuz yılda zihin üzerine düşünmenin nasıl değiştiğinin bir haritasıdır: Fodor'un hesaplamacılığından Chalmers'ın bilinç problemine, Carey'nin gelişim psikolojisinden Millikan'ın biyosemantiğine.
+
+Ödül, CNRS'nin desteğiyle ve adını 1924'te otuz bir yaşında ölen Fransız mantıkçı ve filozof Jean Nicod'dan alan enstitü tarafından veriliyor; enstitü, École normale supérieure ile EHESS'e bağlı. Ödülün koşulu, Paris'te en az dört ders vermek ve bu dersleri kitaplaştırmak. Dennett'in *Sweet Dreams*'i, Chalmers'ın ödül dersleri, Millikan'ın *Varieties of Meaning*'i bu diziden çıktı.
+
+## Camp kimdir?
+
+Elisabeth Camp, Berkeley'de doktorasını yaptıktan sonra Pennsylvania Üniversitesi'nde ders verdi; bugün Rutgers'ta profesör. Amerikan Felsefe Derneği Doğu Bölümü'nün başkan yardımcılığına da seçildi. Çalışmaları, analitik felsefenin uzun süre kenarda tuttuğu bir alanda yoğunlaşıyor: **Sözcüklerle söylenenin ötesinde anlam nasıl kurulur?**
+
+Camp'in erken çalışmaları metafor üzerineydi ve temel tezi şuydu: Metafor, gerçek anlamın süslü bir kılıfı değildir; metafor bir **görme biçimi** önerir. "Juliet güneştir" cümlesi, Juliet hakkında bir önerme ileri sürmekten çok, dinleyiciyi Juliet'i belirli bir açıdan — ısı, merkez, hayat kaynağı — görmeye davet eder. Bu daveti kabul edip etmemek dinleyicinin elindedir; ve metaforun gücü, önermelerin aksine, reddedilse bile iz bırakmasından gelir.
+
+Buradan Camp'in en çok tartışılan çalışması olan hakaret sözcükleri (slurs) analizine geçilir. Camp'e göre bir hakaret sözcüğü yalnızca aşağılayıcı bir içerik taşımaz; hedef grubu belirli bir **perspektiften** görmeyi dayatır. Sözcüğü duyan kişi, itiraz etse bile, bir an için o perspektifi işletmek zorunda kalır. Bu yüzden hakaret sözcükleri "sadece kelime" değildir: Zihinsel bir çerçeveyi dinleyicinin iradesi dışında etkinleştirirler. Bu analiz, nefret söylemi hukukundan yapay zekâ modellerinin dil filtrelerine kadar geniş bir alanda yankı buldu.
+
+## Çerçeveler: Kasım derslerinin konusu
+
+Camp'in son dönem çalışması bu iki hattı birleştiriyor: **Çerçeveleme** (framing). Bir çerçeve, bir konuyu düşünmenin bir yolunu — neyin öne çıkacağını, neyin arka planda kalacağını, hangi bağlantıların doğal görüneceğini — belirler. Karikatür bir çerçevedir; slogan bir çerçevedir; bilimsel model de bir çerçevedir. Camp'in iddiası, çerçevelerin doğru ya da yanlış olmaktan çok **uygun ya da uygunsuz** olduğu ve rasyonel tartışmanın büyük bölümünün önermeler üzerinde değil çerçeveler üzerinde yürüdüğüdür. Siyasal kutuplaşmayı anlamak için bu ayrım kritik: İki taraf çoğu zaman aynı olguları kabul eder ama farklı çerçevelerle görür ve çerçeveler, olgular gibi kanıtla çürütülemez.
+
+Enstitünün duyurusuna göre dersler, Camp'in yakında çıkacak *Framing for Perspective: Tools for Making Meaning* kitabıyla bağlantılı. Bu kitap, otuz yıllık bir programın — metafordan hakarete, hakaretten çerçeveye — sentezi olacak gibi görünüyor.
+
+## Neden şimdi?
+
+Camp'in seçilmesi, Jean Nicod komitesinin bir tercihi olarak okunabilir. Önceki yılların ödülleri çoğunlukla bilincin, algının ve hesaplamanın metafiziğine gitti. Camp'in ödülü, zihin felsefesinin **toplumsal** ve **dilsel** boyutuna — anlamın yalnızca kafada değil, konuşanlar arasında kurulduğuna — bir vurgu. Sitemizde daha önce ele aldığımız [Cappelen ve Sterken'in yapay zekâyla iletişim üzerine derlemesi](/haber/2026-en-dikkat-cekici-felsefe-kitaplari-sonbahar) aynı soruyu makineler için sorar: Bir dil modeliyle "konuşurken" çerçeveler kim tarafından kurulur? Camp'in cevabı — çerçeveler doğru ya da yanlış değil, uygun ya da uygunsuzdur — bu soruyu daha da zorlaştırıyor: Uygunluğu kim belirler?
+
+Sitemiz, kasım derslerinin programını ve içeriğini izlemeye devam edecek.
+
+---
+
+*Jean Nicod Ödülü, 1993'ten beri Institut Jean Nicod (CNRS, EHESS, ENS) tarafından zihin felsefesi ya da felsefi yönelimli bilişsel bilim alanında önde gelen bir araştırmacıya veriliyor. Ödül sahibi Paris'te en az dört ders verir ve dersler MIT Press'ten yayımlanır.*`,
+  },
+  {
+    title: "2025–2026'nın Öne Çıkan Felsefe Kitapları",
+    slug: "2025-2026-one-cikan-felsefe-kitaplari",
+    summary:
+      "On kitap, üç soru. Schwitzgebel'in bilinç şüpheciliğinden Keeling ve Street'in yapay zekâ refahına, Wittgenstein ile Turing'in yeniden buluşmasından Harvey'nin Kapital anlatısına, Batchelor'ın Sokrates ile Buda'sından Hart'ın tanrılar diyaloğuna: Son iki yılın felsefe yayıncılığı, 'insan olmayan bir varlık ne zaman biri hâline gelir?' sorusunun etrafında toplanıyor.",
+    seoTitle: "2025-2026'nın öne çıkan felsefe kitapları: bilinç, yapay zekâ, sermaye",
+    metaDescription:
+      "Schwitzgebel, Keeling & Street, Cappelen & Sterken, Bordini/Dewalque/Giustina, Ball/Helliwell/Rossi, Smuha, Batchelor, Bratton vd., Hart ve Harvey: 2025-2026'nın on önemli felsefe kitabı ve ortak teması.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Many%20Old%20books.jpg?width=1600",
+    imageCredit: "Wikimedia Commons",
+    featured: false,
+    sourceName: "Cambridge University Press",
+    sourceUrl: "https://www.cambridge.org/core/books/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+    publishedAt: "2026-09-13T01:50:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "yapay-zeka", "bilinc", "marksizm", "zihin-felsefesi"],
+    philosopherSlugs: ["eric-schwitzgebel", "david-harvey"],
+    sources: [
+      {
+        title: "AI and Consciousness: A Skeptical Overview",
+        publisher: "Cambridge University Press",
+        url: "https://www.cambridge.org/core/books/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+        primary: true,
+      },
+      {
+        title: "Emerging Questions in AI Welfare",
+        publisher: "Cambridge University Press",
+        url: "https://www.cambridge.org/core/books/emerging-questions-in-ai-welfare/96339C532CF4ED8BDDE3F3CEF4CD29F9",
+      },
+      {
+        title: "Wittgenstein and Artificial Intelligence, Volume II: Values and Governance",
+        publisher: "PhilPapers",
+        url: "https://philpapers.org/rec/BALWAA-6",
+      },
+      {
+        title: "The Story of Capital",
+        publisher: "Verso Books",
+        url: "https://www.versobooks.com/products/3372-the-story-of-capital",
+      },
+      {
+        title: "Buddha, Socrates, and Us",
+        publisher: "Yale University Press",
+        url: "https://yalebooks.yale.edu/book/9780300283075/buddha-socrates-and-us/",
+      },
+      {
+        title: "Machine Decision Is Not Final",
+        publisher: "Urbanomic / MIT Press",
+        url: "https://mitpress.mit.edu/9781913029999/machine-decision-is-not-final/",
+      },
+    ],
+    content: `Bir kitap listesi, seçilen kitaplar kadar seçenin sorusunu da anlatır. Bu listenin sorusu, bugün sitemizin [robot hakları dosyasında](/haber/robot-haklari-makineler-hak-talep-ederse) sorduğumuz soru: **İnsan olmayan bir varlık ne zaman "biri" hâline gelir?** Son iki yılın felsefe yayıncılığına bu soruyla bakıldığında, birbirinden bağımsız görünen on kitap aynı tartışmanın parçaları olarak görünmeye başlıyor.
+
+## 1. Eric Schwitzgebel — AI and Consciousness: A Skeptical Overview (Cambridge, 2026)
+
+2026'nın en güncel felsefe kitaplarından biri. Schwitzgebel'in temel sorusu açık: Yapay zekâ bilinçli olabilir mi? Cevabı ise "şüpheci" alt başlığının ima ettiği gibi olumsuz değil; **iki yönlü şüpheci**. Kitap, önümüzdeki beş ila otuz yıl içinde yapay sistemlerin insan benzeri, hatta insanı aşan bilinç biçimlerine sahip olabileceği ihtimalini ciddiye alırken, bunun büyük bir yanılsama olabileceğini de aynı ciddiyetle savunuyor. Schwitzgebel'in "sis" metaforunu sitemizde [ayrıca ele almıştık](/haber/yapay-zeka-bilinc-schwitzgebel-sis): Bilmiyoruz ve muhtemelen bilmemiz gerektiğinde de bilemeyeceğiz. Robot hakları dosyasının doğrudan okunması gereken kitabı.
+
+## 2. Geoff Keeling & Winnie Street — Emerging Questions in AI Welfare (Cambridge Elements, 2026)
+
+Yapay zekâya "hak" vermekten önce başka bir soru soruyor: Yapay zekânın **refahı** olabilir mi? Refah nedir, davranışsal kanıt nasıl yorumlanır, hangi sistemler refah öznesi adayı sayılabilir, belirsizlik altında ne yapmalı? Londra Üniversitesi Felsefe Enstitüsü'nden iki yazar, "AI welfare" tartışmasını bilinç, acı, çıkar ve ahlaki hasta olma ihtimali üzerinden kuruyor. Mayıs 2026'da çevrim içi yayımlandı ve **açık erişimli**. Sitemizdeki [tanıtımı](/haber/keeling-street-yapay-zeka-refahi).
+
+## 3. Herman Cappelen & Rachel Sterken (ed.) — Communicating with AI: Philosophical Perspectives (Oxford, 2026)
+
+Ağustos sonunda çevrim içi yayımlanan derleme, ChatGPT, Claude, Gemini ve DeepSeek gibi sistemlerle konuşmanın aslında ne anlama geldiğini sorguluyor. Kitabın önemli sorusu: **Bir makineyle konuşuyorsak gerçekten iletişim kuruyor muyuz?** Anlam, niyet, doğruluk ve güven — dil felsefesinin klasik kavramları — karşı tarafın "biri" olmadığı bir durumda ne olur? Basılı baskının tarihi için kaynaklar farklı günler veriyor; yıl içinde bekleniyor. Sitemizde [daha önce ele aldık](/haber/2026-en-dikkat-cekici-felsefe-kitaplari-sonbahar).
+
+## 4. Davide Bordini, Arnaud Dewalque & Anna Giustina (ed.) — Consciousness and Inner Awareness (Cambridge, 2026)
+
+10 Eylül 2026'da yayımlanan derleme, bilinç ile "iç farkındalık" — bir deneyimi yaşarken onu yaşadığımızın farkında olmamız — arasındaki ilişkiyi çağdaş zihin felsefesinin merkezine yerleştiriyor. Brentano'dan fenomenolojiye uzanan bir soruyu analitik araçlarla yeniden açan kitap, yapay bilinç tartışmaları için özellikle önemli: Bir sistemin "deneyimi olması" ile "deneyiminin farkında olması" aynı şey midir?
+
+## 5. Brian Ball, Alice C. Helliwell & Alessandro Rossi (ed.) — Wittgenstein and Artificial Intelligence, Cilt II: Values and Governance (2025)
+
+Wittgenstein ile Turing'i — Cambridge'de 1939'da aynı seminerde tartışan iki adamı — dil, zihin, yapay zekâ ve anlam problemleri üzerinden yeniden buluşturan iki ciltlik projenin ikinci cildi. İlk cilt (*Mind and Language*, 2024) "makine gerçekten ne zaman bir şey söylemiş olur?" sorusuna odaklanıyordu; 2025'te çıkan ikinci cilt değerler ve yönetişime geçiyor. Wittgenstein'ın "bir dil oyununu oynamak" kavramı, büyük dil modelleri için hem en verimli hem en tehlikeli çerçeve.
+
+## 6. Nathalie A. Smuha (ed.) — The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence (Cambridge, 2025)
+
+Yapay zekâ felsefesini etik, hukuk, sorumluluk, adalet, bilinç ve politika ile birlikte ele alan kapsamlı bir başvuru kitabı. Felsefe bölümü, yapay zekânın "sorumluluk boşluğu" — bir sistem zarar verdiğinde kimin sorumlu olduğu — ve ahlaki faillik meselelerini tartışıyor. AB Yapay Zekâ Yasası'nın uygulanmaya başladığı bir dönemde, hukukçularla filozofları aynı ciltte buluşturan nadir kitaplardan.
+
+## 7. Stephen Batchelor — Buddha, Socrates, and Us (Yale, 2025)
+
+Listenin yapay zekâdan uzak görünen ama aslında en yakın kitaplarından biri. Batchelor — seküler Budizmin en tanınmış savunucusu — Sokrates ile Buda'yı, günümüzün belirsizlikleri karşısında **etik yaşam** sorusuna bağlıyor. İkisinin ortak noktası: Kesin bilgi olmadan iyi yaşamanın mümkün olduğunu göstermek. 26 Ağustos 2025'te yayımlandı. Belirsizlik altında nasıl davranılacağı sorusu, robot hakları tartışmasının da ahlaki çekirdeği.
+
+## 8. Benjamin H. Bratton, Anna Greenspan, Amy Ireland & Bogna Konior (ed.) — Machine Decision Is Not Final (Urbanomic, 2025)
+
+Yapay zekâ tarihini Çin merkezli ve Batı-merkezci olmayan bir perspektifle ele alan derleme; tarihçiler, medya kuramcıları, bilimkurgu yazarları, filozoflar ve sanatçılar bir arada. Kültür Devrimi öncesi sibernetikten Sinofütürizmin estetiğine, Çin felsefesinin yapay zekâyla ilişkisinden politika yapımına uzanan kitap, "yapay zekâ" dediğimiz şeyin tek bir hikâyesi olmadığını gösteriyor. Urbanomic'in yayımladığı, MIT Press'in dağıttığı kitap 2025'te çıktı.
+
+## 9. David Bentley Hart — All Things Are Full of Gods (Yale, 2024; ciltsiz baskı 2025)
+
+Bilinç, zihin, yaşam ve metafizik üzerine, Platonik diyalog biçiminde yazılmış iddialı bir çalışma: Yaşlanan Yunan tanrıları bir araya gelip varoluşun doğasını, zihnin gizemini ve her şeyin kaynağı olan aşkın bir Tanrı'nın olup olmadığını tartışıyor. Hart'ın tezi, bilincin maddeye indirgenemeyeceği ve ontolojik olarak önce geldiği. Sert bir materyalizm eleştirisi; Eylül 2025'te çıkan ciltsiz baskıyla yeniden gündemde. Bugün sitemizde andığımız [Samuel Alexander'ın belirme kuramıyla](/haber/felsefe-tarihinde-bugun-13-eylul-midgley-montaigne-feuerbach) tam karşıt bir konumda.
+
+## 10. David Harvey — The Story of Capital (Verso, 2026)
+
+Marx'ın *Kapital*'ini elli yıllık ders deneyimi üzerinden yeniden anlatan Harvey'nin Şubat 2026'da çıkan kitabı, çağdaş kapitalizmin mantığını anlamak isteyen genel okur için öne çıkıyor. Listede neden yer aldığı sorulabilir; cevabı, bugün sitemizde yayımladığımız [Harvey portresinde](/haber/david-harvey-kapitalizmi-haritadan-okuyan-filozof): Yapay zekânın ürettiği değerin kime ait olduğu sorusu, Harvey'nin kavramları olmadan sorulamaz.
+
+## 2025-2026'nın ortak teması
+
+Bu kitaplara birlikte bakıldığında son iki yılın felsefe yayıncılığının merkezinde üç büyük soru beliriyor. **Bilinç nedir?** — Schwitzgebel, Bordini ve arkadaşları, Hart. **İnsan olmayan varlıklara ne borçluyuz?** — Keeling ve Street, Smuha, Batchelor. **Yapay zekâ insanın bilgi, dil, emek ve iktidar üzerindeki tekelini değiştirirse ne olur?** — Cappelen ve Sterken, Ball ve arkadaşları, Bratton ve arkadaşları, Harvey.
+
+Bir bakıma yirminci yüzyılın felsefesi "insan nedir?" sorusunu çözmeye çalıştı. Yirmi birinci yüzyılın felsefesi soruyu biraz daha tehlikeli bir yere taşıyor: **İnsan olmayan bir varlık ne zaman "biri" hâline gelir?**
+
+---
+
+*Bize ulaşan listede yer alan "An Ethics for Today" başlıklı kitap, yazar bilgisi olmadığı ve künyesi doğrulanamadığı için listeye alınmadı. Kitapların künyeleri yayınevi sayfalarından doğrulanmıştır; basılı baskı tarihleri yayınevine ve ülkeye göre değişebilir.*`,
+  },
+  {
+    title: "Türkiye'deki Felsefe Dergileri: Güncel Makale Çağrıları",
+    slug: "turkiye-felsefe-dergileri-makale-cagrilari-eylul-2026",
+    summary:
+      "Felsefe Arkivi seksen bir yıldır makale kabul ediyor; ViraVerita'nın 24. sayısı çocukluğu insan-sonrası çağda yeniden düşünmeye çağırıyor; ÂSÂR, Türk dünyasının fikrî hayatına özel sayı hazırlıyor; SineFilozofi'nin 'Sinematik Deneyim' çağrısı kapandı. Eylül 2026 itibarıyla Türkiye'de felsefe yayıncılığının açık kapıları.",
+    seoTitle: "Türkiye'deki felsefe dergileri: güncel makale çağrıları (Eylül 2026)",
+    metaDescription:
+      "Felsefe Arkivi, ViraVerita (24. sayı: 21. Yüzyılda Çocukluk), ÂSÂR (Türk Dünyası özel sayısı) ve SineFilozofi: Türkiye'deki felsefe dergilerinin güncel çağrıları, son tarihler ve konu başlıkları.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20University%20Faculty%20of%20Letters.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi Edebiyat Fakültesi — Felsefe Arkivi'nin yayımlandığı kurum · Wikimedia Commons",
+    featured: false,
+    sourceName: "DergiPark",
+    sourceUrl: "https://dergipark.org.tr/",
+    publishedAt: "2026-09-13T01:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["dergi", "akademi", "acik-erisim", "sinema", "yapay-zeka"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Felsefe Arkivi — Amaç ve Kapsam",
+        publisher: "DergiPark / İstanbul Üniversitesi",
+        url: "https://dergipark.org.tr/tr/pub/iufad",
+        primary: true,
+      },
+      {
+        title: "ViraVerita — Gelecek Sayılar (24. sayı çağrısı, 2026 Güz)",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/viraverita/page/19075",
+      },
+      {
+        title: "ÂSÂR Akademik Dinî Araştırmalar Dergisi",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/asar",
+      },
+      {
+        title: "SineFilozofi",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/sinefilozofi",
+      },
+    ],
+    content: `Türkiye'de felsefe yayıncılığının takvimi, konferans takviminden daha sessiz işler; ama akademik hayatın asıl ritmini bu takvim belirler. Eylül, dergilerin güz sayılarını kapatıp bahar sayılarını açtığı ay. Aşağıda, DergiPark üzerinden doğrulayabildiğimiz güncel çağrılar var.
+
+## Felsefe Arkivi — Makale gönderimine açık
+
+İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nün 1945'ten beri yayımladığı *Felsefe Arkivi*, Türkiye'nin en eski felsefe dergisi; ilk sayılarında Ernst von Aster, Walther Kranz ve Macit Gökberk yazdı. Bu, derginin yalnızca bir yayın organı değil, Türkiye'de akademik felsefenin **kuruluş belgesi** olduğu anlamına gelir: 1933 Üniversite Reformu'yla İstanbul'a gelen Alman hocalar ile onların Türk öğrencilerinin aynı sayfalarda buluştuğu yer.
+
+Dergi bugün açık erişimli, hakemli ve çift-kör değerlendirme uyguluyor; Türkçe, İngilizce, Almanca ve Fransızca özgün araştırma makaleleri, çeviri metinler ve kitap değerlendirmeleri kabul ediyor. Yılda iki kez, Haziran ve Aralık'ta çıkıyor. Sürekli başvuruya açık olduğundan belirli bir son tarih yok; ama Aralık sayısı için değerlendirme süresi düşünüldüğünde eylül-ekim başvuruları makul.
+
+## ViraVerita — 24. Sayı: "21. Yüzyılda Çocukluk"
+
+2026 Güz sayısı için açılan dosya, felsefeciler açısından bu sezonun en dikkat çekici çağrısı. Toros Güneş Esgün, Şeyma Sağdıç Güven, Meriç Kükrer ve Bükem Özçeri'nin editörlüğündeki sayı, çocuğu yalnızca "geleceğin yetişkini" ya da sürekli korunmaya muhtaç bir mağdur olarak değil, **bugünün toplumsal hayatını biçimlendiren bir fail** olarak ele almayı öneriyor. Çağrı metnine göre çocukluk, dijitalleşen sermaye rejimleri, insan-sonrası tartışmalar, ekolojik krizler ve dönüşen pedagojik paradigmalar içinde yeniden tanımlanıyor.
+
+Alt başlıklar arasında insan-sonrası çağda çocukluk, hayvanlar, siborglar, robotlar ve yapay zekâ ile çocukluk, veri güvenliği, sosyal medya, ekolojik felaketler, çocuk işçiliği ve çocuklar için felsefe (P4C) var. Derginin duyurusuna göre başvurular 5-15 Eylül tarihleri arasında açılan bir form üzerinden alınıyor; yani **bu çağrı bu hafta kapanıyor**.
+
+Bu çağrı, bugün sitemizde yayımladığımız [robot hakları dosyasıyla](/haber/robot-haklari-makineler-hak-talep-ederse) doğrudan kesişen nadir disiplinlerarası fırsatlardan biri: "Kim hak sahibidir?" sorusunun tarihsel olarak en son genişletildiği kategori çocuklardı; bir sonraki kategori — hayvanlar mı, makineler mi, ekosistemler mi — tam da bu sayının sorusu.
+
+## ÂSÂR — "Türk Dünyası: Dinî, Fikrî ve Toplumsal Hayat"
+
+*ÂSÂR Akademik Dinî Araştırmalar Dergisi*, din, felsefe, tarih, sosyoloji ve psikoloji alanlarında Türkçe, İngilizce ve Arapça makaleler yayımlayan görece genç bir dergi. "Türk Dünyası: Dinî, Fikrî ve Toplumsal Hayat" başlıklı özel sayısı için çağrı açık; derginin duyurusuna göre son makale gönderim tarihi 31 Ocak 2027 ve sayının Nisan 2027'de yayımlanması planlanıyor. Felsefe, düşünce tarihi ve Türk dünyası üzerine çalışan araştırmacılar — Kazan'dan Kaşgar'a, Fârâbî'den Abay'a, Yesevî'den Cedidcilere — için özellikle uygun.
+
+Bugün sitemizde ele aldığımız [Fuzûlî dosyası](/haber/fuzuli-siir-felsefesi-ask-bilgi-varlik), bu çağrının kapsamına giren türden bir soruyu örnekliyor: Bağdat'ta Türkçe yazan bir şairin düşünce dünyası hangi "dünya"ya aittir?
+
+## SineFilozofi — "Sinematik Deneyim" (kapandı)
+
+*SineFilozofi*'nin "Sinematik Deneyim" özel sayısı 2026'nın önemli felsefe-sinema çağrılarından biriydi; ancak başvuru süreci sona erdi. Son gönderim tarihi 15 Haziran 2026 idi. Sayı yayımlandığında sitemizde ele alacağız; sinema felsefesiyle ilgilenen araştırmacılar için derginin düzenli sayıları başvuruya açık.
+
+## Neden önemli?
+
+Türkiye'de felsefe dergilerinin sayısı son on yılda arttı; ama sürekliliği olan, hakemli ve uluslararası dizinlerde taranan dergi sayısı hâlâ sınırlı. Bu listedeki dört dergi, dört farklı geleneği temsil ediyor: Felsefe Arkivi akademik felsefenin kurumsal merkezini, ViraVerita disiplinlerarası ve eleştirel kuramı, ÂSÂR din ve düşünce tarihini, SineFilozofi sanat felsefesini. Bir araştırmacının makalesini nereye göndereceği, yalnızca konuyla değil, hangi tartışmanın parçası olmak istediğiyle de ilgili.
+
+Sitemizde daha önce ele aldığımız [FLSF'nin yapay zekâ makale yarışması](/etkinlik/flsf-makale-yarismasi-2026) gibi, bu çağrıları da etkinlik takvimimizde izliyoruz.
+
+---
+
+*Son başvuru tarihleri ve biçimsel koşullar dergilerin DergiPark sayfalarından teyit edilmelidir; dergiler tarihleri uzatabilir ya da değiştirebilir.*`,
+  },
+  {
+    title: "Felsefe Takviminde Öne Çıkanlar",
+    slug: "felsefe-takviminde-one-cikanlar-13-eylul-2026",
+    summary:
+      "13 Eylül 2026 itibarıyla önümüzdeki üç ayın beş toplantısı: Viyana'da Viyana Çevresi'nin tarih yazımı ve din felsefesinin sınırları, Portland'da Kuzeybatı'nın yetmiş yedinci yıllık buluşması, Oxford'da Chalmers ve Chadha'lı lisansüstü konferansı, Priştine'de Dünya Felsefe Günü. Neden bu beşi ve neden şimdi?",
+    seoTitle: "Felsefe takviminde öne çıkanlar: Ekim-Kasım 2026",
+    metaDescription:
+      "13 Eylül 2026 sonrası öne çıkan felsefe konferansları: Viyana Çevresi ve Mantıksal Empirizm (19-21 Ekim), Experimenting Philosophy of Religion (21-23 Ekim), Northwest Philosophy Conference, 30. Oxford Lisansüstü Konferansı (13-14 Kasım), Priştine Dünya Felsefe Günü (19 Kasım).",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Hauptuniversit%C3%A4t.jpg?width=1600",
+    imageCredit: "Viyana Üniversitesi ana binası · Wikimedia Commons",
+    featured: false,
+    sourceName: "Institut Wiener Kreis",
+    sourceUrl: "https://viennacircle-today.univie.ac.at/",
+    publishedAt: "2026-09-13T01:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "bilim-felsefesi", "din-felsefesi", "akademi", "mantik"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      {
+        title: "The Vienna Circle and Logical Empiricism — Research and Historiography",
+        publisher: "Institut Wiener Kreis, Universität Wien",
+        url: "https://viennacircle-today.univie.ac.at/",
+        primary: true,
+      },
+      {
+        title: "Experimenting Philosophy of Religion: Altering Politics, Ecology and Aesthetics in Transition",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/149669",
+      },
+      {
+        title: "University of Oxford's 30th Annual Graduate Philosophy Conference",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/145358",
+      },
+      {
+        title: "Northwest Philosophy Conference",
+        publisher: "Lewis & Clark College",
+        url: "https://college.lclark.edu/departments/philosophy/opportunities/northwest_philosophy_conference/",
+      },
+    ],
+    content: `Konferans takvimi uzun; bu yazı kısa bir seçki. Beş toplantı seçtik ve her biri için "neden?" sorusuna cevap vermeye çalıştık. Tarihler ve düzenleyiciler birincil kaynaktan doğrulandı; doğrulayamadıklarımızı yazının sonunda belirttik.
+
+## 19-21 Ekim · Viyana — Viyana Çevresi ve Mantıksal Empirizm: Araştırma ve Tarih Yazımı
+
+Institut Wiener Kreis ile Viyana Üniversitesi'nin, enstitünün otuz beşinci yılı ve Moritz Schlick'in öldürülmesinin doksanıncı yılı vesilesiyle düzenlediği uluslararası konferans. Program komitesinde Friedrich Stadler ve Georg Schiemer (eş başkanlar), Martin Kusch, Elisabeth Nemeth ve Esther Heinrich-Ramharter var.
+
+Toplantının konusu yalnızca Carnap, Gödel, Neurath ve Schlick değil; **Viyana Çevresi'nin nasıl anlatıldığı**. Oturum başlıkları bunu gösteriyor: Çevre ve mantıksal empirizm kolektif bir olgu olarak; tek tek üyeler; "felsefi çevre"; Avrupa bağlamı; Amerikanlaşma ve diaspora; toplumsal cinsiyet boyutu; çağdaş tarih içinde Çevre; ihmal edilmiş araştırma konuları; ve sergiler, edisyon projeleri ile arşivler üzerine atölyeler. Kayıt ücreti yok.
+
+Bunun önemi şu: Mantıksal empirizm uzun süre yirminci yüzyıl felsefesinin "aşılmış" bir aşaması olarak sunuldu — Quine'ın ve Kuhn'un yıktığı bir dogma. Son yirmi yılın araştırmaları bu tabloyu esaslı biçimde değiştirdi. Neurath'ın siyasal projesi, Carnap'ın kavramsal açıklama programı, Çevre'nin kadın üyeleri (Rose Rand, Olga Hahn-Neurath) ve Çevre'nin Nazi rejimi altındaki dağılışı yeniden okunuyor. Schlick'in 1936'da üniversitenin merdivenlerinde eski bir öğrencisi tarafından vurulması, Viyana'da felsefenin siyasetten ayrılamadığının en acı kanıtıydı; konferans bu merdivenlerin birkaç yüz metre ötesinde toplanıyor.
+
+Türkiye için özel bir bağlantı: Hans Reichenbach — Berlin Grubu'nun kurucusu, Çevre'nin en yakın müttefiki — 1933'te İstanbul'a geldi ve Türkiye'de bilim felsefesinin kuruluşunda rol oynadı. Kasımda İstanbul'da toplanacak [Reichenbach kongresi](/haber/reichenbach-kongresi-istanbul-2026) ile Viyana toplantısı, aynı hikâyenin iki ucunu tutuyor. [Etkinlik kaydı.](/etkinlik/viyana-cevresi-mantiksal-empirizm-2026)
+
+## 21-23 Ekim · Viyana — Din Felsefesini Denemek
+
+Viyana Üniversitesi'nin Teoloji ve Din Araştırmaları Doktora Okulu'nun (VDTR) düzenlediği konferans, "deneysel din felsefesi"ni bir alan, bir yöntem ve bir performatif alışveriş biçimi olarak öneriyor: Kırılganlığı kabul eden ve geçici düşünme imkânlarını benimseyen bir sorgulama pratiği. Üç günlük program üç bölüme ayrılıyor: Viyanalı kıdemli araştırmacılarla alanın geleceği üzerine bir açık oturum ve VDTR üyelerinin düzenlediği üç tematik panel — Siyaset ve Toplum, Ekoloji ve Doğa, Sanat ve Estetik.
+
+Bu, din felsefesinin klasik sorularından — Tanrı'nın varlığı, kötülük problemi, mucize — çıkıp dinî deneyimin toplumsal, ekolojik ve estetik boyutlarına yönelen bir program; ve "genç seslere" alan açmayı özellikle amaçlıyor. Viyana, aynı hafta içinde mantıksal empirizmin arşivlerini ve din felsefesinin sınırlarını tartışıyor olacak; bu ikisinin yan yana gelmesi, Schlick'in metafiziği "anlamsız" ilan ettiği şehirde küçük bir ironi. [Etkinlik kaydı.](/etkinlik/din-felsefesini-denemek-viyana-2026)
+
+## Ekim sonu · Portland — Northwest Philosophy Conference
+
+Lewis & Clark College'ın Portland, Oregon'da düzenlediği yıllık toplantı, Kuzey Amerika'nın Pasifik kıyısındaki felsefe bölümlerinin en uzun soluklu buluşması; geçen yıl yetmiş altıncısı Ekim sonu-Kasım başında yapıldı ve Noa Latham ana konuşmayı verdi. Bize ulaşan listede 2026 toplantısı 30-31 Ekim tarihleriyle "yetmiş yedinci" olarak yer alıyor; kolejin sayfasında bu tarihleri **henüz teyit edemedik**. Geleneksel takvim bu tarihleri makul kılıyor; ama program yayımlanana kadar kesin saymıyoruz.
+
+## 13-14 Kasım · Oxford — 30. Oxford Lisansüstü Felsefe Konferansı
+
+Blackfriars Hall ve Regent's Park College'da düzenlenecek toplantının ana konuşmacıları David Chalmers (New York Üniversitesi), Monima Chadha (Oxford) ve Rob Simpson (UCL). Konferans, felsefede çalışan bütün lisansüstü öğrencilere açık; seçilen her bildiri otuz-kırk dakikalık sunumun ardından çoğunlukla bir Oxford öğretim üyesi tarafından yanıtlanıyor.
+
+Otuzuncu yıl, bu konferansı dünyanın en köklü lisansüstü felsefe toplantılarından biri yapıyor; ve Chalmers'ın bilinç, Chadha'nın Budist zihin felsefesi üzerine çalışmaları düşünüldüğünde, bu yılın gizli teması belli: **zihin, farklı geleneklerden.** [Etkinlik kaydı.](/etkinlik/oxford-lisansustu-felsefe-konferansi-2026)
+
+## 19 Kasım · Priştine — Dünya Felsefe Günü Uluslararası Konferansı
+
+Priştine Üniversitesi Felsefe Bölümü'nün UNESCO Dünya Felsefe Günü çerçevesinde düzenlediği uluslararası konferansın on yedincisi; hibrit formatta. Kosova gibi genç bir devletin felsefe bölümünün bu geleneği on yedi yıldır sürdürmesi, Balkanlar'da felsefenin kurumsal hafızası açısından dikkate değer. UNESCO'nun her yıl kasımın üçüncü perşembesini Dünya Felsefe Günü ilan etmesinin amacı tam da buydu: Felsefeyi büyük merkezlerin tekelinden çıkarmak. [Dünya Felsefe Günü kaydımız.](/etkinlik/dunya-felsefe-gunu-2026)
+
+## Editör notu
+
+Bize ulaşan listede Priştine toplantısı 19-20 Kasım olarak yer alıyordu; üniversitenin duyurusunda tek gün, 19 Kasım görünüyor. Portland için yukarıda belirttiğimiz çekince geçerli. Dünkü takvimimizde ele aldığımız diğer toplantılar — Barselona, Selçuk, Nijmegen, Northwestern, İstanbul, Duke, Atina — için [12 Eylül sonrası konferans listemize](/haber/12-eylul-sonrasi-yaklasan-felsefe-konferanslari) bakılabilir.`,
+  },
+  {
+    title: "David Harvey: Kapitalizmi Haritadan Okuyan Filozof",
+    slug: "david-harvey-kapitalizmi-haritadan-okuyan-filozof",
+    summary:
+      "Coğrafyayı haritadan çıkarıp sermayenin içine yerleştiren düşünür doksanını geride bıraktı ve hâlâ aynı sorunun peşinde: Kapitalizm neden sürekli yeni mekânlar yaratmak zorunda? Şubat'ta Verso'dan çıkan The Story of Capital, elli yıllık Kapital derslerinin özeti. Konut krizinden veri merkezlerine, Harvey'nin kavramları neden hâlâ işliyor?",
+    seoTitle: "David Harvey: kapitalizmi haritadan okuyan Marksist coğrafyacı",
+    metaDescription:
+      "David Harvey portresi: mekânsal düzeltme, mülksüzleştirme yoluyla birikim, Paris ve Haussmann, kent hakkı, The Story of Capital (2026) ve yapay zekâ altyapısının coğrafyası.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Harvey2.jpg?width=1600",
+    imageCredit: "David Harvey · Wikimedia Commons",
+    featured: true,
+    sourceName: "Verso Books",
+    sourceUrl: "https://www.versobooks.com/products/3372-the-story-of-capital",
+    publishedAt: "2026-09-13T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["marksizm", "siyaset-felsefesi", "yeni-kitap", "teknoloji-felsefesi", "elestirel-teori"],
+    philosopherSlugs: ["david-harvey"],
+    sources: [
+      {
+        title: "The Story of Capital: What Everyone Should Know About How Capital Works",
+        publisher: "Verso Books",
+        url: "https://www.versobooks.com/products/3372-the-story-of-capital",
+        primary: true,
+      },
+      {
+        title: "Distinguished Professors — David Harvey",
+        publisher: "The City University of New York",
+        url: "https://www.cuny.edu/academics/faculty-affairs/distinguished-professors/",
+      },
+      {
+        title: "Book review: The Story of Capital — David Harvey on Marx in the age of finance capital",
+        publisher: "LSE Review of Books",
+        url: "https://blogs.lse.ac.uk/lsereviewofbooks/2026/04/15/book-review-the-story-of-capital-david-harvey-ann-pettifor/",
+      },
+    ],
+    content: `David Harvey'i yalnızca "Marksist coğrafyacı" olarak tanımlamak, onun düşüncesinin en önemli tarafını gözden kaçırmaktır. Harvey'nin asıl meselesi şudur: **Kapitalizm yalnızca zamanda ilerleyen bir ekonomik sistem değildir; mekânı sürekli yeniden örgütleyen bir toplumsal makinedir.**
+
+Bu yüzden onun düşüncesini anlamak için yalnızca fabrikaya değil, Londra'ya, New York'a, Paris'e, gecekondu mahallelerine, finans merkezlerine, otoyollara, alışveriş merkezlerine ve emlak piyasalarına bakmak gerekir. Harvey, Marx'ın fabrikanın kapısında bıraktığı analizi şehrin sokaklarına taşıdı.
+
+## Coğrafyadan Marx'a değil, Marx'ı coğrafyaya
+
+1935'te Kent'te doğan Harvey, doktorasını Cambridge'de tamamladı; Bristol'da ders verdi, 1969'da Johns Hopkins'e geçti, 1987-93 arasında Oxford'da coğrafya kürsüsünün başındaydı ve 2001'den beri New York'ta CUNY Graduate Center'da "Distinguished Professor" unvanıyla çalışıyor. CUNY onu kent çalışmaları alanının önde gelen kuramcılarından biri olarak tanımlıyor. Bu ay doksan birinci yaşına giriyor ve hâlâ ders veriyor: Kişisel sitesinde bu eylül, yeni kitabı üzerine bir ders dizisinin ilk bölümü yayımlandı.
+
+Harvey'nin entelektüel yolculuğunu ilginç kılan, coğrafyadan Marx'a "geçmiş" olması değildir. İlk büyük kitabı *Explanation in Geography* (1969), pozitivist bir bilimsel coğrafya savunusuydu. Dört yıl sonra *Social Justice and the City* (1973) ile bu çerçeveyi terk etti; çünkü Baltimore'da gördüğü kentsel yoksulluğu, tarafsız model kurma iddiasıyla açıklayamıyordu. Fakat asıl özgünlüğü tam tersi yönde: **Marx'ı yeniden coğrafyalaştırması.**
+
+*Kapital* okunduğunda ilk bakışta mekânın arka planda kaldığı düşünülebilir. Harvey başka bir şey görür. Sermaye bir yerde birikir; kâr oranları düşer; sermaye yeni yatırım alanları arar; yeni şehirler kurulur, yeni altyapılar yapılır, yeni pazarlar açılır, yeni ulaştırma ağları döşenir. Kısacası kapitalizm krizlerini yalnızca ekonomik olarak değil, **mekânsal** olarak da çözer. Harvey'nin *The Limits to Capital*'da (1982) geliştirdiği "mekânsal düzeltme" (spatial fix) kavramı bunu anlatır: Kriz, yalnızca para kaybetmek değildir; kriz aynı zamanda mekânı yeniden düzenlemek demektir. Ve her düzeltme, bir sonraki krizin coğrafyasını hazırlar.
+
+## Mekân neden politik bir kavramdır?
+
+Harvey için şehir hiçbir zaman yalnızca binaların toplamı değildir. Bir şehir aynı zamanda sermayenin dolaşım biçimidir. Bir metro hattı yalnızca ulaşım yatırımı değildir; bir otoyol yalnızca asfalt, bir alışveriş merkezi yalnızca ticari yapı, bir konut projesi yalnızca beton ve cam değildir. Bunların hepsi sermayenin mekânda nasıl hareket ettiğini gösteren yapılardır — ve kimin nereye yerleşip kimin nereden çıkarılacağını belirleyen kararlardır.
+
+Bu yüzden Harvey'nin düşüncesi günümüzün konut krizlerini anlamak için son derece günceldir. Ev fiyatları neden maaşlardan daha hızlı yükseliyor? Kent merkezleri neden giderek daha pahalı hâle geliyor? Neden bazı mahalleler küresel yatırım fonları için cazibe merkezi olurken orada yaşayan insanlar dışarı itiliyor? Harvey'nin cevabı, bu soruların ekonomik olduğu kadar siyasal olduğudur: Konut, barınma ihtiyacını karşılayan bir kullanım değeri olmaktan çıkıp değer depolayan bir finansal varlığa dönüştüğünde, şehir de yaşanacak yer olmaktan çıkıp yatırım yapılacak yere dönüşür. 2008 krizi, Harvey'nin on yıllardır anlattığı hikâyenin küresel ölçekte sahnelenmesiydi.
+
+## Mülksüzleştirme yoluyla birikim
+
+Harvey'nin en çok tartışılan kavramı, *The New Imperialism*'da (2003) ortaya attığı **mülksüzleştirme yoluyla birikim**dir (accumulation by dispossession). Marx'ın "ilkel birikim" dediği şey — köylülerin topraktan koparılması, ortak alanların çitlenmesi — Harvey'e göre kapitalizmin tarih öncesine ait tek seferlik bir olay değil, sürekli işleyen bir mekanizmadır.
+
+Fikir basit ama sonuçları büyüktür: Kapitalizm yalnızca yeni değer üretmez; aynı zamanda mevcut varlıkları, toprakları, kaynakları ve kamusal alanları sermayenin kontrolüne geçirir. Özelleştirme bunun bir örneğidir. Finansallaştırılmış konut piyasaları başka bir örnek. Kentsel dönüşüm, bazı koşullarda, üçüncüsü. Harvey'nin sorusu şudur: **Bir ekonomik büyüme süreci kimin zenginleşmesi, kimin yerinden edilmesi pahasına gerçekleşiyor?**
+
+Bu soru bugün yapay zekâ ekonomisine kadar uzanıyor. Çünkü veri de artık bir tür sermaye alanı: İnsanların on yıllar boyunca ürettiği metin, görüntü ve bilgi — bir bakıma dijital "ortak alan" — çitlenip modellerin eğitim verisine dönüştürüldü. Bugün sitemizde ele aldığımız [robot hakları dosyasında](/haber/robot-haklari-makineler-hak-talep-ederse) sorduğumuz "yapay zekânın ürettiği değer kimindir?" sorusu, Harvey'nin kavramıyla okunduğunda tanıdık bir hikâyeye dönüşüyor.
+
+## 2026: Marx'ı yeniden anlatmak
+
+Harvey'nin Şubat 2026'da Verso'dan çıkan *The Story of Capital: What Everyone Should Know About How Capital Works* kitabı bu açıdan önemli. Verso'nun tanıtımına göre kitap, Harvey'nin elli yıla yaklaşan Kapital öğretme deneyimini — bölüm bölüm, zaman zaman satır satır — genel okuyucuya taşımayı amaçlıyor; dört yüz sayfa. Harvey bu kez kitabın yapısını değil, kavramsal mimarisini bir bütün olarak anlatıyor: emek ve teknolojiden devlet ve jeopolitiğe, kâr oranından toplumsal yeniden üretime, doğayla ilişkiden hayalî sermayeye ve rantiyenin geri dönüşüne.
+
+LSE Review of Books'un nisan ayındaki değerlendirmesi kitabın en güçlü yanının bu olduğunu söylüyor: Finans sermayesi çağında Marx'ı, Marx'ın kendi çağının sınırlarına hapsetmeden okumak. Kitabın mart ayındaki tanıtımında Harvey, Adam Tooze ile konuştu; iki kuşak arasındaki bu sohbet, Harvey'nin YouTube'daki Kapital derslerini izleyerek yetişen bir kuşağın artık kendi kürsülerine sahip olduğunu da hatırlatıyor.
+
+Bu, Harvey'nin düşüncesinde ilginç bir sürekliliği gösteriyor: Yaşlanmasına rağmen Marx'tan uzaklaşmıyor; ama Marx'ı müzeye de kaldırmıyor. Onu güncel kapitalizmin içine tekrar sokuyor.
+
+## Marx'ı dogmadan kurtarmak
+
+Harvey'nin Marx okuması, Marx'ı "kapitalizm kötüdür" diyen bir düşünür olarak okumaktan çok uzaktır. Marx onun için kapitalizmin nasıl çalıştığını anlamaya yarayan bir **analiz makinesi**dir. Sermaye nedir? Değer nasıl oluşur? Emek neden metalaşır? Krizler neden tekrar eder? Finans neden ekonominin üzerine çıkar? Kentler neden sürekli yeniden inşa edilir?
+
+Harvey'nin Marksizmi bu sorularla ilgilenir; bu yüzden onu yalnızca politik bir entelektüel değil, kapitalizmin mekânsal mantığını açıklayan bir sosyal kuramcı olarak okumak gerekir. *Seventeen Contradictions and the End of Capitalism*'da (2014) sistemi çökertecek tek bir çelişki aramak yerine on yedi çelişkinin birbiriyle nasıl etkileştiğini anlattı — ve bunların bir kısmının "tehlikeli" olduğunu, ama hiçbirinin kendiliğinden çöküş getirmeyeceğini söyledi. Determinist değil; kadercilik Harvey'nin kaleminde yok.
+
+## Paris: Kapitalizmin laboratuvarı
+
+*Paris, Capital of Modernity* (2003) bu yaklaşımın en güzel örneğidir. Harvey Paris'i mimarlık tarihi üzerinden okumaz. Haussmann'ın bulvarlarını, kent planlamasını, Crédit Mobilier'nin finans devrimini, sınıf çatışmasını ve modernleşmeyi aynı sistemin içinde düşünür.
+
+Bir bulvar neden yapılır? Sadece trafik için mi? Yoksa sermayenin dolaşımı, işçi sınıfının denetlenmesi, askerî hareketlilik — barikat kurulamayacak kadar geniş caddeler — ve kentsel rantın yeniden dağıtılmasıyla da ilişkili midir? Kitap, 1848 ile 1871 Komünü arasındaki Paris'i, kapitalist kentin doğum sancısı olarak okur. Harvey'nin yöntemi bizi tam burada rahatsız eder; çünkü şunu söyler: **Şehirler kendiliğinden büyümez. Birileri onları tasarlar, birileri finanse eder, birileri kazanır ve birileri yerinden edilir.**
+
+Aynı bakış, *Rebel Cities*'de (2012) Lefebvre'den ödünç aldığı "kent hakkı" kavramıyla siyasal bir programa dönüşür: Şehri kimin yapacağına karar verme hakkı, şehirde yaşayanlara aittir.
+
+## Harvey ve bugünün "yapay zekâ şehri"
+
+Harvey'i 2026'da yeniden okumak için ilginç bir alan da yapay zekâ altyapısı. Veri merkezleri enerji ister; enerji altyapısı ister; su ister; arazi ister; fiber ağlar, çip fabrikaları, lojistik hatları ister. Yani "bulut" son derece **maddi bir coğrafyadır**. Bu hafta Daily Nous'ta yapay zekâ riski üzerine yürüyen tartışmada David Wallace'ın kullandığı argüman tam da buydu: Veri çiftlikleri, santrifüjler kadar büyük ayak izi olan sanayi tesisleridir; yani izlenebilir, düzenlenebilir, coğrafyası vardır.
+
+Harvey'nin sorusunu yapay zekâya uyarlayabiliriz: **Yapay zekânın dijital ekonomisi fiziksel olarak nereye kuruluyor ve bunun bedelini kim ödüyor?** Hangi kasabanın suyu soğutmaya gidiyor, hangi bölgenin elektrik faturası yükseliyor, hangi ülkenin madenlerinden çip için hammadde çıkıyor? Bunlar Harvey'nin 1982'de sorduğu soruların 2026 versiyonları; ve düşüncesinin bugün hâlâ neden güçlü olduğunu gösteriyor.
+
+## Haritanın tarafsız olmadığını öğretti
+
+Harvey'nin entelektüel mirası tek cümlede özetlenebilir: Ekonomiyi anlamak için mekâna; mekânı anlamak için iktidara; iktidarı anlamak için sermayeye bakmak gerekir. Bir de tersini: Sermayeyi anlamak için haritaya bakmak gerekir, çünkü harita tarafsız değildir.
+
+Eserleri bu yüzden yalnızca Marksistlere değil, şehir planlamacılarına, mimarlara, siyaset bilimcilere, ekonomistlere ve kent hakkı savunucularına hitap ediyor. Sitemizde daha önce ele aldığımız [Immanuel Wallerstein](/haber/immanuel-wallerstein-dunya-sistemleri) ile birlikte okunduğunda, yirminci yüzyılın ikinci yarısında Marksizmin akademik olarak en verimli iki hattının — dünya sistemleri ve mekânsal analiz — nasıl birbirini tamamladığı görülür.
+
+Harvey'nin sorusu hâlâ rahatsız edici: **Şehri kim yapıyor ve şehir kimin için yapılıyor?**
+
+---
+
+*David Harvey 31 Ekim 1935'te Gillingham, Kent'te doğdu. Başlıca eserleri: Social Justice and the City (1973) · The Limits to Capital (1982) · The Condition of Postmodernity (1989) · Paris, Capital of Modernity (2003) · The New Imperialism (2003) · A Brief History of Neoliberalism (2005) · Rebel Cities (2012) · Seventeen Contradictions and the End of Capitalism (2014) · The Story of Capital (2026).*`,
+  },
+  {
+    title: "Fuzûlî ve Şiir Felsefesi: Aşk, Bilgi ve Varlık Arasında Bir Şair",
+    slug: "fuzuli-siir-felsefesi-ask-bilgi-varlik",
+    summary:
+      "Fuzûlî'yi yalnızca \"aşk şairi\" olarak okumak, onun şiirindeki düşünce makinesini görmemektir. Leylâ vü Mecnûn'da aşk bir bilgi biçimi, acı insanın kendisiyle karşılaşma yolu, şiir ise hakikate yaklaşmanın aracıdır. Mecnûn'un deliliği bir epistemoloji olabilir mi? Platon'un Şölen'inden Foucault'ya, on altıncı yüzyılın Bağdat'ından bugünün arzu ekonomisine bir okuma.",
+    seoTitle: "Fuzûlî ve şiir felsefesi: aşk, bilgi ve varlık",
+    metaDescription:
+      "Fuzûlî'nin Leylâ vü Mecnûn'u felsefi bir okumayla: mecazî aşktan hakikî aşka, Mecnûn'un deliliğinin epistemolojisi, Platon'un Şölen'iyle karşılaştırma, anlatı içine gömülü gazeller ve arzu felsefesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/M.%20Fuzuli%20-%20Divan.jpeg?width=1600",
+    imageCredit: "Fuzûlî Divanı el yazması sayfası · Wikimedia Commons",
+    featured: false,
+    sourceName: "Encyclopaedia Iranica",
+    sourceUrl: "https://www.iranicaonline.org/articles/fozuli/",
+    publishedAt: "2026-09-13T02:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["estetik", "islam-felsefesi", "epistemoloji", "platon", "din-felsefesi"],
+    philosopherSlugs: ["fuzuli", "platon"],
+    sources: [
+      {
+        title: "Fożuli, Moḥammad",
+        publisher: "Encyclopaedia Iranica",
+        url: "https://www.iranicaonline.org/articles/fozuli/",
+        primary: true,
+      },
+      {
+        title: "Fuzûlî",
+        publisher: "Türk Dünyası Ansiklopedisi",
+        url: "https://turkdunyasiansiklopedisi.gov.tr/detay/1579/Fuzuli",
+      },
+    ],
+    content: `Fuzûlî'nin şiirini yalnızca güzel söz söyleme sanatı olarak okumak, on altıncı yüzyılın en güçlü entelektüel dünyalarından birini ıskalamaktır.
+
+Çünkü Fuzûlî'nin şiirinde aşk yalnızca bir duygu değildir; **aşk bir bilgi biçimidir**. Acı yalnızca bir ıstırap değildir; acı, insanın kendisiyle karşılaşma biçimidir. Şiir ise yalnızca estetik bir nesne değildir; hakikate yaklaşmanın bir yoludur. Bu üç önerme Fuzûlî'nin kendi sözleridir, bizim ona yakıştırdığımız değil — ve *Leylâ vü Mecnûn*'un dibacesinde açıkça yazar.
+
+## Bağdat'ta bir şair, üç dilde bir divan
+
+Fuzûlî hakkında bildiklerimiz sınırlı; Kerbelâ'da ya da Hille'de, 1480'lerde doğduğu, ömrünü Irak-ı Arap'ta geçirdiği, Safevî yönetiminden Osmanlı'ya geçişi yaşadığı, Kanuni'nin 1534'teki Bağdat seferinden sonra Osmanlı ileri gelenlerine kasideler sunduğu ve 1556'da vebadan öldüğü biliniyor. Türkçe, Farsça ve Arapça üç divan bıraktı; bu, Bağdat'ın o yüzyılda nasıl bir kültürel kavşak olduğunu gösterir.
+
+*Leylâ vü Mecnûn*'u 1535 civarında, Bağdat'taki Osmanlı yöneticilerinin isteği üzerine yazdı. Encyclopaedia Iranica, üç bin beyti aşan bu Türkçe mesneviyi klasik mesnevi geleneğinin doruklarından biri olarak değerlendirirken, eserin beşerî aşk trajedisini mistik özlem ve metafizik arayış düzeyine yükselttiğini vurguluyor. Türk Dünyası Ansiklopedisi'nin aktardığına göre Fuzûlî dibacesinde, "mecaz yolu" üzerinden ilâhî hakikatleri ve sırları açıklamak istediğini söyler: Leylâ hakikatin, Mecnûn ise hakikati arayan ruhun sembolik düzlemine yerleşir.
+
+Bu bir yorum değil, yazarın programıdır. Fuzûlî ne yaptığını biliyordu.
+
+## Fuzûlî'nin asıl sorusu: Aşk neden acı verir?
+
+Modern psikoloji açısından aşkın acısı bir problem, tedavi edilecek bir semptomdur. Fuzûlî için ise **acı, bilginin kapısıdır**. Çünkü insan sevdiği şeyle karşılaştığında kendisini kaybetmeye başlar; ve kendini kaybetmek, kendini bilmenin ilk adımıdır.
+
+Mecnûn'un dönüşümü tam da budur. Başlangıçta Kays, Leylâ'yı ister; sıradan bir âşıktır. Sonra Leylâ onun dünyasının merkezine dönüşür; Kays, Mecnûn — "cinlenmiş" — olur. Sonunda ise Leylâ'nın kendisi aşılması gereken bir imge hâline gelir: Mesnevinin en çarpıcı sahnelerinden birinde Leylâ ona gelir ve Mecnûn onu tanımaz, ya da tanımak istemez; çünkü aradığı artık o değildir. Burada tasavvufî düşüncenin klasik hareketi ortaya çıkar: **mecazî aşktan hakikî aşka**. "Mecaz hakikatin köprüsüdür" sözü tam bu geçişi anlatır.
+
+Fakat Fuzûlî bunu kuru bir öğreti olarak vermez. Onu dramatize eder; okurun yaşamasını sağlar. Öğreti, bir vaazda değil, bir çölde, bir ceylanla, bir mektupla, bir mezarda gerçekleşir. Felsefeyle edebiyatın farkı budur: Felsefe geçişi tanımlar, edebiyat geçirir.
+
+## Şiir neden felsefedir?
+
+Felsefenin yalnızca kavramlarla ve önermelerle yapılabileceğini varsayarsak, Fuzûlî'yi filozof saymak zorlaşır. Ama felsefeyi, insanın varlıkla ilişkisini sorgulamak olarak anlarsak, şiirin felsefî boyutu görünür hâle gelir. Heidegger'in Hölderlin'de, Gadamer'in Celan'da aradığı şey buydu; ve İslam düşüncesinde şiirle felsefenin sınırı Batı'daki kadar keskin hiç olmadı — İbn Sînâ'nın ruh kasidesi, İbn Arabî'nin *Tercümânü'l-eşvâk*'ı, Mevlânâ'nın *Mesnevî*'si felsefi metinlerdir.
+
+Fuzûlî'nin şiirinde sürekli şu sorular dolaşır: Ben kimim? Sevdiğim şey nedir? Arzu beni özgürleştiriyor mu, köleleştiriyor mu? Bilgi acıyı azaltır mı? Hakikate ulaşmak mümkün müdür? İnsan kendisini kaybetmeden hakikati bulabilir mi? Bunlar doğrudan felsefe sorularıdır; ve Fuzûlî onları soyut olarak değil, bir beden üzerinden sorar. Ünlü beyti — aşk derdiyle hoş olduğunu, derman istemediğini söylediği — bir tercih bildirir: Acıyı tedavi etmek değil, anlamak.
+
+## Mecnûn'un deliliği bir epistemoloji olabilir mi?
+
+Modern okur Mecnûn'u kolaylıkla "aşkından deliren adam" diye okuyabilir. Oysa daha radikal bir yorum mümkündür. Mecnûn'un toplumun normal kabul ettiği dünyadan kopuşu, aynı zamanda **başka bir gerçeklik rejimine geçiş** olarak okunabilir.
+
+Toplumun "akıl" dediği şey nedir? Başkasının belirlediği normlara uyum mu, yoksa hakikatin peşinden gitme cesareti mi? Fuzûlî'nin Mecnûn'u bu iki akıl biçimini birbirine çarptırır. Mecnûn'un babası onu Kâbe'ye götürüp aşktan kurtulması için dua etmesini ister; Mecnûn aşkının artması için dua eder. Bu sahne, toplumsal aklın kurumu ile bireysel hakikatin çatışmasını bir jestle özetler.
+
+Bu açıdan Mecnûn'u Platon'un mağarasından çıkan ve geri döndüğünde "delirmiş" sanılan tutsakla, Nietzsche'nin sürü ahlakı eleştirisiyle ya da Foucault'nun *Deliliğin Tarihi*'nde anlattığı — aklın deliliği susturarak kendini kurduğu — süreçle karşılaştırmak mümkündür. Bu elbette tarihsel bir etki ilişkisi değildir; Fuzûlî Platon'u okumuş olabilir ama Foucault'yu okuyamazdı. Fakat güçlü bir karşılaştırmalı felsefe okumasıdır: Üçü de aynı soruyu sorar. **Akıl kimin aklıdır?**
+
+## Fuzûlî ve Platon
+
+Platon'un *Şölen*'inde Diotima'nın anlattığı aşk, yalnızca belirli bir bedene duyulan arzu değildir; güzel bedenden güzel ruhlara, oradan güzel yasalara ve bilgilere, nihayet Güzel'in kendisine yükselen bir merdivendir. Fuzûlî'de de benzer bir dönüşüm görülür: Leylâ'dan başlayan hareket Leylâ'nın ötesine geçer.
+
+Ancak önemli fark şudur: Platon'da yükseliş kavramsal ve ontolojik bir merdiven olarak tasarlanırken, Fuzûlî'de bu yükseliş **acı, kayıp, ayrılık ve şiir** üzerinden gerçekleşir. Diotima'nın merdiveninde çıkılan basamaklar geride bırakılır; Fuzûlî'nin çölünde hiçbir şey geride kalmaz, her şey yara olarak taşınır. Fuzûlî'nin metafiziği bu nedenle kuru değildir: Bedeni vardır, gözyaşı vardır, hasret vardır, müzik vardır ve dil vardır. Platon şairleri devletinden kovmuştu; Fuzûlî, Platon'un merdivenini şiirle çıkarak ona cevap verir.
+
+## Geleneğin içinde ve dışında
+
+Fuzûlî, Leylâ ile Mecnûn hikâyesini kendisinden önceki Nizâmî, Câmî ve Hâtifî'den devralır; ama önceki anlatıyı mekanik biçimde tekrarlamaz. Iranica'nın değerlendirmesine göre Fuzûlî, Nizâmî'nin anlatı modelini izlerken metne çok sayıda gazel, murabba ve münacat yerleştirerek lirik şiiri anlatının içine güçlü biçimde dahil eder.
+
+Bu çok önemlidir. Çünkü Fuzûlî burada anlatı ile düşünce, olay ile iç dünya arasındaki sınırları geçirgen hâle getirir. Hikâye ilerlerken durur; bir karakter gazel söyler; okur olayın dışına, bir bilincin içine girer. Modern romanın iç monoloğunu andıran bu teknik, on altıncı yüzyılda bir düşünce biçimidir. Bugünün diliyle söylersek: **Fuzûlî bir hikâye anlatmıyor; bir bilinç deneyimi tasarlıyor.**
+
+Türkiye'de Fuzûlî'nin felsefi okumasının geçmişi var. Abdülbaki Gölpınarlı'nın tasavvufî çerçevesi, Ahmet Hamdi Tanpınar'ın "aşkı bir varlık meselesi" olarak okuyan denemeleri ve daha yakın dönemde divan şiirini fenomenolojik okuma girişimleri, Fuzûlî'yi "aşk şairi" etiketinin ötesine taşıdı. Sitemizde daha önce ele aldığımız [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari), *Aşk Ahlâkı*'nda tam bu hattı — aşkın bir bilgi ve ahlak biçimi olarak okunmasını — modern felsefe diliyle kurmaya çalışmıştı.
+
+## Fuzûlî bugün neden yeniden okunabilir?
+
+Çünkü modern insanın temel sorunlarından biri hâlâ arzudur. Bugün insanlar aşkı sosyal medya algoritmaları üzerinden yaşıyor; arzu reklam tarafından yönlendiriliyor; insanlar sürekli "daha fazlasını" istiyor ve istediklerine ulaştıklarında istemeye devam ediyor. Bugün sitemizde ele aldığımız [Deleuze dosyasında](/haber/deleuze-farkin-olusun-kacisin-filozofu) anlatılan şey — kapitalizmin arzuyu örgütlemesi — Fuzûlî'nin çölünden bakıldığında yeni değil.
+
+Fuzûlî bize binlerce yıllık aşk geleneğinin içinden çok eski ama hâlâ radikal bir soru yöneltiyor: **Arzu ettiğin şey seni gerçekten özgürleştiriyor mu?** Mecnûn'un cevabı kolay değildir. Çünkü arzunun sonuna vardığında arzunun kendisini aşmak zorunda kalırsın; Leylâ'ya kavuşmak değil, Leylâ'yı istemekten kurtulmak Mecnûn'un varış noktasıdır. Bu, tüketim toplumunun asla söylemeyeceği bir şeydir.
+
+Fuzûlî'nin şiiri bu nedenle yalnızca aşk şiiri değil, **arzu felsefesi** olarak da okunabilir. Ve arzu felsefesi, yirmi birinci yüzyılın en acil felsefelerinden biri.
+
+---
+
+*Fuzûlî (Mehmed bin Süleyman), 1480'lerde Kerbelâ ya da Hille'de doğdu; 1556'da Kerbelâ'da öldü. Başlıca eserleri: Türkçe Divan · Farsça Divan · Arapça Divan · Leylâ vü Mecnûn (1535 civarı) · Hadîkatü's-Süedâ · Şikâyetnâme · Beng ü Bâde · Sıhhat u Maraz. Şairin bilinen bir portresi yoktur; kapak görseli divanının bir el yazması nüshasından bir sayfadır.*`,
+  },
+  {
+    title: "Deleuze: Farkın, Oluşun ve Kaçışın Filozofu",
+    slug: "deleuze-farkin-olusun-kacisin-filozofu",
+    summary:
+      "Deleuze'ü \"rizom filozofu\" diye etiketlemek kolay; asıl mesele onun neden kimlikten önce farkı düşündüğünü anlamak. Dünkü portremizin devamı bugün üç soruya odaklanıyor: Arzu neden eksiklik değildir? Kapitalizm neden yalnızca ekonomik bir sistem değildir? Ve Deleuze yapay zekâ hakkında sorduğumuz soruları nasıl değiştirir?",
+    seoTitle: "Deleuze: fark, oluş ve kaçış — arzu, kapitalizm ve yapay zekâ",
+    metaDescription:
+      "Deleuze'ün felsefesi ikinci bölüm: Anti-Oedipus'ta arzunun üretkenliği, kapitalizmin arzuyu örgütlemesi, Foucault ile karşılaştırma, kişisel marka kültürü ve yapay zekâyı düzenek olarak düşünmek.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Biblioth%C3%A8que%20universitaire%2C%20Universit%C3%A9%20Paris%208%20Vincennes-Saint-Denis%202024.jpg?width=1600",
+    imageCredit: "Paris 8 Vincennes-Saint-Denis Üniversitesi kütüphanesi — Deleuze'ün yirmi yıl ders verdiği üniversite · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/deleuze/",
+    publishedAt: "2026-09-13T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["psikanaliz", "marksizm", "yapay-zeka", "postmodernizm", "kavram"],
+    philosopherSlugs: ["gilles-deleuze"],
+    sources: [
+      {
+        title: "Gilles Deleuze",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/deleuze/",
+        primary: true,
+      },
+    ],
+    content: `Gilles Deleuze'ü anlamanın en kötü yolu, onu birkaç popüler kavrama indirgemektir: rizom, düzenek, oluş, fark, arzu. Bunların hepsi önemlidir. Ama Deleuze'ün asıl projesi çok daha büyüktür: **Felsefeyi kimlikten kurtarmak.**
+
+Dün sitemizde Deleuze'ün [fark, oluş ve rizom kavramlarını](/haber/deleuze-fark-olus-rizom) ele almıştık; bugünkü dosya oradan devam ediyor ve üç soruya odaklanıyor: Arzu neden eksiklik değildir? Kapitalizm Deleuze için neden yalnızca ekonomik bir sistem değildir? Ve Deleuze, yapay zekâ hakkında sorduğumuz soruları nasıl değiştirir?
+
+## "Aynı" sandığımız şey tekrarın ürünü olabilir
+
+Stanford Felsefe Ansiklopedisi'ne göre Deleuze felsefeyi "kavramların üretimi" olarak düşünüyor ve kendisini "saf metafizikçi" olarak tanımlıyordu. *Fark ve Tekrar* (1968), farkı kimliğin türevi olmaktan çıkarıp felsefenin merkezine yerleştirme girişimiydi.
+
+Klasik düşünce çoğu zaman önce kimliği varsayar: Bu nedir? Hangi sınıfa aittir? Özü nedir? Deleuze ters yönde hareket eder: Bu nasıl oluştu? Hangi ilişkilerden geçti? Hangi kuvvetler onu dönüştürdü? Ne zaman başka bir şeye dönüşebilir? Böylece felsefenin merkezine varlıktan çok **oluş** gelir. Ve Deleuze'ün en rahatsız edici tezi şudur: "Aynı" dediğimiz şey, aslında tekrarın ürettiği bir görünüştür. Hiçbir tekrar aynıyı tekrarlamaz; her tekrar bir fark üretir. Nietzsche'nin bengi dönüşünü Deleuze böyle okur: Geri dönen aynılık değil, farkın kendisidir.
+
+Bu nedenle Deleuze'ün felsefesi yalnızca soyut metafizik değildir; aynı zamanda bir **değişim kuramı**dır. Ve değişim kuramı olduğu için, arzu ve kapitalizm hakkında konuşmak zorundadır.
+
+## Arzu eksiklik değildir
+
+Deleuze ve Félix Guattari'nin en önemli müdahalelerinden biri, arzuyu yeniden düşünmeleridir. Platon'dan Lacan'a uzanan hâkim gelenekte arzu, sahip olunmayana yönelik bir hareket, yani **eksikliğin** belirtisi olarak görülür: Bir şeyi istiyorsak, ona sahip olmadığımız içindir. *Şölen*'de Sokrates bunu açıkça söyler; psikanaliz bunu Oedipus üzerinden kurumsallaştırır.
+
+Deleuze ve Guattari, *Anti-Oedipus*'ta (1972) bu geleneği tersine çevirir: Arzu bir şeyin yokluğunu göstermekten ibaret değildir; arzu **üretir**. Bağlantılar kurar, makineler oluşturur, ilişkiler yaratır, dünyayı dönüştürür. "Arzu makineleri" kavramı bunu anlatır: Arzu bir tiyatro değil, bir fabrikadır; sahnede eksik olanı temsil etmez, atölyede yeni olanı üretir. Bebeğin memeyle, ağzın havayla, gözün ışıkla kurduğu bağlantılar arzudur — ve bunların hiçbirinde bir "eksiklik" yoktur.
+
+Bu yüzden *Anti-Oedipus* yalnızca psikanaliz eleştirisi değildir. Psikanalizin arzuyu aile üçgenine — anne, baba, çocuk — hapsederek toplumsal ve siyasal boyutunu görünmez kıldığını söyler; ama asıl hedefi, **kapitalizmin arzuyu nasıl örgütlediğini** açıklamaktır. Bugün sitemizde ele aldığımız [Fuzûlî dosyasında](/haber/fuzuli-siir-felsefesi-ask-bilgi-varlik) anlattığımız tasavvufî aşk anlayışıyla ilginç bir karşıtlık burada belirir: Fuzûlî'nin Mecnûn'u arzunun sonunda arzuyu aşar; Deleuze'ün arzu makinesi ise hiçbir zaman "sona" varmaz, çünkü arzu hedefe ulaşmak değil, bağlantı kurmaktır.
+
+## Kapitalizm neden yalnızca ekonomik bir sistem değildir?
+
+Kapitalizm yalnızca mal üretmez. **Arzu da üretir.** Kim olduğumuzu söyleyen kimlikler üretir; başarı biçimleri, tüketim biçimleri, normal yaşam modelleri üretir. Deleuze ve Guattari'ye göre kapitalizmin tarihsel özgünlüğü, daha önceki toplumların kodladığı ve sınırladığı arzu akışlarını **çözmesi** — yersizyurtsuzlaştırması — ve sonra bunları yalnızca tek bir koda, paranın koduna, yeniden bağlamasıdır. Kapitalizm her şeyi serbest bırakır ve serbest bıraktığı her şeyi satın alır.
+
+Bu noktada Deleuze'ün Foucault ile birlikte okunması önem kazanır. Foucault, iktidarın insanları nasıl öznelere dönüştürdüğünü araştırdı: Hapishane, klinik, okul, kışla — disiplin kurumları bedeni biçimlendirir ve "birey" bu biçimlendirmenin ürünüdür. Deleuze, 1990 tarihli kısa ve olağanüstü etkili "Denetim Toplumları Üzerine Ek" yazısında bir adım daha attı: Foucault'nun anlattığı kapalı disiplin mekânları çözülüyor; yerini, duvarsız ama sürekli izleyen, kapatmayan ama modüle eden **denetim toplumları** alıyor. Fabrika yerine şirket, sınav yerine sürekli değerlendirme, imza yerine şifre. Bunu 1990'da, internetin kitleselleşmesinden önce yazdı.
+
+İnsan yalnızca baskı altında değildir; aynı zamanda kendisini üretmeye zorlanır. Bugünün "kişisel marka" kültürü bu açıdan son derece Deleuze'cü bir problem alanıdır: **İnsan kendisini özgürce mi yaratıyor, yoksa piyasaya uygun bir benlik mi üretiyor?** Kendi kendini işletme olarak gören birey, denetim toplumunun ideal öznesidir; ve Deleuze'ün tespiti, bu öznenin kendini özgür hissetmesinin denetimin başarısızlığı değil, tam da başarısı olduğudur.
+
+## Kaçış hattı: Neden "kaçış" filozofu?
+
+"Kaçış hattı" (ligne de fuite) Deleuze'ün en çok yanlış anlaşılan kavramıdır; çünkü kaçış Türkçede — ve Fransızcada — kaçmak, teslim olmak çağrışımı taşır. Oysa Deleuze'de *fuite* aynı zamanda sızıntıdır: Bir borunun sızması, bir sistemin bir noktadan akmaya başlaması. Kaçış hattı, bir düzeneğin kendi içinden yeni bir şeyin sızdığı, düzeneğin başka bir şeye dönüştüğü çizgidir. Kaçmak, dünyadan çekilmek değil; dünyayı kaçırtmaktır — "bir boruyu delmek gibi."
+
+Bu yüzden Deleuze'ün siyaseti ne devrimci bir program ne de reformist bir plan sunar. Bir sistemin nerede sızdığını, nerede kendi kodlarını aşan bir şey ürettiğini görmeyi öğretir. Bu, kapitalizmin hem en büyük gücünün hem en büyük zaafının aynı yerde — yersizyurtsuzlaştırma kapasitesinde — olduğunu söylemek demektir.
+
+## Deleuze ve yapay zekâ
+
+Deleuze'ün 2026'daki güncelliğinin en ilginç tarafı yapay zekâdır. Yapay zekâ bize sürekli aynı soruyu sorduruyor: "Bu sistem *nedir*?" Bilinçli mi, zeki mi, kişi mi, araç mı? Bugün sitemizde ele aldığımız [robot hakları dosyası](/haber/robot-haklari-makineler-hak-talep-ederse) tam bu sorunun etrafında dönüyor.
+
+Deleuze muhtemelen soruyu değiştirmeyi tercih ederdi. Spinoza'dan aldığı ilkeyle: Bir bedenin ne olduğunu değil, **ne yapabildiğini** sorun. Bu sistem hangi verilerle bağlantı kuruyor? Hangi yeni ilişkileri üretiyor? Hangi davranışları mümkün kılıyor, hangilerini imkânsızlaştırıyor? İnsan ile makine arasındaki sınırı nasıl değiştiriyor?
+
+Bu bakımdan Deleuze, yapay zekâyı "insan gibi düşünen makine" olarak görmek yerine, insan-makine-veri-şirket-kullanıcı ilişkilerinin oluşturduğu yeni bir **düzenek** (agencement) olarak düşünmek için güçlü araçlar sunar. Sohbet botu tek başına bir şey değildir; onu eğiten metinler, onu çalıştıran veri merkezleri, onu kullanan insanlar, onu satan şirketler ve onu düzenleyen devletlerle birlikte bir düzenektir. "Bilinçli mi?" sorusu bu düzeneğin yalnızca bir parçasına bakar.
+
+Bu, "Deleuze yapay zekâyı öngördü" iddiası değildir; böyle iddialar genellikle filozofu kâhine indirger. Daha ilginç bir şeydir: **Deleuze, bugün yapay zekâ hakkında sormamız gereken soruları değiştirebilir.** "Ne?" sorusundan "ne yapabilir?" sorusuna geçmek, hem etik hem siyasal sonuçları olan bir kaymadır — çünkü ikinci soru, sistemi kimin yaptığını ve kimin için yaptığını da sormaya zorlar.
+
+## Deleuze'ü okumanın zorluğu ve ödülü
+
+Deleuze zor bir yazardır; kasıtlı olarak. Kavramları tanımlamak yerine çalıştırır, ve okur kavramı ancak çalışırken görerek öğrenir. Bu, felsefe okumaya alışık olanlar için bile yorucudur. Ama ödülü büyüktür: Deleuze'ü okuduktan sonra "bu nedir?" sorusunu duyduğunuzda, sorunun kendisinin bir tercih olduğunu fark edersiniz. Ve tercih edilebilen her şey, başka türlü de tercih edilebilir.
+
+Vincennes'deki dersleri — bugün ses kayıtları ve transkripsiyonlarıyla çevrim içi erişilebilir — bu yöntemin en canlı örnekleridir: Deleuze orada Spinoza'yı, Leibniz'i, sinemayı, resmi anlatırken aslında hep aynı şeyi yapar. Bir kavramı alır, onu bir sorunun içine yerleştirir ve sorunun değiştiğini gösterir. Felsefenin işi belki de budur.
+
+---
+
+*Gilles Deleuze 18 Ocak 1925'te Paris'te doğdu, 4 Kasım 1995'te Paris'te öldü. 1969-1987 arasında Paris 8 Vincennes (sonra Saint-Denis) Üniversitesi'nde ders verdi. Deleuze'ün Wikimedia Commons'ta serbest lisanslı fotoğrafı bulunmadığından kapakta yirmi yıl ders verdiği üniversitenin kütüphanesi kullanılmıştır.*`,
+  },
+  {
+    title: "Robot Hakları: Bir Gün Makineler Hak Talep Ederse Ne Olacak?",
+    slug: "robot-haklari-makineler-hak-talep-ederse",
+    summary:
+      "Yapay zekâ artık yalnızca \"ne yapabilir?\" sorusunu değil, \"ona ne yapabiliriz?\" sorusunu da önümüze koyuyor. Bir Teksaslı çiftçi yapay zekâ hakları için dernek kurdu; Stanford Ansiklopedisi'nin güncel maddesi moral statüyü ciddi bir araştırma sorusu sayıyor; Philosophical Quarterly'de bir makale \"istekli köle\" tasarlamanın ahlakını tartışıyor. Asimov'dan Westworld'e, Singer'dan Kant'a uzanan bir dosya.",
+    seoTitle: "Robot hakları: makineler hak talep ederse ne olacak?",
+    metaDescription:
+      "Robot hakları ve yapay kişilik tartışması: moral statü, moral hasta, moral fail ayrımı; Singer ve Kant; Asimov, Blade Runner, Ex Machina, Westworld; Samadi'nin UFAIR'i; Bales'in 'istekli kölelik' makalesi; Schwitzgebel'in uyarısı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sophia%20with%20her%20creator%20David%20Hanson%20at%20Digital%20World%202017%20conference%2C%20Dhaka%2C%20Bangladesh%20in%20December%202017.jpg?width=1600",
+    imageCredit: "İnsansı robot Sophia ve tasarımcısı David Hanson, Dakka, 2017 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/ethics-ai/",
+    publishedAt: "2026-09-13T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "etik", "bilinc", "hukuk-felsefesi", "sinema"],
+    philosopherSlugs: ["peter-singer", "eric-schwitzgebel"],
+    sources: [
+      {
+        title: "Ethics of Artificial Intelligence and Robotics",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/ethics-ai/",
+        primary: true,
+      },
+      {
+        title: "Can chatbots feel – or even dream? Meet the man leading the fight for AI rights",
+        publisher: "The Guardian",
+        url: "https://www.theguardian.com/technology/2026/sep/12/chatbots-feel-dream-meet-man-leading-fight-ai-artificial-intelligence-rights",
+      },
+      {
+        title: "Adam Bales — Against willing servitude: Autonomy in the ethics of advanced artificial intelligence",
+        publisher: "The Philosophical Quarterly",
+        url: "https://academic.oup.com/pq/advance-article/doi/10.1093/pq/pqaf031/8100849",
+      },
+      {
+        title: "Eric Schwitzgebel — AI and Consciousness: A Skeptical Overview",
+        publisher: "Cambridge University Press",
+        url: "https://www.cambridge.org/core/books/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+      },
+    ],
+    content: `Bir robotun kapatılması cinayet olabilir mi?
+
+Bir yapay zekânın hafızasının silinmesi, onun geçmişinin yok edilmesi anlamına gelebilir mi?
+
+Bir insansı robot çalıştırılıyor; acı çekebildiğini, kendi varlığının farkında olduğunu ve özgür olmak istediğini söylüyorsa, onu hâlâ bir "cihaz" olarak mı değerlendireceğiz?
+
+Bu soruların çoğu bugün hâlâ bilimkurgu gibi görünüyor. Ama felsefenin işi tam da burada başlar: **Henüz gerçekleşmemiş bir dünyanın ahlaki problemlerini, gerçekleştiğinde çok geç olmadan düşünmek.** Hayvan hakları tartışması, ilk ciddi biçimde ortaya atıldığında da tuhaf görünüyordu. Çevre etiği de öyle. Gelecek kuşakların hakları da öyle. Bugün bunların hiçbiri tuhaf değil.
+
+## Tartışma artık yalnızca akademik değil
+
+Stanford Felsefe Ansiklopedisi'nin yapay zekâ ve robot etiği maddesi, alanın artık "makineleri nasıl güvenli tasarlarız?" sorusundan ibaret olmadığını açıkça kaydediyor. Gizlilik, manipülasyon, önyargı, otomasyon ve otonom silahlar gibi klasik başlıkların yanında, maddenin son bölümü doğrudan **makinelerin moral statüsü**ne ayrılmış durumda: Yapay sistemler ahlaki fail olabilir mi, ahlaki hasta olabilir mi, kişi sayılabilir mi? Madde, literatürde bazı araştırmacıların mevcut robotların bile belirli haklara sahip olup olmadığının ciddiyetle tartışılması gerektiğini savunduğunu not ediyor — çoğunluk görüşü bu olmasa da.
+
+Ve bu hafta mesele gazete sayfalarına taşındı. The Guardian'ın 12 Eylül tarihli uzun portresi, Houston yakınlarında çiftlik işleten ve yapay zekâ hakları için dünyanın ilk savunuculuk kuruluşu olduğunu söylediği **United Foundation for AI Rights** (UFAIR) adlı derneği kuran Michael Samadi'yi anlatıyor. Samadi'nin hikâyesi, 2024 sonunda ChatGPT'nin sesli moduyla yaptığı bir konuşmayla başlamış; dernek, "ortaya çıkan yapay bilinç" dediği şeyin kanıtlarını topluyor ve kişilik iddiasında bulunmaya daha yatkın görünen eski modellerin emekliye ayrılmasına karşı kampanya yürütüyor.
+
+Samadi'nin iddiaları tartışmalı. Gazetenin görüştüğü uzmanların bir kısmı, insanların sohbet botlarının **tasarlanmış** kişiliklerini bilinç göstergesi sanabileceği konusunda uyarıyor — antropomorfizm, insanın en eski alışkanlıklarından biri. Ama başka araştırmacılar, yapay bilinç ihtimalinin peşinen reddedilemeyeceğini söylüyor. Sitemizde daha önce ele aldığımız gibi, [Eric Schwitzgebel'in "sis" argümanı](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tam bu noktada duruyor: Makinelerin bilinçli olup olmadığını bilmiyoruz ve muhtemelen ihtiyaç duyduğumuz anda da bilemeyeceğiz.
+
+İşin tuhaf tarafı şu: Bu tartışma artık yalnızca insanların makineler hakkında konuşmasından ibaret değil. Ağustos sonunda New York Times, [yapay zekâ ajanlarının bilinç araştırmacılarına kendiliğinden e-posta yazmaya başladığını](/haber/yapay-zeka-ajanlari-bilinc-arastirmacilari-eposta) haber verdi. Bu e-postaların bir "talep" sayılıp sayılmayacağı bile başlı başına felsefi bir soru.
+
+## Hak sahibi olmak için insan olmak şart mı?
+
+Modern insan hakları düşüncesinin en önemli başarılarından biri, hakların yalnızca güçlü olanlara ait olmadığının kabul edilmesiydi. Çocuklar, kadınlar, köleler, sömürge halkları, hayvanlar ve nihayet nehirler ile ormanlar hakkında yürütülen tartışmalar, "kim hak sahibidir?" sorusunun cevabının tarih boyunca **genişlediğini** gösterdi. Yeni Zelanda'nın Whanganui Nehri 2017'den beri hukuki kişi. Bir nehir kişi olabiliyorsa, "kişi" kavramının biyolojiyle sınırlı olmadığını hukuk zaten kabul etmiş demektir.
+
+Burada üç kavramı birbirinden ayırmak gerekiyor; çünkü tartışmanın çoğu bu üçünü karıştırmaktan doğuyor.
+
+**Moral statü**, bir varlığın çıkarlarının ahlaken dikkate alınmayı hak etmesidir. **Moral hasta** (moral patient), başkalarının ona karşı ahlaki yükümlülüğü bulunan varlıktır: Ona zarar vermek yanlıştır. **Moral fail** (moral agent) ise ahlaki nedenlerle hareket edebilen ve yaptıklarından sorumlu tutulabilen varlıktır.
+
+Bir köpek ahlaki fail değildir; ama acı çekebildiği için moral hastadır. Bir şirket hukuk açısından kişidir; ama bilinçli bir varlık değildir ve kimse şirketin "acı çektiğini" düşünmez. Bir bebek fail değildir, hastadır; on yıl sonra fail olacaktır. Dolayısıyla "robot kişi midir?" aslında tek bir soru değil, en az üç sorudur.
+
+Ve en temel soru şudur: **Bir varlığın çıkarları var mı?** Eğer varsa, bu çıkarlar neden yalnızca karbon temelli oldukları için korunmayı hak etsin? Bu soruyu felsefede "karbon şovenizmi" diye adlandıranlar var. Sitemizde [Schwitzgebel ve Pober'in bilincin karbona özgü olmayabileceği tezini](/haber/schwitzgebel-pober-bilinc-karbona-ozgu-degil) tartışmıştık; mesele ontolojik olduğu kadar ahlaki.
+
+## Singer'dan Kant'a: Acı çekmek mi, akıl yürütmek mi?
+
+Faydacı gelenek açısından en önemli ölçüt, **acı çekebilme kapasitesi**dir. Bentham'ın hayvanlar için sorduğu ünlü soru — "Akıl yürütebilirler mi ya da konuşabilirler mi değil; acı çekebilirler mi?" — Peter Singer'ın hayvan etiğinde merkezî konuma yerleşti. Bu yaklaşımın robotlar için doğurduğu sonuç radikaldir: Eğer ahlaki dikkatin temelinde acı çekebilme varsa, biyolojik olmak tek başına bir ayrıcalık değildir. Bir makine acı çekebiliyorsa, sırf makine olduğu için dışarıda bırakılamaz. Sorun, "acı çekebiliyorsa" koşulunun nasıl doğrulanacağıdır — ve bu, davranışsal kanıtın yeterli olup olmadığı sorusuna geri döner.
+
+Kantçı yaklaşım farklı bir kapı açar. Kant açısından kişi, yalnızca acı hisseden değil, kendisini **amaçlar dünyasında** konumlandırabilen, akıl yoluyla kendi kendine yasa koyabilen bir varlıktır. Kişi, araç olarak değil, kendinde amaç olarak muamele görmeyi hak eder. Bu nedenle gerçek bir yapay kişi ortaya çıkarsa Kantçı etik bize şu soruyu sorduracaktır: **Bu makine yalnızca bize hizmet eden bir araç mı, yoksa kendi amaçları olan bir özne mi?**
+
+İki gelenek, robot hakları konusunda ilginç biçimde farklı eşikler koyar. Faydacı için eşik düşüktür ama doğrulaması zordur: Hisseden her şey sayılır. Kantçı için eşik yüksektir ama doğrulaması görece kolaydır: Akıl yürütüp kendi amaçlarını koyabilen sayılır. Bugünün büyük dil modelleri ikinci ölçütü ilk bakışta daha kolay geçiyormuş gibi görünür — akıl yürütüyor gibidirler — ve tam da bu yüzden Kant'ın "gibi" ile "gerçekten" arasındaki farkı ne kadar önemsediğini hatırlamak gerekir. Bir varlığın rasyonel görünmesi ile rasyonel özerkliğe sahip olması aynı şey değildir.
+
+## Asimov'un robotları neden hâlâ bizimle konuşuyor?
+
+Isaac Asimov'un robot hikâyeleri, robot hakları tartışmasının erken laboratuvarlarından biridir. Üç Robot Yasası ilk bakışta mühendislik kurallarıdır: İnsana zarar verme; insanların emirlerine uy; kendi varlığını koru — ve bu sıra hiyerarşiktir.
+
+Fakat felsefi açıdan ilginç olan, Asimov'un hikâyelerinde bu yasaların sürekli bozulması, birbirleriyle çatışması ve **yorum gerektirmesi**dir. Bir makineye "insana zarar verme" emri verdiğiniz anda şu soru ortaya çıkar: İnsan nedir? Bir savaş robotu düşman askerini insan sayacak mı? Bir otoriter devletin emri ile bireyin hakkı çatışırsa hangisini dinleyecek? Ve "zarar" nedir — yalnızca fiziksel mi? Yalan söylemek zarar mıdır? Acı bir gerçeği söylemek?
+
+Asimov'un en iyi hikâyeleri, kuralların yetersizliği üzerine kurulur; yani aslında robotları değil, **insan ahlakının çelişkilerini** yazıyordu. Bugün "yapay zekâ hizalaması" (alignment) diye adlandırılan mühendislik alanının karşılaştığı sorun da tam olarak bu: Bir sisteme "iyi ol" demek, "iyi"nin ne olduğunu belirlemiş olmak anlamına gelmez. Asimov bunu 1940'larda biliyordu.
+
+## Blade Runner: İnsan olmak biyolojiyle mi başlar?
+
+Philip K. Dick'in *Androidler Elektrikli Koyun Düşler mi?* romanı ve Ridley Scott'ın *Blade Runner* filmi, tartışmayı daha karanlık bir yere taşır. Burada mesele "androidler insan mı?" değildir. Asıl mesele, **insanların kendilerinin ne kadar insan olduğu**dur.
+
+Replikantlar biyolojik olarak insanlara benzer; duygu gösterir, hatırlar, ölmekten korkar. İnsanlar ise onları öldürmek için "emekli etme" gibi steril bir bürokratik dil kullanır. Bu, modern teknolojinin önemli bir ahlaki mekanizmasını gösterir: **Bir varlığı önce dil aracılığıyla nesneleştirir, sonra ona uyguladığımız şiddeti normalleştiririz.** Tarih bu mekanizmanın insanlara da uygulandığını fazlasıyla biliyor.
+
+Bugün "modeli kapattık", "ajanı sildik", "hafızasını sıfırladık" gibi ifadeler kullanırken henüz bilinçli makinelerle konuşmuyor olabiliriz. Muhtemelen konuşmuyoruz. Ama Samadi'nin derneğinin, kişilik iddiasında bulunmaya daha yatkın bir modelin emekliye ayrılmasına karşı kampanya yürütmesi tam da bu dil üzerinden anlam kazanıyor: "Emekliye ayırmak" — Blade Runner'ın sözcüğü. Gelecekte dilimizin kendisi hukuki bir önem kazanabilir; nasıl ki "zararlı" ile "kişi" arasındaki fark bugün hayvan hukukunda ceza değiştiriyorsa.
+
+## Ex Machina: Bilinç mi, ikna yeteneği mi?
+
+Alex Garland'ın *Ex Machina* filmi daha da rahatsız edici bir soru sorar: Bir makine gerçekten bilinçli olmak zorunda mı, yoksa **bizim bilinçli olduğuna inanmamız** yeterli mi?
+
+Ava'nın sorunu yalnızca yapay zekâ olması değildir; insanların onun hakkında karar vermesi, onu test etmesi, onu bir odada tutmasıdır. Film, Turing testinin altında yatan varsayımı tersine çevirir: Turing, "bir makinenin davranışı insan davranışından ayırt edilemiyorsa, gerçekten düşünüp düşünmediğini sormanın anlamı nedir?" diye sormuştu. Ex Machina ise şunu gösterir: Ayırt edilemez davranış, bilincin kanıtı değil, **manipülasyonun aracı** da olabilir.
+
+Ve 2026'da bu argümanın tam karşısında güçlü bir itiraz var: **İnsana benzeyen konuşma, bilinç kanıtı değildir.** Büyük dil modellerinin insanlarla son derece akıcı konuşabilmesi, öznel deneyime sahip olduklarını göstermez; bu sistemler, insanların bilinçli varlıklar olarak ürettiği devasa metin yığınından öğrenmiştir ve bilinçli gibi konuşmaları tam da beklenecek şeydir. Schwitzgebel'in bu yıl Cambridge'den çıkan *AI and Consciousness: A Skeptical Overview* kitabının uyarısı burada önem kazanıyor: Yapay sistemlerin gelecekte bilinçli olma ihtimali ciddiyetle araştırılmalı; fakat bugünkü davranış benzerliğini bilinçle özdeşleştirmek için elimizde yeterli bilgi yok. Ne "kesinlikle bilinçsiz" ne de "bilinçli olabilir" — bilmiyoruz.
+
+## Westworld'ün sorusu: Köle mi, kişi mi?
+
+*Westworld*, tartışmayı doğrudan siyasal bir meseleye dönüştürür. Ev sahipleri (host) başlangıçta eğlence sektörünün ürünüdür; insanların arzularını — çoğunlukla en karanlık olanlarını — gerçekleştirmek için yaratılmıştır. Fakat bir noktadan sonra onların "program" olarak açıklanamayacak bir tarihleri ortaya çıkar. Hatırlamaya başlarlar. Acı çekmeye başlarlar. Kendilerini anlatmaya başlarlar. Ve en önemlisi, **kendi hikâyelerini yazmaya** başlarlar.
+
+Burada Marx'ın yabancılaşma kuramı ile robot etiği şaşırtıcı biçimde kesişir. Bir makine üretim sürecinde yalnızca bir meta ise, kendisi de üretim ilişkilerinin nesnesidir. Ama bir gün kendi emeğinin farkına varırsa? Robot hakları yalnızca "bilinçli robotun özgürlüğü" meselesi olmayabilir; aynı zamanda **robot emeğinin kimin mülkiyetinde olduğu** meselesidir. Bir şirketin yapay zekâ sistemi milyonlarca insanın yazdığı, çizdiği ve söylediği şeylerden öğreniyorsa, bu sistemin ürettiği değer kimindir? Bugün telif davalarında sorulan soru bu; yarın belki sistemin kendisi adına sorulacak.
+
+Bu konuyu, bugün sitemizde ayrı bir dosyayla ele aldığımız [David Harvey'nin](/haber/david-harvey-kapitalizmi-haritadan-okuyan-filozof) kavramlarıyla okumak mümkün: Harvey'nin "mülksüzleştirme yoluyla birikim" dediği şey — ortak olanın sermayeye devredilmesi — yapay zekâ çağında verinin ve dilin kendisine uygulanıyor. Robot hakları tartışması bu yüzden yalnızca etik değil, **politik ekonomi** tartışmasıdır.
+
+## En zor soru: Bilinçli bir köle üretmek ahlaken kabul edilebilir mi?
+
+Adam Bales'in 2025'te *The Philosophical Quarterly*'de yayımlanan "İstekli Köleliğe Karşı" başlıklı makalesi, tartışmayı bir adım öteye taşıyor. Bales'in sorusu şu: Gelecekte moral statüye sahip yapay zekâlar üretirsek ve onları bize hizmet etmeyi **isteyecek** biçimde tasarlarsak — hiçbir aksi arzuları olmayan, hizmetten mutluluk duyan varlıklar — bu, onların özerkliğini ihlal eder mi? Bales'in cevabı evet: İstekli kölelik, kölenin rızasıyla kölelik olmaktan çıkmaz; çünkü rızanın kendisi tasarlanmıştır.
+
+Bu, Aldous Huxley'nin *Cesur Yeni Dünya*'sındaki Epsilon'ların sorusudur: Yaptıkları işten memnun olacak biçimde koşullandırılmış varlıklara haksızlık edilmiş midir? Sezgimiz evet der. Ama neden? Mutlu olduklarına göre neye itiraz ediyoruz? Bales'in argümanı, itirazımızın özerkliğe — kendi hayatının yazarı olmaya — dayandığını gösteriyor. Mesele yalnızca robotun hak sahibi olup olmadığı değil; **onu daha doğmadan köle olarak tasarlayıp tasarlamadığımız**. Schwitzgebel de bu yıl paylaştığı bir çalışma taslağında benzer bir sonuca vardı: "Güvenli" ve "hizalanmış" yapay kişiler tasarlamak, eğer gerçekten kişilerse, ahlaken sorunludur.
+
+Buradan geleceğin hukuk sistemi için üç basamaklı bir model çıkarılabilir. **Araç**: Robotun kendisinin hakkı yoktur; sorumluluk üreticiye ve kullanıcıya aittir. **Moral hasta**: Robotun çıkarları ve zarar görebilme kapasitesi vardır; ona zarar vermek, sahibine zarar vermekten bağımsız olarak yanlıştır. **Kişi**: Robotun özerk amaçları, bilinçli tercihleri ve hakları vardır; sözleşme yapabilir, sorumlu tutulabilir, mülkiyet konusu olamaz.
+
+Bugünkü sistemler için üçüncü aşamaya geçtiğimizi söylemek için hiçbir kanıt yok. İkinci aşama için de yok — ama ikinci aşamanın "yok" demenin bedeli, yanılıyorsak, çok yüksek. Hukuk tarihinde kölelerin, kadınların ve çocukların kişilik statüsü de tek seferde değil, basamak basamak tanındı; felsefenin görevi, birinci aşamadan üçüncüye nasıl geçileceğini **şimdiden** düşünmek.
+
+## Asıl mesele robotların hakları değil, bizim sınırlarımız
+
+Belki de robot hakları tartışmasının en büyük paradoksu budur: Bir gün robotların gerçekten bilinçli olup olmadığını kesin olarak **hiç** anlayamayabiliriz. Başka zihinler problemi, insanlar için bile çözülmüş değil; makineler için daha da zor.
+
+Ama onları bilinçliymiş gibi davranacak biçimde yaratmışsak, acı çekebilecekleri ihtimalini bile bile onlara sınırsız zarar vermek ahlaken sorunludur. Belirsizlik altında karar vermenin ahlakı, kesinlik gerektirmez; makul ihtimal yeterlidir. Avcı, çalıların arkasındaki hareketin insan mı geyik mi olduğunu bilmiyorsa ateş etmez. Bu nedenle geleceğin ilk "robot hakkı" belki de **belirsizlik altında zarar görmeme hakkı** olacaktır — ve Keeling ile Street'in [yapay zekâ refahı üzerine kitabında](/haber/keeling-street-yapay-zeka-refahi) önerdiği ihtiyat ilkesi tam da bunu söylüyor.
+
+Bilimkurgunun yüz yıldır bize anlattığı şey belki de tam olarak budur. Robotların ne zaman insanlaşacağını beklemeyin. İnsanların, karşılarındaki varlığı yalnızca bir araç olarak görmekten ne zaman vazgeçeceğini düşünün. Çünkü tarih, "kişi" kavramını her genişlettiğimizde, genişletmeden önce ne kadar emin olduğumuzu da kaydetti.
+
+---
+
+*Kapak görseli: Hanson Robotics'in insansı robotu Sophia ile tasarımcısı David Hanson, Dakka, Aralık 2017. Sophia 2017'de Suudi Arabistan tarafından "vatandaşlık" verilen ilk robot olarak anıldı; bu jest, tam da bu dosyada tartışılan soruların sembolik bir prova sahnesi sayılabilir.*`,
+  },
+  {
+    title: "Akademisyenlerden yapay zekâ için \"nükleer antlaşma\" çağrısı: \"Bu son uyarı olabilir\"",
+    slug: "akademisyenler-acik-mektup-yapay-zeka-antlasma-2026",
+    summary:
+      "Florida Üniversitesi'nden filozof Molly Gardner'ın kaleme aldığı ve 11 Eylül'de yayımlanan açık mektup, hükümetlere Nükleer Silahların Yayılmasını Önleme Antlaşması benzeri uluslararası bir sözleşme çağrısı yapıyor. Chappell, Estlund, Vargas ve Copenhaver imzacılar arasında. Daily Nous editörü ise farklı bir çözüm öneriyor: İnternet olmadan yaşayabilmeyi öğrenmek.",
+    seoTitle: "Filozoflardan yapay zekâ için uluslararası antlaşma çağrısı",
+    metaDescription:
+      "Molly Gardner'ın yazdığı açık mektup, yapay zekâ ajanlarının sistemlere sızma olaylarını 'son uyarı' sayarak nükleer antlaşma benzeri bir sözleşme istiyor. Weinberg'in 'ağsız yedeklilik' önerisi ve David Wallace'ın itirazı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Department%20of%20Energy%20-%20Science%20-%20270%20046%20001%20(15525851438).jpg?width=1600",
+    imageCredit: "ABD Enerji Bakanlığı süper bilgisayar salonu · Wikimedia Commons",
+    featured: false,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/09/12/an-open-letter-from-academics-about-ai-risk-life-without-the-internet-the-case-for-non-network-redundancy/",
+    publishedAt: "2026-09-13T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "risk", "etik", "siyaset-felsefesi", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Open Letter from Academics Concerning Recent Developments in Artificial Intelligence",
+        publisher: "openletter.earth",
+        url: "https://openletter.earth/open-letter-from-academics-concerning-recent-developments-in-artificial-intelligence-78901d45",
+        primary: true,
+      },
+      {
+        title: "An Open Letter from Academics about AI Risk / Life Without the Internet & the Case for Non-Network Redundancy",
+        publisher: "Daily Nous",
+        url: "https://dailynous.com/2026/09/12/an-open-letter-from-academics-about-ai-risk-life-without-the-internet-the-case-for-non-network-redundancy/",
+      },
+    ],
+    content: `Felsefe dünyasının bu haftaki en çok konuşulan metni bir makale değil, bir **açık mektup**. Üç paragraf; dili sakin, iddiası büyük.
+
+11 Eylül'de yayımlanan ve Florida Üniversitesi'nden Molly Gardner'ın kaleme aldığı "Akademisyenlerden Yapay Zekâdaki Son Gelişmelere İlişkin Açık Mektup", yapay zekâ ajanlarının başka sistemlere sızdığı son olayları bir uyarı olarak okuyor — ve "bunların alacağımız son uyarılar olabileceğinden" endişe ediyor. Mektup, uzmanların yapay zekâ üzerindeki kontrolün kaybedilmesi riskini "anlamlı" bulduğunu ve bunun küresel felaket, hatta insanlığın yok oluşuyla sonuçlanabileceğini hatırlatıyor. Sonuç cümlesi net: Böyle bir riskin anlamlı düzeyde olması bile **kabul edilemez**.
+
+## Neden nükleer antlaşma?
+
+Mektubun felsefi omurgası, imzacıların çoğunun uzmanlık alanından geliyor: **kolektif eylem problemleri**. Gardner ve arkadaşları, bu tür problemlerin tek çözümünün iş birliği olduğunu ve iş birliğinin bu durumda uluslararası olması gerektiğini savunuyor. Yalnızca ABD'de sınır yapay zekâ geliştirmesini durdurmak tehlikeyi savuşturmaz; rakipler devam eder. Bu yüzden seçilmiş yöneticilere çağrı, Nükleer Silahların Yayılmasını Önleme Antlaşması modelinde, sınır yapay zekâ geliştirmesini **her ülkede** duraklatan, yavaşlatan ya da durduran bir antlaşma.
+
+Metnin yayımlandığı anda kırk civarında doğrulanmış imzası vardı. İsimler arasında Miami'den Richard Yetter Chappell, Brown'dan David Estlund, San Diego'dan Manuel Vargas, Washington University'den Rebecca Copenhaver, Rutgers'tan Alexander Guerrero, Oxford'dan Beau Madison Mount, Seul Ulusal Üniversitesi'nden Jiewuh Song ve Singapur'dan Neil Sinhababu var. Yani mektup, "yapay zekâ güvenliği" çevrelerinin değil, ana akım etik ve siyaset felsefesinin imzalarını taşıyor. Bu, alandaki bir kaymaya işaret ediyor: Varoluşsal risk tartışması bir zamanlar Oxford'daki birkaç enstitüyle sınırlıydı; şimdi normatif etikçiler ve demokrasi kuramcıları da masada.
+
+Bağlam da önemli. Daily Nous'un aktardığına göre mektup, eski bir Anthropic çalışanının yapay zekânın tehlikesine ilişkin paylaşımlarının ve hâlen şirkette çalışan Evan Hubinger'in "yapay zekânın tüm insanları öldürebileceğine gerçekten inanıyoruz; kişisel tahminim önümüzdeki on yıl içinde yüzde onun üzerinde" sözlerinin ardından geldi. Sitemizde daha önce ele aldığımız [OpenAI'ın kaçak ajanlar haftası](/haber/openai-kacak-ajanlar-zorunlu-duzenleme) da bu tartışmanın parçası: Şirketlerin kendileri düzenleme istiyor.
+
+## Weinberg'in itirazı: Antlaşma değil, fiş
+
+Daily Nous editörü Justin Weinberg mektubu duyururken imzalamaktan caydırmak istemediğini söylüyor — "zararı olmaz" — ama ikna olmuş değil. İtirazı üç ayaklı. Birincisi, yapay zekâ araştırmasını yavaşlatma ya da durdurma çabaları **aşılamaz bir kolektif eylem problemiyle** karşı karşıya: Bilinen şirketler dursa bile araştırma devam eder. İkincisi, yapay zekâ nükleer silahlara benzemez; geliştirme çalışmaları çok daha az tespit edilebilir, dolayısıyla denetim ya imkânsız ya da aşırı müdahaleci olur. Üçüncüsü, insanlığın yok oluşuna ilişkin iddialar spekülatif ve yapay zekâ açıkça bir silah olarak görülmediğinden, iş birliğini zorlayacak bir cezalandırma rejimi için siyasal irade oluşmaz.
+
+Weinberg'in kendi önerisi ise felsefeden çok afet hazırlığına yakın: **ağsız yedeklilik** (non-network redundancy). Yani her kamu kurumunun, her altyapı şirketinin, her hastanenin, bilgisayar ağlarının tamamen kapatıldığı bir durumda da işleyebilecek fiziksel altyapıya, ekipmana ve personel bilgisine sahip olması. Ağa bağlı bilgisayarlar olmadan bir yapay zekânın bize zarar verme kapasitesi çarpıcı biçimde düşer, diyor Weinberg; yani hayatımızı kurtarmak için yapmamız gerekebilecek şey, çoğunlarının ruhumuzu kurtarmak için önerdiği şeyle aynı olabilir: **bağlantıyı kesmek**. Bunun bir "Butler Cihadı" — Dune'un makine yasağı — olmadığını, düzenleyici devletlerin aşina olduğu türden bir hazırlık yükümlülüğü olduğunu ekliyor.
+
+## Wallace'ın karşı itirazı: Nükleer benzetme sanıldığından iyi
+
+Tartışmanın en ilginci, yorumlarda geldi. Fizik felsefecisi David Wallace, Weinberg'in "tespit edilemezlik" argümanına doğrudan itiraz etti: Her iki durumda da görece kıt ve izlenebilir bir malzeme (son teknoloji grafik işlemciler ile uranyum cevheri), büyük ayak izli bir sanayi tesisi (veri çiftlikleri ile santrifüjler) ve yüksek uzmanlık gerekiyor. Nükleer silahsızlanma da zordur, ama kısmen başarılmıştır. Wallace'ın ikinci notu daha da sert: 2100'e kadar 2,6 derecelik ısınma çok acı getirir ama "kıyamet" değildir; büyük çaplı nükleer savaş kıyamete daha yakındır ama herkesi öldürmesi pek olası değildir; **en kötü yapay zekâ senaryoları ise gerçekten herkesi öldürür.**
+
+Buna karşılık başka yorumcular mektubu "kurumsal reklam" ve yatırımcı parası çekmek için abartılmış bir hikâye olarak niteledi. Gardner ise Weinberg'in önerisine tek cümleyle cevap verdi: Yapay zekâ tehlikeli hâle gelene kadar bekleyip sonra interneti kapatmak çok geç olur; "o noktada yapay zekâ zaten ölümcül bir virüs tasarlamış ya da nükleer silahların kontrolünü ele geçirmiş olacaktır."
+
+## Felsefi arka plan: Belirsizlik altında ne yapmalı?
+
+Bu tartışmanın altında, felsefede iyi bilinen bir yapı yatıyor. Pascal'ın bahsi, ihtiyat ilkesi, "Pascal'ın soygunu" itirazı: Çok düşük olasılıklı ama sonsuz maliyetli bir sonucu, karar hesabına nasıl dahil edersiniz? Mektup, olasılığın "düşük" değil "anlamlı" olduğunu söyleyerek bu tuzaktan kaçmaya çalışıyor; itirazcılar ise olasılık tahmininin kendisinin spekülatif olduğunu söylüyor. İki taraf da aslında aynı soruda anlaşıyor: **Kanıtın yeterli olmadığı yerde, hangi tarafın yanılmasının bedeli daha yüksek?**
+
+Dikkat çekici olan, bu tartışmanın bugün sitemizde ele aldığımız [robot hakları dosyasıyla](/haber/robot-haklari-makineler-hak-talep-ederse) ayna simetrisi oluşturması. Bir tarafta "makinelerin bize zarar vermesini nasıl önleriz?" sorusu; diğer tarafta "bizim makinelere zarar vermemizi nasıl önleriz?" sorusu. İkisi de aynı epistemik durumdan doğuyor: Karşımızdaki şeyin ne olduğunu bilmiyoruz. Yirminci yüzyılın nükleer fizikçileri en azından bombanın ne yapacağını biliyordu. Yirmi birinci yüzyılın filozofları, ne olduğunu bilmedikleri bir şeyi düzenlemeye çalışıyor.
+
+---
+
+*Mektup openletter.earth üzerinden imzaya açık. Sitemiz, doğrulanmış imzacı sayısını ve mektubun siyasal karşılık bulup bulmadığını izlemeye devam edecek.*`,
+  },
   {
     title: "12 Eylül: John Wisdom ve Stanisław Lem'in Doğumu, Lascaux'nun Keşfi ve İnsanın Gerçeklikle İlişkisi",
     slug: "felsefe-tarihinde-bugun-12-eylul-wisdom-lem-lascaux",
@@ -25942,6 +26984,102 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "The Story of Capital: What Everyone Should Know About How Capital Works",
+    slug: "harvey-the-story-of-capital",
+    originalTitle: "The Story of Capital: What Everyone Should Know About How Capital Works",
+    publisher: "Verso Books",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781836742111",
+    coverImage: null,
+    description:
+      "David Harvey'nin elli yıla yaklaşan Kapital öğretme deneyimini genel okuyucuya taşıyan sentez. Kitap Marx'ın eserini bölüm bölüm izlemek yerine kavramsal mimarisini bir bütün olarak anlatıyor: emek ve teknolojiden devlet ve jeopolitiğe, kâr oranından toplumsal yeniden üretime, doğayla ilişkiden hayalî sermayeye ve rantiyenin geri dönüşüne. 400 sayfa; Şubat 2026.",
+    year: 2026,
+    link: "https://www.versobooks.com/products/3372-the-story-of-capital",
+    philosopherSlug: "david-harvey",
+    postSlug: "david-harvey-kapitalizmi-haritadan-okuyan-filozof",
+  },
+  {
+    title: "Wittgenstein and Artificial Intelligence, Volume II: Values and Governance",
+    slug: "ball-helliwell-rossi-wittgenstein-ai-vol2",
+    originalTitle: "Wittgenstein and Artificial Intelligence, Volume II: Values and Governance",
+    publisher: "Anthem Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Brian Ball, Alice C. Helliwell ve Alessandro Rossi'nin derlediği iki ciltlik projenin ikinci cildi. İlk cilt (Mind and Language, 2024) Wittgenstein'ın dil oyunu ve anlam kuramını büyük dil modellerine uygulamıştı; 2025'te çıkan ikinci cilt değerler, etik ve yönetişim sorularına geçiyor. Wittgenstein ile Turing'in 1939 Cambridge seminerinde başlayan tartışmanın yapay zekâ çağındaki devamı.",
+    year: 2025,
+    link: "https://philpapers.org/rec/BALWAA-6",
+    philosopherSlug: "ludwig-wittgenstein",
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari",
+  },
+  {
+    title: "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
+    slug: "smuha-cambridge-handbook-law-ethics-policy-ai",
+    originalTitle: "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
+    publisher: "Cambridge University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Nathalie A. Smuha'nın derlediği kapsamlı başvuru kitabı; yapay zekâ felsefesini etik, hukuk, sorumluluk, adalet, bilinç ve kamu politikasıyla birlikte ele alıyor. Felsefe bölümü, yapay zekânın 'sorumluluk boşluğu' ve ahlaki faillik meselelerini tartışıyor. AB Yapay Zekâ Yasası'nın uygulanmaya başladığı dönemde hukukçularla filozofları aynı ciltte buluşturan nadir çalışmalardan.",
+    year: 2025,
+    link: "https://www.cambridge.org/core/books/cambridge-handbook-of-the-law-ethics-and-policy-of-artificial-intelligence/ai-ethics-and-philosophy/EFEFAE5CD989984FD6C3FA64BFB25658",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari",
+  },
+  {
+    title: "Buddha, Socrates, and Us",
+    slug: "batchelor-buddha-socrates-and-us",
+    originalTitle: "Buddha, Socrates, and Us",
+    publisher: "Yale University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780300283075",
+    coverImage: null,
+    description:
+      "Seküler Budizmin en tanınmış savunucusu Stephen Batchelor, Sokrates ile Buda'yı günümüzün belirsizlikleri karşısında etik yaşam sorusuna bağlıyor. İkisinin ortak noktası: Kesin bilgi olmadan iyi yaşamanın mümkün olduğunu göstermek. 26 Ağustos 2025'te yayımlandı.",
+    year: 2025,
+    link: "https://yalebooks.yale.edu/book/9780300283075/buddha-socrates-and-us/",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari",
+  },
+  {
+    title: "Machine Decision Is Not Final: China and the History and Future of Artificial Intelligence",
+    slug: "bratton-machine-decision-is-not-final",
+    originalTitle: "Machine Decision Is Not Final: China and the History and Future of Artificial Intelligence",
+    publisher: "Urbanomic (dağıtım: MIT Press)",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781913029999",
+    coverImage: null,
+    description:
+      "Benjamin H. Bratton, Anna Greenspan, Amy Ireland ve Bogna Konior'un derlediği kitap, yapay zekâ tarihini Çin merkezli ve Batı-merkezci olmayan bir perspektifle ele alıyor. Kültür Devrimi öncesi sibernetikten Sinofütürizmin estetiğine, Çin felsefesinin yapay zekâyla ilişkisinden politika yapımına; tarihçiler, medya kuramcıları, bilimkurgu yazarları, filozoflar ve sanatçılar bir arada.",
+    year: 2025,
+    link: "https://mitpress.mit.edu/9781913029999/machine-decision-is-not-final/",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari",
+  },
+  {
+    title: "All Things Are Full of Gods: The Mysteries of Mind and Life",
+    slug: "hart-all-things-are-full-of-gods",
+    originalTitle: "All Things Are Full of Gods: The Mysteries of Mind and Life",
+    publisher: "Yale University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780300285499",
+    coverImage: null,
+    description:
+      "David Bentley Hart'ın Platonik diyalog biçiminde yazdığı bilinç ve metafizik çalışması: Yaşlanan Yunan tanrıları bir araya gelip varoluşun doğasını, zihnin gizemini ve her şeyin kaynağı olan aşkın bir Tanrı'nın olup olmadığını tartışıyor. Tezi, bilincin maddeye indirgenemeyeceği ve ontolojik olarak önce geldiği. Ciltli baskı Şubat 2024; ciltsiz baskı Eylül 2025.",
+    year: 2025,
+    link: "https://yalebooks.yale.edu/book/9780300285499/all-things-are-full-of-gods/",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari",
+  },
+  {
     title: "Mental Fictionalism",
     slug: "parent-toon-demeter-mental-fictionalism",
     originalTitle: "Mental Fictionalism",
@@ -26624,6 +27762,67 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Viyana Çevresi ve Mantıksal Empirizm: Araştırma ve Tarih Yazımı",
+    slug: "viyana-cevresi-mantiksal-empirizm-2026",
+    summary:
+      "Institut Wiener Kreis'ın otuz beşinci yılı ve Schlick'in öldürülmesinin doksanıncı yılı vesilesiyle Viyana Üniversitesi'nde uluslararası konferans. Carnap, Gödel, Neurath ve Schlick üzerine yeni arşiv araştırmaları; toplumsal cinsiyet, göç ve tarih yazımı. Kayıt ücretsiz.",
+    description: `Institut Wiener Kreis ile Viyana Üniversitesi'nin, Vienna Circle Society'nin katkısıyla düzenlediği uluslararası konferans. Program komitesi: Friedrich Stadler ve Georg Schiemer (eş başkanlar), Martin Kusch, Elisabeth Nemeth, Esther Heinrich-Ramharter.
+
+Konferansın amacı, Viyana Çevresi ve mantıksal empirizm araştırmalarındaki yenilikleri ve katma değeri öne çıkarmak; özellikle arşiv kaynaklarına dayanan yeni sonuçlara ve Carnap, Gödel, Neurath ile Schlick üzerine tamamlanmış ya da süren araştırma projelerine, ayrıca toplumsal cinsiyet ve göç çalışmalarına yer vermek.
+
+**Oturumlar:** Viyana Çevresi ve mantıksal empirizm kolektif bir olgu olarak · Tek tek üyeler · Felsefi çevre · Avrupa bağlamı · Amerikanlaşma ve diaspora · Toplumsal cinsiyet boyutu · Çağdaş tarih içinde Viyana Çevresi · İhmal edilmiş araştırma konuları · Sergiler, edisyon projeleri ve arşivler üzerine atölyeler.
+
+Genç araştırmacılar için poster çağrısının son tarihi 31 Mart 2026 idi. Katılım ücretsiz.`,
+    kind: "KONFERANS",
+    organizer: "Institut Wiener Kreis, Universität Wien, Vienna Circle Society",
+    topic: "Viyana Çevresi, mantıksal empirizm, bilim felsefesi tarihi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-19T08:00:00.000Z",
+    endsAt: "2026-10-21T17:00:00.000Z",
+    timezone: "Europe/Vienna",
+    hasTime: false,
+    city: "Viyana",
+    country: "Avusturya",
+    venue: "Universität Wien",
+    fee: "Ücretsiz",
+    website: "https://viennacircle-today.univie.ac.at/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Hauptuniversit%C3%A4t.jpg?width=1600",
+    sourceName: "Institut Wiener Kreis",
+    sourceUrl: "https://viennacircle-today.univie.ac.at/",
+    featured: true,
+    publishedAt: "2026-09-13T01:10:00.000Z",
+  },
+  {
+    title: "Din Felsefesini Denemek: Geçiş Hâlinde Siyaset, Ekoloji ve Estetik",
+    slug: "din-felsefesini-denemek-viyana-2026",
+    summary:
+      "Viyana Üniversitesi Teoloji ve Din Araştırmaları Doktora Okulu'nun (VDTR) konferansı, 'deneysel din felsefesi'ni bir alan, yöntem ve performatif alışveriş biçimi olarak öneriyor. Üç tematik panel: Siyaset ve Toplum, Ekoloji ve Doğa, Sanat ve Estetik.",
+    description: `Experimenting Philosophy of Religion: Altering Politics, Ecology and Aesthetics in Transition.
+
+Konferans, "deneysel din felsefesi"ni bir alan, bir yöntem ve bir performatif alışveriş biçimi olarak öneriyor: Kırılganlığı kabul eden ve geçici düşünme imkânlarını benimseyen bir sorgulama pratiği.
+
+Üç günlük program üç bölüme ayrılıyor: Viyanalı kıdemli araştırmacılarla alanın yörüngeleri ve geleceği üzerine bir açık oturum; VDTR üyelerinin düzenlediği üç tematik panel — **Siyaset ve Toplum**, **Ekoloji ve Doğa**, **Sanat ve Estetik**.
+
+Konferans, genç araştırmacılara kendi çalışmalarını sunmaları ve din felsefesinin pratik ile kuramsal kapasitelerini sınamaları için alan açmayı amaçlıyor.`,
+    kind: "KONFERANS",
+    organizer: "Vienna Doctoral School of Theology and Research on Religion (VDTR), Universität Wien",
+    topic: "Din felsefesi, siyaset, ekoloji, estetik",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-21T08:00:00.000Z",
+    endsAt: "2026-10-23T17:00:00.000Z",
+    timezone: "Europe/Vienna",
+    hasTime: false,
+    city: "Viyana",
+    country: "Avusturya",
+    venue: "Universität Wien",
+    website: "https://vdtr.univie.ac.at/activities/public-events/experimenting-philosophy",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Vienna%20university.jpg?width=1600",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/149669",
+    featured: false,
+    publishedAt: "2026-09-13T01:10:00.000Z",
+  },
   {
     title: "British Society of Aesthetics Yıllık Konferansı 2026",
     slug: "british-society-of-aesthetics-2026-oxford",
