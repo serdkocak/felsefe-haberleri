@@ -260,6 +260,32 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Karl Popper",
+    slug: "karl-popper",
+    headline: "Bilim filozofu ve açık toplum kuramcısı (1902-1994)",
+    bio: "Bilimi doğrulamayla değil yanlışlanabilirlikle tanımladı; tarihin yasalarını bildiğini iddia eden her siyaseti 'tarihsicilik' diye mahkûm etti. Açık Toplum ve Düşmanları ile Platon, Hegel ve Marx'ı totaliterliğin fikir babaları olarak yargıladı; Viyana'dan sürgüne, Yeni Zelanda'dan Londra'ya uzanan hayatı yirminci yüzyılın özeti gibiydi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Popper.jpg?width=600",
+    country: "Avusturya / Birleşik Krallık",
+    birthYear: 1902,
+    affiliation: "London School of Economics (1946-1969)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Sir Karl Raimund Popper",
+    birthDate: "28 Temmuz 1902, Viyana",
+    deathDate: "17 Eylül 1994, Londra (Kenley, Croydon)",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Eleştirel akılcılık · bilim felsefesi · liberal siyaset felsefesi",
+    areas: "Bilim felsefesi, epistemoloji, siyaset felsefesi, olasılık kuramı, zihin felsefesi",
+    majorWorks: "Bilimsel Araştırmanın Mantığı (Logik der Forschung, 1934)\nAçık Toplum ve Düşmanları (1945)\nTarihsiciliğin Sefaleti (1957)\nTahminler ve Çürütmeler (1963)\nNesnel Bilgi (1972)\nBitmeyen Arayış (otobiyografi, 1976)\nBenlik ve Beyni (J. C. Eccles ile, 1977)",
+    keyConcepts: "Yanlışlanabilirlik, sınır çizme sorunu, eleştirel akılcılık, tarihsicilik, açık toplum, parça parça toplum mühendisliği, üç dünya kuramı, eğilim yorumu, hoşgörü paradoksu",
+    influencedBy: "Immanuel Kant, David Hume, Albert Einstein, Viyana Çevresi (karşı), Sokrates, Charles Darwin",
+    influenced: "Imre Lakatos, Paul Feyerabend, Hans Albert, George Soros, Ernst Gombrich, Friedrich Hayek, John Eccles, Bryan Magee, Joseph Agassi, David Miller",
+    longBio: "Viyana'da asimile olmuş Yahudi bir ailede doğdu; babası hukukçu ve kitap tutkunuydu. 1919'da kısa süreliğine Marksizme yaklaştı, aynı yıl bir gösteride polisin ateş açmasıyla öldürülen gençlerin ardından hem Marksizmden hem de her türlü tarih kehanetinden koptu. Viyana Üniversitesi'nde felsefe, matematik ve fizik okudu; öğretmenlik yaptı. 1934'te yayımlanan Logik der Forschung, Viyana Çevresi'nin doğrulama ilkesine karşı bilimsel bir kuramın ayırt edici özelliğinin yanlışlanabilir olması olduğunu savundu: Bilim, kesin doğrular biriktirmez; cesur tahminler ileri sürer ve onları çürütmeye çalışır.\n\nNazizmin yükselişiyle 1937'de Yeni Zelanda'ya, Christchurch'teki Canterbury University College'a gitti. Savaş yıllarında, kendi deyişiyle 'savaş çabasına katkısı' olarak Açık Toplum ve Düşmanları'nı (1945) yazdı: Platon'un ideal devletini, Hegel'in tarih felsefesini ve Marx'ın kehanetlerini, geleceğin bilinebilir olduğu iddiasıyla bireyi feda eden kapalı toplum düşüncesinin kaynakları olarak eleştirdi. Kitabın yaygınlaşmasında Hayek'in desteği belirleyici oldu; 1946'da London School of Economics'e çağrıldı ve 1969'a kadar orada ders verdi. 1965'te şövalye unvanı aldı.\n\nGeç dönem çalışmaları, nesnel bilginin insan zihninden bağımsız bir 'üçüncü dünya' oluşturduğu tezini, olasılıkların eğilim yorumunu ve evrimci epistemolojiyi kapsadı. Kuhn, Lakatos ve Feyerabend'le tartışmaları yirminci yüzyıl bilim felsefesinin ana hattını belirledi. 17 Eylül 1994'te Londra'da, doksan iki yaşında öldü. Türkçede Açık Toplum ve Düşmanları, Tarihsiciliğin Sefaleti, Bilimsel Araştırmanın Mantığı ve Daha İyi Bir Dünya Arayışı başta olmak üzere pek çok eseri çevrildi.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/popper/ · Britannica — https://www.britannica.com/biography/Karl-Popper · The Washington Post, 19 Eylül 1994 — https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/",
+  },
+  {
     name: "Jacques Rancière",
     slug: "jacques-ranciere",
     headline: "Fransız filozof — Paris 8 Üniversitesi (emeritus)",
@@ -2469,6 +2495,397 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Tractatus 2026 Maria-Sibylla Lotter'e: 'Kurban' kavramının yükselişini soğukkanlılıkla çözümleyen bir deneme ödüllendirildi",
+    slug: "tractatus-odulu-2026-maria-sibylla-lotter-opfer",
+    summary:
+      "Almanca konuşulan dünyanın en yüksek ödüllü felsefi deneme ödülü Tractatus (25.000 avro), Bochumlu etik profesörü Maria-Sibylla Lotter'in 'Opfer. Über Verwundbarkeit als Selbstbild' kitabına verildi. Jüri, yalnızca kurban ve fail tanıyan bir insan imgesinin tehlikelerine dikkat çeken 'berrak' bir analizi ödüllendirdiğini açıkladı. Tören 25 Eylül'de Lech am Arlberg'de.",
+    seoTitle: "Tractatus Ödülü 2026: Maria-Sibylla Lotter, 'Opfer' ile ödüllendirildi",
+    metaDescription:
+      "Philosophicum Lech'in 25.000 avroluk Tractatus deneme ödülü 2026'da Maria-Sibylla Lotter'in 'Opfer. Über Verwundbarkeit als Selbstbild' kitabına verildi. Jüri gerekçesi, kısa liste ve Lotter'in düşüncesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Maria-Sibylla%20Lotter-3LechPhilosop-0605.jpg?width=1600",
+    imageCredit: "Maria-Sibylla Lotter, Philosophicum Lech 2014 · Fotoğraf: Dietmar Mathis / Philosophicum Lech, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026",
+    publishedAt: "2026-09-17T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "etik", "siyaset-felsefesi", "yeni-kitap", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Tractatus-Preisträgerin 2026", publisher: "Philosophicum Lech", date: "31 Ağustos 2026", url: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026", primary: true },
+      { title: "Tractatus Shortlist 2026", publisher: "Philosophicum Lech", date: "14 Temmuz 2026", url: "https://www.philosophicum.com/tractatus/shortlist/shortlist-2026" },
+      { title: "Shortlist für den Tractatus-Essaypreis des Philosophicum Lech 2026", publisher: "Philosophie Magazin", url: "https://www.philomag.de/artikel/shortlist-fuer-den-tractatus-essaypreis-des-philosophicum-lech-2026" },
+    ],
+    content: `Almanca felsefi denemeciliğin en prestijli ödülü olan Tractatus, 2026'da Ruhr Üniversitesi Bochum'da etik ve estetik profesörü Maria-Sibylla Lotter'e verildi. Philosophicum Lech derneğinin duyurusuna göre jüri, Lotter'in bu yıl mart ayında Hanser Yayınevi'nden çıkan *Opfer. Über Verwundbarkeit als Selbstbild* ("Kurban. Bir Benlik İmgesi Olarak İncinebilirlik Üzerine") başlıklı kitabını, altı kitaplık kısa listeden seçti. 25.000 avroluk ödül, 25 Eylül Cuma akşamı Lech am Arlberg'deki Lechwelten kültür merkezinde, 29. Philosophicum Lech kapsamında düzenlenecek törenle verilecek; övgü konuşmasını jüri üyesi Daniela Strigl yapacak.
+
+## Ödül ve jüri
+
+Tractatus, yazar Michael Köhlmeier'in önerisiyle 2009'da kuruldu ve bu yıl on sekizinci kez veriliyor. Özel sponsorlarla finanse edilen ödül, felsefi soruları daha geniş bir kamuoyu için anlaşılır biçimde tartışan deneme ya da deneme karakterli kitapları hedefliyor; değerlendirmede düşünce yaklaşımının özgünlüğü, dilsel biçimin başarısı ve konunun güncel önemi esas alınıyor. Önceki ödül sahipleri arasında Hartmut Rosa (*Rezonans*, 2016), Thomas Bauer (*Dünyanın Tektipleştirilmesi*, 2018), Lisa Herzog (2019), Christoph Möllers (2021), Isolde Charim (2023), Philipp Hübl (2024) ve geçen yıl yapay duygusal zekâ üzerine yazdığı *Gefühle der Zukunft* ile Eva Weber-Guskar var.
+
+Üç kişilik jüri, 2023'ten bu yana Avusturyalı edebiyat bilimci ve eleştirmen Daniela Strigl, İsviçreli filozof ve kültür gazetecisi Catherine Newmark ile Alman edebiyat eleştirmeni Ijoma Mangold'dan oluşuyor; Philosophicum Lech'in eş yöneticisi Konrad Paul Liessmann, oy hakkı olmaksızın jüriye başkanlık ediyor. 14 Temmuz'da açıklanan kısa listede Lotter'in yanı sıra Andreas Dorschel'in manifesto poetikası (*Die Welt verändern*), Philip Manow'un Avrupa parti sistemleri üzerine çalışması (*Spaltungslinien*), Richard Schuberth'in antisemitizm denemesi, Martin Warnke'nin büyük dil modellerinin kısa tarihi (*Large Language Kabbala*) ve Stefan Weidner'in yoga üzerinden Doğu-Batı ilişkisini okuyan kitabı (*Yoga oder Die sanfte Eroberung des Westens durch den Osten*) yer alıyordu.
+
+## Kitap: Kurban olmanın otoritesi
+
+Lotter'in kitabı, son on yılın en hararetli kültürel tartışmalarından birine, "kurban" (Opfer) kavramının kamusal söylemdeki yükselişine, jürinin deyişiyle "soğukkanlı ve nesnel bir bağlılıkla" yaklaşıyor. Jüri gerekçesi, Lotter'in sorunu üç düzeyde çözümlediğini vurguluyor: Kurbanı neredeyse dokunulmaz kılan "kurban otoritesi"; sosyal medyanın hızlandırdığı ve ilkesel olarak suçluluk varsayımından hareket eden "öfke mantığı"; ve psikolojik durumların giderek patolojikleştirilmesinden türeyen "terapi ahlakı". Lotter'e göre kendini feda etme boyutunu, yani öz-belirlenimi yitirmiş bir kurban kavramı, ırkçı ya da cinsel ayrımcılığa uğrayanları bir aşağılık benlik imgesine hapsetme eğilimi taşıyor.
+
+Jürinin en çok değer verdiği yön, Lotter'in söylem tarihini kavram tarihi olarak ele alması. "Travma" ya da "şiddet" gibi kavramların iyi niyetli genişletilmesinin, tartışmayı ve bir kişiye ya da gruba tanınan eylem alanını nasıl daralttığını kamusal hayattan ve kendi deneyiminden örneklerle gösteren Lotter, radikal akademik ideoloji eleştirisinin toplumsal ana akıma sızmasını, kurban gruplarının birbiriyle rekabetini ve demokratik tartışma kültürünün felcini betimliyor. Teşhisi keskin: Son on yıllarda değişimin özgürleştirici itkisi, gerçek ilişkilerden dile göç etti. Jüri, kitabın "yalnızca kurban ve fail tanıyan, muğlaklığa ve kendini güçlendirmeye yer bırakmayan bir insan imgesinin tehlikelerine" bakışımızı keskinleştirdiğini yazıyor.
+
+## Lotter kimdir?
+
+1961'de Kassel'de doğan Lotter, Freiburg, Berlin ve St. Louis'de felsefe, dinbilim ve etnoloji okudu; 1994'te Berlin Teknik Üniversitesi'nde Alfred North Whitehead'in toplumsal ontolojisi üzerine doktora yaptı. 2010'da Zürih Üniversitesi'nde sorumluluk ve kişiliğin kültürel önkoşulları üzerine habilitasyonunu tamamladı; bu çalışmanın gözden geçirilmiş biçimi *Scham, Schuld, Verantwortung* ("Utanç, Suç, Sorumluluk", Suhrkamp, 2012) adıyla yayımlandı ve dördüncü baskısına ulaştı. 2014'ten bu yana Bochum'da ders veren Lotter, Stanley Cavell'ın *Cities of Words* kitabını Almancaya çevirdi; 2024'te intikam ve uzlaşma pratiği üzerine *Schuld und Respekt* ("Suç ve Saygı", Suhrkamp) çıktı. Neue Zürcher Zeitung ve Die Zeit'a düzenli yazıyor. Çalışma alanları, gündelik hayatın etiği, suç ve sorumluluk, yalan ve kendini kandırma, fikir ayrılıkları ve tartışma kültürü.
+
+## Neden önemli?
+
+Ödülün bu yıl Lotter'e gitmesi, Tractatus jürisinin son yıllardaki bir eğilimini sürdürüyor: Hübl'ün *Moralspektakel*'i (2024) ahlaki tutumun statü sembolüne dönüşmesini, Charim'in *Die Qualen des Narzissmus*'u (2023) gönüllü boyun eğmeyi ele almıştı; Lotter'in kitabı aynı ahlaki kültür eleştirisi damarına ait. Bu damar Almanca konuşulan dünyada, özellikle "woke" tartışmalarının bağlamında, hem büyük ilgi hem sert itiraz görüyor; kitabın "aşırı dengeli" bir bakışla övülmesi de, tam da bu tartışmanın kutuplaşmış ikliminde okunmalı. Lotter'in kendisi, kurbanların gerçekliğini inkâr etmediğini, kurban kavramının siyasallaşmasının bizzat kurbanlara zarar verdiğini savunuyor.
+
+Kitabın Türkçeye çevrilip çevrilmeyeceği henüz belli değil; ama incinebilirlik, tanınma ve kimlik siyaseti üzerine Türkiye'deki tartışmalar düşünüldüğünde, tartışmaya değer bir metin. Philosophicum Lech'in 22-27 Eylül tarihli 2026 programını [Konferanslar sayfamızda](/haber/philosophicum-lech-2026-betreutes-denken) ayrıca ele alıyoruz.`,
+  },
+  {
+    title: "29. Philosophicum Lech: 'Vesayet altında düşünmek' teması altı gün boyunca Arlberg'de tartışılacak",
+    slug: "philosophicum-lech-2026-betreutes-denken",
+    summary:
+      "Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech, 22-27 Eylül'de 'Betreutes Denken. Die neue Lust an der Unmündigkeit' başlığıyla toplanıyor. Precht, Safranski, Rostalski, Newmark, Butter ve Nosthoff konuşacak; Barbara Bleisch ve Konrad Paul Liessmann açılış tartışmasını yapacak. Tractatus töreni 25 Eylül'de.",
+    seoTitle: "Philosophicum Lech 2026: Betreutes Denken — program, konuşmacılar, tarihler",
+    metaDescription:
+      "29. Philosophicum Lech (22-27 Eylül 2026): 'Betreutes Denken. Die neue Lust an der Unmündigkeit' temalı programda Richard David Precht, Rüdiger Safranski, Frauke Rostalski, Catherine Newmark, Michael Butter, Anna-Verena Nosthoff ve Romy Jaster.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lech%20am%20Arlberg%202006.jpg?width=1600",
+    imageCredit: "Lech am Arlberg, Vorarlberg · Fotoğraf: Florian Lindner, CC BY 2.5 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/symposium-2026/programm",
+    publishedAt: "2026-09-17T02:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "sempozyum", "aydinlanma", "demokrasi", "yapay-zeka", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Programmübersicht: Betreutes Denken. Die neue Lust an der Unmündigkeit", publisher: "Philosophicum Lech", date: "9 Eylül 2026 itibarıyla", url: "https://www.philosophicum.com/symposium-2026/programm", primary: true },
+      { title: "Tractatus-Preisträgerin 2026", publisher: "Philosophicum Lech", url: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026" },
+    ],
+    content: `Kant'ın 1784'te Aydınlanma'yı tanımlarken kullandığı sözcük *Unmündigkeit* idi: Kişinin aklını başkasının rehberliği olmadan kullanamaması, "ergin olmama" hâli. Kant bunu "kendi suçuyla düşülmüş" bir durum olarak nitelemiş ve Aydınlanma'yı ondan çıkış olarak tanımlamıştı. İki yüz kırk iki yıl sonra Vorarlberg Alpleri'ndeki Lech köyü, aynı sözcüğü bir soru işaretiyle gündeme getiriyor: *Betreutes Denken. Die neue Lust an der Unmündigkeit*, yani "Vesayet Altında Düşünmek. Ergin Olmamanın Yeni Cazibesi." Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech'in 22-27 Eylül tarihli yirmi dokuzuncu buluşması, insanların kendi başına düşünmekten neden vazgeçtiğini, bu vazgeçişin neden bir yükümlülük değil bir keyif hâline geldiğini soruyor.
+
+## Program
+
+Festival, 22 Eylül Salı günü ana temadan bağımsız güncel analiz oturumları olan Philosophicum Dialoge ile açılıyor: Claus Leggewie ve Susanne Schröter "Durum nedir?", Stefan Gosepath ve Anna Schneider "Ne yapmalı?" sorularını tartışacak. 23 Eylül'de Patrick Bahners, Faika El-Nagashi, Mirna Funk, Ulli Kulke ve Robert Misik'in katılacağı "Kendi başına düşünmek: dünün kavramı mı?" başlıklı panel ve ardından yazar Raphaela Edelbauer ile "İnsanın ne kadar hakikate ihtiyacı var?" başlıklı edebi-felsefi akşam yapılacak.
+
+Asıl sempozyum 24 Eylül Perşembe akşamı, festivalin eş yöneticileri İsviçreli filozof Barbara Bleisch ile Viyanalı filozof Konrad Paul Liessmann'ın tema üzerine bir "tartışmalı söyleşisiyle" açılacak. 25 Eylül Cuma günü Richard David Precht "İlliberal liberalizm? Özgürlüğü savunmanın paradoksu", Marie-Luisa Frick (Innsbruck) "Erginlik: dikenli bir ideal mi?", Roland Reichenbach (Zürih) "Görüşler krallığında yargı: belagat ve eğitim üzerine" ve Romy Jaster (Berlin) "Vesayet altında kendi başına düşünmek: dezenformasyon çağında akıl" başlıklı konuşmalar yapacak. Aynı akşam saat 21.00'de Tractatus ödül töreni düzenlenecek; bu yılın ödülünü kazanan Maria-Sibylla Lotter'i [Ödüller sayfamızda](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer) ele alıyoruz.
+
+26 Eylül Cumartesi günü ceza hukukçusu Frauke Rostalski (Köln) "İncinebilir toplum: kişisel sorumluluğun sonu mu?", Catherine Newmark (Berlin) "Otorite ve çaba: erginlik için fazla mı yorgunuz?", komplo teorileri araştırmacısı Michael Butter (Tübingen) "Her yerde kriz: semptom olarak komplo teorileri" ve sosyolog Laura Wiesböck (Viyana) "Psikiyatrik tanılar ve çelişkili benlik ve dünya yorumlarının yitimi" konuşmalarıyla yer alacak. Festival 27 Eylül Pazar sabahı Anna-Verena Nosthoff'un (Oldenburg) "Sibernetik otoriterlik: tekno-faşizm çağında dijital yönetim sanatları" ve Rüdiger Safranski'nin "Ruhsuzlaştırılmış: yapay zekânın etkisi üzerine notlar" başlıklı konuşmalarıyla kapanacak. Program, düzenleyicilerin 9 Eylül tarihli güncellemesine dayanıyor; değişiklik olabilir.
+
+## Neden izlemeye değer?
+
+Philosophicum Lech, yirmi dokuz yıldır her eylül akademik felsefeyi geniş bir kamuoyuyla buluşturan, Alpler'de bir dağ köyünde toplanan alışılmadık bir kurum; kendi tanımıyla "çeyrek yüzyılı aşkın süredir entelektüel tartışmanın seçkin bir mekânı". Bu yılın teması, festivalin son yıllardaki çizgisini sürdürüyor: Bleisch ve Liessmann yönetimindeki festival, kimlik siyasetinden dezenformasyona, terapi kültüründen yapay zekâya uzanan güncel tartışmaları Aydınlanma geleneğinin kavramlarıyla yeniden okumaya çalışıyor. Konuşmacı listesi, bu okumanın tek sesli olmadığını gösteriyor: Rostalski'nin kişisel sorumluluk vurgusu ile Nosthoff'un "tekno-faşizm" eleştirisi aynı programda; Precht'in medyatik liberalizmi ile Jaster'in analitik dezenformasyon çalışması yan yana.
+
+Türkiye'deki okur için festivalin önemi, tartışmanın Almanca kamusal alanında sürmesi kadar, sorunun evrenselliğinde. "Vesayet altında düşünmek" ifadesi, yapay zekâ asistanlarının düşünme işini devraldığı, algoritmaların okuma listesi belirlediği ve uzman otoritesinin hem yüceltildiği hem hor görüldüğü bir dünyada, yalnızca Alpler'e özgü bir soru değil. Sitemizde bu hafta [yapay zekâ ve siyasal iktidar](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) üzerine yazdıklarımızla birlikte okunduğunda, Lech'teki tartışma, Kant'ın sorusunun 2026'daki biçimidir: Aklını kullanmaya cesaret et; ama önce, kullanmak isteyip istemediğine karar ver.
+
+**Pratik bilgi:** Lechwelten, Lech am Arlberg (Avusturya). Sempozyum katılımı kayıt ve ücret gerektiriyor; Tractatus töreni (25 Eylül, 21.00) ve 26 Eylül'deki Kandinsky Quartet konseri ücretsiz. Ayrıntılar ve kayıt: philosophicum.com.`,
+  },
+  {
+    title: "17 Eylül: Popper'ın ölümünden Searle'ün son gününe, Anayasa fikrinden yapay zekâ çağına",
+    slug: "felsefe-tarihinde-bugun-17-eylul-popper-searle-hildegard",
+    summary:
+      "Karl Popper 1994'te, John Searle 2025'te bugün öldü; Hildegard von Bingen 1179'da. Aynı gün 1787'de Philadelphia'da ABD Anayasası imzalandı. David Kaplan ve Greg Bahnsen'in doğum günleri. Ve bugün açılan toplantılar: Nashville, Indiana'da eğitim felsefesi; Pittsburgh'un çevrimiçi tıp felsefesi yuvarlak masası.",
+    seoTitle: "Felsefe tarihinde bugün, 17 Eylül: Popper, Searle, Hildegard, ABD Anayasası",
+    metaDescription:
+      "17 Eylül'de felsefe tarihi: Karl Popper'ın (1994) ve John Searle'ün (2025) ölümü, Hildegard von Bingen (1179), ABD Anayasası'nın imzalanması (1787), David Kaplan ve Greg Bahnsen'in doğumları.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20Karl%20Popper.jpg?width=1600",
+    imageCredit: "Karl Popper, 1987 · Fotoğraf: DorianKBandy, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica · National Archives",
+    sourceUrl: "https://plato.stanford.edu/entries/popper/",
+    publishedAt: "2026-09-17T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "zihin-felsefesi", "ortacag-felsefesi", "siyaset-felsefesi", "konferans"],
+    philosopherSlugs: ["karl-popper"],
+    sources: [
+      { title: "Karl Popper", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/popper/", primary: true },
+      { title: "Philosopher Karl Popper Dies", publisher: "The Washington Post", date: "19 Eylül 1994", url: "https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/" },
+      { title: "John Searle (1932-2025)", publisher: "Daily Nous", date: "28 Eylül 2025", url: "https://dailynous.com/2025/09/28/john-searle-1932-2025/" },
+      { title: "Hildegard of Bingen", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/hildegard-bingen/" },
+      { title: "The Constitution of the United States", publisher: "U.S. National Archives", url: "https://www.archives.gov/founding-docs/constitution" },
+      { title: "Annual Conference 2026", publisher: "Ohio Valley Philosophy of Education Society", url: "https://ovpes.org/conference" },
+      { title: "13th International Philosophy of Medicine Roundtable Conference", publisher: "University of Pittsburgh, Center for Philosophy of Science", url: "https://www.centerphilsci.pitt.edu/event/13th-international-philosophy-of-medicine-roundtable-conference/" },
+    ],
+    content: `Takvimin bazı günleri bir tema etrafında toplanır; 17 Eylül'ün teması, bilginin sınırıdır. Bugün ölen iki büyük filozof, Karl Popper ve John Searle, farklı yollardan aynı soruyu sordu: Bir iddianın doğru olduğunu nereden biliriz ve bir makine gerçekten bilebilir mi? Aynı gün 1787'de imzalanan bir belge, siyasal iktidarın sınırını yazılı hâle getirdi; sekiz yüz elli yıl önce ölen bir kadın, görüleriyle ortaçağ bilgisinin sınırlarını zorladı.
+
+## 1994: Karl Popper'ın ölümü
+
+Karl Raimund Popper, 17 Eylül 1994 Cumartesi sabahı Londra'nın güneyinde, Croydon yakınlarındaki Kenley'de doksan iki yaşında öldü; ölüm nedeni zatürre ve böbrek yetmezliğiydi. 1902'de Viyana'da doğmuştu. 1934 tarihli *Logik der Forschung* ile bilimin ayırt edici özelliğinin doğrulanabilirlik değil yanlışlanabilirlik olduğunu savunarak Viyana Çevresi'nden koptu; 1945'te Yeni Zelanda sürgününde yazdığı *Açık Toplum ve Düşmanları* ile Platon, Hegel ve Marx'ı totaliter düşüncenin kaynakları arasında saydı. 1946'dan 1969'a kadar London School of Economics'te ders verdi; 1965'te şövalye unvanı aldı. Ölümünün üzerinden otuz iki yıl geçti; yanlışlanabilirlik ölçütü hâlâ bilim felsefesinin başlangıç noktası, "hoşgörü paradoksu" hâlâ siyaset tartışmalarının başvuru kaynağı. Popper'ın düşüncesini bugün ayrıca [Filozoflar Hakkında sayfamızda](/haber/karl-popper-yanlislanabilirlik-acik-toplum-portre) ele alıyoruz.
+
+## 2025: John Searle'ün son günü
+
+Bir yıl önce bugün, 17 Eylül 2025'te, John Rogers Searle Florida'da doksan üç yaşında öldü. 31 Temmuz 1932'de Denver'da doğmuş, Oxford'da Austin'in öğrencisi olmuş, 1959'dan itibaren Berkeley'de ders vermişti. Söz edimleri kuramı (1969), Çin Odası argümanı (1980), biyolojik doğalcılık ve toplumsal gerçekliğin inşası (1995) üzerine çalışmaları, dil ve zihin felsefesinin son yarım yüzyılını biçimlendirdi. Çin Odası argümanı, yapay zekâ tartışmasının merkezine yerleşmiş nadir felsefi düşünce deneylerinden biri olarak bugün de tartışılıyor. Sitemizde Searle'ün mirasını ölümünün ardından [iki ayrı dosyada](/haber/john-searle-cin-odasi-anlam-kurum) ele almıştık; bu yazıları, ilk ölüm yıldönümünde yeniden okumak için iyi bir gün.
+
+## 1179: Hildegard von Bingen
+
+Benediktin başrahibesi, bestecisi, doğa bilgini ve görü yazarı Hildegard von Bingen, 17 Eylül 1179'da Rupertsberg manastırında seksen bir yaşında öldü. *Scivias* ("Yolları Bil"), *Liber vitae meritorum* ve *Liber divinorum operum* adlı üç büyük görü kitabı, kozmoloji, ahlak ve teolojiyi tek bir sistemde birleştirdi; *Physica* ve *Causae et curae* ise doğa felsefesi ile tıbbı. Çağının kadınlarına kapalı olan kamusal alanda vaaz verdi, imparatorlarla yazıştı, papalarla tartıştı. 2012'de Kilise Doktoru ilan edildi. Ortaçağ felsefesi tarihinde uzun süre kenarda bırakılan Hildegard, son otuz yılda, özellikle beden, doğa ve kozmos ilişkisini düşünen çağdaş felsefede yeniden okunuyor.
+
+## 1787: Anayasa fikri
+
+17 Eylül 1787'de Philadelphia'da otuz dokuz delege Amerika Birleşik Devletleri Anayasası'nı imzaladı. Belge, Locke'un sınırlı yönetim, Montesquieu'nün kuvvetler ayrılığı ve Hume'un "fraksiyon" analizi gibi Aydınlanma düşüncelerini bir yönetim mekanizmasına çevirdi. Anayasayı savunan *Federalist* yazıları, Ekim 1787'den itibaren gazetelerde yayımlanmaya başladı; iki ciltlik ilk kitap baskısı 1788 baharında çıktı. Bugün, yapay zekânın siyasal iktidarı nasıl dönüştürdüğünü tartıştığımız [Gündem yazımız](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) düşünüldüğünde, 1787'nin sorusu hâlâ güncel: İktidar nasıl sınırlanır ve sınırı kim denetler?
+
+## Doğum günleri
+
+**David Kaplan** (d. 17 Eylül 1933, Los Angeles). UCLA'da yarım yüzyılı aşkın süre ders veren mantıkçı ve dil filozofu; "Demonstratives" (1977/1989) ile belirtme sözcüklerinin (ben, burada, şimdi) anlamını karakter ve içerik ayrımıyla açıklayan kuramı, çağdaş dil felsefesinin temel taşlarından. Doksan üç yaşında.
+
+**Greg Bahnsen** (17 Eylül 1948 - 1995). Amerikalı Kalvinist filozof ve ilahiyatçı; Cornelius Van Til'in "önvarsayımcı" apolojetiğini sistemleştirdi ve tanrıtanımazlarla yaptığı kamusal tartışmalarla tanındı. Ana akım felsefede az anılsa da, din felsefesinin apolojetik kanadında etkisi sürüyor.
+
+## Bugün açılan toplantılar
+
+Ohio Valley Eğitim Felsefesi Derneği'nin (OVPES) 2026 yıllık toplantısı bugün Nashville, Indiana'daki Seasons Lodge'da ön atölyeyle başlıyor ve 19 Eylül'e kadar sürüyor; bu yılın teması "eğitimsel kayıp ve umut". Pittsburgh Üniversitesi Bilim Felsefesi Merkezi'nin ev sahipliği yaptığı 13. Uluslararası Tıp Felsefesi Yuvarlak Masası ise 14-18 Eylül arasında çevrimiçi sürüyor; tanı, belirsizlik, yapay zekâ ve sağlık politikası oturumlarının bugünkü bölümü 09.00-11.30 (ABD Doğu saati) arasında. Her iki toplantı da ücretsiz kayıtla açık.`,
+  },
+  {
+    title: "Karl Popper: Bilgiyi kesinlikten kurtaran, siyaseti kehanetten arındıran filozof",
+    slug: "karl-popper-yanlislanabilirlik-acik-toplum-portre",
+    summary:
+      "Ölümünün otuz ikinci yılında Karl Popper'ı yeniden okumak: Yanlışlanabilirlik neden hâlâ bilimin en iyi tanımı; 'açık toplum' neden hâlâ liberal demokrasinin en iyi savunusu; ve Popper'ın Platon, Hegel, Marx okuması neden hâlâ tartışmalı. Yapay zekâ çağında bir eleştirel akılcının mirası.",
+    seoTitle: "Karl Popper (1902-1994): yanlışlanabilirlik, açık toplum ve eleştirel akılcılık",
+    metaDescription:
+      "Karl Popper portresi: Viyana'dan Yeni Zelanda'ya ve Londra'ya uzanan hayatı, yanlışlanabilirlik ölçütü, Açık Toplum ve Düşmanları, Kuhn ve Lakatos ile tartışmaları, hoşgörü paradoksu ve yapay zekâ çağındaki güncelliği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Popper.jpg?width=1600",
+    imageCredit: "Karl Popper, 1980 dolayları · Fotoğraf: Franz Barta · Wikimedia Commons (kısıtlamasız)",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/popper/",
+    publishedAt: "2026-09-17T02:20:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["bilim-felsefesi", "epistemoloji", "siyaset-felsefesi", "demokrasi", "platon", "marksizm"],
+    philosopherSlugs: ["karl-popper", "platon", "ludwig-wittgenstein"],
+    sources: [
+      { title: "Karl Popper", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/popper/", primary: true },
+      { title: "Karl Popper | Biography, Books, Theory, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/Karl-Popper" },
+      { title: "Philosopher Karl Popper Dies", publisher: "The Washington Post", date: "19 Eylül 1994", url: "https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/" },
+    ],
+    content: `Karl Popper hakkında yazmanın bir zorluğu var: Onun en ünlü fikirleri o kadar yaygınlaşmış, o kadar sıradan bilgi hâline gelmiş ki, ne kadar radikal olduklarını görmek güçleşiyor. "Bir kuram yanlışlanamıyorsa bilimsel değildir" cümlesi bugün lise ders kitaplarında; "açık toplum" ifadesi vakıf adlarında ve siyasetçi konuşmalarında. Oysa 1934'te Viyana'da otuz iki yaşındaki bir öğretmen bu fikirleri ilk kez yazdığında, çağının en güçlü felsefi hareketine, mantıksal pozitivizme, doğrudan meydan okuyordu. Ve 1945'te Yeni Zelanda'da *Açık Toplum ve Düşmanları*'nı bitirdiğinde, Batı felsefesinin en saygın üç ismini, Platon, Hegel ve Marx'ı, totaliterliğin fikir babaları olarak yargılıyordu. Otuz iki yıl önce bugün ölen Popper'ı anmak, bu radikalliği geri kazanmak demek.
+
+## Viyana: Yıkılan bir dünyanın çocuğu
+
+Popper, 28 Temmuz 1902'de Viyana'da, Protestanlığa geçmiş Yahudi bir ailede doğdu. Babası Simon Popper, hukukçu ve on binlerce kitaplık bir kütüphanenin sahibiydi; oğlunun çocukluğu Habsburg İmparatorluğu'nun son yıllarında, felsefe, müzik ve siyasetin iç içe geçtiği bir evde geçti. İmparatorluğun 1918'de çöküşü ve onu izleyen kaos, genç Popper'ı kısa süreliğine Marksizme yaklaştırdı. 1919'da, on yedi yaşındayken, bir işçi gösterisinde polisin ateş açmasıyla ölen gençlerin ardından Marksizmden koptu; ama kopuşun nedeni, kendi anlatımına göre, şiddetin kendisinden çok, Marksistlerin bu ölümleri "tarihin kaçınılmaz bedeli" olarak açıklamalarıydı. Bu deneyim, Popper'ın bütün siyaset felsefesinin çekirdeğini oluşturdu: Tarihin gidişatını bildiğini iddia eden her öğreti, bugünün insanlarını yarının hayaline feda etmeye hazırdır.
+
+Aynı yıllarda Popper, Einstein'ın görelilik kuramını, Freud'un psikanalizini ve Adler'in bireysel psikolojisini yan yana düşünmeye başladı. Fark ettiği şey, sonradan "sınır çizme sorunu" diye adlandıracağı şeydi: Freud ve Adler'in kuramları her şeyi açıklıyordu; hangi davranışı gösterirseniz gösterin, kuram onu doğruluyordu. Einstein'ın kuramı ise 1919'daki güneş tutulması gözlemiyle çürütülebilirdi ve Einstein bunu açıkça söylemişti. Popper'ın çıkardığı sonuç paradoksaldı: Bir kuramın gücü, her şeyi açıklamasında değil, neyi yasakladığında yatar. Bilimsel bir kuram, yanlış çıkabilecek tahminler yapar; her gözlemle uyumlu olan bir kuram, hiçbir şey söylemiyordur.
+
+## Yanlışlanabilirlik: Bilimin mantığı
+
+1934'te yayımlanan *Logik der Forschung* (İngilizcesi *The Logic of Scientific Discovery*, 1959), bu sezgiyi sistemleştirdi. Viyana Çevresi'nin filozofları, Carnap ve Schlick başta olmak üzere, bilimsel bilginin gözlemlerden tümevarımla türetildiğini ve anlamlı önermelerin doğrulanabilir olanlar olduğunu savunuyordu. Popper her iki tezi de reddetti. Tümevarım, Hume'un iki yüzyıl önce gösterdiği gibi, mantıksal olarak temellendirilemezdi: Bin beyaz kuğu gözlemi "bütün kuğular beyazdır" önermesini kanıtlamaz, ama tek bir siyah kuğu onu çürütür. Bilim, öyleyse, doğrulama biriktirmez; cesur tahminler ileri sürer ve onları yanlışlamaya çalışır. Hayatta kalan kuramlar "doğru" değil, "şimdilik çürütülememiş" kuramlardır.
+
+Bu görüşün felsefi sonuçları geniştir. Bilgi, kesinlikten arındırılır: Popper'ın deyişiyle bilim, bataklık üzerine kazıklarla kurulmuş bir binadır; kazıklar kayaya ulaşmaz, yalnızca binayı taşıyacak kadar derine iner. Rasyonellik, kanıtlama yeteneği değil, eleştiriye açıklık olarak yeniden tanımlanır; Popper'ın kendi adlandırmasıyla "eleştirel akılcılık" budur. Ve bilim insanının erdemi, kuramına sadakat değil, onu çürütmeye çalışma cesaretidir.
+
+Yanlışlanabilirlik ölçütü, elbette, eleştiriden payını aldı. Thomas Kuhn 1962'de *Bilimsel Devrimlerin Yapısı*'nda bilim insanlarının pratikte kuramlarını çürüten gözlemleri görmezden geldiğini, "normal bilim"in bulmaca çözmekten ibaret olduğunu gösterdi. Popper'ın öğrencisi Imre Lakatos, tek tek kuramların değil "araştırma programlarının" değerlendirilebileceğini savunarak hocasının ölçütünü yumuşattı. Paul Feyerabend ise yöntemin kendisine karşı çıktı. Ama tartışmanın tamamı Popper'ın açtığı zeminde yürüdü; ve bugün bilim felsefesinde "Popper'dan sonra" ifadesi, "Kant'tan sonra" gibi bir dönemi adlandırıyor.
+
+## Açık toplum: Savaş çabasına bir katkı
+
+Nazizmin yükselişi Popper'ı 1937'de Yeni Zelanda'ya, Christchurch'teki Canterbury University College'a sürükledi. Avrupa'dan uzakta, kütüphanesi kısıtlı, savaşın gidişatını radyodan izleyen Popper, kendi deyişiyle "savaş çabasına katkısı" olarak iki kitap yazdı: *Tarihsiciliğin Sefaleti* ve *Açık Toplum ve Düşmanları*. İkincisi 1945'te Londra'da yayımlandı ve Popper'ı bir gecede ünlü yaptı.
+
+Kitabın tezi, bilim felsefesindeki tezinin siyasete uygulanmasıdır. Nasıl bilimsel bilgi kesin değilse, siyasal bilgi de kesin değildir; ve tarihin yasalarını bildiğini, geleceğin nereye gittiğini gördüğünü iddia eden her öğreti, Popper'ın "tarihsicilik" dediği şey, totaliterliğe kapı açar. Çünkü geleceği bilen, bugünü ona göre düzenleme hakkını da talep eder. Popper, bu düşüncenin soykütüğünü Platon'un *Devlet*'ine kadar götürdü: Filozof-kralın yönettiği, sınıfların sabit, değişimin yozlaşma sayıldığı ideal devlet, "kapalı toplum"un ilk büyük tasarımıydı. Hegel'in tarihi Tin'in kendini gerçekleştirmesi olarak okuması ve Marx'ın kapitalizmin kaçınılmaz çöküşü kehaneti, aynı yapının modern biçimleriydi.
+
+Buna karşı Popper'ın önerdiği "açık toplum", bireylerin kişisel kararlar verebildiği, kurumların eleştiriye açık olduğu ve yöneticilerin kan dökülmeden değiştirilebildiği toplumdur. Popper'ın demokrasi tanımı, dikkat çekici biçimde mütevazıdır: Demokrasi, halkın yönetimi değil, kötü yöneticilerden şiddet kullanmadan kurtulabilme imkânıdır. Ve toplumsal reform, ütopik bir planı bütünüyle hayata geçirmek değil, somut sorunları tek tek çözmek, sonuçlarını izlemek ve hataları düzeltmektir: "Parça parça toplum mühendisliği." Burada da yanlışlanabilirlik mantığı işler: Küçük adımlar, hataları görünür ve düzeltilebilir kılar; büyük planlar, hataları gizler.
+
+Kitabın Platon, Hegel ve Marx okuması, yayımlandığı günden bu yana tartışmalı. Klasikçiler Popper'ın Platon'u bağlamından kopardığını, Hegel uzmanları kitabın Hegel bölümünün karikatür olduğunu, Marksistler ise Marx'ın bilimsel iddialarıyla siyasal kehanetlerinin ayrılması gerektiğini savundu. Popper'ın kendisi de Marx'a karşı, Platon ve Hegel'e olduğundan daha saygılı yazmış, onu "insancıl bir dürtüyle" hareket eden ama yöntemi yanlış bir düşünür olarak nitelemişti. Ama kitabın gücü, filolojik doğruluğundan çok, kavramsal netliğinden gelir: Tarihsicilik ile totaliterlik arasındaki bağ, 1945'ten bu yana siyaset kuramının kalıcı temalarından biri.
+
+## Hoşgörü paradoksu
+
+*Açık Toplum*'un bir dipnotu, kitabın en çok alıntılanan pasajı hâline geldi: Sınırsız hoşgörü, hoşgörünün ortadan kalkmasına yol açar; hoşgörüsüz olanlara karşı hoşgörüyü sınırlama hakkını saklı tutmayan bir toplum, onlar tarafından yok edilir. Popper'ın "hoşgörü paradoksu" dediği bu argüman, son yıllarda nefret söylemi, platform moderasyonu ve aşırı sağın yükselişi tartışmalarında yeniden dolaşıma girdi. Popper'ın kendisi, dipnotun devamında, hoşgörüsüz felsefeleri "akılcı argümanla karşılayabildiğimiz ve kamuoyuyla denetim altında tutabildiğimiz sürece" bastırmamak gerektiğini yazmıştı; paradoksun sık sık unutulan bu ikinci yarısı, Popper'ın liberalizminin ne kadar dikkatli olduğunu gösterir.
+
+## Londra ve son yıllar
+
+1946'da, Hayek'in girişimiyle, London School of Economics'e çağrıldı ve 1969'a kadar orada ders verdi. LSE yılları, Popper'ın hem en verimli hem de en tartışmalı dönemiydi. 1946'da Cambridge'de Wittgenstein ile ünlü "maşa" olayı yaşandı: Popper'ın anlatımına göre Wittgenstein, felsefi sorunların gerçek olup olmadığı tartışmasında elindeki şömine maşasını sallamış ve odayı terk etmişti. Olayın tanıkları farklı anlatılar verdi; ama olay, yirminci yüzyıl felsefesinin iki karşıt mizacını, dilin sınırlarına çekilen Wittgenstein ile dünyanın sorunlarına açılan Popper'ı, tek bir sahnede özetledi.
+
+Geç dönem Popper, bilim felsefesinden metafiziğe genişledi. *Nesnel Bilgi* (1972) ile "üç dünya" kuramını geliştirdi: Fiziksel nesnelerin dünyası, zihinsel durumların dünyası ve kuramlar, argümanlar ve sorunlar gibi nesnel düşünce içeriklerinin dünyası. Bu üçüncü dünya, insan yapımıdır ama insandan bağımsız bir gerçekliğe sahiptir: Bir kuram, kimsenin fark etmediği sonuçlar içerebilir. Nöroloğu John Eccles ile yazdığı *Benlik ve Beyni* (1977), zihin-beden düalizmini savundu ve Popper'ı çağdaş zihin felsefesinin ana akımının dışına yerleştirdi. 1965'te şövalye unvanı aldı; 1994'te doksan iki yaşında öldü.
+
+## Yapay zekâ çağında Popper
+
+Popper'ın güncelliğini en iyi gösteren yer, belki de hiç yazmadığı bir konu: yapay zekâ. Büyük dil modellerinin "bilgi" üretip üretmediği tartışmasında Popper'ın ölçütü hâlâ en keskin araç: Bir sistem, çürütülebilir tahminler yapıyor mu, yoksa her soruya uyumlu bir cevap mı üretiyor? Doğrulama biriktiren, eleştiriyi değil onayı ödüllendiren sistemler, Popper'ın terimleriyle, Freud'un kuramına benzer; her şeyi açıklar, hiçbir şey yasaklamaz. Ve "açık toplum" kavramı, algoritmik yönetişim tartışmalarında yeni bir anlam kazanıyor: Kararların eleştirilebilir, yöneticilerin değiştirilebilir olduğu bir toplum, kararların görünmez sistemlerin içinde verildiği bir toplumla bağdaşır mı? Bugünkü [Gündem yazımızda](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) tartıştığımız soru, Popper'ın 1945'te sorduğu sorunun devamıdır.
+
+Popper'ın son sözü, belki de en iyi özeti: Bilmediğimizin bilgisi, bildiğimizin bilgisinden daha önemlidir. Kesinlik arayan bir çağda, kesinliğin imkânsızlığını bilimin ve özgürlüğün koşulu olarak savunmak, Popper'ın kalıcı katkısıdır.`,
+  },
+  {
+    title: "Yapay Zekâ Dünya Siyasetini Değiştirirken: İktidarın Yeni Makinesi mi, İnsanlığın Yeni Sınavı mı?",
+    slug: "yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi",
+    summary:
+      "BM Güvenlik Konseyi yapay zekâyı barış ve güvenlik gündemine aldı; Guterres 'dibe doğru bir yarış' uyarısı yaptı; Philosophy & Technology'de arka arkaya iki makale yapay zekânın demokrasiyle ilişkisini yeniden kurdu. Hobbes'tan Arendt'e, Kant'tan Habermas'a siyaset felsefesi bu yeni iktidar makinesine ne söylüyor?",
+    seoTitle: "Yapay zekâ ve dünya siyaseti: iktidar, egemenlik ve demokrasi",
+    metaDescription:
+      "BM Güvenlik Konseyi'nin yapay zekâ gündemi, Guterres'in 'dibe doğru yarış' uyarısı, Horowitz'in CIGI raporu ve Philosophy & Technology'deki yeni makaleler ışığında yapay zekâ ve siyaset felsefesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20General%20Assembly%202024.jpg?width=1600",
+    imageCredit: "BM Genel Kurul Salonu, New York (2024) · Fotoğraf: Mojnsen, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Security Council Report · CIGI · Philosophy & Technology",
+    sourceUrl: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+    publishedAt: "2026-09-17T01:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "siyaset-felsefesi", "demokrasi", "teknoloji-felsefesi", "etik", "risk"],
+    philosopherSlugs: ["jurgen-habermas"],
+    sources: [
+      {
+        title: "September 2026 Monthly Forecast: Overview",
+        publisher: "Security Council Report",
+        date: "Eylül 2026",
+        url: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+        primary: true,
+      },
+      {
+        title: "Artificial Intelligence, the Future of War and International Politics (CIGI Papers No. 345)",
+        publisher: "Centre for International Governance Innovation",
+        date: "Şubat 2026",
+        url: "https://www.cigionline.org/documents/3739/Michael_C._Horowitz.pdf",
+      },
+      {
+        title: "AI and Democracy: Mapping Notions, Debates and Challenges",
+        publisher: "Philosophy & Technology 39(3)",
+        date: "21 Ağustos 2026",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01167-5",
+      },
+      {
+        title: "When LLMs Threaten Democratic Autonomy",
+        publisher: "Philosophy & Technology 39(3)",
+        date: "15 Eylül 2026",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01184-4",
+      },
+      {
+        title: "Dozens of current, former officials see at least a 10% chance humans lose control of AI",
+        publisher: "Nextgov/FCW",
+        date: "2 Eylül 2026",
+        url: "https://www.nextgov.com/artificial-intelligence/2026/09/dozens-current-former-officials-see-least-10-chance-humans-lose-control-ai/415762/",
+      },
+    ],
+    content: `Siyaset felsefesinin en eski sorusu, iktidarın kaynağı ve sınırıdır. Bu soru, tarihin her büyük teknolojik kırılmasında yeniden sorulmuştur: Matbaa, dinsel otoriteyi; buhar, toprak aristokrasisini; telgraf ve radyo, ulusal kamuoyunun sınırlarını değiştirdi. Bugün, 2026 Eylül'ünün ortasında, aynı soru bir kez daha ve bu kez alışılmadık bir aciliyetle karşımızda. Çünkü yapay zekâ, önceki teknolojilerden farklı olarak yalnızca iktidarın aracı değil, giderek iktidarın *biçimi* hâline geliyor: Kararı hızlandıran, öngörüyü tekelleştiren, kamuoyunu ölçen ve şekillendiren bir makine.
+
+Bu haftanın haberleri bu dönüşümün artık soyut bir tartışma olmadığını gösteriyor. Birleşmiş Milletler Güvenlik Konseyi'nin Eylül ayı gündeminde yapay zekâ, uluslararası barış ve güvenlik başlığı altında ayrı bir madde olarak yer aldı. Security Council Report'un aylık öngörüsüne göre Konsey, 2 Eylül'de Bahreyn, Fransa, Yunanistan ve Letonya'nın ev sahipliğinde "erken uyarıdan kalıcı barışa: çatışma çözümünde yapay zekâdan yararlanmak" başlıklı gayriresmî bir diyalog düzenledi; Fransa'nın dönem başkanlığında, Genel Kurul haftasına denk gelen üst düzey bir yapay zekâ toplantısı planlanıyor. BM Genel Sekreteri António Guterres ise 16 Eylül'de yaptığı açıklamada dünyanın yapay zekâ güvenliğinde "dibe doğru bir yarışı" kaldıramayacağını söyledi ve büyük güçler arasındaki jeopolitik bölünmenin ortak güvenlik kurallarını imkânsızlaştırmasından endişe ettiğini belirtti. Bu gelişmelerin ayrıntılarını bugünkü [Dünya sayfamızda](/haber/bm-guvenlik-konseyi-yapay-zeka-guterres-dibe-dogru-yaris) ele alıyoruz; burada asıl soruyu sormak istiyoruz: Felsefe, bu yeni iktidar makinesi hakkında ne söyleyebilir?
+
+## Hobbes'un Leviathan'ı ve algoritmik egemen
+
+Thomas Hobbes, *Leviathan*'da (1651) devleti, insanların güvenlik karşılığında doğal haklarının bir kısmını devrettiği yapay bir kişi olarak tanımlamıştı. Hobbes'un kelimesi tam olarak buydu: Devlet bir *automaton*'dur, insan eliyle yapılmış yapay bir insandır. Bu benzetme, on yedinci yüzyılda mekanik bir metafordu; bugün neredeyse harfi harfine gerçekleşiyor. Yapay zekâ sistemleri, devletlerin karar alma süreçlerine, istihbarat analizine, sınır denetimine ve askerî hedeflemeye giriyor. Michael C. Horowitz'in Şubat 2026'da Centre for International Governance Innovation için yazdığı *Artificial Intelligence, the Future of War and International Politics* başlıklı rapor, bu dönüşümü tarihsel bir perspektife oturtuyor: Nükleer silahlardan farklı olarak yapay zekânın sınırı bu kez devletler değil, şirketler belirliyor; en gelişmiş sistemler ordulardan önce özel laboratuvarlarda ortaya çıkıyor. Horowitz, uluslararası toplumun önünde üç seçenek olduğunu yazıyor: Otonom silah sistemleri konusunda bir anlaşma, nükleer silahlar üzerinde insan denetiminin korunmasına dair bağlayıcı bir taahhüt ve BM çatısı altında yeni bir kurum.
+
+Hobbes'un çerçevesinden bakınca sorun şudur: Egemen, meşruiyetini güvenlik sağlama kapasitesinden alır. Yapay zekâ bu kapasiteyi artırırken egemenin kendisini de dönüştürüyor. Kararı hızlandıran sistem, kararın kimin olduğunu bulanıklaştırıyor. Bir devletin yapay zekâ destekli erken uyarı sistemi bir saldırı tahmini ürettiğinde, "egemen" kimdir: Sistemi tasarlayan mühendis mi, veriyi sağlayan şirket mi, sonucu onaylayan subay mı? Nextgov'un 2 Eylül'de aktardığı, Institute for Security and Technology ile Future of Life Institute'un 111 ulusal güvenlik ve yapay zekâ uzmanıyla yaptığı ankette katılımcıların yüzde 96'sı nükleer kullanım kararının mutlaka bir insan tarafından verilmesi gerektiğini söylüyor; yüzde 87'si yapay zekânın on yıl içinde insan denetiminin dışına çıkma olasılığını yüzde 10 ya da daha yüksek görüyor; üçte biri bu kaybın geri alınamaz olacağını bekliyor. Bu rakamlar, Hobbes'un yapay insanının gerçekten de kendi iradesine sahip olup olamayacağı sorusunun artık felsefe seminerlerinin dışına taştığını gösteriyor.
+
+## Kant'ın barışı ve algoritmik hukuk
+
+Immanuel Kant, *Ebedî Barış*'ta (1795) uluslararası barışın ancak cumhuriyetçi anayasalar, bir devletler federasyonu ve kozmopolit hukuk üzerine kurulabileceğini savunmuştu. Kant'ın üç maddesi, bugün BM sisteminin ve uluslararası hukukun düşünsel çekirdeğini oluşturur. Yapay zekâ bu çekirdeği iki yönden zorluyor. Birincisi, Kant'ın cumhuriyetçi anayasa şartı, yurttaşların savaş kararına katılımını öngörür; savaş kararlarının giderek kapalı, teknik ve hızlı sistemlerin içine çekilmesi bu katılımı fiilen ortadan kaldırıyor. İkincisi, kozmopolit hukuk evrensel bir ahlaki topluluğu varsayar; oysa yapay zekâ altyapısı, yarı iletkenler, hesaplama gücü, enerji ve kritik mineraller üzerindeki rekabet, Security Council Report'un da vurguladığı gibi, dünyayı yeni bir kutuplaşma haritasına bölüyor.
+
+Yine de Kant'tan öğrenilecek şey, karamsarlık değil. *Ebedî Barış*'ın mantığı, barışın doğal bir durum olmadığını, kurulması gereken bir şey olduğunu söyler. Guterres'in çağrısı, BM'nin yeni kurduğu Bağımsız Uluslararası Yapay Zekâ Bilimsel Paneli ve Yapay Zekâ Yönetişimi Küresel Diyaloğu, tam da bu Kantçı "kurma" işinin bugünkü biçimleridir. Akademisyenlerin yapay zekâ konusunda bağlayıcı bir uluslararası antlaşma için [yayımladığı açık mektup](/haber/akademisyenler-acik-mektup-yapay-zeka-antlasma-2026) da aynı geleneğin içindedir.
+
+## Arendt: İktidar ve şiddet arasında
+
+Hannah Arendt, *Şiddet Üzerine*'de (1970) iktidar ile şiddeti kesin bir biçimde ayırmıştı: İktidar, insanların birlikte eylemesinden doğar; şiddet ise araçlara dayanır. Araçların sofistikeleşmesi iktidarı artırmaz, tam tersine, iktidarın yerini alma tehlikesi taşır. Arendt'in bu ayrımı, yapay zekâ çağının en aydınlatıcı kavramsal aracı olabilir. Otonom silahlar, gözetim sistemleri ve tahmine dayalı polislik, iktidarın değil şiddetin araçlarıdır; ve Arendt'in uyarısı, bu araçların birlikte eyleme yeteneğini, yani gerçek iktidarı aşındırdığı yönündedir. Bir hükümet yurttaşlarını ikna etmek yerine onları öngörebiliyorsa, ikna etmeye ihtiyaç duymayacaktır. Arendt'in "kimsenin yönetimi" dediği bürokrasi, algoritmik yönetimde en saf biçimine ulaşır: Sorumlu bir kişi yoktur, yalnızca bir sistem vardır.
+
+## Habermas ve müzakerenin makineleşmesi
+
+Jürgen Habermas'ın iletişimsel eylem kuramı, meşruiyeti müzakereye bağlar: Bir norm, ancak etkilenen herkesin özgür bir tartışmada kabul edebileceği bir norm ise geçerlidir. Bu ay *Philosophy & Technology* dergisinde yayımlanan iki makale, bu Habermasçı ideali yapay zekâ karşısında sınıyor.
+
+Thomas Ploug'un ilk yazarı olduğu ve 21 Ağustos'ta çevrimiçi yayımlanan "AI and Democracy: Mapping Notions, Debates and Challenges" başlıklı derleme, yapay zekânın demokrasi için "tehdit mi, imkân mı" olduğu sorusunun yanlış sorulduğunu savunuyor. Yazarlara göre demokrasi özünde tartışmalı bir kavramdır; yapay zekânın demokratik değeri, hangi demokrasi modelini benimsediğinize göre değişir. Literatürü tarayan makale üç örüntü saptıyor: Kavramsal belirsizlik ile karamsar değerlendirmeler genellikle birlikte gidiyor; demokrasi modelleri çoğu zaman "miras alınıyor", yeniden düşünülmüyor; ve araştırmacıların demokratik varsayımları, yapay zekâ hakkındaki yargılarını belirliyor. Sonuç: Kavramsal netlik olmadan ampirik bulgular ile normatif argümanlar birbirinin yanından geçiyor.
+
+Lorenzo Manuali'nin (Michigan Üniversitesi) 15 Eylül'de yayımlanan "When LLMs Threaten Democratic Autonomy" makalesi ise daha keskin bir tez ileri sürüyor. Bilgisayar bilimcilerin ve müzakereci demokrasi uygulayıcılarının büyük dil modellerini "demokrasiyi güçlendirmek" için kullanma projeleri, Manuali'ye göre, bir kolektifin kendi geleceğini belirleme yeteneğinin araçsal olmayan değerini tehdit ediyor. Makale, demokratik özerkliğin gerekli koşullarını, ortak bir niyetin varlığı ve bu niyetin politikada anlamlı ölçüde gerçekleşmesi olarak belirledikten sonra iki tür projenin, müzakereyi kolaylaştıran ve yurttaşların çıkarlarını temsil eden dil modellerinin, bu koşulları nasıl aşındırabileceğini gösteriyor. Habermasçı terimlerle: Müzakereyi bir makineye devretmek, müzakerenin ürettiği meşruiyeti de devretmektir. Sitemizde daha önce ele aldığımız [dokuz ülkeli kutuplaşma araştırması](/haber/demokratik-normlar-kutuplasma-dokuz-ulke) ile birlikte okunduğunda tablo netleşiyor: Demokrasinin krizi ile yapay zekânın yükselişi aynı zeminde buluşuyor.
+
+## Foucault, Zuboff ve görünmez iktidar
+
+Michel Foucault'nun *Hapishanenin Doğuşu*'nda (1975) anlattığı panoptikon, gözetlenenin gözetleyeni göremediği bir iktidar mimarisiydi. Shoshana Zuboff'un *Gözetim Kapitalizmi Çağı* (2019) bu mimarinin ticari biçimini betimledi: Davranış verisi hammaddedir, tahmin üründür, davranış değişikliği kârdır. Yapay zekânın dünya siyasetine girişi, bu iki analizi devlet düzeyine taşıyor. Foucault'nun "yönetimsellik" kavramı, iktidarın yasaklamaktan çok yönlendirmekle işlediğini söylüyordu; büyük dil modelleriyle beslenen bilgi ortamları tam da bunu yapıyor. Dikkat çekici olan, bu iktidarın görünmezliğidir: Bir sansür yasası tartışılabilir, bir öneri algoritması tartışılamaz, çünkü kimse onu görmez.
+
+## Rousseau ve Marx: Genel irade ve üretim araçları
+
+Jean-Jacques Rousseau'nun *Toplum Sözleşmesi*'ndeki (1762) "genel irade" kavramı, bugün yapay zekâ destekli kamuoyu araştırmaları ve "sentetik yurttaş" simülasyonlarıyla tuhaf bir yankı buluyor. Rousseau, genel iradenin tekil iradelerin toplamı olmadığını, ortak iyiyi hedefleyen bir iradenin ancak yurttaşların birbirini etkilemeden düşünmesiyle ortaya çıkabileceğini söylemişti. Yapay zekânın kamuoyu ölçümü ise tam tersini yapıyor: İradeleri toplar, ağırlıklandırır, öngörür. Manuali'nin "temsil eden dil modelleri" eleştirisi, aslında Rousseau'nun temsil eleştirisinin güncel biçimidir: Genel irade temsil edilemez; edildiği anda başka bir şeye dönüşür.
+
+Marx'ın çerçevesi ise en maddi soruyu sorduruyor: Yapay zekâ çağında üretim araçlarına kim sahip? Horowitz'in vurguladığı gibi sınır modelleri birkaç şirketin elinde; Security Council Report'un tespitine göre yarı iletken, enerji ve veri üzerindeki rekabet yeni bir jeopolitik eksen oluşturuyor. Sitemizde [Dario Amodei'nin "hızı yavaşlatmalıyız" çağrısını](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) tartışırken de görmüştük: En güçlü teknolojinin sahipleri, onun düzenlenmesini talep ediyor; bu, Marx'ın hayal edemeyeceği bir çelişkidir.
+
+## Fırsatlar: İyimserliğin makul biçimi
+
+Karamsar çerçevelerin yanına, hakkını vermek gerekir, gerçek fırsatları da koymak gerekir. Security Council Report'un kendisi, yapay zekânın çatışma önleme, arabuluculuk, barış operasyonları ve yaptırım izleme alanlarında sunduğu imkânları sıralıyor: Erken uyarı sistemleri, şiddet öncesi örüntüleri saptayabiliyor; dil modelleri, arabuluculuk süreçlerinde tarafların metinlerini analiz edebiliyor; uydu görüntüleri, ateşkes ihlallerini belgeleyebiliyor. Ploug ve arkadaşlarının makalesindeki uyarı burada da geçerli: Bu fırsatların "demokratik" olup olmadığı, hangi demokrasi anlayışıyla değerlendirdiğinize bağlı. Katılımcı bir demokrasi anlayışı için erişimi genişleten araçlar kazanç; müzakereci bir anlayış için aynı araçlar, müzakerenin niteliğini düşürüyorsa kayıptır.
+
+## Sorumluluk: Wiener'in uyarısı
+
+Sibernetiğin kurucusu Norbert Wiener, 1960'ta *Science*'ta yayımlanan "Some Moral and Technical Consequences of Automation" makalesinde, öğrenen makinelerin yaratıcılarının niyetini aşabileceğini ve bu yüzden bir makineye devrettiğimiz her amacın gerçekten istediğimiz amaç olduğundan emin olmamız gerektiğini yazmıştı. Altmış altı yıl sonra IST ve FLI'nin anketindeki uzmanlar aynı kaygıyı ölçülebilir hâle getiriyor. Wiener'in sorusu ahlak felsefesinin en eski sorusudur: Bir eylemin sorumluluğu kime aittir? Yapay zekâ bu soruya yeni bir katman ekliyor: Karar, birden çok elden, birden çok sistemden geçtiğinde sorumluluk dağılıyor; ve dağılan sorumluluk, Arendt'in uyardığı gibi, hiç kimsenin sorumluluğuna dönüşüyor.
+
+## Amerika'daki tartışma ve BM'nin sınırları
+
+Guterres'in "dibe doğru yarış" uyarısının arkasında, iki büyük yapay zekâ gücünün, Amerika Birleşik Devletleri ile Çin'in, ortak kurallar konusunda anlaşamaması var. Washington'da tartışma, federal düzenleme ile eyalet yasaları arasında, "inovasyonu boğmama" ile "ulusal güvenlik" arasında salınıyor; Pekin ise kendi yönetişim modelini uluslararası forumlara taşıyor. BM'nin kurumsal cevabı, Bilimsel Panel ve Küresel Diyalog, bağlayıcı olmayan mekanizmalar. Kant'ın federasyonu, bugün henüz bir tartışma masasından ibaret.
+
+## Sonuç: Sınav kimin?
+
+Başlıktaki soruyu yanıtlamanın zamanı geldi: Yapay zekâ iktidarın yeni makinesi mi, insanlığın yeni sınavı mı? Her ikisi. Ama sınavın öznesi hakkında yanılmamak gerekir. Sınava giren, "insanlık" gibi soyut bir varlık değil, somut siyasal topluluklardır: Yurttaşlarına karar süreçlerini açmaya devam eden ya da etmeyen devletler; müzakereyi bir makineye devreden ya da devretmeyen kurumlar; kendi geleceğini belirleme iddiasını sürdüren ya da sürdürmeyen halklar. Hobbes'un yapay insanı, Kant'ın federasyonu, Arendt'in birlikte eylemi, Habermas'ın müzakeresi, hepsi aynı şeyi söylüyor: Siyaset, insanların birbirine ne yaptığıdır. Makinelerin bu ilişkiye girmesi, ilişkinin kendisini ortadan kaldırmaz; yalnızca onu görünmez kılma tehlikesi taşır. Felsefenin görevi, bu görünmezliğe direnmektir.`,
+  },
+  {
+    title: "BM, Güvenlik Konseyi ve 'dibe doğru yarış': Yapay zekâ New York'ta barış ve güvenlik gündemine girdi",
+    slug: "bm-guvenlik-konseyi-yapay-zeka-guterres-dibe-dogru-yaris",
+    summary:
+      "Güvenlik Konseyi, Fransa'nın dönem başkanlığında Genel Kurul haftasına denk gelen üst düzey bir yapay zekâ toplantısı hazırlıyor. Guterres 'güvenlikte dibe doğru yarışa' karşı uyardı; BM İnsan Hakları Yüksek Komiseri Türk 'benzeri görülmemiş riskler'den söz etti. 111 uzmanla yapılan anket, nükleer kararlarda kırmızı çizgi talebinde neredeyse oybirliği gösteriyor.",
+    seoTitle: "BM Güvenlik Konseyi yapay zekâ toplantısı ve Guterres'in uyarısı (Eylül 2026)",
+    metaDescription:
+      "BM Güvenlik Konseyi'nin Eylül 2026 yapay zekâ gündemi, Guterres'in 'dibe doğru yarış' uyarısı, Volker Türk'ün çağrısı ve IST-FLI uzman anketinin bulguları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20-%20Security%20Council%20chamber%2C%20angled%20view%20(cropped).jpg?width=1600",
+    imageCredit: "BM Güvenlik Konseyi Salonu, New York · Fotoğraf: Jdforrester, CC BY 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Security Council Report · AFP · Nextgov",
+    sourceUrl: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+    publishedAt: "2026-09-17T01:25:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "risk", "etik", "siyaset-felsefesi", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "September 2026 Monthly Forecast: Overview",
+        publisher: "Security Council Report",
+        date: "Eylül 2026",
+        url: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+        primary: true,
+      },
+      {
+        title: "UN Security Council to hold high-level AI meeting as rights chief warns of 'unprecedented risks'",
+        publisher: "South China Morning Post / AFP",
+        date: "15 Eylül 2026",
+        url: "https://www.scmp.com/news/world/united-states-canada/article/3367511/un-security-council-hold-meeting-ai-next-week-amid-international-concern",
+      },
+      {
+        title: "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'",
+        publisher: "Associated Press (CP24)",
+        date: "16 Eylül 2026",
+        url: "https://www.cp24.com/news/world/2026/09/16/un-chief-urges-global-ai-co-operation-saying-world-cant-afford-a-race-to-the-bottom-on-ai-safety/",
+      },
+      {
+        title: "Türk calls for urgent, meaningful action to tackle unprecedented AI risks",
+        publisher: "OHCHR (GlobalSecurity.org aktarımı)",
+        date: "14 Eylül 2026",
+        url: "https://www.globalsecurity.org/military/library/news/2026/09/mil-260914-ohchr01.htm",
+      },
+      {
+        title: "Dozens of current, former officials see at least a 10% chance humans lose control of AI",
+        publisher: "Nextgov/FCW",
+        date: "2 Eylül 2026",
+        url: "https://www.nextgov.com/artificial-intelligence/2026/09/dozens-current-former-officials-see-least-10-chance-humans-lose-control-ai/415762/",
+      },
+    ],
+    content: `Birleşmiş Milletler'in New York'taki Genel Kurul haftası, her yıl dünya siyasetinin en yoğun takvimini oluşturur. Bu yılın takviminde yeni bir başlık var: Yapay zekâ, ilk kez Güvenlik Konseyi'nin barış ve güvenlik gündeminin merkezine yerleşiyor. Security Council Report'un Eylül 2026 aylık öngörüsüne göre Fransa, dönem başkanlığı sırasında yapay zekânın uluslararası barış ve güvenliğe etkilerini ele alan üst düzey bir toplantı planlıyor; AFP'nin 15 Eylül'de aktardığına göre toplantı gelecek hafta, dünya liderlerinin New York'ta bulunduğu günlerde yapılacak.
+
+## Erken uyarıdan kalıcı barışa
+
+Konsey'in yapay zekâyla ilgisi bu ay başlamadı, ama bu ay yoğunlaştı. 2 Eylül'de Bahreyn, Fransa, Yunanistan ve Letonya'nın ortak ev sahipliğinde "From Early Warning to Durable Peace: Leveraging AI in Conflict Resolution" başlıklı gayriresmî bir diyalog düzenlendi. Security Council Report'un özetine göre tartışma iki eksende ilerledi. Bir yanda fırsatlar: Yapay zekâ, çatışma önleme, arabuluculuk, barış operasyonları ve yaptırım rejimlerinin izlenmesi gibi alanlarda Konsey'in çalışma biçimini değiştirebilir. Öte yanda riskler: Siber saldırılar, bilgi ortamının manipülasyonu ve silahlı çatışmada otonom sistemlerin kullanımı. Rapor, bu iki eksenin arkasındaki daha derin bir gerilime de işaret ediyor: Yarı iletkenler, hesaplama gücü, enerji, veri ve kritik mineraller üzerindeki rekabet, yapay zekâyı bir yönetişim sorunu olmaktan çıkarıp bir güç mücadelesi konusuna dönüştürüyor.
+
+## Guterres: 'Dibe doğru yarış'
+
+BM Genel Sekreteri António Guterres, 16 Eylül'de yaptığı açıklamada dünyanın yapay zekâ güvenliğinde "dibe doğru bir yarışı" kaldıramayacağını söyledi. Guterres'e göre büyük güçler arasındaki jeopolitik bölünme, ortak güvenlik kurallarını imkânsızlaştırma tehlikesi taşıyor; Genel Sekreter, diyalog, bilgi paylaşımı ve ortak güvenlik sınırları çağrısı yaptı. AP'nin aktardığına göre Guterres, açıklamasında yapay zekâ sektörünün "ön saflarındaki" isimlerin, gelişmenin risk anlayışımızı geride bıraktığı yönündeki kaygılarına atıfta bulundu; bu, Anthropic'in kurucusu Dario Amodei'nin geçen hafta ortaya attığı ve sitemizde [ayrıntılı ele aldığımız](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) koordineli yavaşlama önerisine dolaylı bir yanıt olarak okundu. Bu çağrının kurumsal zemini, BM'nin geçen yıl kurduğu iki mekanizma: Bağımsız Uluslararası Yapay Zekâ Bilimsel Paneli ve Yapay Zekâ Yönetişimi Küresel Diyaloğu. Her ikisi de bağlayıcı olmayan yapılar; Guterres'in açıklaması, tam da bu bağlayıcı olmayışın sınırlarına işaret ediyor.
+
+## Türk: 'Benzeri görülmemiş riskler'
+
+BM İnsan Hakları Yüksek Komiseri Volker Türk, 14 Eylül'de İnsan Hakları Konseyi'ne hitaben yaptığı açıklamada yapay zekânın insan hakları açısından "benzeri görülmemiş riskler" taşıdığını, insanlığın "geri döndürülemez bir değişimin eşiğinde" olduğunu söyledi ve devletler ile sınırdaki şirketleri, kendi ürünlerinin hak ihlallerine yol açmasını önlemek için harekete geçmeye çağırdı. Türk'ün vurgusu, Güvenlik Konseyi'nin güvenlik odaklı çerçevesine bir insan hakları katmanı ekliyor: Gözetim, ayrımcılık ve ifade özgürlüğü, askerî risklerden ayrı düşünülemez.
+
+## Uzmanlar ne düşünüyor: 111 kişilik anket
+
+Tartışmanın ampirik zeminini bu ay yayımlanan bir anket sağlıyor. Institute for Security and Technology ile Future of Life Institute'un 30 Nisan-15 Temmuz arasında 111 ulusal güvenlik ve yapay zekâ uzmanıyla yaptığı ankete göre katılımcıların yüzde 87'si yapay zekânın on yıl içinde insan denetiminin dışına çıkma olasılığını yüzde 10 ya da daha yüksek görüyor; üçte biri bu kontrol kaybının geri alınamaz olacağını bekliyor. Nükleer kullanım kararının mutlaka insan tarafından verilmesi gerektiğini söyleyenler yüzde 96; yapay zekânın nükleer komuta-kontrol sistemlerini özerk biçimde yönetmemesi gerektiğini söyleyenler yüzde 89. Katılımcıların çoğunluğu özerk askerî eylem (yüzde 70), özerk siber operasyon (yüzde 67) ve insan onayı olmadan ölümcül özerklik (yüzde 56) konularında yasak istiyor. Ankete katılanların önemli bir kısmı istihbarat topluluğu, Kongre, Savunma, Enerji ve Dışişleri bakanlıklarında görev yapmış isimler. Anket, bir uzman topluluğunun görüşünü yansıtıyor; kehanet değil. Ama Güvenlik Konseyi'nin masasına gelen gündemin ne kadar somutlaştığını gösteriyor.
+
+## Ne bekleniyor?
+
+Konsey'in üst düzey toplantısından bağlayıcı bir karar çıkması beklenmiyor; toplantıların büyük kısmı başkanlık bildirisi ya da yalnızca tartışmayla sonuçlanıyor. Yine de üç gelişme izlenmeye değer. Birincisi, otonom silah sistemleri konusunda Genel Kurul'daki müzakerelerin Konsey gündemine taşınıp taşınmayacağı. İkincisi, Bilimsel Panel'in ilk raporunun takvimi. Üçüncüsü, ABD ve Çin'in ortak bir metne imza atıp atmayacağı; Guterres'in "dibe doğru yarış" uyarısı, tam da bu ihtimalin zayıflığına yönelik. Sitemizde daha önce [OpenAI'nin "kaçak ajanlar" için zorunlu düzenleme çağrısını](/haber/openai-kacak-ajanlar-zorunlu-duzenleme) ve [akademisyenlerin antlaşma mektubunu](/haber/akademisyenler-acik-mektup-yapay-zeka-antlasma-2026) ele almıştık; New York'taki toplantı, bu çağrıların devletler düzeyinde karşılık bulup bulmadığının ilk sınavı olacak. Bu gelişmelerin siyaset felsefesi açısından anlamını bugünkü [Gündem yazımızda](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) tartışıyoruz.`,
+  },
   {
     title: "16 Eylül 2026 itibarıyla yaklaşan önemli felsefe konferansları",
     slug: "yaklasan-felsefe-konferanslari-16-eylul-2026",
@@ -29696,6 +30113,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Opfer. Über Verwundbarkeit als Selbstbild",
+    slug: "lotter-opfer-verwundbarkeit-selbstbild",
+    originalTitle: "Opfer. Über Verwundbarkeit als Selbstbild",
+    publisher: "Carl Hanser Verlag",
+    translator: null,
+    language: "Almanca",
+    isbn: "9783446282278",
+    coverImage: null,
+    description:
+      "2026 Tractatus Ödülü'nü kazanan deneme. Bochumlu etik profesörü Maria-Sibylla Lotter, 'kurban' kavramının kamusal söylemdeki yükselişini üç düzeyde çözümlüyor: kurbanı dokunulmaz kılan otorite, sosyal medyanın hızlandırdığı öfke mantığı ve psikolojik durumların patolojikleştirilmesinden doğan terapi ahlakı. Travma ve şiddet gibi kavramların genişletilmesinin tartışmayı ve eylem alanını nasıl daralttığını, kurban gruplarının rekabetini ve demokratik tartışma kültürünün felcini betimliyor. 288 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.hanser-literaturverlage.de/buch/maria-sibylla-lotter-opfer-9783446287914-t-5991",
+    philosopherSlug: null,
+    postSlug: "tractatus-odulu-2026-maria-sibylla-lotter-opfer",
+  },
+  {
     title: "Call It Evil: Understanding the Trump Era",
     slug: "neiman-call-it-evil",
     originalTitle: "Call It Evil: Understanding the Trump Era",
@@ -30538,6 +30971,42 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "29. Philosophicum Lech — Betreutes Denken. Die neue Lust an der Unmündigkeit",
+    slug: "philosophicum-lech-2026",
+    summary:
+      "Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech, 22-27 Eylül 2026'da 'Vesayet altında düşünmek: ergin olmamanın yeni cazibesi' temasıyla toplanıyor. Precht, Safranski, Rostalski, Newmark, Butter, Nosthoff, Jaster, Frick, Reichenbach, Wiesböck; Tractatus töreni 25 Eylül 21.00.",
+    description: `**Tema:** Kant'ın *Unmündigkeit* (ergin olmama) kavramından hareketle, insanların kendi başına düşünmekten vazgeçmesinin ve bu vazgeçişin bir keyfe dönüşmesinin nedenleri: kimlik siyaseti, dezenformasyon, terapi kültürü, algoritmik yönetim ve yapay zekâ.
+
+**Program (9 Eylül 2026 itibarıyla):**
+- 22 Eylül: Philosophicum Dialoge — Claus Leggewie & Susanne Schröter; Stefan Gosepath & Anna Schneider.
+- 23 Eylül: Panel "Selber denken: Ein Konzept von gestern?" (Bahners, El-Nagashi, Funk, Kulke, Misik); Raphaela Edelbauer ile edebi-felsefi akşam.
+- 24 Eylül, 16.00: Açılış — Barbara Bleisch ve Konrad Paul Liessmann'ın tartışmalı söyleşisi.
+- 25 Eylül: Richard David Precht, Marie-Luisa Frick, Roland Reichenbach, Romy Jaster; 21.00 Tractatus ödül töreni (Maria-Sibylla Lotter; ücretsiz).
+- 26 Eylül: Frauke Rostalski, Catherine Newmark, Michael Butter, Laura Wiesböck; 21.00 Kandinsky Quartet konseri (ücretsiz).
+- 27 Eylül: Anna-Verena Nosthoff, Rüdiger Safranski; kapanış.
+
+Sempozyum katılımı kayıt ve ücret gerektirir; ayrıntılar philosophicum.com üzerinde.`,
+    kind: "SEMPOZYUM",
+    speakers: "Richard David Precht, Rüdiger Safranski, Frauke Rostalski, Catherine Newmark, Michael Butter, Anna-Verena Nosthoff, Romy Jaster, Marie-Luisa Frick, Roland Reichenbach, Laura Wiesböck, Barbara Bleisch, Konrad Paul Liessmann",
+    organizer: "Verein Philosophicum Lech",
+    topic: "Aydınlanma, erginlik, dezenformasyon, yapay zekâ, demokrasi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-22T13:00:00.000Z",
+    endsAt: "2026-09-27T11:00:00.000Z",
+    timezone: "Europe/Vienna",
+    hasTime: true,
+    city: "Lech am Arlberg",
+    country: "Avusturya",
+    venue: "Lechwelten",
+    registrationUrl: "https://www.philosophicum.com/symposium-2026/infos-und-anmeldung",
+    website: "https://www.philosophicum.com/symposium-2026/programm",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lech%20am%20Arlberg%202006.jpg?width=1600",
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/symposium-2026/programm",
+    featured: true,
+    publishedAt: "2026-09-17T02:00:00.000Z",
+  },
   {
     title: "Miranda Fricker — 2026 John Dewey Konferansları: Ahlaki Baskılar",
     slug: "fricker-dewey-konferanslari-columbia-2026",
