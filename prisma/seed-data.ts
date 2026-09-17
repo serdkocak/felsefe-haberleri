@@ -260,6 +260,82 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Jacques Rancière",
+    slug: "jacques-ranciere",
+    headline: "Fransız filozof — Paris 8 Üniversitesi (emeritus)",
+    bio: "Eşitliği siyasetin hedefi değil önvarsayımı sayan düşünür. Althusser'den koparak on dokuzuncu yüzyıl işçi arşivlerine indi; Cahil Hoca ile zekâların eşitliğini, Uyuşmazlık ile polis-siyaset ayrımını, 'duyulur olanın paylaşımı' ile sanat-siyaset bağını kurdu.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Ranci%C3%A8re%2C%20Jacques%20-UV%20fRF01.jpg?width=600",
+    country: "Fransa",
+    birthYear: 1940,
+    affiliation: "Paris 8 Vincennes-Saint-Denis Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Jacques Rancière",
+    birthDate: "10 Haziran 1940, Cezayir",
+    alive: true,
+    period: "Çağdaş",
+    school: "Post-Marksist siyaset felsefesi · estetik",
+    areas: "Siyaset felsefesi, estetik, eğitim felsefesi, tarih yazımı, sinema",
+    majorWorks: "Althusser'in Dersi (1974)\nProleterlerin Gecesi (1981)\nFilozof ve Yoksulları (1983)\nCahil Hoca (1987)\nUyuşmazlık (1995)\nDuyulur Olanın Paylaşımı (2000)\nEstetiğin Huzursuzluğu (2004)\nDemokrasi Nefreti (2005)\nÖzgürleşen Seyirci (2008)",
+    keyConcepts: "Zekâların eşitliği, polis ile siyaset, uyuşmazlık (mésentente), duyulur olanın paylaşımı, payı olmayanların payı, aptallaştırma, özgürleşen seyirci",
+    influencedBy: "Louis Althusser (karşı), Joseph Jacotot, Karl Marx, Michel Foucault, Jean-François Lyotard",
+    influenced: "Çağdaş sanat kuramı, radikal demokrasi kuramı, eleştirel pedagoji, Alain Badiou ile diyalog, Slavoj Žižek",
+    longBio: "Cezayir'de doğdu; École normale supérieure'de Althusser'in öğrencisi oldu ve 1965'te Kapital'i Okumak'ın genç yazarları arasında yer aldı. 1968 Mayıs'ı düşüncesinde kırılma yarattı; 1974'te Althusser'in Dersi ile hocasının bilim/ideoloji ayrımının entelektüelin kitleler adına konuşma hakkını yeniden kurduğunu savunarak koptu.\n\nOn dokuzuncu yüzyıl işçi arşivlerinde on yıl çalıştı; Proleterlerin Gecesi (1981), işçilerin gece şiir yazıp felsefe okuyarak sınıf kimliğinden kaçtığını gösterdi. Cahil Hoca (1987), Jacotot üzerinden bütün zekâların eşit olduğu ve açıklayıcı pedagojinin 'aptallaştırdığı' tezini ortaya koydu. Uyuşmazlık (1995) 'polis' (toplumsal yerlerin dağılımı) ile 'siyaset' (payı olmayanların eşitlik varsayımıyla bu dağılımı bozması) arasındaki ayrımı kurdu.\n\n2000'lerden itibaren estetiğe yöneldi: 'Duyulur olanın paylaşımı' kavramıyla sanatın politik gücünü mesajda değil, neyin görünür ve duyulur olduğunun yeniden düzenlenmesinde aradı. Paris 8'de ders verdi; Türkçede Metis başta olmak üzere birçok yayınevinden çevrildi.",
+    sources: "Duke University Press — https://www.dukeupress.edu/Jacques-Ranciere · Philosophy Compass — https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1747-9991.2007.00120.x",
+  },
+  {
+    name: "Ahmet Arslan",
+    slug: "ahmet-arslan",
+    headline: "Felsefe tarihçisi — Ege Üniversitesi (emeritus)",
+    bio: "Ege Üniversitesi Felsefe Bölümü'nün kurucusu; beş ciltlik İlkçağ Felsefe Tarihi'nin ve kuşaklar boyu okunan Felsefeye Giriş'in yazarı. Antik Yunan, İslam felsefesi ve modern Batı felsefesi arasında Türkçede köprü kurdu; Kemalpaşazâde üzerine doktorasıyla Osmanlı düşüncesinin felsefi boyutunu araştırdı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1944,
+    affiliation: "Ege Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Ahmet Arslan",
+    birthDate: "1944, Urfa",
+    alive: true,
+    period: "Çağdaş",
+    school: "Felsefe tarihi · İslam felsefesi araştırmaları",
+    areas: "Antik Yunan felsefesi, İslam felsefesi, Osmanlı düşüncesi, felsefe tarihi, Aristoteles",
+    majorWorks: "Felsefeye Giriş\nİlkçağ Felsefe Tarihi (5 cilt)\nİslam Felsefesi Üzerine\nKemalpaşazâde'nin Tehâfüt Hâşiyesi (doktora)\nHaşiye ala't-Tehafüt Tahlili\nAristoteles, Metafizik (çeviri)\nİbn Haldun (inceleme)",
+    keyConcepts: "Felsefe tarihi olarak felsefe, kavram çevirisi, felsefe-bilim-din ayrımı, İslam felsefesinin karşılaşma alanı olarak okunması",
+    influencedBy: "Aristoteles, Fârâbî, İbn Sînâ, İbn Rüşd, İbn Haldun, Kemalpaşazâde",
+    influenced: "Ege Üniversitesi felsefe okulu, Türkiye'de felsefe tarihi eğitimi ve İslam felsefesi araştırmaları",
+    longBio: "Urfa'da doğdu; Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi Felsefe Bölümü'nden mezun oldu. Kemalpaşazâde'nin Tehâfüt Hâşiyesi üzerine doktora yaptı; 1978'de doçent, 1988'de profesör oldu. 1979'da Ege Üniversitesi Felsefe Bölümü'nü kurdu ve uzun yıllar yönetti.\n\nBeş ciltlik İlkçağ Felsefe Tarihi, Sokrates öncesinden Plotinos'a antik felsefeyi Türkçede metinle karşılaşma yoluyla anlatan ilk kapsamlı çalışmadır. Felsefeye Giriş, felsefeyi filozoflar yerine sorular üzerinden sunan yapısıyla kuşaklar boyunca temel ders kitabı oldu. İslam Felsefesi Üzerine, İslam felsefesini ne Batı felsefesinin dipnotu ne de dış etkilerden bağımsız bir 'öz' olarak değil, bir entelektüel karşılaşma alanı olarak okur.\n\nBatı dillerinin yanı sıra Arapça bilmesi, onu antik Yunan, İslam ve modern Batı felsefesi arasında nadir bir geçiş figürü kıldı. 'Ciddi ama anlaşılabilir felsefe' tavrıyla Türkiye'de akademik ve popüler felsefe arasında üçüncü bir yol açtı.",
+    sources: "İstanbul Bilgi Üniversitesi Yayınları — https://bilgiyay.com/kitap/islam-felsefesi-uzerine/ · Ege Üniversitesi Felsefe Bölümü — https://felsefe.ege.edu.tr/",
+  },
+  {
+    name: "Louis Althusser",
+    slug: "louis-althusser",
+    headline: "Fransız filozof (1918-1990)",
+    bio: "Yapısalcı Marksizmin kurucusu. Marx'ta 'epistemolojik kopuş' saptadı, kuramsal anti-hümanizmi savundu; ideolojinin bireyleri 'Hey, sen!' çağrısıyla özneye dönüştürdüğünü ve okul, aile, medya gibi 'ideolojik devlet aygıtları'yla işlediğini ileri sürdü.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1918,
+    affiliation: "École normale supérieure",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Louis Pierre Althusser",
+    birthDate: "16 Ekim 1918, Birmendreïs, Cezayir",
+    deathDate: "22 Ekim 1990, La Verrière",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Yapısalcı Marksizm",
+    areas: "Marksist felsefe, ideoloji kuramı, bilim felsefesi, siyaset felsefesi, psikanaliz",
+    majorWorks: "Marx İçin (1965)\nKapital'i Okumak (1965, Balibar, Rancière, Macherey, Establet ile)\nLenin ve Felsefe (1969)\nİdeoloji ve Devletin İdeolojik Aygıtları (1970)\nKendini Eleştiri Öğeleri (1974)\nGelecek Uzun Sürer (1992)\nKarşılaşma Materyalizminin Yeraltı Akıntısı (1994)",
+    keyConcepts: "Epistemolojik kopuş, kuramsal anti-hümanizm, üstbelirlenim, ideolojik devlet aygıtları, çağrı (interpellation), öznesiz süreç, karşılaşma materyalizmi",
+    influencedBy: "Karl Marx, Baruch Spinoza, Gaston Bachelard, Jacques Lacan, Georges Canguilhem, Mao Zedong",
+    influenced: "Étienne Balibar, Jacques Rancière (karşı), Alain Badiou, Judith Butler, Slavoj Žižek, Ernesto Laclau, Chantal Mouffe, kültürel çalışmalar",
+    longBio: "Cezayir'de doğdu; İkinci Dünya Savaşı'nda beş yıl Alman esir kampında kaldı. 1948'de École normale supérieure'de öğretim görevlisi oldu ve otuz yılı aşkın süre orada kaldı; aynı yıl Fransız Komünist Partisi'ne girdi. Öğrencileri arasında Balibar, Rancière, Badiou ve Foucault vardı; Lacan'ın seminerini 1963'te ENS'e taşıdı.\n\nMarx İçin ve Kapital'i Okumak (1965), Marx'ın 1845 civarında hümanist gençlik yazılarından koparak 'tarihin bilimi'ni kurduğunu savundu; bu 'epistemolojik kopuş' kavramını Bachelard'dan aldı. Kuramsal anti-hümanizm, Marksizmin 'insan' kavramına dayanmadığını ileri sürdü. 1970 tarihli ideoloji makalesi, ideolojinin maddi pratiklerde yaşadığını, okul ve aile gibi ideolojik devlet aygıtlarıyla işlediğini ve bireyleri 'çağrı' yoluyla özneye dönüştürdüğünü ortaya koydu.\n\nÖmür boyu süren depresyonla mücadele etti. 16 Kasım 1980'de eşi Hélène Rytmann'ı öldürdü; yargılanamaz bulunarak hastaneye kapatıldı. Ölümünden sonra yayımlanan otobiyografisi Gelecek Uzun Sürer olayı anlatır. 1990'da öldü.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/althusser/",
+  },
+  {
     name: "Hans-Georg Gadamer",
     slug: "hans-georg-gadamer",
     headline: "Alman filozof, felsefi hermeneutiğin kurucusu (1900-2002)",
@@ -2393,6 +2469,747 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "16 Eylül 2026 itibarıyla yaklaşan önemli felsefe konferansları",
+    slug: "yaklasan-felsefe-konferanslari-16-eylul-2026",
+    summary:
+      "Bugün üç toplantı aynı anda: Eleştirel Siyasal Epistemoloji (propaganda, epistemik şiddet, 'aracılı cehalet'), Bristol'da Ruyu Hung'la Doğu Asya pedagojisi ve 'ben-sizlik', Malta'da bedenin yaşantılanması üzerine disiplinlerarası kolokyumun kapanışı. Sonbaharın diğer toplantıları için önceki üç seçkimize bağlantılar; tekrar yok.",
+    seoTitle: "Yaklaşan felsefe konferansları: 16 Eylül 2026",
+    metaDescription:
+      "Critical Political Epistemology (16 Eylül), Tiān-hé: Martistry in the Making as Nonself-cultivation (Bristol, 16 Eylül), Embodied Lives: Interdisciplinary Dialogues on the Body (Malta, 14-16 Eylül) ve sonbahar takvimine bağlantılar.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Courtyard%20at%20University%20of%20Malta.jpg?width=1600",
+    imageCredit: "Malta Üniversitesi Valletta kampüsü avlusu · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/146753",
+    publishedAt: "2026-09-16T01:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "epistemoloji", "fenomenoloji", "akademi", "demokrasi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Critical Political Epistemology",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/146753",
+        primary: true,
+      },
+      {
+        title: "Tiān-hé: Martistry in the Making as Nonself-cultivation",
+        publisher: "University of Bristol, School of Education",
+        url: "https://www.bristol.ac.uk/education/events/2026/",
+      },
+      {
+        title: "International Colloquium — Embodied Lives: Interdisciplinary Dialogues on the Body",
+        publisher: "L-Università ta' Malta, Faculty of Theology",
+        url: "https://www.um.edu.mt/theology/activities/internationalcolloquiumembodiedlives/",
+      },
+    ],
+    content: `Bu haftanın konferans takvimini üç kez yayımladık; bu yazı yalnızca **bugün** gerçekleşen üç toplantıyı ele alıyor. Ekim ve kasım toplantıları için sondaki bağlantılara bakılabilir.
+
+## 16 Eylül — Eleştirel Siyasal Epistemoloji
+
+PhilEvents'te kayıtlı toplantı, siyasal epistemolojinin eleştirel kanadına odaklanıyor: yabancılaşma, propaganda, epistemik şiddet ve bilgi rejimleri. Programda dikkat çeken iki bildiri var: "Bedensiz Bedenlenme: Aşırı Sağ Radikalizmde İfade ve Bilgi" ve "Aracılı Cehalet" (Mediated Ignorance). İkincisi, bu hafta sitemizde [Fricker'ın hermeneutik adaletsizlik kavramıyla](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) tartıştığımız sorunun tersinden okunuşu: Bilgisizlik yalnızca bir eksiklik değil, medya ve platformlar aracılığıyla **üretilen** bir durum olabilir. "Siyasal epistemoloji" alanı son on yılda hızla büyüdü; Michael Hannon ve Jeroen de Ridder'in 2021 tarihli Routledge el kitabı alanı kurumsallaştırdı. "Eleştirel" sıfatı, alanın liberal-analitik ana akımına karşı — Marx, Foucault, Fricker'dan beslenen — bir konumlanmayı işaret ediyor. Toplantının mekânını düzenleyici kurumun sayfasından teyit edemedik; PhilEvents kaydına dayanıyoruz.
+
+## 16 Eylül · Bristol ve çevrim içi — Tiān-hé: Ben-sizliğin Yetiştirilmesi Olarak Sanat Yapımı
+
+Bristol Üniversitesi Eğitim Fakültesi'nin hibrit oturumunda Tayvanlı eğitim felsefecisi Ruyu Hung konuşuyor. Başlık, Çince "tiān-hé" (gök-uyum) kavramı ile "martistry" — sanat yapımı ile dövüş sanatını birleştiren bir kelime oyunu — üzerinden Doğu Asya felsefesindeki **ben-sizlik** (non-self, Budist *anātman* ve Taocu *wu-wei* geleneği) fikrini eğitim pratiği olarak ele alıyor. Hung'un daha önceki çalışmaları ekolojik pedagoji ve Taocu eğitim felsefesi üzerineydi. Bugün sitemizde [Yamazaki Ansai'yi andığımız takvim yazısında](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley) söylediğimiz şey burada da geçerli: Felsefe, geleneklerin karşılaşmasında doğar — ve Batı eğitim felsefesinin "özerk özne" ideali, ben-sizlik pedagojisiyle karşılaştığında kendi varsayımlarını görmek zorunda kalır.
+
+## 14-16 Eylül · Malta — Bedenlenmiş Hayatlar: Beden Üzerine Disiplinlerarası Diyaloglar
+
+Malta Üniversitesi İlahiyat Fakültesi'nin düzenlediği uluslararası kolokyum bugün sona eriyor. Konu, bedenin **yaşantılanması**: hastalık, engellilik, kimlik, hareket, anlam ve kırılganlık — felsefe, antropoloji, tıp, teoloji ve sosyal bilimlerin birlikte ele aldığı bir program. Bir ilahiyat fakültesinin bedeni bu genişlikte tartışması dikkat çekici; Hristiyan teolojisinin "beden" kavramıyla ilişkisi — ten alma, diriliş, kilise bedeni — fenomenolojiyle buluşuyor. Bu hafta sitemizde [beyin implantı dosyasında](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) Merleau-Ponty üzerinden sorduğumuz "beden düşüncenin parçası mı?" sorusu ve dünkü takvimde [Susan Hurley'nin bedenlenmiş biliş kuramı](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley), bu kolokyumun felsefi arka planı.
+
+## Sonbaharın geri kalanı
+
+Santa Maria, Vilnius, Salamanca ve Hokkaido için [14 Eylül seçkimize](/haber/2026-sonbahar-felsefe-toplantilari-vilnius-salamanca-sapporo); Viyana'daki iki ekim toplantısı, Oxford ve Priştine için [13 Eylül seçkimize](/haber/felsefe-takviminde-one-cikanlar-13-eylul-2026); Fricker'ın Dewey dersleri, Kopenhag, Moskova ve NIU için [dünkü listemize](/haber/yaklasan-felsefe-konferanslari-15-eylul-2026); Barselona, Selçuk, Nijmegen, Northwestern, İstanbul, Duke ve Atina için [12 Eylül listemize](/haber/12-eylul-sonrasi-yaklasan-felsefe-konferanslari) bakılabilir. Çevrim içi "Yalnızlık" konferansı (8-9 Ekim) için teyit çekincemiz sürüyor.
+
+---
+
+*Bize ulaşan listede Türkiye'deki felsefe dergilerinin çağrıları da yer alıyordu; ViraVerita, Felsefe Dünyası, FLSF ve SineFilozofi'ye ilişkin bütün bilgiler bu hafta yayımladığımız üç dergi notunda zaten mevcut olduğundan ayrı bir yazı yapılmadı. FLSF'nin Mayıs 2027 sayısı için kabul 15 Kasım'da başlıyor; ViraVerita'nın çocukluk dosyası kapandı.*`,
+  },
+  {
+    title: "2025–2026'nın öne çıkan felsefe kitapları: Neiman, Spiegel, Ganeri, Ivanovic, Han, Žižek, Habermas",
+    slug: "2025-2026-one-cikan-felsefe-kitaplari-neiman-spiegel-ganeri",
+    summary:
+      "Bu haftaki üçüncü kitap yazısı; yalnızca sitede daha önce yer almamış başlıklar. Bugün çıkan üç kitap — Neiman'ın 'Kötülük Diyelim'i, Spiegel'in 'Aptallık ve Kendine Kapanma'sı, Ganeri'nin Hint felsefesine girişinin ikinci baskısı — ve Ivanovic'in insani yardım eleştirisi; ardından Han'ın 'Saygısız', Žižek'in 'Sıfır Noktası' ve Habermas'ın felsefe tarihinin üçüncü cildi. Ortak tema: Yargılamayı yeniden öğrenmek.",
+    seoTitle: "2025-2026'nın öne çıkan felsefe kitapları: Neiman, Spiegel, Ganeri, Ivanovic, Han, Žižek, Habermas",
+    metaDescription:
+      "Susan Neiman — Call It Evil (Norton, 15 Eylül 2026); Thomas J. Spiegel — Stupidity and Self-Absorption (Routledge); Jonardon Ganeri — Philosophy in Classical India, 2. baskı; Mlado Ivanovic — Holding Hands with Death; Byung-Chul Han — Without Respect; Žižek — Zero Point ve Against Progress; Habermas — Also a History of Philosophy III.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Neiman%20B2015-02.jpg?width=1600",
+    imageCredit: "Susan Neiman, 2015 · Wikimedia Commons",
+    featured: false,
+    sourceName: "W. W. Norton & Company",
+    sourceUrl: "https://wwnorton.com/books/9781324131045",
+    publishedAt: "2026-09-16T01:50:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "etik", "demokrasi", "siyaset-felsefesi", "medya"],
+    philosopherSlugs: ["slavoj-zizek", "jurgen-habermas", "byung-chul-han"],
+    sources: [
+      {
+        title: "Call It Evil: Understanding the Trump Era",
+        publisher: "W. W. Norton & Company",
+        url: "https://wwnorton.com/books/9781324131045",
+        primary: true,
+      },
+      {
+        title: "Routledge Studies in Contemporary Philosophy — series page",
+        publisher: "Routledge",
+        url: "https://www.routledge.com/Routledge-Studies-in-ContemporaryPhilosophy/book-series/SE0720",
+      },
+      {
+        title: "Ohne Respekt",
+        publisher: "Matthes & Seitz Berlin",
+        url: "https://www.matthes-seitz-berlin.de/book/ohne-respekt.html",
+      },
+      {
+        title: "Also a History of Philosophy, Volume 3",
+        publisher: "Wiley / Polity",
+        url: "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/philosophy-12pl/general-philosophy-12pl0/also-a-history-of-philosophy-volume-3-978-1-5095-5865-0",
+      },
+      {
+        title: "Zero Point",
+        publisher: "Bloomsbury / Google Books",
+        url: "https://books.google.com/books/about/Zero_Point.html?id=pa02EQAAQBAJ",
+      },
+    ],
+    content: `Bu haftanın üçüncü kitap yazısı. Bize ulaşan on dört kitaplık listenin yarısı — Schwitzgebel, Keeling ve Street, Cappelen ve Sterken, Nussbaum'un *Aşkın Cumhuriyeti*, Alexy'nin *Hukukun İdeal Boyutu*, Butler'ın Türkçedeki *Kim Korkar Toplumsal Cinsiyetten?* — sitemizde daha önce ayrı ayrı ele alındı; onları tekrarlamıyoruz. Bu yazı yalnızca ilk kez yer verdiğimiz yedi kitabı ele alıyor ve dördü tam bugün, 16 Eylül'de raflara çıkıyor.
+
+## Bugün çıkanlar
+
+### Susan Neiman — Call It Evil: Understanding the Trump Era (W. W. Norton, 2026)
+
+Dün ABD'de yayımlanan kitap, bu ayın en çok konuşulacak felsefe kitabı. Berlin'deki Einstein Forum'un yöneticisi Susan Neiman, *Modern Düşüncede Kötülük* (2002) ve *Ahlaki Netlik* (2008) ile kötülük kavramının felsefi tarihini yazmıştı; yeni kitabı bu programı güncel siyasete uyguluyor. Yayınevinin tanıtımına göre kitap "Donald Trump hakkında değil, onun galip gelmesine izin veren koşullar hakkında"; tezi, "kötülük" sözcüğünün geçmişin kalıntısı ya da kaçınılması gereken bir terim olmadığı, demokrasiye yönelik tehditleri anlamak için "hayati bir mercek" olduğu.
+
+Neiman'ın iddiası provokatif: Modern düşünce, kötülük kavramını fazla dinî, metafizik ya da naif bulduğu için terk etti; ama bunun siyasal bir bedeli var. Bazı siyasi davranışları yalnızca "stratejik hata", "popülizm" ya da "otoriter eğilim" diye tanımlamak, onların ahlaki boyutunu görünmez kılar. Neiman, Arendt'in "kötülüğün sıradanlığı" kavramını ciddiye alarak ama ötesine geçerek, adlandırmanın kendisinin bir direniş biçimi olduğunu savunuyor. 240 sayfa; İngiltere baskısı ekimde. Bu hafta sitemizde ele aldığımız [Erasmus Ödülü'nün "Ecce Homo" teması](/haber/erasmus-odulu-2026-steve-mcqueen-ecce-homo) ve [McWhorter'ın kişilik eleştirisi](/haber/nassp-kitap-odulu-2026-mcwhorter-unbecoming-persons) ile birlikte okunduğunda, 2026'nın ahlak felsefesinin "yargılamayı yeniden öğrenmek" etrafında döndüğü görülüyor.
+
+### Thomas J. Spiegel — Stupidity and Self-Absorption (Routledge, 2026)
+
+Routledge'ın Çağdaş Felsefe Çalışmaları dizisinde bugün yayımlanması planlanan kitap, insan aptallığını bilişsel bir eksiklik olarak değil, **gerçekliğe direnmenin ve kendine kapanmanın varoluşsal bir biçimi** olarak inceliyor. Aptallık felsefesinin uzun ama dağınık bir geçmişi var — Erasmus'un *Deliliğe Övgü*'sü, Flaubert'in *Bouvard ve Pécuchet*'si, Musil'in 1937 tarihli "Aptallık Üzerine" konferansı, Bonhoeffer'in hapishaneden yazdığı "aptallık, kötülükten daha tehlikeli bir düşmandır" notu. Spiegel bu geleneği fenomenolojik bir çerçeveye taşıyor: Aptal, bilmeyen değil, bilmek istemeyendir; kendine kapanmış, dünyanın itirazına kulağını tıkamış öznedir.
+
+Kitabı bugün özellikle ilginç kılan şey şu: Yapay zekâ daha "akıllı" hâle geldikçe insanın aptallığı daha görünür hâle gelebilir — ve bu hafta sitemizde işlediğimiz [Navier–Stokes dosyasındaki](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) "doğrulama ile kavrayış" ayrımı, aptallık için de geçerli: Doğru cevabı bilen makine, kendine kapanmış insanı açamaz. Belki de yapay zekâ çağının en önemli felsefi problemi makinenin zekâsı değil, insanın kendi aptallığıyla ne yapacağıdır.
+
+### Jonardon Ganeri — Philosophy in Classical India: An Introduction, 2. baskı (Routledge, 2026)
+
+Toronto Üniversitesi'nden Jonardon Ganeri'nin klasik Hint felsefesine giriş kitabının kapsamlı biçimde güncellenmiş ikinci baskısı bugün yayımlanıyor; yeni baskıda Theravāda Budizmi ve Mīmāṃsā okulu üzerine yeni bölümler var. Ganeri'nin projesi otuz yıldır aynı: Hint felsefesini dinî-mistik bir gelenek olarak değil, analitik felsefeyle aynı masada konuşabilecek — mantık, epistemoloji, zihin felsefesi ve dil felsefesinde özgün konumları olan — güçlü bir **felsefi** gelenek olarak ele almak. Nyāya epistemolojisinin tanıklık kuramı, Budist "ben-sizlik" öğretisinin kişisel kimlik tartışmasına katkısı, Mīmāṃsā'nın dil felsefesi: Bunlar Ganeri'ye göre Batı felsefesinin "egzotik" ekleri değil, aynı sorulara verilmiş alternatif cevaplardır. Bu hafta [Metz'in ubuntu adaleti](/haber/yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber) ve bugün [Yamazaki Ansai](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley) vesilesiyle söylediğimiz şeyin ders kitabı: Felsefe tek bir geleneğin malı değil.
+
+### Mlado Ivanovic — Holding Hands with Death: Ethical Promises and Political Failures of Our Humanitarian Present (Brill, 2026)
+
+Bugün yayımlanan kitabın başlığı kadar konusu da ağır: İnsani yardım, acı, merhamet ve siyasal başarısızlık. Ivanovic, çağdaş insani yardım rejimlerinin acıyı görünür kılarken, acıyı üreten siyasal yapıları sorgulamaktan uzaklaşabildiğini savunuyor: Yardım, adaletin yerini alan bir ahlaki teselliye dönüşebilir. Kitap fenomenoloji, eleştirel kuram, ahlak ve siyaset felsefesini bir araya getiriyor; Arendt'in "merhamet siyaseti"ne yönelttiği eleştiriyi ve Agamben'in "çıplak hayat" kavramını, Gazze'den Sudan'a bugünün insani felaketlerine uyguluyor. Yayınevi kaydı Brill; künye yayınevi kataloğundan teyit edilmeli.
+
+## Geçen aylardan, sitede ilk kez
+
+### Byung-Chul Han — Without Respect: A Social Crisis (2026)
+
+Han'ın Almanca *Ohne Respekt* kitabının İngilizce çevirisi bu yıl çıktı. Matthes & Seitz'ın tanıtımına göre Han, dijital çağın bir dönüşümünü teşhis ediyor: **Saygının yerini dikkat aldı.** Nezaketin yerini utandırma, topluluğun yerini benzer düşünceli dijital kabileler. Han'a göre saygı, demokrasi ve kamusal tartışma için estetik ve etik bir **mesafe** yaratır — saygı (respectus), Latince "geriye bakmak"tan gelir, yani uzaklık gerektirir; bu mesafe kaybolduğunda toplum "günlük küçük bir iç savaş"a dönüşür. Han'ın *Anlatının Krizi*'ni sitemizde [Türkçeye çevrildiğinde](/haber/byung-chul-han-anlatinin-krizi-turkcede) ele almıştık; *Saygısız*, aynı teşhisin siyasal versiyonu.
+
+### Slavoj Žižek — Zero Point (Bloomsbury, 2025) ve Against Progress (Bloomsbury, 2024)
+
+Žižek'in son iki kısa kitabı, sitemizde daha önce ele aldığımız [*Liberal Faşizmler*](/haber/zizek-liberal-fasizmler-iletisim) ile birlikte bir üçleme oluşturuyor. *Against Progress* (Ekim 2024, 136 sayfa), "ilerleme" fikrine saldırıyor: Tarih kendiliğinden daha iyiye gitmez ve ilerleme söylemi, bugün yapılan yıkımı gelecekteki hayali bir kurtuluş adına meşrulaştırabilir. Yapay zekâ şirketlerinin "bir sonraki model daha iyi olacak" vaadi bu eleştirinin tam hedefi; bu hafta sitemizde [Amodei'nin yavaşlama çağrısını](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) tartışırken sorduğumuz soru — daha ileri gitmek daha iyiye gitmek midir? — Žižek'in sorusudur. *Zero Point* (Mart 2025) ise "yenilgi" ile "felaket" arasındaki ayrım üzerinden çağdaş krizleri ele alıyor ve Lenin'in "yüksek dağa tırmanırken geri çekilme" metaforunu kullanıyor: Sıfır noktası son değil, yeniden başlamak için zorunlu bir geri çekilme alanıdır.
+
+### Jürgen Habermas — Also a History of Philosophy, Cilt III: Rational Freedom (Polity, 2025)
+
+Bu yıl kaybettiğimiz Habermas'ın — sitemizdeki [anma yazımız](/haber/jurgen-habermas-1929-2026) — dev felsefe tarihi projesinin üçüncü ve son cildi. Alt başlık: *Akılsal Özgürlük: İnanç ve Bilgi Söyleminin İzleri*. Hume ve Kant'tan başlayarak Alman idealizmine, Hegel'e, Marx'a, Kierkegaard'a ve Peirce'e uzanıyor. Habermas'ın yaptığı şey sıradan bir "filozoflar tarihi" değil; felsefe tarihini, kendi iletişimsel akıl anlayışının tarihsel köklerini — inanç ile bilginin nasıl ayrıldığını ve aklın nasıl "özgürleştiğini" — araştırmak için kullanıyor. Üç cilt birlikte okunduğunda, doksan yaşını aşmış bir filozofun kendi felsefesinin entelektüel otobiyografisini yazdığı görülüyor. Son cildin ölümünden önce tamamlanmış olması, yirminci yüzyılın son büyük sistem kurucusunun projesini bitirebildiği anlamına geliyor.
+
+## Ortak tema
+
+Yedi kitap, tek bir tema: **Yargılamayı yeniden öğrenmek.** Neiman kötülüğü adlandırmayı, Spiegel aptallığı tanımayı, Ivanovic merhametle adaleti ayırmayı, Han saygının mesafesini, Žižek ilerleme masalını reddetmeyi, Habermas aklın inançtan nasıl ayrıldığını, Ganeri ise bütün bunların Batı dışında da düşünüldüğünü hatırlatıyor. Bu haftanın yapay zekâ kitapları "makine ne yapabilir?" diye soruyordu; bu haftanın ahlak kitapları "insan ne yapmalı?" diye soruyor. İki soru arasında, 2026'nın felsefesi yazılıyor.
+
+---
+
+*Yayın tarihleri yayınevi kataloglarına dayanmaktadır; bazı kitapların ülkeye göre farklı tarihleri olabilir. Listedeki daha önce ele alınmış kitaplar için sitemizin Kitaplar sayfasına bakılabilir.*`,
+  },
+  {
+    title: "Louis Althusser ve Yapısalcı Marksizm",
+    slug: "louis-althusser-ve-yapisalci-marksizm",
+    summary:
+      "1960'larda Marx'ı yeniden keşfetti; ama kuramı rahatsız edici bir soru doğurdu: İnsan tarihi yapan özne mi, yoksa tarih bizi bizden önce mi biçimlendiriyor? Epistemolojik kopuş, ideolojik devlet aygıtları ve 'Hey, sen!' — Althusser'in çağrı kuramı, algoritmaların bizi her gün adıyla çağırdığı bir çağda yeniden okunuyor. Trajedisi, kuramının önüne geçmemeli; ama silinmemeli de.",
+    seoTitle: "Louis Althusser ve yapısalcı Marksizm: ideoloji, çağrı ve algoritmik özne",
+    metaDescription:
+      "Althusser portresi: Marx İçin ve Kapital'i Okumak, epistemolojik kopuş, kuramsal anti-hümanizm, ideolojik devlet aygıtları, interpellation, Lacan etkisi, Rancière'in kopuşu, 1980 trajedisi ve algoritmik çağrı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2022%20-%20rue%20d'Ulm%20-%20ENS%20Ulm%2002.jpg?width=1600",
+    imageCredit: "École normale supérieure, rue d'Ulm — Althusser'in otuz yıl yaşadığı ve ders verdiği kurum · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/althusser/",
+    publishedAt: "2026-09-16T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["marksizm", "psikanaliz", "elestirel-teori", "kavram", "medya"],
+    philosopherSlugs: ["louis-althusser", "jacques-ranciere"],
+    sources: [
+      {
+        title: "Louis Althusser",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/althusser/",
+        primary: true,
+      },
+    ],
+    content: `Louis Althusser'in hayatı bir yirminci yüzyıl trajedisi gibi okunabilir: Cezayir'de doğum, Alman esir kampında beş yıl, Fransız Komünist Partisi, École normale supérieure'de otuz yıl, 1968, ideoloji, devlet, psikanaliz — ve sonunda eşinin ölümüyle sonuçlanan ağır kriz. Fakat Althusser'i yalnızca trajedisiyle anlatmak, felsefesine yapılabilecek en büyük haksızlıklardan biridir. Çünkü Althusser'in asıl sorusu şuydu: **İnsanları tarih mi yapar, insanlar mı tarihi?**
+
+## Marx neden yeniden okunmalıydı?
+
+1960'larda Batı Marksizmi büyük bir kriz içindeydi. Stalin'in suçlarının 1956'da resmen kabul edilmesi, Sovyetler Birliği'nin bürokratik yapısı, Batı kapitalizminin refah devleti biçimleri ve işçi sınıfının değişen yapısı, Marx'ın on dokuzuncu yüzyıl kategorilerinin yeniden düşünülmesini zorunlu kılıyordu. Fransız Komünist Partisi'nin içinde iki cevap vardı: Stalin'in mirasını "hümanist" bir Marx'la — genç Marx'ın yabancılaşma ve insanın özü kavramlarıyla — yumuşatmak; ya da partinin ekonomizmini sürdürmek.
+
+Althusser üçüncü bir yol açtı. 1965'te yayımlanan *Marx İçin* ve öğrencileriyle birlikte yazdığı *Kapital'i Okumak*, Marx'ı terk etmeyi değil **yeniden kurmayı** önerdi: Marx'ın düşüncesinde bilimsel bir kopuş vardı ve Marksizmin krizi, bu kopuşun anlaşılmamasından kaynaklanıyordu.
+
+## Epistemolojik kopuş
+
+Althusser'in en ünlü kavramı, bilim tarihçisi Gaston Bachelard'dan ödünç aldığı **epistemolojik kopuş**tur. Bir düşünürün gençlik dönemindeki felsefi ve hümanist fikirleri ile sonraki bilimsel kuramı arasında keskin bir kopuş olabilir. Althusser'e göre 1845 civarında Marx, Feuerbach'tan devraldığı "insanın özü", "yabancılaşma" ve "tür-varlığı" kavramlarını terk etti ve yerine yeni bir kıta — tarihin bilimi — keşfetti: üretim tarzı, üretim ilişkileri, üretici güçler, artı-değer. *Kapital*'de "insan" yoktur; yapılar ve onların "taşıyıcıları" (Träger) vardır.
+
+Bu, Marx'ı "insan doğası" filozofu olarak okumayı zorlaştırdı ve Althusser'in **kuramsal anti-hümanizm**ine yol açtı: Marksizm, kuramsal olarak, bir hümanizm değildir; "insan" kavramı, bilimsel açıklamada işe yaramayan ideolojik bir kavramdır. Bu tez 1960'larda bir skandaldı ve bugün hâlâ tartışılır. Bu hafta sitemizde andığımız [Feuerbach dosyasında](/haber/felsefe-tarihinde-bugun-13-eylul-midgley-montaigne-feuerbach) Marx'ın Feuerbach'ı nasıl aştığını yazmıştık; Althusser'e göre bu aşma, tam olarak kopuşun kendisidir.
+
+## İnsan tarihin öznesi değilse ne?
+
+İşte Althusser'in felsefesinin en zor kısmı. Hümanist Marksizm "insan kendini özgürleştirir" der; Althusser, insanın zaten toplumsal yapılar tarafından biçimlendirilmiş bir özne olduğunu — tarihin "öznesiz süreç" olduğunu — söyler. Birey aile, okul, din, hukuk, devlet, ekonomi ve kültür içinde oluşur; toplumun dışındaki saf bir özne değildir. "Yapısalcı Marksizm" adı buradan gelir — Althusser'in kendisi bu etiketi reddetse de.
+
+Yapılar arasındaki ilişkiyi Althusser, Freud'dan aldığı bir kavramla, **üstbelirlenim** (overdetermination) ile düşündü: Ekonomi "son kertede" belirleyicidir ama hiçbir zaman tek başına belirlemez; her tarihsel olay birden çok çelişkinin yoğunlaşmasıdır. Ve "son kertenin saati hiç çalmaz." Bu, ekonomik determinizme karşı Marksizmin en incelikli savunmalarından biridir.
+
+## İdeoloji: İnsanlar neden kendi tahakkümlerine gönüllü katılır?
+
+Althusser'in en etkili fikri belki de budur. 1970 tarihli "İdeoloji ve Devletin İdeolojik Aygıtları" makalesi, ideolojinin yalnızca "yanlış fikirler" olmadığını söyler: **İdeoloji, insanların kendi varoluş koşullarıyla kurdukları hayali ilişkinin temsilidir** ve maddidir — ritüellerde, kurumlarda, pratiklerde yaşar. Pascal'ın sözünü tersine çevirir: İnanmak için diz çökmezsiniz; diz çökersiniz ve inanırsınız.
+
+Devlet yalnızca polis, ordu ve mahkemelerden — baskı aygıtından — oluşmaz. Okul, aile, din, medya, sendika, kültür de vardır; Althusser bunlara **İdeolojik Devlet Aygıtları** adını verdi ve kapitalist toplumda okulun, kilisenin yerini alarak baskın aygıt olduğunu savundu. Böylece Marx'ın devlet anlayışını yalnızca zor kullanma üzerinden değil, **öznenin üretilmesi** üzerinden genişletti. Sitemizde bu hafta ele aldığımız [Gökalp dosyasında](/haber/ziya-gokalp-turk-sosyolojisinin-kurucu-babasi) Durkheim'ın okulu toplumsal bütünleşmenin aracı sayması, Althusser'in okuduğu aynı olgunun tersten görünüşüdür.
+
+## "Hey, sen!"
+
+Althusser'in en ünlü örneği basittir. Polis sokakta "Hey, sen!" diye seslenir; insan dönüp baktığında kendisini çağrılan kişi olarak tanır. Dönüşün kendisi — o yüz seksen derecelik hareket — özneyi üretir. Althusser bu sürece **interpellation**, çağrı ya da adlandırma der: İdeoloji bireyleri özne olarak çağırır ve birey, çağrıya cevap vererek özne olur. "Ben kimim?" sorusunun cevabı tamamen içeriden üretilmez; toplum bizi belirli biçimlerde adlandırır — öğrenci, işçi, anne, baba, vatandaş, mümin, tüketici, başarılı, başarısız, normal, anormal — ve biz zamanla bu kategorileri kendimiz hakkında kullanmaya başlarız. Althusser'in vurgusu: Özne, her zaman "zaten" öznedir; çağrıdan önce bir "ben" yoktur.
+
+Bu kuram Lacan'dan beslenir. Özne kendine şeffaf değildir; arzularının tamamını bilemez. Bu, ideolojinin neden "yanlış bilgi" olarak görülemeyeceğini açıklar: İnsan ideolojiyi düşünmez, **yaşar**. Althusser'in Lacan'la ilişkisi kurumsaldı da: Lacan'ın seminerini 1963'te ENS'e taşıyan oydu.
+
+## Bugün Althusser neden geri dönüyor?
+
+Çünkü dijital çağda çağrı çok daha görünür. Telefon "bunu beğendin mi?" diye soruyor; algoritma "sen bunu seviyorsun" diyor; reklam "sen böyle bir insansın"; platform "senin için"; yapay zekâ "ihtiyaçlarını biliyorum." Her biri bir "Hey, sen!" — ve her birinde dönüp bakıyoruz. Althusser'in sorusu bugün şu hâle geliyor: **Bizi kim çağırıyor — ve neden çağrıldığımızda dönüp bakıyoruz?** Bu hafta sitemizde [Deleuze'ün denetim toplumları](/haber/deleuze-farkin-olusun-kacisin-filozofu) ve [Rancière'in duyulur olanın paylaşımı](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi) kavramlarıyla sorduğumuz soru, Althusser'de en eski biçimini bulur: Algoritma bir ideolojik aygıt mıdır? Kimin devletinin?
+
+## Althusser ve Rancière: Öğrenci hocadan ayrıldığında
+
+Bugün Rancière ile Althusser'i aynı gün ele almamız tesadüf değil. İkisi de aynı ENS çevresinden çıktı; Rancière *Kapital'i Okumak*'ın genç yazarlarından biriydi. Ama 1968'den sonra zıt yönlere gittiler ve Rancière 1974'te *Althusser'in Dersi* ile hocasını açıkça mahkûm etti: Althusser'in bilim/ideoloji ayrımı, bilenle bilmeyen arasındaki hiyerarşiyi — entelektüelin kitleler adına konuşma hakkını — felsefenin içine yeniden kuruyordu. Althusser "yapılar özneyi üretir" der; Rancière "eşitlik, öznenin bu düzeni bozabileceği bir kapasitedir." Biri "insan nasıl özne hâline getiriliyor?" sorusunu, diğeri "insan bu özneleştirme düzenini nasıl bozabilir?" sorusunu miras bıraktı. Bu kopuş yalnızca kuramsal bir ayrılık değil; özne kavramının kaderi üzerine bir tartışma.
+
+## Trajedi kuramın önüne geçmemeli — ama silinmemeli de
+
+Althusser, 16 Kasım 1980'de ENS'teki dairesinde eşi Hélène Rytmann'ı boğarak öldürdü. Psikiyatrik değerlendirme sonucunda yargılanamaz bulundu ve hastaneye kapatıldı; 1990'da öldü. 1985'te yazdığı ve ölümünden sonra yayımlanan otobiyografisi *Gelecek Uzun Sürer*, olayı ve ömür boyu süren depresyonunu anlatır. Bu trajik olay, felsefesinin değerlendirilmesinde kaçınılmaz bir biyografik bağlamdır; feminist eleştirmenler, olayın Althusser'in "yargılanamaz" bulunmasıyla nasıl örtüldüğünü ve Rytmann'ın — kendisi de bir direniş savaşçısı ve sosyologdu — nasıl unutulduğunu haklı olarak sordu.
+
+Ama felsefeyi biyografiye indirgemek de hatalıdır. Bu hafta sitemizde [Heidegger](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) için söylediğimiz ilke burada da geçerli: Felsefeyi filozofun ahlaki siciline indirgemek kadar, sicili felsefeden silmek de hatalıdır. Althusser'in kuramı bugün hâlâ ideoloji, eğitim, medya, kültür, devlet, özne ve psikanaliz alanlarında kullanılıyor; Stanford Felsefe Ansiklopedisi, ideoloji kuramının sosyal ve beşerî bilimlerde geniş biçimde kullanıldığını, post-Marksist düşünceyi, analitik Marksizmi, eleştirel gerçekçiliği ve söylem analizini etkilediğini belirtiyor. Butler'ın performatif özne kuramı, Žižek'in ideoloji analizi, Laclau ve Mouffe'un hegemonya kuramı — hepsi Althusser'in "Hey, sen!"inden geçer.
+
+## Althusser'in paradoksu
+
+Althusser Marx'ı yeniden bilimsel kılmak istedi; bunun bedeli insan öznesinin küçülmesiydi. Rancière insanın eşitlik kapasitesini geri getirdi. Biri "yapı", diğeri "özgürleşme" dedi. Yapay zekâ çağında bu tartışma yeniden karşımızda: Algoritmalar davranışlarımızı tahmin ediyor; ama tahmin edilen insan gerçekten özgür mü? Bir sistem "sen bunu satın alacaksın, sen bunu seveceksin, sen buna oy vereceksin" diyebiliyorsa, Althusser'in eski sorusu yeni bir biçimde geri dönüyor: **Özne biz miyiz, yoksa sistemin bize verdiği rolü oynayanlar mı?**
+
+Althusser'in cevabı rahatsız edici ama tutarlı olurdu: Bu ikisi arasında fark yoktur; özne, tam da rolü oynayarak özne olur. Rancière'in cevabı ise umutlu: Rolü oynamayı reddettiğimiz an, siyaset başlar. Algoritmik çağın felsefesi, bu iki cevap arasında yazılacak.
+
+---
+
+*Louis Althusser 16 Ekim 1918'de Cezayir'de doğdu, 22 Ekim 1990'da Paris yakınlarında öldü. Başlıca eserleri: Marx İçin (1965) · Kapital'i Okumak (1965, Balibar, Rancière, Macherey ve Establet ile) · Lenin ve Felsefe (1969) · İdeoloji ve Devletin İdeolojik Aygıtları (1970) · Gelecek Uzun Sürer (1992) · Karşılaşma Materyalizminin Yeraltı Akıntısı (ölümünden sonra). Althusser'in Wikimedia Commons'ta serbest lisanslı fotoğrafı bulunmadığından kapakta École normale supérieure kullanılmıştır.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 16 Eylül",
+    slug: "felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley",
+    summary:
+      "Bugün doğan Pomponazzi, aklın ruhun ölümlü olduğunu gösterdiğini yazdı ve kitabı Venedik'te yakıldı; bugün doğan J. J. C. Smart zihnin beyinden başka bir şey olmadığını savundu; bugün doğan Susan Hurley zihnin kafatasının dışına taştığını. Bugün ölen Yamazaki Ansai Konfüçyüs'le Şinto'yu, Buonarroti devrimle eşitliği birleştirdi. Ortak soru: Zihin nerede biter?",
+    seoTitle: "Felsefe tarihinde bugün: 16 Eylül — Pomponazzi, Hulme, Smart, Hurley, Yamazaki Ansai, Buonarroti",
+    metaDescription:
+      "16 Eylül: Pietro Pomponazzi (1462), T. E. Hulme (1883), J. J. C. Smart (1920) ve Susan Hurley'nin (1954) doğumu; Yamazaki Ansai (1682) ve Philippe Buonarroti'nin (1837) ölümü. Ruhun ölümsüzlüğü, özdeşlik kuramı, bedenlenmiş zihin.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Pietro%20Pomponazzi%2C%20RP-P-1874-12-41-4.jpg?width=1600",
+    imageCredit: "Pietro Pomponazzi, dönem gravürü · Rijksmuseum / Wikimedia Commons",
+    featured: false,
+    sourceName: "New World Encyclopedia",
+    sourceUrl: "https://www.newworldencyclopedia.org/entry/Pomponazzi",
+    publishedAt: "2026-09-16T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "zihin-felsefesi", "ronesans", "din-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Pietro Pomponazzi",
+        publisher: "New World Encyclopedia",
+        url: "https://www.newworldencyclopedia.org/entry/Pomponazzi",
+        primary: true,
+      },
+      {
+        title: "T. E. Hulme",
+        publisher: "EBSCO Research Starters",
+        url: "https://www.ebsco.com/research-starters/history/t-e-hulme",
+      },
+    ],
+    content: `Takvimin bu günü, dört doğum ve iki ölümle, felsefenin tek bir sorusunu beş yüzyıl boyunca izlemeye imkân veriyor: **Zihin nerede biter?** Pomponazzi bedende bittiğini söyledi ve kitabı yakıldı; Smart beyinde bittiğini söyledi ve bir okul kurdu; Hurley kafatasının dışına taştığını söyledi ve bugünün bilişsel bilimini önceden gördü.
+
+## Doğanlar
+
+### Pietro Pomponazzi — 1462
+
+Rönesans Aristotelesçiliğinin en tartışmalı ismi Pietro Pomponazzi, 16 Eylül 1462'de Mantova'da doğdu; Padova ve Bologna'da ders verdi, 1525'te öldü. 1516 tarihli *De immortalitate animae* — *Ruhun Ölümsüzlüğü Üzerine* — Aristotelesçi doğa felsefesi ile Hristiyan öğretisi arasındaki gerilimi keskin biçimde ortaya koydu: Aristoteles'in ilkeleriyle akıl yürütüldüğünde, insan ruhunun bedenden ayrı var olabileceği **gösterilemez**; ruh, bedenle birlikte ölür. Pomponazzi ölümsüzlüğü inkâr etmedi — onu bir inanç meselesi ilan etti; aklın kendi başına bu sonuca ulaşamayacağını söyledi. Kitap Venedik'te yakıldı; Pomponazzi iki savunma yazmak zorunda kaldı ve Bologna'daki koruyucuları sayesinde kurtuldu.
+
+Asıl önemi şu sorudadır: **Bir filozof, dinî bir öğretiye kişisel olarak bağlı olsa bile, aklın kendi sonuçlarına ulaşmasına izin verebilir mi?** Pomponazzi'nin "evet"i, "çifte hakikat" tartışmasının — İbn Rüşd'den Galileo'ya — Rönesans'taki en cesur biçimidir. Bugün sitemizde ele aldığımız [Ahmet Arslan dosyasında](/haber/ahmet-arslan-turkiyede-felsefenin-populerlesmesi) andığımız Kemalpaşazâde'nin *Tehâfüt Hâşiyesi*, aynı yüzyılda, aynı soruyu — felsefe ile din arasında aklın sınırı — Osmanlı'da soruyordu. Pomponazzi ile Kemalpaşazâde çağdaştır; ikisi de İbn Rüşd'ü okumuştur; ikisi de aklın kendi başına ne kadar ileri gidebileceğini tartar. Karşılaştırmalı bir çalışma bekliyor.
+
+### T. E. Hulme — 1883
+
+İngiliz filozof, şair ve denemeci Thomas Ernest Hulme, 16 Eylül 1883'te doğdu; 1917'de Birinci Dünya Savaşı'nda öldürüldü, otuz dört yaşındaydı. Modernist şiirin ve İmgeciliğin entelektüel öncülerinden; ölümünden sonra derlenen *Speculations* (1924) T. S. Eliot'ı derinden etkiledi. Hulme, Romantizmin "sınırsız insan" anlayışına karşı — insanın "kova değil, kuyu" olduğunu, yani sonsuz kapasite değil sınırlı bir doğa taşıdığını — savunuyor ve buna "klasik" diyordu. Bergson'u İngilizceye çevirdi, sonra ondan uzaklaştı; Sorel'i okudu. Hikâyesi, felsefe ile sanatın birbirinden ne kadar zor ayrıldığını gösterir: İmgecilik, bir şiir akımı olduğu kadar bir bilgi kuramıydı.
+
+### J. J. C. Smart — 1920
+
+Analitik felsefenin önemli isimlerinden John Jamieson Carswell Smart, 16 Eylül 1920'de Cambridge'de doğdu; Avustralya'ya yerleşti, Adelaide ve Monash'ta ders verdi, 2012'de öldü. 1959 tarihli "Duyumlar ve Beyin Süreçleri" makalesi, **zihin-beyin özdeşlik kuramı**nın kurucu metinlerindendir: Duyumlar beyin süreçleriyle özdeştir — tıpkı şimşeğin elektriksel boşalma, suyun H2O olması gibi. Bu, "Avustralya materyalizmi"nin başlangıcıydı.
+
+Smart'ın mirası bugünkü yapay zekâ bilinci tartışmaları açısından ayrıca önemli. Dün sitemizde andığımız [Kripke](/haber/felsefe-tarihinde-bugun-15-eylul-kripke-eucken-lazarus), tam bu özdeşlik kuramına modal itirazını yöneltmişti: Eğer acı ve beyin süreci katı göstericiyse özdeşlikleri zorunlu olmalı; ama acının beyin süreci olmadığı bir dünya tasavvur edilebiliyor. Smart–Kripke tartışması, "makine acı çekebilir mi?" sorusunun altındaki metafiziktir: Zihin beyinden başka bir şey değilse, silikon beyin de zihin olabilir — ya da hiçbir şey olamaz. Smart aynı zamanda faydacılığın en açık sözlü savunucularından ve zamanın "B-serisi" kuramının — geçmiş, şimdi ve gelecek arasında nesnel fark olmadığı görüşünün — öncülerindendi.
+
+### Susan Hurley — 1954
+
+Susan Hurley 16 Eylül 1954'te doğdu; 2007'de, elli iki yaşında, kanserden öldü. Princeton'da felsefe, Harvard'da hukuk okudu; Oxford'da All Souls College'a seçilen ilk kadın üye oldu; Warwick ve Bristol'da ders verdi. Zihin felsefesi, etik ve siyaset felsefesini birbirine bağlayan az sayıda çağdaş filozoftan biriydi: *Natural Reasons* (1989) rasyonalite ve demokrasi üzerine; *Consciousness in Action* (1998) ise zihin felsefesinin dönüm noktalarından.
+
+Hurley'nin tezi, algı ile eylemin ayrı modüller olmadığı — algının girdi, eylemin çıktı olduğu "sandviç" modelinin yanlış olduğu — ve zihnin beden ile çevre arasındaki dinamik döngülerde gerçekleştiğiydi. Bugün "bedenlenmiş biliş" ve "genişletilmiş zihin" denen alanın kurucu metinlerinden biri. Bu hafta sitemizde ele aldığımız [beyin implantı dosyasında](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) konuşma ile jestin beyinde ayrılamaz olduğunu gösteren deney, Hurley'nin otuz yıl önce felsefi olarak savunduğu şeyin laboratuvar kanıtı gibi okunabilir. Erken ölümü, alanın en büyük kayıplarından biri sayılır.
+
+## Ölenler
+
+### Yamazaki Ansai — 1682
+
+Japon filozof Yamazaki Ansai 16 Eylül 1682'de öldü. Zen rahibi olarak başladı, Neo-Konfüçyüsçülüğe geçti, Zhu Xi'nin en katı Japon yorumcusu oldu; sonra Şinto'ya yöneldi ve Neo-Konfüçyüsçü metafizik ile Şinto mitolojisini birleştiren **Suika Şinto** geleneğini kurdu. Öğrencileri iki kola ayrıldı — Konfüçyüsçüler ve Şintocular — ve Ansai'nin sentezi, Meiji dönemine kadar Japon siyasal düşüncesini besledi.
+
+Ansai'nin ölümü, modern "Doğu-Batı" ayrımından çok daha eski bir gerçeği hatırlatır: **Felsefe hiçbir zaman saf kültürlerin ürünü olmadı; çoğu zaman karşılaşmalardan doğdu.** Yunan ile İran, Yunan ile İslam, Budizm ile Çin, Konfüçyüsçülük ile Şinto, Hegel ile Marx, Freud ile Marx — ve bugün, insan ile yapay zekâ. Bu hafta sitemizde [Metz'in ubuntu geleneğinden beslenen adalet kuramı](/haber/yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber) vesilesiyle söylediğimiz şey burada da geçerli: Yeni sorulara verilecek cevaplar tek bir geleneğin dağarcığından gelmek zorunda değil.
+
+### Philippe Buonarroti — 1837
+
+İtalyan devrimci ve ütopyacı sosyalist Filippo (Philippe) Buonarroti, 16 Eylül 1837'de Paris'te öldü. Michelangelo'nun soyundan geliyordu; Fransız Devrimi'ne katıldı, Babeuf'ün 1796'daki "Eşitler Komplosu"nda yer aldı ve 1828'de bu komplonun tarihini yazdı. Kitap, on dokuzuncu yüzyıl devrimci sosyalizminin — Blanqui'den Marx'a — el kitabı oldu: Eşitlik, yalnızca hukuki değil ekonomik olmalıydı ve bunun için gizli, disiplinli bir devrimci örgüt gerekiyordu. Marx'ın "profesyonel devrimci" fikrinin ve Lenin'in parti modelinin bir atası. Bugün sitemizde ele aldığımız [Rancière](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi), aynı "eşitlik" sözcüğüne tam ters bir anlam verir: Buonarroti için eşitlik komployla kurulacak bir hedef, Rancière için herkesin zaten sahip olduğu bir varsayımdır. İki yüzyıl arayla aynı kelime, iki ayrı siyaset.
+
+## Bugünün dersi
+
+Pomponazzi zihnin bedenle bittiğini söyledi; Smart beyinde; Hurley ne bedende ne beyinde — dünyada. Beş yüzyıllık bu hat, "makine düşünebilir mi?" sorusunun aslında ne kadar eski olduğunu gösteriyor: Soru, zihnin nerede olduğunu bilmeden sorulamaz ve felsefe bunu hâlâ bilmiyor. Ansai ile Buonarroti ise başka bir şey hatırlatıyor: Düşünce, sınırların — kültürlerin, sınıfların — aşıldığı yerde doğar.
+
+---
+
+*Bize ulaşan takvim notunda María Pía Lara'nın 16 Eylül 1954 doğumu ve Amerikalı ortaçağcı James H. Robb'un 16 Eylül 1993'te ölümü de yer alıyordu; iki tarihi de birincil kaynaktan doğrulayamadığımız için almadık. 16 Eylül 2007 tarihli modern kitap baskıları da aynı gerekçeyle listelenmedi.*`,
+  },
+  {
+    title: "Fields Madalyası 2026: Deng, Pardon, Tsimerman ve Wang — yapay zekâ çağında 'matematiğin Nobel'i kime verilir?",
+    slug: "fields-madalyasi-2026-deng-pardon-tsimerman-wang",
+    summary:
+      "Temmuzda Philadelphia'da düzenlenen Uluslararası Matematikçiler Kongresi'nde dört madalya: Yu Deng (kinetik denklemler), John Pardon (simplektik geometri), Jacob Tsimerman (aritmetik geometri) ve doksan yılda üçüncü kadın Hong Wang (Kakeya sanısı). İki ay sonra on bin yapay ajan Navier–Stokes'u 'çözdü' — ve Buckmaster, 'Martínez-Zoroa Fields'ı hak ediyor' dedi. Ödül, hesaplayana mı, fikri bulana mı verilecek?",
+    seoTitle: "Fields Madalyası 2026: Deng, Pardon, Tsimerman, Wang ve yapay zekâ sorusu",
+    metaDescription:
+      "2026 Fields Madalyaları ICM Philadelphia'da Yu Deng, John Pardon, Jacob Tsimerman ve Hong Wang'a verildi. Kırk yaş sınırı, insan ödülü ve yapay zekâ matematiği: ödül felsefesi açısından bir okuma.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/FieldsMedalFront.jpg?width=1600",
+    imageCredit: "Fields Madalyası, ön yüz — Arşimet portresi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Simons Foundation",
+    sourceUrl: "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+    publishedAt: "2026-09-16T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "mantik", "bilim-felsefesi", "yapay-zeka", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "2026 Fields Medals Awarded to Four of World's Top Mathematicians",
+        publisher: "Simons Foundation, 23 Temmuz 2026",
+        url: "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+        primary: true,
+      },
+      {
+        title: "Rising stars of mathematics awarded prestigious 2026 Fields Medal",
+        publisher: "Nature",
+        url: "https://www.nature.com/articles/d41586-026-02169-1",
+      },
+      {
+        title: "2026 Fields Medallists and IMU prize winners announced",
+        publisher: "European Mathematical Society",
+        url: "https://euromathsoc.org/news/2026-fields-medallists-and-imu-prize-winners-announced-222",
+      },
+    ],
+    content: `Bugün sitemizde Navier–Stokes probleminin yapay zekâyla "çözülmesini" iki dosyada ele aldık: [felsefi soru](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) ve [sahiplik tartışması](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge). Bu üçüncü yazı, olayı iki ay öncesine, matematiğin en büyük ödülünün verildiği güne bağlıyor — çünkü Navier–Stokes tartışmasının içinden bir Fields Madalyası çağrısı çıktı.
+
+## Philadelphia, 23 Temmuz
+
+Uluslararası Matematik Birliği'nin dört yılda bir verdiği Fields Madalyası, 2026'da Philadelphia'da düzenlenen Uluslararası Matematikçiler Kongresi'nin (ICM) açılış töreninde açıklandı; kongre 1986'dan beri ilk kez ABD'de toplandı. Simons Vakfı'nın duyurusuna göre dört madalya sahibi: Chicago Üniversitesi'nden **Yu Deng**, Stony Brook'tan **John Pardon**, Toronto Üniversitesi'nden **Jacob Tsimerman** ve New York Üniversitesi ile IHES'ten **Hong Wang**. Atıf alanları kısmi diferansiyel denklemler ve matematiksel fizik, simplektik geometri ve topoloji, aritmetik geometri, harmonik analiz ve geometrik ölçü kuramı. *Nature*'ın vurguladığı gibi Hong Wang, ödülün doksan yıllık tarihinde madalya alan üçüncü kadın.
+
+Dört isim, dört farklı hikâye. Wang, 2025'te üç boyutlu Kakeya sanısını — bir iğneyi her yöne çevirebileceğiniz en küçük bölgenin ne kadar "büyük" olması gerektiğini soran yüz yıllık problemi — Joshua Zahl ile birlikte kanıtlayarak harmonik analizin en ünlü açık sorusunu kapatmıştı. Deng, kinetik denklemler ve dalga türbülansı üzerine çalışmalarıyla, Boltzmann denkleminin Newton mekaniğinden titiz türetilmesine — Hilbert'in altıncı probleminin bir parçasına — katkı yaptı; yani Navier–Stokes'un komşu mahallesinde. Pardon simplektik geometride, Tsimerman ise sayılar kuramında André–Oort sanısı üzerinde çığır açan sonuçlarıyla tanınıyor.
+
+## Kırk yaş kuralı ve insan ödülü
+
+Fields Madalyası'nın iki tuhaf özelliği var. Birincisi, kırk yaş sınırı: Madalya, ödül yılının başında kırkını doldurmamış matematikçilere verilir; Nobel gibi bir yaşam boyu başarı ödülü değil, bir **vaat** ödülüdür. İkincisi, madalyanın 1936'da John Charles Fields'in vasiyetiyle kurulduğunda Nobel'e alternatif olarak tasarlanması: Fields, ödülün "yalnızca yapılmış işi değil, gelecekteki başarıyı teşvik etmeyi" amaçlamasını istemişti.
+
+Bu iki özellik, yapay zekâ çağında beklenmedik biçimde felsefi bir soruya dönüşüyor. Bir yapay zekâ sistemi kırk yaşından küçüktür — hepsi. Ve "gelecekteki başarıyı teşvik etmek", bir sistemi değil bir insanı, bir kariyeri, bir hayatı varsayar. Fields Madalyası, tanımı gereği, **insan** ödülüdür; ve Navier–Stokes vakası, bunun artık söylenmesi gereken bir şey olduğunu gösteriyor.
+
+## Buckmaster'ın çağrısı: "Martínez-Zoroa Fields'ı hak ediyor"
+
+Navier–Stokes tartışmasının en ilginç anlarından biri, NYU'dan Tristan Buckmaster'ın açıklamasındaki bir cümleydi: "Meslektaşlarıma özel olarak söylediğimi açıkça belirteyim: Bu çalışma bütünü göz önüne alındığında, Luis Martínez-Zoroa'nın Fields Madalyası'nı hak ettiğine inanıyorum." Madrid'deki CUNEF Üniversitesi'nden Martínez-Zoroa, 2021 tarihli doktora tezinden itibaren, hocası Diego Córdoba ile birlikte, Navier–Stokes ve Euler denklemlerinde tekilliğe giden "sonsuz kaskad" yöntemini bilgisayar kullanmadan geliştiren isim; her iki yapay zekâ ekibi de onun merdivenini çıktı. Clay'in resmî problem tanımını yazan Charles Fefferman da Quanta'ya "hikâyenin kahramanları" olarak Córdoba ile Martínez-Zoroa'yı gösterdi.
+
+Bu çağrı, ödül felsefesi açısından bir ders. Fields komitesi 2030'da — bir sonraki kongrede — Navier–Stokes'u nasıl değerlendirecek? Sonucu duyuran şirketi ödüllendiremez; on bin ajanı ödüllendiremez; kırkını geçmiş Córdoba'yı ödüllendiremez. Geriye, yöntemi bulan genç matematikçi kalıyor — sonucu kendisi tamamlamamış olsa bile. Eğer komite Buckmaster'ın çağrısını dinlerse, Fields Madalyası tarihinde ilk kez, "son adımı atan" değil "merdiveni kuran" ödüllendirilmiş olacak. Ve bu, bugün sitemizde tartıştığımız doğrulama değeri ile kavrayış değeri ayrımının kurumsal karşılığı olur: **Madalya, hesaplayana değil, fikri bulana.**
+
+## Matematik ne için?
+
+Philadelphia kongresinin en çok konuşulan oturumlarından biri, Quanta'nın canlı yayınladığı "Yapay zekâ çağında matematik ne için?" paneliydi. Sorunun kongrede sorulması, iki ay sonra Navier–Stokes ile daha da acil hâle geldi. Fields Madalyası'nın ön yüzünde Arşimet'in portresi ve Latince bir yazıt var: *Transire suum pectus mundoque potiri* — "Kendini aşmak ve dünyaya hâkim olmak." Yazıt, ödülün 1936'daki tasarımından kalma; matematiğin insanın kendini aşma çabası olduğunu söylüyor. On bin ajanın 88 saati, bu yazıtı iki biçimde okumaya zorluyor: Ya makine de "kendini aşıyor" — ya da aşılan artık insanın kendisi.
+
+Fields komitesi bu soruya dört yıl sonra cevap vermek zorunda kalacak. Bu yılki dört laureat, o cevabın öncesindeki son kuşak olabilir: Fields Madalyası'nın, "kim buldu?" sorusunun hâlâ tek bir cevabı olduğu son dört yılı.
+
+---
+
+*Fields Madalyası, Uluslararası Matematik Birliği tarafından dört yılda bir, kırk yaşından küçük en fazla dört matematikçiye verilir. 2026 kongresi 23-30 Temmuz'da Philadelphia'da toplandı. Bir sonraki madalyalar 2030'da açıklanacak.*`,
+  },
+  {
+    title: "Jacques Rancière: Eşitlik Bir Hedef Değil, Başlangıç Varsayımıdır",
+    slug: "jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi",
+    summary:
+      "Öğrencisi olduğu Althusser'den koparak 'cahillerin özgürleşmesi'ni, işçi arşivlerini, demokrasiyi, edebiyatı ve sinemayı aynı felsefi sorunun parçaları hâline getiren düşünür. Sorusu hep aynı: Kim konuşabilir — ve kimin konuşması 'gerçekten konuşma' sayılır? Algoritmaların görünürlüğü dağıttığı çağda, 'duyulur olanın paylaşımı' kavramı yeni bir hayat buluyor.",
+    seoTitle: "Jacques Rancière: eşitlik, cahil hoca, polis ve duyulur olanın paylaşımı",
+    metaDescription:
+      "Rancière portresi: Althusser'den kopuş, Proleterlerin Gecesi ve işçi arşivleri, Cahil Hoca ve zekâların eşitliği, polis ile siyaset ayrımı, duyulur olanın paylaşımı, sanat ve siyaset, algoritmik görünürlük.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ranci%C3%A8re%2C%20Jacques%20-UV%20fRF01.jpg?width=1600",
+    imageCredit: "Jacques Rancière · Wikimedia Commons",
+    featured: true,
+    sourceName: "Duke University Press",
+    sourceUrl: "https://www.dukeupress.edu/Jacques-Ranciere",
+    publishedAt: "2026-09-16T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "estetik", "medya", "marksizm"],
+    philosopherSlugs: ["jacques-ranciere"],
+    sources: [
+      {
+        title: "Jacques Rancière: History, Politics, Aesthetics",
+        publisher: "Duke University Press",
+        url: "https://www.dukeupress.edu/Jacques-Ranciere",
+        primary: true,
+      },
+      {
+        title: "Todd May — Jacques Rancière and the Ethics of Equality",
+        publisher: "Philosophy Compass (Wiley), 2007",
+        url: "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1747-9991.2007.00120.x",
+      },
+      {
+        title: "Rancière on aesthetics and politics",
+        publisher: "Theory, Culture & Society (Sage)",
+        url: "https://journals.sagepub.com/doi/10.1177/0263276414551995",
+      },
+    ],
+    content: `Jacques Rancière'i yalnızca "radikal Fransız siyaset filozofu" olarak tanımlamak, düşüncesinin en şaşırtıcı tarafını gözden kaçırır. Çünkü Rancière'in felsefesinde siyaset yalnızca devletin, parlamentonun ya da partilerin meselesi değildir. Siyaset bazen bir işçinin konuşmasıdır; bazen bir öğrencinin öğretmeni olmadan öğrenmesi; bazen bir romanın daha önce görünmez olan bir hayatı görünür kılması; bazen bir filmin, kimin konuşacağına ve kimin yalnızca seyredeceğine ilişkin alışılmış düzeni bozması.
+
+Bu nedenle Rancière'in temel sorusu şudur: **Kim konuşabilir?** Ve hemen arkasından: Kimin konuşması "gerçekten konuşma" sayılır — ve kiminki yalnızca gürültü?
+
+## Althusser'in öğrencisiydi; Althusser'e karşı kendi felsefesini kurdu
+
+Rancière 1940'ta Cezayir'de doğdu. 1960'larda École normale supérieure'de Louis Althusser'in öğrencilerinden biriydi ve 1965'te yayımlanan kolektif *Kapital'i Okumak*'ın genç yazarları arasında yer aldı. Ama 1968 Mayıs'ı entelektüel hayatında bir kırılma yarattı. Rancière, entelektüelin işçi sınıfı adına ve onun yerine konuştuğu fikrini sorgulamaya başladı; 1974'te yayımladığı *Althusser'in Dersi* bu kopuşun manifestosudur. Bugün sitemizde [Althusser'i ayrı bir dosyayla](/haber/louis-althusser-ve-yapisalci-marksizm) ele aldık; ikisini birlikte okumak, yirminci yüzyıl Fransız düşüncesinin en verimli kavgalarından birini izlemek demek.
+
+İtiraz yalnızca kişisel değildi; daha büyük bir soruydu: **Bir entelektüel, ezilenlerin ne düşündüğünü onlardan daha iyi bildiğini nasıl varsayabilir?** Althusser'in "bilim" ile "ideoloji" ayrımı, Rancière'e göre, bilen ile bilmeyen arasındaki hiyerarşiyi — tam da eleştirdiği tahakkümü — felsefenin içine yeniden kuruyordu. Rancière'in sonraki bütün çalışmaları bu kopuştan doğdu.
+
+## İşçilerin arşivlerine indiğinde başka bir işçi buldu
+
+Rancière'in kariyerinin en önemli ve en az anlatılan bölümü, on dokuzuncu yüzyıl Fransız işçilerinin metinlerini araştırdığı on yıldır. İşçi sınıfını yalnızca "sömürülen sınıf" olarak anlatan kuramsal şemalarla yetinmedi; işçilerin kendi yazılarına baktı — mektuplar, şiirler, gazete yazıları, günlükler, felsefi denemeler. 1981'de yayımlanan *Proleterlerin Gecesi* (*La Nuit des prolétaires*) bu arşivin ürünüdür.
+
+Bu arşivlerde Rancière başka bir şey gördü: İşçiler yalnızca ücretlerini ya da çalışma saatlerini tartışmıyordu. Gece, iş bittikten sonra, uyumak yerine şiir yazıyor, felsefe okuyor, estetikten, zamandan ve özgürlükten söz ediyorlardı. Yani "işçi" olarak tanımlanan hayattan **kaçıyorlardı** — ve bu kaçış, sınıf bilincinin değil, sınıf kimliğinin reddinin işaretiydi. Duke University Press'in Rancière üzerine kapsamlı çalışması, on dokuzuncu yüzyıl işçi arşivleri, siyasal eşitlik, zihinsel ve bedensel emek arasındaki ayrım ve sanatın modern toplumdaki rolü üzerine çalışmalarını düşüncesinin temel katkıları arasında sayıyor. Bu keşif, eşitlik anlayışının merkezine yerleşti: Eşitlik, işçilere verilecek bir şey değil, onların zaten kullandığı bir kapasiteydi.
+
+## Cahil Hoca: En radikal eğitim kitabı
+
+1987 tarihli *Cahil Hoca* (*Le Maître ignorant*), Rancière'in en çarpıcı eseridir. Çıkış noktası, Joseph Jacotot adlı on dokuzuncu yüzyıl pedagogudur: 1818'de Leuven'de, Hollandaca bilmeden Hollandalı öğrencilere Fransızca öğretmek zorunda kalan Jacotot, onlara *Télémaque*'ın iki dilli baskısını verdi ve kendi başlarına öğrenmelerini istedi. Öğrendiler. Jacotot buradan, kendi bilgisinin öğrencilerin öğrenmesinin zorunlu koşulu olmadığını keşfetti.
+
+Rancière buradan çok daha radikal bir sonuç çıkarır: **Bütün zekâlar eşittir.** Bu, "herkes aynı şeyi biliyor" demek değildir; "hiç kimsenin zekâsı doğası gereği başka bir zekânın astı değildir" iddiasıdır. Eşitlik bir olgu olarak kanıtlanamaz; bir varsayım olarak **doğrulanır** — eşit varsayılan zekâ, eşit olduğunu gösterir. Rancière'in pedagojisi bu yüzden bir eğitim reformu önerisi değildir. Geleneksel pedagoji, "açıklayan" öğretmenin öğrenciye onun kendi başına anlayamayacağını öğrettiği bir "aptallaştırma" (abrutissement) sistemidir; çünkü her açıklama, açıklama olmadan anlaşılamayacağı mesajını taşır. Cahil hocanın görevi "ben biliyorum, sen bilmiyorsun" demek değil; öğrencinin kendi zekâsının kapasitesini doğrulamasını sağlamaktır. Bu, yapay zekâ çağının eğitim tartışması için beklenmedik biçimde güncel bir tez: Her şeyi açıklayan bir makine, Rancière'e göre, en mükemmel aptallaştırıcı olabilir.
+
+## Eşitlik neden sonuç değil?
+
+Rancière'in siyaset felsefesinin en aykırı tarafı burada. Geleneksel siyaset "toplumu daha eşit hâle getirelim" der; eşitlik, ulaşılacak bir hedeftir. Rancière ise eşitliğin siyasal eylemin **önvarsayımı** olduğunu söyler. Bir işçi patronuyla konuştuğunda, konuşmanın anlaşılabilir olması için ikisinin eşit konuşan varlıklar olduğu zaten varsayılmıştır; eşitsizlik bile ancak eşitliğin zemininde kurulabilir. Bu yüzden eşitlik gelecekte kurulacak ideal bir toplum değil, insanların mevcut düzeni bozarak **şimdi** gerçekleştirdikleri bir pratiktir. Todd May'in Rancière analizi, siyaset ile estetik arasındaki bağı sağlayan temel kavramın bu etkin eşitlik olduğunu vurgular.
+
+## Polis ile siyaset
+
+Rancière'in "polis" (la police) kavramı burada önem kazanır. Buradaki polis, üniformalı teşkilat değildir; toplumdaki "kim nerede duracak, kim ne iş yapacak, kim konuşabilecek, kim dinlenecek, kimin sözü uzmanlık sayılacak, kim görünmez kalacak" sorularına verilen düzenli cevaptır — toplumun parçalarının yerleştirilme biçimi. Polis düzeni kötü olmak zorunda değildir; hatta iyi bir polis düzeni olabilir. Ama polis, "payı olmayanların" payını hesaba katmaz.
+
+**Siyaset** ise bu düzenin bozulduğu andır: Payı olmayanların, eşitlik varsayımıyla, kendilerine ayrılmamış bir yerde konuştuğu an. Bir işçi "ben yalnızca işçi değilim" dediğinde; bir kadın "benim sözüm de siyasal bilgidir" dediğinde; bir öğrenci "ben düşünebilirim" dediğinde; bir göçmen "ben de bu toplumun konuşan öznesiyim" dediğinde, yerlerin dağılımı bozulur. Rancière buna "uyuşmazlık" (mésentente) der: Bir tarafın konuşma saydığını diğer tarafın gürültü saydığı durum. 1995 tarihli *Uyuşmazlık* bu kavramın kitabıdır. Siyaset nadirdir; çoğu zaman yaşadığımız şey siyaset değil, polistir.
+
+## Duyulur olanın paylaşımı
+
+Rancière'in en ünlü kavramı **duyulur olanın paylaşımı** (le partage du sensible). Toplum bize yalnızca neyin doğru olduğunu söylemez; neyi göreceğimizi, duyacağımızı, önemli bulacağımızı, siyasal sayacağımızı, estetik sayacağımızı de belirler. "Paylaşım" sözcüğü çift anlamlıdır: Hem ortak olan hem bölünen. Duyulur olan hem herkesin paylaştığı ortak dünyadır hem de kimin neyi görebileceğine göre bölünmüştür.
+
+Bu yüzden sanat ile siyaset arasında Rancière açısından şaşırtıcı bir bağ vardır. Bir sanat eseri yeni bir "fikir" söylemek zorunda değildir; bazen yalnızca **neyi görünür kıldığını** değiştirerek politik olabilir. On dokuzuncu yüzyıl romanının hizmetçilerin, köylülerin, sıradan nesnelerin hayatını yüksek edebiyatın konusu yapması — Flaubert'in Emma Bovary'si — Rancière'e göre bir siyasal olaydır: Duyulur olanın yeniden paylaşımı. *Theory, Culture & Society*'deki değerlendirmenin belirttiği gibi, sanatın politik gücünü "mesaj" üzerinden değil duyulur olanın yeniden düzenlenmesi üzerinden düşünmesi, Rancière'in çağdaş estetiğe en özgün katkısıdır. Bu yüzden Rancière sinema üzerine de yazdı — *Film Fablları*, *Özgürleşen Seyirci* — ve seyirciyi edilgin sayan her kuramı, Cahil Hoca'nın öğrencisi gibi, aktif bir yorumcu olarak savundu.
+
+## Bugün neden önemli?
+
+Sosyal medyada algoritmalar kimin görünür olacağını belirliyor. Arama motoru kimin bilgisinin bulunacağını; video platformu neyi göreceğimizi; yapay zekâ hangi cevabın makul olduğunu. Platformlar "bu içerik önemli, bu önemsiz" diyerek görünürlük dağıtıyor. Rancière'in kavramını yirmi birinci yüzyıla taşıdığımızda soru şu: **Dijital toplumun yeni polis düzeni nedir?** Ve algoritmalar, duyulur olanın yeni dağıtıcıları mı?
+
+Bu soru bu hafta sitemizde ele aldığımız [Fricker'ın "güvenilirlik ekonomisi"](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) kavramıyla doğrudan konuşuyor: Fricker kimin sözüne inanıldığını sorar, Rancière kimin sözünün duyulduğunu. Ve [robot hakları dosyasında](/haber/robot-haklari-makineler-hak-talep-ederse) sorduğumuz "kim konuşan özne sayılır?" sorusu, Rancière'in çerçevesinde tuhaf bir biçim alır: Bir makinenin "konuşma"sı gürültü mü, söz mü? Rancière'in cevabı muhtemelen sorunun kendisini reddederdi — çünkü onun eşitlik varsayımı, konuşan varlıklar arasındaki bir varsayımdır ve makinenin bu varsayıma dahil olup olmadığı, tam da bir polis kararıdır.
+
+Rancière bu açıdan yalnızca yirminci yüzyıl Fransız siyasetinin filozofu değil; algoritmik görünürlük çağının filozofu olmaya da aday. Seksen altı yaşında, hâlâ yazıyor.
+
+---
+
+*Jacques Rancière 10 Haziran 1940'ta Cezayir'de doğdu; Paris 8 Üniversitesi'nde emeritus profesör. Başlıca eserleri: Althusser'in Dersi (1974) · Proleterlerin Gecesi (1981) · Filozof ve Yoksulları (1983) · Cahil Hoca (1987) · Uyuşmazlık (1995) · Duyulur Olanın Paylaşımı (2000) · Estetiğin Huzursuzluğu (2004) · Özgürleşen Seyirci (2008) · Demokrasi Nefreti (2005). Türkçede Metis ve diğer yayınevlerinden çevrildi.*`,
+  },
+  {
+    title: "Ahmet Arslan ve Türkiye'de Felsefenin Popülerleşmesi Üzerine",
+    slug: "ahmet-arslan-turkiyede-felsefenin-populerlesmesi",
+    summary:
+      "Sitemizde daha önce portresini yayımladığımız Arslan'ı bu kez tek bir soru üzerinden ele alıyoruz: Felsefe, akademinin dışında nasıl yapılır? Felsefeye Giriş'in kuşaklar boyunca ders kitabı olması, 'çok akademik' ile 'çok popüler' arasındaki üçüncü yol, felsefe ile bilimi ayırma ısrarı ve 'İslam felsefesi var mıdır?' sorusunun kimlik meselesine dönüşmeden nasıl sorulacağı.",
+    seoTitle: "Ahmet Arslan ve Türkiye'de felsefenin popülerleşmesi",
+    metaDescription:
+      "Ahmet Arslan'ın popüler felsefeye katkısı: Felsefeye Giriş, ciddi ama anlaşılır felsefe, felsefe-bilim-din ayrımı, İslam felsefesinin kimlik problemi olmaktan çıkarılması, Kemalpaşazâde ve Osmanlı düşüncesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ege%20%C3%BCniversitesi%20kamp%C3%BCs%20i%C3%A7inde.jpg?width=1600",
+    imageCredit: "Ege Üniversitesi kampüsü, Bornova · Wikimedia Commons",
+    featured: false,
+    sourceName: "İstanbul Bilgi Üniversitesi Yayınları",
+    sourceUrl: "https://bilgiyay.com/kitap/islam-felsefesi-uzerine/",
+    publishedAt: "2026-09-16T02:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["islam-felsefesi", "akademi", "antik-felsefe", "kavram", "bilim-felsefesi"],
+    philosopherSlugs: ["ahmet-arslan"],
+    sources: [
+      {
+        title: "İslam Felsefesi Üzerine",
+        publisher: "İstanbul Bilgi Üniversitesi Yayınları",
+        url: "https://bilgiyay.com/kitap/islam-felsefesi-uzerine/",
+        primary: true,
+      },
+      {
+        title: "Felsefeye Giriş",
+        publisher: "TDK Yayınları / kitap künyesi",
+        url: "https://www.tdk.com.tr/felsefeye-giris_70296.html",
+      },
+      {
+        title: "Felsefe ve Bilim — Ahmet Arslan",
+        publisher: "flaps.club",
+        url: "https://flaps.club/felsefe-ve-bilim-ahmet-arslan/",
+      },
+    ],
+    content: `Ahmet Arslan'ın hayatını ve beş ciltlik *İlkçağ Felsefe Tarihi*'ni sitemizde [daha önce ele almıştık](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu): Urfa'daki manav çıraklığından Ege Üniversitesi Felsefe Bölümü'nün kuruluşuna, Kemalpaşazâde'den Aristoteles'e. Bu yazı o portreyi tekrarlamıyor. Tek bir soruya odaklanıyor: **Türkiye'de felsefe, akademinin duvarlarının dışında nasıl yapılır — ve Arslan bunu nasıl yaptı?**
+
+## İki uç arasında sıkışan felsefe
+
+Türkiye'de felsefenin kaderi uzun süre iki uç arasında sıkıştı. Bir yanda, yalnızca meslektaşlara yazılan, dipnotları metninden uzun, kavramlarını tanımlamayı gereksiz sayan **akademik felsefe**; öte yanda, Nietzsche'yi aforizma koleksiyonuna, Stoacılığı kişisel gelişim reçetesine indirgeyen **popüler felsefe**. Birincisi okunmuyor, ikincisi felsefe değil.
+
+Arslan bu iki alan arasında üçüncü bir yol açtı: **ciddi ama anlaşılabilir felsefe.** Bu formülün her iki kelimesi de önemli. "Ciddi", çünkü Arslan hiçbir zaman felsefeyi basitleştirmedi; Aristoteles'in *Metafizik*'ini anlatırken "töz" kavramının Yunanca kökenine, Arapça karşılığına ve Türkçe çevirisinin sorunlarına girer. "Anlaşılabilir", çünkü bunu, okurun bildiğini varsaydığı hiçbir şeyi atlamadan, adım adım yapar. Popülerleştirme, Arslan'da içeriği azaltmak değil, **basamakları çoğaltmaktır**.
+
+## Felsefeye Giriş: Bir ders kitabından fazlası
+
+Bu yolun en somut ürünü *Felsefeye Giriş*. Kitap, Türkiye'de kuşaklar boyunca felsefeye başlayan öğrencilerin eline geçti; 2025'te yeni baskısı yayımlandı ve yirmi beş yüzyıllık felsefe geleneğine giriş yapmak isteyen okura temel felsefi soruları sistematik biçimde sunmaya devam ediyor.
+
+Kitabın önemi satış rakamı ya da ders kitabı niteliği değil. Yapısı: Arslan felsefeyi filozoflar üzerinden değil, **sorular** üzerinden anlatır — bilgi nedir, varlık nedir, değer nedir, insan nedir — ve her soruya tarih boyunca verilen cevapları birbirleriyle konuşturur. Bu, ezberlenecek bir kronoloji yerine tartışılacak bir problem haritası sunar. Türkiye'de lise felsefe müfredatının uzun süre "izm"ler listesi olarak öğretildiği düşünülürse, Arslan'ın kitabı bir pedagojik karşı-model olarak okunabilir; bu hafta sitemizde andığımız [Allan Bloom'un](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) "büyük kitaplarla karşılaşma" ideali ile [Rancière'in cahil hocası](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi) arasında bir yerde durur: Açıklar, ama okuru kendi zekâsına güvenmeye çağırır.
+
+## Kavramları ayırmak
+
+Arslan'ın popülerleştirme yönteminin ikinci ayağı, kavramları birbirine benzetmek yerine **ayırmak**tır. Güncel konuşmalarında felsefe ile bilim arasındaki ayrımı özellikle vurguladığı görülüyor: Felsefeyi bilimsel bilginin bir uzantısı, bilimin "genel sonuçları" gibi sunmanın kavramsal olarak yanlış olduğunu savunuyor. Bilim başka, din başka, felsefe başka; ama üçü arasında sürekli bir diyalog vardır ve bu diyalog, ancak üçünün ne olduğu ayrı ayrı bilindiğinde verimli olur.
+
+Bu, popüler felsefenin en sık düştüğü tuzağa karşı bir savunmadır: Her şeyi her şeye bağlamak. "Kuantum fiziği Budizmi doğruluyor", "nörobilim özgür iradeyi çürüttü", "yapay zekâ Kant'ı haklı çıkardı" türünden cümleler, kavramların sınırlarının silinmesinden doğar. Arslan'ın tavrı — bu hafta sitemizde ele aldığımız [Nusret Hızır'ın "önce kavramı temizle" ilkesiyle](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) aynı damardan — popülerleştirmenin bulanıklaştırma olmadığını gösterir.
+
+## "İslam felsefesi var mıdır?" — Kimlik sorusu olmaktan çıkarmak
+
+Arslan'ın üçüncü katkısı, Türkiye'de felsefenin en çok kimliğe bulanan sorusunu tarihsel bir soruya dönüştürmesidir. "İslam felsefesi var mıdır?" ilk bakışta tarihsel görünür; aslında bir kimlik problemidir. "Felsefe Yunan'da başladı" dersek İslam dünyasının yaptığı yalnızca çeviri olur; "İslam dünyasında tamamen özgün bir felsefe vardı" dersek Yunan mirasıyla ilişkiyi gözden kaçırırız. İki cevap da tarihsel değil, siyasaldır.
+
+Arslan'ın çalışmalarının gücü tam burada: İslam felsefesini ne Batı felsefesinin dipnotuna indirger ne de dış etkilerden bağımsız bir "öz" olarak romantikleştirir; onu bir **entelektüel karşılaşma alanı** olarak okur. *İslam Felsefesi Üzerine* kitabının içindekiler bunu gösteriyor: Kemalpaşazâde, İbn Sînâ, Aristoteles, İbn Haldun, kelam, tasavvuf ve felsefe-din ilişkisi aynı düşünsel haritada. Fârâbî, İbn Sînâ, İbn Rüşd, Gazzâlî, İbn Haldun ve Kemalpaşazâde, Aristoteles mirasını farklı biçimlerde dönüştürdü; "dönüştürme" sözcüğü hem aktarımı hem özgünlüğü içerir ve iki kutbu da boşa çıkarır.
+
+Arslan'ın Kemalpaşazâde'nin *Tehâfüt Hâşiyesi* üzerine yaptığı doktora çalışması bu açıdan bir program belgesidir: Osmanlı düşüncesinin yalnızca dinî değil, felsefi ve eleştirel boyutlarını araştırmak; "Osmanlı eşittir din, Batı eşittir felsefe" şemasını kırmak. Bu şema Türkiye'de hâlâ yaygındır ve popüler felsefenin de akademik felsefenin de kolayca içine düştüğü bir kalıptır. Arslan'ın Batı dillerinin yanı sıra Arapça bilmesi, onu antik Yunan, İslam felsefesi ve modern Batı felsefesi arasında nadir bir geçiş figürü hâline getirdi — ve bu geçişi Türkçede, genel okurun okuyabileceği bir dille yaptı.
+
+## Popülerleşmenin bedeli ve sınırı
+
+Adil olmak gerekirse, bu yolun bir bedeli var. Arslan'ın felsefe tarihi, kimi eleştirmenlere göre fazla "ders kitabı" tonundadır; büyük yorumsal iddialar yerine güvenilir özetler sunar. Bu, popülerleştirmenin doğasında olan bir seçimdir: Özgün bir Aristoteles yorumu yazmak ile Aristoteles'i Türkçede ilk kez okuyan on dokuz yaşındaki bir öğrenciye Aristoteles'i anlatmak aynı iş değildir ve Arslan ikincisini seçti. Türkiye'de felsefenin kurumsallaşma aşamasında bu seçim, muhtemelen doğru olandı; çünkü yorum tartışması, metnin okunabildiği bir yerde başlar.
+
+## Asıl miras
+
+Arslan'ın Türkiye'ye bıraktığı asıl miras belki tek bir kitap değil, bir **okuma kültürü**dür — ve bu kültürün görünmez tarafı, binlerce insanın Platon'u, Aristoteles'i, Fârâbî'yi, İbn Sînâ'yı, Gazzâlî'yi, İbn Haldun'u Türkçe üzerinden, aracısız okuyabilmesidir. Popüler felsefenin en iyi tanımı budur: Felsefeyi popüler kılmak değil, **felsefe okumayı mümkün kılmak**. Bu hafta sitemizde Türkiye'deki [felsefe dergilerinin](/haber/turkiye-felsefe-dergileri-gonderim-durumu-15-eylul-2026) akademik kanallarını ele aldık; Arslan'ın açtığı yol, o kanalların dışında, kitapçı raflarında ve lise sıralarında işliyor.
+
+---
+
+*Ahmet Arslan 1944'te Urfa'da doğdu; Ankara Üniversitesi DTCF Felsefe Bölümü'nden mezun oldu, 1979'da Ege Üniversitesi Felsefe Bölümü'nü kurdu, 1988'de profesör oldu. Başlıca eserleri: Felsefeye Giriş · İlkçağ Felsefe Tarihi (5 cilt) · İslam Felsefesi Üzerine · Kemalpaşazâde'nin Tehâfüt Hâşiyesi (doktora) · Aristoteles'ten Metafizik çevirisi. Ayrıntılı portre için daha önceki dosyamıza bakınız.*`,
+  },
+  {
+    title: "Yapay Zekâ Bir Milyon Dolarlık Matematik Problemini Çözdü mü?",
+    slug: "yapay-zeka-navier-stokes-milyon-dolarlik-problem",
+    summary:
+      "OpenAI'ın on bin ajanı 88 saatte Navier–Stokes denklemlerinde tekillik bulduğunu açıkladı; ispat Lean'de doğrulandı. Ama Navier–Stokes vakası matematik tarihinden çok daha büyük bir soruyu önümüze getiriyor: Bir makine bir matematiksel doğrulamayı gerçekleştirebiliyorsa, matematiksel düşünceyi de gerçekleştirmiş olur mu? Turing'den Searle'e, Gödel'den Wittgenstein'a, Platon'dan Tao'ya bir dosya.",
+    seoTitle: "Yapay zekâ Navier–Stokes'u çözdü mü? Matematik felsefesi açısından bir okuma",
+    metaDescription:
+      "OpenAI'ın Navier–Stokes tekillik ispatı: 10.000 ajan, 88 saat, Lean doğrulaması; Clay ödülü kuralları; doğrulama değeri ile kavrayış değeri ayrımı; Turing, Searle, Dennett, Chalmers, Gödel, Wittgenstein ve Terence Tao'nun uyarısı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/F-18%20model%20in%20water%20tunnel%20with%20dye%20injections%20(side%20view).jpg?width=1600",
+    imageCredit: "Su tünelinde boya enjeksiyonuyla görünür kılınan girdaplar · NASA / Wikimedia Commons",
+    featured: true,
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/navier-stokes-solution/",
+    publishedAt: "2026-09-16T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "mantik", "bilim-felsefesi", "epistemoloji", "platon"],
+    philosopherSlugs: ["daniel-dennett", "david-chalmers", "ludwig-wittgenstein", "platon"],
+    sources: [
+      {
+        title: "On the Navier–Stokes Millennium Prize Problem",
+        publisher: "OpenAI, 8 Eylül 2026",
+        url: "https://openai.com/index/navier-stokes-solution/",
+        primary: true,
+      },
+      {
+        title: "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+        publisher: "Quanta Magazine, 8 Eylül 2026",
+        url: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      },
+      {
+        title: "He was close to a $1 million breakthrough. Then OpenAI swooped.",
+        publisher: "The Washington Post, 13 Eylül 2026",
+        url: "https://www.washingtonpost.com/technology/2026/09/13/he-was-close-1-million-breakthrough-then-openai-swooped/",
+      },
+      {
+        title: "OpenAI Claims Another Huge Mathematical Result Amid Fights Over Credit, Ethics, and Privacy",
+        publisher: "SingularityHub, 11 Eylül 2026",
+        url: "https://singularityhub.com/2026/09/11/openai-claims-another-huge-mathematical-result-amid-fights-over-credit-ethics-and-privacy/",
+      },
+    ],
+    content: `Dokuzuncu gün. Doksanıncı yıl. Bir milyon dolar. Ve bir makine.
+
+8 Eylül sabahı OpenAI, yaklaşık doksan yıldır matematikçilerin peşinde olduğu Navier–Stokes problemine bir çözüm sunduğunu açıkladı: Şirketin henüz yayımlanmamış bir iç modelinin yönettiği ajanlar, üç boyutlu bir akışkanın düzgün başlangıç koşullarından ve düzgün bir dış kuvvetten hareketle sonlu zamanda **tekillik** — sonsuz hız — geliştirebileceğini gösteren bir ispat üretmişti. Sistem yalnızca bir metin üretmedi; ispat, Lean adlı biçimsel doğrulama sisteminde formalize edildi ve makine tarafından doğrulandı.
+
+Rakamlar başlı başına bir haber: OpenAI'ın kendi hesabına göre Navier–Stokes grubunda on bin civarında eşzamanlı ajan çalıştı; ajanlar ilk başlatılmalarından yaklaşık 88 saat sonra, 5 Eylül Cumartesi günü çözüme ulaştı; 2,7 milyon mesaj ve yaklaşık 130 milyar çıktı token'ı kullanıldı; Lean formalizasyonu ve doğrulaması GPT-6 Astra ile 17 saat daha sürdü. OpenAI'dan Sébastien Bubeck hesaplama maliyetini "birkaç milyon dolar" olarak tahmin ediyor; Washington Post, kamuya açık model fiyatları üzerinden 15 milyon dolara varabilecek bir eşdeğer hesap aktarıyor.
+
+Fakat bu hikâyenin en ilginç kısmı ne bir milyon dolar, ne on bin ajan, ne de 130 milyar token. Asıl soru şu: **Matematiksel olarak doğru bir şey üreten bir makine, matematik yapmış olur mu?** Bu soru bizi Platon'dan Descartes'a, Frege'den Gödel'e, Turing'den Searle'e, Dennett'ten Chalmers'a uzanan bir felsefi tartışmanın ortasına bırakıyor. Önce mesele.
+
+## Navier–Stokes nedir?
+
+Su akarken neden girdap oluşur? Hava bir kanadın üzerinden geçerken ne olur? Okyanus akıntıları nasıl hareket eder? Kahvenin içine süt döktüğümüzde neden o kıvrımlar ortaya çıkar? Bu soruların matematiksel dilinin merkezinde, on dokuzuncu yüzyılda Claude-Louis Navier ve George Gabriel Stokes'un yazdığı denklemler bulunur. Denklemler, Newton'un ikinci yasasını — kuvvet eşittir kütle çarpı ivme — akışkanlara uygular ve akışkanı tek tek moleküller olarak değil, **sürekli bir ortam** olarak ele alır. Uçak tasarımından hava tahminine, kan dolaşımından iklim modellerine kadar her yerde kullanılırlar.
+
+Sorun denklemlerin yazılmasında değil, çözülmesinde. 1934'te Jean Leray çözümlerin genelleştirilmiş bir anlamda var olduğunu kanıtladı; ama üç boyutta bu çözümlerin her zaman **düzgün** kalıp kalmadığı — yoksa akışkanın sonsuz küçük bir parçasının sonlu bir sürede sonsuz hıza ulaşıp ulaşamayacağı — açık kaldı. Clay Matematik Enstitüsü 2000'de bu soruyu, her biri bir milyon dolarlık yedi Milenyum Problemi'nden biri ilan etti.
+
+OpenAI'ın sonucu, Clay'in resmî formülasyonundaki "C" ve "D" ifadelerini — yani düzgün koşullarda tekilliğin **mümkün olduğunu** — kurarak problemi olumsuz yönde çözdüğünü iddia ediyor. Çözümün kendisi bir girdap: Kendi içine doğru spiral çizen, giderek uzayan, "spagetti gibi" incelen bir dönüş; merkez bölge küçülürken hızlanıyor, ama enerji sonlu kalıyor. Teknik zorluk, ivme, basınç gradyanı, momentum aktarımı ve viskozite terimlerinin hem devasa büyümesi hem de birbirini tam olarak dengelemesi — ve bunun, dışarıdan sonsuz bir kuvvet uygulanarak değil, akışkanın kendi hareketiyle olması.
+
+Burada gazetecinin koyması gereken kritik dipnot var. Bu, Clay ödülünün kazanıldığı anlamına gelmiyor. Enstitünün kurallarına göre çözümün hakemli bir yerde yayımlanması ve matematik topluluğu tarafından en az iki yıl boyunca genel kabul görmesi gerekiyor. OpenAI ise açıkça "bu sonuç için Milenyum Ödülü'ne başvurmayı düşünmüyoruz" diyor. Dolayısıyla bugün elimizde olan şey, olağanüstü güçlü bir yapay zekâ üretimli ispat ve formalizasyonu; matematik camiasının nihai tarihsel hükmü değil. Quanta'nın haberinde, Clay'in resmî problem tanımını yazan Charles Fefferman'ın sözleri dikkat çekici: Sonucun çözüldüğüne "sevindiğini" söylüyor — ama hikâyenin kahramanları olarak yapay zekâyı değil, Madrid'den Diego Córdoba ile Luis Martínez-Zoroa'yı gösteriyor. Bu kısmı bugün sitemizde [ayrı bir haberde](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge) ele aldık.
+
+## Matematik tarihinde yeni bir çağ mı?
+
+Tarihin ironik bir tarafı var. Yüzyıllar boyunca matematik, insan zihninin en saf ürünü sayıldı. Fizikte deney yapabilirsiniz, kimyada maddeyi karıştırabilirsiniz; ama matematikte laboratuvar yoktur. Matematikçi düşünür; bir aksiyomdan başlar, bir çıkarım yapar, bir çıkarım daha yapar ve sonunda "Q.E.D." der — *quod erat demonstrandum*, gösterilmesi gereken buydu. Şimdi makine aynı şeyi yapmaya başladığında, matematiğin öznesi kim olacak?
+
+## Turing'in hayaleti
+
+Alan Turing'in 1936 tarihli çalışması, "hesaplanabilirlik"i mekanik prosedürler üzerinden tanımladı: Bir problem, sonlu bir kurallar dizisiyle çözülebiliyorsa hesaplanabilirdir. Turing'in asıl mirası ise bugün başka bir yerde karşımıza çıkıyor: **Düşünmek ile hesaplamak arasında zorunlu bir fark var mı?** Eğer bütün matematiksel çıkarımlar mekanik olarak gerçekleştirilebiliyorsa, matematikçinin yaptığı şeyin makine tarafından yapılması neden "düşünme" sayılmasın? Turing 1950'de bu soruyu "makineler düşünebilir mi?" biçiminde sormuş ve sorunun kendisini "tartışmaya değmeyecek kadar anlamsız" bulup yerine ünlü testini önermişti. Navier–Stokes vakası bu soruyu soyut bir düşünce deneyinden çıkarıyor: Makine, testi matematiğin kendi diliyle geçti.
+
+## Searle: Doğru semboller yetmez
+
+John Searle'ün Çin Odası burada kaçınılmaz. Bir sistem Çince sembolleri öyle doğru kurallarla manipüle edebilir ki dışarıdan bakan onun Çince bildiğini sanır; ama Searle'e göre sembolleri doğru işlemek, anlamlarını anlamak değildir. Navier–Stokes'a uygulayalım. Sistem matematiksel ifadeleri okuyor, yeni ifadeler üretiyor, yardımcı önermeler kuruyor, farklı ispat stratejilerini deniyor, hatalı yolları eliyor, başarılı yaklaşımı başka ajanlara aktarıyor ve nihayet biçimsel bir ispat üretiyor. Peki sistem gerçekten "akışkanın tekilliğe gidişini anlıyor" mu? Yoksa anlamlı matematiksel sembolleri olağanüstü karmaşık biçimde manipüle mi ediyor? Searle'ün cevabı büyük ihtimalle ikincisi olurdu — ve bu hafta sitemizde işlediğimiz [beyin implantı dosyasındaki](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) aynı itirazın matematik versiyonudur: Sinyali çözmek anlamı çözmek değildir.
+
+## Dennett'in itirazı: Anlama merkezi aramayın
+
+Bu hafta [portresini yayımladığımız Daniel Dennett'in](/haber/daniel-dennett-zihnin-buyusunu-bozan-filozof) yaklaşımı çok daha rahatsız edicidir. Dennett, zihinde küçük bir "anlama merkezi" aramaya karşı çıkıyordu. Bir sistem bilgi topluyor, seçenekleri değerlendiriyor, öngörü üretiyor, hatalarını düzeltiyor ve davranışını çevresine göre değiştiriyorsa, "anlama"yı sistemin toplam işlevsel mimarisi üzerinden değerlendirebiliriz — "kavrayışsız yetkinlik" bir kusur değil, evrimin ve mühendisliğin normalidir.
+
+Bu açıdan on bin ajanın birlikte çalışması özellikle ilginç. OpenAI'ın açıklamasına göre ajanlar gruplar hâlinde çalıştı, grup içinde iletişim kurdu, farklı çözüm yollarını araştırdı; sonra Codex kullanılarak grupların ara sonuçları arasında "çapraz tozlaşma" sağlandı ve çözümü bulan grup bu yönlendirmeyle çalıştı. Ortaya çıkan şey tek bir "yapay matematikçi" değil, bir tür **yapay matematik topluluğu**. Belki soru "yapay zekâ matematikçi midir?" değil, "matematiksel fail tek bir zihin olmak zorunda mıdır?" olmalı. İnsan matematiği de zaten böyle çalışmıyor mu — seminerler, ön baskılar, hakemler, yüz yıllık bir birikim?
+
+## Chalmers: İşlev gerçekleşiyorsa
+
+David Chalmers, zihinsel durumların biyolojik alt tabakaya değil işlevsel örgütlenmeye bağlı olduğunu savunan gelenektendir: Bir zihinsel sürecin işlevsel yapısı başka bir fiziksel sistemde yeterince doğru gerçekleştirilebiliyorsa, süreç de gerçekleşir. Bunu matematiğe taşıdığımızda radikal bir sonuç çıkar: Belki matematiksel düşüncenin "özü" karbon bazlı bir beyinde gerçekleşmesi değil, **belirli türden soyut ilişkileri keşfetmesi, sınaması ve gerekçelendirmesi**dir. Eğer öyleyse, yapay zekânın matematik yapmasını ilkesel olarak reddetmek zorlaşır.
+
+## Gödel hikâyeyi karmaşıklaştırıyor
+
+Gödel'in eksiklik teoremleri, yeterince güçlü tutarlı biçimsel sistemlerde, sistemin kendi araçlarıyla kanıtlanamayan doğru önermeler bulunduğunu gösterdi. Lucas ve Penrose bunu "insan zihni makineleştirilemez" tezine dayanak yaptı: İnsan, Gödel cümlesinin doğru olduğunu görebilir; makine göremez. Fakat bu yorum ciddi itirazlarla karşılaştı — insan matematikçi de tutarsız olabilir, hata yapar, aksiyomlarını değiştirir; ve "görme"nin kendisinin bir hesaplama olmadığı kanıtlanmış değildir. "Gödel eşittir insan üstündür" denklemi felsefi açıdan fazla hızlıdır.
+
+Navier–Stokes vakası ise tartışmayı başka bir noktaya taşıyor: Makine yalnızca verili bir sistemin içinde hesap yapmıyor; yeni bir matematiksel yapı — sonsuz katmanlı bir girdap kaskadı — öneriyor. Bu, Gödel'in sınırlarının içinde kalır; ama "makine yalnızca mekanik türetme yapar" diyen basit resmin dışına çıkar.
+
+## Doğruluk ile kavrayış aynı şey mi?
+
+Asıl ayrım burada. Bir ispatın iki farklı değeri olabilir. **Doğrulama değeri**: Adımlar geçerli mi, bir önermeden diğerine geçiş doğru mu, biçimsel sistem bunu onaylıyor mu? **Kavrayış değeri**: Neden bu fikir işe yarıyor, hangi matematiksel yapı problemin özünü açıklıyor, ispat başka problemlere nasıl uygulanabilir, insan matematikçi bunun doğru olduğunu neden sezebiliyor?
+
+Yapay zekâ ilkinde olağanüstü bir noktaya gelmiş olabilir; ikincisi hâlâ açık bir soru. Washington Post'un aktardığı matematikçilerin vurgusu tam bu: 166 sayfalık ispatın biçimsel olarak doğrulanması önemli; ama matematik için anlaşılabilirlik ve topluluk tarafından sindirilmiş kavrayış ayrıca değerlidir. Lean'in doğruladığı şey, Lean'de yazılan ifadenin Lean'in kurallarından çıktığıdır; o ifadenin, matematikçilerin kanıtlamak istediği şeyle mantıksal olarak eşdeğer olduğunu hâlâ insanlar doğrulamak zorunda — Quanta'nın hatırlattığı gibi.
+
+Matematiğin yaşayan en önemli isimlerinden Terence Tao, yapay zekânın matematikte kullanılmasına karşı değil; kendisi bu araçları kullanıyor ve savunuyor. Ama SingularityHub'ın aktardığı uyarısı önemli: Güçlü "çözüm çıkarma" araçlarının yalnızca sonuca ulaşmak için ayrım gözetmeksizin kullanılması, matematiksel anlayışı zayıflatabilir. Çünkü matematikte **problemi çözmek ile problemi anlamak aynı şey değildir**. Bu ayrım bilim tarihinin tamamında vardır: Fizikçi denklemin çözümünü bulur ama doğanın neden öyle davrandığını açıklayamayabilir; biyolog korelasyonu bulur ama mekanizmayı bilmeyebilir. Matematikte de bir ispatın doğru olması, onun neden güzel, doğal ya da genellenebilir olduğunu açıklamaz.
+
+## Platon, Aristoteles, Descartes
+
+Platon için matematik, duyular dünyasından daha yüksek bir hakikate açılan kapıydı; geometrik doğrular fiziksel çizgilerden bağımsızdı — üçgeni kâğıda kusurlu çizersiniz, matematiksel üçgen kusursuzdur. Biyolojik bedeni, duyguları, eli, kalemi olmayan ama soyut ilişkileri işleyebilen bir yapay zekâda Platon açısından belki şaşırtıcı bir şey yoktur: Matematiğin hakikati zaten bedenden bağımsızdır. Aristoteles daha ihtiyatlı olurdu; onun için bilmek, biçimsel ilişkiyi izlemek değil **nedenleri kavramak**tır — ve "neden?" sorusu geri döner.
+
+Descartes açısından problem daha da ilginç. Rasyonel düşünce zihnin özelliğiydi; beden mekanik bir sistemdi. Şimdi karşımızda tamamen hesaplamalı bir sistem, insan zihninin ayırt edici işlerini — soyutlama, çıkarım, kanıtlama, hata düzeltme — yapıyor. Descartes'ın düalizmi bugün savunulması zor bir model; ama sorusu yeniden canlanıyor: Akıl biyolojik bir organa mı aittir, yoksa belirli bir işlevsel yapıya mı?
+
+## Wittgenstein: Matematik bir nesne değil, bir pratiktir
+
+Wittgenstein'ın geç dönem felsefesi tartışmayı başka yere götürür. Matematiği kafamızdaki soyut nesneler hakkında konuşma olarak görmek yerine, matematiksel pratiğin nasıl işlediğine bakar. "İspat" yalnızca sembollerin sıralanması değildir; bir matematik topluluğu neyin ispat sayılacağını, neyin açıklayıcı olduğunu, hangi yöntemin zarif, hangi tanımın verimli, hangi sonucun önemli olduğunu belirleyen **normlara** sahiptir. Bu yüzden yapay zekânın matematik yapması yalnızca teknik bir problem değildir; matematik topluluğunun normlarının geleceği de söz konusudur. Buckmaster'ın kendi ispatlarından biri için "yapay zekâ çöpü" (AI slop) deyip özür dilemesi, tam da bu normların — okunabilirlik, zarafet, anlaşılırlık — hâlâ yürürlükte olduğunu gösteriyor.
+
+## Asıl tehlike: Matematikçiler işini kaybetmez, matematiğin kültürü değişir
+
+Yapay zekâ matematikçilerin yerini alacak mı? Mesele muhtemelen bundan daha karmaşık. Matematikçi "bana bir ispat ver" yerine "bana yeni bir kavram öner" diyebilir; yapay zekâ milyonlarca yaklaşımı tarar, insan verimli olanı seçer, makine yeniden test eder. Matematik, insan-makine ortak araştırma pratiğine dönüşür — tıpkı teleskobun astronomiyi değiştirdiği gibi. Teleskop astronomun yerine geçmedi; ama teleskopsuz astronominin sınırlarını ortadan kaldırdı.
+
+Fakat vakanın etik bir gölgesi var: Keşif kimin keşfidir? OpenAI'ın kendi açıklaması, çabanın 1 Eylül'de "iki Milenyum Problemi'nin çözüldüğü söylentisi" üzerine başladığını ve söylentinin Anthropic çalışanı Levent Alpöge ile NYU'dan Tristan Buckmaster'a ilişkin olduğunu kabul ediyor; şirket, Buckmaster'ın Codex istemlerinin sistemi etkilemediğini bir soruşturmayla doğruladığını söylüyor. Buckmaster ise açıklamasında bundan emin değil. Bu tartışmanın ayrıntılarını ve iki İspanyol matematikçinin — sonucun asıl kahramanları — hikâyesini [ayrı bir haberde](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge) anlattık. Burada felsefi soruyu kaydedelim: Bir makine, milyonlarca insanın ürettiği matematiksel kültür üzerine kuruluysa, onun "özgünlüğünü" nasıl tanımlayacağız? Bu hafta sitemizde [David Harvey'nin](/haber/david-harvey-kapitalizmi-haritadan-okuyan-filozof) kavramıyla sorduğumuz soru geri geliyor: Üretim araçlarının — model, veri, GPU, elektrik, şirket — sahibi kim? Geleceğin büyük matematik problemlerini üniversiteler mi, devletler mi, açık kaynak toplulukları mı, yoksa birkaç teknoloji şirketi mi çözecek?
+
+## En zor soru
+
+Bir insan matematikçi ispatı yazdığında "bunu neden yaptığımı biliyorum" diyebilir. Bir yapay zekâ için durum daha karmaşık: Model milyonlarca olasılığı tarar, bir yaklaşım bulur, başka bir ajan geliştirir, üçüncüsü sadeleştirir, Lean doğrular. Sonunda "doğru" diyebiliriz. Ama "neden?" sorusuna kimin cevap verdiği belirsiz.
+
+Navier–Stokes problemi matematikte yeni bir çağın kapısını açmış olabilir. Ama asıl devrim problemin çözülmüş olması değil; **matematiksel keşfin üretim biçiminin değişmiş olması**. Bir zamanlar matematikçi tek başına bir masada oturuyordu; sonra bilgisayar geldi; şimdi masanın karşısında on bin ajan var. Belki gelecekte matematikçinin işi ispat yazmak değil, hangi sorunun sorulmaya değer olduğunu seçmek olacak. Ve insanlık ilk kez yalnızca "makine hesaplayabilir mi?" diye sormuyor. "Makine keşfedebilir mi?" diye soruyor — ve hemen arkasından: **"Bir makine keşfediyorsa, keşfettiği şeyin anlamını bilmek zorunda mı?"** Navier–Stokes'un cevabı henüz belli değil. Fakat matematiğin eski dünyası değişmeye başladı.
+
+---
+
+*OpenAI'ın açıklaması 8 Eylül 2026'da yayımlandı; "Eşzamanlı çalışmalar" bölümü 10 Eylül'de şirketin iç soruşturmasının sonuçlarıyla güncellendi. Clay Matematik Enstitüsü'nün ödül kuralları, hakemli yayın ve iki yıllık kabul süresi gerektiriyor; OpenAI ödüle başvurmayacağını açıkladı.*`,
+  },
+  {
+    title: "Navier–Stokes'u kim çözdü? Córdoba, Martínez-Zoroa, Buckmaster, Alpöge ve on bin ajan",
+    slug: "navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge",
+    summary:
+      "OpenAI'ın açıklamasından on iki saat önce, NYU'dan Tristan Buckmaster ile Anthropic'ten Levent Alpöge kendi sonuçlarını duyurdu; iki taraf da Madrid'den iki matematikçinin — Diego Córdoba ve öğrencisi Luis Martínez-Zoroa — bilgisayarsız geliştirdiği yönteme dayanıyordu. Buckmaster 'Martínez-Zoroa Fields Madalyası'nı hak ediyor' dedi; Fefferman 'kahramanlar onlar' dedi. Bir keşfin sahipliği üzerine bilim sosyolojisi dersi.",
+    seoTitle: "Navier–Stokes'u kim çözdü? Öncelik tartışması ve Córdoba–Martínez-Zoroa yöntemi",
+    metaDescription:
+      "Navier–Stokes tekillik ispatının soyağacı: Hou–Luo 2013, Córdoba ve Martínez-Zoroa'nın 'sonsuz kaskad' yöntemi, Buckmaster–Alpöge'nin Euler sonucu, OpenAI'ın 1 Eylül'de duyduğu söylenti ve soruşturması. Bilimsel önceliğin yapay zekâ çağındaki anlamı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/FA-18%20model%20water%20tunnel%20visualisation%20DFRC%20763x1280.jpg?width=1600",
+    imageCredit: "Su tünelinde girdap görselleştirmesi · NASA Dryden / Wikimedia Commons",
+    featured: false,
+    sourceName: "Quanta Magazine",
+    sourceUrl: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+    publishedAt: "2026-09-16T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "bilim-felsefesi", "akademi", "etik", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+        publisher: "Quanta Magazine",
+        url: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+        primary: true,
+      },
+      {
+        title: "On the Navier–Stokes Millennium Prize Problem — Concurrent work",
+        publisher: "OpenAI",
+        url: "https://openai.com/index/navier-stokes-solution/",
+      },
+      {
+        title: "Tristan Buckmaster — Statement",
+        publisher: "Courant Institute, NYU",
+        url: "https://cims.nyu.edu/~tristanb/statement.pdf",
+      },
+    ],
+    content: `Bugün sitemizde [ayrı bir dosyada](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) sorduğumuz soru "makine matematik yapabilir mi?" idi. Bu haberin sorusu daha eski ve daha insani: **Bir keşif kimindir?** Navier–Stokes vakasında bu sorunun cevabı en az dört isim, iki şirket, bir üniversite ve on bin ajan arasında bölünüyor — ve hikâyenin en ilginç tarafı, gerçek kahramanların yapay zekâ kullanmayan iki İspanyol matematikçi olması.
+
+## On iki saat
+
+8 Eylül sabahı OpenAI, Navier–Stokes denklemlerinde tekillik bulduğunu açıkladı. Ondan on iki saat önce, 7 Eylül gece yarısından hemen önce, New York Üniversitesi'nden Tristan Buckmaster bir açıklama yayımlayarak Anthropic'te çalışan matematikçi Levent Alpöge ile birlikte "yakından ilişkili birkaç problemi" çözdüklerini duyurmuştu; OpenAI'ın modelleri dahil çeşitli yapay zekâ modellerinin yardımıyla.
+
+İki tarafın sonuçları aynı değil. Buckmaster ve Alpöge, 22 Ağustos itibarıyla Euler denklemleri — viskozitesiz akışkanlar — için Lean ile doğrulanmış bir patlama (blow-up) ispatına sahipti; Navier–Stokes'un daha kolay bir versiyonu için doğrulanmamış bir ispatları olduğunu da söylüyorlar. OpenAI ise Euler'in kuvvetsiz versiyonunu yaklaşık yüz ajanla elli saatte, sonra Navier–Stokes'un tamamını on bin ajanla seksen sekiz saatte çözdüğünü açıkladı. OpenAI, üç boyutlu Euler sonucunda önceliği Buckmaster ve Alpöge'ye bırakıyor; Navier–Stokes için önceliği kendisine alıyor.
+
+Buckmaster'ın açıklaması alışılmadık ölçüde açık sözlü. "Geçen yılın büyük bölümünde ilerleme yavaştı" diyor; Alpöge'nin gönderdiği ilk dil modeli ispatının "okuduğum en korkunç ispat" olduğunu ekliyor. İkili daha zarif bir yazım üzerinde çalışmayı planlıyordu; ama ilerlemelerinin haberi OpenAI'a sızınca takvimi öne çekmek zorunda kaldılar. Yayımladıkları üç makaleden biri için Buckmaster'ın kendi ifadesi: "Yalnızca yapay zekâ çöpü olarak tanımlanabilir. Bunun için özür dilerim."
+
+## Söylenti
+
+OpenAI'ın kendi anlatımı, hikâyenin nasıl başladığını gizlemiyor. Şirket 28 Ağustos'tan beri yeni bir iç modeli eğitiyordu; 1 Eylül Salı günü "iki Milenyum Problemi'nin çözüldüğüne dair söylentiler" duydu ve bu söylentiden — ayrıca modelin performansındaki sıçramadan — ilham alarak modeli bütün açık Milenyum Problemleri üzerinde denemeye karar verdi. Şirket, söylentinin Alpöge ve Buckmaster'la ilgili olduğunu "sonradan fark ettiğini" söylüyor. Lean doğrulaması 6 Eylül'de tamamlandıktan sonra ikiliye ulaşıp ortak duyuru ve öncelik tanıma önerdi; o sırada ikilinin Anthropic'in iç modeliyle kuvvetli Euler problemini çözdüğünü öğrendi.
+
+Buckmaster'ın açıklamasında ise başka bir ima var: OpenAI araştırmacılarının ya da ajanlarının, ikilinin OpenAI modellerini kullanarak yaptığı çalışmaya erişmiş ve ondan yararlanmış olabileceği. OpenAI 10 Eylül'de açıklamasını güncelledi: Bir soruşturmanın ardından, Buckmaster'ın son iki aydaki Codex istemlerinin sistemi "eğitim yoluyla dahil hiçbir biçimde etkilemiş olamayacağını" doğruladığını, kullanılan modelin önceden eğitilmiş bir modelin üzerine büyük ölçekli pekiştirmeli öğrenmeyle geliştirildiğini ve "hiçbir kullanıcı verisine erişilmediğini" söylüyor. Quanta'nın ifadesiyle, "farklı taraflar konuşmanın farklı versiyonlarını sunuyor" ve zaman çizelgesini çözmek zaman alacak.
+
+## Asıl kahramanlar: Madrid
+
+Ama tartışmanın gürültüsü, asıl hikâyeyi gölgelememeli. Quanta'nın haberinde Clay'in resmî problem tanımını yazan Princeton'dan Charles Fefferman şöyle diyor: Hikâyenin kahramanları, Madrid Matematik Bilimleri Enstitüsü'nden Diego Córdoba ve CUNEF Üniversitesi'nden Luis Martínez-Zoroa'dır. Buckmaster da açıklamasında bunu "açıkça" söylüyor: "Bu çalışma bütünü göz önüne alındığında, Luis Martínez-Zoroa'nın Fields Madalyası'nı hak ettiğine inanıyorum."
+
+Neden? Çünkü her iki yapay zekâ ekibi de aynı yönteme dayanıyordu ve yöntem onlarındı. On yıl önce hiç kimse Navier–Stokes'ta tekillik olduğuna inanmıyordu; Euler için bile şüphe vardı. 2013'te Caltech'ten Thomas Hou ve Guo Luo, bir silindirin üst ve alt yarıları ters yönde döndürüldüğünde Euler denklemlerinin "patladığını" bilgisayar simülasyonuyla gösterdi ve hataları hesaplayarak kanıtladı; sonraki on yılda bu bilgisayar destekli yaklaşım alanın hâkim yöntemi oldu. Martínez-Zoroa ise 2021 tarihli doktora tezinde **bilgisayara hiç dayanmayan** analitik teknikler geliştirdi; danışmanı Córdoba ile birlikte alanın "tuhafları"ydılar. Córdoba'nın şakası ünlü: "Ben yapay zekâ kullanmıyorum; benim Luis'im var."
+
+Yöntemleri, her biri tekil olmayan bir çözüm olan sonsuz sayıda "katman" üretip bunları "sonsuz kaskad" hâlinde birleştirerek yeni bir çözüm — tekilliği içeren — kurmak. 2023'te Euler'in karmaşık bir kuvvet fonksiyonlu versiyonu için tekilliği bu yöntemle kanıtladılar. Eksik kalan tek adım, kaskadın sonunda kuvvet fonksiyonunun da **düzgün** kalmasıydı — Milenyum Ödülü'nün şartı. Her iki yapay zekâ ekibinin başardığı adım tam olarak bu. Yani makineler sıfırdan düşünmedi; iki insanın on yıl boyunca inşa ettiği merdivenin son basamağını çıktı. Martínez-Zoroa'nın Quanta'ya söylediği söz, bilimin en zarif cümlelerinden: "Bunu kendimizin yapması güzel olurdu; ama Tristan adına çok mutluyum."
+
+## Bilim sosyolojisi: Öncelik nedir?
+
+Robert Merton, bilimde önceliğin — bir keşfi ilk yapan olmanın — bilim insanının tek gerçek ödülü olduğunu ve öncelik tartışmalarının bilimin normal işleyişinin parçası olduğunu yazmıştı: Newton ile Leibniz, Darwin ile Wallace. Fakat Merton'un modelinde öncelik, keşfi **yapan** kişiye aitti ve keşif yapmanın ne olduğu belliydi. Navier–Stokes vakası bu modelin her terimini bulanıklaştırıyor.
+
+Keşfi kim yaptı? Yöntemi kuran Córdoba ve Martínez-Zoroa mı; yöntemi yapay zekâyla tamamlayan Buckmaster ve Alpöge mi; on bin ajanı yöneten OpenAI araştırmacıları mı; ajanların kendisi mi? "İlk" ne demek — Lean doğrulaması mı, kamuya duyuru mu, ön baskı mı, arXiv damgası mı? Ve bir şirketin, bir söylentiden yola çıkıp on bin ajanı bir probleme yöneltmesi, bilimsel öncelik açısından bir keşif mi, yoksa bir **operasyon** mu? Buckmaster'ın "yayın takvimini öne çekmek zorunda kaldık" cümlesi, bilim tarihçilerinin "öncelik yarışının deformasyonu" dediği şeyin ders kitabı örneği: Rakip yaklaşınca, hazır olmayan yayımlanır — ve "çöp" diye özür dilenir.
+
+Bu hafta sitemizde [Amodei'nin yavaşlama çağrısı](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) ve [METR raporu](/haber/metr-slop-vestigation-yapay-zekayi-yapay-zekayla-sorusturmak) vesilesiyle yapay zekânın bilimi nasıl hızlandırdığını tartıştık. Navier–Stokes, hızın bedelini gösteriyor: Yöntemi on yılda kuran iki matematikçi, sonucu on iki saat arayla duyuran iki ekip ve tartışmayı bir haftada yürüten bir dünya. Fefferman'ın ve Buckmaster'ın Córdoba ile Martínez-Zoroa'ya işaret etmesi, bilim topluluğunun hâlâ bir şeyi ayırt edebildiğini gösteriyor: **Hesaplamayı yapan ile fikri bulan aynı kişi olmayabilir.** Bugün sitemizde [Fields Madalyası dosyasında](/haber/fields-madalyasi-2026-deng-pardon-tsimerman-wang) bu ayrımın ödül sistemine nasıl yansıdığına baktık.
+
+Ve bir de Türkiye için küçük bir not: Levent Alpöge, adından anlaşılacağı üzere Türkiye kökenli bir matematikçi; sayılar kuramı ve aritmetik geometrideki çalışmalarıyla tanındı ve OpenAI'ın açıklamasına göre bugün Anthropic'te çalışıyor. Yirmi birinci yüzyılın en büyük matematik olaylarından birinde bir Türk matematikçinin adının geçmesi, Türkiye'de matematik eğitimi üzerine düşünenler için ayrı bir konu.
+
+---
+
+*Bu haber OpenAI'ın açıklamasına, Quanta Magazine'in haberine ve Buckmaster'ın açıklamasına dayanmaktadır; tarafların anlatımları arasındaki farklar aktarılmış, hüküm verilmemiştir.*`,
+  },
   {
     title: "Yaklaşan Felsefe Konferansları",
     slug: "yaklasan-felsefe-konferanslari-15-eylul-2026",
@@ -28878,6 +29695,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 /* ------------------------------------------------------------------ */
 
 export const books: SeedBook[] = [
+  {
+    title: "Call It Evil: Understanding the Trump Era",
+    slug: "neiman-call-it-evil",
+    originalTitle: "Call It Evil: Understanding the Trump Era",
+    publisher: "W. W. Norton & Company",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781324131045",
+    coverImage: null,
+    description:
+      "Einstein Forum yöneticisi Susan Neiman, Modern Düşüncede Kötülük ve Ahlaki Netlik'te kurduğu programı güncel siyasete uyguluyor: 'Kötülük' sözcüğü geçmişin kalıntısı değil, demokrasiye yönelik tehditleri anlamak için hayati bir mercektir. Kitap Trump hakkında değil, onun galip gelmesine izin veren koşullar hakkında; bazı siyasi davranışları yalnızca 'popülizm' ya da 'stratejik hata' diye adlandırmanın ahlaki boyutu görünmez kıldığını savunuyor. 240 sayfa; ABD baskısı 15 Eylül 2026.",
+    year: 2026,
+    link: "https://wwnorton.com/books/9781324131045",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari-neiman-spiegel-ganeri",
+  },
   {
     title: "A Relational Theory of Justice",
     slug: "metz-a-relational-theory-of-justice",
