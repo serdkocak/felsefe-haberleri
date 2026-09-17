@@ -125,16 +125,19 @@ export const rightThinkers: Thinker[] = [
   {
     name: "Simone de Beauvoir",
     era: "20. yy",
-    image: commons("Simone_de_Beauvoir_1967_(cropped).jpg"),
-    focus: "center 30%",
+    // 1955, Pekin — 47 yaşında; eski 1967 portresi yedekte.
+    image: commons("Simone_de_Beauvoir_in_Beijing_1955.jpg"),
+    altImage: commons("Simone_de_Beauvoir_1967_(cropped).jpg"),
+    focus: "center 28%",
     link: "https://tr.wikipedia.org/wiki/Simone_de_Beauvoir",
   },
   {
     name: "Hannah Arendt",
     era: "20. yy",
-    image: commons("Hannah_Arendt_1975_(cropped).jpg"),
-    altImage: commons("Hannah-arendt3_hg.jpg"),
-    focus: "center 30%",
+    // 1933 — 27 yaşında; eski 1975 portresi yedekte.
+    image: commons("Hannah_Arendt_1933.jpg"),
+    altImage: commons("Hannah_Arendt_1975_(cropped).jpg"),
+    focus: "center 35%",
     link: "https://tr.wikipedia.org/wiki/Hannah_Arendt",
   },
 ];
