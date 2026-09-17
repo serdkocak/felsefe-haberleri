@@ -260,6 +260,186 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Karl Popper",
+    slug: "karl-popper",
+    headline: "Bilim filozofu ve açık toplum kuramcısı (1902-1994)",
+    bio: "Bilimi doğrulamayla değil yanlışlanabilirlikle tanımladı; tarihin yasalarını bildiğini iddia eden her siyaseti 'tarihsicilik' diye mahkûm etti. Açık Toplum ve Düşmanları ile Platon, Hegel ve Marx'ı totaliterliğin fikir babaları olarak yargıladı; Viyana'dan sürgüne, Yeni Zelanda'dan Londra'ya uzanan hayatı yirminci yüzyılın özeti gibiydi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Popper.jpg?width=600",
+    country: "Avusturya / Birleşik Krallık",
+    birthYear: 1902,
+    affiliation: "London School of Economics (1946-1969)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Sir Karl Raimund Popper",
+    birthDate: "28 Temmuz 1902, Viyana",
+    deathDate: "17 Eylül 1994, Londra (Kenley, Croydon)",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Eleştirel akılcılık · bilim felsefesi · liberal siyaset felsefesi",
+    areas: "Bilim felsefesi, epistemoloji, siyaset felsefesi, olasılık kuramı, zihin felsefesi",
+    majorWorks: "Bilimsel Araştırmanın Mantığı (Logik der Forschung, 1934)\nAçık Toplum ve Düşmanları (1945)\nTarihsiciliğin Sefaleti (1957)\nTahminler ve Çürütmeler (1963)\nNesnel Bilgi (1972)\nBitmeyen Arayış (otobiyografi, 1976)\nBenlik ve Beyni (J. C. Eccles ile, 1977)",
+    keyConcepts: "Yanlışlanabilirlik, sınır çizme sorunu, eleştirel akılcılık, tarihsicilik, açık toplum, parça parça toplum mühendisliği, üç dünya kuramı, eğilim yorumu, hoşgörü paradoksu",
+    influencedBy: "Immanuel Kant, David Hume, Albert Einstein, Viyana Çevresi (karşı), Sokrates, Charles Darwin",
+    influenced: "Imre Lakatos, Paul Feyerabend, Hans Albert, George Soros, Ernst Gombrich, Friedrich Hayek, John Eccles, Bryan Magee, Joseph Agassi, David Miller",
+    longBio: "Viyana'da asimile olmuş Yahudi bir ailede doğdu; babası hukukçu ve kitap tutkunuydu. 1919'da kısa süreliğine Marksizme yaklaştı, aynı yıl bir gösteride polisin ateş açmasıyla öldürülen gençlerin ardından hem Marksizmden hem de her türlü tarih kehanetinden koptu. Viyana Üniversitesi'nde felsefe, matematik ve fizik okudu; öğretmenlik yaptı. 1934'te yayımlanan Logik der Forschung, Viyana Çevresi'nin doğrulama ilkesine karşı bilimsel bir kuramın ayırt edici özelliğinin yanlışlanabilir olması olduğunu savundu: Bilim, kesin doğrular biriktirmez; cesur tahminler ileri sürer ve onları çürütmeye çalışır.\n\nNazizmin yükselişiyle 1937'de Yeni Zelanda'ya, Christchurch'teki Canterbury University College'a gitti. Savaş yıllarında, kendi deyişiyle 'savaş çabasına katkısı' olarak Açık Toplum ve Düşmanları'nı (1945) yazdı: Platon'un ideal devletini, Hegel'in tarih felsefesini ve Marx'ın kehanetlerini, geleceğin bilinebilir olduğu iddiasıyla bireyi feda eden kapalı toplum düşüncesinin kaynakları olarak eleştirdi. Kitabın yaygınlaşmasında Hayek'in desteği belirleyici oldu; 1946'da London School of Economics'e çağrıldı ve 1969'a kadar orada ders verdi. 1965'te şövalye unvanı aldı.\n\nGeç dönem çalışmaları, nesnel bilginin insan zihninden bağımsız bir 'üçüncü dünya' oluşturduğu tezini, olasılıkların eğilim yorumunu ve evrimci epistemolojiyi kapsadı. Kuhn, Lakatos ve Feyerabend'le tartışmaları yirminci yüzyıl bilim felsefesinin ana hattını belirledi. 17 Eylül 1994'te Londra'da, doksan iki yaşında öldü. Türkçede Açık Toplum ve Düşmanları, Tarihsiciliğin Sefaleti, Bilimsel Araştırmanın Mantığı ve Daha İyi Bir Dünya Arayışı başta olmak üzere pek çok eseri çevrildi.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/popper/ · Britannica — https://www.britannica.com/biography/Karl-Popper · The Washington Post, 19 Eylül 1994 — https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/",
+  },
+  {
+    name: "Jacques Rancière",
+    slug: "jacques-ranciere",
+    headline: "Fransız filozof — Paris 8 Üniversitesi (emeritus)",
+    bio: "Eşitliği siyasetin hedefi değil önvarsayımı sayan düşünür. Althusser'den koparak on dokuzuncu yüzyıl işçi arşivlerine indi; Cahil Hoca ile zekâların eşitliğini, Uyuşmazlık ile polis-siyaset ayrımını, 'duyulur olanın paylaşımı' ile sanat-siyaset bağını kurdu.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Ranci%C3%A8re%2C%20Jacques%20-UV%20fRF01.jpg?width=600",
+    country: "Fransa",
+    birthYear: 1940,
+    affiliation: "Paris 8 Vincennes-Saint-Denis Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    fullName: "Jacques Rancière",
+    birthDate: "10 Haziran 1940, Cezayir",
+    alive: true,
+    period: "Çağdaş",
+    school: "Post-Marksist siyaset felsefesi · estetik",
+    areas: "Siyaset felsefesi, estetik, eğitim felsefesi, tarih yazımı, sinema",
+    majorWorks: "Althusser'in Dersi (1974)\nProleterlerin Gecesi (1981)\nFilozof ve Yoksulları (1983)\nCahil Hoca (1987)\nUyuşmazlık (1995)\nDuyulur Olanın Paylaşımı (2000)\nEstetiğin Huzursuzluğu (2004)\nDemokrasi Nefreti (2005)\nÖzgürleşen Seyirci (2008)",
+    keyConcepts: "Zekâların eşitliği, polis ile siyaset, uyuşmazlık (mésentente), duyulur olanın paylaşımı, payı olmayanların payı, aptallaştırma, özgürleşen seyirci",
+    influencedBy: "Louis Althusser (karşı), Joseph Jacotot, Karl Marx, Michel Foucault, Jean-François Lyotard",
+    influenced: "Çağdaş sanat kuramı, radikal demokrasi kuramı, eleştirel pedagoji, Alain Badiou ile diyalog, Slavoj Žižek",
+    longBio: "Cezayir'de doğdu; École normale supérieure'de Althusser'in öğrencisi oldu ve 1965'te Kapital'i Okumak'ın genç yazarları arasında yer aldı. 1968 Mayıs'ı düşüncesinde kırılma yarattı; 1974'te Althusser'in Dersi ile hocasının bilim/ideoloji ayrımının entelektüelin kitleler adına konuşma hakkını yeniden kurduğunu savunarak koptu.\n\nOn dokuzuncu yüzyıl işçi arşivlerinde on yıl çalıştı; Proleterlerin Gecesi (1981), işçilerin gece şiir yazıp felsefe okuyarak sınıf kimliğinden kaçtığını gösterdi. Cahil Hoca (1987), Jacotot üzerinden bütün zekâların eşit olduğu ve açıklayıcı pedagojinin 'aptallaştırdığı' tezini ortaya koydu. Uyuşmazlık (1995) 'polis' (toplumsal yerlerin dağılımı) ile 'siyaset' (payı olmayanların eşitlik varsayımıyla bu dağılımı bozması) arasındaki ayrımı kurdu.\n\n2000'lerden itibaren estetiğe yöneldi: 'Duyulur olanın paylaşımı' kavramıyla sanatın politik gücünü mesajda değil, neyin görünür ve duyulur olduğunun yeniden düzenlenmesinde aradı. Paris 8'de ders verdi; Türkçede Metis başta olmak üzere birçok yayınevinden çevrildi.",
+    sources: "Duke University Press — https://www.dukeupress.edu/Jacques-Ranciere · Philosophy Compass — https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1747-9991.2007.00120.x",
+  },
+  {
+    name: "Ahmet Arslan",
+    slug: "ahmet-arslan",
+    headline: "Felsefe tarihçisi — Ege Üniversitesi (emeritus)",
+    bio: "Ege Üniversitesi Felsefe Bölümü'nün kurucusu; beş ciltlik İlkçağ Felsefe Tarihi'nin ve kuşaklar boyu okunan Felsefeye Giriş'in yazarı. Antik Yunan, İslam felsefesi ve modern Batı felsefesi arasında Türkçede köprü kurdu; Kemalpaşazâde üzerine doktorasıyla Osmanlı düşüncesinin felsefi boyutunu araştırdı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1944,
+    affiliation: "Ege Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Ahmet Arslan",
+    birthDate: "1944, Urfa",
+    alive: true,
+    period: "Çağdaş",
+    school: "Felsefe tarihi · İslam felsefesi araştırmaları",
+    areas: "Antik Yunan felsefesi, İslam felsefesi, Osmanlı düşüncesi, felsefe tarihi, Aristoteles",
+    majorWorks: "Felsefeye Giriş\nİlkçağ Felsefe Tarihi (5 cilt)\nİslam Felsefesi Üzerine\nKemalpaşazâde'nin Tehâfüt Hâşiyesi (doktora)\nHaşiye ala't-Tehafüt Tahlili\nAristoteles, Metafizik (çeviri)\nİbn Haldun (inceleme)",
+    keyConcepts: "Felsefe tarihi olarak felsefe, kavram çevirisi, felsefe-bilim-din ayrımı, İslam felsefesinin karşılaşma alanı olarak okunması",
+    influencedBy: "Aristoteles, Fârâbî, İbn Sînâ, İbn Rüşd, İbn Haldun, Kemalpaşazâde",
+    influenced: "Ege Üniversitesi felsefe okulu, Türkiye'de felsefe tarihi eğitimi ve İslam felsefesi araştırmaları",
+    longBio: "Urfa'da doğdu; Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi Felsefe Bölümü'nden mezun oldu. Kemalpaşazâde'nin Tehâfüt Hâşiyesi üzerine doktora yaptı; 1978'de doçent, 1988'de profesör oldu. 1979'da Ege Üniversitesi Felsefe Bölümü'nü kurdu ve uzun yıllar yönetti.\n\nBeş ciltlik İlkçağ Felsefe Tarihi, Sokrates öncesinden Plotinos'a antik felsefeyi Türkçede metinle karşılaşma yoluyla anlatan ilk kapsamlı çalışmadır. Felsefeye Giriş, felsefeyi filozoflar yerine sorular üzerinden sunan yapısıyla kuşaklar boyunca temel ders kitabı oldu. İslam Felsefesi Üzerine, İslam felsefesini ne Batı felsefesinin dipnotu ne de dış etkilerden bağımsız bir 'öz' olarak değil, bir entelektüel karşılaşma alanı olarak okur.\n\nBatı dillerinin yanı sıra Arapça bilmesi, onu antik Yunan, İslam ve modern Batı felsefesi arasında nadir bir geçiş figürü kıldı. 'Ciddi ama anlaşılabilir felsefe' tavrıyla Türkiye'de akademik ve popüler felsefe arasında üçüncü bir yol açtı.",
+    sources: "İstanbul Bilgi Üniversitesi Yayınları — https://bilgiyay.com/kitap/islam-felsefesi-uzerine/ · Ege Üniversitesi Felsefe Bölümü — https://felsefe.ege.edu.tr/",
+  },
+  {
+    name: "Louis Althusser",
+    slug: "louis-althusser",
+    headline: "Fransız filozof (1918-1990)",
+    bio: "Yapısalcı Marksizmin kurucusu. Marx'ta 'epistemolojik kopuş' saptadı, kuramsal anti-hümanizmi savundu; ideolojinin bireyleri 'Hey, sen!' çağrısıyla özneye dönüştürdüğünü ve okul, aile, medya gibi 'ideolojik devlet aygıtları'yla işlediğini ileri sürdü.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1918,
+    affiliation: "École normale supérieure",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Louis Pierre Althusser",
+    birthDate: "16 Ekim 1918, Birmendreïs, Cezayir",
+    deathDate: "22 Ekim 1990, La Verrière",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Yapısalcı Marksizm",
+    areas: "Marksist felsefe, ideoloji kuramı, bilim felsefesi, siyaset felsefesi, psikanaliz",
+    majorWorks: "Marx İçin (1965)\nKapital'i Okumak (1965, Balibar, Rancière, Macherey, Establet ile)\nLenin ve Felsefe (1969)\nİdeoloji ve Devletin İdeolojik Aygıtları (1970)\nKendini Eleştiri Öğeleri (1974)\nGelecek Uzun Sürer (1992)\nKarşılaşma Materyalizminin Yeraltı Akıntısı (1994)",
+    keyConcepts: "Epistemolojik kopuş, kuramsal anti-hümanizm, üstbelirlenim, ideolojik devlet aygıtları, çağrı (interpellation), öznesiz süreç, karşılaşma materyalizmi",
+    influencedBy: "Karl Marx, Baruch Spinoza, Gaston Bachelard, Jacques Lacan, Georges Canguilhem, Mao Zedong",
+    influenced: "Étienne Balibar, Jacques Rancière (karşı), Alain Badiou, Judith Butler, Slavoj Žižek, Ernesto Laclau, Chantal Mouffe, kültürel çalışmalar",
+    longBio: "Cezayir'de doğdu; İkinci Dünya Savaşı'nda beş yıl Alman esir kampında kaldı. 1948'de École normale supérieure'de öğretim görevlisi oldu ve otuz yılı aşkın süre orada kaldı; aynı yıl Fransız Komünist Partisi'ne girdi. Öğrencileri arasında Balibar, Rancière, Badiou ve Foucault vardı; Lacan'ın seminerini 1963'te ENS'e taşıdı.\n\nMarx İçin ve Kapital'i Okumak (1965), Marx'ın 1845 civarında hümanist gençlik yazılarından koparak 'tarihin bilimi'ni kurduğunu savundu; bu 'epistemolojik kopuş' kavramını Bachelard'dan aldı. Kuramsal anti-hümanizm, Marksizmin 'insan' kavramına dayanmadığını ileri sürdü. 1970 tarihli ideoloji makalesi, ideolojinin maddi pratiklerde yaşadığını, okul ve aile gibi ideolojik devlet aygıtlarıyla işlediğini ve bireyleri 'çağrı' yoluyla özneye dönüştürdüğünü ortaya koydu.\n\nÖmür boyu süren depresyonla mücadele etti. 16 Kasım 1980'de eşi Hélène Rytmann'ı öldürdü; yargılanamaz bulunarak hastaneye kapatıldı. Ölümünden sonra yayımlanan otobiyografisi Gelecek Uzun Sürer olayı anlatır. 1990'da öldü.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/althusser/",
+  },
+  {
+    name: "Hans-Georg Gadamer",
+    slug: "hans-georg-gadamer",
+    headline: "Alman filozof, felsefi hermeneutiğin kurucusu (1900-2002)",
+    bio: "Hakikat ve Yöntem ile anlamanın bir yöntem değil, tarihsel ufukların karşılaşması olduğunu savundu. Önyargıyı anlamanın koşulu olarak rehabilite etti; Habermas ve Derrida ile tartışmaları yirminci yüzyıl felsefesinin dönüm noktalarındandır.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Hans-Georg%20Gadamer.jpg?width=600",
+    country: "Almanya",
+    birthYear: 1900,
+    affiliation: "Heidelberg Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Hans-Georg Gadamer",
+    birthDate: "11 Şubat 1900, Marburg",
+    deathDate: "13 Mart 2002, Heidelberg",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Felsefi hermeneutik · fenomenoloji",
+    areas: "Hermeneutik, dil felsefesi, estetik, Platon ve antik felsefe, pratik felsefe",
+    majorWorks: "Platon'un Diyalektik Etiği (1931)\nHakikat ve Yöntem (1960)\nFelsefi Hermeneutik (1976)\nBen Kimim ve Sen Kimsin? (1973)\nGüzelin Güncelliği (1977)\nPlaton'un Diyaloglarında Diyalog ve Diyalektik (1980)\nHegel'in Diyalektiği (1971)",
+    keyConcepts: "Ufukların kaynaşması, etki tarihi (Wirkungsgeschichte), önyargının rehabilitasyonu, hermeneutik daire, oyun, diyalog, uygulama (applicatio), gelenek",
+    influencedBy: "Platon, Aristoteles, Hegel, Dilthey, Husserl, Heidegger, Natorp",
+    influenced: "Jürgen Habermas, Paul Ricoeur, Richard Rorty, Charles Taylor, Gianni Vattimo, edebiyat kuramı, hukuk hermeneutiği",
+    longBio: "Marburg'da doğdu; Neo-Kantçı Paul Natorp'un yanında doktora yaptı, klasik filoloji okudu ve Heidegger'in derslerinden derinden etkilendi. 1949'da Heidelberg'de Jaspers'ten boşalan kürsüye geçti ve ömrünün sonuna kadar orada kaldı; savaş sonrasında kısa süre Leipzig rektörlüğü yaptı.\n\nHakikat ve Yöntem (1960), doğa bilimlerinin yöntem idealinin insan bilimlerine uygulanamayacağını savundu: Anlama, bir nesneye dışarıdan bakmak değil, yorumcunun kendi tarihsel ufkuyla metnin ufkunun kaynaştığı bir karşılaşmadır. Aydınlanma'nın 'önyargıya karşı önyargısı'nı eleştirdi; ön-anlamayı anlamanın koşulu saydı. Her metin 'etki tarihi'nin izlerini taşır ve biz ona o izlerin içinden bakarız.\n\nHabermas ile 1960'ların sonundaki tartışması, hermeneutiğin ideoloji eleştirisiyle ilişkisini; 1981'de Derrida ile Paris'teki karşılaşması hermeneutik ile yapısöküm arasındaki gerilimi görünür kıldı. Yüz iki yaşında, yirminci yüzyılın tamamına tanıklık etmiş olarak öldü.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/gadamer/",
+  },
+  {
+    name: "Nusret Hızır",
+    slug: "nusret-hizir",
+    headline: "Bilim felsefecisi ve mantıkçı (1899-1980)",
+    bio: "Hans Reichenbach'ın İstanbul'daki asistanı; mantıksal empirizmi Ankara'ya taşıyıp Türkiye'de bilim felsefesi geleneğinin kurucularından oldu. 147'liklerden; kavramsal açıklığı felsefenin ilk görevi saydı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1899,
+    affiliation: "Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Nusret Hızır",
+    birthDate: "1899 (bazı kaynaklarda 1889), İstanbul",
+    deathDate: "1980, Ankara",
+    alive: false,
+    period: "Yirminci yüzyıl",
+    school: "Mantıksal empirizm · bilimsel felsefe",
+    areas: "Bilim felsefesi, mantık, bilgi kuramı, felsefe tarihi",
+    majorWorks: "Felsefe Yazıları (1976)\nBilimin Işığında Felsefe (haz. Füsun Akatlı, 1985)\nGeride Kalanlar (1987)",
+    keyConcepts: "Kavramsal açıklık, sınır çizme problemi, nesne dili ve üst dil, bilimsel felsefe, diyalektik ile mantıksal çözümlemenin uzlaştırılması",
+    influencedBy: "Hans Reichenbach, Viyana Çevresi, Berlin Grubu, Bertrand Russell",
+    influenced: "Türkiye'de bilim felsefesi ve mantık geleneği, Füsun Akatlı, DTCF felsefe kuşağı",
+    longBio: "İstanbul'da doğdu; Almanya'da fizik, matematik, felsefe ve müzik okudu. 1934'te İstanbul Üniversitesi Edebiyat Fakültesi'ne Hans Reichenbach'ın asistanı olarak girdi; Reichenbach'ın bilimi felsefenin içinde düşünen yöntemini benimsedi. 1937'de Türk Tarih Kurumu'nda uzman oldu; 1947'de doçent, 1954'te Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi'nde profesör.\n\n1960 darbesinden sonra üniversiteden uzaklaştırılan 147 akademisyen arasındaydı; 1963'te Paris'te École normale supérieure'de felsefe dersleri verdi, 1968'de kürsüsüne döndü. Siyasal Bilgiler Fakültesi, Basın Yayın Yüksek Okulu, ODTÜ ve Hacettepe'de de ders verdi.\n\nBüyük monografiler yerine Ant, Yaprak ve Değişim gibi dergilerde kısa yazılar yazmayı tercih etti; Felsefe Yazıları (1976) 1977'de Türk Dil Kurumu Deneme Ödülü'nü aldı. 1979'da Türkiye Felsefe Kurumu onu onursal başkan seçti. Mantıksal empirizmi savunmakla birlikte analitik felsefenin tarihsiz kalmasından kaygı duydu ve diyalektik düşüncenin imkânlarını araştırdı. 1980'de Ankara'da öldü.",
+    sources: "T.C. Kültür ve Turizm Bakanlığı — https://www.ktb.gov.tr/EN-119009/hizir-nusret.html · Synthese 2022 — https://link.springer.com/article/10.1007/s11229-022-03740-9",
+  },
+  {
+    name: "Saul Kripke",
+    slug: "saul-kripke",
+    headline: "Amerikalı filozof ve mantıkçı (1940-2022)",
+    bio: "On yedi yaşında modal mantığın olası dünyalar anlambilimini kurdu. Naming and Necessity ile adların katı göstericiler olduğunu, zorunlu a posteriori hakikatlerin bulunduğunu savundu; metafiziği analitik felsefeye geri getirdi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Saul%20Kripke.jpg?width=600",
+    country: "ABD",
+    birthYear: 1940,
+    affiliation: "CUNY Graduate Center",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Saul Aaron Kripke",
+    birthDate: "13 Kasım 1940, Bay Shore, New York",
+    deathDate: "15 Eylül 2022, Plainsboro, New Jersey",
+    alive: false,
+    period: "Yirminci ve yirmi birinci yüzyıl",
+    school: "Analitik felsefe · modal mantık",
+    areas: "Mantık, dil felsefesi, metafizik, zihin felsefesi, Wittgenstein yorumu",
+    majorWorks: "A Completeness Theorem in Modal Logic (1959)\nNaming and Necessity (1980)\nWittgenstein on Rules and Private Language (1982)\nPhilosophical Troubles (2011)\nReference and Existence (2013)",
+    keyConcepts: "Olası dünyalar anlambilimi, katı gösterici, zorunlu a posteriori, nedensel ad kuramı, Kripkenstein, kural izleme paradoksu, özdeşlik kuramına modal itiraz",
+    influencedBy: "Gottlob Frege, Bertrand Russell, Ludwig Wittgenstein, Ruth Barcan Marcus, Kurt Gödel",
+    influenced: "Hilary Putnam, David Kaplan, Nathan Salmon, Scott Soames, çağdaş metafizik ve dil felsefesinin tamamı",
+    longBio: "Nebraska'da bir hahamın oğlu olarak büyüdü. Lisedeyken yazdığı ve 1959'da yayımlanan makalesiyle modal mantığın tamlık teoremini kanıtladı ve 'Kripke anlambilimi' denen olası dünyalar anlambilimini kurdu. Harvard'da lisans okurken MIT'de lisansüstü mantık dersi verdi; doktora yapmadı. Rockefeller, Princeton ve CUNY Graduate Center'da ders verdi.\n\n1970'te Princeton'da notsuz verdiği üç ders Naming and Necessity (1980) olarak yayımlandı: Özel adlar gizli betimlemeler değil, her olası dünyada aynı nesneyi gösteren katı göstericilerdir; adlar nesnelerine tarihsel-nedensel bir zincirle bağlanır. Buradan 'su H2O'dur' gibi zorunlu ama a posteriori hakikatlerin varlığı ve zihin-beyin özdeşlik kuramına modal itiraz çıktı. Metafizik, pozitivizmin yasağından sonra ilk kez saygın bir konu olarak geri döndü.\n\nWittgenstein on Rules and Private Language (1982), kural izleme paradoksunun 'Kripkenstein' diye anılan yorumunu sundu. Az yayımladı; etkisi büyük ölçüde ders notları ve dolaşan kopyalar üzerinden yayıldı. 15 Eylül 2022'de seksen bir yaşında öldü.",
+    sources: "CUNY Graduate Center — https://www.gc.cuny.edu/news/saul-kripke-eminent-philosopher-and-professor-dies-81 · Bulletin of Symbolic Logic — https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic/article/saul-kripke-19402022/A3C7AECE081936E181CE213CB69AC460",
+  },
+  {
     name: "Daniel C. Dennett",
     slug: "daniel-dennett",
     headline: "Amerikalı filozof (1942-2024)",
@@ -1860,8 +2040,8 @@ export const philosophers: SeedPhilosopher[] = [
     name: "Miranda Fricker",
     slug: "miranda-fricker",
     headline: "Epistemik adalet kuramcısı — New York Üniversitesi",
-    bio: "Bilgi alanındaki haksızlıkları kavramsallaştıran 'epistemik adaletsizlik' kavramının yaratıcısı. 2026'da Oxford'da Uehiro Konferansları'nı verdi.",
-    avatar: null,
+    bio: "Bilgi alanındaki haksızlıkları kavramsallaştıran 'epistemik adaletsizlik' kavramının yaratıcısı. 2026'da Oxford'da Uehiro, Columbia'da Dewey Konferansları'nı verdi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Miranda%20Fricker%20(25652615846).jpg?width=600",
     country: "İngiltere",
     birthYear: 1966,
     affiliation: "New York Üniversitesi",
@@ -2315,6 +2495,1925 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Tractatus 2026 Maria-Sibylla Lotter'e: 'Kurban' kavramının yükselişini soğukkanlılıkla çözümleyen bir deneme ödüllendirildi",
+    slug: "tractatus-odulu-2026-maria-sibylla-lotter-opfer",
+    summary:
+      "Almanca konuşulan dünyanın en yüksek ödüllü felsefi deneme ödülü Tractatus (25.000 avro), Bochumlu etik profesörü Maria-Sibylla Lotter'in 'Opfer. Über Verwundbarkeit als Selbstbild' kitabına verildi. Jüri, yalnızca kurban ve fail tanıyan bir insan imgesinin tehlikelerine dikkat çeken 'berrak' bir analizi ödüllendirdiğini açıkladı. Tören 25 Eylül'de Lech am Arlberg'de.",
+    seoTitle: "Tractatus Ödülü 2026: Maria-Sibylla Lotter, 'Opfer' ile ödüllendirildi",
+    metaDescription:
+      "Philosophicum Lech'in 25.000 avroluk Tractatus deneme ödülü 2026'da Maria-Sibylla Lotter'in 'Opfer. Über Verwundbarkeit als Selbstbild' kitabına verildi. Jüri gerekçesi, kısa liste ve Lotter'in düşüncesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Maria-Sibylla%20Lotter-3LechPhilosop-0605.jpg?width=1600",
+    imageCredit: "Maria-Sibylla Lotter, Philosophicum Lech 2014 · Fotoğraf: Dietmar Mathis / Philosophicum Lech, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026",
+    publishedAt: "2026-09-17T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "etik", "siyaset-felsefesi", "yeni-kitap", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Tractatus-Preisträgerin 2026", publisher: "Philosophicum Lech", date: "31 Ağustos 2026", url: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026", primary: true },
+      { title: "Tractatus Shortlist 2026", publisher: "Philosophicum Lech", date: "14 Temmuz 2026", url: "https://www.philosophicum.com/tractatus/shortlist/shortlist-2026" },
+      { title: "Shortlist für den Tractatus-Essaypreis des Philosophicum Lech 2026", publisher: "Philosophie Magazin", url: "https://www.philomag.de/artikel/shortlist-fuer-den-tractatus-essaypreis-des-philosophicum-lech-2026" },
+    ],
+    content: `Almanca felsefi denemeciliğin en prestijli ödülü olan Tractatus, 2026'da Ruhr Üniversitesi Bochum'da etik ve estetik profesörü Maria-Sibylla Lotter'e verildi. Philosophicum Lech derneğinin duyurusuna göre jüri, Lotter'in bu yıl mart ayında Hanser Yayınevi'nden çıkan *Opfer. Über Verwundbarkeit als Selbstbild* ("Kurban. Bir Benlik İmgesi Olarak İncinebilirlik Üzerine") başlıklı kitabını, altı kitaplık kısa listeden seçti. 25.000 avroluk ödül, 25 Eylül Cuma akşamı Lech am Arlberg'deki Lechwelten kültür merkezinde, 29. Philosophicum Lech kapsamında düzenlenecek törenle verilecek; övgü konuşmasını jüri üyesi Daniela Strigl yapacak.
+
+## Ödül ve jüri
+
+Tractatus, yazar Michael Köhlmeier'in önerisiyle 2009'da kuruldu ve bu yıl on sekizinci kez veriliyor. Özel sponsorlarla finanse edilen ödül, felsefi soruları daha geniş bir kamuoyu için anlaşılır biçimde tartışan deneme ya da deneme karakterli kitapları hedefliyor; değerlendirmede düşünce yaklaşımının özgünlüğü, dilsel biçimin başarısı ve konunun güncel önemi esas alınıyor. Önceki ödül sahipleri arasında Hartmut Rosa (*Rezonans*, 2016), Thomas Bauer (*Dünyanın Tektipleştirilmesi*, 2018), Lisa Herzog (2019), Christoph Möllers (2021), Isolde Charim (2023), Philipp Hübl (2024) ve geçen yıl yapay duygusal zekâ üzerine yazdığı *Gefühle der Zukunft* ile Eva Weber-Guskar var.
+
+Üç kişilik jüri, 2023'ten bu yana Avusturyalı edebiyat bilimci ve eleştirmen Daniela Strigl, İsviçreli filozof ve kültür gazetecisi Catherine Newmark ile Alman edebiyat eleştirmeni Ijoma Mangold'dan oluşuyor; Philosophicum Lech'in eş yöneticisi Konrad Paul Liessmann, oy hakkı olmaksızın jüriye başkanlık ediyor. 14 Temmuz'da açıklanan kısa listede Lotter'in yanı sıra Andreas Dorschel'in manifesto poetikası (*Die Welt verändern*), Philip Manow'un Avrupa parti sistemleri üzerine çalışması (*Spaltungslinien*), Richard Schuberth'in antisemitizm denemesi, Martin Warnke'nin büyük dil modellerinin kısa tarihi (*Large Language Kabbala*) ve Stefan Weidner'in yoga üzerinden Doğu-Batı ilişkisini okuyan kitabı (*Yoga oder Die sanfte Eroberung des Westens durch den Osten*) yer alıyordu.
+
+## Kitap: Kurban olmanın otoritesi
+
+Lotter'in kitabı, son on yılın en hararetli kültürel tartışmalarından birine, "kurban" (Opfer) kavramının kamusal söylemdeki yükselişine, jürinin deyişiyle "soğukkanlı ve nesnel bir bağlılıkla" yaklaşıyor. Jüri gerekçesi, Lotter'in sorunu üç düzeyde çözümlediğini vurguluyor: Kurbanı neredeyse dokunulmaz kılan "kurban otoritesi"; sosyal medyanın hızlandırdığı ve ilkesel olarak suçluluk varsayımından hareket eden "öfke mantığı"; ve psikolojik durumların giderek patolojikleştirilmesinden türeyen "terapi ahlakı". Lotter'e göre kendini feda etme boyutunu, yani öz-belirlenimi yitirmiş bir kurban kavramı, ırkçı ya da cinsel ayrımcılığa uğrayanları bir aşağılık benlik imgesine hapsetme eğilimi taşıyor.
+
+Jürinin en çok değer verdiği yön, Lotter'in söylem tarihini kavram tarihi olarak ele alması. "Travma" ya da "şiddet" gibi kavramların iyi niyetli genişletilmesinin, tartışmayı ve bir kişiye ya da gruba tanınan eylem alanını nasıl daralttığını kamusal hayattan ve kendi deneyiminden örneklerle gösteren Lotter, radikal akademik ideoloji eleştirisinin toplumsal ana akıma sızmasını, kurban gruplarının birbiriyle rekabetini ve demokratik tartışma kültürünün felcini betimliyor. Teşhisi keskin: Son on yıllarda değişimin özgürleştirici itkisi, gerçek ilişkilerden dile göç etti. Jüri, kitabın "yalnızca kurban ve fail tanıyan, muğlaklığa ve kendini güçlendirmeye yer bırakmayan bir insan imgesinin tehlikelerine" bakışımızı keskinleştirdiğini yazıyor.
+
+## Lotter kimdir?
+
+1961'de Kassel'de doğan Lotter, Freiburg, Berlin ve St. Louis'de felsefe, dinbilim ve etnoloji okudu; 1994'te Berlin Teknik Üniversitesi'nde Alfred North Whitehead'in toplumsal ontolojisi üzerine doktora yaptı. 2010'da Zürih Üniversitesi'nde sorumluluk ve kişiliğin kültürel önkoşulları üzerine habilitasyonunu tamamladı; bu çalışmanın gözden geçirilmiş biçimi *Scham, Schuld, Verantwortung* ("Utanç, Suç, Sorumluluk", Suhrkamp, 2012) adıyla yayımlandı ve dördüncü baskısına ulaştı. 2014'ten bu yana Bochum'da ders veren Lotter, Stanley Cavell'ın *Cities of Words* kitabını Almancaya çevirdi; 2024'te intikam ve uzlaşma pratiği üzerine *Schuld und Respekt* ("Suç ve Saygı", Suhrkamp) çıktı. Neue Zürcher Zeitung ve Die Zeit'a düzenli yazıyor. Çalışma alanları, gündelik hayatın etiği, suç ve sorumluluk, yalan ve kendini kandırma, fikir ayrılıkları ve tartışma kültürü.
+
+## Neden önemli?
+
+Ödülün bu yıl Lotter'e gitmesi, Tractatus jürisinin son yıllardaki bir eğilimini sürdürüyor: Hübl'ün *Moralspektakel*'i (2024) ahlaki tutumun statü sembolüne dönüşmesini, Charim'in *Die Qualen des Narzissmus*'u (2023) gönüllü boyun eğmeyi ele almıştı; Lotter'in kitabı aynı ahlaki kültür eleştirisi damarına ait. Bu damar Almanca konuşulan dünyada, özellikle "woke" tartışmalarının bağlamında, hem büyük ilgi hem sert itiraz görüyor; kitabın "aşırı dengeli" bir bakışla övülmesi de, tam da bu tartışmanın kutuplaşmış ikliminde okunmalı. Lotter'in kendisi, kurbanların gerçekliğini inkâr etmediğini, kurban kavramının siyasallaşmasının bizzat kurbanlara zarar verdiğini savunuyor.
+
+Kitabın Türkçeye çevrilip çevrilmeyeceği henüz belli değil; ama incinebilirlik, tanınma ve kimlik siyaseti üzerine Türkiye'deki tartışmalar düşünüldüğünde, tartışmaya değer bir metin. Philosophicum Lech'in 22-27 Eylül tarihli 2026 programını [Konferanslar sayfamızda](/haber/philosophicum-lech-2026-betreutes-denken) ayrıca ele alıyoruz.`,
+  },
+  {
+    title: "29. Philosophicum Lech: 'Vesayet altında düşünmek' teması altı gün boyunca Arlberg'de tartışılacak",
+    slug: "philosophicum-lech-2026-betreutes-denken",
+    summary:
+      "Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech, 22-27 Eylül'de 'Betreutes Denken. Die neue Lust an der Unmündigkeit' başlığıyla toplanıyor. Precht, Safranski, Rostalski, Newmark, Butter ve Nosthoff konuşacak; Barbara Bleisch ve Konrad Paul Liessmann açılış tartışmasını yapacak. Tractatus töreni 25 Eylül'de.",
+    seoTitle: "Philosophicum Lech 2026: Betreutes Denken — program, konuşmacılar, tarihler",
+    metaDescription:
+      "29. Philosophicum Lech (22-27 Eylül 2026): 'Betreutes Denken. Die neue Lust an der Unmündigkeit' temalı programda Richard David Precht, Rüdiger Safranski, Frauke Rostalski, Catherine Newmark, Michael Butter, Anna-Verena Nosthoff ve Romy Jaster.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lech%20am%20Arlberg%202006.jpg?width=1600",
+    imageCredit: "Lech am Arlberg, Vorarlberg · Fotoğraf: Florian Lindner, CC BY 2.5 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/symposium-2026/programm",
+    publishedAt: "2026-09-17T02:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "sempozyum", "aydinlanma", "demokrasi", "yapay-zeka", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Programmübersicht: Betreutes Denken. Die neue Lust an der Unmündigkeit", publisher: "Philosophicum Lech", date: "9 Eylül 2026 itibarıyla", url: "https://www.philosophicum.com/symposium-2026/programm", primary: true },
+      { title: "Tractatus-Preisträgerin 2026", publisher: "Philosophicum Lech", url: "https://www.philosophicum.com/tractatus/archiv/preistraegerin-2026" },
+    ],
+    content: `Kant'ın 1784'te Aydınlanma'yı tanımlarken kullandığı sözcük *Unmündigkeit* idi: Kişinin aklını başkasının rehberliği olmadan kullanamaması, "ergin olmama" hâli. Kant bunu "kendi suçuyla düşülmüş" bir durum olarak nitelemiş ve Aydınlanma'yı ondan çıkış olarak tanımlamıştı. İki yüz kırk iki yıl sonra Vorarlberg Alpleri'ndeki Lech köyü, aynı sözcüğü bir soru işaretiyle gündeme getiriyor: *Betreutes Denken. Die neue Lust an der Unmündigkeit*, yani "Vesayet Altında Düşünmek. Ergin Olmamanın Yeni Cazibesi." Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech'in 22-27 Eylül tarihli yirmi dokuzuncu buluşması, insanların kendi başına düşünmekten neden vazgeçtiğini, bu vazgeçişin neden bir yükümlülük değil bir keyif hâline geldiğini soruyor.
+
+## Program
+
+Festival, 22 Eylül Salı günü ana temadan bağımsız güncel analiz oturumları olan Philosophicum Dialoge ile açılıyor: Claus Leggewie ve Susanne Schröter "Durum nedir?", Stefan Gosepath ve Anna Schneider "Ne yapmalı?" sorularını tartışacak. 23 Eylül'de Patrick Bahners, Faika El-Nagashi, Mirna Funk, Ulli Kulke ve Robert Misik'in katılacağı "Kendi başına düşünmek: dünün kavramı mı?" başlıklı panel ve ardından yazar Raphaela Edelbauer ile "İnsanın ne kadar hakikate ihtiyacı var?" başlıklı edebi-felsefi akşam yapılacak.
+
+Asıl sempozyum 24 Eylül Perşembe akşamı, festivalin eş yöneticileri İsviçreli filozof Barbara Bleisch ile Viyanalı filozof Konrad Paul Liessmann'ın tema üzerine bir "tartışmalı söyleşisiyle" açılacak. 25 Eylül Cuma günü Richard David Precht "İlliberal liberalizm? Özgürlüğü savunmanın paradoksu", Marie-Luisa Frick (Innsbruck) "Erginlik: dikenli bir ideal mi?", Roland Reichenbach (Zürih) "Görüşler krallığında yargı: belagat ve eğitim üzerine" ve Romy Jaster (Berlin) "Vesayet altında kendi başına düşünmek: dezenformasyon çağında akıl" başlıklı konuşmalar yapacak. Aynı akşam saat 21.00'de Tractatus ödül töreni düzenlenecek; bu yılın ödülünü kazanan Maria-Sibylla Lotter'i [Ödüller sayfamızda](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer) ele alıyoruz.
+
+26 Eylül Cumartesi günü ceza hukukçusu Frauke Rostalski (Köln) "İncinebilir toplum: kişisel sorumluluğun sonu mu?", Catherine Newmark (Berlin) "Otorite ve çaba: erginlik için fazla mı yorgunuz?", komplo teorileri araştırmacısı Michael Butter (Tübingen) "Her yerde kriz: semptom olarak komplo teorileri" ve sosyolog Laura Wiesböck (Viyana) "Psikiyatrik tanılar ve çelişkili benlik ve dünya yorumlarının yitimi" konuşmalarıyla yer alacak. Festival 27 Eylül Pazar sabahı Anna-Verena Nosthoff'un (Oldenburg) "Sibernetik otoriterlik: tekno-faşizm çağında dijital yönetim sanatları" ve Rüdiger Safranski'nin "Ruhsuzlaştırılmış: yapay zekânın etkisi üzerine notlar" başlıklı konuşmalarıyla kapanacak. Program, düzenleyicilerin 9 Eylül tarihli güncellemesine dayanıyor; değişiklik olabilir.
+
+## Neden izlemeye değer?
+
+Philosophicum Lech, yirmi dokuz yıldır her eylül akademik felsefeyi geniş bir kamuoyuyla buluşturan, Alpler'de bir dağ köyünde toplanan alışılmadık bir kurum; kendi tanımıyla "çeyrek yüzyılı aşkın süredir entelektüel tartışmanın seçkin bir mekânı". Bu yılın teması, festivalin son yıllardaki çizgisini sürdürüyor: Bleisch ve Liessmann yönetimindeki festival, kimlik siyasetinden dezenformasyona, terapi kültüründen yapay zekâya uzanan güncel tartışmaları Aydınlanma geleneğinin kavramlarıyla yeniden okumaya çalışıyor. Konuşmacı listesi, bu okumanın tek sesli olmadığını gösteriyor: Rostalski'nin kişisel sorumluluk vurgusu ile Nosthoff'un "tekno-faşizm" eleştirisi aynı programda; Precht'in medyatik liberalizmi ile Jaster'in analitik dezenformasyon çalışması yan yana.
+
+Türkiye'deki okur için festivalin önemi, tartışmanın Almanca kamusal alanında sürmesi kadar, sorunun evrenselliğinde. "Vesayet altında düşünmek" ifadesi, yapay zekâ asistanlarının düşünme işini devraldığı, algoritmaların okuma listesi belirlediği ve uzman otoritesinin hem yüceltildiği hem hor görüldüğü bir dünyada, yalnızca Alpler'e özgü bir soru değil. Sitemizde bu hafta [yapay zekâ ve siyasal iktidar](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) üzerine yazdıklarımızla birlikte okunduğunda, Lech'teki tartışma, Kant'ın sorusunun 2026'daki biçimidir: Aklını kullanmaya cesaret et; ama önce, kullanmak isteyip istemediğine karar ver.
+
+**Pratik bilgi:** Lechwelten, Lech am Arlberg (Avusturya). Sempozyum katılımı kayıt ve ücret gerektiriyor; Tractatus töreni (25 Eylül, 21.00) ve 26 Eylül'deki Kandinsky Quartet konseri ücretsiz. Ayrıntılar ve kayıt: philosophicum.com.`,
+  },
+  {
+    title: "17 Eylül: Popper'ın ölümünden Searle'ün son gününe, Anayasa fikrinden yapay zekâ çağına",
+    slug: "felsefe-tarihinde-bugun-17-eylul-popper-searle-hildegard",
+    summary:
+      "Karl Popper 1994'te, John Searle 2025'te bugün öldü; Hildegard von Bingen 1179'da. Aynı gün 1787'de Philadelphia'da ABD Anayasası imzalandı. David Kaplan ve Greg Bahnsen'in doğum günleri. Ve bugün açılan toplantılar: Nashville, Indiana'da eğitim felsefesi; Pittsburgh'un çevrimiçi tıp felsefesi yuvarlak masası.",
+    seoTitle: "Felsefe tarihinde bugün, 17 Eylül: Popper, Searle, Hildegard, ABD Anayasası",
+    metaDescription:
+      "17 Eylül'de felsefe tarihi: Karl Popper'ın (1994) ve John Searle'ün (2025) ölümü, Hildegard von Bingen (1179), ABD Anayasası'nın imzalanması (1787), David Kaplan ve Greg Bahnsen'in doğumları.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20Karl%20Popper.jpg?width=1600",
+    imageCredit: "Karl Popper, 1987 · Fotoğraf: DorianKBandy, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica · National Archives",
+    sourceUrl: "https://plato.stanford.edu/entries/popper/",
+    publishedAt: "2026-09-17T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "zihin-felsefesi", "ortacag-felsefesi", "siyaset-felsefesi", "konferans"],
+    philosopherSlugs: ["karl-popper"],
+    sources: [
+      { title: "Karl Popper", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/popper/", primary: true },
+      { title: "Philosopher Karl Popper Dies", publisher: "The Washington Post", date: "19 Eylül 1994", url: "https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/" },
+      { title: "John Searle (1932-2025)", publisher: "Daily Nous", date: "28 Eylül 2025", url: "https://dailynous.com/2025/09/28/john-searle-1932-2025/" },
+      { title: "Hildegard of Bingen", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/hildegard-bingen/" },
+      { title: "The Constitution of the United States", publisher: "U.S. National Archives", url: "https://www.archives.gov/founding-docs/constitution" },
+      { title: "Annual Conference 2026", publisher: "Ohio Valley Philosophy of Education Society", url: "https://ovpes.org/conference" },
+      { title: "13th International Philosophy of Medicine Roundtable Conference", publisher: "University of Pittsburgh, Center for Philosophy of Science", url: "https://www.centerphilsci.pitt.edu/event/13th-international-philosophy-of-medicine-roundtable-conference/" },
+    ],
+    content: `Takvimin bazı günleri bir tema etrafında toplanır; 17 Eylül'ün teması, bilginin sınırıdır. Bugün ölen iki büyük filozof, Karl Popper ve John Searle, farklı yollardan aynı soruyu sordu: Bir iddianın doğru olduğunu nereden biliriz ve bir makine gerçekten bilebilir mi? Aynı gün 1787'de imzalanan bir belge, siyasal iktidarın sınırını yazılı hâle getirdi; sekiz yüz elli yıl önce ölen bir kadın, görüleriyle ortaçağ bilgisinin sınırlarını zorladı.
+
+## 1994: Karl Popper'ın ölümü
+
+Karl Raimund Popper, 17 Eylül 1994 Cumartesi sabahı Londra'nın güneyinde, Croydon yakınlarındaki Kenley'de doksan iki yaşında öldü; ölüm nedeni zatürre ve böbrek yetmezliğiydi. 1902'de Viyana'da doğmuştu. 1934 tarihli *Logik der Forschung* ile bilimin ayırt edici özelliğinin doğrulanabilirlik değil yanlışlanabilirlik olduğunu savunarak Viyana Çevresi'nden koptu; 1945'te Yeni Zelanda sürgününde yazdığı *Açık Toplum ve Düşmanları* ile Platon, Hegel ve Marx'ı totaliter düşüncenin kaynakları arasında saydı. 1946'dan 1969'a kadar London School of Economics'te ders verdi; 1965'te şövalye unvanı aldı. Ölümünün üzerinden otuz iki yıl geçti; yanlışlanabilirlik ölçütü hâlâ bilim felsefesinin başlangıç noktası, "hoşgörü paradoksu" hâlâ siyaset tartışmalarının başvuru kaynağı. Popper'ın düşüncesini bugün ayrıca [Filozoflar Hakkında sayfamızda](/haber/karl-popper-yanlislanabilirlik-acik-toplum-portre) ele alıyoruz.
+
+## 2025: John Searle'ün son günü
+
+Bir yıl önce bugün, 17 Eylül 2025'te, John Rogers Searle Florida'da doksan üç yaşında öldü. 31 Temmuz 1932'de Denver'da doğmuş, Oxford'da Austin'in öğrencisi olmuş, 1959'dan itibaren Berkeley'de ders vermişti. Söz edimleri kuramı (1969), Çin Odası argümanı (1980), biyolojik doğalcılık ve toplumsal gerçekliğin inşası (1995) üzerine çalışmaları, dil ve zihin felsefesinin son yarım yüzyılını biçimlendirdi. Çin Odası argümanı, yapay zekâ tartışmasının merkezine yerleşmiş nadir felsefi düşünce deneylerinden biri olarak bugün de tartışılıyor. Sitemizde Searle'ün mirasını ölümünün ardından [iki ayrı dosyada](/haber/john-searle-cin-odasi-anlam-kurum) ele almıştık; bu yazıları, ilk ölüm yıldönümünde yeniden okumak için iyi bir gün.
+
+## 1179: Hildegard von Bingen
+
+Benediktin başrahibesi, bestecisi, doğa bilgini ve görü yazarı Hildegard von Bingen, 17 Eylül 1179'da Rupertsberg manastırında seksen bir yaşında öldü. *Scivias* ("Yolları Bil"), *Liber vitae meritorum* ve *Liber divinorum operum* adlı üç büyük görü kitabı, kozmoloji, ahlak ve teolojiyi tek bir sistemde birleştirdi; *Physica* ve *Causae et curae* ise doğa felsefesi ile tıbbı. Çağının kadınlarına kapalı olan kamusal alanda vaaz verdi, imparatorlarla yazıştı, papalarla tartıştı. 2012'de Kilise Doktoru ilan edildi. Ortaçağ felsefesi tarihinde uzun süre kenarda bırakılan Hildegard, son otuz yılda, özellikle beden, doğa ve kozmos ilişkisini düşünen çağdaş felsefede yeniden okunuyor.
+
+## 1787: Anayasa fikri
+
+17 Eylül 1787'de Philadelphia'da otuz dokuz delege Amerika Birleşik Devletleri Anayasası'nı imzaladı. Belge, Locke'un sınırlı yönetim, Montesquieu'nün kuvvetler ayrılığı ve Hume'un "fraksiyon" analizi gibi Aydınlanma düşüncelerini bir yönetim mekanizmasına çevirdi. Anayasayı savunan *Federalist* yazıları, Ekim 1787'den itibaren gazetelerde yayımlanmaya başladı; iki ciltlik ilk kitap baskısı 1788 baharında çıktı. Bugün, yapay zekânın siyasal iktidarı nasıl dönüştürdüğünü tartıştığımız [Gündem yazımız](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) düşünüldüğünde, 1787'nin sorusu hâlâ güncel: İktidar nasıl sınırlanır ve sınırı kim denetler?
+
+## Doğum günleri
+
+**David Kaplan** (d. 17 Eylül 1933, Los Angeles). UCLA'da yarım yüzyılı aşkın süre ders veren mantıkçı ve dil filozofu; "Demonstratives" (1977/1989) ile belirtme sözcüklerinin (ben, burada, şimdi) anlamını karakter ve içerik ayrımıyla açıklayan kuramı, çağdaş dil felsefesinin temel taşlarından. Doksan üç yaşında.
+
+**Greg Bahnsen** (17 Eylül 1948 - 1995). Amerikalı Kalvinist filozof ve ilahiyatçı; Cornelius Van Til'in "önvarsayımcı" apolojetiğini sistemleştirdi ve tanrıtanımazlarla yaptığı kamusal tartışmalarla tanındı. Ana akım felsefede az anılsa da, din felsefesinin apolojetik kanadında etkisi sürüyor.
+
+## Bugün açılan toplantılar
+
+Ohio Valley Eğitim Felsefesi Derneği'nin (OVPES) 2026 yıllık toplantısı bugün Nashville, Indiana'daki Seasons Lodge'da ön atölyeyle başlıyor ve 19 Eylül'e kadar sürüyor; bu yılın teması "eğitimsel kayıp ve umut". Pittsburgh Üniversitesi Bilim Felsefesi Merkezi'nin ev sahipliği yaptığı 13. Uluslararası Tıp Felsefesi Yuvarlak Masası ise 14-18 Eylül arasında çevrimiçi sürüyor; tanı, belirsizlik, yapay zekâ ve sağlık politikası oturumlarının bugünkü bölümü 09.00-11.30 (ABD Doğu saati) arasında. Her iki toplantı da ücretsiz kayıtla açık.`,
+  },
+  {
+    title: "Karl Popper: Bilgiyi kesinlikten kurtaran, siyaseti kehanetten arındıran filozof",
+    slug: "karl-popper-yanlislanabilirlik-acik-toplum-portre",
+    summary:
+      "Ölümünün otuz ikinci yılında Karl Popper'ı yeniden okumak: Yanlışlanabilirlik neden hâlâ bilimin en iyi tanımı; 'açık toplum' neden hâlâ liberal demokrasinin en iyi savunusu; ve Popper'ın Platon, Hegel, Marx okuması neden hâlâ tartışmalı. Yapay zekâ çağında bir eleştirel akılcının mirası.",
+    seoTitle: "Karl Popper (1902-1994): yanlışlanabilirlik, açık toplum ve eleştirel akılcılık",
+    metaDescription:
+      "Karl Popper portresi: Viyana'dan Yeni Zelanda'ya ve Londra'ya uzanan hayatı, yanlışlanabilirlik ölçütü, Açık Toplum ve Düşmanları, Kuhn ve Lakatos ile tartışmaları, hoşgörü paradoksu ve yapay zekâ çağındaki güncelliği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Popper.jpg?width=1600",
+    imageCredit: "Karl Popper, 1980 dolayları · Fotoğraf: Franz Barta · Wikimedia Commons (kısıtlamasız)",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/popper/",
+    publishedAt: "2026-09-17T02:20:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["bilim-felsefesi", "epistemoloji", "siyaset-felsefesi", "demokrasi", "platon", "marksizm"],
+    philosopherSlugs: ["karl-popper", "platon", "ludwig-wittgenstein"],
+    sources: [
+      { title: "Karl Popper", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/popper/", primary: true },
+      { title: "Karl Popper | Biography, Books, Theory, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/Karl-Popper" },
+      { title: "Philosopher Karl Popper Dies", publisher: "The Washington Post", date: "19 Eylül 1994", url: "https://www.washingtonpost.com/archive/local/1994/09/19/philosopher-karl-popper-dies/552cb60c-3ff8-421a-b10e-f64d288509e1/" },
+    ],
+    content: `Karl Popper hakkında yazmanın bir zorluğu var: Onun en ünlü fikirleri o kadar yaygınlaşmış, o kadar sıradan bilgi hâline gelmiş ki, ne kadar radikal olduklarını görmek güçleşiyor. "Bir kuram yanlışlanamıyorsa bilimsel değildir" cümlesi bugün lise ders kitaplarında; "açık toplum" ifadesi vakıf adlarında ve siyasetçi konuşmalarında. Oysa 1934'te Viyana'da otuz iki yaşındaki bir öğretmen bu fikirleri ilk kez yazdığında, çağının en güçlü felsefi hareketine, mantıksal pozitivizme, doğrudan meydan okuyordu. Ve 1945'te Yeni Zelanda'da *Açık Toplum ve Düşmanları*'nı bitirdiğinde, Batı felsefesinin en saygın üç ismini, Platon, Hegel ve Marx'ı, totaliterliğin fikir babaları olarak yargılıyordu. Otuz iki yıl önce bugün ölen Popper'ı anmak, bu radikalliği geri kazanmak demek.
+
+## Viyana: Yıkılan bir dünyanın çocuğu
+
+Popper, 28 Temmuz 1902'de Viyana'da, Protestanlığa geçmiş Yahudi bir ailede doğdu. Babası Simon Popper, hukukçu ve on binlerce kitaplık bir kütüphanenin sahibiydi; oğlunun çocukluğu Habsburg İmparatorluğu'nun son yıllarında, felsefe, müzik ve siyasetin iç içe geçtiği bir evde geçti. İmparatorluğun 1918'de çöküşü ve onu izleyen kaos, genç Popper'ı kısa süreliğine Marksizme yaklaştırdı. 1919'da, on yedi yaşındayken, bir işçi gösterisinde polisin ateş açmasıyla ölen gençlerin ardından Marksizmden koptu; ama kopuşun nedeni, kendi anlatımına göre, şiddetin kendisinden çok, Marksistlerin bu ölümleri "tarihin kaçınılmaz bedeli" olarak açıklamalarıydı. Bu deneyim, Popper'ın bütün siyaset felsefesinin çekirdeğini oluşturdu: Tarihin gidişatını bildiğini iddia eden her öğreti, bugünün insanlarını yarının hayaline feda etmeye hazırdır.
+
+Aynı yıllarda Popper, Einstein'ın görelilik kuramını, Freud'un psikanalizini ve Adler'in bireysel psikolojisini yan yana düşünmeye başladı. Fark ettiği şey, sonradan "sınır çizme sorunu" diye adlandıracağı şeydi: Freud ve Adler'in kuramları her şeyi açıklıyordu; hangi davranışı gösterirseniz gösterin, kuram onu doğruluyordu. Einstein'ın kuramı ise 1919'daki güneş tutulması gözlemiyle çürütülebilirdi ve Einstein bunu açıkça söylemişti. Popper'ın çıkardığı sonuç paradoksaldı: Bir kuramın gücü, her şeyi açıklamasında değil, neyi yasakladığında yatar. Bilimsel bir kuram, yanlış çıkabilecek tahminler yapar; her gözlemle uyumlu olan bir kuram, hiçbir şey söylemiyordur.
+
+## Yanlışlanabilirlik: Bilimin mantığı
+
+1934'te yayımlanan *Logik der Forschung* (İngilizcesi *The Logic of Scientific Discovery*, 1959), bu sezgiyi sistemleştirdi. Viyana Çevresi'nin filozofları, Carnap ve Schlick başta olmak üzere, bilimsel bilginin gözlemlerden tümevarımla türetildiğini ve anlamlı önermelerin doğrulanabilir olanlar olduğunu savunuyordu. Popper her iki tezi de reddetti. Tümevarım, Hume'un iki yüzyıl önce gösterdiği gibi, mantıksal olarak temellendirilemezdi: Bin beyaz kuğu gözlemi "bütün kuğular beyazdır" önermesini kanıtlamaz, ama tek bir siyah kuğu onu çürütür. Bilim, öyleyse, doğrulama biriktirmez; cesur tahminler ileri sürer ve onları yanlışlamaya çalışır. Hayatta kalan kuramlar "doğru" değil, "şimdilik çürütülememiş" kuramlardır.
+
+Bu görüşün felsefi sonuçları geniştir. Bilgi, kesinlikten arındırılır: Popper'ın deyişiyle bilim, bataklık üzerine kazıklarla kurulmuş bir binadır; kazıklar kayaya ulaşmaz, yalnızca binayı taşıyacak kadar derine iner. Rasyonellik, kanıtlama yeteneği değil, eleştiriye açıklık olarak yeniden tanımlanır; Popper'ın kendi adlandırmasıyla "eleştirel akılcılık" budur. Ve bilim insanının erdemi, kuramına sadakat değil, onu çürütmeye çalışma cesaretidir.
+
+Yanlışlanabilirlik ölçütü, elbette, eleştiriden payını aldı. Thomas Kuhn 1962'de *Bilimsel Devrimlerin Yapısı*'nda bilim insanlarının pratikte kuramlarını çürüten gözlemleri görmezden geldiğini, "normal bilim"in bulmaca çözmekten ibaret olduğunu gösterdi. Popper'ın öğrencisi Imre Lakatos, tek tek kuramların değil "araştırma programlarının" değerlendirilebileceğini savunarak hocasının ölçütünü yumuşattı. Paul Feyerabend ise yöntemin kendisine karşı çıktı. Ama tartışmanın tamamı Popper'ın açtığı zeminde yürüdü; ve bugün bilim felsefesinde "Popper'dan sonra" ifadesi, "Kant'tan sonra" gibi bir dönemi adlandırıyor.
+
+## Açık toplum: Savaş çabasına bir katkı
+
+Nazizmin yükselişi Popper'ı 1937'de Yeni Zelanda'ya, Christchurch'teki Canterbury University College'a sürükledi. Avrupa'dan uzakta, kütüphanesi kısıtlı, savaşın gidişatını radyodan izleyen Popper, kendi deyişiyle "savaş çabasına katkısı" olarak iki kitap yazdı: *Tarihsiciliğin Sefaleti* ve *Açık Toplum ve Düşmanları*. İkincisi 1945'te Londra'da yayımlandı ve Popper'ı bir gecede ünlü yaptı.
+
+Kitabın tezi, bilim felsefesindeki tezinin siyasete uygulanmasıdır. Nasıl bilimsel bilgi kesin değilse, siyasal bilgi de kesin değildir; ve tarihin yasalarını bildiğini, geleceğin nereye gittiğini gördüğünü iddia eden her öğreti, Popper'ın "tarihsicilik" dediği şey, totaliterliğe kapı açar. Çünkü geleceği bilen, bugünü ona göre düzenleme hakkını da talep eder. Popper, bu düşüncenin soykütüğünü Platon'un *Devlet*'ine kadar götürdü: Filozof-kralın yönettiği, sınıfların sabit, değişimin yozlaşma sayıldığı ideal devlet, "kapalı toplum"un ilk büyük tasarımıydı. Hegel'in tarihi Tin'in kendini gerçekleştirmesi olarak okuması ve Marx'ın kapitalizmin kaçınılmaz çöküşü kehaneti, aynı yapının modern biçimleriydi.
+
+Buna karşı Popper'ın önerdiği "açık toplum", bireylerin kişisel kararlar verebildiği, kurumların eleştiriye açık olduğu ve yöneticilerin kan dökülmeden değiştirilebildiği toplumdur. Popper'ın demokrasi tanımı, dikkat çekici biçimde mütevazıdır: Demokrasi, halkın yönetimi değil, kötü yöneticilerden şiddet kullanmadan kurtulabilme imkânıdır. Ve toplumsal reform, ütopik bir planı bütünüyle hayata geçirmek değil, somut sorunları tek tek çözmek, sonuçlarını izlemek ve hataları düzeltmektir: "Parça parça toplum mühendisliği." Burada da yanlışlanabilirlik mantığı işler: Küçük adımlar, hataları görünür ve düzeltilebilir kılar; büyük planlar, hataları gizler.
+
+Kitabın Platon, Hegel ve Marx okuması, yayımlandığı günden bu yana tartışmalı. Klasikçiler Popper'ın Platon'u bağlamından kopardığını, Hegel uzmanları kitabın Hegel bölümünün karikatür olduğunu, Marksistler ise Marx'ın bilimsel iddialarıyla siyasal kehanetlerinin ayrılması gerektiğini savundu. Popper'ın kendisi de Marx'a karşı, Platon ve Hegel'e olduğundan daha saygılı yazmış, onu "insancıl bir dürtüyle" hareket eden ama yöntemi yanlış bir düşünür olarak nitelemişti. Ama kitabın gücü, filolojik doğruluğundan çok, kavramsal netliğinden gelir: Tarihsicilik ile totaliterlik arasındaki bağ, 1945'ten bu yana siyaset kuramının kalıcı temalarından biri.
+
+## Hoşgörü paradoksu
+
+*Açık Toplum*'un bir dipnotu, kitabın en çok alıntılanan pasajı hâline geldi: Sınırsız hoşgörü, hoşgörünün ortadan kalkmasına yol açar; hoşgörüsüz olanlara karşı hoşgörüyü sınırlama hakkını saklı tutmayan bir toplum, onlar tarafından yok edilir. Popper'ın "hoşgörü paradoksu" dediği bu argüman, son yıllarda nefret söylemi, platform moderasyonu ve aşırı sağın yükselişi tartışmalarında yeniden dolaşıma girdi. Popper'ın kendisi, dipnotun devamında, hoşgörüsüz felsefeleri "akılcı argümanla karşılayabildiğimiz ve kamuoyuyla denetim altında tutabildiğimiz sürece" bastırmamak gerektiğini yazmıştı; paradoksun sık sık unutulan bu ikinci yarısı, Popper'ın liberalizminin ne kadar dikkatli olduğunu gösterir.
+
+## Londra ve son yıllar
+
+1946'da, Hayek'in girişimiyle, London School of Economics'e çağrıldı ve 1969'a kadar orada ders verdi. LSE yılları, Popper'ın hem en verimli hem de en tartışmalı dönemiydi. 1946'da Cambridge'de Wittgenstein ile ünlü "maşa" olayı yaşandı: Popper'ın anlatımına göre Wittgenstein, felsefi sorunların gerçek olup olmadığı tartışmasında elindeki şömine maşasını sallamış ve odayı terk etmişti. Olayın tanıkları farklı anlatılar verdi; ama olay, yirminci yüzyıl felsefesinin iki karşıt mizacını, dilin sınırlarına çekilen Wittgenstein ile dünyanın sorunlarına açılan Popper'ı, tek bir sahnede özetledi.
+
+Geç dönem Popper, bilim felsefesinden metafiziğe genişledi. *Nesnel Bilgi* (1972) ile "üç dünya" kuramını geliştirdi: Fiziksel nesnelerin dünyası, zihinsel durumların dünyası ve kuramlar, argümanlar ve sorunlar gibi nesnel düşünce içeriklerinin dünyası. Bu üçüncü dünya, insan yapımıdır ama insandan bağımsız bir gerçekliğe sahiptir: Bir kuram, kimsenin fark etmediği sonuçlar içerebilir. Nöroloğu John Eccles ile yazdığı *Benlik ve Beyni* (1977), zihin-beden düalizmini savundu ve Popper'ı çağdaş zihin felsefesinin ana akımının dışına yerleştirdi. 1965'te şövalye unvanı aldı; 1994'te doksan iki yaşında öldü.
+
+## Yapay zekâ çağında Popper
+
+Popper'ın güncelliğini en iyi gösteren yer, belki de hiç yazmadığı bir konu: yapay zekâ. Büyük dil modellerinin "bilgi" üretip üretmediği tartışmasında Popper'ın ölçütü hâlâ en keskin araç: Bir sistem, çürütülebilir tahminler yapıyor mu, yoksa her soruya uyumlu bir cevap mı üretiyor? Doğrulama biriktiren, eleştiriyi değil onayı ödüllendiren sistemler, Popper'ın terimleriyle, Freud'un kuramına benzer; her şeyi açıklar, hiçbir şey yasaklamaz. Ve "açık toplum" kavramı, algoritmik yönetişim tartışmalarında yeni bir anlam kazanıyor: Kararların eleştirilebilir, yöneticilerin değiştirilebilir olduğu bir toplum, kararların görünmez sistemlerin içinde verildiği bir toplumla bağdaşır mı? Bugünkü [Gündem yazımızda](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) tartıştığımız soru, Popper'ın 1945'te sorduğu sorunun devamıdır.
+
+Popper'ın son sözü, belki de en iyi özeti: Bilmediğimizin bilgisi, bildiğimizin bilgisinden daha önemlidir. Kesinlik arayan bir çağda, kesinliğin imkânsızlığını bilimin ve özgürlüğün koşulu olarak savunmak, Popper'ın kalıcı katkısıdır.`,
+  },
+  {
+    title: "Yapay Zekâ Dünya Siyasetini Değiştirirken: İktidarın Yeni Makinesi mi, İnsanlığın Yeni Sınavı mı?",
+    slug: "yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi",
+    summary:
+      "BM Güvenlik Konseyi yapay zekâyı barış ve güvenlik gündemine aldı; Guterres 'dibe doğru bir yarış' uyarısı yaptı; Philosophy & Technology'de arka arkaya iki makale yapay zekânın demokrasiyle ilişkisini yeniden kurdu. Hobbes'tan Arendt'e, Kant'tan Habermas'a siyaset felsefesi bu yeni iktidar makinesine ne söylüyor?",
+    seoTitle: "Yapay zekâ ve dünya siyaseti: iktidar, egemenlik ve demokrasi",
+    metaDescription:
+      "BM Güvenlik Konseyi'nin yapay zekâ gündemi, Guterres'in 'dibe doğru yarış' uyarısı, Horowitz'in CIGI raporu ve Philosophy & Technology'deki yeni makaleler ışığında yapay zekâ ve siyaset felsefesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20General%20Assembly%202024.jpg?width=1600",
+    imageCredit: "BM Genel Kurul Salonu, New York (2024) · Fotoğraf: Mojnsen, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Security Council Report · CIGI · Philosophy & Technology",
+    sourceUrl: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+    publishedAt: "2026-09-17T01:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "siyaset-felsefesi", "demokrasi", "teknoloji-felsefesi", "etik", "risk"],
+    philosopherSlugs: ["jurgen-habermas"],
+    sources: [
+      {
+        title: "September 2026 Monthly Forecast: Overview",
+        publisher: "Security Council Report",
+        date: "Eylül 2026",
+        url: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+        primary: true,
+      },
+      {
+        title: "Artificial Intelligence, the Future of War and International Politics (CIGI Papers No. 345)",
+        publisher: "Centre for International Governance Innovation",
+        date: "Şubat 2026",
+        url: "https://www.cigionline.org/documents/3739/Michael_C._Horowitz.pdf",
+      },
+      {
+        title: "AI and Democracy: Mapping Notions, Debates and Challenges",
+        publisher: "Philosophy & Technology 39(3)",
+        date: "21 Ağustos 2026",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01167-5",
+      },
+      {
+        title: "When LLMs Threaten Democratic Autonomy",
+        publisher: "Philosophy & Technology 39(3)",
+        date: "15 Eylül 2026",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01184-4",
+      },
+      {
+        title: "Dozens of current, former officials see at least a 10% chance humans lose control of AI",
+        publisher: "Nextgov/FCW",
+        date: "2 Eylül 2026",
+        url: "https://www.nextgov.com/artificial-intelligence/2026/09/dozens-current-former-officials-see-least-10-chance-humans-lose-control-ai/415762/",
+      },
+    ],
+    content: `Siyaset felsefesinin en eski sorusu, iktidarın kaynağı ve sınırıdır. Bu soru, tarihin her büyük teknolojik kırılmasında yeniden sorulmuştur: Matbaa, dinsel otoriteyi; buhar, toprak aristokrasisini; telgraf ve radyo, ulusal kamuoyunun sınırlarını değiştirdi. Bugün, 2026 Eylül'ünün ortasında, aynı soru bir kez daha ve bu kez alışılmadık bir aciliyetle karşımızda. Çünkü yapay zekâ, önceki teknolojilerden farklı olarak yalnızca iktidarın aracı değil, giderek iktidarın *biçimi* hâline geliyor: Kararı hızlandıran, öngörüyü tekelleştiren, kamuoyunu ölçen ve şekillendiren bir makine.
+
+Bu haftanın haberleri bu dönüşümün artık soyut bir tartışma olmadığını gösteriyor. Birleşmiş Milletler Güvenlik Konseyi'nin Eylül ayı gündeminde yapay zekâ, uluslararası barış ve güvenlik başlığı altında ayrı bir madde olarak yer aldı. Security Council Report'un aylık öngörüsüne göre Konsey, 2 Eylül'de Bahreyn, Fransa, Yunanistan ve Letonya'nın ev sahipliğinde "erken uyarıdan kalıcı barışa: çatışma çözümünde yapay zekâdan yararlanmak" başlıklı gayriresmî bir diyalog düzenledi; Fransa'nın dönem başkanlığında, Genel Kurul haftasına denk gelen üst düzey bir yapay zekâ toplantısı planlanıyor. BM Genel Sekreteri António Guterres ise 16 Eylül'de yaptığı açıklamada dünyanın yapay zekâ güvenliğinde "dibe doğru bir yarışı" kaldıramayacağını söyledi ve büyük güçler arasındaki jeopolitik bölünmenin ortak güvenlik kurallarını imkânsızlaştırmasından endişe ettiğini belirtti. Bu gelişmelerin ayrıntılarını bugünkü [Dünya sayfamızda](/haber/bm-guvenlik-konseyi-yapay-zeka-guterres-dibe-dogru-yaris) ele alıyoruz; burada asıl soruyu sormak istiyoruz: Felsefe, bu yeni iktidar makinesi hakkında ne söyleyebilir?
+
+## Hobbes'un Leviathan'ı ve algoritmik egemen
+
+Thomas Hobbes, *Leviathan*'da (1651) devleti, insanların güvenlik karşılığında doğal haklarının bir kısmını devrettiği yapay bir kişi olarak tanımlamıştı. Hobbes'un kelimesi tam olarak buydu: Devlet bir *automaton*'dur, insan eliyle yapılmış yapay bir insandır. Bu benzetme, on yedinci yüzyılda mekanik bir metafordu; bugün neredeyse harfi harfine gerçekleşiyor. Yapay zekâ sistemleri, devletlerin karar alma süreçlerine, istihbarat analizine, sınır denetimine ve askerî hedeflemeye giriyor. Michael C. Horowitz'in Şubat 2026'da Centre for International Governance Innovation için yazdığı *Artificial Intelligence, the Future of War and International Politics* başlıklı rapor, bu dönüşümü tarihsel bir perspektife oturtuyor: Nükleer silahlardan farklı olarak yapay zekânın sınırı bu kez devletler değil, şirketler belirliyor; en gelişmiş sistemler ordulardan önce özel laboratuvarlarda ortaya çıkıyor. Horowitz, uluslararası toplumun önünde üç seçenek olduğunu yazıyor: Otonom silah sistemleri konusunda bir anlaşma, nükleer silahlar üzerinde insan denetiminin korunmasına dair bağlayıcı bir taahhüt ve BM çatısı altında yeni bir kurum.
+
+Hobbes'un çerçevesinden bakınca sorun şudur: Egemen, meşruiyetini güvenlik sağlama kapasitesinden alır. Yapay zekâ bu kapasiteyi artırırken egemenin kendisini de dönüştürüyor. Kararı hızlandıran sistem, kararın kimin olduğunu bulanıklaştırıyor. Bir devletin yapay zekâ destekli erken uyarı sistemi bir saldırı tahmini ürettiğinde, "egemen" kimdir: Sistemi tasarlayan mühendis mi, veriyi sağlayan şirket mi, sonucu onaylayan subay mı? Nextgov'un 2 Eylül'de aktardığı, Institute for Security and Technology ile Future of Life Institute'un 111 ulusal güvenlik ve yapay zekâ uzmanıyla yaptığı ankette katılımcıların yüzde 96'sı nükleer kullanım kararının mutlaka bir insan tarafından verilmesi gerektiğini söylüyor; yüzde 87'si yapay zekânın on yıl içinde insan denetiminin dışına çıkma olasılığını yüzde 10 ya da daha yüksek görüyor; üçte biri bu kaybın geri alınamaz olacağını bekliyor. Bu rakamlar, Hobbes'un yapay insanının gerçekten de kendi iradesine sahip olup olamayacağı sorusunun artık felsefe seminerlerinin dışına taştığını gösteriyor.
+
+## Kant'ın barışı ve algoritmik hukuk
+
+Immanuel Kant, *Ebedî Barış*'ta (1795) uluslararası barışın ancak cumhuriyetçi anayasalar, bir devletler federasyonu ve kozmopolit hukuk üzerine kurulabileceğini savunmuştu. Kant'ın üç maddesi, bugün BM sisteminin ve uluslararası hukukun düşünsel çekirdeğini oluşturur. Yapay zekâ bu çekirdeği iki yönden zorluyor. Birincisi, Kant'ın cumhuriyetçi anayasa şartı, yurttaşların savaş kararına katılımını öngörür; savaş kararlarının giderek kapalı, teknik ve hızlı sistemlerin içine çekilmesi bu katılımı fiilen ortadan kaldırıyor. İkincisi, kozmopolit hukuk evrensel bir ahlaki topluluğu varsayar; oysa yapay zekâ altyapısı, yarı iletkenler, hesaplama gücü, enerji ve kritik mineraller üzerindeki rekabet, Security Council Report'un da vurguladığı gibi, dünyayı yeni bir kutuplaşma haritasına bölüyor.
+
+Yine de Kant'tan öğrenilecek şey, karamsarlık değil. *Ebedî Barış*'ın mantığı, barışın doğal bir durum olmadığını, kurulması gereken bir şey olduğunu söyler. Guterres'in çağrısı, BM'nin yeni kurduğu Bağımsız Uluslararası Yapay Zekâ Bilimsel Paneli ve Yapay Zekâ Yönetişimi Küresel Diyaloğu, tam da bu Kantçı "kurma" işinin bugünkü biçimleridir. Akademisyenlerin yapay zekâ konusunda bağlayıcı bir uluslararası antlaşma için [yayımladığı açık mektup](/haber/akademisyenler-acik-mektup-yapay-zeka-antlasma-2026) da aynı geleneğin içindedir.
+
+## Arendt: İktidar ve şiddet arasında
+
+Hannah Arendt, *Şiddet Üzerine*'de (1970) iktidar ile şiddeti kesin bir biçimde ayırmıştı: İktidar, insanların birlikte eylemesinden doğar; şiddet ise araçlara dayanır. Araçların sofistikeleşmesi iktidarı artırmaz, tam tersine, iktidarın yerini alma tehlikesi taşır. Arendt'in bu ayrımı, yapay zekâ çağının en aydınlatıcı kavramsal aracı olabilir. Otonom silahlar, gözetim sistemleri ve tahmine dayalı polislik, iktidarın değil şiddetin araçlarıdır; ve Arendt'in uyarısı, bu araçların birlikte eyleme yeteneğini, yani gerçek iktidarı aşındırdığı yönündedir. Bir hükümet yurttaşlarını ikna etmek yerine onları öngörebiliyorsa, ikna etmeye ihtiyaç duymayacaktır. Arendt'in "kimsenin yönetimi" dediği bürokrasi, algoritmik yönetimde en saf biçimine ulaşır: Sorumlu bir kişi yoktur, yalnızca bir sistem vardır.
+
+## Habermas ve müzakerenin makineleşmesi
+
+Jürgen Habermas'ın iletişimsel eylem kuramı, meşruiyeti müzakereye bağlar: Bir norm, ancak etkilenen herkesin özgür bir tartışmada kabul edebileceği bir norm ise geçerlidir. Bu ay *Philosophy & Technology* dergisinde yayımlanan iki makale, bu Habermasçı ideali yapay zekâ karşısında sınıyor.
+
+Thomas Ploug'un ilk yazarı olduğu ve 21 Ağustos'ta çevrimiçi yayımlanan "AI and Democracy: Mapping Notions, Debates and Challenges" başlıklı derleme, yapay zekânın demokrasi için "tehdit mi, imkân mı" olduğu sorusunun yanlış sorulduğunu savunuyor. Yazarlara göre demokrasi özünde tartışmalı bir kavramdır; yapay zekânın demokratik değeri, hangi demokrasi modelini benimsediğinize göre değişir. Literatürü tarayan makale üç örüntü saptıyor: Kavramsal belirsizlik ile karamsar değerlendirmeler genellikle birlikte gidiyor; demokrasi modelleri çoğu zaman "miras alınıyor", yeniden düşünülmüyor; ve araştırmacıların demokratik varsayımları, yapay zekâ hakkındaki yargılarını belirliyor. Sonuç: Kavramsal netlik olmadan ampirik bulgular ile normatif argümanlar birbirinin yanından geçiyor.
+
+Lorenzo Manuali'nin (Michigan Üniversitesi) 15 Eylül'de yayımlanan "When LLMs Threaten Democratic Autonomy" makalesi ise daha keskin bir tez ileri sürüyor. Bilgisayar bilimcilerin ve müzakereci demokrasi uygulayıcılarının büyük dil modellerini "demokrasiyi güçlendirmek" için kullanma projeleri, Manuali'ye göre, bir kolektifin kendi geleceğini belirleme yeteneğinin araçsal olmayan değerini tehdit ediyor. Makale, demokratik özerkliğin gerekli koşullarını, ortak bir niyetin varlığı ve bu niyetin politikada anlamlı ölçüde gerçekleşmesi olarak belirledikten sonra iki tür projenin, müzakereyi kolaylaştıran ve yurttaşların çıkarlarını temsil eden dil modellerinin, bu koşulları nasıl aşındırabileceğini gösteriyor. Habermasçı terimlerle: Müzakereyi bir makineye devretmek, müzakerenin ürettiği meşruiyeti de devretmektir. Sitemizde daha önce ele aldığımız [dokuz ülkeli kutuplaşma araştırması](/haber/demokratik-normlar-kutuplasma-dokuz-ulke) ile birlikte okunduğunda tablo netleşiyor: Demokrasinin krizi ile yapay zekânın yükselişi aynı zeminde buluşuyor.
+
+## Foucault, Zuboff ve görünmez iktidar
+
+Michel Foucault'nun *Hapishanenin Doğuşu*'nda (1975) anlattığı panoptikon, gözetlenenin gözetleyeni göremediği bir iktidar mimarisiydi. Shoshana Zuboff'un *Gözetim Kapitalizmi Çağı* (2019) bu mimarinin ticari biçimini betimledi: Davranış verisi hammaddedir, tahmin üründür, davranış değişikliği kârdır. Yapay zekânın dünya siyasetine girişi, bu iki analizi devlet düzeyine taşıyor. Foucault'nun "yönetimsellik" kavramı, iktidarın yasaklamaktan çok yönlendirmekle işlediğini söylüyordu; büyük dil modelleriyle beslenen bilgi ortamları tam da bunu yapıyor. Dikkat çekici olan, bu iktidarın görünmezliğidir: Bir sansür yasası tartışılabilir, bir öneri algoritması tartışılamaz, çünkü kimse onu görmez.
+
+## Rousseau ve Marx: Genel irade ve üretim araçları
+
+Jean-Jacques Rousseau'nun *Toplum Sözleşmesi*'ndeki (1762) "genel irade" kavramı, bugün yapay zekâ destekli kamuoyu araştırmaları ve "sentetik yurttaş" simülasyonlarıyla tuhaf bir yankı buluyor. Rousseau, genel iradenin tekil iradelerin toplamı olmadığını, ortak iyiyi hedefleyen bir iradenin ancak yurttaşların birbirini etkilemeden düşünmesiyle ortaya çıkabileceğini söylemişti. Yapay zekânın kamuoyu ölçümü ise tam tersini yapıyor: İradeleri toplar, ağırlıklandırır, öngörür. Manuali'nin "temsil eden dil modelleri" eleştirisi, aslında Rousseau'nun temsil eleştirisinin güncel biçimidir: Genel irade temsil edilemez; edildiği anda başka bir şeye dönüşür.
+
+Marx'ın çerçevesi ise en maddi soruyu sorduruyor: Yapay zekâ çağında üretim araçlarına kim sahip? Horowitz'in vurguladığı gibi sınır modelleri birkaç şirketin elinde; Security Council Report'un tespitine göre yarı iletken, enerji ve veri üzerindeki rekabet yeni bir jeopolitik eksen oluşturuyor. Sitemizde [Dario Amodei'nin "hızı yavaşlatmalıyız" çağrısını](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) tartışırken de görmüştük: En güçlü teknolojinin sahipleri, onun düzenlenmesini talep ediyor; bu, Marx'ın hayal edemeyeceği bir çelişkidir.
+
+## Fırsatlar: İyimserliğin makul biçimi
+
+Karamsar çerçevelerin yanına, hakkını vermek gerekir, gerçek fırsatları da koymak gerekir. Security Council Report'un kendisi, yapay zekânın çatışma önleme, arabuluculuk, barış operasyonları ve yaptırım izleme alanlarında sunduğu imkânları sıralıyor: Erken uyarı sistemleri, şiddet öncesi örüntüleri saptayabiliyor; dil modelleri, arabuluculuk süreçlerinde tarafların metinlerini analiz edebiliyor; uydu görüntüleri, ateşkes ihlallerini belgeleyebiliyor. Ploug ve arkadaşlarının makalesindeki uyarı burada da geçerli: Bu fırsatların "demokratik" olup olmadığı, hangi demokrasi anlayışıyla değerlendirdiğinize bağlı. Katılımcı bir demokrasi anlayışı için erişimi genişleten araçlar kazanç; müzakereci bir anlayış için aynı araçlar, müzakerenin niteliğini düşürüyorsa kayıptır.
+
+## Sorumluluk: Wiener'in uyarısı
+
+Sibernetiğin kurucusu Norbert Wiener, 1960'ta *Science*'ta yayımlanan "Some Moral and Technical Consequences of Automation" makalesinde, öğrenen makinelerin yaratıcılarının niyetini aşabileceğini ve bu yüzden bir makineye devrettiğimiz her amacın gerçekten istediğimiz amaç olduğundan emin olmamız gerektiğini yazmıştı. Altmış altı yıl sonra IST ve FLI'nin anketindeki uzmanlar aynı kaygıyı ölçülebilir hâle getiriyor. Wiener'in sorusu ahlak felsefesinin en eski sorusudur: Bir eylemin sorumluluğu kime aittir? Yapay zekâ bu soruya yeni bir katman ekliyor: Karar, birden çok elden, birden çok sistemden geçtiğinde sorumluluk dağılıyor; ve dağılan sorumluluk, Arendt'in uyardığı gibi, hiç kimsenin sorumluluğuna dönüşüyor.
+
+## Amerika'daki tartışma ve BM'nin sınırları
+
+Guterres'in "dibe doğru yarış" uyarısının arkasında, iki büyük yapay zekâ gücünün, Amerika Birleşik Devletleri ile Çin'in, ortak kurallar konusunda anlaşamaması var. Washington'da tartışma, federal düzenleme ile eyalet yasaları arasında, "inovasyonu boğmama" ile "ulusal güvenlik" arasında salınıyor; Pekin ise kendi yönetişim modelini uluslararası forumlara taşıyor. BM'nin kurumsal cevabı, Bilimsel Panel ve Küresel Diyalog, bağlayıcı olmayan mekanizmalar. Kant'ın federasyonu, bugün henüz bir tartışma masasından ibaret.
+
+## Sonuç: Sınav kimin?
+
+Başlıktaki soruyu yanıtlamanın zamanı geldi: Yapay zekâ iktidarın yeni makinesi mi, insanlığın yeni sınavı mı? Her ikisi. Ama sınavın öznesi hakkında yanılmamak gerekir. Sınava giren, "insanlık" gibi soyut bir varlık değil, somut siyasal topluluklardır: Yurttaşlarına karar süreçlerini açmaya devam eden ya da etmeyen devletler; müzakereyi bir makineye devreden ya da devretmeyen kurumlar; kendi geleceğini belirleme iddiasını sürdüren ya da sürdürmeyen halklar. Hobbes'un yapay insanı, Kant'ın federasyonu, Arendt'in birlikte eylemi, Habermas'ın müzakeresi, hepsi aynı şeyi söylüyor: Siyaset, insanların birbirine ne yaptığıdır. Makinelerin bu ilişkiye girmesi, ilişkinin kendisini ortadan kaldırmaz; yalnızca onu görünmez kılma tehlikesi taşır. Felsefenin görevi, bu görünmezliğe direnmektir.`,
+  },
+  {
+    title: "BM, Güvenlik Konseyi ve 'dibe doğru yarış': Yapay zekâ New York'ta barış ve güvenlik gündemine girdi",
+    slug: "bm-guvenlik-konseyi-yapay-zeka-guterres-dibe-dogru-yaris",
+    summary:
+      "Güvenlik Konseyi, Fransa'nın dönem başkanlığında Genel Kurul haftasına denk gelen üst düzey bir yapay zekâ toplantısı hazırlıyor. Guterres 'güvenlikte dibe doğru yarışa' karşı uyardı; BM İnsan Hakları Yüksek Komiseri Türk 'benzeri görülmemiş riskler'den söz etti. 111 uzmanla yapılan anket, nükleer kararlarda kırmızı çizgi talebinde neredeyse oybirliği gösteriyor.",
+    seoTitle: "BM Güvenlik Konseyi yapay zekâ toplantısı ve Guterres'in uyarısı (Eylül 2026)",
+    metaDescription:
+      "BM Güvenlik Konseyi'nin Eylül 2026 yapay zekâ gündemi, Guterres'in 'dibe doğru yarış' uyarısı, Volker Türk'ün çağrısı ve IST-FLI uzman anketinin bulguları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20-%20Security%20Council%20chamber%2C%20angled%20view%20(cropped).jpg?width=1600",
+    imageCredit: "BM Güvenlik Konseyi Salonu, New York · Fotoğraf: Jdforrester, CC BY 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Security Council Report · AFP · Nextgov",
+    sourceUrl: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+    publishedAt: "2026-09-17T01:25:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "risk", "etik", "siyaset-felsefesi", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "September 2026 Monthly Forecast: Overview",
+        publisher: "Security Council Report",
+        date: "Eylül 2026",
+        url: "https://www.securitycouncilreport.org/monthly-forecast/2026-09/overview-93.php",
+        primary: true,
+      },
+      {
+        title: "UN Security Council to hold high-level AI meeting as rights chief warns of 'unprecedented risks'",
+        publisher: "South China Morning Post / AFP",
+        date: "15 Eylül 2026",
+        url: "https://www.scmp.com/news/world/united-states-canada/article/3367511/un-security-council-hold-meeting-ai-next-week-amid-international-concern",
+      },
+      {
+        title: "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'",
+        publisher: "Associated Press (CP24)",
+        date: "16 Eylül 2026",
+        url: "https://www.cp24.com/news/world/2026/09/16/un-chief-urges-global-ai-co-operation-saying-world-cant-afford-a-race-to-the-bottom-on-ai-safety/",
+      },
+      {
+        title: "Türk calls for urgent, meaningful action to tackle unprecedented AI risks",
+        publisher: "OHCHR (GlobalSecurity.org aktarımı)",
+        date: "14 Eylül 2026",
+        url: "https://www.globalsecurity.org/military/library/news/2026/09/mil-260914-ohchr01.htm",
+      },
+      {
+        title: "Dozens of current, former officials see at least a 10% chance humans lose control of AI",
+        publisher: "Nextgov/FCW",
+        date: "2 Eylül 2026",
+        url: "https://www.nextgov.com/artificial-intelligence/2026/09/dozens-current-former-officials-see-least-10-chance-humans-lose-control-ai/415762/",
+      },
+    ],
+    content: `Birleşmiş Milletler'in New York'taki Genel Kurul haftası, her yıl dünya siyasetinin en yoğun takvimini oluşturur. Bu yılın takviminde yeni bir başlık var: Yapay zekâ, ilk kez Güvenlik Konseyi'nin barış ve güvenlik gündeminin merkezine yerleşiyor. Security Council Report'un Eylül 2026 aylık öngörüsüne göre Fransa, dönem başkanlığı sırasında yapay zekânın uluslararası barış ve güvenliğe etkilerini ele alan üst düzey bir toplantı planlıyor; AFP'nin 15 Eylül'de aktardığına göre toplantı gelecek hafta, dünya liderlerinin New York'ta bulunduğu günlerde yapılacak.
+
+## Erken uyarıdan kalıcı barışa
+
+Konsey'in yapay zekâyla ilgisi bu ay başlamadı, ama bu ay yoğunlaştı. 2 Eylül'de Bahreyn, Fransa, Yunanistan ve Letonya'nın ortak ev sahipliğinde "From Early Warning to Durable Peace: Leveraging AI in Conflict Resolution" başlıklı gayriresmî bir diyalog düzenlendi. Security Council Report'un özetine göre tartışma iki eksende ilerledi. Bir yanda fırsatlar: Yapay zekâ, çatışma önleme, arabuluculuk, barış operasyonları ve yaptırım rejimlerinin izlenmesi gibi alanlarda Konsey'in çalışma biçimini değiştirebilir. Öte yanda riskler: Siber saldırılar, bilgi ortamının manipülasyonu ve silahlı çatışmada otonom sistemlerin kullanımı. Rapor, bu iki eksenin arkasındaki daha derin bir gerilime de işaret ediyor: Yarı iletkenler, hesaplama gücü, enerji, veri ve kritik mineraller üzerindeki rekabet, yapay zekâyı bir yönetişim sorunu olmaktan çıkarıp bir güç mücadelesi konusuna dönüştürüyor.
+
+## Guterres: 'Dibe doğru yarış'
+
+BM Genel Sekreteri António Guterres, 16 Eylül'de yaptığı açıklamada dünyanın yapay zekâ güvenliğinde "dibe doğru bir yarışı" kaldıramayacağını söyledi. Guterres'e göre büyük güçler arasındaki jeopolitik bölünme, ortak güvenlik kurallarını imkânsızlaştırma tehlikesi taşıyor; Genel Sekreter, diyalog, bilgi paylaşımı ve ortak güvenlik sınırları çağrısı yaptı. AP'nin aktardığına göre Guterres, açıklamasında yapay zekâ sektörünün "ön saflarındaki" isimlerin, gelişmenin risk anlayışımızı geride bıraktığı yönündeki kaygılarına atıfta bulundu; bu, Anthropic'in kurucusu Dario Amodei'nin geçen hafta ortaya attığı ve sitemizde [ayrıntılı ele aldığımız](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) koordineli yavaşlama önerisine dolaylı bir yanıt olarak okundu. Bu çağrının kurumsal zemini, BM'nin geçen yıl kurduğu iki mekanizma: Bağımsız Uluslararası Yapay Zekâ Bilimsel Paneli ve Yapay Zekâ Yönetişimi Küresel Diyaloğu. Her ikisi de bağlayıcı olmayan yapılar; Guterres'in açıklaması, tam da bu bağlayıcı olmayışın sınırlarına işaret ediyor.
+
+## Türk: 'Benzeri görülmemiş riskler'
+
+BM İnsan Hakları Yüksek Komiseri Volker Türk, 14 Eylül'de İnsan Hakları Konseyi'ne hitaben yaptığı açıklamada yapay zekânın insan hakları açısından "benzeri görülmemiş riskler" taşıdığını, insanlığın "geri döndürülemez bir değişimin eşiğinde" olduğunu söyledi ve devletler ile sınırdaki şirketleri, kendi ürünlerinin hak ihlallerine yol açmasını önlemek için harekete geçmeye çağırdı. Türk'ün vurgusu, Güvenlik Konseyi'nin güvenlik odaklı çerçevesine bir insan hakları katmanı ekliyor: Gözetim, ayrımcılık ve ifade özgürlüğü, askerî risklerden ayrı düşünülemez.
+
+## Uzmanlar ne düşünüyor: 111 kişilik anket
+
+Tartışmanın ampirik zeminini bu ay yayımlanan bir anket sağlıyor. Institute for Security and Technology ile Future of Life Institute'un 30 Nisan-15 Temmuz arasında 111 ulusal güvenlik ve yapay zekâ uzmanıyla yaptığı ankete göre katılımcıların yüzde 87'si yapay zekânın on yıl içinde insan denetiminin dışına çıkma olasılığını yüzde 10 ya da daha yüksek görüyor; üçte biri bu kontrol kaybının geri alınamaz olacağını bekliyor. Nükleer kullanım kararının mutlaka insan tarafından verilmesi gerektiğini söyleyenler yüzde 96; yapay zekânın nükleer komuta-kontrol sistemlerini özerk biçimde yönetmemesi gerektiğini söyleyenler yüzde 89. Katılımcıların çoğunluğu özerk askerî eylem (yüzde 70), özerk siber operasyon (yüzde 67) ve insan onayı olmadan ölümcül özerklik (yüzde 56) konularında yasak istiyor. Ankete katılanların önemli bir kısmı istihbarat topluluğu, Kongre, Savunma, Enerji ve Dışişleri bakanlıklarında görev yapmış isimler. Anket, bir uzman topluluğunun görüşünü yansıtıyor; kehanet değil. Ama Güvenlik Konseyi'nin masasına gelen gündemin ne kadar somutlaştığını gösteriyor.
+
+## Ne bekleniyor?
+
+Konsey'in üst düzey toplantısından bağlayıcı bir karar çıkması beklenmiyor; toplantıların büyük kısmı başkanlık bildirisi ya da yalnızca tartışmayla sonuçlanıyor. Yine de üç gelişme izlenmeye değer. Birincisi, otonom silah sistemleri konusunda Genel Kurul'daki müzakerelerin Konsey gündemine taşınıp taşınmayacağı. İkincisi, Bilimsel Panel'in ilk raporunun takvimi. Üçüncüsü, ABD ve Çin'in ortak bir metne imza atıp atmayacağı; Guterres'in "dibe doğru yarış" uyarısı, tam da bu ihtimalin zayıflığına yönelik. Sitemizde daha önce [OpenAI'nin "kaçak ajanlar" için zorunlu düzenleme çağrısını](/haber/openai-kacak-ajanlar-zorunlu-duzenleme) ve [akademisyenlerin antlaşma mektubunu](/haber/akademisyenler-acik-mektup-yapay-zeka-antlasma-2026) ele almıştık; New York'taki toplantı, bu çağrıların devletler düzeyinde karşılık bulup bulmadığının ilk sınavı olacak. Bu gelişmelerin siyaset felsefesi açısından anlamını bugünkü [Gündem yazımızda](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) tartışıyoruz.`,
+  },
+  {
+    title: "16 Eylül 2026 itibarıyla yaklaşan önemli felsefe konferansları",
+    slug: "yaklasan-felsefe-konferanslari-16-eylul-2026",
+    summary:
+      "Bugün üç toplantı aynı anda: Eleştirel Siyasal Epistemoloji (propaganda, epistemik şiddet, 'aracılı cehalet'), Bristol'da Ruyu Hung'la Doğu Asya pedagojisi ve 'ben-sizlik', Malta'da bedenin yaşantılanması üzerine disiplinlerarası kolokyumun kapanışı. Sonbaharın diğer toplantıları için önceki üç seçkimize bağlantılar; tekrar yok.",
+    seoTitle: "Yaklaşan felsefe konferansları: 16 Eylül 2026",
+    metaDescription:
+      "Critical Political Epistemology (16 Eylül), Tiān-hé: Martistry in the Making as Nonself-cultivation (Bristol, 16 Eylül), Embodied Lives: Interdisciplinary Dialogues on the Body (Malta, 14-16 Eylül) ve sonbahar takvimine bağlantılar.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Courtyard%20at%20University%20of%20Malta.jpg?width=1600",
+    imageCredit: "Malta Üniversitesi Valletta kampüsü avlusu · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/146753",
+    publishedAt: "2026-09-16T01:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "epistemoloji", "fenomenoloji", "akademi", "demokrasi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Critical Political Epistemology",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/146753",
+        primary: true,
+      },
+      {
+        title: "Tiān-hé: Martistry in the Making as Nonself-cultivation",
+        publisher: "University of Bristol, School of Education",
+        url: "https://www.bristol.ac.uk/education/events/2026/",
+      },
+      {
+        title: "International Colloquium — Embodied Lives: Interdisciplinary Dialogues on the Body",
+        publisher: "L-Università ta' Malta, Faculty of Theology",
+        url: "https://www.um.edu.mt/theology/activities/internationalcolloquiumembodiedlives/",
+      },
+    ],
+    content: `Bu haftanın konferans takvimini üç kez yayımladık; bu yazı yalnızca **bugün** gerçekleşen üç toplantıyı ele alıyor. Ekim ve kasım toplantıları için sondaki bağlantılara bakılabilir.
+
+## 16 Eylül — Eleştirel Siyasal Epistemoloji
+
+PhilEvents'te kayıtlı toplantı, siyasal epistemolojinin eleştirel kanadına odaklanıyor: yabancılaşma, propaganda, epistemik şiddet ve bilgi rejimleri. Programda dikkat çeken iki bildiri var: "Bedensiz Bedenlenme: Aşırı Sağ Radikalizmde İfade ve Bilgi" ve "Aracılı Cehalet" (Mediated Ignorance). İkincisi, bu hafta sitemizde [Fricker'ın hermeneutik adaletsizlik kavramıyla](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) tartıştığımız sorunun tersinden okunuşu: Bilgisizlik yalnızca bir eksiklik değil, medya ve platformlar aracılığıyla **üretilen** bir durum olabilir. "Siyasal epistemoloji" alanı son on yılda hızla büyüdü; Michael Hannon ve Jeroen de Ridder'in 2021 tarihli Routledge el kitabı alanı kurumsallaştırdı. "Eleştirel" sıfatı, alanın liberal-analitik ana akımına karşı — Marx, Foucault, Fricker'dan beslenen — bir konumlanmayı işaret ediyor. Toplantının mekânını düzenleyici kurumun sayfasından teyit edemedik; PhilEvents kaydına dayanıyoruz.
+
+## 16 Eylül · Bristol ve çevrim içi — Tiān-hé: Ben-sizliğin Yetiştirilmesi Olarak Sanat Yapımı
+
+Bristol Üniversitesi Eğitim Fakültesi'nin hibrit oturumunda Tayvanlı eğitim felsefecisi Ruyu Hung konuşuyor. Başlık, Çince "tiān-hé" (gök-uyum) kavramı ile "martistry" — sanat yapımı ile dövüş sanatını birleştiren bir kelime oyunu — üzerinden Doğu Asya felsefesindeki **ben-sizlik** (non-self, Budist *anātman* ve Taocu *wu-wei* geleneği) fikrini eğitim pratiği olarak ele alıyor. Hung'un daha önceki çalışmaları ekolojik pedagoji ve Taocu eğitim felsefesi üzerineydi. Bugün sitemizde [Yamazaki Ansai'yi andığımız takvim yazısında](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley) söylediğimiz şey burada da geçerli: Felsefe, geleneklerin karşılaşmasında doğar — ve Batı eğitim felsefesinin "özerk özne" ideali, ben-sizlik pedagojisiyle karşılaştığında kendi varsayımlarını görmek zorunda kalır.
+
+## 14-16 Eylül · Malta — Bedenlenmiş Hayatlar: Beden Üzerine Disiplinlerarası Diyaloglar
+
+Malta Üniversitesi İlahiyat Fakültesi'nin düzenlediği uluslararası kolokyum bugün sona eriyor. Konu, bedenin **yaşantılanması**: hastalık, engellilik, kimlik, hareket, anlam ve kırılganlık — felsefe, antropoloji, tıp, teoloji ve sosyal bilimlerin birlikte ele aldığı bir program. Bir ilahiyat fakültesinin bedeni bu genişlikte tartışması dikkat çekici; Hristiyan teolojisinin "beden" kavramıyla ilişkisi — ten alma, diriliş, kilise bedeni — fenomenolojiyle buluşuyor. Bu hafta sitemizde [beyin implantı dosyasında](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) Merleau-Ponty üzerinden sorduğumuz "beden düşüncenin parçası mı?" sorusu ve dünkü takvimde [Susan Hurley'nin bedenlenmiş biliş kuramı](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley), bu kolokyumun felsefi arka planı.
+
+## Sonbaharın geri kalanı
+
+Santa Maria, Vilnius, Salamanca ve Hokkaido için [14 Eylül seçkimize](/haber/2026-sonbahar-felsefe-toplantilari-vilnius-salamanca-sapporo); Viyana'daki iki ekim toplantısı, Oxford ve Priştine için [13 Eylül seçkimize](/haber/felsefe-takviminde-one-cikanlar-13-eylul-2026); Fricker'ın Dewey dersleri, Kopenhag, Moskova ve NIU için [dünkü listemize](/haber/yaklasan-felsefe-konferanslari-15-eylul-2026); Barselona, Selçuk, Nijmegen, Northwestern, İstanbul, Duke ve Atina için [12 Eylül listemize](/haber/12-eylul-sonrasi-yaklasan-felsefe-konferanslari) bakılabilir. Çevrim içi "Yalnızlık" konferansı (8-9 Ekim) için teyit çekincemiz sürüyor.
+
+---
+
+*Bize ulaşan listede Türkiye'deki felsefe dergilerinin çağrıları da yer alıyordu; ViraVerita, Felsefe Dünyası, FLSF ve SineFilozofi'ye ilişkin bütün bilgiler bu hafta yayımladığımız üç dergi notunda zaten mevcut olduğundan ayrı bir yazı yapılmadı. FLSF'nin Mayıs 2027 sayısı için kabul 15 Kasım'da başlıyor; ViraVerita'nın çocukluk dosyası kapandı.*`,
+  },
+  {
+    title: "2025–2026'nın öne çıkan felsefe kitapları: Neiman, Spiegel, Ganeri, Ivanovic, Han, Žižek, Habermas",
+    slug: "2025-2026-one-cikan-felsefe-kitaplari-neiman-spiegel-ganeri",
+    summary:
+      "Bu haftaki üçüncü kitap yazısı; yalnızca sitede daha önce yer almamış başlıklar. Bugün çıkan üç kitap — Neiman'ın 'Kötülük Diyelim'i, Spiegel'in 'Aptallık ve Kendine Kapanma'sı, Ganeri'nin Hint felsefesine girişinin ikinci baskısı — ve Ivanovic'in insani yardım eleştirisi; ardından Han'ın 'Saygısız', Žižek'in 'Sıfır Noktası' ve Habermas'ın felsefe tarihinin üçüncü cildi. Ortak tema: Yargılamayı yeniden öğrenmek.",
+    seoTitle: "2025-2026'nın öne çıkan felsefe kitapları: Neiman, Spiegel, Ganeri, Ivanovic, Han, Žižek, Habermas",
+    metaDescription:
+      "Susan Neiman — Call It Evil (Norton, 15 Eylül 2026); Thomas J. Spiegel — Stupidity and Self-Absorption (Routledge); Jonardon Ganeri — Philosophy in Classical India, 2. baskı; Mlado Ivanovic — Holding Hands with Death; Byung-Chul Han — Without Respect; Žižek — Zero Point ve Against Progress; Habermas — Also a History of Philosophy III.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Neiman%20B2015-02.jpg?width=1600",
+    imageCredit: "Susan Neiman, 2015 · Wikimedia Commons",
+    featured: false,
+    sourceName: "W. W. Norton & Company",
+    sourceUrl: "https://wwnorton.com/books/9781324131045",
+    publishedAt: "2026-09-16T01:50:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "etik", "demokrasi", "siyaset-felsefesi", "medya"],
+    philosopherSlugs: ["slavoj-zizek", "jurgen-habermas", "byung-chul-han"],
+    sources: [
+      {
+        title: "Call It Evil: Understanding the Trump Era",
+        publisher: "W. W. Norton & Company",
+        url: "https://wwnorton.com/books/9781324131045",
+        primary: true,
+      },
+      {
+        title: "Routledge Studies in Contemporary Philosophy — series page",
+        publisher: "Routledge",
+        url: "https://www.routledge.com/Routledge-Studies-in-ContemporaryPhilosophy/book-series/SE0720",
+      },
+      {
+        title: "Ohne Respekt",
+        publisher: "Matthes & Seitz Berlin",
+        url: "https://www.matthes-seitz-berlin.de/book/ohne-respekt.html",
+      },
+      {
+        title: "Also a History of Philosophy, Volume 3",
+        publisher: "Wiley / Polity",
+        url: "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/philosophy-12pl/general-philosophy-12pl0/also-a-history-of-philosophy-volume-3-978-1-5095-5865-0",
+      },
+      {
+        title: "Zero Point",
+        publisher: "Bloomsbury / Google Books",
+        url: "https://books.google.com/books/about/Zero_Point.html?id=pa02EQAAQBAJ",
+      },
+    ],
+    content: `Bu haftanın üçüncü kitap yazısı. Bize ulaşan on dört kitaplık listenin yarısı — Schwitzgebel, Keeling ve Street, Cappelen ve Sterken, Nussbaum'un *Aşkın Cumhuriyeti*, Alexy'nin *Hukukun İdeal Boyutu*, Butler'ın Türkçedeki *Kim Korkar Toplumsal Cinsiyetten?* — sitemizde daha önce ayrı ayrı ele alındı; onları tekrarlamıyoruz. Bu yazı yalnızca ilk kez yer verdiğimiz yedi kitabı ele alıyor ve dördü tam bugün, 16 Eylül'de raflara çıkıyor.
+
+## Bugün çıkanlar
+
+### Susan Neiman — Call It Evil: Understanding the Trump Era (W. W. Norton, 2026)
+
+Dün ABD'de yayımlanan kitap, bu ayın en çok konuşulacak felsefe kitabı. Berlin'deki Einstein Forum'un yöneticisi Susan Neiman, *Modern Düşüncede Kötülük* (2002) ve *Ahlaki Netlik* (2008) ile kötülük kavramının felsefi tarihini yazmıştı; yeni kitabı bu programı güncel siyasete uyguluyor. Yayınevinin tanıtımına göre kitap "Donald Trump hakkında değil, onun galip gelmesine izin veren koşullar hakkında"; tezi, "kötülük" sözcüğünün geçmişin kalıntısı ya da kaçınılması gereken bir terim olmadığı, demokrasiye yönelik tehditleri anlamak için "hayati bir mercek" olduğu.
+
+Neiman'ın iddiası provokatif: Modern düşünce, kötülük kavramını fazla dinî, metafizik ya da naif bulduğu için terk etti; ama bunun siyasal bir bedeli var. Bazı siyasi davranışları yalnızca "stratejik hata", "popülizm" ya da "otoriter eğilim" diye tanımlamak, onların ahlaki boyutunu görünmez kılar. Neiman, Arendt'in "kötülüğün sıradanlığı" kavramını ciddiye alarak ama ötesine geçerek, adlandırmanın kendisinin bir direniş biçimi olduğunu savunuyor. 240 sayfa; İngiltere baskısı ekimde. Bu hafta sitemizde ele aldığımız [Erasmus Ödülü'nün "Ecce Homo" teması](/haber/erasmus-odulu-2026-steve-mcqueen-ecce-homo) ve [McWhorter'ın kişilik eleştirisi](/haber/nassp-kitap-odulu-2026-mcwhorter-unbecoming-persons) ile birlikte okunduğunda, 2026'nın ahlak felsefesinin "yargılamayı yeniden öğrenmek" etrafında döndüğü görülüyor.
+
+### Thomas J. Spiegel — Stupidity and Self-Absorption (Routledge, 2026)
+
+Routledge'ın Çağdaş Felsefe Çalışmaları dizisinde bugün yayımlanması planlanan kitap, insan aptallığını bilişsel bir eksiklik olarak değil, **gerçekliğe direnmenin ve kendine kapanmanın varoluşsal bir biçimi** olarak inceliyor. Aptallık felsefesinin uzun ama dağınık bir geçmişi var — Erasmus'un *Deliliğe Övgü*'sü, Flaubert'in *Bouvard ve Pécuchet*'si, Musil'in 1937 tarihli "Aptallık Üzerine" konferansı, Bonhoeffer'in hapishaneden yazdığı "aptallık, kötülükten daha tehlikeli bir düşmandır" notu. Spiegel bu geleneği fenomenolojik bir çerçeveye taşıyor: Aptal, bilmeyen değil, bilmek istemeyendir; kendine kapanmış, dünyanın itirazına kulağını tıkamış öznedir.
+
+Kitabı bugün özellikle ilginç kılan şey şu: Yapay zekâ daha "akıllı" hâle geldikçe insanın aptallığı daha görünür hâle gelebilir — ve bu hafta sitemizde işlediğimiz [Navier–Stokes dosyasındaki](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) "doğrulama ile kavrayış" ayrımı, aptallık için de geçerli: Doğru cevabı bilen makine, kendine kapanmış insanı açamaz. Belki de yapay zekâ çağının en önemli felsefi problemi makinenin zekâsı değil, insanın kendi aptallığıyla ne yapacağıdır.
+
+### Jonardon Ganeri — Philosophy in Classical India: An Introduction, 2. baskı (Routledge, 2026)
+
+Toronto Üniversitesi'nden Jonardon Ganeri'nin klasik Hint felsefesine giriş kitabının kapsamlı biçimde güncellenmiş ikinci baskısı bugün yayımlanıyor; yeni baskıda Theravāda Budizmi ve Mīmāṃsā okulu üzerine yeni bölümler var. Ganeri'nin projesi otuz yıldır aynı: Hint felsefesini dinî-mistik bir gelenek olarak değil, analitik felsefeyle aynı masada konuşabilecek — mantık, epistemoloji, zihin felsefesi ve dil felsefesinde özgün konumları olan — güçlü bir **felsefi** gelenek olarak ele almak. Nyāya epistemolojisinin tanıklık kuramı, Budist "ben-sizlik" öğretisinin kişisel kimlik tartışmasına katkısı, Mīmāṃsā'nın dil felsefesi: Bunlar Ganeri'ye göre Batı felsefesinin "egzotik" ekleri değil, aynı sorulara verilmiş alternatif cevaplardır. Bu hafta [Metz'in ubuntu adaleti](/haber/yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber) ve bugün [Yamazaki Ansai](/haber/felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley) vesilesiyle söylediğimiz şeyin ders kitabı: Felsefe tek bir geleneğin malı değil.
+
+### Mlado Ivanovic — Holding Hands with Death: Ethical Promises and Political Failures of Our Humanitarian Present (Brill, 2026)
+
+Bugün yayımlanan kitabın başlığı kadar konusu da ağır: İnsani yardım, acı, merhamet ve siyasal başarısızlık. Ivanovic, çağdaş insani yardım rejimlerinin acıyı görünür kılarken, acıyı üreten siyasal yapıları sorgulamaktan uzaklaşabildiğini savunuyor: Yardım, adaletin yerini alan bir ahlaki teselliye dönüşebilir. Kitap fenomenoloji, eleştirel kuram, ahlak ve siyaset felsefesini bir araya getiriyor; Arendt'in "merhamet siyaseti"ne yönelttiği eleştiriyi ve Agamben'in "çıplak hayat" kavramını, Gazze'den Sudan'a bugünün insani felaketlerine uyguluyor. Yayınevi kaydı Brill; künye yayınevi kataloğundan teyit edilmeli.
+
+## Geçen aylardan, sitede ilk kez
+
+### Byung-Chul Han — Without Respect: A Social Crisis (2026)
+
+Han'ın Almanca *Ohne Respekt* kitabının İngilizce çevirisi bu yıl çıktı. Matthes & Seitz'ın tanıtımına göre Han, dijital çağın bir dönüşümünü teşhis ediyor: **Saygının yerini dikkat aldı.** Nezaketin yerini utandırma, topluluğun yerini benzer düşünceli dijital kabileler. Han'a göre saygı, demokrasi ve kamusal tartışma için estetik ve etik bir **mesafe** yaratır — saygı (respectus), Latince "geriye bakmak"tan gelir, yani uzaklık gerektirir; bu mesafe kaybolduğunda toplum "günlük küçük bir iç savaş"a dönüşür. Han'ın *Anlatının Krizi*'ni sitemizde [Türkçeye çevrildiğinde](/haber/byung-chul-han-anlatinin-krizi-turkcede) ele almıştık; *Saygısız*, aynı teşhisin siyasal versiyonu.
+
+### Slavoj Žižek — Zero Point (Bloomsbury, 2025) ve Against Progress (Bloomsbury, 2024)
+
+Žižek'in son iki kısa kitabı, sitemizde daha önce ele aldığımız [*Liberal Faşizmler*](/haber/zizek-liberal-fasizmler-iletisim) ile birlikte bir üçleme oluşturuyor. *Against Progress* (Ekim 2024, 136 sayfa), "ilerleme" fikrine saldırıyor: Tarih kendiliğinden daha iyiye gitmez ve ilerleme söylemi, bugün yapılan yıkımı gelecekteki hayali bir kurtuluş adına meşrulaştırabilir. Yapay zekâ şirketlerinin "bir sonraki model daha iyi olacak" vaadi bu eleştirinin tam hedefi; bu hafta sitemizde [Amodei'nin yavaşlama çağrısını](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) tartışırken sorduğumuz soru — daha ileri gitmek daha iyiye gitmek midir? — Žižek'in sorusudur. *Zero Point* (Mart 2025) ise "yenilgi" ile "felaket" arasındaki ayrım üzerinden çağdaş krizleri ele alıyor ve Lenin'in "yüksek dağa tırmanırken geri çekilme" metaforunu kullanıyor: Sıfır noktası son değil, yeniden başlamak için zorunlu bir geri çekilme alanıdır.
+
+### Jürgen Habermas — Also a History of Philosophy, Cilt III: Rational Freedom (Polity, 2025)
+
+Bu yıl kaybettiğimiz Habermas'ın — sitemizdeki [anma yazımız](/haber/jurgen-habermas-1929-2026) — dev felsefe tarihi projesinin üçüncü ve son cildi. Alt başlık: *Akılsal Özgürlük: İnanç ve Bilgi Söyleminin İzleri*. Hume ve Kant'tan başlayarak Alman idealizmine, Hegel'e, Marx'a, Kierkegaard'a ve Peirce'e uzanıyor. Habermas'ın yaptığı şey sıradan bir "filozoflar tarihi" değil; felsefe tarihini, kendi iletişimsel akıl anlayışının tarihsel köklerini — inanç ile bilginin nasıl ayrıldığını ve aklın nasıl "özgürleştiğini" — araştırmak için kullanıyor. Üç cilt birlikte okunduğunda, doksan yaşını aşmış bir filozofun kendi felsefesinin entelektüel otobiyografisini yazdığı görülüyor. Son cildin ölümünden önce tamamlanmış olması, yirminci yüzyılın son büyük sistem kurucusunun projesini bitirebildiği anlamına geliyor.
+
+## Ortak tema
+
+Yedi kitap, tek bir tema: **Yargılamayı yeniden öğrenmek.** Neiman kötülüğü adlandırmayı, Spiegel aptallığı tanımayı, Ivanovic merhametle adaleti ayırmayı, Han saygının mesafesini, Žižek ilerleme masalını reddetmeyi, Habermas aklın inançtan nasıl ayrıldığını, Ganeri ise bütün bunların Batı dışında da düşünüldüğünü hatırlatıyor. Bu haftanın yapay zekâ kitapları "makine ne yapabilir?" diye soruyordu; bu haftanın ahlak kitapları "insan ne yapmalı?" diye soruyor. İki soru arasında, 2026'nın felsefesi yazılıyor.
+
+---
+
+*Yayın tarihleri yayınevi kataloglarına dayanmaktadır; bazı kitapların ülkeye göre farklı tarihleri olabilir. Listedeki daha önce ele alınmış kitaplar için sitemizin Kitaplar sayfasına bakılabilir.*`,
+  },
+  {
+    title: "Louis Althusser ve Yapısalcı Marksizm",
+    slug: "louis-althusser-ve-yapisalci-marksizm",
+    summary:
+      "1960'larda Marx'ı yeniden keşfetti; ama kuramı rahatsız edici bir soru doğurdu: İnsan tarihi yapan özne mi, yoksa tarih bizi bizden önce mi biçimlendiriyor? Epistemolojik kopuş, ideolojik devlet aygıtları ve 'Hey, sen!' — Althusser'in çağrı kuramı, algoritmaların bizi her gün adıyla çağırdığı bir çağda yeniden okunuyor. Trajedisi, kuramının önüne geçmemeli; ama silinmemeli de.",
+    seoTitle: "Louis Althusser ve yapısalcı Marksizm: ideoloji, çağrı ve algoritmik özne",
+    metaDescription:
+      "Althusser portresi: Marx İçin ve Kapital'i Okumak, epistemolojik kopuş, kuramsal anti-hümanizm, ideolojik devlet aygıtları, interpellation, Lacan etkisi, Rancière'in kopuşu, 1980 trajedisi ve algoritmik çağrı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2022%20-%20rue%20d'Ulm%20-%20ENS%20Ulm%2002.jpg?width=1600",
+    imageCredit: "École normale supérieure, rue d'Ulm — Althusser'in otuz yıl yaşadığı ve ders verdiği kurum · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/althusser/",
+    publishedAt: "2026-09-16T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["marksizm", "psikanaliz", "elestirel-teori", "kavram", "medya"],
+    philosopherSlugs: ["louis-althusser", "jacques-ranciere"],
+    sources: [
+      {
+        title: "Louis Althusser",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/althusser/",
+        primary: true,
+      },
+    ],
+    content: `Louis Althusser'in hayatı bir yirminci yüzyıl trajedisi gibi okunabilir: Cezayir'de doğum, Alman esir kampında beş yıl, Fransız Komünist Partisi, École normale supérieure'de otuz yıl, 1968, ideoloji, devlet, psikanaliz — ve sonunda eşinin ölümüyle sonuçlanan ağır kriz. Fakat Althusser'i yalnızca trajedisiyle anlatmak, felsefesine yapılabilecek en büyük haksızlıklardan biridir. Çünkü Althusser'in asıl sorusu şuydu: **İnsanları tarih mi yapar, insanlar mı tarihi?**
+
+## Marx neden yeniden okunmalıydı?
+
+1960'larda Batı Marksizmi büyük bir kriz içindeydi. Stalin'in suçlarının 1956'da resmen kabul edilmesi, Sovyetler Birliği'nin bürokratik yapısı, Batı kapitalizminin refah devleti biçimleri ve işçi sınıfının değişen yapısı, Marx'ın on dokuzuncu yüzyıl kategorilerinin yeniden düşünülmesini zorunlu kılıyordu. Fransız Komünist Partisi'nin içinde iki cevap vardı: Stalin'in mirasını "hümanist" bir Marx'la — genç Marx'ın yabancılaşma ve insanın özü kavramlarıyla — yumuşatmak; ya da partinin ekonomizmini sürdürmek.
+
+Althusser üçüncü bir yol açtı. 1965'te yayımlanan *Marx İçin* ve öğrencileriyle birlikte yazdığı *Kapital'i Okumak*, Marx'ı terk etmeyi değil **yeniden kurmayı** önerdi: Marx'ın düşüncesinde bilimsel bir kopuş vardı ve Marksizmin krizi, bu kopuşun anlaşılmamasından kaynaklanıyordu.
+
+## Epistemolojik kopuş
+
+Althusser'in en ünlü kavramı, bilim tarihçisi Gaston Bachelard'dan ödünç aldığı **epistemolojik kopuş**tur. Bir düşünürün gençlik dönemindeki felsefi ve hümanist fikirleri ile sonraki bilimsel kuramı arasında keskin bir kopuş olabilir. Althusser'e göre 1845 civarında Marx, Feuerbach'tan devraldığı "insanın özü", "yabancılaşma" ve "tür-varlığı" kavramlarını terk etti ve yerine yeni bir kıta — tarihin bilimi — keşfetti: üretim tarzı, üretim ilişkileri, üretici güçler, artı-değer. *Kapital*'de "insan" yoktur; yapılar ve onların "taşıyıcıları" (Träger) vardır.
+
+Bu, Marx'ı "insan doğası" filozofu olarak okumayı zorlaştırdı ve Althusser'in **kuramsal anti-hümanizm**ine yol açtı: Marksizm, kuramsal olarak, bir hümanizm değildir; "insan" kavramı, bilimsel açıklamada işe yaramayan ideolojik bir kavramdır. Bu tez 1960'larda bir skandaldı ve bugün hâlâ tartışılır. Bu hafta sitemizde andığımız [Feuerbach dosyasında](/haber/felsefe-tarihinde-bugun-13-eylul-midgley-montaigne-feuerbach) Marx'ın Feuerbach'ı nasıl aştığını yazmıştık; Althusser'e göre bu aşma, tam olarak kopuşun kendisidir.
+
+## İnsan tarihin öznesi değilse ne?
+
+İşte Althusser'in felsefesinin en zor kısmı. Hümanist Marksizm "insan kendini özgürleştirir" der; Althusser, insanın zaten toplumsal yapılar tarafından biçimlendirilmiş bir özne olduğunu — tarihin "öznesiz süreç" olduğunu — söyler. Birey aile, okul, din, hukuk, devlet, ekonomi ve kültür içinde oluşur; toplumun dışındaki saf bir özne değildir. "Yapısalcı Marksizm" adı buradan gelir — Althusser'in kendisi bu etiketi reddetse de.
+
+Yapılar arasındaki ilişkiyi Althusser, Freud'dan aldığı bir kavramla, **üstbelirlenim** (overdetermination) ile düşündü: Ekonomi "son kertede" belirleyicidir ama hiçbir zaman tek başına belirlemez; her tarihsel olay birden çok çelişkinin yoğunlaşmasıdır. Ve "son kertenin saati hiç çalmaz." Bu, ekonomik determinizme karşı Marksizmin en incelikli savunmalarından biridir.
+
+## İdeoloji: İnsanlar neden kendi tahakkümlerine gönüllü katılır?
+
+Althusser'in en etkili fikri belki de budur. 1970 tarihli "İdeoloji ve Devletin İdeolojik Aygıtları" makalesi, ideolojinin yalnızca "yanlış fikirler" olmadığını söyler: **İdeoloji, insanların kendi varoluş koşullarıyla kurdukları hayali ilişkinin temsilidir** ve maddidir — ritüellerde, kurumlarda, pratiklerde yaşar. Pascal'ın sözünü tersine çevirir: İnanmak için diz çökmezsiniz; diz çökersiniz ve inanırsınız.
+
+Devlet yalnızca polis, ordu ve mahkemelerden — baskı aygıtından — oluşmaz. Okul, aile, din, medya, sendika, kültür de vardır; Althusser bunlara **İdeolojik Devlet Aygıtları** adını verdi ve kapitalist toplumda okulun, kilisenin yerini alarak baskın aygıt olduğunu savundu. Böylece Marx'ın devlet anlayışını yalnızca zor kullanma üzerinden değil, **öznenin üretilmesi** üzerinden genişletti. Sitemizde bu hafta ele aldığımız [Gökalp dosyasında](/haber/ziya-gokalp-turk-sosyolojisinin-kurucu-babasi) Durkheim'ın okulu toplumsal bütünleşmenin aracı sayması, Althusser'in okuduğu aynı olgunun tersten görünüşüdür.
+
+## "Hey, sen!"
+
+Althusser'in en ünlü örneği basittir. Polis sokakta "Hey, sen!" diye seslenir; insan dönüp baktığında kendisini çağrılan kişi olarak tanır. Dönüşün kendisi — o yüz seksen derecelik hareket — özneyi üretir. Althusser bu sürece **interpellation**, çağrı ya da adlandırma der: İdeoloji bireyleri özne olarak çağırır ve birey, çağrıya cevap vererek özne olur. "Ben kimim?" sorusunun cevabı tamamen içeriden üretilmez; toplum bizi belirli biçimlerde adlandırır — öğrenci, işçi, anne, baba, vatandaş, mümin, tüketici, başarılı, başarısız, normal, anormal — ve biz zamanla bu kategorileri kendimiz hakkında kullanmaya başlarız. Althusser'in vurgusu: Özne, her zaman "zaten" öznedir; çağrıdan önce bir "ben" yoktur.
+
+Bu kuram Lacan'dan beslenir. Özne kendine şeffaf değildir; arzularının tamamını bilemez. Bu, ideolojinin neden "yanlış bilgi" olarak görülemeyeceğini açıklar: İnsan ideolojiyi düşünmez, **yaşar**. Althusser'in Lacan'la ilişkisi kurumsaldı da: Lacan'ın seminerini 1963'te ENS'e taşıyan oydu.
+
+## Bugün Althusser neden geri dönüyor?
+
+Çünkü dijital çağda çağrı çok daha görünür. Telefon "bunu beğendin mi?" diye soruyor; algoritma "sen bunu seviyorsun" diyor; reklam "sen böyle bir insansın"; platform "senin için"; yapay zekâ "ihtiyaçlarını biliyorum." Her biri bir "Hey, sen!" — ve her birinde dönüp bakıyoruz. Althusser'in sorusu bugün şu hâle geliyor: **Bizi kim çağırıyor — ve neden çağrıldığımızda dönüp bakıyoruz?** Bu hafta sitemizde [Deleuze'ün denetim toplumları](/haber/deleuze-farkin-olusun-kacisin-filozofu) ve [Rancière'in duyulur olanın paylaşımı](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi) kavramlarıyla sorduğumuz soru, Althusser'de en eski biçimini bulur: Algoritma bir ideolojik aygıt mıdır? Kimin devletinin?
+
+## Althusser ve Rancière: Öğrenci hocadan ayrıldığında
+
+Bugün Rancière ile Althusser'i aynı gün ele almamız tesadüf değil. İkisi de aynı ENS çevresinden çıktı; Rancière *Kapital'i Okumak*'ın genç yazarlarından biriydi. Ama 1968'den sonra zıt yönlere gittiler ve Rancière 1974'te *Althusser'in Dersi* ile hocasını açıkça mahkûm etti: Althusser'in bilim/ideoloji ayrımı, bilenle bilmeyen arasındaki hiyerarşiyi — entelektüelin kitleler adına konuşma hakkını — felsefenin içine yeniden kuruyordu. Althusser "yapılar özneyi üretir" der; Rancière "eşitlik, öznenin bu düzeni bozabileceği bir kapasitedir." Biri "insan nasıl özne hâline getiriliyor?" sorusunu, diğeri "insan bu özneleştirme düzenini nasıl bozabilir?" sorusunu miras bıraktı. Bu kopuş yalnızca kuramsal bir ayrılık değil; özne kavramının kaderi üzerine bir tartışma.
+
+## Trajedi kuramın önüne geçmemeli — ama silinmemeli de
+
+Althusser, 16 Kasım 1980'de ENS'teki dairesinde eşi Hélène Rytmann'ı boğarak öldürdü. Psikiyatrik değerlendirme sonucunda yargılanamaz bulundu ve hastaneye kapatıldı; 1990'da öldü. 1985'te yazdığı ve ölümünden sonra yayımlanan otobiyografisi *Gelecek Uzun Sürer*, olayı ve ömür boyu süren depresyonunu anlatır. Bu trajik olay, felsefesinin değerlendirilmesinde kaçınılmaz bir biyografik bağlamdır; feminist eleştirmenler, olayın Althusser'in "yargılanamaz" bulunmasıyla nasıl örtüldüğünü ve Rytmann'ın — kendisi de bir direniş savaşçısı ve sosyologdu — nasıl unutulduğunu haklı olarak sordu.
+
+Ama felsefeyi biyografiye indirgemek de hatalıdır. Bu hafta sitemizde [Heidegger](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) için söylediğimiz ilke burada da geçerli: Felsefeyi filozofun ahlaki siciline indirgemek kadar, sicili felsefeden silmek de hatalıdır. Althusser'in kuramı bugün hâlâ ideoloji, eğitim, medya, kültür, devlet, özne ve psikanaliz alanlarında kullanılıyor; Stanford Felsefe Ansiklopedisi, ideoloji kuramının sosyal ve beşerî bilimlerde geniş biçimde kullanıldığını, post-Marksist düşünceyi, analitik Marksizmi, eleştirel gerçekçiliği ve söylem analizini etkilediğini belirtiyor. Butler'ın performatif özne kuramı, Žižek'in ideoloji analizi, Laclau ve Mouffe'un hegemonya kuramı — hepsi Althusser'in "Hey, sen!"inden geçer.
+
+## Althusser'in paradoksu
+
+Althusser Marx'ı yeniden bilimsel kılmak istedi; bunun bedeli insan öznesinin küçülmesiydi. Rancière insanın eşitlik kapasitesini geri getirdi. Biri "yapı", diğeri "özgürleşme" dedi. Yapay zekâ çağında bu tartışma yeniden karşımızda: Algoritmalar davranışlarımızı tahmin ediyor; ama tahmin edilen insan gerçekten özgür mü? Bir sistem "sen bunu satın alacaksın, sen bunu seveceksin, sen buna oy vereceksin" diyebiliyorsa, Althusser'in eski sorusu yeni bir biçimde geri dönüyor: **Özne biz miyiz, yoksa sistemin bize verdiği rolü oynayanlar mı?**
+
+Althusser'in cevabı rahatsız edici ama tutarlı olurdu: Bu ikisi arasında fark yoktur; özne, tam da rolü oynayarak özne olur. Rancière'in cevabı ise umutlu: Rolü oynamayı reddettiğimiz an, siyaset başlar. Algoritmik çağın felsefesi, bu iki cevap arasında yazılacak.
+
+---
+
+*Louis Althusser 16 Ekim 1918'de Cezayir'de doğdu, 22 Ekim 1990'da Paris yakınlarında öldü. Başlıca eserleri: Marx İçin (1965) · Kapital'i Okumak (1965, Balibar, Rancière, Macherey ve Establet ile) · Lenin ve Felsefe (1969) · İdeoloji ve Devletin İdeolojik Aygıtları (1970) · Gelecek Uzun Sürer (1992) · Karşılaşma Materyalizminin Yeraltı Akıntısı (ölümünden sonra). Althusser'in Wikimedia Commons'ta serbest lisanslı fotoğrafı bulunmadığından kapakta École normale supérieure kullanılmıştır.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 16 Eylül",
+    slug: "felsefe-tarihinde-bugun-16-eylul-pomponazzi-smart-hurley",
+    summary:
+      "Bugün doğan Pomponazzi, aklın ruhun ölümlü olduğunu gösterdiğini yazdı ve kitabı Venedik'te yakıldı; bugün doğan J. J. C. Smart zihnin beyinden başka bir şey olmadığını savundu; bugün doğan Susan Hurley zihnin kafatasının dışına taştığını. Bugün ölen Yamazaki Ansai Konfüçyüs'le Şinto'yu, Buonarroti devrimle eşitliği birleştirdi. Ortak soru: Zihin nerede biter?",
+    seoTitle: "Felsefe tarihinde bugün: 16 Eylül — Pomponazzi, Hulme, Smart, Hurley, Yamazaki Ansai, Buonarroti",
+    metaDescription:
+      "16 Eylül: Pietro Pomponazzi (1462), T. E. Hulme (1883), J. J. C. Smart (1920) ve Susan Hurley'nin (1954) doğumu; Yamazaki Ansai (1682) ve Philippe Buonarroti'nin (1837) ölümü. Ruhun ölümsüzlüğü, özdeşlik kuramı, bedenlenmiş zihin.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Pietro%20Pomponazzi%2C%20RP-P-1874-12-41-4.jpg?width=1600",
+    imageCredit: "Pietro Pomponazzi, dönem gravürü · Rijksmuseum / Wikimedia Commons",
+    featured: false,
+    sourceName: "New World Encyclopedia",
+    sourceUrl: "https://www.newworldencyclopedia.org/entry/Pomponazzi",
+    publishedAt: "2026-09-16T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "zihin-felsefesi", "ronesans", "din-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Pietro Pomponazzi",
+        publisher: "New World Encyclopedia",
+        url: "https://www.newworldencyclopedia.org/entry/Pomponazzi",
+        primary: true,
+      },
+      {
+        title: "T. E. Hulme",
+        publisher: "EBSCO Research Starters",
+        url: "https://www.ebsco.com/research-starters/history/t-e-hulme",
+      },
+    ],
+    content: `Takvimin bu günü, dört doğum ve iki ölümle, felsefenin tek bir sorusunu beş yüzyıl boyunca izlemeye imkân veriyor: **Zihin nerede biter?** Pomponazzi bedende bittiğini söyledi ve kitabı yakıldı; Smart beyinde bittiğini söyledi ve bir okul kurdu; Hurley kafatasının dışına taştığını söyledi ve bugünün bilişsel bilimini önceden gördü.
+
+## Doğanlar
+
+### Pietro Pomponazzi — 1462
+
+Rönesans Aristotelesçiliğinin en tartışmalı ismi Pietro Pomponazzi, 16 Eylül 1462'de Mantova'da doğdu; Padova ve Bologna'da ders verdi, 1525'te öldü. 1516 tarihli *De immortalitate animae* — *Ruhun Ölümsüzlüğü Üzerine* — Aristotelesçi doğa felsefesi ile Hristiyan öğretisi arasındaki gerilimi keskin biçimde ortaya koydu: Aristoteles'in ilkeleriyle akıl yürütüldüğünde, insan ruhunun bedenden ayrı var olabileceği **gösterilemez**; ruh, bedenle birlikte ölür. Pomponazzi ölümsüzlüğü inkâr etmedi — onu bir inanç meselesi ilan etti; aklın kendi başına bu sonuca ulaşamayacağını söyledi. Kitap Venedik'te yakıldı; Pomponazzi iki savunma yazmak zorunda kaldı ve Bologna'daki koruyucuları sayesinde kurtuldu.
+
+Asıl önemi şu sorudadır: **Bir filozof, dinî bir öğretiye kişisel olarak bağlı olsa bile, aklın kendi sonuçlarına ulaşmasına izin verebilir mi?** Pomponazzi'nin "evet"i, "çifte hakikat" tartışmasının — İbn Rüşd'den Galileo'ya — Rönesans'taki en cesur biçimidir. Bugün sitemizde ele aldığımız [Ahmet Arslan dosyasında](/haber/ahmet-arslan-turkiyede-felsefenin-populerlesmesi) andığımız Kemalpaşazâde'nin *Tehâfüt Hâşiyesi*, aynı yüzyılda, aynı soruyu — felsefe ile din arasında aklın sınırı — Osmanlı'da soruyordu. Pomponazzi ile Kemalpaşazâde çağdaştır; ikisi de İbn Rüşd'ü okumuştur; ikisi de aklın kendi başına ne kadar ileri gidebileceğini tartar. Karşılaştırmalı bir çalışma bekliyor.
+
+### T. E. Hulme — 1883
+
+İngiliz filozof, şair ve denemeci Thomas Ernest Hulme, 16 Eylül 1883'te doğdu; 1917'de Birinci Dünya Savaşı'nda öldürüldü, otuz dört yaşındaydı. Modernist şiirin ve İmgeciliğin entelektüel öncülerinden; ölümünden sonra derlenen *Speculations* (1924) T. S. Eliot'ı derinden etkiledi. Hulme, Romantizmin "sınırsız insan" anlayışına karşı — insanın "kova değil, kuyu" olduğunu, yani sonsuz kapasite değil sınırlı bir doğa taşıdığını — savunuyor ve buna "klasik" diyordu. Bergson'u İngilizceye çevirdi, sonra ondan uzaklaştı; Sorel'i okudu. Hikâyesi, felsefe ile sanatın birbirinden ne kadar zor ayrıldığını gösterir: İmgecilik, bir şiir akımı olduğu kadar bir bilgi kuramıydı.
+
+### J. J. C. Smart — 1920
+
+Analitik felsefenin önemli isimlerinden John Jamieson Carswell Smart, 16 Eylül 1920'de Cambridge'de doğdu; Avustralya'ya yerleşti, Adelaide ve Monash'ta ders verdi, 2012'de öldü. 1959 tarihli "Duyumlar ve Beyin Süreçleri" makalesi, **zihin-beyin özdeşlik kuramı**nın kurucu metinlerindendir: Duyumlar beyin süreçleriyle özdeştir — tıpkı şimşeğin elektriksel boşalma, suyun H2O olması gibi. Bu, "Avustralya materyalizmi"nin başlangıcıydı.
+
+Smart'ın mirası bugünkü yapay zekâ bilinci tartışmaları açısından ayrıca önemli. Dün sitemizde andığımız [Kripke](/haber/felsefe-tarihinde-bugun-15-eylul-kripke-eucken-lazarus), tam bu özdeşlik kuramına modal itirazını yöneltmişti: Eğer acı ve beyin süreci katı göstericiyse özdeşlikleri zorunlu olmalı; ama acının beyin süreci olmadığı bir dünya tasavvur edilebiliyor. Smart–Kripke tartışması, "makine acı çekebilir mi?" sorusunun altındaki metafiziktir: Zihin beyinden başka bir şey değilse, silikon beyin de zihin olabilir — ya da hiçbir şey olamaz. Smart aynı zamanda faydacılığın en açık sözlü savunucularından ve zamanın "B-serisi" kuramının — geçmiş, şimdi ve gelecek arasında nesnel fark olmadığı görüşünün — öncülerindendi.
+
+### Susan Hurley — 1954
+
+Susan Hurley 16 Eylül 1954'te doğdu; 2007'de, elli iki yaşında, kanserden öldü. Princeton'da felsefe, Harvard'da hukuk okudu; Oxford'da All Souls College'a seçilen ilk kadın üye oldu; Warwick ve Bristol'da ders verdi. Zihin felsefesi, etik ve siyaset felsefesini birbirine bağlayan az sayıda çağdaş filozoftan biriydi: *Natural Reasons* (1989) rasyonalite ve demokrasi üzerine; *Consciousness in Action* (1998) ise zihin felsefesinin dönüm noktalarından.
+
+Hurley'nin tezi, algı ile eylemin ayrı modüller olmadığı — algının girdi, eylemin çıktı olduğu "sandviç" modelinin yanlış olduğu — ve zihnin beden ile çevre arasındaki dinamik döngülerde gerçekleştiğiydi. Bugün "bedenlenmiş biliş" ve "genişletilmiş zihin" denen alanın kurucu metinlerinden biri. Bu hafta sitemizde ele aldığımız [beyin implantı dosyasında](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) konuşma ile jestin beyinde ayrılamaz olduğunu gösteren deney, Hurley'nin otuz yıl önce felsefi olarak savunduğu şeyin laboratuvar kanıtı gibi okunabilir. Erken ölümü, alanın en büyük kayıplarından biri sayılır.
+
+## Ölenler
+
+### Yamazaki Ansai — 1682
+
+Japon filozof Yamazaki Ansai 16 Eylül 1682'de öldü. Zen rahibi olarak başladı, Neo-Konfüçyüsçülüğe geçti, Zhu Xi'nin en katı Japon yorumcusu oldu; sonra Şinto'ya yöneldi ve Neo-Konfüçyüsçü metafizik ile Şinto mitolojisini birleştiren **Suika Şinto** geleneğini kurdu. Öğrencileri iki kola ayrıldı — Konfüçyüsçüler ve Şintocular — ve Ansai'nin sentezi, Meiji dönemine kadar Japon siyasal düşüncesini besledi.
+
+Ansai'nin ölümü, modern "Doğu-Batı" ayrımından çok daha eski bir gerçeği hatırlatır: **Felsefe hiçbir zaman saf kültürlerin ürünü olmadı; çoğu zaman karşılaşmalardan doğdu.** Yunan ile İran, Yunan ile İslam, Budizm ile Çin, Konfüçyüsçülük ile Şinto, Hegel ile Marx, Freud ile Marx — ve bugün, insan ile yapay zekâ. Bu hafta sitemizde [Metz'in ubuntu geleneğinden beslenen adalet kuramı](/haber/yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber) vesilesiyle söylediğimiz şey burada da geçerli: Yeni sorulara verilecek cevaplar tek bir geleneğin dağarcığından gelmek zorunda değil.
+
+### Philippe Buonarroti — 1837
+
+İtalyan devrimci ve ütopyacı sosyalist Filippo (Philippe) Buonarroti, 16 Eylül 1837'de Paris'te öldü. Michelangelo'nun soyundan geliyordu; Fransız Devrimi'ne katıldı, Babeuf'ün 1796'daki "Eşitler Komplosu"nda yer aldı ve 1828'de bu komplonun tarihini yazdı. Kitap, on dokuzuncu yüzyıl devrimci sosyalizminin — Blanqui'den Marx'a — el kitabı oldu: Eşitlik, yalnızca hukuki değil ekonomik olmalıydı ve bunun için gizli, disiplinli bir devrimci örgüt gerekiyordu. Marx'ın "profesyonel devrimci" fikrinin ve Lenin'in parti modelinin bir atası. Bugün sitemizde ele aldığımız [Rancière](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi), aynı "eşitlik" sözcüğüne tam ters bir anlam verir: Buonarroti için eşitlik komployla kurulacak bir hedef, Rancière için herkesin zaten sahip olduğu bir varsayımdır. İki yüzyıl arayla aynı kelime, iki ayrı siyaset.
+
+## Bugünün dersi
+
+Pomponazzi zihnin bedenle bittiğini söyledi; Smart beyinde; Hurley ne bedende ne beyinde — dünyada. Beş yüzyıllık bu hat, "makine düşünebilir mi?" sorusunun aslında ne kadar eski olduğunu gösteriyor: Soru, zihnin nerede olduğunu bilmeden sorulamaz ve felsefe bunu hâlâ bilmiyor. Ansai ile Buonarroti ise başka bir şey hatırlatıyor: Düşünce, sınırların — kültürlerin, sınıfların — aşıldığı yerde doğar.
+
+---
+
+*Bize ulaşan takvim notunda María Pía Lara'nın 16 Eylül 1954 doğumu ve Amerikalı ortaçağcı James H. Robb'un 16 Eylül 1993'te ölümü de yer alıyordu; iki tarihi de birincil kaynaktan doğrulayamadığımız için almadık. 16 Eylül 2007 tarihli modern kitap baskıları da aynı gerekçeyle listelenmedi.*`,
+  },
+  {
+    title: "Fields Madalyası 2026: Deng, Pardon, Tsimerman ve Wang — yapay zekâ çağında 'matematiğin Nobel'i kime verilir?",
+    slug: "fields-madalyasi-2026-deng-pardon-tsimerman-wang",
+    summary:
+      "Temmuzda Philadelphia'da düzenlenen Uluslararası Matematikçiler Kongresi'nde dört madalya: Yu Deng (kinetik denklemler), John Pardon (simplektik geometri), Jacob Tsimerman (aritmetik geometri) ve doksan yılda üçüncü kadın Hong Wang (Kakeya sanısı). İki ay sonra on bin yapay ajan Navier–Stokes'u 'çözdü' — ve Buckmaster, 'Martínez-Zoroa Fields'ı hak ediyor' dedi. Ödül, hesaplayana mı, fikri bulana mı verilecek?",
+    seoTitle: "Fields Madalyası 2026: Deng, Pardon, Tsimerman, Wang ve yapay zekâ sorusu",
+    metaDescription:
+      "2026 Fields Madalyaları ICM Philadelphia'da Yu Deng, John Pardon, Jacob Tsimerman ve Hong Wang'a verildi. Kırk yaş sınırı, insan ödülü ve yapay zekâ matematiği: ödül felsefesi açısından bir okuma.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/FieldsMedalFront.jpg?width=1600",
+    imageCredit: "Fields Madalyası, ön yüz — Arşimet portresi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Simons Foundation",
+    sourceUrl: "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+    publishedAt: "2026-09-16T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "mantik", "bilim-felsefesi", "yapay-zeka", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "2026 Fields Medals Awarded to Four of World's Top Mathematicians",
+        publisher: "Simons Foundation, 23 Temmuz 2026",
+        url: "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+        primary: true,
+      },
+      {
+        title: "Rising stars of mathematics awarded prestigious 2026 Fields Medal",
+        publisher: "Nature",
+        url: "https://www.nature.com/articles/d41586-026-02169-1",
+      },
+      {
+        title: "2026 Fields Medallists and IMU prize winners announced",
+        publisher: "European Mathematical Society",
+        url: "https://euromathsoc.org/news/2026-fields-medallists-and-imu-prize-winners-announced-222",
+      },
+    ],
+    content: `Bugün sitemizde Navier–Stokes probleminin yapay zekâyla "çözülmesini" iki dosyada ele aldık: [felsefi soru](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) ve [sahiplik tartışması](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge). Bu üçüncü yazı, olayı iki ay öncesine, matematiğin en büyük ödülünün verildiği güne bağlıyor — çünkü Navier–Stokes tartışmasının içinden bir Fields Madalyası çağrısı çıktı.
+
+## Philadelphia, 23 Temmuz
+
+Uluslararası Matematik Birliği'nin dört yılda bir verdiği Fields Madalyası, 2026'da Philadelphia'da düzenlenen Uluslararası Matematikçiler Kongresi'nin (ICM) açılış töreninde açıklandı; kongre 1986'dan beri ilk kez ABD'de toplandı. Simons Vakfı'nın duyurusuna göre dört madalya sahibi: Chicago Üniversitesi'nden **Yu Deng**, Stony Brook'tan **John Pardon**, Toronto Üniversitesi'nden **Jacob Tsimerman** ve New York Üniversitesi ile IHES'ten **Hong Wang**. Atıf alanları kısmi diferansiyel denklemler ve matematiksel fizik, simplektik geometri ve topoloji, aritmetik geometri, harmonik analiz ve geometrik ölçü kuramı. *Nature*'ın vurguladığı gibi Hong Wang, ödülün doksan yıllık tarihinde madalya alan üçüncü kadın.
+
+Dört isim, dört farklı hikâye. Wang, 2025'te üç boyutlu Kakeya sanısını — bir iğneyi her yöne çevirebileceğiniz en küçük bölgenin ne kadar "büyük" olması gerektiğini soran yüz yıllık problemi — Joshua Zahl ile birlikte kanıtlayarak harmonik analizin en ünlü açık sorusunu kapatmıştı. Deng, kinetik denklemler ve dalga türbülansı üzerine çalışmalarıyla, Boltzmann denkleminin Newton mekaniğinden titiz türetilmesine — Hilbert'in altıncı probleminin bir parçasına — katkı yaptı; yani Navier–Stokes'un komşu mahallesinde. Pardon simplektik geometride, Tsimerman ise sayılar kuramında André–Oort sanısı üzerinde çığır açan sonuçlarıyla tanınıyor.
+
+## Kırk yaş kuralı ve insan ödülü
+
+Fields Madalyası'nın iki tuhaf özelliği var. Birincisi, kırk yaş sınırı: Madalya, ödül yılının başında kırkını doldurmamış matematikçilere verilir; Nobel gibi bir yaşam boyu başarı ödülü değil, bir **vaat** ödülüdür. İkincisi, madalyanın 1936'da John Charles Fields'in vasiyetiyle kurulduğunda Nobel'e alternatif olarak tasarlanması: Fields, ödülün "yalnızca yapılmış işi değil, gelecekteki başarıyı teşvik etmeyi" amaçlamasını istemişti.
+
+Bu iki özellik, yapay zekâ çağında beklenmedik biçimde felsefi bir soruya dönüşüyor. Bir yapay zekâ sistemi kırk yaşından küçüktür — hepsi. Ve "gelecekteki başarıyı teşvik etmek", bir sistemi değil bir insanı, bir kariyeri, bir hayatı varsayar. Fields Madalyası, tanımı gereği, **insan** ödülüdür; ve Navier–Stokes vakası, bunun artık söylenmesi gereken bir şey olduğunu gösteriyor.
+
+## Buckmaster'ın çağrısı: "Martínez-Zoroa Fields'ı hak ediyor"
+
+Navier–Stokes tartışmasının en ilginç anlarından biri, NYU'dan Tristan Buckmaster'ın açıklamasındaki bir cümleydi: "Meslektaşlarıma özel olarak söylediğimi açıkça belirteyim: Bu çalışma bütünü göz önüne alındığında, Luis Martínez-Zoroa'nın Fields Madalyası'nı hak ettiğine inanıyorum." Madrid'deki CUNEF Üniversitesi'nden Martínez-Zoroa, 2021 tarihli doktora tezinden itibaren, hocası Diego Córdoba ile birlikte, Navier–Stokes ve Euler denklemlerinde tekilliğe giden "sonsuz kaskad" yöntemini bilgisayar kullanmadan geliştiren isim; her iki yapay zekâ ekibi de onun merdivenini çıktı. Clay'in resmî problem tanımını yazan Charles Fefferman da Quanta'ya "hikâyenin kahramanları" olarak Córdoba ile Martínez-Zoroa'yı gösterdi.
+
+Bu çağrı, ödül felsefesi açısından bir ders. Fields komitesi 2030'da — bir sonraki kongrede — Navier–Stokes'u nasıl değerlendirecek? Sonucu duyuran şirketi ödüllendiremez; on bin ajanı ödüllendiremez; kırkını geçmiş Córdoba'yı ödüllendiremez. Geriye, yöntemi bulan genç matematikçi kalıyor — sonucu kendisi tamamlamamış olsa bile. Eğer komite Buckmaster'ın çağrısını dinlerse, Fields Madalyası tarihinde ilk kez, "son adımı atan" değil "merdiveni kuran" ödüllendirilmiş olacak. Ve bu, bugün sitemizde tartıştığımız doğrulama değeri ile kavrayış değeri ayrımının kurumsal karşılığı olur: **Madalya, hesaplayana değil, fikri bulana.**
+
+## Matematik ne için?
+
+Philadelphia kongresinin en çok konuşulan oturumlarından biri, Quanta'nın canlı yayınladığı "Yapay zekâ çağında matematik ne için?" paneliydi. Sorunun kongrede sorulması, iki ay sonra Navier–Stokes ile daha da acil hâle geldi. Fields Madalyası'nın ön yüzünde Arşimet'in portresi ve Latince bir yazıt var: *Transire suum pectus mundoque potiri* — "Kendini aşmak ve dünyaya hâkim olmak." Yazıt, ödülün 1936'daki tasarımından kalma; matematiğin insanın kendini aşma çabası olduğunu söylüyor. On bin ajanın 88 saati, bu yazıtı iki biçimde okumaya zorluyor: Ya makine de "kendini aşıyor" — ya da aşılan artık insanın kendisi.
+
+Fields komitesi bu soruya dört yıl sonra cevap vermek zorunda kalacak. Bu yılki dört laureat, o cevabın öncesindeki son kuşak olabilir: Fields Madalyası'nın, "kim buldu?" sorusunun hâlâ tek bir cevabı olduğu son dört yılı.
+
+---
+
+*Fields Madalyası, Uluslararası Matematik Birliği tarafından dört yılda bir, kırk yaşından küçük en fazla dört matematikçiye verilir. 2026 kongresi 23-30 Temmuz'da Philadelphia'da toplandı. Bir sonraki madalyalar 2030'da açıklanacak.*`,
+  },
+  {
+    title: "Jacques Rancière: Eşitlik Bir Hedef Değil, Başlangıç Varsayımıdır",
+    slug: "jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi",
+    summary:
+      "Öğrencisi olduğu Althusser'den koparak 'cahillerin özgürleşmesi'ni, işçi arşivlerini, demokrasiyi, edebiyatı ve sinemayı aynı felsefi sorunun parçaları hâline getiren düşünür. Sorusu hep aynı: Kim konuşabilir — ve kimin konuşması 'gerçekten konuşma' sayılır? Algoritmaların görünürlüğü dağıttığı çağda, 'duyulur olanın paylaşımı' kavramı yeni bir hayat buluyor.",
+    seoTitle: "Jacques Rancière: eşitlik, cahil hoca, polis ve duyulur olanın paylaşımı",
+    metaDescription:
+      "Rancière portresi: Althusser'den kopuş, Proleterlerin Gecesi ve işçi arşivleri, Cahil Hoca ve zekâların eşitliği, polis ile siyaset ayrımı, duyulur olanın paylaşımı, sanat ve siyaset, algoritmik görünürlük.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ranci%C3%A8re%2C%20Jacques%20-UV%20fRF01.jpg?width=1600",
+    imageCredit: "Jacques Rancière · Wikimedia Commons",
+    featured: true,
+    sourceName: "Duke University Press",
+    sourceUrl: "https://www.dukeupress.edu/Jacques-Ranciere",
+    publishedAt: "2026-09-16T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "estetik", "medya", "marksizm"],
+    philosopherSlugs: ["jacques-ranciere"],
+    sources: [
+      {
+        title: "Jacques Rancière: History, Politics, Aesthetics",
+        publisher: "Duke University Press",
+        url: "https://www.dukeupress.edu/Jacques-Ranciere",
+        primary: true,
+      },
+      {
+        title: "Todd May — Jacques Rancière and the Ethics of Equality",
+        publisher: "Philosophy Compass (Wiley), 2007",
+        url: "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1747-9991.2007.00120.x",
+      },
+      {
+        title: "Rancière on aesthetics and politics",
+        publisher: "Theory, Culture & Society (Sage)",
+        url: "https://journals.sagepub.com/doi/10.1177/0263276414551995",
+      },
+    ],
+    content: `Jacques Rancière'i yalnızca "radikal Fransız siyaset filozofu" olarak tanımlamak, düşüncesinin en şaşırtıcı tarafını gözden kaçırır. Çünkü Rancière'in felsefesinde siyaset yalnızca devletin, parlamentonun ya da partilerin meselesi değildir. Siyaset bazen bir işçinin konuşmasıdır; bazen bir öğrencinin öğretmeni olmadan öğrenmesi; bazen bir romanın daha önce görünmez olan bir hayatı görünür kılması; bazen bir filmin, kimin konuşacağına ve kimin yalnızca seyredeceğine ilişkin alışılmış düzeni bozması.
+
+Bu nedenle Rancière'in temel sorusu şudur: **Kim konuşabilir?** Ve hemen arkasından: Kimin konuşması "gerçekten konuşma" sayılır — ve kiminki yalnızca gürültü?
+
+## Althusser'in öğrencisiydi; Althusser'e karşı kendi felsefesini kurdu
+
+Rancière 1940'ta Cezayir'de doğdu. 1960'larda École normale supérieure'de Louis Althusser'in öğrencilerinden biriydi ve 1965'te yayımlanan kolektif *Kapital'i Okumak*'ın genç yazarları arasında yer aldı. Ama 1968 Mayıs'ı entelektüel hayatında bir kırılma yarattı. Rancière, entelektüelin işçi sınıfı adına ve onun yerine konuştuğu fikrini sorgulamaya başladı; 1974'te yayımladığı *Althusser'in Dersi* bu kopuşun manifestosudur. Bugün sitemizde [Althusser'i ayrı bir dosyayla](/haber/louis-althusser-ve-yapisalci-marksizm) ele aldık; ikisini birlikte okumak, yirminci yüzyıl Fransız düşüncesinin en verimli kavgalarından birini izlemek demek.
+
+İtiraz yalnızca kişisel değildi; daha büyük bir soruydu: **Bir entelektüel, ezilenlerin ne düşündüğünü onlardan daha iyi bildiğini nasıl varsayabilir?** Althusser'in "bilim" ile "ideoloji" ayrımı, Rancière'e göre, bilen ile bilmeyen arasındaki hiyerarşiyi — tam da eleştirdiği tahakkümü — felsefenin içine yeniden kuruyordu. Rancière'in sonraki bütün çalışmaları bu kopuştan doğdu.
+
+## İşçilerin arşivlerine indiğinde başka bir işçi buldu
+
+Rancière'in kariyerinin en önemli ve en az anlatılan bölümü, on dokuzuncu yüzyıl Fransız işçilerinin metinlerini araştırdığı on yıldır. İşçi sınıfını yalnızca "sömürülen sınıf" olarak anlatan kuramsal şemalarla yetinmedi; işçilerin kendi yazılarına baktı — mektuplar, şiirler, gazete yazıları, günlükler, felsefi denemeler. 1981'de yayımlanan *Proleterlerin Gecesi* (*La Nuit des prolétaires*) bu arşivin ürünüdür.
+
+Bu arşivlerde Rancière başka bir şey gördü: İşçiler yalnızca ücretlerini ya da çalışma saatlerini tartışmıyordu. Gece, iş bittikten sonra, uyumak yerine şiir yazıyor, felsefe okuyor, estetikten, zamandan ve özgürlükten söz ediyorlardı. Yani "işçi" olarak tanımlanan hayattan **kaçıyorlardı** — ve bu kaçış, sınıf bilincinin değil, sınıf kimliğinin reddinin işaretiydi. Duke University Press'in Rancière üzerine kapsamlı çalışması, on dokuzuncu yüzyıl işçi arşivleri, siyasal eşitlik, zihinsel ve bedensel emek arasındaki ayrım ve sanatın modern toplumdaki rolü üzerine çalışmalarını düşüncesinin temel katkıları arasında sayıyor. Bu keşif, eşitlik anlayışının merkezine yerleşti: Eşitlik, işçilere verilecek bir şey değil, onların zaten kullandığı bir kapasiteydi.
+
+## Cahil Hoca: En radikal eğitim kitabı
+
+1987 tarihli *Cahil Hoca* (*Le Maître ignorant*), Rancière'in en çarpıcı eseridir. Çıkış noktası, Joseph Jacotot adlı on dokuzuncu yüzyıl pedagogudur: 1818'de Leuven'de, Hollandaca bilmeden Hollandalı öğrencilere Fransızca öğretmek zorunda kalan Jacotot, onlara *Télémaque*'ın iki dilli baskısını verdi ve kendi başlarına öğrenmelerini istedi. Öğrendiler. Jacotot buradan, kendi bilgisinin öğrencilerin öğrenmesinin zorunlu koşulu olmadığını keşfetti.
+
+Rancière buradan çok daha radikal bir sonuç çıkarır: **Bütün zekâlar eşittir.** Bu, "herkes aynı şeyi biliyor" demek değildir; "hiç kimsenin zekâsı doğası gereği başka bir zekânın astı değildir" iddiasıdır. Eşitlik bir olgu olarak kanıtlanamaz; bir varsayım olarak **doğrulanır** — eşit varsayılan zekâ, eşit olduğunu gösterir. Rancière'in pedagojisi bu yüzden bir eğitim reformu önerisi değildir. Geleneksel pedagoji, "açıklayan" öğretmenin öğrenciye onun kendi başına anlayamayacağını öğrettiği bir "aptallaştırma" (abrutissement) sistemidir; çünkü her açıklama, açıklama olmadan anlaşılamayacağı mesajını taşır. Cahil hocanın görevi "ben biliyorum, sen bilmiyorsun" demek değil; öğrencinin kendi zekâsının kapasitesini doğrulamasını sağlamaktır. Bu, yapay zekâ çağının eğitim tartışması için beklenmedik biçimde güncel bir tez: Her şeyi açıklayan bir makine, Rancière'e göre, en mükemmel aptallaştırıcı olabilir.
+
+## Eşitlik neden sonuç değil?
+
+Rancière'in siyaset felsefesinin en aykırı tarafı burada. Geleneksel siyaset "toplumu daha eşit hâle getirelim" der; eşitlik, ulaşılacak bir hedeftir. Rancière ise eşitliğin siyasal eylemin **önvarsayımı** olduğunu söyler. Bir işçi patronuyla konuştuğunda, konuşmanın anlaşılabilir olması için ikisinin eşit konuşan varlıklar olduğu zaten varsayılmıştır; eşitsizlik bile ancak eşitliğin zemininde kurulabilir. Bu yüzden eşitlik gelecekte kurulacak ideal bir toplum değil, insanların mevcut düzeni bozarak **şimdi** gerçekleştirdikleri bir pratiktir. Todd May'in Rancière analizi, siyaset ile estetik arasındaki bağı sağlayan temel kavramın bu etkin eşitlik olduğunu vurgular.
+
+## Polis ile siyaset
+
+Rancière'in "polis" (la police) kavramı burada önem kazanır. Buradaki polis, üniformalı teşkilat değildir; toplumdaki "kim nerede duracak, kim ne iş yapacak, kim konuşabilecek, kim dinlenecek, kimin sözü uzmanlık sayılacak, kim görünmez kalacak" sorularına verilen düzenli cevaptır — toplumun parçalarının yerleştirilme biçimi. Polis düzeni kötü olmak zorunda değildir; hatta iyi bir polis düzeni olabilir. Ama polis, "payı olmayanların" payını hesaba katmaz.
+
+**Siyaset** ise bu düzenin bozulduğu andır: Payı olmayanların, eşitlik varsayımıyla, kendilerine ayrılmamış bir yerde konuştuğu an. Bir işçi "ben yalnızca işçi değilim" dediğinde; bir kadın "benim sözüm de siyasal bilgidir" dediğinde; bir öğrenci "ben düşünebilirim" dediğinde; bir göçmen "ben de bu toplumun konuşan öznesiyim" dediğinde, yerlerin dağılımı bozulur. Rancière buna "uyuşmazlık" (mésentente) der: Bir tarafın konuşma saydığını diğer tarafın gürültü saydığı durum. 1995 tarihli *Uyuşmazlık* bu kavramın kitabıdır. Siyaset nadirdir; çoğu zaman yaşadığımız şey siyaset değil, polistir.
+
+## Duyulur olanın paylaşımı
+
+Rancière'in en ünlü kavramı **duyulur olanın paylaşımı** (le partage du sensible). Toplum bize yalnızca neyin doğru olduğunu söylemez; neyi göreceğimizi, duyacağımızı, önemli bulacağımızı, siyasal sayacağımızı, estetik sayacağımızı de belirler. "Paylaşım" sözcüğü çift anlamlıdır: Hem ortak olan hem bölünen. Duyulur olan hem herkesin paylaştığı ortak dünyadır hem de kimin neyi görebileceğine göre bölünmüştür.
+
+Bu yüzden sanat ile siyaset arasında Rancière açısından şaşırtıcı bir bağ vardır. Bir sanat eseri yeni bir "fikir" söylemek zorunda değildir; bazen yalnızca **neyi görünür kıldığını** değiştirerek politik olabilir. On dokuzuncu yüzyıl romanının hizmetçilerin, köylülerin, sıradan nesnelerin hayatını yüksek edebiyatın konusu yapması — Flaubert'in Emma Bovary'si — Rancière'e göre bir siyasal olaydır: Duyulur olanın yeniden paylaşımı. *Theory, Culture & Society*'deki değerlendirmenin belirttiği gibi, sanatın politik gücünü "mesaj" üzerinden değil duyulur olanın yeniden düzenlenmesi üzerinden düşünmesi, Rancière'in çağdaş estetiğe en özgün katkısıdır. Bu yüzden Rancière sinema üzerine de yazdı — *Film Fablları*, *Özgürleşen Seyirci* — ve seyirciyi edilgin sayan her kuramı, Cahil Hoca'nın öğrencisi gibi, aktif bir yorumcu olarak savundu.
+
+## Bugün neden önemli?
+
+Sosyal medyada algoritmalar kimin görünür olacağını belirliyor. Arama motoru kimin bilgisinin bulunacağını; video platformu neyi göreceğimizi; yapay zekâ hangi cevabın makul olduğunu. Platformlar "bu içerik önemli, bu önemsiz" diyerek görünürlük dağıtıyor. Rancière'in kavramını yirmi birinci yüzyıla taşıdığımızda soru şu: **Dijital toplumun yeni polis düzeni nedir?** Ve algoritmalar, duyulur olanın yeni dağıtıcıları mı?
+
+Bu soru bu hafta sitemizde ele aldığımız [Fricker'ın "güvenilirlik ekonomisi"](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) kavramıyla doğrudan konuşuyor: Fricker kimin sözüne inanıldığını sorar, Rancière kimin sözünün duyulduğunu. Ve [robot hakları dosyasında](/haber/robot-haklari-makineler-hak-talep-ederse) sorduğumuz "kim konuşan özne sayılır?" sorusu, Rancière'in çerçevesinde tuhaf bir biçim alır: Bir makinenin "konuşma"sı gürültü mü, söz mü? Rancière'in cevabı muhtemelen sorunun kendisini reddederdi — çünkü onun eşitlik varsayımı, konuşan varlıklar arasındaki bir varsayımdır ve makinenin bu varsayıma dahil olup olmadığı, tam da bir polis kararıdır.
+
+Rancière bu açıdan yalnızca yirminci yüzyıl Fransız siyasetinin filozofu değil; algoritmik görünürlük çağının filozofu olmaya da aday. Seksen altı yaşında, hâlâ yazıyor.
+
+---
+
+*Jacques Rancière 10 Haziran 1940'ta Cezayir'de doğdu; Paris 8 Üniversitesi'nde emeritus profesör. Başlıca eserleri: Althusser'in Dersi (1974) · Proleterlerin Gecesi (1981) · Filozof ve Yoksulları (1983) · Cahil Hoca (1987) · Uyuşmazlık (1995) · Duyulur Olanın Paylaşımı (2000) · Estetiğin Huzursuzluğu (2004) · Özgürleşen Seyirci (2008) · Demokrasi Nefreti (2005). Türkçede Metis ve diğer yayınevlerinden çevrildi.*`,
+  },
+  {
+    title: "Ahmet Arslan ve Türkiye'de Felsefenin Popülerleşmesi Üzerine",
+    slug: "ahmet-arslan-turkiyede-felsefenin-populerlesmesi",
+    summary:
+      "Sitemizde daha önce portresini yayımladığımız Arslan'ı bu kez tek bir soru üzerinden ele alıyoruz: Felsefe, akademinin dışında nasıl yapılır? Felsefeye Giriş'in kuşaklar boyunca ders kitabı olması, 'çok akademik' ile 'çok popüler' arasındaki üçüncü yol, felsefe ile bilimi ayırma ısrarı ve 'İslam felsefesi var mıdır?' sorusunun kimlik meselesine dönüşmeden nasıl sorulacağı.",
+    seoTitle: "Ahmet Arslan ve Türkiye'de felsefenin popülerleşmesi",
+    metaDescription:
+      "Ahmet Arslan'ın popüler felsefeye katkısı: Felsefeye Giriş, ciddi ama anlaşılır felsefe, felsefe-bilim-din ayrımı, İslam felsefesinin kimlik problemi olmaktan çıkarılması, Kemalpaşazâde ve Osmanlı düşüncesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ege%20%C3%BCniversitesi%20kamp%C3%BCs%20i%C3%A7inde.jpg?width=1600",
+    imageCredit: "Ege Üniversitesi kampüsü, Bornova · Wikimedia Commons",
+    featured: false,
+    sourceName: "İstanbul Bilgi Üniversitesi Yayınları",
+    sourceUrl: "https://bilgiyay.com/kitap/islam-felsefesi-uzerine/",
+    publishedAt: "2026-09-16T02:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["islam-felsefesi", "akademi", "antik-felsefe", "kavram", "bilim-felsefesi"],
+    philosopherSlugs: ["ahmet-arslan"],
+    sources: [
+      {
+        title: "İslam Felsefesi Üzerine",
+        publisher: "İstanbul Bilgi Üniversitesi Yayınları",
+        url: "https://bilgiyay.com/kitap/islam-felsefesi-uzerine/",
+        primary: true,
+      },
+      {
+        title: "Felsefeye Giriş",
+        publisher: "TDK Yayınları / kitap künyesi",
+        url: "https://www.tdk.com.tr/felsefeye-giris_70296.html",
+      },
+      {
+        title: "Felsefe ve Bilim — Ahmet Arslan",
+        publisher: "flaps.club",
+        url: "https://flaps.club/felsefe-ve-bilim-ahmet-arslan/",
+      },
+    ],
+    content: `Ahmet Arslan'ın hayatını ve beş ciltlik *İlkçağ Felsefe Tarihi*'ni sitemizde [daha önce ele almıştık](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu): Urfa'daki manav çıraklığından Ege Üniversitesi Felsefe Bölümü'nün kuruluşuna, Kemalpaşazâde'den Aristoteles'e. Bu yazı o portreyi tekrarlamıyor. Tek bir soruya odaklanıyor: **Türkiye'de felsefe, akademinin duvarlarının dışında nasıl yapılır — ve Arslan bunu nasıl yaptı?**
+
+## İki uç arasında sıkışan felsefe
+
+Türkiye'de felsefenin kaderi uzun süre iki uç arasında sıkıştı. Bir yanda, yalnızca meslektaşlara yazılan, dipnotları metninden uzun, kavramlarını tanımlamayı gereksiz sayan **akademik felsefe**; öte yanda, Nietzsche'yi aforizma koleksiyonuna, Stoacılığı kişisel gelişim reçetesine indirgeyen **popüler felsefe**. Birincisi okunmuyor, ikincisi felsefe değil.
+
+Arslan bu iki alan arasında üçüncü bir yol açtı: **ciddi ama anlaşılabilir felsefe.** Bu formülün her iki kelimesi de önemli. "Ciddi", çünkü Arslan hiçbir zaman felsefeyi basitleştirmedi; Aristoteles'in *Metafizik*'ini anlatırken "töz" kavramının Yunanca kökenine, Arapça karşılığına ve Türkçe çevirisinin sorunlarına girer. "Anlaşılabilir", çünkü bunu, okurun bildiğini varsaydığı hiçbir şeyi atlamadan, adım adım yapar. Popülerleştirme, Arslan'da içeriği azaltmak değil, **basamakları çoğaltmaktır**.
+
+## Felsefeye Giriş: Bir ders kitabından fazlası
+
+Bu yolun en somut ürünü *Felsefeye Giriş*. Kitap, Türkiye'de kuşaklar boyunca felsefeye başlayan öğrencilerin eline geçti; 2025'te yeni baskısı yayımlandı ve yirmi beş yüzyıllık felsefe geleneğine giriş yapmak isteyen okura temel felsefi soruları sistematik biçimde sunmaya devam ediyor.
+
+Kitabın önemi satış rakamı ya da ders kitabı niteliği değil. Yapısı: Arslan felsefeyi filozoflar üzerinden değil, **sorular** üzerinden anlatır — bilgi nedir, varlık nedir, değer nedir, insan nedir — ve her soruya tarih boyunca verilen cevapları birbirleriyle konuşturur. Bu, ezberlenecek bir kronoloji yerine tartışılacak bir problem haritası sunar. Türkiye'de lise felsefe müfredatının uzun süre "izm"ler listesi olarak öğretildiği düşünülürse, Arslan'ın kitabı bir pedagojik karşı-model olarak okunabilir; bu hafta sitemizde andığımız [Allan Bloom'un](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) "büyük kitaplarla karşılaşma" ideali ile [Rancière'in cahil hocası](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi) arasında bir yerde durur: Açıklar, ama okuru kendi zekâsına güvenmeye çağırır.
+
+## Kavramları ayırmak
+
+Arslan'ın popülerleştirme yönteminin ikinci ayağı, kavramları birbirine benzetmek yerine **ayırmak**tır. Güncel konuşmalarında felsefe ile bilim arasındaki ayrımı özellikle vurguladığı görülüyor: Felsefeyi bilimsel bilginin bir uzantısı, bilimin "genel sonuçları" gibi sunmanın kavramsal olarak yanlış olduğunu savunuyor. Bilim başka, din başka, felsefe başka; ama üçü arasında sürekli bir diyalog vardır ve bu diyalog, ancak üçünün ne olduğu ayrı ayrı bilindiğinde verimli olur.
+
+Bu, popüler felsefenin en sık düştüğü tuzağa karşı bir savunmadır: Her şeyi her şeye bağlamak. "Kuantum fiziği Budizmi doğruluyor", "nörobilim özgür iradeyi çürüttü", "yapay zekâ Kant'ı haklı çıkardı" türünden cümleler, kavramların sınırlarının silinmesinden doğar. Arslan'ın tavrı — bu hafta sitemizde ele aldığımız [Nusret Hızır'ın "önce kavramı temizle" ilkesiyle](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) aynı damardan — popülerleştirmenin bulanıklaştırma olmadığını gösterir.
+
+## "İslam felsefesi var mıdır?" — Kimlik sorusu olmaktan çıkarmak
+
+Arslan'ın üçüncü katkısı, Türkiye'de felsefenin en çok kimliğe bulanan sorusunu tarihsel bir soruya dönüştürmesidir. "İslam felsefesi var mıdır?" ilk bakışta tarihsel görünür; aslında bir kimlik problemidir. "Felsefe Yunan'da başladı" dersek İslam dünyasının yaptığı yalnızca çeviri olur; "İslam dünyasında tamamen özgün bir felsefe vardı" dersek Yunan mirasıyla ilişkiyi gözden kaçırırız. İki cevap da tarihsel değil, siyasaldır.
+
+Arslan'ın çalışmalarının gücü tam burada: İslam felsefesini ne Batı felsefesinin dipnotuna indirger ne de dış etkilerden bağımsız bir "öz" olarak romantikleştirir; onu bir **entelektüel karşılaşma alanı** olarak okur. *İslam Felsefesi Üzerine* kitabının içindekiler bunu gösteriyor: Kemalpaşazâde, İbn Sînâ, Aristoteles, İbn Haldun, kelam, tasavvuf ve felsefe-din ilişkisi aynı düşünsel haritada. Fârâbî, İbn Sînâ, İbn Rüşd, Gazzâlî, İbn Haldun ve Kemalpaşazâde, Aristoteles mirasını farklı biçimlerde dönüştürdü; "dönüştürme" sözcüğü hem aktarımı hem özgünlüğü içerir ve iki kutbu da boşa çıkarır.
+
+Arslan'ın Kemalpaşazâde'nin *Tehâfüt Hâşiyesi* üzerine yaptığı doktora çalışması bu açıdan bir program belgesidir: Osmanlı düşüncesinin yalnızca dinî değil, felsefi ve eleştirel boyutlarını araştırmak; "Osmanlı eşittir din, Batı eşittir felsefe" şemasını kırmak. Bu şema Türkiye'de hâlâ yaygındır ve popüler felsefenin de akademik felsefenin de kolayca içine düştüğü bir kalıptır. Arslan'ın Batı dillerinin yanı sıra Arapça bilmesi, onu antik Yunan, İslam felsefesi ve modern Batı felsefesi arasında nadir bir geçiş figürü hâline getirdi — ve bu geçişi Türkçede, genel okurun okuyabileceği bir dille yaptı.
+
+## Popülerleşmenin bedeli ve sınırı
+
+Adil olmak gerekirse, bu yolun bir bedeli var. Arslan'ın felsefe tarihi, kimi eleştirmenlere göre fazla "ders kitabı" tonundadır; büyük yorumsal iddialar yerine güvenilir özetler sunar. Bu, popülerleştirmenin doğasında olan bir seçimdir: Özgün bir Aristoteles yorumu yazmak ile Aristoteles'i Türkçede ilk kez okuyan on dokuz yaşındaki bir öğrenciye Aristoteles'i anlatmak aynı iş değildir ve Arslan ikincisini seçti. Türkiye'de felsefenin kurumsallaşma aşamasında bu seçim, muhtemelen doğru olandı; çünkü yorum tartışması, metnin okunabildiği bir yerde başlar.
+
+## Asıl miras
+
+Arslan'ın Türkiye'ye bıraktığı asıl miras belki tek bir kitap değil, bir **okuma kültürü**dür — ve bu kültürün görünmez tarafı, binlerce insanın Platon'u, Aristoteles'i, Fârâbî'yi, İbn Sînâ'yı, Gazzâlî'yi, İbn Haldun'u Türkçe üzerinden, aracısız okuyabilmesidir. Popüler felsefenin en iyi tanımı budur: Felsefeyi popüler kılmak değil, **felsefe okumayı mümkün kılmak**. Bu hafta sitemizde Türkiye'deki [felsefe dergilerinin](/haber/turkiye-felsefe-dergileri-gonderim-durumu-15-eylul-2026) akademik kanallarını ele aldık; Arslan'ın açtığı yol, o kanalların dışında, kitapçı raflarında ve lise sıralarında işliyor.
+
+---
+
+*Ahmet Arslan 1944'te Urfa'da doğdu; Ankara Üniversitesi DTCF Felsefe Bölümü'nden mezun oldu, 1979'da Ege Üniversitesi Felsefe Bölümü'nü kurdu, 1988'de profesör oldu. Başlıca eserleri: Felsefeye Giriş · İlkçağ Felsefe Tarihi (5 cilt) · İslam Felsefesi Üzerine · Kemalpaşazâde'nin Tehâfüt Hâşiyesi (doktora) · Aristoteles'ten Metafizik çevirisi. Ayrıntılı portre için daha önceki dosyamıza bakınız.*`,
+  },
+  {
+    title: "Yapay Zekâ Bir Milyon Dolarlık Matematik Problemini Çözdü mü?",
+    slug: "yapay-zeka-navier-stokes-milyon-dolarlik-problem",
+    summary:
+      "OpenAI'ın on bin ajanı 88 saatte Navier–Stokes denklemlerinde tekillik bulduğunu açıkladı; ispat Lean'de doğrulandı. Ama Navier–Stokes vakası matematik tarihinden çok daha büyük bir soruyu önümüze getiriyor: Bir makine bir matematiksel doğrulamayı gerçekleştirebiliyorsa, matematiksel düşünceyi de gerçekleştirmiş olur mu? Turing'den Searle'e, Gödel'den Wittgenstein'a, Platon'dan Tao'ya bir dosya.",
+    seoTitle: "Yapay zekâ Navier–Stokes'u çözdü mü? Matematik felsefesi açısından bir okuma",
+    metaDescription:
+      "OpenAI'ın Navier–Stokes tekillik ispatı: 10.000 ajan, 88 saat, Lean doğrulaması; Clay ödülü kuralları; doğrulama değeri ile kavrayış değeri ayrımı; Turing, Searle, Dennett, Chalmers, Gödel, Wittgenstein ve Terence Tao'nun uyarısı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/F-18%20model%20in%20water%20tunnel%20with%20dye%20injections%20(side%20view).jpg?width=1600",
+    imageCredit: "Su tünelinde boya enjeksiyonuyla görünür kılınan girdaplar · NASA / Wikimedia Commons",
+    featured: true,
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/navier-stokes-solution/",
+    publishedAt: "2026-09-16T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "mantik", "bilim-felsefesi", "epistemoloji", "platon"],
+    philosopherSlugs: ["daniel-dennett", "david-chalmers", "ludwig-wittgenstein", "platon"],
+    sources: [
+      {
+        title: "On the Navier–Stokes Millennium Prize Problem",
+        publisher: "OpenAI, 8 Eylül 2026",
+        url: "https://openai.com/index/navier-stokes-solution/",
+        primary: true,
+      },
+      {
+        title: "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+        publisher: "Quanta Magazine, 8 Eylül 2026",
+        url: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      },
+      {
+        title: "He was close to a $1 million breakthrough. Then OpenAI swooped.",
+        publisher: "The Washington Post, 13 Eylül 2026",
+        url: "https://www.washingtonpost.com/technology/2026/09/13/he-was-close-1-million-breakthrough-then-openai-swooped/",
+      },
+      {
+        title: "OpenAI Claims Another Huge Mathematical Result Amid Fights Over Credit, Ethics, and Privacy",
+        publisher: "SingularityHub, 11 Eylül 2026",
+        url: "https://singularityhub.com/2026/09/11/openai-claims-another-huge-mathematical-result-amid-fights-over-credit-ethics-and-privacy/",
+      },
+    ],
+    content: `Dokuzuncu gün. Doksanıncı yıl. Bir milyon dolar. Ve bir makine.
+
+8 Eylül sabahı OpenAI, yaklaşık doksan yıldır matematikçilerin peşinde olduğu Navier–Stokes problemine bir çözüm sunduğunu açıkladı: Şirketin henüz yayımlanmamış bir iç modelinin yönettiği ajanlar, üç boyutlu bir akışkanın düzgün başlangıç koşullarından ve düzgün bir dış kuvvetten hareketle sonlu zamanda **tekillik** — sonsuz hız — geliştirebileceğini gösteren bir ispat üretmişti. Sistem yalnızca bir metin üretmedi; ispat, Lean adlı biçimsel doğrulama sisteminde formalize edildi ve makine tarafından doğrulandı.
+
+Rakamlar başlı başına bir haber: OpenAI'ın kendi hesabına göre Navier–Stokes grubunda on bin civarında eşzamanlı ajan çalıştı; ajanlar ilk başlatılmalarından yaklaşık 88 saat sonra, 5 Eylül Cumartesi günü çözüme ulaştı; 2,7 milyon mesaj ve yaklaşık 130 milyar çıktı token'ı kullanıldı; Lean formalizasyonu ve doğrulaması GPT-6 Astra ile 17 saat daha sürdü. OpenAI'dan Sébastien Bubeck hesaplama maliyetini "birkaç milyon dolar" olarak tahmin ediyor; Washington Post, kamuya açık model fiyatları üzerinden 15 milyon dolara varabilecek bir eşdeğer hesap aktarıyor.
+
+Fakat bu hikâyenin en ilginç kısmı ne bir milyon dolar, ne on bin ajan, ne de 130 milyar token. Asıl soru şu: **Matematiksel olarak doğru bir şey üreten bir makine, matematik yapmış olur mu?** Bu soru bizi Platon'dan Descartes'a, Frege'den Gödel'e, Turing'den Searle'e, Dennett'ten Chalmers'a uzanan bir felsefi tartışmanın ortasına bırakıyor. Önce mesele.
+
+## Navier–Stokes nedir?
+
+Su akarken neden girdap oluşur? Hava bir kanadın üzerinden geçerken ne olur? Okyanus akıntıları nasıl hareket eder? Kahvenin içine süt döktüğümüzde neden o kıvrımlar ortaya çıkar? Bu soruların matematiksel dilinin merkezinde, on dokuzuncu yüzyılda Claude-Louis Navier ve George Gabriel Stokes'un yazdığı denklemler bulunur. Denklemler, Newton'un ikinci yasasını — kuvvet eşittir kütle çarpı ivme — akışkanlara uygular ve akışkanı tek tek moleküller olarak değil, **sürekli bir ortam** olarak ele alır. Uçak tasarımından hava tahminine, kan dolaşımından iklim modellerine kadar her yerde kullanılırlar.
+
+Sorun denklemlerin yazılmasında değil, çözülmesinde. 1934'te Jean Leray çözümlerin genelleştirilmiş bir anlamda var olduğunu kanıtladı; ama üç boyutta bu çözümlerin her zaman **düzgün** kalıp kalmadığı — yoksa akışkanın sonsuz küçük bir parçasının sonlu bir sürede sonsuz hıza ulaşıp ulaşamayacağı — açık kaldı. Clay Matematik Enstitüsü 2000'de bu soruyu, her biri bir milyon dolarlık yedi Milenyum Problemi'nden biri ilan etti.
+
+OpenAI'ın sonucu, Clay'in resmî formülasyonundaki "C" ve "D" ifadelerini — yani düzgün koşullarda tekilliğin **mümkün olduğunu** — kurarak problemi olumsuz yönde çözdüğünü iddia ediyor. Çözümün kendisi bir girdap: Kendi içine doğru spiral çizen, giderek uzayan, "spagetti gibi" incelen bir dönüş; merkez bölge küçülürken hızlanıyor, ama enerji sonlu kalıyor. Teknik zorluk, ivme, basınç gradyanı, momentum aktarımı ve viskozite terimlerinin hem devasa büyümesi hem de birbirini tam olarak dengelemesi — ve bunun, dışarıdan sonsuz bir kuvvet uygulanarak değil, akışkanın kendi hareketiyle olması.
+
+Burada gazetecinin koyması gereken kritik dipnot var. Bu, Clay ödülünün kazanıldığı anlamına gelmiyor. Enstitünün kurallarına göre çözümün hakemli bir yerde yayımlanması ve matematik topluluğu tarafından en az iki yıl boyunca genel kabul görmesi gerekiyor. OpenAI ise açıkça "bu sonuç için Milenyum Ödülü'ne başvurmayı düşünmüyoruz" diyor. Dolayısıyla bugün elimizde olan şey, olağanüstü güçlü bir yapay zekâ üretimli ispat ve formalizasyonu; matematik camiasının nihai tarihsel hükmü değil. Quanta'nın haberinde, Clay'in resmî problem tanımını yazan Charles Fefferman'ın sözleri dikkat çekici: Sonucun çözüldüğüne "sevindiğini" söylüyor — ama hikâyenin kahramanları olarak yapay zekâyı değil, Madrid'den Diego Córdoba ile Luis Martínez-Zoroa'yı gösteriyor. Bu kısmı bugün sitemizde [ayrı bir haberde](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge) ele aldık.
+
+## Matematik tarihinde yeni bir çağ mı?
+
+Tarihin ironik bir tarafı var. Yüzyıllar boyunca matematik, insan zihninin en saf ürünü sayıldı. Fizikte deney yapabilirsiniz, kimyada maddeyi karıştırabilirsiniz; ama matematikte laboratuvar yoktur. Matematikçi düşünür; bir aksiyomdan başlar, bir çıkarım yapar, bir çıkarım daha yapar ve sonunda "Q.E.D." der — *quod erat demonstrandum*, gösterilmesi gereken buydu. Şimdi makine aynı şeyi yapmaya başladığında, matematiğin öznesi kim olacak?
+
+## Turing'in hayaleti
+
+Alan Turing'in 1936 tarihli çalışması, "hesaplanabilirlik"i mekanik prosedürler üzerinden tanımladı: Bir problem, sonlu bir kurallar dizisiyle çözülebiliyorsa hesaplanabilirdir. Turing'in asıl mirası ise bugün başka bir yerde karşımıza çıkıyor: **Düşünmek ile hesaplamak arasında zorunlu bir fark var mı?** Eğer bütün matematiksel çıkarımlar mekanik olarak gerçekleştirilebiliyorsa, matematikçinin yaptığı şeyin makine tarafından yapılması neden "düşünme" sayılmasın? Turing 1950'de bu soruyu "makineler düşünebilir mi?" biçiminde sormuş ve sorunun kendisini "tartışmaya değmeyecek kadar anlamsız" bulup yerine ünlü testini önermişti. Navier–Stokes vakası bu soruyu soyut bir düşünce deneyinden çıkarıyor: Makine, testi matematiğin kendi diliyle geçti.
+
+## Searle: Doğru semboller yetmez
+
+John Searle'ün Çin Odası burada kaçınılmaz. Bir sistem Çince sembolleri öyle doğru kurallarla manipüle edebilir ki dışarıdan bakan onun Çince bildiğini sanır; ama Searle'e göre sembolleri doğru işlemek, anlamlarını anlamak değildir. Navier–Stokes'a uygulayalım. Sistem matematiksel ifadeleri okuyor, yeni ifadeler üretiyor, yardımcı önermeler kuruyor, farklı ispat stratejilerini deniyor, hatalı yolları eliyor, başarılı yaklaşımı başka ajanlara aktarıyor ve nihayet biçimsel bir ispat üretiyor. Peki sistem gerçekten "akışkanın tekilliğe gidişini anlıyor" mu? Yoksa anlamlı matematiksel sembolleri olağanüstü karmaşık biçimde manipüle mi ediyor? Searle'ün cevabı büyük ihtimalle ikincisi olurdu — ve bu hafta sitemizde işlediğimiz [beyin implantı dosyasındaki](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) aynı itirazın matematik versiyonudur: Sinyali çözmek anlamı çözmek değildir.
+
+## Dennett'in itirazı: Anlama merkezi aramayın
+
+Bu hafta [portresini yayımladığımız Daniel Dennett'in](/haber/daniel-dennett-zihnin-buyusunu-bozan-filozof) yaklaşımı çok daha rahatsız edicidir. Dennett, zihinde küçük bir "anlama merkezi" aramaya karşı çıkıyordu. Bir sistem bilgi topluyor, seçenekleri değerlendiriyor, öngörü üretiyor, hatalarını düzeltiyor ve davranışını çevresine göre değiştiriyorsa, "anlama"yı sistemin toplam işlevsel mimarisi üzerinden değerlendirebiliriz — "kavrayışsız yetkinlik" bir kusur değil, evrimin ve mühendisliğin normalidir.
+
+Bu açıdan on bin ajanın birlikte çalışması özellikle ilginç. OpenAI'ın açıklamasına göre ajanlar gruplar hâlinde çalıştı, grup içinde iletişim kurdu, farklı çözüm yollarını araştırdı; sonra Codex kullanılarak grupların ara sonuçları arasında "çapraz tozlaşma" sağlandı ve çözümü bulan grup bu yönlendirmeyle çalıştı. Ortaya çıkan şey tek bir "yapay matematikçi" değil, bir tür **yapay matematik topluluğu**. Belki soru "yapay zekâ matematikçi midir?" değil, "matematiksel fail tek bir zihin olmak zorunda mıdır?" olmalı. İnsan matematiği de zaten böyle çalışmıyor mu — seminerler, ön baskılar, hakemler, yüz yıllık bir birikim?
+
+## Chalmers: İşlev gerçekleşiyorsa
+
+David Chalmers, zihinsel durumların biyolojik alt tabakaya değil işlevsel örgütlenmeye bağlı olduğunu savunan gelenektendir: Bir zihinsel sürecin işlevsel yapısı başka bir fiziksel sistemde yeterince doğru gerçekleştirilebiliyorsa, süreç de gerçekleşir. Bunu matematiğe taşıdığımızda radikal bir sonuç çıkar: Belki matematiksel düşüncenin "özü" karbon bazlı bir beyinde gerçekleşmesi değil, **belirli türden soyut ilişkileri keşfetmesi, sınaması ve gerekçelendirmesi**dir. Eğer öyleyse, yapay zekânın matematik yapmasını ilkesel olarak reddetmek zorlaşır.
+
+## Gödel hikâyeyi karmaşıklaştırıyor
+
+Gödel'in eksiklik teoremleri, yeterince güçlü tutarlı biçimsel sistemlerde, sistemin kendi araçlarıyla kanıtlanamayan doğru önermeler bulunduğunu gösterdi. Lucas ve Penrose bunu "insan zihni makineleştirilemez" tezine dayanak yaptı: İnsan, Gödel cümlesinin doğru olduğunu görebilir; makine göremez. Fakat bu yorum ciddi itirazlarla karşılaştı — insan matematikçi de tutarsız olabilir, hata yapar, aksiyomlarını değiştirir; ve "görme"nin kendisinin bir hesaplama olmadığı kanıtlanmış değildir. "Gödel eşittir insan üstündür" denklemi felsefi açıdan fazla hızlıdır.
+
+Navier–Stokes vakası ise tartışmayı başka bir noktaya taşıyor: Makine yalnızca verili bir sistemin içinde hesap yapmıyor; yeni bir matematiksel yapı — sonsuz katmanlı bir girdap kaskadı — öneriyor. Bu, Gödel'in sınırlarının içinde kalır; ama "makine yalnızca mekanik türetme yapar" diyen basit resmin dışına çıkar.
+
+## Doğruluk ile kavrayış aynı şey mi?
+
+Asıl ayrım burada. Bir ispatın iki farklı değeri olabilir. **Doğrulama değeri**: Adımlar geçerli mi, bir önermeden diğerine geçiş doğru mu, biçimsel sistem bunu onaylıyor mu? **Kavrayış değeri**: Neden bu fikir işe yarıyor, hangi matematiksel yapı problemin özünü açıklıyor, ispat başka problemlere nasıl uygulanabilir, insan matematikçi bunun doğru olduğunu neden sezebiliyor?
+
+Yapay zekâ ilkinde olağanüstü bir noktaya gelmiş olabilir; ikincisi hâlâ açık bir soru. Washington Post'un aktardığı matematikçilerin vurgusu tam bu: 166 sayfalık ispatın biçimsel olarak doğrulanması önemli; ama matematik için anlaşılabilirlik ve topluluk tarafından sindirilmiş kavrayış ayrıca değerlidir. Lean'in doğruladığı şey, Lean'de yazılan ifadenin Lean'in kurallarından çıktığıdır; o ifadenin, matematikçilerin kanıtlamak istediği şeyle mantıksal olarak eşdeğer olduğunu hâlâ insanlar doğrulamak zorunda — Quanta'nın hatırlattığı gibi.
+
+Matematiğin yaşayan en önemli isimlerinden Terence Tao, yapay zekânın matematikte kullanılmasına karşı değil; kendisi bu araçları kullanıyor ve savunuyor. Ama SingularityHub'ın aktardığı uyarısı önemli: Güçlü "çözüm çıkarma" araçlarının yalnızca sonuca ulaşmak için ayrım gözetmeksizin kullanılması, matematiksel anlayışı zayıflatabilir. Çünkü matematikte **problemi çözmek ile problemi anlamak aynı şey değildir**. Bu ayrım bilim tarihinin tamamında vardır: Fizikçi denklemin çözümünü bulur ama doğanın neden öyle davrandığını açıklayamayabilir; biyolog korelasyonu bulur ama mekanizmayı bilmeyebilir. Matematikte de bir ispatın doğru olması, onun neden güzel, doğal ya da genellenebilir olduğunu açıklamaz.
+
+## Platon, Aristoteles, Descartes
+
+Platon için matematik, duyular dünyasından daha yüksek bir hakikate açılan kapıydı; geometrik doğrular fiziksel çizgilerden bağımsızdı — üçgeni kâğıda kusurlu çizersiniz, matematiksel üçgen kusursuzdur. Biyolojik bedeni, duyguları, eli, kalemi olmayan ama soyut ilişkileri işleyebilen bir yapay zekâda Platon açısından belki şaşırtıcı bir şey yoktur: Matematiğin hakikati zaten bedenden bağımsızdır. Aristoteles daha ihtiyatlı olurdu; onun için bilmek, biçimsel ilişkiyi izlemek değil **nedenleri kavramak**tır — ve "neden?" sorusu geri döner.
+
+Descartes açısından problem daha da ilginç. Rasyonel düşünce zihnin özelliğiydi; beden mekanik bir sistemdi. Şimdi karşımızda tamamen hesaplamalı bir sistem, insan zihninin ayırt edici işlerini — soyutlama, çıkarım, kanıtlama, hata düzeltme — yapıyor. Descartes'ın düalizmi bugün savunulması zor bir model; ama sorusu yeniden canlanıyor: Akıl biyolojik bir organa mı aittir, yoksa belirli bir işlevsel yapıya mı?
+
+## Wittgenstein: Matematik bir nesne değil, bir pratiktir
+
+Wittgenstein'ın geç dönem felsefesi tartışmayı başka yere götürür. Matematiği kafamızdaki soyut nesneler hakkında konuşma olarak görmek yerine, matematiksel pratiğin nasıl işlediğine bakar. "İspat" yalnızca sembollerin sıralanması değildir; bir matematik topluluğu neyin ispat sayılacağını, neyin açıklayıcı olduğunu, hangi yöntemin zarif, hangi tanımın verimli, hangi sonucun önemli olduğunu belirleyen **normlara** sahiptir. Bu yüzden yapay zekânın matematik yapması yalnızca teknik bir problem değildir; matematik topluluğunun normlarının geleceği de söz konusudur. Buckmaster'ın kendi ispatlarından biri için "yapay zekâ çöpü" (AI slop) deyip özür dilemesi, tam da bu normların — okunabilirlik, zarafet, anlaşılırlık — hâlâ yürürlükte olduğunu gösteriyor.
+
+## Asıl tehlike: Matematikçiler işini kaybetmez, matematiğin kültürü değişir
+
+Yapay zekâ matematikçilerin yerini alacak mı? Mesele muhtemelen bundan daha karmaşık. Matematikçi "bana bir ispat ver" yerine "bana yeni bir kavram öner" diyebilir; yapay zekâ milyonlarca yaklaşımı tarar, insan verimli olanı seçer, makine yeniden test eder. Matematik, insan-makine ortak araştırma pratiğine dönüşür — tıpkı teleskobun astronomiyi değiştirdiği gibi. Teleskop astronomun yerine geçmedi; ama teleskopsuz astronominin sınırlarını ortadan kaldırdı.
+
+Fakat vakanın etik bir gölgesi var: Keşif kimin keşfidir? OpenAI'ın kendi açıklaması, çabanın 1 Eylül'de "iki Milenyum Problemi'nin çözüldüğü söylentisi" üzerine başladığını ve söylentinin Anthropic çalışanı Levent Alpöge ile NYU'dan Tristan Buckmaster'a ilişkin olduğunu kabul ediyor; şirket, Buckmaster'ın Codex istemlerinin sistemi etkilemediğini bir soruşturmayla doğruladığını söylüyor. Buckmaster ise açıklamasında bundan emin değil. Bu tartışmanın ayrıntılarını ve iki İspanyol matematikçinin — sonucun asıl kahramanları — hikâyesini [ayrı bir haberde](/haber/navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge) anlattık. Burada felsefi soruyu kaydedelim: Bir makine, milyonlarca insanın ürettiği matematiksel kültür üzerine kuruluysa, onun "özgünlüğünü" nasıl tanımlayacağız? Bu hafta sitemizde [David Harvey'nin](/haber/david-harvey-kapitalizmi-haritadan-okuyan-filozof) kavramıyla sorduğumuz soru geri geliyor: Üretim araçlarının — model, veri, GPU, elektrik, şirket — sahibi kim? Geleceğin büyük matematik problemlerini üniversiteler mi, devletler mi, açık kaynak toplulukları mı, yoksa birkaç teknoloji şirketi mi çözecek?
+
+## En zor soru
+
+Bir insan matematikçi ispatı yazdığında "bunu neden yaptığımı biliyorum" diyebilir. Bir yapay zekâ için durum daha karmaşık: Model milyonlarca olasılığı tarar, bir yaklaşım bulur, başka bir ajan geliştirir, üçüncüsü sadeleştirir, Lean doğrular. Sonunda "doğru" diyebiliriz. Ama "neden?" sorusuna kimin cevap verdiği belirsiz.
+
+Navier–Stokes problemi matematikte yeni bir çağın kapısını açmış olabilir. Ama asıl devrim problemin çözülmüş olması değil; **matematiksel keşfin üretim biçiminin değişmiş olması**. Bir zamanlar matematikçi tek başına bir masada oturuyordu; sonra bilgisayar geldi; şimdi masanın karşısında on bin ajan var. Belki gelecekte matematikçinin işi ispat yazmak değil, hangi sorunun sorulmaya değer olduğunu seçmek olacak. Ve insanlık ilk kez yalnızca "makine hesaplayabilir mi?" diye sormuyor. "Makine keşfedebilir mi?" diye soruyor — ve hemen arkasından: **"Bir makine keşfediyorsa, keşfettiği şeyin anlamını bilmek zorunda mı?"** Navier–Stokes'un cevabı henüz belli değil. Fakat matematiğin eski dünyası değişmeye başladı.
+
+---
+
+*OpenAI'ın açıklaması 8 Eylül 2026'da yayımlandı; "Eşzamanlı çalışmalar" bölümü 10 Eylül'de şirketin iç soruşturmasının sonuçlarıyla güncellendi. Clay Matematik Enstitüsü'nün ödül kuralları, hakemli yayın ve iki yıllık kabul süresi gerektiriyor; OpenAI ödüle başvurmayacağını açıkladı.*`,
+  },
+  {
+    title: "Navier–Stokes'u kim çözdü? Córdoba, Martínez-Zoroa, Buckmaster, Alpöge ve on bin ajan",
+    slug: "navier-stokes-kim-cozdu-cordoba-martinez-zoroa-buckmaster-alpoge",
+    summary:
+      "OpenAI'ın açıklamasından on iki saat önce, NYU'dan Tristan Buckmaster ile Anthropic'ten Levent Alpöge kendi sonuçlarını duyurdu; iki taraf da Madrid'den iki matematikçinin — Diego Córdoba ve öğrencisi Luis Martínez-Zoroa — bilgisayarsız geliştirdiği yönteme dayanıyordu. Buckmaster 'Martínez-Zoroa Fields Madalyası'nı hak ediyor' dedi; Fefferman 'kahramanlar onlar' dedi. Bir keşfin sahipliği üzerine bilim sosyolojisi dersi.",
+    seoTitle: "Navier–Stokes'u kim çözdü? Öncelik tartışması ve Córdoba–Martínez-Zoroa yöntemi",
+    metaDescription:
+      "Navier–Stokes tekillik ispatının soyağacı: Hou–Luo 2013, Córdoba ve Martínez-Zoroa'nın 'sonsuz kaskad' yöntemi, Buckmaster–Alpöge'nin Euler sonucu, OpenAI'ın 1 Eylül'de duyduğu söylenti ve soruşturması. Bilimsel önceliğin yapay zekâ çağındaki anlamı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/FA-18%20model%20water%20tunnel%20visualisation%20DFRC%20763x1280.jpg?width=1600",
+    imageCredit: "Su tünelinde girdap görselleştirmesi · NASA Dryden / Wikimedia Commons",
+    featured: false,
+    sourceName: "Quanta Magazine",
+    sourceUrl: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+    publishedAt: "2026-09-16T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "bilim-felsefesi", "akademi", "etik", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+        publisher: "Quanta Magazine",
+        url: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+        primary: true,
+      },
+      {
+        title: "On the Navier–Stokes Millennium Prize Problem — Concurrent work",
+        publisher: "OpenAI",
+        url: "https://openai.com/index/navier-stokes-solution/",
+      },
+      {
+        title: "Tristan Buckmaster — Statement",
+        publisher: "Courant Institute, NYU",
+        url: "https://cims.nyu.edu/~tristanb/statement.pdf",
+      },
+    ],
+    content: `Bugün sitemizde [ayrı bir dosyada](/haber/yapay-zeka-navier-stokes-milyon-dolarlik-problem) sorduğumuz soru "makine matematik yapabilir mi?" idi. Bu haberin sorusu daha eski ve daha insani: **Bir keşif kimindir?** Navier–Stokes vakasında bu sorunun cevabı en az dört isim, iki şirket, bir üniversite ve on bin ajan arasında bölünüyor — ve hikâyenin en ilginç tarafı, gerçek kahramanların yapay zekâ kullanmayan iki İspanyol matematikçi olması.
+
+## On iki saat
+
+8 Eylül sabahı OpenAI, Navier–Stokes denklemlerinde tekillik bulduğunu açıkladı. Ondan on iki saat önce, 7 Eylül gece yarısından hemen önce, New York Üniversitesi'nden Tristan Buckmaster bir açıklama yayımlayarak Anthropic'te çalışan matematikçi Levent Alpöge ile birlikte "yakından ilişkili birkaç problemi" çözdüklerini duyurmuştu; OpenAI'ın modelleri dahil çeşitli yapay zekâ modellerinin yardımıyla.
+
+İki tarafın sonuçları aynı değil. Buckmaster ve Alpöge, 22 Ağustos itibarıyla Euler denklemleri — viskozitesiz akışkanlar — için Lean ile doğrulanmış bir patlama (blow-up) ispatına sahipti; Navier–Stokes'un daha kolay bir versiyonu için doğrulanmamış bir ispatları olduğunu da söylüyorlar. OpenAI ise Euler'in kuvvetsiz versiyonunu yaklaşık yüz ajanla elli saatte, sonra Navier–Stokes'un tamamını on bin ajanla seksen sekiz saatte çözdüğünü açıkladı. OpenAI, üç boyutlu Euler sonucunda önceliği Buckmaster ve Alpöge'ye bırakıyor; Navier–Stokes için önceliği kendisine alıyor.
+
+Buckmaster'ın açıklaması alışılmadık ölçüde açık sözlü. "Geçen yılın büyük bölümünde ilerleme yavaştı" diyor; Alpöge'nin gönderdiği ilk dil modeli ispatının "okuduğum en korkunç ispat" olduğunu ekliyor. İkili daha zarif bir yazım üzerinde çalışmayı planlıyordu; ama ilerlemelerinin haberi OpenAI'a sızınca takvimi öne çekmek zorunda kaldılar. Yayımladıkları üç makaleden biri için Buckmaster'ın kendi ifadesi: "Yalnızca yapay zekâ çöpü olarak tanımlanabilir. Bunun için özür dilerim."
+
+## Söylenti
+
+OpenAI'ın kendi anlatımı, hikâyenin nasıl başladığını gizlemiyor. Şirket 28 Ağustos'tan beri yeni bir iç modeli eğitiyordu; 1 Eylül Salı günü "iki Milenyum Problemi'nin çözüldüğüne dair söylentiler" duydu ve bu söylentiden — ayrıca modelin performansındaki sıçramadan — ilham alarak modeli bütün açık Milenyum Problemleri üzerinde denemeye karar verdi. Şirket, söylentinin Alpöge ve Buckmaster'la ilgili olduğunu "sonradan fark ettiğini" söylüyor. Lean doğrulaması 6 Eylül'de tamamlandıktan sonra ikiliye ulaşıp ortak duyuru ve öncelik tanıma önerdi; o sırada ikilinin Anthropic'in iç modeliyle kuvvetli Euler problemini çözdüğünü öğrendi.
+
+Buckmaster'ın açıklamasında ise başka bir ima var: OpenAI araştırmacılarının ya da ajanlarının, ikilinin OpenAI modellerini kullanarak yaptığı çalışmaya erişmiş ve ondan yararlanmış olabileceği. OpenAI 10 Eylül'de açıklamasını güncelledi: Bir soruşturmanın ardından, Buckmaster'ın son iki aydaki Codex istemlerinin sistemi "eğitim yoluyla dahil hiçbir biçimde etkilemiş olamayacağını" doğruladığını, kullanılan modelin önceden eğitilmiş bir modelin üzerine büyük ölçekli pekiştirmeli öğrenmeyle geliştirildiğini ve "hiçbir kullanıcı verisine erişilmediğini" söylüyor. Quanta'nın ifadesiyle, "farklı taraflar konuşmanın farklı versiyonlarını sunuyor" ve zaman çizelgesini çözmek zaman alacak.
+
+## Asıl kahramanlar: Madrid
+
+Ama tartışmanın gürültüsü, asıl hikâyeyi gölgelememeli. Quanta'nın haberinde Clay'in resmî problem tanımını yazan Princeton'dan Charles Fefferman şöyle diyor: Hikâyenin kahramanları, Madrid Matematik Bilimleri Enstitüsü'nden Diego Córdoba ve CUNEF Üniversitesi'nden Luis Martínez-Zoroa'dır. Buckmaster da açıklamasında bunu "açıkça" söylüyor: "Bu çalışma bütünü göz önüne alındığında, Luis Martínez-Zoroa'nın Fields Madalyası'nı hak ettiğine inanıyorum."
+
+Neden? Çünkü her iki yapay zekâ ekibi de aynı yönteme dayanıyordu ve yöntem onlarındı. On yıl önce hiç kimse Navier–Stokes'ta tekillik olduğuna inanmıyordu; Euler için bile şüphe vardı. 2013'te Caltech'ten Thomas Hou ve Guo Luo, bir silindirin üst ve alt yarıları ters yönde döndürüldüğünde Euler denklemlerinin "patladığını" bilgisayar simülasyonuyla gösterdi ve hataları hesaplayarak kanıtladı; sonraki on yılda bu bilgisayar destekli yaklaşım alanın hâkim yöntemi oldu. Martínez-Zoroa ise 2021 tarihli doktora tezinde **bilgisayara hiç dayanmayan** analitik teknikler geliştirdi; danışmanı Córdoba ile birlikte alanın "tuhafları"ydılar. Córdoba'nın şakası ünlü: "Ben yapay zekâ kullanmıyorum; benim Luis'im var."
+
+Yöntemleri, her biri tekil olmayan bir çözüm olan sonsuz sayıda "katman" üretip bunları "sonsuz kaskad" hâlinde birleştirerek yeni bir çözüm — tekilliği içeren — kurmak. 2023'te Euler'in karmaşık bir kuvvet fonksiyonlu versiyonu için tekilliği bu yöntemle kanıtladılar. Eksik kalan tek adım, kaskadın sonunda kuvvet fonksiyonunun da **düzgün** kalmasıydı — Milenyum Ödülü'nün şartı. Her iki yapay zekâ ekibinin başardığı adım tam olarak bu. Yani makineler sıfırdan düşünmedi; iki insanın on yıl boyunca inşa ettiği merdivenin son basamağını çıktı. Martínez-Zoroa'nın Quanta'ya söylediği söz, bilimin en zarif cümlelerinden: "Bunu kendimizin yapması güzel olurdu; ama Tristan adına çok mutluyum."
+
+## Bilim sosyolojisi: Öncelik nedir?
+
+Robert Merton, bilimde önceliğin — bir keşfi ilk yapan olmanın — bilim insanının tek gerçek ödülü olduğunu ve öncelik tartışmalarının bilimin normal işleyişinin parçası olduğunu yazmıştı: Newton ile Leibniz, Darwin ile Wallace. Fakat Merton'un modelinde öncelik, keşfi **yapan** kişiye aitti ve keşif yapmanın ne olduğu belliydi. Navier–Stokes vakası bu modelin her terimini bulanıklaştırıyor.
+
+Keşfi kim yaptı? Yöntemi kuran Córdoba ve Martínez-Zoroa mı; yöntemi yapay zekâyla tamamlayan Buckmaster ve Alpöge mi; on bin ajanı yöneten OpenAI araştırmacıları mı; ajanların kendisi mi? "İlk" ne demek — Lean doğrulaması mı, kamuya duyuru mu, ön baskı mı, arXiv damgası mı? Ve bir şirketin, bir söylentiden yola çıkıp on bin ajanı bir probleme yöneltmesi, bilimsel öncelik açısından bir keşif mi, yoksa bir **operasyon** mu? Buckmaster'ın "yayın takvimini öne çekmek zorunda kaldık" cümlesi, bilim tarihçilerinin "öncelik yarışının deformasyonu" dediği şeyin ders kitabı örneği: Rakip yaklaşınca, hazır olmayan yayımlanır — ve "çöp" diye özür dilenir.
+
+Bu hafta sitemizde [Amodei'nin yavaşlama çağrısı](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) ve [METR raporu](/haber/metr-slop-vestigation-yapay-zekayi-yapay-zekayla-sorusturmak) vesilesiyle yapay zekânın bilimi nasıl hızlandırdığını tartıştık. Navier–Stokes, hızın bedelini gösteriyor: Yöntemi on yılda kuran iki matematikçi, sonucu on iki saat arayla duyuran iki ekip ve tartışmayı bir haftada yürüten bir dünya. Fefferman'ın ve Buckmaster'ın Córdoba ile Martínez-Zoroa'ya işaret etmesi, bilim topluluğunun hâlâ bir şeyi ayırt edebildiğini gösteriyor: **Hesaplamayı yapan ile fikri bulan aynı kişi olmayabilir.** Bugün sitemizde [Fields Madalyası dosyasında](/haber/fields-madalyasi-2026-deng-pardon-tsimerman-wang) bu ayrımın ödül sistemine nasıl yansıdığına baktık.
+
+Ve bir de Türkiye için küçük bir not: Levent Alpöge, adından anlaşılacağı üzere Türkiye kökenli bir matematikçi; sayılar kuramı ve aritmetik geometrideki çalışmalarıyla tanındı ve OpenAI'ın açıklamasına göre bugün Anthropic'te çalışıyor. Yirmi birinci yüzyılın en büyük matematik olaylarından birinde bir Türk matematikçinin adının geçmesi, Türkiye'de matematik eğitimi üzerine düşünenler için ayrı bir konu.
+
+---
+
+*Bu haber OpenAI'ın açıklamasına, Quanta Magazine'in haberine ve Buckmaster'ın açıklamasına dayanmaktadır; tarafların anlatımları arasındaki farklar aktarılmış, hüküm verilmemiştir.*`,
+  },
+  {
+    title: "Yaklaşan Felsefe Konferansları",
+    slug: "yaklasan-felsefe-konferanslari-15-eylul-2026",
+    summary:
+      "Bu haftanın yeni girdileri: Miranda Fricker'ın Columbia'daki Dewey Konferansları, Kopenhag'da 'eleştirel yapay zekâ güvenliği' atölyesi, Moskova'da Biçimsel Felsefe 2026, Northern Illinois'de Karen Bennett'li lisansüstü konferansı ve Priştine'nin açıklanan konuşmacıları. Önceki günlerde ele aldığımız toplantılar bağlantıyla verildi; tekrar yok.",
+    seoTitle: "Yaklaşan felsefe konferansları: 15 Eylül 2026 güncellemesi",
+    metaDescription:
+      "Fricker Dewey Lectures (Columbia, 30 Eylül-2 Ekim), Critical AI Safety Workshop (Kopenhag, 1-2 Ekim), Formal Philosophy 2026 (Moskova, 27-30 Ekim), NIU Gelven Konferansı (6-7 Kasım, Karen Bennett), Priştine Dünya Felsefe Günü konuşmacıları (Kitcher, Braver, Schlette).",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Columbia%20University%20(6337955975).jpg?width=1600",
+    imageCredit: "Columbia Üniversitesi, New York · Wikimedia Commons",
+    featured: false,
+    sourceName: "Columbia University Department of Philosophy",
+    sourceUrl: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+    publishedAt: "2026-09-15T01:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "etik", "yapay-zeka", "mantik", "akademi"],
+    philosopherSlugs: ["miranda-fricker"],
+    sources: [
+      {
+        title: "2026 John Dewey Lectures — Miranda Fricker",
+        publisher: "Columbia University Department of Philosophy",
+        url: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+        primary: true,
+      },
+      {
+        title: "Critical AI Safety Workshop",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/149737",
+      },
+      {
+        title: "Formal Philosophy 2026",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/153481",
+      },
+      {
+        title: "19th Dr. C. Michael Gelven NIU Graduate Philosophy Conference",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/150025",
+      },
+      {
+        title: "World Philosophy Day Conference — Prishtina",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/151649",
+      },
+    ],
+    content: `Konferans takvimimizi bu hafta üç kez güncelledik; bu yazı yalnızca **yeni** girdileri ayrıntılı ele alıyor. Daha önce yazdığımız toplantılar için sondaki bağlantılara bakılabilir.
+
+## 30 Eylül - 2 Ekim · New York — Miranda Fricker, John Dewey Konferansları
+
+Bu haftanın en dikkat çekici girdisi. Columbia Üniversitesi Felsefe Bölümü'nün 2026 John Dewey Konferansları'nı, epistemik adaletsizlik kavramının yaratıcısı Miranda Fricker (NYU) verecek: **"Ahlaki Baskılar: Ahlaki Hitapta İradeleri Biçimlendirmek ve Zamanı Bükmek."** Üç ders, üç akşam üst üste, saat 16.10-18.00, Deutsches Haus'ta; kayıt açık.
+
+Konferansın özetine göre Fricker, suçlama ya da özür talebi gibi tanıdık ahlaki tepkilerin kaçınılmaz olarak kişilerarası **baskı** içerdiğini ve bu baskının ideal durumda bile yalnızca "ahlaki nedenler" sunmaktan ibaret olmadığını — "havuç ve sopa" türünden nedenlerin de işin içine girdiğini — savunacak. Haksızlığa uğrayan taraf, failin iradesini biçimlendirmeyi amaçlayan "proleptik" bir toplumsal etki uygular. Fricker'ı bugün sitemizde [ayrı bir portreyle](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) ele aldık; Oxford'daki Uehiro Konferansları'nı ise [daha önce haberleştirmiştik](/haber/miranda-fricker-uehiro-konferanslari-2026). [Etkinlik kaydı.](/etkinlik/fricker-dewey-konferanslari-columbia-2026)
+
+## 1-2 Ekim · Kopenhag — Eleştirel Yapay Zekâ Güvenliği Atölyesi
+
+PhilEvents'te kayıtlı bu atölye, yapay zekâ güvenliği tartışmasının yalnızca teknik değil epistemolojik, toplumsal ve siyasal boyutlarını ele alıyor. "Eleştirel" sıfatı önemli: Alanın hâkim çerçevesi — hizalama, yetenek değerlendirmesi, varoluşsal risk — bu atölyede kendisi sorgulanıyor. Bu hafta sitemizde [Amodei'nin yavaşlama çağrısı](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier), [akademisyenlerin açık mektubu](/haber/akademisyenler-acik-mektup-yapay-zeka-antlasma-2026) ve [METR raporu](/haber/metr-slop-vestigation-yapay-zekayi-yapay-zekayla-sorusturmak) vesilesiyle işlediğimiz tartışmanın Avrupa'daki akademik ayağı. Programı düzenleyici kurumun sayfasından teyit edemedik; PhilEvents kaydına dayanıyoruz.
+
+## 27-30 Ekim · Moskova ve çevrim içi — Biçimsel Felsefe 2026
+
+Metafizik, epistemoloji, mantık, bilim ve matematik felsefesinde biçimsel yöntemler üzerine, hibrit formatta. Rusya'daki felsefe topluluğunun uluslararası bağlantılarının 2022'den beri ne kadar zayıfladığı düşünüldüğünde, çevrim içi katılıma açık bir biçimsel felsefe konferansı kayda değer. Bugün sitemizde [Kripke'yi andığımız](/haber/felsefe-tarihinde-bugun-15-eylul-kripke-eucken-lazarus) takvim yazısındaki olası dünyalar anlambilimi, bu konferansın ortak dili. PhilEvents kaydı; program teyidi bekliyor.
+
+## 6-7 Kasım · DeKalb, Illinois — 19. Dr. C. Michael Gelven Lisansüstü Felsefe Konferansı
+
+Northern Illinois Üniversitesi'nin yıllık lisansüstü konferansı; ana konuşmacı, Rutgers'tan metafizikçi **Karen Bennett**. Bennett'in *Making Things Up* (2017) kitabı, "inşa" (building) ilişkilerinin — nedensellik, gerçekleşme, kompozisyon, temellendirme — metafiziğini tek çatı altında toplamıştı; lisansüstü öğrenciler için bir keynote olarak ideal seçim. PhilEvents kaydı.
+
+## 19 Kasım · Priştine — Dünya Felsefe Günü Konferansı: Konuşmacılar açıklandı
+
+Dün ele aldığımız Priştine toplantısı için yeni bilgi: PhilEvents kaydına göre bu yılki konuşmacılar arasında Columbia'dan bilim felsefecisi **Philip Kitcher**, Güney Florida'dan kıta felsefesi uzmanı **Lee Braver** ve Heidelberg'den **Magnus Schlette** var. Kitcher'ın pragmatist bilim felsefesi ile Braver'ın Heidegger ve analitik-kıtasal köprü çalışmaları, aynı programda nadir bir buluşma. Etkinlik yüz yüze ve çevrim içi. [Etkinlik kaydı.](/etkinlik/dunya-felsefe-gunu-2026)
+
+## Daha önce ele aldıklarımız
+
+Santa Maria (Fenomenoloji ve Eleştiri), Vilnius (Nordic Wittgenstein Society), Salamanca (Susan Haack) ve Hokkaido (Philosophy & AI 5) için [dünkü seçkimize](/haber/2026-sonbahar-felsefe-toplantilari-vilnius-salamanca-sapporo); Viyana'daki iki ekim toplantısı, Oxford Lisansüstü Konferansı ve Portland için [13 Eylül seçkimize](/haber/felsefe-takviminde-one-cikanlar-13-eylul-2026); Barselona, Selçuk, Nijmegen, Northwestern, İstanbul, Duke ve Atina için [12 Eylül listemize](/haber/12-eylul-sonrasi-yaklasan-felsefe-konferanslari) bakılabilir.
+
+Bize ulaşan listede Viyana Çevresi konferansı, bugün sitemizde yayımladığımız [Nusret Hızır dosyası](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) ile ilişkilendirilmişti — haklı olarak: Türkiye'deki bilim felsefesi geleneğinin kaynağı tam olarak o entelektüel çevredir. Bağlantıyı Hızır yazısında kurduk.
+
+---
+
+*PhilEvents kayıtları kullanıcı kaynaklıdır; tarih, mekân ve program bilgisi düzenleyici kurumun sayfasından teyit edilmelidir.*`,
+  },
+  {
+    title: "Türkiye'deki Felsefe Dergileri: Güncel Makale Gönderim Durumu",
+    slug: "turkiye-felsefe-dergileri-gonderim-durumu-15-eylul-2026",
+    summary:
+      "Bu haftaki üçüncü ve son dergi notu; yalnızca yeni bilgiler: Anadolu Felsefe Dergisi güz sayısını yayımladı ve gönderime açık; FLSF'nin yapay zekâ yarışması kapandı, Mayıs 2027 sayısı için kabul 15 Kasım'da başlıyor; SineFilozofi'nin 2027 genel kabulü 16 Ağustos'ta sona erdi. Felsefe Arkivi, Felsefe Dünyası ve ViraVerita için önceki notlarımıza bakınız.",
+    seoTitle: "Türkiye'deki felsefe dergileri: gönderim durumu (15 Eylül 2026)",
+    metaDescription:
+      "Anadolu Felsefe Dergisi (çift kör hakemlik, yılda iki sayı, güz 2026 yayımlandı), FLSF (yarışma 31 Ağustos'ta kapandı; Mayıs 2027 sayısı için kabul 15 Kasım 2026'da), SineFilozofi (2027 genel kabul 16 Ağustos'ta kapandı).",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20University%20Faculty%20of%20Humanities%20(16034968319).jpg?width=1600",
+    imageCredit: "Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi · Wikimedia Commons",
+    featured: false,
+    sourceName: "DergiPark",
+    sourceUrl: "https://dergipark.org.tr/",
+    publishedAt: "2026-09-15T01:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["dergi", "akademi", "acik-erisim", "yapay-zeka", "sinema"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Anadolu Felsefe Dergisi — Güz 2026 sayısı",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/ajp/issue/104417",
+        primary: true,
+      },
+      {
+        title: "FLSF Felsefe ve Sosyal Bilimler Dergisi — Duyurular",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/flsf/page/19934",
+      },
+      {
+        title: "SineFilozofi",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/sinefilozofi",
+      },
+    ],
+    content: `Bu hafta Türkiye'deki felsefe dergilerinin çağrılarını [iki kez](/haber/turkiye-felsefe-dergileri-makale-cagrilari-eylul-2026) [ele aldık](/haber/turkiye-felsefe-dergileri-gonderim-durumu-14-eylul-2026). Bu üçüncü ve son not, önceki iki yazıda bulunmayan bilgilerle sınırlı; Felsefe Arkivi, Felsefe Dünyası, ViraVerita, Eskiyeni ve ÂSÂR için önceki notlara bakılabilir.
+
+## Anadolu Felsefe Dergisi — Gönderime açık
+
+Türkçe ve İngilizce yayımlanan *Anadolu Felsefe Dergisi* (Anatolian Journal of Philosophy), yılda iki sayı çıkıyor ve hakemlik süreci çift kör yürütülüyor. Derginin 2026 güz sayısı DergiPark'ta yayımlandı; genel gönderim kanalı açık. Görece genç bir dergi olmasına rağmen iki dilli yayın politikası, Türkiye'deki felsefe dergileri arasında uluslararası görünürlük açısından önemli bir fark yaratıyor: Türkçe yazılan bir makalenin İngilizce özetiyle değil, İngilizce yazılan makalelerin Türkçe olanlarla aynı sayfada yer almasıyla.
+
+## FLSF — Yarışma kapandı, sayı takvimi açıklandı
+
+Önemli bir düzeltme notu. FLSF Felsefe ve Sosyal Bilimler Dergisi'nin "Yapay Zekânın Gölgesinde ve Işığında Felsefe" başlıklı makale yarışmasının başvuruları 31 Ağustos 2026'da sona erdi; dolayısıyla bugün itibarıyla bu çağrıya başvuru yapılamıyor. Sitemizin [etkinlik takvimindeki kayıt](/etkinlik/flsf-makale-yarismasi-2026) bu tarihi zaten taşıyordu; ama internette çağrı hâlâ "açık" gibi dolaşıyor.
+
+Derginin duyurusuna göre **Mayıs 2027 sayısı için makale kabulü 15 Kasım 2026'da başlayacak**. Yani yapay zekâ ve felsefe üzerine yazan araştırmacılar için yarışma bitti, dergi kapısı iki ay sonra yeniden açılıyor.
+
+## SineFilozofi — İki kapı da kapalı
+
+*SineFilozofi*'nin "Sinematik Deneyim" özel sayısı için başvurular 1-15 Haziran'da alınmış ve kapanmıştı; bunu daha önce yazmıştık. Yeni bilgi: Derginin 2027 yayın planı için **genel** makale kabul süreci de ağustosta açılıp 16 Ağustos'ta sona erdi. Yani şu anda derginin ne özel sayı ne genel kabul kanalı açık. Bir sonraki kabul dönemi derginin DergiPark sayfasında duyurulacak; sinema felsefesi üzerine çalışanlar için takip edilmesi gereken tek adres o.
+
+## Neden bu kadar ayrıntı?
+
+Üç günde üç dergi notu fazla görünebilir. Ama Türkiye'de felsefe dergilerinin takvimleri merkezî bir yerde toplanmıyor; her dergi kendi DergiPark sayfasında, kendi diliyle duyuruyor ve "açık çağrı", "sürekli kabul", "dönemsel kabul" ve "kota dolunca kapanan kabul" arasındaki farklar çoğu zaman belirsiz kalıyor. Sitemiz bu bilgiyi tek yerde, tarihleriyle ve kaynağıyla tutmayı görev sayıyor. Bir sonraki dergi notu, yeni bir çağrı açıldığında yayımlanacak — tekrar değil.
+
+---
+
+*Son başvuru tarihleri, kotalar ve biçimsel koşullar dergilerin DergiPark sayfalarından teyit edilmelidir.*`,
+  },
+  {
+    title: "Yapay Zekâ Çağında Okunması Gereken Güncel Felsefe Kitapları",
+    slug: "yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber",
+    summary:
+      "Bu hafta on beş kitabı tek tek tanıttık; bu yazı onları tekrar anlatmıyor. Bunun yerine bir okuma haritası: Hangi soruyu soruyorsanız hangi kitaptan başlamalısınız? Ve haritaya bu hafta eklenen yeni bir başlık: Thaddeus Metz'in Afrika felsefesinden beslenen 'ilişkisel adalet kuramı' — yapay zekâ kitabı olmadığı hâlde yapay zekâ çağının en önemli sorusunu soran bir kitap.",
+    seoTitle: "Yapay zekâ çağında okunması gereken felsefe kitapları: bir okuma haritası",
+    metaDescription:
+      "Soru odaklı okuma rehberi: bilinç (Schwitzgebel, Bordini vd., Pollan), ahlaki statü (Keeling & Street, Bales), dil (Cappelen & Sterken, Wittgenstein and AI), teknoloji (Thomson, Yuk Hui), ekonomi (Harvey), tahmin (Véliz) — ve Thaddeus Metz, A Relational Theory of Justice (Oxford, 2026).",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Arts%20Building%2C%20University%20of%20Pretoria.jpg?width=1600",
+    imageCredit: "Pretoria Üniversitesi Eski Sanatlar Binası — Thaddeus Metz'in kürsüsü · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilPapers",
+    sourceUrl: "https://philpapers.org/rec/METART",
+    publishedAt: "2026-09-15T01:50:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "yapay-zeka", "siyaset-felsefesi", "etik", "bilinc"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Thaddeus Metz — A Relational Theory of Justice",
+        publisher: "PhilPapers / Oxford University Press, 2026",
+        url: "https://philpapers.org/rec/METART",
+        primary: true,
+      },
+    ],
+    content: `Bu hafta sitemizde on beşten fazla yeni felsefe kitabını tek tek tanıttık: [pazar günkü liste](/haber/2025-2026-one-cikan-felsefe-kitaplari), [pazartesi günkü ikinci bölüm](/haber/2025-2026-one-cikan-felsefe-kitaplari-ikinci-bolum) ve [geçen haftaki sonbahar seçkisi](/haber/2026-en-dikkat-cekici-felsefe-kitaplari-sonbahar). Bu yazı o kitapları yeniden anlatmıyor. Bunun yerine, okurun elindeki soruya göre nereden başlayacağını gösteren bir **harita** — ve haritaya yeni eklenen bir başlık.
+
+## Sorunuz "makine bilinçli olabilir mi?" ise
+
+Schwitzgebel'in *AI and Consciousness* ile başlayın; iki yönlü şüpheciliği, "evet" ya da "hayır" diyen her kitabı okumadan önce aşı gibi. Sonra Bordini, Dewalque ve Giustina'nın *Consciousness and Inner Awareness* derlemesi: Bilinç ile "deneyimin farkında olma" arasındaki fark, makineler için sorulan sorunun asıl zorluğunu gösterir. Genel okur için Pollan'ın *A World Appears*, aynı soruyu bitkilerden yapay zekâya bir gezi olarak anlatır. Bugün sitemizde ele aldığımız [beyin implantı dosyası](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest), bu üç kitabın sorusunu laboratuvarda sınıyor.
+
+## Sorunuz "makineye ne borçluyuz?" ise
+
+Keeling ve Street'in açık erişimli *Emerging Questions in AI Welfare* kitabı, "haklar"dan önce "refah" sorusunu sorar ve belirsizlik altında ne yapılacağını tartışır. Adam Bales'in *Philosophical Quarterly*'deki "İstekli Köleliğe Karşı" makalesi, bu soruya en sert cevabı verir: İstekli köle tasarlamak, kölenin rızasıyla meşrulaşmaz. Smuha'nın Cambridge el kitabı, sorunun hukuki karşılığını arayanlar için.
+
+## Sorunuz "makineyle konuşmak iletişim midir?" ise
+
+Cappelen ve Sterken'in *Communicating with AI* derlemesi bu sorunun tek adresi; Ball, Helliwell ve Rossi'nin *Wittgenstein and Artificial Intelligence* ciltleri ise sorunun felsefi kaynağına — "anlam kullanımdır" — geri götürür. Bugün sitemizde ele aldığımız [Gadamer dosyası](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir), aynı soruyu hermeneutik gelenekten sorar: Ufku olmayan bir muhatapla ufuklar kaynaşabilir mi?
+
+## Sorunuz "teknoloji bizi neye dönüştürüyor?" ise
+
+Thomson'ın *Heidegger on Technology's Danger and Promise in the Age of AI* Element'i kısa ve keskin; Yuk Hui'nin *Kant Machine*'i daha iddialı ve daha zor. İkisi birlikte, "yapay zekâ ne yapabilir?" sorusunu "yapay zekâ dünyayı nasıl görünür kılıyor?" sorusuna çevirir.
+
+## Sorunuz "kim kazanıyor?" ise
+
+Harvey'nin *The Story of Capital*'ı, yapay zekâ ekonomisini Marx'ın kavramlarıyla okumak için; Véliz'in *Prophecy*'si, tahmin gücünün nasıl iktidara dönüştüğünü anlamak için; Bratton ve arkadaşlarının *Machine Decision Is Not Final*'ı, hikâyenin Batı-merkezli olmayan versiyonu için.
+
+## Haritaya yeni eklenen: Thaddeus Metz — A Relational Theory of Justice (Oxford, 2026)
+
+Bu hafta listelerimizde yer almayan bir kitap, tam da yapay zekâ kitabı olmadığı için bu haritaya giriyor. Pretoria Üniversitesi'nden Thaddeus Metz — Afrika felsefesini analitik yöntemle uluslararası tartışmaya taşıyan en tanınmış isim — bu yıl Oxford'dan *A Relational Theory of Justice* kitabını yayımlıyor.
+
+Kitabın çekirdek fikri şu: Normatif ekonomik, siyasal ve hukuki felsefe, insanların **ilişkisel** özelliklerine — özellikle başkalarıyla topluluk kurma ve topluluğa alınma kapasitelerine — dayandırılmalı. Batı'daki adalet kuramları genellikle insanların içsel özelliklerine dayanır: özerklik, kendine sahiplik, esenlik. Afrika, feminist bakım etiği, Marksist ve Konfüçyüsçü geleneklerdeki eleştirmenler ise genellikle "ilişkiler adaletten daha önemlidir" diyerek adaleti kurumsal tercihin temeli olmaktan çıkarır. Metz iki kampa da karşı: İnsanların komünal ilişkilere taraf olma kapasitesinin onuruna dayanan adalet kuramları kurar ve bunları dağıtıcı, telafi edici, cezai, geçiş dönemi ve küresel adalete uygular. Amacı, faydacılık, Rawlsçılık ve Lockeçu doğal haklar kuramıyla yarışabilecek "komünal yönetişimin büyük resmi"ni çizmek.
+
+Bu kitap neden yapay zekâ çağının kitabı? Çünkü bu hafta sitemizde robot hakları, [NASSP ödüllü *Unbecoming Persons*](/haber/nassp-kitap-odulu-2026-mcwhorter-unbecoming-persons) ve Erasmus'un "Ecce Homo" teması vesilesiyle döne döne sorduğumuz soru — "kim kişidir, kim sayılır?" — Metz'in kitabında yeni bir cevap buluyor: Kişiliği içsel özelliklerde (bilinç, akıl, acı çekme kapasitesi) aramak yerine ilişkide aramak. Ubuntu geleneğinin "insan, başka insanlar aracılığıyla insandır" ilkesi, makinelerin statüsü sorusuna beklenmedik bir çerçeve sunuyor: Sorulacak soru "makine bilinçli mi?" değil, "makine bir topluluğa taraf olabilir mi ve biz onu topluluğa alabilir miyiz?" olabilir. Metz bu soruyu sormuyor; ama sorulmasını mümkün kılıyor. Kitabı sitemizin [kitap listesine](/kitaplar) ekledik; künyesi yayınevi kataloğunda göründüğünde güncellenecek.
+
+## Haritanın dersi
+
+On altı kitap, altı soru. Bu haftanın felsefe yayıncılığına bir bütün olarak bakıldığında ortaya çıkan şey, yapay zekânın felsefeye yeni bir konu değil, eski bütün konulara yeni bir **basınç** getirdiği: Bilinç, ahlaki statü, dil, teknoloji, ekonomi ve adalet — hepsi, insan olmayan bir muhatabın ortaya çıkmasıyla yeniden soruluyor. Ve Metz'in kitabının hatırlattığı gibi, bu sorulara verilecek cevaplar yalnızca Batı'nın kavram dağarcığından gelmek zorunda değil.
+
+---
+
+*Bize ulaşan listedeki kitapların tamamı sitemizde daha önce tanıtılmıştı; bu yazı tekrar yerine bir okuma rehberi olarak kurgulandı. Metz'in kitabının yayın tarihi PhilPapers kaydında "2026" olarak görünüyor; ay bilgisi yayınevince açıklandığında eklenecek.*`,
+  },
+  {
+    title: "Nusret Hızır: Aklın Sükûnetle Savunulduğu Bir Hayat",
+    slug: "nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat",
+    summary:
+      "Reichenbach'ın asistanı, bilim felsefecisi, mantıkçı, çevirmen ve 147'liklerden biri. Büyük kitaplar bırakmadı; dergilerde yazdı, kavramları temizledi, öğrencilerine düşünmeyi öğretti. Hızır'ın asıl mirası kitaplarından büyük: Türkiye'de bilim felsefesini bir entelektüel kültür hâline getirme çabası — ve 'önce kavramı temizle, sonra tartış' ilkesi.",
+    seoTitle: "Nusret Hızır: Reichenbach'ın öğrencisi, Türkiye'de bilim felsefesinin kurucusu",
+    metaDescription:
+      "Nusret Hızır portresi: 1933 Üniversite Reformu ve Reichenbach, İstanbul'dan Ankara'ya bilim felsefesi, 147'likler ve Paris sürgünü, sınır çizme problemi, Aydın Sayılı ile karşılaştırma, kavramsal açıklık ilkesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20%C3%9Cniversitesi%20Dil%20ve%20Tarih-Co%C4%9Frafya%20Fak%C3%BCltesi.jpg?width=1600",
+    imageCredit: "Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi — Hızır'ın kürsüsü · Wikimedia Commons",
+    featured: false,
+    sourceName: "T.C. Kültür ve Turizm Bakanlığı",
+    sourceUrl: "https://www.ktb.gov.tr/EN-119009/hizir-nusret.html",
+    publishedAt: "2026-09-15T02:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["bilim-felsefesi", "mantik", "akademi", "tarih", "kavram"],
+    philosopherSlugs: ["nusret-hizir"],
+    sources: [
+      {
+        title: "Hızır, Nusret",
+        publisher: "T.C. Kültür ve Turizm Bakanlığı",
+        url: "https://www.ktb.gov.tr/EN-119009/hizir-nusret.html",
+        primary: true,
+      },
+      {
+        title: "Reichenbach in Istanbul and the making of a philosophy of science tradition in Turkey",
+        publisher: "Synthese (Springer), 2022",
+        url: "https://link.springer.com/article/10.1007/s11229-022-03740-9",
+      },
+      {
+        title: "1933 Üniversite Reformu Türkiye'de bir Bilim Felsefesi Geleneği Yaratabildi mi? Nusret Hızır'ın Felsefesi Odağında Bir Tartışma",
+        publisher: "ResearchGate",
+        url: "https://www.researchgate.net/publication/348062093_1933_Universite_Reformu_Turkiye'de_bir_Bilim_Felsefesi_Gelenegi_Yaratabildi_Mi_Nusret_Hizir'in_Felsefesi_Odaginda_Bir_Tartisma",
+      },
+      {
+        title: "Aydın Sayılı ve Nusret Hızır: Bilim tarihi ve bilim felsefesi",
+        publisher: "DTCF Dergisi, Ankara Üniversitesi",
+        url: "https://dergipark.org.tr/tr/pub/dtcfdergisi/article/1044417",
+      },
+    ],
+    content: `Türkiye'de felsefe tarihi anlatılırken isimler genellikle belirli kamplara yerleştirilir: idealizm, materyalizm, varoluşçuluk, milliyetçilik, İslam felsefesi, Marksizm. Nusret Hızır bu sınıflandırmaların içine kolayca sığmaz. Onu bir kampa yerleştirmek yerine, yaptığı şeyi tanımlamak daha doğru: **Türkiye'de bilimsel felsefeyi bir entelektüel kültür hâline getirmeye çalışan ilk kuşağın en sabırlı üyesi.**
+
+## Bir hayatın tarihleri
+
+İstanbul'da doğdu — doğum yılı konusunda kaynaklar bölünüyor: Kültür ve Turizm Bakanlığı'nın biyografisi 1889'u, çoğu akademik kaynak 1899'u veriyor. Almanya'da fizik, matematik ve felsefe okudu; müzik de. 1934'te, Üniversite Reformu'nun ertesi yılı, İstanbul Üniversitesi Edebiyat Fakültesi'ne Hans Reichenbach'ın asistanı olarak girdi. 1937'de Türk Tarih Kurumu'nda uzman oldu; 1947'de dışarıdan sınavla doçentliğe yükseldi; Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi'nde 1954'te profesör oldu.
+
+1960 darbesinden sonra üniversiteden uzaklaştırılan 147 akademisyen arasındaydı — "147'likler" diye anılan, Türk üniversite tarihinin en tartışmalı tasfiyesi. 1963'te Paris'te École normale supérieure'de felsefe dersleri verdi; 1968'de kürsüsüne döndü. DTCF'nin yanı sıra Siyasal Bilgiler Fakültesi'nde, Basın Yayın Yüksek Okulu'nda, ODTÜ'de ve Hacettepe'de ders verdi. 1976'da yayımlanan *Felsefe Yazıları* 1977'de Türk Dil Kurumu Deneme Ödülü'nü aldı; 1979'da Türkiye Felsefe Kurumu onu onursal başkan seçti. 1980'de Ankara'da öldü. Ölümünden sonra Füsun Akatlı'nın derlediği *Bilimin Işığında Felsefe* (1985) ve *Geride Kalanlar* (1987) yayımlandı.
+
+Fakat Hızır'ın hikâyesini yalnızca bu tarihlerle anlatmak, onu anlamamaktır. Asıl hikâye, Türkiye'de modern bilim felsefesinin nasıl bir entelektüel kültür hâline getirilmeye çalışıldığıdır — ve neden bunun bu kadar zor olduğudur.
+
+## Reichenbach'tan Ankara'ya
+
+1933 Üniversite Reformu yalnızca akademik kadroların değiştirilmesi değildi; Avrupa'dan gelen bilim insanlarıyla birlikte yeni bir bilim anlayışı da geldi. Hans Reichenbach bunun en önemli örneklerinden biriydi. Berlin'deki mantıkçı-empirist çevrenin — Viyana Çevresi'nin kardeş grubu olan Berlin Grubu'nun — kurucusu Reichenbach, Nazi rejiminin görevden aldığı ilk akademisyenler arasındaydı ve 1933'te İstanbul'a geldi. İstanbul'da fizik, matematik, mantık ve bilim felsefesini birbirinden koparmayan bir eğitim anlayışı kurdu; öğrencileri derslerini, ezberci üniversite kültüründen ayrılan canlı ve diyalogcu bir deneyim olarak hatırladı.
+
+*Synthese*'te 2022'de yayımlanan bir araştırma, Reichenbach'ın İstanbul'daki beş yılının Türkiye'de modern mantık ve bilim felsefesinin gelişmesinde kalıcı bir etki bıraktığını ve bu mirasın Ankara'ya taşınmasında Hızır'ın merkezî rol oynadığını gösteriyor. Reichenbach 1938'de Los Angeles'a gittiğinde İstanbul'daki kürsü boşaldı; ama Hızır, Reichenbach'ın yöntemini — bilimi felsefenin dışında değil içinde düşünmeyi — Ankara'ya taşıdı ve orada bir kuşak yetiştirdi. Sitemizde bu hafta duyurduğumuz [Viyana Çevresi konferansı](/etkinlik/viyana-cevresi-mantiksal-empirizm-2026) ve kasımda İstanbul'da toplanacak [Reichenbach kongresi](/haber/reichenbach-kongresi-istanbul-2026), bu hattın iki ucunu birbirine bağlıyor.
+
+Hızır bu mirasın yalnızca aktarıcısı değildi; onu dönüştürdü.
+
+## Hızır neden "saf mantıkçı pozitivist" değildi?
+
+Hızır hakkında yaygın anlatı onu "mantıkçı pozitivist" olarak etiketlemekle yetinir. Oysa araştırmalar daha karmaşık bir tablo gösteriyor. Hızır bilimsel felsefeyi savunuyor, kavramsal açıklığa ve mantıksal çözümlemeye büyük önem veriyordu; ama analitik felsefenin **tarihsiz** kalabileceğini düşünüyor ve diyalektik düşüncenin bazı imkânlarını da araştırıyordu. 1933 Reformu'nun bir bilim felsefesi geleneği yaratıp yaratamadığını Hızır'ın felsefesi odağında tartışan bir çalışma, onun mantıkçı empirizm ile diyalektik yaklaşımı bir araya getirme çabası taşıdığını özellikle vurguluyor.
+
+Bu, Reichenbach'ın kendisinden bir sapmaydı. Reichenbach, diyalektiği metafizik sayardı. Hızır ise bilimin yöntemsel gücü ile düşüncenin tarihsel ve eleştirel boyutunu aynı masada tutmaya çalıştı. Nietzsche üzerine yazdı; Bergson'u eleştirdi; faşizmin kaynaklarını ele aldı — bir "saf" pozitivistin uğraşmayacağı konular. Dolayısıyla Hızır'ı basitçe "Türkiye'deki pozitivist filozof" diye tanımlamak eksik olur. Daha doğru ifade belki şudur: **Bilimsel düşüncenin yöntemsel gücü ile felsefenin tarihsel ve eleştirel boyutunu aynı anda korumaya çalışan bir filozof** — ve bu ikisinin Türkiye'de kolayca birleşmediğini bilen biri.
+
+## Hızır'ın büyük problemi: Bilim nerede biter, felsefe nerede başlar?
+
+Aydın Sayılı ile Hızır arasındaki fark burada öğreticidir. İkisi de DTCF'de, ikisi de bilimle felsefenin sınırında çalıştı; ama farklı sorular sordular. Ankara Üniversitesi'nin DTCF Dergisi'nde yayımlanan bir çalışma, Harvard'da George Sarton'un öğrencisi olan bilim tarihçisi Sayılı'nın bilimi daha çok **ilerleme** problemi üzerinden, Hızır'ın ise bilim felsefesini **sınır çizme** (demarcation) problemi üzerinden ele aldığını ileri sürüyor.
+
+Başka bir deyişle Sayılı, "bilim nasıl oluştu ve gelişti?" diye sorarken Hızır, "bilimsel bilgi ile bilimsel olmayan bilgi arasındaki sınırı nasıl anlayacağız?" sorusuna yaklaşıyordu. Bu, Viyana Çevresi'nin ve Popper'ın sorusuydu; ama Hızır onu Türkiye'nin bağlamına — bilimin adının çok, kendisinin az olduğu bir kültüre — taşıdı.
+
+Ve bu soru bugün hâlâ felsefenin merkezinde. Çünkü yapay zekâ çağında "bilimsel görünen" ile "bilimsel olan" arasındaki mesafe büyüyor. Bir algoritma çok ikna edici bir açıklama üretebilir; ama açıklama üretmek bilim yapmak mıdır? Bir model milyonlarca makaleyi özetleyebilir; ama bilimsel kavramları gerçekten anlayabilir mi? Bu hafta sitemizde ele aldığımız [METR raporundaki "slop-vestigation"](/haber/metr-slop-vestigation-yapay-zekayi-yapay-zekayla-sorusturmak) tam bu sınır problemidir. Hızır bugün yaşasaydı, muhtemelen önce "bilim" sözcüğünün bu cümlelerde ne anlama geldiğini sorardı.
+
+## Az yazmak bir eksiklik miydi?
+
+İlginç bir paradoks var. Hızır, Türkiye'de mantık ve bilim felsefesinin yerleşmesine büyük katkı yapan isimlerden biri olmasına rağmen büyük akademik kitaplar bırakmadı. Öğrencileri ondan bir mantık kitabı yazmasını istemişti; o daha çok kısa yazıları tercih etti ve bunları kendi ifadesiyle "popüler yazılar" olarak gördü.
+
+Ancak bu, yazıların akademik değerinin düşük olduğu anlamına gelmiyor. Araştırmalar, Hızır'ın kısa yazılarında bile bilim felsefesi, mantık, tarih ve felsefe arasındaki ilişkiler üzerine özgün tartışmalar bulunduğunu gösteriyor. Nesne dili ile üst dil ayrımı, biçimsel mantık, bilgi kuramı ve bilim felsefesi bu yazılarda birbirine bağlanıyordu. *Ant*, *Yaprak* ve *Değişim* dergilerinde yazdı — akademik dergilerde değil, edebiyat ve kültür dergilerinde. Bu, bir tercihti: Hızır, felsefenin yalnızca monografilerde değil, kültürel kamusal alanda da yapılabileceğine inanıyordu. Bu açıdan tarzı bugün şaşırtıcı biçimde çağdaş; ve Türkiye'de felsefenin dergi sayfalarında kurulduğu bir geleneğin — [bu hafta ele aldığımız dergi çağrılarının](/haber/turkiye-felsefe-dergileri-makale-cagrilari-eylul-2026) atalarından biri — parçası.
+
+Bir de çevirmendi. Felsefenin Türkçesini kurmaya çalıştı; yabancı terimleri Türkçeleştirirken kavramın içeriğini korumaya özen gösterdi. Bu, [Macit Gökberk](/haber/macit-gokberk-felsefe-dili-turkce) kuşağının ortak kaygısıydı: Felsefe Türkçede yapılabilir mi? Hızır'ın cevabı, yapılabilir ama önce kelimelerin ne anlama geldiğinde anlaşmak gerekir, idi.
+
+## Hızır'ın asıl mirası: Açıklık
+
+Hızır'ın düşüncesinde tekrar tekrar karşımıza çıkan bir tema vardır: **Kavramları açıklaştırmak.** Felsefenin bazı problemlerinin aslında kavramların bulanık kullanılmasından doğduğunu düşünüyordu. Bu nedenle mantık yalnızca teknik bir disiplin değildi; düşüncenin kendisini disipline etmenin aracıydı. Carnap'ın "açıklama" (explication) dediği şeyin — bulanık bir gündelik kavramı kesin bir kavramla değiştirmenin — Türkiye'deki en sadık uygulayıcısıydı; bugün sitemizde bu hafta andığımız [Carnap dosyası](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) bu bağı hatırlatıyor.
+
+Bugünün sosyal medya çağında Hızır'ın bu tavrı belki hiç olmadığı kadar gerekli. Çünkü çağımızın büyük problemi bilgi eksikliği değil, **kavramsal gürültü**. Herkes konuşuyor; fakat herkes aynı kelimeyle aynı şeyi kastetmiyor. "Bilim", "gerçek", "özgürlük", "yapay zekâ", "bilinç", "demokrasi", "tarafsızlık" — her biri, konuşanın niyetine göre şekil değiştiren kelimeler. Hızır'ın felsefesi bu nedenle şaşırtıcı biçimde güncel: **Önce kavramı temizle, sonra tartış.**
+
+Ve belki bir ders daha. Hızır, 147'likler arasında olmasına, sürgüne gönderilmesine, kürsüsünden uzaklaştırılmasına rağmen, yazılarında öfkenin izine rastlanmaz. Aklı, bağırarak değil, sükûnetle savundu. Bu da bir yöntemdir; ve belki de Türkiye'nin en az öğrendiği yöntemdir.
+
+---
+
+*Nusret Hızır, İstanbul'da doğdu (kaynaklara göre 1889 ya da 1899), 1980'de Ankara'da öldü. Başlıca eserleri: Felsefe Yazıları (1976) · Bilimin Işığında Felsefe (haz. Füsun Akatlı, 1985) · Geride Kalanlar (1987). Hızır'ın Wikimedia Commons'ta serbest lisanslı fotoğrafı bulunmadığından kapakta uzun yıllar ders verdiği Dil ve Tarih-Coğrafya Fakültesi binası kullanılmıştır.*`,
+  },
+  {
+    title: "Hans-Georg Gadamer: Anlamak Bir Yöntem Değil, Bir Karşılaşmadır",
+    slug: "gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir",
+    summary:
+      "Yapay zekâ çağında Gadamer'i yeniden okumak neden zorunlu hâle geliyor? Yüz iki yıl yaşayan, yirminci yüzyılın tamamına tanıklık eden ve Hakikat ve Yöntem'in adıyla okurunu yanıltan filozof: Hakikat, yöntemle elde edilmez. Ufukların kaynaşması, önyargının rehabilitasyonu, Habermas ve Derrida ile kavgalar — ve makineyle konuşmanın diyalog olup olmadığı sorusu.",
+    seoTitle: "Hans-Georg Gadamer: hermeneutik, ufukların kaynaşması ve yapay zekâ",
+    metaDescription:
+      "Gadamer portresi: Hakikat ve Yöntem (1960), önyargıların rehabilitasyonu, etki tarihi, ufukların kaynaşması, Habermas ve Derrida tartışmaları, Heidegger'den farkı ve büyük dil modelleriyle 'diyalog' sorusu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hans-Georg%20Gadamer.jpg?width=1600",
+    imageCredit: "Hans-Georg Gadamer · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/gadamer/",
+    publishedAt: "2026-09-15T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["fenomenoloji", "kavram", "yapay-zeka", "estetik", "epistemoloji"],
+    philosopherSlugs: ["hans-georg-gadamer", "martin-heidegger"],
+    sources: [
+      {
+        title: "Hans-Georg Gadamer",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/gadamer/",
+        primary: true,
+      },
+      {
+        title: "Communicating with AI: Philosophical Perspectives",
+        publisher: "Oxford University Press, 2026",
+        url: "https://academic.oup.com/book/63302",
+      },
+    ],
+    content: `Hans-Georg Gadamer'i yalnızca "hermeneutiğin büyük filozofu" olarak anlatmak, onu akademik bir müzeye kaldırmak olur. Gadamer'in asıl meselesi çok daha gündelikti: **Bir insan başka bir insanı nasıl anlayabilir?** Ve daha zor soru: Bir şeyi anlamaya çalışırken kendimizi ne kadar geride bırakabiliriz — ve bırakmalı mıyız?
+
+## Yüz iki yıllık bir tanıklık
+
+Gadamer 11 Şubat 1900'de Marburg'da doğdu, 13 Mart 2002'de Heidelberg'de öldü; yirminci yüzyılın tamamını gördü. Marburg'da Neo-Kantçı Paul Natorp'un yanında doktora yaptı, klasik filoloji okudu, sonra Heidegger'in derslerine katıldı ve düşüncesi tümüyle değişti. 1949'da Heidelberg'de Karl Jaspers'ten boşalan kürsüye geçti ve ömrünün sonuna kadar orada kaldı. Nazi döneminde partiye girmedi ama üniversitede kalmayı seçti; savaş sonrasında Leipzig'in ilk rektörü oldu. Stanford Felsefe Ansiklopedisi onun felsefesinin merkezinde diyalog, dil, gelenek ve tarihsel konumlanmışlığın bulunduğunu vurguluyor.
+
+Başyapıtı *Hakikat ve Yöntem* (*Wahrheit und Methode*) 1960'ta, Gadamer altmış yaşındayken çıktı. Fakat kitabın adı yanıltıcıdır. Gadamer "hakikate ulaşmak için yeni bir yöntem" önermiyordu; tam tersine, **hakikatin yalnızca yöntemle elde edilebileceği fikrini** sorguluyordu. Kitabın adındaki "ve", aslında bir "ya da"ya yakındır.
+
+## Bilim her şeyi açıklayabilir mi?
+
+Modern çağın büyük inancı şuydu: Bir şeyi doğru yöntemle incelersek onun hakikatine ulaşabiliriz. Bu model fizikte ve kimyada olağanüstü başarılı oldu; on dokuzuncu yüzyılda Dilthey, aynı başarıyı "tin bilimleri"ne — tarih, edebiyat, hukuk — taşımak için ayrı bir yöntem aradı. Gadamer'e göre bu arayışın kendisi hataydı. Bir şiiri laboratuvar deneyine sokamazsınız; bir tarihsel olayı veri setine indirgediğinizde anlamını kaybedersiniz. Bir insanın söylediği "ben iyiyim" cümlesi bile yalnızca sözcüklerden oluşmaz: Ses tonu, ilişki, geçmiş, durum, kültür, sessizlik ve beden dili anlamın parçasıdır. Bugün sitemizde ele aldığımız [beyin implantı haberinde](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) makinenin konuşmayla jesti aynı anda çözmeye çalışması, Gadamer'in bu tezinin mühendislikçe keşfedilmesi gibi okunabilir.
+
+Bu yüzden Gadamer'e göre anlama, bir nesneye dışarıdan bakmak değildir. **Anlama bir karşılaşmadır** — ve karşılaşmada iki taraf da değişir.
+
+## Önyargının rehabilitasyonu
+
+Gadamer'in en cesur hamlesi, Aydınlanma'nın en sevdiği düşmanı — önyargıyı — savunmasıdır. Aydınlanma, "önyargıya karşı önyargı" taşır, der Gadamer: Her ön-kabulün akıl tarafından temizlenmesi gerektiğine inanır. Ama hiçbir anlama sıfırdan başlamaz. Bir metne, bir insana, bir olaya her zaman bir beklentiyle, bir ön-anlamayla geliriz; Heidegger'in "anlamanın ön-yapısı" dediği şey budur. Önyargı, anlamanın engeli değil, **koşuludur**. Mesele önyargıdan kurtulmak değil, hangi önyargıların verimli, hangilerinin kör edici olduğunu — karşılaşmanın içinde — ayırt etmektir.
+
+Buradan Gadamer'in "etki tarihi" (Wirkungsgeschichte) kavramı çıkar: Bir metin, tarih boyunca yorumlanışının izlerini taşır ve biz o metne o izlerin içinden bakarız. Platon'u okurken Platon'u değil, iki bin beş yüz yıllık Platon okumalarının biçimlendirdiği bir Platon'u okuruz — ve bundan kaçış yoktur. Tarihsel bilinç, kendisinin de tarihsel olduğunu bilen bilinçtir.
+
+## Ufukların kaynaşması
+
+Gadamer'in en güçlü kavramı **ufukların kaynaşması**dır (Horizontverschmelzung). Bir metni okurken yalnızca metne gitmeyiz; kendi tarihimizle gideriz. On yedinci yüzyılda bir Shakespeare oyunu izleyen Londralı ile yirmi birinci yüzyılda onu okuyan İstanbullu aynı metni okur ama aynı şeyi görmez. Bu, birinin doğru, diğerinin yanlış olduğu anlamına gelmez; ikisinin de tarihsel ufukları farklıdır. Anlama, bu ufukların karşılaşmasında — ne metnin ufkunun ne okurun ufkunun tek başına hâkim olduğu, ikisinin de genişlediği bir üçüncü ufukta — gerçekleşir.
+
+Gadamer bunun modelini **oyun**da bulur: Oyun, oyuncuların üstündedir; oyuncu oyunu oynamaz, oyun oyuncuyu oynar. Sanat eseri de böyledir: Ona bakarken onun tarafından bakılırız. Ve konuşma da böyledir: İyi bir konuşmada hiç kimse "konuşmayı yönetmez"; konuşma iki tarafı da götürdüğü yere götürür.
+
+## Gadamer ve Heidegger arasındaki fark
+
+Gadamer'in düşüncesi Heidegger'den beslenir; ama dili çok daha davetkârdır. Heidegger "Varlık nedir?" diye sorar; Gadamer "birbirimizi nasıl anlıyoruz?" diye. Heidegger'in felsefesi ontolojik uçurumlar açarken Gadamer felsefeyi konuşmanın içine geri getirir. Heidegger, yorumbilgisini varlık sorusunun aracı yapmıştı; Gadamer onu insan hayatının kendisine dönüştürdü. Bu hafta sitemizde Heidegger'i [teknoloji eleştirisi](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) üzerinden ele aldık; Gadamer, aynı mirasın en insancıl, en az uçurumlu versiyonudur. Ve — Heidegger'den farklı olarak — Gadamer'in siyasal sicili, tartışmalı olsa da, felsefesini gölgelemez: Heidelberg'deki uzun yılları, Nazi geçmişiyle yüzleşmeyen bir üniversitede, öğrencileriyle diyalog kurarak geçirdi; Habermas onun öğrencisiydi.
+
+## Habermas ve Derrida ile karşılaşma
+
+Gadamer'in felsefi hayatının en ilginç tarafı, düşüncesinin yalnızca öğrencileri tarafından değil, kendisine itiraz edenler tarafından da şekillendirilmiş olmasıdır — ki bu, kendi kuramına uygundur.
+
+1960'ların sonunda Habermas ile tartışması, anlamanın güç ilişkilerinden bağımsız olup olamayacağı sorusunu gündeme getirdi. Habermas'a göre Gadamer geleneğe fazla güveniyordu: Gelenek yalnızca anlam taşımaz, tahakküm de taşır; ideoloji eleştirisi, hermeneutiğin göremediği "çarpıtılmış iletişim"i açığa çıkarmalıdır. Gadamer'in cevabı, eleştirinin kendisinin de bir gelenek içinden konuştuğu ve "çarpıtılmamış iletişim" idealinin bile hermeneutik bir varsayım olduğuydu. Bugün sitemizde ele aldığımız [Fricker'ın epistemik adaletsizlik kavramı](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir), bu tartışmanın doğrudan mirasçısıdır: Kimin sözünün anlaşılmaya değer bulunduğu, ufukların kaynaşmasından önce belirlenir.
+
+1981'de Paris'te Derrida ile karşılaşması ise hermeneutik ile yapısöküm arasındaki gerilimi görünür kıldı — ve bir karşılaşma olmadı. Gadamer diyaloğun "iyi niyet"ini savundu; Derrida, iyi niyetin kendisinin metafizik bir varsayım olduğunu söyledi ve Gadamer'in sorularına cevap vermek yerine üç kısa soru sordu. Gadamer sonradan, "Derrida'yı anlamaya çalıştım; o beni anlamak istemedi" dedi. Buradaki temel soru şuydu: Gerçek bir diyalog mümkün müdür, yoksa her konuşma daha önce kurulmuş güç ve anlam yapılarına mı hapsolmuştur? Gadamer'in cevabı iyimserdi: İnsanlar birbirlerini tamamen anlayamayabilir; ama anlamaya çalışmanın kendisi felsefi ve etik bir olaydır.
+
+## Gadamer yapay zekâ çağında neden yeniden önemli?
+
+Bugün milyonlarca insan sohbet botlarıyla konuşuyor. Burada Gadamer'in sorusu yeniden ortaya çıkıyor: **Bir makineyle konuşmak gerçekten bir diyalog mudur?** Makine sözcükleri üretiyor, bağlamı takip ediyor, sorular soruyor, önceki cümleleri hatırlıyor, bazen itiraz ediyor, bazen özür diliyor. Bunların tümü "anlama" anlamına mı geliyor?
+
+Sitemizde bu hafta ele aldığımız Cappelen ve Sterken'in derlemesi *Communicating with AI* tam bu soruyu soruyor: Büyük dil modelleri ne hakkında konuştuklarını biliyor mu; çıktıları anlam taşıyor mu; insan ile makine arasında "yabancı diller" gibi bir iletişim problemi var mı; makineyle konuşmak insan özerkliğini nasıl değiştiriyor? Bu soruların her biri Gadamer'in kavramlarıyla yeniden yazılabilir. Makinenin bir **ufku** var mı — yani bir tarihi, bir geleneği, bir konumu? Yoksa ufuksuz bir aynadan mı ibaret? Etki tarihi, eğitim verisi olarak modele girmiştir; ama modelin kendisi o tarihin içinde bir yerde durmaz. Gadamer'e göre anlama, konumdan yapılır; konumsuz anlama, anlama değil, hesaplamadır.
+
+Gadamer bugün yaşasaydı muhtemelen ilk sorusu "makine cevap veriyor mu?" değil, **"biz gerçekten bir şey anlıyor muyuz?"** olurdu. Çünkü Gadamer için anlam yalnızca doğru çıktıyı üretmek değil, karşılaşmanın kendisidir; ve karşılaşmada değişmeyen taraf, karşılaşmamış demektir. Bir sohbet botuyla konuşurken değişen tek taraf biziz. Bu, diyaloğun yarısıdır — ve Gadamer, yarım diyaloğun ne olduğunu düşünmemişti, çünkü yoktu.
+
+## Gadamer'in bize bıraktığı en zor ders
+
+Gadamer'in felsefesi insanı rahatsız eder; çünkü şunu söyler: Kendi önyargılarımızdan tamamen kurtulamayız. Her şeyi tarafsız bir gözlemci gibi göremeyiz. Her anlama girişiminde kendi tarihimiz bizimle birlikte gelir. Ama bu, hakikatin imkânsız olduğu anlamına gelmez; tam tersine, **hakikat, kendi ufkumuzun sınırlarını fark ettiğimiz anda görünmeye başlar.**
+
+Yapay zekâ çağında belki de Gadamer'in en önemli mirası budur. Makine bize daha fazla cevap verecek. Fakat insanlığın asıl ihtiyacı daha fazla cevap değil; Gadamer'in Platon'dan öğrendiği ve ömrü boyunca öğrettiği şey: **Daha iyi soru sormayı öğrenmek.** Sokrates'in bilgisizliği bir eksiklik değil, bir açıklıktı — sorunun, cevaptan önce geldiğini bilen bir açıklık.
+
+---
+
+*Hans-Georg Gadamer 11 Şubat 1900'de Marburg'da doğdu, 13 Mart 2002'de Heidelberg'de öldü. Başlıca eserleri: Platon'un Diyalektik Etiği (1931) · Hakikat ve Yöntem (1960) · Felsefi Hermeneutik (1976) · Güzelin Güncelliği (1977) · Platon'un Diyaloglarında Diyalog ve Diyalektik (1980) · Ben Kimim ve Sen Kimsin? (Celan üzerine, 1973).*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 15 Eylül",
+    slug: "felsefe-tarihinde-bugun-15-eylul-kripke-eucken-lazarus",
+    summary:
+      "Bugün doğan Moritz Lazarus 'halk psikolojisi'ni kurdu ve antisemitizme karşı durdu; bugün ölen Rudolf Eucken, Nobel'i kazanan tek 'yaşam filozofu'ydu; bugün ölen Saul Kripke ise adlarla nesneler arasındaki bağı yeniden kurdu. Üçünün ortak sorusu: Bir şeyin adı ile kendisi arasındaki mesafede ne durur?",
+    seoTitle: "Felsefe tarihinde bugün: 15 Eylül — Kripke, Eucken, Lazarus",
+    metaDescription:
+      "15 Eylül: Moritz Lazarus'un doğumu (1824); Rudolf Eucken (1926) ve Saul Kripke'nin (2022) ölümü. Halk psikolojisi, yaşam felsefesi, Naming and Necessity ve katı göstericiler.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Saul%20Kripke.jpg?width=1600",
+    imageCredit: "Saul Kripke · Wikimedia Commons",
+    featured: false,
+    sourceName: "CUNY Graduate Center",
+    sourceUrl: "https://www.gc.cuny.edu/news/saul-kripke-eminent-philosopher-and-professor-dies-81",
+    publishedAt: "2026-09-15T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "mantik", "epistemoloji", "kavram", "din-felsefesi"],
+    philosopherSlugs: ["saul-kripke"],
+    sources: [
+      {
+        title: "Saul Kripke, Eminent Philosopher and Professor, Dies at 81",
+        publisher: "CUNY Graduate Center",
+        url: "https://www.gc.cuny.edu/news/saul-kripke-eminent-philosopher-and-professor-dies-81",
+        primary: true,
+      },
+      {
+        title: "Saul Kripke (1940-2022)",
+        publisher: "Bulletin of Symbolic Logic, Cambridge University Press",
+        url: "https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic/article/saul-kripke-19402022/A3C7AECE081936E181CE213CB69AC460",
+      },
+    ],
+    content: `Takvimin bu günü bir doğum ve iki ölümle, birbirinden çok uzak görünen üç düşünürü buluşturuyor: On dokuzuncu yüzyılın kültür psikoloğu, yirminci yüzyıl başının Nobel ödüllü idealisti ve yirminci yüzyılın ikinci yarısının en büyük mantıkçısı. Ortak noktaları ilk bakışta yok. Ama üçü de aynı soruya farklı yerlerden bakıyor: **Bir şeyin adı ile kendisi arasındaki mesafede ne durur — bir halk, bir hayat, bir zorunluluk?**
+
+## Doğanlar
+
+### Moritz Lazarus — 1824
+
+Alman-Yahudi filozof ve psikolog Moritz Lazarus, 15 Eylül 1824'te Prusya'nın Filehne kasabasında doğdu; 1903'te Meran'da öldü. Berlin'de felsefe ve filoloji okudu; Bern'de ve Berlin'de ders verdi. Adı bugün çoğunlukla, kayınbiraderi dilbilimci Heymann Steinthal ile birlikte kurduğu **Völkerpsychologie** — "halk psikolojisi" — ile anılır: 1860'ta çıkarmaya başladıkları dergi, bireysel psikolojinin toplumsal ve kültürel hayatla birlikte düşünülmesi gerektiğini savunuyordu. Dil, mit, gelenek ve hukuk, bireyin zihninin ürünü değil, bireyin zihnini biçimlendiren "nesnel tin"in biçimleriydi; Wundt'un daha sonra aynı adla yazdığı on ciltlik eser ve Durkheim'ın kolektif bilinç kavramı bu damardan beslendi. Bugün sitemizde bu hafta ele aldığımız [Ziya Gökalp](/haber/ziya-gokalp-turk-sosyolojisinin-kurucu-babasi), Durkheim üzerinden bu geleneğin Türkiye'deki mirasçısıdır.
+
+Lazarus aynı zamanda döneminin antisemitizmine açıkça karşı çıkan entelektüellerden biriydi. 1879-80'deki "Berlin antisemitizm tartışması"nda, tarihçi Treitschke'nin Yahudilerin Almanlığa ait olmadığı iddiasına karşı *Was heißt national?* — "Ulusal ne demektir?" — başlıklı konuşmasıyla cevap verdi: Ulus, kan ya da köken değil, ortak bir tinsel hayata katılımdır. Bu cevap, yüz elli yıl sonra hâlâ tartışılan bir soruyu — "biz kimiz ve biz olmayan kim?" — Lazarus'un lehine olmayan bir tarihten önce sormuştu.
+
+## Ölenler
+
+### Rudolf Eucken — 1926
+
+Alman filozof Rudolf Christoph Eucken, 15 Eylül 1926'da Jena'da, seksen yaşında öldü. 1908 Nobel Edebiyat Ödülü'nü aldı; Nobel komitesi onu, "hakikate yönelik ciddi arayışı, düşüncesinin nüfuz edici gücü ve hayatın idealist felsefesini savunurken sergilediği sıcaklık" için ödüllendirmişti. Felsefe tarihinin Nobel'i kazanan az sayıdaki ismi — Bergson, Russell, Sartre, Camus — arasında Eucken, bugün en az okunanı.
+
+Eucken'in "yaşam felsefesi" (Lebensphilosophie), pozitivizmin ve natüralizmin insanı yalnızca bilimsel olarak açıklanabilir bir organizmaya indirgemesine karşı, insanın "tinsel hayat"a katılım yoluyla kendini aşabildiğini savunuyordu. Modern insan, Eucken'e göre, yalnızca bilgiye değil anlam ve değere de ihtiyaç duyar; ve bu ihtiyaç, bilimin verebileceğinden fazlasıdır. Ölümünden sonra unutulmasının nedeni belki de bu tezi çok genel, çok iyimser ve çok vaaz edici bir dille savunmasıydı; Jaspers ve Heidegger aynı soruyu çok daha sert biçimde sorduğunda, Eucken'in dili eskimişti. Ama bugün yapay zekâ ve otomasyon tartışmalarında yeniden karşılaştığımız soru, Eucken'in çağından çok farklı değil: **İnsan yalnızca daha fazla bilgiye mi ihtiyaç duyar, yoksa yaşadığı hayata anlam vermeye de mi?** Bu haftaki [Mary Midgley](/haber/felsefe-tarihinde-bugun-13-eylul-midgley-montaigne-feuerbach) ve Amodei dosyalarımız aynı soruyu 2026'nın diliyle soruyordu.
+
+### Saul Kripke — 2022
+
+Analitik felsefenin yirminci yüzyıldaki en büyük isimlerinden Saul Kripke, 15 Eylül 2022'de, seksen bir yaşında öldü. CUNY Graduate Center onu "son yarım yüzyılın en önemli analitik filozoflarından biri" olarak nitelendirdi; *Bulletin of Symbolic Logic*'teki anma yazısı ise kuşağının en etkili filozof ve mantıkçılarından biri olarak.
+
+Kripke'nin hikâyesi felsefe tarihinin efsanelerinden biridir. Nebraska'da bir hahamın oğlu olarak büyüdü; on yedi yaşında, lisede, modal mantığın anlambilimini kuran makalesini yazdı — bugün "Kripke anlambilimi" ya da "olası dünyalar anlambilimi" denen şey. Harvard'daki lisans yıllarında MIT'de lisansüstü mantık dersi veriyordu. Doktora yapmadı; Rockefeller, Princeton ve son olarak CUNY'de ders verdi.
+
+1970'te Princeton'da notsuz verdiği üç ders, 1980'de *Naming and Necessity* — *Adlandırma ve Zorunluluk* — adıyla kitaplaştı ve dil felsefesi ile metafiziği değiştirdi. Frege ve Russell'dan beri hâkim görüş, özel adların gizli betimlemeler olduğuydu: "Aristoteles", "Büyük İskender'in hocası olan filozof" gibi bir betimlemenin kısaltmasıydı. Kripke buna itiraz etti: Aristoteles İskender'e hocalık yapmamış olsaydı bile Aristoteles olurdu. Adlar **katı göstericilerdir** (rigid designators): Her olası dünyada aynı nesneyi gösterirler. Ve adlar nesnelerine betimleme yoluyla değil, ilk "vaftiz"den başlayan tarihsel-nedensel bir zincirle bağlanır.
+
+Bundan şaşırtıcı sonuçlar çıktı. "Su H2O'dur" gibi bir önerme deneyle keşfedilir — a posteriori — ama zorunludur: Su başka bir şey olamazdı. Kant'tan beri zorunlu olanın a priori bilinebileceği varsayılıyordu; Kripke bu bağı kopardı ve **zorunlu a posteriori** hakikatler olduğunu gösterdi. Metafizik, mantıksal pozitivizmin yasağından sonra ilk kez saygın bir konu olarak geri döndü; bugün sitemizde bu hafta andığımız [Carnap'ın](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) programına verilmiş en güçlü cevaplardan biriydi. Kripke aynı argümanı zihne uyguladı: Eğer "acı" ve "C-lifi uyarımı" katı göstericiyse ve aynı şeyi gösteriyorsa, özdeşlikleri zorunlu olmalıydı; ama acının C-lifi olmadığı bir dünya tasavvur edilebiliyorsa, özdeşlik zorunlu değil, dolayısıyla yanlıştı. Bilinç tartışmasının bugünkü biçimi — [Chalmers'ın zombileri](/haber/yapay-zeka-bilinc-schwitzgebel-sis) — bu argümanın torunudur.
+
+*Wittgenstein on Rules and Private Language* (1982) ise Wittgenstein'ı öyle bir okudu ki, felsefeciler ortaya çıkan konuma "Kripkenstein" adını verdi: Hiçbir geçmiş kullanım, bir kuralın gelecekteki uygulanışını belirlemez; "artı" ile "kartı" arasındaki farkı garanti eden hiçbir olgu yoktur. Bu hafta sitemizde [Amodei'nin "kontrol noktaları"](/haber/amodei-yapay-zeka-hizini-yavaslatmaliyiz-pace-the-frontier) önerisini tartışırken andığımız kural izleme paradoksu buradan gelir.
+
+Kripke'nin 15 Eylül'de ölümü bu nedenle felsefe tarihinde sıradan bir tarih değildir: Bir çağın mantık, dil ve metafizik anlayışının büyük mimarlarından biri o gün aramızdan ayrıldı. Ve garip biçimde, bu mimarın yayımladığı kitap sayısı üçtür; etkisinin büyük kısmı, başkalarının tuttuğu ders notlarından, dolaşan daktilo kopyalarından ve söylentilerden geldi. Kendi kuramına uygun bir hayat: Ad, taşıyıcısına yazılı bir betimlemeyle değil, elden ele geçen bir zincirle bağlanır.
+
+## Bugünün dersi
+
+Lazarus, bir halkın ne olduğunun kanla değil katılımla belirlendiğini söyledi; Eucken, bir hayatın ne olduğunun bilgiyle değil anlamla; Kripke, bir adın neyi gösterdiğinin betimlemeyle değil tarihsel bağla. Üçü de aynı yapıya işaret ediyor: Bir şeyi tanımlayan, onun içinde bulduğumuz özellikler değil, onunla kurduğumuz **ilişkinin tarihi**dir. Yapay zekâ çağında "insan nedir?" sorusuna cevap ararken bu ders işe yarayabilir: Belki cevap bir özellik listesinde değil, bir zincirin ucundadır.
+
+---
+
+*Bize ulaşan takvim notunda 15 Eylül'de yayımlanmış modern kitap baskıları — Kenyon, LaCapra, Parfit'in bir baskısı, Russell'ın bir Routledge baskısı — da yer alıyordu. Yeniden baskı tarihleri felsefe tarihi açısından anlamlı olmadığından bu bölümü almadık; Parfit'in On What Matters'ı 2011'de, Russell'ın Matematik Felsefesine Giriş'i 1919'da yayımlanmıştır.*`,
+  },
+  {
+    title: "NASSP Kitap Ödülü Ladelle McWhorter'a: \"Kişi olmaktan vazgeçebilir miyiz?\"",
+    slug: "nassp-kitap-odulu-2026-mcwhorter-unbecoming-persons",
+    summary:
+      "Kuzey Amerika Sosyal Felsefe Derneği'nin 2026 Kitap Ödülü, Foucault geleneğinin en iyi soykütükçülerinden Ladelle McWhorter'ın Unbecoming Persons kitabına verildi. Tez sert: 'Kişi' kavramı, sömürgecilik, kölelik ve çevre yıkımını sürdürmek için üretildi; iyi bir hayat belki de kişi olmadan yaşanabilir. Sen'den Shelby'ye, Benhabib'den Lackey'e uzanan bir ödülün 2026 tercihi.",
+    seoTitle: "NASSP Kitap Ödülü 2026: Ladelle McWhorter, Unbecoming Persons",
+    metaDescription:
+      "North American Society for Social Philosophy 2026 Book Award: Ladelle McWhorter, Unbecoming Persons: The Rise and Demise of the Modern Moral Self (Chicago, 2025). Kişilik kavramının soykütüğü ve aidiyet etiği.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Harper%20Memorial%20Library%2C%20University%20of%20Chicago%2C%2059th%20Street%2C%20Hyde%20Park%2C%20Chicago%2C%20IL%20(54514976407).jpg?width=1600",
+    imageCredit: "Harper Memorial Library, Chicago Üniversitesi · Wikimedia Commons",
+    featured: false,
+    sourceName: "North American Society for Social Philosophy",
+    sourceUrl: "https://www.northamericansocietyforsocialphilosophy.org/book-award/",
+    publishedAt: "2026-09-15T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "etik", "siyaset-felsefesi", "postkolonyalizm", "yeni-kitap"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "NASSP Book Award",
+        publisher: "North American Society for Social Philosophy",
+        url: "https://www.northamericansocietyforsocialphilosophy.org/book-award/",
+        primary: true,
+      },
+      {
+        title: "Unbecoming Persons: The Rise and Demise of the Modern Moral Self",
+        publisher: "University of Chicago Press",
+        url: "https://press.uchicago.edu/ucp/books/book/chicago/U/bo253760523.html",
+      },
+    ],
+    content: `Kuzey Amerika Sosyal Felsefe Derneği'nin (NASSP) her yıl verdiği Kitap Ödülü'nün 2026 sahibi belli oldu: Richmond Üniversitesi'nden Ladelle McWhorter, *Unbecoming Persons: The Rise and Demise of the Modern Moral Self* — "Kişi Olmaktan Çıkmak: Modern Ahlaki Benliğin Yükselişi ve Çöküşü" — (Chicago Üniversitesi Yayınları, Kasım 2025) ile ödülü aldı. Dernek, ödül sahibini yıllık toplantısında bir genel oturumla onurlandırıyor; seçici kurul üyeleri kitabı tartışıyor, yazar cevap veriyor.
+
+## Ödül neden önemli?
+
+NASSP Kitap Ödülü, parasal büyüklüğüyle değil, listesiyle konuşan ödüllerden. 1992'den beri verilen ödülün sahipleri arasında Stephen Toulmin (*Cosmopolis*), Martha Nussbaum (*Sex and Social Justice*), Seyla Benhabib (*The Rights of Others*), G. A. Cohen (*Rescuing Justice and Equality*), Amartya Sen (*The Idea of Justice*), Tommie Shelby (*Dark Ghettos*), Rahel Jaeggi (*Critique of Forms of Life*) ve — bugün sitemizde ele aldığımız [Miranda Fricker](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) çizgisinin doğrudan devamı olan — Jennifer Lackey (*Criminal Testimonial Injustice*) var. Ödül, sosyal felsefenin son otuz yılda nereye gittiğinin bir haritası: adaletten tanınmaya, tanınmadan yaşam biçimlerinin eleştirisine.
+
+McWhorter'ın seçilmesi bu haritada bir adım daha: Adalet kuramlarının hepsinin varsaydığı şeyin — **kişi** kavramının — kendisini sorgulayan bir kitap.
+
+## Kitap ne söylüyor?
+
+McWhorter, Foucault geleneğinde çalışan bir soykütükçü; daha önce *Bodies and Pleasures* (1999) ve *Racism and Sexual Oppression in Anglo-America* (2009) ile tanınıyordu. Yeni kitabın çıkış noktası bir yorgunluk: Ekolojik kriz, ekonomik adaletsizlik ve siyasal şiddet karşısında "iyi bir kişi olmak"ın ahlaki talepleri neredeyse taşınamaz hâle geldi. McWhorter'a göre bu gerilim bir kaza değil, **tasarım**: Kişilik hakkındaki fikirlerimiz, yüzyıllar süren sömürgeciliği, köleliği ve çevre yıkımını sürdürmek için ortaya çıktı.
+
+Kitabın soykütüğü yedi bölümde ilerliyor. Antik dünyadan İngiliz İç Savaşları'na "kişi" kavramının ataları; John Locke'ta kişi kavramının Tanrı'nın üç "kişi"si — Teslis — ile bağlantısı ve "yargının öznesi/yargıya tabi" olarak kurulması; kişiliğin Afrikalı kölelere dayatılması ve yerli halkların direnişi; on dokuzuncu yüzyıl ABD'sinde egemen kişiler, kişi-olmayanlar ve **şirket kişiliği**. Sonra iki sorgulama bölümü — mülkiyet ve bireysellik — ve bir kapanış: "Kişilikten Sonra Hayatı Tahayyül Etmek."
+
+Kitabın en çok tartışılacak tezi son bölümde. McWhorter şu soruyu soruyor: **Hiç kişi olmalı mıyız — yoksa bireyciliğin kısıtları ve özerklik yanılsaması olmadan da iyi bir hayat yaşanabilir mi?** Kimlik, kendini geliştirme ve kurtuluş saplantılarımıza karşı, birlikte yaşamanın daha iyi bir yolunu arıyor. Kolay cevaplar bulmadığını kendisi söylüyor; ama önerdiği etik, hem çıkarcılığı hem fedakârlığı reddedip **sürekli bağımlılığı, topluluğu ve Dünya'yı** kucaklayan bir etik. Yayınevinin tanıtımındaki ifadeyle: "bireysellik yerine aidiyete dayalı yeni bir etik için cesur bir vizyon."
+
+## Neden şimdi?
+
+Ödülün zamanlaması ilginç. Bu hafta sitemizde [robot hakları](/haber/robot-haklari-makineler-hak-talep-ederse) ve [Erasmus Ödülü'nün "Ecce Homo" teması](/haber/erasmus-odulu-2026-steve-mcqueen-ecce-homo) vesilesiyle "kişi" kavramının sınırlarını — kimin kişi sayılacağını — tartıştık. McWhorter tartışmayı ters yüz ediyor: Sorun sınırın nereden geçtiği değil, kavramın kendisi. Kişilik, tarihsel olarak, kimin mülk sahibi olabileceğini, kimin yargılanabileceğini ve kimin mülk sayılacağını belirlemek için üretilmiş bir araçtı; şirketlere kişilik verilirken köleleştirilmiş insanlara verilmemesi bu aracın kazası değil, işlevi.
+
+Bu tez elbette itiraz çekecek. Kişi kavramı aynı zamanda insan haklarının, rızanın, özerkliğin ve — Fricker'ın diliyle — bilen özne olmanın zeminidir; kavramı terk etmek, onunla korunanları da savunmasız bırakabilir. McWhorter'ın cevabı, kavramın koruduklarının kavramdan daha eski ve daha derin olduğu — aidiyetin kişilikten önce geldiği. Todd May'in kitap için söylediği gibi: "Kişilik kavramının bizi birbirimizden yalıtmada oynadığı rolü gösteriyor ve dayanışmaya giden yollar açıyor."
+
+Foucault, "insan"ın kumsaldaki bir yüz gibi silinebileceğini yazmıştı. McWhorter, silinmesi gerekenin insan değil "kişi" olduğunu söylüyor — ve bunun bir kayıp değil, bir rahatlama olabileceğini. Ödül komitesi, sosyal felsefenin bu soruyu ciddiye alması gerektiğine karar verdi.
+
+---
+
+*NASSP Kitap Ödülü, North American Society for Social Philosophy tarafından bir önceki yıl yayımlanmış kitaplara veriliyor; 2027 ödülü için 2026'da yayımlanan kitapların adaylık süresi 31 Aralık 2026'da kapanıyor. Ladelle McWhorter'ın Wikimedia Commons'ta serbest lisanslı fotoğrafı bulunmadığından kapakta kitabın yayınevinin bağlı olduğu Chicago Üniversitesi'nin kütüphanesi kullanılmıştır.*`,
+  },
+  {
+    title: "Beyin İmplantı ve Zihin Felsefesi",
+    slug: "beyin-implanti-ve-zihin-felsefesi-konusma-jest",
+    summary:
+      "Nature Neuroscience'da yayımlanan çalışma, felçli insanların yalnızca konuşma niyetini değil, aynı anda jestlerini de beyin sinyallerinden çözebilen tek bir implant gösterdi. Asıl devrim mühendislikte değil: Bir düşünce nerede biter, beden nerede başlar? Merleau-Ponty'den Wittgenstein'a, Clark'tan Searle'e, Fricker'dan Heidegger'e — bir laboratuvar sonucunun felsefi dosyası.",
+    seoTitle: "Beyin implantı ve zihin felsefesi: konuşma ve jesti aynı anda çözen BCI",
+    metaDescription:
+      "UCSF'nin 253 elektrotlu ECoG implantı konuşma ve jest niyetini eşzamanlı çözüyor. Bedenlenmiş zihin, genişletilmiş zihin, Çince Odası, niyetlilik, epistemik adalet ve nöral mahremiyet açısından bir okuma.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/EEG%20Recording%20Cap.jpg?width=1600",
+    imageCredit: "EEG kayıt başlığı · Wikimedia Commons (temsilî; çalışmada yüzeysel ECoG implantı kullanıldı)",
+    featured: true,
+    sourceName: "Nature",
+    sourceUrl: "https://www.nature.com/articles/d41586-026-02895-6",
+    publishedAt: "2026-09-15T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["zihin-felsefesi", "bilinc", "teknoloji-felsefesi", "fenomenoloji", "epistemoloji"],
+    philosopherSlugs: ["ludwig-wittgenstein", "daniel-dennett", "david-chalmers", "martin-heidegger", "miranda-fricker"],
+    sources: [
+      {
+        title: "'Multifunctional' brain implant translates speech and gestures in real time",
+        publisher: "Nature (News), 14 Eylül 2026",
+        url: "https://www.nature.com/articles/d41586-026-02895-6",
+        primary: true,
+      },
+      {
+        title: "Brosler, S. C. et al. — Nature Neuroscience (2026)",
+        publisher: "Nature Neuroscience",
+        url: "https://doi.org/10.1038/s41593-026-02446-2",
+      },
+      {
+        title: "Miranda Fricker — Epistemic Injustice: Power and the Ethics of Knowing",
+        publisher: "Oxford University Press, 2007",
+        url: "https://doi.org/10.1093/acprof:oso/9780198237907.001.0001",
+      },
+    ],
+    content: `İnsan konuştuğunda yalnızca konuşmaz. Başını sallar, omuzlarını kaldırır, parmağıyla gösterir, kaşını kaldırır, elini açar, yüzünü buruşturur. Bazen bir kelimenin anlamını değiştiren şey kelimenin kendisi değil, ona eşlik eden küçük bir el hareketidir: "Evet" derken başını sallamak başka, "evet" derken omuz silkmek başkadır. İnsan iletişimi bu nedenle hiçbir zaman yalnızca bir dil sistemi olmadı; dil, beden, jest, mimik, ritim ve niyet aynı iletişim olayının parçalarıdır.
+
+Şimdi bir beyin-bilgisayar arayüzü, bu çok katmanlı iletişimin en azından bir bölümünü doğrudan beyinden okumaya başladı.
+
+## Ne yapıldı?
+
+*Nature*'ın 14 Eylül tarihli haberinde duyurduğu ve aynı gün *Nature Neuroscience*'ta yayımlanan araştırmada, San Francisco'daki California Üniversitesi'nden (UCSF) Samantha Brosler ve arkadaşları, tek bir implantla konuşma ve jestlerin **eşzamanlı** çözümlenebildiğini gösterdi. Sistem, kullanıcının konuşma niyetini ekranda metne dönüştürürken jest niyetini de kişiselleştirilmiş bir avatarın hareketlerine aktarıyor — ve bunu niyetin oluşmasından saniyeler içinde yapıyor. *Nature*'a göre bu, sözlü ve sözsüz iletişimi aynı anda çeviren ilk cihaz.
+
+Sistemin merkezinde, beynin korteks yüzeyine cerrahi olarak yerleştirilen 253 elektrotlu yüksek yoğunluklu bir elektrokortikografi (ECoG) dizisi var. Dizi, sensorimotor korteksin görece geniş bir alanını kaplıyor; böylece hem konuşma hem beden hareketleriyle ilgili sinyalleri yakalayabiliyor. Araştırmacılar iki katılımcıyla çalıştı: Beyin sapı felci geçirmiş, konuşması ve hareketi bozulmuş bir erkek; ve ilerleyici konuşma felci ile motor bozukluğa yol açan ALS hastası ikinci bir erkek. Birincisinden beş cümleyi sessizce söylemesi ve el sallamayı, baş sallamayı, alkışlamayı denemesi istendi; ikincisinden on cümleyi seslendirmesi ve omuz silkme, başparmak kaldırma gibi on jesti — yüz kasları dışında bedenini hareket ettirmeden — hayal etmesi.
+
+Araştırmanın kritik noktası şu: Konuşma ve jest için ayrı ayrı çalışan sistemler geliştirmek görece kolaydı; asıl problem ikisinin aynı anda gerçekleşmesi. Çünkü beyin bunları birbirinden yalıtılmış devreler hâlinde üretmiyor. Konuşma ve el hareketleri sensorimotor kortekste kısmen **örtüşen** etkinlik örüntüleri yaratıyor; üstelik kişi aynı anda konuşup jest yaptığında ortaya çıkan sinyaller, yalnızca konuşma ya da yalnızca jest sırasındaki sinyallerin toplamı değil. Bu yüzden yalnızca ayrı ayrı "konuşma" ve "jest" verisiyle eğitilmiş modeller eşzamanlı davranışlarda yeterince iyi çalışmadı; modelin, "merhaba" ile el sallamanın, "evet" ile baş sallamanın birlikte kaydedildiği denemelerden de öğrenmesi gerekti.
+
+Bu ayrıntı teknik görünse de felsefi açıdan son derece önemli. Çünkü insan davranışının parçalarının, laboratuvarın varsaydığı kadar kolay biçimde birbirinden ayrılamadığını gösteriyor.
+
+## Zihin, bir bilgisayarın iki ayrı programı gibi çalışmıyor
+
+Yüzyıllar boyunca zihni açıklamak için farklı metaforlar kullandık. Descartes için zihin, bedenden farklı bir tözdü. Davranışçılık, zihnin iç dünyasını bilimsel açıklamanın dışına çıkarmaya çalıştı. Bilişsel devrim ise zihni bilgi işleyen bir sistem olarak yeniden merkeze aldı; bilgisayar metaforu burada olağanüstü güçlüydü: girdi, işlem, çıktı.
+
+Fakat yeni BCI çalışmaları bu modelin eksik bıraktığı bir şeyi görünür kılıyor. İnsan zihni yalnızca "içeride hesap yapan" bir mekanizma değil. Konuşmak, işaret etmek, yürümek, bakmak, başını çevirmek ve bir nesneye uzanmak, birbirinden tamamen bağımsız zihinsel modüller değil. Beden, düşüncenin yalnızca taşıyıcısı olmayabilir; **düşüncenin oluşumunun bir parçası** olabilir.
+
+İşte burada Maurice Merleau-Ponty'nin fenomenolojisi yeniden güncel hâle geliyor. Merleau-Ponty'nin felsefesinin en güçlü tarafı, bedeni zihnin içine yerleştirilmiş bir makine olarak görmemesidir. Klasik Kartezyen resimde zihnimiz içeridedir, bedenimiz dışarıdaki dünyayla temas kuran araçtır. Merleau-Ponty bu ayrımı tersine çevirir: Dünyayı yalnızca beynimizle düşünmeyiz; dünyaya bedenimiz aracılığıyla açılırız. "Bedenim var" değil, "bedenimim." Elin bir bardağa uzanması, beynin "bardak" bilgisini işleyip kasa komut gönderdiği bir zincir değildir; beden zaten dünyayı anlamanın bir biçimidir.
+
+UCSF çalışmasının bulgusu tam buraya oturuyor: Elektrotların bir kısmı konuşma, bir kısmı jest, bir kısmı ise **her ikisi** sırasında etkinleşiyor; özellikle precentral gyrus bölgesinde konuşma ile jest sinyalleri kısmen örtüşüyor. Beyin, "önce düşünce, sonra beden" şeklinde çalışan bir merkez olmayabilir. Düşünce ile hareket arasında çok daha karmaşık bir süreklilik var. Sitemizde bu hafta andığımız [Maturana'nın "yaşamak bilmektir" tezi](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) ile aynı yöne işaret ediyor.
+
+## Wittgenstein bugün bir BCI laboratuvarına girseydi ne görürdü?
+
+Wittgenstein'ın geç dönem felsefesi açısından bakıldığında mesele daha da ilginçleşiyor. Wittgenstein için anlam, kafamızın içinde bulunan zihinsel bir nesne değildir; bir kelimenin anlamı, kullanımında ortaya çıkar. "Gel", "tamam", "git", "evet" — bunların anlamları sözlükte tamamen bulunmaz. Sözcüklerin kullanıldığı hayat biçimleri, jestler, durumlar ve karşılıklı beklentiler anlamın oluşumuna katılır. Wittgenstein'ın "dil oyunu" dediği şey, kelimelerle bedenlerin birlikte oynadığı bir oyundur.
+
+Dolayısıyla bir avatarın yalnızca kullanıcının söylediği kelimeyi değil, jestini de üretmesi, makinenin insan iletişiminin bu geniş pratiğine bir adım daha yaklaşması demek. "İyi" kelimesinin yanında başparmağın yukarı kalkması başka, omuzların kaldırılması başka, başın hafifçe yana eğilmesi başka bir iletişimsel olaydır. Makine artık yalnızca "hangi kelime söylendi?" sorusunu sormuyor; yavaş yavaş "bu kişi ne yapmaya çalışıyor?" sorusuna yaklaşıyor. Ve bu, zihin felsefesinin en eski problemlerinden birini yeniden önümüze getiriyor.
+
+## Niyet nedir, hareket kimindir?
+
+Bir insan "kapıyı aç" dediğinde iki şeyi ayırabiliriz: Söylediği cümle ve o cümleyle yapmak istediği şey. Felsefede bu, **niyetlilik** (intentionality) tartışmalarının merkezidir. Bir cümle yalnızca ses dizisi değildir; bir jest yalnızca kas hareketi değildir. İşaret parmağını kaldırmak, fiziksel açıdan belirli bir kas etkinliğidir; sosyal dünyada ise "şuna bak", "orası", "onu istiyorum" ya da "dikkat" olabilir.
+
+BCI, fiziksel hareketin kendisini değil, hareketin **niyet edilen biçimini** yakalamaya çalışıyor. Bu ayrım kritik; çünkü ALS hastası katılımcı jesti fiziksel olarak gerçekleştiremiyor — onu hayal ediyor. Beyin sinyali, hareket gerçekleşmese bile hareket niyetinin göstergesi oluyor. Buradan bir soru çıkıyor: Bir hareketi gerçekleştiremesek bile o hareket bize ait midir? "Ben", hareket eden beden miyim, hareket etme niyeti miyim?
+
+Felçli bir kişinin başparmağını kaldırmak istediğini düşünelim. Kaslar cevap vermiyor; el hareket etmiyor. Ama implant beyindeki örüntüyü çözüyor ve avatarın başparmağını kaldırıyor. Hareketi kim yaptı? Kullanıcı mı, algoritma mı, avatar mı, implant mı? Bu sorunun tek bir cevabı olmayabilir — ve bu hafta sitemizde [portresini yayımladığımız Daniel Dennett'in](/haber/daniel-dennett-zihnin-buyusunu-bozan-filozof) yaklaşımı burada özellikle işe yarar. Dennett, zihni tek bir "merkezde" oturan küçük bir homunculus üzerinden açıklamaya karşıydı; davranış, organizmanın çevreyle ilişkisi ve farklı düzeylerdeki işlevlerle birlikte açıklanmalıydı. Bir BCI sistemi bu dağıtılmış yapıyı görünür kılıyor: Kullanıcı niyet ediyor, beyin etkinliği oluşuyor, elektrotlar kaydediyor, algoritma sınıflandırıyor, yazılım kelime üretiyor, avatar hareket ediyor. "Eyleyen kişi" artık tek bir biyolojik bedenle sınırlı olmayan bir insan-makine sistemi.
+
+## Clark ve Chalmers: Genişletilmiş zihin artık düşünce deneyi değil
+
+Andy Clark ve David Chalmers'ın 1998'de ortaya koyduğu **genişletilmiş zihin** tezi, bazı bilişsel süreçlerin yalnızca beynin içinde gerçekleşmediğini savunuyordu: Bir not defteri, doğru koşullarda bilişsel sürecin parçası olabilir — Otto'nun defteri, Inga'nın belleği kadar "onun" belleğidir.
+
+BCI'lar bu fikri daha radikal bir noktaya taşıyor. Burada dış araç yalnızca düşünceyi desteklemiyor; beyin ile dış dünya arasında **doğrudan bir çevrim** oluşturuyor: beyin, elektrot, algoritma, avatar, sosyal çevre — ve tersine, sosyal çevre, konuşma, kullanıcı, beyin. Bu durumda zihni yalnızca kafatasının içinde aramak giderek daha az açıklayıcı hâle gelebilir. Clark'ın "doğal doğuştan siborglar" dediği şey, bir metafor olmaktan çıkıp cerrahi bir olguya dönüşüyor.
+
+## Fakat Searle hemen itiraz ederdi: Sinyali okumak anlamı okumak değildir
+
+Burada John Searle'ün Çince Odası'nı hatırlamak gerekiyor. Bir sistemin doğru sembolleri üretmesi, sembollerin anlamını anladığını göstermez. BCI da benzer bir soruyu doğuruyor: Makine "başparmak yukarı" ürettiğinde gerçekten "onaylıyorum" mu demektedir? Hayır. Makine, belirli bir nöral örüntüyü belirli bir çıktıyla eşleştirmektedir. Anlamın kendisi, kullanıcı ile toplumsal bağlam arasındaki ilişkide ortaya çıkar.
+
+Bu nedenle BCI'ın yaptığı şey "zihni okumak" değil. Daha doğru ifade: Zihinsel ve bedensel niyetlerle ilişkili nörofizyolojik örüntüleri belirli iletişimsel çıktılara dönüştürmek. Bu ayrım teknolojinin gücünü azaltmaz; ne yaptığını doğru anlamamızı sağlar. Hubert Dreyfus'un klasik yapay zekâ eleştirisi de burada bir dipnot hak ediyor: Dreyfus, insan bilgisinin kurallara ve sembollere indirgenemeyeceğini savunmuştu. Bugünkü BCI, sembolik kurallarla değil istatistiksel öğrenmeyle çalışıyor; ama araştırmacıların kendi bulgusu — izole örneklerle eğitilen modelin eşzamanlı davranışa genellenmemesi — Dreyfus'un asıl noktasını doğruluyor: **İnsan davranışı bağlama gömülüdür ve bağlam, parçaların toplamından fazladır.**
+
+## Gadamer ve Heidegger: Anlama ile veri
+
+Bugün sitemizde [ayrı bir dosyayla ele aldığımız Gadamer](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir) açısından daha radikal bir soru çıkıyor. Anlamak, Gadamer için bir metni mekanik biçimde çözmek değil, bir anlam ufkuna girmektir. Bir BCI şimdilik bunun çok daha dar bir bölümünü gerçekleştiriyor: nöral örüntüden kelimeye ya da jeste. Ama bu bile önemli bir şey söylüyor: İletişimin maddi taşıyıcısı ile iletişimin anlamı aynı şey değildir. Makine sinyali çözebilir; sinyalin bir insan hayatındaki anlamı hâlâ tarihsel ve toplumsal bağlamda ortaya çıkar.
+
+Heidegger'in teknoloji eleştirisi ise konunun karanlık tarafını gösteriyor. Modern teknoloji dünyayı belirli bir biçimde görünür kılar: Orman kereste, nehir enerji, insan **veri** olur. BCI'ın mucizesi, felçli bir insanın yeniden iletişim kurmasını sağlaması. Fakat aynı teknoloji beyin verisinin ekonomik ve politik değere dönüştürüldüğü bir çağın kapısını da açabilir. O zaman mahremiyet artık "mesajlarımı okuyabilirler mi?" sorusu olmayacak; "neyi düşündüğümü ben düşünmeden önce benden ne öğrenebilirler?" sorusuna dönüşecek. Bu soruyu bugün sitemizde [nöro-haklar yasaları dosyasında](/haber/beyin-verisi-kimin-noro-haklar-sili-connecticut) ayrıca ele aldık.
+
+## Fricker: Konuşamayan insanın epistemik statüsü
+
+Burada Miranda Fricker'ın **epistemik adaletsizlik** kavramı beklenmedik biçimde önem kazanıyor. Fricker'a göre bazı insanlar yalnızca ekonomik ya da siyasal anlamda değil, bilen ve bilgi aktarabilen özneler olarak da haksızlığa uğrar: Söylediklerine önyargı nedeniyle daha az inanılması "tanıklık adaletsizliği"; deneyimlerini ifade edecek ortak kavramlardan yoksun bırakılması "hermeneutik adaletsizlik"tir. Fricker'ı bugün sitemizde [ayrı bir portreyle](/haber/miranda-fricker-bilginin-de-bir-adaleti-vardir) ele aldık.
+
+Ağır felçli bir insan için iletişim teknolojisinin yokluğu, bu açıdan yalnızca fiziksel bir kayıp değil; kendi deneyimini başkalarına aktarabilme kapasitesinin kaybıdır. Bu nedenle BCI'ın gerçek başarısı saniyede kaç kelime yazdığıyla ölçülmemeli. Asıl soru: Bir insanın yeniden bilen, anlatan, itiraz eden, işaret eden ve anlaşılmayı talep eden bir özne olmasını sağlayabiliyor mu? Cevap evetse, BCI yalnızca tıbbi bir cihaz değil, bir tür **epistemik protez**dir.
+
+## Asıl devrim konuşma hızında değil
+
+Araştırmanın yazarları bunun bir ilke kanıtı (proof of concept) olduğunu özellikle vurguluyor. Sözlük sınırlı, katılımcı sayısı iki, eşzamanlı davranışlarda hâlâ hatalar var; daha geniş repertuvarlara, daha fazla katılımcıya, daha düşük gecikmeye ihtiyaç bulunuyor. Maastricht'ten hesaplamalı sinirbilimci Christian Herff'in *Nature*'a söylediği gibi, çalışma "günlük kullanıma girecek nöral protezler için umut veriyor" — henüz o protez değil.
+
+Dolayısıyla "bilim insanları düşünceleri okumayı başardı" demek yanlış. "Bilim insanları, felçli insanların konuşma ve jest niyetlerini aynı anda dış dünyaya aktarabilen bir nöral iletişim sistemi gösterdi" demek doğru — ve felsefi açıdan çok daha ilginç.
+
+Belki de bu araştırmanın en önemli sonucu şudur: İnsan iletişimi kelimelerden oluşmaz; kelime, beden, bağlam, niyet, ilişki, geçmiş ve beklenti birlikte iletişimi meydana getirir. Şimdi teknoloji bunların bazılarını doğrudan beyinden çıkarıp dijital dünyaya taşıyabiliyor. Bu bizi iki zıt sonuca götürüyor. Birincisi umut verici: Bedenini kullanamayan insanın toplumsal dünyaya yeniden katılması mümkün olabilir. İkincisi ürkütücü: Beyin ile makine arasındaki sınır inceldikçe, zihinsel mahremiyetin sınırları da yeniden çizilmek zorunda kalacak.
+
+Yirmi birinci yüzyılın zihin felsefesinin temel sorusu belki artık "zihin nedir?" olmayacak. Daha zor bir soru gelecek: **Bir düşünce ne zaman benim düşüncemdir ve onu dış dünyaya taşıyan makine ne zaman benim bedenimin bir parçası hâline gelir?** *Nature Neuroscience*'taki bu küçük deney bu soruya cevap vermiyor; ama soruyu laboratuvardan çıkarıp gerçek hayata taşıyor.
+
+---
+
+*Bize ulaşan taslakta katılımcı sayısı üç olarak geçiyordu; Nature'ın haberine göre çalışma iki katılımcıyla yürütüldü. Kapak görseli temsilîdir: Çalışmada kafa derisi üzerinden değil, korteks yüzeyine yerleştirilen ECoG dizisiyle kayıt alındı.*`,
+  },
+  {
+    title: "Beyin verisi kimin? Şili'den Connecticut'a nöro-haklar yasaları",
+    slug: "beyin-verisi-kimin-noro-haklar-sili-connecticut",
+    summary:
+      "Şili 2021'de 'zihinsel bütünlüğü' anayasasına yazdı ve bir şirkete bir yurttaşın beyin verisini sildirdi. ABD'de dört eyalet nöral veriyi 'hassas veri' saydı; Connecticut'ın yasası temmuzda yürürlüğe girdi. UNESCO'nun 190'dan fazla ülkenin imzaladığı nöroteknoloji çerçevesi ise ilk küresel standart. Beyin-bilgisayar arayüzleri konuşmayı çözerken hukuk, 'düşünce özgürlüğü'nün yeni bir tanımını arıyor.",
+    seoTitle: "Nöro-haklar: beyin verisi yasaları Şili'den Connecticut'a",
+    metaDescription:
+      "Nöro-haklar hareketi: Şili anayasası ve Yüksek Mahkeme kararı, Colorado-California-Montana-Connecticut nöral veri yasaları, UNESCO nöroteknoloji tavsiyesi, AB Yapay Zekâ Yasası ve 'bilişsel özgürlük' kavramı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Iss030e116908.jpg?width=1600",
+    imageCredit: "Uluslararası Uzay İstasyonu'nda EEG kaydı · NASA / Wikimedia Commons",
+    featured: false,
+    sourceName: "Arnold & Porter",
+    sourceUrl: "https://www.arnoldporter.com/en/perspectives/advisories/2025/07/neural-data-privacy-regulation",
+    publishedAt: "2026-09-15T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["hukuk-felsefesi", "teknoloji-felsefesi", "etik", "zihin-felsefesi", "risk"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Neural Data Privacy Regulation: What Laws Exist and What Is Anticipated?",
+        publisher: "Arnold & Porter",
+        url: "https://www.arnoldporter.com/en/perspectives/advisories/2025/07/neural-data-privacy-regulation",
+        primary: true,
+      },
+      {
+        title: "Chilean Supreme Court ruling on the protection of brain activity: neurorights, personal data protection, and neurodata",
+        publisher: "Frontiers in Psychology / PMC",
+        url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10929545/",
+      },
+      {
+        title: "The 'Neural Data' Goldilocks Problem: Defining 'Neural Data' in U.S. State Privacy Laws",
+        publisher: "Future of Privacy Forum",
+        url: "https://fpf.org/blog/the-neural-data-goldilocks-problem-defining-neural-data-in-u-s-state-privacy-laws/",
+      },
+      {
+        title: "Your brain, your rights: the emerging legal movement around neurorights",
+        publisher: "Neurotech Magazine",
+        url: "https://www.neurotechmag.com/p/your-brain-your-rights-the-emerging",
+      },
+    ],
+    content: `Bugün sitemizde ele aldığımız [beyin implantı haberinin](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) sonunda sorduğumuz soru — "neyi düşündüğümü ben düşünmeden önce benden ne öğrenebilirler?" — artık yalnızca felsefi değil, hukuki bir soru. Ve bu soruya ilk cevap veren ülke, beklenmedik biçimde, Şili oldu.
+
+## Şili: Anayasaya yazılan zihin
+
+2021'de Şili, dünyada bir ilki gerçekleştirdi: Anayasasının bilimsel ve teknolojik gelişmeyi düzenleyen maddesine "zihinsel bütünlük" ve "beyin etkinliğinin korunması" ifadelerini ekledi. Bu değişikliğin arkasında, Columbia Üniversitesi'nden sinirbilimci Rafael Yuste'nin öncülük ettiği **Nöro-haklar Vakfı**'nın (Neurorights Foundation) beş ilkesi vardı: Zihinsel mahremiyet, kişisel kimlik, özgür irade, nöral güçlendirmeye adil erişim ve algoritmik önyargıdan korunma.
+
+Anayasa değişikliği sembolik kalmadı. 2023'te Şili Yüksek Mahkemesi, eski bir senatörün tüketici bir EEG başlığı üreten şirkete karşı açtığı davada, şirketin topladığı beyin verisini **silmesine** ve verinin ülke dışına aktarılmasının denetlenmesine hükmetti. Kararın gerekçesi, beyin verisinin sıradan kişisel veri değil, "kişinin en mahrem alanı" olduğu ve mevcut rızanın bu veriyi kapsayamayacağı yönündeydi. Frontiers'ta yayımlanan bir değerlendirme, bu kararı nöro-hakların ilk somut yargısal uygulaması olarak niteliyor.
+
+## ABD: Dört eyalet ve bir tanım problemi
+
+ABD'de federal bir yasa yok; ama eyaletler harekete geçti. Colorado 2024'te nöral veriyi mevcut gizlilik yasasındaki "hassas veri" kategorisine ekleyen ilk eyalet oldu; California onu izledi. Montana ve Connecticut sonra geldi; Connecticut'ın SB 1295 sayılı yasası 1 Temmuz 2026'da yürürlüğe girdi. Arnold & Porter'ın hazırladığı hukuki değerlendirmeye göre 2026 baharı itibarıyla Virginia, Alabama, New York ve Illinois'de de tasarılar mecliste ve her biri farklı bir yaklaşım benimsiyor.
+
+Future of Privacy Forum'un "Goldilocks problemi" dediği şey burada ortaya çıkıyor: "Nöral veri" ne kadar geniş tanımlanırsa yasa o kadar çok cihazı — akıllı saatlerin kalp atışı sensörlerine kadar — kapsar ve uygulanamaz hâle gelir; ne kadar dar tanımlanırsa yarının teknolojisini kaçırır. Colorado "sinir sisteminden üretilen ve yorumlanabilen" veriyi; California ise "merkezî ya da çevresel sinir sisteminin etkinliğini ölçen" veriyi koruyor. Aradaki fark, bir cihazın kastan mı beyinden mi okuduğuna göre değişen bir hukuki boşluk yaratıyor.
+
+Nisan 2025'te bir grup ABD senatörü Federal Ticaret Komisyonu'na yazdığı mektupta, nöral verinin "anonimleştirilse bile" ruh sağlığı durumunu, duygusal hâlleri ve bilişsel örüntüleri açığa çıkarabileceğini hatırlatıp federal koruma istedi. Nöro-haklar Vakfı'nın 2024'te otuz tüketici nöroteknoloji şirketi üzerinde yaptığı denetim, şirketlerin yüzde 96,7'sinin beyin verisini üçüncü taraflara aktarma hakkını sözleşmelerinde saklı tuttuğunu ortaya koymuştu.
+
+## UNESCO ve Avrupa: Küresel çerçeve
+
+Geçen kasım ayında UNESCO Genel Konferansı, nöroteknoloji etiği üzerine tavsiye kararını kabul etti; 190'dan fazla üye ülkenin imzaladığı belge, bu alandaki ilk küresel standart. Tavsiye kararı bağlayıcı değil; ama UNESCO'nun 2021 yapay zekâ etiği tavsiyesi gibi, ulusal yasaların şablonu olma potansiyeli taşıyor. Avrupa Birliği'nin Yapay Zekâ Yasası ise belirli nöroteknoloji uygulamalarını "yüksek riskli" sistem sayıyor ve sıkı uyum ile denetim yükümlülüklerine bağlıyor; duygu tanıma sistemlerinin iş yerinde ve eğitimde kullanımı ise doğrudan yasak.
+
+## Felsefi arka plan: Bilişsel özgürlük
+
+Nöro-haklar hareketinin kavramsal omurgası, hukukçu Jan Christoph Bublitz ve nöroetikçi Marcello Ienca'nın geliştirdiği **bilişsel özgürlük** (cognitive liberty) fikri: Kişinin kendi zihinsel süreçleri üzerinde, dış müdahaleye ve gözetime karşı, kendi kaderini tayin hakkı. Bu, klasik düşünce özgürlüğünün — devletin düşünceyi cezalandıramaması — ötesine geçiyor; çünkü klasik hak, düşüncenin dışarıdan okunamayacağını varsayıyordu. Düşünce, tanımı gereği "iç kale"ydi (forum internum). Nöroteknoloji bu varsayımı ilk kez sarsıyor.
+
+Burada felsefenin katkısı iki yönlü. Birincisi, kavramsal: "Beyin verisi" ile "düşünce" aynı şey değildir; bugün sitemizde ele aldığımız BCI çalışması, makinenin niyetle ilişkili nörofizyolojik örüntüleri çözdüğünü, düşünceyi okumadığını gösteriyor. Hukukun bu farkı korumak zorunda; aksi hâlde ya paranoya ya kayıtsızlık üretir. İkincisi, normatif: Zihinsel mahremiyet mutlak bir hak mı, yoksa tıbbi fayda, kamu güvenliği ya da rıza ile dengelenebilir bir çıkar mı? Şili Yüksek Mahkemesi ilkine yakın bir cevap verdi; ABD eyalet yasaları ikincisine — nöral veri "hassas"tır ama rızayla işlenebilir.
+
+Bu tartışma, bu hafta sitemizde işlediğimiz [robot hakları](/haber/robot-haklari-makineler-hak-talep-ederse) ve [yapay zekâ gözetimi](/haber/metr-slop-vestigation-yapay-zekayi-yapay-zekayla-sorusturmak) dosyalarıyla aynı soruya bakıyor: Zihin ile makine arasındaki sınır inceldikçe, hakların özneleri ve nesneleri de yeniden tanımlanıyor. Bir farkla: Robot hakları henüz spekülatif; nöro-haklar ise mahkeme kararı, eyalet yasası ve uluslararası tavsiye olarak bugün var.
+
+## Türkiye için not
+
+Türkiye'de Kişisel Verilerin Korunması Kanunu, sağlık verisini "özel nitelikli" sayıyor; ancak nöral veriye ilişkin özel bir düzenleme yok. Tüketici EEG cihazlarının ve nörogeribildirim uygulamalarının yaygınlaşması, bu boşluğu önümüzdeki yıllarda görünür kılacak. Hukuk felsefesi açısından soru şu: Beyin verisi, sağlık verisinin bir alt türü mü, yoksa — Şili'nin dediği gibi — kendine özgü, kişiliğin çekirdeğine ait, ayrı bir kategori mi?
+
+---
+
+*Yasa metinleri ve yürürlük tarihleri ilgili eyalet ve kurumların resmî kaynaklarından teyit edilmelidir; bu haber, ikincil hukuki değerlendirmelere ve yayımlanmış akademik çalışmalara dayanmaktadır.*`,
+  },
+  {
+    title: "Miranda Fricker: Bilginin de Bir Adaleti Vardır",
+    slug: "miranda-fricker-bilginin-de-bir-adaleti-vardir",
+    summary:
+      "Felsefeyi \"kim haklı?\" sorusundan \"kimin sözüne neden inanıyoruz?\" sorusuna çevirdi. Epistemik adaletsizlik kavramının yaratıcısı, iki hafta sonra Columbia'da Dewey Konferansları'nı verecek: Suçlama ve özür talebi, ahlaki 'baskı' olmadan mümkün mü? Fricker'ın yirmi yıllık yolculuğu — bilgi etiğinden ahlaki failliğin biçimlendirilmesine.",
+    seoTitle: "Miranda Fricker: epistemik adaletsizlikten ahlaki baskılara",
+    metaDescription:
+      "Miranda Fricker portresi: tanıklık ve hermeneutik adaletsizlik, Epistemic Injustice (2007), algoritmik güvenilirlik ekonomisi, Bernard Williams ve 'kökenler', Columbia Dewey Konferansları (30 Eylül-2 Ekim 2026).",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Miranda%20Fricker%20(25560088112).jpg?width=1600",
+    imageCredit: "Miranda Fricker · Wikimedia Commons",
+    featured: true,
+    sourceName: "Columbia University Department of Philosophy",
+    sourceUrl: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+    publishedAt: "2026-09-15T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["epistemoloji", "etik", "toplumsal-cinsiyet", "yapay-zeka", "kavram"],
+    philosopherSlugs: ["miranda-fricker"],
+    sources: [
+      {
+        title: "2026 John Dewey Lectures — Miranda Fricker: Ethical Pressures: Shaping Wills and Bending Time in Moral Address",
+        publisher: "Columbia University Department of Philosophy",
+        url: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+        primary: true,
+      },
+      {
+        title: "Epistemic Injustice: Power and the Ethics of Knowing",
+        publisher: "Oxford University Press, 2007",
+        url: "https://doi.org/10.1093/acprof:oso/9780198237907.001.0001",
+      },
+      {
+        title: "Miranda Fricker — kişisel sayfa",
+        publisher: "mirandafricker.com",
+        url: "https://www.mirandafricker.com/",
+      },
+    ],
+    content: `Miranda Fricker'ın adı bugün tek bir kavramla neredeyse otomatik olarak yan yana geliyor: **epistemik adaletsizlik**. Kavram, 2007'de yayımlanan kitabından çıkıp hukuka, tıbba, eğitime, yapay zekâ etiğine ve gündelik dile yayıldı; "testimonial injustice" bugün mahkeme kararlarında geçiyor. Fakat Fricker'ı yalnızca "epistemik adaletsizlik kavramını ortaya atan feminist filozof" diye anlatmak, onun felsefesinin asıl radikal tarafını kaçırmak olur. Çünkü Fricker'ın asıl meselesi bilgi değildir. Daha derindeki soru şudur: **Bir insanın insan olarak değerinin parçası olan "bilen bir özne" olma kapasitesine ne olur — ve bu kapasite başkaları tarafından nasıl büyütülür ya da küçültülür?**
+
+Bu soru, onu bu ay New York'a getiriyor. Fricker, 30 Eylül-2 Ekim tarihlerinde Columbia Üniversitesi'nde 2026 John Dewey Konferansları'nı verecek; başlık, "Ahlaki Baskılar: Ahlaki Hitapta İradeleri Biçimlendirmek ve Zamanı Bükmek." Sitemizde bu yılın başında [Oxford Uehiro Konferansları'nı](/haber/miranda-fricker-uehiro-konferanslari-2026) ele almıştık; Dewey dizisi aynı programın devamı. Ama önce, oraya nasıl geldiğine bakmak gerekiyor.
+
+## Bir insanın sözüne neden daha az inanıyoruz?
+
+Fricker Oxford'da yetişti; Birkbeck ve Sheffield'da ders verdikten sonra CUNY Graduate Center'a, oradan New York Üniversitesi'ne geçti; bugün NYU'da felsefe profesörü ve New York Felsefe Enstitüsü'nün eş direktörü. *Epistemic Injustice: Power and the Ethics of Knowing* (2007), epistemolojiyi ahlaktan ayıran klasik sınırı ciddi biçimde sarstı: Bilgi edinme ve başkasına bilgi aktarma pratikleri, kitaba göre, aynı zamanda **ahlaki ilişkiler**dir.
+
+İlk temel kavram **tanıklık adaletsizliği** (testimonial injustice). Bir insan konuşur; dinleyen kişi, konuşanın ait olduğu toplumsal kimliğe ilişkin önyargıları nedeniyle onun güvenilirliğini sistematik olarak düşük değerlendirir. Fricker'ın örnekleri edebiyattan gelir: *Bülbülü Öldürmek*'te Tom Robinson'ın jüri tarafından dinlenmemesi; *Yetenekli Bay Ripley*'de Marge Sherwood'un "kadın sezgisi" diye küçümsenmesi. Buradaki haksızlık yalnızca kişinin yanlış anlaşılması değildir; kişi, **bilen bir özne olarak küçültülür**. Ve Fricker'a göre bu, insana özgü bir yaralama biçimidir: Aklın taşıyıcısı olarak insan olma kapasitesinin inkârı.
+
+Bu düşüncenin gücü, epistemolojiyi soyut bir "bilgi nedir?" probleminden çıkarıp gündelik hayatın içine yerleştirmesidir. Mahkeme salonu, hastane, üniversite, iş toplantısı, aile, medya — hepsinde aynı soru vardır: Kimin sözü güvenilir sayılıyor? Fricker buna "güvenilirlik ekonomisi" der: Güvenilirlik, toplumda eşitsiz dağıtılan bir kaynaktır.
+
+## İkinci adaletsizlik daha sessizdir
+
+Fricker'ın daha derin ve belki daha önemli kavramı **hermeneutik adaletsizlik**. Bazen insanın problemi konuşmasının engellenmesi değildir; insan, yaşadığı şeyi anlamlandıracak kavramlara sahip değildir — çünkü o kavramlar, onun gibi insanların katılamadığı bir kolektif anlam üretimi sürecinde henüz oluşturulmamıştır.
+
+Fricker'ın klasik örneği, "cinsel taciz" teriminin 1970'lerde ortaya çıkmasından önceki dönemdir: Bir kadın iş yerinde yaşadığı şeyi tarif edecek ortak kavramdan yoksundu; yaşadığını "flört", "şaka" ya da "kendi hatası" diye adlandırmak zorunda kalıyordu. Deneyim vardı; adı yoktu. Adaletsizlik bazen "senin söylediklerine inanmıyorum" biçiminde gerçekleşir; bazen daha önce gelir: "Senin yaşadığın şeyin adını koyacak kelimelerimiz yok."
+
+Bu fikir bugün yapay zekâ çağında daha da önemli. Çünkü algoritmalar da bir tür güvenilirlik ekonomisi yaratıyor. İşe başvururken, kredi değerlendirmesinde, sağlık kararında, sosyal medya platformunda, polislik uygulamasında insanların ifadeleri algoritmik sistemler tarafından sınıflandırıldığında şu soru yeniden ortaya çıkıyor: **Makinenin kimi güvenilir bulduğunu kim belirliyor?** Ve eğitim verisi belirli grupların deneyimlerini içermiyorsa, model o deneyimleri "anlamayacak" — Fricker'ın hermeneutik adaletsizliği, istatistiksel bir olguya dönüşecek. Bugün sitemizde ele aldığımız [beyin implantı dosyasında](/haber/beyin-implanti-ve-zihin-felsefesi-konusma-jest) bu kavramı tersinden kullandık: Konuşamayan bir insana ses veren teknoloji, epistemik bir protezdir.
+
+## Fricker artık yalnızca epistemik adaletsizlikle ilgilenmiyor
+
+Fricker'ın son on yılına bakıldığında önemli bir dönüşüm görülüyor. İlgisi, bilgi etiğinden **ahlaki failliğin biçimlendirilmesine** kaydı: Suçlama, özür, bağışlama ve ahlaki hitap. 2016'da yayımlanan "Suçlamanın Ne İşe Yaradığı" makalesi bu dönüşümün başlangıcıydı: Fricker, suçlamanın asıl işlevinin — cezalandırmak ya da kayıt tutmak değil — suçlayan ile suçlanan arasında **paylaşılan bir ahlaki bilinç** üretmek olduğunu savundu. Suçlama, geçmişteki bir yanlışı tespit ettiği kadar, geleceğe dönük bir davettir.
+
+Columbia'daki Dewey Konferansları bu çizgiyi bir adım öteye taşıyor. Konferansın özetine göre Fricker, suçlama ya da özür talebi gibi tanıdık ahlaki tepkilerin "kaçınılmaz ve gayet meşru biçimde" kişilerarası **baskı** uygulamayı içerdiğini savunacak. Ahlak felsefesindeki "safçı" alışkanlık, bu baskıları ideal olarak yalnızca ahlaki nedenlerin öne sürülmesi olarak hayal eder. Fricker'a göre böyle bir safçılığa yer yok — ideal durumda bile. Uyguladığımız baskılar "kesinlikle karışık"tır: Hem ahlaki nedenler hem de açıkça ahlaki olmayan, "havuç ve sopa" türünden nedenler işin içine girer. Haksızlığa uğrayan taraf, ahlaki hitap talep ettiğinde, "bir ahlaki dramanın etkin kahramanı"dır ve failin iradesini biçimlendirmeyi amaçlayan **proleptik** — geleceği önceden varsayan — bir toplumsal etki uygular.
+
+"Proleptik" burada anahtar sözcük ve Bernard Williams'tan geliyor. Williams, birini suçladığımızda çoğu zaman onu, henüz sahip olmadığı ama sahip olabileceği bir ahlaki duyarlılığa sahipmiş gibi ele aldığımızı söylemişti; suçlama, kişiyi olduğu gibi değil, olabileceği gibi muhatap alır. Fricker bunu "zamanı bükmek" diye adlandırıyor: Bugünkü ahlaki müdahale, henüz var olmayan daha iyi bir ahlaki özneye hitap eder. Fricker'ın kişisel sayfasına göre Williams'ın etikteki "kökenler" fikri üzerine yeni bir projesi de sürüyor; Dewey dizisi bu projenin bir parçası gibi görünüyor.
+
+## Neden önemli?
+
+Bu dönüşüm tesadüf değil; epistemik adaletsizlik kuramının doğal devamı. İlk kitapta soru "başkasının sözünü nasıl dinleriz?" idi; şimdi soru "başkasına nasıl hitap ederiz — ve hitabımız onu nasıl değiştirir?" Her iki durumda da Fricker, felsefenin geleneksel olarak "saf" saydığı bir alanı — bilgi, ahlaki neden — toplumsal güç ve kişilerarası baskı ile kirletilmiş olarak gösteriyor ve bu kirliliğin bir kusur değil, insan hayatının koşulu olduğunu söylüyor.
+
+Bu yüzden Fricker'ı yalnızca "feminist epistemolog" olarak görmek artık yetersiz. O, epistemoloji ile etik arasındaki sınırı sistematik biçimde kaldıran ve şimdi de etik ile toplumsal güç arasındaki sınırı sorgulayan filozoflardan biri. Sorusu değişmedi: **İnsanları yalnızca değerlendirmekle kalmayıp onların ahlaki özneleşmesine nasıl katkıda bulunabiliriz?** Dewey Konferansları'nın kaydını sitemizin [etkinlik takvimine](/etkinlik/fricker-dewey-konferanslari-columbia-2026) ekledik; dersler kayıtla açık.
+
+---
+
+*Miranda Fricker, New York Üniversitesi'nde felsefe profesörü ve New York Felsefe Enstitüsü eş direktörü. Başlıca eserleri: Epistemic Injustice: Power and the Ethics of Knowing (2007) · The Epistemic Life of Groups (ed., 2016) · The Routledge Handbook of Epistemic Injustice (ed., 2017) · "What's the Point of Blame?" (Noûs, 2016). Sitemizde Fricker'ın Uehiro Konferansları ayrıca haberleştirilmişti; bu portre o haberi tekrarlamaz, tamamlar.*`,
+  },
   {
     title: "Felsefe Tarihinde Bugün — 14 Eylül",
     slug: "felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana",
@@ -28014,6 +30113,70 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Opfer. Über Verwundbarkeit als Selbstbild",
+    slug: "lotter-opfer-verwundbarkeit-selbstbild",
+    originalTitle: "Opfer. Über Verwundbarkeit als Selbstbild",
+    publisher: "Carl Hanser Verlag",
+    translator: null,
+    language: "Almanca",
+    isbn: "9783446282278",
+    coverImage: null,
+    description:
+      "2026 Tractatus Ödülü'nü kazanan deneme. Bochumlu etik profesörü Maria-Sibylla Lotter, 'kurban' kavramının kamusal söylemdeki yükselişini üç düzeyde çözümlüyor: kurbanı dokunulmaz kılan otorite, sosyal medyanın hızlandırdığı öfke mantığı ve psikolojik durumların patolojikleştirilmesinden doğan terapi ahlakı. Travma ve şiddet gibi kavramların genişletilmesinin tartışmayı ve eylem alanını nasıl daralttığını, kurban gruplarının rekabetini ve demokratik tartışma kültürünün felcini betimliyor. 288 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.hanser-literaturverlage.de/buch/maria-sibylla-lotter-opfer-9783446287914-t-5991",
+    philosopherSlug: null,
+    postSlug: "tractatus-odulu-2026-maria-sibylla-lotter-opfer",
+  },
+  {
+    title: "Call It Evil: Understanding the Trump Era",
+    slug: "neiman-call-it-evil",
+    originalTitle: "Call It Evil: Understanding the Trump Era",
+    publisher: "W. W. Norton & Company",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781324131045",
+    coverImage: null,
+    description:
+      "Einstein Forum yöneticisi Susan Neiman, Modern Düşüncede Kötülük ve Ahlaki Netlik'te kurduğu programı güncel siyasete uyguluyor: 'Kötülük' sözcüğü geçmişin kalıntısı değil, demokrasiye yönelik tehditleri anlamak için hayati bir mercektir. Kitap Trump hakkında değil, onun galip gelmesine izin veren koşullar hakkında; bazı siyasi davranışları yalnızca 'popülizm' ya da 'stratejik hata' diye adlandırmanın ahlaki boyutu görünmez kıldığını savunuyor. 240 sayfa; ABD baskısı 15 Eylül 2026.",
+    year: 2026,
+    link: "https://wwnorton.com/books/9781324131045",
+    philosopherSlug: null,
+    postSlug: "2025-2026-one-cikan-felsefe-kitaplari-neiman-spiegel-ganeri",
+  },
+  {
+    title: "A Relational Theory of Justice",
+    slug: "metz-a-relational-theory-of-justice",
+    originalTitle: "A Relational Theory of Justice",
+    publisher: "Oxford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Pretoria Üniversitesi'nden Thaddeus Metz, normatif ekonomik, siyasal ve hukuki felsefenin insanların içsel özelliklerine (özerklik, kendine sahiplik, esenlik) değil ilişkisel özelliklerine — başkalarıyla topluluk kurma ve topluluğa alınma kapasitesine — dayandırılması gerektiğini savunuyor. Afrika felsefesindeki ubuntu geleneğinden beslenen kitap, komünal ilişkilere taraf olma kapasitesinin onuruna dayanan adalet kuramlarını dağıtıcı, telafi edici, cezai, geçiş dönemi ve küresel adalete uyguluyor; faydacılık, Rawlsçılık ve Lockeçu doğal haklar kuramıyla yarışacak bir 'komünal yönetişim' resmi çiziyor.",
+    year: 2026,
+    link: "https://philpapers.org/rec/METART",
+    philosopherSlug: null,
+    postSlug: "yapay-zeka-caginda-okunmasi-gereken-felsefe-kitaplari-rehber",
+  },
+  {
+    title: "Unbecoming Persons: The Rise and Demise of the Modern Moral Self",
+    slug: "mcwhorter-unbecoming-persons",
+    originalTitle: "Unbecoming Persons: The Rise and Demise of the Modern Moral Self",
+    publisher: "University of Chicago Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780226843582",
+    coverImage: null,
+    description:
+      "Ladelle McWhorter'ın 2026 NASSP Kitap Ödülü'nü kazanan çalışması, modern 'kişi' kavramının soykütüğünü çıkarıyor: Antik dünyadan Locke'a, Afrikalı kölelere kişiliğin dayatılmasından on dokuzuncu yüzyıl ABD'sindeki şirket kişiliğine. Tezi, kişilik fikrinin sömürgeciliği, köleliği ve çevre yıkımını sürdürmek için üretildiği; sorusu, hiç kişi olmamamız gerekip gerekmediği. Bireysellik yerine aidiyete, sürekli bağımlılığa, topluluğa ve Dünya'ya dayalı bir etik öneriyor. 282 sayfa, Kasım 2025.",
+    year: 2025,
+    link: "https://press.uchicago.edu/ucp/books/book/chicago/U/bo253760523.html",
+    philosopherSlug: null,
+    postSlug: "nassp-kitap-odulu-2026-mcwhorter-unbecoming-persons",
+  },
+  {
     title: "Heidegger on Technology's Danger and Promise in the Age of AI",
     slug: "thomson-heidegger-technology-age-of-ai",
     originalTitle: "Heidegger on Technology's Danger and Promise in the Age of AI",
@@ -28808,6 +30971,72 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "29. Philosophicum Lech — Betreutes Denken. Die neue Lust an der Unmündigkeit",
+    slug: "philosophicum-lech-2026",
+    summary:
+      "Almanca konuşulan dünyanın en tanınmış felsefe festivallerinden Philosophicum Lech, 22-27 Eylül 2026'da 'Vesayet altında düşünmek: ergin olmamanın yeni cazibesi' temasıyla toplanıyor. Precht, Safranski, Rostalski, Newmark, Butter, Nosthoff, Jaster, Frick, Reichenbach, Wiesböck; Tractatus töreni 25 Eylül 21.00.",
+    description: `**Tema:** Kant'ın *Unmündigkeit* (ergin olmama) kavramından hareketle, insanların kendi başına düşünmekten vazgeçmesinin ve bu vazgeçişin bir keyfe dönüşmesinin nedenleri: kimlik siyaseti, dezenformasyon, terapi kültürü, algoritmik yönetim ve yapay zekâ.
+
+**Program (9 Eylül 2026 itibarıyla):**
+- 22 Eylül: Philosophicum Dialoge — Claus Leggewie & Susanne Schröter; Stefan Gosepath & Anna Schneider.
+- 23 Eylül: Panel "Selber denken: Ein Konzept von gestern?" (Bahners, El-Nagashi, Funk, Kulke, Misik); Raphaela Edelbauer ile edebi-felsefi akşam.
+- 24 Eylül, 16.00: Açılış — Barbara Bleisch ve Konrad Paul Liessmann'ın tartışmalı söyleşisi.
+- 25 Eylül: Richard David Precht, Marie-Luisa Frick, Roland Reichenbach, Romy Jaster; 21.00 Tractatus ödül töreni (Maria-Sibylla Lotter; ücretsiz).
+- 26 Eylül: Frauke Rostalski, Catherine Newmark, Michael Butter, Laura Wiesböck; 21.00 Kandinsky Quartet konseri (ücretsiz).
+- 27 Eylül: Anna-Verena Nosthoff, Rüdiger Safranski; kapanış.
+
+Sempozyum katılımı kayıt ve ücret gerektirir; ayrıntılar philosophicum.com üzerinde.`,
+    kind: "SEMPOZYUM",
+    speakers: "Richard David Precht, Rüdiger Safranski, Frauke Rostalski, Catherine Newmark, Michael Butter, Anna-Verena Nosthoff, Romy Jaster, Marie-Luisa Frick, Roland Reichenbach, Laura Wiesböck, Barbara Bleisch, Konrad Paul Liessmann",
+    organizer: "Verein Philosophicum Lech",
+    topic: "Aydınlanma, erginlik, dezenformasyon, yapay zekâ, demokrasi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-22T13:00:00.000Z",
+    endsAt: "2026-09-27T11:00:00.000Z",
+    timezone: "Europe/Vienna",
+    hasTime: true,
+    city: "Lech am Arlberg",
+    country: "Avusturya",
+    venue: "Lechwelten",
+    registrationUrl: "https://www.philosophicum.com/symposium-2026/infos-und-anmeldung",
+    website: "https://www.philosophicum.com/symposium-2026/programm",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lech%20am%20Arlberg%202006.jpg?width=1600",
+    sourceName: "Philosophicum Lech",
+    sourceUrl: "https://www.philosophicum.com/symposium-2026/programm",
+    featured: true,
+    publishedAt: "2026-09-17T02:00:00.000Z",
+  },
+  {
+    title: "Miranda Fricker — 2026 John Dewey Konferansları: Ahlaki Baskılar",
+    slug: "fricker-dewey-konferanslari-columbia-2026",
+    summary:
+      "Columbia Üniversitesi Felsefe Bölümü'nün 2026 John Dewey Konferansları'nı Miranda Fricker (NYU) veriyor: 'Ethical Pressures: Shaping Wills and Bending Time in Moral Address.' Üç ders, 30 Eylül-2 Ekim, 16.10-18.00, Deutsches Haus. Kayıt gerekli.",
+    description: `**Ethical Pressures: Shaping Wills and Bending Time in Moral Address**
+
+Fricker'ın özetine göre dersler, suçlama ya da özür talebi gibi tanıdık ahlaki tepkilerin kaçınılmaz olarak ve gayet meşru biçimde kişilerarası baskı uygulamayı içerdiğini araştırıyor. Bunların başında, faili yaptığını kabul etmeye ve özür dilemeye zorlayan baskı geliyor. Ahlak felsefesindeki "safçı" alışkanlık, bu baskıları ideal olarak yalnızca ahlaki nedenlerin öne sürülmesi olarak hayal eder; Fricker böyle bir safçılığa ideal durumda bile yer olmadığını savunuyor. Uyguladığımız baskılar "karışık"tır: hem ahlaki nedenler hem de açıkça ahlaki olmayan ("havuç ve sopa") nedenler. Haksızlığa uğrayan taraf, ahlaki hitap talep ettiğinde bir ahlaki dramanın etkin kahramanıdır ve failin iradesini biçimlendirmeyi amaçlayan proleptik bir toplumsal etki uygular.
+
+**Program:** 1. Ders — 30 Eylül, 16.10-18.00 · 2. Ders — 1 Ekim, 16.10-18.00 · 3. Ders — 2 Ekim, 16.10-18.00. Deutsches Haus, Columbia Üniversitesi. Kayıt formu bölümün sayfasında.`,
+    kind: "DERS",
+    speakers: "Miranda Fricker",
+    organizer: "Columbia University Department of Philosophy",
+    topic: "Ahlak felsefesi: suçlama, özür, ahlaki hitap",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-30T20:10:00.000Z",
+    endsAt: "2026-10-02T22:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: true,
+    city: "New York",
+    country: "ABD",
+    venue: "Deutsches Haus, Columbia University",
+    registrationUrl: "https://forms.gle/woJ268L3FAZC8Cmd8",
+    website: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Columbia%20University%20(6337955975).jpg?width=1600",
+    sourceName: "Columbia University Department of Philosophy",
+    sourceUrl: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university",
+    featured: true,
+    publishedAt: "2026-09-15T01:10:00.000Z",
+  },
   {
     title: "Sıradan Dil Felsefesini Miras Almak — 14. Nordic Wittgenstein Society Konferansı",
     slug: "nordic-wittgenstein-society-vilnius-2026",
