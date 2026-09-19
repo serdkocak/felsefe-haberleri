@@ -260,6 +260,58 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Paulo Freire",
+    slug: "paulo-freire",
+    headline: "Brezilyalı eğitim filozofu (1921-1997) — Ezilenlerin Pedagojisi",
+    bio: "Eğitimin ya ehlileştirdiğini ya da özgürleştirdiğini savundu. 'Bankacı eğitim'e karşı diyaloğa dayalı 'problem tanımlayıcı' eğitimi, 'eleştirel bilinçlenme'yi (conscientização) ve okuma-yazmayı dünyayı okumakla birleştiren yöntemi geliştirdi. Ezilenlerin Pedagojisi (1968) yirminci yüzyılın en çok okunan eğitim metinlerinden.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo%20Freire%201977.jpg?width=600",
+    country: "Brezilya",
+    birthYear: 1921,
+    affiliation: "São Paulo Katolik Üniversitesi (PUC-SP); Dünya Kiliseler Konseyi (Cenevre)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Paulo Reglus Neves Freire",
+    birthDate: "19 Eylül 1921, Recife",
+    deathDate: "2 Mayıs 1997, São Paulo",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Eleştirel pedagoji · kurtuluş teolojisiyle diyalog · hümanist Marksizm",
+    areas: "Eğitim felsefesi, siyaset felsefesi, okuryazarlık, toplumsal hareketler",
+    majorWorks: "Özgürlük Pratiği Olarak Eğitim (1967)\nEzilenlerin Pedagojisi (1968/1970)\nKültürel Eylem ve Özgürlük (1970)\nSüreç İçinde Pedagoji: Gine-Bissau'ya Mektuplar (1977)\nUmudun Pedagojisi (1992)\nÖzerklik Pedagojisi (1996)",
+    keyConcepts: "Bankacı eğitim, problem tanımlayıcı eğitim, eleştirel bilinçlenme (conscientização), diyalog, praksis, üretici sözcükler, sessizlik kültürü, ezenin içselleştirilmesi, umut",
+    influencedBy: "Hegel, Marx, Frantz Fanon, Erich Fromm, Antonio Gramsci, Martin Buber, Jacques Maritain, kurtuluş teolojisi",
+    influenced: "Henry Giroux, bell hooks, Peter McLaren, Ira Shor, Augusto Boal (Ezilenlerin Tiyatrosu), dünya çapında yetişkin okuryazarlığı hareketleri",
+    longBio: "Recife'de orta sınıf bir ailede doğdu; 1929 buhranıyla gelen yoksulluk, çocukluğunda açlığı ve 'sessizlik kültürünü' tanımasına yol açtı. Hukuk okudu ama avukatlık yapmadı; Pernambuco'da işçi ve köylülerle yetişkin eğitimi çalıştı. 1963'te Angicos'ta üç yüz şeker kamışı işçisine kırk beş günde okuma-yazma öğreten deneyi ulusal program hâline getirildi; 1964 askerî darbesiyle tutuklandı, sürgüne gitti. Şili'de yazdığı Ezilenlerin Pedagojisi (Portekizce 1968, İngilizce 1970), eğitimi ezen-ezilen ilişkisinin yeniden üretildiği ya da kırıldığı yer olarak ele aldı: Öğretmenin bilgiyi pasif öğrenciye 'yatırdığı' bankacı model, ezilenin kendi durumunu doğal saymasını sürdürür; diyaloğa dayalı problem tanımlayıcı eğitim ise dünyayı değiştirilebilir bir sorun olarak görmeyi öğretir.\n\nHarvard'da ders verdi, 1970-1980 arasında Cenevre'de Dünya Kiliseler Konseyi'nde çalıştı ve Gine-Bissau, Tanzanya, Nikaragua gibi ülkelerin okuryazarlık programlarına danışmanlık yaptı. 1980'de Brezilya'ya döndü, İşçi Partisi'nin kurucuları arasında yer aldı ve 1989-1991'de São Paulo Belediyesi eğitim sekreteri oldu. Umudun Pedagojisi (1992) ile kendi eserini yeniden okudu ve eleştirilere, özellikle feminist ve postkolonyal eleştirilere yanıt verdi. 1997'de öldü. Ezilenlerin Pedagojisi bugün sosyal bilimlerde en çok atıf alan kitaplardan biri; Türkçede Ayrıntı Yayınları'ndan çıktı.",
+    sources: "Instituto Paulo Freire — https://www.paulofreire.org/biografia · Stanford Encyclopedia of Philosophy, 'Philosophy of Education' — https://plato.stanford.edu/entries/education-philosophy/ · Freire Institute — https://www.freire.org/paulo-freire",
+  },
+  {
+    name: "Gianni Vattimo",
+    slug: "gianni-vattimo",
+    headline: "İtalyan filozof (1936-2023) — 'zayıf düşünce'nin kurucusu",
+    bio: "Nietzsche ve Heidegger'den hareketle metafiziğin güçlü hakikat iddialarının çözülüşünü olumlu bir imkân olarak okudu: 'zayıf düşünce' (pensiero debole), hakikatin yorumdan başka bir şey olmadığı bir çağda şiddetten arınmış bir felsefe önerisiydi. Gadamer'in çevirmeni, Avrupa Parlamentosu üyesi, Torino'nun kamusal entelektüeli.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Gianni%20Vattimo%20-%20Participante%20del%20Foro%20Internacional%20por%20la%20Emancipaci%C3%B3n%20y%20la%20Igualdad%20(16106465993).jpg?width=600",
+    country: "İtalya",
+    birthYear: 1936,
+    affiliation: "Torino Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Gianteresio Vattimo",
+    birthDate: "4 Ocak 1936, Torino",
+    deathDate: "19 Eylül 2023, Rivoli (Torino)",
+    alive: false,
+    period: "20.-21. yüzyıl",
+    school: "Hermeneutik · postmodern felsefe · zayıf düşünce",
+    areas: "Hermeneutik, estetik, din felsefesi, siyaset felsefesi, Nietzsche ve Heidegger yorumu",
+    majorWorks: "Öznenin Serüvenleri (1974)\nZayıf Düşünce (P. A. Rovatti ile, 1983)\nModernliğin Sonu (1985)\nŞeffaf Toplum (1989)\nİnanmak İnandığımı (1996)\nYorumun Ötesinde (1994)\nHermeneutik Komünizm (S. Zabala ile, 2011)",
+    keyConcepts: "Zayıf düşünce, Verwindung (metafiziğin aşılması değil iyileşerek atlatılması), nihilizmin olumlanması, şeffaf toplum, kenosis (sekülerleşmenin Hıristiyan kökeni), hermeneutik komünizm",
+    influencedBy: "Friedrich Nietzsche, Martin Heidegger, Hans-Georg Gadamer, Luigi Pareyson, Karl Löwith, René Girard",
+    influenced: "Santiago Zabala, Pier Aldo Rovatti, İtalyan postmodernizmi, Richard Rorty ile diyalog, din felsefesinde 'zayıf teoloji'",
+    longBio: "Torino'da doğdu; Luigi Pareyson'un öğrencisi olarak Aristoteles estetiği üzerine tez yazdı, Heidelberg'de Löwith ve Gadamer'le çalıştı. Gadamer'in Hakikat ve Yöntem'ini İtalyancaya çevirdi (1972). 1964'ten itibaren Torino Üniversitesi'nde estetik ve teorik felsefe profesörü olarak ders verdi. 1983'te Pier Aldo Rovatti ile derlediği Il pensiero debole, İtalyan felsefesinde bir dönem açtı: Nietzsche'nin 'Tanrı öldü'sü ve Heidegger'in metafiziğin sonu tezi, kaybedilecek bir kesinlik değil, hakikat adına uygulanan şiddetten kurtuluş imkânıdır. Modernliğin Sonu (1985) ve Şeffaf Toplum (1989), kitle iletişim toplumunu tek bir merkezî gerçekliğin çözülüp çoğul yorumların yan yana geldiği bir alan olarak okudu; Vattimo bu çoğulluğu, daha sonra eleştirel biçimde yeniden ele alacağı bir özgürleşme umuduyla karşıladı.\n\n1990'larda Hıristiyanlığa 'zayıf' bir dönüş yaptı: İnanmak İnandığımı (1996), sekülerleşmeyi Tanrı'nın kendini alçaltması (kenosis) olarak Hıristiyanlığın kendi mantığının sonucu sayıyordu. Eşcinselliğini açıkça yaşayan ilk İtalyan kamusal entelektüellerinden biri olarak 1999-2004 ve 2009-2014 arasında Avrupa Parlamentosu üyeliği yaptı; Santiago Zabala ile yazdığı Hermeneutik Komünizm (2011) ile 'zayıf düşünce'yi siyasal sola bağladı. Son yıllarında sağlığı bozuldu; 19 Eylül 2023'te Torino yakınlarındaki Rivoli'de seksen yedi yaşında öldü. Türkçede Modernliğin Sonu, Şeffaf Toplum ve İnanmak İnandığımı çevrildi.",
+    sources: "Universitat Pompeu Fabra, Gianni Vattimo Arşivi — https://www.upf.edu/en/web/gianni-vattimo · Internet Encyclopedia of Philosophy — https://iep.utm.edu/vattimo/ · Treccani — https://www.treccani.it/enciclopedia/gianni-vattimo/",
+  },
+  {
     name: "Monroe C. Beardsley",
     slug: "monroe-beardsley",
     headline: "Amerikalı estetikçi (1915-1985) — 'niyet yanılgısı'nın kuramcısı",
@@ -2547,6 +2599,295 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "19 Eylül: Paulo Freire'den Étienne Gilson'a, Gianni Vattimo'dan John Skorupski'ye",
+    slug: "felsefe-tarihinde-bugun-19-eylul-freire-gilson-vattimo",
+    summary:
+      "Paulo Freire (1921), John Skorupski (1946), Udo Thiel (1954) ve Paul C. Taylor (1967) bugün doğdu; Étienne Gilson (1978) ve Gianni Vattimo (2023) bugün öldü. 19 Eylül 1796'da Washington'ın Veda Konuşması yayımlandı. Duke'ta 'Bilgi ve Toplum' konferansı bugün.",
+    seoTitle: "Felsefe tarihinde bugün, 19 Eylül: Freire, Gilson, Vattimo, Skorupski, Washington'ın Veda Konuşması",
+    metaDescription:
+      "19 Eylül'de felsefe tarihi: Paulo Freire'nin doğumu (1921), Étienne Gilson'un (1978) ve Gianni Vattimo'nun (2023) ölümü, John Skorupski, Udo Thiel ve Paul C. Taylor'ın doğum günleri, Washington'ın Veda Konuşması (1796).",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo%20Freire%201977.jpg?width=1600",
+    imageCredit: "Paulo Freire, 1977 · Fotoğraf: Slobodan Dimitrov, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Instituto Paulo Freire · Académie française · Universitat Pompeu Fabra",
+    sourceUrl: "https://www.paulofreire.org/biografia",
+    publishedAt: "2026-09-19T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ortacag-felsefesi", "postmodernizm", "etik", "siyaset-felsefesi", "akademi"],
+    philosopherSlugs: ["paulo-freire", "gianni-vattimo"],
+    sources: [
+      { title: "Biografia — Paulo Freire", publisher: "Instituto Paulo Freire", url: "https://www.paulofreire.org/biografia", primary: true },
+      { title: "Étienne Gilson", publisher: "Académie française", url: "https://www.academie-francaise.fr/les-immortels/etienne-gilson" },
+      { title: "Gianni Vattimo passed away at the age of 87", publisher: "Universitat Pompeu Fabra — Gianni Vattimo Archive", date: "Eylül 2023", url: "https://www.upf.edu/en/web/gianni-vattimo" },
+      { title: "John Skorupski", publisher: "University of St Andrews", url: "https://www.st-andrews.ac.uk/philosophy/people/jms2/" },
+      { title: "Washington's Farewell Address", publisher: "U.S. Senate", url: "https://www.senate.gov/artandhistory/history/minute/Washingtons_Farewell_Address.htm" },
+      { title: "Conference on Knowledge and Society", publisher: "Duke University Department of Philosophy", url: "https://philevents.org/event/show/149093" },
+    ],
+    content: `19 Eylül, felsefe takviminde özellikle eğitim felsefesi, etik, siyaset felsefesi, metafizik ve çağdaş düşünce açısından dikkat çekici isimleri bir araya getiriyor. Bugünün en önemli doğum yıldönümü Paulo Freire'ye, en önemli ölüm yıldönümleri Étienne Gilson ve Gianni Vattimo'ya ait. Ve 19 Eylül 1796'da yayımlanan bir metin, George Washington'ın Veda Konuşması, bir filozofun eseri olmasa da modern siyasal düşüncenin hizip, birlik ve kamusal erdem üzerine sürekli döneceği bir belge oldu.
+
+## 1921: Paulo Freire
+
+Paulo Reglus Neves Freire, 19 Eylül 1921'de Brezilya'nın kuzeydoğusundaki Recife'de doğdu. Yirminci yüzyılın en etkili eğitim düşünürü olan Freire'nin önemi yalnızca pedagojik yöntemlerinde değil, sorusundadır: Eğitim insanı özgürleştirir mi, yoksa mevcut iktidar ilişkilerini yeniden mi üretir? 1963'te Angicos'ta üç yüz şeker kamışı işçisine kırk beş günde okuma-yazma öğreten deneyi, 1964 darbesiyle kesildi; sürgünde, Şili'de yazdığı *Ezilenlerin Pedagojisi* (1968), öğretmenin bilgiyi pasif öğrenciye "yatırdığı" bankacı eğitim modeline karşı, dünyayı değiştirilebilir bir sorun olarak görmeyi öğreten diyalojik eğitimi ve "eleştirel bilinçlenme"yi (conscientização) önerdi.
+
+Freire'yi bugün özellikle önemli kılan nokta, yapay zekâ ve dijital eğitim çağında yeniden ortaya çıkıyor: Bilgiye erişimin artması gerçekten özgürleşme anlamına gelir mi? Bir öğrencinin istediği her bilgiye birkaç saniyede ulaşabilmesi, eleştirel düşünme kapasitesinin arttığı anlamına gelmez; tam tersine, algoritmanın neyi bilgi olarak öne çıkardığı yeni bir pedagojik iktidar yaratabilir. Freire'nin "bankacı eğitim" eleştirisi, sohbet robotunun hazır cevabına da uygulanabilir; onun yöntemi, cevabı değil soruyu öğretmekti. Bugünkü [Gündem yazımızda](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) tartıştığımız algoritmik görünürlük sorunu, Freire'nin "sessizlik kültürü" kavramının dijital biçimi olarak da okunabilir. Freire bugün [Filozof Dizini'ne](/filozof/paulo-freire) eklendi.
+
+## 1978: Étienne Gilson
+
+Étienne Gilson, 19 Eylül 1978'de Burgonya'daki Auxerre'de doksan dört yaşında öldü; Académie française'in ve École pratique des hautes études'ün kayıtları bu tarihi doğruluyor. 13 Haziran 1884'te Paris'te doğmuştu. Doktora tezi Descartes'ın skolastik kaynakları üzerineydi ve Gilson'un bütün kariyerini belirleyen tezi buradan çıktı: Modern felsefe, ortaçağın reddi değil, ortaçağın devamıdır; Descartes'ın "açık ve seçik fikirleri" Aquinas'ın ve Suárez'in kavramlarıyla düşünülmüştür. Sorbonne'da ve Collège de France'ta ders verdi; 1929'da Toronto'da Pontifical Institute of Mediaeval Studies'i kurdu ve hayatının önemli bir bölümünü Paris ile Toronto arasında geçirdi. 1946'da Académie française'e seçildi.
+
+Gilson'un felsefe tarihindeki asıl önemi, ortaçağ düşüncesini modern felsefenin "öncesi" olarak değil, kendi başına ciddi bir felsefi dünya olarak yeniden değerlendirmesiydi. *Ortaçağda Hıristiyan Felsefesinin Ruhu* (1932) "Hıristiyan felsefesi" kavramını savunarak büyük bir tartışma başlattı; *Varlık ve Öz* (1948) ise Aquinas'ın varlık (esse) ile öz (essentia) ayrımını, Tanrı'nın özünün varoluşunun kendisi olduğu tezini, ortaçağ metafiziğinin en özgün katkısı olarak öne çıkardı ve çağdaş "Tomist varoluşçuluğun" kaynağı oldu. Gilson'un hikâyesi, felsefe tarihinin "Antik Çağ, Ortaçağ, Modernite, Çağdaşlık" biçimindeki basit bir ilerleme olmadığını hatırlatır.
+
+## 2023: Gianni Vattimo
+
+Gianni Vattimo, 19 Eylül 2023'te Torino yakınlarındaki Rivoli'de seksen yedi yaşında öldü; Pompeu Fabra Üniversitesi'ndeki Vattimo Arşivi ölümünü bu yaşta kaydediyor. Torino'da Luigi Pareyson'un öğrencisi olan, Gadamer'in *Hakikat ve Yöntem*'ini İtalyancaya çeviren Vattimo, 1983'te Pier Aldo Rovatti ile birlikte "zayıf düşünce" (pensiero debole) kavramını ortaya attı: Nietzsche'nin "Tanrı öldü"sü ve Heidegger'in metafiziğin sonu tezi, kaybedilecek bir kesinlik değil, hakikat adına uygulanan şiddetten kurtuluş imkânıydı. *Modernliğin Sonu* (1985) ve *Şeffaf Toplum* (1989), kitle iletişim toplumunu tek bir merkezî gerçekliğin çözülüp çoğul yorumların yan yana geldiği bir alan olarak okudu.
+
+Bu yaklaşım bugün sosyal medya çağında başka bir biçimde karşımıza çıkıyor. Dijital dünyada artık tek bir anlatı yok, milyonlarca anlatı var; ama Vattimo'nun kendisi de son yıllarında kabul etti ki bu çoğulluk otomatik olarak özgürlük anlamına gelmiyor. Hakikatin çoğalması ile hakikatin parçalanması aynı şey değildir; "şeffaf toplum" umudu, algoritmik olarak düzenlenmiş bir opaklığa dönüşebilir. Vattimo'nun düşüncesi tam da bu ayrımı yeniden düşünmek için güçlü bir başlangıç noktası. Vattimo da bugün [Filozof Dizini'ne](/filozof/gianni-vattimo) eklendi; Gadamer'i ele aldığımız [dosya](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir) ile birlikte okunabilir.
+
+## Doğum günleri: Skorupski, Thiel, Taylor
+
+**John Skorupski** (d. 19 Eylül 1946), St Andrews Üniversitesi'nde emeritus profesör olan Britanyalı filozof; epistemoloji, etik, siyaset felsefesi ve on dokuzuncu-yirminci yüzyıl felsefe tarihi üzerine çalışıyor. *John Stuart Mill* (1989) monografisi Mill çalışmalarının başvuru kaynağı; *The Domain of Reasons* (2010) ise normatif nedenlerin epistemik, pratik ve değerlendirici türlerini birleştiren kapsamlı bir kuram. Seksen yaşında. Skorupski'nin sorusu bugün yapay zekâ tartışmasının merkezinde: Bir makine bize ne yapmamız gerektiğini söylediğinde, önerisi bir "neden" midir, yoksa yalnızca bir tahmin mi?
+
+**Udo Thiel** (d. 19 Eylül 1954), Graz Üniversitesi'nde felsefe tarihi profesörlüğü yapan Alman filozof; erken modern felsefede kişisel özdeşlik ve öz-bilinç sorunu üzerine *The Early Modern Subject* (2011) kitabı ve Locke çalışmalarıyla tanınıyor.
+
+**Paul C. Taylor** (d. 19 Eylül 1967), UCLA'da çalışan Amerikalı filozof; ırk kuramı, estetik, pragmatizm ve Africana felsefesi alanlarında yazıyor. *Black Is Beautiful: A Philosophy of Black Aesthetics* (2016), siyah estetiğini yalnızca sanat tarihi değil, siyaset, kimlik ve toplumsal deneyim açısından ele aldı ve Amerikan Estetik Derneği'nin kitap ödülünü kazandı. Taylor'ın sorusu, dünkü [sanat ve yapay zekâ](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) tartışmamızla birleşiyor: Estetik yalnızca "güzel nedir" değil, "kimin güzelliği görünür kabul edilir" sorusudur; ve bu soru, görünürlüğü algoritmaların dağıttığı bir çağda daha da önemli.
+
+## 1796: Washington'ın Veda Konuşması
+
+George Washington'ın üçüncü kez aday olmayacağını duyuran Veda Konuşması, 19 Eylül 1796'da Philadelphia'da *American Daily Advertiser*'da yayımlandı; hiç sesli okunmadı, bir mektup olarak basıldı. Hamilton'ın kaleminin izlerini taşıyan metin, yurttaşları ulusal birliğe çağırıyor, "hizip ruhunun" cumhuriyetin en tehlikeli düşmanı olduğunu söylüyor ve dış politikada kalıcı ittifaklardan kaçınmayı öğütlüyordu. Metin bir felsefe eseri değildir; ama Madison'ın *Federalist* 10'daki hizip analiziyle birlikte, modern cumhuriyetçiliğin kamusal erdem ve çoğulculuk arasındaki gerilim üzerine düşündüğü temel belgelerdendir.
+
+İki yüz otuz yıl sonra "hizip" meselesi sosyal medya çağında yeniden karşımızda; ama artık hiziplerin fiziksel örgütlenmeye ihtiyacı yok. Bir hashtag, bir viral video ya da bir algoritmik öneri yeterli. Washington'ın uyarısı bugün yeni bir soruyla okunabilir: Demokratik toplumlar, kendi iletişim teknolojileri tarafından sürekli küçük dijital hiziplere ayrıldığında ortak bir kamusal dünya nasıl korunur?
+
+## Bugün: Duke'ta "Bilgi ve Toplum"
+
+Duke Üniversitesi Felsefe Bölümü bugün "Knowledge and Society" başlıklı bir konferans düzenliyor; program, bilgi, toplum ve felsefe tarihini bir araya getiriyor. Bugünkü ana yazımız açısından sembolik bir denklik: Sosyal medya çağının temel sorusu, toplumun bilgiye nasıl ulaştığı ve daha önemlisi, bilgi sandığı şeyi kimden öğrendiğidir.
+
+## 19 Eylül'ün felsefi bilançosu
+
+Dört düşünce çizgisi aynı tarihte kesişiyor. Freire: Bilgi insanı özgürleştiren bir güç olabilir, ama eğitim iktidar ilişkilerini de yeniden üretebilir. Gilson: Geçmişin felsefesini anlamadan bugünün felsefesini anlayamayız. Vattimo: Tek ve mutlak hakikat iddialarına karşı çoğul yorumların dünyasını düşünmek gerekir, ama çoğulluk özgürlük demek değildir. Skorupski: İnsan eyleminin altında normatif nedenler ve sorumluluk vardır. Ve 19 Eylül 2026'da bütün bu çizgiler sosyal medya çağında yeniden buluşuyor: Bilgiyi kim veriyor, hangi bilgi görünür oluyor, kim konuşabiliyor, kim susturuluyor, insan gerçekten kendi kararını mı veriyor yoksa kendisine sunulan seçenekler arasından mı seçiyor? Ve belki en büyük soru: Bir toplum kendi arzularını algoritmalar aracılığıyla görmeye başladığında, gördüğü şey gerçekten toplumun kendisi midir, yoksa toplumun algoritmik olarak düzenlenmiş bir yansıması mı?`,
+  },
+  {
+    title: "Brüksel 'tavşan deliğini' kapatıyor: AB'nin KIDS Act'i 13 yaş altına sosyal medyayı yasaklıyor, öneri algoritmalarını hedef alıyor",
+    slug: "ab-kids-act-13-yas-alti-sosyal-medya-yasagi-algoritma",
+    summary:
+      "Avrupa Komisyonu'nun 17 Eylül'de açıkladığı KIDS Act, 13 yaş altına sosyal medyayı, 15 yaş altına kişisel hesabı yasaklıyor; sonsuz kaydırmayı, gece bildirimlerini ve çocukları 'zararlı içerik tavşan deliklerine' sürükleyen öneri algoritmalarını hedef alıyor; yapay zekâ sohbet arkadaşlarına duygusal bağımlılık yasağı getiriyor. Von der Leyen: 'Kuralları biz koyarız, büyük teknoloji değil.'",
+    seoTitle: "AB KIDS Act: 13 yaş altına sosyal medya yasağı, algoritma ve sohbet robotu kısıtlamaları (Eylül 2026)",
+    metaDescription:
+      "Avrupa Komisyonu'nun KIDS Act önerisi (17 Eylül 2026): 13 yaş altına sosyal medya yasağı, 13-15 yaş için ebeveyn denetimli hesaplar, öneri algoritmaları ve sonsuz kaydırma yasağı, yapay zekâ sohbet robotu kısıtlamaları, yüzde 6 ciro cezası; felsefi arka plan.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bruxelles%20-%20Commission%20Europ%C3%A9enne%20Berlaymont%20(23191436909).jpg?width=1600",
+    imageCredit: "Avrupa Komisyonu'nun Berlaymont binası, Brüksel · Fotoğraf: Fred Romero, CC BY 2.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "European Commission · Financial Times · Reuters",
+    sourceUrl: "https://commission.europa.eu/news-and-media/news/eu-kids-act-helping-children-navigate-safer-online-world-2026-09-17_en",
+    publishedAt: "2026-09-19T01:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["medya", "etik", "yapay-zeka", "demokrasi", "hukuk-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "EU KIDS Act: helping children navigate a safer online world", publisher: "European Commission", date: "17 Eylül 2026", url: "https://commission.europa.eu/news-and-media/news/eu-kids-act-helping-children-navigate-safer-online-world-2026-09-17_en", primary: true },
+      { title: "EU's Kids Act to Ban Social Media for Under-13s, Curb Chatbot Access", publisher: "MacRumors (FT aktarımı)", date: "16 Eylül 2026", url: "https://www.macrumors.com/2026/09/16/eu-kids-act-ban-social-media-under-13s/" },
+      { title: "Brussels unveils plans for EU-wide social media ban for kids under 13", publisher: "UPI", date: "17 Eylül 2026", url: "https://www.upi.com/Top_News/World-News/2026/09/17/EU-inveils-new-child-online-safety-law/9671789633313" },
+      { title: "Factbox: What is in the EU's planned KIDS Act?", publisher: "Reuters (WHBL aktarımı)", date: "17 Eylül 2026", url: "https://whbl.com/2026/09/17/factbox-what-is-in-the-eus-planned-kids-act/" },
+      { title: "Meta's $18bn settlement: How social platforms will change for child users", publisher: "Al Jazeera", date: "27 Ağustos 2026", url: "https://www.aljazeera.com/features/2026/8/27/metas-18bn-settlement-how-social-platforms-will-change-for-child-users" },
+    ],
+    content: `Avrupa Komisyonu Başkanı Ursula von der Leyen, 16 Eylül'de yaptığı konuşmada cümleyi bir slogan gibi kurdu: "On üç yaş altına sosyal medya yok. On beş yaş altına kişisel hesap yok. Avrupa'nın harekete geçme gücü var. Kuralları biz koyarız, büyük teknoloji değil." Ertesi gün Komisyon, aylardır beklenen KIDS Act önerisini açıkladı. Financial Times'ın gördüğü taslağa ve Komisyon'un 17 Eylül tarihli duyurusuna göre öneri, Avrupa Birliği tarihinde çocukların dijital hayatına yönelik en kapsamlı düzenleme.
+
+## Ne getiriyor?
+
+Reuters'ın özetine göre yasa üç yaş katmanı kuruyor. On üç yaş altındaki çocuklar sosyal medya hizmetlerine erişemeyecek; on üç ile on beş yaş arasındakiler, bir ebeveyn ya da velinin yönettiği, sınırlı özelliklere ve günde bir saatlik kullanım sınırına sahip "mini hesaplar" kullanabilecek; ancak on beş yaşından itibaren kendi hesaplarını açabilecekler. Düzenleme yalnızca sosyal medyayı değil, video paylaşım platformlarını, çevrimiçi oyunları ve yapay zekâ "arkadaşları" ile sohbet robotlarını da kapsıyor.
+
+En dikkat çekici hükümler tasarımla ilgili. Platformlar, çocukları "zararlı içerik tavşan deliklerine" sürükleyen öneri algoritmaları dâhil bağımlılık yapıcı özellikleri kaldırmak zorunda kalacak; sonsuz kaydırma, gece bildirimleri ve yabancılardan gelen istenmeyen temas engellenecek. Yapay zekâ sohbet robotları çocuklar için varsayılan olarak kapalı olacak ve duygusal bağımlılık yaratmalarına izin verilmeyecek; şirketler, sağlıksız duygusal bağlanmayı teşvik eden tasarımlardan kaçınmak zorunda. Platformlar yeni hesap açılışında yaş doğrulaması yapacak, mevcut kullanıcılar için "makul vekiller" (örneğin kredi kartı bilgisi) kullanarak yaş tahmini yapacak; yaş doğrulama araçlarının kimlik belgesi ya da biyometrik veri saklamaması gerekecek, bunun için AB'nin yeni yaş doğrulama uygulaması kullanılacak. Uyumsuzluk hâlinde ceza, küresel yıllık cironun yüzde altısına kadar çıkabiliyor.
+
+Öneri, Avrupa Parlamentosu ve Konsey'in onayından geçmek zorunda; sektörün ve dijital haklar örgütlerinin itirazları şimdiden başladı. Yaş doğrulamanın herkesi kimlik göstermeye zorlayarak yetişkinlerin mahremiyetini de ortadan kaldıracağı, çocukların yasakları kolayca aşacağı ve Avustralya'nın 2025 sonunda yürürlüğe giren on altı yaş altı yasağının karışık sonuçlar verdiği ileri sürülüyor.
+
+## Bağlam: Meta anlaşması ve New York yasası
+
+KIDS Act boşlukta doğmadı. Ağustos ayında Meta, çocuklara yönelik bağımlılık yapıcı tasarım iddialarıyla açılan davaları 18 milyar dolarlık bir uzlaşmayla kapattı; Al Jazeera'nın aktardığına göre anlaşma, on sekiz yaş altı kullanıcılar için günde iki saatlik kullanım sınırı, gece yarısından sabah altıya sokağa çıkma yasağı, çocuk hesaplarında beğeni ve tepkilerin gizlenmesi, "kozmetik filtrelerin" varsayılan olarak yasaklanması ve okul saatlerinde bildirimlerin kapatılmasını içeriyor. New York'un SAFE for Kids yasası ise on sekiz yaş altı için algoritmik kişiselleştirilmiş akışları ebeveyn onayına bağlıyor ve Ocak 2027'de yürürlüğe giriyor. Brüksel, bu dalganın en geniş kapsamlı halkasını oluşturuyor.
+
+## Felsefi arka plan: Bilinçdışının oluşum çağında algoritma
+
+Bu düzenlemelerin ortak özelliği, içeriği değil tasarımı hedeflemeleri. Yasa koyucu, çocukların ne gördüğünden çok, görme biçimini düzenlemeye çalışıyor: sonsuz kaydırma, öneri motoru, bildirim ritmi. Bu, bugünkü [Gündem yazımızın](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) tezine hukuki bir karşılık: Algoritma bir içerik kanalı değil, dikkat ve arzunun oluşumuna müdahale eden bir kültürel aracı olarak görülüyor. "Tavşan deliği" metaforu, yasa metnine girdiğinde, Deleuze'ün "denetim toplumu" ve Stiegler'in "dikkat ekonomisi" kavramları siyasal dile tercüme edilmiş oluyor. Yapay zekâ sohbet robotlarına "duygusal bağımlılık yaratmama" yükümlülüğü getirilmesi ise daha yeni bir felsefi sorunu, makinelerle kurulan ilişkinin ahlaki statüsünü, ilk kez pozitif hukuka sokuyor.
+
+Karşı argüman da felsefidir: Mill'in zarar ilkesi çocuklar için geçerli değildir, ama yaş doğrulama herkesi kapsar; çocuğu korumak için yetişkinin anonimliğini kaldırmak, Foucault'nun "güvenlik" adına genişleyen gözetim mekanizmalarına verdiği örneğin ders kitabı vakası olabilir. Von der Leyen'in "kuralları biz koyarız" cümlesi, egemenliğin platformlardan devlete geri alınması iddiasıdır; ama Han'ın hatırlattığı gibi, dijital gözetim çağında egemenin kim olduğu, gözetleme kapasitesinin kimde olduğuyla belirlenir. Sitemizde daha önce [beyin verisi ve nöro-haklar](/haber/beyin-verisi-kimin-noro-haklar-sili-connecticut) tartışmasında gördüğümüz düzenleyici refleks, şimdi dikkat verisine uzanıyor.
+
+Yasama sürecini izleyeceğiz.`,
+  },
+  {
+    title: "Toplumun Kitlesel Bilinçdışı Olarak Sosyal Medya",
+    slug: "toplumun-kitlesel-bilincdisi-olarak-sosyal-medya",
+    summary:
+      "Jung'dan Freud'a, Lacan'dan Debord'a: İnsanlık ilk kez kendi bastırılmış arzularını gerçek zamanlı olarak seyrediyor olabilir mi? Beğeniler, kaydırmalar ve sessizlikler milyarlarca küçük 'rüya' olarak birikirken, algoritma bir ayna mı, bir yükselteç mi, yoksa yeni bir kültürel rahip sınıfı mı? Tarde'dan Castoriadis'e, Gerbaudo'nun 'reaktif demokrasi'sinden Deleuze'ün denetim toplumlarına uzanan bir soruşturma.",
+    seoTitle: "Sosyal medya toplumun kolektif bilinçdışı mı? Jung, Freud, Lacan, Debord ve algoritma",
+    metaDescription:
+      "Sosyal medya toplumun kitlesel bilinçdışının görünür olduğu yüzey mi? Jung'un kolektif bilinçdışı, Freud'un semptomu, Lacan'ın aynası, Tarde'ın kamusu, Durkheim'ın kolektif temsilleri, Castoriadis'in imgelemi, Debord, Baudrillard, Foucault, Deleuze, Han, Zuboff ve Gerbaudo'nun reaktif demokrasisi ışığında bir çözümleme.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/People%20engaging%20with%20their%20phones%20on%20the%20Seoul%20Metro%20-%205166351572%204e33242d3e%20o.jpg?width=1600",
+    imageCredit: "Seul metrosunda telefonlarına bakan yolcular · Fotoğraf: Marc Smith, CC BY 2.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Democratic Theory · Jung Journal · Perspectives on Politics",
+    sourceUrl: "https://www.cambridge.org/core/journals/democratic-theory/article/theorizing-reactive-democracy/A917C57C80E2157F25F38949F706A3A0",
+    publishedAt: "2026-09-19T01:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["medya", "psikanaliz", "yapay-zeka", "demokrasi", "siyaset-felsefesi", "elestirel-teori", "kavram", "teknoloji-felsefesi"],
+    philosopherSlugs: ["jurgen-habermas", "byung-chul-han", "jacques-ranciere"],
+    sources: [
+      {
+        title: "Theorizing Reactive Democracy: The Social Media Public Sphere, Online Crowds and the Plebiscitary Logic of Online Reactions",
+        publisher: "Democratic Theory 9(2) — Paolo Gerbaudo",
+        date: "Aralık 2022",
+        url: "https://www.cambridge.org/core/journals/democratic-theory/article/theorizing-reactive-democracy/A917C57C80E2157F25F38949F706A3A0",
+        primary: true,
+      },
+      {
+        title: "Social Media and the Collective Unconscious: Archetypal Algorithms and the Colonization of the Psyche",
+        publisher: "Jung Journal 16(3) — Jane Clapp",
+        date: "2022",
+        url: "https://www.tandfonline.com/doi/abs/10.1080/19342039.2022.2088995",
+      },
+      {
+        title: "The Autonomy Paradox: Artificial Intelligence and the Foundations of Political Behavior",
+        publisher: "Perspectives on Politics",
+        date: "3 Ağustos 2026",
+        url: "https://www.cambridge.org/core/journals/perspectives-on-politics/article/autonomy-paradox-artificial-intelligence-and-the-foundations-of-political-behavior/29B69824C5D7D355588308D2F8FF702C",
+      },
+      {
+        title: "What is Social Media's Place in Democracy?",
+        publisher: "The Review of Politics 87",
+        date: "2025",
+        url: "https://www.cambridge.org/core/journals/review-of-politics/article/what-is-social-medias-place-in-democracy/FDF002489288AE3C2F2C0826FE9773C7",
+      },
+      {
+        title: "Algorithmic unconscious: why psychoanalysis helps in understanding AI",
+        publisher: "Humanities and Social Sciences Communications — Luca M. Possati",
+        date: "2020",
+        url: "https://www.nature.com/articles/s41599-020-0445-0",
+      },
+      {
+        title: "EU KIDS Act: helping children navigate a safer online world",
+        publisher: "European Commission",
+        date: "17 Eylül 2026",
+        url: "https://commission.europa.eu/news-and-media/news/eu-kids-act-helping-children-navigate-safer-online-world-2026-09-17_en",
+      },
+    ],
+    content: `İnsanlık tarihinin en büyük psikolojik laboratuvarı belki de artık bir klinik değil. Bir şehir değil. Bir savaş alanı değil. Bir üniversite kampüsü hiç değil. Telefonlarımız.
+
+Her gün milyarlarca insan neye güldüğünü, neden öfkelendiğini, kimden nefret ettiğini, neyi arzuladığını, neyi kıskandığını, hangi görüntüye tekrar tekrar baktığını, hangi yalanı paylaşmaya hazır olduğunu, hangi felakete birkaç saniyeliğine üzülüp sonra unuttuğunu ve hangi insanları görünür kılmak istediğini dijital platformlara bırakıyor. Eskiden insanlığın kolektif ruhunu anlamak için mitlere, dinlere, romanlara, masallara, rüyalara, savaşlara, devrimlere ve sanat eserlerine bakıyorduk. Bugün bunların yanına devasa bir arşiv daha eklendi: sosyal medya. Üstelik bu arşiv yalnızca insanların söylediklerini değil, neye tepki verdiklerini de kaydediyor. Beğeniler, paylaşımlar, yorumlar, izleme süreleri, kaydırmalar, duraklamalar, takipler, aramalar, sessizlikler. Bir içeriği paylaşmamak bile platform açısından bir davranış verisidir. Bu nedenle sosyal medya yalnızca toplumun konuştuğu yer değil; toplumun neye karşı koyamadığını da gösteren bir makinedir.
+
+Buradan son derece iddialı bir felsefi hipotez çıkıyor: Sosyal medya, modern toplumların kitlesel bilinçdışının görünür hâle geldiği ilk büyük teknolojik yüzey olabilir. Bu cümleyi doğru anlamak gerekiyor. Buradaki "bilinçdışı", Jung'un ya da Freud'un kuramının bilimsel olarak kanıtlandığı anlamına gelmiyor. Sorduğumuz soru şu: İnsanların bireysel olarak söylemek istemedikleri ya da farkında olmadıkları arzular, korkular, önyargılar ve fanteziler, milyarlarca küçük dijital davranışın toplamında görünür hâle geliyor olabilir mi? Ve bu hafta Brüksel'in çocukları "tavşan deliklerinden" korumak için açıkladığı KIDS Act'in gösterdiği gibi, siyaset bu soruya kuramdan önce cevap vermeye başladı; o gelişmeyi bugünkü [Dünya sayfamızda](/haber/ab-kids-act-13-yas-alti-sosyal-medya-yasagi-algoritma) ele alıyoruz. Burada soruyu felsefe tarihinin içinden geçirerek sormak istiyoruz.
+
+## Jung: Bilinçdışı yalnızca kişisel değildir
+
+Carl Gustav Jung'un en tartışmalı ve en etkili kavramı, kolektif bilinçdışıydı. Freud'un kişisel bilinçdışı anlayışından farklı olarak Jung, insan psişesinin bireysel deneyime indirgenemeyecek daha derin bir katmanı olduğunu ileri sürdü; bu katmanın temel yapılarını arketipler oluşturuyordu: kahraman, anne, gölge, bilge yaşlı, yeniden doğuş, canavar, kurban, kurtarıcı. Jung için bunlar kültürel klişeler değil, insan psikolojisinin derin yapılarında yeniden ve yeniden ortaya çıkan biçimlerdi; *Arketipler ve Kolektif Bilinçdışı* başlığı altında toplanan yazıları bu ilişkiyi ayrıntılı biçimde kurar.
+
+Şimdi sosyal medyaya bakalım. TikTok'taki kahraman figürleri, Instagram'daki ideal beden, X'teki düşman figürü, YouTube'daki "başarı hikâyesi", komplo teorilerindeki gizli düşman, siyasal propagandadaki kurtarıcı lider, popüler kültürdeki "kurban", influencer kültüründeki "mükemmel hayat". Bütün bunlar yalnızca içerik midir, yoksa çok eski psikolojik kalıpların dijital biçimleri mi? Eğer ikinci ihtimal doğruysa, sosyal medya yeni arzular icat etmiyor; eski arzulara yeni bir dolaşım sistemi sağlıyor.
+
+Burada felsefi bir dikkat gerekiyor. Jung'un kolektif bilinçdışı, modern sosyolojideki "toplumsal bilinç", "kolektif temsil" ya da "toplumsal imgelem" kavramlarıyla aynı şey değildir; Jung'unki biyolojik olarak kalıtılmış, tarih-ötesi bir yapıdır. Dolayısıyla "sosyal medya Jung'un kolektif bilinçdışını kanıtladı" demek savunulabilir bir cümle değildir. Daha ilginç olan, Jung'un kuramını bir metafor ve felsefi model olarak yeniden kullanmaktır: Sosyal medya, toplumların bilinçdışı eğilimlerinin görünür olduğu bir dijital rüya alanına dönüşür. Jungcu analist Jane Clapp'in 2022'de *Jung Journal*'da yayımladığı "Social Media and the Collective Unconscious: Archetypal Algorithms and the Colonization of the Psyche" başlıklı makalesi tam bu noktada duruyor: Clapp, geç kapitalizmin açgözlülüğünün algoritmalara dokunduğunu ve bu algoritmaların bilinçdışına "sızarak" psişeyi kolonize ettiğini, bunun bir analizanın sembolik bir hayat geliştirme ve bireyleşme için gerekli ego gücünü kazanma kapasitesini etkilediğini ileri sürüyor. Bu, "Jung haklı çıktı" demek değildir; Jung'un sorularının dijital çağda yeniden anlam kazandığını gösterir.
+
+## Freud: Semptom sayılabilir hâle geldiğinde
+
+Sigmund Freud'un dünyasında bilinçdışı kendisini doğrudan göstermiyordu; rüyalarda, dil sürçmelerinde, şakalarda, semptomlarda, tekrar eden davranışlarda, bastırılmış arzuların dolaylı biçimlerinde ortaya çıkıyordu. Sosyal medya garip bir şey yaptı: Bilinçdışının semptomlarını sayılabilir hâle getirdi. Freud'un hastası bir rüyasını anlatıyordu; bugünün insanı algoritmaya binlerce küçük "rüya" bırakıyor. Bir video, bir yorum, bir beğeni, bir arama, bir öfke patlaması, gece yarısı yapılan bir takip, bir saat boyunca bakılan ama hiç beğenilmeyen bir profil. Freud'un klinik odasında tek tek yorumlamaya çalıştığı davranışların yerini, milyarlarca veri noktasını eşzamanlı analiz eden algoritmalar aldı.
+
+Fakat burada çok büyük bir fark var: Freud semptomu anlamaya çalışıyordu; platform semptomdan para kazanıyor. Ve Freud'un kendisi de bu tartışmanın içinde: 1921 tarihli *Kitle Psikolojisi ve Ben Analizi*, Le Bon'un kalabalık kuramını psikanalize tercüme etmişti. Freud'a göre kitle, üyelerinin aynı nesneyi (lideri, ideali) ben-idealinin yerine koyup bu ortak özdeşleşme üzerinden birbirleriyle özdeşleştiği bir yapıdır; kitlede birey eleştirel yetisini yitirir, çünkü ben-ideali dışarıya devredilmiştir. Sosyal medyanın "takip" mekanizması, Freud'un betimlediği bu yapının teknik biçimidir: Milyonlarca kişi aynı hesabı ben-idealinin yerine koyar ve birbirini o hesap üzerinden tanır.
+
+Bir noktayı daha eklemek gerekir: Luca Possati'nin 2020'de *Humanities and Social Sciences Communications*'ta yayımlanan "Algorithmic unconscious" makalesi, psikanalizin yalnızca kullanıcıyı değil yapay zekânın kendisini anlamak için de gerekli olduğunu savunuyordu. Algoritma, tasarımcılarının ve eğitim verisinin bastırdığı şeyi taşır; yapay zekânın da bir "bilinçdışı" vardır, çünkü insan bilinçdışının ürünüdür.
+
+## Sosyal medya bizi anlamıyor; bizi tahmin ediyor
+
+Bir psikoterapist "bu insan neden böyle davranıyor" diye sorar. Bir platform "bu insanın bir sonraki davranışı ne olacak" diye sorar. Bu iki soru birbirine benzese de felsefi olarak tamamen farklıdır: Birincisi anlama (Verstehen) arayışıdır, ikincisi öngörü ve müdahale. Platform algoritmaları burada yeni bir epistemoloji yaratıyor: İnsan hakkında bilmek için onun ne söylediğine artık ihtiyaç yok; davranış örüntüsü yeterli. Dilthey'in doğa bilimleri ile tin bilimleri arasında çizdiği sınır, açıklama ile anlama arasındaki fark, platformların insan davranışını doğa bilimi nesnesi gibi ele almasıyla siliniyor.
+
+Bu yılın ağustos ayında *Perspectives on Politics*'te yayımlanan "The Autonomy Paradox: Artificial Intelligence and the Foundations of Political Behavior" makalesi bu dönüşümü siyasal davranış açısından adlandırıyor: Yapay zekâ, yurttaşlığın iki temel boyutunu aynı anda etkiliyor; "otantiklik" (tercihlerin bağımsız düşünme ve yargıyla oluşması) ve "faillik" (bu tercihlere göre etkili biçimde eyleme yeteneği). Paradoks şu: Algoritmalar failliği artırırken (daha kolay örgütlenme, daha geniş erişim) otantikliği aşındırabiliyor, çünkü tercihlerin oluştuğu ortamı da onlar düzenliyor. Algoritma yalnızca bizi izleyen bir mekanizma değil, bize kim olduğumuzu geri söyleyen bir aynadır.
+
+## Lacan: Ayna artık algoritmik, büyük Öteki artık bir sunucu
+
+Jacques Lacan'ın ayna evresi, insanın kendi benliğini bir imge üzerinden tanıması ve aynı zamanda bu imgeyle yabancılaşması üzerine kuruluydu: Çocuk aynada kendisini bir bütün olarak görür; ama bedensel deneyimi henüz bu bütünlükle örtüşmez; "ben" ile "kendimin görüntüsü" arasında kapanmayacak bir mesafe oluşur. Sosyal medya bu mekanizmayı tarihte görülmemiş ölçüde büyüttü. Instagram bize nasıl göründüğümüzü, TikTok hangi versiyonumuzun daha fazla ilgi çektiğini, X hangi düşüncelerimizin daha fazla tepki aldığını gösteriyor. Benlik artık yalnızca "ben kimim" sorusuyla kurulmuyor; yeni soru "başkalarının ekranında nasıl görünüyorum", ve sonra, "algoritmanın bana gösterdiği verilere göre ben kimim".
+
+Lacan'ın ikinci kavramı burada daha da işlevsel: büyük Öteki, öznenin arzusunun ona göre kurulduğu sembolik düzen, dilin ve yasanın yeri. Lacan'a göre arzu, Öteki'nin arzusudur; insan, Öteki'nin ondan ne istediğini tahmin ederek arzular. Platform çağında büyük Öteki'nin bir adresi var: öneri motoru. Kullanıcı, algoritmanın ondan ne istediğini (hangi içeriğin "tutacağını") tahmin ederek üretir; algoritma da kullanıcının ne istediğini tahmin ederek gösterir. Lacan'ın "Öteki'nin arzusu" formülü, bu karşılıklı tahmin döngüsünde harfi harfine gerçekleşir. Son yıllarda Lacancı literatürde "algoritmik Öteki" diye anılmaya başlanan kavram, bu döngüyü adlandırıyor: Arzunun, fantezinin ve keyfin (jouissance) ekonomisi, sembolik düzenin yerini alan bir istatistik düzeni tarafından yeniden örgütleniyor.
+
+## Tarde: Kalabalık değil, kamu; ama hangisi?
+
+Kitle psikolojisi tartışmasında genellikle Le Bon anılır: Kalabalık içinde bireyin davranışı değişir, eleştirel yeti gerileir, telkine açıklık artar. Le Bon bugün haklı olarak eleştiriliyor; ama 1901'de ona cevap veren Gabriel Tarde, sosyal medya için daha aydınlatıcı. *Kamu ve Kalabalık*'ta Tarde, kalabalık ile kamuyu ayırdı: Kalabalık, fiziksel olarak bir arada bulunan, birbirine bedensel temasla bulaşan bir topluluktur; kamu ise fiziksel olarak dağınık, ama aynı gazeteyi okuyarak "zihinsel bir bulaşma" ile bir araya gelen "tamamen tinsel bir kolektivite"dir. Tarde'a göre matbaa ve gazete, tarihte ilk kez kalabalığı kamuya dönüştürmüştü; ve bir kişi aynı anda yalnızca bir kalabalığa ait olabilirken, birçok kamuya ait olabilirdi.
+
+Sosyal medya, Tarde'ın ayrımını çökertiyor. Fiziksel kalabalığı ortadan kaldırdı, ama kalabalık psikolojisini dijitalleştirdi: Bir milyon insan aynı hashtag'e yöneldiğinde fiziksel bir meydan yoktur, ama Le Bon'un betimlediği bulaşma vardır. Aynı anda milyonlarca kişinin izlediği video, birbirini tanımayan insanları aynı nesne etrafında toplar; bir skandal binlerce kişiyi eşzamanlı öfkelendirir. Sosyal medya, Tarde'ın kamusuna kalabalığın hızını, kalabalığına kamunun mesafesini vermiştir: kalabalığın mekânını ortadan kaldırıp zamanını hızlandırmıştır. Bu melez yapı için Tarde'ın da Le Bon'un da kelimesi yoktu.
+
+## Durkheim: Kolektif temsiller ve dijital coşku
+
+Émile Durkheim, toplumun bireylerin toplamından ibaret olmadığını savunuyordu: Toplumun kendine özgü sembolleri, ritüelleri, normları ve "kolektif temsilleri" vardır. *Dinsel Hayatın İlkel Biçimleri*'nde (1912) totem, yalnızca bir nesne değil, topluluğun kendisini temsil ettiği simgedir; ve ritüel, "kolektif coşku" (effervescence collective) üretir: bireylerin bir araya gelip kendilerini aşan bir gücün parçası hissettiği yoğun anlar.
+
+Sosyal medya da benzer sembolik işlevler üretiyor: hashtag, profil fotoğrafı, meme, emoji, viral video, slogan, influencer, biyografi. Bir meme, bin kelimelik siyasal kuramdan daha hızlı bir kolektif kimlik yaratabiliyor. Durkheim'ın ritüellerinde insanların fiziksel olarak bir araya gelmesi gerekiyordu; dijital ritüellerde aynı anda aynı şeye bakmak yeterli. Bir "trend", Durkheim'ın kolektif coşkusunun algoritmik biçimidir: Herkes ona baktığı için herkes ona bakar ve bu bakış, topluluğun kendisini hissettiği andır. Fark şu: Durkheim'ın coşkusu topluluğu yeniden kurar ve yatışır; algoritmik coşku, yatışmaması için tasarlanmıştır.
+
+## Castoriadis: İmgelemin editörü
+
+Cornelius Castoriadis'in "toplumsal imgelem" kavramı, sosyal medyayı Jung'dan daha doğrudan açıklayabilir. *Toplumun İmgesel Kuruluşu*'na (1975) göre toplum, mevcut kurumların toplamı değildir; kendi dünyasını anlamlandıran imgeler, semboller ve "imgesel anlamlamalar" üretir ve bu imgelem hem toplumu yeniden üretir hem de yeni biçimlerin yaratılmasını mümkün kılar. Castoriadis için toplumun kendini yaratma gücü olan "kurucu imgelem", tarihin gerçek öznesidir.
+
+Sosyal medya bu imgelemi yalnızca yansıtmıyor; seçiyor, öne çıkarıyor, tekrar ediyor, ödüllendiriyor, bastırıyor, viral hâle getiriyor. Toplumsal imgelemin editörlüğünü yapmaya başlıyor. Castoriadis'in terimleriyle bu, kurucu imgelemin bir aracın eline geçmesidir: Toplum hâlâ kendi imgelerini üretiyor, ama hangi imgelerin toplumun kendini gördüğü ayna olacağına toplum değil, bir sıralama fonksiyonu karar veriyor.
+
+## Algoritma yeni bir kültürel rahip sınıfı mı? Foucault ve Deleuze
+
+Bu soru provokatif ama ciddiye alınmalı. Eskiden toplumun neyi göreceğini belirleyen kurumlar vardı: gazeteler, televizyonlar, yayıncılar, üniversiteler, dinî kurumlar, devletler, editörler, eleştirmenler. Bugün bunların arasına yeni bir aktör girdi: algoritmik sıralama. Bir haber neden milyon kişiye gösterildi, bir başkası neden kimseye ulaşmadı? Bir sanatçı neden keşfedildi, bir siyasal görüş neden trend oldu? Algoritmanın kararları her zaman bilinçli sansür biçiminde gerçekleşmez; bazen yalnızca "bu içerik daha fazla etkileşim yaratıyor" denir. Ama sonuç siyasal olarak önemlidir, çünkü görünürlük çağımızın iktidar biçimlerinden biridir.
+
+Michel Foucault'nun iktidar anlayışı burada güçlü bir araç: İktidar her zaman "bunu yapamazsın" demek zorunda değildir; bazen "bunu gör", "buna dikkat et", "bunu normal kabul et" der. Foucault'nun *Hapishanenin Doğuşu*'ndaki panoptikonu, gözetlenenin gözetleyeni göremediği bir iktidar mimarisiydi; platformlar bir içeriği yasaklamadan görünürlüğünü azaltabilir, sansürlemeden bir başkasını milyonlara gösterebilir. Algoritmik iktidarın en önemli biçimi, içeriği değil dikkat akışını kontrol etmektir. Dikkat nereye giderse gerçeklik orada yoğunlaşır.
+
+Gilles Deleuze, 1990 tarihli kısa ve kehanet gibi metni "Denetim Toplumları Üzerine Ek"te Foucault'nun disiplin toplumlarının yerini "denetim toplumlarının" aldığını yazmıştı: Disiplin, kapalı mekânlarda (okul, fabrika, hapishane) bedeni kalıba döker; denetim ise açık havada, sürekli ve modüle edilerek işler; birey yerine "bölünmüş" (dividuel) veri profilleri, kitle yerine örneklemler ve "bankalar" vardır. Deleuze'ün otuz altı yıl önceki betimlemesi, öneri motorunun tam tanımıdır: Kimse kapatılmaz, herkes sürekli modüle edilir; birey, ilgi alanlarına, izleme sürelerine ve satın alma olasılıklarına bölünmüş bir vektöre dönüşür. Bernard Stiegler bu tabloya "dikkat ekonomisi"ni ekledi: Endüstriyel olarak yakalanan dikkat, öznenin kendi arzusunu oluşturma kapasitesini, Stiegler'in deyişiyle "bireyleşme"yi, kısa devreye uğratır.
+
+## Gerbaudo: Beğeni düğmesi bir oy pusulası mı?
+
+Paolo Gerbaudo'nun *Democratic Theory*'de yayımlanan "Theorizing Reactive Democracy" makalesi, bu tartışmayı siyaset kuramına taşıyor. Gerbaudo, sosyal medya kamusal alanının Habermas'ın "burjuva kamusal alanı"ndan farklı olarak bir "plebyen kamusal alan" olarak düşünülmesi gerektiğini savunuyor: Habermas'ın eleştirel-akılcı kamularının yerini, çeşitli sosyal medya tepkileri ve bu tepkilerin varlığını ölçen metriklerle görünür kılınan sanal toplanmalarda bir araya gelen çevrimiçi kalabalıklar alıyor. Beğeni, paylaşım, retweet, yorum, emoji: Bu mikro tepkiler, Gerbaudo'ya göre, çeşitli meselelerde kamuoyunun havasını gösteren örtük bir oy olarak anlaşılıyor ve ortaya "reaktif demokrasi" adını verdiği plebisiter bir demokrasi biçimi çıkıyor. Platform algoritmaları bu tepkileri görünürlüğü belirlemek için yeniden kullandığından, tepkiler hem kamusal davranışı ölçüyor hem de hangi içeriklerin görüneceğini belirliyor.
+
+Burada bir döngü ortaya çıkıyor: İnsan içeriğe tepki verir; algoritma tepkiyi ölçer; algoritma içeriğin görünürlüğünü değiştirir; daha fazla kişi gördüğü için daha fazla kişi tepki verir; toplum bunun "genel kanaat" olduğunu düşünmeye başlar. Toplum kendi yansımasını görür; ama gördüğü, kendi tepkilerinin algoritma tarafından büyütülmüş versiyonudur. Rousseau'nun genel iradesi, ölçülemez olduğu için genel iradeydi; reaktif demokrasi, ölçülebilir olanı genel irade sanma eğilimidir.
+
+## Debord ve Baudrillard: Gösteriyi üreten seyirci
+
+Guy Debord'un *Gösteri Toplumu* (1967), modern toplumda gerçek deneyimin görüntüler aracılığıyla dolayımlanmasını eleştiriyordu: "Doğrudan yaşanmış olan her şey bir temsile uzaklaşmıştır." Debord döneminde insanlar gösteriyi seyrediyordu; sosyal medya çağında insanlar gösteriyi aynı zamanda üretiyor. Kendi hayatımızı, tatillerimizi, yemeklerimizi, çocuklarımızı, aşklarımızı, başarılarımızı, öfkelerimizi, hatta acılarımızı sergiliyoruz. Gösteri, dışarıda duran bir şey olmaktan çıkıp benliğin üretim biçimine dönüşüyor. Debord'un "gösteri, insanlar arasında görüntülerle dolayımlanan bir toplumsal ilişkidir" tanımı, kullanıcı üretimi içerik çağında tam anlamını buluyor: İlişki, görüntüyü üretmek için kuruluyor.
+
+Jean Baudrillard'ın simülakr ve hipergerçeklik kavramları ise neredeyse ürkütücü biçimde güncel. Eskiden görüntü gerçeği temsil ediyordu; şimdi görüntü gerçeğin kendisinden daha önemli. Bir tatil, tatilden önce Instagram fotoğrafıdır; bir ilişki, ilişkiden önce profil durumu; bir politikacı, programından önce viral videosu; bir insan, hayatından önce dijital temsili. Temsil edilen ile temsil arasındaki sınır incelir; insanlar hayatlarını değil, hayatlarının paylaşılabilir versiyonlarını yaşamaya başlar. Baudrillard'ın "gerçekten daha gerçek" hipergerçekliği, sıradan bir cuma akşamının anlatısı olur.
+
+## McLuhan: Ortam mesajın kendisidir
+
+Marshall McLuhan'ın "ortam mesajdır" düşüncesi temel bir anahtar: Bir platform, mesajların taşındığı nötr bir kanal değildir; biçimi mesajın anlamını değiştirir. X kısa mesajları ödüllendiriyorsa düşünce kısalır; TikTok birkaç saniyelik dikkat döngülerini ödüllendiriyorsa anlatı buna göre biçimlenir; Instagram görsel temsil üzerine kuruluysa benlik görselleşir; YouTube izlenme süresini optimize ediyorsa anlatı sürekliliği buna göre tasarlanır. Dolayısıyla sorun yalnızca "insanlar sosyal medyada ne söylüyor" değil, "sosyal medya insanları ne tür şeyleri söylemeye teşvik ediyor"dur. McLuhan'ın bir başka kavramı burada daha derin: "Duyu oranlarının" değişmesi. Her ortam, insanın duyu dengesini yeniden düzenler; sonsuz kaydırma, bir düşünce biçimi değil, bir duyu biçimidir.
+
+## Zuboff ve Han: Bilinçdışı hammadde, gözetim öz-sunum
+
+Shoshana Zuboff'un gözetim kapitalizmi analizi bir başka katman ekliyor: Platformlar davranıştan sürekli veri çıkarıyor ve bu "davranış artığını" tahmin ürünlerine dönüştürüyorsa, insanın dikkat ve davranış örüntüleri ekonomik hammaddedir. Bilinçdışı geçmişte psikanalizin konusuydu; davranışsal veri bugün teknoloji şirketlerinin ekonomik girdisi. Bir insan belirli bir videoyu neden tekrar tekrar izlediğini bilmeyebilir; algoritmanın bunu bilmesi gerekmez, tekrar izlemesi yeter. Platform ekonomisinin gücü, insanın kendisi hakkında bilmediği örüntüleri ondan önce keşfedebilmesidir.
+
+Byung-Chul Han'ın *Şeffaflık Toplumu* ve *Psikopolitika* kitaplarındaki çerçeve, bu tabloyu tamamlıyor. Klasik iktidar "seni gözetliyorum" der; dijital iktidarın daha sofistike biçimi "kendini göster" der. Ve insan gösterir: konumunu, yüzünü, arkadaşlarını, çocuğunu, işini, kazancını, duygusunu, siyasal görüşünü. Gözetim, dışarıdan zorlanan bir pratik olmaktan çıkıp öz-sunuma dönüşür; insan hem gözetleyen hem gözetlenen olur. Han'ın deyişiyle Bentham'ın panoptikonundaki mahkûmlar birbirinden yalıtılmıştı; dijital panoptikonun sakinleri birbirleriyle yoğun iletişim içindedir ve kendilerini gönüllü olarak teşhir ederler. Sitemizde daha önce [Han'ın anlatı krizini](/haber/byung-chul-han-anlatinin-krizi-turkcede) ele alırken bu öz-teşhirin hikâye anlatma kapasitesini nasıl tükettiğini tartışmıştık.
+
+## Peki sosyal medya gerçekten toplumun bilinçdışını mı gösteriyor?
+
+Şimdi en zor noktaya geldik. Cevap: kısmen, ama doğrudan değil. Sosyal medyada gördüğümüz şey toplumun "saf" bilinçdışı değildir. Platformlar veriyi seçer, algoritmalar sıralar, kullanıcılar performans sergiler, botlar ve sahte hesaplar davranışı etkiler, şirketlerin ticari çıkarları vardır, siyasal aktörler manipülasyon yapar, insanlar internette gerçek hayattaki gibi davranmaz. Ampirik araştırma da temkinli olmayı gerektiriyor: 2023'te *Science* ve *Nature*'da yayımlanan, Meta'nın iş birliğiyle yürütülen büyük ölçekli deneyler, 2020 ABD seçimleri sırasında algoritmik akışın kronolojik akışla değiştirilmesinin kullanıcıların siyasal tutumlarında ölçülebilir bir değişiklik yaratmadığını buldu; "filtre balonu" tezi sanıldığından daha zayıf çıktı. Sosyal medya verisini doğrudan "toplumun gerçek düşüncesi" olarak okumak büyük hata olur.
+
+Ama tam burada daha ilginç bir şey ortaya çıkar. Sosyal medya, toplumun bilinçdışını doğrudan göstermese bile, toplumun hangi arzularının algoritmik olarak güçlendirilebilir olduğunu gösterir. Bu daha incelikli ve belki daha önemli bir iddiadır. Çünkü algoritma yalnızca aynaya değil, yükseltece de benzer. Bir ayna görüntüyü yansıtır; algoritma seçer ve büyütür. Sosyal medya, ayna, megafon, piyasa ve laboratuvar karışımıdır. Bir içerik ortaya çıkar, insanlar tepki verir, platform ölçer, içerik büyür, büyüdükçe daha fazla kişi görür, daha fazla tepki gelir; ve sonunda toplum kendi algoritmik yankısını "toplumun sesi" sanabilir. Bu, çağımızın en önemli epistemolojik problemlerinden biridir.
+
+## Habermas: Kamusal alan mı, duygusal kalabalık mı?
+
+Jürgen Habermas'ın kamusal alan kuramı, yurttaşların ortak meseleler hakkında kamusal akıl yürütme yoluyla fikir oluşturmasını merkeze alıyordu. Gerbaudo'nun analizinde olduğu gibi, çevrimiçi kamusal alanın önemli bir kısmı uzun süreli tartışmadan çok tepkiler, duygusal seferberlik ve görünürlük mücadeleleri üzerinden çalışıyor. Habermas'ın kendisi de 2022'de yayımladığı *Kamusal Alanın Yeni Bir Yapısal Dönüşümü*'nde bu tabloyu kabul etti: Dijital platformlar, editoryal dolayımı kaldırarak "yarı-kamusal" alanlar yaratıyor; herkes yazar olabiliyor, ama profesyonel gazeteciliğin süzgeci ortadan kalkınca ortak bir gerçeklik zemini de aşınıyor. Bu, Habermas'ın geçersiz olduğu anlamına gelmiyor; tam tersine, sorusunu daha da önemli kılıyor: Bir toplum, ortak bir gerçeklik üzerinde konuşmadan ortak karar verebilir mi? Habermas'ın geçen mart ayındaki ölümünün ardından yazdığımız [dosyada](/haber/jurgen-habermas-1929-2026) bu son kitabın sorusunu ayrıca ele almıştık.
+
+## Fırsat: Görünmezlerin görünürlüğü
+
+Bu tablo yalnızca karamsar değil. Sosyal medya, tarihte görülmemiş bir kamusal katılım imkânı yarattı: Eskiden görünmez kalan insanlar görünür olabiliyor, marjinal gruplar kendi hikâyelerini anlatabiliyor, devletlerin ve büyük medyanın kontrolü dışında bilgi dolaşabiliyor, sosyal hareketler örgütlenebiliyor, yerel bir adaletsizlik küresel bir mesele olabiliyor, bir bireyin çektiği görüntü uluslararası bir insan hakları tartışmasını başlatabiliyor. *The Review of Politics*'te 2025'te yayımlanan "What is Social Media's Place in Democracy?" makalesi, sosyal medyanın demokraside "doğal" bir yeri olmadığını, çoğul demokratik olanaklar taşıdığını ve düzenlemenin asıl amacının çevredeki aktörlerin siyasal sistemin merkezindeki karar alma süreçlerini tetikleme ve etkileme gücünü artırmak olması gerektiğini savunuyor. Dolayısıyla mesele "sosyal medya iyi mi kötü mü" değil; hangi toplumsal güçlerin sosyal medyada görünür hâle gelebildiğidir.
+
+## Asıl tehlike: Yapay zekâ bilinçdışını yeniden yazabilir
+
+Sosyal medya ile yapay zekâ birleştiğinde mesele değişiyor. Sosyal medya insan davranışından veri topluyor; yapay zekâ bu verideki örüntüleri öğreniyor; sonra insanlara içerik üretiyor; insanlar tepki veriyor; yapay zekâ yeni içerik üretiyor. İnsan algoritmayı eğitir, algoritma insanı etkiler, insan değişen algoritmaya yeniden tepki verir, algoritma yeni davranıştan öğrenir. Bu artık basit bir medya ilişkisi değil; insan ile algoritma arasında karşılıklı evrimsel bir geri besleme döngüsüdür. Dün [yapay zekâ ve sanat](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) üzerine yazarken Adorno'nun kültür endüstrisi için gördüğümüz şeyle aynı: İnsanların zevki algoritmayı eğitir, algoritma zevki yeniden eğitir.
+
+Burada başlangıçtaki hipotez daha radikal hâle geliyor. Jung'un kolektif bilinçdışı, insan psişesinin ortak derin katmanıydı. Dijital çağda yeni bir şey ortaya çıkıyor olabilir: algoritmik kolektif bilinçdışı. Bu resmî bir psikoloji kavramı değil, bir felsefi hipotezdir. İnsanların arzuları ile algoritmaların optimizasyon hedefleri birbirine karışır: İnsan neyi görmek ister, algoritma neyi göstermek ister; insan neyi paylaşır, algoritma neyi büyütür; insan neye öfkelenir, platform hangi öfkenin daha fazla etkileşim yarattığını öğrenir. Zamanla ikisi birbirini biçimlendirir ve ortaya insan arzusu değil, algoritmik olarak seçilmiş insan arzusu çıkar. Bu hafta Avrupa Komisyonu'nun on üç yaş altına sosyal medya yasağı ve öneri algoritmalarının çocukları "zararlı içerik tavşan deliklerine" sürüklemesini engelleme önerisi, bu hipotezin siyasal olarak ne kadar ciddiye alındığını gösteriyor: Yasa koyucu, bilinçdışının oluşum çağında algoritmanın devreye girmesini engellemeye çalışıyor.
+
+## Rancière: Siyasetin yeni estetiği
+
+Jacques Rancière'in "duyulur olanın paylaşımı" kavramı bu tartışmaya güçlü biçimde eklenir. Rancière için siyaset yalnızca parlamentoda gerçekleşmez; siyaset, kimin görünür olduğu, kimin konuşabildiği, kimin sesinin gürültü değil söz sayıldığı sorularıyla ilgilidir. Sosyal medya bu nedenle devasa bir siyasal-estetik makinedir: Sürekli olarak kimin görüneceğini, kimin duyulacağını, neyin trend olacağını, hangi hikâyenin dolaşıma gireceğini, hangi görüntünün "önemli" kabul edileceğini düzenler. Algoritmik görünürlük teknik bir mesele değil, siyasetin yeni estetiğidir. Geçen hafta [Rancière'i ele alırken](/haber/jacques-ranciere-esitlik-hedef-degil-baslangic-varsayimi) gördüğümüz "polis" kavramı, yerlerin ve payların dağılımını düzenleyen mantık, öneri motorunun en kesin tanımıdır; ve Rancière'e göre siyaset, bu dağılımı payı olmayanların bozmasıdır. Algoritmik polis düzeninde siyasetin nasıl mümkün olacağı, önümüzdeki on yılın sorusudur.
+
+## Sonuç: Sosyal medya bize kim olduğumuzu mu gösteriyor, kim olduğumuzu mu yaratıyor?
+
+Bütün tartışmanın düğüm noktası burada. Sosyal medya toplumun bilinçdışını yansıtıyor olabilir; ama aynı zamanda onu üretiyor olabilir. Ve muhtemelen gerçek daha karmaşık: Yansıtıyor, seçiyor, büyütüyor ve yeniden üretiyor. Sosyal medya bir ayna değildir; kendi yansımasını değiştiren bir aynadır. İnsanlar arzularını platformlara bırakıyor; platformlar bu arzuları sınıflandırıyor ve geri sunuyor; insanlar kendi arzularını başkalarında görüyor; başkaları aynı arzuyu görünce onun "normal" olduğunu düşünüyor; normalleşen arzu daha fazla üretiliyor. Toplum, kendi ürettiği psikolojik ortamın içinde yaşamaya başlıyor.
+
+Bu nedenle yirmi birinci yüzyılın en önemli felsefi sorularından biri artık "bilinçdışımız nedir" değil, "bilinçdışımızı kim görünür hâle getiriyor"dur. Jung insan ruhunun karanlık odalarını gösterdi; Freud bastırılmış arzuların kapısını açtı; Lacan öznenin kendi görüntüsüyle yabancılaşmasını ve arzusunun Öteki'ye bağlılığını anlattı; Tarde kamunun, Durkheim kolektif temsilin gücünü gösterdi; Castoriadis toplumların kendi gerçekliklerini hayal ederek kurduğunu düşündü; Debord görüntünün, Foucault görünürlüğün, Deleuze denetimin iktidarını çözümledi; McLuhan iletişim araçlarının insanı dönüştürdüğünü söyledi; Habermas ortak kamusal aklı savundu; Han gönüllü şeffaflığın yeni iktidar biçimlerini anlattı. Ve bugün bütün bu düşüncelerin ortasında yeni bir figür duruyor: algoritma. Algoritma artık yalnızca bize ne göstereceğine karar vermiyor; neye bakacağımızı, neye öfkeleneceğimizi, neyi arzulayacağımızı ve hangi dünyayı "normal" kabul edeceğimizi etkileyen bir kültürel aracıya dönüşüyor.
+
+Belki de sosyal medyanın gerçek devrimi burada. İnsanlık tarihinde ilk defa milyarlarca insanın küçük arzuları, korkuları ve dürtüleri eşzamanlı olarak ölçülüyor, sınıflandırılıyor ve yeniden topluma sunuluyor. Geleceğin arkeologları bizim dönemimizi yalnızca kitaplardan ve anıtlardan okumayacak; dijital izlerimize bakacaklar: milyarlarca paylaşım, trilyonlarca beğeni, sayısız öfke, arzu ve korku. Ve bütün bunların arasından şu sorunun cevabını arayacaklar: Yirmi birinci yüzyıl insanı gerçekten ne istiyordu? Belki de en ürkütücü cevap şu olacak: İnsanlık bunu kendisi de tam olarak bilmiyordu. Ama algoritmalar, bizim ne istediğimizi bizden önce öğrenmeye başlamıştı.`,
+  },
   {
     title: "Beş milyar görüntü jüri önünde: Andersen v. Stability AI, yapay zekâ eğitim verisini ilk kez on iki yurttaşa soruyor",
     slug: "andersen-stability-ai-juri-davasi-yapay-zeka-egitim-verisi",
