@@ -260,6 +260,58 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Monroe C. Beardsley",
+    slug: "monroe-beardsley",
+    headline: "Amerikalı estetikçi (1915-1985) — 'niyet yanılgısı'nın kuramcısı",
+    bio: "Yirminci yüzyıl Amerikan estetiğinin kurucu isimlerinden. W. K. Wimsatt ile yazdığı 'The Intentional Fallacy' (1946), bir eserin anlamını ve değerini sanatçının niyetine bağlamanın hata olduğunu savundu; Aesthetics (1958) ile estetik deneyimi eserin nesnel özelliklerine dayandıran sistematik bir kuram kurdu.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1915,
+    affiliation: "Swarthmore College; Temple Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Monroe Curtis Beardsley",
+    birthDate: "10 Aralık 1915, Bridgeport, Connecticut",
+    deathDate: "18 Eylül 1985, Philadelphia",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Analitik estetik · Yeni Eleştiri",
+    areas: "Estetik, sanat felsefesi, edebiyat kuramı, eylem kuramı, mantık",
+    majorWorks: "The Intentional Fallacy (Wimsatt ile, 1946)\nThe Affective Fallacy (Wimsatt ile, 1949)\nAesthetics: Problems in the Philosophy of Criticism (1958)\nAesthetics from Classical Greece to the Present (1966)\nThe Possibility of Criticism (1970)\nThe Aesthetic Point of View (1982)",
+    keyConcepts: "Niyet yanılgısı, duygulanım yanılgısı, estetik deneyim, estetik bakış açısı, birlik-yoğunluk-karmaşıklık ölçütleri, eserin özerkliği",
+    influencedBy: "John Dewey, Yeni Eleştiri, I. A. Richards, Immanuel Kant, C. I. Lewis",
+    influenced: "Analitik estetik, George Dickie (karşı), Noël Carroll, Jerrold Levinson, edebiyat kuramında niyetçilik tartışması",
+    longBio: "Yale'de okudu ve orada doktora yaptı; 1947'den 1969'a kadar Swarthmore College'da, sonra ölümüne dek Temple Üniversitesi'nde ders verdi. Yale'deki meslektaşı, edebiyat bilimci W. K. Wimsatt ile 1946'da Sewanee Review'da yayımladıkları 'The Intentional Fallacy', Yeni Eleştiri'nin manifestosu sayıldı: Bir şiirin anlamı, yazarın kafasındaki niyette değil, metnin kendisinde, dilin kamusal kurallarında aranmalıdır; niyet ne ulaşılabilir ne de ölçüt olarak arzu edilirdir. 1949'da aynı ikili 'The Affective Fallacy' ile eserin değerini okurun duygusal tepkisine bağlayan yaklaşımı da eleştirdi.\n\n1958 tarihli Aesthetics: Problems in the Philosophy of Criticism, analitik gelenek içinde yazılmış ilk sistematik estetik kitabı olarak kabul edilir. Beardsley burada estetik nesnenin fenomenal özelliklerini, eleştirel yargının gerekçelerini ve estetik değeri birlik, yoğunluk ve karmaşıklık gibi 'genel ölçütlere' dayandıran bir kuramı geliştirdi. Sanatın işlevini 'belirgin bir estetik karakter taşıyan deneyim üretmek' olarak tanımladı; bu tanım George Dickie'nin kurumsal sanat kuramıyla uzun bir tartışmanın kaynağı oldu.\n\n1966'da yayımlanan Aesthetics from Classical Greece to the Present, İngilizcede hâlâ en çok okunan estetik tarihi kitaplarından. Amerikan Estetik Derneği'nin başkanlığını yaptı; JAAC'ın gelişiminde belirleyici rol oynadı. Yapay zekâ üretimlerinin sanat sayılıp sayılamayacağı tartışmasında 'niyet yanılgısı' argümanı bugün yeniden merkezde: Niyeti olmayan bir sistemin ürününü, niyeti hesaba katmadan değerlendirmek mümkün müdür?",
+    sources: "Britannica — https://www.britannica.com/biography/Monroe-C-Beardsley · Internet Encyclopedia of Philosophy, 'Intentionalism in Aesthetics' — https://iep.utm.edu/intentionalism-in-aesthetics/",
+  },
+  {
+    name: "F. H. Bradley",
+    slug: "f-h-bradley",
+    headline: "İngiliz idealizminin doruğu (1846-1924)",
+    bio: "Görünüş ve Gerçeklik (1893) ile her ilişkinin çelişkili olduğunu, tek tutarlı gerçekliğin bölünmez bir Mutlak olduğunu savundu. Russell ile Moore'un başkaldırdığı ve böylece analitik felsefeyi kurduğu filozof; T. S. Eliot'ın doktora tezinin konusu.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/F.H.%20Bradley.jpg?width=600",
+    country: "Birleşik Krallık",
+    birthYear: 1846,
+    affiliation: "Merton College, Oxford (1870-1924)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Francis Herbert Bradley",
+    birthDate: "30 Ocak 1846, Clapham, Londra",
+    deathDate: "18 Eylül 1924, Oxford",
+    alive: false,
+    period: "19.-20. yüzyıl",
+    school: "İngiliz idealizmi · mutlak idealizm",
+    areas: "Metafizik, mantık, etik, epistemoloji",
+    majorWorks: "Ethical Studies (1876)\nThe Principles of Logic (1883)\nAppearance and Reality (1893)\nEssays on Truth and Reality (1914)",
+    keyConcepts: "Mutlak, ilişkilerin gerçekdışılığı, görünüş ile gerçeklik, kendini gerçekleştirme, 'benim yerim ve ödevlerim', doğruluğun tutarlılık kuramı, dolaysız deneyim",
+    influencedBy: "G. W. F. Hegel, Immanuel Kant, T. H. Green, Baruch Spinoza, J. F. Herbart",
+    influenced: "Bernard Bosanquet, T. S. Eliot, R. G. Collingwood, Brand Blanshard; Bertrand Russell ve G. E. Moore (karşı), Michael Oakeshott",
+    longBio: "Evanjelik bir din adamının oğlu olarak Londra'da doğdu. Oxford'da okudu; 1870'te Merton College'a ders yükümlülüğü olmayan bir fellowship'le seçildi ve elli dört yıl boyunca neredeyse hiç ders vermeden, kamusal hayattan uzak, orada yazdı. 1871'de geçirdiği böbrek iltihabı sağlığını ömür boyu bozdu; yalnız ve mizantropik bir figür olarak tanındı.\n\nEthical Studies (1876), faydacılığa ve Kantçı biçimciliğe karşı, ahlakın 'benim yerim ve ödevlerim' olarak toplumsal bir bütün içinde kendini gerçekleştirmek olduğunu savundu; kitabın Mill'e yönelik saldırısı hâlâ İngilizce felsefe nesrinin en keskin örneklerinden sayılır. The Principles of Logic (1883), yargının psikolojik değil mantıksal doğasını savunarak Frege ve Russell'a giden yolu hazırladı.\n\nBaşyapıtı Appearance and Reality (1893), gündelik ve bilimsel düşüncenin bütün temel kavramlarını, nitelik, ilişki, uzam, zaman, nedensellik, benlik, çelişkili olduğu için 'görünüş' düzeyine indirdi: İlişkiler, terimlerini birleştirmeye çalışırken sonsuz bir gerileme doğurur; gerçeklik, çelişkisiz olması gereken tek bir Mutlak deneyimdir. Russell ve Moore 1898 dolaylarında tam da bu teze karşı çıkarak dış ilişkiler öğretisini ve analitik felsefeyi kurdu; Russell'ın 'Bradley'nin köpeği' üzerine yaptığı şaka, İngiliz felsefesinde bir dönemin kapanışını işaret eder. Bradley 1924'te Liyakat Nişanı aldı; aynı yıl 18 Eylül'de Oxford'da öldü. T. S. Eliot 1916'da onun felsefesi üzerine Harvard'a bir doktora tezi yazdı; şairin 'nesnel bağlılaşık' ve kişisizlik kuramlarında Bradley'nin izi görülür.",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/bradley/ · Britannica — https://www.britannica.com/biography/F-H-Bradley",
+  },
+  {
     name: "Karl Popper",
     slug: "karl-popper",
     headline: "Bilim filozofu ve açık toplum kuramcısı (1902-1994)",
@@ -1141,8 +1193,8 @@ export const philosophers: SeedPhilosopher[] = [
     name: "Seyla Benhabib",
     slug: "seyla-benhabib",
     headline: "Siyaset felsefecisi — Yale Üniversitesi",
-    bio: "İstanbul doğumlu siyaset felsefecisi. Söylem etiği, göç, yurttaşlık ve tanınma üzerine çalışıyor. 2026 Johan Skytte Siyaset Bilimi Ödülü sahibi.",
-    avatar: null,
+    bio: "İstanbul doğumlu siyaset felsefecisi. Söylem etiği, göç, yurttaşlık ve tanınma üzerine çalışıyor. 2026 Johan Skytte Siyaset Bilimi Ödülü ve 2026 Karl Jaspers Ödülü sahibi.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Seyla%20Benhabib%202025.jpg?width=600",
     country: "ABD · Türkiye",
     birthYear: 1950,
     affiliation: "Yale Üniversitesi — Eugene Meyer Siyaset Bilimi ve Felsefe Profesörü",
@@ -2495,6 +2547,462 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Beş milyar görüntü jüri önünde: Andersen v. Stability AI, yapay zekâ eğitim verisini ilk kez on iki yurttaşa soruyor",
+    slug: "andersen-stability-ai-juri-davasi-yapay-zeka-egitim-verisi",
+    summary:
+      "Sarah Andersen, Kelly McKernan ve Karla Ortiz'in Stability AI, Midjourney, DeviantArt ve Runway'e karşı 2023'te açtığı dava, San Francisco'da bu ay bir jürinin önüne geldi: Bir görüntü modelini internetten kazınmış eserlerle eğitmek ve dağıtmak telif ihlali midir? Mart ayında Yüksek Mahkeme'nin dokunmadığı Thaler kararıyla birlikte, yapay zekâ ve yazarlık hukukunun iki ucu.",
+    seoTitle: "Andersen v. Stability AI jüri davası: yapay zekâ eğitim verisi ve telif (Eylül 2026)",
+    metaDescription:
+      "Andersen v. Stability AI davası Eylül 2026'da San Francisco'da jüri önünde: LAION veri seti, model-kopya tezi, Lanham Yasası iddiası; Thaler v. Perlmutter'de Yüksek Mahkeme'nin insan yazarlık kuralını bırakması.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Phillip%20Burton%20Federal%20Building%20%26%20United%20States%20Courthouse.jpg?width=1600",
+    imageCredit: "Phillip Burton Federal Binası ve ABD Mahkemesi, San Francisco — Kuzey Kaliforniya Bölge Mahkemesi · Fotoğraf: Marincyclist, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Knowing Machines · Sigma Law Group · Mayer Brown",
+    sourceUrl: "https://knowingmachines.org/knowing-legal-machines/legal-explainer/cases/andersen-v-stability-ai",
+    publishedAt: "2026-09-18T01:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "hukuk-felsefesi", "estetik", "etik", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Andersen v. Stability AI — Legal Explainer", publisher: "Knowing Machines", url: "https://knowingmachines.org/knowing-legal-machines/legal-explainer/cases/andersen-v-stability-ai", primary: true },
+      { title: "The First Jury Trial Over AI Image Training Begins This Week", publisher: "Sigma Law Group", date: "6 Eylül 2026", url: "https://sigmalawgroup.com/blog/2026-09-06-andersen-stability-ai-jury-trial/" },
+      { title: "Andersen v. Stability AI: The Landmark Case Unpacking the Copyright Risks of AI Image Generators", publisher: "NYU Journal of Intellectual Property & Entertainment Law", url: "https://jipel.law.nyu.edu/andersen-v-stability-ai-the-landmark-case-unpacking-the-copyright-risks-of-ai-image-generators/" },
+      { title: "Supreme Court Denies Cert in AI Authorship Case", publisher: "Mayer Brown", date: "Mart 2026", url: "https://www.mayerbrown.com/en/insights/publications/2026/03/supreme-court-denies-review-in-ai-authorship-case" },
+    ],
+    content: `Ocak 2023'te üç görsel sanatçı, çizgi romancı Sarah Andersen, illüstratör Kelly McKernan ve konsept sanatçısı Karla Ortiz, San Francisco'daki federal mahkemede Stable Diffusion'ın yapımcısı Stability AI'a, Midjourney'e ve DeviantArt'a karşı bir toplu dava açtığında, üretken yapay zekâ henüz bir yaşındaydı ve hukuk dünyası davayı erken bulmuştu. Üç buçuk yıl sonra, bu ay, aynı dava (Runway AI'ın da eklenmesiyle) Amerikan hukuk tarihinde ilk kez üretken yapay zekânın çekirdek sorusunu bir jürinin önüne getirdi: Bir görüntü modelini internetten kazınmış eserlerle eğitmek ve sonra bu modeli dağıtmak, eserleri kullanılan sanatçıların haklarını ihlal eder mi?
+
+## Dava: LAION ve "model-kopya" tezi
+
+Davanın merkezinde LAION-5B veri seti var: İnternetten toplanmış yaklaşık beş milyar görüntü-metin çiftinden oluşan, Stable Diffusion ve benzeri modellerin eğitiminde kullanılan açık veri seti. Davacılar, kendi eserlerinin de bu setin içinde olduğunu ve modellerin bu eserlerden "öğrendiğini" savunuyor. Yargıç William Orrick, 2023 ve 2024'teki ara kararlarında davanın önemli bir kısmını budadı, ama iki iddiayı ayakta bıraktı. Birincisi, "model-kopya" tezi: Bir difüzyon modelinin ağırlıkları (weights), eğitildiği eserlerin kopyalarını "içerir"; dolayısıyla modeli dağıtmak, eserleri dağıtmaktır. Bu, doğrudan ve dolaylı telif ihlali iddiasının teknik temelidir ve teknik uzmanların jüri önünde tartışacağı asıl soru budur: Bir modelin ağırlıkları bir kopya mıdır, yoksa istatistiksel bir soyutlama mı? İkincisi, Midjourney'e yönelik Lanham Yasası (marka hukuku) iddiası: Midjourney'in, kullanıcıların prompt'larında adlarını kullanabileceği sanatçıların bir listesini yayımlaması, "sahte onay" (false endorsement) oluşturur. Bu iddianın önemi, telif hukukundaki "adil kullanım" savunmasının ona uygulanamamasıdır.
+
+Duruşmanın 8 Eylül'de başlaması planlanmıştı; hukuk çevreleri, adil kullanım tartışmasının kitap ve metin davalarında (Anthropic ve Meta'ya karşı 2025 kararları) yazarlar aleyhine sonuçlanmasından sonra, görsel sanatçıların davasının farklı bir yol izleyip izlemeyeceğini izliyor. Davanın sonucu ne olursa olsun temyize gideceği kesin; ama jürinin "model-kopya" tezine ilişkin bulgusu, üretken yapay zekâ hukukunun bundan sonraki yönünü belirleyecek.
+
+## Öteki uç: Thaler ve insan yazarlık kuralı
+
+Aynı yılın öbür ucunda bir başka karar duruyor. Bilgisayar bilimci Stephen Thaler, kendi geliştirdiği yapay zekâ sisteminin, kendi deyişiyle hiçbir insan istemi ya da müdahalesi olmadan ürettiği "A Recent Entrance to Paradise" adlı görselin telif hakkını, yazar olarak makineyi göstererek tescil ettirmek istemişti. ABD Telif Ofisi reddetti; bölge mahkemesi ve 2025'te D.C. Temyiz Mahkemesi reddi onadı: Telif Yasası'nda yazar, insan olmak zorundadır. 2 Mart 2026'da Yüksek Mahkeme davayı görmeyi reddetti ve bu kural kesinleşti. Karar, insan katkısı olan yapay zekâ üretimlerine ilişkin soruları çözmüyor; ama otonom olarak üretilmiş bir eserin Amerikan hukukunda sahipsiz olduğunu kesinleştiriyor.
+
+## Felsefi çerçeve
+
+İki dava, yapay zekâ ve yazarlık tartışmasının iki felsefi ucunu hukuka tercüme ediyor. Thaler kararı, yazarlığın insan niyetini gerektirdiği yönündeki, Collingwood'dan çağdaş niyetçilere uzanan konumu benimsiyor: Niyet yoksa yazar yoktur; yazar yoksa hak yoktur. Andersen davası ise Barthes'ın "metin, alıntıların dokusudur" tezinin hukuki karşılığını arıyor: Modelin içindeki binlerce sanatçının izi, bir "kopya" mıdır, bir "etki" midir? Sanat tarihinde etki her zaman serbestti; kopya değil. Yapay zekâ, ikisinin arasındaki sınırı hem teknik hem hukuki olarak yeniden çizmeye zorluyor. Bu davaların estetik arka planını bugünkü [Gündem yazımızda](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) tartışıyoruz; sitemizde daha önce ele aldığımız [robot hakları tartışması](/haber/robot-haklari-makineler-hak-talep-ederse) ile birlikte okunduğunda, hukukun makineler karşısında hangi kavramları koruduğu, hangilerini yeniden yazdığı daha net görülüyor.
+
+Davanın seyrini ve karar tarihini izleyeceğiz.`,
+  },
+  {
+    title: "Karl Jaspers Ödülü 2026 Seyla Benhabib'e: 'Bir çağın kötü ruhuna karşı ses yükselten' filozof",
+    slug: "karl-jaspers-odulu-2026-seyla-benhabib",
+    summary:
+      "Heidelberg Üniversitesi, Heidelberg Bilimler Akademisi ve Heidelberg şehrinin 25.000 avroluk Karl Jaspers Ödülü, İstanbul doğumlu siyaset felsefecisi Seyla Benhabib'e verildi. Seçici kurul, felsefi yaşam eserinin yanı sıra kamusal tartışmalardaki, özellikle İsrail-Filistin çatışması hakkındaki 'akıllı ve yapıcı' sesini gerekçe gösterdi. Tören 29 Nisan 2027'de.",
+    seoTitle: "Karl Jaspers Ödülü 2026: Seyla Benhabib",
+    metaDescription:
+      "Seyla Benhabib 2026 Karl Jaspers Ödülü'nü aldı: Heidelberg'in 25.000 avroluk ödülü, gerekçesi, Benhabib'in İstanbul'dan Yale'e uzanan hayatı ve söylem etiği, göç ve yurttaşlık üzerine çalışmaları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Seyla%20Benhabib%202025.jpg?width=1600",
+    imageCredit: "Seyla Benhabib, 2025 · Fotoğraf: Ot, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Universität Heidelberg",
+    sourceUrl: "https://www.uni-heidelberg.de/de/newsroom/karl-jaspers-preis-fuer-seyla-benhabib",
+    publishedAt: "2026-09-18T01:50:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "siyaset-felsefesi", "demokrasi", "etik", "elestirel-teori"],
+    philosopherSlugs: ["seyla-benhabib"],
+    sources: [
+      { title: "Karl-Jaspers-Preis für Seyla Benhabib (Pressemitteilung Nr. 54/2026)", publisher: "Universität Heidelberg", date: "9 Haziran 2026", url: "https://www.uni-heidelberg.de/de/newsroom/karl-jaspers-preis-fuer-seyla-benhabib", primary: true },
+      { title: "Karl-Jaspers-Preis", publisher: "Stadt Heidelberg", url: "https://www.heidelberg.de/karljasperspreis" },
+    ],
+    content: `Heidelberg Üniversitesi'nin Heidelberg Bilimler Akademisi ve Heidelberg şehriyle birlikte verdiği Karl Jaspers Ödülü'nün 2026 sahibi, Yale Üniversitesi emeritus profesörü Seyla Benhabib oldu. Üniversitenin haziran ayındaki duyurusuna göre 25.000 avroluk ödül, Benhabib'e "olağanüstü felsefi eseri kadar kamusal alandaki etkinliği" için veriliyor; tören 29 Nisan 2027'de Heidelberg'de yapılacak. Benhabib için bu, aynı yıl içinde ikinci büyük ödül: Uppsala Üniversitesi'nin siyaset biliminde "Nobel" sayılan Johan Skytte Ödülü'nü de bu yıl almıştı; [o haberi](/haber/seyla-benhabib-skytte-odulu-2026) daha önce ele almıştık.
+
+## Gerekçe: Bir çağın kötü ruhuna karşı
+
+Seçici kurulun gerekçesi, ödülün adını taşıyan filozofa doğrudan gönderme yapıyor. Karl Jaspers (1883-1969), varoluş felsefesinin kurucularından ve Heidelberg'de 1920'lerin başından Nazi rejimince görevden alınmasına kadar ders vermiş bir düşünür; ödülün kurucuları, Jaspers'in "bir çağın kötü ruhuna karşı mücadelesini" (Kampf gegen den Ungeist einer Epoche) anmak istediklerini söylüyor. Kurul, Benhabib'in de "sesini, Karl Jaspers'in açık ve örnek biçimde yaptığı gibi, bir çağın kötü ruhuna karşı yükselttiğine" inandığını yazıyor: "Felsefi ruhun taşıdığı" bu sesin özellikle bugün duyulması önemli; çünkü Benhabib, İsrail-Filistin çatışması gibi günümüzün merkezi çatışmaları hakkında da "akıllı ve yapıcı biçimde" konuşuyor. Gerekçe, eserinin uluslararası düzeyinin "tartışma götürmez" olduğunu ve etkisinin temsil ettiği disiplinlerin sınırlarını çoktan aştığını ekliyor.
+
+## Eser: Evrensel ilkeler, somut hayatlar
+
+Heidelberg'in özetine göre Benhabib'in eserinin merkezinde tek bir soru var: Adalet, haklar ve demokrasi hakkındaki genel tasarımlar, insanların yaşadığı gerçeklikle nasıl bağlanabilir? Benhabib bu soruyu kültürel farklılıkları, toplumsal cinsiyet deneyimlerini ve küresel göçü hesaba katarak sorar. Frankfurt Okulu'nun ikinci kuşağıyla, özellikle Habermas'ın söylem etiğiyle diyalog içinde geliştirdiği "etkileşimli evrenselcilik", evrensel ahlaki ilkelerin "somut öteki"nin bakış açısını dışlamadan kurulabileceğini savunur. *Situating the Self* (1992), *The Claims of Culture* (2002), *The Rights of Others* (2004) ve *Another Cosmopolitanism* (2006), göç, yurttaşlık ve sınırlar üzerine çağdaş siyaset felsefesinin başvuru metinleri; *Exile, Statelessness, and Migration* (2018) ise Arendt, Benjamin, Adorno ve Berlin gibi sürgün düşünürlerin biyografileri üzerinden aynı sorunu tarihsel olarak ele alır. Heidelberg'in vurguladığı gibi Benhabib, yirminci yüzyıl Alman felsefesinin de önde gelen uzmanlarından: Hannah Arendt üzerine *The Reluctant Modernism of Hannah Arendt* (1996) hâlâ temel eserlerden.
+
+## İstanbul'dan Yale'e
+
+Benhabib 1950'de İstanbul'da, Sefarad Yahudisi bir ailede doğdu; Robert Kolej'de ve İstanbul Üniversitesi'nde okudu, sonra Brandeis'a gitti. 1977'de Yale'de Hegel'in hukuk felsefesi üzerine doktora yaptı. Boston, Harvard ve New School'da ders verdikten sonra 2001'de Yale'de Eugene Meyer Siyaset Bilimi ve Felsefe Profesörlüğü'ne atandı; Berlin Wissenschaftskolleg başta olmak üzere pek çok kurumda konuk araştırmacı oldu. Türkiye'de çalışmaları *Modernizm, Evrensellik ve Birey*, *Ötekilerin Hakları* ve *Kültürel Çeşitlilik ve Demokratik Eşitlik* gibi çevirilerle tanınıyor.
+
+Karl Jaspers Ödülü bugüne kadar on üç kez verildi; son sahipleri Volker Gerhardt (2022), ölümünün ardından sinolog Rudolf G. Wagner (2019) ve Aleida ile Jan Assmann (2017). Benhabib, ödülün Türkiye doğumlu ilk sahibi.`,
+  },
+  {
+    title: "18 Eylül 2026 itibarıyla yaklaşan önemli felsefe konferansları",
+    slug: "yaklasan-felsefe-konferanslari-18-eylul-2026",
+    summary:
+      "Bu hafta yalnızca yeni girenler: Gent'te Lacan Today (18-19 Eylül), Lublin'de Philosophica II: Words and Language (17-18 Eylül), Bükreş'te EENPS 2026 (18-19 Eylül) ve Berlin'de AI Music Creativity konferansı (16-18 Eylül). Daha önce duyurduğumuz toplantılar için önceki listelerimize bakın.",
+    seoTitle: "Yaklaşan felsefe konferansları — 18 Eylül 2026",
+    metaDescription:
+      "18 Eylül 2026 itibarıyla yeni felsefe konferansları: Lacan Today (Gent), Philosophica II (Lublin), EENPS 2026 (Bükreş), AIMC 2026 (Berlin).",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lech%20am%20Arlberg%202006.jpg?width=1600",
+    imageCredit: "Lech am Arlberg — 22-27 Eylül'de Philosophicum Lech'e ev sahipliği yapacak · Fotoğraf: Florian Lindner, CC BY 2.5 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Konferans web siteleri",
+    sourceUrl: "https://lacantodayconference.ugent.be/",
+    publishedAt: "2026-09-18T02:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "psikanaliz", "bilim-felsefesi", "mantik", "yapay-zeka"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Lacan Today Conference 2026", publisher: "Ghent University — Center for Lacanian Psychoanalysis", url: "https://lacantodayconference.ugent.be/", primary: true },
+      { title: "Philosophica II — Words and Language", publisher: "PhilEvents", url: "https://philevents.org/event/show/144322" },
+      { title: "The Sixth Biennial Conference of the EENPS", publisher: "Sciencesconf / University of Bucharest", url: "https://eenps2026.sciencesconf.org/" },
+      { title: "AIMC 2026 — The 7th Conference on AI Music Creativity", publisher: "TU Berlin", url: "https://aimc2026.org/home" },
+    ],
+    content: `Bu haftaki listemiz, tekrara düşmemek için yalnızca sitemizde daha önce yer almamış toplantıları içeriyor. Philosophicum Lech (22-27 Eylül), Miranda Fricker'ın Dewey Konferansları (30 Eylül-2 Ekim), Vilnius, Salamanca ve Hokkaido toplantıları için [16 Eylül](/haber/yaklasan-felsefe-konferanslari-16-eylul-2026) ve [15 Eylül](/haber/yaklasan-felsefe-konferanslari-15-eylul-2026) tarihli listelerimize bakabilirsiniz.
+
+## Lacan Today — Gent, 18-19 Eylül
+
+Gent Üniversitesi Lacancı Psikanaliz Merkezi'nin (CLaP) düzenlediği Lacan Today konferansı, Lacancı psikanalizi klinik psikoloji, psikiyatri, felsefe, beşeri bilimler, eleştirel kuram ve sanat pratikleriyle diyalog içinde ele alıyor. Ana konuşmacılar: Jamieson Webster, Stijn Vanheule (Gent), Isabel Millar, Darian Leader, Derek Hook ve sanatçı-kuramcı Bracha L. Ettinger. Lacan'ın arzu, özne, bilinçdışı, Gerçek ve dil kavramlarının dijital çağda, kapitalizm, şiddet ve ekolojik kriz bağlamında ne anlama geldiği tartışılıyor. [Etkinlik kaydı](/etkinlik/lacan-today-gent-2026).
+
+## Philosophica II: Words and Language — Lublin, 17-18 Eylül
+
+Maria Curie-Skłodowska Üniversitesi Felsefe Enstitüsü'nün düzenlediği ikinci Philosophica toplantısı, ifadelerin doğası, anlam ve doğal dil sorunlarına odaklanıyor. Konuşmacılar: Matti Eklund (Uppsala), Luca Gasparri (CNRS), J. T. M. Miller (Durham) ve Julia Zakkou (Heinrich Heine Üniversitesi Düsseldorf). Büyük dil modelleri çağında "bir sistem sözcükleri kullanabiliyor diye anlamlarını biliyor mudur" sorusu, klasik dil felsefesini yeniden güncel kılıyor. [Etkinlik kaydı](/etkinlik/philosophica-ii-words-and-language-lublin-2026).
+
+## EENPS 2026 — Bükreş, 18-19 Eylül
+
+Doğu Avrupa Bilim Felsefesi Ağı'nın altıncı iki yıllık konferansı Bükreş Üniversitesi'nde toplanıyor. Program, fizik bilimleri felsefesi, biyoloji ve tıp felsefesi, sosyal bilimler felsefesi ve bilişsel bilimler felsefesi başlıklarında bildiri ve sempozyumlardan oluşuyor. Ağ, bölgedeki bilim felsefecilerini iki yılda bir bir araya getiriyor. [Etkinlik kaydı](/etkinlik/eenps-2026-bukres).
+
+## AIMC 2026 — Berlin, 16-18 Eylül
+
+Bugün sona eren 7. Yapay Zekâ Müzik Yaratıcılığı Konferansı, TU Berlin Ses İletişimi Grubu ve Devlet Müzik Araştırmaları Enstitüsü'nün ev sahipliğinde, Müzik Enstrümanları Müzesi'nin yanında toplandı. Bu yılın teması "Üretken Dönüş: Hiper-yeniden üretim çağında dolayımlanmış müzisyenlik"; bildiriler, konserler ve atölyeler, prompt tabanlı bestecilikten dağıtılmış failliğe, veri seti politikasından "spektral yazarlığa" uzanan sorunları ele aldı. Konferansın felsefi arka planını bugünkü [Gündem yazımızda](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) tartışıyoruz. [Etkinlik kaydı](/etkinlik/aimc-2026-berlin).`,
+  },
+  {
+    title: "F. H. Bradley: Görünüşün ardındaki Mutlak, ya da analitik felsefenin karşı çıkarak doğduğu filozof",
+    slug: "f-h-bradley-gorunus-ve-gerceklik-mutlak-idealizm",
+    summary:
+      "Ölümünün yüz ikinci yılında F. H. Bradley: Merton College'da elli dört yıl boyunca neredeyse hiç ders vermeden yazan münzevi; ilişkilerin gerçekdışılığı argümanı, Mutlak deneyim öğretisi, Mill'e saldırısı ve Russell ile Moore'un tam da ona karşı çıkarak kurduğu analitik felsefe. T. S. Eliot'ın tezinden Michael Oakeshott'a uzanan bir etki.",
+    seoTitle: "F. H. Bradley (1846-1924): Görünüş ve Gerçeklik, Mutlak idealizm ve analitik felsefenin doğuşu",
+    metaDescription:
+      "F. H. Bradley portresi: Ethical Studies, The Principles of Logic, Appearance and Reality; ilişkilerin gerçekdışılığı argümanı, Mutlak, Russell ve Moore'un başkaldırısı, T. S. Eliot ve Bradley'nin günümüzdeki yeniden okunuşu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/F%20H%20Bradley%20portrait%20by%20Reginald%20Grenville%20Eves.jpg?width=1600",
+    imageCredit: "F. H. Bradley · Reginald Grenville Eves'in yağlı boya portresi (Merton College, Oxford) · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/bradley/",
+    publishedAt: "2026-09-18T02:25:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["alman-idealizmi", "epistemoloji", "mantik", "etik", "kavram"],
+    philosopherSlugs: ["f-h-bradley"],
+    sources: [
+      { title: "Francis Herbert Bradley", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/bradley/", primary: true },
+      { title: "F. H. Bradley | British philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/F-H-Bradley" },
+    ],
+    content: `Bertrand Russell 1959'da felsefi gelişimini anlatırken, 1898'de "Kant'a ve Hegel'e karşı isyan" ettiğini yazar ve isyanın hedefini açıkça söyler: Oxford'daki Merton College'ın münzevi fellow'u Francis Herbert Bradley. G. E. Moore'un "The Nature of Judgment"ı (1899) ve Russell'ın dış ilişkiler öğretisi, Bradley'nin ilişkilerin gerçekdışı olduğu tezine karşı yazıldı; analitik felsefe, bir anlamda, Bradley'ye verilen bir cevap olarak doğdu. Bugün ölümünün yüz ikinci yılında Bradley'yi anmak, yalnızca bir dönemin kapanışını değil, hâlâ cevaplanmamış bir soruyu hatırlamaktır: İlişkiler gerçek midir?
+
+## Merton'daki münzevi
+
+Bradley 30 Ocak 1846'da Londra'nın Clapham semtinde, evanjelik bir din adamının oğlu olarak doğdu. Oxford'da University College'da okudu; 1870'te Merton College'a, ders verme yükümlülüğü olmayan ve yalnızca evlenmemesi şartına bağlı bir fellowship'le seçildi. Bu koşul onun için bir hapishane değil, bir özgürlük oldu: Elli dört yıl boyunca, ölümüne kadar, Merton'da neredeyse hiç ders vermeden, kamusal hayattan uzak, yalnızca yazdı. 1871'de geçirdiği böbrek iltihabı sağlığını ömür boyu bozdu ve mizacındaki karanlığı derinleştirdi; meslektaşlarının bile uzaktan tanıdığı, yalnız ve mizantropik bir figür olarak hatırlandı. Hiçbir zaman Almanya'ya gitmedi ve Hegelci olduğunu reddetti; ama Hegel'in "gerçek bütündür" ilkesinin İngilizcedeki en sistemli savunucusu oldu.
+
+## Ethical Studies: Benim yerim ve ödevlerim
+
+İlk büyük eseri *Ethical Studies* (1876), Viktorya dönemi İngiliz ahlak felsefesinin iki kutbuna, Mill'in faydacılığına ve Kant'ın biçimciliğine aynı anda saldırdı. Faydacılığa yönelik eleştirisi, İngilizce felsefe nesrinin en keskin örneklerinden sayılır: "Haz uğruna haz" ilkesi, hazzın kendisinin bir dizi geçip giden andan ibaret olduğunu, hiçbir zaman bir bütün olarak elde edilemeyeceğini görmez. Kant'ın "ödev uğruna ödev"i ise içeriksizdir; hangi ödev olduğunu söylemez. Bradley'nin kendi cevabı, "benim yerim ve ödevlerim" (My Station and Its Duties) başlıklı denemede: Ahlaki benlik, toplumsal bir bütün içinde, o bütünün bir üyesi olarak kendini gerçekleştirir. Bu Hegelci tez, sonraki bölümlerde Bradley'nin kendisi tarafından yetersiz bulunur; ideal ahlak, toplumsal rolün ötesine, dine uzanır. Kitap, İngiliz idealizminin ahlak felsefesindeki manifestosu oldu ve bugün komüniteryen düşüncenin öncüsü olarak yeniden okunuyor.
+
+## The Principles of Logic: Yargı psikolojik değildir
+
+*The Principles of Logic* (1883), Bradley'nin en teknik ve belki en etkili kitabı. Mill'in ve İngiliz empirizminin mantığı psikolojiye, fikirlerin çağrışımına indirgemesine karşı Bradley, yargının mantıksal içeriğinin, zihindeki imgeden ayrı olduğunu savundu: Yargıda kullanılan "fikir", psikolojik bir olay değil, evrensel bir anlamdır. Bu tez, Frege'nin anti-psikolojizmiyle şaşırtıcı biçimde paraleldir ve Russell'ın erken dönemini doğrudan etkiledi. Bradley ayrıca her yargının nihai öznesinin Gerçekliğin kendisi olduğunu ileri sürdü: "Bu gül kırmızıdır" demek, gerçekliğin gül-kırmızılığı içerdiğini söylemektir. Yargının bu bütüncül anlayışı, sonraki metafiziğinin tohumudur.
+
+## Appearance and Reality: İlişkiler gerçek mi?
+
+Başyapıtı *Appearance and Reality* (1893), iki bölümden oluşur. "Görünüş" başlıklı birinci bölüm, gündelik ve bilimsel düşüncenin bütün temel kavramlarını sırayla ele alır ve her birinin çelişki içerdiğini göstermeye çalışır: birincil ve ikincil nitelikler, tözler ve nitelikler, uzam ve zaman, hareket, nedensellik, benlik. Argümanın çekirdeği, ilişkiler üzerine üçüncü bölümdedir ve "Bradley'nin gerilemesi" olarak bilinir: A ile B arasında bir R ilişkisi varsa, R'nin A'ya ve B'ye nasıl bağlandığı sorulmalıdır; bu bağlantı yeni bir ilişki gerektirir, o da yenisini, sonsuza kadar. İlişkiler terimlerini birleştiremez; öyleyse ilişkisel düşünce gerçekliği kavrayamaz. "Gerçeklik" başlıklı ikinci bölüm, çelişkisiz olması gereken tek bir Mutlak'ı savunur: Gerçeklik, bütün görünüşleri içeren ve uyumlu kılan, ilişkilerin üstünde, dolaysız bir deneyimdir. Bradley'nin Mutlak'ı Tanrı değildir; Tanrı da bir görünüştür. Ve Mutlak hakkında bilebileceğimiz tek şey, çelişkisiz olduğu ve deneyim olduğudur.
+
+Kitabın en ünlü cümlesi, metafiziğin ne olduğu üzerine: Metafizik, içgüdüyle inandığımız şeyler için kötü nedenler bulmaktır; ama bu nedenleri bulmak da bir içgüdüdür. Bradley'nin şüpheci ironisi, sistemine karşı en güçlü savunmasıdır: Sistemini bir dogma olarak değil, düşüncenin kendi sınırlarını keşfetmesi olarak sunar.
+
+## Russell'ın isyanı ve Bradley'nin köpeği
+
+Russell ve Moore'un 1898 dolaylarındaki kopuşu, tam olarak ilişkiler tezine yönelikti. Russell, matematiğin mantığa indirgenmesi projesinin, "a, b'den büyüktür" gibi asimetrik ilişkilerin gerçek olmasını gerektirdiğini gördü; Bradley haklıysa matematik imkânsızdır. Dış ilişkiler öğretisi, ilişkilerin terimlerinin doğasına indirgenemeyeceği tezi, buradan doğdu. Russell'ın Bradley'ye yönelik ünlü şakası, Bradley'nin anlayışına göre "Bradley'nin köpeği"nin bile, sahibiyle ilişkisi köpeğin özünde olduğu için, Bradley olmadan aynı köpek olamayacağıydı. İki filozof 1910-11'de *Mind*'da doğrudan tartıştı; Bradley'nin cevabı, Russell'ın gerilemeye asla gerçekten yanıt vermediğiydi. Yüz yıl sonra bazı çağdaş metafizikçiler, Bradley'nin gerilemesinin hâlâ çözülmemiş olduğunu düşünüyor.
+
+## Eliot ve sonrası
+
+T. S. Eliot 1916'da Harvard'a "Knowledge and Experience in the Philosophy of F. H. Bradley" başlıklı doktora tezini teslim etti; savaş yüzünden savunmaya gidemedi, ama Bradley'nin "dolaysız deneyim" kavramı ve öznel-nesnel ayrımını sorgulayışı, Eliot'ın kişisizlik kuramında ve *Çorak Ülke*'nin notlarında (kitaba Bradley'den bir alıntıyla gönderme yapar) iz bıraktı. R. G. Collingwood, Brand Blanshard ve Michael Oakeshott, Bradley'nin idealizmini yirminci yüzyıla taşıdı. Bradley 1924'te, İngiliz filozoflar arasında nadir bir onur olan Liyakat Nişanı'nı aldı; birkaç ay sonra, 18 Eylül'de Oxford'da öldü.
+
+Bugün Bradley'yi okumak, analitik felsefenin doğduğu tartışmayı yeniden açmak demek: İlişkiler dünyanın dokusunda mı, yoksa düşüncenin ona giydirdiği bir elbise mi? Bilgisayar bilimlerinin dünyayı "ilişkisel veri tabanları" olarak modellediği bir çağda, Bradley'nin gerilemesi beklenmedik biçimde güncel. Bradley bugün [Filozof Dizini'ne](/filozof/f-h-bradley) eklendi.`,
+  },
+  {
+    title: "18 Eylül: Sanat felsefesinden analitik düşünceye, liberalizmden varoluş sorusuna",
+    slug: "felsefe-tarihinde-bugun-18-eylul-beardsley-bradley-hayek",
+    summary:
+      "Monroe Beardsley (1985), F. H. Bradley (1924), Alexander Bain (1903), Paul Bernays (1977), Amélie Oksenberg Rorty (2020) ve Barbara Skarga (2009) bugün öldü; Steven Pinker bugün doğdu. 18 Eylül 1944'te Hayek'in Kölelik Yolu'nun Amerikan baskısı çıktı. Bugün açılan toplantılar: Gent'te Lacan Today, Lublin'de Philosophica II, Bükreş'te EENPS.",
+    seoTitle: "Felsefe tarihinde bugün, 18 Eylül: Beardsley, Bradley, Bain, Bernays, Rorty, Skarga, Hayek",
+    metaDescription:
+      "18 Eylül'de felsefe tarihi: Monroe Beardsley, F. H. Bradley, Alexander Bain, Paul Bernays, Amélie Rorty ve Barbara Skarga'nın ölümleri; Steven Pinker'ın doğumu; Hayek'in The Road to Serfdom'unun Amerikan baskısı (1944); Gent, Lublin ve Bükreş'teki konferanslar.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/F.H.%20Bradley.jpg?width=1600",
+    imageCredit: "F. H. Bradley · Dönem fotoğrafı, fotoğrafçı bilinmiyor · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/bradley/",
+    publishedAt: "2026-09-18T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "estetik", "mantik", "siyaset-felsefesi", "zihin-felsefesi", "konferans"],
+    philosopherSlugs: ["monroe-beardsley", "f-h-bradley"],
+    sources: [
+      { title: "Francis Herbert Bradley", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/bradley/", primary: true },
+      { title: "Monroe C. Beardsley", publisher: "Britannica", url: "https://www.britannica.com/biography/Monroe-C-Beardsley" },
+      { title: "Alexander Bain", publisher: "Britannica", url: "https://www.britannica.com/biography/Alexander-Bain" },
+      { title: "Paul Bernays", publisher: "MacTutor History of Mathematics", url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bernays/" },
+      { title: "Amélie Oksenberg Rorty (1932-2020)", publisher: "Daily Nous", date: "Eylül 2020", url: "https://dailynous.com/2020/09/19/amelie-rorty-1932-2020/" },
+      { title: "The Road to Serfdom: Text and Documents — The Definitive Edition (Bruce Caldwell, ed.)", publisher: "University of Chicago Press", url: "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html" },
+      { title: "Lacan Today Conference 2026", publisher: "Ghent University", url: "https://lacantodayconference.ugent.be/" },
+      { title: "Philosophica II — Words and Language", publisher: "PhilEvents", url: "https://philevents.org/event/show/144322" },
+      { title: "The Sixth Biennial Conference of the East European Network for Philosophy of Science", publisher: "EENPS / University of Bucharest", url: "https://eenps2026.sciencesconf.org/" },
+    ],
+    content: `18 Eylül, felsefe takviminde özellikle sanat, estetik, dil, zihin ve siyaset eksenlerinde ilginç isimleri bir araya getiriyor: Sanat felsefesinin klasiklerinden Monroe Beardsley, İngiliz idealizminin doruğu F. H. Bradley, empirist geleneğin psikolog-filozofu Alexander Bain, Hilbert'in çalışma arkadaşı Paul Bernays, duygular üzerine çalışan Amélie Oksenberg Rorty ve Polonyalı filozof Barbara Skarga bugün öldü. Ve 18 Eylül 1944, siyaset felsefesi için bir kitap tarihi: Hayek'in *Kölelik Yolu*'nun Amerikan baskısı bugün çıktı.
+
+## 1985: Monroe Beardsley ve niyet yanılgısı
+
+Monroe Curtis Beardsley, 18 Eylül 1985'te altmış dokuz yaşında öldü. Yirminci yüzyıl Amerikan estetiğinin kurucu isimlerinden olan Beardsley, W. K. Wimsatt ile 1946'da yazdığı "The Intentional Fallacy" ile edebiyat ve sanat yorumunda sanatçının niyetini belirleyici ölçüt olarak kullanmaya karşı klasik argümanı geliştirdi; *Aesthetics: Problems in the Philosophy of Criticism* (1958) analitik gelenekte yazılmış ilk sistematik estetik kitabı sayılır. Beardsley'nin ölüm yıldönümü, bugünkü [Gündem yazımızın](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) konusu olan yapay zekâ ve sanat tartışması açısından özellikle anlamlı: Bir eseri yapan varlığın niyeti yoksa, eser yine de sanat olabilir mi? Beardsley'nin cevabı, eserin niyetten bağımsız değerlendirilebileceğiydi; yapay zekâ bu cevabı ilk kez gerçekten sınıyor. Beardsley bugün [Filozof Dizini'ne](/filozof/monroe-beardsley) eklendi.
+
+## 1924: F. H. Bradley
+
+Francis Herbert Bradley, 18 Eylül 1924'te Oxford'da yetmiş sekiz yaşında öldü; aynı yıl Liyakat Nişanı almıştı. Merton College'da elli dört yıl boyunca neredeyse hiç ders vermeden yazan Bradley, *Appearance and Reality* (1893) ile görünüş ve gerçeklik arasındaki ilişkiyi radikal biçimde sorguladı: İlişkiler, nitelikler, uzam, zaman ve benlik çelişkilidir ve bu yüzden "görünüş"tür; gerçeklik, tek ve bölünmez bir Mutlak deneyimdir. Bradley'nin idealizmi İngiliz felsefesinde etkisini yitirdi, ama tam da ona karşı çıkarak, Russell ve Moore analitik felsefeyi kurdu. Analitik felsefenin doğuşunu anlamak için Bradley'yi okumak hâlâ zorunlu; T. S. Eliot'ın doktora tezinin onun üzerine olduğunu da unutmamak gerek. Bradley'yi bugün [Filozoflar Hakkında](/haber/f-h-bradley-gorunus-ve-gerceklik-mutlak-idealizm) sayfamızda ayrıca ele alıyoruz.
+
+## 1903: Alexander Bain
+
+1818'de Aberdeen'de doğan Alexander Bain, 18 Eylül 1903'te seksen beş yaşında öldü. John Stuart Mill'in yakın arkadaşı ve biyografı olan Bain, *The Senses and the Intellect* (1855) ve *The Emotions and the Will* (1859) ile zihinsel süreçlerin fizyolojik temellerini sistemli biçimde ele alan ilk İngiliz düşünürlerden oldu; 1876'da kurduğu *Mind*, dünyanın ilk felsefe ve psikoloji dergisidir ve bugün hâlâ analitik felsefenin en saygın yayınlarından. Bain'in "inanç, eyleme hazır olmadır" tanımı, Peirce üzerinden pragmatizmi etkiledi. Zihni davranış, bilgi işleme ve bedensel süreçler üzerinden açıklamak mümkün müdür sorusu, Bain'den günümüz bilişsel bilimine ve yapay zekâ tartışmasına uzanan uzun bir çizginin parçası.
+
+## 1977: Paul Bernays
+
+İsviçreli matematikçi ve filozof Paul Bernays, 18 Eylül 1977'de Zürih'te seksen dokuz yaşında öldü. 1917'den itibaren Göttingen'de David Hilbert'in asistanı ve en yakın çalışma arkadaşıydı; iki ciltlik *Grundlagen der Mathematik* (1934, 1939) Hilbert programının en kapsamlı sunumudur ve Gödel'in ikinci eksiklik teoreminin ilk tam kanıtını içerir. Yahudi kökeni nedeniyle 1933'te Göttingen'den uzaklaştırıldı; ETH Zürih'te çalışmaya devam etti. Adını taşıyan von Neumann-Bernays-Gödel küme kuramı aksiyomatiği hâlâ kullanımda. Matematik felsefesinde platonculuğu ve biçimciliği aynı anda ciddiye alan ılımlı tutumu, "On Platonism in Mathematics" (1935) makalesinde ifadesini buldu.
+
+## 2020: Amélie Oksenberg Rorty
+
+Amélie Oksenberg Rorty, 18 Eylül 2020'de seksen sekiz yaşında öldü. 1932'de Belçika'da doğdu, ailesi Amerika'ya göç etti; Chicago ve Yale'de okudu. Duyguların yalnızca akıldışı dürtüler olmadığı, insanın düşünme ve değerlendirme biçimleriyle iç içe olduğu tezini, derlediği *Explaining Emotions* (1980) ve kendi makaleleriyle savundu; Aristoteles, Spinoza ve Descartes okumaları, felsefe tarihini çağdaş sorulara açan örnek çalışmalar. Kimlik ve kişilik üzerine *The Identities of Persons* (1976) derlemesi de alanın klasiklerinden. Kadın filozofların yalnızca "etik" ya da "feminizm" başlıklarına indirgenmesine karşı geniş bir entelektüel yelpazede çalışan Rorty, Rutgers, Radcliffe, Brandeis ve Harvard'da ders verdi.
+
+## 2009: Barbara Skarga
+
+Polonyalı filozof ve felsefe tarihçisi Barbara Skarga, 18 Eylül 2009'da Varşova'da doksan yaşında öldü. İkinci Dünya Savaşı'nda Polonya direnişine (Armia Krajowa) katıldı; 1944'te Sovyet NKVD tarafından tutuklandı ve on bir yılını Gulag'da ve sürgünde geçirdi. Bu yılları anlatan *Po wyzwoleniu* ("Kurtuluştan Sonra", 1985) Polonya edebiyatının önemli tanıklıklarından. Polonya Bilimler Akademisi'nde çalıştı; on dokuzuncu yüzyıl Fransız pozitivizmi, Comte ve Renouvier üzerine çalışmaları, sonra kimlik, zaman ve insanlık durumu üzerine denemeleriyle tanındı. Skarga'nın hayatı, felsefenin yalnızca akademik bir faaliyet değil, tarihin en ağır koşullarında insanın kendini ve dünyasını anlamlandırma çabası olduğunu hatırlatıyor.
+
+## Doğum günü: Steven Pinker (1954)
+
+18 Eylül 1954'te Montreal'de doğan Steven Pinker, doğrudan filozof değil; bilişsel psikolog, dilbilimci ve kamu entelektüeli. Ama *The Language Instinct* (1994), *How the Mind Works* (1997), *The Blank Slate* (2002), *Enlightenment Now* (2018) ve *Rationality* (2021) gibi kitapları zihin felsefesi, dil felsefesi ve insan doğası tartışmalarıyla doğrudan bağlantılı. Pinker'ın merkezi sorusu, insan zihnini biyolojik ve hesaplamalı süreçlerle ne ölçüde açıklayabileceğimiz, 2026'da yapay zekâ ve bilinç tartışmasının da merkezinde. Yetmiş iki yaşında.
+
+## 18 Eylül 1944: Kölelik Yolu Amerika'da
+
+Friedrich August Hayek'in *The Road to Serfdom*'u İngiltere'de Routledge tarafından Mart 1944'te yayımlanmıştı. University of Chicago Press'in Amerikan baskısı 18 Eylül 1944'te çıktı; yayınevi mütevazı bir ilgi bekleyerek 2.000 adet basmıştı, kitap kısa sürede tükendi ve Nisan 1945'te *Reader's Digest*'in kısaltılmış versiyonu milyonlarca okura ulaştı. Hayek'in tezi, merkezi ekonomik planlamanın kaçınılmaz olarak siyasal özgürlükleri aşındıran bir devlet gücüne dönüşeceğiydi; kitap, yirminci yüzyıl liberal siyaset felsefesinin en etkili metinlerinden biri oldu ve Popper'ın *Açık Toplum*'uyla aynı yıl, aynı savaşın gölgesinde yazıldı. Hayek'in "bilgi problemi", yani hiçbir merkezi otoritenin milyonlarca bireyin dağınık bilgisini toplayamayacağı tezi, 2026'da yeni bir soru doğuruyor: Milyonlarca insanın davranışını tahmin edebilen ve kaynak dağıtımını optimize edebilen algoritmik planlama, klasik devlet planlamasından farklı mıdır? Hayek'in cevabı muhtemelen "hayır" olurdu: Bilgi problemi hesaplama gücüyle değil, bilginin doğasıyla ilgilidir. Ama soru açık.
+
+## Bugün açılan toplantılar
+
+Gent Üniversitesi Lacancı Psikanaliz Merkezi'nin düzenlediği **Lacan Today** konferansı bugün ve yarın toplanıyor; ana konuşmacılar Jamieson Webster, Stijn Vanheule, Isabel Millar, Darian Leader, Derek Hook ve Bracha L. Ettinger. Konferans, Lacancı psikanalizi klinik psikoloji, felsefe, eleştirel kuram ve sanatla diyalog içinde ele alıyor.
+
+Lublin'deki Maria Curie-Skłodowska Üniversitesi'nde dün başlayan **Philosophica II: Words and Language**, dil felsefesinin sözcük, anlam ve doğal dil sorunlarına odaklanıyor; konuşmacılar Matti Eklund (Uppsala), Luca Gasparri (CNRS), J. T. M. Miller (Durham) ve Julia Zakkou (Düsseldorf). Büyük dil modelleri çağında sorunun ağırlığı belli: Bir sistem sözcükleri kullanabiliyor diye anlamlarını biliyor mudur?
+
+Bükreş Üniversitesi'nde bugün başlayan **Doğu Avrupa Bilim Felsefesi Ağı'nın (EENPS) altıncı iki yıllık konferansı**, fizik bilimleri, biyoloji ve tıp, sosyal bilimler ve bilişsel bilimler felsefesini bir araya getiriyor. Üç toplantının ayrıntıları [Konferanslar sayfamızda](/haber/yaklasan-felsefe-konferanslari-18-eylul-2026).
+
+## 18 Eylül'ün felsefi özeti
+
+Bugünün takvimine bakınca bir üçgen ortaya çıkıyor. Beardsley: Sanat eserini nasıl değerlendirmeliyiz? Hayek: İktidar ve bilgi arasındaki ilişki nasıl kurulmalı? Bain ve Bernays: Zihin, mantık ve bilgi nasıl açıklanabilir? 2026'nın dünyasında bu üç soru artık birbirinden bağımsız değil, çünkü aynı teknoloji sanat üretiyor, bilgi işliyor, ekonomik kararları tahmin ediyor ve dil kullanıyor. Dolayısıyla 18 Eylül bizi tek bir büyük soruya geri götürüyor: İnsanların bugüne kadar insana özgü saydığı yetiler, düşünmek, yaratmak, anlamlandırmak ve karar vermek, makineler tarafından paylaşılmaya başladığında insanı insan yapan nedir?`,
+  },
+  {
+    title: "Yapay Zekâ Sanatçı Olabilir mi?",
+    slug: "yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif",
+    summary:
+      "Resimden müziğe, yaratıcılıktan telife: Yapay zekâ sanatın ne olduğunu değil, sanatçı dediğimiz kişinin kim olduğunu sorgulatıyor. JAAC'ın 'AI and Philosophy of the Arts' özel sayısı, Berlin'deki AIMC konferansı, Organised Sound'daki yeni makale ve San Francisco'daki ilk jüri davası ışığında Benjamin'den Danto'ya, Collingwood'dan Beardsley'ye, Adorno'dan Heidegger'e uzanan bir soruşturma.",
+    seoTitle: "Yapay zekâ sanatçı olabilir mi? Estetik, yaratıcılık, yazarlık ve telif",
+    metaDescription:
+      "Yapay zekâ sanat üretebilir mi, sanatçı olabilir mi? JAAC özel sayısı, AIMC 2026, Organised Sound makalesi ve Andersen v. Stability AI davası ışığında Benjamin, Danto, Barthes, Collingwood, Dewey, Goodman, Beardsley, Adorno ve Heidegger ile bir sanat felsefesi soruşturması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Edmond%20de%20Belamy.png?width=1600",
+    imageCredit: "'Edmond de Belamy' (2018) — Obvious kolektifinin üretken çekişmeli ağ (GAN) ile ürettiği ve Christie's'de satılan portre; sağ altta imza yerine algoritmanın formülü · Kamu malı · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Journal of Aesthetics and Art Criticism · AIMC 2026 · Organised Sound",
+    sourceUrl: "https://academic.oup.com/jaac/article-abstract/84/2/91/8786322",
+    publishedAt: "2026-09-18T01:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "estetik", "kavram", "etik", "teknoloji-felsefesi", "elestirel-teori", "hukuk-felsefesi"],
+    philosopherSlugs: ["monroe-beardsley", "theodor-w-adorno", "martin-heidegger"],
+    sources: [
+      {
+        title: "Introduction to Special Issue on AI and Philosophy of the Arts",
+        publisher: "The Journal of Aesthetics and Art Criticism 84(2) — Jonathan Gilmore & Sandra Shapshay",
+        date: "3 Eylül 2026",
+        url: "https://academic.oup.com/jaac/article-abstract/84/2/91/8786322",
+        primary: true,
+      },
+      {
+        title: "Appreciating AI Art: Aesthetic Vices, Virtues, and Values",
+        publisher: "The Journal of Aesthetics and Art Criticism 84(2) — Elliot Samuel Paul",
+        date: "2026",
+        url: "https://academic.oup.com/jaac/article/84/2/287/8763066",
+      },
+      {
+        title: "Beyond automation: Artificial intelligence and embodied craft in artistic practice",
+        publisher: "Organised Sound — João Pedro Oliveira",
+        date: "16 Eylül 2026",
+        url: "https://www.cambridge.org/core/journals/organised-sound/article/beyond-automation-artificial-intelligence-and-embodied-craft-in-artistic-practice/D397CD1D060C149E737FDBA7FFE5AD06",
+      },
+      {
+        title: "The 7th Conference on AI Music Creativity — The Generative Turn: Mediated Musicianship in a Hyper-reproductive Age",
+        publisher: "AIMC 2026, TU Berlin",
+        date: "16-18 Eylül 2026",
+        url: "https://aimc2026.org/home",
+      },
+      {
+        title: "Supreme Court Denies Cert in AI Authorship Case (Thaler v. Perlmutter)",
+        publisher: "Mayer Brown",
+        date: "Mart 2026",
+        url: "https://www.mayerbrown.com/en/insights/publications/2026/03/supreme-court-denies-review-in-ai-authorship-case",
+      },
+    ],
+    content: `Bir makine bir tablo yaptığında sanat mı üretir? Bir yapay zekâ, Bach'a benzeyen ama Bach'ın hiç yazmadığı bir eser bestelediğinde ortada bir müzik eseri mi vardır? Bir insan yalnızca "üzgün bir piyano parçası, Chopin ile elektronik müzik arasında" diye yazıp birkaç saniye sonra milyonlarca kez dinlenebilecek bir parça elde ettiğinde sanatçı kimdir? Ve bütün bu soruların arkasındaki en rahatsız edici soru: Sanat yapmak için gerçekten bir sanatçıya ihtiyacımız var mı?
+
+Bu sorular birkaç yıl öncesine kadar bilimkurgunun ya da seminer odalarının sorularıydı. 2026 Eylül'ünde artık değil. *The Journal of Aesthetics and Art Criticism*'in bu ay yayımlanan özel sayısı doğrudan "AI and Philosophy of the Arts" başlığını taşıyor. Berlin'de bu hafta, 16-18 Eylül'de toplanan 7. Yapay Zekâ Müzik Yaratıcılığı Konferansı, "üretken dönüş"ü konu ediyor. Cambridge'in *Organised Sound* dergisinde iki gün önce çıkan bir makale, sanatçının bedensel zanaatını yapay zekâ karşısında savunuyor. Ve San Francisco'daki bir federal mahkemede, tarihte ilk kez bir jüri, yapay zekânın milyarlarca görüntüyle eğitilmesinin sanatçıların haklarını ihlal edip etmediğine karar vermeye hazırlanıyor. Estetik felsefesinin yüzyıllardır tartıştığı sorunlar, yaratıcı niyet, özgünlük, ifade, sanat eserinin kimliği, sanatçının rolü, izleyicinin deneyimi, aynı anda ve aynı masada.
+
+## Özel sayının sorusu: Güzelliğin kaynağı
+
+Jonathan Gilmore ve Sandra Shapshay'in kaleme aldığı ve 3 Eylül'de yayımlanan giriş yazısı, özel sayının çıkış noktasını açıkça ortaya koyuyor: Üretken yapay zekânın sanat pratiklerimize ve estetik dünyamıza nüfuzu hem daha sofistike hem daha opak hâle geldikçe, bu gelişmelerin titiz felsefi çözümlemesine duyulan ihtiyaç da aciliyet kazandı. Editörlerin sıraladığı sorular, tartışmanın haritasını çiziyor: Yapay zekâ gerçek anlamda sanat yaratabilir mi, yoksa insan yaratıcılığının bir aracı mıdır? Üretken yapay zekâ kendi başına bir sanatsal ortam (medium) oluşturabilir mi? Yapay zekâ sistemlerini kendi başlarına yaratıcı olarak anlayabilir miyiz? Yapay zekâ üretimi görüntü ve müziklerin, hangi Netflix dizisini izleyeceğimizden hangi müziği dinleyeceğimize kadar estetik tercihlerimize sızan algoritmaların varoluşsal bir kaygı nedeni olması gerekir mi? Bu üretimlerin kendine özgü estetik özellikleri var mı ve onlara nasıl yaklaşmalıyız? Önemli bir estetik değere sahip olabilirler mi?
+
+Bu soruların ortak paydası, "yapay zekâ güzel resim yapabiliyor mu" sorusunu aşmalarıdır. Güzel resim yapabildiği açık. Mesele, güzelliğin kaynağı hakkında ne düşündüğümüzü yeniden düşünmemizdir.
+
+## Fotoğraf ortaya çıktığında da sanat ölmüştü
+
+Bugünkü tartışmanın tarihini yapay zekâyla başlatmak büyük bir hata olur. 1839'da daguerreotype duyurulduğunda ressam Paul Delaroche'un "bugünden itibaren resim öldü" dediği rivayet edilir; söz muhtemelen uydurmadır, ama kaygı gerçekti. Baudelaire 1859 Salon'u üzerine yazdığı metinde fotoğrafı "sanatın en ölümcül düşmanı" ilan etti. Sonra ne oldu? Resim ölmedi; empresyonizm, kübizm ve soyutlama ile fotoğrafın yapamadığını yapmaya yöneldi. Fotoğrafın kendisi bir sanat oldu.
+
+Aynı örüntü tekrarlandı. Kamera hareketli görüntüyü mümkün kıldığında tiyatronun sonu ilan edildi. Kayıt teknolojileri geliştiğinde "gerçek müzik"in yalnızca konser salonunda var olabileceği düşüncesi sarsıldı; Glenn Gould 1964'te konser sahnesini terk edip stüdyoyu tek sanatsal mekân ilan ettiğinde skandal yarattı. Elektronik müzik, müzisyenin enstrümanla fiziksel ilişkisini yeniden tanımladı; sampling ve hip-hop "orijinal ses" fikrini dönüştürdü; dijital fotoğraf, Photoshop ve CGI, eserin fiziksel gerçeklikle bağını daha da gevşetti.
+
+Yapay zekâ bu dönüşümlerin üzerine yeni bir katman ekliyor, ama bu katmanın farkını doğru adlandırmak gerekir. Makine artık yalnızca eseri kaydetmiyor, çoğaltmıyor ya da değiştirmiyor; eserin biçimsel oluşum sürecine, kompozisyon kararlarına katılıyor. Fotoğraf makinesi kadrajı seçmezdi; üretken model kadrajı, rengi, üslubu ve içeriği aynı anda "önerir". Felsefi kırılma, aracın kararlara katılmasıdır.
+
+## Walter Benjamin bugün yaşasaydı ne sorardı?
+
+Walter Benjamin'in 1935-36'da yazdığı *Teknik Olarak Yeniden Üretilebilirlik Çağında Sanat Yapıtı*, yapay zekâ çağında şaşırtıcı derecede güncel. Benjamin'in meselesi eserin "aura"sıydı: tekilliği, tarihsel konumu, maddi varlığı, "burada ve şimdi" oluşu. Fotoğraf ve sinema bu tekilliği çoğaltılabilir kıldı ve Benjamin'e göre sanatın toplumsal işlevini ritüelden siyasete kaydırdı.
+
+Yapay zekâ başka bir şey yapıyor: Eserin tekilliğini yalnızca çoğaltılabilir değil, hesaplanabilir hâle getiriyor. Bir prompttan yüzlerce farklı görsel, bir melodiden binlerce varyasyon, bir sanatçının üslubunda saniyeler içinde yeni işler. Benjamin'in terimleriyle, artık kopyalanan bir orijinal bile yok; orijinalin yerini, sonsuz sayıda "ilk kez" üretilen örnek alıyor. AIMC 2026'nın çağrı metni bunu "hiper-yeniden üretim" (hyper-reproduction) diye adlandırıyor: Yapay zekâ sistemleri her gün milyonlarca parça üretiyor; müzik artık yalnızca bestelenmiyor ya da doğaçlanmıyor, arayüzler aracılığıyla "türetiliyor" (spawned).
+
+Bu durumda "eser" tek bir nesne olmayabilir. Belki eser, model, veri, prompt, seçim, düzenleme, varyasyonlar ve insanın yaptığı kürasyon arasındaki ilişkinin tamamıdır. Benjamin'in aura kavramını doğrudan buraya taşımak anakronik olur; ama yeniden üretim teknolojilerinin sanatın toplumsal statüsünü değiştirdiği yolundaki temel içgörüsü, yapay zekânın eserin tekilliği ve dolaşımı üzerindeki etkisini düşünmek için hâlâ en güçlü başlangıç noktası. João Pedro Oliveira'nın *Organised Sound*'daki makalesinin Benjamin'in aurasını Adorno'nun fetişizm eleştirisiyle birlikte anması tesadüf değil.
+
+## Danto'nun sorusu: Aynı görünen iki şeyden biri neden sanat?
+
+Yapay zekâ çağında belki de en çok işe yarayan sanat filozofu Arthur Danto'dur. Danto'nun 1964 tarihli "The Artworld" makalesi ve Andy Warhol'un *Brillo Boxes*'ı üzerine düşünceleri şu soruya yoğunlaşır: Bir nesneyi sanat eseri yapan şey yalnızca onun görünüşü müdür? Cevap hayırdır. Warhol'un kutuları ile marketteki Brillo kutuları algısal olarak ayırt edilemez; biri müzededir, öteki depoda. Öyleyse sanatın kimliği görsel özelliklerinden ibaret değildir; Danto'nun deyişiyle "gözün göremediği bir şey", bir sanat kuramı ve sanat tarihi atmosferi, bir "sanat dünyası" gerekir.
+
+Buradan yapay zekâya geçelim ve aynı görüntünün üç versiyonunu düşünelim. Birincisi, bir ressamın otuz yıl boyunca geliştirdiği estetik dilin ürünü. İkincisi, bir kullanıcının yazdığı tek cümlelik prompttan üretildi. Üçüncüsü, bir sistemin tamamen otomatik olarak, kimsenin istemi olmadan oluşturduğu bir çıktı. Görüntüler aynı derecede güzel olabilir. Ama sanat felsefesi açısından aynı şey olmayabilirler, çünkü arkalarındaki tarih, niyet, bağlam ve üretim biçimi farklıdır. Danto'nun "ayırt edilemezler" yöntemi, yapay zekâ sanatı tartışmasını "güzel mi" sorusundan kurtarıp asıl soruya taşır: Bir görüntüyü sanat yapan nedir?
+
+Danto'nun kendi cevabı, "aboutness" ve "embodied meaning" idi: Sanat eseri bir şey hakkındadır ve bu anlamı cisimleştirir. Bir yapay zekâ çıktısı bir şey hakkında olabilir mi? Prompt yazan kişi için evet; sistem için, anlamı olmayan bir olasılık dağılımı için, hayır. Sorun, "hakkında olma"nın kimin zihninde gerçekleştiğidir.
+
+## Peki sanatçı nerede? Barthes ve dağılan yazar
+
+Yapay zekâ bir resim üretmiş olabilir. Ama ona "yağmur altında yalnız bir insanı Edward Hopper ile Japon ukiyo-e arasında bir üslupla çiz" diyen kişi kimdir? Sanatçı mı? Prompt mühendisi mi? Modeli geliştiren şirket mi? Eğitim verisini oluşturan milyonlarca sanatçı mı? Yoksa hiçbiri mi?
+
+Roland Barthes 1967'de "Yazarın Ölümü"nü ilan ettiğinde, metnin anlamını yazarın niyetine bağlayan yaklaşımı sorguluyordu: Metin, "bir kültürün sayısız merkezinden gelen alıntıların dokusudur" ve birliği kaynağında değil, varış noktasında, okurda bulunur. Barthes'ın tezi yarım yüzyıl edebiyat kuramında tartışıldı; yapay zekâ onu tuhaf biçimde harfi harfine gerçekleştirdi. Bir büyük dil modeli ya da görüntü modeli, gerçekten de bir kültürün sayısız merkezinden gelen alıntıların istatistiksel dokusudur. Barthes'ın metaforu, teknik bir betimlemeye dönüştü.
+
+Bir yapay zekâ görselinde modeli yazan mühendis, eğitim verisini sağlayan sanatçılar, promptu yazan kullanıcı, seçimi yapan kullanıcı ve görüntüyü düzenleyen kişi aynı üretim zincirinin parçalarıdır. AIMC 2026'nın çağrısındaki "spektral yazarlık" (spectral authorship) kavramı tam bunu adlandırıyor: Eğitim verisindeki binlerce müzisyenin hayaleti her çıktıda mevcuttur, ama hiçbiri yazar değildir. Bu nedenle yapay zekâ sanatının en büyük felsefi sonucu belki de makinenin sanatçı olması değil, sanatçının tekil bir kişi olmaktan çıkmasıdır.
+
+## Collingwood: Sanat ifade ise makine neyi ifade ediyor?
+
+R. G. Collingwood, *The Principles of Art*'ta (1938) sanat ile zanaat arasında keskin bir ayrım yaptı. Zanaat, önceden bilinen bir amaca bilinen araçlarla ulaşmaktır: Marangoz masayı yapmadan önce nasıl olacağını bilir. Sanat ise bir duygunun ifadesidir ve sanatçı ifade etmeden önce ne ifade edeceğini bilmez; ifade, duygunun bulanıklıktan açıklığa çıkarılmasıdır. Sanatçı, kendi duygusunu keşfeder.
+
+Bu bakış açısından yapay zekâya yöneltilebilecek çok güçlü bir soru var: Yapay zekâ bir duyguyu gerçekten ifade ediyor mu? Bir model "melankolik" bir müzik üretebilir; ama modelin melankoli deneyimi var mı? Bir sistem yas duygusunu çağrıştıran bir görüntü oluşturabilir; ama sistem hiç kimseyi kaybetti mi? Bir model özlem üzerine şarkı yazabilir; ama herhangi bir şeyi özlüyor mu? Collingwood'un terimleriyle yapay zekâ, tanımı gereği zanaattır: Amaç (prompt) önceden bellidir, araç (model) bilinir, çıktı amaca uydurulur. Sanatın koşulu olan keşif yoktur, çünkü keşfedecek bir iç dünya yoktur.
+
+Ama burada estetik değer ile sanatçının yaşantısını birbirinden ayırmamız gerekiyor. Bir eserin dinleyicide gerçek bir duygu uyandırması için sanatçının aynı duyguyu yaşamış olması zorunlu mudur? Bu soruya "evet" dersek yalnızca yapay zekâ sanatını değil, sipariş üzerine yazılmış her ağıtı, her film müziğini, her reklam cıngılını da sanat alanından çıkarmış oluruz. "Hayır" dersek ifade kuramının önemli bir kısmını yeniden düşünmemiz gerekir. Collingwood'un kendisi bu sorunu görmüştü: Ona göre ifade, sanatçının bireysel duygusu kadar, izleyicinin sanatçının hayal gücünü yeniden kurmasıdır. Yapay zekâ çağında yeniden kurulacak bir hayal gücü var mı, sorusu açık kalıyor.
+
+## Beardsley ve niyet yanılgısı: Bugün ölüm yıldönümü
+
+Tam bu noktada takvim bir rastlantı sunuyor. Bugün, 18 Eylül, Amerikan estetiğinin kurucu isimlerinden Monroe Beardsley'nin ölüm yıldönümü (1985). Beardsley'nin W. K. Wimsatt ile 1946'da yazdığı "The Intentional Fallacy", sanatçının niyetini eserin anlamı ve değeri için ölçüt almanın hata olduğunu savunmuştu: Niyet ne ulaşılabilir ne de arzu edilir bir ölçüttür; şiir, yazarın zihninden çıktığı anda kamusal dile aittir; "şiir yazarına ait değildir, doğduğu anda ondan kopar".
+
+Bu argüman, yapay zekâ sanatı için beklenmedik bir sonuç doğuruyor. Eğer Beardsley haklıysa ve bir eseri niyeti hesaba katmadan, yalnızca nesnel özellikleriyle değerlendirmek mümkünse, o zaman niyeti olmayan bir sistemin ürünü, ilkece, niyeti olan bir insanın ürünüyle aynı ölçütlerle değerlendirilebilir. Beardsley'nin *Aesthetics* (1958) kitabındaki üç genel ölçüt, birlik, yoğunluk ve karmaşıklık, bir yapay zekâ çıktısına da uygulanabilir. Niyetçiliğe karşı yetmiş yıl önce kurulan argüman, yapay zekâ sanatının en güçlü savunması hâline geliyor.
+
+Ama Beardsley'nin karşıtları da yapay zekâyla güçleniyor. 1980'lerden bu yana "gerçek niyetçilik" (Noël Carroll) ve "varsayımsal niyetçilik" (Jerrold Levinson) gibi konumlar, eserin anlamının yazarın gerçek ya da makul biçimde varsayılan niyetine bağlı olduğunu savundu. Levinson'ın versiyonu özellikle ilginç: Anlam, "uygun okurun, yazarın niyeti olarak en iyi varsayacağı şey"dir. Bir yapay zekâ çıktısı için uygun okur ne varsayacaktır? Promptu yazan kişinin niyetini mi, sistemin "niyetini" mi, eğitim verisindeki binlerce sanatçının niyetini mi? Danto'nun sorusuna geri dönüyoruz: Anlam, kimin zihninde?
+
+## Dewey: Sanat deneyimdir
+
+John Dewey, *Deneyim Olarak Sanat*'ta (1934) sanatı müzedeki nesneden kurtarmak istemişti: Sanat eseri, fiziksel nesne değil, o nesnenin bir deneyimde yaptığı şeydir; anlam, üretim ile alımlama arasındaki ilişkide ortaya çıkar. Dewey'nin "bir deneyim" (an experience) kavramı, başlangıcı, gelişimi ve tamamlanışı olan, gündelik akıştan ayrılan yoğunlaşmış bir yaşantıyı adlandırır.
+
+Yapay zekâ sanatını Dewey'nin gözünden değerlendirdiğimizde ilginç bir sonuç çıkar: Belki de makinenin sanatçı olup olmadığı, eserin estetik değerini belirleyen tek soru değildir. Bir insanın yapay zekâ üretimi bir müzik parçasını dinleyerek çocukluğunu hatırlaması, yasını işlemesi ya da başka bir insanla bağ kurması, Dewey'nin anlamında gerçek bir estetik deneyim olabilir. Eğer öyleyse, eserin kaynağındaki makinenin bilinçli olup olmaması, eserin insanda yarattığı deneyimi otomatik olarak geçersiz kılmaz. Bu, yapay zekâ sanatını savunmak değildir; "makine bilinçsiz, öyleyse eser sanat değildir" biçimindeki kestirme mantığın felsefi olarak yeterli olmadığını göstermektir. Dewey'nin kendisi, deneyimin niteliğinin üretimin niteliğinden bağımsız olmadığını da eklerdi: Sanatçının malzemeyle mücadelesi, izleyicinin deneyimine sızar. Mücadele yoksa, deneyimde bir şey eksik olabilir.
+
+## Goodman: Eser nerede başlar, nerede biter?
+
+Nelson Goodman, *Languages of Art*'ta (1968) sanat eserlerinin ontolojisi için "otografik" ve "allografik" ayrımını geliştirdi. Resim otografiktir: Eser, belirli bir fiziksel nesnedir ve en kusursuz kopyası bile sahtedir. Müzik allografiktir: Eser bir notasyonla belirlenir ve notasyona uyan her icra eserin gerçek bir örneğidir; sahtecilik kavramı burada anlamsızdır.
+
+Bu ayrım yapay zekâ müziği açısından özellikle önemli. Bir şarkının bestesi, nota dizisi, ses kaydı, vokal performansı, miksajı ve üretim modeli birbirinden farklı ontolojik katmanlar oluşturur. Yapay zekâ üretimi bir parçada eser nerededir? Modelin oluşturduğu melodik yapı mı? Son ses dosyası mı? İnsanın düzenlemesi mi? Modelin ürettiği beş yüz varyasyondan sonra insanın seçtiği beş yüz birinci versiyon mu? Goodman'ın kategorileri burada çöküyor: Yapay zekâ müziği ne otografiktir (tek bir nesne yoktur) ne de allografiktir (notasyon yoktur; prompt bir notasyon değildir, çünkü aynı prompt her seferinde farklı çıktı verir). Belki de yeni bir ontolojik kategoriye ihtiyaç var: Eser, bir üretim olasılığı uzayıdır ve her çıktı bu uzaydan bir örneklemdir. AIMC'nin "üretken bolluk altında tekillik ve üslup" sorusu tam da budur.
+
+## Müzikte devrim daha sessiz ama daha derin
+
+Resim alanında yapay zekâ tartışmaları çok görünür; müzikteki dönüşüm belki daha radikal. Çünkü müzik, kayıt teknolojisi sayesinde uzun zamandır fiziksel icradan ayrılmıştı; bestecinin eseri ile icrası, icra ile kaydı zaten kopmuştu. Yapay zekâ bu zinciri bir adım daha ileri götürüyor: Beste, icra, ses tasarımı ve prodüksiyon aynı sistem içinde, tek bir istemle üretilebilir hâle geliyor.
+
+Berlin'de TU Berlin Ses İletişimi Grubu ve Devlet Müzik Araştırmaları Enstitüsü'nün ev sahipliğinde toplanan AIMC 2026'nın teması, "Üretken Dönüş: Hiper-yeniden üretim çağında dolayımlanmış müzisyenlik", bu dönüşümü doğrudan ele alıyor. Çağrı metninin soruları, felsefi tartışmanın ne kadar ilerlediğini gösteriyor: Yapay zekâ dolayımlı araçlarla müzik üretildiğinde hangi yeni müzisyenlik, dinleme ve yaratıcı faillik biçimleri ortaya çıkıyor? Yaratıcılık, insan sezgisi ile makine kapasitesi arasında dağıtılmış bir şey olarak nasıl anlaşılabilir? Bu sistemler kendi "estetik imzalarını", üretken olduklarını belli eden ayırt edici ses özelliklerini üretiyor mu? Yeni estetik biçimler mi yaratıyorlar, yoksa homojenleşmeye ve üslup düzleşmesine mi yol açıyorlar? Ve konferansın son sorusu, en az felsefi ve en çok politik olanı: Yapay zekâ üretimi müzikten kim kâr ediyor?
+
+Yani müzikte mesele artık "yapay zekâ beste yapabilir mi" değil. Daha önemli soru: Müzisyen olmak ne demektir?
+
+## Adorno bugün yaşasaydı Spotify ile konuşurdu
+
+Theodor W. Adorno'nun kültür endüstrisi eleştirisi, yapay zekâ müziği açısından son derece rahatsız edici sorular doğuruyor. Adorno, Horkheimer'la yazdığı *Aydınlanmanın Diyalektiği*'nde (1947) ve "Müzikte Fetiş Karakteri ve Dinlemenin Gerilemesi" (1938) makalesinde popüler kültürün standartlaşmasını, "sözde bireyselleşme"yi ve dinleyicinin "gerileyen" dinleme alışkanlığını çözümlemişti: Endüstriyel üretim, ürünleri birbirine benzetir; farklılık yalnızca yüzeydedir; dinleyici tanıdığını sevmeye, sevdiğini tanımaya koşullanır.
+
+Yapay zekâ bu tabloya iki zıt ihtimali aynı anda ekliyor. Birinci ihtimal, sonsuz standartlaşma: Algoritmalar insanların en çok dinlediği müzikleri analiz eder, onlara benzeyen müzikler üretir, bu müzikler daha çok dinlenir, sistem yeni üretimleri bu tercihlere göre ayarlar. İnsanların zevki algoritmayı eğitir; algoritma insanların zevkini yeniden eğitir. Bu, Adorno'nun betimlediği geri besleme döngüsünün otomasyonudur; AIMC'nin "homojenleşme ve üslup düzleşmesi" kaygısı, Adorno'nun kaygısının 2026 versiyonudur. İkinci ihtimal, sonsuz çeşitlilik: Aynı teknoloji, bir kişinin hayatı boyunca duyamayacağı kadar farklı müzik biçimi yaratabilir, kültür endüstrisinin tekdüzeliğini artırmak yerine onu parçalayabilir. Paradoks şu: Aynı teknoloji hem estetik tekdüzeliğin hem estetik çoğulluğun aracı olabilir. Hangisinin gerçekleşeceği teknolojinin değil, teknolojiye sahip olanların ve onu kullananların kararıdır. Adorno bunu bilirdi.
+
+## Bir müziği "iyi" yapan nedir? Ayırt edici açıklık
+
+Yapay zekâ müziğinin bizi götürdüğü daha temel bir problem var: estetik değer. Bir yapay zekâ bestesi bir insan bestesinden daha güzel olabilir mi? Elbette olabilir. Ama "güzellik" ile "sanatsal değer" aynı şey midir? Bir parçanın son derece akılda kalıcı olması onun büyük sanat olduğu anlamına gelir mi? Bir tablonun teknik açıdan kusursuz olması onu büyük sanat yapar mı?
+
+JAAC özel sayısında Queen's Üniversitesi'nden Elliot Samuel Paul'un "Appreciating AI Art: Aesthetic Vices, Virtues, and Values" başlıklı makalesi, tam bu soruyu ele alıyor. Paul'a göre yapay zekâ üretimi sanat, estetik yargının iki karakteristik başarısızlığını kışkırtıyor: önyargıya dayalı toptan reddetme ve teknik akıcılığı yaratıcı vizyonla karıştıran eleştirisiz kucaklama. Bunlar birer "estetik kusur"dur (aesthetic vices). Paul, ikisinin arasında bir "estetik erdem" öneriyor: ayırt edici açıklık (discerning openness). Bu erdem, eserin kaynağı hakkındaki bilgiyi yok saymaz, ama onu bir ön yargıya dönüştürmez; esere bakar.
+
+Bu önemli. Çünkü geleceğin sanat eleştirmeni "yapay zekâ yaptı, dolayısıyla kötü" ya da "yapay zekâ yaptı, dolayısıyla devrim" demek yerine daha zor bir iş yapmak zorunda kalacak: eserin kendisine bakmak. Ama Paul'un kendisi de ekliyor: Bakılan şey yalnızca yüzey değildir.
+
+## Ama sanat yalnızca eser değildir
+
+Burada yapay zekâ sanatının en güçlü eleştirilerinden biri ortaya çıkıyor. Bir Van Gogh tablosunu düşündüğümüzde yalnızca renkleri görmeyiz; Van Gogh'un hayatını, hastalığını, dönemini, resim tarihindeki yerini ve eserle kurduğumuz tarihsel ilişkiyi de biliriz. Bu bilgi estetik deneyimimizi değiştirir. Kendall Walton'ın 1970 tarihli "Categories of Art" makalesi bunu kuramlaştırmıştı: Bir eserin estetik özellikleri, onu hangi kategoride algıladığımıza bağlıdır; aynı nesne "resim" olarak bakıldığında başka, "yapay zekâ üretimi" olarak bakıldığında başka özellikler taşır. Kategoriyi bilmek, algıyı değiştirir.
+
+Yapay zekâ eserlerinde bağlam bambaşka. Eser, bir model tarafından, milyonlarca görüntü üzerinde eğitilmiş, çok sayıda sanatçının izlerini taşıyan, bir kullanıcının talimatıyla, saniyeler içinde oluşturulmuş olabilir. Bu üretim biçimi eserin estetik değerini otomatik olarak yok etmez; ama eserin anlamını değiştirir. Walton'ın terimleriyle: "Yapay zekâ üretimi" artık bir sanat kategorisidir ve bu kategoride algılanan bir eserin "cesareti", "ustalığı" ya da "samimiyeti" gibi özellikleri, insan eserindekinden farklı bir anlam taşır. Bir sistemin "cesur" fırça darbesi, cesaret değil, örnekleme sıcaklığıdır.
+
+## "Çalınmış sanat" sorunu: San Francisco'daki jüri
+
+Yapay zekâ sanatının estetik probleminden daha sert bir etik ve hukuki problemi var: eğitim verisi. Bir model milyonlarca sanat eserinden öğreniyorsa, bu eserlerin sahiplerinin rızası var mıydı? Bir sanatçının üslubunu taklit etmek ile eserini kopyalamak arasındaki sınır nerede? Bir müzisyenin sesine benzeyen yeni bir şarkı üretmek ne zaman yaratıcı dönüşüm, ne zaman hak ihlali olur?
+
+Bu sorular bu ay soyut olmaktan çıktı. San Francisco'daki federal mahkemede, ressam Sarah Andersen, Kelly McKernan ve Karla Ortiz'in 2023'te Stability AI, Midjourney, DeviantArt ve Runway'e karşı açtığı dava, 8 Eylül'de başlaması planlanan duruşmayla tarihte ilk kez bir jürinin önüne geldi: Görüntü modellerini internetten kazınmış milyarlarca görselle eğitmek ve bu modeli dağıtmak, görselleri üretilen sanatçıların haklarını ihlal eder mi? Davanın ayrıntılarını bugünkü [Dünya sayfamızda](/haber/andersen-stability-ai-juri-davasi-yapay-zeka-egitim-verisi) ele alıyoruz. Öte yandan ABD Yüksek Mahkemesi mart ayında, yapay zekânın kendi başına ürettiği bir görselin telif hakkı tescilini reddeden kararı gözden geçirmeyi reddetti: Amerikan hukukunda yazar, yalnızca insan olabilir.
+
+Bu iki hukuki gelişme, felsefi tartışmanın iki ucunu işaretliyor. Yüksek Mahkeme'nin dokunmadığı karar, Collingwood'un ve niyetçilerin konumunu hukuka tercüme ediyor: Yazarlık, insan niyetini gerektirir. San Francisco'daki dava ise Barthes'ın ve AIMC'nin "spektral yazarlık" sorusunu soruyor: Modelin içindeki hayaletlerin hakkı var mı? "Özgünlük" kavramı doğrudan üretim biçimine bağlıdır; ve üretim biçimi, ilk kez, bir jürinin önünde.
+
+## Yapay zekâ sanatçıların düşmanı mı, yeni enstrümanı mı?
+
+İki kolay cevap var. Birincisi: "Yapay zekâ sanatçıları yok edecek." İkincisi: "Yapay zekâ sadece yeni bir araç; hiçbir şey değişmedi." İkisi de yetersiz. Çünkü tarih, teknolojik araçların yalnızca sanatçının elindeki araçları değil, sanatçının ne olduğunu da değiştirdiğini gösteriyor. Fotoğraf ressamı, kayıt teknolojisi müzisyeni, sinematografi oyuncuyu, elektronik müzik besteciyi, bilgisayar grafik tasarımcısını değiştirdi.
+
+Yapay zekâ ise belki ilk kez sanatçının üretim kararlarının bir bölümünü makineye devrediyor. Bu nedenle fırçanın ya da synthesizer'ın daha gelişmiş bir versiyonu değil; birlikte üretim ortağı, varyasyon makinesi, eleştirmen, simülatör ve bazen rakip olarak aynı anda davranan bir sistemdir.
+
+## Oliveira'nın üçüncü yolu: Bedensel zanaat
+
+16 Eylül'de *Organised Sound*'da yayımlanan makalesinde besteci ve kuramcı João Pedro Oliveira, yapay zekâyı ne "özerk yaratıcı özne" ne de "iş gücünü azaltan araç" olarak ele alıyor. Oliveira'ya göre yapay zekâ, sanatçının malzemelerini düşünmesine, denemesine ve dönüştürmesine izin veren bir modeller, olanaklar ve kısıtlar alanıdır. Makale, zekâyı verimlilik, üretkenlik ve ekonomik değeri olan işin otomasyonuyla özdeşleştiren ticari anlatılara karşı, "bedensel zanaat zekâsı"nın, pratik içinde geliştirilen örtük, tarihsel olarak konumlanmış, algısal ve etik bilginin süregelen merkeziliğini savunuyor. Leo Apostel'in model kuramından, Gibson'ın "olanaklar" (affordances) kavramından, Polanyi'nin örtük bilgisinden, Benjamin'in aurasından ve Adorno'nun fetişizm eleştirisinden yararlanan Oliveira, insan-yapay zekâ etkileşimi için eleştirel, geri beslemeye dayalı bir anlayış öneriyor: "Serendipik keşif" ile "şablona dayalı üretim"i ayırıyor ve sanatçının sorumluluğunun, makine çıktılarının ne zaman "anlamlı sapmalar", ne zaman "baştan çıkarıcı kestirmeler" olduğuna karar vermekte yattığını söylüyor.
+
+Makalenin ana tezi, bu tartışmanın belki de en verimli üçüncü yolunu açıyor: Yapay zekâ, ancak sanatsal yargının yerine geçen bir şey olarak kabul edilmek yerine, tartışılabilir bir araç olarak görünür tutulduğunda sanatsal değer kazanır. Sanattaki geleceği, teknolojinin üretken gücüne değil, sanatçıların giderek otomatikleşen kültürel altyapılar içinde yavaş algıyı, tarihsel belleği, eleştiriyi ve sorumluluğu koruyup koruyamayacağına bağlıdır. Yapay zekâ sanatçı değildir; ama yalnızca fırça da değildir. Sanatsal sürecin yapısını değiştiren yeni bir ortamdır.
+
+## Heidegger'in teknoloji sorusu
+
+Martin Heidegger, "Teknik Üzerine Soru"da (1953) teknolojiyi yalnızca araç olarak görmenin yetersiz olduğunu savunmuştu: Teknoloji bir "açığa çıkarma" biçimidir; modern teknolojinin özü olan Gestell (çerçeveleme), dünyayı bize "hazır kaynak" (Bestand) olarak açar. Ren Nehri, şiirdeki nehir olmaktan çıkıp hidroelektrik santralin su basıncı olur; orman, kereste stoku.
+
+Peki yapay zekâ dünyayı nasıl açığa çıkarıyor? Sanat söz konusu olduğunda yapay zekâ bize dünyayı üslup olarak, örüntü olarak, veri olarak ve yeniden birleştirilebilir biçim olarak gösterir. Bir insan sanatçı "bu manzarayı nasıl hissediyorum" diye sorarken, algoritmik sistem "bu görsel özelliklerle hangi biçimler istatistiksel olarak üretilebilir" diye çalışır. Heidegger'in terimleriyle: Sanat tarihinin tamamı, eğitim verisi olarak "hazır kaynak"a dönüşmüştür. Van Gogh'un ayakkabıları, Heidegger'in 1935'te üzerine yazdığı o tablo, artık bir üslup vektörüdür. Bu ikisi birbirinin alternatifi olmak zorunda değildir; ama aynı şey de değildir. Ve Heidegger'in uyarısı, Gestell'in tehlikesinin teknolojinin kendisinde değil, onun tek açığa çıkarma biçimi hâline gelmesinde olduğuydu. Sitemizde daha önce [Heidegger'in teknoloji sorgusunu](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) yapay zekâ bağlamında ele almıştık.
+
+## İnsan sesi neden hâlâ direniyor?
+
+Yapay zekâ teknik olarak kusursuz vokaller üretebilir. Ama insan sesinin kültürel ve bedensel anlamı, frekans ve tınıdan ibaret değildir. İnsan sesi yaşlanır, yorulur, çatlar, nefes alır, hata yapar. Ve bazen tam da bu kusurlar müziğin anlamını yaratır. Bir şarkıcının sesinin kırılması, matematiksel olarak "hata" olabilir; estetik olarak eserin en güçlü anı olabilir. Roland Barthes'ın 1972 tarihli "Sesin Tanesi" (Le grain de la voix) denemesi bunu adlandırmıştı: Sesin "tanesi", şarkı söyleyen bedenin dildeki maddi izidir; teknik mükemmellikte değil, bedenin varlığında duyulur. Yapay zekânın kusursuzluğu bu nedenle otomatik olarak sanatsal üstünlük anlamına gelmez, çünkü sanatta kusur bazen anlamdır. Oliveira'nın "bedensel zanaat" savunusu, Barthes'ın "tane"sinin 2026'daki yankısıdır.
+
+## Peki yapay zekâ gerçekten yaratıcı olabilir mi? Üç cevap
+
+Bu soruya üç farklı cevap verilebilir.
+
+Güçlü insan-merkezci cevap: Hayır. Yaratıcı olmak için bilinç, niyet, yaşantı ve dünyayla ilişkili bir özne olmak gerekir. Bu yaklaşım Collingwood'la, ifade kuramlarıyla ve Amerikan telif hukukuyla uyumludur. Zayıf noktası, "niyet"in kendisinin felsefede tartışmalı bir kavram olması ve Beardsley'nin argümanının hâlâ ayakta durmasıdır.
+
+İşlevsel cevap: Belki. Margaret Boden'ın 1990'dan bu yana geliştirdiği tanıma göre yaratıcılık, yeni, şaşırtıcı ve değerli fikirler ya da yapıtlar üretme yeteneğidir; Boden bunun "kombinasyonel", "keşifsel" ve "dönüştürücü" türlerini ayırır. Bu tanımda bilinç geçmez. Yapay zekâ, kombinasyonel ve keşifsel yaratıcılıkta açıkça yeteneklidir; dönüştürücü yaratıcılık, yani kavramsal uzayın kurallarını değiştirmek, tartışmalıdır. Bu yaklaşım yapay zekânın üretim kapasitesine daha fazla alan açar, ama "değerli" ölçütünün kim tarafından uygulandığı sorusunu açık bırakır.
+
+Sistemik cevap: Yaratıcılık zaten hiçbir zaman yalnızca tek bir kişinin kafasında gerçekleşmedi. Sanatçı gelenekten, dilden, toplumdan, teknik araçlardan, diğer sanatçılardan ve kültürel hafızadan beslenir; Mihaly Csikszentmihalyi'nin sistem modelinde yaratıcılık, birey, alan (domain) ve o alanın kapı bekçileri (field) arasındaki etkileşimin ürünüdür. Bu durumda yapay zekâ da yaratıcı sistemin bir parçası olabilir; AIMC'nin "dağıtılmış faillik" kavramı buna karşılık gelir. Fakat bu üçüncü yaklaşım bizi başka bir soruya götürür: Yaratıcılık bireysel bir yetenek olmaktan çıkıp dağıtık bir süreç hâline geliyorsa, sorumluluk ve hak da dağılıyor mu?
+
+## Belki de yapay zekâ sanatın sonu değil, romantik sanatçı fikrinin sonudur
+
+Modern kültürde sanatçıyı çoğu zaman şöyle düşündük: tek başına çalışan, iç dünyasından özgün bir eser çıkaran dahi. Bu, on sekizinci yüzyıl sonunda, Young'ın *Conjectures on Original Composition*'ı (1759) ve Kant'ın deha kuramıyla (1790) kurulan, Romantiklerin yücelttiği bir fikirdir; Kant'a göre deha, "doğanın sanata kural verdiği yetenek"tir ve kuralını kendisi bilmez.
+
+Oysa sanat tarihi bunun hiçbir zaman tam anlamıyla böyle olmadığını gösteriyor. Mozart, çağının biçimlerinden ve babasının öğrettiklerinden beslendi. Picasso, Afrika maskelerini ve Cézanne'ı dönüştürdü. Warhol reklam kültürünü sanatın içine taşıdı; Duchamp hazır nesneyi sanat alanına soktu ve "sanatçı yalnızca seçer" dedi. Hip-hop, sampling'i estetik bir yönteme dönüştürdü. Rönesans atölyelerinde ustanın imzasını taşıyan tablonun büyük kısmını çıraklar boyardı; Rubens'in "eli" bir işletmeydi. Bugün yapay zekâ, kültürel malzemelerin yeniden birleştirilmesini yeni bir seviyeye taşıyor. Bu nedenle yapay zekâ sanatının belki de en büyük felsefi sonucu şudur: Sanatçıyı öldürmeyebilir; ama "sanatçı" kelimesini, Romantiklerin yüklediği anlamdan kurtarıp Duchamp'ın anlamına, seçen, çerçeveleyen, sorumluluk alan kişiye geri götürebilir.
+
+## Son soru: Bir makine sanat yaptığında biz ne öğreniyoruz?
+
+Belki de yapay zekânın sanat üzerindeki en önemli etkisi, makinelerin sanat yapabilmesi değil, insanların sanat hakkında ne düşündüğünü açığa çıkarmasıdır. Yapay zekâ bizi şunu sormaya zorluyor: Bir eser, sevdiğimiz için mi değerlidir? Sanatçının niyeti yüzünden mi? Tarihsel bağlamı nedeniyle mi? Teknik becerisi nedeniyle mi? İçerdiği duygudan dolayı mı? Toplum üzerindeki etkisi nedeniyle mi? Yoksa bütün bunların birleşiminden mi?
+
+Bu soruların hiçbirinin kolay bir cevabı yok. Ama sanat felsefesinin görevi zaten kolay cevaplar vermek değil. JAAC'ın özel sayısı, Berlin'deki konferans, Oliveira'nın makalesi ve San Francisco'daki jüri, aynı şeyi farklı dillerde söylüyor: Yapay zekâ sanat dünyasına girdiğinde sanat ortadan kalkmayacak; sanat hakkında konuşma biçimimiz değişecek. Ve belki de önümüzdeki yıllarda müzelerde yeni bir etiket göreceğiz: "Bu eseri kim yaptı?" Etiketin hemen altında ise daha zor olanı: "Bunu neden sanat olarak görüyoruz?" Yapay zekânın sanat felsefesine gerçek meydan okuması burada başlıyor. Beardsley'nin yetmiş yıl önce sorduğu soru, niyeti olmayan bir şeyi niyetsiz değerlendirebilir miyiz, ölümünün kırk birinci yılında ilk kez gerçekten sorulmuş oluyor.`,
+  },
   {
     title: "Tractatus 2026 Maria-Sibylla Lotter'e: 'Kurban' kavramının yükselişini soğukkanlılıkla çözümleyen bir deneme ödüllendirildi",
     slug: "tractatus-odulu-2026-maria-sibylla-lotter-opfer",
@@ -30971,6 +31479,116 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Lacan Today Conference 2026 — Gent",
+    slug: "lacan-today-gent-2026",
+    summary:
+      "Gent Üniversitesi Lacancı Psikanaliz Merkezi'nin (CLaP) konferansı: Lacancı psikanaliz klinik, felsefe, eleştirel kuram ve sanatla diyalogda. Ana konuşmacılar Jamieson Webster, Stijn Vanheule, Isabel Millar, Darian Leader, Derek Hook, Bracha L. Ettinger. 18-19 Eylül 2026.",
+    description: `Konferans, Lacancı psikanalizle klinik psikoloji, psikiyatri, felsefe, beşeri bilimler, eleştirel kuram, sanat ve sanat pratikleri arasında titiz bir diyalog için ortak bir platform sunmayı amaçlıyor; çağdaş toplumsal sorunlar (kapitalizm, şiddet, dijitalleşme, ekolojik kriz) bağlamında Lacancı kavramların güncel kullanımlarını tartışıyor.
+
+**Ana konuşmacılar:** Jamieson Webster, Stijn Vanheule, Isabel Millar, Darian Leader, Derek Hook, Bracha L. Ettinger.
+
+Program, kayıt ve pratik bilgiler konferans sitesinde.`,
+    kind: "KONFERANS",
+    speakers: "Jamieson Webster, Stijn Vanheule, Isabel Millar, Darian Leader, Derek Hook, Bracha L. Ettinger",
+    organizer: "Center for Lacanian Psychoanalysis (CLaP), Ghent University",
+    topic: "Psikanaliz, Lacan, eleştirel kuram",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-18T07:00:00.000Z",
+    endsAt: "2026-09-19T16:00:00.000Z",
+    timezone: "Europe/Brussels",
+    hasTime: false,
+    city: "Gent",
+    country: "Belçika",
+    venue: "Ghent University",
+    registrationUrl: "https://lacantodayconference.ugent.be/Registration.html",
+    website: "https://lacantodayconference.ugent.be/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Aula%20UGent.jpg?width=1600",
+    sourceName: "Ghent University",
+    sourceUrl: "https://lacantodayconference.ugent.be/",
+    featured: false,
+    publishedAt: "2026-09-18T02:10:00.000Z",
+  },
+  {
+    title: "Philosophica II — Words and Language (Lublin)",
+    slug: "philosophica-ii-words-and-language-lublin-2026",
+    summary:
+      "Maria Curie-Skłodowska Üniversitesi Felsefe Enstitüsü'nün dil felsefesi konferansı: ifadelerin doğası, anlam ve doğal dil. Konuşmacılar Matti Eklund, Luca Gasparri, J. T. M. Miller, Julia Zakkou. 17-18 Eylül 2026, Lublin.",
+    description: `Bu yılki Philosophica toplantısının teması sözcükler ve dil: ifadelerin doğası, anlam ve geniş anlamda doğal dil üzerine felsefi çalışmalar.
+
+**Konuşmacılar:** Matti Eklund (Uppsala), Luca Gasparri (CNRS), James (J. T. M.) Miller (Durham), Julia Zakkou (Heinrich Heine Üniversitesi Düsseldorf).
+
+**Yer:** Felsefe Enstitüsü, Maria Curie-Skłodowska Üniversitesi, pl. Marii Curie-Skłodowskiej 4, Lublin.`,
+    kind: "KONFERANS",
+    speakers: "Matti Eklund, Luca Gasparri, J. T. M. Miller, Julia Zakkou",
+    organizer: "Institute of Philosophy, Maria Curie-Skłodowska University",
+    topic: "Dil felsefesi, anlam, sözcükler",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-17T07:00:00.000Z",
+    endsAt: "2026-09-18T16:00:00.000Z",
+    timezone: "Europe/Warsaw",
+    hasTime: false,
+    city: "Lublin",
+    country: "Polonya",
+    venue: "Institute of Philosophy, UMCS",
+    website: "https://philevents.org/event/show/144322",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lublin%20UMCS%20(wydzia%C5%82%20humanistyczny)%20i%20Akademia%20Rolnicza.jpg?width=1600",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/144322",
+    featured: false,
+    publishedAt: "2026-09-18T02:10:00.000Z",
+  },
+  {
+    title: "EENPS 2026 — Doğu Avrupa Bilim Felsefesi Ağı Altıncı Konferansı (Bükreş)",
+    slug: "eenps-2026-bukres",
+    summary:
+      "East European Network for Philosophy of Science'ın altıncı iki yıllık konferansı Bükreş Üniversitesi'nde: fizik bilimleri, biyoloji ve tıp, sosyal bilimler ve bilişsel bilimler felsefesi. 18-19 Eylül 2026.",
+    description: `Bilim felsefesinin bütün alanlarından bildiri ve sempozyumlar: fizik bilimleri felsefesi, biyoloji ve tıp bilimleri felsefesi, sosyal bilimler felsefesi, bilişsel bilimler felsefesi ve genel bilim felsefesi. Program ve kayıt bilgileri Sciencesconf sayfasında.`,
+    kind: "KONFERANS",
+    organizer: "East European Network for Philosophy of Science · University of Bucharest",
+    topic: "Bilim felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-18T07:00:00.000Z",
+    endsAt: "2026-09-19T16:00:00.000Z",
+    timezone: "Europe/Bucharest",
+    hasTime: false,
+    city: "Bükreş",
+    country: "Romanya",
+    venue: "University of Bucharest",
+    website: "https://eenps2026.sciencesconf.org/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Exterior%20of%20the%20University%20Building%20in%20Bucharest%20(02).jpg?width=1600",
+    sourceName: "EENPS",
+    sourceUrl: "https://eenps2026.sciencesconf.org/",
+    featured: false,
+    publishedAt: "2026-09-18T02:10:00.000Z",
+  },
+  {
+    title: "AIMC 2026 — 7. Yapay Zekâ Müzik Yaratıcılığı Konferansı (Berlin)",
+    slug: "aimc-2026-berlin",
+    summary:
+      "The Generative Turn: Mediated Musicianship in a Hyper-reproductive Age. TU Berlin Ses İletişimi Grubu ve Devlet Müzik Araştırmaları Enstitüsü'nün ev sahipliğinde bildiriler, atölyeler ve konserler. 16-18 Eylül 2026, Berlin.",
+    description: `**Tema:** Üretken Dönüş — hiper-yeniden üretim çağında dolayımlanmış müzisyenlik. Yapay zekâ sistemleri her gün milyonlarca parça üretirken müzik artık yalnızca bestelenmiyor, arayüzler aracılığıyla "türetiliyor". Konferans bu dönüşümü hem teknik altyapı hem kültürel dönüşüm olarak ele alıyor: yeni müzisyenlik ve dinleme biçimleri, dağıtılmış yaratıcılık, üretken sistemlerin estetik imzaları, homojenleşme sorusu, platform altyapıları, veri seti politikası ve rıza, "spektral yazarlık", pedagoji.
+
+**Ev sahipleri:** Audio Communication Group (TU Berlin) ve Staatliches Institut für Musikforschung; konferans Müzik Enstrümanları Müzesi'nin yakınında. Bildiriler, lightning talk'lar, atölyeler ve konserler.`,
+    kind: "KONFERANS",
+    organizer: "TU Berlin Audio Communication Group · Staatliches Institut für Musikforschung",
+    topic: "Yapay zekâ ve müzik, hesaplamalı yaratıcılık",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-16T07:00:00.000Z",
+    endsAt: "2026-09-18T18:00:00.000Z",
+    timezone: "Europe/Berlin",
+    hasTime: false,
+    city: "Berlin",
+    country: "Almanya",
+    venue: "Staatliches Institut für Musikforschung / TU Berlin",
+    registrationUrl: "https://aimc2026.org/registration",
+    website: "https://aimc2026.org/home",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Musikinstrumentenmuseum%2001.jpg?width=1600",
+    sourceName: "AIMC 2026",
+    sourceUrl: "https://aimc2026.org/home",
+    featured: false,
+    publishedAt: "2026-09-18T02:10:00.000Z",
+  },
   {
     title: "29. Philosophicum Lech — Betreutes Denken. Die neue Lust an der Unmündigkeit",
     slug: "philosophicum-lech-2026",
