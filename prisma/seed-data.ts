@@ -2704,6 +2704,55 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "24 Eylül: Cardano'nun doğumu ve Paracelsus'un ölümü — Rönesans'ın iki asi hekimi",
+    slug: "felsefe-tarihinde-bugun-24-eylul-cardano-paracelsus",
+    summary:
+      "Gerolamo Cardano 1501'de bugün Pavia'da doğdu: Cebirde negatif ve sanal sayıları kabul eden, kumar masasında olasılık düşüncesini başlatan, kendi yıldız falını yorumlayıp Engizisyon'a düşen hekim-matematikçi. Paracelsus 1541'de bugün Salzburg'da öldü: Basel'de İbn Sînâ'nın Kanun'unu yakan, 'dozu zehir yapar' diyen, insanı evrenin mikrokozmosu sayan simyacı-filozof.",
+    seoTitle: "Felsefe tarihinde bugün, 24 Eylül: Gerolamo Cardano (1501) ve Paracelsus (ö. 1541)",
+    metaDescription:
+      "24 Eylül'de felsefe tarihi: Gerolamo Cardano'nun doğumu (1501) — Ars Magna, sanal sayılar, olasılık ve otobiyografisi; Paracelsus'un ölümü (1541) — Basel kitap yakma, mikrokozmos-makrokozmos, toksikoloji ve Rönesans doğa felsefesi.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Paracelsus.jpg?width=1600",
+    imageCredit: "Paracelsus · Quentin Massys'e atfedilen portrenin kopyası (17. yüzyıl), Louvre · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · MacTutor · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/paracelsus/",
+    publishedAt: "2026-09-24T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ronesans", "bilim-felsefesi", "islam-felsefesi", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Paracelsus", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/paracelsus/", primary: true },
+      { title: "Girolamo Cardano", publisher: "MacTutor History of Mathematics, University of St Andrews", url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/" },
+      { title: "Girolamo Cardano | Italian physician and mathematician", publisher: "Britannica", url: "https://www.britannica.com/biography/Girolamo-Cardano" },
+      { title: "Paracelsus | Biography, Philosophy, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/Paracelsus" },
+    ],
+    content: `24 Eylül, felsefe takviminde Rönesans'ın iki asi hekimini yan yana getiriyor. Biri bugün doğdu, öteki bugün öldü; ikisi de tıbbı, matematiği, simyayı ve felsefeyi tek bir hayatta birleştirdi; ikisi de otoriteyle çatıştı; ve ikisi de modern bilimin doğuşunda, ders kitaplarının "bilimsel devrim" anlatısına sığmayan bir yer tuttu.
+
+## 1501: Gerolamo Cardano
+
+Gerolamo Cardano, 24 Eylül 1501'de Pavia'da, Leonardo da Vinci'nin dostu olan hukukçu ve matematikçi Fazio Cardano'nun gayrimeşru oğlu olarak doğdu; annesi onu doğmadan düşürmeye çalışmıştı ve Cardano bunu otobiyografisine yazdı. Pavia ve Padova'da tıp okudu; gayrimeşru doğumu yüzünden Milano Hekimler Koleji'ne uzun süre alınmadı, geçimini kumarla sağladı. 1539'dan itibaren koleje kabul edildi ve Avrupa'nın en aranan hekimlerinden oldu; 1552'de İskoçya'ya çağrılıp St Andrews Başpiskoposu John Hamilton'ı astımdan tedavi etti.
+
+Bugün en çok cebirle anılıyor. 1545'te yayımladığı *Ars Magna* ("Büyük Sanat"), üçüncü ve dördüncü dereceden denklemlerin genel çözümlerini içeriyordu; üçüncü derece çözümünü Niccolò Tartaglia'dan gizli tutma sözüyle almış, Scipione del Ferro'nun daha önce bulduğunu öğrenince yayımlamıştı, ve bu, matematik tarihinin en ünlü öncelik kavgasını doğurdu. Kitap, Avrupa'da negatif sayıları sistemli olarak kullanan ve negatif sayıların kareköklerini, sonradan "sanal sayılar" denecek nicelikleri, "incelikli ama yararsız" diyerek de olsa hesaba katan ilk metindir. Kumar üzerine yazdığı *Liber de ludo aleae* ("Şans Oyunları Kitabı"), ölümünden sonra 1663'te basıldı ve olasılığın ilk sistematik incelemesi sayılır: Cardano, elverişli sonuçların bütün sonuçlara oranını hesaplamış, büyük sayılar yasasının bir öncülünü sezmişti, Pascal ve Fermat'dan bir yüzyıl önce.
+
+Felsefe için Cardano'nun önemi başka yerde: *De subtilitate* (1550) ve *De rerum varietate* (1557), Rönesans doğa felsefesinin en çok okunan ansiklopedik eserleriydi; Julius Caesar Scaliger'in *De subtilitate*'ye yazdığı devasa reddiye, on altıncı yüzyılın büyük felsefi polemiklerinden biridir. Cardano, ruhun ölümsüzlüğü üzerine yazdı, rüyaları yorumladı, İsa'nın yıldız falını çıkardığı için 1570'te Engizisyon tarafından tutuklandı ve ders verme ile yayımlama hakkını kaybetti. Son yıllarında Roma'da papalık emekli maaşıyla yaşadı ve *De vita propria* ("Kendi Hayatım", 1576) adlı otobiyografisini yazdı: Montaigne'den önce, kendi kusurlarını, kumar tutkusunu, oğlunun karısını zehirlediği için idam edilişini, kendi bedeninin hastalıklarını acımasız bir dürüstlükle anlatan, modern öznelliğin ilk belgelerinden bir kitap. 21 Eylül 1576'da Roma'da öldü; kendi yıldız falının öngördüğü günde ölmek için kendini aç bıraktığı söylentisi, Cardano efsanesinin son parçası.
+
+## 1541: Paracelsus
+
+Philippus Aureolus Theophrastus Bombastus von Hohenheim, kendine verdiği adla Paracelsus ("Celsus'un ötesinde"), 24 Eylül 1541'de Salzburg'da, kırk yedi yaşında, kendisini şehre davet eden Prens-Başpiskopos'un himayesinde öldü; ölümünden üç gün önce vasiyetini yazdırmıştı, mezarı Salzburg'daki St. Sebastian Kilisesi'nde. 1493'te İsviçre'nin Einsiedeln kasabasında bir hekimin oğlu olarak doğmuştu; Ferrara'da tıp okuduğu sanılıyor, sonra bir gezgin olarak Avrupa'yı, kendi anlatımına göre Rusya'dan Mısır'a kadar, dolaştı; madenlerde, savaş alanlarında, hamamlarda öğrendi.
+
+1527'de Basel'de şehir hekimi ve üniversitede hoca olarak atandı; derslerini Latince değil Almanca verdi, akademik cübbe yerine simyacı önlüğü giydi ve Aziz Yuhanna Günü'nde, üniversitenin önünde, öğrencilerin yaktığı ateşe İbn Sînâ'nın *Kanun*'unu attı; efsaneye göre Galenos'un kitapları da ateşteydi. Jest, bin yıllık tıp otoritesine meydan okumaydı: Hastalık, Galenos'un öğrettiği gibi dört sıvının dengesizliği değil, dışarıdan gelen ve belirli organları hedef alan özgül bir "tohum"dur; tedavi de kitaplarla değil, doğayı okumakla, madenlerle ve deneyle bulunur. Bir yıl sonra Basel'den kaçmak zorunda kaldı ve hayatının geri kalanını gezerek geçirdi.
+
+Felsefesi, Rönesans Neoplatonculuğu ile Alman mistisizminin ve pratik simyanın karışımıdır. İnsan, evrenin mikrokozmosudur; makrokozmosta olan her şey insanda da vardır ve sağlık, ikisi arasındaki uyumdan doğar. Madde, Aristoteles'in dört unsuru yerine üç ilkeden oluşur: kükürt (yanabilirlik), cıva (uçuculuk) ve tuz (katılık); simyanın amacı altın yapmak değil ilaç hazırlamaktır ve bu görüşle Paracelsus, iyatrokimyanın, kimyasal tıbbın kurucusu oldu. "Her şey zehirdir, zehir olmayan hiçbir şey yoktur; yalnızca doz bir şeyi zehir olmaktan çıkarır" cümlesi, modern toksikolojinin mottosu. Madencilerin hastalıkları üzerine yazdığı kitap, ilk meslek hastalıkları incelemesi; "sempati" ve "imzalar öğretisi" (doğadaki her şeyin, neye iyi geldiğini biçimiyle gösterdiği) ise büyüsel düşüncenin son büyük sistemi. Foucault, *Kelimeler ve Şeyler*'de on altıncı yüzyıl epistemesini, benzerliğin bilgisini, tam da bu "imzalar" üzerinden anlatır.
+
+Paracelsus'un mirası çelişkili: Bir yandan gözlem ve deney vurgusu, kimyasal ilaçlar, dozun önemi; öte yandan astroloji, cinler, büyü. Modern bilim tarihçiliği, Walter Pagel'den bu yana, ikisinin birbirinden ayrılamayacağını gösterdi: Bilimsel devrim, büyüden temizlenmiş bir akıldan değil, Paracelsus gibi figürlerin karışık dünyasından çıktı. Goethe'nin Faust'u kısmen ona dayanır; Jung, *Paracelsica*'da onu bilinçdışının ilk kâşiflerinden saydı. Sitemizde [Faraday'ı anarken](/haber/felsefe-tarihinde-bugun-22-eylul-blanchot-gorz-faraday) doğa felsefesinin "alan" kavramına geçişini yazmıştık; Paracelsus, o geçişin öncesindeki dünyanın, benzerlikler ve tohumlar dünyasının, en büyük sesidir.
+
+## Bir not: Lech'te yarın
+
+Yarın akşam, 25 Eylül, Lech am Arlberg'de 2026 Tractatus Ödülü Maria-Sibylla Lotter'e veriliyor; ödülü, gerekçesini ve Lotter'in *Opfer* kitabını [17 Eylül'de ayrıntılı ele almıştık](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer). Philosophicum Lech'in bu haftaki programı da [Konferanslar sayfamızda](/haber/philosophicum-lech-2026-betreutes-denken).`,
+  },
+  {
     title: "Güvenlik Konseyi 'kontrol kaybı'nı konuşuyor: Bengio, Altman, Amodei ve Delangue bugün New York'ta",
     slug: "bm-guvenlik-konseyi-yapay-zeka-brifingi-bengio-altman-amodei-delangue",
     summary:
