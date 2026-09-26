@@ -9,7 +9,7 @@ import { PhilosopherAvatar } from "@/components/philosopher-card";
 import { PhilosopherProfile } from "@/components/philosopher-profile";
 import { getBooksByPhilosopher, getPhilosopherBySlug, getPosts } from "@/lib/queries";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 type Props = { params: Promise<{ slug: string }> };
 

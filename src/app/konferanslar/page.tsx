@@ -7,7 +7,7 @@ import { EventCard } from "@/components/event-card";
 import { SectionHeading } from "@/components/section-heading";
 import { getPastEvents, getPosts, getUpcomingEvents } from "@/lib/queries";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 export const metadata: Metadata = {
   title: "Konferanslar",

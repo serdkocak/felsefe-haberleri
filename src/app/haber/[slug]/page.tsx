@@ -16,7 +16,8 @@ import { TagPill } from "@/components/tag-pill";
 import { getPostBySlug, getRelatedPosts } from "@/lib/queries";
 import { formatDate, readingTime } from "@/lib/utils";
 
-export const dynamic = "force-dynamic";
+// Sayfa 10 dakika önbellekte kalır (ISR); veri katmanı da ayrıca önbellekli.
+export const revalidate = 600;
 
 type Props = { params: Promise<{ slug: string }> };
 

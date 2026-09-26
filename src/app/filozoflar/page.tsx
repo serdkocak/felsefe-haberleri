@@ -4,7 +4,7 @@ import { Container } from "@/components/container";
 import { PhilosopherCard } from "@/components/philosopher-card";
 import { getPhilosophers } from "@/lib/queries";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 export const metadata: Metadata = {
   title: "Filozoflar",

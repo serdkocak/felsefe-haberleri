@@ -1,4 +1,4 @@
-import { jsonError, jsonOk } from "@/lib/api";
+import { PUBLIC_CACHE, jsonError, jsonOk } from "@/lib/api";
 import { getPostBySlug, getRelatedPosts } from "@/lib/queries";
 import { toApiPostDetail, toApiPostSummary } from "@/lib/serializers";
 
@@ -24,7 +24,7 @@ export async function GET(
 
     const related = await getRelatedPosts(post.slug, post.category.slug, 3);
 
-    return jsonOk(toApiPostDetail(post), { related: related.map(toApiPostSummary) });
+    return jsonOk(toApiPostDetail(post), { related: related.map(toApiPostSummary) }, PUBLIC_CACHE);
   } catch (error) {
     console.error("GET /api/posts/[slug]", error);
     return jsonError("INTERNAL_ERROR", "Haber getirilemedi.", 500);

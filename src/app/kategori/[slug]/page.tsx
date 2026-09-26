@@ -7,7 +7,7 @@ import { Container } from "@/components/container";
 import { Pagination } from "@/components/pagination";
 import { getCategories, getCategoryBySlug, getPosts, getTags } from "@/lib/queries";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 type Props = {
   params: Promise<{ slug: string }>;

@@ -1,4 +1,4 @@
-import { jsonError, jsonOk } from "@/lib/api";
+import { PUBLIC_CACHE, jsonError, jsonOk } from "@/lib/api";
 import { getBooksByPhilosopher, getPhilosopherBySlug, getPosts } from "@/lib/queries";
 import { toApiBook, toApiPhilosopherDetail, toApiPostSummary } from "@/lib/serializers";
 
@@ -22,10 +22,14 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
       getBooksByPhilosopher(slug),
     ]);
 
-    return jsonOk(toApiPhilosopherDetail(philosopher, pagination.total), {
-      posts: posts.map(toApiPostSummary),
-      books: books.map(toApiBook),
-    });
+    return jsonOk(
+      toApiPhilosopherDetail(philosopher, pagination.total),
+      {
+        posts: posts.map(toApiPostSummary),
+        books: books.map(toApiBook),
+      },
+      PUBLIC_CACHE,
+    );
   } catch (error) {
     console.error("GET /api/philosophers/[slug]", error);
     return jsonError("INTERNAL_ERROR", "Filozof getirilemedi.", 500);

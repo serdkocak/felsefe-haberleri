@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 
+import { Analytics } from "@/components/analytics";
 import { Footer } from "@/components/footer";
 import { SiteHeader } from "@/components/site-header";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -40,6 +41,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     // suppressHydrationWarning: next-themes tema sınıfını istemcide eklediği için gerekli.
     <html lang="tr" suppressHydrationWarning className={`${sans.variable} ${serif.variable}`}>
+      <head>
+        <Analytics />
+      </head>
       <body className="flex min-h-screen flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <ThinkerBanner />

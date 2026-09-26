@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 
-import { jsonError, jsonOk } from "@/lib/api";
+import { PUBLIC_CACHE, jsonError, jsonOk } from "@/lib/api";
 import { getPhilosophers } from "@/lib/queries";
 import { toApiPhilosopherWithCount } from "@/lib/serializers";
 
@@ -16,7 +16,11 @@ export async function GET(request: NextRequest) {
     const onlyFeatured = request.nextUrl.searchParams.get("featured") === "true";
     const philosophers = await getPhilosophers({ onlyFeatured });
 
-    return jsonOk(philosophers.map(toApiPhilosopherWithCount), { count: philosophers.length });
+    return jsonOk(
+      philosophers.map(toApiPhilosopherWithCount),
+      { count: philosophers.length },
+      PUBLIC_CACHE,
+    );
   } catch (error) {
     console.error("GET /api/philosophers", error);
     return jsonError("INTERNAL_ERROR", "Filozoflar getirilemedi.", 500);

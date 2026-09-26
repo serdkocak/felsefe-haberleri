@@ -15,6 +15,16 @@ export type ApiError = {
   error: { code: string; message: string };
 };
 
+/**
+ * Salt okunur GET uçları için yanıt başlıkları: Vercel'in kenar önbelleği (CDN)
+ * yanıtı 10 dakika saklar, sonraki 1 saat eskisini verirken arkada tazeler.
+ * Böylece aynı isteğe her seferinde fonksiyon çalıştırılıp veritabanına gidilmez.
+ * Yazma uçlarında (abone, mesaj, yorum) KULLANILMAZ.
+ */
+export const PUBLIC_CACHE: ResponseInit = {
+  headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" },
+};
+
 export function jsonOk<T>(
   data: T,
   meta?: Record<string, unknown>,

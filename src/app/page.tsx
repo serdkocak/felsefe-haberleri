@@ -22,8 +22,8 @@ import {
 } from "@/lib/queries";
 import { formatDate } from "@/lib/utils";
 
-// Haber sitesi: içerik her istekte tazelenir.
-export const dynamic = "force-dynamic";
+// İçerik 10 dakikalık aralıklarla tazelenir; sorgular lib/queries.ts'te önbellekli.
+export const revalidate = 600;
 
 export default async function HomePage({
   searchParams,

@@ -137,7 +137,115 @@ async function main() {
   );
 
   /* 5) Haberler ---------------------------------------------------- */
+
+  /*
+   * Değişmeyen haberi yeniden yazmıyoruz.
+   *
+   * Eskiden her yayında 300'ü aşkın haber baştan yazılıyordu (upsert + kaynak
+   * silme/ekleme); bu 10 dakikayı aşıyor ve Neon'un compute kotasını yiyordu.
+   * Şimdi veritabanındaki hâl tek sorguyla okunur, her haber için bir "parmak izi"
+   * çıkarılır ve yalnızca parmak izi değişen ya da yeni olan haber yazılır.
+   * Emin olunamayan her durumda yazmaya düşülür; yani en kötü ihtimalle eski
+   * davranışa dönülür, hiçbir değişiklik kaçırılmaz.
+   */
+  const fingerprintSeed = (post: (typeof posts)[number]) =>
+    JSON.stringify({
+      title: post.title,
+      summary: post.summary,
+      content: post.content,
+      seoTitle: post.seoTitle ?? null,
+      metaDescription: post.metaDescription ?? null,
+      contentType: post.contentType ?? "HABER",
+      coverImage: post.coverImage ?? null,
+      imageCredit: post.imageCredit ?? null,
+      featured: post.featured,
+      sourceName: post.sourceName ?? null,
+      sourceUrl: post.sourceUrl ?? null,
+      publishedAt: post.publishedAt ? new Date(post.publishedAt).toISOString() : null,
+      authorSlug: post.authorSlug,
+      categorySlug: post.categorySlug,
+      tagSlugs: [...post.tagSlugs].sort(),
+      philosopherSlugs: [...post.philosopherSlugs].sort(),
+      sources: (post.sources ?? []).map((s) => ({
+        title: s.title,
+        publisher: s.publisher ?? null,
+        date: s.date ?? null,
+        url: s.url,
+        primary: s.primary ?? false,
+      })),
+    });
+
+  const unchanged = new Set<string>();
+  try {
+    const existing = await prisma.post.findMany({
+      select: {
+        slug: true,
+        title: true,
+        summary: true,
+        content: true,
+        seoTitle: true,
+        metaDescription: true,
+        contentType: true,
+        coverImage: true,
+        imageCredit: true,
+        featured: true,
+        sourceName: true,
+        sourceUrl: true,
+        publishedAt: true,
+        author: { select: { slug: true } },
+        category: { select: { slug: true } },
+        tags: { select: { slug: true } },
+        philosophers: { select: { slug: true } },
+        sources: {
+          orderBy: { order: "asc" },
+          select: { title: true, publisher: true, date: true, url: true, primary: true },
+        },
+      },
+    });
+
+    const existingBySlug = new Map(
+      existing.map((row) => [
+        row.slug,
+        JSON.stringify({
+          title: row.title,
+          summary: row.summary,
+          content: row.content,
+          seoTitle: row.seoTitle,
+          metaDescription: row.metaDescription,
+          contentType: row.contentType,
+          coverImage: row.coverImage,
+          imageCredit: row.imageCredit,
+          featured: row.featured,
+          sourceName: row.sourceName,
+          sourceUrl: row.sourceUrl,
+          publishedAt: row.publishedAt ? row.publishedAt.toISOString() : null,
+          authorSlug: row.author.slug,
+          categorySlug: row.category.slug,
+          tagSlugs: row.tags.map((t) => t.slug).sort(),
+          philosopherSlugs: row.philosophers.map((p) => p.slug).sort(),
+          sources: row.sources.map((s) => ({
+            title: s.title,
+            publisher: s.publisher,
+            date: s.date,
+            url: s.url,
+            primary: s.primary,
+          })),
+        }),
+      ]),
+    );
+
+    for (const post of posts) {
+      if (existingBySlug.get(post.slug) === fingerprintSeed(post)) unchanged.add(post.slug);
+    }
+    console.log(`   · Haberler: ${unchanged.size}/${posts.length} değişmemiş, atlanıyor.`);
+  } catch (error) {
+    // Karşılaştırma başarısızsa hepsini yazmaya düş; içerik kaybı olmaz.
+    console.warn("   … Mevcut haberler okunamadı, hepsi yazılacak:", (error as Error).message.split("\n")[0]);
+  }
+
   await step("Haberler", posts, (p) => p.slug, async (post) => {
+    if (unchanged.has(post.slug)) return;
+
     // `sources` bir ilişki tablosudur; aşağıda ayrıca yazılır, veri nesnesine karışmaz.
     const { authorSlug, categorySlug, tagSlugs, philosopherSlugs, publishedAt, sources, ...rest } =
       post;

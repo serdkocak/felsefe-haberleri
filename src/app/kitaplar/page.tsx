@@ -4,7 +4,7 @@ import { BookCard } from "@/components/book-card";
 import { Container } from "@/components/container";
 import { getBooks } from "@/lib/queries";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600;
 
 export const metadata: Metadata = {
   title: "Kitaplar",

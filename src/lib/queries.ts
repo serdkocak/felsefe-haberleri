@@ -1,5 +1,7 @@
 import "server-only";
 
+import { unstable_cache } from "next/cache";
+
 import { prisma } from "@/lib/prisma";
 import type {
   BookSummary,
@@ -17,6 +19,70 @@ import type {
 /** Varsayılan sayfa boyutu ve üst sınır (API'nin kötüye kullanılmasını engeller). */
 export const DEFAULT_PAGE_SIZE = 9;
 export const MAX_PAGE_SIZE = 50;
+
+/* ------------------------------------------------------------------ */
+/* Veri önbelleği                                                      */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Okuma sorguları 10 dakika önbelleğe alınır.
+ *
+ * Neden: Sitenin her sayfası her ziyarette veritabanına gidiyordu; bot ve
+ * tarayıcı trafiği hem Vercel'in işlemci kotasını hem Neon'un compute kotasını
+ * tüketiyordu (Eylül 2026'da ikisi de sınıra dayandı). Aynı sorgu aynı
+ * parametrelerle 10 dakika içinde tekrar gelirse veritabanına gidilmez.
+ *
+ * Yeni içerik nasıl görünür? Her yayında (deploy) önbellek sıfırlanır; ayrıca
+ * süre dolunca ilk istek veriyi tazeler. Yani bir haber en geç 10 dakika içinde
+ * sitede görünür; yayın sonrasında hemen görünür.
+ *
+ * Not: Önbellek JSON'a çevirerek saklar, Date alanları metne döner. Aşağıdaki
+ * `reviveDates` bilinen tarih alanlarını geri Date yapar; bileşenler ve API
+ * serileştiricileri `toISOString()` çağırdığı için bu gerekli.
+ */
+const CACHE_SECONDS = 600;
+
+const DATE_KEYS = new Set([
+  "publishedAt",
+  "updatedAt",
+  "createdAt",
+  "startsAt",
+  "endsAt",
+  "deadline",
+  "cfpDeadline",
+]);
+
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/;
+
+function reviveDates<T>(value: T): T {
+  if (Array.isArray(value)) {
+    return value.map((item) => reviveDates(item)) as unknown as T;
+  }
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [key, item] of Object.entries(value as Record<string, unknown>)) {
+      if (DATE_KEYS.has(key) && typeof item === "string" && ISO_DATE.test(item)) {
+        out[key] = new Date(item);
+      } else {
+        out[key] = reviveDates(item);
+      }
+    }
+    return out as T;
+  }
+  return value;
+}
+
+/** Bir okuma fonksiyonunu önbellekli sürümüyle sarar; anahtar, ad + argümanlardan üretilir. */
+function cached<A extends unknown[], R>(
+  name: string,
+  fn: (...args: A) => Promise<R>,
+): (...args: A) => Promise<R> {
+  const inner = unstable_cache(fn, ["queries", name], {
+    revalidate: CACHE_SECONDS,
+    tags: ["content"],
+  });
+  return async (...args: A) => reviveDates(await inner(...args));
+}
 
 /** Yalnızca yayımlanmış haberler: publishedAt dolu ve geçmişte. */
 const publishedFilter = () => ({
@@ -59,7 +125,7 @@ const bookSelect = {
  * Sayfalanmış haber listesi. Kategori, etiket, filozof, editör ve arama filtrelerini destekler.
  * Hem site sayfaları hem de `/api/posts` bu fonksiyonu kullanır.
  */
-export async function getPosts(options: PostQueryOptions = {}): Promise<Paginated<PostListItem>> {
+async function getPostsRaw(options: PostQueryOptions = {}): Promise<Paginated<PostListItem>> {
   const page = Math.max(1, Math.floor(options.page ?? 1));
   const limit = Math.min(MAX_PAGE_SIZE, Math.max(1, Math.floor(options.limit ?? DEFAULT_PAGE_SIZE)));
 
@@ -105,13 +171,14 @@ export async function getPosts(options: PostQueryOptions = {}): Promise<Paginate
     },
   };
 }
+export const getPosts = cached("getPosts", getPostsRaw);
 
 /**
  * Manşet slider'ındaki haberler.
  * Öne çıkarılmış haberler yeterli değilse en yeni haberlerle tamamlanır,
  * böylece slider hiçbir zaman boş kalmaz.
  */
-export async function getFeaturedPosts(take = 5): Promise<PostListItem[]> {
+async function getFeaturedPostsRaw(take = 5): Promise<PostListItem[]> {
   const featured = await prisma.post.findMany({
     where: { ...publishedFilter(), featured: true },
     select: listSelect,
@@ -130,9 +197,10 @@ export async function getFeaturedPosts(take = 5): Promise<PostListItem[]> {
 
   return [...featured, ...fillers];
 }
+export const getFeaturedPosts = cached("getFeaturedPosts", getFeaturedPostsRaw);
 
 /** Ana sayfa manşeti. featured yoksa en yeni habere düşer. */
-export async function getFeaturedPost(): Promise<PostListItem | null> {
+async function getFeaturedPostRaw(): Promise<PostListItem | null> {
   const featured = await prisma.post.findFirst({
     where: { ...publishedFilter(), featured: true },
     select: listSelect,
@@ -147,9 +215,10 @@ export async function getFeaturedPost(): Promise<PostListItem | null> {
     orderBy: { publishedAt: "desc" },
   });
 }
+export const getFeaturedPost = cached("getFeaturedPost", getFeaturedPostRaw);
 
 /** Tek haber (Markdown gövdesiyle). Bulunamazsa null döner. */
-export async function getPostBySlug(slug: string): Promise<PostDetail | null> {
+async function getPostBySlugRaw(slug: string): Promise<PostDetail | null> {
   return prisma.post.findFirst({
     where: { slug, ...publishedFilter() },
     select: {
@@ -169,9 +238,10 @@ export async function getPostBySlug(slug: string): Promise<PostDetail | null> {
     },
   });
 }
+export const getPostBySlug = cached("getPostBySlug", getPostBySlugRaw);
 
 /** Aynı kategoriden, o haber hariç en yeni birkaç haber. */
-export async function getRelatedPosts(slug: string, categorySlug: string, take = 3): Promise<PostListItem[]> {
+async function getRelatedPostsRaw(slug: string, categorySlug: string, take = 3): Promise<PostListItem[]> {
   return prisma.post.findMany({
     where: { ...publishedFilter(), slug: { not: slug }, category: { slug: categorySlug } },
     select: listSelect,
@@ -179,9 +249,10 @@ export async function getRelatedPosts(slug: string, categorySlug: string, take =
     take,
   });
 }
+export const getRelatedPosts = cached("getRelatedPosts", getRelatedPostsRaw);
 
 /** Tüm kategoriler + yayımlanmış haber sayıları (navigasyon ve /api/categories). */
-export async function getCategories(): Promise<CategoryWithCount[]> {
+async function getCategoriesRaw(): Promise<CategoryWithCount[]> {
   const rows = await prisma.category.findMany({
     orderBy: [{ order: "asc" }, { name: "asc" }],
     select: {
@@ -195,26 +266,30 @@ export async function getCategories(): Promise<CategoryWithCount[]> {
 
   return rows.map(({ _count, ...category }) => ({ ...category, postCount: _count.posts }));
 }
+export const getCategories = cached("getCategories", getCategoriesRaw);
 
-export async function getCategoryBySlug(slug: string) {
+async function getCategoryBySlugRaw(slug: string) {
   return prisma.category.findUnique({
     where: { slug },
     select: { id: true, name: true, slug: true, description: true },
   });
 }
+export const getCategoryBySlug = cached("getCategoryBySlug", getCategoryBySlugRaw);
 
 /** Etiket bulutu için en çok kullanılan etiketler. */
-export async function getTags(take = 24): Promise<TagSummary[]> {
+async function getTagsRaw(take = 24): Promise<TagSummary[]> {
   return prisma.tag.findMany({
     orderBy: { posts: { _count: "desc" } },
     select: { id: true, name: true, slug: true },
     take,
   });
 }
+export const getTags = cached("getTags", getTagsRaw);
 
-export async function getTagBySlug(slug: string) {
+async function getTagBySlugRaw(slug: string) {
   return prisma.tag.findUnique({ where: { slug }, select: { id: true, name: true, slug: true } });
 }
+export const getTagBySlug = cached("getTagBySlug", getTagBySlugRaw);
 
 /* ------------------------------------------------------------------ */
 /* Filozoflar                                                          */
@@ -231,7 +306,7 @@ const philosopherSelect = {
 } as const;
 
 /** Filozof listesi; `onlyFeatured` ana sayfadaki şerit için kullanılır. */
-export async function getPhilosophers(
+async function getPhilosophersRaw(
   options: { onlyFeatured?: boolean; take?: number } = {},
 ): Promise<PhilosopherWithCount[]> {
   const rows = await prisma.philosopher.findMany({
@@ -247,8 +322,9 @@ export async function getPhilosophers(
 
   return rows.map(({ _count, ...philosopher }) => ({ ...philosopher, postCount: _count.posts }));
 }
+export const getPhilosophers = cached("getPhilosophers", getPhilosophersRaw);
 
-export async function getPhilosopherBySlug(slug: string): Promise<PhilosopherDetail | null> {
+async function getPhilosopherBySlugRaw(slug: string): Promise<PhilosopherDetail | null> {
   return prisma.philosopher.findUnique({
     where: { slug },
     select: {
@@ -274,27 +350,30 @@ export async function getPhilosopherBySlug(slug: string): Promise<PhilosopherDet
     },
   });
 }
+export const getPhilosopherBySlug = cached("getPhilosopherBySlug", getPhilosopherBySlugRaw);
 
 /** Bir filozofun kitapları (profil sayfası). */
-export async function getBooksByPhilosopher(slug: string): Promise<BookSummary[]> {
+async function getBooksByPhilosopherRaw(slug: string): Promise<BookSummary[]> {
   return prisma.book.findMany({
     where: { philosopher: { slug } },
     orderBy: [{ year: "desc" }, { title: "asc" }],
     select: bookSelect,
   });
 }
+export const getBooksByPhilosopher = cached("getBooksByPhilosopher", getBooksByPhilosopherRaw);
 
 /* ------------------------------------------------------------------ */
 /* Kitaplar                                                            */
 /* ------------------------------------------------------------------ */
 
-export async function getBooks(take?: number): Promise<BookSummary[]> {
+async function getBooksRaw(take?: number): Promise<BookSummary[]> {
   return prisma.book.findMany({
     orderBy: [{ year: "desc" }, { createdAt: "desc" }],
     take,
     select: bookSelect,
   });
 }
+export const getBooks = cached("getBooks", getBooksRaw);
 
 /* ------------------------------------------------------------------ */
 /* Etkinlikler (Konferanslar)                                          */
@@ -336,7 +415,7 @@ const publishedEventFilter = () => ({ publishedAt: { not: null, lte: new Date() 
  * Yaklaşan etkinlikler — bugünü de kapsar.
  * Çok günlü etkinliklerde bitiş tarihi geçmediyse etkinlik hâlâ "yaklaşan" sayılır.
  */
-export async function getUpcomingEvents(take?: number): Promise<EventItem[]> {
+async function getUpcomingEventsRaw(take?: number): Promise<EventItem[]> {
   const now = new Date();
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
@@ -350,9 +429,10 @@ export async function getUpcomingEvents(take?: number): Promise<EventItem[]> {
     select: eventSelect,
   });
 }
+export const getUpcomingEvents = cached("getUpcomingEvents", getUpcomingEventsRaw);
 
 /** Geçmiş etkinlikler — arşiv olarak listelenir, silinmez. */
-export async function getPastEvents(take = 20): Promise<EventItem[]> {
+async function getPastEventsRaw(take = 20): Promise<EventItem[]> {
   const now = new Date();
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
@@ -366,26 +446,30 @@ export async function getPastEvents(take = 20): Promise<EventItem[]> {
     select: eventSelect,
   });
 }
+export const getPastEvents = cached("getPastEvents", getPastEventsRaw);
 
-export async function getEventBySlug(slug: string): Promise<EventItem | null> {
+async function getEventBySlugRaw(slug: string): Promise<EventItem | null> {
   return prisma.event.findFirst({
     where: { slug, ...publishedEventFilter() },
     select: eventSelect,
   });
 }
+export const getEventBySlug = cached("getEventBySlug", getEventBySlugRaw);
 
 /* ------------------------------------------------------------------ */
 /* SEO                                                                 */
 /* ------------------------------------------------------------------ */
 
 /** sitemap için tüm yayımlanmış slug'lar. */
-export async function getAllPostSlugs(): Promise<string[]> {
+async function getAllPostSlugsRaw(): Promise<string[]> {
   const rows = await prisma.post.findMany({ where: publishedFilter(), select: { slug: true } });
   return rows.map((row) => row.slug);
 }
+export const getAllPostSlugs = cached("getAllPostSlugs", getAllPostSlugsRaw);
 
-export async function getAllPhilosopherSlugs(): Promise<string[]> {
+async function getAllPhilosopherSlugsRaw(): Promise<string[]> {
   // Site haritasına yalnızca onaylı filozoflar girer.
   const rows = await prisma.philosopher.findMany({ where: { listed: true }, select: { slug: true } });
   return rows.map((row) => row.slug);
 }
+export const getAllPhilosopherSlugs = cached("getAllPhilosopherSlugs", getAllPhilosopherSlugsRaw);

@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 
-import { jsonError, jsonOk, readInt } from "@/lib/api";
+import { PUBLIC_CACHE, jsonError, jsonOk, readInt } from "@/lib/api";
 import { DEFAULT_PAGE_SIZE, getPosts } from "@/lib/queries";
 import { toApiPostSummary } from "@/lib/serializers";
 
@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
       search: searchParams.get("q") ?? undefined,
     });
 
-    return jsonOk(items.map(toApiPostSummary), { pagination });
+    return jsonOk(items.map(toApiPostSummary), { pagination }, PUBLIC_CACHE);
   } catch (error) {
     console.error("GET /api/posts", error);
     return jsonError("INTERNAL_ERROR", "Haberler getirilemedi.", 500);
