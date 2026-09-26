@@ -2704,6 +2704,141 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "27 Eylül: Bossuet'nin doğumu, Cizvitlerin kuruluşu ve tarihin Tanrı'nın planı olarak okunması",
+    slug: "felsefe-tarihinde-bugun-27-eylul-bossuet-cizvitler",
+    summary:
+      "Jacques-Bénigne Bossuet 1627'de bugün Dijon'da doğdu: Meaux Piskoposu, Güneş Kral'ın vaizi, mutlak monarşinin ilahi hakkını ve tarihin Tanrı'nın planı olduğunu savunan 'Evrensel Tarih Üzerine Söylem'in yazarı; Fénelon'la kavgası, Voltaire'in ve Hegel'in tarih felsefesinin karşı kutbu. Aynı gün 1540'ta Papa III. Paulus Cizvit tarikatını onayladı.",
+    seoTitle: "Felsefe tarihinde bugün, 27 Eylül: Bossuet (1627), Cizvitlerin onayı (1540)",
+    metaDescription:
+      "27 Eylül'de felsefe tarihi: Jacques-Bénigne Bossuet'nin doğumu (1627) — Evrensel Tarih Üzerine Söylem, ilahi hak, Fénelon tartışması; Cizvit tarikatının papalık onayı (1540) ve skolastiğin ikinci baharı.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/1698%20-%20Jacques-B%C3%A9nigne%20Bossuet%20(Florence).jpg?width=1600",
+    imageCredit: "Jacques-Bénigne Bossuet · Hyacinthe Rigaud'nun 1698 tarihli portresi (Uffizi, Floransa) · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Britannica · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://www.britannica.com/biography/Jacques-Benigne-Bossuet",
+    publishedAt: "2026-09-27T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "siyaset-felsefesi", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Jacques-Bénigne Bossuet | French bishop and author", publisher: "Britannica", url: "https://www.britannica.com/biography/Jacques-Benigne-Bossuet", primary: true },
+      { title: "Philosophy of History", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/history/" },
+      { title: "Ignatius of Loyola and the founding of the Jesuits", publisher: "Britannica", url: "https://www.britannica.com/topic/Jesuits" },
+    ],
+    content: `27 Eylül, felsefe takviminde on yedinci yüzyıl Fransa'sının en güçlü sesini ve on altıncı yüzyılın en etkili kurumunu bir araya getiriyor: Tarihi Tanrı'nın planı olarak okuyan piskopos ile o piskoposun da yetiştiği okulların kurucusu olan tarikat.
+
+## 1627: Jacques-Bénigne Bossuet
+
+Jacques-Bénigne Bossuet, 27 Eylül 1627'de Dijon'da, parlamento hukukçularından bir ailede doğdu. Dijon'daki Cizvit kolejinde ve Paris'te Navarre Koleji'nde okudu; 1652'de rahip oldu ve ilahiyat doktorası aldı. Metz'de yedi yıl vaizlik yaptı, 1659'da Paris'e döndü ve kısa sürede krallığın en ünlü hatibi oldu: Kraliçe Henriette-Marie ve Madame Henriette için verdiği cenaze vaazları (*Oraisons funèbres*), Fransız nesrinin doruklarından sayılır. 1670'te XIV. Louis'nin oğlu Dauphin'in eğitmenliğine atandı; 1681'de Meaux Piskoposu oldu ve ölümüne (12 Nisan 1704) kadar "Meaux Kartalı" olarak Fransız Kilisesi'nin fiilî sözcüsü olarak kaldı.
+
+Felsefe tarihine iki eserle girdi. *Evrensel Tarih Üzerine Söylem* (1681), Dauphin için yazılmış, yaratılıştan Charlemagne'a uzanan bir tarih anlatısı: Bossuet'ye göre tarih, Tanrı'nın kilisesini korumak için imparatorlukları yükseltip devirdiği bir "takdir-i ilahi" sahnesidir; olayların "ikincil nedenleri" vardır, ama nihai neden Tanrı'nın planıdır. Kitap, Augustinus'un *Tanrı Devleti*'nin son büyük devamı ve modern tarih felsefesinin karşı kutbudur: Voltaire, *Ulusların Töreleri Üzerine Deneme*'yi (1756) doğrudan Bossuet'ye cevap olarak yazdı, tarihi Tanrı'dan değil insanlardan ve iklimden hareketle anlattı. Hegel'in tarih felsefesi ise, tuhaf biçimde, Bossuet'nin yapısını sekülerleştirir: Aklın hilesi, takdir-i ilahinin felsefi biçimidir. Löwith'in *Tarihte Anlam*'daki (1949) tezi, modern ilerleme fikrinin Hıristiyan eskatolojisinin sekülerleşmesi olduğu, Bossuet'yi bu soykütüğün son teolojik halkası yapar.
+
+İkinci eser, ölümünden sonra 1709'da basılan *Kutsal Kitap'ın Sözlerinden Çıkarılan Siyaset*: Krallık iktidarının Tanrı'dan geldiğini, kralın yalnızca Tanrı'ya hesap vereceğini ve tebaanın direnme hakkı olmadığını savunan, "kralların ilahi hakkı" öğretisinin en sistematik Fransız ifadesi. Bossuet'nin mutlakıyetçiliği, Hobbes'unkinden farklı olarak, sözleşmeye değil Kutsal Kitap'a dayanır; ama kralı da "keyfî" değil "mutlak" yönetimle sınırlar: Kral yasanın üstündedir, ama aklın ve Tanrı'nın değil. 1685'te Nantes Fermanı'nın kaldırılmasını ve Huguenot'lara baskıyı savundu; 1690'larda Fénelon'la "sessizlik" (quiétisme) tartışmasında, Madame Guyon'un saf sevgi mistisizmine karşı Roma'yı kendi tarafına çekti ve Fénelon'un *Maximes des saints*'inin 1699'da mahkûm edilmesini sağladı. Bu kavga, Fransız düşüncesinde kurum ile iç deneyim, otorite ile mistisizm arasındaki çatışmanın klasik örneği olarak kaldı.
+
+Bossuet bugün bir filozof olarak değil, modern felsefenin kendini ona karşı tanımladığı figür olarak okunuyor: Aydınlanma'nın "tarih"i, Bossuet'nin "takdir"inin yerine konmuştur. Ama Löwith'in ve Blumenberg'in tartışmasının gösterdiği gibi, yerine konan şeyin ne kadar yeni olduğu hâlâ açık bir soru. Geçen hafta [Philosophicum Lech'in](/haber/philosophicum-lech-2026-betreutes-denken) "ergin olmama" temasını ele alırken Kant'ın Aydınlanma tanımını anmıştık; Bossuet, Kant'ın "kendi suçuyla düşülmüş ergin olmama" dediği şeyin en zeki savunucusudur: Tebaanın kendi aklını siyasette kullanmaması, ona göre bir eksiklik değil, düzenin koşuludur.
+
+## 1540: Cizvitler
+
+27 Eylül 1540'ta Papa III. Paulus, *Regimini militantis Ecclesiae* fermanıyla Ignatius Loyola'nın ve altı arkadaşının kurduğu İsa Cemiyeti'ni onayladı. Felsefe tarihi için sonuçları büyük oldu: Cizvit kolejleri, Avrupa'nın en yaygın ve en sistemli eğitim ağını kurdu; Descartes La Flèche'te, Voltaire Louis-le-Grand'da, Bossuet Dijon'da Cizvitlerin öğrencisiydi. *Ratio Studiorum* (1599), Aristoteles felsefesi ile Tomist teolojiyi standart bir müfredata bağladı; Coimbra'daki Cizvit yorumcular (Conimbricenses) ve Francisco Suárez, Descartes'ın ve Leibniz'in içinde yetiştiği "ikinci skolastiği" yarattı. [25 Eylül takviminde](/haber/felsefe-tarihinde-bugun-25-eylul-suarez-faulkner-gould) andığımız Suárez'in ölümü ile bugünkü kuruluş yıldönümü, aynı hikâyenin iki ucu: Tarikat, modern felsefenin hem hocası hem de en sık saldırdığı hedef oldu. Pascal'ın *Taşra Mektupları*, Cizvit kazuistiğine karşı yazılmıştı; Kant'ın "kazuistik sorular"ı ise, itiraf etmese de, aynı gelenekten geliyordu.
+
+## Öteki isimler
+
+Ressam **Edgar Degas**, 27 Eylül 1917'de Paris'te öldü; hareketi durdurmak yerine hareketin içindeki anı yakalamaya çalışan resimleri, Bergson'un "süre" kavramıyla aynı yıllarda ve aynı şehirde doğdu. Bu yakınlık rastlantı değil: Empresyonizm ile Bergsonculuk, on dokuzuncu yüzyıl sonunun aynı sorusuna, zamanın nasıl deneyimlendiğine, iki farklı dilde verilen cevaplardır.`,
+  },
+  {
+    title: "26 Eylül: Heidegger'in doğumu ve Benjamin'in Portbou'daki ölümü — yirminci yüzyılın iki ucu",
+    slug: "felsefe-tarihinde-bugun-26-eylul-heidegger-benjamin-eliot",
+    summary:
+      "Martin Heidegger 1889'da bugün Meßkirch'te doğdu; Walter Benjamin 1940'ta bugün, Pireneler'i yaya geçtikten sonra İspanya sınırındaki Portbou'da, Gestapo'ya teslim edilme korkusuyla morfin alarak öldü. Aynı gün T. S. Eliot (1888) ve Ivan Pavlov (1849) doğdu. Bir günde felsefenin iki karşıt kaderi.",
+    seoTitle: "Felsefe tarihinde bugün, 26 Eylül: Martin Heidegger (1889), Walter Benjamin (ö. 1940), T. S. Eliot, Pavlov",
+    metaDescription:
+      "26 Eylül'de felsefe tarihi: Martin Heidegger'in doğumu (1889), Walter Benjamin'in Portbou'daki ölümü (1940), T. S. Eliot'ın (1888) ve Ivan Pavlov'un (1849) doğumları.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Walter%20Benjamin%20vers%201928.jpg?width=1600",
+    imageCredit: "Walter Benjamin, 1928 dolayları · Kimlik fotoğrafı, fotoğrafçı bilinmiyor · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/benjamin/",
+    publishedAt: "2026-09-26T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "fenomenoloji", "elestirel-teori", "estetik", "teknoloji-felsefesi"],
+    philosopherSlugs: ["martin-heidegger"],
+    sources: [
+      { title: "Walter Benjamin", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/benjamin/", primary: true },
+      { title: "Martin Heidegger", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/heidegger/" },
+      { title: "T. S. Eliot", publisher: "Britannica", url: "https://www.britannica.com/biography/T-S-Eliot" },
+      { title: "Ivan Pavlov", publisher: "Britannica", url: "https://www.britannica.com/biography/Ivan-Pavlov" },
+    ],
+    content: `26 Eylül, yirminci yüzyıl felsefesinin iki karşıt kaderini aynı güne sığdırıyor. 1889'da bugün, Kara Orman'ın kıyısındaki Meßkirch'te bir zangoçun oğlu doğdu ve yüzyılın en etkili, en tartışmalı filozofu oldu; 1940'ta bugün, Pireneler'in İspanya tarafındaki Portbou'da bir Berlinli Yahudi eleştirmen, kaçış yolu kapandığında hayatına son verdi. Biri Nazi Partisi'ne üye oldu ve 1976'ya kadar yaşadı; öteki Nazilerden kaçarken kırk sekiz yaşında öldü. İkisi de aynı soruyu sordu: Modern dünyada deneyim hâlâ mümkün mü?
+
+## 1889: Martin Heidegger
+
+Martin Heidegger, 26 Eylül 1889'da Meßkirch'te, Katolik bir zangoç ve fıçıcının oğlu olarak doğdu. Cizvit olmak istedi, sağlığı elvermedi; Freiburg'da teoloji, sonra felsefe okudu, Husserl'in asistanı oldu. *Varlık ve Zaman* (1927), Batı felsefesinin Platon'dan beri "varlık sorusu"nu unuttuğunu ileri sürdü ve soruyu, kendi varlığı kendisi için mesele olan varolan üzerinden, Dasein'ın "dünyada olma"sı, kaygısı, ölüme doğru varlığı ve zamansallığı üzerinden yeniden açtı. Kitap yarım kaldı, ama fenomenolojiyi, varoluşçuluğu, hermeneutiği ve yapısöküm sonrası düşünceyi belirledi. 1933'te Freiburg rektörü ve Nazi Partisi üyesi oldu; rektörlük konuşması ve 2014'ten itibaren yayımlanan *Kara Defterler*'deki antisemit pasajlar, mirasının ayrılmaz parçası olarak tartışılmaya devam ediyor. Savaş sonrası "dönüş"ü, tekniği dünyayı "hazır kaynak" olarak açığa çıkaran bir çerçeve (Gestell) olarak düşünmesi, şiiri ve "bırakılmışlığı" (Gelassenheit), 26 Mayıs 1976'da öldüğünde arkasında yüz ciltlik bir külliyat ve çözülmemiş bir soru bıraktı: Büyük bir düşünce, düşünürünün siyasal suçundan ayrılabilir mi? Sitemizde [Heidegger'in teknoloji sorgusunu](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) yapay zekâ bağlamında ele almıştık; Filozof Dizini'ndeki [kaydı](/filozof/martin-heidegger) da orada.
+
+## 1940: Walter Benjamin, Portbou
+
+Walter Benjamin, 26 Eylül 1940 gecesi, İspanya'nın Fransa sınırındaki Portbou kasabasında, Fonda de Francia otelinin bir odasında, yanında taşıdığı morfin tabletlerinin büyük bir dozunu alarak öldü; ertesi sabah bulundu. Kırk sekiz yaşındaydı. 1933'te Berlin'den Paris'e kaçmış, Fransa'nın düşüşünden sonra Lourdes'a, oradan Marsilya'ya inmiş, ABD vizesi almış ama Fransa'dan çıkış izni alamamıştı. 25 Eylül'de Lisa Fittko'nun rehberliğinde, kalp hastası bedeniyle, on dakika yürüyüp bir dakika dinlenerek Pireneler'i yaya aştı; sırtında, içindekini kimsenin bilmediği ağır bir siyah çanta vardı. Portbou'da İspanyol polisi, o gün yürürlüğe giren yeni bir kuralla, transit vizesi olmayanların Fransa'ya iade edileceğini, yani Gestapo'ya teslim edileceğini bildirdi. Benjamin o gece intihar etti; ertesi gün İspanyollar, muhtemelen ölümün etkisiyle, gruptan ötekilerin geçmesine izin verdi. Çanta kayboldu. Hannah Arendt birkaç hafta sonra aynı yoldan geçti ve mezarını aradı; bulamadı. Portbou'daki mezarlıkta bugün Dani Karavan'ın "Pasajlar" anıtı var: denize inen çelik bir merdiven ve camın üzerinde Benjamin'in cümlesi: "Adsızların anısını onurlandırmak, ünlülerinkini onurlandırmaktan daha zordur."
+
+Benjamin'in felsefesi, tam da bu ölümün ışığında okundu. *Tarih Kavramı Üzerine* tezlerini (1940) ölümünden birkaç ay önce yazmıştı: İlerlemenin fırtınası, sırtı geleceğe dönük tarih meleğini geçmişin yıkıntılarından uzaklaştırır; tarihçinin görevi, "tehlike anında parlayıp geçen" bir anıyı yakalamak, ezilenlerin geleneğinden bakmaktır. *Teknik Olarak Yeniden Üretilebilirlik Çağında Sanat Yapıtı* (1936), aura kavramıyla sanatın kitle çağındaki dönüşümünü düşündü; sitemizde [yapay zekâ ve sanat](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) üzerine yazarken ona döndük. *Pasajlar* projesi, on dokuzuncu yüzyıl Paris'inin alıntılardan kurulu tamamlanmamış tarihi, ölümünden sonra Bataille'ın Bibliothèque nationale'de sakladığı notlardan çıktı. Adorno ve Scholem'in ölümünden sonra yayımladıkları yazılar, 1960'lardan itibaren Benjamin'i yirminci yüzyılın en çok okunan eleştirmeni yaptı. Gillian Rose'u [20 Eylül'de](/haber/felsefe-tarihinde-bugun-20-eylul-strauss-montague-rose-piper) anarken andığımız *Adorno'nun Melankoli Bilimi*'nin arkasında da Benjamin var.
+
+## 1888: T. S. Eliot
+
+Thomas Stearns Eliot, 26 Eylül 1888'de St. Louis'de doğdu. Harvard'da felsefe okudu; 1916'da F. H. Bradley üzerine yazdığı doktora tezini teslim etti ama savunmaya gidemedi. [18 Eylül'de](/haber/f-h-bradley-gorunus-ve-gerceklik-mutlak-idealizm) Bradley'yi anarken bu tezin *Çorak Ülke*'nin notlarında ve "nesnel bağlılaşık" kuramında nasıl iz bıraktığını yazmıştık. Eliot, Bergson'un Collège de France derslerini de dinledi ve sonra ona karşı döndü; "Gelenek ve Bireysel Yetenek" (1919), şairin kişiliğinden "kaçış"ını savunan, Bradley'nin özne eleştirisinin edebiyat kuramındaki karşılığı. 1948 Nobel Edebiyat Ödülü.
+
+## 1849: Ivan Pavlov
+
+Ivan Petroviç Pavlov, 26 Eylül 1849'da Ryazan'da doğdu. Sindirim fizyolojisi üzerine çalışmalarıyla 1904 Nobel'ini aldı; ama felsefe tarihine "koşullu refleks"le girdi: Zil sesiyle salya salgılayan köpek, zihnin öğrenilmiş çağrışımlarla açıklanabileceği tezinin simgesi oldu ve Watson'ın davranışçılığını, dolayısıyla yirminci yüzyıl zihin felsefesinin en büyük tartışmalarından birini başlattı. Sovyet ideolojisi Pavlov'u materyalist psikolojinin kurucusu ilan etti; Pavlov'un kendisi, rejime karşı açık eleştirilerini ölümüne kadar sürdürdü. Bugün büyük dil modellerinin "öğrenmesi" tartışılırken, Pavlov'un pekiştirmeyle öğrenme fikri, "pekiştirmeli öğrenme" adıyla makine öğrenmesinin çekirdeğinde.`,
+  },
+  {
+    title: "25 Eylül: Suárez'in ölümü, Faulkner'ın ve Glenn Gould'un doğumları — skolastiğin son büyük sistemi",
+    slug: "felsefe-tarihinde-bugun-25-eylul-suarez-faulkner-gould",
+    summary:
+      "Francisco Suárez 1617'de bugün Lizbon'da öldü: Aquinas'tan sonra en büyük skolastik, metafiziği Aristoteles'in düzeninden kurtarıp kendi düzeniyle yazan ilk filozof, uluslararası hukukun kurucularından, Descartes'ın ve Leibniz'in gizli hocası. William Faulkner (1897) ve Glenn Gould (1932) bugün doğdu. Ve bu akşam Lech'te Tractatus töreni.",
+    seoTitle: "Felsefe tarihinde bugün, 25 Eylül: Francisco Suárez (ö. 1617), Faulkner, Glenn Gould",
+    metaDescription:
+      "25 Eylül'de felsefe tarihi: Francisco Suárez'in ölümü (1617) — Disputationes metaphysicae, De legibus, Defensio fidei ve modern felsefeye etkisi; William Faulkner'ın (1897) ve Glenn Gould'un (1932) doğumları.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Francois%20Suarez%2C%20PA02182.jpg?width=1600",
+    imageCredit: "Francisco Suárez · Étienne Jehandier Desrochers'nin 18. yüzyıl gravürü (fotoğraf öncesi dönem; dönem portresi) · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/suarez/",
+    publishedAt: "2026-09-25T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ortacag-felsefesi", "hukuk-felsefesi", "din-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Francisco Suárez", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/suarez/", primary: true },
+      { title: "Francisco Suárez | Spanish Jesuit Philosopher & Theologian", publisher: "Britannica", url: "https://www.britannica.com/biography/Francisco-Suarez" },
+      { title: "Suárez, Francisco", publisher: "Internet Encyclopedia of Philosophy", url: "https://iep.utm.edu/suarez/" },
+    ],
+    content: `25 Eylül, felsefe takviminde skolastiğin son büyük sisteminin kapanışını işaretliyor: 1617'de bugün, Coimbra'nın hocası, Cizvitlerin baş teoloğu ve modern felsefenin, kendisi bunu istemese de, hazırlayıcısı Francisco Suárez Lizbon'da öldü. Aynı gün, üç yüzyıl sonra, iki sanatçı doğdu: Zamanı romanın içinde kıran Faulkner ve konser salonunu terk edip kaydı sanatın mekânı ilan eden Glenn Gould.
+
+## 1617: Francisco Suárez
+
+Francisco Suárez, 5 Ocak 1548'de Granada'da doğdu; on altı yaşında Cizvit olmak istedi, sınavda başarısız bulunup zorlukla kabul edildi ve sonradan tarikatın en büyük düşünürü oldu. Salamanca'da okudu; Segovia, Valladolid, Roma, Alcalá ve Salamanca'da ders verdi; 1597'de II. Felipe onu Coimbra Üniversitesi'nin baş teoloji kürsüsüne atadı ve 1616'ya kadar orada kaldı. 25 Eylül 1617'de Lizbon'da altmış dokuz yaşında öldü; çağdaşları ona *Doctor Eximius*, "Seçkin Doktor", diyordu.
+
+Başyapıtı, 1597'de Salamanca'da basılan iki ciltlik *Disputationes metaphysicae*. Kitap, felsefe tarihinde bir ilk: Ortaçağ boyunca metafizik, Aristoteles'in *Metafizik*'ine yorum olarak yazılmıştı; Suárez ilk kez Aristoteles'in metin düzenini terk edip metafiziği kendi sistematik düzeniyle, elli dört "tartışma" hâlinde, varlık kavramından Tanrı'ya ve kategorilere kadar yazdı. Bu kitap on yedinci yüzyıl boyunca yalnızca Katolik değil Protestan üniversitelerinde de ders kitabıydı; Leibniz onu "bir roman gibi" okuduğunu söyledi; Descartes, La Flèche'teki Cizvit hocalarından Suárez'in kavramlarını aldı ve *Meditasyonlar*'daki "nesnel gerçeklik" ile "biçimsel gerçeklik" ayrımı doğrudan ondan gelir; Schopenhauer ona "skolastiğin gerçek özeti" dedi; Heidegger, *Varlık ve Zaman*'da ortaçağ ontolojisinin modern felsefeye Suárez üzerinden geçtiğini yazdı. Suárez'in bireyleşme sorununa verdiği cevap (her varolan kendi varlığıyla bireyleşir), varlık kavramının "analojisi" üzerine görüşü ve olası varlıklar ile "kendinde varlık" arasındaki ayrımı, modern ontolojinin, Wolff'tan Kant'a, gizli gramerini oluşturdu.
+
+Siyaset ve hukuk felsefesinde de kurucuydu. *De legibus* (1612), doğal hukuku Tanrı'nın buyruğu ile insan aklının ortak eseri olarak kurdu ve Grotius'un uluslararası hukukunun temel kaynaklarından oldu; siyasal iktidarın Tanrı'dan doğrudan krala değil, halka verildiğini ve halkın onu devrettiğini savunarak, halk egemenliği fikrine skolastik bir temel verdi. *Defensio fidei* (1613), İngiltere Kralı I. James'in kralların ilahi hakkı savunusuna karşı yazıldı: Tiranlaşan kral halkın iktidarını gasp etmiştir ve kilise ona karşı direnişi meşru kılabilir; James kitabı Londra'da, Paris Parlamentosu da Fransa'da yaktırdı. Bossuet'nin [27 Eylül'de](/haber/felsefe-tarihinde-bugun-27-eylul-bossuet-cizvitler) anacağımız ilahi hak öğretisi, Suárez'in bu tezine bir cevap olarak da okunabilir. Suárez ile Salamanca Okulu, yüzyıl sonra Locke'un ve sonra Amerikan bağımsızlık düşüncesinin sözcük dağarcığını hazırladı; modern liberalizmin kökeninde bir Cizvit'in bulunması, tarih felsefesinin sevdiği ironilerden.
+
+## 1897: William Faulkner
+
+William Faulkner, 25 Eylül 1897'de Mississippi'nin New Albany kasabasında doğdu. *Ses ve Öfke* (1929), *Döşeğimde Ölürken* (1930) ve *Abşalom, Abşalom!* (1936), anlatı zamanını kırarak bilinci, Bergson'un "süre"si ve Husserl'in "iç zaman bilinci" gibi, kronolojik olmayan bir akış olarak yazdı; Sartre'ın 1939'da *Ses ve Öfke* üzerine yazdığı deneme, romanın zamansallığını Heidegger'le karşılaştıran ilk felsefi okumaydı. "Geçmiş asla ölmez, hatta geçmiş bile değildir" cümlesi, tarih felsefesinin en çok alıntılanan edebî formülü. 1949 Nobel'i.
+
+## 1932: Glenn Gould
+
+Glenn Gould, 25 Eylül 1932'de Toronto'da doğdu. 1955'teki *Goldberg Varyasyonları* kaydıyla dünya çapında üne kavuştu; 1964'te, otuz bir yaşında, konser sahnesini kalıcı olarak terk etti ve kaydı, stüdyoyu, montajı müziğin gerçek mekânı ilan etti: Konser, ona göre, "kan sporları"na yakın bir rekabet ritüeliydi; kayıt ise dinleyiciye "yaratıcı katılım" imkânı veren yeni bir sanat biçimi. Sitemizde [yapay zekâ ve sanat](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) üzerine yazarken Gould'u anmıştık: Sanatçının fiziksel icradan çekilip teknik dolayımı seçmesi, bugün "üretken dönüş" tartışmasının öncülü. Gould, 4 Ekim 1982'de, elli yaşında, felçten öldü; 1981'de ikinci kez kaydettiği *Goldberg*, ilkinin gençlik hızına karşı, aynı eserin yaşlılıkta nasıl okunacağının belgesi olarak kaldı.
+
+## Bu akşam Lech'te
+
+Bu akşam saat 21.00'de Lech am Arlberg'de 2026 Tractatus Ödülü Maria-Sibylla Lotter'e veriliyor; ödülü [17 Eylül'de](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer) ayrıntılı ele almıştık.`,
+  },
+  {
     title: "24 Eylül: Cardano'nun doğumu ve Paracelsus'un ölümü — Rönesans'ın iki asi hekimi",
     slug: "felsefe-tarihinde-bugun-24-eylul-cardano-paracelsus",
     summary:
