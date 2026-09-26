@@ -2717,7 +2717,7 @@ export const posts: SeedPost[] = [
     featured: false,
     sourceName: "Britannica · Stanford Encyclopedia of Philosophy",
     sourceUrl: "https://www.britannica.com/biography/Jacques-Benigne-Bossuet",
-    publishedAt: "2026-09-27T02:40:00.000Z",
+    publishedAt: "2026-09-26T13:30:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "felsefe-tarihinde-bugun",
     tagSlugs: ["tarih", "din-felsefesi", "siyaset-felsefesi", "aydinlanma"],
