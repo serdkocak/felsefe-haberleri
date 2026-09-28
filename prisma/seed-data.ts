@@ -2704,6 +2704,133 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "28 Eylül: Konfüçyüs'ün doğum günü, David Lewis'in olası dünyaları ve Barry Stroud'un şüpheciliği",
+    slug: "felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud",
+    summary:
+      "Doğu Asya bugün Konfüçyüs'ün geleneksel doğum gününü (MÖ 551) kutluyor; Tayvan'da Öğretmenler Günü. Aynı gün 1941'de, olası dünyaların gerçek olduğunu savunan David Lewis, 1935'te şüphecilik üzerine yazan Barry Stroud doğdu. Herman Melville 1891'de, Louis Pasteur 1895'te bugün öldü.",
+    seoTitle: "Felsefe tarihinde bugün, 28 Eylül: Konfüçyüs, David Lewis, Barry Stroud, Melville",
+    metaDescription:
+      "28 Eylül'de felsefe tarihi: Konfüçyüs'ün geleneksel doğum günü (MÖ 551), David Lewis'in (1941) ve Barry Stroud'un (1935) doğumları, Herman Melville'in (1891) ve Louis Pasteur'ün (1895) ölümleri.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius%20Tang%20Dynasty.jpg?width=1600",
+    imageCredit: "Konfüçyüs · Wu Daozi'ye (685-758) atfedilen Tang dönemi portresi — fotoğraf öncesi dönem, dönem tasviri · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/confucius/",
+    publishedAt: "2026-09-28T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "epistemoloji", "mantik", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Confucius", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/confucius/", primary: true },
+      { title: "David Lewis", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/david-lewis/" },
+      { title: "Barry Stroud (1935-2019)", publisher: "UC Berkeley Department of Philosophy", url: "https://philosophy.berkeley.edu/people/detail/13" },
+      { title: "Herman Melville", publisher: "Britannica", url: "https://www.britannica.com/biography/Herman-Melville" },
+    ],
+    content: `28 Eylül, felsefe takviminde iki buçuk bin yıllık bir yay çiziyor: Bir ucunda Doğu Asya'nın "İlk Öğretmen"i, öteki ucunda yirminci yüzyıl analitik metafiziğinin en cesur sistem kurucusu ve şüpheciliğin en titiz okuyucusu.
+
+## MÖ 551: Konfüçyüs
+
+Kong Qiu, Latinceleşmiş adıyla Konfüçyüs, geleneğe göre MÖ 551'de, ay takviminin sekizinci ayının yirmi yedinci gününde Lu devletinde (bugünkü Shandong, Qufu) doğdu; bu tarih modern takvimde 28 Eylül olarak sabitlendi ve Tayvan'da Öğretmenler Günü, Çin anakarasında Qufu'daki büyük anma törenlerinin günü olarak kutlanıyor. Tarihçiler doğum tarihinin kesinliğini sorguluyor; ama günün simgesel ağırlığı tartışılmaz: Konfüçyüs, Doğu Asya'nın iki bin beş yüz yıllık ahlaki ve siyasal grameri olan geleneğin adını taşıyor.
+
+Kendisi hakkında "aktarıcıyım, yaratıcı değil" demişti; Zhou hanedanının erdemlerini yeniden canlandırmak istedi, hiçbir devlette kalıcı bir görev bulamadı ve öğrencileriyle dolaşan bir öğretmen olarak öldü (MÖ 479). Öğrencilerinin derlediği *Konuşmalar* (Lunyu), sistematik bir eser değil, bir hayatın içinden düşünce parçalarıdır; ama içinden bir felsefe çıkar: *Ren* (insanlık, iyilikseverlik) ahlakın temelidir; *li* (ritüel, edep) bu iyiliğin toplumsal biçimidir; *junzi* (soylu kişi) doğuştan değil kendini yetiştirmeyle olunur; iyi yönetim ceza ile değil yöneticinin ahlaki örneğiyle sağlanır; "adların düzeltilmesi" (zhengming), sözcüklerle şeyler arasındaki uyumu siyasetin koşulu yapar. Batı felsefesinin Konfüçyüs'le karşılaşması Cizvit misyonerlerle başladı; Leibniz onu hayranlıkla okudu, Voltaire onu doğal dinin filozofu olarak Hıristiyanlığa karşı kullandı, Hegel ise *Konuşmalar*'ı "sıradan ahlak öğütleri" diye küçümsedi. Yirminci yüzyılda Herbert Fingarette'in *Confucius: The Secular as Sacred* (1972) kitabı, ritüeli Wittgenstein sonrası bir "toplumsal pratik" olarak okuyarak analitik felsefeye tanıttı; bugün Roger Ames, Philip J. Ivanhoe ve Bryan Van Norden gibi isimlerin çalışmalarıyla Konfüçyüsçü erdem etiği, Aristotelesçi erdem etiğinin en ciddi muhatabı sayılıyor. Çin'in bugünkü resmî ideolojisinde Konfüçyüs'ün yeniden yükselişi, Mao döneminin "Kong'u yık" kampanyalarından sonra, siyasal felsefenin en ilginç tersine dönüşlerinden.
+
+## 1941: David Lewis
+
+David Kellogg Lewis, 28 Eylül 1941'de Ohio'nun Oberlin kentinde, iki akademisyenin oğlu olarak doğdu; 14 Ekim 2001'de altmış yaşında, şeker hastalığının komplikasyonlarından öldü. Swarthmore'da okurken bir yıl Oxford'da geçirdi ve Gilbert Ryle'ı dinleyerek felsefeye döndü; Harvard'da Quine'ın öğrencisi oldu, 1970'ten ölümüne kadar Princeton'da ders verdi. Yirminci yüzyılın ikinci yarısının en etkili analitik filozoflarından biriydi; hemen her alt alanda, dil felsefesinden karar kuramına, zihin felsefesinden mereolojiye, kurucu makaleler yazdı.
+
+En ünlü ve en çok itiraz edilen tezi, "modal gerçekçilik": Olası dünyalar, bizim dünyamız kadar gerçektir; yalnızca bizden uzamsal ve zamansal olarak kopukturlar; "gerçek" sözcüğü, "burada" gibi, konuşanın bulunduğu dünyayı gösteren bir belirtme sözcüğüdür. *On the Plurality of Worlds* (1986) bu tezi, olasılık, karşı-olgusal koşullar, nedensellik ve özellikler için sağladığı açıklayıcı güçle savundu; Lewis'in kendi deyişiyle, felsefede "inanmazlık bakışı" (incredulous stare) bir argüman değildir. *Convention* (1969) dilin uzlaşımsal doğasını oyun kuramıyla açıkladı; *Counterfactuals* (1973) karşı-olgusalların benzerlik temelli semantiğini kurdu; "Hume'cu üstünlük" tezi, dünyanın yerel niteliklerin bir mozaiğinden ibaret olduğunu ve yasaların, nedenselliğin, zihinsel durumların bu mozaiğe indirgenebileceğini savundu. Zihin felsefesinde işlevselciliğin kurucularından; "Mad Pain and Martian Pain" (1980), alanın en çok okunan makalelerinden. Kedileri, Avustralya'yı ve trenleri seven, alışılmadık derecede nazik ve alışılmadık derecede sistematik bir düşünürdü; Lewis'ten sonra metafizik yapmak, onun kurduğu haritada bir yer seçmek anlamına geldi.
+
+## 1935: Barry Stroud
+
+Barry Stroud, 28 Eylül 1935'te Toronto'da doğdu; 9 Ağustos 2019'da Berkeley'de öldü. Toronto ve Harvard'da okudu, 1961'den itibaren Berkeley'de ders verdi. *Hume* (1977), Hume'u bir şüpheci olarak değil, insan doğasının doğalcı filozofu olarak okuyan ve Hume çalışmalarını dönüştüren kitap; *The Significance of Philosophical Scepticism* (1984), Descartes'tan Moore'a, Austin'den Carnap'a şüpheciliğe verilen cevapların neden yetersiz kaldığını gösteren ve şüpheciliğin "yanıtlanamaz ama yaşanamaz" doğasını çözümleyen bir klasik. Stroud'un tezi, felsefi şüpheciliğin gündelik bilgi iddialarını çürütmediği, ama bilgi hakkında "dışarıdan", bütünsel bir açıklama verme isteğinin kendisinin sorunlu olduğuydu; *The Quest for Reality* (2000) aynı yaklaşımı renklerin öznelliği tezine uyguladı. Sessiz, kavramsal titizlikte ısrarlı, moda akımlara uzak bir filozoftu; öğrencileri onun derslerinde "yavaş düşünmeyi" öğrendiklerini söylerdi.
+
+## 1891: Herman Melville
+
+Herman Melville, 28 Eylül 1891'de New York'ta, unutulmuş bir yazar olarak yetmiş iki yaşında öldü; *Moby Dick* (1851) ancak 1920'lerde yeniden keşfedildi. Felsefe için Melville, romanın metafizik yapabileceğini gösteren yazarlardan: Ahab'ın beyaz balinaya yönelttiği öfke, kötülüğün ve Tanrı'nın sessizliğinin sorununa bir alegoridir; "Kâtip Bartleby"nin (1853) "yapmamayı tercih ederim" cümlesi, Deleuze'ün ve Agamben'in yirminci yüzyılın sonunda edimsizlik ve direniş üzerine yazdıklarının çıkış noktası oldu. Agamben'in "Bartleby ya da Olumsallık Üzerine" denemesi, bu cümleyi Aristoteles'in *dynamis* kavramıyla okur: Bartleby, yapma gücüne değil yapmama gücüne sahip olan insandır.
+
+## 1895: Louis Pasteur
+
+Louis Pasteur, 28 Eylül 1895'te Paris yakınlarında Marnes-la-Coquette'te öldü. Mikrop kuramı, aşı ve pastörizasyonla tıbbı dönüştürdü; ama bilim felsefesi için önemi, 1860'lardaki kendiliğinden türeme tartışmasında Pouchet'ye karşı yürüttüğü deneysel kampanyada yatar. Bruno Latour'un *Pasteurization of France* (1984) kitabı, Pasteur'ün başarısını yalnızca deneylerin değil, laboratuvarı çiftliğe taşıyan ve hijyenistleri, çiftçileri, devleti seferber eden bir "ağ"ın eseri olarak okudu; bilim sosyolojisinin en tartışılan tezlerinden biri, Pasteur örneği üzerinden kuruldu.`,
+  },
+  {
+    title: "I. Önay Sözer Çağdaş Felsefe Sempozyumu 8 Ekim'de İstanbul Üniversitesi'nde",
+    slug: "onay-sozer-cagdas-felsefe-sempozyumu-2026-istanbul-universitesi",
+    summary:
+      "Türkiye'de fenomenolojinin ve Hegel araştırmalarının kurucu isimlerinden, 2022'de yitirdiğimiz Önay Sözer'in adını taşıyan ilk Çağdaş Felsefe Sempozyumu, 8 Ekim 2026'da İstanbul Üniversitesi Edebiyat Fakültesi Genel Kurul Odası'nda yapılacak. Sözer'in altmış yıl ders verdiği fakültede düzenlenen sempozyum, 'ara' kavramının filozofunu anmanın ötesinde, çağdaş felsefenin Türkiye'deki güncel gündemini tartışacak.",
+    seoTitle: "I. Önay Sözer Çağdaş Felsefe Sempozyumu — 8 Ekim 2026, İstanbul Üniversitesi",
+    metaDescription:
+      "I. Önay Sözer Çağdaş Felsefe Sempozyumu 8 Ekim 2026'da İstanbul Üniversitesi Edebiyat Fakültesi Genel Kurul Odası'nda. Önay Sözer (1936-2022): fenomenoloji, Hegel, 'ara' kavramı ve Türkiye'de felsefe.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul%20University%20-%20Faculty%20of%20Science%20and%20Literature%20(14236678254).jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi Edebiyat Fakültesi binası — SALT Araştırma arşivinden tarihî fotoğraf · Kısıtlamasız · Wikimedia Commons",
+    featured: true,
+    sourceName: "İstanbul Üniversitesi Felsefe Bölümü",
+    sourceUrl: "https://felsefe.istanbul.edu.tr/",
+    publishedAt: "2026-09-28T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["sempozyum", "fenomenoloji", "alman-idealizmi", "akademi", "konferans"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü", publisher: "İstanbul Üniversitesi", url: "https://felsefe.istanbul.edu.tr/", primary: true },
+      { title: "Önay Sözer", publisher: "Vikipedi", url: "https://tr.wikipedia.org/wiki/%C3%96nay_S%C3%B6zer" },
+      { title: "Önay Sözer'de Sonun Fenomenolojisi ve Hiçliğin Tuttuğu Yer Olarak 'Ara'", publisher: "Punctum Dergi", url: "https://www.punctumdergi.com/post/onay_sozer" },
+    ],
+    content: `İstanbul Üniversitesi Edebiyat Fakültesi, Türkiye'de fenomenolojinin ve Hegel araştırmalarının kurucu isimlerinden Önay Sözer'in adını taşıyan bir sempozyum dizisi başlatıyor. **I. Önay Sözer Çağdaş Felsefe Sempozyumu**, 8 Ekim 2026 Perşembe günü, fakültenin Beyazıt'taki tarihî binasındaki Genel Kurul Odası'nda yapılacak; katılım ilgili herkese açık. Program ve konuşmacı listesi bölüm tarafından duyurulduğunda haberimizi güncelleyeceğiz.
+
+## Neden Önay Sözer?
+
+Önay Sözer, 1936'da doğdu; İstanbul Erkek Lisesi'nden sonra İstanbul Üniversitesi Hukuk Fakültesi'ni bitirdi, ama hukuku değil felsefeyi seçti: 1961'de aynı üniversitenin Edebiyat Fakültesi Felsefe Bölümü'ne asistan olarak girdi, 1973'te doçent, 1992'de Sistematik Felsefe ve Mantık Kürsüsü'nde profesör oldu. Altmış yılı aşkın akademik hayatının büyük bölümü, sempozyumun yapılacağı binada geçti; sonraki yıllarda Boğaziçi Üniversitesi'nde de ders verdi, Alman ve Fransız üniversitelerinde Hegel ve fenomenoloji üzerine konferanslar verdi; 2008'de Köln Üniversitesi'nde Heidegger üzerine bir ders dizisi yaptı. 4 Aralık 2022'de İstanbul'da öldü.
+
+Sözer'in Türkiye felsefesindeki yeri, iki geleneği aynı anda bu ülkeye taşımasıdır. 1977 tarihli *Edmund Husserl'in Fenomenolojisi ve Nesnelerin Varlığı*, Türkçede fenomenoloji üzerine yazılmış ilk sistematik çalışmalardan; Hegel ve fenomenoloji üzerine dersleri ve yazıları, Alman idealizmini ve fenomenolojiyi İstanbul'da bir okul hâline getirdi. Sonraki yıllarda yapısalcılık ve post-yapısalcılıkla, Derrida ve Lyotard'la hesaplaştı; ama asıl özgün katkısı, geç dönem yazılarında geliştirdiği **"ara"** kavramıdır: Türkiye'de felsefe yapmanın, Batı ile Doğu, gelenek ile modernlik, kendi kültürü ile başkasının kültürü arasındaki bir "ara"da, bir eşikte durmak olduğu düşüncesi. Sözer için bu ara, bir eksiklik değil, felsefenin tam da mümkün olduğu yerdir; hiçliğin tuttuğu yer, aynı zamanda düşüncenin açıldığı yerdir. *Felsefenin ABC'si* gibi geniş okur kitlesine yönelik kitapları ve Yapı Kredi ile İş Bankası Kültür Yayınları'ndan çıkan eserleri, akademinin dışında da okundu.
+
+## Sempozyumun anlamı
+
+"Çağdaş Felsefe Sempozyumu" adı, bir anma toplantısından fazlasını vaat ediyor: Sözer'in kendi programı, çağdaş felsefeyi Türkiye'den düşünmekti ve bir sempozyum dizisinin onun adıyla, onun bölümünde kurulması, bu programın kurumsallaşması anlamına geliyor. Türkiye'de kişi adıyla anılan felsefe sempozyumları az; Hilmi Ziya Ülken, Takiyettin Mengüşoğlu ve Nusret Hızır gibi isimler için yapılan toplantılar genellikle tek seferlik kaldı. "I." rakamı, İstanbul Üniversitesi'nin bunu düzenli bir buluşmaya dönüştürme niyetini gösteriyor. Sitemizde daha önce [Nusret Hızır](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) ve [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) dosyalarında ele aldığımız gibi, İstanbul Üniversitesi Felsefe Bölümü Türkiye'de felsefenin kurumsal tarihinin merkezinde duruyor; Sözer, Reichenbach ve von Aster'den Mengüşoğlu'na uzanan bu zincirin yirminci yüzyıl sonundaki halkasıydı.
+
+**Pratik bilgi:** 8 Ekim 2026, İstanbul Üniversitesi Edebiyat Fakültesi Genel Kurul Odası, Laleli/Beyazıt, İstanbul. Katılım ücretsiz. Program açıklandığında [etkinlik kaydımız](/etkinlik/onay-sozer-cagdas-felsefe-sempozyumu-2026) güncellenecek.`,
+  },
+  {
+    title: "Selçuk'taki Mantık, Matematik ve Felsefe Sempozyumu'nun programı açıklandı: Ahmet Arslan ve Kaan H. Ökten çağrılı konuşmacı",
+    slug: "mantik-matematik-felsefe-xi-program-arslan-okten",
+    summary:
+      "1-3 Ekim'de Selçuk Efes Kent Belleği'nde toplanacak XI. Ulusal Sempozyum'un programı yayımlandı: Çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten; bütün oturumlar halka açık; kapanışın ardından Efes ve Meryem Ana Evi gezisi. Sempozyum, İKÜ'nün kurucusu Fahamettin Akıngüç'ün anısına adanıyor.",
+    seoTitle: "MMF XI Sempozyumu programı: Ahmet Arslan ve Kaan H. Ökten, 1-3 Ekim 2026, Selçuk",
+    metaDescription:
+      "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu'nun programı açıklandı: çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten, yer Selçuk Efes Kent Belleği, 1-3 Ekim 2026, oturumlar halka açık.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk%20Ephesus%20Celsus-Library%2032%203x2-R%205K.jpg?width=1600",
+    imageCredit: "Celsus Kütüphanesi, Efes — Selçuk, İzmir · Wikimedia Commons",
+    featured: false,
+    sourceName: "İstanbul Kültür Üniversitesi",
+    sourceUrl: "https://mmf2026.iku.edu.tr/tr/program",
+    publishedAt: "2026-09-28T01:50:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["sempozyum", "mantik", "bilim-felsefesi", "konferans"],
+    philosopherSlugs: ["ahmet-arslan"],
+    sources: [
+      { title: "Sempozyum Programı", publisher: "MMF XI — İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/tr/program", primary: true },
+      { title: "Çağrılı Konuşmacılar", publisher: "MMF XI — İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/tr/cagrili-konusmacilar" },
+      { title: "Arâf temasıyla bilim ve felsefe Efes Selçuk'ta buluşuyor", publisher: "Anka Haber", url: "https://ankahaber.net/haber/ar-f-temasiyla-bilim-ve-felsefe-efes-selcuk-ta-bulusuyor-b9801ddd" },
+    ],
+    content: `Sitemizde [daha önce duyurduğumuz](/haber/mantik-matematik-felsefe-xi-selcuk-2026) Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu'na üç gün kala program yayımlandı. İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin koordinatörlüğünde, Selçuk Belediyesi ve Türk Matematik Derneği'nin MAD Projesi iş birliğiyle düzenlenen sempozyum, 1-3 Ekim 2026'da Selçuk Efes Kent Belleği'nde toplanıyor. Bu yazı yalnızca yeni bilgileri aktarıyor; sempozyumun tarihçesi, "ÂRÂF" teması ve Assos'tan Selçuk'a uzanan hikâyesi için önceki haberimize bakılabilir.
+
+## Çağrılı konuşmacılar
+
+Sempozyumun iki çağrılı konuşmacısı Türkiye felsefesinin iki farklı kuşağını ve damarını temsil ediyor. **Ahmet Arslan** (1944, Urfa), Ege Üniversitesi'nin emekli felsefe tarihi profesörü; İslam felsefesi, Aristoteles ve felsefe tarihinin kamusal aktarımı üzerine çalışmalarıyla tanınıyor. Sitemizde son iki haftada [felsefenin Türkiye'de popülerleşmesi](/haber/ahmet-arslan-turkiyede-felsefenin-populerlesmesi) ve [felsefe tarihi okuma kültürü](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) üzerine görüşlerini ele almıştık. **Kaan H. Ökten** (1969, Samsun), Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü öğretim üyesi; Heidegger'in *Varlık ve Zaman*'ının çevirmeni ve Türkçedeki Heidegger literatürünün kurucu isimlerinden. Bu ay Schleiermacher'in *Hermeneutik Dersleri*'nin çevirisiyle [Yeni Kitaplar sayfamızda](/haber/schleiermacher-hermeneutik-dersleri-turkce) yer almıştı. Konuşma başlıkları programda; mantık ve matematik ağırlıklı bir sempozyumda iki felsefe tarihçisinin çağrılı konuşmacı seçilmesi, "ÂRÂF" temasının, kesinlik ile belirsizlik arasındaki ara bölgenin, tarihsel bir perspektifle ele alınacağını gösteriyor.
+
+## Yer, katılım ve program
+
+Sempozyum, Selçuk Belediyesi'nin eski tren istasyonu çevresinde kurduğu **Efes Kent Belleği**'nde yapılacak. Bütün oturumlar halka açık; dinleyici olarak katılmak isteyenlerin sempozyum sitesindeki kayıt formunu doldurması isteniyor. Üçüncü günün değerlendirme ve kapanış oturumundan sonra katılımcılar için Efes Antik Kenti ve Meryem Ana Evi gezisi düzenlenecek. Ayrıntılı program PDF olarak sempozyum sitesinde.
+
+Düzenleyiciler sempozyumu, Kültür Koleji, Kültür2000 Koleji ve İstanbul Kültür Üniversitesi'nin kurucusu, Mütevelli Heyeti Onursal Başkanı İnşaat Yüksek Mühendisi Fahamettin Akıngüç'ün anısına adıyor.
+
+**Pratik bilgi:** 1-3 Ekim 2026, Selçuk Efes Kent Belleği, Selçuk/İzmir. Kayıt ve program: mmf2026.iku.edu.tr. [Etkinlik kaydı](/etkinlik/mantik-matematik-felsefe-xi-2026).`,
+  },
+  {
     title: "27 Eylül: Bossuet'nin doğumu, Cizvitlerin kuruluşu ve tarihin Tanrı'nın planı olarak okunması",
     slug: "felsefe-tarihinde-bugun-27-eylul-bossuet-cizvitler",
     summary:
@@ -32456,6 +32583,35 @@ export const books: SeedBook[] = [
  */
 export const events: SeedEvent[] = [
   {
+    title: "I. Önay Sözer Çağdaş Felsefe Sempozyumu",
+    slug: "onay-sozer-cagdas-felsefe-sempozyumu-2026",
+    summary:
+      "İstanbul Üniversitesi Edebiyat Fakültesi, Türkiye'de fenomenoloji ve Hegel araştırmalarının kurucu isimlerinden Önay Sözer (1936-2022) adına düzenlenen ilk Çağdaş Felsefe Sempozyumu. 8 Ekim 2026, Edebiyat Fakültesi Genel Kurul Odası. Katılım açık.",
+    description: `İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nün, altmış yılı aşkın süre bu bölümde ders veren Önay Sözer'in adına başlattığı sempozyum dizisinin ilki. Sözer'in fenomenoloji, Hegel ve "ara" kavramı üzerine mirasından hareketle çağdaş felsefenin güncel sorunları ele alınacak.
+
+**Yer:** İstanbul Üniversitesi Edebiyat Fakültesi Genel Kurul Odası, Beyazıt/Laleli, İstanbul.
+**Tarih:** 8 Ekim 2026 Perşembe.
+
+Program ve konuşmacı listesi bölüm tarafından duyurulduğunda bu kayıt güncellenecek.`,
+    kind: "SEMPOZYUM",
+    organizer: "İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü",
+    topic: "Çağdaş felsefe, fenomenoloji, Hegel, Türkiye'de felsefe",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-08T06:00:00.000Z",
+    endsAt: "2026-10-08T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "İstanbul Üniversitesi Edebiyat Fakültesi, Genel Kurul Odası",
+    website: "https://felsefe.istanbul.edu.tr/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul%20University%20-%20Faculty%20of%20Science%20and%20Literature%20(14236678254).jpg?width=1600",
+    sourceName: "İstanbul Üniversitesi Felsefe Bölümü",
+    sourceUrl: "https://felsefe.istanbul.edu.tr/",
+    featured: true,
+    publishedAt: "2026-09-28T01:20:00.000Z",
+  },
+  {
     title: "Lacan Today Conference 2026 — Gent",
     slug: "lacan-today-gent-2026",
     summary:
@@ -32895,8 +33051,12 @@ Dizi 2003'te Assos'ta başlamış, bir dönem Türkiye'de mantık, matematik fel
 
 Sempozyumun Selçuk'ta yapılması anlamlı: Antik Efes'in bulunduğu bu yer, aynı zamanda Herakleitos'un memleketi.
 
-Ayrıntılı bilgi: mmf2026.iku.edu.tr`,
+**Çağrılı konuşmacılar:** Prof. Dr. Ahmet Arslan, Prof. Dr. Kaan H. Ökten. Bütün oturumlar halka açık; üçüncü günün kapanışından sonra Efes Antik Kenti ve Meryem Ana Evi gezisi. Sempozyum, İKÜ kurucusu Fahamettin Akıngüç'ün anısına adanmıştır.
+
+Ayrıntılı bilgi ve program (PDF): mmf2026.iku.edu.tr`,
     kind: "SEMPOZYUM",
+    speakers: "Ahmet Arslan, Kaan H. Ökten",
+    venue: "Selçuk Efes Kent Belleği",
     organizer: "İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi · Selçuk Belediyesi · Türk Matematik Derneği",
     topic: "Mantık, matematik felsefesi, bilim felsefesi, belirsizlik",
     format: "FIZIKSEL",
