@@ -55,6 +55,12 @@ const DATE_KEYS = new Set([
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/;
 
 function reviveDates<T>(value: T): T {
+  // Önbellek boşken (ilk istek) veri JSON'dan değil doğrudan Prisma'dan gelir;
+  // Date nesneleri zaten Date'tir, dokunulmadan geçmeli. (Aksi hâlde aşağıdaki
+  // nesne dalı Date'i boş bir nesneye çevirir ve tarih biçimlendirme patlar.)
+  if (value instanceof Date) {
+    return value;
+  }
   if (Array.isArray(value)) {
     return value.map((item) => reviveDates(item)) as unknown as T;
   }
