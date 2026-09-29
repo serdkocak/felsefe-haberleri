@@ -260,6 +260,31 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Robert Stalnaker",
+    slug: "robert-stalnaker",
+    headline: "Dil ve zihin filozofu — MIT (emeritus)",
+    bio: "Konuşmanın 'ortak zemin' (common ground) üzerinde ilerlediğini, bir iddianın bağlam kümesini daralttığını söyleyen pragmatik kuramın kurucusu; koşullu önermelerin olası dünyalar semantiğinin (Stalnaker koşullusu) yaratıcısı; olası dünyaları Lewis gibi somut değil, dünyanın olabileceği 'yollar' olarak düşünen ılımlı modal gerçekçi. Kavramları bugün yapay zekâ pragmatiği araştırmalarının ortak dili.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Stalnaker%202017%20(cropped).jpg?width=600",
+    country: "ABD",
+    birthYear: 1940,
+    affiliation: "Massachusetts Institute of Technology — Laurance S. Rockefeller Felsefe Profesörü (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Robert Culp Stalnaker",
+    birthDate: "22 Ocak 1940, Princeton, New Jersey",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe · olası dünyalar semantiği · pragmatik",
+    areas: "Dil felsefesi, zihin felsefesi, metafizik, epistemoloji, karar kuramı, mantık",
+    majorWorks: "A Theory of Conditionals (1968)\nAssertion (1978)\nInquiry (1984)\nContext and Content (1999)\nWays a World Might Be (2003)\nOur Knowledge of the Internal World (2007)\nMere Possibilities (2012)\nContext (2014)\nKnowledge and Conditionals (2019)\nPropositions: Ontology and Logic (2022)",
+    keyConcepts: "Ortak zemin (common ground), bağlam kümesi, iddia (assertion), pragmatik önvarsayım, Stalnaker koşullusu, iki boyutlu semantik ve köşegen önerme, ılımlı modal gerçekçilik, öz-konumlandırıcı inanç, bilgi ve koşullular",
+    influencedBy: "W. V. O. Quine, Saul Kripke, David Lewis, Paul Grice, Richard Montague, Frank Ramsey",
+    influenced: "Biçimsel pragmatik, dinamik semantik (Heim, Kamp, Veltman), Angelika Kratzer, David Chalmers (iki boyutlu semantik), Andy Egan, yapay zekâ ve hesaplamalı dilbilimde diyalog kuramı",
+    longBio: "1940'ta Princeton'da doğdu; Wesleyan'da okudu, Princeton'da Carl Hempel'in yanında doktora yaptı (1965). Yale, Illinois ve Cornell'de ders verdikten sonra 1988'de MIT'ye geçti; 2016'da emekli olana kadar Laurance S. Rockefeller Profesörü olarak orada kaldı. Amerikan Sanat ve Bilimler Akademisi üyesi, British Academy muhabir üyesi.\n\nÜç katkısı çağdaş felsefenin ders kitaplarına girdi. 'A Theory of Conditionals' (1968), 'p olsaydı q olurdu' biçimindeki koşulluları, p'nin doğru olduğu en yakın olası dünyada q'nun doğru olup olmadığıyla değerlendiren semantiği kurdu; Lewis'in benzer ama farklı kuramıyla birlikte 'Stalnaker-Lewis' koşulluları olarak anılır. 'Assertion' (1978), konuşmayı katılımcıların ortaklaşa doğru saydığı önermelerin belirlediği bir 'bağlam kümesi' içinde ilerleyen bir süreç olarak modelledi: Bir şey iddia etmek, bu kümeyi iddianın yanlış olduğu dünyaları eleyerek daraltmaktır; 'ortak zemin' kavramı ('Common Ground', 2002) buradan doğdu ve dilbilimde dinamik semantiğin, hesaplamalı dilbilimde diyalog modellerinin temeli oldu. Üçüncüsü, olası dünyaların ontolojisi: Lewis'in somut çoğul dünyalarına karşı Stalnaker, olası dünyaların gerçek dünyanın 'olabileceği yollar', yani soyut özellikler olduğunu savundu (Ways a World Might Be, 2003; Mere Possibilities, 2012).\n\nOur Knowledge of the Internal World (2007) zihin felsefesinde içsel bilginin ayrıcalığını sorguladı; Knowledge and Conditionals (2019) epistemolojiyi koşullular kuramıyla birleştirdi; Rutgers Konferansları'ndan doğan Propositions (2022), Quine'cı bir temelde modal mantık için önermelerin ontolojisini kurdu. 2020'lerde büyük dil modellerinin 'pragmatik yeterliği' üzerine araştırmalar, ortak zemin ve pragmatik önvarsayım kavramlarını doğrudan Stalnaker'dan alıyor.",
+    sources: "MIT Department of Linguistics and Philosophy — https://philosophy.mit.edu/stalnaker/ · Stanford Encyclopedia of Philosophy, 'Assertion' — https://plato.stanford.edu/entries/assertion/ · Robert Stalnaker Bibliography (UCI) — https://www.lib.uci.edu/library/publications/philosophy/stalnaker.html",
+  },
+  {
     name: "Leo Strauss",
     slug: "leo-strauss",
     headline: "Alman-Amerikalı siyaset filozofu (1899-1973)",
@@ -2704,6 +2729,110 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Robert Stalnaker'ın 'ortak zemini' makinelerin sınavında: Yapay zekâ pragmatiği 1978 tarihli bir makaleye dönüyor",
+    slug: "robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026",
+    summary:
+      "Seksen altı yaşındaki MIT filozofu Robert Stalnaker'ın konuşmayı 'bağlam kümesini daraltma' olarak modelleyen kuramı, 2026'da beklenmedik bir yerde yeniden merkeze oturdu: Büyük dil modellerinin pragmatik yeterliğini ölçen EACL 2026 ve CoNLL 2026 çalışmaları ile ağustosta yayımlanan 'pragmatik saldırı yüzeyi' makalesi, Stalnaker'ın ortak zemin ve pragmatik önvarsayım kavramlarını doğrudan ödünç alıyor. Bir dil modeli ortak zemini takip edebilir mi, yoksa yalnızca taklit mi eder?",
+    seoTitle: "Robert Stalnaker: ortak zemin, iddia ve büyük dil modellerinin pragmatik yeterliği (2026)",
+    metaDescription:
+      "Robert Stalnaker'ın ortak zemin (common ground), iddia ve pragmatik önvarsayım kuramı 2026'da yapay zekâ araştırmalarında: EACL 2026 'The Pragmatic Mind of Machines', 'Pragmatic Attack Surface' (arXiv, Ağustos 2026) ve Stalnaker'ın felsefesinin güncel anlamı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Stalnaker%202017.jpg?width=1600",
+    imageCredit: "Robert Stalnaker, 2017 · Fotoğraf: Dipartimento di Filosofia 'Piero Martinetti', Università degli Studi di Milano, CC BY 3.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "ACL Anthology · arXiv · MIT",
+    sourceUrl: "https://aclanthology.org/2026.eacl-long.9/",
+    publishedAt: "2026-09-29T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["yapay-zeka", "epistemoloji", "mantik", "kavram", "zihin-felsefesi"],
+    philosopherSlugs: ["robert-stalnaker", "david-chalmers"],
+    sources: [
+      { title: "The Pragmatic Mind of Machines: Tracing the Emergence of Pragmatic Competence in Large Language Models", publisher: "EACL 2026 (Yu, Zeng, Xuan, Li, Wu, Voigt)", date: "Mart 2026", url: "https://aclanthology.org/2026.eacl-long.9/", primary: true },
+      { title: "Pragmatic Attack Surface: Vulnerabilities of Implicit Context in Large Language Models", publisher: "arXiv 2608.09551", date: "Ağustos 2026", url: "https://arxiv.org/abs/2608.09551" },
+      { title: "On the Same Wavelength? Evaluating Pragmatic Reasoning in Language Models across Broad Concepts", publisher: "arXiv 2509.06952", url: "https://arxiv.org/abs/2509.06952" },
+      { title: "Robert Stalnaker", publisher: "MIT Department of Linguistics and Philosophy", url: "https://philosophy.mit.edu/stalnaker/" },
+      { title: "Robert Stalnaker Bibliography", publisher: "UC Irvine Libraries", url: "https://www.lib.uci.edu/library/publications/philosophy/stalnaker.html" },
+    ],
+    content: `Felsefede bazı makaleler yazıldıkları anda değil, onlarca yıl sonra, beklenmedik bir alanın onlara ihtiyaç duymasıyla "güncel" olur. Robert Stalnaker'ın 1978'de yayımlanan "Assertion" (İddia) makalesi bu türden. Kırk sekiz yıl önce dil felsefecileri için yazılmış, konuşmanın nasıl ilerlediğini olası dünyalar kümeleriyle modelleyen bu on beş sayfalık metin, 2026'da yapay zekâ araştırmacılarının, sohbet robotlarının "söylenmeyeni anlayıp anlamadığını" ölçmek için başvurduğu ortak dile dönüştü. Bu yıl Rabat'taki EACL konferansında sunulan "The Pragmatic Mind of Machines" makalesi, ağustosta yayımlanan "Pragmatic Attack Surface" çalışması ve dil modellerinin pragmatik akıl yürütmesini ölçen bir dizi araştırma, Stalnaker'ın "ortak zemin" (common ground) ve "pragmatik önvarsayım" kavramlarını doğrudan kuramsal çerçeve olarak kullanıyor. Seksen altı yaşındaki MIT emeritus profesörü, kendisi bu tartışmaya katılmış değil; ama kavramları, hiç tasarlanmadıkları bir makinenin içinde çalışıp çalışmadığı sorusuyla sınanıyor.
+
+## Kırk sekiz yıllık bir fikir: Konuşma, dünyaları eleme işidir
+
+Stalnaker'ın modeli sade bir sezgiye dayanır. İki kişi konuşurken, ikisinin de doğru saydığı, karşısındakinin de doğru saydığını bildiği ve bunun karşılıklı bilindiğini bildiği bir önermeler kümesi vardır: ortak zemin. Bu önermelerin hepsinin doğru olduğu olası dünyalar kümesine Stalnaker "bağlam kümesi" der. Bir şey iddia etmek, bu kümeyi daraltmaktır: "Yarın toplantı iptal" dediğimde ve karşımdaki itiraz etmediğinde, toplantının yapıldığı dünyalar bağlam kümesinden elenir ve konuşma daralmış bir dünyalar kümesi içinde sürer. Konuşmanın bilgi verici olması, kümeyi daraltması demektir; zaten ortak zeminde olanı söylemek boş, ortak zeminle çelişeni söylemek anlamsızdır. Bu modelin gücü, Grice'ın "konuşmacı niyeti" kavramını ve Austin'in söz edimlerini tek bir formel yapıya bağlamasıydı: Önvarsayım, ortak zeminde zaten bulunan şeydir; imalar, dinleyicinin konuşmacının kümeyi neden bu biçimde daralttığını sormasıyla çıkarılır; belirsizlik, bağlam kümesinin hangi dünyaları içerdiğine göre çözülür.
+
+Stalnaker, 2002'de "Common Ground" makalesiyle kuramı yeniden kurdu ve ortak zeminin "gerçekten inanılan" değil "konuşma amacıyla kabul edilen" önermelerden oluştuğunu netleştirdi; bu ayrım, yalan söylemenin, varsayımsal konuşmanın ve kurgunun nasıl mümkün olduğunu açıklar. Dilbilimde Irene Heim'ın dosya değişimi semantiği, Hans Kamp'ın söylem temsili kuramı ve Frank Veltman'ın güncelleme semantiği, "dinamik semantik" olarak anılan bütün bir program, Stalnaker'ın bağlam kümesi fikrinden türedi. Hesaplamalı dilbilimde ise diyalog sistemleri 1990'lardan bu yana "ortak zemin"i bir veri yapısı olarak modellemeye çalıştı.
+
+## 2026: Makineler ortak zemini takip edebilir mi?
+
+Büyük dil modelleri bu tabloyu değiştirdi, çünkü ortak zemini açıkça modellemeyen, yalnızca sonraki sözcüğü tahmin eden sistemlerin pragmatik davranış sergilemesi, Stalnaker'ın kuramına iki yönden meydan okuyor. Modeller ortak zemini "takip etmiyorsa" pragmatik davranışları nereden geliyor? Ve takip ediyorlarsa, bu, ortak zeminin bir "ortak inanç" değil, dilin istatistiksel yapısında kodlanmış bir düzenlilik olduğu anlamına mı geliyor?
+
+Kefan Yu, Rob Voigt ve arkadaşlarının EACL 2026'da sunduğu "The Pragmatic Mind of Machines" makalesi, bu soruyu ampirik olarak ele alıyor. Yazarlar, "alternatifler" kavramına dayanan ALTPRAG adlı bir veri seti kurdular: Her örnek, aynı derecede makul ama pragmatik olarak farklı iki devamı eşliyor ve modelden hem konuşmacının kastını çıkarmasını hem de konuşmacının neden bir sözü ötekine tercih edeceğini açıklamasını istiyor. Yirmi iki modeli eğitimin üç aşamasında, ön eğitim, denetimli ince ayar ve tercih optimizasyonu sonrasında, sınayan çalışma, temel modellerin bile pragmatik ipuçlarına "dikkat çekici bir duyarlılık" gösterdiğini, bunun model ve veri ölçeğiyle tutarlı biçimde arttığını ve ince ayar ile insan geri bildirimiyle pekiştirmeli öğrenmenin özellikle "bilişsel-pragmatik" senaryolarda ek kazanç sağladığını buldu. Sonuç, yazarların deyişiyle, pragmatik yeterliğin dil modeli eğitiminin "beliren ve bileşimsel" bir özelliği olduğu.
+
+Ağustosta arXiv'de yayımlanan "Pragmatic Attack Surface: Vulnerabilities of Implicit Context in Large Language Models" ise madalyonun öteki yüzüne bakıyor. Makale, Stalnaker'ın "pragmatik önvarsayım" kavramından, konuşmacıların iletişimde doğal olarak kabul ettiği arka plan varsayımlarından, yola çıkarak dil modellerinin "örtük bağlam"ı nasıl işlediğini hem dilbilimsel hem istatistiksel açıdan inceliyor ve bunun bir güvenlik açığı olduğunu gösteriyor: Bir modelin ortak zemine yerleştirdiği önvarsayımları manipüle ederek, açık komutlarla yapılamayan şeyleri örtük bağlamla yaptırmak mümkün. Stalnaker'ın kuramında önvarsayımın "kabul edilen" olması, yani sorgulanmadan bağlam kümesine girmesi, insan konuşmasının verimliliğinin kaynağıydı; makinede aynı özellik bir saldırı yüzeyi oluyor. Eylül başında yayımlanan bir başka çalışma, "On the Same Wavelength?", modellerin geniş bir kavram yelpazesinde pragmatik akıl yürütmesini, yine Stalnaker'ın iddia kuramını referans alarak ölçüyor.
+
+## Felsefi soru: Taklit mi, katılım mı?
+
+Bu araştırmalar bir felsefe profesörü için iki nedenle ilginç. Birincisi, Stalnaker'ın modelinin ne kadar "gerçek" olduğunu sınıyorlar. Stalnaker, ortak zemini konuşmacıların zihinsel durumlarıyla, karşılıklı kabul ile tanımlamıştı; bu, kuramın psikolojik bir iddia taşıdığı anlamına gelir. Eğer zihinsel durumu olmayan bir sistem ortak zemini takip ediyormuş gibi davranabiliyorsa, ya ortak zemin zihinsel değil yapısal bir şeydir (dilin kendisinde kodludur), ya da model gerçekten takip etmiyor, yalnızca takip edenlerin ürettiği metinleri taklit ediyordur. Yu ve arkadaşlarının "temel modellerde bile duyarlılık" bulgusu ilk yorumu, "ince ayarla artan yeterlik" bulgusu ikincisini destekliyor; ampirik veri, felsefi soruyu çözmüyor, keskinleştiriyor.
+
+İkincisi, Stalnaker'ın kuramı, geçen hafta [Searle'ü anarken](/haber/felsefe-tarihinde-bugun-17-eylul-popper-searle-hildegard) hatırladığımız Çin Odası tartışmasına yeni bir zemin sunuyor. Searle, sözdizimini işleyen bir sistemin anlambilimi olamayacağını söylemişti. Stalnaker'ın modeli, anlamı sözdiziminde değil, konuşmanın dünyalar kümesi üzerindeki etkisinde arar: Bir sözcenin içeriği, bağlam kümesini nasıl daralttığıdır. Bu tanımla, bağlam kümesini doğru biçimde daraltan bir sistemin, iç dünyası olsun olmasın, "iddiada bulunduğu" söylenebilir; ya da tam tersine, kabul edilen önermelerin yokluğunda hiçbir şeyin daralmadığı ve makinenin yalnızca daralma taklidi yaptığı. Stalnaker'ın kendisinin bu soruya vereceği cevap, muhtemelen, Quine'cı bir sükûnetle, "kuramın ne öngördüğüne bakalım" olurdu; 2022 tarihli *Propositions* kitabında önermeleri Quine'cı bir temelde, zihinsel değil mantıksal nesneler olarak kurmuştu.
+
+## Stalnaker kimdir?
+
+Robert Culp Stalnaker 1940'ta Princeton'da doğdu; Wesleyan'da okudu, Princeton'da doktora yaptı, Yale, Illinois ve Cornell'den sonra 1988'de MIT'ye geçti ve Laurance S. Rockefeller Profesörü olarak emekli oldu. Üç kurucu katkısı var: "A Theory of Conditionals" (1968), "p olsaydı q olurdu" biçimindeki koşulluları en yakın olası dünyada değerlendiren semantiği kurdu ve David Lewis'inkiyle birlikte koşullular kuramının standardı oldu; "Assertion" ve "Common Ground" pragmatiği formelleştirdi; *Ways a World Might Be* (2003) ve *Mere Possibilities* (2012), olası dünyaları Lewis gibi somut evrenler değil, dünyanın "olabileceği yollar" olarak düşünen ılımlı modal gerçekçiliği savundu. Sitemizde dün [David Lewis'i anarken](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) bu karşıtlığa değinmiştik: Lewis'in "inanmazlık bakışı"na karşı Stalnaker, olası dünyaları metafizik değil, konuşmanın ve düşüncenin araçları olarak tuttu. İki boyutlu semantik ve "köşegen önerme" kavramı, David Chalmers'ın bilinç felsefesindeki iki boyutlu çerçevesinin kaynaklarındandır. Stalnaker bugün [Filozof Dizini'ne](/filozof/robert-stalnaker) eklendi.
+
+## Neden önemli?
+
+Yapay zekâ tartışmasında felsefeye genellikle iki rol biçiliyor: ya etik bekçi ya da "bilinç var mı" sorusunun sahibi. Stalnaker örneği üçüncü bir rolü gösteriyor: Kavramsal altyapı sağlayıcı. Dil modellerinin ne yaptığını ölçmek isteyen araştırmacılar, "pragmatik yeterlik" derken neyi kastettiklerini tanımlamak zorunda; ve elli yıl önce bir dil felsefecisinin olası dünyalarla kurduğu model, bugün bu tanımın en kullanışlı hâli. Sitemizde bu ay [Britanya'da felsefe bölümleri kapanırken yapay zekâ şirketlerinin filozof istihdam ettiğini](/haber/britanya-felsefe-bolumleri-kapanirken-yapay-zeka-sirketleri-filozof-topluyor) yazmıştık; Stalnaker'ın 1978 makalesinin 2026'daki kaderi, bu paradoksun içeriğini gösteriyor. Şirketlerin aradığı şey, tam olarak, hiçbir pratik amaçla yazılmamış bir kuramın açıklayıcı gücü.`,
+  },
+  {
+    title: "29 Eylül: Unamuno'nun trajik duygusu, Cervantes'in doğumu ve von Mises'in praksiyolojisi",
+    slug: "felsefe-tarihinde-bugun-29-eylul-unamuno-cervantes-mises",
+    summary:
+      "Miguel de Unamuno 1864'te bugün Bilbao'da doğdu: 'Hayatın Trajik Duygusu'nun yazarı, Don Quijote'yi İspanya'nın filozofu ilan eden, 1936'da Salamanca'da falanjistlere 'Yeneceksiniz ama ikna edemeyeceksiniz' diyen düşünür. Aynı gün 1547'de Cervantes, 1881'de Ludwig von Mises doğdu; 1902'de Émile Zola, 1973'te W. H. Auden öldü.",
+    seoTitle: "Felsefe tarihinde bugün, 29 Eylül: Miguel de Unamuno (1864), Cervantes (1547), Ludwig von Mises (1881)",
+    metaDescription:
+      "29 Eylül'de felsefe tarihi: Miguel de Unamuno'nun doğumu (1864) — Hayatın Trajik Duygusu, Don Quijote, Salamanca 1936; Cervantes'in doğumu (1547); Ludwig von Mises'in doğumu (1881); Zola ve Auden'in ölümleri.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Miguel%20de%20Unamuno%20Meurisse%20c%201925.JPG?width=1600",
+    imageCredit: "Miguel de Unamuno, 1925 dolayları · Agence de presse Meurisse · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Miguel-de-Unamuno",
+    publishedAt: "2026-09-29T02:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "siyaset-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Miguel de Unamuno | Spanish educator, philosopher, and author", publisher: "Britannica", url: "https://www.britannica.com/biography/Miguel-de-Unamuno", primary: true },
+      { title: "Miguel de Cervantes", publisher: "Britannica", url: "https://www.britannica.com/biography/Miguel-de-Cervantes" },
+      { title: "Ludwig von Mises", publisher: "Britannica", url: "https://www.britannica.com/biography/Ludwig-von-Mises" },
+    ],
+    content: `29 Eylül, İspanyol düşüncesinin iki büyük adını aynı güne yazmış: Don Quijote'nin yazarı ve Don Quijote'yi bir filozof olarak okuyan adam. Yanlarına Avusturya iktisat okulunun en katı sistemcisini, Fransız natüralizminin kurucusunu ve yirminci yüzyıl İngiliz şiirinin en felsefi sesini koyuyor.
+
+## 1864: Miguel de Unamuno
+
+Miguel de Unamuno y Jugo, 29 Eylül 1864'te Bilbao'da doğdu. Altı yaşındayken babasını kaybetti; 1874'te Bilbao'nun Karlist kuşatmasını çocuk gözüyle yaşadı ve ilk romanı *Savaşta Barış*'ı (1897) bu anıya yazdı. Madrid'de felsefe ve edebiyat okudu, 1891'de Salamanca Üniversitesi'nde Yunanca profesörü oldu ve hayatının geri kalanını, iki sürgün dönemi dışında, bu kentte geçirdi; 1900'de rektör seçildi. 1897'de geçirdiği dinî ve varoluşsal kriz, düşüncesinin merkezini belirledi: Akıl, ölümsüzlüğü kanıtlayamaz; ama insan ölümsüzlük istemekten vazgeçemez. *Hayatın Trajik Duygusu* (1913), bu çelişkiyi çözmek yerine onda yaşamayı öneren, Kierkegaard'ı İspanyolcaya taşıyan (Unamuno, onu okumak için Danca öğrenmişti), Pascal ve Spinoza'yı yeniden okuyan, sistematik olmayı reddeden bir varoluş felsefesi metnidir; "etten kemikten insan" (el hombre de carne y hueso), soyut "insan" kavramına karşı Unamuno'nun felsefeyi başlattığı yerdir.
+
+*Don Quijote ve Sancho'nun Hayatı* (1905), Cervantes'in romanını bir felsefe metni olarak okudu ve Don Quijote'yi "İspanyol Mesih'i" ilan etti: Akıl çağında imkânsıza inanmayı seçen kahraman, Unamuno'nun trajik duygusunun edebî cisimleşmesidir. *Sis* (1914) adlı romanı, kahramanın yazarına isyan ettiği bölümüyle Pirandello'dan önce üstkurmacayı denedi; *Aziz Manuel Bueno, Şehit* (1931), inanmadan inandıran bir rahibin hikâyesiyle Unamuno'nun kendi sorusunu anlattı.
+
+Siyasal hayatı, düşüncesi kadar çelişkiliydi. Primo de Rivera diktatörlüğüne karşı çıktığı için 1924'te Kanarya Adaları'na sürüldü, Fransa'ya kaçtı, 1930'da bir kahraman olarak döndü; Cumhuriyet'i destekledi, sonra ona karşı döndü, 1936'da askerî ayaklanmayı başta destekledi. 12 Ekim 1936'da Salamanca Üniversitesi'nde, falanjist general Millán-Astray'ın "Yaşasın ölüm!" sloganı karşısında, rektör olarak yaptığı konuşmanın tarihe geçen cümleleri, kaynaklarda farklı biçimlerde aktarılır, ama özü değişmez: "Yeneceksiniz, ama ikna edemeyeceksiniz." Rektörlükten alındı, ev hapsine kondu ve 31 Aralık 1936'da öldü. Ortega y Gasset'nin rakibi, Camus'nün ve Sartre'ın öncüsü, Kierkegaard ile Heidegger arasındaki İspanyol halkası olarak, yirminci yüzyıl varoluşçuluğunun en az anılan kurucularındandır. Türkçede *Hayatın Trajik Duygusu*, *Sis*, *Yaman Adam* ve *Aziz Manuel Bueno* okunabilir.
+
+## 1547: Miguel de Cervantes
+
+Miguel de Cervantes Saavedra'nın doğum günü kesin bilinmiyor; 9 Ekim 1547'de Alcalá de Henares'te vaftiz edildi ve gelenek, adını taşıdığı Aziz Mikail'in yortusu olan 29 Eylül'ü doğum günü sayar. Lepanto'da sol elini kaybetti, beş yıl Cezayir'de esir kaldı, borç yüzünden hapse girdi ve *Don Quijote*'nin ilk cildini 1605'te elli sekiz yaşında yayımladı. Felsefe için Cervantes, modern romanın kurucusu olmanın ötesinde, bir soruyu icat eden yazardır: Dünya bize göründüğü gibi midir, yoksa okuduğumuz kitapların bize gösterdiği gibi mi? Don Quijote'nin yel değirmenlerini dev sanması, Descartes'ın kırk yıl sonra soracağı şüphe sorusunun edebî öncülüdür; ikinci ciltte kahramanların birinci cildin okurlarıyla karşılaşması, gerçeklik ile temsil arasındaki ilişkiyi Foucault'nun *Kelimeler ve Şeyler*'de "benzerlik çağının sonu" olarak okuduğu bir kırılma noktasına çevirir. Unamuno'nun 29 Eylül'de Cervantes'le doğum gününü paylaşması, İspanyol düşüncesinin sevdiği rastlantılardan.
+
+## 1881: Ludwig von Mises
+
+Ludwig von Mises, 29 Eylül 1881'de Lemberg'de (bugün Lviv) doğdu; Viyana'da hukuk ve iktisat okudu, Böhm-Bawerk'in seminerinden geçti. 1920 tarihli "Sosyalist Ortak Toplulukta İktisadi Hesaplama" makalesi, merkezî planlamanın fiyat mekanizması olmadan rasyonel kaynak dağılımı yapamayacağını savunarak yirminci yüzyılın en uzun iktisat tartışmasını, "sosyalist hesaplama tartışmasını", başlattı; Hayek'in bilgi problemi bu argümanın devamıdır. 1938'de Nazi işgalinden kaçtı, 1940'ta New York'a yerleşti. Felsefe için önemi, *İnsan Eylemi* (1949) ile kurduğu "praksiyoloji"de: İktisat, ampirik bir bilim değil, "insan eyler" aksiyomundan mantıksal çıkarımla türetilen a priori bir bilimdir. Bu Kantçı-akılcı iktisat epistemolojisi, Popper'ın yanlışlanabilirlik ölçütüyle doğrudan çelişir ve Avusturya Okulu'nun ana akım iktisatla kopuşunun felsefi kaynağıdır; Karl Popper'ı [17 Eylül'de](/haber/felsefe-tarihinde-bugun-17-eylul-popper-searle-hildegard) anarken bu tartışmanın öteki tarafını görmüştük. Von Mises, Hayek'in hocası ve Rothbard'ın ilham kaynağı olarak, liberteryen düşüncenin kurucu figürü; 10 Ekim 1973'te New York'ta öldü.
+
+## Ölümler: Zola ve Auden
+
+Émile Zola, 29 Eylül 1902'de Paris'teki evinde, bacası tıkanmış bir sobadan sızan karbonmonoksitle öldü; kaza mı, Dreyfus davasındaki tavrı yüzünden cinayet mi olduğu hiç kesinleşmedi. "J'accuse" (1898) ile modern entelektüelin, uzmanlık alanı dışında kamusal adalet için konuşan yazarın, prototipi olmuştu; Sartre'ın "angaje yazar" kavramı Zola'ya borçludur. Natüralist romanı "deneysel roman" olarak tanımlayan 1880 tarihli denemesi, Claude Bernard'ın deneysel tıp yöntemini edebiyata uygulama iddiasıyla, bilim felsefesi ile estetik arasındaki en tuhaf köprülerden biridir.
+
+W. H. Auden, 29 Eylül 1973'te Viyana'da öldü. Kierkegaard'ı İngilizce dünyaya tanıtan antolojisi, Freud üzerine ağıtı ("Ondan sonra dünyayı başka türlü görüyoruz") ve "Şiir hiçbir şeyin olmasına yol açmaz" dizesiyle Auden, şiir ile felsefe arasındaki sınırda duran yirminci yüzyıl şairlerinden. 1 Eylül 1939'un "Birbirimizi sevmeliyiz ya da ölmeliyiz" dizesini sonradan "yalan" diye reddedip şiirden çıkarması, bir şairin kendi ahlaki iddiasını felsefi titizlikle sınadığı ender örneklerden.`,
+  },
+  {
     title: "28 Eylül: Konfüçyüs'ün doğum günü, David Lewis'in olası dünyaları ve Barry Stroud'un şüpheciliği",
     slug: "felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud",
     summary:
@@ -2796,37 +2925,56 @@ Sözer'in Türkiye felsefesindeki yeri, iki geleneği aynı anda bu ülkeye taş
     title: "Selçuk'taki Mantık, Matematik ve Felsefe Sempozyumu'nun programı açıklandı: Ahmet Arslan ve Kaan H. Ökten çağrılı konuşmacı",
     slug: "mantik-matematik-felsefe-xi-program-arslan-okten",
     summary:
-      "1-3 Ekim'de Selçuk Efes Kent Belleği'nde toplanacak XI. Ulusal Sempozyum'un programı yayımlandı: Çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten; bütün oturumlar halka açık; kapanışın ardından Efes ve Meryem Ana Evi gezisi. Sempozyum, İKÜ'nün kurucusu Fahamettin Akıngüç'ün anısına adanıyor.",
-    seoTitle: "MMF XI Sempozyumu programı: Ahmet Arslan ve Kaan H. Ökten, 1-3 Ekim 2026, Selçuk",
+      "Erdal İnönü'nün 2003'te Assos'ta başlattığı, on yıl Foça'da süren ve 2012'de sessizliğe gömülen sempozyum dizisi, 1-3 Ekim'de Selçuk Efes Kent Belleği'nde yeniden açılıyor. Programı açıklanan XI. buluşmanın çağrılı konuşmacıları Ahmet Arslan ve Kaan H. Ökten; tema 'ÂRÂF'; bütün oturumlar halka açık. Türkiye'de mantık ve bilim felsefesinin en uzun ömürlü buluşmasının hikâyesi ve bugünü.",
+    seoTitle: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu: program, Ahmet Arslan, Kaan H. Ökten — 1-3 Ekim 2026, Selçuk",
     metaDescription:
-      "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu'nun programı açıklandı: çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten, yer Selçuk Efes Kent Belleği, 1-3 Ekim 2026, oturumlar halka açık.",
-    contentType: "ETKINLIK",
+      "Erdal İnönü'nün 2003'te Assos'ta başlattığı Mantık, Matematik ve Felsefe Sempozyumu on dört yıl sonra Selçuk'ta: XI. Ulusal Sempozyum'un programı, çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten, ÂRÂF teması, Efes Kent Belleği, 1-3 Ekim 2026.",
+    contentType: "ANALIZ",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk%20Ephesus%20Celsus-Library%2032%203x2-R%205K.jpg?width=1600",
     imageCredit: "Celsus Kütüphanesi, Efes — Selçuk, İzmir · Wikimedia Commons",
-    featured: false,
+    featured: true,
     sourceName: "İstanbul Kültür Üniversitesi",
     sourceUrl: "https://mmf2026.iku.edu.tr/tr/program",
     publishedAt: "2026-09-28T01:50:00.000Z",
-    authorSlug: "kultur-servisi",
-    categorySlug: "konferanslar",
-    tagSlugs: ["sempozyum", "mantik", "bilim-felsefesi", "konferans"],
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["sempozyum", "mantik", "bilim-felsefesi", "akademi", "konferans"],
     philosopherSlugs: ["ahmet-arslan"],
     sources: [
       { title: "Sempozyum Programı", publisher: "MMF XI — İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/tr/program", primary: true },
       { title: "Çağrılı Konuşmacılar", publisher: "MMF XI — İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/tr/cagrili-konusmacilar" },
+      { title: "Tarihçe", publisher: "MMF XI — İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/tr/tarihce" },
       { title: "Arâf temasıyla bilim ve felsefe Efes Selçuk'ta buluşuyor", publisher: "Anka Haber", url: "https://ankahaber.net/haber/ar-f-temasiyla-bilim-ve-felsefe-efes-selcuk-ta-bulusuyor-b9801ddd" },
     ],
-    content: `Sitemizde [daha önce duyurduğumuz](/haber/mantik-matematik-felsefe-xi-selcuk-2026) Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu'na üç gün kala program yayımlandı. İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin koordinatörlüğünde, Selçuk Belediyesi ve Türk Matematik Derneği'nin MAD Projesi iş birliğiyle düzenlenen sempozyum, 1-3 Ekim 2026'da Selçuk Efes Kent Belleği'nde toplanıyor. Bu yazı yalnızca yeni bilgileri aktarıyor; sempozyumun tarihçesi, "ÂRÂF" teması ve Assos'tan Selçuk'a uzanan hikâyesi için önceki haberimize bakılabilir.
+    content: `Türkiye'de felsefe toplantılarının çoğu bir kez yapılır ve unutulur; on yıl aralıksız süren, sonra kesilen ve on dört yıl sonra yeniden başlayan bir dizi ise nadirdir. Mantık, Matematik ve Felsefe Sempozyumu bu nadir örneklerden biri. İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin koordinatörlüğünde, Selçuk Belediyesi ve Türk Matematik Derneği'nin MAD Projesi iş birliğiyle düzenlenen on birinci buluşma, 1-3 Ekim 2026'da Selçuk Efes Kent Belleği'nde toplanıyor; sempozyuma üç gün kala program yayımlandı ve çağrılı konuşmacılar açıklandı: Ahmet Arslan ve Kaan H. Ökten. Sempozyumu [ilk duyurduğumuzda](/haber/mantik-matematik-felsefe-xi-selcuk-2026) temasını ele almıştık; bu yazı, programın açıklanması vesilesiyle dizinin hikâyesini, konuşmacılarını ve bugünkü anlamını bir arada değerlendiriyor.
 
-## Çağrılı konuşmacılar
+## Erdal İnönü'nün mirası: Assos'tan Foça'ya on yıl
 
-Sempozyumun iki çağrılı konuşmacısı Türkiye felsefesinin iki farklı kuşağını ve damarını temsil ediyor. **Ahmet Arslan** (1944, Urfa), Ege Üniversitesi'nin emekli felsefe tarihi profesörü; İslam felsefesi, Aristoteles ve felsefe tarihinin kamusal aktarımı üzerine çalışmalarıyla tanınıyor. Sitemizde son iki haftada [felsefenin Türkiye'de popülerleşmesi](/haber/ahmet-arslan-turkiyede-felsefenin-populerlesmesi) ve [felsefe tarihi okuma kültürü](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) üzerine görüşlerini ele almıştık. **Kaan H. Ökten** (1969, Samsun), Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü öğretim üyesi; Heidegger'in *Varlık ve Zaman*'ının çevirmeni ve Türkçedeki Heidegger literatürünün kurucu isimlerinden. Bu ay Schleiermacher'in *Hermeneutik Dersleri*'nin çevirisiyle [Yeni Kitaplar sayfamızda](/haber/schleiermacher-hermeneutik-dersleri-turkce) yer almıştı. Konuşma başlıkları programda; mantık ve matematik ağırlıklı bir sempozyumda iki felsefe tarihçisinin çağrılı konuşmacı seçilmesi, "ÂRÂF" temasının, kesinlik ile belirsizlik arasındaki ara bölgenin, tarihsel bir perspektifle ele alınacağını gösteriyor.
+Dizinin kurucusu, Türkiye'nin en önemli fizikçilerinden ve bilim politikasının en etkili isimlerinden Erdal İnönü'dür (1926-2007). Wigner'in öğrencisi, İnönü-Wigner grup daralması ile matematiksel fizik literatürüne adını yazdıran, ODTÜ'nün kurucu kadrosundan, sonra rektör, TÜBİTAK başkanı ve siyasetçi olan İnönü, 2003'te İstanbul Kültür Üniversitesi'nin çatısı altında mantıkçıları, matematikçileri ve filozofları aynı masaya oturtan bir sempozyum başlattı. İlk toplantı 26-28 Eylül 2003'te Assos'ta yapıldı; Aristoteles'in Platon'un ölümünden sonra üç yıl yaşadığı ve Hermias'ın sarayında felsefe okulu kurduğu antik kentte. İkinci toplantı da Assos'ta, "Kaos" temasıyla toplandı; 2005'ten itibaren sempozyum Foça'ya taşındı ve her eylül, düşünce dünyasının bir temel sorusunu tema olarak seçti: "Sonsuzluk ve Görelilik" (2005), "Olasılık" (2006), "Bilim ve Sanat" (2007), "Evrim" (2008), "Toplum, Bilim, Teknoloji ve Etik Değerler" (2009), "Bilim, Felsefe ve Sanatta Postmodern Yaklaşımlar" (2010), "Düşüncenin İletişim Aracı Olarak Dil" (2011) ve son olarak, 2012'de, "Üniversite, Üniversitelerimiz, Üniversite Nereye?".
 
-## Yer, katılım ve program
+Bu on yıl, Türkiye'de mantık, matematik felsefesi ve bilim felsefesi çalışanların düzenli olarak bir arada bulunduğu nadir ortamlardan biriydi; bildiriler her yıl ciltler hâlinde yayımlandı ve onuncu yılda bir derleme kitap çıktı. 2012'deki "üniversite nereye" sorusu, geriye dönüp bakınca, dizinin kendi kaderi hakkında bir soru gibi okunuyor: Sempozyum o yıldan sonra yapılmadı. Nedeni açıklanmış değil; ama Türkiye'de üniversitelerin 2010'larda geçirdiği dönüşüm, özel üniversitelerin bütçe daralması ve kurucu kuşağın çekilmesi bir araya gelince, İnönü'nün ölümünden beş yıl sonra dizi durdu.
 
-Sempozyum, Selçuk Belediyesi'nin eski tren istasyonu çevresinde kurduğu **Efes Kent Belleği**'nde yapılacak. Bütün oturumlar halka açık; dinleyici olarak katılmak isteyenlerin sempozyum sitesindeki kayıt formunu doldurması isteniyor. Üçüncü günün değerlendirme ve kapanış oturumundan sonra katılımcılar için Efes Antik Kenti ve Meryem Ana Evi gezisi düzenlenecek. Ayrıntılı program PDF olarak sempozyum sitesinde.
+## On dört yıl sonra Selçuk: Neden şimdi?
 
-Düzenleyiciler sempozyumu, Kültür Koleji, Kültür2000 Koleji ve İstanbul Kültür Üniversitesi'nin kurucusu, Mütevelli Heyeti Onursal Başkanı İnşaat Yüksek Mühendisi Fahamettin Akıngüç'ün anısına adıyor.
+İKÜ Fen-Edebiyat Fakültesi, diziyi "uzun bir sessizliğin ardından" yeniden başlattığını söylüyor ve bu kez İKÜ'nün kurucusu, Mütevelli Heyeti Onursal Başkanı Fahamettin Akıngüç'ün anısına adıyor. Mekân seçimi de anlamlı: Assos Aristoteles'in, Foça İyonya'nın kentiydi; Selçuk ise Herakleitos'un Efes'i, aynı zamanda antik dünyanın en büyük kütüphanelerinden Celsus'un bulunduğu yer. Düzenleyiciler, bu yıl kabul edilen bildirilerin tam metinlerinin uluslararası bir yayınevinden e-kitap olarak yayımlanacağını duyurdu; bu, dizinin yalnızca yeniden başlamasını değil, kalıcılaşmasını hedeflediğini gösteriyor.
+
+Bu yılın teması **"ÂRÂF: Belirsiz Kesinlikler, Kesin Belirsizlikler Arasında İnsan ve Bilgi"**. Sözcük, İslam düşüncesinde cennet ile cehennem arasındaki ara bölgeyi adlandırır; sempozyum onu epistemolojiye taşıyor. Matematiğin kesinliği Gödel'den beri kendi sınırlarını biliyor; mantığın tutarlılığı, çok değerli ve parakonsistent mantıklarla çoğullaştı; olasılık ve belirsizlik, kuantum fiziğinden yapay zekâya bilimin gündelik dili oldu. Tema, dizinin ilk on yılının sorularıyla, "kaos", "olasılık", "sonsuzluk", doğrudan bağlantılı: 2004'te kaos, 2006'da olasılık sorulmuştu; 2026'da ikisinin arasındaki insanın konumu soruluyor. Yapay zekâ çağında "kesin bilgi" kavramının yeniden tartışılması, sitemizde son haftalarda [yapay zekâ ve bilgi](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) üzerine yazdıklarımızla da kesişiyor.
+
+## Çağrılı konuşmacılar: İki kuşak, iki damar
+
+Sempozyumun iki çağrılı konuşmacısı, mantık-matematik ağırlıklı bir toplantı için ilk bakışta beklenmedik: ikisi de felsefe tarihçisi. Bu seçim, "ÂRÂF" temasının tarihsel bir derinlikle ele alınacağını gösteriyor.
+
+**Ahmet Arslan** (1944, Urfa), Ankara Üniversitesi DTCF Felsefe Bölümü'nde okudu, 1978'de doçent, 1988'de profesör oldu; Ege Üniversitesi Felsefe Bölümü'nün kurucusu ve uzun yıllar başkanı. İslam felsefesi, özellikle Farabi, İbn Sînâ, İbn Rüşd ve Gazali üzerine çalışmaları, Aristoteles'in *Metafizik*'inin Türkçe çevirisi ve beş ciltlik *İlkçağ Felsefe Tarihi* ile Türkiye'de felsefe tarihinin hem akademik hem kamusal aktarımının en etkili isimlerinden. Sitemizde son iki haftada [felsefenin Türkiye'de popülerleşmesi](/haber/ahmet-arslan-turkiyede-felsefenin-populerlesmesi) ve [felsefe tarihi okuma kültürü](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) üzerine görüşlerini ele almıştık. İslam felsefesinde kesinlik (yakîn) ile zan arasındaki ayrımın, Gazali'nin şüpheciliğinin ve İbn Rüşd'ün burhan kuramının uzmanı olarak Arslan, "ârâf" temasına bu geleneğin içinden bakabilecek en yetkin isim.
+
+**Kaan H. Ökten** (1969, Samsun), ilk ve ortaokulu Almanya'da okudu, Avusturya Lisesi'nden sonra İstanbul Üniversitesi'nde felsefe eğitimi aldı ve doktorasını orada verdi; Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü öğretim üyesi. Heidegger'in *Varlık ve Zaman*'ının Türkçe çevirmeni olarak Türkçedeki Heidegger literatürünün kurucu isimlerinden; bu ay Schleiermacher'in *Hermeneutik Dersleri*'nin ilk Türkçe çevirisiyle [Yeni Kitaplar sayfamızda](/haber/schleiermacher-hermeneutik-dersleri-turkce) yer aldı. Ökten'in Heidegger üzerinden getireceği perspektif, kesinliğin Descartes'tan bu yana modern felsefenin kurucu ideali olduğu ve Heidegger'in bu ideali "hesaplayan düşünme" olarak sorguladığı tezi, matematikçilerin ve mantıkçıların önünde tartışılacak.
+
+## Program, yer ve katılım
+
+Sempozyum, Selçuk Belediyesi'nin tarihî tren istasyonu çevresinde kurduğu **Efes Kent Belleği**'nde yapılıyor; üç gün boyunca bildiri oturumları, çağrılı konuşmalar ve üçüncü günün sonunda değerlendirme-kapanış oturumu var. Bütün oturumlar halka açık; dinleyici olarak katılmak isteyenlerin sempozyum sitesindeki kayıt formunu doldurması yeterli. Kapanışın ardından katılımcılar için Efes Antik Kenti ve Meryem Ana Evi gezisi düzenleniyor. Ayrıntılı program PDF olarak sitede yayımlandı.
+
+## Neden önemli?
+
+Türkiye'de felsefe kongreleri genellikle ya tek bir kurumun yıllık toplantısı ya da bir kavramın etrafında bir kez yapılan sempozyumlardır; disiplinler arası ve süreklilik iddiası taşıyan diziler azdır. Mantık, Matematik ve Felsefe Sempozyumu, ilk on yılında bu boşluğu doldurmuştu; yeniden başlaması, hem Erdal İnönü'nün bilim ile felsefeyi aynı masada tutma idealinin sürdüğünü hem de bir özel üniversitenin, mali baskıların üniversiteleri en çok "yararsız" alanlardan çekilmeye zorladığı bir dönemde, mantık ve felsefeye yatırım yapmayı seçtiğini gösteriyor. Sitemizde geçen hafta [Britanya'da kapanan felsefe bölümlerini](/haber/britanya-felsefe-bolumleri-kapanirken-yapay-zeka-sirketleri-filozof-topluyor) yazmıştık; Selçuk'taki üç gün, aynı küresel iklimde ters yönde atılmış bir adım.
 
 **Pratik bilgi:** 1-3 Ekim 2026, Selçuk Efes Kent Belleği, Selçuk/İzmir. Kayıt ve program: mmf2026.iku.edu.tr. [Etkinlik kaydı](/etkinlik/mantik-matematik-felsefe-xi-2026).`,
   },
