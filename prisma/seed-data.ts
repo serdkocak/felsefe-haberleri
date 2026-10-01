@@ -260,6 +260,109 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Hitoshi Nagai",
+    slug: "hitoshi-nagai",
+    headline: "Japon filozof — 〈Ben〉in metafiziği, Nihon Üniversitesi (emeritus)",
+    bio: "'Neden dünyadaki bütün insanlar arasında tam olarak bu kişi benim?' sorusunu kırk yıldır felsefenin merkezinde tutan düşünür. 'Tekil-varoluşluluk' (dokuzai-sei) kavramıyla klasik tekbencilikten ayrı bir birinci-şahıs ontolojisi kurdu; Wittgenstein ve Kant'a 'yanlış teşhis' koydu; çocuklar için yazdığı felsefe kitabı otuz yıl sonra 2026'da 'tamamlanmış baskı' olarak yeniden çıktı.",
+    avatar: null,
+    country: "Japonya",
+    birthYear: 1951,
+    affiliation: "Nihon Üniversitesi Beşeri Bilimler ve Bilimler Fakültesi (önceki görevleri: Shinshu, Chiba)",
+    website: "http://nagai.philosophy-zoo.com/en/",
+    featured: false,
+    listed: true,
+    fullName: "Hitoshi Nagai (永井均)",
+    birthDate: "1951, Tokyo",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik metafizik · Wittgenstein sonrası dil felsefesi · 'açılış' (kaibyaku) felsefesi",
+    areas: "Metafizik, zihin felsefesi, dil felsefesi, etik, Nietzsche ve Wittgenstein yorumu, çocuklar için felsefe",
+    majorWorks: "〈Ben〉in Metafiziği (〈私〉のメタフィジックス, 1986)\n〈Ruh〉a Karşı Tutum (1991)\nWittgenstein'a Giriş (1995)\n〈Çocuklar〉 İçin Felsefe (1996; tamamlanmış baskı 2026)\nRessentiment Felsefesi (1997)\n〈Ben〉in Varlığının Eşsizliği (1998)\nİşte Nietzsche (1998)\nManga Felsefe Yapar (2000)\nBen, Şimdi ve Tanrı: Açılışın Felsefesi (2004)\nBilinç Neden Gerçek Değil? (2007)\nWittgenstein'ın Yanlış Teşhisi (2012)\nVarlık ve Zaman: Felsefi Soruşturma I (2016)\nDünyanın Tekil-Varoluşçu Varlık Yapısı: Felsefi Soruşturma II (2018)\nTekil-Varoluşluluğun Mızrağı Transandantal Kuruluşun Kalkanını Delebilir mi? Felsefi Soruşturma III (2022)\nSaf Aklın Eleştirisi'ni Yeniden Kurmak: Kant'ın Yanlış Teşhisi 1 (2025)\nAhlak Metafiziğinin Temellendirilmesi'ni Sökmek: Kant'ın Yanlış Teşhisi 2 (2026)",
+    keyConcepts: "〈Ben〉 (kakko-tsuki watashi), tekil-varoluşluluk (dokuzai-sei / solipsity), açılış (kaibyaku), 〈Şimdi〉, gerçeklik (actuality), 'yanlış teşhis' (goshin), bilincin gerçek olmayışı, ressentiment",
+    influencedBy: "Ludwig Wittgenstein, Friedrich Nietzsche, Immanuel Kant, René Descartes, Edmund Husserl, Thomas Nagel, Saul Kripke",
+    influenced: "Masahiro Morioka (Waseda), Motoyoshi Irifuji; Japonya'da otuz yılı aşkın 'dokuzai-ron' tartışması; çocuklar için felsefe hareketi",
+    longBio: "1951'de Tokyo'da doğdu. Keio Üniversitesi'nde okudu, aynı üniversitenin edebiyat fakültesinde doktora programını tamamladı; felsefe ve etik alanında uzmanlaştı. Shinshu Üniversitesi ve Chiba Üniversitesi'nde profesörlük yaptı; son olarak Nihon Üniversitesi Beşeri Bilimler ve Bilimler Fakültesi'nde felsefe profesörü olarak görev yaptı.\n\nİlk kitabı 〈Ben〉in Metafiziği (1986), Japon felsefesinde bugün 'dokuzai-ron' (tekil-varoluş kuramı) adıyla sürdürülen tartışmayı başlattı: Dünyada pek çok insan vardır, ama yalnızca biri 'ben' olarak yaşanmaktadır; bu olgu ne psikolojik ne biyolojik bir açıklamayla tüketilebilir. Nagai bunu klasik tekbencilikten (solipsizm) ayırmak için 'dokuzai-sei' (İngilizce metinlerde 'solipsity') kavramını kullandı ve 'ben' ile 〈Ben〉 arasında sürekli bir ayrım yaptı. 2007-2014 arasında Philosophia OSAKA dergisinde İngilizce yayımlanan iki makale dizisi, 'The Opening: A Philosophy of Actuality' ve 'Why Isn't Consciousness Real?', düşüncesinin Japonya dışındaki başlıca kaynaklarıdır.\n\nWittgenstein'ın Yanlış Teşhisi (2012) Mavi Kitap dönemini, Kant'ın Yanlış Teşhisi dizisi (2025-2026) Saf Aklın Eleştirisi ile Ahlak Metafiziğinin Temellendirilmesi'ni, filozofların doğru soruyu yakalayıp yanlış teşhis koyduğu metinler olarak yeniden okur. 〈Çocuklar〉 İçin Felsefe (1996), 'neden varım?' ve 'neden kötü olmamalıyım?' sorularını çocuğun kendi içinden başlatan bir kitap olarak Japonya'da kuşaklar boyu okundu; Kodansha, otuz yıl sonra 19 Mart 2026'da 'tamamlanmış baskı'sını yayımladı. Manga Felsefe Yapar (2000) ve kurgu biçiminde yazdığı felsefi diyaloglar, felsefenin akademi dışında da yapılabileceğini savunan tavrının ürünleridir.",
+    sources: "Hitoshi Nagai — resmî site (İngilizce) — http://nagai.philosophy-zoo.com/en/ · Kodansha, 完成版〈子ども〉のための哲学 — https://www.kodansha.co.jp/book/products/0000426082 · Philosophia OSAKA makaleleri (Osaka Üniversitesi Bilgi Deposu) — http://hdl.handle.net/11094/9218",
+  },
+  {
+    name: "Yunus Emre",
+    slug: "yunus-emre",
+    headline: "Anadolu'nun Türkçe düşünen mutasavvıf şairi (y. 1240-1320)",
+    bio: "'İlim kendin bilmektir' ve 'Bir ben vardır bende benden içeri' diyen, bilgiyi insanın kendini dönüştürmesiyle ölçen, kötülüğü 'gönül yıkmak' olarak tanımlayan düşünür. Felsefeyi Türkçenin gündelik kelimeleriyle söyledi; Risâletü'n-Nushiyye (1307) Türkçenin ilk ahlak mesnevilerindendir.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Karaman%20Yunus%20Emre%20monument%204725.jpg?width=600",
+    country: "Anadolu Selçuklu / Beylikler dönemi Anadolusu",
+    birthYear: 1240,
+    affiliation: "Tapduk Emre dergâhı (gelenek)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Yunus Emre",
+    birthDate: "y. 1240 (kesin tarih ve yer bilinmiyor; Sivrihisar-Sarıköy veya Karaman geleneği)",
+    deathDate: "y. 1320 (Risâletü'n-Nushiyye'nin bir nüshasındaki kayda dayanan tahmin)",
+    alive: false,
+    period: "Ortaçağ · 13.-14. yüzyıl",
+    school: "Tasavvuf · Anadolu Türk halk sufîliği · vahdet-i vücûd geleneği",
+    areas: "Benlik ve kendini bilme, bilgi ve ahlak ilişkisi, kötülük ve gönül, ölüm, aşk metafiziği, dil",
+    majorWorks: "Dîvân (ilahiler ve şiirler)\nRisâletü'n-Nushiyye (Öğüt Kitabı, 1307)",
+    keyConcepts: "Gönül, kendini bilmek (ilim), 'benden içeri ben', aşk, nefs ve kibir, gönül yapmak/gönül yıkmak, yol (şeriat-tarikat-marifet-hakikat), dost, fanilik",
+    influencedBy: "Ahmed Yesevî geleneği, Mevlânâ Celâleddîn-i Rûmî, Hacı Bektaş Velî, Tapduk Emre; İbn Arabî çizgisindeki vahdet-i vücûd düşüncesi (dolaylı)",
+    influenced: "Kaygusuz Abdal, Hacı Bayram Velî, Eşrefoğlu Rûmî, Niyâzî-i Mısrî; Türkçe tasavvuf şiiri ve halk şiirinin bütünü; 20. yüzyılda hümanist Yunus okumaları (A. Gölpınarlı, Sabahattin Eyüboğlu)",
+    longBio: "Hayatı hakkında kesin bilgi azdır; 13. yüzyılın ikinci yarısında yaşadığı, Risâletü'n-Nushiyye'yi 1307'de yazdığı ve 1320 dolayında öldüğü kabul edilir. Doğum yeri ve mezarı için Sivrihisar (Sarıköy), Karaman ve başka yerler hak iddia eder; menkıbeye göre Tapduk Emre'nin dergâhında kırk yıl odun taşıdı ve 'eğri odun getirmedi'. Moğol istilası, Selçuklu çöküşü ve beyliklerin doğuşu çağında, Mevlânâ ile aynı coğrafyada yaşadı; Mevlânâ Farsça yazarken Yunus Türkçeyi düşüncenin dili yaptı.\n\nDîvân'ındaki ilahiler, hece ölçüsüyle ve halkın diliyle yazılmış olmalarına rağmen, benlik, bilgi, ölüm ve Tanrı üzerine yoğun bir düşünce taşır. 'İlim ilim bilmektir / İlim kendin bilmektir' dizesi bilgiyi insanın kendini tanımasına bağlar; 'Bir ben vardır bende benden içeri' benliğin katmanlı yapısını söyler; 'Sen sana ne sanırsan ayruğa da anı san' ahlakı bir simetri ilkesine dayandırır; 'Gönül Çalab'ın tahtı' ve 'bir kez gönül yıktın ise bu kıldığın namaz değil' dizeleri, kötülüğü başkasının gönlünü kırmak olarak tanımlar. Risâletü'n-Nushiyye, aklın nefsin güçleriyle (kibir, öfke, haset, cimrilik) savaşını alegorik bir mesnevi biçiminde anlatır ve Türkçenin ilk ahlak felsefesi metinlerinden sayılır.\n\nYirminci yüzyılda Fuad Köprülü ve Abdülbaki Gölpınarlı'nın araştırmaları onu tarihsel bir kişilik olarak kurdu; Cumhuriyet dönemi hümanist okuması onu 'insan sevgisi şairi' yaptı. UNESCO 1991'i Yunus Emre Yılı ilan etti; 2021 Türkiye'de 'Yunus Emre ve Türkçe Yılı' olarak anıldı.",
+    sources: "TDV İslâm Ansiklopedisi, 'Yûnus Emre' — https://islamansiklopedisi.org.tr/yunus-emre · TDV İslâm Ansiklopedisi, 'Risâletü'n-Nushiyye' — https://islamansiklopedisi.org.tr/risaletun-nushiyye · Britannica — https://www.britannica.com/biography/Yunus-Emre",
+  },
+  {
+    name: "Konfüçyüs",
+    slug: "konfucyus",
+    headline: "Çinli düşünür ve öğretmen (MÖ 551-479)",
+    bio: "İnsanın ancak ilişkiler içinde insan olduğunu (ren), ortak yaşamın bir grameri olduğunu (li), soyluluğun doğumla değil kendini yetiştirmeyle kazanıldığını (junzi) ve adlar ile şeyler arasındaki uyumun siyasetin koşulu olduğunu (zhengming) öğreten düşünür. Konuşmalar (Lunyu), iki bin beş yüz yıldır Doğu Asya'nın ve bugün dünya felsefesinin temel metinlerinden.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Cropped%20version%20of%20Confucius%20Portrait%2C%20Kongzi%20(Confucius)%20Family%20Mansion%2C%20Qufu%20(13044335945).jpg?width=600",
+    country: "Lu Devleti (bugünkü Shandong, Çin)",
+    birthYear: -551,
+    affiliation: "Gezgin öğretmen; Lu'da kısa süreli memuriyet",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Kong Qiu (Kong Fuzi, 孔夫子)",
+    birthDate: "28 Eylül MÖ 551 (geleneksel tarih), Zou, Lu Devleti",
+    deathDate: "MÖ 479, Qufu",
+    alive: false,
+    period: "Antik · Bahar ve Güz dönemi",
+    school: "Konfüçyüsçülük (Ru okulu)",
+    areas: "Etik, siyaset felsefesi, eğitim, ritüel ve toplumsal pratik, dil ve adlandırma, kendini yetiştirme",
+    majorWorks: "Konuşmalar (Lunyu / Analects; öğrencilerince derlendi)\nBeş Klasik'in geleneksel editörlüğü (Şiirler, Belgeler, Değişimler, Ritüeller, Bahar ve Güz Yıllıkları)",
+    keyConcepts: "Ren (insanlık), li (ritüel/edep), junzi (soylu kişi), zhengming (adların düzeltilmesi), xiao (ebeveyne saygı), yi (doğruluk), zhong (sadakat), shu (karşılıklılık / altın kural), de (erdemle yönetim), xue (öğrenme)",
+    influencedBy: "Zhou hanedanı ritüel geleneği, Zhou Dükü, Şiirler Klasiği",
+    influenced: "Mengzi, Xunzi, Zhu Xi, Wang Yangming; Kore, Japonya ve Vietnam düşüncesi; Leibniz ve Voltaire; Herbert Fingarette, Roger Ames, Philip J. Ivanhoe, Bryan Van Norden, Sungmoon Kim, Elena Ziliotti ve çağdaş Konfüçyüsçü siyaset felsefesi",
+    longBio: "Geleneksel tarihe göre MÖ 551'de Lu Devleti'nde doğdu. Hakkındaki biyografik anlatıların büyük kısmı ölümünden yüzyıllar sonra, Sima Qian'ın Shiji'si (MÖ 1. yüzyıl) gibi kaynaklarla yazıldı; bu yüzden hayatına dair ayrıntılar tarihsel kesinlik taşımaz. Öğretisini doğrudan yazmadı; Konuşmalar, öğrencilerinin ve onların öğrencilerinin derlediği, bugünkü biçimini Han döneminde alan bir metindir.\n\nKonfüçyüs, çöküş hâlindeki Zhou düzeninin ritüel kültürünü (li) yeniden canlandırmak istedi; ama ritüeli dışsal bir biçim değil, insanlığın (ren) toplumsal ifadesi olarak düşündü. Soylu kişi (junzi) kavramını aristokratik anlamından çıkarıp ahlaki bir ideale dönüştürdü: Soylu olunur, doğulmaz. Siyasette yöneticinin kişisel erdeminin (de) yasa ve cezadan daha etkili olduğunu savundu; adlar ile gerçeklik arasındaki uyumsuzluğu (zhengming sorunu) toplumsal bozulmanın kökü saydı. 'Kendine yapılmasını istemediğini başkasına yapma' (shu) ilkesi, Batı'daki altın kuralın en eski formülasyonlarındandır.\n\nHan döneminden itibaren devlet ideolojisi oldu; Song döneminde Zhu Xi'nin Yeni Konfüçyüsçülüğü metafizik bir sistem kurdu; 20. yüzyılda Mao döneminin 'Kong'u yık' kampanyalarının ardından Çin'de ve dünyada yeniden yükseldi. Çağdaş Anglofon felsefede Konfüçyüsçü erdem etiği, Aristotelesçi geleneğin başlıca muhatabı; 'Konfüçyüsçü demokrasi mi, meritokrasi mi?' tartışması siyaset felsefesinin canlı alanlarından biridir.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Confucius' — https://plato.stanford.edu/entries/confucius/ · Britannica — https://www.britannica.com/biography/Confucius",
+  },
+  {
+    name: "Wilhelm Dilthey",
+    slug: "wilhelm-dilthey",
+    headline: "Alman filozof, hermeneutiğin ve insan bilimleri felsefesinin kurucusu (1833-1911)",
+    bio: "'Doğayı açıklarız, ruhsal yaşamı anlarız' ayrımıyla insan bilimlerine (Geisteswissenschaften) doğa bilimlerinden bağımsız bir temel aradı. Yaşam, ifade ve anlama üçlüsü, Heidegger'den Gadamer ve Ricoeur'e uzanan hermeneutik geleneğin zeminidir.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Dilthey.jpg?width=600",
+    country: "Almanya",
+    birthYear: 1833,
+    affiliation: "Berlin Üniversitesi (1882-1905; Hegel'in eski kürsüsü)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Wilhelm Christian Ludwig Dilthey",
+    birthDate: "19 Kasım 1833, Biebrich (Wiesbaden)",
+    deathDate: "1 Ekim 1911, Seis am Schlern (Güney Tirol)",
+    alive: false,
+    period: "19. yüzyıl",
+    school: "Hermeneutik · yaşam felsefesi · tarihselcilik",
+    areas: "Hermeneutik, insan bilimleri felsefesi, tarih felsefesi, psikoloji, Schleiermacher ve Alman düşünce tarihi",
+    majorWorks: "İnsan Bilimlerine Giriş (1883)\nBetimleyici ve Çözümleyici Bir Psikoloji Üzerine Fikirler (1894)\nHermeneutiğin Doğuşu (1900)\nYaşantı ve Şiir (1906)\nDünya Görüşlerinin Tipleri (1911)\nİnsan Bilimlerinde Tarihsel Dünyanın Kuruluşu (1910)",
+    keyConcepts: "Anlama (Verstehen) / açıklama (Erklären), yaşantı (Erlebnis), ifade (Ausdruck), yaşam (Leben), tarihsel akıl eleştirisi, hermeneutik döngü, dünya görüşü (Weltanschauung), nesnel tin",
+    influencedBy: "Friedrich Schleiermacher, Kant, Hegel, Friedrich Trendelenburg, August Boeckh, J. S. Mill (eleştirel olarak), Comte (eleştirel olarak)",
+    influenced: "Martin Heidegger, Hans-Georg Gadamer, Paul Ricoeur, Georg Misch, Max Weber, Ortega y Gasset, Georg Simmel, Jürgen Habermas (Bilgi ve İlgi), Charles Taylor",
+    longBio: "Biebrich'te bir Protestan vaizin oğlu olarak doğdu; Heidelberg ve Berlin'de teoloji ve felsefe okudu, Schleiermacher üzerine çalışmasıyla tanındı (Schleiermacher'in Hayatı, 1870). Basel, Kiel ve Breslau'dan sonra 1882'de Berlin'de Hegel'in eski kürsüsüne atandı ve 1905'e kadar burada kaldı.\n\nİnsan Bilimlerine Giriş (1883), pozitivizmin insan dünyasını doğa bilimi yöntemiyle açıklama iddiasına karşı, insan bilimlerinin kendi temelini 'yaşam'ın kendisinden alması gerektiğini savundu: Tarihi, dili, hukuku ve sanatı, kendimiz de yaşayan varlıklar olduğumuz için anlayabiliriz. Kant'ın saf aklı eleştirmesi gibi Dilthey bir 'tarihsel akıl eleştirisi' tasarladı; bunu tamamlayamadı, ama geç dönem çalışmaları, özellikle İnsan Bilimlerinde Tarihsel Dünyanın Kuruluşu (1910), yaşantı-ifade-anlama üçlüsünü hermeneutiğin temel yapısı olarak kurdu. Hermeneutiğin Doğuşu (1900) adlı küçük metin, yorumlama sanatının filolojiden ve teolojiden felsefeye geçişinin klasik anlatısıdır.\n\n1 Ekim 1911'de Güney Tirol'de tatildeyken öldü. Heidegger, Varlık ve Zaman'da Dilthey'e bölüm ayırdı; Gadamer Hakikat ve Yöntem'de onu hem miras aldı hem de 'yöntem' arayışı yüzünden eleştirdi; Ricoeur 'açıklama-anlama' karşıtlığını aşmaya çalıştı. Türkçede Hermeneutik ve Tin Bilimleri (çev. Doğan Özlem) okunabilir.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Wilhelm Dilthey' — https://plato.stanford.edu/entries/dilthey/ · Britannica — https://www.britannica.com/biography/Wilhelm-Dilthey",
+  },
+  {
     name: "Robert Stalnaker",
     slug: "robert-stalnaker",
     headline: "Dil ve zihin filozofu — MIT (emeritus)",
@@ -2728,6 +2831,583 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "YAPAY ZEKÂNIN EKONOMİ-POLİTİĞİ",
+    slug: "yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet",
+    summary:
+      "Makineler artık yalnızca emeği değil, sermayenin kendisini de yeniden örgütlüyor. Stanford AI Index 2026'ya göre küresel kurumsal yapay zekâ yatırımı 2025'te 581,7 milyar dolara çıktı; Alphabet tek başına 2026 için 175-185 milyar dolarlık altyapı harcaması öngörüyor. Soru artık 'hangi işler kaybolacak?' değil: Yapay zekânın ürettiği değer kimin olacak? Marx'tan Arendt'e, Foucault'dan Habermas, Polanyi ve Simondon'a altı düşünürle bir ekonomi-politik okuması.",
+    seoTitle: "Yapay zekânın ekonomi-politiği: Mülkiyet, emek, iktidar ve meşruiyet (Marx, Arendt, Foucault, Habermas, Polanyi, Simondon)",
+    metaDescription:
+      "Yapay zekânın ekonomi-politiği: Stanford AI Index 2026 yatırım verileri, Alphabet'in 175-185 milyar dolarlık 2026 harcama planı, hesaplama gücünün mülkiyeti, emeğin anlamı (Arendt), algoritmik iktidar (Foucault), demokratik meşruiyet (Habermas), piyasanın gömülülüğü (Polanyi) ve teknik nesnelerin oluşumu (Simondon).",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers%20data%20center.jpg?width=1600",
+    imageCredit: "Bir veri merkezinin sunucu odası, 2013 · Fotoğraf: BalticServers.com, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford HAI · Alphabet · IOM",
+    sourceUrl: "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    publishedAt: "2026-09-30T21:35:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "siyaset-felsefesi", "marksizm", "teknoloji-felsefesi", "demokrasi", "elestirel-teori"],
+    philosopherSlugs: ["jurgen-habermas", "david-harvey", "peter-singer"],
+    sources: [
+      { title: "The 2026 AI Index Report", publisher: "Stanford Institute for Human-Centered AI", date: "Nisan 2026", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report", primary: true },
+      { title: "Inside the AI Index: 12 Takeaways from the 2026 Report", publisher: "Stanford HAI", date: "13 Nisan 2026", url: "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" },
+      { title: "Alphabet Announces Fourth Quarter and Fiscal Year 2025 Results (2026 CapEx guidance)", publisher: "Alphabet Investor Relations", date: "Şubat 2026", url: "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx" },
+      { title: "Hannah Arendt, The Human Condition (1958)", publisher: "University of Chicago Press", url: "https://press.uchicago.edu/ucp/books/book/chicago/H/bo29137972.html" },
+      { title: "Karl Polanyi, The Great Transformation (1944)", publisher: "Beacon Press", url: "https://www.beacon.org/The-Great-Transformation-P398.aspx" },
+    ],
+    content: `Yapay zekâ hakkında konuşurken genellikle yanlış soruyla başlıyoruz: "Yapay zekâ insanların hangi işlerini elinden alacak?" Bu soru önemsiz değil; ama iktisat tarihinin öğrettiği bir şey varsa, o da teknolojik dönüşümlerin asıl kavgasının işlerin değil, mülkiyetin etrafında döndüğüdür. Dokuma tezgâhı dokumacının işini aldı; ama asıl soru tezgâhın kime ait olduğuydu. 2026 sonbaharında yapay zekâ için de aynı soru beliriyor: Yapay zekânın ürettiği ekonomik değer kimin olacak?
+
+Çünkü yapay zekâ artık yalnızca yeni bir yazılım teknolojisi değil. Çiplerden veri merkezlerine, elektrik şebekelerinden bulut altyapısına, telif haklarından işgücüne, eğitimden savunmaya kadar ekonominin maddi ve siyasal yapısını yeniden düzenleyen devasa bir üretim sistemi hâline geliyor. Bu yazı, bu dönüşümü felsefenin altı düşünürünün kavramlarıyla okumayı deniyor: Marx'ın mülkiyet sorusu, Arendt'in emek-iş-eylem ayrımı, Foucault'nun görünmez iktidarı, Habermas'ın meşruiyet kuramı, Polanyi'nin "gömülü ekonomi"si ve Simondon'un teknik nesneler felsefesi.
+
+## Rakamlar: Bir teknoloji hikâyesi değil, bir mülkiyet hikâyesi
+
+Stanford İnsan Merkezli Yapay Zekâ Enstitüsü'nün nisan ayında yayımladığı 2026 AI Index raporuna göre, küresel kurumsal yapay zekâ yatırımı 2025'te yaklaşık 581,7 milyar dolara ulaştı; bu, bir önceki yıla göre yüzde 130'luk bir artış. Özel yatırımlar 344,7 milyar dolarla bunun en büyük bölümünü oluşturdu; üretken yapay zekâ şirketleri bu özel yatırımın 170,9 milyar dolarını çekti. Coğrafi dağılım daha da çarpıcı: ABD tek başına 285,9 milyar dolarlık özel yatırım aldı; Çin'deki özel yatırım 12,4 milyar dolar düzeyinde kaldı. Raporun kendi ifadesiyle, model üretimi hâlâ ağırlıklı olarak iki ülkede yoğunlaşıyor ve "yapay zekâ egemenliği" ulusal politika gündemlerinin belirgin bir başlığı hâline geldi.
+
+Tek bir şirketin planı ölçeği gösteriyor: Alphabet, 2025'te 91,4 milyar dolar olan sermaye harcamasını 2026'da 175-185 milyar dolara çıkaracağını açıkladı; bunun yaklaşık yüzde 60'ı sunuculara, yüzde 40'ı veri merkezleri ve ağ donanımına gidecek, 2027'de harcamanın daha da artması bekleniyor. Şirket, bu yatırımı finanse etmek için hisse satışına gitti. Bir arama motoru şirketi, birkaç yıl içinde dünyanın en büyük fizikî altyapı yatırımcılarından birine dönüştü.
+
+Bu rakamlar bize teknolojik bir başarı hikâyesinden çok daha fazlasını söylüyor. Yapay zekâ aynı zamanda bir mülkiyet hikâyesidir: Dünyanın üretim kapasitesinin yeni katmanı, birkaç şirketin ve iki devletin elinde kuruluyor.
+
+## Marx'ın sorusu geri dönüyor: Üretim araçlarının sahibi kim?
+
+Karl Marx'ın on dokuzuncu yüzyılda sorduğu temel soru bugün şaşırtıcı biçimde güncel: Bir toplumun üretim kapasitesi kimlerin elindedir ve bu kapasitenin yarattığı değer nasıl paylaşılmaktadır? Sitemizde [Marx'ı bugün okumak](/haber/karl-marx-yabancilasma-meta-fetisizmi) başlıklı yazımızda "makinenin sahibi" sorusuna değinmiştik; yapay zekâ bu soruyu yeni bir ölçekte yeniden kuruyor.
+
+Yapay zekâ açısından "üretim aracı" yalnızca algoritma değildir. Modeli eğiten veri, GPU kümeleri, enerji, veri merkezleri, bulut altyapısı, araştırmacılar, mühendisler, kullanıcı davranışları ve dağıtım platformları birlikte düşünüldüğünde ortaya devasa bir teknik-ekonomik kompleks çıkar. Marx'ın *Grundrisse*'deki "makineler üzerine fragman"ı, bilimin ve toplumsal bilginin "sabit sermaye"ye dönüşmesini öngörmüştü: Toplumun ortak zekâsı makineye gömülür ve makinenin sahibi bu ortak zekânın ürününe el koyar. Büyük dil modelleri bu fragmanın neredeyse harfi harfine gerçekleşmesi gibidir: İnsanlığın yazdığı her şey, kitaplar, forumlar, kodlar, ansiklopediler, bir modelin ağırlıklarına dönüşür ve bu ağırlıklar birkaç şirketin bilançosunda "varlık" olarak yer alır. Marksist iktisatçıların son yıllarda üretken yapay zekâyı bilgi emeğinin değişim değeri ve "algoritmik kapitalizm" kavramları üzerinden tartışması bu yüzden şaşırtıcı değil; sitemizde [David Harvey'in](/filozof/david-harvey) sermaye analizine ve [Peter Singer'ın yapay zekâ ile kapitalizm üzerine görüşlerine](/haber/peter-singer-iyi-hayat-yapay-zeka-kapitalizm) yer vermiştik.
+
+Buradaki kritik ayrım şudur: Yapay zekânın üretkenliği ile yapay zekânın mülkiyeti aynı şey değildir. Bir teknolojinin üretimi artırması, kazancının topluma eşit biçimde dağılacağı anlamına gelmez; on dokuzuncu yüzyıl İngiltere'sinde üretkenlik yarım yüzyıl boyunca arttı, ücretler yerinde saydı. İktisat tarihçilerinin "Engels duraklaması" dediği bu dönem, bugünkü tartışmanın tarihsel aynasıdır.
+
+## "Ücretsiz" yapay zekânın arkasındaki devasa sermaye
+
+Sohbet robotlarının kullanıcı açısından ücretsiz veya düşük maliyetli olması ekonomik gerçekliği gizler. Kullanıcı ekranda yalnızca bir sohbet penceresi görür. Arkasında veri merkezleri, enerji santralleri, yüksek performanslı çipler, soğutma sistemleri, fiber ağlar, uzman emeği ve yüz milyarlarca dolarlık sermaye yatırımı vardır. Marx'ın "meta fetişizmi" dediği şey, ürünün arkasındaki toplumsal ilişkilerin görünmez olmasıydı; yapay zekâ bu görünmezliği mükemmelleştirir: Ürün, bir "zekâ" olarak görünür, bir altyapı olarak değil.
+
+Bu nedenle yapay zekânın ekonomi-politiği "işlerimizi robotlar mı alacak?" sorusundan ibaret değildir. Daha büyük soru şudur: Hesaplama gücünü kim kontrol edecek? Çipler Tayvan'da üretiliyor, tasarımları Kaliforniya'da, enerjisi Teksas'ta ve Körfez'de, verisi her yerde. Bu zincirin herhangi bir halkasını kontrol eden, bütünü üzerinde söz sahibi oluyor.
+
+## Yeni sınıf ayrımı: Modeli kullananlar ve modeli sahiplenenler
+
+Yapay zekâ çağında yeni bir ekonomik ayrım ortaya çıkıyor: Bir tarafta yapay zekâyı kullanan yüz milyonlarca çalışan ve tüketici; diğer tarafta modelleri, veriyi, çipleri, bulutu ve enerji altyapısını kontrol eden şirketler ve devletler. Bu ayrım klasik "işçi-sermayedar" karşıtlığının aynısı değil; çünkü modeli kullananların çoğu, Marx'ın anlamında proleter değil, bilgi işçisi, serbest meslek sahibi veya küçük girişimci. Ama Marx'ın mülkiyet sorusunu yeniden gündeme getiriyor: Üniversite eğitimli çalışanlar için yapay zekâ yalnızca bir "iş otomasyonu" meselesi değil, giderek bir rant sağlayan varlık meselesi. Modeli sahiplenen, ondan geçen her işlemden pay alıyor; kullanan ise üretkenliğini artırırken bağımlılığını da artırıyor.
+
+Burada ekonomi-politik açıdan kritik soru şudur: Yapay zekâ bir işçi mi, bir makine mi, bir altyapı mı, yoksa sermayenin yeni biçimi mi? Muhtemelen bunların hepsinden biraz; ve tam da bu melez karakter, mevcut hukuki ve iktisadi kategorilerin ona uymamasının nedeni.
+
+## Arendt'in "çalışan insan" problemi
+
+Hannah Arendt'in *İnsanlık Durumu*'nda (1958) yaptığı emek-iş-eylem (labor-work-action) ayrımı, yapay zekâ tartışmasına başka bir kapı açıyor. Arendt için emek, yaşamın biyolojik döngüsünü sürdüren, tüketilen şeyler üreten faaliyettir; iş, kalıcı bir dünya kuran, eserler yaratan faaliyettir; eylem ise insanların birbirleriyle konuşarak ve birlikte hareket ederek siyasal bir alan kurmasıdır. Modernliğin trajedisi, Arendt'e göre, bu üçlünün emeğe indirgenmesi, insanın "çalışan hayvan" (animal laborans) olarak tanımlanmasıydı.
+
+Yapay zekânın özellikle zihinsel emeğe girmesi bu nedenle yalnızca ücret meselesi değildir. İnsanlar daha az çalıştığında ne olacak? Arendt'in çerçevesinde iki cevap vardır. Birinci ihtimal: Daha az zorunlu emek, daha fazla iş ve eylem; yani eğitim, sanat, bakım, siyasal katılım için özgürleşen zaman. İkinci ihtimal: Emek ortadan kalkarken gelir de ortadan kalkar; insanlar "çalışan hayvan" kimliklerini kaybeder ama yerine bir şey koyamazlar ve ekonomik sistemin dışına itilirler. Arendt'in 1958'de yazdığı cümle bugün kehanet gibi okunuyor: Otomasyon çağı, "emeğin zincirlerinden kurtulmuş bir çalışanlar toplumu" doğurma riskini taşır; yani hâlâ her şeyi emek olarak gören, ama artık emek edemeyen bir toplum. Dolayısıyla mesele "insanların işi kalacak mı?" değil, "insanların toplumsal değer üretme ve birlikte dünya kurma biçimi ne olacak?" sorusudur.
+
+## Foucault'nun tasarlamadığı bir iktidar biçimi
+
+Michel Foucault iktidarın yalnızca yasaklayan bir güç olmadığını, insan davranışlarını ölçen, sınıflandıran, normalleştiren ve yönlendiren mekanizmalarla çalıştığını göstermişti. *Hapishanenin Doğuşu*'ndaki panoptikon, görülmeden gören bir bakışın kurduğu disiplini anlatıyordu. Algoritmik ekonomide bu fikir daha da karmaşık hâle geliyor; çünkü artık bakan bir göz bile yok, yalnızca bir hesaplama var.
+
+Yapay zekâ sistemleri işe alım yapıyor, kredi puanlıyor, risk hesaplıyor, reklam gösteriyor, müşteri davranışını tahmin ediyor, çalışan performansını ölçüyor, içerik sıralıyor ve giderek kamu yönetiminde karar destek sistemlerinin parçası oluyor. Bu nedenle yapay zekâ bir "araç" olmaktan çıkıp toplumsal seçme ve sınıflandırma altyapısı hâline geliyor. Foucault'nun "biyopolitika" dediği, nüfusu istatistiksel olarak yöneten iktidar biçimi, algoritmik sınıflandırmayla yeni bir araç kazanıyor: Her birey, kendisi hakkında hiçbir şey bilmediği bir "profil" olarak yönetiliyor. Foucault'nun kavramlarıyla çalışan çağdaş literatürün "algoritmik yönetimsellik" terimiyle anlattığı şey tam olarak bu: Mevcut güç asimetrilerini yeniden üreten ve veri üzerinden yeni ekonomik değer çıkaran bir sınıflandırma iktidarı.
+
+## Habermas'ın sorusu: Kararı kim veriyor ve neden?
+
+[Jürgen Habermas](/filozof/jurgen-habermas) açısından modern demokratik meşruiyet, yalnızca doğru karar vermekle değil, insanların kararların gerekçelerini tartışabilmesiyle ilgilidir. İletişimsel eylem kuramı, meşruiyeti sonuçta değil, gerekçelerin kamusal alanda sınanabilmesinde bulur. Yapay zekâ bu noktada ilginç bir paradoks yaratıyor: Bir algoritma insanlardan daha doğru tahmin yapabilir. Ama doğru tahmin yapmak, meşru karar vermek anlamına gelir mi?
+
+Bir yapay zekâ sistemi bir kişinin kredi alamayacağını, bir öğrencinin risk grubunda olduğunu veya bir başvurunun önceliklendirilmesi gerektiğini söyleyebilir. Fakat vatandaşın sorusu şudur: "Neden?" Eğer cevabın arkasında anlaşılması güç bir model varsa, Habermas'ın anlamında bir meşruiyet açığı başlar; çünkü gerekçe yoktur, yalnızca çıktı vardır. Habermas'ın son kitabı *Kamusal Alanın Yeni Bir Yapısal Dönüşümü* (2022), dijital platformların kamusal tartışmayı parçaladığını yazıyordu; yapay zekâ bu parçalanmaya bir katman daha ekliyor: Kararın kendisi tartışma alanının dışına çıkıyor. Bu yüzden "açıklanabilir yapay zekâ" talebi teknik bir tercih değil, doğrudan demokratik meşruiyet meselesidir; Habermas'ın [ardından yazdığımız yazıda](/haber/jurgen-habermas-1929-2026) bu mirasın güncelliğine değinmiştik.
+
+## Polanyi: Ekonomi toplumdan bağımsız bir alan değildir
+
+Karl Polanyi'nin *Büyük Dönüşüm*'ü (1944), piyasanın "kendi kendini düzenleyen" bir mekanizma olduğu fikrinin bir ütopya olduğunu, piyasanın her zaman toplumsal kurumlara "gömülü" olduğunu ve emek, toprak ve paranın "hayalî metalar" olarak piyasalaştırılmasının toplumsal yıkım ürettiğini savunuyordu. Yapay zekâ ekonomisinin en az konuşulan tarafı, Polanyi'nin bu tezini doğruluyor: Yapay zekâ bulutta yaşar gibi görünür, ama toprağa basar.
+
+Veri merkezleri araziye, elektriğe, suya, soğutmaya ve ulaşım altyapısına ihtiyaç duyar. ABD'de veri merkezlerinin elektrik maliyetlerinin kimin tarafından karşılanacağı, şebeke yatırımlarının faturalara nasıl yansıyacağı ve yerel toplulukların su kaynaklarının nasıl paylaşılacağı 2026'da federal ve eyalet siyasetinin konusu oldu. Bu, yalnızca bir enerji meselesi değil; yapay zekânın ekonomik maliyetlerinin toplumsallaştırılıp kazançlarının özelleştirilmesi sorusudur. Polanyi'nin diliyle: Veri, bugünün "hayalî metası"dır; insanların konuşmaları, yazıları ve davranışları, kendileri için üretilmemiş bir piyasada alınıp satılan girdilere dönüştürülmüştür. Polanyi'nin öngördüğü "karşı hareket", telif davaları, veri koruma yasaları ve yerel topluluk direnişleri biçiminde çoktan başladı.
+
+## Simondon: Belki de mesele "insan mı makine mi?" değildir
+
+Gilbert Simondon, *Teknik Nesnelerin Varoluş Tarzı Üzerine* (1958) adlı kitabında, teknolojiyi insanın karşısındaki yabancı bir nesne olarak düşünmek yerine, teknik nesnelerin kendi oluşum (bireyleşme) süreçlerini anlamaya çalışıyordu. Simondon'a göre modern kültürün hastalığı, makineyi ya tehdit ya da köle olarak görmesi, teknik gerçekliği kültürden dışlamasıydı. Bu yaklaşım bugün yapay zekâ felsefesinde yeniden canlanıyor: Araştırmacılar Simondon'un bireyleşme kavramını, yapay zekâ sistemlerinin ve ürettikleri imgelerin nasıl oluştuğunu anlamak için kullanıyor.
+
+Bu önemli; çünkü yapay zekâyı yalnızca "insanın yerine geçen makine" olarak gördüğümüzde, ekonomik ve toplumsal dönüşümün büyük kısmını kaçırıyoruz. Simondon'un sorusu şudur: Bu teknik nesne hangi ilişkiler ağı içinde oluşuyor ve bu ağ kimleri içeriyor, kimleri dışlıyor? Yapay zekâ modelleri, insan etiketleyicilerin, veri temizleyicilerin, içerik moderatörlerinin ve milyarlarca kullanıcının katkısıyla oluşan "ortak-bireyleşme" ürünleridir; ama bu ortak oluşumun mülkiyeti ortak değildir. Simondon'un çerçevesi, Marx'ın sorusuna teknik bir derinlik katar: Mülkiyet, yalnızca makinenin değil, makinenin oluşum sürecinin mülkiyetidir.
+
+## Devlet geri mi dönüyor?
+
+Yapay zekâ şirketleri devasa miktarlarda özel sermaye toplarken devletler de altyapıya yatırım yapıyor, düzenlemeler geliştiriyor ve "yapay zekâ egemenliği" kavramını ulusal stratejilerin merkezine taşıyor. AI Index 2026, egemenliğin ulusal politika gündeminin belirgin unsurlarından biri hâline geldiğini ve açık kaynak ekosistemlerinin diğer ülkelerin katılımını artırmaya başladığını vurguluyor. Sitemizde eylül ayında [yapay zekâ ve dünya siyaseti](/haber/yapay-zeka-dunya-siyaseti-iktidarin-yeni-makinesi) ile [BM Güvenlik Konseyi'ndeki yapay zekâ brifingini](/haber/bm-guvenlik-konseyi-yapay-zeka-brifingi-bengio-altman-amodei-delangue) ele almıştık; ekonomi-politik tablo, o jeopolitik tablonun altyapısıdır.
+
+Bu durum yeni bir soruya yol açıyor: Yirmi birinci yüzyılda egemenlik yalnızca toprak ve enerji üzerinde mi kurulacak, yoksa hesaplama kapasitesi üzerinde de mi? Çip üretimi, veri, enerji, bulut altyapısı ve modeller artık ulusal güç unsurlarının parçası. Devletin geri dönüşü, ama hangi devletin ve hangi toplumsal sözleşmeyle?
+
+## Sonuç: Kapitalizmin sonu mu, yeni aşaması mı?
+
+Burada aceleci kehanetlerden kaçınmak gerekiyor. Yapay zekânın kapitalizmi ortadan kaldıracağına dair hiçbir zorunlu sonuç yok; aynı şekilde yapay zekânın yalnızca verimliliği artıran nötr bir araç olacağı da söylenemez. Asıl mesele teknolojinin kendisinden çok onu çevreleyen mülkiyet, hukuk, emek, rekabet, enerji ve siyasal kurumlar.
+
+Marx bize mülkiyeti, Arendt emeğin anlamını, Foucault iktidarın görünmez biçimlerini, Habermas meşruiyet ve iletişimi, Polanyi piyasanın toplumsal gömülülüğünü, Simondon ise teknik nesnelerin oluşumunu düşünmek için araçlar sunuyor. Hiçbiri yapay zekâyı görmedi; ama hepsi, teknolojinin bir toplumun kendisi hakkında verdiği karar olduğunu biliyordu.
+
+Belki de yirmi birinci yüzyılın temel sorusu "yapay zekâ ne kadar akıllı olacak?" değil, şu olacak: "Yapay zekânın ürettiği dünyanın sahibi kim olacak?" Çünkü yapay zekânın ekonomi-politiği nihayetinde makinelerin değil, insanların birlikte nasıl yaşayacağına ilişkin bir siyaset felsefesi problemidir.`,
+  },
+  {
+    title: "HİTOSHİ NAGAİ",
+    slug: "hitoshi-nagai-neden-ben-benim-tekil-varolus-felsefesi",
+    summary:
+      "'Neden ben benim?' sorusunu felsefenin merkezine yerleştiren Japon filozof. Bir insanın dünyadaki herhangi bir insan olmaktan çıkıp 'ben' olması ne demektir? 1951 doğumlu Hitoshi Nagai, kırk yıldır 〈Ben〉 ile 'ben' arasındaki ayrımı, 'tekil-varoluşluluk' kavramını ve 'bilinç neden gerçek değil?' sorusunu işliyor; 2025-2026'da Kant'a 'yanlış teşhis' koyan iki kitap ve otuz yıl sonra yeniden yazdığı 'Çocuklar İçin Felsefe' ile Japonya'nın en özgün metafizikçisi yeniden gündemde.",
+    seoTitle: "Hitoshi Nagai: 'Neden ben benim?' — 〈Ben〉in metafiziği, tekil-varoluşluluk (solipsity) ve 2026'daki yeni kitaplar",
+    metaDescription:
+      "Japon filozof Hitoshi Nagai'nin felsefesi: 〈Ben〉 ile 'ben' ayrımı, dokuzai-sei (solipsity), 'Bilinç neden gerçek değil?', Wittgenstein ve Kant'ın 'yanlış teşhisi', 2026'da yeniden yayımlanan Çocuklar İçin Felsefe ve yapay zekâ çağında birinci şahıs sorusu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nihon%20univ%20college%20of%20humanities%20and%20sciences%202009.JPG?width=1600",
+    imageCredit: "Nihon Üniversitesi Beşeri Bilimler ve Bilimler Fakültesi, Sakurajōsui, Tokyo (Nagai'nin son görev yeri), 2009 · Fotoğraf: Kamemaru2000, CC BY-SA 3.0 · Wikimedia Commons. Not: Nagai'nin serbest lisanslı bir fotoğrafı bulunmadığından kapakta çalıştığı fakülte gösterilmektedir.",
+    featured: true,
+    sourceName: "Kodansha · Philosophia OSAKA · Shunjusha",
+    sourceUrl: "http://nagai.philosophy-zoo.com/en/",
+    publishedAt: "2026-09-30T21:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["zihin-felsefesi", "bilinc", "kavram", "yapay-zeka", "kant", "nietzsche"],
+    philosopherSlugs: ["hitoshi-nagai", "ludwig-wittgenstein", "thomas-nagel", "friedrich-nietzsche"],
+    sources: [
+      { title: "完成版〈子ども〉のための哲学 (Çocuklar İçin Felsefe: Tamamlanmış Baskı)", publisher: "Kodansha Gendai Shinsho", date: "19 Mart 2026", url: "https://www.kodansha.co.jp/book/products/0000426082", primary: true },
+      { title: "『道徳形而上学の基礎づけ』を解体する — カントの誤診２", publisher: "Shunjusha", date: "8 Ocak 2026", url: "https://www.shunjusha.co.jp/book/b10153780.html" },
+      { title: "Hitoshi Nagai — Publications (The Opening; Why Isn't Consciousness Real?)", publisher: "nagai.philosophy-zoo.com", url: "http://nagai.philosophy-zoo.com/en/publications/" },
+      { title: "Why Isn't Consciousness Real? (1)", publisher: "Philosophia OSAKA 6, 2011 (Osaka Üniversitesi Bilgi Deposu)", url: "http://hdl.handle.net/11094/9218" },
+      { title: "Masahiro Morioka, 'A Solipsistic and Affirmation-Based Approach to Meaning in Life'", publisher: "Journal of Philosophy of Life 9(1), 2019", url: "https://www.philosophyoflife.org/jpl201906.pdf" },
+    ],
+    content: `Felsefe tarihinin en eski sorularından biri şudur: Ben kimim? Descartes bu soruya *cogito* ile cevap vermeye çalıştı: Düşünüyorum, öyleyse varım. Husserl bilincin yapısına yöneldi. Heidegger insanın dünyaya fırlatılmış varoluşunu sorguladı. [Wittgenstein](/filozof/ludwig-wittgenstein) dilin sınırlarını araştırdı ve *Tractatus*'ta "ben, benim dünyamdır" diye yazdı. [Thomas Nagel](/filozof/thomas-nagel) ise "yarasa olmak nasıl bir şeydir?" sorusuyla öznel deneyimin perspektif sorununu felsefenin merkezine taşıdı.
+
+Japon filozof Hitoshi Nagai soruyu daha tuhaf, daha rahatsız edici ve belki de daha kişisel bir noktaya götürdü: Neden dünyadaki bütün insanlar arasında tam olarak bu kişi benim? Soru çocukça görünür; Nagai'nin bütün felsefesi, bu görünüşün yanıltıcı olduğunu göstermeye adanmıştır. Çünkü bir kişinin adı, bedeni, karakteri ve biyografisi hakkında her şeyi bilsek bile, "bütün bunların tam olarak buradan, bu birinci şahıs perspektifinden yaşanıyor olması" olgusu açıklanmamış kalır. Nagai'nin yazımında köşeli parantezle yazılan 〈Ben〉 (〈私〉), işte bu açıklanmamış olguyu adlandırır. Nagai, yetmişli yaşlarının ortasında; kırk yıldır aynı sorunun etrafında dönüyor ve Japonya'da "dokuzai-ron" (tekil-varoluş kuramı) adıyla sürdürülen, Waseda'dan Masahiro Morioka ve Motoyoshi Irifuji gibi filozofların katıldığı otuz yılı aşkın bir tartışmanın kaynağı. Bu yıl ise iki nedenle yeniden gündemde: Kant'a "yanlış teşhis" koyan iki ciltlik çalışmasının ikincisi ocakta çıktı; 1996'da yazdığı *Çocuklar İçin Felsefe*, otuz yıl sonra 19 Mart'ta "tamamlanmış baskı" olarak yeniden yayımlandı.
+
+## Japonya'dan çıkan ama Doğu-Batı ayrımına sığmayan filozof
+
+Hitoshi Nagai 1951'de Tokyo'da doğdu. Keio Üniversitesi'nde okudu, aynı üniversitenin edebiyat fakültesinde doktora programını tamamladı; felsefe ve etik alanında uzmanlaştı. Shinshu Üniversitesi ve Chiba Üniversitesi'nde profesörlük yaptıktan sonra Nihon Üniversitesi Beşeri Bilimler ve Bilimler Fakültesi'nde felsefe profesörü olarak görev yaptı. Düşüncesini "Japon felsefesi" kategorisine yerleştirmek yanıltıcı olur: Kyoto Okulu'nun Zen ve Alman idealizmi sentezinden çok, analitik felsefenin ve Wittgenstein sonrası dil felsefesinin içinden konuşur. Kaynakları arasında Wittgenstein, [Nietzsche](/filozof/friedrich-nietzsche), Kant, Descartes ve Husserl bulunur. Fakat Nagai bu filozofları yorumlamaz; onların sorduğu soruları yeniden kurar ve çoğu zaman onlara, kendi deyişiyle, "yanlış teşhis" (goshin) koyar: Doğru soruyu yakalamış, ama yanlış tanı koymuş filozoflar.
+
+Düşüncesinin ayırt edici kavramı 独在性, dokuzai-sei: "tekil-varoluşluluk". İngilizce metinlerde çoğunlukla "solipsity" olarak karşılanır; Morioka ise "existential solipsism" ya da daha doğru bulduğu "solo-existence theory" terimini kullanır. Türkçeye çevrilmesi son derece zordur; ama kavramın ne olmadığını söylemek kolaydır: Solipsizm değildir.
+
+## Solipsizm ile 〈Ben〉 arasındaki fark
+
+Klasik solipsizm kabaca şöyle bir iddiadır: Yalnızca kendi zihnimin varlığından emin olabilirim; dış dünyanın ve diğer insanların varlığı şüphelidir. Bu epistemolojik bir tezdir ve Nagai onunla ilgilenmez. Onun sorusu başka türdedir.
+
+Dünyadaki herhangi bir insanı dışarıdan gözlemleyebiliriz. Hitoshi Nagai'yi de gözlemleyebiliriz: Doğum tarihi vardır, bedeni vardır, kitapları, fotoğrafları vardır; insanlar onun hakkında konuşabilir. Fakat bütün bunlar bizi şu noktaya götürmez: "Neden Nagai'nin dünyadaki o kişisi olarak yaşayan kişi benim?" 1998 tarihli *〈Ben〉in Varlığının Eşsizliği* (〈私〉の存在の比類なさ) kitabı tam bu ayrımı işler: Dünyadaki kişiler arasında benzerleri bulunan bir insan olarak "Hitoshi Nagai" vardır; fakat 〈Ben〉in aynı anlamda bir "komşusu" yoktur. Bu nedenle Nagai'nin felsefesinde "ben" ile "〈Ben〉" aynı şey değildir. Birincisi dünyadaki bir kişidir, başkalarıyla aynı ontolojik düzlemde incelenebilir. İkincisi ise dünyanın birinci şahıs olarak açıldığı tekil merkezdir; dünyadaki başka bir nesne değildir, çünkü bütün dünya zaten onun açısından ortaya çıkmaktadır.
+
+Morioka'nın verdiği örnek ayrımı netleştirir: "Mandela'nın hayatı seninkinden daha anlamlı" cümlesindeki "sen" kime işaret eder? Cümleyi okuyana. Peki okuyan kim? Onu bir özel adla adlandıramayız; çünkü herhangi bir özel ad, dünyadaki bir kişiyi gösterir, 〈Ben〉i değil. Herkes "ben" diyebilir, dolayısıyla toplumda pek çok "ben" vardır; ama 〈Ben〉in sayısı birdir. Bu, bir zamir sorunu değil, bir varlık sorunudur.
+
+## "Ben" neden başka biri değil?
+
+Nagai'nin düşüncesini bir deneyle sınayalım. Diyelim ki Nagai'nin yerine başka bir çocuk doğdu: Aynı aile, aynı ev, aynı genetik koşullar, aynı eğitim, aynı çevre, aynı biyografi. Bu kişi Hitoshi Nagai'nin hayatını yaşıyor. Eğer bütün fiziksel ve psikolojik özellikler açıklanabiliyorsa, "benim bu kişi olmam" olgusunun kendisi açıklanmış olur mu? Bilim bize bir insanın beynini, genlerini, davranışlarını, anılarını, bedenini ve çevresini açıklayabilir. Fakat Nagai'nin sorduğu soru başka türdedir: Bu bütün fiziksel ve psikolojik gerçeklik neden tam olarak buradan yaşanıyor? Nagel'in "yarasa" argümanı, öznel deneyimin fizikselle açıklanamayacağını söylüyordu; Nagai bir adım daha gider: Öznel deneyimin varlığını kabul etsek bile, bu deneyimlerden birinin "benim" olmasının açıklaması yoktur.
+
+İngilizce okurun bu düşünceye ulaşabildiği başlıca kaynak, Osaka Üniversitesi'nin *Philosophia OSAKA* dergisinde 2007-2010 arasında dört bölüm hâlinde yayımlanan "The Opening: A Philosophy of Actuality" (Açılış: Bir Gerçeklik Felsefesi) dizisidir. Nagai burada, kişinin doğmuş ve "burada ve şimdi" var olmuş olmasının yalnızca biyografik bir olay değil, gerçekliğin (actuality) birinci şahıs açısından "açılması" (kaibyaku, 開闢) ile ilgili bir problem olduğunu savunur. Ben, dünyadaki bir nesne olmadan önce, dünyanın açıldığı yerdir.
+
+## "Şimdi" de en az "ben" kadar tuhaf
+
+Nagai'nin felsefesinde yalnızca 〈Ben〉 değil, 〈Şimdi〉 de olağanüstü önem taşır. Şimdi nedir? Bir saniye önce "şimdi"ydi; bir saniye sonra geçmiş olacak. Fakat hiçbir zaman "şimdi"nin dışına çıkamayız. 2004 tarihli *Ben, Şimdi ve Tanrı: Açılışın Felsefesi* (私・今・そして神) bu paralelliği kurar: "Ben nerede?" sorusu ile "Şimdi ne zaman?" sorusu birbirine yaklaşır; ikisi de dünyanın içinde bulunan bir nesne gibi kolayca gösterilemez. McTaggart'ın zamanın gerçek olmadığını savunan argümanıyla, Nagel'in perspektif sorunuyla ve Kant'ın transandantal öznesiyle aynı anda konuşan bu metin, Nagai'nin en çok okunan kitaplarından biri oldu. Sonraki yıllarda bu ikiliyi, "ben" ile "şimdi"nin yapısal farkını (beden sınırları olan bir "ben"e karşılık sınırı olmayan bir "şimdi") inceleyerek derinleştirdi.
+
+## Wittgenstein'a "yanlış teşhis"
+
+Nagai'nin en önemli felsefi muhatabı Wittgenstein'dır; 1995'te bir *Wittgenstein'a Giriş* yazdı. Fakat onu açıklamakla yetinmez; eleştirir. 2012'de yayımlanan kitabının başlığı bunu ilan eder: *Wittgenstein'ın Yanlış Teşhisi* (ウィトゲンシュタインの誤診). Kitap, *Mavi Kitap* dönemindeki tartışmalar üzerinden dil, özel deneyim ve solipsizm problemlerini yeniden ele alır. Nagai'ye göre Wittgenstein, "ben"in dünyadaki bir nesne olmadığını görmüştü; *Tractatus*'un "öznenin dünyaya ait olmadığı, dünyanın sınırı olduğu" cümlesi bunun ifadesidir. Fakat sonraki Wittgenstein, bu sezgiyi dilin kamusal kullanım kurallarına indirgeyerek, kendi deyişiyle, hastalığı teşhis etmiş ama yanlış tedavi uygulamıştır: Özel dil argümanı, 〈Ben〉 sorusunu çözmez, yalnızca onun dile getirilemez olduğunu gösterir. Nagai için dile getirilemez olması, var olmadığı anlamına gelmez; tam tersine, felsefenin asıl konusu budur.
+
+Burada Nagai'nin filozof olarak karakteri ortaya çıkar: Filozofların "doğru cevaplar" verdiğini düşünmekten ziyade, filozofların bazen yanlış sorular sorduğunu ya da doğru soruya yanlış tanı koyduğunu düşünür. Yöntemi Wittgenstein'a şaşırtıcı derecede yakındır; sonuçları ondan ayrılır.
+
+## "Bilinç neden gerçek değil?"
+
+Nagai'nin 2007'de Iwanami'den çıkan kitabı ve 2011-2014 arasında *Philosophia OSAKA*'da dört bölüm hâlinde İngilizce yayımlanan "Why Isn't Consciousness Real?" dizisi, meta-felsefi tavrının en radikal örneğidir. Başlık bir nörobilim iddiası gibi görünür; değildir. Nagai, "bilinç" diye adlandırdığımız şeyin zaten baştan varsayılmış olmasını sorgular. Dizinin ilk bölümünde "genel olarak zihin" diye bir şeyin varlığının kendisinin felsefi problem olduğunu savunur ve zihin-beden probleminin neden başlangıçta bu şekilde formüle edildiğini sorar. İddiası, "beyin bilinç üretmiyor" gibi sıradan bir anti-materyalist tez değildir. Daha derindeki soruyu sorar: Beyin ile bilinç arasında bir ilişki olduğunu söylemeye bizi iten kavramsal yapı nereden geliyor?
+
+Cevabı rahatsız edicidir: Bir deneyimin yaşanıyor olması ile "bilinç" adı verilen genel, kamusal bir ontolojik nesnenin var olduğunu söylemek arasında fark vardır. Birincisi 〈Ben〉e aittir ve genelleştirilemez; ikincisi dilin ürettiği bir genellemedir. Nagai'nin kendi cümlesiyle, "zihin" denebilecek genel bir şey yoktur. Bu, [Daniel Dennett'in](/filozof/daniel-dennett) bilinci bir "kullanıcı yanılsaması" olarak gören eliminativizmine benzer görünür, ama tam tersidir: Dennett geneli kabul edip birinci şahsı eler; Nagai birinci şahsı kabul edip geneli eler. Strateji her iki durumda da aynıdır: Önce ontolojik varsayımı kaldır, sonra problemin gerçekten kalıp kalmadığına bak.
+
+## Nietzsche: 〈Ben〉in karanlık tarafı ve etik
+
+Nagai yalnızca Wittgenstein üzerinden okunamaz. 1997 tarihli *Ressentiment Felsefesi* (ルサンチマンの哲学) ve 1998 tarihli *İşte Nietzsche* (これがニーチェだ), Nietzsche'nin ressentiment kavramını bağımsız bir felsefi probleme dönüştürür. Bağlantı şudur: Nagai için 〈Ben〉 yalnızca metafizik bir problem değil, etik bir problemdir. Ben gerçekten eşsizsem, başkalarına karşı ne borçluyum?
+
+Bir insanın 〈Ben〉 olarak varoluşu eşsizse, başkalarının 〈Ben〉 olarak varoluşu nasıl anlaşılacaktır? Bu bizi klasik "başka zihinler" problemine götürür gibi görünür; fakat Nagai'ye göre problem "acaba diğer insanlar gerçekten bilinçli mi?" değildir. Asıl problem şudur: Neden yalnızca bir kişi 〈Ben〉 olarak verilmiş durumda? Nagai, başka zihinler problemini bağımsız bir problem olarak değil, bu temel olgudan türeyen bir problem olarak görür. Başkasının benim gibi bir 〈Ben〉 olup olmadığını doğrudan deneyimleyemem; fakat başkasının yalnızca benim dünyamda görünen bir nesne olmadığını da inkâr edemem. Bu, etiğin başladığı yerdir ve Nagai'nin Kant'ın ahlak felsefesine yönelmesinin nedenidir.
+
+## Kant'a dönüş: 2025-2026'nın yeni Nagai'si
+
+Nagai'nin son dönem çalışmaları onun yalnızca "〈Ben〉 filozofu" olarak kalmadığını gösteriyor. 2016'da başlayan *Felsefi Soruşturma* üçlemesi (*Varlık ve Zaman*, 2016; *Dünyanın Tekil-Varoluşçu Varlık Yapısı*; *Tekil-Varoluşluluğun Mızrağı Transandantal Kuruluşun Kalkanını Delebilir mi?*, 2022) sistematik bir metafizik kurdu; üçüncü cildin başlığı, Nagai'nin 〈Ben〉 felsefesi ile Kant'ın transandantal felsefesi arasındaki hesaplaşmayı ilan ediyordu.
+
+Hesaplaşma iki ciltlik bir "yanlış teşhis" dizisine dönüştü. 2025'te Shunjusha'dan çıkan *Saf Aklın Eleştirisi'ni Yeniden Kurmak: Kant'ın Yanlış Teşhisi 1*, Kant'ın başyapıtını Nagai'nin gerçeklik felsefesi açısından yeniden okudu. 8 Ocak 2026'da yayımlanan ikinci cilt, *Ahlak Metafiziğinin Temellendirilmesi'ni Sökmek: Kant'ın Yanlış Teşhisi 2* (274 sayfa), yayınevinin tanıtımına göre "tartışılmaya değer tek ahlak felsefesi kitabını" çözümleyerek ahlakın toplumsal vazgeçilmezliğini ve özsel kusurunu ontolojik-metafizik temellerinden çıkarmayı deniyor. Nagai'nin kendi sosyal medya hesabında yayınevi tanıtımındaki bir cümleyi düzeltmesi, kitabın ben ile başkası arasındaki "kökensel kopuşun ancak ahlakın aracılığıyla köprülenebileceğini gösterdiği" iddiasını reddetmesi, tanıtım metinlerine bile aynı titizlikle yaklaştığını gösteriyor.
+
+Bu dönüş tesadüf değil. Nagai'nin temel sorusu zaten Kantçı bir soruyla kesişiyordu: Deneyimin ve dünyadaki nesnelerin mümkün olmasının koşulları nelerdir? Kant için transandantal birlik, deneyimin nesnel olarak mümkün olmasının koşuludur ve her akıl sahibi varlık için aynıdır. Nagai'nin sorusu daha radikaldir: Neden bu transandantal perspektif tam olarak "benim" perspektifimdir? Kant, 〈Ben〉i "herhangi bir ben"e, transandantal özneye genelleştirerek, Nagai'ye göre, yanlış teşhis koymuştur.
+
+## 2026: Çocuklar için felsefeye geri dönüş
+
+Belki de Nagai'nin bugün yeniden okunması açısından en ilginç gelişme, Kodansha'nın 19 Mart 2026'da yayımladığı *Tamamlanmış Baskı: 〈Çocuklar〉 İçin Felsefe* (完成版〈子ども〉のための哲学). Kitap ilk kez 1996'da çıkmış, Japonya'da kuşaklar boyu okunmuştu; otuz yıl sonra Nagai metni yeniden ele aldı ve 240 sayfalık yeni bir versiyon olarak sundu. Kodansha'nın tanıtımına göre kitap iki soru etrafında döner: "Neden ben varım?" ve "Neden kötü şeyler yapmamalıyım?" İlki Nagai'nin metafiziğinin, ikincisi etiğinin çocuk diliyle söylenmiş hâlidir.
+
+Yeni baskının "Soruların ardından: Felsefe nedir?" bölümünden Kodansha'nın alıntıladığı pasaj, Nagai'nin bütün kariyerinin özeti gibi: Felsefe karşı tarafta değildir; felsefe tarihi kitaplarında "felsefe" olarak karşımıza çıkan şey artık felsefe değildir; karşıdaki felsefeyi öğrenmeye kalkarsak, felsefe yapmış insanların bıraktığı düşünceleri okuyup anlamak, onlara sempati ya da antipati duymaktan öteye geçemeyiz; felsefe bu taraftadır, kişi felsefeye kendi içinin derinliğinden başlamalıdır. Bu, Nagai için felsefenin Platon'un ne dediğini bilmek değil, Platon'un sorduğu sorunun bugün benim için gerçekten bir soru olup olmadığını sormak olduğu anlamına gelir.
+
+"Çocuklar için felsefe" ifadesi burada felsefeyi basitleştirmek değil, felsefeyi uzmanların elinden kurtarmak anlamına gelir. Bir çocuk "ben neden benim?" diye sorduğunda yetişkinler çoğu zaman biyolojik bir cevap verir: "Çünkü annen baban seni doğurdu." Ama çocuk başka bir şey soruyor olabilir: "Neden dünyada başka biri olarak değil de ben olarak bulunuyorum?" Nagai'nin felsefesi bu ikinci soruyu ciddiye alır. Bu nedenle çocuklara yönelik kitapları felsefesinin basitleştirilmiş versiyonları değil, bir bakıma en saf biçimidir. 2000 tarihli *Manga Felsefe Yapar* (マンガは哲学する) ve kurgu biçiminde yazdığı felsefi diyaloglar da aynı tavrın ürünü: Felsefi problem, nerede ortaya çıktığından bağımsız olarak gerçektir; bir seminerde, bir manga karesinde ya da insanın gece yatağında birdenbire "neden ben?" diye düşünmesinde.
+
+## Nagai ve yapay zekâ çağının bilinç tartışması
+
+Nagai'nin düşüncesi, 2026'nın nörobilim ve yapay zekâ tartışmalarıyla yeniden ilginç hâle geliyor. Bugün bilinç araştırmaları "bilinç nasıl ortaya çıkıyor?" diye soruyor; Nagai daha önceki aşamaya dönüyor: "Ortaya çıkan şeyin bilinç olduğunu nasıl belirliyoruz?" Yapay zekâ söz konusu olduğunda mesele çarpıcı hâle gelir. Bir makine "ben acı çekiyorum", "ben korkuyorum", "ben varım" diyebilir. Peki bunlardan herhangi biri gerçekten 〈Ben〉 olabilir mi? Turing testi davranışsal benzerliği ölçer; nörobilim beynin işleyişini açıklar; bilişsel bilim bilgi işleme modelleri sunar. Fakat Nagai'nin sorusu bunların hiçbirinden cevap almaz: Bir sistemin gerçekten birinci şahıs gerçekliği var mıdır? Sitemizde [Schwitzgebel'in yapay zekâ bilinci üzerine "sis" metaforunu](/haber/yapay-zeka-bilinc-schwitzgebel-sis) ve [Stalnaker'ın ortak zemin kuramının dil modellerinde sınanmasını](/haber/robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026) ele almıştık; Nagai bu tartışmaya, hiçbir testin ölçemeyeceği bir boyut ekliyor. Bir dil modeli "ben" demeyi mükemmel öğrenebilir; ama "ben" demek ile 〈Ben〉 olmak arasındaki fark, tam da Nagai'nin kırk yıldır işaret ettiği farktır.
+
+## İtirazlar
+
+Nagai'nin yaklaşımı güçlü olduğu kadar tartışmalıdır. En önemli soru şudur: 〈Ben〉 ile fiziksel kişi arasındaki fark gerçekten ontolojik bir fark mıdır, yoksa dilimizin birinci şahıs kullanımından doğan bir yanılsama mıdır? Wittgenstein'cı bir filozof, Nagai'nin kurduğu problemi dilin kullanım koşullarına geri götürmek isteyecektir; Nagai'nin "yanlış teşhis" dediği şeyi, doğru tedavi sayacaktır. Bir fizikalist, "neden ben?" sorusunun, "neden bu taş burada?" sorusundan farklı bir açıklama gerektirmediğini söyleyecektir: Her perspektif kendi sahibine "tekil" görünür, bu bir bakış açısı etkisidir. Dennett'çi bir eleminativist "merkezî bir özne" fikrine kuşkuyla yaklaşır. Fenomenolog, deneyimin birinci şahıs yapısının indirgenemeyeceğini kabul eder ama bunun Husserl'in transandantal egosundan farklı bir şey olmadığını söyler. Budist bir filozof ise Nagai'nin problemini tam tersinden okur: Kalıcı ve özsel bir benlik fikri zaten problemlidir; "neden ben?" sorusu, çözülecek değil, bırakılacak bir sorudur.
+
+Nagai bu itirazların hepsini bilir ve kitaplarında onlarla hesaplaşır. Önemi, herkesin kabul edeceği bir çözüm vermesinde değil, problemi kimsenin kaçamayacağı bir biçimde yeniden kurmasındadır.
+
+## Son söz: Felsefenin en basit sorusu
+
+Bir gün uyandığınızı düşünün. Her şey aynı: Odanız, telefonunuz, aileniz, beyniniz, anılarınız, dünyadaki bütün insanlar. Fakat bir şey değişmiş: Artık siz, siz değilsiniz. Bunu dışarıdan kimse fark etmiyor, çünkü davranışlarınız, biyografiniz, bedeniniz aynı. Nagai'nin sorusu burada başlıyor: Sizi siz yapan şey nedir? Ve soru derinleşiyor: Sizi siz yapan şey varsa, neden o şey tam olarak benim?
+
+Dünyada milyarlarca insan vardır; ama her insan için dünya yalnızca bir yerden yaşanır: Kendi yerinden, kendi "şimdi"sinden, kendi 〈Ben〉inden. Nagai'nin felsefesi bize bu basit görünen, fakat açıklaması son derece zor olan gerçeği tekrar düşündürüyor: Dünyanın var olması kadar tuhaf olan şey, dünyanın birisi için var olmasıdır. Onun asıl sorusu "dünya neden var?" değil, "neden bu dünya tam olarak buradan, tam olarak benim dünyam olarak açılıyor?" sorusudur.
+
+Bu yüzden Nagai'yi "Japonya'nın solipsizm filozofu" diye tanımlamak yetersiz kalır. O, daha radikal bir şey yapıyor: Felsefenin en eski kelimesi olan "ben"i yeniden problem hâline getiriyor. Hitoshi Nagai bugün [Filozof Dizini'ne](/filozof/hitoshi-nagai) eklendi; kitaplarının hiçbiri henüz Türkçeye çevrilmedi.`,
+  },
+  {
+    title: "YUNUS EMRE: İNSAN KENDİNİ NASIL BİLİR?",
+    slug: "yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk",
+    summary:
+      "Yedi yüzyıl sonra Yunus Emre'yi yeniden okumak: Benlik, gönül, bilgi ve kötülük üzerine radikal bir düşünce. Yunus'u yalnızca 'sevgi şairi' olarak okumak onu anlamanın en kolay ve en yüzeysel yoludur. Asıl Yunus daha zor bir soru sorar: İnsan kendisini gerçekten biliyor mu? Ona göre bilgi, insanı dönüştürmüyorsa henüz bilgi değildir; 'gönül' mistik bir duygu alanı değil, bilginin, ahlakın ve insanın kendisiyle karşılaşmasının gerçekleştiği felsefi bir mekândır. Kierkegaard, Nietzsche ve yapay zekâ çağıyla bir karşılaştırma.",
+    seoTitle: "Yunus Emre: İnsan kendini nasıl bilir? Benlik, gönül, bilgi ve kötülük üzerine felsefi bir okuma",
+    metaDescription:
+      "Yunus Emre'nin felsefesi: 'İlim kendin bilmektir', 'Bir ben vardır bende benden içeri', gönül yapmak ve gönül yıkmak, Risâletü'n-Nushiyye'de akıl ve nefs, kibir eleştirisi, Türkçeyi düşünce dili yapması; Kierkegaard, Nietzsche ve yapay zekâ çağıyla karşılaştırma.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Karaman%20Yunus%20Emre%20monument%204725.jpg?width=1600",
+    imageCredit: "Karaman'daki Yunus Emre anıtı; arkada 1349 tarihli Yunus Emre Camii, 2008 · Fotoğraf: Dosseman, CC BY-SA 4.0 · Wikimedia Commons. Not: Yunus Emre'nin dönemine ait hiçbir tasviri bulunmaz; kapakta mezarının bulunduğu iddia edilen yerlerden Karaman'daki anıt gösterilmektedir.",
+    featured: true,
+    sourceName: "TDV İslâm Ansiklopedisi · Felsefe Haberleri",
+    sourceUrl: "https://islamansiklopedisi.org.tr/yunus-emre",
+    publishedAt: "2026-09-30T21:25:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["islam-felsefesi", "etik", "din-felsefesi", "kavram", "tarih", "ortacag-felsefesi"],
+    philosopherSlugs: ["yunus-emre", "friedrich-nietzsche"],
+    sources: [
+      { title: "Yûnus Emre", publisher: "TDV İslâm Ansiklopedisi (Mustafa Tatcı)", url: "https://islamansiklopedisi.org.tr/yunus-emre", primary: true },
+      { title: "Risâletü'n-Nushiyye", publisher: "TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/risaletun-nushiyye" },
+      { title: "Kaygusuz Abdal", publisher: "TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/kaygusuz-abdal" },
+      { title: "Yunus Emre | Turkish poet", publisher: "Britannica", url: "https://www.britannica.com/biography/Yunus-Emre" },
+    ],
+    content: `Yunus Emre hakkında yüzlerce yıldır anlatılan hikâyelerin büyük kısmı onun hayatını anlatır: Anadolu, Tapduk Emre, dergâh, kırk yıl taşınan eğri olmayan odunlar, şiirler, aşk, yolculuklar. Fakat Yunus'un asıl meselesi hayat hikâyesi değildir; zaten hayatı hakkında kesin olarak bildiğimiz çok az şey vardır. 13. yüzyılın ikinci yarısında yaşadığı, *Risâletü'n-Nushiyye*'yi 1307'de yazdığı ve 1320 dolayında öldüğü, elimizdeki birkaç sağlam veridir; doğum yeri ve mezarı için Sivrihisar'dan Karaman'a on yer hak iddia eder.
+
+Asıl mesele şudur: İnsan, kendisi hakkında bildiğini sandığı şeyleri nasıl bilebilir? Bu soru modern bir felsefe sorusu gibi görünür. Oysa Yunus Emre, yaklaşık yedi yüz yıl önce bu sorunun etrafında dolaşan olağanüstü bir düşünce dünyası kurmuştur; üstelik bunu akademik bir sistem kurarak değil, Türkçenin gündelik kelimelerini felsefi kavramlara dönüştürerek yapmıştır: ilim, ben, gönül, aşk, yol, dost, söz, ölüm, hakikat. Yunus'un büyüklüğü biraz da buradadır: Felsefeyi kavramların yüksek kulelerinden indirip insanın kendi içine yerleştirir. Bu yazı, onu "sevgi şairi" ve "hoşgörü sembolü" klişelerinden kurtarıp bir düşünür olarak okumayı deniyor.
+
+## Yunus Emre gerçekten filozof muydu?
+
+Bu soruya aceleyle "evet" demek de "hayır" demek de doğru değildir. Yunus, Platon veya Aristoteles gibi sistematik bir felsefe kitabı yazmadı; ontoloji, epistemoloji veya etik başlıkları altında kavramsal bir sistem kurmadı. Zaten 13.-14. yüzyıl Anadolu'sunun düşünce dünyasında "filozof" (feylesof) kelimesi, İbn Sînâ-Fârâbî çizgisindeki Meşşâî geleneği, çoğu zaman da olumsuz bir çağrışımla, anlatıyordu; Yunus'un kendisi bu kelimeyi kendisi için kullanmazdı.
+
+Fakat felsefe yalnızca sistem kurmak mıdır? Yoksa felsefe bazen insanın kendi hayatını problem hâline getirmesi midir? Sokrates de kitap yazmadı; Diogenes de. Yunus ikinci anlamda son derece güçlü bir filozoftur: Yaşamın anlamı, insanın ne olduğu ve neyin değerli olduğu sorularını merkeze alır ve bu soruları, bir öğretiyi aktaran değil, kendi içinden geçen biri olarak sorar. Burada önemli olan Yunus'u modern anlamda bir "filozof" ilan etmekten çok, şiirlerinin taşıdığı felsefi problemi görünür hâle getirmektir. Ve bu problem şaşırtıcı derecede çağdaştır.
+
+## Kendini bilmek ne demektir?
+
+Yunus'un en ünlü dizeleri bugün neredeyse atasözü hâline gelmiştir: "İlim ilim bilmektir / İlim kendin bilmektir / Sen kendini bilmezsin / Ya nice okumaktır." Bu söz çoğu zaman eğitim ve kişisel gelişim mesajına indirgenir. Oysa burada çok daha radikal bir epistemoloji vardır.
+
+Yunus şunu sorar: Bilmek nedir? Bir insan yüzlerce kitap okuyabilir, binlerce kavram öğrenebilir, dünyanın tarihini, hukukunu, tıbbını veya dinî metinlerini ezberleyebilir. Ama bütün bunların sonunda kendi öfkesini, korkusunu, arzusunu, kibrini ve faniliğini bilmiyorsa gerçekten bilgili midir? Yunus'un cevabı nettir: Hayır. Aynı şiirin devamı bunu açıkça söyler: "Okumaktan mana ne / Kişi Hakk'ı bilmektir / Çün okudun bilmezsin / Ha bir kuru emektir." Bilgi, insanın kendi özünü ve Hakk'ı bilmesine yönelmiyorsa "kuru emek"tir.
+
+Bu, Delphoi'deki "kendini bil" buyruğunun ve Sokrates'in bu buyruğu felsefenin başlangıcı yapmasının Anadolu Türkçesindeki karşılığıdır; ama bir farkla. Yunus için kendini bilmek, kendin hakkında psikolojik bilgiler edinmek değildir; kendinin sınırlarını ve yanılabilirliğini görmek, "ben" dediğin şeyin ne kadar az "sen" olduğunu fark etmektir. Tasavvuf geleneğinin "nefsini bilen Rabbini bilir" hadisiyle özetlediği bu düşünce, Yunus'ta bir öğreti olmaktan çıkıp bir şiirsel soruya dönüşür.
+
+## Bilgi insanı değiştirmiyorsa bilgi değildir
+
+Bu noktada Yunus'un düşüncesi çağımız için özellikle rahatsız edicidir. Bugün insanlık tarihte hiç olmadığı kadar fazla bilgiye sahip: arama motorları, yapay zekâ sistemleri, üniversiteler, veri tabanları. Fakat bilgi arttıkça insanın kendisini daha iyi tanıdığı söylenebilir mi? Yunus'un ölçütü farklıdır: Bilginin değeri, insanın karakterinde meydana getirdiği değişimle ölçülür. Bu yüzden onun bilgi anlayışı yalnızca epistemolojik değil, aynı zamanda ahlakidir; bilmek ve iyi olmak aynı yolculuğun iki aşamasıdır.
+
+Bu, aslında antik felsefenin de ölçütüydü. Pierre Hadot'nun gösterdiği gibi, Stoacılar ve Epikurosçular için felsefe bir "yaşam biçimi"ydi ve bir kişinin felsefeyi öğrendiğinin kanıtı yazdıkları değil, nasıl yaşadığıydı. Yunus bu geleneğin, İslam tasavvufunun "hâl" (yaşanan durum) ile "kâl" (söz) ayrımından geçerek Türkçeye ulaşan hâlidir: "Dervişlik dedikleri hırka ile taç değil / Gönlün derviş eyleyen hırkaya muhtaç değil." Yunus, modern üniversitenin uzmanlaşmış bilgi anlayışına şu soruyu yöneltebilir: Bir insan bir konuda dünyanın en büyük uzmanı olabilir; fakat kendisi konusunda cahil kalabilir mi? Yunus'a göre kalabilir. Hatta mesele tam da budur.
+
+## "Bir ben vardır bende benden içeri"
+
+Yunus'un en çarpıcı dizesi yüzyıllardır mistik bir söz olarak okunmuştur: "Beni bende demen bende değilim / Bir ben vardır bende benden içeri." Felsefi açıdan bakıldığında burada karmaşık bir benlik problemi vardır. Ben kimim? Bedenim miyim, toplumsal kimliğim miyim, adım, mesleğim, başkalarının benim hakkımda düşündüğü kişi miyim? Yoksa bütün bunların altında başka bir "ben" mi vardır?
+
+Yunus'un şiirindeki "ben" basit bir biyografik kişi değildir. İnsan kendisine dışarıdan bakabilir, kendi davranışlarını eleştirebilir, kendi arzularını sorgulayabilir, kendi egosuyla mücadele edebilir; dolayısıyla aynı anda hem kendisi hem de kendisini gözlemleyen kişi olabilir. Bu, Augustinus'un *İtiraflar*'da "kendime bir soru hâline geldim" demesini, Descartes'ın düşünen beni ile düşünülen ben arasındaki ayrımını ve Kant'ın ampirik ben ile transandantal ben ayrımını andırır. Ama Yunus'un dizesi bir adım daha ileri gider: "Benden içeri" olan ben, gözlemleyen ben değil, gözlemleyenin de altındaki bir şeydir; tasavvufun diliyle, insandaki ilahî nefes. Yunus'un sorusu, "kendime baktığımda gördüğüm kişi gerçekten ben miyim?" sorusudur ve bu soru, bugün [Hitoshi Nagai](/haber/hitoshi-nagai-neden-ben-benim-tekil-varolus-felsefesi) gibi çağdaş metafizikçilerin "neden ben benim?" sorusuyla beklenmedik bir akrabalık taşır: Her ikisi de, biyografik kişinin tüketemediği bir "ben" fazlasına işaret eder.
+
+## Gönül: Duygusal bir organ değil, felsefi bir merkez
+
+Yunus'u anlamanın anahtar kelimesi belki de "aşk"tan önce gönüldür. Modern Türkçede gönül çoğu zaman kalp, duygu veya sevgi anlamında kullanılır. Yunus'ta ise gönül bundan fazlasıdır: İnsanın kendisiyle karşılaştığı, hakikati kavradığı, ahlaki dönüşüm yaşadığı, başkasını kendisinden ayrı görmeyi bıraktığı ve aşkın ortaya çıktığı bir varoluş alanıdır. "Gönül Çalab'ın tahtı / Çalab gönüle baktı" dizesi, gönlü Tanrı'nın insandaki yeri olarak kurar. Bu nedenle Yunus'un gönül anlayışı aynı anda epistemolojik (hakikatin kavranma yeri), etik (dönüşümün yeri) ve ontolojik (ilahî olanla temasın yeri) bir kavramdır.
+
+İnsan hakikati yalnızca akılla kavramaz; ama Yunus aklı da reddetmez. Tam tersine, *Risâletü'n-Nushiyye*'nin başlangıç bölümlerinde akıl, iman ve bilgiye (ilim) merkezî bir yer verir: İnsanın yaratılışı anlatılır, sonra akıl ve nefs arasındaki savaş sahnelenir. Fakat aklın gerçek değerini insanın kendisini dönüştürmesinde bulur. Dolayısıyla Yunus'ta şöyle bir zincir ortaya çıkar: bilgi, kendini bilme, iç dönüşüm, ahlak, başkasıyla ilişki. Bu zincirin bir halkası koparsa bilgi "kuru emek"e dönüşür.
+
+## Kötülük: "Gönül yıkmak" neden günahtan ağırdır?
+
+Yunus'u felsefi açıdan yeniden okumak için en verimli konu kötülük problemidir. Felsefe tarihinde kötülük çoğunlukla büyük sorularla ele alınır: Tanrı iyi ve kudretliyse kötülük neden vardır? Kötülük özgür iradenin sonucu mudur? Yunus'un yaklaşımı daha somuttur. O kötülüğü, insanın karşısındaki başka bir insanın gönlünü yıkmak üzerinden düşünür ve bunu dinî yükümlülüğün bile üstüne koyar: "Bir kez gönül yıktın ise / Bu kıldığın namaz değil / Yetmiş iki millet dahi / Elin yüzün yumaz değil."
+
+Burada son derece önemli bir felsefi dönüşüm gerçekleşir. Kötülük yalnızca "yanlış bir davranış" ya da bir kuralın ihlali değildir; başka bir insanın varlık alanına verilen zarardır. Bu nedenle Yunus'un etiği soyut kurallardan önce ilişkiye dayanır. Kantçı bir "ödev" etiğinden veya faydacı bir "sonuç" etiğinden farklı bir hatta, Levinas'ın "başkasının yüzü"ne yakın bir yerde durur: İyilik, insanın karşısındakinin gönlünü varlıkta tutmasıdır; kötülük ise onu kırmak, küçültmek, yok saymak veya insanlığından mahrum bırakmaktır. "Gönül yapmak" deyimi Türkçede hâlâ yaşıyorsa, Yunus'un etiği de yaşıyor demektir.
+
+Bugünün dünyasını düşünelim. Sosyal medyada bir insanı birkaç cümleyle milyonların önünde aşağılamak, bir kişinin itibarını saniyeler içinde yok etmek, siyasal tartışmada karşımızdakini insan olarak değil yalnızca "karşı taraf" olarak görmek mümkün. Yunus'un sorusu burada yeniden ortaya çıkar: Karşındaki insanı gerçekten görüyor musun? Çağımızın en büyük ahlaki sorunlarından biri belki de insanların birbirini görmeden birbirine zarar verebilmesidir. Yunus'un etiği tam tersini talep eder: Önce insanı gör, sonra hüküm ver.
+
+## Hoşgörü klişesini fazla kolaylaştırmamak
+
+Yunus hakkında yapılan en yaygın hata, onu yalnızca "hoşgörü şairi" hâline getirmektir. Bu ifade tamamen yanlış değildir; fakat yetersizdir. Çünkü Yunus'un insan sevgisi "herkes iyidir, herkes haklıdır" türünden yüzeysel bir hoşgörü değildir. Onun düşüncesinde insan sevgisinin daha güçlü bir temeli vardır: Benlik ile başkası arasındaki ayrımın mutlaklaştırılmaması. "Sen sana ne sanırsan / Ayruğa da anı san / Dört kitabın manası / Budur eğer var ise" diyen Yunus, basit bir nezaket tavsiyesi vermiyor; ahlakın temelini bir simetri ilkesine bağlıyor ve bu ilkeyi bütün kutsal kitapların özü ilan ediyor. Kendin için istediğin insani değeri başkasından esirgeme; kendini merkez kabul ediyorsan, başkasının da kendi dünyasının merkezinde olduğunu kabul et. Konfüçyüs'ün *shu* (karşılıklılık) ilkesinden Kant'ın evrenselleştirilebilirlik testine kadar ahlak felsefesinin "altın kural" ailesine ait olan bu düşünce, Yunus'un insan sevgisini duygusal hoşgörüden çıkarıp ötekinin öznel varlığını tanıma problemine dönüştürür.
+
+## Kierkegaard ile beklenmedik bir yakınlık
+
+Modern felsefeden bir isimle karşılaştırmak gerekirse, Yunus'un benlik anlayışı Søren Kierkegaard ile ilginç bir karşılaştırma imkânı verir. Kierkegaard için insan hazır bir benlik değildir; *Ölümcül Hastalık*'ın ünlü tanımıyla benlik, "kendisiyle ilişki kuran bir ilişki"dir, insan kendisiyle ilişki kurarak kendisi olur. Yunus'ta da benlik verilmiş ve tamamlanmış bir nesne değildir; insan kendi içinden geçmek zorundadır. Her iki düşünürde de benlik, hazır bulunmaktan çok bir oluşum sürecidir ve bu süreç Tanrı ile ilişki içinde gerçekleşir.
+
+Fakat aralarında önemli bir fark vardır. Kierkegaard'ın dili varoluşsal ve teolojik bir gerilim, umutsuzluk ve "titreme" taşırken Yunus'un dili aşk ve birlik üzerinden ilerler. Kierkegaard "ben nasıl kendim olacağım?" diye sorar; Yunus ise bu soruya şunu ekler: "Kendim olurken başkasından nasıl ayrılmayacağım?" Kierkegaard'ın "tek birey"i yalnızdır; Yunus'un "dost"u hem Tanrı hem komşudur. İşte Yunus'un özgünlüğü burada belirginleşir.
+
+## Özgürlük: İstediğini yapmak değil, iç güçlerin efendisi olmak
+
+Modern insan özgürlüğü genellikle seçeneklerin çoğalması olarak düşünür. Yunus'un özgürlük anlayışı farklıdır: İnsan her istediğini yaptığında özgürleşmez; çünkü kendi arzularının, öfkesinin, kibrinin, şöhretinin ya da başkalarının onayının kölesi olabilir. *Risâletü'n-Nushiyye*, 1307 tarihli, altı yüz dolayı beyitlik bu alegorik mesnevi, tam da bu iç savaşı anlatır: Akıl ve iman, nefsin güçleriyle (kibir, öfke, haset, cimrilik, gıybet) ülke ülke savaşır; her "destan" bir nefs gücünün nasıl yenileceğini anlatır. Eser, Türkçenin ilk ahlak felsefesi metinlerinden sayılır.
+
+Buradan Yunus'un özgürlük düşüncesi şöyle okunabilir: Özgürlük, istediğini yapmak değil; seni istediğini yapmaya zorlayan iç güçlerin efendisi olabilmektir. Bu, Platon'un ruhun üç parçası ve aklın yönetimi öğretisinden Spinoza'nın "tutkuların köleliği"ne kadar felsefe tarihinin ana damarlarından biridir ve bugün "özgür irade" tartışmalarında hâlâ canlıdır.
+
+## En büyük düşman: Kibir
+
+Yunus'un insan anlayışında kötülüğün köklerinden biri kibirdir. *Risâletü'n-Nushiyye*'nin ilk ve en uzun destanı kibre ayrılmıştır. Çünkü kibir yalnızca kişinin kendisini beğenmesi değildir; insanın kendi bakış açısını gerçekliğin tamamı sanmasıdır. Bu nedenle Yunus'un kibir eleştirisi yalnızca ahlaki değil, aynı zamanda epistemolojiktir. Kibirli insan "ben biliyorum" der; Yunus ise önce şunu sordurur: "Gerçekten biliyor musun?" Kibir, insanın kendi yanılabilirliğini görmemesi ve kendi sınırlı bilgisini mutlaklaştırmasıdır.
+
+Bu bakımdan Yunus'un kibir eleştirisi modern akademik dünyaya bile yöneltilebilir: Uzmanlık arttıkça insan bazen bilgisinin sınırlarını değil, otoritesini büyütür. Yunus'un ölçütü farklıdır: Gerçek bilgi insanı daha mütevazı hâle getiriyorsa bilgidir. Sokrates'in "bilmediğimi biliyorum" sözünün Anadolu'daki yankısı budur.
+
+## Dil: Yunus neden Türkçe yazdı?
+
+Yunus'un felsefesinin en az tartışılan fakat en önemli yönlerinden biri dildir. 13. yüzyıl Anadolu'sunda yüksek kültür Arapça ve Farsça üzerinden üretilirken, Mevlânâ *Mesnevî*'yi Farsça yazarken, Yunus Türkçeyi şiirin ve düşüncenin dili yaptı. Burada yalnızca "Türkçeyi sevdi" demek yeterli değildir. Yunus'un yaptığı daha büyük bir şeydir: Felsefi derinliği halkın diline taşımak ve bu dilin gündelik kelimelerini kavramlara dönüştürmek. "Gönül" bir ontolojiye, "aşk" bir bilgi biçimine, "yol" bir varoluş metaforuna, "dost" varlığın anlamını kuran bir kavrama dönüşür. Bu nedenle Yunus'un şiirleri sözlükle okunamaz; bir beyitteki kelimenin bugünkü karşılığını bilmek, düşüncesini anlamaya yetmez. Dili, kelime-anlam-deneyim-dönüşüm zinciriyle çalışır.
+
+Karmaşık bir düşünceyi basit kelimelerle söylemek, basit düşünmek değildir; tam tersine, Yunus'un sadeliği düşünsel bir başarıdır. Felsefenin kendi dilinde yapılabileceği fikri, Almanya'da Luther'in İncil çevirisinden Kant'a, Türkiye'de Cumhuriyet dönemi felsefe dilinin kurulmasına kadar hep tartışıldı; Yunus, bu tartışmanın Türkçedeki ilk cevabıdır.
+
+## "Şeriat, tarikat yoldur varana"
+
+Yunus'un düşüncesinde hakikat tek katmanlı değildir: "Şeriat tarikat yoldur varana / Hakikat marifet andan içeri." Burada önemli olan, dini yalnızca kurallar toplamına indirgememektir. Yunus için kuralın arkasında anlam, ritüelin arkasında dönüşüm, bilginin arkasında marifet vardır. Bu nedenle düşüncesi dini ortadan kaldırmaz; tersine dinî biçimlerin insanda neye dönüştüğünü sorgular. Eleştirisi dindarlığa değil, dindarlığın içinin boşalmasına yöneliktir; "gönül yıkan"ın namazının namaz olmaması bu yüzdendir.
+
+Sık sık "hümanist" olarak nitelendirilen Yunus'un insan sevgisi, bu nedenle modern seküler hümanizmle özdeş değildir. O, insanı Tanrı'dan bağımsız bir mutlak değer olarak konumlandırmaz; insanın değerini aşkın bir varlık düzeni içindeki konumundan hareketle düşünür. Yunus'un hümanizmi varsa, buna "aşkın temelli hümanizm" demek daha açıklayıcı olur: İnsan değerlidir, çünkü hakikate yönelme kapasitesine sahiptir, başka insanın gönlünü yapabilir, kendi egosunu aşabilir ve kendisinden daha büyük bir bütünün parçasıdır. Cumhuriyet dönemi Yunus okumasının (Sabahattin Eyüboğlu'ndan Abdülbaki Gölpınarlı'ya) onu bir Anadolu hümanisti olarak kurması bu yüzden hem haklı hem eksiktir.
+
+## Mevlânâ ile fark, Nietzsche ile karşılaşma
+
+Yunus'u Mevlânâ'nın sade versiyonu olarak görmek hatadır. İkisi aynı düşünce dünyasının farklı damarlarını temsil eder. Mevlânâ'nın dili kozmik ve metafiziktir: Evren nedir, aşk insanı nereye götürür, varlığın kaynağı nedir? Yunus'un dili doğrudan insanın kendisine yönelir: Ben neyim, neden kibirliyim, neden başkasının gönlünü kırıyorum, bilmek neden beni değiştirmiyor? Yunus'un felsefesi daha "mikro" görünür; ama paradoks şudur: İnsanın içine ne kadar girerse, evren sorusuna o kadar yaklaşır.
+
+[Nietzsche](/filozof/friedrich-nietzsche) ile karşılaştırma ise beklenmedik ama verimlidir. İki düşünür arasında tarihsel etkileşim yoktur; fakat ikisi de hazır ahlakı ve hazır benliği sorgular. Nietzsche insanın kendi değerlerini yaratmasını ve sürü ahlakını aşmasını ister; Yunus ise egonun ve kibrin aşılmasını. Nietzsche "kendin ol" derken Yunus'un düşüncesi buna bir cümle ekler: "Kendin ol; fakat kendini merkezin tamamı sanma." Nietzsche'nin ressentiment eleştirisi ile Yunus'un haset ve gıybet eleştirisi aynı insan zaafına bakar; biri onu güçsüzün intikamı olarak, öteki nefsin hastalığı olarak adlandırır.
+
+## Yapay zekâ çağında Yunus
+
+Yunus'u bugüne taşırken dikkatli olmak gerekir: Onun yapay zekâ hakkında bir şey söylediğini iddia etmek anakronizmdir. Fakat bilgi anlayışı, bu çağda verimli bir felsefi soruya dönüşür. Yapay zekâ bize bilgi verebilir, metin ve şiir yazabilir, felsefe hakkında konuşabilir, hatta kendimizi analiz etmemize yardımcı olabilir. Ama Yunus'un sorusu değişmez: Bilgiye sahip olmak, bilmek midir? Bir sistem milyarlarca metni işleyebilir; bu onun "kendini bildiği" anlamına gelir mi? Bir insan yapay zekâ sayesinde dünyanın bütün bilgilerine erişebilir; bu onun kendisini bildiği anlamına gelir mi? Yunus'un felsefesinde bilginin son sınavı, bilginin insanı neye dönüştürdüğüdür. Yapay zekâ cevapların sayısını artırır; Yunus sorunun kendisini değiştirmeyi teklif eder: "Ne kadar biliyorsun?" yerine "Bildiklerin seni nasıl bir insana dönüştürüyor?"
+
+## Etki ve miras: Bir doktrin değil, bir yöntem
+
+Yunus'un etkisi yalnızca kendisinden sonra gelen şairlerde görülmez. TDV İslâm Ansiklopedisi'nin belirttiği gibi Kaygusuz Abdal onun ilk takipçilerindendir; iz Hacı Bayram Velî'den Eşrefoğlu Rûmî'ye, Niyâzî-i Mısrî'den halk şiirine uzanır. Ama daha önemlisi, Türkçede felsefi ve mistik düşüncenin konuşulabilir hâle gelmesidir: Yunus'tan sonra Türkçe, varlığın, ölümün, Tanrı'nın, benliğin ve ahlakın dili olur. Onun etkisi bir "okul" kurmasında değil, bir düşünme üslubu yaratmasında aranmalıdır: Büyük hakikatleri küçük kelimelerle söylemek.
+
+Yunus bize tamamlanmış bir "Yunusçu sistem" bırakmadı; bir yöntem bıraktı: Kendinden başla; kendini sorgula; kendi sınırlarını gör; karşındaki insanın da senin kadar gerçek bir iç dünyası olduğunu kabul et; bilginin davranışa dönüşüp dönüşmediğine bak; egonu sorgula; hakikati yalnızca kelimelerde değil, yaşama biçiminde ara. Bu açıdan Yunus'un felsefesi bir öğreti olmaktan çok bir kendini dönüştürme pratiğidir; Hadot'nun antik felsefe için kullandığı "ruhsal egzersiz" kavramının Türkçedeki en yakın karşılığı.
+
+## Trajik taraf ve sonuç
+
+Yunus'u aşırı romantikleştirmemek gerekir. O dünyayı saf bir sevgi cenneti olarak görmez; insanın içinde kibir, öfke, hırs, haset, yalan ve gıybetin bulunduğunu kabul eder ve *Risâletü'n-Nushiyye*'nin bütününü bu iç savaşa ayırır. Aşk felsefesi naif değildir: İnsan sevebilir, çünkü nefret edebilir; gönül yapabilir, çünkü yıkabilir; hakikati arayabilir, çünkü yanılabilir. Yunus'un felsefi gücü, insanın bu çelişkilerini yok saymamasından gelir.
+
+Üzerinden yedi asır geçti; ama temel sorusu değişmedi: İnsan nedir? İnsan bilgi üretti, devletler kurdu, uzaya çıktı, yapay zekâ geliştirdi; fakat hâlâ öfkeleniyor, kibirleniyor, başkasını aşağılıyor, kendisini kandırıyor ve "ben kimim?" diye soruyor. Yunus'un felsefesini tek cümlede özetlemek gerekirse: İnsan, kendisini bilmeden hakikati bilemez; fakat kendisini gerçekten bildiği anda da kendisini dünyanın merkezindeki tek varlık sanmayı bırakır. İşte Yunus'un "gönül" dediği yer tam olarak burasıdır: İnsan kendisine döner, eksikliğini görür, egosunu aşar, sonra başkasına bakar ve ilk kez gerçekten görür.
+
+Yunus Emre bugün [Filozof Dizini'ne](/filozof/yunus-emre) eklendi. Okumak isteyenler için felsefi bir harita: Benlik ("Bir ben vardır bende benden içeri": Ben kimim?), bilgi ("İlim kendin bilmektir": Bilmek ne demektir?), etik (gönül yapmak / gönül yıkmak: Başkasına karşı sorumluluğumuz nedir?), kötülük (kibir, öfke, haset, nefs: İnsan neden bildiği hâlde kötülük yapar?), dil (gündelik Türkçeyle metafizik düşünmek: Felsefe yalnızca uzmanların diliyle mi yapılabilir?), aşk (benliğin sınırlarını aşmak: Başkasıyla ilişki kurduğumuzda kendimiz nasıl değişiriz?) ve hakikat (bilginin varoluşa dönüşmesi: Doğruyu bilmek ile doğru yaşamak arasındaki fark nedir?). Bu yedi başlık birlikte okunduğunda Yunus Emre'nin yalnızca bir tasavvuf şairi değil, insanın kendisiyle, başkalarıyla ve hakikatle ilişkisini araştıran büyük bir düşünür olduğu daha açık görülür.`,
+  },
+  {
+    title: "DEMOGRAFİ VE SİYASET FELSEFESİ",
+    slug: "demografi-ve-siyaset-felsefesi-goc-nufus-yurttaslik",
+    summary:
+      "Dünya değişiyor: İnsanların nerede doğduğu, nerede yaşadığı ve nereye gittiği artık siyaset felsefesinin merkezinde. IOM'un 2026 raporuna göre 304 milyon uluslararası göçmen, UNHCR'ye göre 123 milyon zorla yerinden edilmiş insan var; BM dünya nüfusunun bu yüzyıl içinde zirve yapma olasılığını yüzde 80 olarak hesaplıyor. Lévi-Strauss'un iki UNESCO konuşması, Arendt'in 'haklara sahip olma hakkı', Walzer'in üyelik tartışması ve Habermas'ın post-ulusal yurttaşlığı ışığında bir okuma.",
+    seoTitle: "Demografi ve siyaset felsefesi: Göç, nüfus, yaşlanma ve yurttaşlık — Lévi-Strauss, Arendt, Walzer, Habermas",
+    metaDescription:
+      "Demografi siyaset felsefesinin merkezinde: IOM World Migration Report 2026 (304 milyon göçmen), UNHCR (123,2 milyon zorla yerinden edilmiş), BM World Population Prospects 2024 (yüzde 80 zirve olasılığı); Lévi-Strauss'un 1952 ve 1971 UNESCO konuşmaları, Arendt, Walzer, Carens, Miller, Habermas ve göç etiği.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Claude%20L%C3%A9vi-Strauss%20(1973).jpg?width=1600",
+    imageCredit: "Claude Lévi-Strauss, Erasmus Ödülü töreninde, Amsterdam, 28 Mayıs 1973 · Fotoğraf: Bert Verhoeff / Anefo, Nationaal Archief, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "IOM · UNHCR · BM DESA · UNESCO",
+    sourceUrl: "https://worldmigrationreport.iom.int/what-we-do/world-migration-report-2026/chapter-1/what-has-happened-migration",
+    publishedAt: "2026-09-30T21:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "etik", "postkolonyalizm"],
+    philosopherSlugs: ["jurgen-habermas", "seyla-benhabib", "michael-sandel"],
+    sources: [
+      { title: "World Migration Report 2026 — Chapter 1: What has happened in migration?", publisher: "IOM (Uluslararası Göç Örgütü)", date: "2026", url: "https://worldmigrationreport.iom.int/what-we-do/world-migration-report-2026/chapter-1/what-has-happened-migration", primary: true },
+      { title: "Global Trends: Forced Displacement in 2024", publisher: "UNHCR", date: "Haziran 2025", url: "https://www.unhcr.org/global-trends" },
+      { title: "World Population Prospects 2024: Summary of Results", publisher: "BM Ekonomik ve Sosyal İşler Dairesi (DESA)", date: "Temmuz 2024", url: "https://population.un.org/wpp/" },
+      { title: "Claude Lévi-Strauss, Race and History (1952)", publisher: "UNESCO Digital Library", url: "https://unesdoc.unesco.org/ark:/48223/pf0000002896" },
+      { title: "Narratives of Displacement — International Conference, 17-18 October 2026", publisher: "London Centre for Interdisciplinary Research", url: "https://narrativesofdisplacement.lcir.co.uk/" },
+    ],
+    content: `Demografi çoğu zaman istatistik biliminin konusu gibi görünür: doğum oranları, yaş piramitleri, göç rakamları, kentleşme, nüfus projeksiyonları. Fakat bu rakamların arkasında felsefenin en eski sorularından biri vardır. Aristoteles *Politika*'da polis'in ideal büyüklüğünü ve yurttaşların kim olduğunu tartışırken, Platon *Yasalar*'da 5040 hanelik bir şehir tasarlarken, demografi yapıyorlardı. Soru şudur: Bir siyasal topluluğu kim oluşturur? Bir devletin yurttaşı kimdir? Bir ulus ne kadar süreyle aynı ulus olarak kalır? Bir ülkeye sonradan gelen insan hangi aşamada "biz"in parçası olur? Ve küreselleşme çağında "biz" hâlâ coğrafi sınırlarla tanımlanabilir mi?
+
+2026 sonbaharında bu sorular soyut değil. Avrupa'da göç, seçimleri belirleyen başlıca konu; ABD'de sınır politikası anayasal krizlerin kaynağı; Doğu Asya'da nüfusun yaşlanması ve küçülmesi devletlerin yüzyıllık varsayımlarını yıkıyor; Afrika'da genç nüfus patlaması dünyanın demografik ağırlık merkezini kaydırıyor. Siyaset felsefesi, uzun süre adalet, meşruiyet ve haklar sorularını sabit bir nüfusu olan kapalı bir devlet varsayımıyla tartıştı; Rawls'un *Bir Adalet Teorisi*, toplumu "doğumla girilen, ölümle çıkılan" kapalı bir sistem olarak kurmuştu. Bu varsayım çökmüş durumda.
+
+## Lévi-Strauss'un iki konuşması
+
+Claude Lévi-Strauss bu tartışmada ilginç bir referans noktasıdır; çünkü aynı kuruma, yirmi yıl arayla, birbirini düzelten iki konuşma yapmıştır. 1952'de UNESCO için yazdığı *Irk ve Tarih*, kültürler arasında hiyerarşi kurulmasına karşı çıkan, "ilkel" ve "gelişmiş" ayrımını reddeden ve kültürlerin karşılaşmasının insanlık açısından yaratıcı olduğunu savunan bir metindi; savaş sonrası ırkçılık karşıtı hümanizmin manifestolarından biri oldu. Lévi-Strauss'un tezi şuydu: İnsanlığın büyük atılımları, kültürlerin yalıtılmışlığından değil, "koalisyonlarından" doğar; Rönesans, Avrupa'nın Yunan, Arap, Çin ve Amerika kültürleriyle karşılaşmasının ürünüdür.
+
+Fakat 1971'de, yine UNESCO'da yaptığı *Irk ve Kültür* konuşması dinleyicilerini şaşırttı ve skandal yarattı. Lévi-Strauss bu kez başka bir tehlikeye dikkat çekti: Kültürel çeşitlilik ile kültürlerin birbirine karışarak tek biçimli hâle gelmesi aynı şey değildir. Kültürlerin yaratıcı olabilmesi için birbirleriyle belli bir mesafeyi korumaları gerekir; mutlak iletişim, farklılığı, dolayısıyla yaratıcılığın kaynağını yok eder. Ayrıca her kültürün kendi değerlerini ötekilerine tercih etmesini "ırkçılık" saymanın kavram karmaşası yarattığını söyledi. UNESCO'nun kendi arşivindeki değerlendirme, onun bir yandan kültürlerarası alışverişi savunduğunu, diğer yandan küresel kültürel tekbiçimlilik riskine karşı uyardığını not eder.
+
+Bu ikili yaklaşım bugün göç tartışmalarında önemlidir; çünkü iki uç yaklaşım da gerçeğin bir bölümünü kaçırır. "Göç kültürleri yok eder" ile "kültürler arasındaki farklılıkların hiçbir önemi yoktur" aynı derecede basitleştiricidir. Lévi-Strauss'un yaklaşımı daha zor bir soruya işaret eder: Farklılıkları korurken birlikte nasıl yaşayacağız? 1971 konuşmasının sağ kanat düşünürlerce "sahiplenilmesi" ve sol tarafından "ihanet" olarak okunması, sorunun kendisinin ne kadar rahatsız edici olduğunu gösterir.
+
+## 304 milyon insan ve bir ayrıntı
+
+Uluslararası Göç Örgütü'nün (IOM) *World Migration Report 2026*'sına göre 2024 ortasında dünyada yaklaşık 304 milyon uluslararası göçmen bulunuyordu; bu, dünya nüfusunun yüzde 3,7'si ve zaman içinde kademeli olarak artan bir pay. Göçmen işçilerin sayısı 2013-2022 arasında 30 milyondan fazla arttı; göçmenlerin 2024'te ülkelerine gönderdiği para 905 milyar dolara ulaştı ve bu rakam, resmî kalkınma yardımı ile doğrudan yabancı yatırımın toplamını aştı.
+
+Fakat raporun en önemli ayrıntısı şudur: Dünya nüfusunun yüzde 96'dan fazlası hâlâ doğduğu ülkede yaşıyor. Uluslararası göç büyük ve tarihsel açıdan önemli olsa da, küresel nüfusun büyük çoğunluğunun yaşam biçimi değil. Bu veri, "dünya tamamen göçebeye dönüyor" ve "sınırlar anlamını kaybetti" gibi genellemeleri sorgulamayı gerektiriyor; göç, dünyanın çoğunluğu için bir deneyim değil, bir siyasal tartışma konusudur. Rapor ayrıca "tek bir küresel göç hikâyesi" olmadığını, hareketlilik fırsatlarının yüksek gelirli ülkelerin insanları için genişlerken düşük gelirli ülkelerde kısıtlı kaldığını, yani göçün kendisinin bir küresel eşitsizlik biçimi olduğunu vurguluyor.
+
+## Mülteci ile göçmen aynı şey değil
+
+Siyaset felsefesi açısından terminoloji önemlidir. Ekonomik nedenlerle başka bir ülkeye giden bir kişi ile savaş, zulüm veya ağır insan hakları ihlalleri nedeniyle ülkesini terk etmek zorunda kalan kişi aynı hukuki ve siyasal kategoriye ait değildir. UNHCR'nin *Global Trends* raporuna göre 2024 sonunda yaklaşık 123,2 milyon insan zorla yerinden edilmişti; bu sayı mültecileri, sığınmacıları ve ülke içinde yerinden edilmiş insanları kapsar ve on yıl öncesinin neredeyse iki katıdır.
+
+Bu ayrım Hannah Arendt'in *Totalitarizmin Kaynakları*'ndaki (1951) "haklara sahip olma hakkı" fikrini yeniden gündeme getiriyor. Arendt, iki savaş arası Avrupa'nın vatansızlarını ve mültecilerini inceleyerek rahatsız edici bir sonuca varmıştı: "İnsan hakları", bir devletin yurttaşı olmayan insanlar için hiçbir şey ifade etmiyordu; insan yalnızca insan olduğunda, yani yurttaşlığını kaybettiğinde, hakları da kayboluyordu. Bir insan devlet sınırının dışında kaldığında yalnızca evini değil, siyasal aidiyetinin ve dolayısıyla hak sahipliğinin önemli bir bölümünü de kaybeder. [Seyla Benhabib](/filozof/seyla-benhabib), *Ötekilerin Hakları* (2004) kitabında Arendt'in bu paradoksunu Kant'ın "konukseverlik hakkı" ile birleştirerek göç etiğinin çağdaş çerçevesini kurdu; Benhabib bu yıl [Skytte Ödülü'nü](/haber/seyla-benhabib-skytte-odulu-2026) aldı. Mültecilik bu nedenle yalnızca insani yardım meselesi değil; vatandaşlık, egemenlik ve insan hakları arasındaki çözülmemiş ilişkinin açığa çıktığı yerdir.
+
+## Açık sınırlar mı, üyelik hakkı mı?
+
+Göç etiğinin çağdaş tartışması iki kutup arasında gider. Bir yanda Joseph Carens'ın 1987'de "Aliens and Citizens" makalesiyle başlattığı ve *The Ethics of Immigration* (2013) ile sistemleştirdiği açık sınırlar savunusu: Liberal eşitlik ilkelerini ciddiye alan biri, doğum yerinin, feodal çağın soyluluk unvanları gibi, insanın hayat fırsatlarını belirlemesini kabul edemez; yurttaşlık, modern dünyanın "doğuştan ayrıcalığı"dır. Öte yanda Michael Walzer'in *Adalet Alanları*'nda (1983) kurduğu üyelik argümanı: Siyasal topluluklar, kendi karakterlerini koruma ve kimi üye yapacaklarına karar verme hakkına sahiptir; bu hak olmadan "kendi kaderini belirleme" diye bir şey kalmaz. David Miller, *Strangers in Our Midst* (2016) ile Walzer'in çizgisini sürdürdü: Ulusal topluluğun kültürel sürekliliği ve demokratik öz-yönetim, sınır kontrolünü meşrulaştırır; ama mültecilere karşı ödevler bu hakkı sınırlar.
+
+Bu tartışma soyut görünebilir, ama 2026 Avrupa siyasetinin bütün gerilimi burada yatar: Carens'ın ilkeleriyle Walzer'in topluluğu arasında bir denge mümkün mü? [Michael Sandel](/filozof/michael-sandel), liberalizmin bu soruya cevap verememesinin popülizmin yükselişinin nedenlerinden biri olduğunu savunuyor: Topluluk, aidiyet ve "ev" duygusunu ciddiye almayan bir siyaset felsefesi, bu duyguları otoriter hareketlere terk eder.
+
+## Demografik yaşlanma ve yeni siyaset
+
+Bir başka büyük dönüşüm göçten bağımsız olarak gerçekleşiyor: Dünya yaşlanıyor. BM'nin *World Population Prospects 2024* raporu, dünya nüfusunun yüzyıl içinde zirve yapma olasılığını yüzde 80 olarak hesaplıyor; nüfusun 2080'lerin ortasında yaklaşık 10,3 milyarla tepe noktasına ulaşıp sonra gerilemesi bekleniyor. 63 ülkede nüfus zaten zirveyi geçti; Çin, Japonya, Güney Kore, Almanya, İtalya ve Rusya bunlar arasında. Türkiye'de doğurganlık oranı 2024'te 1,48'e düşerek nüfusun kendini yenileme eşiğinin çok altına indi.
+
+Bu değişim siyaset felsefesine yeni sorular getiriyor: Çalışan gençler yaşlı nüfusu nasıl finanse edecek? Kuşaklar arası adalet, Rawls'un "adil tasarruf ilkesi"nin ötesinde nasıl düşünülecek? Göçmen emeği ne ölçüde ekonomik zorunluluk hâline gelecek? Ve daha temel soru: Bir toplum ekonomik olarak göçe ihtiyaç duyarken siyasal olarak göçe direnebilir mi? Japonya ve Güney Kore bu paradoksun laboratuvarları: Dünyanın en hızlı yaşlanan toplumları, aynı zamanda göçe en kapalı toplumlar. Almanya ise tersini deniyor: Son yılların nitelikli göç ve vatandaşlık düzenlemeleri, demografik zorunluluğun siyasal direnişe karşı kazandığı bir örnek; ama aynı yılların seçim sonuçları bu kazanımın ne kadar kırılgan olduğunu gösteriyor.
+
+## Uluslararasılaşma mı, küreselleşme mi, post-ulusal yurttaşlık mı?
+
+Uluslararasılaşma ile küreselleşmeyi birbirinden ayırmak gerekir. Uluslararasılaşma, farklı ulusal toplumların birbirleriyle daha yoğun ilişkiye girmesidir; küreselleşme ise üretim, finans, iletişim, kültür ve teknolojinin ulusal sınırları aşan ağlar içinde bütünleşmesiyle daha kapsamlı bir dönüşüme işaret eder. Bu iki süreç ulus-devleti ortadan kaldırmış değil; tam tersine, devletler hâlâ vatandaşlık, sınır, vergi, hukuk ve sosyal güvenlik gibi alanlarda temel aktörler. Fakat nüfus hareketleri devletlerin "içerisi" ile "dışarısı" arasındaki sınırı giderek karmaşık hâle getiriyor: Çifte vatandaşlar, diasporalar, dijital göçebeler, sınır işçileri, "belgesiz" ama on yıllardır yerleşik insanlar, hangi "biz"e aittir?
+
+[Jürgen Habermas](/filozof/jurgen-habermas), 1990'lardan itibaren "post-ulusal yurttaşlık" ve "anayasal vatanseverlik" kavramlarıyla bir cevap önerdi: Siyasal aidiyet, etnik ya da kültürel kökene değil, anayasal ilkelere bağlılığa dayanmalıdır; Avrupa Birliği bunun denemesidir. Habermas'ın bu yıl [ölümünün ardından](/haber/jurgen-habermas-1929-2026) yeniden tartışılan bu tezi, Avrupa'nın bugünkü göç siyasetinde ağır bir sınavdan geçiyor: Anayasal vatanseverlik, insanların gerçekten hissettiği aidiyeti üretebilir mi, yoksa Walzer'in dediği gibi, aidiyet her zaman daha kalın bir kültürel dokuya mı ihtiyaç duyar?
+
+Böylece siyaset felsefesinin klasik sorusuna, "devlet nedir?", yeni bir soru ekleniyor: "Devletin nüfusu kimlerden oluşmalıdır ve bunu kim belirler?" Demokrasi teorisinin "sınır problemi" (boundary problem) denen paradoksu burada açığa çıkar: Demokratik bir kararla kimin "halk"a dahil olacağını belirlemek için önce bir "halk"ın var olması gerekir; ama o halkın kim olduğu da demokratik olarak belirlenmemiştir. Her göç yasası, bu paradoksun bir siyasal kararla kesilmesidir.
+
+## Yakın dönem etkinlikler
+
+Göç ve demografi, felsefe takviminde de yer buluyor. 17-18 Ekim 2026'da Londra'da ve çevrim içi düzenlenecek "Narratives of Displacement" uluslararası konferansı, yerinden edilmeyi hem göç (gönüllü ya da zorunlu) hem de toplumsal ve kültürel olarak "yerinden olma" hissi olarak ele alıyor; tarih, felsefe, sosyoloji, hukuk ve kültür çalışmalarını bir araya getiren disiplinlerarası bir toplantı. Sitemizde daha önce [Sanders Siyaset Felsefesi Ödülü'nün göç ve nüfus üzerine bir makaleye verilmesini](/haber/sanders-siyaset-felsefesi-odulu-2026-goc) haber yapmıştık; göç etiği, siyaset felsefesinin en üretken alt alanlarından biri hâline geldi.
+
+Bu toplantıların ortak noktasına dikkat etmek gerekiyor: Göç artık yalnızca göç araştırmacılarının konusu değil. Demografi, siyaset felsefesi, ekonomi, hukuk, kültür ve etik aynı sorunun farklı yüzlerine dönüşmüş durumda. Ve soru, Lévi-Strauss'un 1971'de sorduğu gibi, hâlâ cevapsız: Farklılıkları korurken birlikte nasıl yaşayacağız?`,
+  },
+  {
+    title: "KONFÜÇYÜS",
+    slug: "konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur",
+    summary:
+      "Çinli bilgeyi yeniden düşünmek: İyi insan nasıl yetişir ve iyi toplum nasıl kurulur? Konfüçyüs'ü yalnızca 'Çin'in filozofu' veya 'ahlaklı olmayı öğütleyen bilge' olarak okumak onu küçültür. Asıl problemi şuydu: İnsan nasıl insan olur ve iyi insanlar olmadan iyi bir siyasal düzen kurulabilir mi? Ren, li, junzi ve zhengming kavramlarından 2026'nın 'Konfüçyüsçü demokrasi mi, meritokrasi mi?' tartışmasına, Erin Cline'ın yeni Analects çevirisi etrafındaki polemiğe ve yapay zekâ çağında karakter sorusuna.",
+    seoTitle: "Konfüçyüs: İyi insan nasıl yetişir, iyi toplum nasıl kurulur? Ren, li, junzi, zhengming ve 2026 tartışmaları",
+    metaDescription:
+      "Konfüçyüs'ü yeniden düşünmek: ren, li (ritüel), junzi, zhengming (adların düzeltilmesi), erdemle yönetim; Ziliotti'nin Philosophy Compass'taki 'Konfüçyüsçü demokrasi mi meritokrasi mi?' haritası, Sungmoon Kim sempozyumu, Erin Cline'ın 2026 Analects çevirisi ve Foreign Policy eleştirisi, yapay zekâ ve karakter.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cropped%20version%20of%20Confucius%20Portrait%2C%20Kongzi%20(Confucius)%20Family%20Mansion%2C%20Qufu%20(13044335945).jpg?width=1600",
+    imageCredit: "Konfüçyüs portresi, Ming dönemi (1368-1644), Kong Ailesi Konağı, Qufu · Kamu malı · Wikimedia Commons. Not: Konfüçyüs'ün dönemine ait hiçbir tasviri yoktur; bütün portreler ölümünden yüzyıllar sonra yapılmış geleneksel temsillerdir.",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Philosophy Compass · Foreign Policy",
+    sourceUrl: "https://plato.stanford.edu/entries/confucius/",
+    publishedAt: "2026-09-30T21:15:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["siyaset-felsefesi", "etik", "demokrasi", "ceviri", "antik-felsefe", "kavram"],
+    philosopherSlugs: ["konfucyus"],
+    sources: [
+      { title: "Confucius", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/confucius/", primary: true },
+      { title: "Elena Ziliotti, 'Confucian Democracy or Meritocracy? Mapping a Two-Decade Debate'", publisher: "Philosophy Compass 21(3), 2026", date: "2026", url: "https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.70106" },
+      { title: "A Symposium on Sungmoon Kim's Confucian Constitutionalism: Dignity, Rights, and Democracy", publisher: "The Review of Politics (Cambridge University Press)", date: "Nisan 2026", url: "https://www.cambridge.org/core/journals/review-of-politics/article/symposium-on-sungmoon-kims-confucian-constitutionalism-dignity-rights-and-democracy/8DFDA158E3C1ECC789B909BDD079DD38" },
+      { title: "Maddalena Poli, 'Studying Confucius Needs Textual Expertise'", publisher: "Foreign Policy", date: "28 Ağustos 2026", url: "https://foreignpolicy.com/2026/08/28/china-confucius-analects-cline/" },
+      { title: "Confucius, The Analects: A Contemporary Translation, trans. Erin M. Cline", publisher: "Liveright / W. W. Norton", date: "Şubat 2026", url: "https://wwnorton.com/books/The-Analects/" },
+    ],
+    content: `Konfüçyüs'ü yalnızca "Çin'in filozofu" veya "ahlaklı olmayı öğütleyen bilge" olarak okumak, onu küçültmek olur. Konfüçyüs'ün asıl problemi şuydu: İnsan nasıl insan olur? Ve bu soru hemen başka bir soruya bağlanır: İyi insanlar olmadan iyi bir siyasal düzen kurulabilir mi? Konfüçyüs'ün felsefesinin özgünlüğü burada ortaya çıkar. Batı felsefesinde Sokrates "iyi yaşam nedir?" diye sorarken, Konfüçyüs bu soruyu aile, eğitim, ritüel, dil, siyasal otorite ve toplumsal roller üzerinden düşünür; Sokrates'in agorada tek tek insanları sorgulayan diyaloğuna karşılık, Konfüçyüs'ün öğrencileriyle yolda, sofrada ve ritüel sırasında geçen konuşmaları vardır.
+
+Üç gün önce [doğum gününde](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) hayatını ve kavramlarını özetlemiştik. Bu yazı o özetin devamı: Konfüçyüs'ün kavramlarının bugün neden tartışıldığını, 2026'da Anglofon felsefede "Konfüçyüsçü demokrasi mi, meritokrasi mi?" sorusunun nasıl olgunlaştığını, yeni bir *Konuşmalar* çevirisinin neden polemik yarattığını ve yapay zekâ çağında Konfüçyüs'ün hangi soruyu soracağını ele alıyor. Konfüçyüs bugün ayrıca [Filozof Dizini'ne](/filozof/konfucyus) eklendi.
+
+## Tarihsel Konfüçyüs ile efsanevi Konfüçyüs
+
+Konfüçyüs'ün geleneksel doğum tarihi MÖ 551 olarak verilir; Stanford Felsefe Ansiklopedisi bu tarihi *Gongyang Yorumu* geleneğine dayandırır ve elimizdeki biyografik anlatıların önemli bölümünün, başta Sima Qian'ın MÖ 1. yüzyıldaki *Shiji*'si olmak üzere, çok sonraki kaynaklardan geldiğini hatırlatır. Bu nedenle "Konfüçyüs şurada şöyle yaptı" biçimindeki her anlatıyı tarihsel kesinlikte kabul etmek doğru değildir. Düşünürün felsefi mirası, öğrencileriyle konuşmalarını içeren *Lunyu*, yani *Konuşmalar* (Batı'da *Analects*) etrafında şekillenmiştir; metnin bugünkü biçiminin Konfüçyüs'ten yüzyıllar sonra, Han döneminde oluştuğu düşünülür ve 1990'larda E. Bruce Brooks ile A. Taeko Brooks'un katman analizi, metnin bölümlerinin farklı kuşaklarca yazıldığını savunmuştu. Bu ayrım önemlidir: Konfüçyüs'ü anlamak için efsaneyi değil, metindeki düşünsel yapıyı takip etmek gerekir. Ve bu yapı, bir doktrin değil, bir karakter portresidir: *Konuşmalar*, bir öğretmenin öğrencilerine, duruma göre farklı cevaplar verdiği, kendini düzelttiği, bazen susmayı tercih ettiği bir metindir.
+
+## Ren: İnsan olmak bir ilişki içinde gerçekleşir
+
+Konfüçyüsçülüğün en önemli kavramı *ren*'dir (仁). Türkçeye "insanlık", "insanseverlik", "iyilik", "erdem" gibi farklı biçimlerde çevrilebilir; ama tek bir kelimeye sıkıştırmak zordur. Karakterin kendisi ipucu verir: "İnsan" (人) ve "iki" (二) işaretlerinden oluşur; insan olmak, en az iki kişi gerektirir. *Ren*, insanın başka insanlarla ilişkiler içinde kendisini ahlaki olarak geliştirmesidir. *Konuşmalar*'da Konfüçyüs *ren*'i hiçbir zaman tanımlamaz; soran öğrenciye göre farklı cevaplar verir: "İnsanları sevmek", "kendini yenmek ve ritüele dönmek", "kendine yapılmasını istemediğini başkasına yapmamak". Bu tanımsızlık bir eksiklik değil, bir tezdir: *Ren*, bir tanımla değil, bir hayatla gösterilir.
+
+Burada modern bireycilikle temel bir fark ortaya çıkar. "Ben kimim?" sorusunun cevabı yalnızca iç dünyamda aranmaz; ben, çocuğumla, annemle, arkadaşımla, öğretmenimle, öğrencimle, yurttaşımla ve yöneticimle kurduğum ilişkiler içinde oluşurum. Çağdaş Konfüçyüsçü etik literatürü bu yüzden *ren* ve *li*'yi "ilişkisel değerler" olarak adlandırır ve Konfüçyüsçü etiği, Aristotelesçi erdem etiğinden farklı olarak, ilişkiyi iyi yaşamın merkezine koyan bir "rol etiği" (Roger Ames'in terimi) olarak okur. Henry Rosemont ve Ames'in iddiası serttir: Batı'nın "birey" kavramı, Konfüçyüs'ün dünyasında bir soyutlamadır; gerçek olan rollerdir.
+
+## Junzi: Soylu doğulmaz, soylu olunur
+
+*Junzi* (君子) kelimesi başlangıçta "hükümdarın oğlu", yani prens anlamını taşıyan aristokratik bir terimdi. Konfüçyüs'ün kullanımında ahlaki anlam kazanır: *Junzi*, soyu değil karakteri soylu olan kişidir. Bu dönüşüm, Konfüçyüs'ün felsefesinin en demokratikleştirici tarafıdır; aynı dönüşümü Avrupa'da ancak Rönesans hümanistleri ve sonra Aydınlanma yapacaktır: "Gerçek soyluluk erdemdir." Konfüçyüs için ahlaki mükemmellik bir kanın özelliği değildir; eğitim, öz-disiplin ve pratik yoluyla geliştirilebilir. "Öğretimde sınıf ayrımı yoktur" cümlesi ona atfedilir; öğrencileri arasında yoksullar da vardı. Bu nedenle Konfüçyüs için eğitim meslek edinmek değil, insanın kendisini inşa etmesidir; *xue* (öğrenme), *Konuşmalar*'ın ilk kelimesidir.
+
+## Li: Ritüel, ortak yaşamın grameridir
+
+Modern insan için "ritüel" kelimesi biçimsel ve içi boş davranışları çağrıştırır. Konfüçyüs'te ise *li* (禮), toplumsal hayatın görünmez grameridir. Nasıl bir dilin kuralları olmadan anlamlı konuşma mümkün değilse, ortak yaşam da davranış biçimleri olmadan sürdürülemez: Selamlaşma, yas, sofra, misafirlik, yaşlıya hitap biçimi, bunların hepsi, insanların birbirine ne olduklarını her gün yeniden söyledikleri bir dildir. Herbert Fingarette'in 1972'de analitik felsefeye tanıttığı bu okuma, ritüeli J. L. Austin'in "edimsel" sözleri gibi düşünür: El sıkışmak, bir anlaşmayı temsil etmez, anlaşmanın kendisidir. Çağdaş literatür *li*'yi "kültürel gramer" olarak adlandırıyor: Ritüel, dışsal kurallara uymak değil, ortak bir yaşam biçiminin dilini öğrenmektir. Ve Konfüçyüs'ün önemli bir eklemesi vardır: İçsel duygu olmadan ritüel boştur. "Ritüelde önemli olan, gösteriş değil sadeliktir; yasta önemli olan, kusursuz tören değil kederdir."
+
+Bu fikir bugün son derece günceldir. Sosyal medya çağında insanların birbirleriyle nasıl konuşacağını bilmemesi, yalnızca "nezaket eksikliği" değil, ortak dünyanın gramerinin parçalanması olarak okunabilir. Konfüçyüs, kaba bir toplumun sorununun kötü yasalar değil, kaybolmuş bir ritüel dili olduğunu söylerdi.
+
+## Siyaset: İyi yasa yetmez
+
+Konfüçyüs'ün siyaset felsefesi modern devlet kuramından çok farklıdır. Ona göre iyi yönetim yalnızca iyi yasalar koymakla kurulmaz; yöneticinin karakteri (*de*, 德) belirleyicidir. *Konuşmalar*'daki ünlü düşünceye göre, insanlar yalnızca yasa ve cezayla yönetilirse cezadan kaçmayı öğrenirler; erdem ve ritüelle yönetildiklerinde ise utanma duygusu geliştirirler ve kendilerini düzeltirler. Yönetici, "kuzey yıldızı" gibidir: Yerinde durur, ötekiler onun etrafında döner.
+
+Bu düşünceyi bugünün diline şöyle çevirebiliriz: Hukuk düzeni insan davranışının yalnızca dış sınırlarını mı belirlemeli, yoksa iyi yurttaş yetiştirmek de siyasal düzenin görevi midir? Modern liberalizm bu soruya temkinli yaklaşır: Devlet, yurttaşlarının karakterine karışmamalı, yalnızca adil kurallar koymalıdır (Rawls'un "iyi yaşam anlayışları karşısında tarafsızlık" ilkesi). Konfüçyüsçülük ise daha güçlü bir cevap verir: Siyaset karakterden bağımsız düşünülemez; karakteri olmayan bir yöneticinin koyduğu adil yasalar bile adaletsizlik üretir. Bu "mükemmeliyetçi" tez, bugün Konfüçyüsçü siyaset felsefesinin liberalizmle hesaplaşmasının merkezidir.
+
+## Zhengming: Dil bozulursa siyaset de bozulur
+
+Konfüçyüs'ün en ilginç siyasal fikirlerinden biri *zhengming* (正名), geleneksel çeviriyle "adların düzeltilmesi"dir. Bir öğrenci, "Yönetime gelseniz ilk ne yapardınız?" diye sorar; cevap: "Adları düzeltirdim." Mesele yalnızca kelimeleri doğru kullanmak değildir. Bir yönetici kendisini "yönetici" olarak adlandırıyor fakat yönetici gibi davranmıyorsa, bir baba baba gibi davranmıyorsa, bir öğretmen öğretmenlik sorumluluğunu taşımıyorsa, ad ile gerçeklik arasındaki bağ kopar; ve bağ koptuğunda, Konfüçyüs'ün deyişiyle, "söylenen şey yapılana uymaz, işler başarılamaz, ritüel ve müzik gelişmez, cezalar isabetsiz olur ve halk elini ayağını nereye koyacağını bilemez". Çağdaş Çin felsefesi araştırmaları *zhengming*'i sözlük anlamında bir dil düzeltmesi değil, dil ile gerçekliğin ve toplumsal rollerin birbirine uygun hâle getirilmesi problemi olarak okur.
+
+Bu fikir 2026'da özellikle ilginç. Siyaset, medya ve sosyal medya çağında "ad" ile "gerçeklik" arasındaki mesafe büyüyor: Bir kurum kendisine "özgürlük" diyebilir, bir lider kendisini "halkın temsilcisi" olarak tanımlayabilir, bir platform kendisini "tarafsız" ilan edebilir. Konfüçyüs'ün sorusu basit ama serttir: Ad ile davranış birbirine uyuyor mu? Orwell'in "Yenisöylem"i, Konfüçyüs'ün 2500 yıl önce teşhis ettiği hastalığın modern adıdır.
+
+## 2026: Konfüçyüsçü demokrasi mi, meritokrasi mi?
+
+Konfüçyüs'ü modern demokrasi filozofu olarak sunmak tarihsel açıdan doğru değildir; erken Konfüçyüsçü düşüncede halkın doğrudan siyasal katılımı merkezî bir değer değildir. Fakat 20. ve 21. yüzyıllarda ilginç bir tartışma doğdu: Konfüçyüsçülük demokrasiyle bağdaşabilir mi? Yoksa Konfüçyüs'ün erdemli yönetici ideali, demokrasiye değil, liyakate dayalı bir yönetime, "siyasal meritokrasi"ye mi işaret eder?
+
+2026 literatürü bu tartışmanın olgunlaştığını gösteriyor. Elena Ziliotti'nin bu yıl *Philosophy Compass*'ta yayımlanan "Confucian Democracy or Meritocracy? Mapping a Two-Decade Debate" (Konfüçyüsçü Demokrasi mi, Meritokrasi mi? Yirmi Yıllık Bir Tartışmanın Haritası) makalesi, "Konfüçyüsçü demokratlar" ile "Konfüçyüsçü meritokratlar" arasındaki tartışmanın Anglofon Konfüçyüsçü siyaset felsefesinin en önemli ve sürekli tartışması hâline geldiğini belirterek üç temel eksen çiziyor: liyakatçi yönetimin normatif değerinin ağırlığı; halkın siyasal yetersizliklerinin Konfüçyüsçü kuramı ne ölçüde biçimlendirmesi gerektiği; ve çağdaş Konfüçyüsçü yönetim kuramlarının ne kadar demokrasi içermesi gerektiği. Bir yanda Daniel A. Bell'in *The China Model* (2015) ile savunduğu, alt düzeyde demokrasi, üst düzeyde liyakat sınavıyla seçilmiş yöneticiler öneren "siyasal meritokrasi"; öte yanda Sungmoon Kim'in *Democracy after Virtue* (2018) ve *Confucian Constitutionalism* kitaplarıyla savunduğu, Konfüçyüsçü değerleri demokratik kurumlar içinde yaşatan "pragmatik Konfüçyüsçü demokrasi".
+
+Kim'in *Confucian Constitutionalism: Dignity, Rights, and Democracy* kitabı üzerine *The Review of Politics*'in nisan 2026'da yayımladığı sempozyum, tartışmanın bugünkü durumunu gösteriyor: Kim, Konfüçyüsçü anayasal düşünceyi hem meritokratik gelenekle hem çağdaş anayasa kuramıyla eleştirel diyalog içinde yeniden kuruyor; eleştirmenleri ise Konfüçyüsçülüğün bir "felsefe" mi yoksa bir "kültür" mü olduğunu, Doğu Asya demokrasilerinin Konfüçyüsçü olmasının ne anlama geldiğini soruyor. Burada Konfüçyüs'ü bugünün siyasal programlarından birine eklemlemek yerine daha ilginç bir şey yapmak gerekiyor: Konfüçyüs'ün modern demokrasinin varsayımlarını hangi noktalarda zorladığını görmek. Demokrasi, yurttaşların eşit siyasal yetkinliğini varsayar; Konfüçyüs, yetkinliğin yetiştirilmesi gereken bir şey olduğunu söyler. Bu gerilim, demokrasi teorisinin kendi içinde de vardır (Platon'dan Mill'e "epistokrasi" tartışması); Konfüçyüs ona Batı dışından bir dil kazandırır.
+
+## Yeni bir çeviri ve bir polemik
+
+Konfüçyüs 2026'da bir çeviri tartışmasıyla da gündemde. Georgetown Üniversitesi'nden Erin M. Cline'ın şubat ayında Liveright'tan çıkan *The Analects: A Contemporary Translation* adlı çevirisi, metnin kadınlar ve toplumsal cinsiyet konusundaki geleneksel okumalarındaki "bir dizi yanlışlığı" düzeltme iddiasıyla yayımlandı. 28 Ağustos'ta *Foreign Policy*'de antik Çin el yazmaları uzmanı Maddalena Poli'nin yazdığı sert eleştiri, bu iddianın filolojik temelini sorguladı ve "Konfüçyüs'ü incelemek metin uzmanlığı gerektirir" başlığıyla, popüler çevirilerin metnin tarihsel katmanlarını görmezden gelme riskine dikkat çekti.
+
+Bu polemik, Konfüçyüs'ün bugünkü konumunu özetler: *Konuşmalar*, artık yalnızca sinologların değil, etik ve siyaset felsefecilerinin, feminist kuramcıların ve genel okurun metnidir; ve her yeni okuma, metnin ne söylediği ile bizim ona ne söyletmek istediğimiz arasındaki sınırı yeniden çizer. Konfüçyüs'ün kendisi bu tartışmaya *zhengming* ile cevap verirdi: Çeviri, adların düzeltilmesidir; ad ile gerçeklik arasındaki bağ, çevirmenin omuzlarındadır.
+
+## Konfüçyüs bugün yaşasaydı yapay zekâ hakkında ne sorardı?
+
+Bu artık tarihsel bir soru değil, felsefi bir deneydir. Muhtemelen ilk sorusu "yapay zekâ insan zekâsını geçecek mi?" olmazdı; daha çok şunu sorardı: "Bu teknoloji insan karakterini nasıl değiştirecek?" Konfüçyüs için teknik bir aracın değeri, onu kullananın ne hâle geldiğiyle ölçülür. Bir öğrenciye cevabı bir dil modelinden alan, bir yas törenini bir uygulamaya devreden, bir dostluğu algoritmanın önerisine bırakan insan, Konfüçyüs'ün gözünde *li*'yi, yani ortak yaşamın gramerini unutmakta olan insandır. 2026'da Konfüçyüsçü etik ile büyük dil modellerini ilişkilendiren çalışmaların ortaya çıkması, bu bakımdan dikkat çekici: Eğitimde yapay zekâ kullanımı, öz-yetiştirme (*xiushen*), samimiyet ve empati kavramlarıyla tartışılıyor; sitemizde bu ay [Britanya'da felsefe bölümleri kapanırken yapay zekâ şirketlerinin filozof istihdam etmesini](/haber/britanya-felsefe-bolumleri-kapanirken-yapay-zeka-sirketleri-filozof-topluyor) yazmıştık; Konfüçyüs'ün karakter sorusu, bu şirketlerin "hizalama" dediği problemin en eski adıdır.
+
+## Konfüçyüs'ü yeniden okumak
+
+Konfüçyüs'ün felsefesini yalnızca "itaat, aile ve gelenek" olarak okumak eksiktir. Onun düşüncesinde öz-yetiştirme, eğitim, ahlaki sorumluluk, dil ile gerçeklik arasındaki uyum, yöneticinin karakteri, toplumsal ilişkilerin niteliği, kültürel devamlılık ve iyi yaşam soruları bulunur. Fakat çağdaş Konfüçyüsçülük bunların üzerine yeni bir soru ekliyor: Geleneksel bir erdem etiği, modern çoğulcu toplumlarda nasıl yaşayabilir? Sokrates bize "kendini bil" dedi. Konfüçyüs ise sanki şunu ekledi: "Kendini, başkalarıyla kurduğun ilişkiler içinde yetiştir." Yirmi birinci yüzyılın yalnızlaşan, algoritmik ve küreselleşmiş dünyasında Konfüçyüs'ün yeniden keşfedilmesinin nedeni tam olarak budur: Onun asıl mirası hazır cevaplar değil, insan olmanın bir ilişki içinde gerçekleştiği fikridir.`,
+  },
+  {
+    title: "30 Eylül ve 1 Ekim: Condillac'tan Dilthey'e, Rumi'den Alvin Goldman'a",
+    slug: "felsefe-tarihinde-bugun-30-eylul-1-ekim-condillac-dilthey-rumi-goldman",
+    summary:
+      "Tarihte bazı günler filozofların doğum ve ölüm tarihleriyle öne çıkar; bazı günler ise felsefenin kendisinin dönüşümünü hatırlatır. 30 Eylül ve 1 Ekim, epistemoloji, mistisizm, hermeneutik ve siyaset felsefesi açısından dikkat çekici isimleri aynı takvimde buluşturuyor: Condillac'ın heykeli, Mevlânâ'nın doğumu, Claudia Card'ın kötülük kuramı, Dilthey'in 'anlama'sı, Alvin Goldman'ın dışsalcılığı ve Mészáros'un sermaye eleştirisi.",
+    seoTitle: "Felsefe tarihinde bugün, 30 Eylül ve 1 Ekim: Condillac (1714), Mevlânâ (1207), Claudia Card (1940), Dilthey (ö. 1911), Alvin Goldman (1938), Mészáros (ö. 2017)",
+    metaDescription:
+      "30 Eylül ve 1 Ekim'de felsefe tarihi: Condillac'ın doğumu (1714) ve heykel düşünce deneyi; Mevlânâ'nın doğumu (1207); Claudia Card (1940); John J. McDermott (ö. 2018); Wilhelm Dilthey'in ölümü (1 Ekim 1911); Alvin Goldman (1938); István Mészáros (ö. 2017); Notre Dame 'Wisdom from Age to Age' konferansı.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Dilthey.jpg?width=1600",
+    imageCredit: "Wilhelm Dilthey, 1910 dolayları · Fotoğraf: Rudolf Dührkoop · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/dilthey/",
+    publishedAt: "2026-09-30T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "aydinlanma", "etik", "marksizm"],
+    philosopherSlugs: ["wilhelm-dilthey"],
+    sources: [
+      { title: "Wilhelm Dilthey", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/dilthey/", primary: true },
+      { title: "Étienne Bonnot de Condillac", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/condillac/" },
+      { title: "Alvin Goldman (1938-2024)", publisher: "Rutgers University, Department of Philosophy", url: "https://philosophy.rutgers.edu/" },
+      { title: "In Memoriam: John Joseph McDermott, 1932-2018", publisher: "Society for the Advancement of American Philosophy", url: "https://american-philosophy.org/wp-content/uploads/2019/05/In-Memoriam-John-J.-McDermott.pdf" },
+      { title: "2026 Fall Conference: But Where Can She Be Found? Wisdom From Age to Age", publisher: "de Nicola Center for Ethics and Culture, University of Notre Dame", date: "1-3 Ekim 2026", url: "https://ethicscenter.nd.edu/programs/fall-conference/fc26/" },
+    ],
+    content: `Tarihte bazı günler filozofların doğum ve ölüm tarihleriyle öne çıkar; bazı günler ise felsefenin kendisinin dönüşümünü hatırlatır. 30 Eylül ve 1 Ekim, epistemoloji, mistisizm, hermeneutik ve siyaset felsefesi açısından dikkat çekici isimleri aynı takvimde buluşturuyor. İki günü birlikte ele alıyoruz.
+
+## 30 EYLÜL
+
+### 1714: Étienne Bonnot de Condillac
+
+Fransız Aydınlanması'nın en önemli bilgi kuramcısı Étienne Bonnot de Condillac, 30 Eylül 1714'te Grenoble'da doğdu (bazı kaynaklar 1715'i verir). Rahip oldu ama hiç vaaz vermedi; Diderot ve Rousseau'nun dostu, Parma prensinin eğitmeni, Fransız Akademisi üyesiydi. Felsefesinin merkezinde bilgi sorusu vardır: İnsan zihnindeki fikirler nereden gelir? Locke'un deneyci mirasını radikalleştiren Condillac, Locke'un hâlâ kabul ettiği "düşünümü" (reflection) bile bağımsız bir kaynak olmaktan çıkardı: Her şey, bellek, karşılaştırma, yargı, hatta irade, dönüştürülmüş duyumdur.
+
+*Duyumlar Üzerine İnceleme*'deki (1754) ünlü heykel düşünce deneyi, felsefe tarihinin en güzel kurgularından biridir. Condillac, mermerden bir heykel hayal eder ve ona duyuları tek tek verir: Önce yalnızca koku alır; bir gül kokusu heykelin bütün bilincidir, heykel "gül kokusudur". Sonra işitme, tat, görme ve nihayet dokunma eklenir; ancak dokunma ile heykel kendi bedenini dış nesnelerden ayırır ve bir "dış dünya" fikrine ulaşır. Deney, bilincin ve benliğin duyumlardan nasıl inşa edilebileceğini adım adım gösterir; Condillac bu yönüyle yalnızca Aydınlanma düşünürü değil, modern psikolojinin ve bilişsel bilimin öncüllerinden biridir. Bugün yapay zekâ araştırmacılarının "bedenlenmiş biliş" tartışmaları, Condillac'ın dokunmaya verdiği ayrıcalığı yeniden keşfediyor. 1780'de öldü.
+
+### 1207: Mevlânâ Celâleddîn-i Rûmî
+
+30 Eylül 1207, Mevlânâ'nın geleneksel doğum tarihidir; Belh'te (bugün Afganistan) doğdu, Konya'da yaşadı ve 1273'te öldü. Onu modern anlamda yalnızca "filozof" kategorisine yerleştirmek doğru olmaz; tasavvuf düşüncesi, şiir ve metafizik arasında duran bir düşünürdür. Fakat *Mesnevî* ve *Dîvân-ı Kebîr*, felsefi okumaya açıktır: Mevlânâ'nın düşüncesindeki temel meselelerden biri, benliğin sabit bir öz değil, dönüşüm içindeki bir varlık olmasıdır; "ölmeden önce ölmek", benliğin sürekli aşılmasıdır. Aşk, bilgisizlik değil, aklın ötesinde bir bilme biçimidir; Mevlânâ'nın imgesiyle, akıl yürüten "ayak"ın yerine uçuran "kanat". Bu açıdan düşüncesi, çağdaş özne felsefesiyle şaşırtıcı bir konuşma başlatabilir. Sitemizde Mevlânâ ile [Yunus Emre](/haber/yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk) arasındaki farkı bugün ayrı bir yazıda ele aldık: Mevlânâ'nın dili kozmik ve metafiziktir, Yunus'un dili doğrudan insanın kendisine yönelir.
+
+### 1940: Claudia Card
+
+Amerikalı filozof Claudia Card, 30 Eylül 1940'ta Wisconsin'de doğdu. Harvard'da John Rawls'un yanında doktora yaptı; kırk yılı aşkın süre Wisconsin-Madison'da ders verdi. Etiği soyut ilkelerden ibaret görmeyerek kötülüğün gerçek dünyadaki biçimleriyle ilgilendi: *The Atrocity Paradigm* (2002) ve *Confronting Evils* (2010), kötülüğü "zarar görenin dayanamayacağı, öngörülebilir ve haksız zararlar" olarak tanımladı ve soykırım, tecavüz, terörizm ve işkence gibi "vahşetleri" ahlak felsefesinin merkezine koydu. Feminist etiğin de kurucu isimlerindendi; "kadınların kötülüğün yalnızca kurbanı değil, bazen faili de olabileceğini" söyleyerek feminist düşüncenin kendi içinde tartışma açtı. Çalışmaları "kötülük nedir?" sorusunu aşarak şu soruya yöneliyordu: Bir toplum kötülüğü nasıl mümkün kılar? Card 2015'te öldü.
+
+### Ölenler: McDermott (2018) ve Carlini (1959)
+
+Amerikalı pragmatist filozof John J. McDermott, 30 Eylül 2018'de öldü. 1932'de New York'ta doğmuş, Fordham'da doktora yapmış, Queens College'da yıllarca ders verdikten sonra 1981'den itibaren Texas A&M'de çalışmıştı. William James ve John Dewey'in eserlerinin editörü, Amerikan Felsefesini Geliştirme Derneği'nin ve William James Derneği'nin başkanıydı; "deneyim felsefesi"ni Amerikan kültürünün kendi felsefesi olarak savundu ve "insanın kendi deneyimini ciddiye alması"nı felsefenin başlangıcı saydı.
+
+İtalyan filozof Armando Carlini 30 Eylül 1959'da öldü. Giovanni Gentile'nin izleyicilerinden ve Pisa Üniversitesi'nde teorik felsefe profesörüydü; Gentile'nin "aktüel idealizm"ini Hıristiyan bir spiritüalizme doğru dönüştürmeye çalıştı. İtalyan faşizmiyle ilişkisi nedeniyle düşünsel mirası, felsefe ile siyasal ideoloji arasındaki ilişkinin tartışmalı örneklerinden biridir.
+
+### 30 Eylül 2026: Fricker Columbia'da
+
+Columbia Üniversitesi'nin 2026 John Dewey Konferansları'nı [Miranda Fricker](/filozof/miranda-fricker) veriyor: "Ethical Pressures: Shaping Wills and Bending Time in Moral Address" başlıklı üç ders, 30 Eylül, 1 ve 2 Ekim'de. Fricker'ın epistemik adaletsizlik kuramından ahlaki hitap kuramına geçişini sitemizde [daha önce](/haber/miranda-fricker-uehiro-konferanslari-2026) ele almıştık; etkinliğin ayrıntıları [takvimimizde](/etkinlik/fricker-dewey-konferanslari-columbia-2026).
+
+## 1 EKİM
+
+### 1911: Wilhelm Dilthey'in ölümü
+
+Hermeneutiğin ve insan bilimleri felsefesinin kurucu figürü [Wilhelm Dilthey](/filozof/wilhelm-dilthey), 1 Ekim 1911'de Güney Tirol'de, Seis am Schlern'de tatildeyken öldü. (Bazı takvimler 1 Ekim'i doğum günü olarak da verir; bu yanlıştır. Dilthey 19 Kasım 1833'te Biebrich'te doğdu.) 1882'den 1905'e kadar Berlin'de Hegel'in eski kürsüsünde ders verdi.
+
+Dilthey'in temel sorusu şuydu: İnsan dünyasını doğa bilimleri gibi açıklayabilir miyiz, yoksa insan dünyasını anlamamız mı gerekir? *İnsan Bilimlerine Giriş* (1883), pozitivizmin bu iddiasına karşı insan bilimlerinin (Geisteswissenschaften) kendi temelini "yaşam"ın kendisinden alması gerektiğini savundu: Tarihi, dili, hukuku ve sanatı, kendimiz de yaşayan varlıklar olduğumuz için anlayabiliriz. "Doğayı açıklarız, ruhsal yaşamı anlarız" cümlesi, bu programın sloganı oldu. Kant'ın saf aklı eleştirmesi gibi Dilthey bir "tarihsel akıl eleştirisi" tasarladı; tamamlayamadı, ama geç dönem çalışmaları yaşantı-ifade-anlama üçlüsünü hermeneutiğin temel yapısı olarak kurdu. Bu ayrım, Heidegger'den [Gadamer](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir)'e, Ricoeur'den çağdaş yorum kuramlarına uzanan büyük bir geleneğin zeminini hazırladı; sitemizde [Schleiermacher'in hermeneutik derslerinin Türkçe çevirisini](/haber/schleiermacher-hermeneutik-dersleri-turkce) haber yaparken bu geleneğin Dilthey'den geçen hattına değinmiştik. Max Weber'in "anlayıcı sosyoloji"si, Ortega y Gasset'nin "yaşam aklı" ve bugünün nitel sosyal bilim yöntemleri, Dilthey'in mirasının farklı dallarıdır.
+
+### 1886: Georgy Fedotov
+
+Rus din filozofu ve tarihçi Georgy Petrovich Fedotov, 1 Ekim 1886'da Saratov'da doğdu. Marksist bir gençlikten Hıristiyan bir tarih felsefesine geçti; Rus Ortodoks kültürü, azizlik ve "Rus dinî zihni" üzerine yazdı. 1925'te Sovyetler Birliği'nden ayrılarak Paris'teki Saint-Serge Enstitüsü'nde ders verdi, 1941'de ABD'ye geçti ve New York'taki St. Vladimir Seminary'de çalıştı. *The Russian Religious Mind* (1946), Rus düşünce tarihinin Batı'daki temel kaynaklarından biridir. 1951'de öldü.
+
+### 1938: Alvin Goldman
+
+Çağdaş epistemolojinin en etkili isimlerinden Alvin Goldman, 1 Ekim 1938'de Brooklyn'de doğdu. 1967 tarihli "A Causal Theory of Knowing" makalesi, Gettier'nin iki yıl önce ortaya attığı probleme ilk büyük cevaplardan biriydi: Bilgi, inancın doğruluğuyla uygun bir nedensel ilişki içinde olmasını gerektirir. Sonraki "güvenilircilik" (reliabilism) kuramı, *Epistemology and Cognition* (1986), gerekçelendirmeyi öznenin içsel erişimine değil, inancı üreten sürecin güvenilirliğine bağladı ve "dışsalcılık"ın kurucu metni oldu. Goldman ayrıca *Knowledge in a Social World* (1999) ile sosyal epistemoloji alanını kurdu: Bilginin bireysel değil toplumsal üretimini, tanıklığı, uzmanlığı ve kurumları felsefenin konusu yaptı. Bu alan bugün, yanlış bilgi, algoritmik medya ve yapay zekâ çağında, epistemolojinin en canlı dalı. Goldman, Michigan, Arizona ve Rutgers'ta ders verdi; 4 Ağustos 2024'te öldü.
+
+### 2017: István Mészáros
+
+Macar Marksist filozof István Mészáros, 1 Ekim 2017'de öldü. Budapeşte'de Lukács'ın asistanıydı; 1956'dan sonra ülkesini terk etti, Sussex Üniversitesi'nde ders verdi. *Marx's Theory of Alienation* (1970) ile Isaac Deutscher Ödülü'nü aldı; başyapıtı *Beyond Capital* (1995), kapitalizmin yalnızca ekonomik bir sistem değil, toplumsal yaşamı bütünüyle örgütleyen bir "toplumsal metabolizma" olarak ele alınması gerektiğini savundu ve Latin Amerika solunu, özellikle Hugo Chávez'i etkiledi. Mészáros'un "sermayenin yapısal krizi" tezi, 2008 sonrasında yeniden okundu; bugün [yapay zekânın ekonomi-politiği](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) tartışmasında da adı geçiyor.
+
+### 1 Ekim 2026: Bilgelik üzerine bir konferans
+
+Notre Dame Üniversitesi de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, 1-3 Ekim 2026'da "But Where Can She Be Found? Wisdom from Age to Age" (Peki O Nerede Bulunur? Çağdan Çağa Bilgelik) başlığıyla toplanıyor. Başlık Eyüp Kitabı'ndan; konferans, bilgeliği hem antik felsefenin teorik-pratik bilgelik ayrımı, hem Kutsal Kitap ve Katolik geleneği, hem de pratik yaşam açısından ele alıyor. Üniversitenin en büyük disiplinlerarası yıllık toplantısı olan konferans, "bilgelik" kavramının, bilginin bollaştığı ve ucuzladığı bir çağda yeniden felsefenin konusu hâline gelişini gösteriyor; Yunus Emre'nin "ilim kendin bilmektir" sorusu ile Konfüçyüs'ün *junzi* ideali bugün aynı sayfamızda duruyorsa, nedeni bu.
+
+## Takvim notu
+
+Felsefe takvimlerinde sık yapılan bir hata, yayımlanma tarihi, ilk baskı tarihi, yeni baskı tarihi ve dijital yayın tarihinin birbirine karıştırılmasıdır. Bu nedenle 30 Eylül ve 1 Ekim için güvenilir kataloglarda kesin olarak doğrulayabildiğimiz bir "ilk baskı" tarihi bulunan klasik felsefe eseri olmadığından, bu bölümde eser değil, insan anıyoruz.`,
+  },
   {
     title: "Robert Stalnaker'ın 'ortak zemini' makinelerin sınavında: Yapay zekâ pragmatiği 1978 tarihli bir makaleye dönüyor",
     slug: "robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026",
