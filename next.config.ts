@@ -3,6 +3,15 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Uzak görseller (kapak fotoğrafları) için izin verilen kaynaklar.
   images: {
+    /**
+     * Vercel'in görsel optimizasyon kotası (Hobby planı) 1 Ekim 2026'da doldu;
+     * /_next/image uçları "402 Payment required" döndürdüğü için sitedeki bütün
+     * kapaklar ve logo kayboldu. Optimizasyonu kapatıyoruz: <Image> bileşeni
+     * görselleri Vercel üzerinden geçirmeden doğrudan kaynağından yükler.
+     * Kapak adresleri zaten Commons'ın kendi boyutlandırmasını (?width=1600 /
+     * ?width=600) kullandığı için kalite ve boyut açısından kayıp yok.
+     */
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "upload.wikimedia.org" },
