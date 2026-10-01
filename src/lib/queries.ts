@@ -32,15 +32,19 @@ export const MAX_PAGE_SIZE = 50;
  * tüketiyordu (Eylül 2026'da ikisi de sınıra dayandı). Aynı sorgu aynı
  * parametrelerle 10 dakika içinde tekrar gelirse veritabanına gidilmez.
  *
- * Yeni içerik nasıl görünür? Her yayında (deploy) önbellek sıfırlanır; ayrıca
- * süre dolunca ilk istek veriyi tazeler. Yani bir haber en geç 10 dakika içinde
- * sitede görünür; yayın sonrasında hemen görünür.
+ * Yeni içerik nasıl görünür? Vercel'in veri önbelleği yayınlar (deploy) arasında
+ * da yaşar; bu yüzden anahtara yayının commit kimliğini ekliyoruz: her yeni
+ * yayın temiz bir önbellekle başlar ve yeni haberler hemen görünür. Yayın
+ * yapılmadan eklenen içerik ise en geç 10 dakika içinde görünür.
  *
  * Not: Önbellek JSON'a çevirerek saklar, Date alanları metne döner. Aşağıdaki
  * `reviveDates` bilinen tarih alanlarını geri Date yapar; bileşenler ve API
  * serileştiricileri `toISOString()` çağırdığı için bu gerekli.
  */
 const CACHE_SECONDS = 600;
+
+/** Yayın kimliği: Vercel her derlemede commit SHA'sını verir; yerelde sabit. */
+const DEPLOY_ID = process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? "local";
 
 const DATE_KEYS = new Set([
   "publishedAt",
@@ -83,7 +87,7 @@ function cached<A extends unknown[], R>(
   name: string,
   fn: (...args: A) => Promise<R>,
 ): (...args: A) => Promise<R> {
-  const inner = unstable_cache(fn, ["queries", name], {
+  const inner = unstable_cache(fn, ["queries", DEPLOY_ID, name], {
     revalidate: CACHE_SECONDS,
     tags: ["content"],
   });
