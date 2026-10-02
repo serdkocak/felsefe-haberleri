@@ -2809,17 +2809,18 @@ export const philosophers: SeedPhilosopher[] = [
   {
     name: "İoanna Kuçuradi",
     slug: "ioanna-kucuradi",
-    headline: "Değer felsefesi ve insan hakları — Maltepe Üniversitesi",
-    bio: "Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu. İnsan haklarını sözleşmelere ya da kültüre değil, insanın kendi olanaklarına dayandıran değer felsefesiyle tanınıyor. FISP'in ilk kadın başkanı; 1998'den beri UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürütüyor.",
+    headline: "Değer felsefesi ve insan hakları — Türkiye Felsefe Kurumu Başkanı (1936-2026)",
+    bio: "Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu. İnsan haklarını sözleşmelere ya da kültüre değil, insanın kendi olanaklarına dayandıran değer felsefesiyle tanındı. FISP'in ilk kadın başkanı; 1998'den itibaren UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürüttü. 2 Ekim 2026'da, doksanıncı doğum gününe iki gün kala İstanbul'da öldü.",
     avatar: null,
     country: "Türkiye",
     birthYear: 1936,
-    affiliation: "Maltepe Üniversitesi · UNESCO Felsefe ve İnsan Hakları Kürsüsü",
+    affiliation: "Maltepe Üniversitesi · UNESCO Felsefe ve İnsan Hakları Kürsüsü · Türkiye Felsefe Kurumu",
     website: null,
     featured: true,
     listed: true,
-    birthDate: "4 Ekim 1936",
-    alive: true,
+    birthDate: "4 Ekim 1936, İstanbul",
+    deathDate: "2 Ekim 2026, İstanbul",
+    alive: false,
     period: "Çağdaş",
     school: "Değer felsefesi",
     areas: "Etik, İnsan hakları felsefesi, Felsefi antropoloji, Değer kuramı, Eğitim felsefesi",
@@ -2856,6 +2857,80 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "İoanna Kuçuradi'yi Kaybettik",
+    slug: "ioanna-kucuradi-1936-2026-vefat",
+    summary:
+      "Türkiye Felsefe Kurumu Başkanı, Hacettepe Felsefe Bölümü'nün kurucusu, Dünya Felsefe Kuruluşları Federasyonu'nun (FISP) ilk kadın başkanı ve UNESCO Felsefe ve İnsan Hakları Kürsüsü'nün sahibi Prof. Dr. İoanna Kuçuradi, 2 Ekim 2026 akşamı tedavi gördüğü Maltepe Üniversitesi Hastanesi'nde 89 yaşında öldü. Doksanıncı doğum gününe iki gün kalmıştı. Cenazesi 4 Ekim Cumartesi günü Maltepe Üniversitesi'ndeki törenin ardından Şişli Rum Ortodoks Mezarlığı'nda toprağa verilecek. Altmış yıllık bir hayatın bilançosu: Değer felsefesi, etik ile ahlak ayrımı, insan haklarının temellendirilmesi ve Türkiye'de felsefenin kurumsallaşması.",
+    seoTitle: "İoanna Kuçuradi'yi Kaybettik (1936-2026): Değer felsefesi, insan hakları ve Türkiye'de felsefenin kurumsallaşması",
+    metaDescription:
+      "Prof. Dr. İoanna Kuçuradi 2 Ekim 2026'da İstanbul'da öldü. Hacettepe Felsefe Bölümü'nün kurucusu, FISP'in ilk kadın başkanı, UNESCO kürsü sahibi, Türkiye Felsefe Kurumu Başkanı. Hayatı, değer felsefesi, etik-ahlak ayrımı, insan hakları temellendirmesi, 2003 İstanbul Dünya Felsefe Kongresi, cenaze bilgileri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hacettepe%20%C3%9Cniversitesi%20Beytepe%20Kamp%C3%BCs%C3%BC%20(24.08.2024)%2027.jpg?width=1600",
+    imageCredit: "Hacettepe Üniversitesi Beytepe Kampüsü, Ankara; Kuçuradi 1969'da kurduğu Felsefe Bölümü'nü burada otuz dört yıl yönetti, 2024 · Fotoğraf: Gargarapalvin, CC BY-SA 4.0 · Wikimedia Commons. Not: Kuçuradi'nin serbest lisanslı bir fotoğrafı bulunmadığından kapakta kurduğu bölümün kampüsü gösterilmektedir.",
+    featured: true,
+    sourceName: "soL Haber · Diken · Maltepe Üniversitesi",
+    sourceUrl: "https://haber.sol.org.tr/haber/turkiye-felsefesinin-oncu-isimlerinden-ioanna-kucuradi-hayatini-kaybetti-414528",
+    publishedAt: "2026-10-02T19:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["vefat", "etik", "akademi", "kavram", "kant", "nietzsche"],
+    philosopherSlugs: ["ioanna-kucuradi", "friedrich-nietzsche", "arthur-schopenhauer"],
+    sources: [
+      { title: "Türkiye felsefesinin öncü isimlerinden İoanna Kuçuradi hayatını kaybetti", publisher: "soL Haber", date: "2 Ekim 2026", url: "https://haber.sol.org.tr/haber/turkiye-felsefesinin-oncu-isimlerinden-ioanna-kucuradi-hayatini-kaybetti-414528", primary: true },
+      { title: "İoanna Kuçuradi hayatını kaybetti", publisher: "Diken", date: "2 Ekim 2026", url: "https://www.diken.com.tr/ioanna-kucuradi-hayatini-kaybetti/" },
+      { title: "Prof. Dr. İoanna Kuçuradi vefat etti — Cenaze 4 Ekim", publisher: "HaberGo", date: "2 Ekim 2026", url: "https://www.habergo.com.tr/haber/dunya-felsefesine-damgasini-vuran-ioanna-kucuradi-90-yasinda-hayatini-kaybetti" },
+      { title: "Prof. Dr. İoanna Kuçuradi", publisher: "UNESCO Türkiye Millî Komisyonu", url: "https://www.unesco.org.tr/Pages/1835/160/Prof.%20Dr.%20%C4%B0oanna%20KU%C3%87URAD%C4%B0" },
+      { title: "Türkiye Felsefe Kurumu", publisher: "tfk.org.tr", url: "https://www.tfk.org.tr/" },
+    ],
+    content: `Türkiye'de felsefenin kurumsallaşmasına en büyük katkıyı yapanlardan biriydi; bu katkının hikâyesi, Cumhuriyet'in ikinci yarısında felsefenin bu ülkede nasıl bir disiplin ve bir kamusal ses hâline geldiğinin hikâyesiyle örtüşür. İoanna Kuçuradi 2 Ekim 2026 akşamı, bir süredir tedavi gördüğü Maltepe Üniversitesi Tıp Fakültesi Eğitim ve Araştırma Hastanesi'nde, 89 yaşında öldü. 4 Ekim'de doksan yaşına girecekti; sitemizde [ağustosta yayımladığımız portresinde](/haber/ioanna-kucuradi-felsefe-insan-haklari) bu doğum gününü bekliyorduk. Türkiye Felsefe Kurumu'nun 1980'den beri başkanı, Dünya Felsefe Kuruluşları Federasyonu'nun (FISP) onursal başkanı ve ilk kadın başkanı, Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu, UNESCO Felsefe ve İnsan Hakları Kürsüsü'nün sahibi, Kuçuradi Felsefe ve İnsan Hakları Vakfı'nın başkanıydı. Cenaze töreni 4 Ekim Cumartesi günü Maltepe Üniversitesi Mimar Vedat Çakırca Konferans Salonu'nda yapılacak; ardından Şişli Rum Ortodoks Mezarlığı'nda toprağa verilecek.
+
+Bu haber, bir vefat ilanı olmaktan fazlasını denemek zorunda. Çünkü Kuçuradi'nin hayatı, Nusret Hızır'dan Takiyettin Mengüşoğlu'na, Macit Gökberk'ten Bedia Akarsu'ya uzanan bir kuşağın başlattığı işi, felsefeyi Türkiye'de kalıcı kurumlara kavuşturma işini, en uzun süre ve en geniş ölçekte sürdüren hayattır; ve bu hikâyeyi, kendisi hakkında konuşmayı hiç sevmeyen, "ben"i cümlelerinden titizlikle çıkaran bir insanın yerine anlatmak gerekiyor.
+
+## Bir İstanbul Rumu, bir Mengüşoğlu öğrencisi
+
+İoanna Kuçuradi 4 Ekim 1936'da İstanbul'da, Rum Ortodoks bir ailede doğdu. Zapyon Rum Kız Lisesi'ni 1954'te bitirdi; İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nden 1959'da mezun oldu ve aynı yıl, Türkiye'de felsefi antropolojinin kurucusu Takiyettin Mengüşoğlu'nun asistanı olarak akademik hayatına başladı. Bu karşılaşma belirleyiciydi: Mengüşoğlu, Nicolai Hartmann'ın öğrencisiydi ve Hartmann'ın "değerler ontolojisi"ni, değerlerin öznel tercihler değil, insanın varlık yapısına ait olanaklar olduğu düşüncesini Türkçeye taşımıştı. Kuçuradi bu mirası aldı ve onu, hocasının yapmadığı bir şeyi yaparak, etiğe ve insan haklarına uyguladı. 1965'te "Schopenhauer ve Nietzsche'de İnsan Problemi" başlıklı teziyle doktorasını tamamladı; ilk iki kitabı, *Nietzsche ve İnsan* (1967) ile *Schopenhauer ve İnsan* (1968), bu tezden doğdu. Türkiye'de Nietzsche'yi bir "nihilist" ya da "faşizm öncüsü" olarak değil, insanın değerini sorgulayan bir filozof olarak okuyan ilk sistematik çalışmalardı; [Nietzsche'nin soykütüğü üzerine yazımızda](/haber/nietzschenin-soykutugu-degerlerin-degeri) bu okumanın izlerine değinmiştik.
+
+1965-1968 arasında Erzurum Atatürk Üniversitesi'nde ders verdi. 1968'de Ankara'ya, yeni kurulan Hacettepe Üniversitesi'ne geçti ve 1969'da Felsefe Bölümü'nü kurdu. 2003'teki emekliliğine kadar, otuz dört yıl boyunca, bu bölümün başkanıydı. Hacettepe Felsefe, Kuçuradi'nin elinde Türkiye'nin en özgün felsefe okuluna dönüştü: İstanbul'un felsefe tarihi ağırlıklı geleneğinden ve Ankara DTCF'nin filoloji kökenli çizgisinden farklı olarak, sistematik felsefe, etik ve değer kuramı üzerine kurulu, problem odaklı, metin okumasını "ne diyor?" sorusuyla değil "neyi, nasıl temellendiriyor?" sorusuyla yapan bir okul. Bugün Türkiye'nin felsefe bölümlerinde ders veren birkaç kuşak, doğrudan ya da dolaylı olarak bu okuldan çıktı.
+
+## Değer felsefesi: Değerler ile değer yargıları arasındaki fark
+
+Kuçuradi'nin felsefi katkısını tek bir ayrımda toplamak mümkün: Değerler ile değer yargıları aynı şey değildir. 1971'de yayımlanan *İnsan ve Değerleri: Değer Problemi* kitabı bu ayrımın manifestosudur. Gündelik dilde ve pek çok felsefede "değer" denince, bir toplumun, bir çağın ya da bir kişinin iyi-kötü, güzel-çirkin, yararlı-zararlı yargıları anlaşılır; bunlar görelidir, kültürden kültüre değişir. Kuçuradi bunlara "değer yargıları" der ve onları, insanın "değerleri"nden ayırır: Bilgi, sanat, felsefe, sevgi, adalet, dürüstlük gibi, insan türünün diğer varlıklardan farklı olarak gerçekleştirebildiği olanaklar, "insanın değeri"ni oluşturan etkinlikler. Değer yargıları görelidir; değerler, insanın varlık yapısında temellendiği için göreli değildir.
+
+Bu ayrımın sonucu, Kuçuradi'nin etik anlayışının temelidir: Bir kişinin, bir eylemin ya da bir durumun "değerini bilmek" (doğru değerlendirme) ile ona "değer biçmek" (değer yargısında bulunmak) arasında fark vardır. Doğru değerlendirme, değerlendirilen şeyi kendi bütünlüğü içinde, insanın değeriyle ilişkisinde görmeyi gerektirir; değer biçme ise hazır ölçütlerle, kalıplarla, o günün geçerli yargılarıyla yapılır. Kuçuradi'nin ömür boyu savaştığı şey, ikincisinin birincisinin yerine geçmesiydi: İdeolojilerin, dinlerin, ulusal kültürlerin "değerler" diye sunduğu şeylerin aslında değer yargıları olduğunu ve insanları bu yargılarla değerlendirmenin, insan haklarının ihlalinin kavramsal kaynağı olduğunu söyledi.
+
+## Etik ile ahlak: Bir ayrımın siyasal sonuçları
+
+İkinci büyük katkısı, 1988 tarihli *Etik* kitabında sistemleştirdiği etik-ahlak ayrımıdır. "Ahlak" (moral), bir toplumda belirli bir zamanda geçerli olan davranış normlarıdır, değer yargılarının toplumsal biçimidir, görelidir ve değişir. "Etik" ise bu normların bilgisi değil, insan eylemlerinin değerinin bilgisidir; neyin iyi olduğunu söyleyen bir kurallar listesi değil, bir eylemin değerini nasıl bileceğimizi araştıran felsefi bilgi dalıdır. Bu ayrım bugün Türkçede neredeyse ders kitabı bilgisi; ama 1980'lerin Türkiye'sinde, "millî ve manevî değerler" söyleminin devlet politikası olduğu bir dönemde, "ahlak göreli, etik bilgidir" demek, ahlaki normların dayatılmasına karşı felsefi bir direniş hattıydı.
+
+Kuçuradi'nin etiği Kantçıdır, ama Kant'ı Hartmann'dan geçirerek okuyan bir Kantçılık: Kişi, kendi eyleminin değerini bilerek eyleyen varlıktır; "etik kişi", kuralları uygulayan değil, her tekil durumda neyin yapılması gerektiğini bilgiyle belirleyen kişidir. [Kant'ın kesin buyruğu üzerine yazımızda](/haber/kantin-kesin-buyrugu-nedir) bu okumanın Türkiye'deki en etkili temsilcisi olarak Kuçuradi'yi anmıştık. Onun deyişiyle, etik bilgi "ne yapmalıyım?" sorusuna hazır cevap vermez; "bu durumda ne yapmam gerektiğini nasıl bilebilirim?" sorusuna cevap verir.
+
+## İnsan hakları: Sözleşmeden değil, insanın değerinden
+
+Kuçuradi'nin dünya çapında tanınmasını sağlayan üçüncü katkısı, insan haklarının felsefi temellendirilmesidir. İnsan hakları literatürü, hakları çoğunlukla hukuk metinlerinden (1948 Evrensel Bildirge, sözleşmeler) ya da siyasal uzlaşmalardan türetir; "kültürel görelilik" tartışması da bu yüzden çıkar: Haklar Batı'nın icadıysa, başka kültürler onları neden kabul etsin? Kuçuradi bu tartışmayı kökünden değiştirdi. İnsan hakları, ona göre, ne sözleşmelerden ne kültürlerden türer; "insanın değeri"nden, yani insan türünün gerçekleştirebildiği olanaklardan türer. İnsan hakları, her kişinin bu olanakları gerçekleştirebilmesi için gerekli koşulları koruyan taleplerdir; bir kişiye işkence etmek, onu aç bırakmak, eğitimden yoksun bırakmak, bu olanakları yok etmektir. Bu nedenle insan hakları evrenseldir, ama evrenselliği bir Batı sözleşmesinden değil, insan olmanın yapısından gelir.
+
+*İnsan Hakları: Kavramları ve Sorunları* (2007) ve onlarca uluslararası makale bu tezin işlenmesidir. Kuçuradi'nin ikinci önemli ayrımı, "insan hakları" ile "yurttaş hakları" ve "temel haklar" arasındaki farktır: Her insan hakkı bir temel haktır, ama her temel hak insan hakkı değildir; devletlerin anayasalarına yazdığı pek çok "hak", aslında siyasal tercihlerdir ve bunları insan haklarıyla karıştırmak, insan haklarının evrenselliğini zayıflatır. Bu kavramsal titizlik, Kuçuradi'yi insan hakları eğitiminin dünya çapında kuramcılarından biri yaptı: 1998'de UNESCO ona Türkiye'nin ilk Felsefe ve İnsan Hakları Kürsüsü'nü verdi; Hacettepe'de İnsan Hakları Araştırma ve Uygulama Merkezi'nin kurulmasına öncülük etti ve merkez bünyesinde insan hakları yüksek lisans ve doktora programlarının açılmasını sağladı; 2006'dan sonra aynı işi Maltepe Üniversitesi'nde sürdürdü. Türkiye Barolar Birliği İnsan Hakları Merkezi'nde, Türkiye İnsan Hakları Ulusal Danışma Kurulu'nda, BM İnsan Hakları Eğitimi On Yılı Türkiye Millî Komitesi'nde ve Viyana'daki Avrupa Irkçılık ve Yabancı Düşmanlığı İzleme Merkezi'nde görev aldı. Bu kurumların bir kısmında, özellikle 2000'lerin başındaki Ulusal Danışma Kurulu deneyiminde, felsefeci titizliğinin siyasal iradeyle çatışmasını yaşadı ve bu çatışmayı hiç saklamadı. Sitemizde [Kuçuradi'nin felsefe ve insan hakları ilişkisini](/haber/ioanna-kucuradi-felsefe-insan-haklari) ayrıntılı ele almıştık; bu yazıda tekrarlamıyoruz.
+
+## Kurucu: Türkiye Felsefe Kurumu'ndan FISP'e
+
+Kuçuradi'nin dördüncü katkısı, felsefi değil kurumsaldır; ama onun gözünde ikisi ayrılmazdı. 1974'te kurulan Felsefe Kurumu Derneği'nin kurucuları arasındaydı; dernek 1979'da Türkiye Felsefe Kurumu adını aldı ve Kuçuradi 1980'den ölümüne kadar, kırk altı yıl, kurumun başkanıydı. Türkiye Felsefe Kurumu, onun yönetiminde, Türkiye'de felsefenin yalnızca üniversitelerde değil, kamusal alanda da sesi oldu: Ulusal felsefe kongreleri, çocuklar için felsefe programları, Türkçe felsefe terimleri çalışmaları, liselerde felsefe eğitimi savunusu. 12 Eylül 1980 darbesinden sonra felsefe derslerinin müfredattan çıkarılma girişimlerine karşı mücadele, Kuçuradi'nin en inatçı kamusal kavgalarından biriydi; sitemizde [Nusret Hızır'ı anarken](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) bu kuşağın ortak mirasına değinmiştik.
+
+Uluslararası alanda, 1983'te Dünya Felsefe Kuruluşları Federasyonu'nun (FISP) yönetim kuruluna seçildi; 1988-1998 arasında genel sekreter, 1998-2003 arasında, federasyonun 1948'den beri süren tarihinde ilk kadın olarak, başkan oldu. Başkanlığının doruk noktası, 2003'te İstanbul'da düzenlenen 21. Dünya Felsefe Kongresi'ydi: Dünya felsefe kongreleri tarihinin ilk kez Müslüman nüfuslu bir ülkede, Avrupa-Kuzey Amerika ekseninin dışında toplanması; "Dünya Sorunları Karşısında Felsefe" temasıyla binlerce filozofun İstanbul'da buluşması. Kongre, Kuçuradi'nin on beş yıllık FISP çalışmasının ve "felsefenin coğrafyasını genişletme" ısrarının ürünüydü; bugün Pekin'de (2018) ve Roma'da (2024) toplanan kongreler, bu genişlemenin devamıdır. Aynı yıl UNESCO ona Aristoteles Madalyası'nı verdi. Daha önce Türkiye Bilimler Akademisi Ödülü (1996), Goethe Madalyası (1996), Türkiye Gazeteciler Cemiyeti Basın Özgürlüğü Ödülü (2000), Almanya Federal Cumhuriyeti Büyük Liyakat Haçı (2001) ve UNESCO İnsan Hakları Eğitimi Ödülü Mansiyonu (2002) ile onurlandırılmıştı; son yıllarda Aydın Doğan Ödülü ve Çağdaş Yaşamı Destekleme Derneği'nin Cumhuriyet Ödülü eklendi.
+
+## Felsefeyi "çağın olayları arasında" yapmak
+
+Kuçuradi, felsefeyi akademik bir uğraş olarak kalmaması, insanın ve içinde yaşadığı çağın sorunlarını anlamada kullanılabilmesi gerektiğini savundu. 1997'de yayımlanan denemelerinin başlığı bunu söylüyordu: *Çağın Olayları Arasında*. Ona göre felsefe "çağın olaylarının üstünde" değil, "arasında" durur; ama bunu, olayların dilini konuşarak değil, olayların kavramlarını sorgulayarak yapar. Türkiye'nin siyasal tartışmalarında "demokrasi", "laiklik", "özgürlük", "hoşgörü" kelimelerinin birbirine karıştırılmasına, "değerlerimiz" denince neyin kastedildiğinin sorulmamasına, "insan hakları"nın bir yandan dava dosyası, öte yandan slogan hâline gelmesine karşı, hep aynı şeyi yaptı: Kavramı ayırdı, temellendirmesini sordu, göreli olanı göreli olmayandan ayırdı. Bu yüzden siyasal kamplardan hiçbirine ait olmadı ve hepsinin eleştirisine maruz kaldı; sağ için fazla evrenselci, sol için fazla Kantçı, liberaller için fazla kurumcu, dindarlar için fazla seküler, sekülerler için fazla "değer"den söz eden biriydi. O, bu konumu bir bedel değil, felsefecinin doğal yeri olarak gördü.
+
+Sanat felsefesi (*Sanata Felsefeyle Bakmak*, 1979), eğitim felsefesi, Türkçede felsefe dili ve çeviri, Uludağ'da yıllarca sürdürdüğü yaz seminerleri (*Uludağ Konuşmaları*, 1988) ve çocuklara felsefe, bu ana hattın yan kollarıydı. Yazdığı Türkçe, Mengüşoğlu'ndan öğrendiği gibi, yabancı terim kullanmaktan kaçınan, "değerlendirme", "temellendirme", "olanak", "yapıp etme" gibi Türkçe kavramları felsefi terime dönüştüren bir dildi; sitemizde [Türkçede felsefe dili üzerine Yalçın Koç yazısında](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) bu çabanın başka bir koluna değinmiştik.
+
+## Bir değerlendirme
+
+Kırk yıl felsefe dersi vermiş biri olarak şunu söyleyebilirim: Türkiye'de felsefe öğrencilerinin, hangi üniversitede olursa olsun, "etik" ile "ahlak"ı ayırmayı, "değer" ile "değer yargısı"nı karıştırmamayı, insan haklarını "nereden geliyor?" diye sorarak düşünmeyi öğrenmesi, tek bir kişinin altmış yıllık ısrarının sonucudur. Kuçuradi'nin felsefesi büyük bir sistem değildir; birkaç ayrım, birkaç temellendirme ve bu ayrımların hiç gevşetilmeden, her metne, her kuruma, her siyasal tartışmaya uygulanmasıdır. Eleştirilebilir: Hartmann'ın değer ontolojisi bugün analitik etikte savunulması zor bir konum; "insanın değeri" kavramının kendisinin de bir değer yargısı olup olmadığı sorusu Kuçuradi'nin öğrencileri arasında bile tartışmalı; insan haklarını "insanın olanakları"ndan türetmek, hangi olanakların sayılacağı sorusunu açık bırakır. Kuçuradi bu itirazları bilirdi ve cevapları vardı; ama asıl cevabı, kurduğu kurumlar ve yetiştirdiği insanlardı.
+
+Şunu da unutmamak gerekir: Bir İstanbul Rumu olarak, 1955'in 6-7 Eylül'ünü on sekiz yaşında yaşamış, cemaatinin birkaç bine düştüğü bir ülkede, o ülkenin felsefe kurumunu kırk altı yıl yönetmiş, dünya felsefe federasyonunu o ülke adına başkan olarak temsil etmiş ve insan haklarını "kültürden değil insandan" türeten bir kuram yazmış bir kadındı. Bu biyografi ile bu felsefe arasındaki bağı kendisi hiç kurmadı; "kişisel olan"ı felsefi tartışmaya sokmayı reddederdi. Ama bağı görmemek de mümkün değil. Türkiye'nin azınlıklarına yapılanları en iyi bilen insanlardan biri, insan haklarının evrenselliğini bir kimlik talebi olarak değil, bir felsefi temellendirme olarak savundu; çünkü kimlik talepleri görelidir, temellendirme değildir.
+
+Kuçuradi'nin ardından Türkiye Felsefe Kurumu'nun, UNESCO kürsüsünün ve Maltepe'deki insan hakları programının nasıl süreceği, önümüzdeki aylarda görülecek. Cenaze 4 Ekim Cumartesi, Maltepe Üniversitesi'nde; öğrencileri, ki aralarında bugün Türkiye'nin felsefe bölümlerini yöneten birkaç kuşak var, orada olacak. Felsefe Haberleri, ailesine, öğrencilerine ve Türkiye felsefe camiasına başsağlığı diler. [Filozof Dizini'ndeki](/filozof/ioanna-kucuradi) kaydı güncellendi.`,
+  },
   {
     title: "TU WEIMING VE YENİ KONFÜÇYÜSÇÜLÜK",
     slug: "tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak",
