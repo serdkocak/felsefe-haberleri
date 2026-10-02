@@ -260,6 +260,31 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Tu Weiming",
+    slug: "tu-weiming",
+    headline: "Yeni Konfüçyüsçü filozof — Pekin Üniversitesi, Harvard (emeritus)",
+    bio: "Konfüçyüsçülüğü geçmişte kalmış bir ahlak öğretisi olarak değil, modern dünyanın krizlerine cevap verebilecek yaşayan bir felsefi gelenek olarak yeniden yorumlayan 'üçüncü kuşak' Yeni Konfüçyüsçülüğün en tanınmış temsilcisi. 'Kültürel Çin', 'ruhsal hümanizm', 'antropokozmik birlik' ve 'medeniyetler diyaloğu' kavramlarıyla 'modern olmak için Batılılaşmak zorunda mıyız?' sorusunu sordu.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%9C%E7%B6%AD%E6%98%8E%20Weiming%20Tu.jpg?width=600",
+    country: "Çin / Tayvan / ABD",
+    birthYear: 1940,
+    affiliation: "Pekin Üniversitesi İleri Beşeri Bilimler Enstitüsü (kurucu direktör, 2010-) · Harvard Üniversitesi (Harvard-Yenching Profesörü, 1981-2010)",
+    website: "http://tuweiming.net",
+    featured: false,
+    listed: true,
+    fullName: "Tu Weiming (杜維明, Du Weiming)",
+    birthDate: "6 Şubat 1940, Kunming, Yunnan",
+    alive: true,
+    period: "Çağdaş",
+    school: "Yeni Konfüçyüsçülük (üçüncü kuşak) · 'Boston Konfüçyüsçülüğü' · karşılaştırmalı felsefe",
+    areas: "Konfüçyüsçü etik ve dinselliği, Wang Yangming ve Neo-Konfüçyüsçülük, modernlik kuramı, medeniyetler diyaloğu, ekoloji ve din, insan hakları",
+    majorWorks: "Neo-Confucian Thought in Action: Wang Yang-ming's Youth (1976)\nHumanity and Self-Cultivation (1978)\nConfucian Thought: Selfhood as Creative Transformation (1985)\nCentrality and Commonality: An Essay on Confucian Religiousness (1989)\nWay, Learning, and Politics: Essays on the Confucian Intellectual (1993)\nThe Living Tree: The Changing Meaning of Being Chinese Today (ed., 1994)\nConfucian Traditions in East Asian Modernity (ed., 1996)\nConfucianism and Human Rights (ed., de Bary ile, 1998)\nThe Global Significance of Concrete Humanity (2010)\nSpiritual Humanism: Self, Community, Earth, and Heaven (Diogenes, 2024)",
+    keyConcepts: "Kültürel Çin, ruhsal hümanizm, antropokozmik birlik (tian-ren heyi), yaratıcı dönüşüm olarak benlik, insan olmayı öğrenmek (learning to be human), Konfüçyüsçülüğün üçüncü dönemi, medeniyetler diyaloğu, Aydınlanma zihniyetinin ötesi, Konfüçyüsçü dinsellik",
+    influencedBy: "Konfüçyüs, Mengzi, Wang Yangming, Zhu Xi; Mou Zongsan, Tang Junyi, Xu Fuguan; Benjamin Schwartz, Talcott Parsons, Robert Bellah; Max Weber",
+    influenced: "Boston Konfüçyüsçülüğü (Robert Neville, John Berthrong), Mary Evelyn Tucker ve din-ekoloji çalışmaları, Çin'deki Konfüçyüsçü canlanma, BM Medeniyetler Diyaloğu girişimi, karşılaştırmalı felsefe",
+    longBio: "6 Şubat 1940'ta Kunming'de doğdu; 1949'da ailesiyle Tayvan'a geçti. Tunghai Üniversitesi'nde Çin edebiyatı okudu (1961) ve burada Yeni Konfüçyüsçülüğün ikinci kuşağının üç büyük ismi Mou Zongsan, Tang Junyi ve Xu Fuguan'ın öğrencisi oldu. Harvard'da Benjamin Schwartz, Talcott Parsons ve Robert Bellah ile çalıştı; 1968'de Wang Yangming'in gençlik yılları üzerine doktorasını tamamladı. Princeton (1968-1971) ve Berkeley'de (1971-1981) ders verdikten sonra 1981'de Harvard'a geçti; 2010'a kadar Harvard-Yenching Çin Tarihi ve Felsefesi Profesörü, 1996-2008 arasında Harvard-Yenching Enstitüsü'nün direktörü oldu. 2010'da Pekin Üniversitesi'nde İleri Beşeri Bilimler Enstitüsü'nü kurdu.\n\nDüşüncesinin merkezinde 'insan olmayı öğrenmek' vardır: Konfüçyüsçü gelenekte insan tamamlanmış bir varlık değil, kendini yetiştirerek (xiushen) insanlaşan bir süreçtir; Confucian Thought: Selfhood as Creative Transformation (1985) benliği sabit bir öz değil, ilişkiler içinde kendini dönüştüren bir süreç olarak kurar. Centrality and Commonality (1989), Konfüçyüsçülüğün bir 'dinselliği' olduğunu, kendini aşma ve Gök (tian) ile ilişki boyutunun seküler bir etikten fazlasını içerdiğini savundu. 1991'de Daedalus'ta yayımlanan 'Cultural China' makalesi, Çin'i siyasi sınırlardan geniş bir kültürel alan olarak düşünmeyi önerdi ve diaspora çalışmalarını etkiledi. 'Aydınlanma zihniyetinin ötesi' başlıklı yazılarında Batı modernitesinin araçsal akılcılık, bireycilik ve doğanın araçsallaştırılması gibi krizlerine Konfüçyüsçü hümanizmin bir cevap olabileceğini savundu; 'çoğul moderniteler' tezini Doğu Asya örneğiyle destekledi. Son dönem çalışması 'ruhsal hümanizm', insanı benlik, topluluk, yeryüzü ve Gök arasındaki dörtlü ilişki içinde düşünür; 2018'de Pekin'deki 24. Dünya Felsefe Kongresi'nde Wang Yangming Konferansı olarak sunuldu ve 2024'te Diogenes dergisinde yayımlandı.\n\n2001'de Kofi Annan tarafından BM 'Medeniyetler Diyaloğu' Seçkin Kişiler Grubu'na atandı; Singapur'un Konfüçyüsçü etik müfredatını hazırlayan sekiz akademisyenden biriydi. Amerikan Sanat ve Bilimler Akademisi (1988) ve Academia Sinica (2018) üyesi; Thomas Berry Ekoloji ve Din Ödülü (2002) sahibi.",
+    sources: "Internet Encyclopedia of Philosophy, 'Tu Weiming' — https://iep.utm.edu/tu-weimi/ · Tu Weiming, 'Spiritual Humanism: Self, Community, Earth, and Heaven', Diogenes 65(2), 2024 — https://www.cambridge.org/core/journals/diogenes/article/spiritual-humanism-self-community-earth-and-heaven/4B7931227D474C0025FC5A7441AE2375 · Resmî site — http://tuweiming.net",
+  },
+  {
     name: "Hitoshi Nagai",
     slug: "hitoshi-nagai",
     headline: "Japon filozof — 〈Ben〉in metafiziği, Nihon Üniversitesi (emeritus)",
@@ -2831,6 +2856,275 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "TU WEIMING VE YENİ KONFÜÇYÜSÇÜLÜK",
+    slug: "tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak",
+    summary:
+      "Çin düşüncesinin Batı'ya verdiği en önemli cevaplardan biri: 'Modern olmak için Batılılaşmak zorunda mıyız?' Tu Weiming, Konfüçyüsçülüğü geçmişte kalmış bir ahlak öğretisi olarak değil, modern dünyanın krizlerine cevap verebilecek yaşayan bir felsefi gelenek olarak yeniden yorumlayan çağdaş düşünürlerin başında geliyor. 'Kültürel Çin', 'ruhsal hümanizm', 'medeniyetler diyaloğu' ve 'Konfüçyüsçülüğün üçüncü dönemi' kavramları, Çin düşüncesini küresel felsefenin merkezî tartışmaları içinde yeniden konumlandırıyor. 86 yaşındaki filozofun portresi.",
+    seoTitle: "Tu Weiming ve Yeni Konfüçyüsçülük: Kültürel Çin, ruhsal hümanizm, çoğul moderniteler",
+    metaDescription:
+      "Tu Weiming (1940) ve üçüncü kuşak Yeni Konfüçyüsçülük: 'insan olmayı öğrenmek', yaratıcı dönüşüm olarak benlik, ren, Kültürel Çin, antropokozmik birlik, Konfüçyüsçü dinsellik, Aydınlanma zihniyetinin ötesi, insan hakları, demokrasi-meritokrasi tartışması ve yapay zekâ çağında karakter.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Weiming%20lake%20peking%20university.jpg?width=1600",
+    imageCredit: "Pekin Üniversitesi kampüsündeki Weiming (Adsız) Gölü ve Boya Kulesi; Tu Weiming'in kurduğu İleri Beşeri Bilimler Enstitüsü bu kampüste · Fotoğraf: endeneon, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Internet Encyclopedia of Philosophy · Diogenes · Peking University",
+    sourceUrl: "https://iep.utm.edu/tu-weimi/",
+    publishedAt: "2026-10-01T21:25:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "siyaset-felsefesi", "din-felsefesi", "kavram", "demokrasi", "aydinlanma"],
+    philosopherSlugs: ["tu-weiming", "konfucyus"],
+    sources: [
+      { title: "Tu Weiming (1940–)", publisher: "Internet Encyclopedia of Philosophy (Tsz Wan Andrew Hung)", url: "https://iep.utm.edu/tu-weimi/", primary: true },
+      { title: "Weiming Tu, 'Spiritual Humanism: Self, Community, Earth, and Heaven'", publisher: "Diogenes 65(2), s. 145-161", date: "Mayıs 2024", url: "https://www.cambridge.org/core/journals/diogenes/article/spiritual-humanism-self-community-earth-and-heaven/4B7931227D474C0025FC5A7441AE2375" },
+      { title: "Tu Weiming, Confucian Thought: Selfhood as Creative Transformation", publisher: "SUNY Press", date: "1985", url: "https://sunypress.edu/Books/C/Confucian-Thought" },
+      { title: "Elena Ziliotti, 'Confucian Democracy or Meritocracy? Mapping a Two-Decade Debate'", publisher: "Philosophy Compass 21(3)", date: "2026", url: "https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.70106" },
+      { title: "Tu Weiming — resmî site ve bibliyografya", publisher: "tuweiming.net", url: "http://tuweiming.net" },
+    ],
+    content: `Batı felsefesi uzun süre modernliği kendi hikâyesi üzerinden anlattı: Antik Yunan, Hıristiyan Orta Çağı, Rönesans, Aydınlanma, bilimsel devrim, Kant, Hegel, Marx, Nietzsche, modernite. Bu anlatının arkasında çoğu zaman görünmeyen bir varsayım vardı: Modernleşmenin evrensel modeli Batı'da ortaya çıkmıştır; geri kalan dünya ya bu modeli izleyecek ya da "geleneksel" kalacaktır. Max Weber'in *Çin Dini*'nde (1915) Konfüçyüsçülüğü, kapitalizmi ve modern rasyonaliteyi doğuramamış bir "uyum etiği" olarak tasvir etmesi, bu varsayımın en etkili akademik biçimiydi.
+
+Çinli düşünür Tu Weiming, tam da bu varsayıma itiraz eden isimlerin başında geliyor. Fakat itirazı "Batı kötüdür, Çin iyidir" şeklinde değil; çok daha incelikli: Modernliğin tek bir biçimi olmak zorunda değildir. Ve bu nedenle Konfüçyüsçülük, modern dünyanın dışında kalmış bir gelenek olmak yerine, modernliği yeniden düşünmek için kullanılabilir. Bu yıl 86 yaşına giren Tu, altmış yıldır bu tezi iki dünyanın, Harvard ile Pekin'in arasında savunuyor; dün [Konfüçyüs üzerine yazdığımız yazıda](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) anlattığımız "Konfüçyüsçü demokrasi mi, meritokrasi mi?" tartışmasının entelektüel zeminini hazırlayan odur. Bugün [Filozof Dizini'ne](/filozof/tu-weiming) eklendi.
+
+## Tu Weiming kimdir?
+
+Tu Weiming (杜維明), 6 Şubat 1940'ta Çin'in güneybatısındaki Kunming'de doğdu; 1949'da, iç savaşın sonunda, ailesiyle birlikte Tayvan'a geçti. Tunghai Üniversitesi'nde Çin edebiyatı okudu (1961) ve burada hayatını belirleyen karşılaşmayı yaşadı: Yeni Konfüçyüsçülüğün "ikinci kuşağı"nın üç büyük ismi, Mou Zongsan, Tang Junyi ve Xu Fuguan, anakaradan Tayvan ve Hong Kong'a göçmüş, Konfüçyüsçü geleneği Kant ve Hegel'le hesaplaşarak yeniden kuran bu filozoflar, genç Tu'nun hocalarıydı. 1958'de Mou, Tang, Xu ve Zhang Junmai'nin yayımladığı "Çin Kültürü Üzerine Dünyaya Manifesto", Konfüçyüsçülüğün ölü bir gelenek değil, modern dünyaya söyleyecek sözü olan canlı bir felsefe olduğunu ilan ediyordu; Tu bu manifestonun çocuğudur.
+
+Sonra Harvard. Burada Çin düşünce tarihçisi Benjamin Schwartz'ın, sosyolog Talcott Parsons'ın ve din sosyoloğu Robert Bellah'nın öğrencisi oldu; 1968'de Ming dönemi filozofu Wang Yangming'in gençlik yılları üzerine doktorasını tamamladı. Princeton (1968-1971) ve Berkeley'de (1971-1981) ders verdikten sonra 1981'de Harvard'a döndü; 2010'a kadar Harvard-Yenching Çin Tarihi ve Felsefesi Profesörü olarak kaldı ve 1996-2008 arasında Harvard-Yenching Enstitüsü'nü yönetti. 2010'da Pekin Üniversitesi'nde İleri Beşeri Bilimler Enstitüsü'nü kurdu; 2018'de Academia Sinica üyeliğine seçildi. Böylece entelektüel hayatı baştan itibaren iki dünyanın arasında şekillendi: Çin düşüncesi ve Batı sosyal teorisi. Parsons'tan modernleşme kuramını, Bellah'dan "sivil din" kavramını, Schwartz'dan Çin düşüncesinin iç çeşitliliğini öğrendi; hepsini Konfüçyüsçülüğe geri taşıdı. Özgünlüğü tam olarak bu iki dünyanın arasında bulunur.
+
+## Yeni Konfüçyüsçülük nedir?
+
+"Yeni Konfüçyüsçülük" (Xin Ruxue), Song dönemi Neo-Konfüçyüsçülüğü ile karıştırılmamalı; 20. yüzyılın bir hareketidir ve eski Konfüçyüsçülüğün yeniden canlandırılması değildir. 1919 Dört Mayıs Hareketi'nin "Konfüçyüs dükkânını yıkalım" sloganından ve 1966-1976 Kültür Devrimi'nin "Kong'u eleştir" kampanyalarından sonra, Çinli düşünürler için çok daha zor bir problem ortaya çıktı: Konfüçyüsçülük modern bilim, demokrasi, insan hakları ve bireysel özgürlüklerle birlikte yaşayabilir mi? Çünkü geleneksel Konfüçyüsçülük modern dünyanın ortaya çıkmasından önce şekillenmişti; modern Çin ise Batı emperyalizmi, bilimsel devrim, ulus-devlet, kapitalizm, sosyalizm ve modern eğitim sistemiyle aynı anda karşılaştı.
+
+Birinci kuşak (Liang Shuming, Xiong Shili, Feng Youlan) 1920-40'larda Konfüçyüsçülüğü Batı felsefesinin diliyle yeniden ifade etmeyi denedi; ikinci kuşak (Mou, Tang, Xu) Hong Kong ve Tayvan'da, komünist Çin'in dışında, Konfüçyüsçü "ahlaki metafizik"i Kant'ın karşısına koyarak sistemleştirdi. Üçüncü kuşak, Tu Weiming, Liu Shu-hsien, Cheng Chung-ying ve Yu Ying-shih, bu mirası Amerikan akademisine taşıdı ve soruyu değiştirdi. Asıl soru artık "Konfüçyüs'ü nasıl koruruz?" değil, "Konfüçyüsçü gelenek modern dünyada nasıl yeniden düşünülebilir?" idi. Tu bu sorunun en etkili sözcüsü oldu; Boston'daki çevresi, Robert Neville ve John Berthrong'un katılımıyla, "Boston Konfüçyüsçülüğü" diye anılır oldu: Konfüçyüsçülüğün Çinli olmayanlar tarafından da yaşanabilecek bir felsefe olduğu iddiası.
+
+## Temel tez: Modernleşmenin tek bir yolu yoktur
+
+Tu'nun Batı modernitesiyle ilişkisi basit bir reddediş değildir. Modern bilim, eleştirel düşünce ve insan hakları gibi kazanımları reddetmez; tam tersine, Konfüçyüsçülüğün modern dünyayla karşılaşması gerektiğini savunur. Ancak Batı modernitesinin kendi krizleri olduğunu söyler: Bireycilik, aşırı tüketim, doğanın araçsallaştırılması, toplumsal yabancılaşma, manevi boşluk, ekolojik kriz. 1990'larda yazdığı "Aydınlanma Zihniyetinin Ötesi" (Beyond the Enlightenment Mentality) başlıklı denemeleri bu teşhisin manifestosudur: Aydınlanma, insanlığın en büyük kazanımıdır ve aynı zamanda, araçsal akılcılığı, "Faustçu" doğa egemenliğini ve atomistik bireyi mutlaklaştırarak, bugünkü krizlerin kaynağıdır.
+
+Bu nedenle mesele "Çin mi, Batı mı?" değildir. Tu'nun asıl sorusu şudur: Farklı medeniyetlerin güçlü tarafları birbirlerinden öğrenebilir mi? Bu, onun "medeniyetler diyaloğu" düşüncesinin merkezidir ve 2001'de Kofi Annan'ın onu BM Medeniyetler Diyaloğu Seçkin Kişiler Grubu'na atamasının nedenidir; Huntington'ın "medeniyetler çatışması" tezine Tu'nun verdiği cevap, çatışmanın değil diyaloğun medeniyetlerin tarihsel normu olduğudur. Tu'nun 1996'da derlediği *Confucian Traditions in East Asian Modernity*, Japonya, Kore, Tayvan, Singapur ve Hong Kong'un ekonomik mucizesinin Weber'in tezini çürüttüğünü savunuyordu: Konfüçyüsçü değerler modernleşmeyi engellememiş, Batı'dakinden farklı bir modernlik biçimi üretmişti. S. N. Eisenstadt'ın "çoğul moderniteler" kuramının Doğu Asya kanıtı buydu.
+
+## "Kültürel Çin": Çin'i Çin sınırlarının dışında düşünmek
+
+Tu Weiming'in en etkili kavramlarından biri, 1991'de *Daedalus* dergisinde yayımladığı makaleyle felsefi ve siyasal tartışmaya giren "Kültürel Çin"dir (Cultural China). Kavram, Çin'i yalnızca Çin Halk Cumhuriyeti'nin sınırları içinde düşünmez. Tu, "Kültürel Çin"i üç "sembolik evren" olarak kurar: Birincisi Çin Halk Cumhuriyeti, Tayvan, Hong Kong ve Singapur'daki Çinli toplumlar; ikincisi dünyanın her yerindeki Çin diasporası; üçüncüsü ise, en kışkırtıcı olanı, Çin kültürünü inceleyen ve ona katkıda bulunan Çinli olmayan araştırmacılar, yazarlar ve düşünürler. Tu'nun iddiası, Çin'in geleceğinin merkezden değil, çevreden belirlenebileceğiydi: 1991'de Pekin'in entelektüel iklimi donmuşken, Çin kültürünün en yaratıcı tartışmaları Tayvan'da, Hong Kong'da ve Amerikan üniversitelerinde yapılıyordu.
+
+Bu nedenle Çinli olmak yalnızca bir vatandaşlık meselesi değildir; bir kültürel hafızaya katılmak da Çinlilik biçimlerinden biri olabilir. Tu'nun yaklaşımı bu noktada ulus-devlet merkezli kimlik anlayışından ayrılır ve diaspora, küreselleşme ve kültürel kimlik tartışmaları açısından önem taşır. Kavramın siyasal sonuçları da var: Pekin'in "Kültürel Çin"i kendi yumuşak gücünün aracı olarak sahiplenmesi (Konfüçyüs Enstitüleri bunun kurumsal biçimidir) ile Tu'nun kavramı merkezin dışından konuşmak için icat etmesi arasındaki gerilim, Tu'nun 2010'da Pekin'e gitmesinden bu yana onun hakkındaki tartışmanın merkezinde.
+
+## Asıl felsefi problem: İnsan nasıl insan olur?
+
+Tu'nun Konfüçyüsçülük yorumunun merkezinde çok basit görünen ama son derece zor bir soru vardır: İnsan nasıl insan olur? Konfüçyüsçü gelenekte insan doğuştan tamamlanmış bir varlık değildir; kendisini eğitmek, dönüştürmek, ilişkilerini geliştirmek ve başkasına karşı sorumluluk üstlenmek zorundadır. Bu yüzden Tu'nun düşüncesinde eğitim yalnızca bilgi aktarmak değil, insanlaşma sürecidir. "İnsan olmayı öğrenmek" (learning to be human) olarak formüle ettiği düşünce budur: İnsan olmak biyolojik bir durumdur; fakat tam anlamıyla insan olmak bir eğitim ve kendini dönüştürme (xiushen, "bedeni/benliği yetiştirme") sürecidir. 2018'de Pekin'de toplanan 24. Dünya Felsefe Kongresi'nin ana temasının "Learning to Be Human" olması, Tu'nun kavramının küresel felsefeye ne kadar nüfuz ettiğini gösterir; kongrenin Wang Yangming Konferansı'nı da Tu verdi.
+
+1985 tarihli *Confucian Thought: Selfhood as Creative Transformation* bu düşüncenin merkezî metnidir. Burada benlik sabit bir nesne değil, kendini dönüştüren bir süreçtir. Modern birey "ben kimim?" diye sorar; Tu'nun Konfüçyüsçü cevabı şöyle okunabilir: "Kim olduğunu keşfetmek kadar, kim olacağını yaratmak da senin görevin." Benlik yalnızca keşfedilecek bir öz değil, etik pratiklerle oluşturulan bir varoluştur. Tu bunu "genişleyen daireler" imgesiyle anlatır: Benlik, aile, topluluk, ülke, dünya ve kozmos; Konfüçyüsçü *Büyük Öğreti*'nin (Daxue) "benliği yetiştir, aileyi düzenle, devleti yönet, dünyaya barış getir" dizisi, her dairenin bir öncekini içerip aştığı bir genişleme hareketidir.
+
+## Ren ve ilişkisel benlik
+
+Tu'nun düşüncesinde en önemli kavram *ren*'dir; genellikle "insanlık", "insanseverlik" veya "humaneness" olarak çevrilir. Fakat Tu için *ren* yalnızca başkalarına iyi davranmak değil, insan olmanın gerçekleşmiş biçimidir: İnsan ancak başkalarıyla ilişkisi içinde kendisini gerçekleştirebilir. Bu nedenle Tu'da birey ile toplum birbirinin karşıtı değildir; benlik ilişkiseldir. Ailem, arkadaşlarım, öğretmenlerim, toplum, kültür, doğa, geçmiş kuşaklar: Bütün bunlar benim kim olduğumu belirleyen ilişkiler ağının parçalarıdır.
+
+Tu'nun Batı modernitesine yönelttiği en önemli eleştiri bireyciliğin aşırı biçimleridir; ama bireyselliği ortadan kaldırmak istemez, ilişkilerden kopmuş birey fikrini eleştirir. Modern birey "ben özgürüm" der; Tu'nun Konfüçyüsçü perspektifi sorar: "Peki seni özgür kılan ilişkileri kim kurdu? Dilini kim öğretti, ahlakını kim şekillendirdi, dünyaya hangi geçmişin içinden bakıyorsun?" Bu, Batı felsefesinde Charles Taylor, Michael Sandel ve Alasdair MacIntyre gibi komüniteryenlerin liberalizme yönelttiği "yüksüz benlik" eleştirisiyle aynı damardan gelir; Tu'nun katkısı, bu eleştirinin iki bin beş yüz yıllık bir geleneğe dayanabileceğini göstermesidir. Benlik, Tu'da atomik bir birey değil, ilişkiler içinde oluşan bir "merkez"dir; merkez olmak, ağın dışına çıkmak değil, ağın düğüm noktası olmaktır.
+
+## Ruhsal hümanizm ve "antropokozmik" birlik
+
+Tu'nun geç dönem çalışmalarının merkezinde "ruhsal hümanizm" (Spiritual Humanism) bulunur. Kavram, 2018'de Pekin'deki Dünya Felsefe Kongresi'nde Wang Yangming Konferansı olarak sunulan ve 2024'te *Diogenes* dergisinde "Spiritual Humanism: Self, Community, Earth, and Heaven" başlığıyla yayımlanan metinde sistematik biçimde ele alındı. Tu burada Konfüçyüsçü düşüncenin insanı yalnızca toplumsal bir varlık olarak değil, kendisini aşma kapasitesine sahip bir varlık olarak düşündüğünü savunur. Hümanizmi seküler hümanizmden ayrılır; çünkü insanın değerini yalnızca insanın kendisinden türetmez. İnsan, dört ilişki içinde var olur: kendisiyle (benlik), başkalarıyla (topluluk), doğayla (yeryüzü) ve aşkın olanla (Gök, *tian*). Rönesans hümanizmi insanı Tanrı'nın, Aydınlanma hümanizmi doğanın karşısına koymuştu; Tu'nun hümanizmi insanı ikisinin de içine yerleştirir.
+
+Bunun en özgün ifadesi, Tu'nun 1989 tarihli *Centrality and Commonality* kitabından beri kullandığı "antropokozmik" (anthropocosmic) kavramıdır: İnsan ile kozmosun birliği. Bu, basit bir doğa sevgisi değildir. Tu'nun yorumunda insan doğanın karşısında duran bir özne değil, zaten doğanın içindedir; Song filozofu Zhang Zai'nin *Batı Yazıtı*'ndaki "Gök babam, Yer annemdir; bütün insanlar kardeşlerim, bütün şeyler yoldaşlarımdır" cümlesi, Tu'nun ekolojik felsefesinin kaynağıdır. Bu nedenle doğaya verilen zarar aynı zamanda insanın kendisine verilen zarardır. Tu, 2002'de Thomas Berry Ekoloji ve Din Ödülü'nü aldı ve Mary Evelyn Tucker ile birlikte Konfüçyüsçülüğün ekolojik yorumunu, "din ve ekoloji" alanının kurucu metinlerinden birine dönüştürdü. İklim krizi çağında soru şudur: İnsan kendisini doğadan ayrı bir varlık olarak görmeye ne zaman başladı? Tu'nun cevabı, Konfüçyüsçü düşüncedeki insan-doğa sürekliliğini yeniden gündeme getirmektir.
+
+## Konfüçyüsçülük bir din midir?
+
+Tu'nun en tartışmalı iddialarından biri, Konfüçyüsçülüğün yalnızca etik veya kültürel bir gelenek olmadığı, bir "dinsellik" (religiousness) boyutu taşıdığıdır. Bu, Konfüçyüsçülüğü Hıristiyanlık veya İslam gibi kurumsal bir din hâline getirmek anlamına gelmez; Tu'nun kullandığı kavram daha geniştir: İnsan hayatının nihai anlamı, kendini aşma, ahlaki dönüşüm, Gök ile insan arasındaki ilişki, kozmik sorumluluk. Hocası Mou Zongsan'ın "içkin aşkınlık" kavramını sürdürerek Tu, Konfüçyüsçü aşkınlığın bu dünyanın dışında değil, insanın kendi doğasının derinliğinde arandığını söyler: *Orta Yol* (Zhongyong) metninin "Gök'ün buyurduğu şeye doğa denir" cümlesi, insanı Gök'e bağlar ama Gök'ü insanın dışına koymaz.
+
+Tu'nun düşüncesinde *tian* yalnızca gökyüzü değil, insan ile kozmos arasındaki normatif ilişkidir; onu Batı monoteizminin Tanrı'sıyla özdeşleştirmek yanlış olur. Böylece öz-gelişim, etik, toplum, doğa ve kozmos aynı düşüncenin farklı katmanları hâline gelir. Tu'nun Konfüçyüsçülüğü, dinsiz bir ahlak öğretisi ile kurumsal bir din arasında üçüncü bir alan açmaya çalışır. Eleştirmenleri bu "dinselleştirme"nin Konfüçyüsçülüğü Amerikan din sosyolojisinin kategorilerine uydurma çabası olduğunu söyler; Tu ise bunun Konfüçyüsçülüğü seküler bir "Asya değerleri" ideolojisine indirgenmekten kurtarmanın tek yolu olduğunu savunur.
+
+## Geleneği romantikleştirmemek, demokrasi ve insan hakları
+
+Tu'nun düşüncesini yalnızca gelenek savunusu olarak okumak yanlış olur. O, geleneksel Konfüçyüsçülüğün siyasi iktidarla bütünleştiği dönemleri, "politikleşmiş Konfüçyüsçülük" dediği, imparatorluk ideolojisi hâline gelmiş ve despotizmi meşrulaştırmak için kullanılmış biçimi açıkça eleştirir. 1990'larda Singapur ve Malezya liderlerinin "Asya değerleri" söylemiyle otoriter yönetimi savunmasına karşı Tu, Konfüçyüsçülüğün bu kullanımına itiraz etti. Düşüncesinde iki eleştiri aynı anda vardır: Geleneksel Konfüçyüsçülüğün sorunları vardır; Batı modernitesinin de sorunları vardır. Bu iki cümle birlikte okunmadan Tu'nun projesi anlaşılamaz.
+
+Burada Yeni Konfüçyüsçülüğün en zor tartışmasına geliyoruz. Konfüçyüsçü siyasal düşünce, ahlaken yetişmiş yöneticiyi önemseyen bir geleneğe sahipti; modern demokrasi eşit yurttaşlık, haklar, seçim ve hukukun üstünlüğü üzerine kurulu. İkisi bağdaşabilir mi? Dün aktardığımız gibi, Elena Ziliotti'nin bu yıl *Philosophy Compass*'ta haritasını çıkardığı yirmi yıllık tartışma, Daniel Bell'in "siyasal meritokrasi"si ile Sungmoon Kim'in "Konfüçyüsçü demokrasi"si arasında sürüyor. Tu bu tartışmada kuramcı olmaktan çok zemin hazırlayıcıdır: William Theodore de Bary ile 1998'de derlediği *Confucianism and Human Rights*, soruyu ilk kez sistematik olarak soran kitaptır. Tu'nun cevabı şudur: İnsan haklarının evrensel olması, onların yalnızca Batı'nın kavramları olduğu anlamına gelmez; farklı medeniyetler evrensel insani değerleri farklı kavramsal dillerle ifade edebilir. Konfüçyüsçü "ödev" dili ile liberal "hak" dili birbirinin düşmanı değil, birbirinin tamamlayıcısı olabilir: Haklar olmadan ödevler despotizme, ödevler olmadan haklar atomizme kayar. Bu düşünce, bugün küresel etik tartışmalarında ve Konfüçyüsçü demokrasi literatüründe hâlâ merkezî.
+
+## "Üçüncü dönem" ve yaratıcı dönüşüm paradoksu
+
+Tu'nun Konfüçyüsçülüğün "üçüncü dönemi" (third epoch) düşüncesi, tarih felsefesinin merkezindedir. Birinci dönem klasik Konfüçyüsçülüktür: Konfüçyüs, Mengzi, Xunzi ve Han dönemi. İkinci dönem, Song ve Ming hanedanlarında Zhu Xi ve Wang Yangming'in Budizm ve Taoizm'le hesaplaşarak kurduğu Neo-Konfüçyüsçülüktür; bu dönemde Konfüçyüsçülük Kore, Japonya ve Vietnam'a yayılarak Doğu Asya'nın ortak felsefesi oldu. Üçüncü dönem ise Konfüçyüsçülüğün küresel modern dünyayla karşılaşmasıdır: Artık mesele yalnızca Çin ya da Doğu Asya değildir; Konfüçyüsçülük Batı felsefesiyle, Hıristiyanlıkla, İslam düşüncesiyle, modern bilimle, demokrasiyle, insan haklarıyla ve ekolojiyle diyalog kurmak zorundadır. Tu'nun İslam düşüncesine ilgisi bu bağlamda dikkat çekici: Sachiko Murata ve William Chittick ile birlikte yayımladığı *The Sage Learning of Liu Zhi* (2009), 18. yüzyıl Çinli Müslüman düşünür Liu Zhi'nin İslam metafiziğini Konfüçyüsçü terimlerle yazmasını inceliyordu; Tu için bu, "medeniyetler diyaloğu"nun üç yüz yıl önce yapılmış bir örneğiydi.
+
+Tu'nun bütün projesi bir paradoks üzerine kuruludur: Geleneği korumanın yolu onu değiştirmek olabilir. Bir gelenek hiç değişmezse müzeye dönüşür; sürekli değişirse kimliğini kaybeder. "Yaratıcı dönüşüm" fikri bu ikilemden çıkış yolu arar. Amaç Konfüçyüsçülüğü aynen tekrarlamak değil, modern dünyada yeniden düşünülmesini sağlamaktır; Tu'nun sevdiği imgeyle, Konfüçyüsçülük "yaşayan bir ağaç"tır (*The Living Tree*, 1994), kökleri eski, dalları yeni.
+
+## Yapay zekâ çağında Konfüçyüsçülük
+
+Tu'nun düşüncesini yapay zekâ çağında yeniden okumak özellikle ilginç. Yapay zekâ bilgi üretiyor, kararları etkiliyor, insan ilişkilerini değiştiriyor, eğitimi dönüştürüyor, emeğin niteliğini değiştiriyor; sitemizde [yapay zekânın ekonomi-politiğini](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ele alırken bu dönüşümün ölçeğini aktarmıştık. Ama temel soru aynı: İnsan nasıl insan kalacak? Konfüçyüsçü yaklaşım burada teknolojinin kendisinden önce insanın karakterine bakar. Bir yapay zekâ ne kadar güçlü olursa olsun, iyi bir insan olmanın ne demek olduğunu çözemez; çünkü "iyi insan" olmak yalnızca bilgi sahibi olmak değildir. Sabır, sorumluluk, ölçülülük, başkalarını gözetme, kendini eğitme, ilişki kurma, güven: Bunlar teknik becerilerden farklıdır. Tu'nun "insan olmayı öğrenmek" fikri bu nedenle yapay zekâ çağında yeni bir anlam kazanıyor: Makineler daha fazla bilgiye sahip oldukça, insanın kendisini eğitme zorunluluğu azalmaz; tersine artar. Konfüçyüs'ün *Konuşmalar*'ın ilk cümlesinde "öğrenmek ve öğrendiğini zamanında uygulamak, bu bir sevinç değil mi?" demesi, bilginin değil öğrenmenin, bir insan faaliyeti olarak öğrenmenin, savunusudur.
+
+## Felsefi miras: Felsefenin coğrafyasını yeniden çizmek
+
+Tu Weiming'in önemi yalnızca Konfüçyüsçülüğü Batı'ya anlatmasında değildir. Asıl önemi, Batı felsefesinin kendisini dünyanın tek felsefi dili olarak görmesine karşı karşılaştırmalı bir felsefe imkânı yaratmasıdır. Tu, Çin ile Batı arasında yalnızca bir köprü değil, iki tarafın da birbirini değiştirebileceğini savunan bir düşünürdür: Konfüçyüsçülük Batı'dan öğrenir, Batı da Konfüçyüsçülükten öğrenebilir; bilim gelenekten, gelenek modernlikten, birey toplumdan, toplum bireyin özgürlüğünden, insan doğadan öğrenebilir. Ve medeniyetler birbirlerini dönüştürmeden birbirlerini anlayamaz.
+
+Eleştirilere de yer vermek gerekir. Sinolog ve filozoflar, Tu'nun Konfüçyüsçülüğü fazla uyumlu, fazla "iyi haber" olarak sunduğunu, geleneğin hiyerarşik, patriyarkal ve otoriter damarlarını yumuşattığını; "Kültürel Çin" kavramının Pekin tarafından kolayca araçsallaştırıldığını; "ruhsal hümanizm"in felsefi bir tez olmaktan çok bir vaaz olduğunu söylediler. Tu'nun 2010'dan sonra Pekin'de kurumsal bir konum almasının, otoriter bir devletin Konfüçyüsçü meşruiyet arayışına entelektüel destek anlamına gelip gelmediği, en sert tartışmalardan biridir. Tu'nun cevabı hep aynıydı: Konfüçyüsçü entelektüelin yeri, iktidarın yanında değil, iktidarı ahlaki olarak eleştirecek kadar yakınında ve ondan bağımsız olacak kadar uzağındadır; *Way, Learning, and Politics* (1993) tam da bu konumun savunusudur.
+
+Dünya yeniden medeniyet sorusuyla karşı karşıya: Batı merkezli evrensellik anlayışı sorgulanıyor, Çin küresel bir güç hâline geliyor, Asya'nın, Afrika'nın ve İslam dünyasının düşünce gelenekleri modernlikle ilişkilerini yeniden tartışıyor. Bütün bunların ortasında felsefenin eski sorusu yeniden ortaya çıkıyor: Tek bir modernlik mi vardır? Tu'nun cevabı hayır; birden fazla modernlik mümkündür ve farklı medeniyetler yalnızca modernliğe uyum sağlamak zorunda değildir, modernliğin ne olması gerektiği konusunda söz söyleyebilirler. Tu Weiming'in düşüncesini tek bir soruda toplamak gerekirse: "Modern dünyanın nasıl olması gerektiğine yalnızca Batı mı karar verecek?" Bu yüzden onu yalnızca "Çinli bir Konfüçyüsçü" olarak okumak yetersizdir; o, daha büyük bir projenin parçasıdır: Felsefenin coğrafyasını yeniden çizmek. Belki de Yeni Konfüçyüsçülüğün en önemli sorusu artık "Konfüçyüs bugün ne söylerdi?" değil, şudur: "Konfüçyüsçü düşünce, modern dünyanın hangi sorularını bizim henüz sormadığımız biçimde sorabilir?" Tu Weiming'in bütün entelektüel hayatı, bu soruya verilmiş uzun ve hâlâ tamamlanmamış bir cevaptır.`,
+  },
+  {
+    title: "YAKLAŞAN FELSEFE ETKİNLİKLERİ",
+    slug: "yaklasan-felsefe-etkinlikleri-2-ekim-2026",
+    summary:
+      "Türkiye'den Çin'e, Japonya'dan Afrika'ya: Ekim ve Kasım 2026'nın önemli felsefe buluşmaları. 2 Ekim itibarıyla felsefe dünyasının sonbahar takvimi yoğunlaşıyor: Selçuk'ta süren Mantık, Matematik ve Felsefe sempozyumu, İstanbul'da İslam felsefesi, teknik ve matematik tarihi toplantıları; Hong Kong'da Konfüçyüsçülük dersleri, Seul'de Hint felsefesi, Dakar'da kültürlerarası yetkinlik, Paris'te Foucault'nun yüzüncü yılı, Harvard'da siyaset teorisi.",
+    seoTitle: "Yaklaşan felsefe etkinlikleri: Ekim-Kasım 2026 (Türkiye, Asya, Afrika, Avrupa, ABD)",
+    metaDescription:
+      "Ekim-Kasım 2026 felsefe takvimi: MMF XI Selçuk, İslam Felsefesi Sempozyumu, Teknik ve Felsefe, Novembertagung İstanbul, New Asia Lectures (Perkins), SNU Hint felsefesi, UNESCO Dakar, Foucault 100 yıl Collège de France, Harvard siyaset teorisi, Notre Dame bilgelik konferansı, Formal Philosophy Moskova.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk%20Ephesus%20Celsus-Library%2032%203x2-R%205K.jpg?width=1600",
+    imageCredit: "Efes'teki Celsus Kütüphanesi, Selçuk; Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu bu hafta burada toplanıyor · Wikimedia Commons",
+    featured: false,
+    sourceName: "Düzenleyici kurumların duyuruları",
+    sourceUrl: "https://mmf2026.iku.edu.tr/",
+    publishedAt: "2026-10-01T21:15:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "sempozyum", "akademi", "islam-felsefesi", "mantik"],
+    philosopherSlugs: ["konfucyus"],
+    sources: [
+      { title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu", publisher: "İstanbul Kültür Üniversitesi", url: "https://mmf2026.iku.edu.tr/", primary: true },
+      { title: "36th Novembertagung on the History and Philosophy of Mathematics", publisher: "Novembertagung", url: "https://novembertagung.wordpress.com/" },
+      { title: "New Asia Lectures on Confucianism 2026", publisher: "CUHK New Asia College", url: "https://www.na.cuhk.edu.hk/chinese-culture/lecture-series/new-asia-lectures-on-confucianism/" },
+      { title: "2026 Annual Fall Conference on Indian Philosophy", publisher: "Seoul National University Asia Center", url: "https://snuac.snu.ac.kr/eng/index.php/2026/09/21/indian-philosophy-fall/" },
+      { title: "UNESCO Chair on Intercultural Competence Conference 2026", publisher: "Stellenbosch University", url: "https://www.su.ac.za/en/staff/conferences/unesco-chair-intercultural-competence-conference?language=en" },
+      { title: "The Centennial of Michel Foucault's Birth", publisher: "Collège de France", url: "https://www.college-de-france.fr/en/news/the-centennial-of-michel-foucault-birth" },
+      { title: "Harvard Graduate Conference in Political Theory", publisher: "Harvard University", url: "https://politicaltheoryconference.hsites.harvard.edu/" },
+      { title: "Korea, East Asia and the World: Neo-Confucianism in Comparative Perspective", publisher: "TORCH, University of Oxford", url: "https://torch.ox.ac.uk/event/conference-korea-east-asia-and-the-world-neo-confucianism-in-global-perspective" },
+    ],
+    content: `2 Ekim 2026 itibarıyla felsefe dünyasının sonbahar takvimi yoğunlaşıyor. Türkiye'de İslam felsefesi, teknik, matematik felsefesi ve öğrenci kongreleri öne çıkarken; Asya'da Konfüçyüsçülük ve Hint felsefesi, Afrika'da kültürlerarası düşünce, Avrupa'da Foucault'nun yüzüncü yılı ve matematik tarihi, ABD'de siyaset teorisi ve bilgelik üzerine toplantılar dikkat çekiyor. Aşağıdaki listede yalnızca düzenleyici kurumların duyurularından doğruladığımız etkinlikler var; daha önce ayrı haber yaptıklarımıza bağlantı verdik, ayrıntıları tekrarlamadık. Yeni eklenenler [etkinlik takvimimizde](/konferanslar).
+
+## TÜRKİYE
+
+**1-3 Ekim · Selçuk, İzmir — Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu: "ÂRÂF"**
+
+İstanbul Kültür Üniversitesi Fen-Edebiyat Fakültesi'nin koordinasyonunda düzenlenen sempozyum bugün, 2 Ekim'de ikinci gününde. Tema, "ÂRÂF: Belirsiz Kesinlikler, Kesin Belirsizlikler Arasında İnsan ve Bilgi"; matematiksel kesinlik, mantıksal tutarlılık, felsefi derinlik ve sanatsal yaratıcılık arasındaki ilişkiler disiplinlerarası biçimde ele alınıyor. Çağrılı konuşmacılar Ahmet Arslan ve Kaan H. Ökten; oturumlar halka açık, üçüncü günün kapanışından sonra Efes gezisi var. Sempozyumun 2003'te Assos'ta başlayan tarihini ve bu yılki programı [ayrı bir yazıda](/haber/mantik-matematik-felsefe-xi-program-arslan-okten) anlatmıştık; künye [takvimde](/etkinlik/mantik-matematik-felsefe-xi-2026). Türkiye'deki felsefe gündeminin bu haftaki en önemli akademik buluşması.
+
+**22-23 Ekim · İstanbul Medeniyet Üniversitesi — II. Öğrenci Kongresi: "Teknik ve Felsefe"**
+
+Genç araştırmacılar için en önemli etkinliklerden biri. Kongrenin temel sorusu, teknolojinin insanı nasıl değiştirdiği; temalar çağdaş teknikten yapay zekâya, Türk düşüncesinde ve klasik düşüncede teknikten teknoloji-etik, teknoloji-ontoloji, teknoloji-estetik, teknoloji-feminizm ve teknoloji-ekoloji ilişkilerine uzanıyor. Çağrı metni, Aristoteles'in *tekhne*'sinden Simondon'un teknik nesnelerine bir hat çiziyor; bugün [doğum gününde andığımız Simondon](/haber/felsefe-tarihinde-bugun-2-ekim-gandhi-simondon-abhedananda) ile kongrenin sorusu aynı. Daha önce [haber yapmıştık](/haber/medeniyet-teknik-ve-felsefe-kongresi); künye [takvimde](/etkinlik/medeniyet-ogrenci-kongresi-2026). Not: Bu, bölümün ikinci öğrenci kongresi; bazı listelerde 14 Ekim için anılan "I. Öğrenci Kongresi" kaydını doğrulayamadık.
+
+**26-27 Ekim · İstanbul Üniversitesi — I. Ulusal İslam Felsefesi Sempozyumu: "İskenderiye'den Bağdat'a"**
+
+Türkiye'nin sonbahar takvimindeki en önemli felsefe etkinliklerinden biri. Başlık, "Geç Antik Felsefenin İslam Dünyasına İntikali ve Yorumlanışı"; sempozyum yalnızca İslam filozoflarını değil, Yunan felsefesinin İslam dünyasına nasıl geçtiğini soruyor: Bu geçiş yalnızca bir çeviri faaliyeti miydi, yoksa metinlerin Süryanice ve Arapçaya aktarılması sırasında yeni kavramlar, yeni problemler ve yeni felsefi yorumlar mı doğdu? Çeviri çevreleri, Geç Antik şerh geleneği, Arapça felsefe terminolojisinin gelişimi ve sahte eserlerin üretimi gündemde. Sempozyumu [ayrıntılı bir haberde](/haber/ulusal-islam-felsefesi-sempozyumu-2026) ele almıştık; künye [takvimde](/etkinlik/ulusal-islam-felsefesi-sempozyumu).
+
+**3-5 Kasım · İstanbul Medeniyet Üniversitesi — 36. Novembertagung: "(Perceived) Dichotomies in Mathematics"**
+
+Matematik tarihi ve felsefesinin 1990'dan beri her yıl Avrupa'nın başka bir kentinde toplanan genç araştırmacılar konferansı, ilk kez İstanbul'da; ev sahibi Medeniyet Üniversitesi Bilim Tarihi Enstitüsü. Tema, matematikte kurulan ikiliklerin (saf-uygulamalı, sonlu-sonsuz, keşif-icat, sezgi-biçimselleştirme) tarihte nasıl oluştuğu ve neyi gizlediği. Düzenleyiciler Oxford, Utrecht, Lizbon, Bristol ve İstanbul'dan; destekleyenler arasında Uluslararası Matematik Tarihi Komisyonu ve British Society for the History of Mathematics var. Konferans özellikle doktora öğrencileri ve kariyerinin başındaki araştırmacılara yönelik. Yeni eklendi: [takvim kaydı](/etkinlik/novembertagung-36-istanbul-2026).
+
+## ASYA
+
+**2 Ekim · Tokyo — "Michel Foucault: Felsefe, Siyaset ve Toplum"**
+
+Maison franco-japonaise'in Foucault'nun doğumunun yüzüncü yılı için düzenlediği sempozyum bugün akşam Tokyo'da; Foucault'nun Japonya'daki alımlanması (1970 ve 1978'deki Japonya ziyaretleri, Zen'le karşılaşması) tartışmanın parçası. Foucault 15 Ekim 1926'da doğdu; yüzüncü yıl etkinliklerinin en kapsamlısı Paris'te (aşağıda).
+
+**17 Ekim · Seul — SNU Asya Merkezi, Hint Felsefesi Yıllık Sonbahar Konferansı**
+
+Seul Ulusal Üniversitesi Asya Merkezi'nin yıllık Hint felsefesi konferansı, 17 Ekim Cumartesi saat 10.00'da Samick Hall'da. Güney Kore'de Hint felsefesi araştırmalarının başlıca yıllık buluşması; felsefe tarihinin yalnızca Yunanistan-Avrupa hattından okunamayacağını hatırlatan toplantılardan. [Takvim kaydı](/etkinlik/snuac-indian-philosophy-fall-2026).
+
+**21-24 Ekim · Hong Kong — New Asia Lectures on Confucianism: Franklin Perkins**
+
+Mou Zongsan, Tang Junyi ve Xu Fuguan'ın hocalık yaptığı, 20. yüzyıl Yeni Konfüçyüsçülüğünün merkezi New Asia College'ın Konfüçyüsçülük ders dizisini bu yıl *Philosophy East and West* editörü Franklin Perkins (Hawai'i Üniversitesi) veriyor: 21 Ekim'de "Mengzi on What People Really Want", 24 Ekim'de "The Relevance of Life After Death in Early Confucianism". Dersler İngilizce, yüz yüze ve çevrim içi. Bugün [Tu Weiming'i](/haber/tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak) anlatırken New Asia'nın bu gelenekteki yerine değindik. [Takvim kaydı](/etkinlik/new-asia-lectures-confucianism-2026-perkins).
+
+**Oxford'dan not:** Kore Üniversitesi ile ortaklaşa düzenlenen "Korea, East Asia and the World: Neo-Confucianism in Comparative Perspective" konferansı, bazı listelerde ekim ortası için anılıyor; TORCH'un duyurusuna göre toplantı 15-16 Eylül'de Brasenose College'da yapıldı. Yeni-Konfüçyüsçülüğün Çin'den Kore, Japonya ve Vietnam'a yayılışını küresel tarih içinde ele alan konferansın bildirileri bekleniyor.
+
+## AFRİKA
+
+**12-16 Ekim · Dakar — UNESCO Kültürlerarası Yetkinlikler Kürsüsü Konferansı**
+
+Stellenbosch Üniversitesi UNESCO Kürsüsü'nün üçüncü yıllık konferansı Cheikh Anta Diop Üniversitesi'nde; tema "Afrika Bağlamlarında Kültürlerarası Yetkinlikleri Keşfetmek". Alt başlıklar kültürlerarası yetkinliğin iklim, toplumsal cinsiyet ve barış inşasıyla kesişimi, sömürge öncesi kültürlerarası pratikler ve Afrikalı gençlerin bakışı. Etkinlik yalnızca Afrika içindeki kültürlerarası ilişkileri değil, Afrika deneyiminin küresel kültürlerarası düşünceye katkısını da ele alıyor; felsefenin Afrika'yı "araştırma konusu" değil, kavramsal üretim merkezi olarak görmesi açısından önemli. [Takvim kaydı](/etkinlik/unesco-chair-intercultural-competences-dakar-2026).
+
+## AVRUPA
+
+**30 Eylül 2026 - 15 Ocak 2027 · Paris — "Foucault: Collège de France'ta Bir Entelektüel Serüven"**
+
+Collège de France, 1970'ten 1984'teki ölümüne kadar kürsüsünü işgal eden Foucault'nun yüzüncü doğum yılını yıl boyu süren bir programla anıyor: Didier Fassin'in "Foucault'nun Mevcudiyetleri" dersleri (mayıs), "Sınırsız Foucault" uluslararası sempozyumu (haziran) ve 30 Eylül'de açılan, Bibliothèque nationale de France ile ortak hazırlanan sergi. Sergiye Aurèle Méthivier'nin düzenlediği bir konferans dizisi eşlik ediyor. Collège de France'ın notuna göre Foucault bugün beşeri bilimlerde dünyanın en çok atıf alan yazarı. Sitemizde [Pennsylvania'daki "The Foucault Century" sempozyumunu](/haber/foucault-yuzuncu-yil-2026) ve [dördüncü cildin yayımlanmasını](/haber/foucault-bedenin-itiraflari-dorduncu-cilt) ele almıştık.
+
+**13-15 Ekim · Nijmegen — COMET 2026** ve **27-30 Ekim · Moskova / çevrim içi — Formal Philosophy 2026**: Her ikisini daha önce duyurmuştuk ([COMET](/etkinlik/comet-2026-radboud); [Formal Philosophy](/haber/yaklasan-felsefe-konferanslari-15-eylul-2026)). Moskova toplantısının konuları felsefi mantık, biçimsel epistemoloji, biçimsel ontoloji, analitik metafizik ve matematik felsefesi; yüz yüze ve çevrim içi katılım mümkün.
+
+## ABD
+
+**1-3 Ekim · Notre Dame — "But Where Can She Be Found? Wisdom from Age to Age"**
+
+de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, bilgeliği antik felsefenin teorik-pratik bilgelik ayrımı, Kutsal Kitap geleneği ve pratik yaşam açısından ele alıyor; üniversitenin en büyük disiplinlerarası toplantısı. Dün [takvim yazımızda](/haber/felsefe-tarihinde-bugun-30-eylul-1-ekim-condillac-dilthey-rumi-goldman) değinmiştik.
+
+**30-31 Ekim · Harvard — Graduate Conference in Political Theory**
+
+Harvard Hükümet Bölümü'nün yıllık lisansüstü siyaset teorisi konferansı. Açılış konuşmasını 30 Ekim'de Brown Üniversitesi'nden Melvin Rogers yapacak; Rogers, *The Darkened Light of Faith* (2023) kitabıyla Afrikalı-Amerikalı siyasal düşünceyi demokrasi kuramının merkezine taşıyan isimlerden. [Takvim kaydı](/etkinlik/harvard-graduate-conference-political-theory-2026).
+
+## Doğrulayamadıklarımız
+
+Elimize ulaşan sonbahar listelerinde yer alan bazı kayıtları düzenleyici kurumların duyurularından teyit edemedik ve bu yazıya almadık: İstanbul Medeniyet'te 9 Ekim'de bir "son lisans dersi", 14 Ekim'de bir "I. Öğrenci Kongresi" ve 27 Kasım'da "Savaş ve Felsefe" kongresi; City University of Hong Kong'da 12 Ekim'de "Democracy, Meritocracy and Political Rights"; HSE Moskova'nın 26-27 Ekim'deki yıllık konferansı; Ashoka Üniversitesi'nin kolokyum programı; Novembertagung'un ana konuşmacı listesi. Düzenleyicilerin duyuru bağlantısı iletmesi hâlinde takvime ekleriz.
+
+## 2 Ekim itibarıyla öne çıkan eğilimler
+
+Sonbahar takvimine bütün olarak bakıldığında beş eğilim görünüyor. Birincisi, Konfüçyüsçülük geri dönüyor: Hong Kong, Oxford ve Pekin'deki toplantılar, Konfüçyüsçülüğün artık yalnızca Çin tarihi uzmanlarının konusu olmadığını gösteriyor; sitemizde üç gündür süren Konfüçyüs-Tu Weiming dosyası bu eğilimin yansıması. İkincisi, teknoloji felsefeyi yeniden şekillendiriyor: Yapay zekâ, teknik, bilinç ve teknoloji-etik ilişkisi hem Türkiye'de hem uluslararası akademide hızla büyüyen alanlar. Üçüncüsü, İslam felsefesi Türkiye'de yeniden merkezî tartışma alanlarından biri oluyor; İstanbul Üniversitesi'nin ilk Ulusal İslam Felsefesi Sempozyumu, alanın kurumsallaşması açısından dikkat çekici. Dördüncüsü, matematik yeniden felsefenin merkezinde: Selçuk'taki sempozyum ve İstanbul'daki Novembertagung, yapay zekâ ve hesaplama çağında matematiksel bilginin felsefi statüsünün yeniden tartışıldığını gösteriyor. Beşincisi, felsefenin coğrafyası genişliyor: Seul'de Hint felsefesi, Hong Kong'da Konfüçyüsçülük, Tokyo'da Foucault, Dakar'da kültürlerarası düşünce, Moskova'da biçimsel felsefe, İstanbul'da İslam felsefesi ve teknik. Bu tablo, 21. yüzyıl felsefesinin artık yalnızca Paris-Berlin-Londra-New York ekseninde okunamayacağını açıkça gösteriyor. Felsefenin yeni haritası çok merkezli.`,
+  },
+  {
+    title: "FELSEFE TARİHİNDE BUGÜN — 2 EKİM",
+    slug: "felsefe-tarihinde-bugun-2-ekim-gandhi-simondon-abhedananda",
+    summary:
+      "Gandhi'den Simondon'a: Şiddetsizlik, teknik, benlik ve insan olma sorusu. 2 Ekim, Mahatma Gandhi'nin doğumuyla şiddetsizliğin dünya çapında düşünsel ve siyasal bir ilkeye dönüşmesini, Gilbert Simondon'un doğumuyla insan-teknik ilişkisinin yeni bir ontolojiye kavuşmasını ve Swami Abhedananda ile Vedanta'nın Batı'yla karşılaşmasını hatırlatır. Aynı gün Wallace Stevens doğdu, Marcel Duchamp öldü; BM bugünü Uluslararası Şiddetsizlik Günü ilan etti.",
+    seoTitle: "Felsefe tarihinde bugün, 2 Ekim: Gandhi (1869), Simondon (1924), Abhedananda (1866), Howard Robinson, Wallace Stevens, Duchamp (ö. 1968)",
+    metaDescription:
+      "2 Ekim'de felsefe tarihi: Mahatma Gandhi'nin doğumu (1869) ve ahimsa-satyagraha felsefesi; Uluslararası Şiddetsizlik Günü; Gilbert Simondon'un doğumu (1924) ve teknik nesnelerin varoluş tarzı; Swami Abhedananda (1866); Howard Robinson; Wallace Stevens (1879); Marcel Duchamp'ın ölümü (1968).",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C%20studio%2C%201931.jpg?width=1600",
+    imageCredit: "Mahatma Gandhi, stüdyo fotoğrafı, Londra, 1931 · Elliott & Fry · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica · BM",
+    sourceUrl: "https://plato.stanford.edu/entries/gandhi/",
+    publishedAt: "2026-10-01T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "siyaset-felsefesi", "teknoloji-felsefesi", "zihin-felsefesi", "estetik", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Gandhi", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/gandhi/", primary: true },
+      { title: "International Day of Non-Violence, 2 October", publisher: "Birleşmiş Milletler", url: "https://www.un.org/en/observances/non-violence-day" },
+      { title: "Gilbert Simondon", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/simondon/" },
+      { title: "Swami Abhedananda", publisher: "Britannica", url: "https://www.britannica.com/biography/Swami-Abhedananda" },
+      { title: "Marcel Duchamp", publisher: "Britannica", url: "https://www.britannica.com/biography/Marcel-Duchamp" },
+    ],
+    content: `2 Ekim, felsefe tarihinde yalnızca birkaç filozofun doğum günü değildir. Bu tarih, Mahatma Gandhi'nin doğumuyla şiddetsizliğin dünya çapında düşünsel ve siyasal bir ilkeye dönüşmesini; Gilbert Simondon'un doğumuyla insan-teknik ilişkisinin yeni bir ontolojiye kavuşmasını ve farklı geleneklerde "insan nasıl yaşamalıdır?" sorusunun yeniden ortaya çıkmasını hatırlatır. Bugün aynı zamanda Vedanta'nın Batı'daki ilk sesi Swami Abhedananda'nın, "en yüce kurgu"nun şairi Wallace Stevens'ın ve zihin felsefecisi Howard Robinson'ın doğum günü; sanatın ne olduğu sorusunu bir pisuvarla yeniden kuran Marcel Duchamp'ın ölüm yıl dönümü.
+
+## 1869: Mahatma Gandhi
+
+Mohandas Karamchand Gandhi, 2 Ekim 1869'da Hindistan'ın batısındaki Porbandar'da doğdu. Londra'da hukuk okudu, Güney Afrika'da yirmi bir yıl avukatlık yaptı ve orada, 1906'da, Hint göçmenlere dayatılan kayıt yasasına karşı direnişte, hayatını ve sonra dünyayı değiştirecek yöntemi buldu: *satyagraha*, "hakikate sarılma" ya da "hakikatin gücü". Gandhi'yi yalnızca siyasi tarih açısından okumak, düşüncesinin felsefi boyutunu küçültür. Üç kavramı var: *ahimsa* (şiddetsizlik, daha doğrusu "zarar vermeme"), Jainizm'den ve Bhagavad Gita'dan aldığı, Tolstoy'un Hıristiyan anarşizmi ve Thoreau'nun sivil itaatsizliğiyle beslediği ilke; *satyagraha*, bu ilkenin siyasal yöntemi; ve *satya*, hakikat, Gandhi'nin "Tanrı hakikattir" formülünü 1920'lerde "hakikat Tanrı'dır" diye tersine çevirdiği, ateistin bile kabul edebileceği nihai değer.
+
+Düşüncesindeki en önemli kırılma şudur: Ahlak ile siyaset birbirinden ayrılabilir mi? Machiavelli'den beri modern siyaset kuramının cevabı evetti; siyasetin kendi mantığı, "devlet aklı" vardı. Gandhi'nin cevabı hayırdır. Siyasetin amacı yalnızca iktidarı ele geçirmek değil, insanın hakikatle ilişkisini dönüştürmektir. Bu nedenle Gandhi için araç ile amaç arasında kesin bir kopukluk bulunmaz; 1909 tarihli *Hind Swaraj*'daki ünlü benzetmesiyle, araç tohumdur, amaç ağaç: "Tohum ile ağaç arasındaki dokunulmaz bağ, araç ile amaç arasında da vardır." Şiddet kullanarak şiddetsiz bir dünya kurulabileceği fikrine kuşkuyla yaklaşır; araç, ulaşılmak istenen dünyanın küçük bir modeli olmak zorundadır. Bu düşünce, sonuççu ahlakın "sonuç iyi olduğu sürece araç meşrudur" ilkesini tersine çevirir ve Gandhi'yi, Kant'tan çok farklı bir yoldan, deontolojik etiğin siyasal bir biçimine götürür.
+
+Gandhi'nin felsefi mirası tartışmalıdır. B. R. Ambedkar, Dalitler meselesinde Gandhi'nin kast sistemini reforme etmek isterken onu koruduğunu söyledi; Orwell, şiddetsizliğin ancak basın özgürlüğü olan bir imparatorluğa karşı işe yarayabileceğini yazdı; Gandhi'nin kendi deneyleri, "brahmacharya" sınamaları, bugün sert eleştiri konusu. Fakat yöntem yaşadı: Martin Luther King'in Montgomery'si, Mandela'nın ilk dönemi, Doğu Avrupa'nın 1989'u, Gandhi'nin satyagraha'sının çocuklarıdır ve Gene Sharp'ın "sivil direniş" kuramı, Gandhi'yi siyaset biliminin konusu yaptı. Birleşmiş Milletler Genel Kurulu, 15 Haziran 2007'de kabul ettiği kararla 2 Ekim'i Uluslararası Şiddetsizlik Günü ilan etti; böylece bir düşünürün ahlaki ilkesi uluslararası bir eğitim gününün merkezine yerleşti. Gandhi 30 Ocak 1948'de bir Hindu milliyetçisi tarafından öldürüldü.
+
+## 1866: Swami Abhedananda
+
+Hint düşünürü ve Vedanta öğretmeni Swami Abhedananda (doğum adıyla Kaliprasad Chandra), 2 Ekim 1866'da Kalküta'da doğdu. Ramakrishna'nın doğrudan müritlerinden ve Vivekananda'nın kardeş-müridiydi. 1896'da Vivekananda'nın çağrısıyla Londra'ya, 1897'de New York'a gitti ve yirmi beş yıl boyunca Amerika'da Vedanta Society'yi yönetti; Harvard, Columbia ve Yale'de konuştu, William James'le tanıştı. Vedanta'yı, özellikle Advaita'nın (ikici olmayan) "Atman Brahman'dır" öğretisini, Batı felsefesinin ve bilimin diliyle anlatan ilk kuşağın en sistematik yazarıydı: *Self-Knowledge* (1905), *Vedanta Philosophy* dizisi ve bilinç, ruh, ölümsüzlük ve reenkarnasyon üzerine kitapları, din felsefesi ile karşılaştırmalı felsefenin erken örnekleridir. 1922'de Tibet'e gitti, 1939'da Kalküta'da öldü.
+
+Abhedananda'nın doğum günü, 2 Ekim'i yalnızca Gandhi'nin değil, Hint felsefesinin modern dünyayla karşılaşmasının tarihi hâline getiriyor. Vivekananda'nın 1893 Chicago Dünya Dinler Parlamentosu'ndaki konuşmasıyla başlayan bu karşılaşma, Batı felsefesinin dışındaki düşünce geleneklerinin modern entelektüel tarihe girişinin ilk büyük dalgasıdır; bugün Seul'de yıllık Hint felsefesi konferansının düzenlendiği bir dünyada, [takvim yazımızda](/haber/yaklasan-felsefe-etkinlikleri-2-ekim-2026) değindik, bu girişin ne kadar kalıcı olduğu görülüyor.
+
+## 1879: Wallace Stevens
+
+Amerikalı şair Wallace Stevens 2 Ekim 1879'da Pennsylvania'da doğdu; hayatı boyunca Hartford'da bir sigorta şirketinin yöneticisi olarak çalıştı ve yirminci yüzyılın en felsefi şiirini yazdı. "Supreme Fiction" (En Yüce Kurgu) kavramı, Tanrı'nın öldüğü bir dünyada şiirin, inanılmadığı bilinerek inanılan bir kurgunun, dinin yerini alıp alamayacağı sorusuydu; Nietzsche'nin ve Santayana'nın (Harvard'daki hocası) mirasıdır. "Kar Adamı" şiiri, "orada olmayan hiçbir şeyi ve orada olan hiçi" gören bir zihnin fenomenolojisi; "Cihaz Üzerine Notlar" ise hayal gücü ile gerçeklik arasındaki ilişki üzerine bir epistemoloji dersidir. Simon Critchley'nin *Things Merely Are* (2005) kitabı, Stevens'ı bir filozof olarak okumanın mümkün olduğunu gösterdi. 1955'te öldü.
+
+## 1924: Gilbert Simondon
+
+Yirminci yüzyıl Fransız felsefesinin en özgün isimlerinden Gilbert Simondon, 2 Ekim 1924'te Saint-Étienne'de doğdu. Lyon'da, sonra École normale supérieure'de okudu; Merleau-Ponty ve Georges Canguilhem'in yanında yetişti; Poitiers'de ve Sorbonne'da ders verdi, Paris V'te genel psikoloji laboratuvarını kurdu. Kendi atölyesinde makineler onaran, öğrencilerine televizyon alıcısını söküp kurmayı öğreten bir filozoftu.
+
+İki büyük meseleyle tanınır: bireyleşme ve teknik nesnelerin varoluşu. 1958'de savunduğu ana tezi, *Fiziksel ve Kolektif Bireyleşme* (tamamı ancak 2005'te yayımlandı), Batı metafiziğinin bireyi hazır bir töz olarak alıp "bireyleşme ilkesi"ni aramasını tersine çevirdi: Birey, bir sürecin sonucudur; "ön-bireysel" bir gerilim alanından, kristalin çözeltiden, canlının ortamından, öznenin kolektiften, bir "faz değişimi" ile çıkar ve hiçbir zaman tamamlanmaz. Deleuze bu tezi "yeni bir Varlık kavrayışı" diye selamladı; Bernard Stiegler, Bruno Latour ve çağdaş "yeni materyalizm" ondan türedi.
+
+Aynı yıl yayımlanan tamamlayıcı tezi *Teknik Nesnelerin Varoluş Tarzı Üzerine*, teknolojiyi insanın kullandığı pasif araçlar toplamı olarak görmek yerine, teknik nesnelerin kendi oluşum süreçlerini ("somutlaşma": motorun parçalarının giderek birbirine uyumlu hâle gelmesi) ve insanla ilişkilerini inceleyen yeni bir felsefi yaklaşım geliştirdi. Simondon'a göre modern kültürün hastalığı, makineyi ya tehdit ya da köle olarak görmesi, teknik gerçekliği kültürden dışlamasıdır; oysa makine, insanın "eşlik ettiği", yorumladığı ve onunla birlikte oluştuğu bir varlıktır. Heidegger'in "Gestell"inin karamsarlığına karşı Simondon, tekniğin içinden bir hümanizm önerdi.
+
+Simondon bugün özellikle yapay zekâ, otomasyon, dijital teknoloji ve insan-makine ilişkisi tartışmalarında yeniden okunuyor; sitemizde dün [yapay zekânın ekonomi-politiğini](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ele alırken ona bir bölüm ayırdık ve İstanbul Medeniyet'in "Teknik ve Felsefe" kongresinin çağrı metni Aristoteles'ten Simondon'a bir hat çiziyor. Çünkü temel sorusu şaşırtıcı derecede güncel: Teknoloji yalnızca insanın kullandığı bir araç mıdır, yoksa insanın kendisini de dönüştüren bir varoluş alanı mıdır? Simondon, 7 Şubat 1989'da Palaiseau'da öldü; eserlerinin büyük kısmı ölümünden sonra yayımlandı ve İngilizceye ancak 2017-2020'de çevrildi. Türkçede *Teknik Nesnelerin Varoluş Tarzı Üzerine* henüz yok.
+
+## 1945: Howard Robinson
+
+İngiliz filozof Howard Robinson 1945'te doğdu; Liverpool Üniversitesi'nde uzun yıllar ders verdi, ardından Budapeşte'deki Central European University'nin felsefe bölümünü kurdu. Zihin felsefesi, algı felsefesi ve metafizik alanlarında, çağdaş felsefenin ana akımına karşı iki tez savundu: *Matter and Sense* (1982) ve *Perception* (1994) ile algıda "duyu-verisi" kuramının, yani doğrudan algıladığımız şeyin fiziksel nesne değil zihinsel bir içerik olduğu görüşünün savunusu; *From the Knowledge Argument to Mental Substance* (2016) ile Kartezyen töz ikiciliğinin, zihnin fiziksel dünyaya indirgenemeyeceği tezinin, savunusu. Berkeley üzerine çalışmaları ve J. J. Valberg'le birlikte editörlüğünü yaptığı *Objections to Physicalism* (1993), fizikalizm eleştirisinin referans metinleri. Robinson'ın doğum günü, 20. yüzyılın ikinci yarısında giderek büyüyen şu tartışmayı hatırlatır: Bilinç gerçekten yalnızca beynin işleyişinden mi ibarettir? Bugün yapay zekâ ve makine bilinci tartışmaları nedeniyle, sitemizde dün [Hitoshi Nagai](/haber/hitoshi-nagai-neden-ben-benim-tekil-varolus-felsefesi) vesilesiyle ele aldığımız gibi, bu soru yeniden merkezî bir konuma gelmiş durumda. (Doğum tarihinin günü için güvenilir bir kaynak bulamadık; bazı takvimler 2 Ekim'i verir.)
+
+## 1968: Marcel Duchamp'ın ölümü
+
+Marcel Duchamp, 2 Ekim 1968'de Neuilly-sur-Seine'de öldü. Felsefe takviminde bir sanatçının yeri, sanat felsefesinin en büyük sorusunu bir nesneyle sorması: 1917'de New York'taki Bağımsızlar Sergisi'ne "R. Mutt" imzasıyla gönderdiği pisuvar, *Çeşme*, "sanat eseri nedir?" sorusunu estetik niteliklerden koparıp kurumsal ve kavramsal bir soruya dönüştürdü. Arthur Danto'nun "sanat dünyası" kuramı ve George Dickie'nin kurumsal sanat tanımı, Duchamp'ın "hazır-nesne"sine (readymade) cevap olarak yazıldı; Danto'ya göre Duchamp'tan sonra sanat, Hegel'in öngördüğü gibi, felsefeye dönüşmüştü. Duchamp'ın kendisi 1923'te resmi bırakıp satranca döndü ve "bütün sanatçılar satranç oyuncusu değildir, ama bütün satranç oyuncuları sanatçıdır" dedi. Ölümünden sonra yirmi yıl gizlice üzerinde çalıştığı *Étant donnés*'nin ortaya çıkması, bir sanatçının son sözünün de bir soru olabileceğini gösterdi.
+
+## Bugünün felsefi sorusu
+
+2 Ekim'in düşünürlerini yan yana koyduğumuzda ilginç bir tablo ortaya çıkıyor: Gandhi, insan şiddete başvurmadan siyaset yapabilir mi diye sorar; Abhedananda, bilincin sınırlarının nerede olduğunu; Simondon, teknolojinin insanı nasıl dönüştürdüğünü; Robinson, zihnin fiziksel dünyaya indirgenip indirgenemeyeceğini; Stevens, inanç olmadan anlamın mümkün olup olmadığını; Duchamp, sanatın nerede başladığını. Bu sorular birbirinden uzak görünüyor; aslında hepsi aynı büyük soruya bağlanıyor: İnsan kendi hayatını nasıl yönetebilir? Bugün Gandhi'yi hatırlamak yalnızca bir doğum gününü anmak değildir; Simondon'u hatırlamak yalnızca bir filozofun doğum tarihini bilmek değildir. Her ikisi de bugünün dünyasına aynı anda iki soru yöneltir: Gücümüzü nasıl kullanacağız? Ve teknolojik gücümüz arttıkça nasıl bir insan olacağız? 2 Ekim'in felsefi mirası tam da bu iki sorunun kesiştiği yerde duruyor.
+
+*Takvim notu:* Bazı listelerde 2 Ekim için anılan Ayn Rand'ın 1962'de Columbia'nın kampüs radyosunda başlayan programı, 1979'da Boston Bilim Felsefesi Kolokyumu'ndaki bir sunum ve "2 Ekim'de yayımlanan" kitaplar, gün bazında güvenilir kayıtla doğrulanamadığından bu yazıya alınmadı.`,
+  },
   {
     title: "YAPAY ZEKÂNIN EKONOMİ-POLİTİĞİ",
     slug: "yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet",
@@ -33410,6 +33704,138 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "New Asia Lectures on Confucianism 2026 — Franklin Perkins",
+    slug: "new-asia-lectures-confucianism-2026-perkins",
+    summary:
+      "Hong Kong Çin Üniversitesi New Asia College'ın Konfüçyüsçülük ders dizisini bu yıl Hawai'i Üniversitesi'nden Franklin Perkins veriyor: Mengzi'de insanların gerçekten ne istediği, erken Konfüçyüsçü etiğin ortak temeli ve ölüm sonrası hayatın erken Konfüçyüsçülükteki yeri.",
+    description: `Mou Zongsan, Tang Junyi ve Xu Fuguan'ın hocalık yaptığı, 20. yüzyılda Yeni Konfüçyüsçülüğün merkezi olan New Asia College, 2013'ten bu yana Moonchu Vakfı'nın desteğiyle "New Asia Lectures on Confucianism" dizisini düzenliyor. 2026 konuşmacısı, *Philosophy East and West* dergisinin editörü ve Hawai'i Üniversitesi (Mānoa) felsefe profesörü Franklin Perkins.
+
+Duyurulan dersler:
+- 21 Ekim (Çarşamba, 18.30-20.15): "Mengzi on What People Really Want"
+- 24 Ekim (Cumartesi, 15.00-17.00): "The Relevance of Life After Death in Early Confucianism"
+
+Dersler İngilizce; yüz yüze katılımın yanı sıra çevrim içi katılım da duyuruldu. Ayrıntılı program ve kayıt için kolejin sayfasına bakınız.`,
+    kind: "DERS",
+    organizer: "New Asia College, The Chinese University of Hong Kong · Moonchu Foundation",
+    speakers: "Franklin Perkins (University of Hawai'i at Mānoa)",
+    topic: "Konfüçyüsçülük, Mengzi, erken Çin etiği",
+    format: "HIBRIT",
+    startsAt: "2026-10-21T10:30:00.000Z",
+    endsAt: "2026-10-24T09:00:00.000Z",
+    timezone: "Asia/Hong_Kong",
+    hasTime: true,
+    city: "Hong Kong",
+    country: "Çin (Hong Kong ÖİB)",
+    venue: "New Asia College, CUHK",
+    fee: "Ücretsiz",
+    website: "https://www.na.cuhk.edu.hk/chinese-culture/lecture-series/new-asia-lectures-on-confucianism/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cropped%20version%20of%20Confucius%20Portrait%2C%20Kongzi%20(Confucius)%20Family%20Mansion%2C%20Qufu%20(13044335945).jpg?width=1600",
+    featured: false,
+    sourceName: "CUHK New Asia College",
+    sourceUrl: "https://www.na.cuhk.edu.hk/chinese-culture/lecture-series/new-asia-lectures-on-confucianism/",
+  },
+  {
+    title: "36. Novembertagung — (Perceived) Dichotomies in Mathematics",
+    slug: "novembertagung-36-istanbul-2026",
+    summary:
+      "Matematik tarihi ve felsefesinin genç araştırmacılar konferansı Novembertagung, 36. yılında ilk kez İstanbul'da: 'Matematikte (Algılanan) İkilikler: Karşıtlıklar, Sınırlar ve Gerilimler'. Ev sahibi İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü.",
+    description: `1990'dan bu yana her yıl Avrupa'nın farklı bir kentinde toplanan Novembertagung, matematik tarihi ve felsefesi alanında doktora öğrencileri ile kariyerinin başındaki araştırmacıların konferansı. 36. toplantı 3-5 Kasım 2026'da İstanbul'da, İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü'nün ev sahipliğinde yapılıyor.
+
+Tema: **(Perceived) Dichotomies in Mathematics: Opposites, Boundaries, and Tensions in the History and Philosophy of Mathematics.** Saf-uygulamalı, sonlu-sonsuz, keşif-icat, sezgi-biçimselleştirme gibi matematiğin tarihinde ve felsefesinde kurulan ikiliklerin nasıl oluştuğu, nerede çözüldüğü ve neyi gizlediği tartışılacak.
+
+Düzenleyiciler: Emma Baxter (Oxford), Marieke Gelderblom (Utrecht), Thomas Glasman (Oxford), Tiago Hirth (Lizbon), Rami Jreige (Bristol), Mireia Martínez i Sellarès (Utrecht), Esra Nur Osta (İstanbul). Destekleyenler arasında YTB, Uluslararası Matematik Tarihi Komisyonu (ICHM), Descartes Centre, British Society for the History of Mathematics ve Hollanda Türkiye Enstitüsü var. Bildiri çağrısı kapandı.`,
+    kind: "KONFERANS",
+    organizer: "Novembertagung · İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü",
+    topic: "Matematik tarihi, matematik felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-03T06:00:00.000Z",
+    endsAt: "2026-11-05T16:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "İstanbul Medeniyet Üniversitesi",
+    website: "https://novembertagung.wordpress.com/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/P.%20Oxy.%20I%2029.jpg?width=1600",
+    featured: false,
+    sourceName: "Novembertagung",
+    sourceUrl: "https://novembertagung.wordpress.com/",
+  },
+  {
+    title: "Harvard Graduate Conference in Political Theory 2026",
+    slug: "harvard-graduate-conference-political-theory-2026",
+    summary:
+      "Harvard Üniversitesi Hükümet Bölümü'nün yıllık lisansüstü siyaset teorisi konferansı. Açılış konuşması Brown Üniversitesi'nden Melvin Rogers'ın.",
+    description: `Harvard'ın siyaset teorisi ve siyaset felsefesi alanındaki yıllık lisansüstü konferansı 30-31 Ekim 2026'da toplanıyor. Konferans, doktora öğrencilerinin çalışmalarını öğretim üyelerinin yorumlarıyla tartışmaya açıyor.
+
+Açılış konuşmasını 30 Ekim Cuma günü Brown Üniversitesi Edna ve Richard Salomon Seçkin Siyaset Bilimi Profesörü **Melvin Rogers** yapacak. Rogers, *The Darkened Light of Faith: Race, Democracy, and Freedom in African American Political Thought* (2023) kitabıyla tanınıyor; Afrikalı-Amerikalı siyasal düşünce ve demokrasi kuramı üzerine çalışıyor.`,
+    kind: "KONFERANS",
+    organizer: "Harvard University, Department of Government",
+    speakers: "Melvin Rogers (Brown University) — açılış konuşması",
+    topic: "Siyaset teorisi, siyaset felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-30T13:00:00.000Z",
+    endsAt: "2026-10-31T22:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "Cambridge, Massachusetts",
+    country: "ABD",
+    venue: "Harvard University",
+    website: "https://politicaltheoryconference.hsites.harvard.edu/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Widener%20Library%20steps%2C%20Harvard%20Yard%2C%20Cambridge%2C%20Massachusetts%2C%20US%20(PPL3-Altered)%20julesvernex2.jpg?width=1600",
+    featured: false,
+    sourceName: "Harvard Graduate Conference in Political Theory",
+    sourceUrl: "https://politicaltheoryconference.hsites.harvard.edu/",
+  },
+  {
+    title: "2026 Annual Fall Conference on Indian Philosophy — SNU Asia Center",
+    slug: "snuac-indian-philosophy-fall-2026",
+    summary:
+      "Seul Ulusal Üniversitesi Asya Merkezi'nin yıllık Hint felsefesi sonbahar konferansı, 17 Ekim Cumartesi günü Samick Hall'da.",
+    description: `Seul Ulusal Üniversitesi Asya Merkezi (SNUAC), Hint felsefesi üzerine yıllık sonbahar konferansını 17 Ekim 2026 Cumartesi günü saat 10.00'da, SNUAC binasındaki (Bina 101) Samick Hall'da (Oda 220) düzenliyor. Konferans, Güney Kore'de Hint felsefesi araştırmalarının başlıca yıllık buluşması; program merkezin sayfasında.`,
+    kind: "KONFERANS",
+    organizer: "Seoul National University Asia Center",
+    topic: "Hint felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-17T01:00:00.000Z",
+    endsAt: "2026-10-17T09:00:00.000Z",
+    timezone: "Asia/Seoul",
+    hasTime: true,
+    city: "Seul",
+    country: "Güney Kore",
+    venue: "SNUAC Samick Hall (Bina 101, Oda 220)",
+    website: "https://snuac.snu.ac.kr/eng/index.php/2026/09/21/indian-philosophy-fall/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C%20studio%2C%201931.jpg?width=1600",
+    featured: false,
+    sourceName: "SNU Asia Center",
+    sourceUrl: "https://snuac.snu.ac.kr/eng/index.php/2026/09/21/indian-philosophy-fall/",
+  },
+  {
+    title: "UNESCO Chair on Intercultural Competences Conference 2026 — Dakar",
+    slug: "unesco-chair-intercultural-competences-dakar-2026",
+    summary:
+      "Stellenbosch Üniversitesi UNESCO Kürsüsü'nün üçüncü yıllık konferansı Dakar'da, Cheikh Anta Diop Üniversitesi'nde: 'Afrika Bağlamlarında Kültürlerarası Yetkinlikleri Keşfetmek'.",
+    description: `Stellenbosch Üniversitesi'nin ev sahipliğindeki UNESCO Kültürlerarası Yetkinlikler Kürsüsü, üçüncü yıllık konferansını 12-16 Ekim 2026'da Dakar'da, Cheikh Anta Diop Üniversitesi'nde (UCAD) düzenliyor.
+
+Tema: **Exploring Intercultural Competences in African Contexts.** Alt başlıklar: kültürlerarası yetkinliğin iklim eylemi, toplumsal cinsiyet eşitliği ve barış inşasıyla kesişimi; sömürge öncesi dönemde kültürlerarası pratikler; uygulayıcılar için kültürlerarası araçlar; Afrikalı gençlerin bakış açıları. Afrika bağlamına odaklanmakla birlikte başka bölgelerden katkılar da davet edildi. Bildiri çağrısı 1 Nisan 2026'da kapandı.`,
+    kind: "KONFERANS",
+    organizer: "UNESCO Chair on Intercultural Competences, Stellenbosch University · Université Cheikh Anta Diop",
+    topic: "Kültürlerarası felsefe, Afrika düşüncesi, barış ve diyalog",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-12T08:00:00.000Z",
+    endsAt: "2026-10-16T17:00:00.000Z",
+    timezone: "Africa/Dakar",
+    hasTime: false,
+    city: "Dakar",
+    country: "Senegal",
+    venue: "Université Cheikh Anta Diop (UCAD)",
+    website: "https://www.su.ac.za/en/staff/conferences/unesco-chair-intercultural-competence-conference?language=en",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/BU%20Universit%C3%A9%20Chekh%20Anta%20Diop%20de%20Dakar.JPG?width=1600",
+    featured: false,
+    sourceName: "Stellenbosch University",
+    sourceUrl: "https://www.su.ac.za/en/staff/conferences/unesco-chair-intercultural-competence-conference?language=en",
+  },
   {
     title: "I. Önay Sözer Çağdaş Felsefe Sempozyumu",
     slug: "onay-sozer-cagdas-felsefe-sempozyumu-2026",
