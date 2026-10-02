@@ -2866,8 +2866,8 @@ export const posts: SeedPost[] = [
     metaDescription:
       "Prof. Dr. İoanna Kuçuradi 2 Ekim 2026'da İstanbul'da öldü. Hacettepe Felsefe Bölümü'nün kurucusu, FISP'in ilk kadın başkanı, UNESCO kürsü sahibi, Türkiye Felsefe Kurumu Başkanı. Hayatı, değer felsefesi, etik-ahlak ayrımı, insan hakları temellendirmesi, 2003 İstanbul Dünya Felsefe Kongresi, cenaze bilgileri.",
     contentType: "HABER",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hacettepe%20%C3%9Cniversitesi%20Beytepe%20Kamp%C3%BCs%C3%BC%20(24.08.2024)%2027.jpg?width=1600",
-    imageCredit: "Hacettepe Üniversitesi Beytepe Kampüsü, Ankara; Kuçuradi 1969'da kurduğu Felsefe Bölümü'nü burada otuz dört yıl yönetti, 2024 · Fotoğraf: Gargarapalvin, CC BY-SA 4.0 · Wikimedia Commons. Not: Kuçuradi'nin serbest lisanslı bir fotoğrafı bulunmadığından kapakta kurduğu bölümün kampüsü gösterilmektedir.",
+    coverImage: "/kapak/kucuradi.jpg",
+    imageCredit: "İoanna Kuçuradi (1936-2026)",
     featured: true,
     sourceName: "soL Haber · Diken · Maltepe Üniversitesi",
     sourceUrl: "https://haber.sol.org.tr/haber/turkiye-felsefesinin-oncu-isimlerinden-ioanna-kucuradi-hayatini-kaybetti-414528",
@@ -2883,7 +2883,7 @@ export const posts: SeedPost[] = [
       { title: "Prof. Dr. İoanna Kuçuradi", publisher: "UNESCO Türkiye Millî Komisyonu", url: "https://www.unesco.org.tr/Pages/1835/160/Prof.%20Dr.%20%C4%B0oanna%20KU%C3%87URAD%C4%B0" },
       { title: "Türkiye Felsefe Kurumu", publisher: "tfk.org.tr", url: "https://www.tfk.org.tr/" },
     ],
-    content: `Türkiye'de felsefenin kurumsallaşmasına en büyük katkıyı yapanlardan biriydi; bu katkının hikâyesi, Cumhuriyet'in ikinci yarısında felsefenin bu ülkede nasıl bir disiplin ve bir kamusal ses hâline geldiğinin hikâyesiyle örtüşür. İoanna Kuçuradi 2 Ekim 2026 akşamı, bir süredir tedavi gördüğü Maltepe Üniversitesi Tıp Fakültesi Eğitim ve Araştırma Hastanesi'nde, 89 yaşında öldü. 4 Ekim'de doksan yaşına girecekti; sitemizde [ağustosta yayımladığımız portresinde](/haber/ioanna-kucuradi-felsefe-insan-haklari) bu doğum gününü bekliyorduk. Türkiye Felsefe Kurumu'nun 1980'den beri başkanı, Dünya Felsefe Kuruluşları Federasyonu'nun (FISP) onursal başkanı ve ilk kadın başkanı, Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu, UNESCO Felsefe ve İnsan Hakları Kürsüsü'nün sahibi, Kuçuradi Felsefe ve İnsan Hakları Vakfı'nın başkanıydı. Cenaze töreni 4 Ekim Cumartesi günü Maltepe Üniversitesi Mimar Vedat Çakırca Konferans Salonu'nda yapılacak.
+    content: `Türkiye'de felsefenin kurumsallaşmasına en büyük katkıyı yapanlardan biriydi; bu katkının hikâyesi, Cumhuriyet'in ikinci yarısında felsefenin bu ülkede nasıl bir disiplin ve bir kamusal ses hâline geldiğinin hikâyesiyle örtüşür. İoanna Kuçuradi 2 Ekim 2026 akşamı, bir süredir tedavi gördüğü Maltepe Üniversitesi Tıp Fakültesi Eğitim ve Araştırma Hastanesi'nde, 89 yaşında öldü. 4 Ekim'de doksan yaşına girecekti; sitemizde [ağustosta yayımladığımız portresinde](/haber/ioanna-kucuradi-felsefe-insan-haklari) bu doğum gününü bekliyorduk. Türkiye Felsefe Kurumu'nun 1980'den beri başkanı, Dünya Felsefe Kuruluşları Federasyonu'nun (FISP) onursal başkanı ve ilk kadın başkanı, Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu, UNESCO Felsefe ve İnsan Hakları Kürsüsü'nün sahibi, Kuçuradi Felsefe ve İnsan Hakları Vakfı'nın başkanıydı. Cenaze töreni 4 Ekim Cumartesi günü Maltepe Üniversitesi Mimar Vedat Çakırca Konferans Salonu'nda yapılacak; defin, Şişli Rum Ortodoks Mezarlığı'nda.
 
 Bu haber, bir vefat ilanı olmaktan fazlasını denemek zorunda. Çünkü Kuçuradi'nin hayatı, Nusret Hızır'dan Takiyettin Mengüşoğlu'na, Macit Gökberk'ten Bedia Akarsu'ya uzanan bir kuşağın başlattığı işi, felsefeyi Türkiye'de kalıcı kurumlara kavuşturma işini, en uzun süre ve en geniş ölçekte sürdüren hayattır; ve bu hikâyeyi, kendisi hakkında konuşmayı hiç sevmeyen, "ben"i cümlelerinden titizlikle çıkaran bir insanın yerine anlatmak gerekiyor.
 
