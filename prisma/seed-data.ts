@@ -260,6 +260,32 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Uluğ Nutku",
+    slug: "ulug-nutku",
+    headline: "Türk filozof, 'gezgin filozof' (1935-2014)",
+    bio: "Mersin, Çukurova ve Cumhuriyet üniversitelerinin felsefe bölümlerini kuran, Türkçeye 'felsefeylemek' ve 'aşmaca' kavramlarını kazandıran, felsefeyi 'güncelin felsefesi' olarak yapan düşünür. Nedensellik, özgürlük, ölüm, kültür, inanma ve insan kavramlarını tarihsel bağlamlarında çözümledi; akademi dışında da felsefenin yaygınlaşması için çalıştı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1935,
+    affiliation: "Mersin Üniversitesi (kurucu bölüm başkanı, 1994-1999) · Cumhuriyet Üniversitesi · Çukurova Üniversitesi · Kocaeli Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Uluğ Nutku",
+    birthDate: "1935, Zara, Sivas",
+    deathDate: "17 Kasım 2014, Mersin",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Felsefi antropoloji · tarihsel-eleştirel felsefe · Türkçede felsefe",
+    areas: "İnsan felsefesi, bilgi ve bilimsellik, özgürlük ve kader, kültür felsefesi, inanma, felsefe ve güncellik",
+    majorWorks: "İnsan Felsefesi Çalışmaları\nFelsefe ve Güncellik\nDaha Güncel Felsefe\nİnanmanın Felsefesi\nUr Uruk Urşu: Şiir Damlası Tarih",
+    keyConcepts: "Felsefeylemek, aşmaca, güncelin felsefesi, nedensellik ve bilimsellik, özgürlük-kader ilişkisi, kültür ve insan",
+    influencedBy: "Takiyettin Mengüşoğlu, Nicolai Hartmann, Kant, Marx, Antik Yunan felsefesi",
+    influenced: "Mersin, Sivas ve Adana'da yetişen felsefe kuşakları; Mersin Felsefeciler Derneği; 'Uluğ Nutku'ya Armağan' (2005) kitabını hazırlayan öğrencileri",
+    longBio: "1935'te Sivas'ın Zara ilçesinde doğdu. 1956'da Robert Kolej'i bitirdi; 1957-1964 arasında İstanbul Üniversitesi Felsefe Bölümü'nde, Sistematik Felsefe ve Mantık Kürsüsü'ne kayıtlı olarak okudu, felsefe tarihi, Eski Yunan dili ve edebiyatı ile Latin dili ve edebiyatı sertifikaları aldı. Takiyettin Mengüşoğlu'nun felsefi antropolojiyi kurduğu yıllarda yetişti ve insan felsefesini bütün çalışmalarının ekseni yaptı. İngilizce, Almanca, Eski Yunanca ve Latince biliyordu.\n\nAkademik hayatı Türkiye'nin yeni üniversitelerinde geçti: İstanbul, Çukurova, Kocaeli, Mersin ve Cumhuriyet üniversitelerinde ders verdi; 1994'te profesör oldu ve aynı yıl Mersin Üniversitesi Felsefe Bölümü'nün kurucu başkanlığını üstlendi (1994-1999), ardından Sivas Cumhuriyet Üniversitesi'nde felsefe bölümünü kurdu (2000); Çukurova'daki bölümün kuruluşunda da emeği vardı. 2002'de yaş haddinden emekli olduktan sonra ders vermeye devam etti; Anadolu'nun bir üniversitesinden ötekine taşınan hayatı ona 'gezgin filozof' adını kazandırdı. Mersin Felsefeciler Derneği'nin kurucusu ve onursal başkanıydı; Eğitim-Sen Mersin Üniversitesi şubesinin kuruluşuna öncülük etti.\n\nKitapları, nedensellik, bilimsellik, özgürlük, ölüm, kader, kültür, insan, toplum, düşünme, eylem, mutluluk, amaç, bilim ve inanma gibi kavramları tarihsel bağlamları içinde çözümler. 'Felsefeylemek' kavramıyla felsefeyi bir bilgi yığını değil bir etkinlik olarak; 'aşmaca' kavramıyla insanın kendi verili durumunu aşma hareketini adlandırdı. Felsefe ve Güncellik ile Daha Güncel Felsefe, 'güncelin felsefesi' programının, felsefenin günün sorunlarıyla hesaplaşması gerektiği düşüncesinin ürünleridir. Öğrencileri ve meslektaşları 2005'te 'Uluğ Nutku'ya Armağan' kitabını hazırladı. 17 Kasım 2014'te Mersin'de, 79 yaşında öldü; cenazesi Mersin Üniversitesi'nde düzenlenen törenle uğurlandı.",
+    sources: "Milliyet, 'MEÜ Felsefe Bölümü kurucusu Prof. Nutku yaşamını yitirdi', 18 Kasım 2014 — https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002 · Biyografya, 'Uluğ Nutku' — https://www.biyografya.com/tr/biographies/ulug-nutku-9533a6e5",
+  },
+  {
     name: "Yanis Varoufakis",
     slug: "yanis-varoufakis",
     headline: "Yunan iktisatçı ve siyaset kuramcısı — 'teknofeodalizm' tezinin yazarı",
@@ -2908,6 +2934,112 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Sonbaharın felsefe ödülleri: Kluge Nussbaum'a, Leibniz Vetter'e, Académie française'in büyük ödülü Dixsaut'ya, Felsefe Olimpiyatı'nda üç altın",
+    slug: "felsefe-odulleri-sonbahar-2026-kluge-nussbaum-leibniz-vetter-dixsaut-olimpiyat",
+    summary:
+      "Kongre Kütüphanesi 500 bin dolarlık Kluge Ödülü'nü Martha Nussbaum'a verdi; Alman Araştırma Vakfı'nın 2,5 milyon euroluk Leibniz Ödülü olanaklılık metafizikçisi Barbara Vetter'e, Académie française'in Grand Prix de Philosophie'si doksan üç yaşındaki Platon uzmanı Monique Dixsaut'ya gitti; Varşova'daki 34. Uluslararası Felsefe Olimpiyatı'nda Meksika, Bulgaristan ve Singapur'dan üç öğrenci altın madalya aldı. 2026'nın ödül tablosu ve daha önce yazdıklarımız: Templeton, Lebowitz, Berggruen, Arendt, Skytte, Jaspers, Tractatus.",
+    seoTitle: "2026 felsefe ödülleri: Kluge (Nussbaum), Leibniz (Vetter), Grand Prix de Philosophie (Dixsaut), Uluslararası Felsefe Olimpiyatı Varşova",
+    metaDescription:
+      "2026 felsefe ödülleri toplu dosya: John W. Kluge Ödülü Martha Nussbaum; Gottfried Wilhelm Leibniz Ödülü Barbara Vetter; Académie française Grand Prix de Philosophie Monique Dixsaut; 34. Uluslararası Felsefe Olimpiyatı altın madalyaları; Templeton, Lebowitz, Berggruen, Arendt, Skytte, Jaspers, Tractatus ödülleri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Martha%20Nussbaum%202010.jpg?width=1600",
+    imageCredit: "Martha Nussbaum, 2010 · Fotoğraf: Sally Ryan, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Library of Congress · DFG · Académie française · IPO",
+    sourceUrl: "https://www.loc.gov/programs/john-w-kluge-center/kluge-prize/",
+    publishedAt: "2026-10-04T11:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "etik", "antik-felsefe", "akademi"],
+    philosopherSlugs: ["martha-nussbaum", "michael-sandel"],
+    sources: [
+      { title: "Library of Congress awards John W. Kluge Prize to Martha C. Nussbaum", publisher: "University of Chicago News", date: "22 Eylül 2026", url: "https://news.uchicago.edu/story/library-congress-awards-john-w-kluge-prize-martha-c-nussbaum", primary: true },
+      { title: "Leibniz-Preis 2026 für Philosophie-Professorin Barbara Vetter", publisher: "Freie Universität Berlin", date: "2026", url: "https://www.fu-berlin.de/presse/informationen/fup/2026/fup_26_030_leibniz-preis-2026-barbara-vetter/index.html" },
+      { title: "Monique Dixsaut, lauréate du Grand Prix de philosophie de l'Académie française", publisher: "Librairie Philosophique J. Vrin", date: "2026", url: "https://www.vrin.fr/actualite/monique-dixsaut-laureate-du-grand-prix-de-philosophie-de-l-academie-francaise-183" },
+      { title: "Palmarès 2026", publisher: "Académie française", url: "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/palmares2026.pdf" },
+      { title: "International Philosophy Olympiad", publisher: "IPO / FISP", url: "https://www.philosophy-olympiad.org/" },
+    ],
+    content: `Felsefe ödülleri, Nobel'in olmadığı bir disiplinde, bir yılın felsefi haritasını okumanın en iyi yollarından biri: Kim, ne için, hangi kurum tarafından onurlandırılıyor sorusu, o yıl felsefenin kendisini nerede gördüğünü söyler. 2026 sonbaharı itibarıyla tablo netleşti. Aşağıda bu yıl henüz yazmadığımız dört ödül var; daha önce ele aldıklarımızı sonda bağlantıyla topladık.
+
+## Kluge Ödülü: Martha Nussbaum
+
+ABD Kongre Kütüphanesi, 22 Eylül'de 2026 John W. Kluge "İnsanlık Çalışmalarında Başarı" Ödülü'nün [Martha C. Nussbaum](/filozof/martha-nussbaum)'a verildiğini açıkladı. İki yılda bir verilen ve 500 bin dolarlık olan ödül, Nobel'in kapsamadığı beşeri ve sosyal bilimlerde "en yüksek nitelikli ve en etkili" çalışmaları onurlandırıyor; önceki sahipleri arasında Leszek Kołakowski, Paul Ricoeur, Jürgen Habermas, Charles Taylor ve Danielle Allen var. Chicago Üniversitesi'nde hukuk ve etik profesörü olan Nussbaum'un gerekçesi, bütün bir kariyeri özetliyor: Antik felsefe, duyguların felsefesi, feminist felsefe, hayvan hakları ve Amartya Sen'le birlikte geliştirdiği, insan refahını gelir yerine "insanın gerçekten yapabildiği ve olabildiği şeyler"le ölçen "yapabilirlikler yaklaşımı" (capabilities approach). Otuz kitap, yetmişten fazla fahri doktora, 2016 Kyoto, 2018 Berggruen, 2021 Holberg ve 2022 Balzan ödülleri; Kluge, bu listenin Amerikan tacı. Nussbaum'un nisan ayında yayımlanan son kitabı *The Republic of Love: Opera and Political Freedom*'ı [sitemizde ele almıştık](/haber/nussbaum-yeni-kitap-republic-of-love); yapabilirlikler yaklaşımı, [Kuçuradi'nin](/haber/ioanna-kucuradi-1936-2026-vefat) insan haklarını "insanın olanakları"ndan türeten kuramının Anglofon dünyadaki en yakın akrabası.
+
+## Leibniz Ödülü: Barbara Vetter
+
+Alman Araştırma Vakfı'nın (DFG) her yıl on araştırmacıya verdiği ve her birine 2,5 milyon euro araştırma fonu sağlayan Gottfried Wilhelm Leibniz Ödülü, Almanya'nın en önemli bilim ödülü; 2026'da on isimden biri bir filozof: Berlin Freie Universität'ten Barbara Vetter. 144 aday arasından seçilen Vetter, ödülü 18 Mart'ta aldı ve 15 Nisan'da "Olanakları Düşünmek" başlıklı Leibniz Dersi'ni verdi. Vetter'in alanı modalite kuramı, yani olanaklılığın nasıl düşünüleceği sorusu: *Potentiality: From Dispositions to Modality* (2015) kitabı, olası dünyalar semantiğinin, geçen hafta [Stalnaker vesilesiyle](/haber/robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026) anlattığımız Lewis-Stalnaker geleneğinin, karşısına Aristotelesçi bir alternatif koydu: Olanaklılık, soyut dünyalar üzerinden değil, şeylerin kendi içindeki "potansiyeller" (bir bardağın kırılabilirliği, bir insanın öğrenebilirliği) üzerinden temellendirilmelidir. Bu "dispozisyonel modalite" kuramı, metafizikte analitik felsefenin Aristoteles'e dönüşünün en tutarlı örneklerinden biri. Bir filozofun Leibniz Ödülü alması nadir; son on yılda Almanya'da bu ödülü felsefeden alan birkaç isimden biri, ve ödülün bir metafizikçiye, hem de "olanak" kavramını çalışan birine gitmesi, Leibniz'in adını taşıyan bir ödül için yerinde bir seçim.
+
+## Grand Prix de Philosophie: Monique Dixsaut
+
+Académie française, 2026 ödül listesinde Grand Prix de Philosophie'yi "bütün felsefi eserleri için" Monique Dixsaut'ya verdi. 1933 doğumlu, Paris I Panthéon-Sorbonne emeritus profesörü Dixsaut, Fransa'nın yaşayan en büyük Platon uzmanı: *Le Naturel philosophe: Essai sur les dialogues de Platon* (1985), *Platon et la question de la pensée* (2000), *Platon: Le désir de comprendre* (2003) ve *Phaidon*, *Philebos* gibi diyalogların çevirileri. Dixsaut'nun Platon'u, bir doktrinler sistemi değil, "felsefi doğa"nın, felsefe yapmaya yatkın insanın kendisini diyalogda gerçekleştirmesidir; ona göre Platon'un diyalogları bir öğretiyi aktarmaz, düşünmenin kendisini sahneye koyar. Vrin'in "Klasik Düşünce Geleneği" dizisini yönetiyor; aynı zamanda Nietzsche üzerine de yazdı (*Nietzsche: Par-delà les antinomies*, 2006). Académie'nin ödülü bir ömrün eserine verilen bir onur ve doksan üç yaşındaki bir Platon okurunun bunu bir "Platon'u yeniden okuma" çağrısı olarak alması, felsefe tarihinin canlı bir disiplin olduğunu hatırlatıyor. Sitemizde [Platon'un mağarasını](/haber/platonun-magarasi-alegorisi) ele alırken Dixsaut'nun okuma biçimine değinmiştik.
+
+## Uluslararası Felsefe Olimpiyatı: Varşova'da üç altın
+
+34. Uluslararası Felsefe Olimpiyatı (IPO), 14-17 Mayıs'ta Varşova'da toplandı; FISP'in himayesinde 1993'ten beri düzenlenen yarışma, bu yıl rekor kırdı: 57 ülkeden delegasyon, deneme yarışmasında 118 lise öğrencisi. Öğrenciler, verilen dört felsefi alıntıdan birini seçip ana dilleri dışında bir dilde (İngilizce, Almanca, Fransızca ya da İspanyolca) dört saatte deneme yazıyor. Altın madalyalar Meksika'dan Luis Emanuel Gómez Guzmán'a, Bulgaristan'dan Simeon Kardzhiev'e ve Singapur'dan Abhineshwari Narayanan'a gitti. Türkiye'nin Olimpiyat'a katılımı Türkiye Felsefe Kurumu'nun organizasyonuyla sürüyor; ulusal elemeler kurumun takvimiyle duyuruluyor. Olimpiyat'ın felsefi anlamı, ödüllerin ötesinde: Felsefenin bir "yetenek" olarak, matematik ve fizik gibi, lise düzeyinde yarışılabilir ve öğretilebilir bir disiplin olduğu fikri, Türkiye'de liselerde felsefe dersinin kaderi tartışılırken dikkate değer.
+
+## Bu yıl daha önce yazdıklarımız
+
+2026'nın öteki büyük ödüllerini sitemizde ayrı ayrı ele almıştık; bu dosyayı tamamlamak için: [Templeton Ödülü](/haber/templeton-odulu-2026-simon-conway-morris) 1,4 milyon dolarla evrimsel yakınsama kuramcısı Simon Conway Morris'e; [Lebowitz Ödülü](/haber/lebowitz-odulu-2026-de-brigard-robins) belleğin doğası üzerine karşıt görüşleri savunan Felipe De Brigard ve Sarah Robins'e; [Berggruen Felsefe ve Kültür Ödülü](/haber/berggruen-odulu-michael-sandel) [Michael Sandel](/filozof/michael-sandel)'e; [Hannah Arendt Ödülü](/haber/lea-ypi-hannah-arendt-odulu-2026) Lea Ypi'ye; [Skytte Ödülü](/haber/seyla-benhabib-skytte-odulu-2026) Seyla Benhabib'e; [Karl Jaspers Ödülü](/haber/karl-jaspers-odulu-2026-seyla-benhabib) yine Benhabib'e; [Tractatus Ödülü](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer) Maria-Sibylla Lotter'e; [Rolf Schock Ödülü](/haber/rolf-schock-odulu-2026-bas-van-fraassen) Bas van Fraassen'e; [Holberg Ödülü](/haber/holberg-odulu-2026-lyndal-roper) Lyndal Roper'a; [Kyoto Ödülü](/haber/kyoto-odulu-2026-laurie-anderson) Laurie Anderson'a. Al-Rodhan Ödülü'nün [uzun listesini](/haber/nayef-al-rodhan-odulu-2026-uzun-liste) yazmıştık; kısa liste ve kazanan açıklandığında ekleyeceğiz.
+
+## Tablonun söylediği
+
+2026'nın ödülleri yan yana konduğunda üç şey görünüyor. Birincisi, kadın filozofların yılı: Nussbaum, Vetter, Dixsaut, Ypi, Benhabib, Lotter, Roper, Robins. Bu, bir politika değil, bir kuşağın olgunlaşmasının sonucu; 1970-80'lerde felsefe bölümlerine giren kadınlar, şimdi ömür boyu başarı ödüllerinin yaşına geldi. İkincisi, "insanın değeri" sorusunun geri dönüşü: Nussbaum'un yapabilirlikleri, Ypi'nin özgürlüğü, Benhabib'in ötekilerin hakları, Lotter'in kurban kavramı, hepsi insan haklarının felsefi temellendirmesi etrafında dönüyor; bu hafta kaybettiğimiz Kuçuradi'nin hayatının sorusu, dünyanın en büyük ödüllerinin de sorusu. Üçüncüsü, metafiziğin itibarının iadesi: Vetter'in olanaklılık kuramı, Conway Morris'in evrimsel yakınsaması ve Dixsaut'nun Platon'u, "büyük sorular"ın felsefeye geri döndüğünü gösteriyor. Ödüller, felsefeyi yapmaz; ama felsefenin kendisini nasıl gördüğünü kaydeder.`,
+  },
+  {
+    title: "Uluğ Nutku: Anadolu'nun 'gezgin filozofu' ve felsefeylemenin Türkçesi",
+    slug: "ulug-nutku-gezgin-filozof-felsefeylemek",
+    summary:
+      "Sivas Zara'da doğdu, Robert Kolej'de ve İstanbul Üniversitesi'nde okudu, Mersin, Çukurova ve Cumhuriyet üniversitelerinin felsefe bölümlerini kurdu; felsefeyi bir bilgi yığını değil bir etkinlik olarak düşündü ve bunu Türkçede tek kelimeyle söyledi: 'felsefeylemek'. 2014'te kaybettiğimiz Uluğ Nutku'nun, Türkiye'de felsefenin Anadolu'ya taşınmasındaki yeri ve 'güncelin felsefesi' programı.",
+    seoTitle: "Uluğ Nutku (1935-2014): 'Gezgin filozof', felsefeylemek, aşmaca ve güncelin felsefesi",
+    metaDescription:
+      "Uluğ Nutku'nun hayatı ve felsefesi: Zara, Robert Kolej, İstanbul Üniversitesi, Mengüşoğlu'nun insan felsefesi; Mersin, Çukurova ve Cumhuriyet üniversitelerinde felsefe bölümlerinin kuruluşu; 'felsefeylemek' ve 'aşmaca' kavramları; İnsan Felsefesi Çalışmaları, Felsefe ve Güncellik, Daha Güncel Felsefe, İnanmanın Felsefesi.",
+    contentType: "PORTRE",
+    coverImage: "/kapak/ulug-nutku.jpg",
+    imageCredit: "Uluğ Nutku (1935-2014)",
+    featured: true,
+    sourceName: "Mersin Üniversitesi · Biyografya",
+    sourceUrl: "https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002",
+    publishedAt: "2026-10-04T11:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "kavram", "etik", "tarih"],
+    philosopherSlugs: ["ulug-nutku", "ioanna-kucuradi"],
+    sources: [
+      { title: "MEÜ Felsefe Bölümü kurucusu Prof. Nutku yaşamını yitirdi", publisher: "Milliyet (Mersin)", date: "18 Kasım 2014", url: "https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002", primary: true },
+      { title: "Uluğ Nutku", publisher: "Biyografya", url: "https://www.biyografya.com/tr/biographies/ulug-nutku-9533a6e5" },
+      { title: "Cumhuriyet Üniversitesi Felsefe Bölümü'nün Kurucusu: Uluğ Nutku", publisher: "Şehr-i Sivas", url: "https://www.sehrisivas.com/sivas_makaleleri/cumhuriyet-universitesi-felsefe-bolumunun-kurucusu-ulug-nutku_2297.html" },
+    ],
+    content: `Türkiye'de felsefe tarihi çoğunlukla İstanbul ve Ankara üzerinden anlatılır: Reichenbach'ın İstanbul'u, Hızır'ın Ankara'sı, Mengüşoğlu'nun kürsüsü, Kuçuradi'nin Hacettepe'si. Bu anlatının dışında kalan bir hikâye var: Felsefenin 1990'larda, yeni kurulan taşra üniversiteleriyle birlikte Anadolu'ya taşınması. O hikâyenin baş kişisi, çevresinde "gezgin filozof" diye anılan Uluğ Nutku'dur. Bu hafta [İoanna Kuçuradi'yi](/haber/ioanna-kucuradi-1936-2026-vefat) uğurlarken, aynı kuşaktan, aynı okuldan, ama bambaşka bir yol tutmuş bir filozofu da hatırlamanın zamanı.
+
+## Zara'dan Robert Kolej'e, Robert Kolej'den Beyazıt'a
+
+Uluğ Nutku 1935'te Sivas'ın Zara ilçesinde doğdu. Cumhuriyet'in ilk kuşağının çocuğuydu; eğitimini ülkenin en iyi okullarında aldı: 1956'da Robert Kolej'i bitirdi, 1957-1964 arasında İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nde okudu. Sistematik Felsefe ve Mantık Kürsüsü'ne kayıtlıydı; felsefe tarihi, Eski Yunan dili ve edebiyatı ile Latin dili ve edebiyatı sertifikaları aldı. İngilizce, Almanca, Eski Yunanca ve Latince biliyordu; Platon'u ve Aristoteles'i aslından okuyan, Kant'ı Almancasından tartışan bir kuşağın son temsilcilerindendi.
+
+Beyazıt'taki felsefe bölümü, Nutku'nun öğrencilik yıllarında Takiyettin Mengüşoğlu'nun bölümüydü. Mengüşoğlu, Göttingen'de Nicolai Hartmann'ın öğrencisi olmuş, Türkiye'ye "felsefi antropoloji"yi, insanı bütün fenomenleriyle (bilen, yapıp eden, değerleri duyan, tavır takınan, önceden gören, isteyen, özgür, tarihsel, ideleştiren, kendisini bir şeye veren, çalışan, eğiten ve eğitilen, inanan, sanatın ve tekniğin yaratıcısı, konuşan, biyopsişik bir varlık olarak) ele alan felsefeyi getirmişti. Kuçuradi bu mirası etiğe ve insan haklarına taşıdı; Nutku ise "insan felsefesi"ni kendi ekseni yaptı ve ona iki şey ekledi: tarih ve güncellik.
+
+## Gezgin filozof: Felsefeyi Anadolu'ya taşımak
+
+Nutku'nun akademik hayatı, Türkiye'de üniversitenin coğrafyasının genişlediği yıllara denk geldi ve o bu genişlemenin felsefedeki işçisi oldu. İstanbul'dan sonra Çukurova Üniversitesi'nde ders verdi; Kocaeli'de bulundu; 1994'te profesör oldu ve aynı yıl, henüz iki yaşındaki Mersin Üniversitesi'nde Felsefe Bölümü'nü kurdu, Fen-Edebiyat Fakültesi'nin kuruluşunda çalıştı ve 1999'a kadar kurucu bölüm başkanı olarak kaldı. Sonra Sivas'a, doğduğu ilin üniversitesine gitti ve 2000'de Cumhuriyet Üniversitesi Felsefe Bölümü'nü kurdu. Mersin Felsefeciler Derneği'nin anmasında üç bölümün kurucusu olarak anılır: Mersin, Çukurova ve Cumhuriyet. 2002'de yaş haddinden emekli oldu; ama emeklilik onun için ders vermeyi bırakmak anlamına gelmedi; "gezgin filozof" adı buradan gelir: Bir üniversiteden ötekine, bir kentten ötekine, nerede felsefe bölümü kurulacaksa oraya giden bir hoca.
+
+Bu bir biyografi ayrıntısı değil, bir felsefi tavırdır. 1990'larda Türkiye'de felsefe bölümlerinin sayısı hızla arttı; ama bölüm açmak ile felsefe kurmak aynı şey değildir. Nutku, kurduğu bölümlerde ders programlarını, kütüphaneleri ve ilk öğrenci kuşaklarını kendi elleriyle biçimlendirdi; Mersin'de Felsefeciler Derneği'ni kurdu ve onursal başkanı oldu; aynı kentte Eğitim-Sen'in üniversite şubesinin kuruluşuna öncülük etti. Öğrencilerinin 2005'te hazırladığı *Uluğ Nutku'ya Armağan* kitabı, Anadolu'da felsefe öğrenmiş bir kuşağın hocasına teşekkürüdür. Mersin Üniversitesi Fen-Edebiyat Fakültesi Dekanı'nın cenazesindeki sözleri, mesleğin ona bakışını özetler: "Felsefenin sevilmesi ve yaygınlaşması için çalışmayı görev bilmişti."
+
+## Felsefeylemek: Bir kelimeyle bir program
+
+Nutku'nun Türkçeye kazandırdığı iki kavram var; ikisi de onun felsefe anlayışının özetidir. Birincisi "felsefeylemek". Türkçede "felsefe yapmak" denir; Nutku bunu beğenmezdi, çünkü "yapmak" felsefeyi bir nesne, bir ürün gibi gösterir. "Felsefeylemek", Türkçenin fiil türetme gücünü kullanarak felsefeyi bir etkinlik, bir eyleme biçimi olarak adlandırır: Felsefe yapılmaz, felsefeylenir; tıpkı "düşünmek" gibi, bir süreçtir. Bu, Kant'ın "felsefe öğrenilmez, felsefe yapmak öğrenilir" sözünün Türkçedeki en kısa karşılığıdır ve Nutku'nun hocalığının ilkesiydi: Öğrencisine felsefe tarihini ezberletmek değil, felsefeylemeyi öğretmek.
+
+İkincisi "aşmaca". İnsan, Mengüşoğlu'nun insan felsefesinde, verili olanı aşan varlıktır; Nutku bu aşma hareketini, Hegel'in *Aufhebung*'una ya da Nietzsche'nin "kendini aşma"sına Türkçe bir karşılık arayarak, "aşmaca" diye adlandırdı: İnsanın kendi durumunu, kendi bilgisini, kendi kültürünü aşarak ilerlemesi; ama aşılanı yok etmeden, onu içinde taşıyarak. Kavram, Nutku'nun insan felsefesinin tarih felsefesiyle birleştiği yerdir: İnsan tarihsel bir varlıktır, çünkü aşmacadır.
+
+## Güncelin felsefesi
+
+Nutku'nun kitapları bu programın uygulamasıdır. *İnsan Felsefesi Çalışmaları*, Mengüşoğlu çizgisinin devamı ve genişlemesidir: nedensellik, bilimsellik, özgürlük, ölüm, kader, kültür, insan, toplum, düşünme, eylem, mutluluk, amaç, bilim ve inanma kavramlarını tarihsel bağlamları içinde çözümler; Nutku'ya göre bir kavram, tarihinden koparılarak anlaşılamaz, ama tarihine de indirgenemez. *Felsefe ve Güncellik* ile *Daha Güncel Felsefe*, başlıklarının ilan ettiği programı taşır: Felsefe, "güncel"in felsefesi olmalıdır; günün sorunlarıyla, siyasetle, bilimle, toplumsal değişimle hesaplaşmayan felsefe, Nutku'ya göre, felsefeylemek değil felsefe tarihi anlatmaktır. Bu, Marx'ın "filozoflar dünyayı yorumladı, oysa mesele onu değiştirmektir" tezinin Nutku'daki yankısıdır; ama Nutku, Marx'ı da tarihsel bağlamında, aşılması gereken bir uğrak olarak okur. *İnanmanın Felsefesi*, inanmayı dinî inançla sınırlamadan, insanın bir varlık biçimi olarak ele alır: İnsan, bilmediği şeye inanarak eyler; bilim de bir inanma biçimi içerir; sorun inanmak değil, neye ve nasıl inanıldığıdır. *Ur Uruk Urşu: Şiir Damlası Tarih* ise bir filozofun şiirle, Mezopotamya'nın ilk kentlerinden bugüne tarihi anlatma denemesidir; Nutku'nun felsefeyi akademik makaleye hapsetmeyi reddeden tavrının son ürünü.
+
+Nutku'nun felsefesi, Kuçuradi'ninki gibi, bir sistem değildir; birkaç kavram ve bir tavırdır. Tavır, felsefenin Türkçede, Türkçenin kendi kelimeleriyle ve Türkiye'nin güncel sorunları karşısında yapılabileceği inancıdır; sitemizde [Yalçın Koç'un](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) Türkçe felsefe dili arayışını ele alırken bu tavrın başka bir koluna değinmiştik. Nutku'nun farkı, bunu İstanbul'dan değil Mersin'den, Sivas'tan, Adana'dan yapmasıdır.
+
+## Ardından
+
+Uluğ Nutku 17 Kasım 2014'te Mersin'de, 79 yaşında öldü; cenazesi ertesi gün Mersin Üniversitesi Rektörlük binası önünde düzenlenen törenle uğurlandı. Törende konuşan öğrencilerinden birinin sözü, hocanın ne olduğunu akademik unvanlardan iyi anlatır: "İletişim kurduğu herkese kendini çok özel hissettirirdi." Bugün Mersin, Sivas ve Adana'da felsefe okuyan öğrenciler, kurucusunun adını çoğu zaman bilmeden, onun açtığı bölümlerde felsefeyliyor. On iki yıl sonra, aynı kuşağın son büyük ismini kaybettiğimiz bir haftada, Türkiye'de felsefenin kurumsallaşmasının yalnızca büyük kentlerin ve büyük adların değil, bavulunu alıp Anadolu'ya giden hocaların işi olduğunu hatırlamak gerekiyor. Uluğ Nutku bugün [Filozof Dizini'ne](/filozof/ulug-nutku) eklendi.`,
+  },
   {
     title: "YANIS VAROUFAKIS VE TEKNOFEODALİZM",
     slug: "yanis-varoufakis-ve-teknofeodalizm",
