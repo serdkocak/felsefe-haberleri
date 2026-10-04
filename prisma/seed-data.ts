@@ -260,6 +260,57 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Yanis Varoufakis",
+    slug: "yanis-varoufakis",
+    headline: "Yunan iktisatçı ve siyaset kuramcısı — 'teknofeodalizm' tezinin yazarı",
+    bio: "Oyun kuramı ve siyasal iktisat profesörü, 2015'te Yunanistan'ın maliye bakanı, DiEM25'in kurucusu. Technofeudalism (2023) ile dijital platformların 'bulut sermayesi'nin kâr yerine rant üzerine kurulu yeni bir üretim tarzı yarattığını ve kapitalizmin kendi mutasyonu tarafından öldürüldüğünü savundu; 2026'da tezin Marksist savunmasını yayımladı.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Yanis%20Varoufakis%20on%20Subversive%20Festival.jpg?width=600",
+    country: "Yunanistan",
+    birthYear: 1961,
+    affiliation: "Atina Üniversitesi (iktisat profesörü) · DiEM25 / MeRA25",
+    website: "https://www.yanisvaroufakis.eu",
+    featured: false,
+    listed: true,
+    fullName: "Yanis (Ioannis) Varoufakis",
+    birthDate: "24 Mart 1961, Atina",
+    alive: true,
+    period: "Çağdaş",
+    school: "Siyasal iktisat · heterodoks/post-Keynesyen ve Marksist iktisat · oyun kuramı",
+    areas: "Siyasal iktisat, kapitalizm kuramı, dijital platformlar, Avrupa siyaseti, demokrasi",
+    majorWorks: "Game Theory: A Critical Introduction (Hargreaves Heap ile, 1995)\nThe Global Minotaur (2011)\nAnd the Weak Suffer What They Must? (2016)\nTalking to My Daughter About the Economy (2017)\nAdults in the Room (2017)\nAnother Now (2020)\nTechnofeudalism: What Killed Capitalism (2023)\nThe Marxist Case for the Technofeudal Hypothesis (2026, makale)",
+    keyConcepts: "Teknofeodalizm, bulut sermayesi (cloud capital), bulut rantı, bulut serfleri ve bulut proleterleri, Küresel Minotor, 'odadaki yetişkinler'",
+    influencedBy: "Karl Marx, John Maynard Keynes, Hyman Minsky, Shoshana Zuboff'un gözetim kapitalizmi tartışması (eleştirel), Cédric Durand",
+    influenced: "Dijital kapitalizm ve platform rantı tartışması; Avrupa solunda DiEM25; Jodi Dean ve Cédric Durand'ın 'neo-feodalizm' tartışmasıyla karşılıklı etkileşim",
+    longBio: "1961'de Atina'da doğdu; Essex ve Birmingham'da matematiksel iktisat okudu, 1987'de Essex'te doktorasını aldı. Essex, East Anglia, Cambridge, Sidney, Atina ve Texas (Austin) üniversitelerinde ders verdi; 2012-2015 arasında oyun şirketi Valve'ın 'ekonomisti' olarak dijital ekonomileri içeriden gözlemledi. Ocak-Temmuz 2015'te Syriza hükümetinin maliye bakanı olarak Avrupa alacaklılarıyla müzakereleri yürüttü, referandumun ardından istifa etti; bu deneyimi Adults in the Room'da anlattı. 2016'da Avrupa'nın demokratikleştirilmesi hareketi DiEM25'i kurdu; MeRA25 partisiyle 2019-2023 arasında Yunan parlamentosunda milletvekiliydi.\n\nTechnofeudalism (2023), yirmi birinci yüzyıl iktisadının en çok tartışılan tezlerinden birini ortaya attı: Amazon, Google, Apple ve Meta gibi şirketlerin sahip olduğu 'bulut sermayesi', meta üretmeyen ama kullanıcılarla doğrudan arayüz kurarak davranışı yönlendiren ve piyasa dışı bir alanda rant toplayan yeni bir sermaye biçimidir; kapitalist kârın yerini bulut rantı, piyasanın yerini 'bulut tımarları' almıştır. Tez, Henry Snow, Evgeny Morozov, Cédric Durand ve Nicholas Gane gibi isimlerden 'kapitalizm hâlâ kapitalizmdir' eleştirisi aldı; Varoufakis 2026'da Jacobin'de ve kendi sitesinde yayımladığı 'The Marxist Case for the Technofeudal Hypothesis' ile tezi Marx'ın yöntemi içinde yeniden kurdu: 'Tarih geriye gitmiyor; dizginsiz sermaye birikiminin sürüklediği yepyeni bir toplumsal-iktisadi tarza doğru savruluyoruz.'",
+    sources: "Yanis Varoufakis, 'The Marxist Case for the Technofeudal Hypothesis', Jacobin, 4 Ağustos 2026 — https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism · Nicholas Gane, 'Capitalism is Capitalism, not Technofeudalism', Journal of Classical Sociology 25(4), 2025 — https://doi.org/10.1177/1468795X241269293 · Resmî site — https://www.yanisvaroufakis.eu",
+  },
+  {
+    name: "Philippa Foot",
+    slug: "philippa-foot",
+    headline: "İngiliz ahlak filozofu, erdem etiğinin kurucularından (1920-2010)",
+    bio: "Tramvay problemini felsefeye sokan, ahlakı 'varsayımsal buyruklar sistemi' olarak yeniden düşünen ve Natural Goodness ile ahlaki iyiliği canlı türünün doğal iyiliğine bağlayan Oxford filozofu. Anscombe, Murdoch ve Midgley ile birlikte savaş yıllarının Oxford'unda erdem etiğini yeniden canlandıran dörtlünün üyesi; doksanıncı doğum gününde öldü.",
+    avatar: null,
+    country: "Birleşik Krallık",
+    birthYear: 1920,
+    affiliation: "Somerville College, Oxford · UCLA (1976-1991)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Philippa Ruth Foot (kızlık soyadı Bosanquet)",
+    birthDate: "3 Ekim 1920, Owston Ferry, Lincolnshire",
+    deathDate: "3 Ekim 2010, Oxford",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Analitik etik · erdem etiği · Aristotelesçi natüralizm",
+    areas: "Etik, meta-etik, erdem kuramı, pratik akıl, uygulamalı etik",
+    majorWorks: "Moral Beliefs (1958)\nThe Problem of Abortion and the Doctrine of the Double Effect (1967)\nMorality as a System of Hypothetical Imperatives (1972)\nVirtues and Vices and Other Essays in Moral Philosophy (1978)\nNatural Goodness (2001)\nMoral Dilemmas and Other Topics in Moral Philosophy (2002)",
+    keyConcepts: "Tramvay problemi, çifte etki öğretisi, erdemler ve kusurlar, varsayımsal buyruk olarak ahlak, doğal iyilik (natural goodness), Aristotelesçi kategorik, ahlaki akılcılık eleştirisi",
+    influencedBy: "Aristoteles, Aquinas, Wittgenstein, G. E. M. Anscombe, Iris Murdoch, Michael Thompson",
+    influenced: "Rosalind Hursthouse, John McDowell, Michael Thompson, Judith Jarvis Thomson (tramvay sorunu), Alasdair MacIntyre, çağdaş erdem etiği ve Aristotelesçi natüralizm",
+    longBio: "3 Ekim 1920'de Lincolnshire'da doğdu; annesi ABD Başkanı Grover Cleveland'ın kızıydı. Evde eğitim gördü, 1939'da Somerville College'a girdi ve felsefe, siyaset, iktisat okudu. Savaş yıllarının Oxford'unda, erkek öğrencilerin cepheye gittiği ve mantıkçı pozitivizmin etiği 'duygu ifadesi'ne indirgediği bir ortamda, Elizabeth Anscombe, Iris Murdoch ve Mary Midgley ile birlikte ahlak felsefesini yeniden kurmaya girişen kuşağın üyesi oldu. 1947'den itibaren Somerville'de ders verdi; 1976-1991 arasında UCLA'da profesördü; Oxford'a döndü ve 3 Ekim 2010'da, doksanıncı doğum gününde öldü.\n\n'Moral Beliefs' (1958), ahlaki kavramların olgulardan bağımsız 'tutumlar' olduğu tezine karşı, 'cesaret', 'adalet' gibi kavramların içeriğinin insan hayatının olgularına bağlı olduğunu savundu. 'The Problem of Abortion and the Doctrine of the Double Effect' (1967), çifte etki öğretisini sınamak için bir tramvay sürücüsünün beş kişiyi mi bir kişiyi mi ezeceği örneğini icat etti; Judith Jarvis Thomson'ın 1976 ve 1985'te geliştirdiği bu örnek 'tramvay problemi' adıyla deneysel felsefenin, nörobilimin ve otonom araç etiğinin standart aracı oldu. 'Morality as a System of Hypothetical Imperatives' (1972), Kant'a karşı ahlakın kategorik değil, kişinin neyi önemsediğine bağlı buyruklar olduğunu savundu; Foot sonradan bu görüşü kısmen geri aldı. Natural Goodness (2001), seksen yaşında yayımladığı tek monografi, ahlaki iyiliği ve kötülüğü, bir bitkinin ya da hayvanın türüne göre iyi ya da kusurlu olmasıyla aynı mantıksal yapıda, 'doğal iyilik' olarak kurdu: Erdemler, insanın türü olarak iyi yaşaması için gerekli özelliklerdir. Bu 'Aristotelesçi natüralizm', Hursthouse, McDowell ve Thompson'la çağdaş erdem etiğinin ana akımına dönüştü.\n\nFoot aynı zamanda Oxfam'ın ilk yıllarında çalışan bir aktivistti; 'Nazilerin yanlış olduğunu söyleyemeyen bir ahlak felsefesinin bir şeyleri yanlış yapmış olması gerektiği' sezgisi, bütün çalışmasının başlangıç noktasıydı.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Virtue Ethics' — https://plato.stanford.edu/entries/ethics-virtue/ · Britannica, 'Philippa Foot' — https://www.britannica.com/biography/Philippa-Foot · Benjamin Lipscomb, The Women Are Up to Something (Oxford UP, 2021)",
+  },
+  {
     name: "Tu Weiming",
     slug: "tu-weiming",
     headline: "Yeni Konfüçyüsçü filozof — Pekin Üniversitesi, Harvard (emeritus)",
@@ -2857,6 +2908,331 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "YANIS VAROUFAKIS VE TEKNOFEODALİZM",
+    slug: "yanis-varoufakis-ve-teknofeodalizm",
+    summary:
+      "Kapitalizm gerçekten öldü mü, yoksa yalnızca biçim mi değiştirdi? Yunan iktisatçı Yanis Varoufakis, 2023'te 'bulut sermayesi' ve 'teknofeodalizm' kavramlarıyla dijital platformların kârı rantla, piyasayı 'bulut tımarları'yla değiştirdiğini ilan etmişti. 2026'da Marksist eleştirmenlerine uzun bir cevap yazdı: 'Tarih geriye gitmiyor; yepyeni bir toplumsal-iktisadi tarza savruluyoruz.' Tezin anatomisi, Gane, Morozov ve Durand'ın itirazları, yapay zekâ çağında kavramın sınavı.",
+    seoTitle: "Yanis Varoufakis ve teknofeodalizm: Bulut sermayesi, rant, algoritma ve kapitalizmin ölümü tartışması (2026)",
+    metaDescription:
+      "Varoufakis'in teknofeodalizm tezi: bulut sermayesi, bulut rantı, dijital lordlar ve serfler; Gane, Snow, Morozov ve Durand'ın 'kapitalizm hâlâ kapitalizmdir' eleştirisi; Varoufakis'in 2026 tarihli Marksist savunması; algoritma, epistemoloji ve demokrasi; yapay zekâ çağında teknofeodalizm.",
+    contentType: "ANALIZ",
+    coverImage: "/kapak/varoufakis.jpg",
+    imageCredit: "Yanis Varoufakis",
+    featured: true,
+    sourceName: "Jacobin · Journal of Classical Sociology · yanisvaroufakis.eu",
+    sourceUrl: "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
+    publishedAt: "2026-10-03T21:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["marksizm", "teknoloji-felsefesi", "siyaset-felsefesi", "yapay-zeka", "demokrasi", "kavram"],
+    philosopherSlugs: ["yanis-varoufakis", "david-harvey"],
+    sources: [
+      { title: "Yanis Varoufakis, 'The Marxist Case for the Technofeudal Hypothesis'", publisher: "Jacobin (kısaltılmış) · tam metin yanisvaroufakis.eu", date: "4 Ağustos / 26 Eylül 2026", url: "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism", primary: true },
+      { title: "Nicholas Gane, 'Capitalism is Capitalism, not Technofeudalism'", publisher: "Journal of Classical Sociology 25(4), s. 353-368", date: "2025", url: "https://doi.org/10.1177/1468795X241269293" },
+      { title: "Henry Snow, 'We're Still Living Under Capitalism, Not Techno-Feudalism'", publisher: "Jacobin", date: "Ekim 2023", url: "https://jacobin.com/2023/10/cloud-capitalism-technofeudalism-serfs-cloud-big-data-yanis-varoufakis" },
+      { title: "Cédric Durand, Evgeny Morozov, Susan Watkins, 'How Big Tech Became Part of the State'", publisher: "Jacobin", date: "Kasım 2025", url: "https://jacobin.com/2025/11/technofeudalism-capitalism-microsoft-google-democracy" },
+      { title: "Yanis Varoufakis, Technofeudalism: What Killed Capitalism", publisher: "Bodley Head", date: "2023", url: "https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781529926095" },
+    ],
+    content: `Bir zamanlar toprağı elinde tutan aristokratlar vardı. Daha sonra fabrikaları, madenleri, demiryollarını ve finans sistemini kontrol eden kapitalistler ortaya çıktı. Peki bugün gücü kim elinde tutuyor? Toprağı olmayan ama milyarlarca insanın davranışlarını belirleyen teknoloji şirketleri mi? Yunan iktisatçı ve siyaset kuramcısı Yanis Varoufakis bu soruya, 2023'te yayımlanan *Technofeudalism: What Killed Capitalism* (Teknofeodalizm: Kapitalizmi Ne Öldürdü) kitabıyla radikal bir cevap verdi: Kapitalizm sona erdi; yerine teknofeodalizm geldi. Üç yıl içinde kavram, iktisat ve siyaset felsefesinin en çok tartışılan tezlerinden biri oldu; Steve Bannon'dan Marksist dergilere kadar beklenmedik okurlar buldu. Bu yıl Varoufakis, Marksist eleştirmenlerine, önce Jacobin'de kısaltılmış, 26 Eylül'de kendi sitesinde tam hâliyle yayımlanan uzun bir cevap yazdı: "The Marxist Case for the Technofeudal Hypothesis". Tartışma yeni bir aşamaya girdi; bu yazı tezin anatomisini, itirazları ve yapay zekâ çağındaki anlamını ele alıyor. Varoufakis bugün [Filozof Dizini'ne](/filozof/yanis-varoufakis) eklendi.
+
+## Kim konuşuyor?
+
+Önce konuşanın kim olduğunu bilmek gerekir; çünkü teknofeodalizm tezi bir kürsüden değil, bir biyografinin içinden geliyor. Varoufakis 1961'de Atina'da doğdu; Essex'te matematiksel iktisat ve oyun kuramı okudu, Cambridge, Sidney ve Atina'da ders verdi. 2012-2015 arasında, bir iktisat profesörü için alışılmadık bir işte çalıştı: Oyun şirketi Valve'ın "yerleşik iktisatçısı" olarak, milyonlarca oyuncunun sanal eşya alıp sattığı dijital ekonomileri içeriden gözlemledi. Kitabında bu deneyimin belirleyici olduğunu yazar: Piyasa gibi görünen ama tek bir şirketin kurallarını yazdığı, fiyatları, görünürlüğü ve erişimi belirlediği bir ekonomi görmüştü. 2015'te, Yunanistan'ın iflasın eşiğindeki aylarında, Syriza hükümetinin maliye bakanı olarak Avrupa alacaklılarıyla müzakereleri yürüttü, referandumun ardından istifa etti ve *Adults in the Room* ile bu deneyimi anlattı. 2016'da DiEM25'i kurdu. Teknofeodalizm tezi, hem Valve'da gördüğü dijital ekonominin hem de Troyka'da gördüğü "piyasa dışı güç"ün kuramıdır.
+
+## Temel soru: Kapitalizm hâlâ kapitalizm mi?
+
+Klasik kapitalizmde şirketler piyasada birbirleriyle rekabet eder; ürün satılır, kâr elde edilir, kâr yeniden yatırılır. Marx'ın kapitalizmi "en saf hâliyle", kendi çoğalmasını arayan sermayenin sürüklediği anarşik bir piyasa sistemi olarak incelemesinin nedeni buydu. Varoufakis'e göre dijital ekonomi bu mekanizmayı değiştirdi. Amazon yalnızca ürün satan bir şirket değildir; Google yalnızca arama hizmeti sunmaz; Apple yalnızca telefon üretmez; Meta yalnızca sosyal medya işletmez. Bu şirketlerin ortak özelliği, insanların ekonomik ve toplumsal faaliyetlerini gerçekleştirdiği dijital ortamların kendisine sahip olmalarıdır. Varoufakis bu yeni güce "bulut sermayesi" (cloud capital) adını veriyor ve 2026 makalesinde tanımı keskinleştiriyor: Bulut sermayesi, "meta üretmeyen, ama bizimle doğrudan arayüz kurarak, piyasa denebilecek herhangi bir şeyin dışında, muazzam rant çıkarma gücü üreten olağanüstü makineler ağı"dır.
+
+Buradaki kritik değişiklik şudur: Platform artık yalnızca satıcı değil, pazar yerinin sahibidir. Amazon.com'a girdiğinizde bir piyasaya değil, Varoufakis'in deyişiyle bir "bulut tımarı"na (cloud fief) girersiniz: Hangi ürünü göreceğinize, hangi satıcının öne çıkacağına, fiyatın ne olacağına tek bir algoritma karar verir; satıcılar Amazon'a cirolarının önemli bir bölümünü "bulut rantı" olarak öder. Feodalizm metaforu tam da burada devreye girer: Feodal sistemde köylü, üretim yapabilmek için lordun toprağına erişmek zorundaydı ve ürünün bir kısmını ona verirdi. Bugün içerik üreticisi platforma, satıcı Amazon'a, uygulama geliştiricisi Apple veya Google'a, reklamveren platformların kullanıcı verisine bağımlıdır. Varoufakis'in sınıf şeması iki yeni figür ekler: Platformlar için ücretsiz veri üreten milyarlarca kullanıcı, "bulut serfleri"; depolarda ve algoritmik yönetim altında çalışan işçiler, "bulut proleterleri"; ve geleneksel kapitalistler, artık bulut lordlarına rant ödeyen "vasal kapitalistler".
+
+## Kârın yerini rant mı aldı?
+
+Tezin iktisadi çekirdeği, kâr ile rant arasındaki klasik ayrımdır. Kâr, piyasada rekabet ederek, ürün satarak elde edilir ve rekabetle aşınır; rant ise kıt bir kaynağa, toprağa ya da tekele, sahip olmaktan gelir ve rekabetten etkilenmez. Adam Smith'ten Ricardo'ya klasik iktisat, kapitalizmi rantçı aristokrasiye karşı kârın zaferi olarak anlatmıştı. Varoufakis, tarihin tersine döndüğünü söyler: Amazon'un gücü yalnızca kendi sattığı ürünlerden değil, Marketplace üzerinde faaliyet gösteren milyonlarca satıcının ekonomik faaliyetinden aldığı paydan gelir; Apple'ın gücü iPhone satmasından çok, App Store'daki her işlemden aldığı yüzde otuzdan. Kapitalist piyasanın içindeki şirketler, piyasanın sahibi konumuna geçmiştir. Bunun makro sonucu, Varoufakis'e göre, 2008 sonrasında merkez bankalarının yarattığı ucuz paranın yatırıma değil bulut sermayesine akması ve kârın ekonomideki payının rant karşısında gerilemesidir.
+
+## Algoritma yeni toprak mı?
+
+Tezi daha felsefi bir düzleme taşımak mümkün. Feodalizmde güç toprağa erişimi kontrol etmekten, sanayi kapitalizminde üretim araçlarına sahip olmaktan geliyordu. Dijital ekonomide yeni bir soru ortaya çıkıyor: Güç, gerçekliği görünür kılan algoritmalara sahip olmaktan mı geliyor? Google hangi sonucu gösterecek, YouTube hangi videoyu önerecek, TikTok hangi içeriği milyonlara ulaştıracak, Amazon hangi ürünü öne çıkaracak, X'te hangi görüş görünür olacak? Bu sorular yalnızca ticari değil, epistemolojik sorulardır. Artık mesele yalnızca "kim neye sahip?" değil, "kim neyi görebileceğimize karar veriyor?"dur.
+
+Teknofeodalizm tartışmasının en güçlü tarafı, ekonomiyi epistemolojiyle birleştirmesidir; bu yüzden Marx kadar Foucault ve Heidegger üzerinden de okunabilir. Marx üretim ilişkilerini, Foucault iktidarın nasıl işlediğini, Heidegger teknolojinin insanın dünyayla ilişkisini nasıl dönüştürdüğünü sorar; bugün üçünü aynı anda düşünmek zorundayız. Varoufakis'in bulut sermayesinin "davranış değiştirme" gücü üzerine söyledikleri, Shoshana Zuboff'un "gözetim kapitalizmi"yle örtüşür; fark, Zuboff'un bunu kapitalizmin bir sapması, Varoufakis'in ise kapitalizmin ötesine geçiş olarak görmesidir. Sitemizde [yapay zekânın ekonomi-politiğini](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ele alırken Foucault'nun "algoritmik yönetimsellik"ine ve Habermas'ın meşruiyet sorusuna değinmiştik; Varoufakis bu tabloya iktisadi bir omurga öneriyor.
+
+## Peki Varoufakis haklı mı? Eleştiriler
+
+Tam burada tezin en önemli problemi ortaya çıkıyor ve eleştiriler üç koldan geliyor. Birincisi, kavramsal: Warwick'ten sosyolog Nicholas Gane'in *Journal of Classical Sociology*'de yayımlanan "Capitalism is Capitalism, not Technofeudalism" makalesi, kapitalizmin yerini feodalizmin almadığını, kapitalizmin ulus-devletlerin ve sosyal demokrasinin denetim kapasitesinin dışına taşan yeni biçimler geliştirdiğini savunuyor. Gane'e göre Amazon gibi platformların gücü gerçek ve tarihsel olarak yeni olabilir; fakat bundan "piyasa ve kâr artık merkezî değildir" sonucu çıkmaz: Amazon, Google ve Apple hâlâ sermaye biriktiriyor, yatırım yapıyor, kâr peşinde koşuyor ve birbirleriyle rekabet ediyor. Gane'in ikinci itirazı siyasaldır: Varoufakis'in önerdiği "liberter Marksist" alternatif, devletin düzenleyici gücüne ilgisizdir ve paradoksal biçimde, piyasa ve kârın artık merkezî olmadığı söylenen bir sistemde, şirketlerin piyasa konumunu zayıflatmak için tüketici boykotu gibi piyasa temelli eylemler önerir.
+
+İkincisi, tarihsel: Jacobin'de David Addison ve Merle Eisenberg gibi ortaçağ tarihçileri, "feodalizm" kavramının tarihçiler arasında zaten tartışmalı olduğunu ve metaforun ortaçağ ekonomisini karikatürleştirdiğini yazdı; Henry Snow ise "hâlâ kapitalizmde yaşıyoruz" başlıklı eleştirisinde, "bulut serfi" kavramının ücretli emeği görünmezleştirdiğini savundu. Üçüncüsü, Marksist: Cédric Durand, kendi "teknofeodalizm" kitabında (*Technoféodalisme*, 2020; Varoufakis'ten önce) kavramı rantiye kapitalizminin bir aşaması olarak kullanmıştı ve Varoufakis'in "kapitalizm öldü" iddiasını abartı buluyor; Evgeny Morozov ile birlikte kasım 2025'te yazdıkları "Big Tech nasıl devletin parçası oldu" makalesi, asıl dönüşümün feodalleşme değil, platformların devletle iç içe geçmesi olduğunu savunuyor. Bu eleştirinin arkasında Marx'ın temel tezi var: Kapitalizmin dinamiği sermaye birikimidir; rant kapitalizmin dışında değil, Marx'ın *Kapital*'in üçüncü cildinde gösterdiği gibi, içindedir.
+
+## Varoufakis'in 2026 cevabı
+
+Varoufakis'in bu yılki makalesi tam da bu üçüncü eleştiriye cevap. Jacobin'de "yakında kapitalizmi hâlâ kapitalizm sananlar için" diye özetlediği tezi şu: Marx'ın yöntemi, kapitalizmi ahlaki yargıyla değil, sermayenin kendine özgü hareket yasalarıyla incelemekti; aynı yöntem bugün uygulandığında, bulut sermayesinin geleneksel sermayeden farklı bir hareket yasası olduğu görülür. Geleneksel sermaye değer üretmek için emek satın almak ve meta satmak zorundadır; bulut sermayesi ise kullanıcıların ücretsiz emeğiyle kendini yeniden üretir ve meta satmadan rant toplar. Varoufakis, eleştirmenlerinin tezi "geçmişi idealleştirmek" olarak okumasının yanlış olduğunu söylüyor: "Feodalizme dönmüyoruz; tarih geriye gitmiyor. Dizginsiz sermaye birikiminin sürüklediği yepyeni bir toplumsal-iktisadi tarza doğru savruluyoruz." Yani teknofeodalizm, kapitalizmin öncesine değil sonrasına aittir ve tam da sermaye birikiminin ürünüdür; "kapitalizmi ne öldürdü?" sorusunun cevabı, "sermayenin kendisi"dir.
+
+Bu cevap tartışmayı bitirmiyor, ama yerini değiştiriyor. Asıl soru artık "Varoufakis haklı mı?" değil, şudur: 21. yüzyıl kapitalizmini açıklamak için 19. yüzyılın kavramları hâlâ yeterli mi? Eğer "rant" ve "kâr" ayrımı bulut ekonomisinde bulanıklaşıyorsa, Marx'ın kavramlarını terk etmek mi, yoksa Varoufakis'in yaptığı gibi onları yeni bir nesneye uygulamak mı gerekir? Sitemizde [David Harvey'in sermaye analizini](/filozof/david-harvey) ele alırken, Harvey'in "mülksüzleştirme yoluyla birikim" kavramının bu tartışmanın öteki ucunu tuttuğuna değinmiştik: Harvey için platform rantı, kapitalizmin yeni bir aşaması değil, her zaman yaptığı şeyin dijital biçimidir.
+
+## Yapay zekâ teknofeodalizmi güçlendiriyor mu?
+
+2026'da bu tartışma daha da önemli hâle geldi; çünkü yapay zekâ, bulut sermayesinin üzerine yeni bir katman ekliyor. Büyük modelleri geliştirmek için devasa veri kümeleri, hesaplama gücü, çipler, veri merkezleri, bulut altyapısı ve kullanıcı verisi gerekiyor ve bunların önemli bir bölümü birkaç şirketin kontrolünde; Stanford'un bu yılki AI Index raporuna göre ABD'deki özel yapay zekâ yatırımı Çin'dekinin yirmi katından fazla. Varoufakis'in kavramlarıyla, yapay zekâ bulut sermayesinin "kendini yeniden üretme" kapasitesini artırıyor: Model, kullanıcıların ücretsiz ürettiği metinle eğitiliyor, sonra o kullanıcılara arayüz olarak geri satılıyor. Varoufakis, 2026'daki konuşmalarında bu tabloyu Palantir ve savunma teknolojileri üzerinden "tech lordism" kavramıyla genişletti: Bulut lordları artık yalnızca piyasayı değil, devletin güvenlik altyapısını da işletiyor. Durand ve Morozov'un "Big Tech devletin parçası oldu" tezi ile Varoufakis'in "lordluk" tezi, farklı adlarla aynı olguyu işaret ediyor.
+
+## Teknofeodalizm sadece ekonomi değildir
+
+Varoufakis'i yalnızca bir iktisatçı olarak okumak teorinin önemli bir bölümünü kaçırmak olur; çünkü teknofeodalizm aynı zamanda bir demokrasi problemidir. Bir toplumda insanların bilgiye erişimini birkaç özel şirketin algoritmaları belirliyorsa, bir avuç platform kamusal iletişim altyapısının önemli bölümünü kontrol ediyorsa, yapay zekâ modelleri bilgi üretiminin arayüzü hâline geliyorsa, şu soru kaçınılmaz olur: Demokratik egemenlik kimin elindedir? Devletin mi, seçmenin mi, yoksa platformun algoritmasını yazan şirketin mi? Varoufakis'in cevabı, DiEM25'in programında somutlaşır: Bulut sermayesinin "sosyalleştirilmesi", platformların kullanıcı kooperatiflerine dönüştürülmesi ve verinin bir kamu malı olarak tanınması. Eleştirmenleri bunu ütopik buluyor; Varoufakis ise alternatifin, bulut lordlarının devletle birleştiği bir "teknofeodal mutlakiyet" olduğunu söylüyor.
+
+Teknofeodalizm teorisinin en güçlü tarafı belki de kavramın kendisi değil, bize sordurduğu sorudur: Bir şirket insanların içinde yaşadığı dijital dünyayı kontrol etmeye başladığında, hâlâ sadece bir şirket midir? Bu soru, Amazon'dan Google'a, Meta'dan OpenAI'a kadar bütün büyük teknoloji şirketleri için geçerlidir ve burada felsefe yeniden ekonominin içine girer. Çünkü mesele artık yalnızca mülkiyet değil, özgürlüktür. Özgürlük yalnızca istediğimizi satın alabilmekse başka bir şeydir; içinde düşündüğümüz, konuştuğumuz, gördüğümüz ve karar verdiğimiz dijital ortamın kurallarını belirleyebilmekse bambaşka bir şey. Kant'ın "Aydınlanma nedir?" sorusuna verdiği cevap, "aklını başkasının kılavuzluğu olmadan kullanma cesareti"ydi; bulut tımarında aklın kılavuzu bir algoritmaysa, Aydınlanma sorusu yeniden açılmış demektir.
+
+## Sonuç: Kapitalizm ölmedi; fakat eski kapitalizmin dünyasında yaşamıyoruz
+
+Varoufakis'in "teknofeodalizm" kavramı doğru olsun ya da olmasın, önemli bir tarihsel dönüşümü görünür kılıyor. Sanayi kapitalizminin fabrikası yerini giderek platforma bırakıyor; işçi yalnızca fabrikada değil, algoritmik sistemlerin içinde çalışıyor; tüketici yalnızca müşteri değil, veri üreten bir kullanıcı; piyasa yalnızca alışveriş alanı değil, algoritmik olarak düzenlenen bir ekosistem; ve sermaye artık yalnızca fiziksel üretim araçlarında değil, dijital gerçekliğin altyapısında birikiyor. Gane ve Durand haklıysa bu hâlâ kapitalizmdir; Varoufakis haklıysa kapitalizmin ötesidir. Her iki durumda da şu cümle doğru: Kapitalizm ölmüş olmayabilir, fakat kapitalizmin üzerinde yükseldiği dünya değişmiştir. Ve felsefenin önündeki yeni soru şudur: Dijital dünyanın efendileri ortaya çıktığında özgür insan ne demektir?`,
+  },
+  {
+    title: "4 EKİM 2026 — YAKLAŞAN FELSEFE ETKİNLİKLERİ VE YENİ KİTAPLAR",
+    slug: "yaklasan-felsefe-etkinlikleri-ve-yeni-kitaplar-4-ekim-2026",
+    summary:
+      "Türkiye'de felsefe takvimi hareketleniyor: 8 Ekim'de İstanbul Üniversitesi'nde Önay Sözer Sempozyumu, ekim sonunda İslam Felsefesi Sempozyumu ve 'Teknik ve Felsefe', kasımda Novembertagung ve Reichenbach kongresi. Batı dışından: Hokkaido'da felsefe ve yapay zekâ, Hildesheim'da Kore Felsefesi Haftası, Hangzhou'da Çin'de bilim tarihyazımı, Şanghay'da Williamson. Ve Türkçede yedi yeni felsefe kitabı.",
+    seoTitle: "Yaklaşan felsefe etkinlikleri ve yeni kitaplar: 4 Ekim 2026 (İstanbul, Hokkaido, Hildesheim, Hangzhou, Şanghay)",
+    metaDescription:
+      "Ekim-Kasım 2026 felsefe takvimi: Önay Sözer Sempozyumu, Teknik ve Felsefe, İslam Felsefesi Sempozyumu, Novembertagung, Reichenbach kongresi, Philosophy & AI 5 Hokkaido, Kore Felsefesi Haftası Hildesheim, Historiography of Science in China Zhejiang, Williamson Fudan; Türkçede yeni felsefe kitapları.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20University%20Entrance%20Gate%2C%202025.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi ana giriş kapısı, Beyazıt, 2025 · Fotoğraf: Medelam, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Düzenleyici kurumların duyuruları",
+    sourceUrl: "https://novembertagung.wordpress.com/",
+    publishedAt: "2026-10-03T21:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "sempozyum", "akademi", "yeni-kitap", "islam-felsefesi"],
+    philosopherSlugs: ["timothy-williamson"],
+    sources: [
+      { title: "Modern Korean Thinkers: Late 19th Century to 1945 — International Workshop", publisher: "GloPhi, Universität Hildesheim", date: "7-8 Ekim 2026", url: "https://www.uni-hildesheim.de/glophi/2026/09/24/modern-korean-thinkers/", primary: true },
+      { title: "Historiography of Science in China", publisher: "Zhejiang University / CWB Philosophy of Science", date: "24-25 Ekim 2026", url: "https://www.eventbrite.com/e/historiography-of-science-in-china-tickets-1999519301055" },
+      { title: "36th Novembertagung on the History and Philosophy of Mathematics", publisher: "Novembertagung", url: "https://novembertagung.wordpress.com/" },
+      { title: "Felsefi Beyan — Michel Foucault", publisher: "Yapı Kredi Yayınları", url: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx" },
+      { title: "Utanç Devrimci Bir Duygudur — Frédéric Gros", publisher: "Yapı Kredi Yayınları", url: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx" },
+    ],
+    content: `Ekim ve kasım ayları Türkiye'de felsefe açısından yoğun geçecek. İstanbul öne çıkarken, etkinlikler yalnızca Batı felsefesiyle sınırlı kalmıyor; İslam felsefesi, bilim felsefesi, teknik, matematik, Çin ve Kore düşüncesi de takvimde. Daha önce ayrı haber yaptığımız toplantıları bağlantıyla verdik, ayrıntıları tekrarlamadık; bu haftanın yeni girdileri Hildesheim, Hangzhou ve Tokyo. Yazının sonunda Türkçede yeni çıkan felsefe kitapları için [ayrı dosyamıza](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) bağlantı var.
+
+## Türkiye'de felsefe takvimi hareketleniyor
+
+**8 Ekim · İstanbul Üniversitesi — I. Önay Sözer Çağdaş Felsefe Sempozyumu.** Edebiyat Fakültesi Genel Kurul Odası'nda, Türkiye'de fenomenoloji ve Hegel araştırmalarının önemli isimlerinden Önay Sözer'in (1936-2022) düşüncesine odaklanan ilk sempozyum. Sözer'in felsefesini Türkiye'deki fenomenoloji ve çağdaş kıta felsefesi geleneği içinde yeniden değerlendirmek açısından önemli bir buluşma; programı [takvimde](/etkinlik/onay-sozer-cagdas-felsefe-sempozyumu-2026) ve [haberimizde](/haber/onay-sozer-cagdas-felsefe-sempozyumu-2026-istanbul-universitesi).
+
+**22-23 Ekim · İstanbul Medeniyet Üniversitesi — II. Öğrenci Kongresi: "Teknik ve Felsefe".** Aristoteles'in *tekhne*'sinden Bacon'a, Marx'tan Benjamin'e, Heidegger'den Simondon'a uzanan bir çizgide teknik kavramı; yapay zekâ, teknoloji etiği, teknik ve ontoloji, teknoloji ve estetik, feminizm ve ekoloji başlıkları. Lise, lisans ve lisansüstü öğrencilerine açık. [Haber](/haber/medeniyet-teknik-ve-felsefe-kongresi) · [takvim](/etkinlik/medeniyet-ogrenci-kongresi-2026). Bölümün takviminde 14 Ekim için "Türk Düşüncesinde Çağdaş Yansımalar: Gençler Düşünüyor, Soruyor, Tartışıyor" başlıklı bir öğrenci etkinliği de anılıyor; ayrıntılarını bölümden teyit edince takvime ekleyeceğiz.
+
+**26-27 Ekim · İstanbul Üniversitesi — I. Ulusal İslam Felsefesi Sempozyumu: "İskenderiye'den Bağdat'a".** Odakta Geç Antikçağ felsefesinin İslam dünyasına aktarılması, tercüme hareketleri ve bu mirasın yeniden yorumlanması. Başlık, İslam felsefesini "Yunan felsefesinin aktarılması" şeklindeki eski anlatının ötesinde, çeviri, dönüşüm ve yeniden üretim problemi olarak tartışmak açısından önemli. [Haber](/haber/ulusal-islam-felsefesi-sempozyumu-2026) · [takvim](/etkinlik/ulusal-islam-felsefesi-sempozyumu).
+
+**3-5 Kasım · İstanbul Medeniyet Üniversitesi — 36. Novembertagung.** Matematik tarihi ve felsefesinin genç araştırmacılar konferansı ilk kez İstanbul'da; bu yılın konusu "Matematikte (Algılanan) İkilikler: Karşıtlıklar, Sınırlar ve Gerilimler". Toplantı matematiği yalnızca teknik bir bilim olarak değil, tarihsel ve felsefi bir düşünme biçimi olarak ele alıyor. [Takvim](/etkinlik/novembertagung-36-istanbul-2026).
+
+**5-6 Kasım · İstanbul Üniversitesi — Reichenbach in İstanbul.** Felsefe Bölümü ve Mantık Araştırmaları Derneği'nin uluslararası kongresi Hans Reichenbach'ın mirasını ele alıyor: bilim felsefesi, olasılık, nedensellik, zaman, uzay ve görelilik kuramının felsefi temelleri. Sembolik önemi büyük: Nazi Almanyası'ndan kaçtıktan sonra 1933-1938 arasında İstanbul Üniversitesi'nde ders veren Reichenbach'ın mirası, doksan yıl sonra aynı kurumda tartışılacak. [Haberimiz](/haber/reichenbach-kongresi-istanbul-2026); Reichenbach'ın asistanı [Nusret Hızır'ı](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) da anmıştık.
+
+## Batı'nın dışına çıkan felsefe takvimi
+
+**Japonya: Felsefe ve yapay zekâ.** 16-17 Ekim'de Hokkaido'da Philosophy & AI 5 çalıştayı; Hong Kong Üniversitesi AI & Humanity Lab'in düzenlediği dizi, yapay zekâyı özellikle dil felsefesi ve epistemoloji açısından ele alıyor. [Takvim](/etkinlik/philosophy-and-ai-5-hokkaido-2026). Tokyo Üniversitesi Felsefe Merkezi'nin (UTCP) ekim programında bilinç, beden, estetik ve metafizik başlıkları var; 9 Ekim için duyurulan "The Aesthetics and Metaphysics of Mirror Images" konferansını, merkezin sayfasından teyit edince takvime ekleyeceğiz.
+
+**Almanya: Kore Felsefesi Haftası.** Hildesheim Üniversitesi'nin Küresel Felsefe (GloPhi) programı, 5-8 Ekim'i Kore felsefesine ayırdı: 5-6 Ekim'de Kuzey Amerika Kore Felsefesi Derneği'nin 11. yıllık konferansı, 7-8 Ekim'de "Modern Korean Thinkers: Late 19th Century to 1945" uluslararası çalıştayı (düzenleyenler Sool Park, Dobin Choi, Hyojin Lee Fromell). Çalıştay, sömürge yönetimine, dinî reform hareketlerine ve Avrupa felsefesiyle karşılaşmaya cevap veren modern Kore düşünürlerini, her oturumda bir düşünürün İngilizceye çevrilmiş temel metnini birlikte okuyarak ele alıyor. Arkasındaki soru, Batı merkezli "felsefe" tanımının modern Kore düşüncesini anlamak için yeterli olup olmadığı; bu soru yalnızca Kore tarihiyle değil, küresel felsefe tarihinin nasıl yeniden yazılması gerektiğiyle ilgili. Hildesheim'daki Oxford Yeni-Konfüçyüsçülük toplantısıyla birlikte, [Tu Weiming yazımızda](/haber/tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak) anlattığımız "Doğu Asya düşüncesinin geri dönüşü"nün bir parçası.
+
+**Çin: Bilim tarihinin felsefesi.** 24-25 Ekim'de Zhejiang Üniversitesi'nde (Hangzhou) "Historiography of Science in China" çalıştayı; *Transversal: International Journal for the Historiography of Science* dergisinin özel sayısına katkıda bulunacak yazarları bir araya getiriyor, bildiriler önceden paylaşılıp tartışılıyor. Toplantı, Çin'in modernleşme deneyimini Batı biliminin basitçe "ithali" olarak değil, Çin düşüncesinin bilim ve moderniteyle karşılaşması olarak ele alıyor. Kasımda ise Şanghay'da Fudan Üniversitesi'nde [Timothy Williamson'ın](/haber/timothy-williamson-yale-fudan-2026) Çin felsefesiyle karşılaşması, Batı analitik felsefesi ile Çin felsefesini doğrudan karşı karşıya getirecek.
+
+**Doğrulayamadıklarımız.** Ekim ayı için Hindistan'da (Pondicherry'de karşılaştırmalı felsefe, Jaipur'da epistemoloji, Bhubaneswar'da felsefe tarihi, Goa'da uygulamalı etik, Yeni Delhi'de IGNCA konferansı) ve 19-20 Ekim'de çevrim içi bir "International Conference on African Philosophy" için dolaşan kayıtları düzenleyici kurumların duyurularından teyit edemedik; bu listeye almadık. Felsefenin coğrafyasının genişlemesi gerçek bir eğilim, ama takvimimize yalnızca doğrulanmış toplantılar giriyor; bir hafta önce [Dakar'daki UNESCO konferansını](/etkinlik/unesco-chair-intercultural-competences-dakar-2026) ve [Seul'deki Hint felsefesi konferansını](/etkinlik/snuac-indian-philosophy-fall-2026) bu ölçütle eklemiştik.
+
+## Kitaplar
+
+Türkçede bu sonbahar yedi yeni felsefe kitabı var: Foucault'nun *Felsefi Beyan*'ı, Frédéric Gros'nun *Utanç Devrimci Bir Duygudur*'u, Harun Tepe'nin *İnsan Haklarını Kim Öldürdü?*'sü, George Makari'nin *Korkuya ve Yabancılara Dair*'i, Geneviève Fraisse'in *Feminizm ve Felsefe*'si, Mustafa Günay'ın *İnsana Felsefeyle Yönelmek*'i ve Douglas Kutach'ın *Nedensellik*'i. Hepsini [ayrı bir dosyada](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) ele aldık.
+
+## 4 Ekim'in dikkat çekici düşünsel ortaklığı
+
+Bu haftanın kitaplarına ve konferanslarına birlikte bakıldığında felsefenin gündeminin birkaç büyük eksen etrafında toplandığı görülüyor: insan hakları, yapay zekâ ve teknik, korku ve yabancı, cinsiyet ve eşitlik, bilim ve gerçeklik, Çin ve Kore düşüncelerinin Batı merkezli felsefe tarihine itirazı. Ve belki de bütün bu tartışmaları birbirine bağlayan soru şu: 21. yüzyılda insanı yeniden düşünmek için 20. yüzyılın felsefi kavramları hâlâ yeterli mi?`,
+  },
+  {
+    title: "TÜRKÇEDE YENİ FELSEFE KİTAPLARI — 2026",
+    slug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+    summary:
+      "Foucault'nun 1966'da yazıp yayımlamadığı 'Felsefi Beyan' Türkçede; Frédéric Gros utancı devrimci bir duygu olarak okuyor; Harun Tepe 'İnsan haklarını kim öldürdü?' diye soruyor; George Makari zenofobinin tarihini, Geneviève Fraisse feminizm ile felsefenin ilişkisini yazıyor; Mustafa Günay felsefi antropolojiyi, Douglas Kutach nedenselliği ele alıyor. Sonbaharın yedi kitabı.",
+    seoTitle: "Türkçede yeni felsefe kitapları 2026: Foucault Felsefi Beyan, Gros Utanç, Tepe İnsan Hakları, Makari Zenofobi, Fraisse, Günay, Kutach",
+    metaDescription:
+      "2026'da Türkçeye kazandırılan ve yayımlanan felsefe kitapları: Michel Foucault Felsefi Beyan (YKY), Frédéric Gros Utanç Devrimci Bir Duygudur (YKY), Harun Tepe İnsan Haklarını Kim Öldürdü? (YKY), George Makari Korkuya ve Yabancılara Dair (YKY), Geneviève Fraisse Feminizm ve Felsefe (Minotor), Mustafa Günay İnsana Felsefeyle Yönelmek (Çizgi), Douglas Kutach Nedensellik (Say).",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Akdeniz%20Heykeli%2C%20Yap%C4%B1%20Kredi%20K%C3%BClt%C3%BCr%20Sanat.jpg?width=1600",
+    imageCredit: "İlhan Koman'ın Akdeniz heykeli, Yapı Kredi Kültür Sanat binası, İstiklal Caddesi · Fotoğraf: Başak, CC0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Yapı Kredi Yayınları · Minotor Kitap · Çizgi Kitabevi · Say Yayınları",
+    sourceUrl: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx",
+    publishedAt: "2026-10-03T21:15:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "ceviri", "etik", "toplumsal-cinsiyet", "epistemoloji"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      { title: "Felsefi Beyan — Michel Foucault, çev. Ayşe Deniz Temiz", publisher: "Yapı Kredi Yayınları", date: "Nisan 2026", url: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx", primary: true },
+      { title: "Utanç Devrimci Bir Duygudur — Frédéric Gros, çev. Olcay Kunal", publisher: "Yapı Kredi Yayınları", date: "Mart 2026", url: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx" },
+      { title: "İnsan Haklarını Kim Öldürdü? — Harun Tepe", publisher: "Yapı Kredi Yayınları", date: "Mart 2026", url: "https://www.kitapyurdu.com/yazar/harun-tepe/15007.html" },
+      { title: "Psikiyatr ve tarihçi George Makari'den zenofobinin köklerine dair derinlikli bir tartışma", publisher: "Edebiyat Haber", url: "https://www.edebiyathaber.net/psikiyatr-ve-tarihci-george-makariden-zenofobinin-koklerine-dair-derinlikli-bir-tartisma-korkuya-ve-yabancilara-dair/" },
+      { title: "Minotor Kitap", publisher: "İthaki Yayın Grubu", url: "https://www.ithakiyayingrubu.com/minotor-kitap" },
+    ],
+    content: `Sonbahar, Türkçe felsefe yayıncılığının en verimli mevsimi; bu yıl da öyle. Aşağıdaki yedi kitabın dördü Yapı Kredi Yayınları'nın felsefe dizisinden, biri Minotor'dan, biri Çizgi'den, biri Say'dan. Ortak noktaları, hepsinin aynı soruya farklı yerlerden bakması: Yirminci yüzyılın kavramları, insan hakları, utanç, yabancı, cinsiyet, nedensellik, felsefenin kendi söylemi, bugünü düşünmek için hâlâ yeterli mi? Sitemizde [eylül başında](/haber/sonbahar-2026-felsefe-kitaplari) sonbahar programının bir kısmını duyurmuştuk; burada o listede olmayan, ekim itibarıyla raflarda bulunan kitaplar var.
+
+## Michel Foucault — Felsefi Beyan
+
+Yapı Kredi Yayınları'nın nisan ayında yayımladığı *Felsefi Beyan* (çev. Ayşe Deniz Temiz, 256 s.), Foucault'nun 1966 yazında, *Kelimeler ve Şeyler*'in hemen ardından yazdığı, bitirip de yayımlamadığı ve 2023'te Orazio Irrera ile Daniele Lorenzini'nin edisyonuyla Fransa'da gün ışığına çıkan *Le discours philosophique* metninin Türkçesi. Foucault burada felsefeyi hakikatin peşinden giden bir disiplin olarak değil, kendi çağını teşhis eden, tarihsel sınırları olan bir "beyan" biçimi olarak ele alıyor: Descartes'tan Nietzsche'ye modern felsefe, Foucault'ya göre, "şimdi"nin ne olduğunu söylemeye çalışan bir söylemdir ve bu söylemin gerekçelendirme, çözümleme, eleştiri ve yorumlama gibi işlevleri, felsefenin kendi çağıyla kurduğu ilişkinin biçimleridir.
+
+Metnin önemi iki yönlü. Birincisi, Foucault'nun kendi felsefi yöntemini en açık biçimde tartıştığı metinlerden biri; "arkeoloji" ile felsefe arasındaki ilişkiyi, *Bilginin Arkeolojisi*'nden (1969) üç yıl önce, taslak hâlinde kuruyor. İkincisi, Kant'ın "Aydınlanma nedir?" sorusuna Foucault'nun 1984'te vereceği cevabın, felsefenin "bugünün ontolojisi" olduğu tezinin, 1966'daki ilk biçimi burada. Bu yıl Foucault'nun yüzüncü doğum yılı; sitemizde [Pennsylvania'daki sempozyumu](/haber/foucault-yuzuncu-yil-2026), [dördüncü cildin yayımlanmasını](/haber/foucault-bedenin-itiraflari-dorduncu-cilt) ve Collège de France'ın sergisini ele almıştık. *Felsefi Beyan*, bu yüzüncü yılın Türkçedeki en önemli yayını.
+
+## Frédéric Gros — Utanç Devrimci Bir Duygudur
+
+Marx, 1843'te Arnold Ruge'ye yazdığı mektupta "utanç bir tür öfkedir, içe dönmüş öfke; ve bir ulus gerçekten utanırsa, sıçramak için gerilen bir aslan gibi olur" demiş, utancın "devrimci bir duygu" olduğunu söylemişti. Paris Sciences Po'da siyaset felsefesi profesörü ve Foucault'nun Collège de France derslerinin editörlerinden Frédéric Gros, *Yürümenin Felsefesi* ve *İtaat Etmemek*'ten sonra Türkçeye kazandırılan üçüncü kitabı *Utanç Devrimci Bir Duygudur*'da (YKY, çev. Olcay Kunal, 144 s., Mart 2026) bu cümleden yola çıkıyor ve utancı kişisel bir zaaf olmaktan çıkarıp siyasal bir güce dönüştürüyor.
+
+Gros'nun yöntemi, utancın edebiyattaki ve psikanalizdeki tanıklıklarını okumak: Annie Ernaux'nun sınıf utancı, Didier Eribon'un *Reims'e Dönüş*'teki hem sınıf hem cinsellik utancı, Primo Levi'nin hayatta kalanın utancı ("utanç, insanın insan olduğundan utanması"), Lacan'ın utanç üzerine son seminer sözleri. Gros, utancı suçluluktan ayırır: Suçluluk yapılan bir şeye, utanç olunan bir şeye ilişkindir; bu yüzden suçluluk bireysel, utanç toplumsaldır. Devrimci utanç, yoksulluğun, ayrımcılığın, aşağılanmanın utancını utanan kişiden alıp ona neden olana geri çevirmektir. Ernaux'nun Nobel konuşmasındaki "ırkımın öcünü almak için yazacağım" cümlesi, Gros'nun tezinin edebî biçimidir. Kısa, yoğun, bugünün Türkiye'sinde de okunması kolay olmayan bir deneme.
+
+## Harun Tepe — İnsan Haklarını Kim Öldürdü?
+
+Hacettepe Üniversitesi'nde etik ve insan hakları felsefesi profesörü, [İoanna Kuçuradi'nin](/filozof/ioanna-kucuradi) öğrencisi ve çalışma arkadaşı Harun Tepe'nin mart ayında YKY'den çıkan kitabı (184 s.), bu hafta hocasının ölümüyle beklenmedik bir güncellik kazandı. Alt başlığı "İnsan Hakları Eleştirileri Üzerine": Tepe, son yirmi yılda insan haklarına yöneltilen eleştirileri tek tek ele alıyor: Marksist eleştiri (haklar burjuva bireyciliğinin ideolojisidir), komüniteryen eleştiri (haklar topluluk bağlarını çözer), postkolonyal eleştiri (haklar Batı'nın evrenselcilik maskesidir), realist eleştiri (haklar güç ilişkilerini gizler) ve "insan hakları çağının sonu" tezleri (Samuel Moyn, Stephen Hopgood). Kitabın temel sorusu güncel: İnsan hakları gerçekten tükendi mi, yoksa onları savunmanın yeni yollarını mı bulmak gerekiyor?
+
+Tepe'nin cevabı Kuçuradi okulunun cevabıdır: Eleştirilerin çoğu insan haklarını değil, insan haklarının siyasal kullanımlarını hedef alır; "insan hakları"nı "haklar söylemi"nden, hak kavramını hak retoriğinden ayırdığınızda, eleştirilerin büyük kısmı hedefini kaybeder. Kitap, Kuçuradi'nin "insanın değeri"nden türetilen insan hakları temellendirmesinin, bu eleştirilere karşı en dirençli temellendirme olduğunu savunuyor. Sitemizde [Kuçuradi'nin ardından yazdığımız yazıda](/haber/ioanna-kucuradi-1936-2026-vefat) bu okulun mirasını ele almıştık; Tepe'nin kitabı o mirasın bugünkü biçimi.
+
+## George Makari — Korkuya ve Yabancılara Dair: Zenofobinin Tarihçesi
+
+Weill Cornell'de psikiyatri profesörü ve tıp tarihçisi George Makari'nin kitabı (YKY, çev. Özlem Yüksel), "zenofobi" kelimesinin tarihinden yola çıkıyor: Terim, 1880'lerde Fransızcada, önce yabancılara karşı "patolojik" korkuyu adlandırmak için icat edildi; sonra sömürgeciliğin, Boxer Ayaklanması'nın ve Dreyfus Davası'nın diline girdi; 20. yüzyılda bir psikiyatrik kategori ile siyasal bir suçlama arasında gidip geldi. Makari, kavramın tarihini psikiyatri, sömürge tarihi ve düşünce tarihi üzerinden izliyor: Conrad, Camus, Richard Wright ve James Baldwin'in romanları; Sartre'ın *Yahudi Sorunu*, Beauvoir'ın "öteki" kavramı, Fanon'un sömürge psikiyatrisi, Adorno'nun otoriter kişilik araştırması, Foucault'nun normalleştirme kuramı.
+
+Kitabın felsefi sorusu açık: İnsanın "yabancı" dediği kişiden korkması doğal mı, yoksa tarih tarafından mı üretiliyor? Makari'nin cevabı ikisi de: Yabancıya karşı tepki, insan bilişinin "iç grup/dış grup" mekanizmalarına dayanır; ama bu tepkinin nefrete, dışlamaya ve şiddete dönüşmesi, siyasal ve kurumsal olarak üretilir. Göç, milliyetçilik ve kimlik siyasetinin yeniden yükseldiği bir dönemde, sitemizde [demografi ve siyaset felsefesi](/haber/demografi-ve-siyaset-felsefesi-goc-nufus-yurttaslik) yazısında ele aldığımız tartışmanın psikolojik ve tarihsel arka planı.
+
+## Geneviève Fraisse — Feminizm ve Felsefe
+
+Fransız feminist felsefeci Geneviève Fraisse (1948), CNRS'te araştırma direktörü, 1999-2004 arasında Avrupa Parlamentosu üyesi ve yirmiye yakın kitabın yazarı; *Cinsiyet Farkı* ve *Rıza* gibi çalışmaları Türkçede yoktu. Minotor Kitap'ın (İthaki Yayın Grubu) yayımladığı *Feminizm ve Felsefe*, Fraisse'in temel iddiasını Türkçe okura ilk kez sunuyor: Feminist felsefe, yalnızca geleneksel felsefeye dışarıdan yöneltilmiş bir eleştiri değil, felsefenin kavramlarını (eşitlik, özgürlük, rıza, fark, evrensellik) içeriden dönüştüren bir düşünme biçimidir. Fraisse, "feminist düşüncenin siyasal epistemolojisi" dediği programda, cinsiyet farkının Rousseau'dan Kant'a felsefe tarihinin "düşünülmemiş"i olduğunu, filozofların eşitliği tanımlarken kadınları hangi kavramsal işlemlerle dışarıda bıraktığını gösterir. Judith Butler ve Luce Irigaray'ın çevrildiği ama Fransız feminizminin "tarihçi" kanadının az bilindiği Türkçede önemli bir boşluğu dolduruyor.
+
+## Mustafa Günay — İnsana Felsefeyle Yönelmek: İnsan, Değerler ve Tarih Bilinci
+
+Çukurova Üniversitesi'nden Mustafa Günay'ın Çizgi Kitabevi'nden çıkan kitabı, insan, değerler ve tarih bilinci arasındaki ilişkiyi felsefi antropoloji perspektifinden ele alıyor. Takiyettin Mengüşoğlu'nun kurduğu, Kuçuradi'nin etik ve değer felsefesine taşıdığı, Günay'ın da içinden geldiği Türkiye'deki insan felsefesi geleneğinin yeni bir halkası: İnsan, değerlerini tarih içinde kuran ve tarih bilinci olmadan kendini bilemeyen bir varlıktır. Türkiye'deki felsefi antropoloji geleneği açısından dikkat çekici bir çalışma; aynı geleneğin kurucu metinlerini, [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) ve [Nusret Hızır](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) yazılarımızda ele almıştık.
+
+## Douglas Kutach — Nedensellik
+
+Say Yayınları'nın "Felsefe: Anahtar Kavramlar" dizisinin ikinci kitabı (çev. Alper Bilgehan Yardımcı), Polity'nin *Key Concepts in Philosophy* serisinden. Douglas Kutach, nedensellik kavramını çağdaş analitik felsefe açısından, Hume'un düzenlilik kuramından karşıolgusal kuramlara (Lewis), olasılıksal nedensellikten süreç kuramlarına ve Judea Pearl'ün müdahaleci modellerine kadar bütün ana yaklaşımları karşılaştırarak ele alıyor. Nedensellik, bilim felsefesinin, zihin felsefesinin (zihinsel nedensellik) ve hukukun (sorumluluk) ortak kavramı; Türkçede bu düzeyde bir giriş yoktu. Kasımda İstanbul'da toplanacak [Reichenbach kongresinin](/haber/reichenbach-kongresi-istanbul-2026) de ana konularından biri: Reichenbach'ın "ortak neden ilkesi", Kutach'ın kitabındaki tartışmanın tarihsel kaynaklarından.
+
+## Bu kitapların ortak sorusu
+
+Yedi kitap, farklı diller ve gelenekler: Foucault'nun 1966'sı, Gros'nun 2021'i, Tepe'nin 2026'sı; Fransız feminizmi, Amerikan psikiyatri tarihi, Türk felsefi antropolojisi, Anglofon metafizik. Ortak noktaları, hepsinin yirminci yüzyılın bir kavramını (söylem, utanç, hak, yabancı, cinsiyet, insan, neden) yeniden sorgulaması. Felsefe yayıncılığında bir mevsimin eğilimi, o mevsimin felsefi gündemini gösterir: 2026 sonbaharında Türkçe okur, insan hakları ve yabancı korkusu üzerine düşünmeye çağrılıyor. [Kitaplar sayfamızda](/kitaplar) künyeleri var.`,
+  },
+  {
+    title: "FELSEFE TARİHİNDE BUGÜN — 4 EKİM",
+    slug: "felsefe-tarihinde-bugun-4-ekim-kucuradi-weininger-sputnik",
+    summary:
+      "4 Ekim: İoanna Kuçuradi'nin doksanıncı doğum günü ve cenaze töreni, Otto Weininger'in ölümü ve insanı yeniden düşünmek. Bazı tarihler yalnızca takvim yaprağı değildir. 4 Ekim 1936'da doğan Kuçuradi bugün, doğum gününde toprağa veriliyor; 1903'te Otto Weininger 23 yaşında Beethoven'ın öldüğü evde kendini öldürdü; 1570'te Péter Pázmány doğdu; 1582'de takvimden on gün silindi; 1669'da Rembrandt öldü; 1957'de Sputnik insanlığı yeryüzünün dışına taşıdı.",
+    seoTitle: "Felsefe tarihinde bugün, 4 Ekim: İoanna Kuçuradi'nin doğum günü ve cenazesi, Otto Weininger (ö. 1903), Pázmány (1570), Gregoryen takvim (1582), Sputnik (1957)",
+    metaDescription:
+      "4 Ekim'de felsefe tarihi: İoanna Kuçuradi'nin doksanıncı doğum günü ve cenaze töreni (1936-2026); Otto Weininger'in ölümü (1903) ve Wittgenstein'a etkisi; Péter Pázmány'nin doğumu (1570); Gregoryen takvim reformu (1582); Rembrandt'ın ölümü (1669); Sputnik 1 (1957) ve kozmik düşünce.",
+    contentType: "TARIH",
+    coverImage: "/kapak/kucuradi.jpg",
+    imageCredit: "İoanna Kuçuradi (4 Ekim 1936 - 2 Ekim 2026)",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://www.britannica.com/biography/Otto-Weininger",
+    publishedAt: "2026-10-03T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "zihin-felsefesi", "bilim-felsefesi", "estetik"],
+    philosopherSlugs: ["ioanna-kucuradi", "ludwig-wittgenstein"],
+    sources: [
+      { title: "Otto Weininger | Austrian philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Otto-Weininger", primary: true },
+      { title: "Péter Pázmány | Hungarian cardinal and author", publisher: "Britannica", url: "https://www.britannica.com/biography/Peter-Pazmany" },
+      { title: "Sputnik 1", publisher: "NASA", url: "https://www.nasa.gov/history/sputnik/" },
+      { title: "Türkiye felsefesinin öncü isimlerinden İoanna Kuçuradi hayatını kaybetti", publisher: "soL Haber", date: "2 Ekim 2026", url: "https://haber.sol.org.tr/haber/turkiye-felsefesinin-oncu-isimlerinden-ioanna-kucuradi-hayatini-kaybetti-414528" },
+    ],
+    content: `Bazı tarihler yalnızca takvim yaprağı değildir. 4 Ekim, felsefe tarihi açısından insan, değer, etik, zaman ve insanın evrendeki yeri meselelerinin kesiştiği bir gün. Bu yıl 4 Ekim'i farklı kılan ise, Türkiye felsefesinin en önemli isimlerinden İoanna Kuçuradi'nin doksanıncı doğum gününün, cenaze gününe denk gelmesi.
+
+## 1936: İoanna Kuçuradi'nin doğum günü, 2026: cenazesi
+
+İoanna Kuçuradi 4 Ekim 1936'da İstanbul'da doğdu ve iki gün önce, 2 Ekim 2026 akşamı, doksanıncı doğum gününe iki gün kala öldü. Bugün, doğum gününde, Maltepe Üniversitesi Mimar Vedat Çakırca Konferans Salonu'ndaki törenin ardından Şişli Rum Ortodoks Mezarlığı'nda toprağa veriliyor. Hayatını, Hacettepe Felsefe Bölümü'nün kuruluşunu, Türkiye Felsefe Kurumu başkanlığını, Dünya Felsefe Kuruluşları Federasyonu'nun ilk kadın başkanlığını ve 2003 İstanbul Dünya Felsefe Kongresi'ni [vefat haberimizde](/haber/ioanna-kucuradi-1936-2026-vefat) anlattık; burada yalnızca felsefesinin çekirdeğini hatırlatalım.
+
+Kuçuradi'nin felsefesinin merkezinde son derece yalın fakat son derece zor bir soru vardı: Bir insanı, yalnızca bir insan olduğu için değerli kabul etmek ne anlama gelir? Onun etik anlayışında değer, insanların bir nesneye veya kurala biçtiği fiyat değildi; bir insanın durumunu, olanaklarını ve değerini doğru biçimde değerlendirme sorusuydu. "Değerler" ile "değer yargıları" arasındaki ayrımı, "etik" ile "ahlak" arasındaki ayrımı ve insan haklarının sözleşmelerden değil "insanın değeri"nden türetilmesini bu soruya cevap olarak geliştirdi. Bu nedenle insan hakları düşüncesi yalnızca hukuki belgeler üzerinden değil, değer bilgisi ve etik değerlendirme üzerinden okunmalıdır. Mirası, Türkiye'de felsefenin üniversite duvarlarının dışına taşarak insan hakları, eğitim, hukuk ve kamusal etik tartışmalarına girmesinde görülebilir. Kuçuradi'nin ardından Türkiye felsefesi yalnızca önemli bir akademisyenini değil, felsefeyi insanın değerini koruma pratiği olarak gören bir düşünürü kaybetti. Doğum günü ile cenazesinin aynı güne düşmesi, bu takvimde dün [Philippa Foot](/haber/felsefe-tarihinde-bugun-3-ekim-philippa-foot-assisi-morris) için not ettiğimiz ender rastlantılardan.
+
+## 1903: Otto Weininger'in ölümü
+
+4 Ekim 1903'te Avusturyalı filozof Otto Weininger, Viyana'da, Schwarzspanierstrasse'de Beethoven'ın öldüğü evde kiraladığı odada kendini vurdu; 23 yaşındaydı. Dört ay önce, mayısta, doktora tezinden genişlettiği *Cinsiyet ve Karakter* (Geschlecht und Charakter) yayımlanmıştı; kitap ölümünden sonra onlarca baskı yaptı, bir düzine dile çevrildi ve yüzyılın ilk yarısında Avrupa'nın en çok okunan felsefe kitaplarından biri oldu. Yahudi bir ailede doğmuş, vaftiz olup Protestan olmuş, Viyana Üniversitesi'nde felsefe ve psikoloji okumuştu.
+
+Kitap, cinsiyet, karakter, etik, deha ve insan doğası üzerine son derece tartışmalı ve bugün büyük ölçüde problemli kabul edilen tezler ileri sürüyordu: Her insanın "erkek" ve "kadın" ilkelerinin bir karışımı olduğu, "kadınlık"ın mantıktan, ahlaktan ve dehadan yoksun bir ilke olduğu, Yahudiliğin de bir "ilke" olarak aynı kategoriye girdiği. Kitabın kadın düşmanlığı ve antisemitizmi, yazarının kendi Yahudiliğiyle hesaplaşmasıyla birleşince, Weininger'i "kendinden nefret eden Yahudi" kavramının prototipi yaptı ve Nazi ideologları onu kullanmaktan çekinmedi. Buna rağmen felsefe tarihinde kalmasının nedeni, dönemin entelektüel dünyasında yarattığı etki ve özellikle Wittgenstein üzerindeki izi: [Wittgenstein](/filozof/ludwig-wittgenstein), Weininger'i kendisini etkileyen on isim arasında sayar; 1931'de Moore'a yazdığı mektupta "onunla hemfikir olmak gerekmez, ama büyüklüğü, hemfikir olmadığımız şeyde yatar" demişti. Wittgenstein'ın etiğin söylenemez olduğu, dehanın cesaret olduğu ve kişinin kendine karşı dürüstlüğünün felsefenin koşulu olduğu düşüncelerinde Weininger'in, Kant'ın ve Schopenhauer'ın birleşmiş etkisi görülür. Kitabın etik bölümü, Kant'ın kategorik buyruğunu "kendine karşı ödev" olarak radikalleştirir: İnsan, kendi içindeki dehayı gerçekleştirmekle yükümlüdür ve bunu yapamıyorsa yaşamaya hakkı yoktur; Weininger'in intiharı bu tezin korkunç tutarlılığıydı.
+
+Bugün Weininger'i okumak, bütün tezlerini kabul etmek değil, şu soruyu sormak açısından önemlidir: Bir düşünürün felsefi etkisi ile düşüncelerinin ahlaki ve bilimsel geçerliliğini birbirinden ayırabilir miyiz? Wittgenstein'ın cevabı, kendine özgü biçimde, evetti: Bir filozoftan, yanlış cevaplarına rağmen, soruyu sorma biçimini öğrenebiliriz.
+
+## 1570: Péter Pázmány
+
+4 Ekim 1570'te Nagyvárad'da (bugün Romanya'daki Oradea) Péter Pázmány doğdu. Kalvinist bir ailede büyüdü, on üç yaşında Katolik oldu, Cizvit tarikatına girdi; Viyana'da felsefe, Roma'da teoloji okudu ve 1597'den itibaren Graz Üniversitesi'nde felsefe, sonra teoloji dersleri verdi. Graz'daki felsefe dersleri, Aristoteles'in *Fizik* ve *Ruh Üzerine*'sinin skolastik yorumları, basılmış hâlde günümüze ulaşan erken modern Cizvit felsefesinin önemli örneklerindendir; Suárez'in metafiziğinin Orta Avrupa'ya taşınmasında rol oynadı. 1616'da Esztergom başpiskoposu, 1629'da kardinal oldu; Macar Karşı-Reformasyonu'nun önderi ve 1635'te kurduğu Nagyszombat Üniversitesi'nin (bugünkü Budapeşte Eötvös Loránd Üniversitesi'nin atası) kurucusuydu. Macar edebî dilinin kurucularından sayılır: *Hodoegus* (Hakikate Giden Yol, 1613) ve vaazları, Macarcayı felsefi tartışma diline dönüştürdü. Pázmány'nin hikâyesi, erken modern Avrupa'da felsefenin henüz bugünkü anlamıyla "seküler akademik disiplin" olmadığını; mantık, metafizik, teoloji ve siyasetin aynı entelektüel dünyanın parçaları olduğunu hatırlatır.
+
+## 1582: Takvimden silinen on gün
+
+4 Ekim 1582, Katolik Avrupa'da Jülyen takviminin son günüydü; ertesi gün 15 Ekim oldu. Papa XIII. Gregorius'un reformu, Jülyen yılının gerçek güneş yılından yaklaşık on bir dakika uzun olmasının bin altı yüz yılda biriktirdiği on günlük kaymayı tek hamlede sildi. Felsefe için bu, zamanın ölçülmesinin bir kurum meselesi olduğunun en çarpıcı örneği: Protestan ülkeler reformu yüz elli yıl, Rusya 1918'e, Yunanistan 1923'e kadar reddetti; Türkiye 1926'da Rumî takvimden geçti. Aynı tarihte doğan Teresa de Ávila, o gece, 4 Ekim'i 15 Ekim'e bağlayan gece öldü; ölümünün takvimdeki boşluğa denk gelmesi, zamanın "gerçek" olup olmadığını sorgulayan filozofların sevdiği bir örnek oldu. Kant'ın zamanı duyarlığın saf formu sayması, takvimin bir uzlaşım olduğunu bilen bir çağın felsefesidir.
+
+## 1669: Rembrandt'ın ölümü
+
+Rembrandt van Rijn, 4 Ekim 1669'da Amsterdam'da, iflas etmiş ve unutulmaya yüz tutmuş olarak öldü. Felsefe takviminde yeri, otoportreleridir: Yirmi iki yaşından ölümüne kadar yaptığı seksen dolayında otoportre, Batı sanatında benliğin zaman içinde kendine bakışının ilk sistematik belgesi; Descartes'ın aynı yıllarda, aynı Hollanda'da, *cogito*'yu kurmasıyla eşzamanlı. Simmel, Rembrandt üzerine kitabında (1916) onu "hayatın akışını tek bir yüzde görünür kılan" ressam olarak okudu; Georges Didi-Huberman, Rembrandt'ın geç dönem fırça vuruşlarını, görmenin kendisinin kırılganlığı üzerine bir meditasyon saydı. Rembrandt'ın son otoportresi, ölümünden birkaç ay önce, gülümseyen yaşlı bir adamın yüzüdür; bir filozofun yazamayacağı bir cümle.
+
+## 1957: Sputnik ve insanlığın kozmik düşüncesi
+
+4 Ekim 1957'de Sovyetler Birliği Sputnik 1'i yörüngeye gönderdi: 83 kilogramlık, dört antenli, yirmi iki gün boyunca "bip" sesi yayan bir küre. Bu olay bir felsefe kongresi değildi; fakat insanlık düşüncesi açısından devasa bir kırılmaydı. Hannah Arendt, bir yıl sonra yayımlanan *İnsanlık Durumu*'na Sputnik'le başladı: "Önemde hiçbir olayın, hatta atomun parçalanmasının bile geçemeyeceği bir olay" diye yazdı ve ilk tepkinin sevinç değil, "insanın yeryüzündeki hapisten kurtuluşuna doğru ilk adım" biçiminde bir rahatlama olmasını kaygıyla not etti: İnsan, kendi varoluşunun koşulu olan dünyadan kaçmak istiyordu. Heidegger, 1966'daki *Der Spiegel* söyleşisinde Ay'dan çekilen Dünya fotoğrafları karşısında "korktuğunu", insanın köklerinden koparıldığını söyleyecekti. Hans Blumenberg ise *Kopernik Dünyasının Doğuşu*'nda (1975) tam tersini savundu: Uzaydan görülen Dünya, insanın kozmik önemsizliğini değil, bu küçük gezegenin biricikliğini gösterdi; "uzay çağı"nın asıl keşfi uzay değil, Dünya'ydı.
+
+Sputnik'in felsefi sonucu bugün daha iyi görülüyor: İnsan nedir, Dünya nedir ve insanın evrendeki yeri nedir? Uzay araştırmaları yalnızca fiziğin değil, insan merkezcilik, varoluşçuluk, etik ve gelecek felsefesinin sorularını değiştirdi. Bugün yapay zekâ ve uzay teknolojilerinin aynı anda ilerlediği bir dünyada Sputnik'in açtığı soru yeniden karşımızda: İnsan kendi gezegeninden çıktığında, kendisi hakkındaki düşüncesi de değişmek zorunda mıdır?
+
+## 4 Ekim'in felsefi sorusu
+
+İnsan değerini nereden alır? Kuçuradi için insanın değeri, doğru değerlendirmenin ve etik ilişkinin merkezindedir. Weininger için insan doğası, kadın ve Yahudi düşmanlığıyla zehirlenmiş, çok daha sorunlu bir kavramsal zeminde tartışılır; onun örneği, insanın değerini "ilkeler"e göre derecelendirmenin nereye vardığını gösterir. Pázmány için değer, Tanrı'nın düzeninden; Gregoryen reform için zamanın kendisi bir kurumdan; Rembrandt için yüz, zamanın içinden; Sputnik için insan, yeryüzünün dışından görülür. Belki de 4 Ekim'in felsefi dersi tam burada: İnsan hakkında konuşmak, aynı zamanda insanın değerini, sınırlarını ve dünyadaki yerini tartışmaktır. Kuçuradi, bu üç sorudan ilkini hayatının işi yaptı; bugün toprağa verilirken, geride bıraktığı soru hâlâ açık.`,
+  },
+  {
+    title: "3 Ekim: Philippa Foot'un doğduğu ve öldüğü gün, Assisili Francesco, William Morris ve Almanya'nın birleşmesi",
+    slug: "felsefe-tarihinde-bugun-3-ekim-philippa-foot-assisi-morris",
+    summary:
+      "Philippa Foot 3 Ekim 1920'de doğdu ve tam doksan yıl sonra, 3 Ekim 2010'da öldü: Tramvay problemini icat eden, erdem etiğini yeniden canlandıran ve 'doğal iyilik' kuramını seksen yaşında yazan Oxford filozofu. Aynı gün 1226'da Assisili Francesco öldü, 1896'da sanatı emeğin sevinci olarak düşünen William Morris; 1897'de Louis Aragon doğdu; 1990'da Almanya birleşti ve Habermas 'DM-milliyetçiliği' uyarısını yaptı.",
+    seoTitle: "Felsefe tarihinde bugün, 3 Ekim: Philippa Foot (1920-2010), Assisili Francesco (ö. 1226), William Morris (ö. 1896), Almanya'nın birleşmesi (1990)",
+    metaDescription:
+      "3 Ekim'de felsefe tarihi: Philippa Foot'un doğumu ve ölümü (1920-2010), tramvay problemi, erdem etiği ve Natural Goodness; Assisili Francesco'nun ölümü (1226); William Morris'in ölümü (1896); Louis Aragon'un doğumu (1897); Almanya'nın yeniden birleşmesi (1990) ve Habermas.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/15%20Walton%20Street%2C%20Oxford%2C%20with%20blue%20plaque%20to%20Philippa%20Foot%20-%20geograph.org.uk%20-%208084209.jpg?width=1600",
+    imageCredit: "Philippa Foot'un Oxford'daki evi, 15 Walton Street; cephede ona adanmış mavi plaket, 2025 · Fotoğraf: A. J. Paxton, CC BY-SA 2.0 · geograph.org.uk / Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Philippa-Foot",
+    publishedAt: "2026-10-02T21:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "estetik", "din-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: ["philippa-foot", "mary-midgley", "jurgen-habermas"],
+    sources: [
+      { title: "Philippa Foot | British philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Philippa-Foot", primary: true },
+      { title: "Virtue Ethics", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/ethics-virtue/" },
+      { title: "The Trolley Problem", publisher: "Judith Jarvis Thomson, Yale Law Journal 94 (1985)", url: "https://www.jstor.org/stable/796133" },
+      { title: "Francis of Assisi", publisher: "Britannica", url: "https://www.britannica.com/biography/Saint-Francis-of-Assisi" },
+      { title: "William Morris", publisher: "Britannica", url: "https://www.britannica.com/biography/William-Morris-British-artist-and-author" },
+    ],
+    content: `Felsefe takviminde bir filozofun doğum ve ölüm gününün aynı tarihe düşmesi enderdir; 3 Ekim bu ender günlerden biri. Philippa Foot 3 Ekim 1920'de doğdu, 3 Ekim 2010'da, doksanıncı doğum gününde öldü. Aynı gün, yedi yüzyıl arayla, Batı'nın en etkili iki "yoksulluk ve emek" düşünürü öldü: 1226'da Assisili Francesco, 1896'da William Morris. 1897'de sürrealizmin ve sonra komünizmin şairi Louis Aragon doğdu; 1990'da iki Almanya birleşti ve bir filozof, birleşmenin coşkusu ortasında, "DM-milliyetçiliği" uyarısını yaptı.
+
+## 1920-2010: Philippa Foot
+
+Philippa Ruth Bosanquet, 3 Ekim 1920'de Lincolnshire'da, Owston Ferry'de doğdu. Annesi, Beyaz Saray'da doğmuş olan Esther Cleveland, ABD Başkanı Grover Cleveland'ın kızıydı; baba tarafı Yorkshire'ın çelik sanayicilerindendi. Evde, "kızlara uygun" bir eğitimle büyütüldü ve kendi anlatımıyla üniversiteye "neredeyse hiçbir şey bilmeden" girdi: 1939'da Somerville College'a kabul edildi, felsefe, siyaset ve iktisat okudu. 1945'te iktisatçı M. R. D. Foot'la evlendi (1960'ta ayrıldılar) ve soyadını, felsefe tarihine geçecek biçimde, ondan aldı.
+
+Savaş yıllarının Oxford'u, felsefe tarihinin tuhaf bir laboratuvarıydı. Erkek öğrencilerin çoğu cephedeydi; A. J. Ayer'ın *Dil, Doğruluk ve Mantık*'ı (1936) ahlaki yargıların bilgi değil "duygu ifadesi" olduğunu, "hırsızlık yanlıştır" demenin "hırsızlık, yuh!" demekten farkı olmadığını ilan etmişti. Dört genç kadın, Elizabeth Anscombe, Iris Murdoch, [Mary Midgley](/filozof/mary-midgley) ve Philippa Foot, bu tabloya itiraz etti. Foot'un kendi anlatımıyla, itirazın kaynağı felsefi değil tarihseldi: 1945'te Bergen-Belsen'in fotoğrafları gazetelerde çıktığında, "Nazilerin yaptığının yanlış olduğunu söyleyemeyen bir ahlak felsefesinin bir yerde yanlış yapmış olması gerektiğini" anladı. Benjamin Lipscomb'un *The Women Are Up to Something* (2021) ve Clare Mac Cumhaill ile Rachael Wiseman'ın *Metaphysical Animals* (2022) kitapları, bu dörtlünün analitik etiği nasıl yeniden kurduğunu anlatan iki yeni çalışma; sitemizde Midgley'i anlatırken bu hikâyeye değinmiştik.
+
+Foot'un katkısı üç makale ve bir kitapta toplanır. "Moral Beliefs" (1958), ahlaki kavramların olgulardan bağımsız seçilmiş tutumlar olmadığını, "cesaret" ya da "adalet" dediğimizde neyin cesaret sayılacağının insan hayatının olgularına bağlı olduğunu savundu; Hume'un "olgudan değer çıkmaz" tezine karşı, olgu ile değerin ahlaki kavramların içinde zaten iç içe olduğunu gösterdi. "The Problem of Abortion and the Doctrine of the Double Effect" (1967), Katolik ahlak teolojisinin "çifte etki" öğretisini sınamak için bir örnek icat etti: Frenleri bozulmuş bir tramvayın sürücüsü, rayda çalışan beş kişiyi ezmek yerine makası çevirip bir kişiyi ezebilir mi? Foot'un örneği, Judith Jarvis Thomson'ın 1976'da ve 1985'te geliştirdiği biçimiyle "tramvay problemi" adını aldı ve ahlak felsefesinin en tanınmış düşünce deneyi oldu: Deneysel felsefenin, Joshua Greene'in ahlaki yargı üzerine beyin görüntüleme çalışmalarının ve bugün otonom araçların "kime çarpsın?" tartışmasının standart aracı. Foot, örneğinin bu kadar ünlü olmasından, kendi deyişiyle, "biraz utanırdı"; onun için mesele bir bulmaca değil, öldürmek ile ölmesine izin vermek arasındaki ahlaki farkın ciddiye alınmasıydı.
+
+"Morality as a System of Hypothetical Imperatives" (1972), en kışkırtıcı makalesidir: Kant'ın ahlakı "kategorik buyruk" olarak, herkesi istekleri ne olursa olsun bağlayan bir yasa olarak düşünmesine karşı Foot, ahlakın "görgü kuralları" gibi, kişinin neyi önemsediğine bağlı varsayımsal buyruklar olduğunu savundu; ahlaklı olmak için bir neden, ancak adaleti ve başkalarını önemseyen biri için vardır. Makale analitik etikte bir deprem yarattı; Foot sonradan bu görüşü kısmen geri aldı ve son kitabında ahlakın akılcılığını yeniden temellendirdi.
+
+O kitap, *Natural Goodness* (2001), seksen yaşında yayımladığı tek monografidir ve ömrünün en büyük fikrini taşır: Ahlaki iyilik ve kötülük, "bu meşe ağacının kökleri kusurlu" ya da "bu kurdun sürüsünü terk etmesi bir kusur" dediğimizdeki "doğal iyilik" ile aynı mantıksal yapıya sahiptir. Her canlı türünün bir "yaşam biçimi" vardır ve o türün bir üyesi, bu yaşam biçiminin gerektirdiği özellikleri taşıyorsa iyidir. İnsanın yaşam biçimi akıl ve toplumsallık içerdiğinden, erdemler, adalet, cesaret, ölçülülük, dürüstlük, insanın türü olarak iyi yaşaması için gerekli özelliklerdir; "ahlaklı olmak için neden" sorusu, "bir kurt için sürüde kalmanın nedeni nedir?" sorusu kadar anlamlıdır. Bu "Aristotelesçi natüralizm", Rosalind Hursthouse, John McDowell ve Michael Thompson'la çağdaş erdem etiğinin ana akımı oldu ve bugün Alasdair MacIntyre'dan sonra erdem etiğinin en çok tartışılan versiyonu. Eleştirmenleri, Darwin sonrası biyolojinin "tür için iyi" kavramını desteklemediğini söylüyor; savunucuları, Foot'un biyoloji değil, canlılar hakkındaki gündelik dilin mantığını betimlediğini.
+
+Foot, 1947'den itibaren Somerville'de ders verdi, 1976-1991 arasında UCLA'da profesördü, sonra Oxford'a döndü. Oxfam'ın 1942'de kurulan ilk ofisinde çalışmış bir aktivistti; felsefeyi "hayatın kendisinden daha önemli bir şey" olarak görmediğini söylerdi. 3 Ekim 2010'da, doksanıncı doğum gününde Oxford'da öldü; 2025'te Walton Street'teki evine mavi plaket asıldı. Sitemizde [Judith Butler'ın](/filozof/judith-butler) ve [Martha Nussbaum'un](/filozof/martha-nussbaum) kuşağından önce, yirminci yüzyıl analitik felsefesinde kadınların açtığı yolu Foot'tan daha iyi gösteren bir biyografi yok. Bugün [Filozof Dizini'ne](/filozof/philippa-foot) eklendi; Türkçede kitapları henüz çevrilmedi, "tramvay problemi" ise ders kitaplarında onun adı anılmadan dolaşıyor.
+
+## 1226: Assisili Francesco'nun ölümü
+
+Francesco, 3 Ekim 1226 akşamı Assisi yakınındaki Porziuncola'da öldü; Kilise yortusunu ertesi güne, 4 Ekim'e koyar. Felsefe takviminde bir azizin yeri, kurduğu tarikatın felsefe tarihindeki ağırlığından gelir: Fransiskenler, on üçüncü ve on dördüncü yüzyılların en yaratıcı felsefe okulunu oluşturdu. Bonaventura, Roger Bacon, Duns Scotus ve Ockhamlı William, hepsi Fransisken'di; Scotus'un "bireysellik" (haecceitas) kavramı ve Ockham'ın adcılığı, Francesco'nun her yaratığı tek ve biricik olarak sevmesinin felsefi diline dönüşmüş gibidir. Francesco'nun kendi "felsefesi" bir metin değil bir yaşam biçimiydi: Mülkiyeti reddetmek, "Kardeş Güneş, Kız Kardeş Ay" diye seslenerek doğayı bir akrabalık ağı olarak görmek, yoksulluğu bir eksiklik değil bir özgürlük olarak yaşamak. Yedi yüz yıl sonra Lynn White'ın 1967 tarihli "Ekolojik Krizimizin Tarihsel Kökleri" makalesi, Hıristiyanlığın doğaya egemenlik ideolojisinin tek istisnası olarak Francesco'yu gösterdi ve onu "ekolojistlerin koruyucu azizi" ilan etmeyi önerdi; 1979'da Vatikan bunu yaptı. Papa Francesco'nun 2015 tarihli *Laudato si'* genelgesi adını onun ilahisinden aldı. Agamben'in *En Yüce Yoksulluk* (2011) kitabı, Fransisken "kullanım" kavramını, mülkiyetsiz kullanım fikrini, mülkiyet hukukunun dışında bir hayat biçiminin felsefi modeli olarak okudu.
+
+## 1896: William Morris'in ölümü
+
+William Morris, 3 Ekim 1896'da Londra'da, 62 yaşında öldü; doktoru ölüm nedenini "William Morris olmak ve on adamın işini yapmak" diye açıkladı. Şair, tasarımcı, yayıncı, sosyalist; ve estetik ile siyasetin birbirinden ayrılamayacağını savunan bir düşünür. Ruskin'den aldığı fikri, Gotik katedrallerin güzelliğinin onları yapan zanaatkârların özgür emeğinden geldiği, sanayi kapitalizminin ise emeği ve dolayısıyla güzelliği yok ettiği fikrini, Marx'ın yabancılaşma kavramıyla birleştirdi: "Sanat, insanın emeğindeki sevincin ifadesidir." *Useful Work versus Useless Toil* (1884) ve ütopik romanı *News from Nowhere* (1890), iş ile sanat arasındaki ayrımın kalktığı bir toplumu tasarlar. Morris'in estetiği, Arts and Crafts hareketi üzerinden Bauhaus'a ve modern tasarıma; siyasal düşüncesi E. P. Thompson'ın *William Morris: Romantic to Revolutionary* (1955) kitabıyla İngiliz Marksizmine, "ekososyalizm"e ve bugün "iş nedir?" sorusuna geri dönen tartışmalara ulaştı. Sitemizde [yapay zekânın ekonomi-politiğini](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ele alırken Arendt'in emek-iş ayrımına değinmiştik; Morris, o ayrımı Arendt'ten yetmiş yıl önce, bir dokuma tezgâhının başında düşünen adamdır.
+
+## 1897: Louis Aragon
+
+Louis Aragon, 3 Ekim 1897'de Paris'te doğdu. Breton'la birlikte sürrealizmin kurucularından; *Paris Köylüsü* (1926), Walter Benjamin'in *Pasajlar* projesini başlatan kitaptır, Benjamin bunu kendisi söyler: "Akşamları yatakta iki sayfadan fazla okuyamıyordum, kalbim öyle çarpıyordu ki." 1930'da Sovyetler Birliği'ne gitti, komünist oldu, sürrealizmden koptu ve Fransız Komünist Partisi'nin en önemli şairi, sonra en huzursuz vicdanı oldu; Stalin'i yüceltti, 1956'dan sonra Macaristan ve 1968 Prag müdahalelerini eleştirdi. Felsefe için Aragon, sürrealizmin "nesnel rastlantı" ve "gündelik olanın mucizesi" kavramlarının yazarı; Benjamin ve Lefebvre üzerinden "gündelik hayatın eleştirisi"nin kaynağıdır. 1982'de öldü.
+
+## 1990: Almanya'nın yeniden birleşmesi
+
+3 Ekim 1990'da Demokratik Alman Cumhuriyeti, Federal Almanya'ya katıldı ve kırk yıllık bölünme sona erdi. Siyaset felsefesi için bu tarih, bir ulusun yeniden kurulmasının nasıl meşrulaştırılacağı sorusunu gündeme getirdi ve soruyu en keskin soran, [Jürgen Habermas](/filozof/jurgen-habermas) oldu. Birleşme sürecinde yazdığı "DM-Milliyetçiliği" (*Die Zeit*, Mart 1990) ve "Sonradan Devrim" başlıklı yazılar, birleşmenin bir "anayasal kurucu an" olarak, yeni bir anayasa referandumuyla ve yurttaşların katılımıyla yapılması gerektiğini; oysa Deutsche Mark'ın gücüne dayanan, Doğu'nun Batı'ya "katılması" biçimindeki hızlı birleşmenin, siyasal aidiyeti ekonomik refaha ve etnik köken duygusuna bağlayan bir milliyetçilik üreteceğini savunuyordu. Habermas'ın alternatifi "anayasal vatanseverlik"ti: Bir ulusun birliği kan ya da para değil, demokratik ilkelere bağlılık üzerine kurulmalıdır. Otuz altı yıl sonra, Doğu Almanya eyaletlerinde aşırı sağın yükselişi, Habermas'ın uyarısını yeniden tartışmaya açtı; sitemizde [demografi ve siyaset felsefesi](/haber/demografi-ve-siyaset-felsefesi-goc-nufus-yurttaslik) yazısında anayasal vatanseverlik tezinin bugünkü sınavına değinmiştik. Bugün Almanya'da resmî tatil olan "Alman Birliği Günü", felsefe takviminde Habermas'ın sorusunun günüdür: Bir "biz", neyin üzerine kurulur?
+
+## Bugünün felsefi sorusu
+
+Philippa Foot, erdemlerin insanın türü olarak iyi yaşaması için gerekli olduğunu söyledi; Francesco, iyi yaşamanın mülkiyetsiz de mümkün olduğunu gösterdi; Morris, emeğin sevinç olabileceği bir dünyayı tasarladı; Aragon, gündelik olanın mucizesini aradı; Habermas, bir ulusun hangi temelde "biz" diyebileceğini sordu. Beşi de aynı soruya farklı yerlerden bakıyor: İyi bir insan hayatı neye benzer ve onu hangi toplum mümkün kılar? Foot'un cevabı, 3 Ekim'in en kalıcı mirası olabilir: Bu soru, bir tercih sorusu değil, insan türü hakkında bir olgu sorusudur; ve felsefe, bu olguyu betimlemekten vazgeçtiği gün, Nazilere "yanlış" demeyi de bırakır.`,
+  },
   {
     title: "İoanna Kuçuradi'yi Kaybettik",
     slug: "ioanna-kucuradi-1936-2026-vefat",
@@ -32904,6 +33280,86 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 /* ------------------------------------------------------------------ */
 
 export const books: SeedBook[] = [
+  {
+    title: "Felsefi Beyan",
+    slug: "foucault-felsefi-beyan",
+    originalTitle: "Le discours philosophique",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Ayşe Deniz Temiz",
+    language: "Türkçe",
+    isbn: "9789750867880",
+    coverImage: null,
+    description:
+      "Foucault'nun 1966 yazında, Kelimeler ve Şeyler'in hemen ardından yazdığı ve ölümünden sonra yayımlanan taslak: Descartes'tan Nietzsche'ye modern felsefeyi, kendi çağını teşhis eden, tarihsel sınırları olan bir 'beyan' biçimi olarak ele alır. Orazio Irrera ve Daniele Lorenzini'nin hazırladığı Fransızca edisyondan çevrildi. 256 sayfa; Nisan 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "İnsan Haklarını Kim Öldürdü? İnsan Hakları Eleştirileri Üzerine",
+    slug: "tepe-insan-haklarini-kim-oldurdu",
+    originalTitle: "İnsan Haklarını Kim Öldürdü? İnsan Hakları Eleştirileri Üzerine",
+    publisher: "Yapı Kredi Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: "9789750867873",
+    coverImage: null,
+    description:
+      "Kuçuradi'nin öğrencisi ve Hacettepe İnsan Hakları Anabilim Dalı'nın hocası Harun Tepe, 'insan hakları öldü' tezini, Marksist, komüniteryen, postkolonyal ve realist eleştirileri tek tek ele alarak sınıyor: Tükenen insan hakları mı, yoksa onları savunma biçimlerimiz mi? 184 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/",
+    philosopherSlug: "ioanna-kucuradi",
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Utanç Devrimci Bir Duygudur",
+    slug: "gros-utanc-devrimci-bir-duygudur",
+    originalTitle: "La honte est un sentiment révolutionnaire",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Olcay Kunal",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Frédéric Gros, Marx'ın Ruge'ye mektubundaki 'utanç devrimci bir duygudur' cümlesinden yola çıkarak utancı bireysel bir zaaf olmaktan çıkarıp siyasal bir güce dönüştürüyor: Annie Ernaux'nun sınıf utancı, Didier Eribon'un 'Reims'e dönüş'ü, Primo Levi'nin hayatta kalanın utancı ve Lacan'ın utanç üzerine seminerinden geçen bir deneme. 144 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Korkuya ve Yabancılara Dair: Zenofobinin Tarihçesi",
+    slug: "makari-korkuya-ve-yabancilara-dair",
+    originalTitle: "Of Fear and Strangers: A History of Xenophobia",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Özlem Yüksel",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Psikiyatr ve tarihçi George Makari, 'zenofobi' kelimesinin 1880'lerde icadından bugüne yabancı düşmanlığının tarihini psikiyatri, sömürge tarihi ve düşünce tarihi üzerinden izliyor: Conrad, Camus, Wright ve Baldwin'in romanlarından Sartre, Beauvoir, Fanon, Adorno ve Foucault'nun kuramlarına. Türkçesi 2026'da yayımlandı.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Technofeudalism: What Killed Capitalism",
+    slug: "varoufakis-technofeudalism",
+    originalTitle: "Technofeudalism: What Killed Capitalism",
+    publisher: "Bodley Head / Melville House",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Varoufakis'in, dijital platformların 'bulut sermayesi'nin kâr yerine rant üzerine kurulu yeni bir üretim tarzı yarattığını ve kapitalizmin kendi mutasyonu tarafından öldürüldüğünü savunduğu kitap. Babasına yazılmış bir mektup biçiminde kaleme alındı; 2023'te yayımlandı.",
+    year: 2023,
+    link: "https://www.yanisvaroufakis.eu/",
+    philosopherSlug: "yanis-varoufakis",
+    postSlug: "yanis-varoufakis-ve-teknofeodalizm",
+  },
   {
     title: "The Meaning of It All: Ultimate Meaning, Everyday Meaning, Cosmic Meaning, Death, and Time",
     slug: "weinberg-the-meaning-of-it-all",
