@@ -2917,8 +2917,8 @@ export const posts: SeedPost[] = [
     metaDescription:
       "Varoufakis'in teknofeodalizm tezi: bulut sermayesi, bulut rantı, dijital lordlar ve serfler; Gane, Snow, Morozov ve Durand'ın 'kapitalizm hâlâ kapitalizmdir' eleştirisi; Varoufakis'in 2026 tarihli Marksist savunması; algoritma, epistemoloji ve demokrasi; yapay zekâ çağında teknofeodalizm.",
     contentType: "ANALIZ",
-    coverImage: "/kapak/varoufakis.jpg",
-    imageCredit: "Yanis Varoufakis",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Yanis%20Varoufakis%20on%20Subversive%20Festival.jpg?width=1600",
+    imageCredit: "Yanis Varoufakis, Subversive Festival, Zagreb, 2013 · Fotoğraf: Robert Crc, Licence Art Libre · Wikimedia Commons",
     featured: true,
     sourceName: "Jacobin · Journal of Classical Sociology · yanisvaroufakis.eu",
     sourceUrl: "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
