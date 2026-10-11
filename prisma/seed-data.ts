@@ -3013,41 +3013,58 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
-    title: "Felsefe Tarihinde Bugün: 11 Ekim — Zwingli'nin ölümü ve II. Vatikan Konsili'nin açılışı",
-    slug: "felsefe-tarihinde-bugun-11-ekim-zwingli-ikinci-vatikan-konsili",
+    title: "Felsefe Tarihinde Bugün: 11 Ekim — Samuel Clarke, Hans Kelsen, Tschirnhaus, Zwingli ve Einstein'ın mektubu",
+    slug: "felsefe-tarihinde-bugun-11-ekim-clarke-kelsen-tschirnhaus-zwingli-einstein",
     summary:
-      "11 Ekim 1531'de Zürih reformcusu Huldrych Zwingli Kappel savaş alanında öldü; 11 Ekim 1962'de II. Vatikan Konsili açıldı. İki tarih aynı soruyu sorar: İnanç akılla, kutsal metin yorumla, kilise modern dünyayla nasıl konuşur?",
-    seoTitle: "Felsefe Tarihinde Bugün 11 Ekim: Zwingli (ö. 1531) ve II. Vatikan Konsili (1962)",
+      "11 Ekim'de doğanlar: Leibniz'le yazışan Newtoncu metafizikçi Samuel Clarke (1675) ve 'saf hukuk kuramı'nın kurucusu Hans Kelsen (1881). Ölenler: Spinoza'nın dostu, porselenin mucidi Tschirnhaus (1708) ve Zürih reformcusu Zwingli (1531). Ve 1939'da Einstein'ın Roosevelt'e mektubu bugün okundu; 1962'de II. Vatikan Konsili açıldı.",
+    seoTitle: "Felsefe Tarihinde Bugün 11 Ekim: Clarke (1675), Kelsen (1881), Tschirnhaus (ö. 1708), Zwingli (ö. 1531), Einstein-Szilárd mektubu (1939)",
     metaDescription:
-      "11 Ekim: Huldrych Zwingli'nin Kappel'de ölümü (1531) ve II. Vatikan Konsili'nin açılışı (1962). Reform teolojisi, Erasmus hümanizmi, Maritain ve Gaudium et spes.",
+      "11 Ekim: Samuel Clarke'ın doğumu (1675) ve Leibniz-Clarke yazışması; Hans Kelsen'in doğumu (1881) ve saf hukuk kuramı; Tschirnhaus'un ölümü (1708); Zwingli'nin ölümü (1531); Einstein-Szilárd mektubunun Roosevelt'e sunulması (1939); II. Vatikan Konsili (1962).",
     contentType: "TARIH",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ulrich%20Zwingli%20by%20Hans%20Asper.jpg?width=1600",
-    imageCredit: "Huldrych Zwingli, Hans Asper (1531) · Wikimedia Commons",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Einstein-Roosevelt-letter.png?width=1600",
+    imageCredit: "Einstein'ın Roosevelt'e 2 Ağustos 1939 tarihli mektubu · Franklin D. Roosevelt Kütüphanesi · Wikimedia Commons",
     featured: false,
-    sourceName: "Felsefe Haberleri · Britannica",
-    sourceUrl: "https://www.britannica.com/biography/Huldrych-Zwingli",
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/clarke/",
     publishedAt: "2026-10-10T21:10:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "felsefe-tarihinde-bugun",
-    tagSlugs: ["tarih", "din-felsefesi", "ronesans", "etik"],
-    philosopherSlugs: [],
+    tagSlugs: ["tarih", "hukuk-felsefesi", "din-felsefesi", "bilim-felsefesi", "etik"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
     sources: [
-      { title: "Huldrych Zwingli | Swiss religious reformer", publisher: "Britannica", url: "https://www.britannica.com/biography/Huldrych-Zwingli", primary: true },
-      { title: "Second Vatican Council", publisher: "Britannica", url: "https://www.britannica.com/event/Second-Vatican-Council" },
+      { title: "Samuel Clarke", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/clarke/", primary: true },
+      { title: "Hans Kelsen | Austrian jurist", publisher: "Britannica", url: "https://www.britannica.com/biography/Hans-Kelsen" },
+      { title: "Ehrenfried Walther von Tschirnhaus", publisher: "MacTutor History of Mathematics, University of St Andrews", url: "https://mathshistory.st-andrews.ac.uk/Biographies/Tschirnhaus/" },
+      { title: "Einstein-Szilárd Letter", publisher: "Atomic Heritage Foundation / National Museum of Nuclear Science & History", url: "https://ahf.nuclearmuseum.org/ahf/history/einstein-szilard-letter/" },
+      { title: "Huldrych Zwingli | Swiss religious reformer", publisher: "Britannica", url: "https://www.britannica.com/biography/Huldrych-Zwingli" },
     ],
-    content: `11 Ekim, Hristiyan düşüncesinin iki büyük dönüm noktasını aynı güne yerleştirir: Biri bir savaş alanında, öteki bir bazilikada.
+    content: `11 Ekim, felsefe takviminin yoğun günlerinden biri: Bir metafizikçi ve bir hukuk kuramcısı doğdu; bir matematikçi-filozof ve bir reformcu öldü; bir mektup okundu ve bir konsil açıldı. Ortak payda, aklın sınırlarıyla sorumluluğun sınırlarının nerede kesiştiği sorusu.
+
+## 1675: Samuel Clarke
+
+Samuel Clarke 11 Ekim 1675'te Norwich'te doğdu. Cambridge'de okudu, Newton'ın en yakın felsefi müttefiki ve *Optika*'sının Latince çevirmeni oldu; Anglikan rahipti, Boyle Konferansları'nda (1704-1705) Tanrı'nın varlığını Newton fiziğine dayanan bir kozmolojik kanıtla savundu ve ahlakın, matematik gibi, "şeylerin ezelî uygunluklarına" dayanan nesnel bir rasyonalizm olduğunu ileri sürdü. Felsefe tarihindeki kalıcı yeri, Leibniz'le 1715-1716'da yaptığı yazışmadır: Caroline of Ansbach'ın aracılığıyla değiş tokuş edilen on mektupluk bu tartışma, Newton adına Clarke ile Leibniz'i uzayın ve zamanın doğası (mutlak kap mı, ilişkiler düzeni mi), yeter sebep ilkesi, Tanrı'nın dünyaya müdahalesi ("Tanrı saatini ara sıra kurmak zorunda mı?"), özgür irade ve atomların varlığı üzerine karşı karşıya getirdi. Leibniz beşinci mektuba cevap yazamadan öldü; Clarke yazışmayı 1717'de yayımladı ve metin, modern fizik felsefesinin kurucu belgesi oldu: Einstein'ın göreliliği ve bugünün kuantum yerçekimi tartışmaları hâlâ "Leibniz mi, Clarke mı" sorusuna geri döner. Voltaire onu "aklın makinesi" diye andı; Clarke 1729'da öldü.
+
+## 1881: Hans Kelsen
+
+Hans Kelsen 11 Ekim 1881'de Prag'da doğdu, Viyana'da büyüdü. 1920 Avusturya Anayasası'nın baş mimarıydı ve dünyanın ilk anayasa mahkemelerinden birini tasarlayıp 1930'a kadar yargıçlığını yaptı; Nazizm yüzünden Köln'den, sonra Cenevre ve Prag'dan ayrılmak zorunda kaldı, 1940'ta ABD'ye gitti ve ömrünün sonuna kadar Berkeley'de ders verdi; 1973'te öldü. Başyapıtı *Saf Hukuk Kuramı* (*Reine Rechtslehre*, 1934; genişletilmiş 1960) hukuk felsefesinin 20. yüzyıldaki en etkili metnidir. Kelsen hukuku ahlaktan, siyasetten ve sosyolojiden "arındırmak" istedi: Hukuk bir normlar sistemidir; her normun geçerliliği daha üst bir normdan gelir ve bu hiyerarşi, hukuken türetilemeyen, varsayılan bir "temel norm"a (Grundnorm) dayanır. Hukuki geçerlilik ile ahlaki doğruluk ayrı sorulardır; bu, pozitivizmin en titiz savunusu ve aynı zamanda en çok tartışılan tezidir. Carl Schmitt'le anayasanın "koruyucusu" (mahkeme mi, devlet başkanı mı) üzerine 1931'de yaptığı polemik, Weimar'ın çöküşünün felsefi arka planıdır. Kelsen'in Türkiye'de de özel bir yeri var: Türkçe hukuk felsefesi öğretimi büyük ölçüde onun pozitivizmiyle doğal hukuk arasındaki tartışma üzerinden kuruldu; [bugün yayımladığımız dosya](/haber/turkiyede-hukuk-felsefesi-munif-pasadan-cemal-bali-akala) bu gerilimi izliyor.
+
+## 1708: Tschirnhaus
+
+Ehrenfried Walther von Tschirnhaus 11 Ekim 1708'de Dresden'de öldü. Leiden'de okudu, Spinoza'yla dostluk kurdu ve *Etika*'nın el yazmasını ölümünden önce okuyan birkaç kişiden biriydi; Spinoza'yla mektuplaşması, *Etika*'daki sonsuz kiplerin ve "neden hareket var" sorusunun en sert sorgulamalarını içerir. Leibniz'le Paris'te tanıştı, Huygens ve Newton'la yazıştı, Fransız Bilimler Akademisi'nin ilk Alman üyesi oldu. *Medicina mentis* (1687) adlı eseri, Descartes'ın yöntemini Spinoza'nın geometrik tarzıyla birleştiren bir "zihin tıbbı", yani bir keşif mantığı önerir; "Tschirnhaus dönüşümü" cebirde hâlâ onun adını taşır. Daha dünyevi bir mirası da var: Saksonya'da Böttger'le birlikte Avrupa porseleninin icadına giden çalışmaları yürüttü, Meissen'in doğuşu onun ölümünden birkaç ay sonradır. Filozof, matematikçi ve mühendisin aynı kişide buluştuğu bir erken Aydınlanma figürü.
 
 ## 1531: Zwingli Kappel'de
 
-Huldrych Zwingli 11 Ekim 1531'de, Zürih ile Katolik kantonlar arasındaki İkinci Kappel Savaşı'nda, ordunun yanında vaiz olarak bulunduğu sırada öldürüldü; 47 yaşındaydı. Luther'den bağımsız olarak, 1519'dan itibaren Zürih'te başlattığı reform, Protestanlığın Reformed (Kalvinist) kolunun kaynağıdır. Felsefe tarihi açısından ayırt edici yanı, Luther'den farklı olarak bir hümanist olmasıdır: Viyana ve Basel'de yetişti, Erasmus'un öğrencisi ve hayranıydı, Yunanca ve İbranice öğrendi, kilise babalarını ve antik filozofları okudu. Kutsal Kitap'ı akılla okumanın, "doğal ışığın" ve dilin yorumunun önemini savundu; Luther'le 1529 Marburg tartışmasında ayrıldığı nokta tam da yorum felsefesiydi: "Bu benim bedenimdir" cümlesindeki "dir" kelimesi, Zwingli'ye göre "anlamına gelir" demekti; Luther için harfiydi. Mecaz ile gerçeklik, işaret ile şey arasındaki bu tartışma, sonraki yüzyılların hermeneutik sorularını önceden içerir. Zwingli'nin ilahi takdir üzerine yazdığı *De providentia* (1530), Stoacı ve Platoncu bir Tanrı anlayışına yaklaşır; erdemli paganların kurtuluşunu kabul etmesi, Luther'i öfkelendirmişti. Ölümünün ardından reformu Heinrich Bullinger, sonra Cenevre'de Calvin sürdürdü.
+Huldrych Zwingli 11 Ekim 1531'de, Zürih ile Katolik kantonlar arasındaki İkinci Kappel Savaşı'nda ordunun yanında vaiz olarak bulunduğu sırada öldürüldü; 47 yaşındaydı. Luther'den bağımsız olarak Zürih'te başlattığı reform, Protestanlığın Reformed kolunun kaynağıdır. Felsefe tarihi açısından ayırt edici yanı hümanist olmasıdır: Erasmus'un öğrencisi ve hayranıydı, Yunanca ve İbranice öğrendi, antik filozofları okudu. Luther'le 1529 Marburg tartışmasında ayrıldığı nokta bir yorum felsefesiydi: "Bu benim bedenimdir" cümlesindeki "dir", Zwingli'ye göre "anlamına gelir" demekti; Luther için harfiydi. Mecaz ile gerçeklik, işaret ile şey arasındaki bu tartışma, sonraki yüzyılların hermeneutik sorularını önceden içerir. İlahi takdir üzerine yazdığı *De providentia* (1530) Stoacı-Platoncu bir Tanrı anlayışına yaklaşır; erdemli paganların kurtuluşunu kabul etmesi Luther'i öfkelendirmişti.
+
+## 1939: Einstein'ın mektubu Roosevelt'in masasında
+
+Einstein'ın Roosevelt'e yazdığı ünlü mektup 2 Ağustos 1939 tarihlidir; ama Başkan'ın önüne 11 Ekim 1939'da geldi. Mektubu kaleme alan Leó Szilárd'dı; Einstein imzaladı; ekonomist Alexander Sachs mektubun masada unutulmasından korktuğu için randevu alana kadar bekledi ve 11 Ekim'de Oval Ofis'te metni yüksek sesle okudu. Roosevelt'in cevabı kayıtlara geçti: "Alex, istediğin şey Nazilerin bizi havaya uçurmamasını sağlamak." Uranyum Danışma Komitesi aynı ay kuruldu; Manhattan Projesi'ne giden yol buradan başladı. Einstein sonradan bu imzayı hayatının "tek büyük hatası" olarak andı. Felsefe açısından mektup, bilim etiğinin kurucu vakalarından biridir: Bilginin sorumluluğu kime aittir, "onlar yapmadan önce biz yapalım" gerekçesi nereye kadar geçerlidir, ve bir bilim insanı öngördüğü sonuçtan ne ölçüde sorumludur? Bu sorular sitemizde [yapay zekâ ve sorumluluk](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) tartışmalarında aynı biçimde yeniden karşımıza çıkıyor.
 
 ## 1962: II. Vatikan Konsili açılıyor
 
-Tam 431 yıl sonra, 11 Ekim 1962'de Papa XXIII. Ioannes Roma'da II. Vatikan Konsili'ni açtı; 2.500'ü aşkın piskopos Aziz Petrus Bazilikası'na toplanmıştı. Konsil 1965'e kadar sürdü ve Katolik Kilisesi'nin modern dünyayla ilişkisini yeniden kurdu: Ayinin yerel dillerde yapılması, din özgürlüğünün tanınması (*Dignitatis humanae*), öteki dinlerle diyalog (*Nostra aetate*), kilisenin "çağdaş dünyadaki" yeri (*Gaudium et spes*). Açılış konuşmasında Papa, kilisenin "felaket tellallarına" karşı "tıbbın şefkatini mahkûmiyetin sertliğine" tercih edeceğini söyledi.
+11 Ekim 1962'de Papa XXIII. Ioannes Roma'da II. Vatikan Konsili'ni açtı; 2.500'ü aşkın piskopos Aziz Petrus Bazilikası'na toplanmıştı. Konsil 1965'e kadar sürdü ve Katolik Kilisesi'nin modern dünyayla ilişkisini yeniden kurdu: Ayinin yerel dillerde yapılması, din özgürlüğünün tanınması, öteki dinlerle diyalog, kilisenin çağdaş dünyadaki yeri (*Gaudium et spes*). Felsefe açısından konsil, Thomasçı felsefenin tekelinin sona erdiği andır: Maritain'in kişi felsefesi, Rahner'in aşkın Thomizmi, de Lubac ve Congar'ın "kaynaklara dönüş"ü ve fenomenolojiyle yetişmiş Wojtyła'nın kişiselciliği metinlerde iz bıraktı. Konsil sonrası tartışma, kilisenin modernliğe açılmasının bir çöküş mü yoksa yenilenme mi olduğu etrafında bugün de sürüyor; [Charles Taylor'ın](/haber/charles-taylor-modern-benlik-sekuler-cag) *Seküler Çağ*'ı bu tartışmanın felsefi arka planını anlatır.
 
-Felsefe açısından konsil, Thomasçı felsefenin tekelinin sona erdiği andır. XIII. Leo'nun 1879'daki *Aeterni Patris* genelgesinden beri Katolik düşüncesi Aquinas'a bağlıydı; konsil metinlerinde Jacques Maritain'in kişi felsefesi ve "bütüncül hümanizm"i, Karl Rahner'in aşkın Thomizmi, Yves Congar ve Henri de Lubac'ın "kaynaklara dönüş"ü (*ressourcement*), fenomenolojiyle yetişmiş Karol Wojtyła'nın kişiselciliği iz bıraktı. Maritain konsilin kapanışında, Papa VI. Paulus tarafından "düşünürlere mesaj"ın muhatabı olarak çağrıldı. Konsil sonrası tartışma, kilisenin modernliğe açılmasının bir "çöküş" mü yoksa bir "yenilenme" mi olduğu etrafında bugün de sürüyor; Charles Taylor'ın *Seküler Çağ*'ı bu tartışmanın felsefi arka planını anlatır.
-
-İki tarih aynı soruyu sorar: İnanç akılla, kutsal metin yorumla, kurum çağıyla nasıl konuşur? Zwingli bu soruya bir savaş alanında, konsil bir bazilikada cevap aradı; ikisi de kilise tarihinin, aynı zamanda yorum felsefesinin tarihinin birer bölümü.`,
+Altı olay, bir soru: Clarke aklın Tanrı'ya ulaşabileceğini, Kelsen hukukun ahlaktan arındırılabileceğini, Tschirnhaus zihnin bir yöntemle iyileştirilebileceğini, Zwingli kutsal metnin akılla yorumlanabileceğini savundu; Einstein'ın mektubu ve konsil ise aklın ürettiği gücün ve kurumun sorumluluğunu sordu. 11 Ekim, aklın sınırlarıyla sorumluluğun sınırlarının aynı gün üzerinde düşünülmesi için iyi bir gün.`,
   },
   {
     title: "Felsefe Tarihinde Bugün: 10 Ekim — Arthur O. Lovejoy ve 1582'de var olmayan günler",
@@ -3325,7 +3342,7 @@ Amerikalı pragmatist filozof John J. McDermott, 30 Eylül 2018'de öldü. 1932'
 Columbia Üniversitesi'nin 2026 John Dewey Konferansları'nı [Miranda Fricker](/filozof/miranda-fricker) verdi: "Ethical Pressures: Shaping Wills and Bending Time in Moral Address" başlıklı üç ders, 30 Eylül, 1 ve 2 Ekim'de. Fricker'ın epistemik adaletsizlik kuramından ahlaki hitap kuramına geçişini [daha önce](/haber/miranda-fricker-uehiro-konferanslari-2026) ele almıştık; etkinliğin ayrıntıları [takvimimizde](/etkinlik/fricker-dewey-konferanslari-columbia-2026).`,
   },
   {
-    title: "Filozof David Danks'a yapay zekâ araştırmaları için 1 milyon dolarlık destek",
+    title: "Felsefeci David Danks'a yapay zekâ araştırmaları için 1 milyon dolarlık destek",
     slug: "david-danks-ai2050-senior-fellow-1-milyon-dolar",
     summary:
       "Virginia Üniversitesi'nde felsefe, yapay zekâ ve veri bilimi profesörü David Danks, Schmidt Sciences'ın AI2050 programında üç yıllık 1 milyon dolarlık Senior Fellowship kazandı. Projesinin adı 'insan-yapay zekâ değer birlikte-evrimi': Yapay zekâ yalnızca bugünkü değerlerimize hizmet etmiyor, onları değiştiriyor; o hâlde neyi hizalıyoruz?",
