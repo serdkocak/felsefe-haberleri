@@ -260,6 +260,135 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Richard Rorty",
+    slug: "richard-rorty",
+    headline: "Amerikalı pragmatist filozof (1931-2007)",
+    bio: "Felsefe ve Doğanın Aynası ile temelci epistemolojiye, Olumsallık, İroni ve Dayanışma ile hakikatin değişmez temelleri fikrine karşı çıkan yeni-pragmatist; 'liberal ironist' ve 'demokrasinin felsefeye önceliği' kavramlarıyla 20. yüzyıl sonunun en çok tartışılan filozoflarından.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20McKay%20Rorty.png?width=600",
+    country: "ABD",
+    birthYear: 1931,
+    affiliation: "Princeton (1961-1982) · Virginia (1982-1998) · Stanford (1998-2007)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Richard McKay Rorty",
+    birthDate: "4 Ekim 1931, New York",
+    deathDate: "8 Haziran 2007, Palo Alto",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Yeni-pragmatizm · analitik felsefe sonrası · liberal siyaset felsefesi",
+    areas: "Epistemoloji, dil felsefesi, siyaset felsefesi, metafelsefe, edebiyat ve felsefe",
+    majorWorks: "Philosophy and the Mirror of Nature (1979)\nConsequences of Pragmatism (1982)\nContingency, Irony, and Solidarity (1989)\nObjectivity, Relativism, and Truth (1991)\nAchieving Our Country (1998)\nPhilosophy and Social Hope (1999)",
+    keyConcepts: "Doğanın aynası, temelcilik eleştirisi, hakikat ile gerekçelendirme, son sözlük, liberal ironist, dayanışma, zulmü azaltmak, demokrasinin felsefeye önceliği",
+    influencedBy: "John Dewey, Wittgenstein, Heidegger, Sellars, Quine, Davidson, Kuhn, Derrida",
+    influenced: "Yeni-pragmatizm, Robert Brandom, Cornel West, Gianni Vattimo, edebiyat kuramı, postanalitik felsefe",
+    longBio: "4 Ekim 1931'de New York'ta, Troçkist çevreye yakın sol entelektüel bir ailede doğdu. Chicago'da Rudolf Carnap ve Richard McKeon'dan, Yale'de doktora yaptı. Princeton'da yirmi yıl analitik felsefeci olarak çalıştıktan sonra Philosophy and the Mirror of Nature (1979) ile temelci epistemolojiyi ve zihnin dünyayı temsil eden bir ayna olduğu fikrini sorguladı; 1982'de felsefe bölümünden ayrılıp Virginia'da beşerî bilimler profesörü, 1998'de Stanford'da karşılaştırmalı edebiyat profesörü oldu. Contingency, Irony, and Solidarity (1989) hakikat, benlik ve toplumu olumsal, tarihsel ve yeniden tanımlanabilir olarak ele aldı; Achieving Our Country (1998) Amerikan solunu ekonomik eşitsizliği ihmal etmekle eleştirdi. 8 Haziran 2007'de pankreas kanserinden öldü.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Richard Rorty' — https://plato.stanford.edu/entries/rorty/",
+  },
+  {
+    name: "Taşköprizâde Ahmed Efendi",
+    slug: "taskoprizade-ahmed-efendi",
+    headline: "Osmanlı âlimi ve düşünürü, ilimler tasnifinin ustası (1495-1561)",
+    bio: "Miftâhu's-saâde ile İslam düşüncesindeki ilimler tasnifi geleneğinin en kapsamlı örneklerinden birini veren, eş-Şekâiku'n-nu'mâniyye ile Osmanlı ilim tarihinin temel kaynağını yazan XVI. yüzyıl müderrisi ve kadısı; bilgiyi akıl yürütme ve manevi arınma olmak üzere iki yoldan edinilen bir bütün olarak düşündü.",
+    avatar: null,
+    country: "Osmanlı Devleti",
+    birthYear: 1495,
+    affiliation: "Sahn-ı Semân ve Edirne medreseleri (müderris) · Bursa ve İstanbul kadılığı",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "İsâmüddin Ebü'l-Hayr Ahmed b. Mustafa Taşköprizâde",
+    birthDate: "2 Aralık 1495, Bursa",
+    deathDate: "13 Nisan 1561, İstanbul",
+    alive: false,
+    period: "16. yüzyıl · Osmanlı klasik dönemi",
+    school: "Osmanlı medrese geleneği · İbn Sînâcı felsefe · kelâm · tasavvuf",
+    areas: "İlimler tasnifi, bilgi felsefesi, mantık, kelâm, ahlâk, ilimler tarihi, biyografi",
+    majorWorks: "Miftâhu's-saâde ve misbâhu's-siyâde fî mevzûâti'l-ulûm\neş-Şekâiku'n-nu'mâniyye fî ulemâi'd-devleti'l-Osmâniyye\nMevzûâtü'l-ulûm (Kemâleddin Mehmed'in Türkçe çevirisi)\nRisâle fî ilmi'l-âdâb\nŞerhu Mukaddimeti'l-Cezeriyye",
+    keyConcepts: "İlimlerin yedi dalı, varlığın dört düzeyi (yazı, söz, zihin, dış dünya), nazar ve tasfiye yolları, ilim ahlâkı, ilimlerin taksimi",
+    influencedBy: "İbn Sînâ, Gazzâlî, İbnü'l-Ekfânî, Fahreddin er-Râzî, Seyyid Şerif Cürcânî",
+    influenced: "Kâtib Çelebi (Keşfü'z-zunûn), Osmanlı ilimler tasnifi literatürü, Osmanlı biyografi geleneği",
+    longBio: "2 Aralık 1495'te Bursa'da doğdu; ailesi Kastamonu'nun Taşköprü ilçesinden geldiği için Taşköprizâde diye anıldı. Babası Muslihuddin Mustafa Efendi'den ve dönemin önde gelen âlimlerinden ders aldı; Dimetoka, İstanbul, Üsküp ve Edirne medreselerinde müderrislik yaptı; 1545'te Bursa, 1551'de İstanbul kadısı oldu. 1554'te gözlerini kaybetti ve eserlerinin bir kısmını bu dönemde yazdırdı. Başyapıtı Miftâhu's-saâde ilimleri yedi ana dalda, üç yüzü aşkın başlık altında tanımları, konuları, amaçları, yöntemleri ve literatürüyle ele alır; eser oğlu Kemâleddin Mehmed tarafından Mevzûâtü'l-ulûm adıyla Türkçeye çevrildi. Osmanlı âlim ve şeyhlerinin hayatlarını anlatan eş-Şekâiku'n-nu'mâniyye ise Osmanlı ilim tarihinin ilk sistematik kaynağıdır. 13 Nisan 1561'de İstanbul'da öldü; Fatih'teki Âşık Paşa Camii haziresine gömüldü.",
+    sources: "TDV İslâm Ansiklopedisi, 'Taşköprizâde Ahmed Efendi' — https://islamansiklopedisi.org.tr/taskoprizade-ahmed-efendi\nTDV İslâm Ansiklopedisi, 'Miftâhu's-saâde' — https://islamansiklopedisi.org.tr/miftahus-saade",
+  },
+  {
+    name: "Denis Diderot",
+    slug: "denis-diderot",
+    headline: "Fransız filozof, Ansiklopedi'nin editörü (1713-1784)",
+    bio: "Aydınlanma'nın en huzursuz zihni: Encyclopédie'nin yirmi beş yıl süren editörlüğünü yürüttü; Rameau'nun Yeğeni, D'Alembert'in Rüyası ve Kaderci Jacques gibi yaşarken yayımlamadığı metinlerde materyalizmi, ahlak ile deha arasındaki uçurumu ve özgür irade sorusunu sistemsiz ama derin bir biçimde düşündü.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Louis-Michel%20van%20Loo%20001.jpg?width=600",
+    country: "Fransa",
+    birthYear: 1713,
+    affiliation: "Encyclopédie (editör, 1747-1772)",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Denis Diderot",
+    birthDate: "5 Ekim 1713, Langres",
+    deathDate: "31 Temmuz 1784, Paris",
+    alive: false,
+    period: "18. yüzyıl · Aydınlanma",
+    school: "Fransız Aydınlanması · materyalizm · deneycilik",
+    areas: "Bilgi kuramı, materyalist doğa felsefesi, ahlak felsefesi, estetik, siyaset felsefesi, edebiyat",
+    majorWorks: "Encyclopédie (ed., 1751-1772)\nFelsefi Düşünceler (1746)\nKörler Üzerine Mektup (1749)\nRameau'nun Yeğeni (yaz. 1761-74)\nD'Alembert'in Rüyası (yaz. 1769)\nKaderci Jacques ve Efendisi (yaz. 1765-80)\nBougainville Seyahatine Ek (yaz. 1772)",
+    keyConcepts: "Bilginin ağ olarak örgütlenmesi, duyarlı madde, ahlak ile dehanın ayrışması, gelenek olarak ahlak, aydın despotluğun sınırları",
+    influencedBy: "Bacon, Locke, Shaftesbury, Spinoza, Lucretius, Montaigne",
+    influenced: "Goethe, Hegel, Marx, Schiller, Comte, Fransız materyalistleri, modern ansiklopedicilik",
+    longBio: "5 Ekim 1713'te Langres'da bir bıçakçı ustasının oğlu olarak doğdu; Cizvit okulunda yetişti, Paris'te hukuk eğitimini bıraktı ve on yıl boyunca çeviri ve özel derslerle geçindi. 1746'daki Felsefi Düşünceler yakıldı; 1749'daki Körler Üzerine Mektup yüzünden Vincennes'de birkaç ay hapis yattı. 1747'den 1772'ye kadar, d'Alembert'in yarı yolda ayrılmasına, iki yasaklamaya ve yayıncının gizli sansürüne rağmen Encyclopédie'nin on yedi cilt metnini ve on bir cilt levhasını tamamladı. Yaşarken yayımlamadığı diyaloglar ve romanlar (Rameau'nun Yeğeni, D'Alembert'in Rüyası, Kaderci Jacques, Bougainville Seyahatine Ek) ölümünden sonra ortaya çıktı ve onu Aydınlanma'nın en özgün düşünürlerinden biri yaptı. Kütüphanesini satın alan II. Katerina'nın davetiyle 1773-74'te St. Petersburg'da kaldı. 31 Temmuz 1784'te Paris'te öldü.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Denis Diderot' — https://plato.stanford.edu/entries/diderot/\nBritannica, 'Denis Diderot' — https://www.britannica.com/biography/Denis-Diderot",
+  },
+  {
+    name: "Uluğ Nutku",
+    slug: "ulug-nutku",
+    headline: "Türk filozof, 'gezgin düşünür' (1935-2014)",
+    bio: "Mersin, Çukurova ve Cumhuriyet üniversitelerinin felsefe bölümlerini kuran, Türkçeye 'felsefeylemek' ve 'aşmaca' kavramlarını kazandıran, felsefeyi 'güncelin felsefesi' olarak yapan düşünür. Nedensellik, özgürlük, ölüm, kültür, inanma ve insan kavramlarını tarihsel bağlamlarında çözümledi; akademi dışında da felsefenin yaygınlaşması için çalıştı.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1935,
+    affiliation: "Mersin Üniversitesi (kurucu bölüm başkanı, 1994-1999) · Cumhuriyet Üniversitesi · Çukurova Üniversitesi · Kocaeli Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Uluğ Nutku",
+    birthDate: "1935, Zara, Sivas",
+    deathDate: "17 Kasım 2014, Mersin",
+    alive: false,
+    period: "20. yüzyıl",
+    school: "Felsefi antropoloji · tarihsel-eleştirel felsefe · Türkçede felsefe",
+    areas: "İnsan felsefesi, bilgi ve bilimsellik, özgürlük ve kader, kültür felsefesi, inanma, felsefe ve güncellik",
+    majorWorks: "İnsan Felsefesi Çalışmaları\nFelsefe ve Güncellik\nDaha Güncel Felsefe\nİnanmanın Felsefesi\nUr Uruk Urşu: Şiir Damlası Tarih",
+    keyConcepts: "Felsefeylemek, aşmaca, güncelin felsefesi, nedensellik ve bilimsellik, özgürlük-kader ilişkisi, kültür ve insan",
+    influencedBy: "Takiyettin Mengüşoğlu, Nicolai Hartmann, Kant, Marx, Antik Yunan felsefesi",
+    influenced: "Mersin, Sivas ve Adana'da yetişen felsefe kuşakları; Mersin Felsefeciler Derneği; 'Uluğ Nutku'ya Armağan' (2005) kitabını hazırlayan öğrencileri",
+    longBio: "1935'te Sivas'ın Zara ilçesinde doğdu. 1956'da Robert Kolej'i bitirdi; 1957-1964 arasında İstanbul Üniversitesi Felsefe Bölümü'nde, Sistematik Felsefe ve Mantık Kürsüsü'ne kayıtlı olarak okudu, felsefe tarihi, Eski Yunan dili ve edebiyatı ile Latin dili ve edebiyatı sertifikaları aldı. Takiyettin Mengüşoğlu'nun felsefi antropolojiyi kurduğu yıllarda yetişti ve insan felsefesini bütün çalışmalarının ekseni yaptı. İngilizce, Almanca, Eski Yunanca ve Latince biliyordu.\n\nAkademik hayatı Türkiye'nin yeni üniversitelerinde geçti: İstanbul, Çukurova, Kocaeli, Mersin ve Cumhuriyet üniversitelerinde ders verdi; 1994'te profesör oldu ve aynı yıl Mersin Üniversitesi Felsefe Bölümü'nün kurucu başkanlığını üstlendi (1994-1999), ardından Sivas Cumhuriyet Üniversitesi'nde felsefe bölümünü kurdu (2000); Çukurova'daki bölümün kuruluşunda da emeği vardı. 2002'de yaş haddinden emekli olduktan sonra ders vermeye devam etti; Anadolu'nun bir üniversitesinden ötekine taşınan hayatı ona 'gezgin düşünür' adını kazandırdı. Mersin Felsefeciler Derneği'nin kurucusu ve onursal başkanıydı; Eğitim-Sen Mersin Üniversitesi şubesinin kuruluşuna öncülük etti.\n\nKitapları, nedensellik, bilimsellik, özgürlük, ölüm, kader, kültür, insan, toplum, düşünme, eylem, mutluluk, amaç, bilim ve inanma gibi kavramları tarihsel bağlamları içinde çözümler. 'Felsefeylemek' kavramıyla felsefeyi bir bilgi yığını değil bir etkinlik olarak; 'aşmaca' kavramıyla insanın kendi verili durumunu aşma hareketini adlandırdı. Felsefe ve Güncellik ile Daha Güncel Felsefe, 'güncelin felsefesi' programının, felsefenin günün sorunlarıyla hesaplaşması gerektiği düşüncesinin ürünleridir. Öğrencileri ve meslektaşları 2005'te 'Uluğ Nutku'ya Armağan' kitabını hazırladı. 17 Kasım 2014'te Mersin'de, 79 yaşında öldü; cenazesi Mersin Üniversitesi'nde düzenlenen törenle uğurlandı.",
+    sources: "Milliyet, 'MEÜ Felsefe Bölümü kurucusu Prof. Nutku yaşamını yitirdi', 18 Kasım 2014 — https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002 · Biyografya, 'Uluğ Nutku' — https://www.biyografya.com/tr/biographies/ulug-nutku-9533a6e5",
+  },
+  {
+    name: "Yanis Varoufakis",
+    slug: "yanis-varoufakis",
+    headline: "Yunan iktisatçı ve siyaset kuramcısı — 'teknofeodalizm' tezinin yazarı",
+    bio: "Oyun kuramı ve siyasal iktisat profesörü, 2015'te Yunanistan'ın maliye bakanı, DiEM25'in kurucusu. Technofeudalism (2023) ile dijital platformların 'bulut sermayesi'nin kâr yerine rant üzerine kurulu yeni bir üretim tarzı yarattığını ve kapitalizmin kendi mutasyonu tarafından öldürüldüğünü savundu; 2026'da tezin Marksist savunmasını yayımladı.",
+    avatar: "https://commons.wikimedia.org/wiki/Special:FilePath/Yanis%20Varoufakis%20on%20Subversive%20Festival.jpg?width=600",
+    country: "Yunanistan",
+    birthYear: 1961,
+    affiliation: "Atina Üniversitesi (iktisat profesörü) · DiEM25 / MeRA25",
+    website: "https://www.yanisvaroufakis.eu",
+    featured: false,
+    listed: true,
+    fullName: "Yanis (Ioannis) Varoufakis",
+    birthDate: "24 Mart 1961, Atina",
+    alive: true,
+    period: "Çağdaş",
+    school: "Siyasal iktisat · heterodoks/post-Keynesyen ve Marksist iktisat · oyun kuramı",
+    areas: "Siyasal iktisat, kapitalizm kuramı, dijital platformlar, Avrupa siyaseti, demokrasi",
+    majorWorks: "Game Theory: A Critical Introduction (Hargreaves Heap ile, 1995)\nThe Global Minotaur (2011)\nAnd the Weak Suffer What They Must? (2016)\nTalking to My Daughter About the Economy (2017)\nAdults in the Room (2017)\nAnother Now (2020)\nTechnofeudalism: What Killed Capitalism (2023)\nThe Marxist Case for the Technofeudal Hypothesis (2026, makale)",
+    keyConcepts: "Teknofeodalizm, bulut sermayesi (cloud capital), bulut rantı, bulut serfleri ve bulut proleterleri, Küresel Minotor, 'odadaki yetişkinler'",
+    influencedBy: "Karl Marx, John Maynard Keynes, Hyman Minsky, Shoshana Zuboff'un gözetim kapitalizmi tartışması (eleştirel), Cédric Durand",
+    influenced: "Dijital kapitalizm ve platform rantı tartışması; Avrupa solunda DiEM25; Jodi Dean ve Cédric Durand'ın 'neo-feodalizm' tartışmasıyla karşılıklı etkileşim",
+    longBio: "1961'de Atina'da doğdu; Essex ve Birmingham'da matematiksel iktisat okudu, 1987'de Essex'te doktorasını aldı. Essex, East Anglia, Cambridge, Sidney, Atina ve Texas (Austin) üniversitelerinde ders verdi; 2012-2015 arasında oyun şirketi Valve'ın 'ekonomisti' olarak dijital ekonomileri içeriden gözlemledi. Ocak-Temmuz 2015'te Syriza hükümetinin maliye bakanı olarak Avrupa alacaklılarıyla müzakereleri yürüttü, referandumun ardından istifa etti; bu deneyimi Adults in the Room'da anlattı. 2016'da Avrupa'nın demokratikleştirilmesi hareketi DiEM25'i kurdu; MeRA25 partisiyle 2019-2023 arasında Yunan parlamentosunda milletvekiliydi.\n\nTechnofeudalism (2023), yirmi birinci yüzyıl iktisadının en çok tartışılan tezlerinden birini ortaya attı: Amazon, Google, Apple ve Meta gibi şirketlerin sahip olduğu 'bulut sermayesi', meta üretmeyen ama kullanıcılarla doğrudan arayüz kurarak davranışı yönlendiren ve piyasa dışı bir alanda rant toplayan yeni bir sermaye biçimidir; kapitalist kârın yerini bulut rantı, piyasanın yerini 'bulut tımarları' almıştır. Tez, Henry Snow, Evgeny Morozov, Cédric Durand ve Nicholas Gane gibi isimlerden 'kapitalizm hâlâ kapitalizmdir' eleştirisi aldı; Varoufakis 2026'da Jacobin'de ve kendi sitesinde yayımladığı 'The Marxist Case for the Technofeudal Hypothesis' ile tezi Marx'ın yöntemi içinde yeniden kurdu: 'Tarih geriye gitmiyor; dizginsiz sermaye birikiminin sürüklediği yepyeni bir toplumsal-iktisadi tarza doğru savruluyoruz.'",
+    sources: "Yanis Varoufakis, 'The Marxist Case for the Technofeudal Hypothesis', Jacobin, 4 Ağustos 2026 — https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism · Nicholas Gane, 'Capitalism is Capitalism, not Technofeudalism', Journal of Classical Sociology 25(4), 2025 — https://doi.org/10.1177/1468795X241269293 · Resmî site — https://www.yanisvaroufakis.eu",
+  },
+  {
     name: "Philippa Foot",
     slug: "philippa-foot",
     headline: "İngiliz ahlak filozofu, erdem etiğinin kurucularından (1920-2010)",
@@ -2884,6 +3013,1895 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Felsefe Tarihinde Bugün: 11 Ekim — Samuel Clarke, Hans Kelsen, Tschirnhaus, Zwingli ve Einstein'ın mektubu",
+    slug: "felsefe-tarihinde-bugun-11-ekim-clarke-kelsen-tschirnhaus-zwingli-einstein",
+    summary:
+      "11 Ekim'de doğanlar: Leibniz'le yazışan Newtoncu metafizikçi Samuel Clarke (1675) ve 'saf hukuk kuramı'nın kurucusu Hans Kelsen (1881). Ölenler: Spinoza'nın dostu, porselenin mucidi Tschirnhaus (1708) ve Zürih reformcusu Zwingli (1531). Ve 1939'da Einstein'ın Roosevelt'e mektubu bugün okundu; 1962'de II. Vatikan Konsili açıldı.",
+    seoTitle: "Felsefe Tarihinde Bugün 11 Ekim: Clarke (1675), Kelsen (1881), Tschirnhaus (ö. 1708), Zwingli (ö. 1531), Einstein-Szilárd mektubu (1939)",
+    metaDescription:
+      "11 Ekim: Samuel Clarke'ın doğumu (1675) ve Leibniz-Clarke yazışması; Hans Kelsen'in doğumu (1881) ve saf hukuk kuramı; Tschirnhaus'un ölümü (1708); Zwingli'nin ölümü (1531); Einstein-Szilárd mektubunun Roosevelt'e sunulması (1939); II. Vatikan Konsili (1962).",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Einstein-Roosevelt-letter.png?width=1600",
+    imageCredit: "Einstein'ın Roosevelt'e 2 Ağustos 1939 tarihli mektubu · Franklin D. Roosevelt Kütüphanesi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/clarke/",
+    publishedAt: "2026-10-10T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "hukuk-felsefesi", "din-felsefesi", "bilim-felsefesi", "etik"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
+    sources: [
+      { title: "Samuel Clarke", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/clarke/", primary: true },
+      { title: "Hans Kelsen | Austrian jurist", publisher: "Britannica", url: "https://www.britannica.com/biography/Hans-Kelsen" },
+      { title: "Ehrenfried Walther von Tschirnhaus", publisher: "MacTutor History of Mathematics, University of St Andrews", url: "https://mathshistory.st-andrews.ac.uk/Biographies/Tschirnhaus/" },
+      { title: "Einstein-Szilárd Letter", publisher: "Atomic Heritage Foundation / National Museum of Nuclear Science & History", url: "https://ahf.nuclearmuseum.org/ahf/history/einstein-szilard-letter/" },
+      { title: "Huldrych Zwingli | Swiss religious reformer", publisher: "Britannica", url: "https://www.britannica.com/biography/Huldrych-Zwingli" },
+    ],
+    content: `11 Ekim, felsefe takviminin yoğun günlerinden biri: Bir metafizikçi ve bir hukuk kuramcısı doğdu; bir matematikçi-filozof ve bir reformcu öldü; bir mektup okundu ve bir konsil açıldı. Ortak payda, aklın sınırlarıyla sorumluluğun sınırlarının nerede kesiştiği sorusu.
+
+## 1675: Samuel Clarke
+
+Samuel Clarke 11 Ekim 1675'te Norwich'te doğdu. Cambridge'de okudu, Newton'ın en yakın felsefi müttefiki ve *Optika*'sının Latince çevirmeni oldu; Anglikan rahipti, Boyle Konferansları'nda (1704-1705) Tanrı'nın varlığını Newton fiziğine dayanan bir kozmolojik kanıtla savundu ve ahlakın, matematik gibi, "şeylerin ezelî uygunluklarına" dayanan nesnel bir rasyonalizm olduğunu ileri sürdü. Felsefe tarihindeki kalıcı yeri, Leibniz'le 1715-1716'da yaptığı yazışmadır: Caroline of Ansbach'ın aracılığıyla değiş tokuş edilen on mektupluk bu tartışma, Newton adına Clarke ile Leibniz'i uzayın ve zamanın doğası (mutlak kap mı, ilişkiler düzeni mi), yeter sebep ilkesi, Tanrı'nın dünyaya müdahalesi ("Tanrı saatini ara sıra kurmak zorunda mı?"), özgür irade ve atomların varlığı üzerine karşı karşıya getirdi. Leibniz beşinci mektuba cevap yazamadan öldü; Clarke yazışmayı 1717'de yayımladı ve metin, modern fizik felsefesinin kurucu belgesi oldu: Einstein'ın göreliliği ve bugünün kuantum yerçekimi tartışmaları hâlâ "Leibniz mi, Clarke mı" sorusuna geri döner. Voltaire onu "aklın makinesi" diye andı; Clarke 1729'da öldü.
+
+## 1881: Hans Kelsen
+
+Hans Kelsen 11 Ekim 1881'de Prag'da doğdu, Viyana'da büyüdü. 1920 Avusturya Anayasası'nın baş mimarıydı ve dünyanın ilk anayasa mahkemelerinden birini tasarlayıp 1930'a kadar yargıçlığını yaptı; Nazizm yüzünden Köln'den, sonra Cenevre ve Prag'dan ayrılmak zorunda kaldı, 1940'ta ABD'ye gitti ve ömrünün sonuna kadar Berkeley'de ders verdi; 1973'te öldü. Başyapıtı *Saf Hukuk Kuramı* (*Reine Rechtslehre*, 1934; genişletilmiş 1960) hukuk felsefesinin 20. yüzyıldaki en etkili metnidir. Kelsen hukuku ahlaktan, siyasetten ve sosyolojiden "arındırmak" istedi: Hukuk bir normlar sistemidir; her normun geçerliliği daha üst bir normdan gelir ve bu hiyerarşi, hukuken türetilemeyen, varsayılan bir "temel norm"a (Grundnorm) dayanır. Hukuki geçerlilik ile ahlaki doğruluk ayrı sorulardır; bu, pozitivizmin en titiz savunusu ve aynı zamanda en çok tartışılan tezidir. Carl Schmitt'le anayasanın "koruyucusu" (mahkeme mi, devlet başkanı mı) üzerine 1931'de yaptığı polemik, Weimar'ın çöküşünün felsefi arka planıdır. Kelsen'in Türkiye'de de özel bir yeri var: Türkçe hukuk felsefesi öğretimi büyük ölçüde onun pozitivizmiyle doğal hukuk arasındaki tartışma üzerinden kuruldu; [bugün yayımladığımız dosya](/haber/turkiyede-hukuk-felsefesi-munif-pasadan-cemal-bali-akala) bu gerilimi izliyor.
+
+## 1708: Tschirnhaus
+
+Ehrenfried Walther von Tschirnhaus 11 Ekim 1708'de Dresden'de öldü. Leiden'de okudu, Spinoza'yla dostluk kurdu ve *Etika*'nın el yazmasını ölümünden önce okuyan birkaç kişiden biriydi; Spinoza'yla mektuplaşması, *Etika*'daki sonsuz kiplerin ve "neden hareket var" sorusunun en sert sorgulamalarını içerir. Leibniz'le Paris'te tanıştı, Huygens ve Newton'la yazıştı, Fransız Bilimler Akademisi'nin ilk Alman üyesi oldu. *Medicina mentis* (1687) adlı eseri, Descartes'ın yöntemini Spinoza'nın geometrik tarzıyla birleştiren bir "zihin tıbbı", yani bir keşif mantığı önerir; "Tschirnhaus dönüşümü" cebirde hâlâ onun adını taşır. Daha dünyevi bir mirası da var: Saksonya'da Böttger'le birlikte Avrupa porseleninin icadına giden çalışmaları yürüttü, Meissen'in doğuşu onun ölümünden birkaç ay sonradır. Filozof, matematikçi ve mühendisin aynı kişide buluştuğu bir erken Aydınlanma figürü.
+
+## 1531: Zwingli Kappel'de
+
+Huldrych Zwingli 11 Ekim 1531'de, Zürih ile Katolik kantonlar arasındaki İkinci Kappel Savaşı'nda ordunun yanında vaiz olarak bulunduğu sırada öldürüldü; 47 yaşındaydı. Luther'den bağımsız olarak Zürih'te başlattığı reform, Protestanlığın Reformed kolunun kaynağıdır. Felsefe tarihi açısından ayırt edici yanı hümanist olmasıdır: Erasmus'un öğrencisi ve hayranıydı, Yunanca ve İbranice öğrendi, antik filozofları okudu. Luther'le 1529 Marburg tartışmasında ayrıldığı nokta bir yorum felsefesiydi: "Bu benim bedenimdir" cümlesindeki "dir", Zwingli'ye göre "anlamına gelir" demekti; Luther için harfiydi. Mecaz ile gerçeklik, işaret ile şey arasındaki bu tartışma, sonraki yüzyılların hermeneutik sorularını önceden içerir. İlahi takdir üzerine yazdığı *De providentia* (1530) Stoacı-Platoncu bir Tanrı anlayışına yaklaşır; erdemli paganların kurtuluşunu kabul etmesi Luther'i öfkelendirmişti.
+
+## 1939: Einstein'ın mektubu Roosevelt'in masasında
+
+Einstein'ın Roosevelt'e yazdığı ünlü mektup 2 Ağustos 1939 tarihlidir; ama Başkan'ın önüne 11 Ekim 1939'da geldi. Mektubu kaleme alan Leó Szilárd'dı; Einstein imzaladı; ekonomist Alexander Sachs mektubun masada unutulmasından korktuğu için randevu alana kadar bekledi ve 11 Ekim'de Oval Ofis'te metni yüksek sesle okudu. Roosevelt'in cevabı kayıtlara geçti: "Alex, istediğin şey Nazilerin bizi havaya uçurmamasını sağlamak." Uranyum Danışma Komitesi aynı ay kuruldu; Manhattan Projesi'ne giden yol buradan başladı. Einstein sonradan bu imzayı hayatının "tek büyük hatası" olarak andı. Felsefe açısından mektup, bilim etiğinin kurucu vakalarından biridir: Bilginin sorumluluğu kime aittir, "onlar yapmadan önce biz yapalım" gerekçesi nereye kadar geçerlidir, ve bir bilim insanı öngördüğü sonuçtan ne ölçüde sorumludur? Bu sorular sitemizde [yapay zekâ ve sorumluluk](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) tartışmalarında aynı biçimde yeniden karşımıza çıkıyor.
+
+## 1962: II. Vatikan Konsili açılıyor
+
+11 Ekim 1962'de Papa XXIII. Ioannes Roma'da II. Vatikan Konsili'ni açtı; 2.500'ü aşkın piskopos Aziz Petrus Bazilikası'na toplanmıştı. Konsil 1965'e kadar sürdü ve Katolik Kilisesi'nin modern dünyayla ilişkisini yeniden kurdu: Ayinin yerel dillerde yapılması, din özgürlüğünün tanınması, öteki dinlerle diyalog, kilisenin çağdaş dünyadaki yeri (*Gaudium et spes*). Felsefe açısından konsil, Thomasçı felsefenin tekelinin sona erdiği andır: Maritain'in kişi felsefesi, Rahner'in aşkın Thomizmi, de Lubac ve Congar'ın "kaynaklara dönüş"ü ve fenomenolojiyle yetişmiş Wojtyła'nın kişiselciliği metinlerde iz bıraktı. Konsil sonrası tartışma, kilisenin modernliğe açılmasının bir çöküş mü yoksa yenilenme mi olduğu etrafında bugün de sürüyor; [Charles Taylor'ın](/haber/charles-taylor-modern-benlik-sekuler-cag) *Seküler Çağ*'ı bu tartışmanın felsefi arka planını anlatır.
+
+Altı olay, bir soru: Clarke aklın Tanrı'ya ulaşabileceğini, Kelsen hukukun ahlaktan arındırılabileceğini, Tschirnhaus zihnin bir yöntemle iyileştirilebileceğini, Zwingli kutsal metnin akılla yorumlanabileceğini savundu; Einstein'ın mektubu ve konsil ise aklın ürettiği gücün ve kurumun sorumluluğunu sordu. 11 Ekim, aklın sınırlarıyla sorumluluğun sınırlarının aynı gün üzerinde düşünülmesi için iyi bir gün.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 10 Ekim — Arthur O. Lovejoy ve 1582'de var olmayan günler",
+    slug: "felsefe-tarihinde-bugun-10-ekim-lovejoy-varlik-zinciri-1582",
+    summary:
+      "10 Ekim 1873'te Berlin'de doğan Arthur O. Lovejoy, 'fikirler tarihi'ni bir disiplin olarak kurdu; The Great Chain of Being, Platon'dan Romantizme bir fikrin iki bin yıllık yolculuğunu izledi. Ve 1582'de bu gün hiç yaşanmadı: Gregoryen takvim 5-14 Ekim'i sildi.",
+    seoTitle: "Felsefe Tarihinde Bugün 10 Ekim: Arthur O. Lovejoy (1873)",
+    metaDescription:
+      "10 Ekim 1873: Arthur Oncken Lovejoy'un doğumu; fikirler tarihi, 'birim-fikirler', The Great Chain of Being (1936), AAUP ve akademik özgürlük. 1582 Gregoryen takvim reformu.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20Widener%20Library.jpg?width=1600",
+    imageCredit: "Widener Kütüphanesi, Harvard · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Arthur-O-Lovejoy",
+    publishedAt: "2026-10-09T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "kavram", "akademi", "platon"],
+    philosopherSlugs: ["platon"],
+    sources: [
+      { title: "Arthur O. Lovejoy | American philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Arthur-O-Lovejoy", primary: true },
+      { title: "The Great Chain of Being", publisher: "Harvard University Press", url: "https://www.hup.harvard.edu/books/9780674018389" },
+    ],
+    content: `## 1873: Arthur Oncken Lovejoy
+
+Arthur O. Lovejoy 10 Ekim 1873'te Berlin'de doğdu; babası Amerikalı bir tıp öğrencisi, annesi Alman asıllıydı ve o bir buçuk yaşındayken intihar etti. Berkeley ve Harvard'da okudu, William James ve Josiah Royce'un öğrencisi oldu; Stanford'dan, bir meslektaşının haksız işten çıkarılmasını protesto ederek istifa etti ve 1910'dan emekliliğine kadar Johns Hopkins'te ders verdi. Felsefe tarihine iki miras bıraktı: Bir disiplin ve bir kurum.
+
+Disiplin, **fikirler tarihi** (history of ideas). Lovejoy 1923'te Johns Hopkins'te Fikirler Tarihi Kulübü'nü kurdu, 1940'ta *Journal of the History of Ideas*'ı başlattı. Yöntemi, felsefe sistemlerini bütün olarak değil, onları oluşturan "birim-fikirler"i (unit-ideas) izlemekti: Bir fikir, felsefeden teolojiye, bilimden şiire, yüzyıllar boyunca nasıl dolaşır, nasıl birleşir, nasıl dönüşür? Başyapıtı *The Great Chain of Being* (1936, Harvard'daki William James konferansları), tek bir fikri izler: Varlığın, Tanrı'dan en aşağı cansız maddeye kadar kesintisiz, sıralı ve dolu bir "zincir" oluşturduğu düşüncesi. Platon'un *Timaios*'undaki "bolluk ilkesi"nden (iyi olan Tanrı yaratabileceği her şeyi yaratır) Aristoteles'in süreklilik ilkesine, Plotinos'tan Ortaçağ'a, Leibniz'in "mümkün dünyaların en iyisi"nden 18. yüzyıl kozmik iyimserliğine ve nihayet Schelling'de zincirin zamana yayılıp "evrim"e dönüşmesine kadar. Kitap, bir metafizik fikrin iki bin yıl boyunca bilimi, etiği ve estetiği nasıl biçimlendirdiğini gösteren, türünün en etkili örneğidir. Quentin Skinner ve Cambridge okulu sonradan "birim-fikir" yöntemini bağlamdan kopuk bulup eleştirdi; ama tartışmanın kendisi Lovejoy'un açtığı alanda yapıldı.
+
+Kurum ise **akademik özgürlük**. Lovejoy, John Dewey ile birlikte 1915'te Amerikan Üniversite Profesörleri Derneği'ni (AAUP) kurdu ve akademik özgürlük ile kadro güvencesi ilkelerinin yazarlarından oldu. Aynı Lovejoy, McCarthy döneminde komünist parti üyelerinin üniversitede öğretmemesi gerektiğini savunarak kendi kurduğu ilkeyi tartışmalı biçimde sınırladı; geçen hafta [Verhaegh'in McCarthycilik analizinde](/haber/analitik-felsefe-mccarthycilik-verhaegh-logical-positivism-american-history) bu paradoksa değinmiştik. Felsefi olarak "eleştirel realizm"in savunucusuydu; *The Revolt Against Dualism* (1930) pragmatizme ve yeni realizme karşı zihin-dünya ikiliğini savundu. 30 Aralık 1962'de Baltimore'da öldü.
+
+## 1582: Bu gün yoktu
+
+Takvim yazarken hatırlatmaya değer bir ayrıntı: 1582 yılında İtalya, İspanya, Portekiz ve Polonya'da 10 Ekim diye bir gün yaşanmadı. Papa XIII. Gregorius'un takvim reformu, Jülyen takviminin biriktirdiği on günlük kaymayı düzeltmek için 4 Ekim Perşembe'den doğrudan 15 Ekim Cuma'ya geçti. Protestan ülkeler reformu kuşkuyla karşıladı; İngiltere 1752'ye, Rusya 1918'e, Türkiye 1926'ya kadar bekledi. Bu yüzden felsefe tarihinde bugün yazılarının gizli sorunu şudur: Hangi takvimle? Bir filozofun doğum günü, yaşadığı ülkenin takvimine göre başka, bizimkine göre başka olabilir. Tarih yalnızca ne olduğunun değil, zamanın nasıl sayıldığının da tarihidir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 9 Ekim — Jacques Derrida ve Nicolai Hartmann",
+    slug: "felsefe-tarihinde-bugun-9-ekim-derrida-nicolai-hartmann",
+    summary:
+      "9 Ekim 2004'te yapısökümün adı Jacques Derrida Paris'te öldü; 9 Ekim 1950'de yeni ontolojinin kurucusu Nicolai Hartmann Göttingen'de. Biri anlamın hiç tam olarak mevcut olmadığını, öteki varlığın katmanlı yapısını düşündü.",
+    seoTitle: "Felsefe Tarihinde Bugün 9 Ekim: Derrida (ö. 2004), Nicolai Hartmann (ö. 1950)",
+    metaDescription:
+      "9 Ekim: Jacques Derrida'nın ölümü (2004) ve Nicolai Hartmann'ın ölümü (1950). Yapısöküm, différance, mevcudiyet metafiziği; Hartmann'ın varlık katmanları ve Türkiye'deki etkisi.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jaques_Derrida_%28cropped%29.jpg?width=1600",
+    imageCredit: "Jacques Derrida (1930-2004) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/derrida/",
+    publishedAt: "2026-10-08T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "postmodernizm", "fenomenoloji", "kavram"],
+    philosopherSlugs: ["ulug-nutku"],
+    sources: [
+      { title: "Jacques Derrida", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/derrida/", primary: true },
+      { title: "Nicolai Hartmann | German philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Nicolai-Hartmann" },
+    ],
+    content: `## 2004: Jacques Derrida
+
+Jacques Derrida 9 Ekim 2004'te Paris'te pankreas kanserinden öldü; 74 yaşındaydı. 1930'da Cezayir'de El-Biar'da Sefarad Yahudisi bir ailede doğmuş, 1942'de Vichy yasaları yüzünden okuldan atılmış, 1949'da Fransa'ya gelmiş, École Normale'de Husserl üzerine çalışmıştı. 1967'de üç kitap birden yayımladı: *Ses ve Fenomen*, *Gramatoloji Üzerine*, *Yazı ve Fark*. Bu üç kitap "yapısöküm"ü (déconstruction) felsefenin sözlüğüne soktu.
+
+Yapısöküm bir yöntem ya da bir "yıkma" değil; metinlerin kendi içlerindeki gerilimleri, bastırdıkları karşıt terimleri ve dayandıkları hiyerarşileri açığa çıkaran bir okuma pratiği. Derrida'ya göre Batı metafiziği "mevcudiyet"i (présence) ayrıcalıklı kılar: Konuşma yazıya, akıl duyguya, öz görünüşe, erkek kadına, merkez kenara göre öncelikli sayılır. Bu hiyerarşiler kendi içlerinde çöker; çünkü üstün terim alt terime muhtaçtır. "Différance" (fark ile erteleme) kavramı anlamın hiçbir zaman tam olarak mevcut olmadığını, her zaman başka işaretlere gönderdiğini ve ertelendiğini söyler. 1980'lerden sonra Derrida'nın yazısı etik ve siyasete döndü: Dostluk, misafirperverlik, bağışlama, adalet ("yapısöküm adalettir"), Marx'ın hayaletleri, hayvan sorusu, ölüm cezası, egemenlik. Amerikan edebiyat bölümlerinde kahraman, analitik felsefede şüpheli oldu; Cambridge'in 1992'de verdiği fahri doktora bir tartışmaya dönüştü; Habermas'la kavga etti, sonra barıştı; ölümünden iki ay önce *Le Monde*'a verdiği son söyleşide "kendimle savaş hâlindeyim" dedi. Derrida'nın "arşiv", "iz" ve sorumluluk kavramlarını [yapay zekâ bağlamında](/haber/derrida-yapay-zeka-arsiv-iz-sorumluluk) daha önce ele almıştık. Ölümünün 22. yılında onu okumak hâlâ zor; ama bu zorluk, bir metnin anlamını tüketmenin imkânsızlığına dair bir derstir.
+
+## 1950: Nicolai Hartmann
+
+Aynı gün, 54 yıl önce, 9 Ekim 1950'de Nicolai Hartmann Göttingen'de öldü. Riga'da doğmuş (1882), Marburg'da Cohen ve Natorp'un yanında Yeni Kantçı olarak yetişmiş, sonra bu okuldan koparak "yeni ontoloji"yi kurmuştu. *Bilginin Metafiziğinin Ana Hatları* (1921) ile bilginin kurucu değil kavrayıcı olduğunu, nesnenin bilgiden bağımsız var olduğunu savundu; *Etik* (1926), Scheler'in izinde değerlerin nesnel bir alanını, ama insanın bu alanı ancak tarihsel olarak ve parça parça keşfedebileceğini anlattı. Büyük ontoloji dörtlüsü (*Ontolojinin Temellendirilmesi*, *Olanak ve Gerçeklik*, *Reel Dünyanın Yapısı*, *Doğa Felsefesi*) varlığı dört katmana ayırdı: Cansız madde, organik yaşam, ruhsal yaşam, tinsel varlık. Her üst katman alt katmana dayanır ama ona indirgenemez; alttaki daha güçlü, üstteki daha özgürdür. Bu "katmanlar yasası", indirgemeciliğe karşı bugün hâlâ başvurulan bir çerçeve.
+
+Hartmann'ın Türkiye için özel bir önemi var. Hartmann'ın öğrencisi Takiyettin Mengüşoğlu, Hartmann'ın felsefi antropolojisini ve ontolojisini İstanbul Üniversitesi'ne taşıdı; o kuşağın öğrencileri arasında [Uluğ Nutku](/haber/ulug-nutku-gezgin-filozof-felsefeylemek) da vardı. Türkiye'de "insan felsefesi" diye anılan gelenek, büyük ölçüde Hartmann'dan gelir. Derrida ile Hartmann'ı aynı güne koymak bir takvim tesadüfü; ama ikisi de 20. yüzyıl felsefesinin iki büyük refleksini temsil eder: Biri metnin kapanmazlığını, öteki varlığın katmanlı sağlamlığını düşündü.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 8 Ekim — Gabriel Marcel, problem ve gizem",
+    slug: "felsefe-tarihinde-bugun-8-ekim-gabriel-marcel-problem-gizem",
+    summary:
+      "8 Ekim 1973'te Paris'te ölen Gabriel Marcel, Sartre'dan önce Fransa'da varoluşçuluğun kapısını açmış, ama etiketi reddetmişti. 'Olmak' ile 'sahip olmak', 'problem' ile 'gizem' ayrımları, teknokrasiye ve 'işlevselleşmiş insan'a eleştirisi bugün hâlâ keskin.",
+    seoTitle: "Felsefe Tarihinde Bugün 8 Ekim: Gabriel Marcel (ö. 1973)",
+    metaDescription:
+      "8 Ekim 1973: Gabriel Marcel'in ölümü. Metafizik Günlük, Olmak ve Sahip Olmak, problem-gizem ayrımı, umut ve sadakat, Hristiyan varoluşçuluğu, Ricoeur ve Levinas'a etkisi.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Plaque%20Gabriel%20Marcel%2C%2021%20rue%20de%20Tournon%2C%20Paris%206.jpg?width=1600",
+    imageCredit: "Gabriel Marcel'in yaşadığı evin plaketi, 21 rue de Tournon, Paris · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Gabriel-Marcel",
+    publishedAt: "2026-10-07T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "fenomenoloji", "din-felsefesi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Gabriel Marcel | French philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Gabriel-Marcel", primary: true },
+      { title: "Gabriel (-Honoré) Marcel", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/marcel/" },
+    ],
+    content: `Gabriel Marcel 8 Ekim 1973'te Paris'te öldü. 1889'da doğmuş, dört yaşında annesini kaybetmiş, agnostik bir babayla Protestan bir teyze tarafından yetiştirilmiş, 1929'da kırk yaşında Katolik olmuştu. Filozof olduğu kadar oyun yazarı, müzik eleştirmeni ve piyanistti; otuza yakın oyun yazdı ve felsefesinin önce sahnede, sonra kavramda doğduğunu söylerdi.
+
+## Varoluşçuluğun isimsiz kurucusu
+
+Felsefi günlüğü *Metafizik Günlük* (1927) ve *Olmak ve Sahip Olmak* (1935), Fransa'da Sartre'dan önce varoluşçuluğun kapısını açtı; "varoluşçuluk" (existentialisme) kelimesinin Fransızcada ilk kez onun düşüncesi için kullanıldığı kabul edilir. Marcel bu etiketi reddetti ve kendi düşüncesine "yeni-Sokratesçilik" ya da "somut felsefe" dedi. Kierkegaard ve Jaspers'e yakındı; Sartre'ın 1945'teki "Varoluşçuluk bir hümanizmdir" konferansına, "ateist varoluşçuluk"un insanı umutsuzluğa kapattığını söyleyerek karşılık verdi. Felsefeyi sistem kurmak olarak değil, somut deneyimi "yansıtma" olarak anladı: Birinci düzey yansıtma dünyayı nesnelere ayırır ve çözer; ikinci düzey yansıtma, parçalanmış deneyimi yeniden bütünlüğüne kavuşturur.
+
+## Olmak ve sahip olmak
+
+Düşüncesinin merkezinde iki ayrım var. Birincisi **olmak** ile **sahip olmak**: Sahip olma ilişkisi dünyayı nesneleştirir ve beni de nesneleştirir; sahip olduğum şey beni de ele geçirir. Bedenim "sahip olduğum" bir şey değil, "olduğum" şeydir; Marcel'in "bedenim" üzerine çözümlemeleri Merleau-Ponty'den önce bedenlenmiş özne düşüncesini hazırladı. İkincisi, daha etkili olan, **problem** ile **gizem** ayrımı: Problem önümde duran, tekniğin çözebileceği, çözüldüğünde ortadan kalkan şeydir; gizem ise içinde bulunduğum, kendimi dışına çıkaramadığım, "kendi verilerini kuşatan" şeydir. Kötülük, aşk, ölüm, varlık, özgürlük birer gizemdir; onları probleme çevirmek, "varlığı sahip olmaya" indirgemektir. Modern dünyanın temel hatası Marcel'e göre bu indirgemedir; buna "soyutlama ruhu" dedi ve teknokrasiyi, bürokrasiyi, "işlevselleşmiş insan"ı (bir dizi işlevden ibaret görülen memur, hasta, tüketici) buradan eleştirdi. *İnsan Onuru Karşısında İnsan* (1951) ve *Kırık Dünya* oyunu bu eleştirinin iki yüzüdür.
+
+## Umut, sadakat, açıklık
+
+Olumlu kavramları üçtür: **Umut**, iyimserlik değildir; "senin için umuyorum" biçiminde, bir ilişkiye dayanır ve denenmişliğin içinden doğar. **Yaratıcı sadakat**, bir söze bağlılığı zaman içinde yeniden yaratmaktır; sadakat, geçmişe değil, ötekine verilmiş bir sözün geleceğine aittir. **Açıklık** (disponibilité) ise başkasına "kullanılabilir" olmak, ona yer açmaktır; kapalı insan kendi kaygılarıyla doludur ve ötekine yer bırakmaz. Marcel'in "Sen" üzerine yazdıkları Martin Buber'le aynı yıllarda ve bağımsız olarak gelişti. Paul Ricoeur onun öğrencisiydi; Emmanuel Levinas'ın başkalık etiği onunla akrabadır; Charles Taylor ve Alasdair MacIntyre'ın modern "benlik" eleştirilerinde Marcel'in soyutlama ruhu eleştirisinin izi görülür.
+
+Bugün, [yapay zekânın hakikati söyleyip söyleyemeyeceğini](/haber/yapay-zeka-hakikati-soyleyebilir-mi-heidegger-foucault-parrhesia) ve [belleğin bir arşiv olup olmadığını](/haber/felipe-de-brigard-macarthur-fellow-2026-hafiza-hayal-gucu) tartıştığımız bir haftada Marcel'in sorusu hâlâ keskin: Her şeyi probleme çeviren, her gizemi "çözülecek bir şey" olarak gören bir uygarlık, gizemi görebilir mi? Marcel'in cevabı tek cümleydi: Hayat bir çözülecek problem değil, yaşanacak bir gizemdir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 7 Ekim — Niels Bohr ve tamamlayıcılık",
+    slug: "felsefe-tarihinde-bugun-7-ekim-niels-bohr-tamamlayicilik",
+    summary:
+      "7 Ekim 1885'te Kopenhag'da doğan Niels Bohr yalnızca kuantum fiziğinin kurucusu değil, 20. yüzyılın en etkili bilim filozoflarından biriydi. Kierkegaard okuyan, Høffding'in derslerine giden Bohr'un 'tamamlayıcılık' kavramı, bilginin yapısı hakkında bir tezdir.",
+    seoTitle: "Felsefe Tarihinde Bugün 7 Ekim: Niels Bohr (1885)",
+    metaDescription:
+      "7 Ekim 1885: Niels Bohr'un doğumu. Atom modeli, Kopenhag yorumu, tamamlayıcılık (1927), Einstein-Bohr tartışması, EPR'ye cevap, Kierkegaard ve Høffding etkisi.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Niels%20Bohr.jpg?width=1600",
+    imageCredit: "Niels Bohr · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · NobelPrize.org · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/qm-copenhagen/",
+    publishedAt: "2026-10-06T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Niels Bohr — Biographical", publisher: "NobelPrize.org", url: "https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/", primary: true },
+      { title: "Copenhagen Interpretation of Quantum Mechanics", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/qm-copenhagen/" },
+    ],
+    content: `Niels Bohr 7 Ekim 1885'te Kopenhag'da doğdu; babası fizyoloji profesörü Christian Bohr, annesi Yahudi bir banker ailesinden Ellen Adler. 1913'te atomun kuantumlu modelini kurdu, 1922'de Nobel aldı, Kopenhag'daki enstitüsü 1920'ler ve 30'larda kuantum mekaniğinin başkenti oldu; Heisenberg, Pauli, Dirac, Gamow oradan geçti. 1943'te Nazi işgalindeki Danimarka'dan İsveç'e kaçtı, Manhattan Projesi'ne katıldı, savaştan sonra nükleer silahların uluslararası denetimi için uğraştı. 18 Kasım 1962'de öldü.
+
+## Fizikçi mi, filozof mu?
+
+Bohr'u fizikçi olarak tanırız; ama felsefi eğitimi tesadüf değildi. Gençliğinde Kierkegaard'ı okudu ve *Yaşam Yolunda Evreler*'i kardeşine hediye etti; Kopenhag'da Harald Høffding'in felsefe derslerini izledi ve babasının evinde toplanan Høffding'in tartışma grubunu dinledi; öğrenciliğinde "Ekliptika" adlı on iki kişilik tartışma kulübünde felsefe konuştu. William James'in *Psikolojinin İlkeleri*'ndeki "bilinç akışı" bölümünü ve Poul Martin Møller'in bir romanındaki, kendini gözlerken kendini kaybeden öğrenciyi sık sık anardı: Gözleyen ile gözlenenin ayrılamazlığı fikri, kuantum yorumundan önce ona gelmişti.
+
+## Tamamlayıcılık
+
+Felsefeye asıl katkısı **tamamlayıcılık** (komplementarite) kavramıdır; ilk kez 1927'de Como'daki Volta konferansında sundu. Kuantum nesneleri bazı deney düzenlerinde dalga, bazılarında parçacık gibi davranır; iki tasvir birbirini dışlar ama ikisi de gereklidir ve nesnenin tam betimlemesi ancak ikisi birlikte verilir. Bohr'a göre bu bir eksiklik değil, bilginin yapısının kendisidir: Gözlem gözlenen sistemi değiştirir; bir "olgu" ancak bütün deney düzeniyle birlikte tanımlanır; klasik dilden vazgeçemeyiz çünkü ölçümü ancak onunla anlatabiliriz. Einstein'la 1927 Solvay'den 1935'e süren tartışması felsefe tarihinin büyük diyaloglarından biridir; "Tanrı zar atmaz" / "Einstein, Tanrı'ya ne yapacağını söylemeyi bırak" diyaloğu bu tartışmanın efsanesi. Einstein, Podolsky ve Rosen'ın 1935 makalesine cevabı, gerçekliğin gözlemden bağımsız tanımlanabileceği varsayımını hedef alır; Bohr için "fiziksel gerçeklik" kavramının kendisi deney düzeninden ayrılamaz.
+
+Bohr tamamlayıcılığı fiziğin dışına da taşıdı: Biyolojide mekanizm ile amaçlılık, psikolojide düşüncenin içeriği ile düşünme edimi, antropolojide farklı kültürlerin yaşam biçimleri arasında benzer bir ilişki gördü. Yorumcular onu Kant'a (deneyimin koşulları), pragmatizme (kavramların işlevi) ve Kierkegaard'a (ya/ya da) bağladı; kendisi hiçbir okula girmedi ve felsefi yazıları kasıtlı olarak muğlak kaldı. Kopenhag yorumunun bugün tek yorum olmadığını, Bohm'dan çoklu dünyalara rakiplerinin bulunduğunu da söylemek gerekir; ama bu rakiplerin hepsi Bohr'un sorusuna cevap vermek zorunda: Gözlemci olmadan "olgu" var mıdır?
+
+Mezarı Kopenhag'daki Assistens Mezarlığı'nda, Kierkegaard'ın mezarından birkaç yüz metre uzakta. Danimarka'nın bu iki düşünürü aynı mezarlıkta, aynı sorunun iki ucunda yatıyor: Biri özneyi, öteki gözlemciyi hiçbir tasvirin dışında bırakmamayı öğretti.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 6 Ekim — Matteo Ricci, iki dünya arasında çevirmen",
+    slug: "felsefe-tarihinde-bugun-6-ekim-matteo-ricci",
+    summary:
+      "6 Ekim 1552'de Macerata'da doğan Cizvit Matteo Ricci, Eukleides'i Çinceye, Konfüçyüs'ü Latinceye taşıdı; Pekin'de gömülmesine izin verilen ilk Batılı oldu. Kültürler arası felsefenin ilk büyük deneyi ve 'Çin ayinleri tartışması'.",
+    seoTitle: "Felsefe Tarihinde Bugün 6 Ekim: Matteo Ricci (1552)",
+    metaDescription:
+      "6 Ekim 1552: Matteo Ricci'nin doğumu. Li Madou, Eukleides'in Elemanlar'ının Çince çevirisi (1607), Tianzhu Shiyi (1603), Konfüçyüsçülük yorumu, uyarlama stratejisi ve Çin ayinleri tartışması.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ricciportrait.jpg?width=1600",
+    imageCredit: "Matteo Ricci, Yu Wenhui (Manuel Pereira), 1610 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Matteo-Ricci",
+    publishedAt: "2026-10-05T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "ronesans", "kavram"],
+    philosopherSlugs: ["konfucyus"],
+    sources: [
+      { title: "Matteo Ricci | Italian Jesuit missionary", publisher: "Britannica", url: "https://www.britannica.com/biography/Matteo-Ricci", primary: true },
+      { title: "Matteo Ricci", publisher: "MacTutor History of Mathematics, University of St Andrews", url: "https://mathshistory.st-andrews.ac.uk/Biographies/Ricci_Matteo/" },
+    ],
+    content: `Matteo Ricci 6 Ekim 1552'de Papalık Devleti'ndeki Macerata'da doğdu. Roma'da hukuk okurken Cizvitlere katıldı; Collegio Romano'da Christopher Clavius'tan matematik ve astronomi öğrendi; 1582'de Makao'ya, 1583'te Çin anakarasına ayak bastı. Önce Budist rahip kıyafeti giydi; sonra Çinli aydınların kendisini ciddiye almasının yolunun Konfüçyüsçü âlim kimliği olduğunu anlayıp ipek cübbeyi ve uzun sakalı seçti. Li Madou adıyla tanındı. 1601'de Pekin'e girdi ve 11 Mayıs 1610'da ölümüne kadar imparatorluk sarayının çevresinde yaşadı; Pekin'de gömülmesine izin verilen ilk Batılı oldu.
+
+## İki yönlü çeviri
+
+Ricci'nin felsefe tarihindeki yeri, iki yönlü bir çeviri işidir. Çin'e Eukleides'i getirdi: Xu Guangqi ile birlikte *Elemanlar*'ın ilk altı kitabını Çinceye çevirdi (1607) ve "geometri" (jihe) için bugün hâlâ kullanılan terimleri yarattı; dünya haritası, Batı'nın Çin'de "ortada" olmadığını gösteren ilk haritaydı; hafıza sanatı üzerine Çince yazdığı kitap, Rönesans'ın bellek saraylarını Çinli öğrencilere öğretti. Çin'den Avrupa'ya ise Konfüçyüs'ü taşıdı: Dört Kitap'ın Latince çevirisi girişimi ve Konfüçyüsçülüğü "doğal akılla uyumlu bir ahlak felsefesi" olarak sunan yorumu, Leibniz'in ve Aydınlanma'nın Çin hayranlığının kaynağı oldu; Voltaire'in "Çinli bilge" imgesi Ricci'nin mektuplarından türedi.
+
+Çince başyapıtı *Tianzhu Shiyi* ("Göğün Efendisi'nin Gerçek Anlamı", 1603), bir Batılı âlimle bir Çinli âlim arasında geçen diyalogdur: Hristiyan Tanrı kavramını klasik Konfüçyüsçü metinlerdeki *Shangdi* (Yüce Efendi) ve *Tian* (Gök) ile konuşturur; Budizmi ve Yeni Konfüçyüsçü *li*-*qi* metafiziğini eleştirirken erken Konfüçyüsçülüğü benimser; ruhun ölümsüzlüğünü ve doğal yasayı skolastik argümanlarla savunur. Kitap Çinli okurlar için de yazılmıştı ve bazı Çinli âlimler (Xu Guangqi, Li Zhizao, Yang Tingyun) Hristiyan oldu; başkaları ise Ricci'nin Konfüçyüs'ü "Hristiyanlaştırdığını" söyleyerek ona karşı yazdı.
+
+## Uyarlama ve bedeli
+
+Ricci'nin stratejisi "uyarlama" (accommodatio) idi: Konfüçyüs'e ve atalara saygı ritüellerini dinî değil sivil törenler sayarak Hristiyan Çinlilere serbest bıraktı. Ölümünden sonra Dominikenler ve Fransiskenler bu yoruma itiraz etti; "Çin ayinleri tartışması" yüzyıl sürdü, 1704 ve 1715'te Roma Ricci'nin çizgisini mahkûm etti, Kangxi İmparatoru buna misyonerleri yasaklayarak karşılık verdi. Yasak ancak 1939'da kaldırıldı. Bugün Ricci, kültürler arası felsefenin ilk büyük deneyi sayılır: Bir geleneği öteki geleneğin kavramlarıyla anlatmanın hem imkânını hem bedelini gösterdi. Kavramlar çevrilebilir mi, yoksa her çeviri bir dönüştürme midir? Geçen hafta [Nishan Forumu](/haber/nishan-dunya-medeniyetler-forumu-2026-konfucyusculuk-yapay-zeka) ve [Çin'in özerk bilgi sistemi tartışması](/haber/cin-ozerk-felsefi-bilgi-sistemi-tartismasi-cssn-2026) üzerine yazdıklarımız, Ricci'nin dört yüz yıl önce açtığı sorunun hâlâ açık olduğunu gösteriyor; [Konfüçyüs'ün](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) Avrupa'da nasıl okunduğunun tarihi de Ricci'yle başlar.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 1 Ekim — Dilthey, Goldman, Mészáros ve Fedotov",
+    slug: "felsefe-tarihinde-bugun-1-ekim-dilthey-goldman-meszaros",
+    summary:
+      "1 Ekim 1911'de hermeneutiğin kurucusu Wilhelm Dilthey öldü; 1 Ekim 1938'de sosyal epistemolojinin kurucusu Alvin Goldman doğdu; 1 Ekim 2017'de Beyond Capital'in yazarı István Mészáros öldü; 1886'da Rus din filozofu Georgy Fedotov doğdu. 'Doğayı açıklarız, ruhsal yaşamı anlarız.'",
+    seoTitle: "Felsefe Tarihinde Bugün 1 Ekim: Dilthey (ö. 1911), Goldman (1938), Mészáros (ö. 2017)",
+    metaDescription:
+      "1 Ekim'de felsefe tarihi: Wilhelm Dilthey'in ölümü (1911) ve insan bilimleri; Alvin Goldman'ın doğumu (1938) ve güvenilircilik; István Mészáros'un ölümü (2017); Georgy Fedotov'un doğumu (1886).",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Dilthey.jpg?width=1600",
+    imageCredit: "Wilhelm Dilthey, 1910 dolayları · Fotoğraf: Rudolf Dührkoop · Kamu malı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/dilthey/",
+    publishedAt: "2026-09-30T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "marksizm", "din-felsefesi"],
+    philosopherSlugs: ["wilhelm-dilthey"],
+    sources: [
+      { title: "Wilhelm Dilthey", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/dilthey/", primary: true },
+      { title: "Alvin Goldman (1938-2024)", publisher: "Rutgers University, Department of Philosophy", url: "https://philosophy.rutgers.edu/" },
+      { title: "2026 Fall Conference: But Where Can She Be Found? Wisdom From Age to Age", publisher: "de Nicola Center for Ethics and Culture, University of Notre Dame", date: "1-3 Ekim 2026", url: "https://ethicscenter.nd.edu/programs/fall-conference/fc26/" },
+    ],
+    content: `## 1911: Wilhelm Dilthey'in ölümü
+
+Hermeneutiğin ve insan bilimleri felsefesinin kurucu figürü [Wilhelm Dilthey](/filozof/wilhelm-dilthey), 1 Ekim 1911'de Güney Tirol'de, Seis am Schlern'de tatildeyken öldü. (Bazı takvimler 1 Ekim'i doğum günü olarak da verir; bu yanlıştır. Dilthey 19 Kasım 1833'te Biebrich'te doğdu.) 1882'den 1905'e kadar Berlin'de Hegel'in eski kürsüsünde ders verdi.
+
+Dilthey'in temel sorusu şuydu: İnsan dünyasını doğa bilimleri gibi açıklayabilir miyiz, yoksa insan dünyasını anlamamız mı gerekir? *İnsan Bilimlerine Giriş* (1883), pozitivizmin bu iddiasına karşı insan bilimlerinin (Geisteswissenschaften) kendi temelini "yaşam"ın kendisinden alması gerektiğini savundu: Tarihi, dili, hukuku ve sanatı, kendimiz de yaşayan varlıklar olduğumuz için anlayabiliriz. "Doğayı açıklarız, ruhsal yaşamı anlarız" cümlesi bu programın sloganı oldu. Kant'ın saf aklı eleştirmesi gibi Dilthey bir "tarihsel akıl eleştirisi" tasarladı; tamamlayamadı, ama geç dönem çalışmaları yaşantı-ifade-anlama üçlüsünü hermeneutiğin temel yapısı olarak kurdu. Bu ayrım, Heidegger'den [Gadamer](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir)'e, Ricoeur'den çağdaş yorum kuramlarına uzanan büyük bir geleneğin zeminini hazırladı; [Schleiermacher'in hermeneutik derslerinin Türkçe çevirisini](/haber/schleiermacher-hermeneutik-dersleri-turkce) haber yaparken bu geleneğin Dilthey'den geçen hattına değinmiştik. Max Weber'in "anlayıcı sosyoloji"si, Ortega y Gasset'nin "yaşam aklı" ve bugünün nitel sosyal bilim yöntemleri, Dilthey'in mirasının farklı dallarıdır.
+
+## 1938: Alvin Goldman
+
+Çağdaş epistemolojinin en etkili isimlerinden Alvin Goldman, 1 Ekim 1938'de Brooklyn'de doğdu. 1967 tarihli "A Causal Theory of Knowing" makalesi, Gettier'nin iki yıl önce ortaya attığı probleme ilk büyük cevaplardan biriydi: Bilgi, inancın doğruluğuyla uygun bir nedensel ilişki içinde olmasını gerektirir. Sonraki "güvenilircilik" (reliabilism) kuramı, *Epistemology and Cognition* (1986), gerekçelendirmeyi öznenin içsel erişimine değil, inancı üreten sürecin güvenilirliğine bağladı ve "dışsalcılık"ın kurucu metni oldu. Goldman ayrıca *Knowledge in a Social World* (1999) ile sosyal epistemoloji alanını kurdu: Bilginin bireysel değil toplumsal üretimini, tanıklığı, uzmanlığı ve kurumları felsefenin konusu yaptı. Bu alan bugün, yanlış bilgi, algoritmik medya ve yapay zekâ çağında, epistemolojinin en canlı dalı. Michigan, Arizona ve Rutgers'ta ders verdi; 4 Ağustos 2024'te öldü.
+
+## 2017: István Mészáros
+
+Macar Marksist filozof István Mészáros, 1 Ekim 2017'de öldü. Budapeşte'de Lukács'ın asistanıydı; 1956'dan sonra ülkesini terk etti, Sussex Üniversitesi'nde ders verdi. *Marx's Theory of Alienation* (1970) ile Isaac Deutscher Ödülü'nü aldı; başyapıtı *Beyond Capital* (1995), kapitalizmin yalnızca ekonomik bir sistem değil, toplumsal yaşamı bütünüyle örgütleyen bir "toplumsal metabolizma" olarak ele alınması gerektiğini savundu ve Latin Amerika solunu, özellikle Hugo Chávez'i etkiledi. "Sermayenin yapısal krizi" tezi 2008 sonrasında yeniden okundu; bugün [yapay zekânın ekonomi-politiği](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) tartışmasında da adı geçiyor.
+
+## 1886: Georgy Fedotov
+
+Rus din filozofu ve tarihçi Georgy Petrovich Fedotov, 1 Ekim 1886'da Saratov'da doğdu. Marksist bir gençlikten Hristiyan bir tarih felsefesine geçti; Rus Ortodoks kültürü, azizlik ve "Rus dinî zihni" üzerine yazdı. 1925'te Sovyetler Birliği'nden ayrılarak Paris'teki Saint-Serge Enstitüsü'nde ders verdi, 1941'de ABD'ye geçti ve New York'taki St. Vladimir Seminary'de çalıştı. *The Russian Religious Mind* (1946), Rus düşünce tarihinin Batı'daki temel kaynaklarından biridir. 1951'de öldü.
+
+## 1 Ekim 2026: Bilgelik üzerine bir konferans
+
+Notre Dame Üniversitesi de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, 1-3 Ekim 2026'da "But Where Can She Be Found? Wisdom from Age to Age" (Peki O Nerede Bulunur? Çağdan Çağa Bilgelik) başlığıyla toplandı. Başlık Eyüp Kitabı'ndan; konferans bilgeliği antik felsefenin teorik-pratik bilgelik ayrımı, Kutsal Kitap geleneği ve pratik yaşam açısından ele aldı. "Bilgelik" kavramının, bilginin bollaştığı ve ucuzladığı bir çağda yeniden felsefenin konusu hâline gelişi, aynı günlerde sayfamızda duran [Yunus Emre](/haber/yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk) ve [Konfüçyüs](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) yazılarıyla birlikte okunabilir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 30 Eylül — Condillac, Mevlânâ ve Claudia Card",
+    slug: "felsefe-tarihinde-bugun-30-eylul-condillac-rumi-claudia-card",
+    summary:
+      "30 Eylül 1714'te heykel düşünce deneyinin filozofu Condillac doğdu; 30 Eylül 1207, Mevlânâ'nın geleneksel doğum tarihi; 30 Eylül 1940'ta kötülüğü felsefenin merkezine koyan Claudia Card doğdu. Aynı gün ölenler: pragmatist John J. McDermott (2018) ve İtalyan idealist Armando Carlini (1959).",
+    seoTitle: "Felsefe Tarihinde Bugün 30 Eylül: Condillac (1714), Mevlânâ (1207), Claudia Card (1940)",
+    metaDescription:
+      "30 Eylül'de felsefe tarihi: Condillac'ın doğumu (1714) ve heykel düşünce deneyi; Mevlânâ'nın doğumu (1207); Claudia Card (1940) ve 'vahşet paradigması'; John J. McDermott (ö. 2018); Armando Carlini (ö. 1959).",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89tienne%20Bonnot%20de%20Condillac.jpg?width=1600",
+    imageCredit: "Étienne Bonnot de Condillac · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
+    sourceUrl: "https://plato.stanford.edu/entries/condillac/",
+    publishedAt: "2026-09-29T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "aydinlanma", "etik", "islam-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Étienne Bonnot de Condillac", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/condillac/", primary: true },
+      { title: "In Memoriam: John Joseph McDermott, 1932-2018", publisher: "Society for the Advancement of American Philosophy", url: "https://american-philosophy.org/wp-content/uploads/2019/05/In-Memoriam-John-J.-McDermott.pdf" },
+      { title: "Claudia Card", publisher: "Britannica", url: "https://www.britannica.com/biography/Claudia-Card" },
+    ],
+    content: `## 1714: Étienne Bonnot de Condillac
+
+Fransız Aydınlanması'nın en önemli bilgi kuramcısı Étienne Bonnot de Condillac, 30 Eylül 1714'te Grenoble'da doğdu (bazı kaynaklar 1715'i verir). Rahip oldu ama hiç vaaz vermedi; Diderot ve Rousseau'nun dostu, Parma prensinin eğitmeni, Fransız Akademisi üyesiydi. Felsefesinin merkezinde bilgi sorusu vardır: İnsan zihnindeki fikirler nereden gelir? Locke'un deneyci mirasını radikalleştiren Condillac, Locke'un hâlâ kabul ettiği "düşünümü" (reflection) bile bağımsız bir kaynak olmaktan çıkardı: Her şey, bellek, karşılaştırma, yargı, hatta irade, dönüştürülmüş duyumdur.
+
+*Duyumlar Üzerine İnceleme*'deki (1754) ünlü heykel düşünce deneyi, felsefe tarihinin en güzel kurgularından biridir. Condillac mermerden bir heykel hayal eder ve ona duyuları tek tek verir: Önce yalnızca koku alır; bir gül kokusu heykelin bütün bilincidir, heykel "gül kokusudur". Sonra işitme, tat, görme ve nihayet dokunma eklenir; ancak dokunma ile heykel kendi bedenini dış nesnelerden ayırır ve bir "dış dünya" fikrine ulaşır. Deney, bilincin ve benliğin duyumlardan nasıl inşa edilebileceğini adım adım gösterir; Condillac bu yönüyle yalnızca Aydınlanma düşünürü değil, modern psikolojinin ve bilişsel bilimin öncüllerinden biridir. Bugün yapay zekâ araştırmacılarının "bedenlenmiş biliş" tartışmaları, Condillac'ın dokunmaya verdiği ayrıcalığı yeniden keşfediyor. 1780'de öldü. Geçen hafta [Diderot'yu](/haber/felsefe-tarihinde-bugun-5-ekim-diderot-edwards-havel) anarken Condillac'ın onun en yakın felsefi dostu olduğunu hatırlatmıştık.
+
+## 1207: Mevlânâ Celâleddîn-i Rûmî
+
+30 Eylül 1207, Mevlânâ'nın geleneksel doğum tarihidir; Belh'te (bugün Afganistan) doğdu, Konya'da yaşadı ve 1273'te öldü. Onu modern anlamda yalnızca "filozof" kategorisine yerleştirmek doğru olmaz; tasavvuf düşüncesi, şiir ve metafizik arasında duran bir düşünürdür. Fakat *Mesnevî* ve *Dîvân-ı Kebîr* felsefi okumaya açıktır: Mevlânâ'nın düşüncesindeki temel meselelerden biri, benliğin sabit bir öz değil, dönüşüm içindeki bir varlık olmasıdır; "ölmeden önce ölmek", benliğin sürekli aşılmasıdır. Aşk bilgisizlik değil, aklın ötesinde bir bilme biçimidir; Mevlânâ'nın imgesiyle, akıl yürüten "ayak"ın yerine uçuran "kanat". Mevlânâ ile [Yunus Emre](/haber/yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk) arasındaki farkı ayrı bir yazıda ele almıştık: Mevlânâ'nın dili kozmik ve metafiziktir, Yunus'un dili doğrudan insanın kendisine yönelir.
+
+## 1940: Claudia Card
+
+Amerikalı filozof Claudia Card, 30 Eylül 1940'ta Wisconsin'de doğdu. Harvard'da John Rawls'un yanında doktora yaptı; kırk yılı aşkın süre Wisconsin-Madison'da ders verdi. Etiği soyut ilkelerden ibaret görmeyerek kötülüğün gerçek dünyadaki biçimleriyle ilgilendi: *The Atrocity Paradigm* (2002) ve *Confronting Evils* (2010), kötülüğü "zarar görenin dayanamayacağı, öngörülebilir ve haksız zararlar" olarak tanımladı ve soykırım, tecavüz, terörizm ve işkence gibi "vahşetleri" ahlak felsefesinin merkezine koydu. Feminist etiğin de kurucu isimlerindendi; kadınların kötülüğün yalnızca kurbanı değil bazen faili de olabileceğini söyleyerek feminist düşüncenin kendi içinde tartışma açtı. Sorusu "kötülük nedir?"i aşıyordu: Bir toplum kötülüğü nasıl mümkün kılar? Card 2015'te öldü.
+
+## Ölenler: McDermott (2018) ve Carlini (1959)
+
+Amerikalı pragmatist filozof John J. McDermott, 30 Eylül 2018'de öldü. 1932'de New York'ta doğmuş, Fordham'da doktora yapmış, Queens College'da yıllarca ders verdikten sonra 1981'den itibaren Texas A&M'de çalışmıştı. William James ve John Dewey'in eserlerinin editörü, Amerikan Felsefesini Geliştirme Derneği'nin ve William James Derneği'nin başkanıydı; "deneyim felsefesi"ni Amerikan kültürünün kendi felsefesi olarak savundu ve insanın kendi deneyimini ciddiye almasını felsefenin başlangıcı saydı.
+
+İtalyan filozof Armando Carlini 30 Eylül 1959'da öldü. Giovanni Gentile'nin izleyicilerinden ve Pisa Üniversitesi'nde teorik felsefe profesörüydü; Gentile'nin "aktüel idealizm"ini Hristiyan bir spiritüalizme doğru dönüştürmeye çalıştı. İtalyan faşizmiyle ilişkisi nedeniyle düşünsel mirası, felsefe ile siyasal ideoloji arasındaki ilişkinin tartışmalı örneklerinden biridir.
+
+## 30 Eylül 2026: Fricker Columbia'da
+
+Columbia Üniversitesi'nin 2026 John Dewey Konferansları'nı [Miranda Fricker](/filozof/miranda-fricker) verdi: "Ethical Pressures: Shaping Wills and Bending Time in Moral Address" başlıklı üç ders, 30 Eylül, 1 ve 2 Ekim'de. Fricker'ın epistemik adaletsizlik kuramından ahlaki hitap kuramına geçişini [daha önce](/haber/miranda-fricker-uehiro-konferanslari-2026) ele almıştık; etkinliğin ayrıntıları [takvimimizde](/etkinlik/fricker-dewey-konferanslari-columbia-2026).`,
+  },
+  {
+    title: "Felsefeci David Danks'a yapay zekâ araştırmaları için 1 milyon dolarlık destek",
+    slug: "david-danks-ai2050-senior-fellow-1-milyon-dolar",
+    summary:
+      "Virginia Üniversitesi'nde felsefe, yapay zekâ ve veri bilimi profesörü David Danks, Schmidt Sciences'ın AI2050 programında üç yıllık 1 milyon dolarlık Senior Fellowship kazandı. Projesinin adı 'insan-yapay zekâ değer birlikte-evrimi': Yapay zekâ yalnızca bugünkü değerlerimize hizmet etmiyor, onları değiştiriyor; o hâlde neyi hizalıyoruz?",
+    seoTitle: "David Danks AI2050 Senior Fellow: 1 milyon dolar",
+    metaDescription:
+      "Felsefeci David Danks (Virginia), Schmidt Sciences AI2050 Senior Fellowship ile 3 yıllık 1 milyon dolar destek aldı; proje: insan-yapay zekâ değer birlikte-evrimi. Daily Nous, 6 Ekim 2026.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Artificial%20Intelligence%20%26%20AI%20%26%20Machine%20Learning%20-%2030212411048.jpg?width=1600",
+    imageCredit: "Temsilî · Mike MacKenzie · Wikimedia Commons",
+    featured: false,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/10/06/philosopher-among-new-ai2050-senior-fellows/",
+    publishedAt: "2026-10-11T07:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "etik", "akademi", "odul"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Philosopher Among New AI2050 Senior Fellows", publisher: "Daily Nous", date: "6 Ekim 2026", url: "https://dailynous.com/2026/10/06/philosopher-among-new-ai2050-senior-fellows/", primary: true },
+      { title: "Foundation-funded professorship brings leading AI ethics and philosophy scholar to UVA", publisher: "Jefferson Scholars Foundation", url: "https://www.jeffersonscholars.org/news/foundation-funded-professorship-brings-leading-ai-ethics-and-philosophy-scholar-uva" },
+      { title: "AI2050", publisher: "Schmidt Sciences", url: "https://ai2050.schmidtsciences.org/" },
+    ],
+    content: `Felsefenin yapay zekâ araştırmalarında giderek daha kurumsal bir rol üstlendiğini gösteren somut bir haber: Virginia Üniversitesi'nde felsefe, yapay zekâ ve veri bilimi profesörü **David Danks**, Schmidt Sciences'ın AI2050 programının 2026 Senior Fellow'ları arasına girdi. Daily Nous'un 6 Ekim'de aktardığına göre destek üç yıl için 1 milyon dolar; projenin başlığı "insan-yapay zekâ değer birlikte-evrimi" (human-AI value coevolution).
+
+AI2050, eski Google CEO'su Eric Schmidt ile Wendy Schmidt'in kurduğu Schmidt Sciences'ın programı; amacı, "yapay zekânın 2050'ye kadar topluma gerçekten faydalı olması için çözülmesi gereken en önemli uzun vadeli problemleri" finanse etmek. Senior Fellow'lar başvuruyla değil kapalı adaylık süreciyle seçiliyor; önceki yıllarda ekonomist David Autor gibi isimler bu kategoride yer aldı. Danks, kohortun felsefeci üyesi.
+
+## Proje: Değerler sabit değil
+
+Projenin çıkış noktası, yapay zekâ "hizalama" (alignment) tartışmasının bir kör noktası. Bugünkü sistemler, insanların mevcut hedef ve ihtiyaçlarına göre tasarlanıyor; sanki değerler sabitmiş ve iş yalnızca sistemi onlara uydurmakmış gibi. Oysa önceki teknolojiler (yazı, matbaa, otomobil, sosyal medya) değerlerimizi değiştirdi; yapay zekânın da aynısını yapmasını beklemek gerekir. O hâlde soru "yapay zekâyı değerlerimize nasıl hizalarız" olmaktan çıkıp "yapay zekâ ve insan değerleri birbirini dönüştürürken bu süreci nasıl anlar ve yönlendiririz" sorusuna dönüşüyor. Bu, felsefenin doğrudan sorusu: Değerlerin tarihselliği, teknolojinin normatif etkisi, "iyi"nin değişen içeriği.
+
+Danks bu alanın yabancısı değil. Carnegie Mellon'da felsefe ve psikoloji profesörüyken nedensel öğrenme ve bilişsel bilim üzerine çalıştı (*Unifying the Mind*, 2014); UC San Diego'da veri bilimi, felsefe ve politika alanlarında ders verdi; 2025'te Virginia'ya Jefferson Scholars Foundation'ın "Polk Kürsüsü"ne atandı ve ocaktan itibaren Sanat ve Bilimler Koleji ile Veri Bilimi Okulu'nda ortak görevde. Çalışmaları, algoritmik önyargı, yapay zekâda güven ve "yanlış gittiğinde sorumluluk kimde" soruları etrafında dönüyor; ABD'de ulusal yapay zekâ danışma kurullarında görev aldı.
+
+## Neden haber?
+
+Birincisi, miktar: Felsefe projelerine verilen desteklerin çoğu on binlerle ölçülürken bu, bir felsefecinin yönettiği projeye verilmiş en büyük tekil desteklerden biri. İkincisi, kurumsal işaret: Schmidt Sciences gibi teknoloji odaklı bir fon, "faydalı yapay zekâ" probleminin mühendislikle sınırlı olmadığını, değer kuramı gerektirdiğini kabul ediyor. Geçen hafta [Clips vakasında](/haber/yapay-zeka-ajani-clips-felsefe-yarismasi-insan-vasi) ve [hakikat tartışmasında](/haber/yapay-zeka-hakikati-soyleyebilir-mi-heidegger-foucault-parrhesia) gördüğümüz eğilim bu: Felsefe, yapay zekâ gündeminin yorumcusu olmaktan çıkıp tasarımcılarından birine dönüşüyor.
+
+Bir not: Programın genel bütçe açıklamalarında Senior Fellowship'ler üç yıl için yaklaşık 375 bin dolar olarak anılıyor; 1 milyon dolar rakamı Daily Nous'un haberine dayanıyor ve Schmidt Sciences'ın resmî kohort sayfasında henüz teyit edemedik. Rakam farklı bir destek yapısını yansıtıyor olabilir; resmî duyuru çıktığında güncelleyeceğiz.`,
+  },
+  {
+    title: "Sömürgecilik, üreme ve adalet üzerine yeni tartışma",
+    slug: "rexer-becker-demographic-anxieties-ureme-adaleti-filistin-israil",
+    summary:
+      "The Philosopher dergisinin 5 Ekim'deki çevrim içi söyleşisinde sosyolog Gala Rexer, Andrea Becker'le Demographic Anxieties (University of California Press, 2026) kitabını tartıştı: Filistinli kadınların doğurganlık tedavisine ve doğum hizmetlerine erişimi üzerinden, sağlık kurumlarının siyasal iktidarın gündelik mekânları olarak okunması. Beden, özerklik, biyopolitika ve üreme adaleti kavramlarının kesişimi.",
+    seoTitle: "Demographic Anxieties: Rexer ve Becker üreme adaleti ve yerleşimci sömürgecilik üzerine",
+    metaDescription:
+      "Gala Rexer'in Demographic Anxieties: Bodies, Borders, and Reproductive Injustice in Palestine/Israel kitabı ve The Philosopher söyleşisi (5 Ekim 2026). Üreme adaleti, biyopolitika, 'şefkatli şiddet' kavramı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Library_books_-_Shelving_stacks_(3554627444).jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "The Philosopher",
+    sourceUrl: "https://thephilosopher1923.substack.com/p/today-reproductive-injustice-and",
+    publishedAt: "2026-10-11T07:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["etik", "siyaset-felsefesi", "toplumsal-cinsiyet", "postkolonyalizm", "soylesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Reproductive Injustice and Settler Colonialism: Gala Rexer in conversation with Andrea Becker", publisher: "The Philosopher", date: "5 Ekim 2026", url: "https://thephilosopher1923.substack.com/p/today-reproductive-injustice-and", primary: true },
+      { title: "Demographic Anxieties: Bodies, Borders, and Reproductive Injustice in Palestine/Israel", publisher: "University of California Press", date: "Ağustos 2026", url: "https://www.ucpress.edu/books/demographic-anxieties/" },
+    ],
+    content: `İngiltere'nin köklü felsefe dergisi *The Philosopher*'ın çevrim içi söyleşi dizisinde 5 Ekim akşamı iki sosyolog konuştu: Warwick Üniversitesi'nden Gala Rexer ve New York'taki Hunter College'dan Andréa Becker. Konu, Rexer'in ağustosta University of California Press'ten çıkan ilk kitabı: *Demographic Anxieties: Bodies, Borders, and Reproductive Injustice in Palestine/Israel* (Demografik Kaygılar: Bedenler, Sınırlar ve Filistin/İsrail'de Üreme Adaletsizliği). Konuşmacıların ikisi de felsefeci değil; ama tartıştıkları kavramlar (beden, özerklik, adalet, biyopolitika) felsefenin ve söyleşinin bir felsefe dergisinde yer alması da bu yüzden anlamlı.
+
+## Kitap ne söylüyor?
+
+Rexer'in çalışması iki yılı aşkın etnografik araştırmaya ve İsrail'deki hastanelerde çalışan sağlık personeli ile doğurganlık tedavisi gören Filistinli kadınlarla yapılan derinlemesine görüşmelere dayanıyor. Tezi şu: İsrail devletinin Filistinlilere yönelik şiddetinin "gösterişli ve felaket boyutundaki" biçimlerinin yanında, çok daha gündelik denetim ve gözetim biçimleri de var ve bunlar doğurganlık servislerinde, doğumhanelerde, bakım altyapısında işliyor. Rexer bu mekânları, Filistinli hayatların nasıl yönetildiğini incelemek için birer "saha" olarak ele alıyor ve bu gündelik işleyişi "şefkatli şiddet" (tender violence) diye adlandırıyor: Bakım veren kurumun aynı zamanda sınır çizen, sayan, sınıflandıran kurum olması. Kuramsal çerçeve, siyah feminist "üreme adaleti" (reproductive justice) geleneğinden geliyor: Çocuk sahibi olma, olmama ve çocuğunu güvenli bir ortamda büyütme hakkını birlikte düşünen bir yaklaşım. Becker ise histerektominin siyaseti üzerine *Get It Out* kitabının yazarı; söyleşide iki çalışma, bedenin üzerindeki tıbbi kararların hiçbir zaman yalnızca tıbbi olmadığı noktasında buluştu.
+
+## Felsefi boyut
+
+Tartışmanın felsefe için önemi, "demografik kaygı" kavramında. Bir devletin kendi nüfusunu bir "sorun" olarak görmesi, kimin doğacağını ve kimin doğmaması gerektiğini örtük ya da açık biçimde yönetmesi, Foucault'nun biyopolitika kavramının çekirdeğidir; sitemizde [Foucault'nun yüzüncü yılında](/haber/foucault-yuzuncu-yil-2026) bu kavramın bugünkü kullanımlarına değinmiştik. Rexer'in katkısı, biyopolitikayı soyut bir iktidar kuramı olarak değil, bir doğum servisinin gündelik pratiğinde izlemek. Burada üç felsefi soru açılıyor. Birincisi özerklik: Bir kadının üreme kararları, tedaviye erişimi sınırlar, kimlik kartları ve kurumsal kategorilerle belirleniyorsa "özerk" seçim ne anlama gelir? İkincisi adalet: Üreme adaleti, bireysel hak dilinin (kürtaj hakkı, tedavi hakkı) ötesinde, hakkın kullanılabilmesinin toplumsal ve siyasal koşullarını talep eder; bu, [MacIntyre'ın](/haber/alasdair-macintyre-modern-dunyanin-ahlaki-krizi-erdem-pesinde) ve komüniteryenlerin liberal hak diline yönelttiği eleştiriyle beklenmedik biçimde akraba. Üçüncüsü bakım etiği: Bakım, iktidarın karşıtı değil, bazen aracı olabilir mi?
+
+## Tartışmalı bir zemin
+
+Konunun siyasal olarak son derece hassas olduğunu söylemeye gerek yok. Rexer'in "yerleşimci sömürgecilik" çerçevesi İsrail/Filistin literatüründe yaygın ama tartışmalı; bu çerçeveyi reddeden ve İsrail sağlık sisteminin Filistinli yurttaşlara erişim sağladığını vurgulayan araştırmacılar da var. Kitap bir ampirik çalışma; felsefi değeri, hangi siyasal sonucu desteklediğinde değil, "bakım" ve "denetim" kavramlarının birbirinden ne kadar ayrılabileceği sorusunu somut bir alanda sormasında. Sağlık kurumlarının yalnızca tıbbi değil, siyasal ve toplumsal güç ilişkileri içinde de değerlendirilmesi gerektiği tezi, Filistin/İsrail örneğinden bağımsız olarak, tıp etiğinin ve siyaset felsefesinin ortak gündemi. Söyleşinin kaydı *The Philosopher*'ın sayfasında duyurulacak; kitabın yazarı 14 Ekim'de York Üniversitesi'nde de konuşacak.`,
+  },
+  {
+    title: "Münif Paşa'dan Cemal Bâli Akal'a: Türkiye'de Hukuk Felsefesi",
+    slug: "turkiyede-hukuk-felsefesi-munif-pasadan-cemal-bali-akala",
+    summary:
+      "Osmanlı modernleşmesinden çağdaş hukuk kuramlarına uzanan düşünsel bir tarih: Kanun ne zaman meşrudur, devlet kendi koyduğu hukukla sınırlandırılabilir mi ve özgürlük hukukun içinde mi, yoksa bazen ona karşı mı aranmalıdır? Münif Paşa, Sadri Maksudi Arsal, Çağıl, Aral, Topçuoğlu, Güriz, Işıktaç, Öktem, Tanilli, Soysal, Akal ve Eskişehir çevresi.",
+    seoTitle: "Türkiye'de hukuk felsefesi: Münif Paşa'dan Cemal Bâli Akal'a",
+    metaDescription:
+      "Türkiye'de hukuk felsefesinin tarihi: Münif Paşa'nın Hikmet-i Hukuk'u, Sadri Maksudi Arsal, Orhan Münir Çağıl, Vecdi Aral, Hamide Topçuoğlu, Adnan Güriz, Yasemin Işıktaç, Niyazi Öktem, Server Tanilli, Mümtaz Soysal, Cemal Bâli Akal ve çağdaş hukuk kuramları.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BCleymaniye%20Library.jpg?width=1600",
+    imageCredit: "Süleymaniye Yazma Eser Kütüphanesi, İstanbul · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://dergipark.org.tr/tr/pub/thta/article/1998515",
+    publishedAt: "2026-10-11T07:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["hukuk-felsefesi", "siyaset-felsefesi", "tarih", "demokrasi", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "İlk Hukuk Felsefesi Kitabı Olarak Münif Paşa'nın 'Hikmet-i Hukuk'unun Analizi", publisher: "Yasemin Işıktaç, Türk Hukuk Tarihi Araştırmaları, S. 13-14", date: "2012", url: "https://dergipark.org.tr/tr/pub/thta/article/1998515", primary: true },
+      { title: "Bir Osmanlı Devlet Adamının Perspektifinden İnsan Hakları: Münif Paşa'nın Doğal Hukuk Yaklaşımı", publisher: "A. U. Hacıfevzioğlu & G. Akçadağ, DTCF Dergisi", date: "2022", url: "https://dergipark.org.tr/tr/pub/dtcfdergisi/article/1119036" },
+      { title: "Hukuk Felsefesi Tarihi", publisher: "Sadri Maksudi Arsal, İsmail Akgün Matbaası", date: "1946", url: "https://books.google.com/books/about/Hukuk_Felsefesi_tarihi.html?id=H0sHiKFv46UC" },
+      { title: "Cemal Bâli Akal — Özgeçmiş ve yayınlar", publisher: "Kadir Has Üniversitesi (Academia)", url: "https://khas.academia.edu/CemalBaliAkal/CurriculumVitae" },
+      { title: "Çağdaş Hukuk Düşüncesine Giriş", publisher: "Akbaş, Aydın, Metin, Uzun (haz.), Seçkin", url: "https://www.seckin.com.tr/kitap/cagdas-hukuk-dusuncesine-giris-kasim-akbas-melike-belkis-aydin-sevtap-metin-ertugrul-uzun-s-p-361671713" },
+    ],
+    content: `Hukuk, devletin neyi yasakladığını ve neye izin verdiğini bildiren kurallar toplamından mı ibarettir? Bir kanunun usulüne uygun çıkarılmış olması onun adil olduğunu söylemeye yeter mi? Devletin yetkilerini tanımlayan hukuk, devletin kendisini yargılayacak ölçütleri de sağlayabilir mi? Bu sorular hukukçuların uzmanlık alanını aşar; her biri, iktidarın hangi gerekçelerle meşru sayılacağına ve adaletin mevcut düzeni hangi ölçütlerle yargılayabileceğine ilişkindir. Hukuk felsefesi tam burada başlar: Yürürlükteki hukuku açıklamakla yetinmez; hukukun neden bağlayıcı sayılması gerektiğini, hangi amaçlara hizmet ettiğini ve hangi koşullarda eleştirilmesi gerektiğini sorar.
+
+Türkiye'de hukuk felsefesinin tarihi, bu soruların farklı dönemlerde ve farklı geleneklerde yeniden sorulmasının tarihidir. Osmanlı modernleşmesinin hukuk tartışmalarından Cumhuriyet'in sistematik hukuk öğretimine, hukuk sosyolojisinden anayasal demokrasiye ve çağdaş eleştirel kuramlara uzanan bu birikim tek bir okulun kesintisiz gelişimi olarak okunamaz. Bu dosya o birikimin bir haritasını çıkarıyor; eksiksizlik iddiası taşımıyor.
+
+## 1. Münif Paşa: Hukuk yalnızca kural koymak mıdır?
+
+Türkiye'de hukuk felsefesini Cumhuriyet'le başlatmak, Osmanlı modernleşmesinin düşünsel dönüşümünü gözden kaçırmak olur. [Münif Paşa'yı](/haber/munif-pasa-hukuk-felsefesi) sitemizde daha önce ele almıştık; *Hikmet-i Hukuk* adlı eseri Türkçe hukuk felsefesi literatürünün ilk ve kurucu metinlerinden sayılır. Yasemin Işıktaç 2012'deki incelemesinde eserin önemini, hukuku kural koyma faaliyetine indirgemeyip düzenlemelerin neden yapıldığını ve hangi amaçlara hizmet ettiğini sormasında bulur. Daha yakın tarihli bir çalışma (Hacıfevzioğlu ve Akçadağ, 2022) Münif Paşa'nın doğal hukuk yaklaşımını insan hakları düşüncesiyle ilişkilendirir ve onun hukuk düşüncesini idari reformların uzantısı olarak görmenin yetersiz kaldığını gösterir.
+
+Buradaki soru bugün de geçerli: Bir kuralı hukuk yapan, onu yetkili bir makamın koymuş olması mı, yoksa içeriği ve amacı mı? Hukuki geçerlilikle ahlaki doğruluk aynı şey değildir; bir kuralın usule göre geçerli olması adil olduğunu kanıtlamaz, ama adaletsiz bulunan her kuralı hukuken geçersiz saymak da ayrı bir kuramsal iddiadır. Hukuk felsefesi bu iki düzeyi karıştırmadan aralarındaki ilişkiyi araştırır.
+
+## 2. Sadri Maksudi Arsal ve sistematikleşme
+
+Cumhuriyet döneminde hukuk felsefesinin öğretim ve araştırma alanı olarak kurulmasında Sadri Maksudi Arsal'ın yeri ayrıdır. Kazan Tatarı, Paris'te hukuk okumuş, Rusya Duması'nda milletvekilliği yapmış, 1925'te Türkiye'ye gelmiş Arsal, Ankara ve İstanbul'da hukuk tarihi ve felsefesi okuttu. 1946'da yayımlanan *Hukuk Felsefesi Tarihi*, alt başlığının söylediği gibi "ahlâk, hukuk ve devletin mahiyet, menşe ve gayelerine dair" felsefi öğretilerin özetini ve çözümlemesini Antik Yunan'dan modern düşünceye kadar bir araya getirir. Önemi yalnızca aktarımda değil; hukukun kaynağı, ahlakla ilişkisi ve devletin meşruiyeti sorunlarını karşılaştırmalı biçimde incelemeye açmasında. Münif Paşa ile Arsal arasında kesintisiz bir çizgi varsaymak doğru olmaz; bu tarih düz bir ilerleme değil, her dönemde farklı koşullarda yeniden kurulan bir sorudur.
+
+## 3. Hukuk bir bilim midir, değerler alanı mıdır?
+
+Orhan Münir Çağıl'ın Kant, Stahl ve Stammler üzerine çalışmaları, hukukla devletin felsefi temellerine yönelik akademik ilginin erken örnekleridir. Vecdi Aral hukuk biliminin niteliği ve değerlerin hukuk düşüncesindeki yeri üzerine yazdı; Adnan Güriz'in *Hukuk Felsefesi* ders kitabı kuşaklar boyunca alanın temel kaynağı oldu. Ortak zemin şu soru: Hukuk yalnızca teknik bir uygulama faaliyeti olarak ele alınabilir mi? Normlar yorumlanabilir, sınıflandırılabilir, mantıksal ilişkileri incelenebilir; ama hukukun ne olması gerektiği yalnızca bu işlemlerle cevaplanamaz.
+
+Bu ayrım, kuramsal geleneklerin neden ayrıldığını da açıklar. Hukuk pozitivizmi geçerlilik ölçütleriyle ahlaki değeri birbirinden ayırır (bu, her geçerli normun ahlaken doğru olduğunu savunmak değildir). Doğal hukuk gelenekleri hukukun adalet, ahlak ya da akılla ilişkisini öne çıkarır. Hukuk realizmi uygulamaya ve kararların fiilî koşullarına bakar. Marksist kuramlar hukuku ekonomik ve toplumsal güç ilişkilerinden bağımsız düşünmenin sınırlarını sorgular. Hiçbiri tek başına bütün sorunları açıklamaz; aralarındaki anlaşmazlık zayıflık değil, aynı kavramın farklı sorularla incelenebileceğinin göstergesidir. Bir hukuk düzenini anlamak için en az üç soru gerekir: Kurallar nasıl geçerli olur? Nasıl yorumlanır ve uygulanır? Hangi gerekçelerle adil ya da meşru sayılabilir?
+
+## 4. Hamide Topçuoğlu: Hukukun toplumsal gerçekliği
+
+Hukuku normlardan oluşan kapalı bir sistem olarak ele almak, toplumla ilişkisini açıklamakta yetersiz kalır. Hamide Topçuoğlu, Türkiye'de hukuk sosyolojisinin kurucu adıdır; *XIX. Yüzyıl Sosyologlarında Hukuk Anlayışı* ve hukuk sosyolojisi ders kitapları, hukukla toplum arasındaki ilişkiyi akademik bir alan hâline getirdi. Hukuk sosyolojisi bir kanunun ne söylediğini değil, hangi koşullarda doğduğunu ve toplumda hangi sonuçları ürettiğini sorar. Hukuki eşitliğin mevzuatta tanınması, insanların bu eşitlikten fiilen yararlanabildiği anlamına gelmez; kâğıt üzerindeki hak ile onu kullanmak için gereken ekonomik ve kurumsal koşullar arasında mesafe vardır. Buradan hukuk felsefesi için temel bir soru çıkar: Bir düzenin adalet iddiası yalnızca normların içeriğine mi dayanır, yoksa normların gerçek hayatta ürettiği sonuçlar da değerlendirmenin parçası mıdır?
+
+## 5. Yasemin Işıktaç: Yöntem, yorum ve adalet
+
+Yasemin Işıktaç'ın çalışmaları hukuk felsefesinin tarihsel, metodolojik ve normatif boyutlarını birlikte ele alan bir çizgi oluşturur: *Hukuk Felsefesi*, *Hukuk Sosyolojisi*, hukuk metodolojisi, Münif Paşa incelemesi, özgürlük, yorum ve hukuk-ahlak ilişkisi üzerine araştırmalar. Işıktaç hukuk felsefesini düşünce okullarının tarihini aktaran bir alan olarak görmez; normların nasıl yorumlandığı, gerekçelerin nasıl kurulduğu ve adalet iddialarının nasıl değerlendirildiği alanın merkezindedir.
+
+Hukuki yorum neden yalnızca teknik bir işlem değildir? Bir kanun metninin anlamını belirlemek sözlük anlamını saptamaktan fazlasını gerektirir: Normun bağlamı, öteki kurallarla ilişkisi, amacı, somut olayın özellikleri. Ama yorumun kaçınılmazlığı hâkimin dilediği sonucu seçebileceği anlamına gelmez; gerekçelendirme, benzer olaylarda tutarlılık ve denetlenebilirlik hukuk düzeninin temel meseleleridir. Dolayısıyla yöntem sorunu adalet sorunundan ayrılamaz: Bir normun yorumlanma biçimi hangi hakların korunacağını belirler. Hukuk felsefesinin en zor sorusu da buradan çıkar: Adaleti gerçekleştirmek için kurulan bir düzen adaletsiz sonuçlar üretebilir mi? Bu olasılığı kabul etmek hukuku reddetmeyi değil, yürürlükteki hukukun adaletin kusursuz temsilcisi olduğu varsayımını sorgulamayı gerektirir. Negatif ve pozitif özgürlük ayrımı da bu tartışmaya bağlanır: Devlet müdahalesi hangi durumda sınırlama, hangi durumda özgürlüğü mümkün kılan koşuldur?
+
+## 6. Tanilli ve Soysal: Hukuk, demokrasi ve kamusal özgürlük
+
+Hukuk düşüncesinin etkisi akademik yayınlarla ölçülmez; anayasa, temel haklar ve yurttaşlık üzerine kamusal tartışma da hukukun anlamını belirler. Server Tanilli *Devlet ve Demokrasi: Anayasa Hukukuna Giriş* ve *Uygarlık Tarihi* ile hukuk, siyaset ve uygarlık ilişkisini geniş bir okur kitlesine taşıdı; 1978'de uğradığı silahlı saldırı, bu kamusal rolün bedelini de gösterdi. Mümtaz Soysal *Anayasa'ya Giriş*, *100 Soruda Anayasanın Anlamı* ve *Dinamik Anayasa Anlayışı* ile anayasal düzeni, temel hakları ve iktidarın sınırlarını tartıştı. İki ismin yönelimlerini özdeşleştirmek doğru olmaz; ama ikisi de aynı soruları kamusal alana taşıdı: Demokrasi seçimden ibaret midir? Seçilmiş iktidarın yetkileri sınırsız olabilir mi? Çoğunluğun tercihi ile bireyin hakları çatıştığında hangi ilke belirleyicidir? Anayasa, devlet organlarının görevlerini belirleyen teknik bir belge değil, devletin yurttaş karşısındaki sınırlarını düzenleyen bir metindir; ama metindeki güvencenin fiilen korunması ayrı bir sorundur.
+
+## 7. Niyazi Öktem: Özgürlüğün paradoksu
+
+Niyazi Öktem'in *Özgürlük Sorunu ve Hukuk*, *Fenomenoloji ve Hukuk* ve hukuk felsefesi akımları üzerine çalışmaları, hukuku özgürlük, devlet ve toplumsal yapıyla birlikte düşünür. Hukukla özgürlük arasında basit bir karşıtlık yoktur: Hukuk bireyin davranışına sınır getirir, ama bireyi başkalarının müdahalesine ve devletin keyfî gücüne karşı da korur. Her sınırlamayı özgürlüğün düşmanı saymak da, her düzenlemeyi özgürlüğün güvencesi görmek de yetersizdir. Güvenlikle özgürlük arasındaki gerilim hangi ölçütle çözülür? Bu soru yürürlükteki normları okumakla cevaplanamaz; özgürlüğün ne olduğu da tartışılmalıdır.
+
+## 8. Cemal Bâli Akal: Hukuku iktidarın içinden okumak
+
+Cemal Bâli Akal, hukuk felsefesiyle siyaset felsefesi arasındaki ilişkiyi Türkiye'de en görünür kılan düşünürlerden biri. *Hukuk Nedir?*, *Hukuk ya da Kukla Tiyatrosu*, *Beyaz Perdede Kirli Yargılama*, *Spinoza ve Sürekli Demokrasi*, *Görünmeyen Machiavelli*, *Sonsuzluğun Portresi* ve hukukla edebiyat ilişkisine odaklanan *Sözün İkiz Çocukları*: Bu başlıklar hukuk düşüncesini siyasal düşünce tarihi, edebiyat ve sinemayla ilişkilendiren geniş bir çalışma alanını gösterir.
+
+Akal'ın çıkış sorusu şu: Hukuk, toplumdaki iktidar ilişkilerinden bağımsız bir düzen midir, yoksa bu ilişkiler içinde biçimlenen ve onları yeniden etkileyen bir kurum mu? Hukuk devletin otoritesini tanımlar ve meşrulaştırır; aynı zamanda devleti sınırlayan hakların, kurumların ve itiraz yollarının temelidir. Bazen iktidarın sınırlandırılmasının aracı, bazen güç ilişkilerinin sürdürülmesine hizmet eden yapı olarak işler; hangisinin öne çıktığını anlamak için metne değil, tarihsel bağlama, yorum biçimlerine ve toplumsal sonuçlara bakmak gerekir. *Hukuk Nedir?* başlığının kendisi alanın güçlüğünü koyar: Hukuku devletin yaptırımla desteklediği kurallara indirgemek meşruiyet ve adalet sorularını açıkta bırakır; bütünüyle adalet idealine indirgemek ise kurumsal işleyişi açıklayamaz.
+
+Akal'ın hukuk-edebiyat çalışmaları, normların diliyle anlamanın sınırlarını araştırmanın başka bir yolu. Edebiyat ve sinema suçun, masumiyetin, sorumluluğun ve otoritenin insan deneyiminde nasıl anlam kazandığını gösterir; bir roman normun yerini tutmaz, ama normun soyut dilinin dışında kalan çelişkileri görünür kılar. Mesele kurmacayı hukuk uygulamasının kanıtı saymak değil, resmî hukuk dilinin hangi deneyimleri dışarıda bıraktığını sormak. *Spinoza ve Sürekli Demokrasi* ise demokrasiyi dönemsel seçimlerden ibaret görmeyen bir okuma önerir: İfade özgürlüğü, bedensel ve zihinsel özerklik, siyasal topluluğun sınırları, demokratik düzenin sürekli değerlendirilmesini gerektirir; "sürekli demokrasi", tamamlanmış bir kurum değil, özgürlük imkânlarının korunup genişletilmesi gereken bir süreçtir. Akal'ın bütün çalışmalarını tek bir formüle indirgemek doğru olmaz; onun yeri, kapalı bir okulun temsilcisi olarak değil, hukuk, siyaset, özgürlük ve kültür arasındaki ilişkileri farklı bir perspektiften sorgulayan bir düşünür olarak anlaşılmalı.
+
+## 9. Eskişehir çevresi ve çağdaş kuramların çoğulluğu
+
+Çağdaş hukuk düşüncesini Türkçede tartışmaya açan bir başka damar, Anadolu Üniversitesi çevresinde gelişti. Ertuğrul Uzun'un hukuk metodolojisi ve hukuk göstergebilimi çalışmaları hukuki dilin ve yorumun incelenmesine yönelir; Kasım Akbaş'ın hukuk eleştirisi ve hukukun ekonomi politiği üzerine çalışmaları hukukun toplumsal ve ekonomik ilişkilerle bağını tartışır; Melike Belkıs Aydın çağdaş hukuk düşüncesi ve hukuk filozofları üzerine yazdı. Sevtap Metin'le birlikte hazırladıkları *Çağdaş Hukuk Düşüncesine Giriş*, Austin'in analitik pozitivizmi, Kelsen'in saf hukuk kuramı, hukuk realizmi, Marksist hukuk kuramları, Radbruch ve Hart gibi gelenekleri karşılaştırmalı biçimde sunar. Dikkat edilmesi gereken nokta, farklı düşünürleri aynı okulun üyesi saymamak: Bir kuramı anlamak, sonuçlarını öğrenmek değil, hangi varsayımlardan hareket ettiğini ve nerede yetersiz kaldığını görmektir.
+
+## 10. Üç temel gerilim
+
+Bu birikim üç gerilim etrafında okunabilir. **Hukuki geçerlilikle adalet**: Bir normun yürürlükte olması adil olduğunu kanıtlamaz; ama adalet iddiasının da gerekçelendirilmesi gerekir. Münif Paşa'nın amaç sorusundan Işıktaç'ın yorum çalışmalarına ve Güriz'in sistematik incelemelerine uzanan tartışma bu sorunun sürekliliğidir. **Hukukla iktidar**: Devletin hukuk aracılığıyla hareket etmesi bütün eylemlerini meşru kılmaz; anayasal sınırlar, yargısal denetim ve kamusal eleştiri iktidarın gerekçelendirilmesinin araçlarıdır. Soysal, Tanilli ve Akal bu sorunu farklı yönlerden inceler. **Hukuk metin midir, kurum mudur, toplumsal pratik midir**: Normları incelemek, tarihsel bağlamlarını anlamak, kararları değerlendirmek ve toplumsal sonuçlarını araştırmak farklı faaliyetlerdir; ama koparılamaz. Hukuku yalnızca metin görmek uygulamadaki eşitsizlikleri, yalnızca güç ilişkisi görmek ise normların kendine özgü yapısını ve hak iddialarını gözden kaçırır. Aral, Topçuoğlu, Işıktaç ve çağdaş kuramlar bu boyutları birlikte düşünmenin araçlarını sunar.
+
+## Hukuk kendisini hangi ölçütlerle yargılayabilir?
+
+Türkiye'de hukuk felsefesinin tarihi tek bir okulun zaferi olarak anlatılamaz; farklı kuşakların hukukun niteliği, adaletin ölçütleri, devletin meşruiyeti ve özgürlüğün sınırları hakkında yeniden soru sormasının tarihidir. Bütün bu yaklaşımlar aynı sonuca değil, ortak bir zorunluluğa götürür: Hukuk yalnızca uygulanacak kurallar bütünü olarak kabul edildiğinde kendi meşruiyetini açıklayamaz. Belki de hukuk felsefesinin en temel sorusu şudur: Bir hukuk düzeni, kendi koyduğu kuralların ötesinde hangi gerekçelerle adil olduğunu iddia edebilir? Bu sorunun nihai cevabı yok; ama soruyu sormaktan vazgeçmek, hukuku eleştirel düşüncenin dışına çıkarmak ve iktidarın kendi meşruiyetini kendisinin belirlemesine izin vermek demektir. Hukuk felsefesinin işlevi kusursuz bir düzen tasarlamak değil, hukukun ne olduğunu, ne yaptığını ve ne olması gerektiğini birbirinden ayırarak düşünmeyi mümkün kılmaktır.
+
+*Editoryal not: Bu dosya Türkiye'de hukuk felsefesinin bütün tarihini temsil etme iddiasında değildir. Seçilen isimler ve eserler farklı araştırma yönelimlerini görünür kılmak için bir araya getirilmiştir; ayrıntılı birincil metin incelemesi gerektiren yerlerde kesin hükümlerden kaçınılmıştır.*`,
+  },
+  {
+    title: "Hakikat Kimin Tarafındadır? Richard Rorty'nin Felsefesi",
+    slug: "richard-rorty-felsefesi-hakikat-dayanisma-ironi",
+    summary:
+      "Amerikalı filozof Richard Rorty, hakikatin değişmez temellerini arayan felsefenin en etkili eleştirmenlerinden biriydi. Ona göre mesele nihai hakikate ulaşmak değil, zulmü azaltan ve birlikte yaşamayı mümkün kılan bir dünya kurmaktı. Felsefe ve Doğanın Aynası'ndan Olumsallık, İroni ve Dayanışma'ya; 'liberal ironist', demokrasinin felsefeye önceliği, görecilik itirazı ve gazetecilik için bir ders.",
+    seoTitle: "Richard Rorty: Hakikat, dayanışma ve liberal ironi",
+    metaDescription:
+      "Richard Rorty'nin felsefesi: Philosophy and the Mirror of Nature (1979), hakikat ile gerekçelendirme, Contingency, Irony, and Solidarity (1989), liberal ironist, zulmü azaltmak, demokrasinin felsefeye önceliği, görecilik eleştirisi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20McKay%20Rorty.png?width=1600",
+    imageCredit: "Richard Rorty (1931-2007) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/rorty/",
+    publishedAt: "2026-10-11T07:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["epistemoloji", "demokrasi", "etik", "kavram", "medya"],
+    philosopherSlugs: ["richard-rorty"],
+    sources: [
+      { title: "Richard Rorty", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/rorty/", primary: true },
+      { title: "Contingency, Irony, and Solidarity", publisher: "Cambridge University Press", date: "1989", url: "https://www.cambridge.org/core/books/contingency-irony-and-solidarity/" },
+    ],
+    content: `Bir siyasetçi "gerçek şu ki" diye başlıyor; bir gazete "olguların arkasındayız" diyor; bir sosyal medya hesabı "hakikati size anlatacağız" diye bağırıyor. Herkes hakikatin kendi tarafında olduğunu söylüyor. Richard Rorty (1931-2007), bu cümlelerin arkasındaki varsayımı, hakikatin bir yerde "durduğu" ve birilerinin onu "bulduğu" fikrini, 20. yüzyılın ikinci yarısında en sert biçimde sorgulayan filozoftu. Eylülde [din üzerine yazılarının kitaplaştığını](/haber/rorty-felsefe-din-ortak-zemin-kitap) duyurmuştuk; bu dosya onun felsefesinin bütününe bakıyor.
+
+## Dünya zihnin aynası mı?
+
+Felsefe tarihinin büyük bölümü, insanın dünyayı nasıl bildiği sorusu etrafında şekillendi: Bilgimiz gerçekliğe ne ölçüde karşılık gelir? Rorty 1979'da yayımlanan *Felsefe ve Doğanın Aynası*'nda (*Philosophy and the Mirror of Nature*) bu sorunun arkasındaki varsayımı hedef aldı: Zihnin, dış dünyayı temsil eden bir ayna gibi işlediği düşüncesi. Ona göre Descartes'tan Kant'a modern felsefe, bilgiyi mümkün kılan "temeller"i bulmaya çalışırken kendine gereğinden fazla merkezî bir görev yükledi; filozofun bilime, ahlaka ve siyasete değişmez bir temel sağlayabileceği fikri, felsefenin kendi tarihsel koşullarını gözden kaçırmasına yol açtı. Rorty'nin silahları analitik felsefenin içinden geliyordu: Sellars'ın "verilenin miti" eleştirisi, Quine'ın analitik-sentetik ayrımına saldırısı, Davidson'ın "kavramsal şema" eleştirisi, Kuhn'un paradigmaları. Bu düşünürleri Dewey, Wittgenstein ve Heidegger'le birleştirdi ve sonuç, felsefeyi "temel bilim" olmaktan çıkarıp bir "konuşma" (conversation) olarak yeniden tanımlayan bir pragmatizmdi.
+
+Bu, dünyanın var olmadığını ya da her iddianın eşit derecede doğru olduğunu söylemek değildi. Rorty'nin itirazı, insanın dünyayla ilişkisini açıklamak için başvurduğu kavramların ve gerekçelendirme ölçütlerinin tarih dışı, değişmez bir bakış açısından kurulabileceği fikrineydi.
+
+## Hakikat bulunur mu, gerekçelendirilir mi?
+
+Rorty'nin en tartışmalı tezi hakikatle gerekçelendirme arasındaki ilişkiye dair. Bir iddiayı doğru kabul etmek için gerekçelerimiz vardır: deneyler, gözlemler, çıkarımlar, tanıklıklar. Ama Rorty, bu süreçlerin dışında durup bütün insanlığın bilgi iddialarını nihai biçimde onaylayacak bir "mahkeme" fikrine kuşkuyla yaklaştı. İnsanlar bir iddiayı belirli tarihsel koşullarda, belirli kanıtlar ve kabul edilmiş yöntemlerle savunur; yöntemler değişir, yeni kanıtlar eski açıklamaları geçersiz kılar. Rorty'nin provokatif formülüyle hakikat, "akranlarımızın söylememize izin verdiği şey"dir; ama bu, gerçekliğin keyfî olduğu anlamına gelmez. Dünya inançlarımızın sonuçlarını sınırlar: Köprünün dayanıklılığına ilişkin iddia köprü çökünce yanlışlanır. Rorty'nin tartışmaya açtığı, bu sınamaların varlığı değil, onların bütün bağlamlardan bağımsız tek bir felsefi temele oturtulabileceği iddiası.
+
+Eleştirmenleri tam burada itiraz etti: Hakikat yerine toplulukların kabul ettiği gerekçelere ağırlık verilirse, çoğunluğun yanılgısı ya da güçlülerin çıkarı nasıl eleştirilecek? Bir toplumun ortak kanaati adaletsizse, ona hangi ölçütle karşı çıkılacak? Hilary Putnam, Jürgen Habermas ve Bernard Williams farklı biçimlerde bu itirazı yaptı. Rorty'nin cevabı, mutlak bir ölçüt bulmak değil, gerekçelendirme topluluklarını genişletmek ve dışarıda bırakılmış deneyimleri görünür kılmaktı. Felsefe, kesin temel arayışından çok, daha iyi açıklamalar ve daha kapsayıcı bir kamusal dil geliştirme çabasına dönüşür.
+
+## Zulmü azaltmak: Liberal ironist
+
+*Olumsallık, İroni ve Dayanışma* (1989), teorik itirazı ahlaki ve siyasal bir programa bağladı. Rorty'ye göre kimliklerimiz, dilimiz ve değerlerimiz tarihsel koşullardan bağımsız değildir; insan kendini anlatırken hazır bir "son sözlük"ten (final vocabulary) yararlanır ve bu sözlük aile, eğitim, edebiyat, din ve siyaset tarafından biçimlendirilmiştir. Ama sözlük değişmez değildir; insan kendini ve başkalarını yeniden tanımlamayı öğrenebilir. "Liberal ironist", kendi temel değerlerine bağlı kalırken bu değerlerin tartışılmaz bir temele dayandığını ileri sürmeyen kişidir: İnançlarını ciddiye alır ama onları insanlığın nihai sözlüğü saymaz. "İroni" alay değil, kendi kavramlarının da sorgulanabilir olduğunu bilmektir. "Liberal" ise Judith Shklar'dan alınan tanımla, zulmün yapabileceğimiz en kötü şey olduğuna inanan kişidir.
+
+Bu tutumun ahlaki karşılığı dayanışmadır. Rorty, insanların ortak bir "öz" paylaştıklarını keşfederek dayanışmaya ulaştıkları fikrine karşı çıkar; dayanışma, başkalarının acılarını fark etmeyi ve onları "bizden biri" olarak görmeyi öğrenerek genişler. Bir roman (Rorty'nin örnekleri Dickens, Nabokov, Orwell), bir tanıklık, bir gazetecilik araştırması, daha önce soyut kalan bir acıyı somutlaştırır ve ahlaki duyarlılığı dönüştürür. İlerleme, değişmez bir ahlaki özü keşfetmek değil, kimin acısını dikkate aldığımıza ilişkin sınırların genişlemesidir. Burada da itiraz açık: Empati adil kurumlar kurmaya yetmez; haklar ve yasalar duygusal yakınlığa bırakılamaz. Rorty'nin dayanışma anlayışı kurumsal adaletin yerine geçen bir çözüm değil, adalet talebinin toplumsal ufkunu genişletmeye yönelik bir yaklaşım olarak okunmalı.
+
+## Demokrasinin felsefeye önceliği
+
+Rorty'nin 1988 tarihli ünlü makalesinin başlığı programını özetler: "Demokrasinin Felsefeye Önceliği". Liberal demokrasiyi evrensel bir insan doğasından türetmek gerekmez; demokratik kurumlar tarihsel mücadelelerin ve siyasal tercihlerin ürünüdür ve savunulmaları soyut temellerden çok, özgürlüğü ve acı çekmeden yaşamayı destekleyen sonuçlarıyla ilişkilidir. Felsefe demokrasinin temeli değil, demokratik kamusal hayatın içinde tartışılan şeylerden biridir. Ama Rorty demokrasinin kendiliğinden ilerleyeceğini düşünmedi: *Ülkemizi Kurmak* (1998) kitabında Amerikan solunu kültürel kimlik politikasına kapanıp ekonomik eşitsizliği ihmal etmekle eleştirdi ve "güçlü adam" bekleyen öfkeli bir seçmen kitlesi öngördü; bu pasaj 2016'dan sonra yeniden keşfedildi ve kehanet gibi okundu. Dayanışma kırılgandır; güvencesizlik ve kutuplaşma "biz" duygusunu daraltır.
+
+## Gazetecilik için bir ders
+
+Rorty'nin fikirleri gazetecilik için önemli bir ayrım koyar: Dünyayı belirli bir dille anlatmak, haberin gerçekliğini istediğimiz gibi kurabileceğimiz anlamına gelmez. Her haber seçilmiş bir çerçevedir; gazeteci neyi haberleştireceğine, kiminle konuşacağına, hangi kavramı kullanacağına karar verir. Ama bu yorumlayıcı yön kanıtla iddia arasındaki farkı ortadan kaldırmaz; belgeyi doğrulamak, tanıklıkları karşılaştırmak, iddiayı bağımsız kaynakla sınamak vazgeçilmezdir. Rorty'den çıkan soru şu: Haber yalnızca zaten görüşümüzü paylaşanlara mı sesleniyor, yoksa daha önce görmediğimiz deneyimleri anlamamıza da yardım ediyor mu? Başkasının deneyimini anlaşılır kılmak olgusal doğruluğun alternatifi değil, doğruluk arayışının kamusal sonuçlarından biridir. Bu sitenin her gün yaptığı iş, bu ayrımın üzerinde duruyor.
+
+## Görecilik itirazı
+
+Rorty'ye yöneltilen en güçlü itiraz, nesnel hakikat ve evrensel gerekçelendirme iddialarına kuşkunun, güçlü kurumlara ya da çoğunluklara direnme kapasitesini zayıflatabileceğidir: Bütün toplulukları bağlayan bir ölçüt yoksa, bir rejimin kendi değerlerini evrensel ilan etmesine neyle karşı çıkılacak? Rorty bu sorunun geleneksel felsefenin aradığı türden temellerle çözülemeyeceğini düşündü; liberal toplumların kendi tarihsel deneyimlerinden, eleştiri kültürlerinden ve başkalarının acısına duyarlılıklarından yararlanarak kendilerini dönüştürebileceğini savundu ve kendisine yöneltilen "görecilik" suçlamasını reddetti: Görecilik, bütün görüşlerin eşit olduğu tezidir; Rorty bunu hiç savunmadı. Yine de evrensel haklar ve iktidarın sınırlandırılması üzerine çalışanlar için mesele kapanmış değil: Eleştirinin yalnızca bir toplumun mevcut değerlerine dayanması, o toplumun dışladığı insanları korumaya yetmeyebilir. Projesinin gücüyle sınırı aynı yerde buluşur: Mutlak temellerin yokluğunda da ahlaki bağlılığın mümkün olduğunu göstermeye çalışır; ama bu bağlılığın çatışan çıkarlar arasında nasıl gerekçelendirileceği sorusunu bütünüyle ortadan kaldıramaz.
+
+## Kesinlikten vazgeçmek, sorumluluktan vazgeçmek midir?
+
+Rorty 8 Haziran 2007'de öldü. Mirasını tek önermeye indirmek mümkün değil: İnsanın hakikat arayışını terk etmesini değil, felsefenin bütün bilgi ve ahlak alanları için değişmez bir temel sağlayabileceği iddiasını sorgulamayı önerdi. Onun için özgür bir toplum nihai cevaplara sahip olduğu için değil, kendi cevaplarını eleştirebilecek kurumlara sahip olduğu için değerliydi. Buna katılmak zorunlu değil; evrensel adaletin temelleri konusunda Rorty'ye karşı çıkmak için güçlü gerekçeler var. Ama sorusu önemini koruyor: İnsanlar kendi inançlarının tartışılmaz olduğunu düşündüklerinde, farklı düşünenleri dinlemeyi ne kadar sürdürebilirler? Birbirimizi anlamak için önce aynı hakikat kuramında anlaşmamız mı gerekir, yoksa ortak bir dünya kurmaya çalışırken birbirimizin gerekçelerini dinlemeyi öğrenebilir miyiz?`,
+  },
+  {
+    title: "Ödüller: Lakatos Ödülü John D. Norton'a, Fransa'da liselilerin felsefe ödülü Antoine Vuille'e",
+    slug: "oduller-lakatos-2026-norton-prix-lyceen-vuille",
+    summary:
+      "LSE'nin bilim felsefesindeki en prestijli ödülü 2026 Lakatos Ödülü, tümevarımın 'maddi kuramı'nı geliştiren Pittsburgh'lu John D. Norton'a verildi. Fransa'da 44 lisenin 820 öğrencisi, yılın felsefe kitabı olarak Antoine Vuille'in Contre la culture du clash'ını seçti. Ekimin ödül takvimi ve doğrulanamayan haberler.",
+    seoTitle: "Lakatos Ödülü 2026 John D. Norton'a; Prix lycéen Antoine Vuille'e",
+    metaDescription:
+      "2026 Lakatos Ödülü John D. Norton'ın The Material Theory of Induction ve The Large-Scale Structure of Inductive Inference kitaplarına; Prix lycéen du livre de philosophie 2026 Antoine Vuille'in Contre la culture du clash kitabına. Al-Rodhan kısa listesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20Widener%20Library.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "LSE Philosophy",
+    sourceUrl: "https://www.lse.ac.uk/philosophy/news/john-norton-wins-the-2026-lakatos-award",
+    publishedAt: "2026-10-11T06:50:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "bilim-felsefesi", "epistemoloji", "demokrasi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "John Norton wins the 2026 Lakatos Award", publisher: "LSE Department of Philosophy, Logic and Scientific Method", date: "14 Eylül 2026", url: "https://www.lse.ac.uk/philosophy/news/john-norton-wins-the-2026-lakatos-award", primary: true },
+      { title: "Prix lycéen du livre de philosophie : découvrez le lauréat 2026", publisher: "Lycée Pierre de Fermat, Toulouse", url: "https://fermat.mon-ent-occitanie.fr/actualites/la-une-educative-pedagogique-et-culturelle/prix-lyceen-du-livre-de-philosophie-decouvrez-le-laureat-2026-18658395.htm" },
+      { title: "Prix lycéen du livre de philosophie 2026", publisher: "Académie de Paris", url: "https://pia.ac-paris.fr/serail/jcms/s2_3745288/fr/prix-lyceen-du-livre-de-philosophie-2026" },
+    ],
+    content: `## Lakatos Ödülü: Tümevarımın maddi kuramı
+
+London School of Economics'in Imre Lakatos anısına, Latsis Vakfı'nın desteğiyle verdiği ve bilim felsefesinin en prestijli kitap ödülü sayılan **Lakatos Ödülü**, 2026'da Pittsburgh Üniversitesi'nden John D. Norton'a verildi. LSE'nin 14 Eylül'de yaptığı duyuruya göre ödül, Norton'ın Calgary University Press'ten çıkan iki kitabına: *The Material Theory of Induction* (2021) ve *The Large-Scale Structure of Inductive Inference* (2024). Ödül 10 bin sterlin; kazanan LSE'de halka açık bir ders veriyor, tarihi henüz açıklanmadı. Ödül için 2020-2025 basım tarihli kitaplar değerlendirildi; seçiciler kurulu, isimsiz hakemlerin kısa listedeki kitaplar hakkında yazdığı ayrıntılı raporlara dayanarak karar veriyor.
+
+Norton'ın tezi, bilim felsefesinin en eski sorunlarından birine, Hume'un tümevarım problemine, alışılmadık bir cevap. İki yüz yıldır filozoflar tümevarımsal çıkarımı meşrulaştıracak **biçimsel** bir kural aradı: Bayesçi olasılık hesabı, Mill'in yöntemleri, en iyi açıklamaya çıkarım. Norton'a göre bu arayış boşuna; içerikten bağımsız, evrensel bir tümevarım kuralı yoktur ve olamaz. Gerçek bilimsel tümevarımlar yerel, "maddi" olgularla gerekçelendirilir: Bir element örneğinin erime noktasından bütün elementin erime noktasına geçebilmemizi sağlayan şey bir mantık kuralı değil, elementlerin kimyasal olarak tekdüze olduğuna dair olgusal bilgidir. Dolayısıyla tümevarım, bilimin içinde ve bilimle birlikte gerekçelenir; ikinci kitap bu yerel gerekçelerin büyük ölçekte nasıl birbirine dayandığını, "temelsiz ama tutarlı" bir yapı oluşturduğunu anlatır. Seçiciler kurulu kitapları "maddi çıkarım anlayışı için güçlü bir savunma" ve "son derece titiz bir bilginlik" olarak nitelendirdi. Lakatos'un "araştırma programları" fikrinin kurumsal yurdu olan LSE'nin ödülü, bu yıl tümevarım problemine dönüyor.
+
+## Liselilerin ödülü: "Clash kültürüne karşı"
+
+Fransa'da felsefenin lise müfredatının zorunlu parçası olduğunu hatırlatan bir ödül: Kamu okulları felsefe öğretmenleri derneği APPEP'in 2015'te kurduğu **Prix lycéen du livre de philosophie**, yılın felsefe kitabını lise öğrencilerinin oylarıyla belirliyor. 2026'da 44 liseden 820 öğrenci oy kullandı ve Antoine Vuille'in *Contre la culture du clash* (Clash Kültürüne Karşı) kitabı 387 oyla (%47,2) birinci oldu; Estelle Ferrarese'nin *La philosophie des sanglots*'su (251 oy) ve Jean-Marc Mouillie'nin *Cinq apparitions du ciel étoilé*'si (182 oy) onu izledi. Vuille'in kitabı, anlaşmazlıkların "argümanların karşılaşmasıyla değil, sözlü şiddet, karikatür ve kişisel saldırıyla" çözüldüğü bir kamusal kültürü tanımlıyor ve demokratik tartışmanın bu kültür tarafından nasıl aşındırıldığını anlatıyor; Fransa Kültür Bakanlığı'nın 2025 raporunda da kitabın "clash kültürü" tanımı kullanıldı. Bir tarih notu: Öğrencilerin oylaması mayıs sonunda yapıldı ve sonuç haziranda belli oldu; ödül töreni ise ekim-kasım aylarında, öğrenci jürilerin katılımıyla Paris'te yapılıyor. Dolayısıyla bu, "bu hafta kazanılmış" bir ödül değil, bu sonbahar törenle taçlanan bir sonuç. Felsefe açısından önemli olan şu: On altı-on yedi yaşındaki öğrencilerin, üç yetişkin felsefe kitabı arasından kamusal tartışmanın etiği üzerine olanı seçmesi.
+
+## Takvim
+
+[Dört gün önce](/haber/felsefe-odulleri-sonbahar-2026-kluge-nussbaum-leibniz-vetter-dixsaut-olimpiyat) ele aldığımız sonbahar ödülleri tablosuna eklenecek birkaç not: Royal Institute of Philosophy'nin Nayef Al-Rodhan Disiplinlerarası Felsefe Kitabı Ödülü'nün 2026 kısa listesinde Andrea Pinotti, Dan Turello ve Gareth S. Owen var; kazanan 4 Kasım'da açıklanacak. Académie française'in Grand Prix de Philosophie'si bu yıl Monique Dixsaut'ya gitti. Marc Sanders Siyaset Felsefesi Ödülü'nü Adam Kern ve Jacob Nebel'in "Migration and Social Population Ethics" makalesi kazandı; ancak bu sonuç nisanda açıklanmıştı. Japonya'daki Nakamura Hajime Doğu Araştırmaları Ödülü'nün Hint felsefesi araştırmacısı Kiyotaka Yoshimizu'ya verildiği yönünde bir haber dolaşıyor; kurumun sayfasında teyit edemediğimiz için listeye almıyoruz.`,
+  },
+  {
+    title: "2026 Nobel Edebiyat Ödülü Anne Carson'a: Carson'ın Felsefi Tarafı",
+    slug: "anne-carson-nobel-edebiyat-odulu-2026-felsefi-taraf",
+    summary:
+      "İsveç Akademisi 8 Ekim'de 2026 Nobel Edebiyat Ödülü'nü Kanadalı şair, denemeci ve klasik filolog Anne Carson'a verdi. Eros the Bittersweet'ten Nox'a, Autobiography of Red'den Decreation'a: arzu ve eksiklik, benlik ve anlatı, yas ve hafıza, Simone Weil ve 'yaratılmamışlık'. Bir şairin felsefesi değil, felsefenin şiirle nasıl düşünüldüğü üzerine bir dosya.",
+    seoTitle: "Anne Carson Nobel 2026: Şairin felsefi tarafı",
+    metaDescription:
+      "2026 Nobel Edebiyat Ödülü Anne Carson'a verildi. Eros the Bittersweet, Sappho çevirisi, Autobiography of Red, Nox ve Decreation üzerinden arzu, benlik, yas ve Simone Weil.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Anne%20Carson%2C%20poet%2C%20at%20the%202024%20National%20Book%20Awards%20finalist%20reading%201.jpg?width=1600",
+    imageCredit: "Anne Carson, 2024 · Jay Dixit · Wikimedia Commons",
+    featured: true,
+    sourceName: "Svenska Akademien · The Nobel Prize",
+    sourceUrl: "https://www.nobelprize.org/prizes/literature/2026/summary/",
+    publishedAt: "2026-10-09T07:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "gundem",
+    tagSlugs: ["odul", "estetik", "antik-felsefe", "zihin-felsefesi", "etik"],
+    philosopherSlugs: ["platon"],
+    sources: [
+      { title: "The Nobel Prize in Literature 2026", publisher: "NobelPrize.org", date: "8 Ekim 2026", url: "https://www.nobelprize.org/prizes/literature/2026/summary/", primary: true },
+      { title: "Anne Carson, the genre-bending Canadian writer, wins Nobel Prize in literature", publisher: "CNN", date: "8 Ekim 2026", url: "https://www.cnn.com/2026/10/08/style/nobel-prize-literature-name-name-winner-intl" },
+      { title: "Eros the Bittersweet", publisher: "Princeton University Press", url: "https://press.princeton.edu/books/paperback/9780691249469/eros-the-bittersweet" },
+    ],
+    content: `İsveç Akademisi 8 Ekim'de 2026 Nobel Edebiyat Ödülü'nü Anne Carson'a verdi. Gerekçe tek cümle: "Klasik gelenekle oyuncu bir diyalog içinde çağdaş edebiyat için yeni biçimler yaratan cesur ve yaratıcı yapıtı." Carson 76 yaşında; Toronto doğumlu, Antik Yunan dili ve edebiyatı eğitimi almış bir klasik filolog, şair, denemeci ve çevirmen. Yıllardır Nobel tahmin listelerinin tepesinde duruyordu; bu yıl Akademi listeyi doğruladı.
+
+Bir felsefe sitesi neden bir edebiyat ödülünü manşete taşır? Çünkü Carson'ın yapıtı, felsefenin en eski sorularını (arzu nedir, benlik bir hikâye midir, hafıza geçmişi geri getirebilir mi, bir başkasını anlamak mümkün müdür) kavramlarla değil biçimlerle düşünen nadir bir yazarlık. Onu "şair-filozof" diye etiketlemek kolay ama yanıltıcı: Carson sistem kurmaz, tanım vermez, argümanı sonuna kadar götürmez. Yaptığı şey daha ilginç: Felsefenin soyutlamayla kapattığı yerleri, bir parça, bir boşluk, bir çeviri notu ya da eski bir mitin yeniden yazımıyla yeniden açmak.
+
+## Eros the Bittersweet: Arzu neden eksiklikle başlar?
+
+Carson'ın düşünce dünyasına girmek için en iyi kapı, 1986'da yayımlanan ve bugün Princeton'ın klasikler dizisinde yaşayan *Eros the Bittersweet*. Kitap Sappho'nun tek bir kelimesinden yola çıkar: *glukupikron*, "tatlı-acı". Sappho Eros'u böyle adlandırır ve Carson sorar: Neden hazla acı aynı kelimede? Cevabı, arzunun yapısına dair bir tez: Arzu, bir nesneye yönelmek değil, o nesneyle aramızdaki **mesafeyi** deneyimlemektir. Arzulayan ile arzulanan arasında bir boşluk vardır; arzu bu boşlukta yaşar ve boşluk kapanırsa arzu da biçim değiştirir. Eksiklik, arzunun sonradan ortaya çıkan sorunu değil, kurucu koşuludur.
+
+Carson bu düşünceyi Platon'un *Şölen*'indeki Eros tartışmasıyla konuşturur; Diotima'ya göre de Eros sahip olduğu şeyin rahatlığında yaşayan bir tanrı değil, yoksun olduğuna yönelen bir ara-varlıktır. Ama Carson'ın çıkış noktası felsefi bir sistem değil, şiirin dili. Kitabın en özgün bölümü, arzunun doğuşunu Yunan **alfabesinin** ve okur-yazarlığın doğuşuyla birlikte düşünen bölümdür: Harfler sesin sürekliliğini keser, kenarlar çizer; okuma, "kenar" duygusunu öğretir; Eros da bir kenar deneyimidir, "ben"in bittiği ve "sen"in başladığı yerin fark edilmesi. Bu yüzden Carson'da arzu ile bilgi akrabadır: İkisi de bilmediğimiz, sahip olmadığımız bir şeye uzanmaktır. Buradan çağdaş bir soru çıkar: Sevdiğimiz kişiyi mi seviyoruz, yoksa onunla aramızdaki mesafeyi kapatma ihtimalini mi? Carson'ın cevabı, aşkın bir sahip olma ilişkisine indirgenemeyeceğini gösterir: Başka bir insanı sevmek, onun bizden ayrı, kendi dünyası olan bir varlık olduğunu kabul etmektir. Arzu, birleşme isteği kadar farklılığın deneyimidir.
+
+## Sappho'nun parçaları: Eksikliği çevirmek
+
+Carson'ın *If Not, Winter* (2002) adlı Sappho çevirisi, çeviri tarihinde bir dönüm noktası sayılır; çünkü papirüslerdeki yırtıkları, silinmiş harfleri ve kayıp dizeleri köşeli parantezlerle sayfada **görünür** bırakır. Çoğu çevirmen boşlukları doldurur ya da yok sayar; Carson boşluğu metnin parçası yapar. Bu, filolojik bir dürüstlük kadar felsefi bir tutumdur: Eksik bir metni anlamak, eksikliği tamamlamak mıdır, yoksa eksik kaldığını kabul ederek anlamaya çalışmak mı? İnsan zihni boşluk doldurmaya eğilimlidir; hikâyede anlatılmayan nedenleri tahmin eder, geçmişte olmayan bağlantıları kurar. Carson'ın parantezleri okura bu eğilimi gösterir ve frenler. Dijital arşivler ve tarihsel hafıza çağında bu tutumun önemi açık: Bazen dürüst yorum, bilmediğimiz noktaları saklamak değil, açıkça göstermektir.
+
+## Autobiography of Red: Bir canavarın kendisi olma hakkı
+
+En çok okunan kitabı *Autobiography of Red* (1998), Stesikhoros'un parçalar hâlinde kalmış *Geryoneis*'inden yola çıkan "dizelerle roman". Mitte Geryon, Herakles'in sığırlarını çalmak için öldürdüğü kırmızı, kanatlı canavardır. Carson onu kameralı, günlük tutan, Herakles'e âşık, kırılgan bir gence dönüştürür; canavar bir "otobiyografi" yazmaya çalışır. Kitabın felsefi gücü "canavar da insandır" demesinde değil, şu soruda: Kime insan, kime canavar deneceğine kim karar verir? "Canavar" bir görünüş tasviri değil, bir topluluğun neyi normal saydığına dair yargıdır. Geryon kendisini başkalarının bakışından bağımsız tanımlamakta zorlanır; kendini anlatma çabası, kendisini tanımlayan dilin sınırlarıyla mücadeledir. Eleştirmenler kitabı queer kimliğin ve dışlanmanın alegorisi olarak okudu; ama kitap aynı zamanda ergenlik, kıskançlık, fotoğraf ve zaman üzerine. Felsefi çıkarım şu: Kimlik yalnızca kişinin içindeki bir özellik değil, bakışlar, anlatılar ve yaralanabilirlik içinde biçimlenen bir şeydir; ve insan kendisine verilen kimliğe bütünüyle indirgenemez.
+
+## Nox: Yas, hafıza ve geri getirilemeyen insan
+
+*Nox* (2010), Carson'ın yıllarca görmediği ve 2000'de Kopenhag'da ölen kardeşi Michael için yaptığı bir yas defteri: Akordeon gibi açılan tek bir uzun sayfanın kutu içinde basımı. Omurgası Catullus'un 101. şiiri, kardeşinin mezarında söylediği ağıt; Carson şiiri kelime kelime, sözlük maddeleri hâlinde çevirir ve aralara fotoğraflar, mektup parçaları, pullar, kendi notlarını yerleştirir. Kitap tek bir şeyi hem söyler hem gösterir: Hafıza kaybedilen kişinin kendisi değildir. Bir fotoğraf bir anın izini taşır, anı geri getirmez; belgeler bir araya gelir, insan yeniden kurulamaz. Catullus'un "boşuna" (*nequiquam*) kelimesi Carson'da yasın felsefi adı olur. Ama *Nox* umutsuz bir kitap değil: Hatırlamak ile geri getirmek arasındaki farkı kabul etmek, ölüyle ilişkinin bittiği anlamına gelmez; ilişki başka bir biçimde sürer. Bu, yas üzerine yazılmış en iyi felsefi metinlerin söylediği şeydir; Carson bunu bir argümanla değil bir kutuyla söyler.
+
+## Decreation: Benlikten vazgeçmek mümkün mü?
+
+*Decreation* (2005) başlığını Simone Weil'den alır. Weil'de "yaratılmamışlık" (*décréation*), kişinin kendisini dünyanın merkezi sayan iddiasından vazgeçmesidir; benliğin yok edilmesi değil, "ben"in evrenin ölçüsü olmaktan çıkarılması. Carson kitabın başlık denemesinde Sappho'yu, Marguerite Porete'i ve Weil'i yan yana okur: Üç kadın, üçü de aşk ya da Tanrı karşısında kendini silmeyi yazmış, üçü de bunu yazarken "ben" demek zorunda kalmış. Carson'ın gördüğü paradoks bu: Benlikten vazgeçmeyi anlatmak için bir benliğe ihtiyaç vardır; yazmak, silinmeye direnir. Buradan etik bir soru çıkar: Başka bir insanı gerçekten dinlemek için kendi sesimizi geri çekmemiz gerekir mi? Weil'in "dikkat" kavramı tam bunu söyler. Ama Carson tehlikeyi de görür: Kendinden vazgeçme fikri, insanlardan ihtiyaçlarını ve haklarını silmelerini bekleyen bir baskı aracına dönüşebilir. [24 Ağustos takviminde](/haber/felsefe-tarihinde-bugun-24-agustos-simone-weil) Weil'i ele alırken bu gerilime değinmiştik.
+
+## Biçim neden düşüncenin parçasıdır?
+
+Carson'ın yapıtında şiir ile düzyazı, çeviri ile yaratıcı yazı, akademik inceleme ile kişisel anlatı, metin ile görsel malzeme beklenmedik biçimlerde bir araya gelir; Nobel gerekçesindeki "yeni biçimler" tam da bu. Peki biçim neden önemli? Bir aşk hikâyesini kronolojik anlatmak okura neden-sonuç düzeni verir; aynı hikâyeyi parçalarla anlatmak, deneyimin hiç de o kadar düzenli olmadığını gösterir. Ölümün ardından yazılan tamamlanmış bir anlatı kaybı "anlamlandırılmış geçmiş" olarak sunar; parçalı bir metin yasın tekrarlarını biçimin içine taşır. Carson'da biçim içeriğin kabı değil, içeriğin ne anlama geldiğini belirleyen unsur. Bu, felsefi düşünmenin yalnızca önermeler ve argümanlarla yapılmadığını hatırlatır: Bir deneyimin yapısını okura yaşatmak da düşünsel bir sonuç üretir. Şiir argümanın yerini almaz; ama hangi soruların önemli olduğunu ve bir kuramın hangi ayrıntıları dışarıda bıraktığını gösterebilir.
+
+## Antik Yunan neden hâlâ çağdaş?
+
+Carson'ın gelenekle ilişkisi iki yanlış yoldan da kaçınır: Eski metinlerin anlamını önceden belirlenmiş sayıp korumak; ya da onları bugünün ihtiyaçlarına göre kullanıp atmak. Geryon'un hikâyesi mitolojik bir canavarın çağdaş dünyada özne olma çabasına dönüşür; Sappho'nun parçaları arzu ve dil üzerine düşünmenin imkânı olarak okunur; Catullus bir Kanadalı kardeşin mezarına taşınır. Ama bütün bunlarda filolog Carson yazar Carson'ı denetler: Yorumun sınırlarını metnin dili ve tarihi belirlemeye devam eder. Felsefi sonuç şu: Bir gelenek, sorgulandığı ve yeniden yorumlandığı ölçüde canlı kalır.
+
+## Bir filozof mu, bir şair mi?
+
+Bu ayrım Carson'da yetersiz kalır. Onu sistematik bir filozof gibi sunmak yanlış; yapıtı belirli öncüllerden kapsamlı bir kuram çıkarmaz. Ama onu yalnızca estetik bir üretici olarak görmek de eksik: *Eros the Bittersweet* arzu üzerine açık bir düşünsel araştırmadır; *Autobiography of Red* kimlik ve anlatı üzerine felsefi sorular doğurur; *Nox* hafıza ile temsil arasındaki ilişkiyi biçimle araştırır; *Decreation* benlik ve dikkat sorusunu mistik gelenekle konuşturur. Daha verimli soru şu: Edebiyat, felsefenin hangi sorularını başka türlü düşünmemizi sağlar? Felsefe kavramların sınırlarını belirleyerek düşünceyi açıklığa kavuşturur; edebiyat bir kavramın insan hayatında nasıl yaşandığını, hangi çelişkileri doğurduğunu ve tek bir tanımın dışında neyin kaldığını gösterir. Carson'ın özgünlüğü, ikisi arasında gidip gelmesinde.
+
+Yapıtlarından geçen ortak mesele, insan deneyiminin hiçbir zaman bütünüyle kapanmaması: Arzu sahip olmakla bitmez, hafıza ölüyü geri getirmez, benlik tek bir hikâyeye sığmaz, gelenek yeniden yorumlanmadan konuşmaz. Bu, "her şey belirsizdir" demek değil; insan deneyimini aceleyle açıklamanın tehlikesini göstermek. Belki Carson'ın edebiyatının felsefeye bıraktığı en önemli soru şu: Bir insanı, bir aşkı ya da bir hayatı anlamak için onu bütünüyle açıklamamız mı gerekir; yoksa açıklayamadığımız şeylerin varlığını kabul etmek de anlamanın parçası mıdır? Carson bu soruyu cevaplamaz; onunla yaşamayı öğretir. Edebiyatın felsefeye yaptığı en büyük katkı bazen bir problemi çözmek değil, onu ilk kez gerçekten görebileceğimiz bir biçime dönüştürmektir.`,
+  },
+  {
+    title: "Yapay Zekâ Hakikati Söyleyebilir mi? Heidegger, Foucault ve Felsefenin Yeni Gündemi",
+    slug: "yapay-zeka-hakikati-soyleyebilir-mi-heidegger-foucault-parrhesia",
+    summary:
+      "Makine doğru cümleler kurabilir; peki söylediğinin arkasında durabilir mi? Bun-Sun Kim ve Hongjoon Jo'nun IAI'de yayımlanan makalesi, Heidegger'in sonluluk düşüncesi ve Foucault'nun parrhesia kavramından hareketle yapay zekânın 'hakikati söyleyemeyeceğini' savunuyor. Doğru önerme ile hakikate tanıklık arasındaki fark; yanlış bilgi ile yalan arasındaki fark; ve Williamson'ın sorusu: Felsefe bir bilim mi?",
+    seoTitle: "Yapay zekâ hakikati söyleyebilir mi? Heidegger, Foucault, parrhesia",
+    metaDescription:
+      "Kim ve Jo'nun 'AI Is Incapable of Telling the Truth' makalesi: Heidegger'de sonluluk, Foucault'da parrhesia, bedensiz dil. Doğruluk, tanıklık, yalan ve sorumluluk ayrımları; Williamson'ın RIP yüzüncü yıl konuşması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Artificial%20Intelligence%20%26%20AI%20%26%20Machine%20Learning%20-%2030212411048.jpg?width=1600",
+    imageCredit: "Temsilî · Mike MacKenzie · Wikimedia Commons",
+    featured: false,
+    sourceName: "Institute of Art and Ideas",
+    sourceUrl: "https://iai.tv/articles/ai-is-incapable-of-telling-the-truth-auid-3593",
+    publishedAt: "2026-10-09T07:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "epistemoloji", "fenomenoloji", "etik", "bilinc"],
+    philosopherSlugs: ["martin-heidegger", "timothy-williamson"],
+    sources: [
+      { title: "AI is incapable of telling the truth: Heidegger, Foucault and why AI needs a body", publisher: "Institute of Art and Ideas (iai.tv)", date: "Haziran 2026", url: "https://iai.tv/articles/ai-is-incapable-of-telling-the-truth-auid-3593", primary: true },
+      { title: "Is Philosophy a Science? — Timothy Williamson (Centenary Lectures 2025-6)", publisher: "Royal Institute of Philosophy", date: "12 Şubat 2026", url: "https://royalinstitutephilosophy.org/event/is-philosophy-a-science/" },
+    ],
+    content: `Yapay zekâdan bir tarihsel olayı açıklamasını, bir makaleyi özetlemesini ya da ahlaki bir ikilem hakkında düşünmesini istediğimizde çoğu zaman tutarlı, ikna edici ve bilgili görünen bir cevap alıyoruz. Cevabın dilbilgisi kusursuz, mantığı tutarlı, hatta olguları doğru olabilir. Ama bu, daha derin bir soruyu ortadan kaldırmıyor: Bir sistem doğru şeyler söyleyebiliyorsa, **hakikati** de söyleyebilir mi? Bir insanın doğruyu söylemesiyle doğru bir cümle üreten sistemin yaptığı iş aynı mı? Hakikat yalnızca bir önermenin gerçeklikle uyuşması mıdır, yoksa konuşanın kendi sözüyle kurduğu ilişki de meselenin parçası mı?
+
+Institute of Art and Ideas'ın (IAI) platformunda haziranda yayımlanan ve tartışılmaya devam eden bir makale tartışmayı tam bu noktaya taşıyor. Güney Koreli felsefeciler Bun-Sun Kim ve Hongjoon Jo'nun "AI Is Incapable of Telling the Truth: Heidegger, Foucault and Why AI Needs a Body" başlıklı yazısının tezi sert: Yapay zekânın asıl sorunu yanlış bilgi yayması değil, hakikati söyleme kapasitesinden yoksun olması. İnsan, sonlu ve ölümlü varoluşu her sözünde tehlikeye girdiği için hakikati söyler; bedeni, kaygısı ve vicdanı olmayan yapay zekâ hiçbir şeyi riske atmaz, internetin "gevezeliğini" istatistiksel olarak makul metinlere yeniden karar. Yazarlara göre iletişimimizi makineye devretmek yalnızca bilgiyi değil, düşünme kapasitemizi de aşındırır.
+
+## Heidegger: Hakikat, doğru cümle kurmaktan ibaret mi?
+
+Makalenin ilk dayanağı Heidegger. *Varlık ve Zaman*'da insan, dünyadaki nesneler hakkında bilgi toplayan bir varlık değil, kendi varlığını mesele edinen, sonluluğunu ve ölümünü hesaba katarak yaşayan varlıktır. Ölüm, hayatın sonundaki biyolojik olaydan fazlasıdır: İnsanın imkânlarını değerlendirme biçimini belirleyen bir farkındalık. Heidegger'in "gevezelik" (*Gerede*) kavramı da burada devreye girer: Söylenenin kaynağına gitmeden, söylendiği için tekrarlanan söz. Kim ve Jo'ya göre büyük dil modelleri yapısal olarak gevezelik üretir; herkesin söylediğinin ortalamasını konuşur ve hiçbir "kendi"yi açığa çıkarmaz.
+
+Buradan insanın hakikati dile getirmesi ile yapay zekânın dil üretmesi arasında bir ayrım çıkıyor. İnsan sözünün sonuçlarını kendi varoluşunda üstlenir: Tanıklık eder, savunur, doğruyu söylediği için bedel öder, yalan söylediği için sorumlu tutulur. Mahkemede tanıklık eden insanla mahkeme kayıtlarını tarayıp cevap üreten sistem aynı konumda değildir; tanık güvenilirliğini, itibarını, kimi zaman özgürlüğünü riske atar.
+
+Ama burada iki hakikat anlayışını ayırmak gerekir. Birincisi önermesel doğruluk: Söylenen gerçeklikle uyuşuyor mu? "Ankara Türkiye'nin başkentidir" cümlesi onu kimin söylediğinden bağımsız olarak doğrudur. İkincisi tanıklık ve sorumluluk: Konuşan iddiasının gerekçelerini verebilir mi, eleştiri karşısında savunabilir mi, sonuçlarından sorumlu tutulabilir mi? Makalenin gücü ikinci soruyu açması; ama bu ayrım yapay zekânın hiçbir doğru önerme üretemeyeceğini kanıtlamaz. Desteklediği daha dar ve daha önemli tez şu: Doğru bir cümle üretmek ile hakikati söyleyen, tanıklık eden ve sözünün sorumluluğunu üstlenen bir **özne** olmak aynı şey değildir.
+
+## Foucault: Doğruyu söylemek bir ilişki biçimidir
+
+İkinci dayanak Foucault'nun son dönem derslerindeki *parrhesia*: Açık sözlülük, hakikati göze alarak söyleme. Parrhesia yalnızca doğru bir cümle kurmak değildir; konuşanın inandığını açıkça söylemesi ve bu söz yüzünden risk üstlenmesidir. Kendi konumunu tehlikeye atacağını bilerek kurumsal bir haksızlığı açıklayan kamu görevlisiyle aynı haksızlığı tarif eden anonim metin arasında fark vardır: İkisi de olgusal olarak doğru olabilir, ama ilkinde konuşanın konumu ve riski sözün anlamının parçasıdır. Foucault için hakikat söyleminin tarihsel koşulları da incelenmelidir: Kim konuşabilir, kimin sözü güvenilir sayılır, hangi kurumlar hakikat iddiasını destekler. Sitemizde [Foucault'nun yüzüncü yılı](/haber/foucault-yuzuncu-yil-2026) dosyasında bu geç dönem derslerine değinmiştik.
+
+Kim ve Jo bunu yapay zekâya uygular: İnsan dili yalnızca bilgi aktarımı değil, konuşanın deneyimi ve kendisiyle kurduğu ilişkiyle bağlıdır; yapay zekâ dilsel kalıpları yeniden üretebilir ama bu ilişkiyi taşıyamaz. Burada bir ayrım daha gerekli: Bir sistem yas üzerine etkileyici bir metin üretebilir ve bu metin yas tutan birine yardımcı olabilir; ama metni üretmiş olması sistemin bir yakınını kaybettiğini göstermez. Tartışma, yapay zekâ metinlerinin değersiz olduğu iddiasına indirgenmemelidir; mesele, dilsel başarı ile yaşanmış deneyim arasındaki farkı korumaktır.
+
+## Bedeni yoksa hakikatle ilişkisi de yok mu?
+
+Makalenin en iddialı adımı, hakikati bedensel varoluşa bağlaması. "Acı" kelimesinin tanımını bilmekle acı çekmek aynı şey değildir; hekim ağrıyı klinik ölçütlerle değerlendirir, hasta birinci şahıs olarak yaşar. Yapay zekâ acı hakkında binlerce metni inceleyebilir ama kendi bedeninde acı hissetmez. Yazarlara göre yapay bir beden eklemek de sorunu kendiliğinden çözmez.
+
+Ama "beden" kavramı tartışmalı. Biyolojik beden ile fiziksel çevreyle etkileşen bir robot aynı şey değildir; robotun hasar görmesi öznel deneyim için yeterli midir, ayrı bir soru. Bu yüzden iki iddiayı karıştırmamak gerekir: Bugünkü sistemlerin insanla aynı bedensel ve yaşantısal koşullara sahip olmadığı (mevcut sistemler hakkında anlamlı bir tespit) ile hiçbir yapay sistemin asla öznel deneyim geliştiremeyeceği (zihin felsefesinin en zor sorusu). IAI makalesi güçlü bir felsefi tez koyuyor; ama bu tez, bütün olası yapay zekâ biçimleri hakkında kesinleşmiş bir sonuç değil.
+
+## Yanlış cevap ile yalan arasındaki fark
+
+Tartışmanın belki en önemli ayrımı burada: Bir sistem yanlış bilgi ürettiğinde yalan mı söylemiş olur? Gündelik dilde yanlış ifade ile yalan karıştırılır; oysa yalan, konuşanın söylediğinin yanlış olduğunu bilmesine rağmen karşısındakini yanıltmayı amaçlamasını gerektirir. Bir dil modeli var olmayan bir kaynak ya da uydurma bir alıntı üretebilir; bu güvenilirlik açısından ciddi bir sorundur, ama yalnızca yanlışlıktan aldatma niyeti çıkarılamaz. Üç düzeyi ayırmak yararlı: yanlış bilgi üretimi (epistemik başarısızlık); yanıltıcı işleyiş (belirsiz bilgiyi kesinmiş gibi sunmak, niyet olmasa da yanıltıcı sonuç); kasıtlı aldatma (niyet, inanç ve bilinç kavramlarının yapay sistemlere uygulanabilirliği sorusu). Bu ayrım yapay zekâ güvenliği için önemli: Bir sistemin yanlış cevap vermesini engellemek için onun vicdan sahibi olduğunu varsaymak gerekmez; kaynak doğrulama, belirsizliği belirtme ve kullanıcının kritik iddiaları kontrol edebilmesi yeter. Öte yandan sistemin "yalan söylemediğini" düşünmek yanıltıcı sonuçların önemsiz olduğu anlamına gelmez: Kullanıcı açısından yanlış bilgi, niyetten bağımsız olarak zarar verir.
+
+## Felsefe bir bilim mi?
+
+Bu tartışmanın arka planında felsefenin kendisini nasıl tanımladığı sorusu var. Royal Institute of Philosophy'nin yüzüncü yıl dizisi "Philosophy in Retrospect and Prospect" bu soruyu yeniden açtı: Timothy Williamson 12 Şubat 2026'da verdiği "Is Philosophy a Science?" konuşmasında felsefenin geniş anlamda bir bilim olabileceğini, ama ne doğa bilimi ne sosyal bilim olduğunu, bu bakımdan matematik ve tarihe benzediğini savundu; aynı dizide Peter Hacker Wittgenstein'ın Anglofon felsefeye etkisini anlattı. Bu iki konuşma iki uç tutumu temsil eder: Felsefeyi kavram çözümlemesi ve karışıklıkların giderilmesi olarak gören Wittgenstein-Hacker çizgisi; felsefenin gerçekliğin yapısı hakkında özgün ve ilerleyen bilgi üretebileceğini savunan Williamson çizgisi.
+
+Yapay zekâ bu tartışmayı somutlaştırıyor. Bir sistem felsefi metinleri özetleyebiliyor, kavramları tanımlayabiliyor ve argümanlar arasında bağlantı kurabiliyorsa, felsefenin ayırt edici katkısı nerede? Cevap belki şu: Felsefe yalnızca bilgi eksikliğini gideren bir faaliyet değildir. Çoğu zaman sorun yeterli bilgimizin olmaması değil, ne sorduğumuzu ve kullandığımız kavramların ne anlama geldiğini açıkça belirlememiş olmamızdır. "Yapay zekâ hakikati söyleyebilir mi" sorusunda "hakikat", "söylemek" ve "yapay zekâ" kavramlarının hangi anlamda kullanıldığını belirlemeden ilerlemek tartışmayı baştan karıştırır. Felsefenin katkısı tam da bu ayrımları görünür kılmak. Geçen hafta [De Brigard'ın MacArthur ödülünü](/haber/felipe-de-brigard-macarthur-fellow-2026-hafiza-hayal-gucu) ele alırken benzer bir noktaya varmıştık: İnsan hafızası bile bir "kayıt ve geri çağırma" sistemi değilse, insan hatırlaması ile bir modelin metin üretimi arasındaki benzerlik metaforik olmaktan öteye gitmez.
+
+## Bilmek, söylemek, üstlenmek
+
+Bir sistem doğru bir önermeyi üretebilir. Ama bu, onun bir insan gibi tanıklık ettiği, yaşadığı deneyimden konuştuğu ya da sözünün ahlaki sorumluluğunu üstlendiği anlamına gelmez. Kim ve Jo'nun katkısı bu ayrımı Heidegger'in sonluluk düşüncesi ve Foucault'nun parrhesia'sı üzerinden tartışmaya açmak; eksikleri, "beden" ve "bilinç" kavramlarını fazla hızlı birleştirmek. Buradan yapay zekânın hiçbir koşulda doğru bilgi veremeyeceği sonucu çıkmaz; doğruluk, bilinç ve sorumluluk ilişkili ama ayrı ayrı incelenmesi gereken meselelerdir.
+
+Belki asıl soru yapay zekânın bir gün insan gibi konuşup konuşamayacağı değil. Daha temel soru şu: Bir sözün doğru olmasıyla, o sözü söyleyenin hakikat karşısında sorumluluk taşıması arasında nasıl bir ilişki var? Bu sorunun cevabı yalnızca makineleri nasıl değerlendireceğimizi değil, insanların birbirine neden güvenmesi gerektiğini de belirleyecek. Doğru bilgiye ulaşmak önemli; ama hakikati araştırmak, bir iddianın neden doğru olduğunu sormayı, onu başkalarına karşı savunabilmeyi, yanlış çıktığında düzeltmeyi ve bilmediğimiz yerde bunu kabul etmeyi de gerektirir. Yapay zekâ çağında felsefenin görevi makinelerin insan olup olmadığına aceleyle karar vermek değil, kavramlarımızı daha dikkatli kılmak. Doğru cevaplar üretmek ile hakikat karşısında sorumlu bir ilişki kurmak aynı mesele değildir.`,
+  },
+  {
+    title: "Alasdair MacIntyre: Modern Dünyanın Ahlaki Krizi ve Erdem Peşinde Bir Filozof",
+    slug: "alasdair-macintyre-modern-dunyanin-ahlaki-krizi-erdem-pesinde",
+    summary:
+      "Herkes adaletten, özgürlükten, haklardan söz ediyor; ama anlaşmazlıkları çözecek ortak ölçüt yok. MacIntyre'a göre modern ahlakın krizi kuralların çiğnenmesi değil, kavramları anlamlı kılan çerçevenin kaybı. Aydınlanma projesinin başarısızlığı, pratikler ve içsel iyiler, gelenek temelli akıl, köksüz birey eleştirisi, muhafazakâr mı radikal mi sorusu ve itirazlar: 2025'te ölen filozofun bütün bir dosyası.",
+    seoTitle: "Alasdair MacIntyre: Erdem Peşinde ve modern ahlakın krizi",
+    metaDescription:
+      "After Virtue'nun yazarı Alasdair MacIntyre'ın düşüncesi: Aydınlanma projesinin başarısızlığı, pratikler, içsel ve dışsal iyiler, gelenek, liberal bireycilik eleştirisi, tıp etiği ve yapay zekâya uzanan güncelliği, temel itirazlar.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Alasdair%20MacIntyre%202009.jpg?width=1600",
+    imageCredit: "Alasdair MacIntyre, 2009 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://iep.utm.edu/macintyre/",
+    publishedAt: "2026-10-09T07:20:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "siyaset-felsefesi", "kavram", "akademi", "demokrasi"],
+    philosopherSlugs: ["alasdair-macintyre", "charles-taylor", "michael-sandel"],
+    sources: [
+      { title: "Alasdair MacIntyre (1929-2025)", publisher: "Internet Encyclopedia of Philosophy", url: "https://iep.utm.edu/macintyre/", primary: true },
+      { title: "After Virtue: A Study in Moral Theory (3rd ed.)", publisher: "University of Notre Dame Press", url: "https://undpress.nd.edu/9780268035044/after-virtue/" },
+    ],
+    content: `Bir siyasetçi adaletten söz ediyor, bir iş insanı özgürlükten, bir aktivist eşitlikten; bir başkası aynı davranışın geleneğe, toplumsal sorumluluğa ya da ortak yarara aykırı olduğunu söylüyor. Herkes ahlaki bir gerekçeye başvuruyor; ama taraflar anlaşmazlığı çözecek ortak ölçütler üzerinde uzlaşamıyor. Sorun insanların ilkelerini uygulamaması mı? Yoksa aynı kelimeleri kullanmamıza rağmen iyi, adalet, özgürlük ve erdem hakkında birbirimizi anlayabileceğimiz zemini kaybetmiş olmamız mı?
+
+İskoç filozof Alasdair MacIntyre'ın (1929-2025) çağdaş ahlak felsefesine en önemli katkısı bu soruyu sormasıdır. 1981'de yayımlanan *After Virtue* (Türkçede *Erdem Peşinde*, Ayrıntı Yayınları), modern ahlak dilinin farklı geleneklerden devralınmış ama onları anlamlı kılan çerçevelerden kopmuş kavramlarla dolu olduğunu savundu; bu yüzden çağdaş ahlaki tartışmalar uzlaşmaz biçimde sürüp gider. MacIntyre 21 Mayıs 2025'te 96 yaşında öldü; [vefatının ardından](/haber/alasdair-macintyre-mirasi-erdem-etigi) tezinin ana hatlarını vermiştik. Bu dosya, ölümünden bir yıl sonra düşüncesinin bütününe, güncelliğine ve ona yöneltilen itirazlara bakıyor.
+
+## Bir hayat: Marksizmden Aristoteles'e, Aristoteles'ten Aquinas'a
+
+Glasgow'da doğan MacIntyre'ın entelektüel hayatı başlı başına bir tez. 1950'lerde Marksist ve Hristiyandı (*Marxism and Christianity*, 1953); 1960'larda Yeni Sol çevresinde, sonra Marksizmle bağını kopardı; 1970'te Amerika'ya gitti, Brandeis, Boston, Vanderbilt, Notre Dame ve Duke'ta ders verdi. *After Virtue* yayımlandığında Aristotelesçiydi ama henüz Thomist değildi; 1980'lerin ortasında Katolik oldu ve *Whose Justice? Which Rationality?* (1988) ile *Three Rival Versions of Moral Enquiry* (1990) kitaplarında Aquinas'ı Aristoteles'in en iyi yorumcusu olarak benimsedi. *Dependent Rational Animals* (1999) ise erdem etiğine bağımlılık, kırılganlık ve sakatlık kavramlarını getirdi. Bu yolculuk MacIntyre'ın kendi "gelenek" kavramının canlı örneğidir: Bir düşünür, içinde bulunduğu geleneğin yetersizliklerini fark edip rakip geleneğe geçebilir ve bunu akılcı bir biçimde yapabilir.
+
+## Ahlakın krizi: İnsanlar neden anlaşamıyor?
+
+MacIntyre'ın teşhisi şöyle: Modern toplumlarda insanlar haklardan, ödevlerden, özgürlükten, eşitlikten söz eder; her kavram güçlü bir ahlaki iddia taşır. Ama bir kişi özgürlüğü dış müdahale olmadan tercih yapabilme olarak tanımlarken bir başkası iyi bir yaşamın toplumsal koşulları olmadan özgürlüğün eksik kalacağını savunur. İkisi de özgürlüğü savunduğunu söyler; ama farklı başlangıç noktalarından konuşurlar. MacIntyre'a göre buradaki sorun yalnızca görüş ayrılığı değil: Ahlaki iddiaları değerlendirecek **ortak ölçütlerin ne olduğu** konusunda derin bir anlaşmazlık var. *After Virtue*'nun açılışındaki ünlü düşünce deneyi bunu anlatır: Doğa bilimlerinin yok edildiği ve sonra parçalardan yeniden kurulduğu bir dünyada insanlar "nötrino" ve "kütle" kelimelerini kullanmaya devam eder, ama bu kelimeleri anlamlı kılan kuramsal bağlam kaybolmuştur. MacIntyre'a göre modern ahlak dili tam bu durumda: Kavramlar duruyor, onları birbirine bağlayan çerçeve gitmiş.
+
+Bu teşhisin bir adı var: **duygusalcılık** (emotivism). MacIntyre'a göre modern kültür, ahlaki yargıların aslında kişisel tercihlerin ya da duyguların ifadesi olduğu inancıyla yaşar; ahlaki tartışma bu yüzden sonuçsuz kalır, çünkü tercihler hakkında akıl yürütülmez, yalnızca karşı karşıya getirilir. Duygusalcılık bir kuram olarak yanlış olabilir ama bir kültürel durum olarak doğru: İnsanlar "sanki" doğruymuş gibi yaşar.
+
+## Aydınlanma projesi neden başarısız oldu?
+
+MacIntyre'ın en tartışmalı tezi, Aydınlanma'nın ahlakı evrensel ve rasyonel temellere oturtma girişiminin başarısız olduğudur. Bu, Aydınlanma'nın bütün kazanımlarını reddetmek değildir; eleştiri daha belirli bir hedefe yönelir: Ahlaki kuralları insanın tarihsel ve toplumsal **amaçlarından** bağımsız biçimde, herkes için geçerli tek bir rasyonel sistemle gerekçelendirme girişimi. Aristoteles'te "ne yapmalıyım" sorusu "nasıl bir varlığım ve nasıl iyi yaşarım" sorularına bağlıdır; erdem, kurallara uymak değil, insanın doğasını gerçekleştiren karakter özelliklerini edinmektir. Ahlakın üç parçalı yapısı vardır: eğitilmemiş insan doğası, amacına ulaşmış insan doğası (*telos*) ve birinden ötekine götüren kurallar. Aydınlanma ortadaki parçayı, *telos*u attı; geriye insan doğası ve kurallar kaldı, ve kuralları insan doğasından türetmek imkânsızlaştı. Hume duyguya, Kant akla, Kierkegaard seçime başvurdu; MacIntyre'a göre üçü de başarısız oldu ve Nietzsche bu başarısızlığı en dürüst biçimde gördü: Ahlak akılla temellendirilemiyorsa, geriye irade kalır. *After Virtue*'nun dramatik sorusu bu yüzden "Nietzsche mi Aristoteles mi?"dir. Bu, Kantçı ahlakın ya da liberal evrenselciliğin bugün savunulamadığı anlamına gelmez; Rawls'tan Habermas'a bu gelenekler savunulmaya devam ediyor. MacIntyre'ın tezi onlara yöneltilmiş güçlü ve tartışmalı bir eleştiri olarak anlaşılmalı.
+
+## Pratikler, içsel iyiler ve erdem
+
+*After Virtue*'nun en verimli kavramı **pratik**tir. Gündelik anlamda herhangi bir faaliyet değil: Kendi içinde mükemmellik ölçütleri, amaçları ve standartları olan, toplumsal olarak kurulmuş, tutarlı ve karmaşık bir faaliyet biçimi. Tıp, mimarlık, bilimsel araştırma, müzik, satranç, çiftçilik pratiktir; tuğla dizmek ya da reklamcılık, MacIntyre'ın verdiği örneklerle, değildir. Bir pratiğe katılmak, onun standartlarını öğrenmek ve kendi performansını o standartlara göre yargılamak demektir.
+
+Pratiklerden iki tür iyi elde edilir. **İçsel iyiler** yalnızca o pratiğe katılarak kavranabilir: Satrançta güzel bir oyun, tıpta iyi bir teşhis, araştırmada gerçek bir keşif. **Dışsal iyiler** ise para, güç, statü, prestij; başka yollardan da elde edilebilir ve biri kazandığında ötekinin payı azalır. İçsel iyiler ise kazanıldığında bütün topluluğu zenginleştirir. Erdemler, MacIntyre'ın tanımıyla, içsel iyileri elde etmemizi sağlayan ve yokluğunda bunlardan yoksun kaldığımız edinilmiş insani niteliklerdir: Adalet, cesaret ve dürüstlük olmadan hiçbir pratik ayakta kalmaz. Burada kurumlar devreye girer: Pratikleri taşıyan kurumlar (hastane, üniversite, orkestra) dışsal iyilerle beslenir ve bu zorunludur; ama dışsal iyiler pratiğin amaçlarını ele geçirdiğinde pratik yozlaşır. Bir bilim insanı yalnızca unvan için araştırma yaptığında, bir hekim hastanenin mali hedefleriyle hastanın iyiliği arasında sıkıştığında olan şey budur. Erdem bu yüzden yalnızca kişisel karakter meselesi değil, ortak faaliyetlerde iyi olanı koruyan toplumsal bir güçtür.
+
+## Gelenek: Geçmişe hapsolmak değil, tartışmayı sürdürmek
+
+MacIntyre'da gelenek, geçmişin sorgulanmadan tekrarı değildir. Tanımı şöyle: Tarihsel olarak uzatılmış, toplumsal olarak somutlaşmış bir **tartışma**; kısmen o geleneği kuran iyiler hakkında bir tartışma. Gelenekler değişir, kendi içlerinde çatışır, eleştiriyle dönüşür. Akıl yürütme bir gelenek içinde gelişir; insan bir geleneğin içinde düşünmeyi öğrenir, sorunlarını fark eder, gerektiğinde yetersizliklerini sorgular. Bu, görecilik değildir: *Whose Justice?*'te MacIntyre "epistemolojik kriz" kavramını geliştirir. Bir gelenek kendi sorunlarını kendi kaynaklarıyla çözemediğinde ve rakip bir gelenek o sorunları hem açıklayıp hem çözebildiğinde, birincinin üyeleri akılcı biçimde ikincisine geçebilir. MacIntyre'ın kendi hayatı bunun örneğidir. Dolayısıyla tez şu: Rasyonel değerlendirme bağlamdan bağımsız değildir, ama bağlamlar arası karşılaştırma imkânsız da değildir.
+
+## Köksüz birey ve liberal eleştiri
+
+MacIntyre'ın liberalizme eleştirisi bireyin nasıl tanımlandığında odaklanır. Liberal siyaset felsefesi devletin farklı hayat anlayışları karşısında tarafsız kalmasını savunur; amacı özgürlükleri ve çoğulculuğu korumaktır. MacIntyre'a göre bireyin amaçlarını, değerlerini ve kimliğini toplumsal ilişkilerinden bağımsızmış gibi düşünmek sorunludur: İnsan bir ailede, dil topluluğunda, meslekte, yerel çevrede ve tarihsel geleneklerde yetişir; neyi değerli gördüğü bu ilişkilerden etkilenir. "Köksüz birey" eleştirisi özgürlüğü değil, özgürlüğün toplumsal koşullarından koparılarak anlaşılmasını hedef alır. Bu noktada MacIntyre, [Charles Taylor](/haber/charles-taylor-modern-benlik-sekuler-cag), Michael Sandel ve Michael Walzer'la birlikte "komüniteryen" diye anıldı; kendisi bu etiketi hiç sevmedi, çünkü modern ulus-devletin "topluluk" olabileceğine inanmıyordu. Onun eleştirisi daha radikaldi: Modern toplum, devlete ve piyasaya bağımlı bireyler üretir; piyasa ilişkileri değişim ve çıkar üzerinden, bürokrasi sorunları "yönetilebilir" kategoriler üzerinden düzenler ve ikisi de insanların iyi yaşamı ortaklaşa belirleme kapasitesini aşındırır. Bu, devletin ya da piyasanın kaldırılması çağrısı değildir; soru, insanın toplumsal ve ahlaki yaşamının bu iki mekanizmaya indirgenip indirgenemeyeceğidir.
+
+## Muhafazakâr mı, radikal mi?
+
+Gelenek, topluluk ve erdem vurgusu MacIntyre'ı bazı çevrelerde muhafazakâr yaptı; *After Virtue*'nun sonundaki ünlü cümle, "yeni, ve hiç şüphesiz çok farklı bir Aziz Benedikt" bekleyişi, bu okumayı besledi. Ama MacIntyre kendini hiçbir zaman muhafazakâr saymadı; kapitalizme eleştirisini hayatının sonuna kadar sürdürdü, Marx'ın yabancılaşma analizini doğru bulmaya devam etti ve modern muhafazakârlığı liberalizmin bir başka biçimi olarak gördü. Yerel toplulukları da romantikleştirmedi: Gelenekler adaletsizlik sürdürebilir, insanları dışlayabilir, eleştiriye kapanabilir; bir uygulamanın eski olması doğru olduğunu kanıtlamaz. Akademik tartışmalarda kitabın hem muhafazakâr hem radikal sonuçlar barındırdığı özellikle ele alındı; "sağ-sol" ekseninin MacIntyre'ı yakalamadığı söylenebilir.
+
+## Tıp etiğinden yapay zekâya
+
+MacIntyre'ın düşüncesi uygulamalı alanlarda yaşıyor. Tıp etiği, hemşirelik etiği ve meslek etiği literatüründe pratik ve içsel iyi kavramları, "ilkecilik"e (özerklik, yarar, zarar vermeme, adalet) alternatif bir çerçeve olarak kullanılıyor: Bir hastanenin verimlilik hedefleri ile hastaya zaman ayırma ihtiyacı çatıştığında sorun hangi kuralın uygulanacağı değil, tıp pratiğinin amacının ne olduğu ve kurumun bu amacı ne ölçüde desteklediğidir. Aynı çerçeve yapay zekâya taşınabilir: Bir algoritmanın "başarılı" sayılması için hızlı ve ucuz sonuç üretmesi yeter mi? Bir sağlık sisteminde, araştırmada ya da eğitimde teknoloji o pratiğin asıl amacını güçlendiriyor mu, yoksa ölçülebilen performans göstergeleri zamanla amacın yerini mi alıyor? MacIntyre'ın yapay zekâ hakkında yazdığı yok; ama içsel ve dışsal iyiler ayrımı, kurumların amaçlarıyla ölçülebilir göstergeler arasındaki gerilimi incelemek için hâlâ en güçlü kavramsal araçlardan biri.
+
+## İtirazlar
+
+MacIntyre'ın etkisi bütün sorunları çözdüğü anlamına gelmez. İlk itiraz evrensellikle ilgili: İnsan hakları ve adalet gibi ilkeleri yalnızca gelenekler içinde temellendirmek, farklı kültürlerden insanların ortak normlar geliştirmesini zorlaştırır; Martha Nussbaum bu çizgide Aristoteles'in evrenselci bir okumasını savundu. İkinci itiraz iktidarla ilgili: Gelenekler kadınları, azınlıkları, farklı yaşam biçimlerini dışlayan normlar taşır; "ortak iyi" vurgusu topluluk içi güç eşitsizliklerini görünmez kılabilir. Susan Moller Okin'in komüniteryenlere yönelttiği feminist eleştiri burada hâlâ geçerli. Üçüncü itiraz ölçekle ilgili: Küçük topluluklarda gelişen pratikler önemli, ama modern toplumlar milyonlarca yabancının birlikte yaşadığı kurumlardan oluşur; bu ölçekte ortak iyinin nasıl belirleneceği açık bir sorun. Dördüncü itiraz tarihsel: MacIntyre'ın Aydınlanma anlatısının fazla düz, Aristoteles okumasının fazla seçici olduğu söylendi. Bu itirazlar temel teşhisi geçersiz kılmaz; ama erdem etiğinin modern toplumda nasıl uygulanabileceğinin ayrıca açıklanması gerektiğini gösterir.
+
+## Neden hâlâ Erdem Peşinde?
+
+MacIntyre'ın kalıcı etkisi, ahlakı yalnızca bireysel tercihler ya da soyut kurallar üzerinden düşünmememiz gerektiğini hatırlatmasında. İnsanlar yalnızca seçim yapan bireyler değil; ilişkiler içinde yaşayan, başkalarına bağımlı, sorumluluk üstlenen ve ortak faaliyetler aracılığıyla kendilerini geliştiren varlıklar. *Dependent Rational Animals*'ın sorusu bunu en çıplak biçimde koyar: Hepimiz çocuk olduk, çoğumuz yaşlanacak ve bakıma muhtaç kalacak; bağımsız rasyonel failin ahlakı, bağımlılığı dışarıda bırakan bir soyutlamadır.
+
+Bir toplumun ahlaki krizi, insanların doğruyu yanlıştan ayıramaması mıdır; yoksa doğru ve yanlış hakkında konuşurken birbirlerini anlayabilecek zemini kaybetmeleri mi? MacIntyre'ın felsefesi bu iki ihtimal arasındaki farkı düşünmeye çağırır. Onu hazır bir reçete olarak değil, bir sorular dizisi olarak okumak daha verimli: Hangi geleneklerden hareketle düşünüyoruz? Savunduğumuz ilkeler hangi insan anlayışına dayanıyor? İyi bir yaşamı mümkün kılan pratikleri nasıl koruyoruz? Ve ortak iyi adına yapılan talepleri hangi ölçütlerle değerlendiriyoruz? *Erdem Peşinde*'nin bıraktığı miras belki şu cümlede: Ahlak, yalnızca ne yapmamız gerektiğini söyleyen kurallar toplamı değil; nasıl bir insan olmak istediğimiz, hangi topluluklarda yaşadığımız ve birlikte nasıl bir dünya kurduğumuz sorusudur.`,
+  },
+  {
+    title: "Taşköprizâde Ahmed Efendi ve Felsefi Anlamda Bilgi",
+    slug: "taskoprizade-ahmed-efendi-miftahus-saade-bilgi-felsefesi",
+    summary:
+      "Bilmek ne demektir? XVI. yüzyıl Osmanlı düşünürü Taşköprizâde'nin Miftâhu's-saâde'si yalnızca bir ilimler ansiklopedisi değil, bilginin nasıl düzenleneceğine, hangi yollarla edinileceğine ve neye hizmet edeceğine dair bir düşünce mimarisi. Yedi ana dal, dört varlık düzeyi, akıl ile arınma arasındaki iki yol, İbn Sînâ'dan Gazzâlî'ye gelenekler; ve bugünün sorusu: Bilgimiz artarken bildiklerimiz arasındaki ilişkiyi kaybediyor muyuz?",
+    seoTitle: "Taşköprizâde ve Miftâhu's-saâde: Osmanlı'da bilginin haritası",
+    metaDescription:
+      "Taşköprizâde Ahmed Efendi'nin (1495-1561) Miftâhu's-saâde adlı eseri üzerinden bilgi felsefesi: ilimlerin yedi dalı, yazı-söz-zihin-dış dünya ayrımı, akıl ve arınma yolları, İbn Sînâ ve Gazzâlî etkisi, Osmanlı düşüncesini yeniden okumak.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BCleymaniye%20Library.jpg?width=1600",
+    imageCredit: "Süleymaniye Yazma Eser Kütüphanesi, İstanbul · Wikimedia Commons",
+    featured: false,
+    sourceName: "TDV İslâm Ansiklopedisi",
+    sourceUrl: "https://islamansiklopedisi.org.tr/taskoprizade-ahmed-efendi",
+    publishedAt: "2026-10-09T07:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["islam-felsefesi", "epistemoloji", "tarih", "kavram", "mantik"],
+    philosopherSlugs: ["taskoprizade-ahmed-efendi"],
+    sources: [
+      { title: "Taşköprizâde Ahmed Efendi", publisher: "TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/taskoprizade-ahmed-efendi", primary: true },
+      { title: "Miftâhu's-saâde", publisher: "TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/miftahus-saade" },
+    ],
+    content: `Bir düşünürün bilgi anlayışını anlamak için yalnızca hangi sorulara cevap verdiğine değil, hangi soruların bilgiye değer olduğunu kabul ettiğine de bakmak gerekir. Bilgiyi sınıflandırmak görünüşte kitapları ve disiplinleri düzenlemekten ibarettir; oysa her sınıflandırma, insanın dünyayı nasıl anladığına, hangi yöntemleri güvenilir bulduğuna ve hakikate hangi yoldan gidileceğine ilişkin felsefi bir tercihtir.
+
+XVI. yüzyıl Osmanlı düşünürü Taşköprizâde Ahmed Efendi bu açıdan özel bir yerde durur. Başyapıtı *Miftâhu's-saâde ve misbâhu's-siyâde fî mevzûâti'l-ulûm* ("Saadetin Anahtarı ve Efendiliğin Işığı: İlimlerin Konuları Hakkında"), farklı bilimleri sıralayan bir başvuru kitabı değil; ilimlerin konularını, amaçlarını, yöntemlerini, birbirleriyle ilişkilerini ve tarihsel birikimlerini bir arada ele alan kapsamlı bir bilgi düzeni önerisidir. Eser bu özellikleriyle hem ilimler tarihi hem bilgi felsefesi için birincil kaynaktır. Taşköprizâde'nin merkezî sorusunu şöyle koyabiliriz: İnsan bilgiyi yalnızca biriktiren bir varlık mıdır, yoksa farklı bilgi biçimleri arasında ilişki kurarak kendisini ve dünyayı anlamlandıran bir varlık mı? Eser ikinci cevaba yakındır.
+
+## Kimdi?
+
+İsâmüddin Ahmed b. Mustafa, 2 Aralık 1495'te Bursa'da doğdu; 13 Nisan 1561'de İstanbul'da öldü. Dedesinin Kastamonu'nun Taşköprü ilçesinden gelmesi dolayısıyla Taşköprizâde diye anıldı. Medrese geleneğinde yetişti; Dimetoka, İstanbul, Üsküp, Edirne medreselerinde müderrislik, Bursa ve İstanbul'da kadılık yaptı; ömrünün sonunda gözlerini kaybetti ve eserlerinin bir kısmını bu dönemde yazdırdı. Mantık, kelâm, fıkıh, tefsir, ahlâk, Arap dili, tıp, ilimler tarihi ve biyografi alanlarında eser verdi. Öteki büyük kitabı *eş-Şekâiku'n-nu'mâniyye*, Osmanlı âlim ve şeyhlerinin hayatlarını padişah dönemlerine göre anlatan ilk sistematik biyografi sözlüğüdür; Osmanlı ilim tarihinin temel kaynağı olmayı sürdürüyor. Bu iki eser yan yana konduğunda düşünürün bilgi anlayışının bir özelliği görünür: Bilgi soyut önermelerden ibaret değildir; bir eğitim geleneği, bir literatür ve bir insan topluluğu içinde yaşar.
+
+Burada bir ayrım şart: Taşköprizâde'yi modern anlamda deneysel bilim yapan bir araştırmacı ya da üniversite disiplinlerinin kurucusu saymak tarihsel açıdan doğru olmaz. Düşüncesi, İslam felsefesi, kelâm, mantık, dinî ilimler ve tasavvufun iç içe olduğu bir ortamda biçimlendi. Ama tam bu ortamda bilgiyi sistematik olarak sınıflandırma ve alanlar arası ilişkileri açıklama girişimi felsefi bir derinlik kazanır.
+
+## Miftâh: Bir ansiklopediden fazlası
+
+*Miftâhu's-saâde* İslam düşüncesindeki ilimler tasnifi geleneğinin en kapsamlı örneklerinden biridir; üç yüzü aşkın ilmi tanıtır ve her ilim için, uygun olduğu ölçüde, tanım, konu, ilkeler, öğretim amacı, yarar, tarihsel gelişim ve başlıca kitaplar ile müellifler verilir. Bu yüzden eser aynı zamanda biyobibliyografik bir ansiklopedi, ilimler tarihi ve eğitim rehberidir. Giriş bölümlerinde ilmin değeri, öğrenmenin fazileti, hoca ve öğrencinin görevleri, ilim ahlâkı ve bilgiye ulaşma yolları ele alınır. Bu düzenleme bilgiyle bilginin edinilme biçimi arasında bağ kurar: Bilmek, doğru içeriğe sahip olmak kadar öğrenme ve öğretme sorumluluğunu üstlenmektir.
+
+Eserin bir ansiklopedi olarak kurduğu ölçüt sorusu felsefi açıdan ilginçtir: Bir bilgi ansiklopedisi alfabetik mi düzenlenmelidir, konuların yakınlığına göre mi, bilginin nasıl elde edildiğine göre mi, yoksa insanın düşünme ve eyleme biçimlerine göre mi? Taşköprizâde'nin tercihi tek bir ölçütün yetmediğini gösterir: Dil, mantık, varlık, pratik hayat, dinî yükümlülük ve içsel dönüşüm boyutlarını birlikte gözetir. Bu nedenle eser bir liste değil, bilginin hangi ilişkiler içinde anlam kazandığına dair bir düşünce mimarisidir.
+
+## Sınıflandırma neden felsefi bir iştir?
+
+Her sınıflandırma neyin temel sayıldığına ilişkin bir tercih içerir. Mantık matematikten önce mi gelir? Ahlâk teorik bilginin uzantısı mı, kendi amacı olan ayrı bir alan mı? Dinî bilgiyle akla dayalı bilgi aynı üst düzende mi değerlendirilecek? Taşköprizâde bu sorulara kendi tarihsel bağlamında cevap verir; ilimlerin taksimini ayrı bir ilim olarak değerlendirmesi de dikkat çekicidir. Buradan çıkan sonuç bugün de geçerli: Bilgiyi sınıflandırmak, bilgiyi düzenlemek değil, bilgi hakkında düşünmektir. Üniversitelerin fakültelere ayrılması, disiplinler arası araştırmanın sınırları, yapay zekânın hangi alana ait olduğu, beşerî bilimlerin statüsü: Bunların hepsi bilginin nasıl örgütleneceğine ilişkin tercihlerdir.
+
+## Yedi ana dal
+
+*Miftâh* ilimleri yedi ana bölümde (devha) ele alır. **Birincisi**, yazı ve hat ilimleri: İlk bakışta teknik beceri; oysa yazı bilginin kaydedilmesini, korunmasını ve kuşaklar arası aktarımını sağlar, entelektüel hafızanın koşuludur. **İkincisi**, dil ilimleri: Sarf, nahiv, belâgat, edebiyat. Dil düşünceye sonradan eklenen bir süs değildir; kavramlar, sorular ve gerekçeler dil aracılığıyla kurulur. **Üçüncüsü**, mantık: Çıkarımların geçerliliği; bir iddianın ikna edici görünmesiyle doğru olması arasındaki fark. **Dördüncüsü**, dış dünyayı konu alan ilimler: Metafizik, fizik, matematik, mekanik, tıp, coğrafya, astronomi. Taşköprizâde'nin kapsamı burada belirginleşir; her birinin ayrı konusu ve yöntemi kabul edilirken daha geniş düzen içindeki yeri gösterilir. **Beşincisi**, amelî hikmet: Ahlâk, ev idaresi (tedbîrü'l-menzil) ve siyaset; bilginin var olanı anlamakla sınırlı olmadığı, insanın nasıl yaşaması gerektiğiyle de ilgili olduğu yer. **Altıncısı**, şer'î ilimler: Kıraat, hadis, tefsir, kelâm, fıkıh ve usulleri; dinî ilimler bütünün dışında bırakılmaz, kendi konu ve yöntemleriyle bütünün parçasıdır. **Yedincisi**, bâtın ilimleri: İbadetlerin iç anlamları, ahlâkî alışkanlıklar, insanı yıkıma götüren kusurlar ve kurtuluşa götüren erdemler; bu bölümün düzeni Gazzâlî'nin *İhyâu ulûmi'd-dîn*'ine yakındır. Yedi dal birlikte düşünüldüğünde ortaya bir bilim listesi değil, insanın düşünme, konuşma, araştırma, eyleme ve kendini dönüştürme faaliyetlerini bir arada ele alan bir çerçeve çıkar.
+
+## İki yol: Akıl ve arınma
+
+Eserin bilgi felsefesi bakımından en dikkat çekici yönü, bilgi edinme yollarını tek yönteme indirgememesidir. *Miftâh* iki ana kısma ayrılır: Teorik araştırma ve akıl yürütme (nazar) yoluyla bilgi; manevi arınma (tasfiye) yoluyla bilgi. Yetkinlik, iki yolun birlikte değerlendirilmesiyle mümkündür. Bir astronom gök cisimlerinin hareketini matematiksel ilişkilerle açıklar; bir mantıkçı çıkarımın geçerliliğini inceler; ahlâk düşünürü eylemlerin gerekçelerini sorgular; arınmayı merkeze alan düşünür insanın arzularını ve benliğini nasıl tanıyacağıyla ilgilenir. Bu faaliyetler aynı değildir ve birinin yöntemi ötekine uygulanamaz; Taşköprizâde'nin çerçevesi bu çoğulluğu kabul eder. Çağdaş epistemolojiyle karşılaştırma mümkün: Bugün de matematiksel ispat, gözlem, deney, tarihsel yorum ve birinci şahıs deneyimi aynı kanıt türü sayılmaz. Taşköprizâde modern yöntem tartışmalarını önceden çözmüş değildir; ama bilgi yollarının çoğulluğunu düşünmek için tarihsel bir imkân sunar. Manevi arınma yoluyla bilgiyi modern bilimin bir yöntemi gibi sunmak da doğru olmaz; bu, dönemin felsefi ve tasavvufi kabulleri içinde anlam kazanan bir yoldur. Asıl soru şu: İnsan yalnızca akıl yürüterek mi hakikate yaklaşır, yoksa bilme eyleminin öznenin karakteri ve hayatıyla da ilişkisi var mıdır? Taşköprizâde ikinci soruyu da ciddiye almamızı ister.
+
+## İbn Sînâ'dan Gazzâlî'ye
+
+Taşköprizâde'nin tasnifi kendisinden önceki birikimi yeniden düzenler. Felsefî ilimlerde İbn Sînâ'nın ilimler sınıflandırmasından yararlanır; eserin genel yapısı İbnü'l-Ekfânî'nin *İrşâdü'l-kâsıd*'ıyla akrabadır; bâtın ilimlerinde Gazzâlî'nin izi görülür. Bu bağlantılar düşünürün özgünlüğünü azaltmaz; özgünlüğün ne olduğu sorusunu açar. Bir düşünürün özgünlüğü önceki gelenekten bağımsızlığı mıdır, yoksa miras aldığı fikirleri yeni ilişkiler içinde düzenleyebilmesi mi? Taşköprizâde ikincinin örneğidir: Düşünsel yenilik her zaman yeni kavramlar icat etmekle gerçekleşmez; ayrı ayrı geliştirilmiş fikirleri yeni bir sistemde bir araya getirmek, bilginin nasıl anlaşılacağını değiştirebilir. Gelenek ile eleştirel düşünce karşıt olmak zorunda değildir.
+
+## Dört varlık düzeyi: Yazı, söz, zihin, dış dünya
+
+Taşköprizâde'nin düzenleme ilkelerinden biri, varlığın yazıda, sözde, zihinde ve dış dünyada bulunmasına dayanan dörtlü ayrımdır; İbn Sînâ geleneğinden gelen bu şema ilk dört dalın sırasını da açıklar. "Ağaç" kelimesi yazıda harflerle gösterilir, konuşmada seslerle ifade edilir, zihinde kavram olarak bulunur, dış dünyada kökü ve dalları olan bir varlığa karşılık gelir. Bunlar ilişkilidir ama aynı değildir: Yazılı kelime ağaç değildir; zihindeki kavram tekil ağaçla özdeş değildir. Bu ayrım bilgi felsefesinin temel sorununa açılır: Dil ile düşünce, düşünce ile gerçeklik arasındaki ilişki nasıl kurulmalıdır? Bir kavramın dilde doğru tanımlanması dış dünyada karşılığı olduğunu kanıtlamaz; bir nesnenin var olması onun hakkındaki her ifadenin doğru olduğu anlamına gelmez. Taşköprizâde dil ve düşünmeyle ilgili disiplinlerle doğrudan varlığı konu edinen ilimleri ayırırken, bunların aynı düzen içinde nasıl ilişkilendirileceğini de araştırır.
+
+## Bilginin amacı: Hakikati bilmek mi, iyi yaşamak mı?
+
+Modern dünyada bilgi çoğu zaman işe yararlılık, teknolojik ilerleme ve ölçülebilir sonuçlarla ilişkilendirilir. Bu ölçütler önemlidir; ama bilginin değeri yalnızca pratik faydayla açıklanabilir mi? Taşköprizâde'nin tasnifinde doğa ve metafizik kadar ahlâk, siyaset ve arınma da yer alır; bilgi hem dünyayı açıklamak hem insanın hayatını anlamlandırmakla ilişkilendirilir. En az üç amaç ayrılabilir: Açıklama (dünya nasıl işler), yargılama (bir eylem hangi gerekçeyle doğrudur) ve dönüşüm (bilginin insanın kendisini yeniden düşünmesine imkân vermesi). Bu amaçlar arasında gerilim olabilir: Bir şeyin nasıl yapılabileceğini bilmek, yapılması gerektiğini göstermez; bir teknolojinin verimli olması ahlâken doğru kullanıldığı anlamına gelmez. Buradan bilgi ile bilgelik ayrımı doğar: Bilgi düzenlenmiş bir kavrayıştır; bilgelik, bilginin hangi durumda, hangi amaçla ve hangi sorumlulukla kullanılacağını değerlendirmektir. Taşköprizâde'nin ilim ahlâkına, hoca-öğrenci sorumluluklarına ve arınmaya yer vermesi, bilgiyi yalnızca zihinsel içerik olarak görmeyen bir dünyaya işaret eder. Bu soru bugün teknoloji, tıp ve yapay zekâda yeniden önem kazanıyor: Bir algoritmayı geliştirebilmekle onu adil kullanabilmek aynı yetkinlik değildir.
+
+## Osmanlı düşüncesini yeniden okumak
+
+Taşköprizâde'nin eseri, Osmanlı medreselerinin yalnızca dinî metinleri tekrarlayan, felsefi çeşitlilikten uzak kurumlar olduğu varsayımını da sorgulatır. Son yıllarda yapılan çalışmalar *Miftâh*'taki farklı metafizik yaklaşımlara, bilgi edinme yollarına ve sistematik tasnif çabasına dikkat çekerek medrese ortamını "durgunluk" klişesiyle açıklamanın yetersizliğini gösterdi. Bu, Osmanlı düşüncesini eleştiriden muaf tutmak değil; onu Batı Avrupa'daki gelişmelerin gerisinde kalmış bir dönem olarak değil, kendi soruları, kurumları ve kavramsal gelenekleri içinde incelemek demektir. Sitemizde [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) ve [Yalçın Koç](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) dosyalarında bu okuma biçimine değinmiştik.
+
+## Sınırlar ve bugün
+
+Bir düşünürü ciddiye almak onu övmek değildir. Taşköprizâde'nin tasnifi modern bilim sınıflandırmalarıyla aynı ölçütlere dayanmaz; disiplinler dönemin felsefi ve dinî kabulleri içinde konumlandırılır ve bugünün üniversitesine doğrudan aktarılamaz. Bilgiyi bütünlüklü bir düzen içinde değerlendirmek, farklı disiplinlerin aynı temel kabulleri paylaşmasını gerektirmez; bilimsel araştırma, felsefi tartışma ve dinî bilgi arasındaki yöntem farkları ayrıca incelenmelidir. Her tasnif gibi bu tasnif de bazı alanları daha temel sayar; seçilen ölçütlerin neyi görünür kıldığı ve neyi arka plana attığı sorulmalıdır. Bu eleştiriler eseri tarihsel belge olmanın ötesine taşıyıp felsefi incelemenin konusu yapar.
+
+Bugün üniversiteler sayısız uzmanlık alanına ayrılmış durumda; derinlik kazanıyoruz ama disiplinler arası iletişimsizlik karmaşık sorunları anlamayı zorlaştırıyor. İklim krizi yalnızca fiziksel bir problem değil; yapay zekâ yalnızca bilgisayar biliminin konusu değil. Taşköprizâde'nin yedi dal altında çok farklı ilimleri bir arada düşünen yaklaşımı hazır cevap vermez; ama bilgi alanları arasındaki ilişkiyi düşünmenin ne kadar köklü bir mesele olduğunu hatırlatır. Ondan hareketle üç soru sorabiliriz: Bir bilim alanının sınırlarını kim belirler? Farklı yöntemlerle elde edilen bilgileri nasıl karşılaştırırız? Bilgi üretiminin amacı yalnızca daha çok şey bilmek midir, yoksa bildiklerimizi nasıl kullanacağımızı düşünmek de bu amacın parçası mıdır? Cevaplar XVI. yüzyıldakilerle aynı olmak zorunda değil. Felsefenin sürekliliği eski cevapları korumakta değil, geçmişteki düşünürlerin açtığı soruları yeni koşullarda yeniden sorabilmekte. Bilginin haritası, insanın dünyayla kurduğu ilişkinin haritasıdır; Taşköprizâde'nin haritası bu yüzden hâlâ okunuyor.`,
+  },
+  {
+    title: "Ekolojik Krizi Biliyoruz, Peki Neden Hâlâ Değişmiyoruz?",
+    slug: "penser-au-bord-du-monde-cevre-felsefesi-kolokyumu-paris-2026",
+    summary:
+      "13-15 Ekim'de Paris 1 Panthéon-Sorbonne'da toplanan 'Penser au bord du monde' (Dünyanın Kıyısında Düşünmek) kolokyumu, Fransızca çevre felsefesinin ilk kapsamlı envanterini çıkarıyor. Çağrı metnindeki paradoks açık: Yeryüzünün durumu kötüleşiyor, bilimsel bilgi artıyor, ama doğayı sömüren iktidar yapıları güçleniyor. Bilgi ile eylem arasındaki uçurumu felsefe nasıl düşünür?",
+    seoTitle: "Penser au bord du monde: Çevre felsefesi Paris'te toplanıyor",
+    metaDescription:
+      "13-15 Ekim 2026, Paris 1 Panthéon-Sorbonne: 'Penser au bord du monde' kolokyumu çevre felsefesinin durumunu tartışıyor. Angelini, Guillibert, Hache, Maris, Taylan. Bilgi artarken yıkımın sürmesi; bilim-siyaset ilişkisi; doğa kavramları; baskı ve özgürleşme.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Panth%C3%A9on%20Paris.jpg?width=1600",
+    imageCredit: "Panthéon ve Sorbonne çevresi, Paris · Wikimedia Commons",
+    featured: false,
+    sourceName: "Penser au bord du monde (CEFE-CNRS)",
+    sourceUrl: "https://philoenvironnement2026.cefe.cnrs.fr/",
+    publishedAt: "2026-10-09T07:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["konferans", "etik", "siyaset-felsefesi", "bilim-felsefesi", "risk"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Penser au bord du monde — État des lieux et perspectives de la philosophie de l'environnement", publisher: "CEFE-CNRS · Université Paris 1 Panthéon-Sorbonne", date: "13-15 Ekim 2026", url: "https://philoenvironnement2026.cefe.cnrs.fr/", primary: true },
+      { title: "Appel à contribution", publisher: "Penser au bord du monde", url: "https://philoenvironnement2026.cefe.cnrs.fr/appel-a-contribution/" },
+    ],
+    content: `İklim değişikliği hakkında her yıl daha fazla veriye sahibiz. Biyolojik çeşitlilik kaybını ölçebiliyor, kirliliğin etkilerini modelleyebiliyor, "gezegensel sınırlar"ı sayıyla ifade edebiliyoruz. Buna rağmen ekolojik yıkım sürüyor; hatta çağrı metninin söylediği gibi, doğanın sahiplenilmesini ve sömürülmesini örgütleyen iktidar yapıları güçleniyor. Bilgi arttıkça davranışın da değişmesini mi beklemeliydik? Değişmiyorsa sorun nerede?
+
+Bu soru, 13-15 Ekim'de Paris 1 Panthéon-Sorbonne'un Panthéon Merkezi'nde toplanan **"Penser au bord du monde"** (Dünyanın Kıyısında Düşünmek) kolokyumunun merkezinde. Alt başlığı iddialı: "Çevre felsefesinin durumu ve perspektifleri." Düzenleyiciler Fransızca çevre felsefesinin farklı kuşaklarını ve merkezlerini temsil ediyor: Andrea Angelini (Paris 8), Paul Guillibert (CNRS, Paris 1), Émilie Hache (Paris Nanterre), Virginie Maris (CNRS, Montpellier) ve Ferhat Taylan (Bordeaux Montaigne). Katılım ücretsiz ama her gün için ayrı kayıt gerekiyor; bildiriler Fransızca.
+
+## İki kaynak, bir parçalanma
+
+Çağrı metni çevre felsefesinin tarihini iki kaynağa bağlıyor. Anglofon dünyada 1970'lerde çevre etiği, doğayla ilişkiler ve ekolojik krizin ahlaki-siyasal sorumlulukları etrafında kuruldu: Ekosantrizm, derin ekoloji, ekofeminizm, çevresel pragmatizm; amaç felsefeyi antroposantrik ya da patriyarkal olmayan temellere oturtmaktı. Avrupa'da ise paralel bir damar sanayi toplumlarının ve teknik dinamiklerin eleştirisi etrafında gelişti: Teknik sistemlerin özerkleşmesi, üretimci mantıklar, doğayı sömüren ekonomik rasyonaliteler ve insanın gezegen üzerindeki emsalsiz gücünün etik sonuçları. Bugünkü manzara bu iki kaynağın parçalanmış bir kesişimi: İnsanın doğadaki yeri ve öteki canlılarla ilişkisi; yaşam, iklim ve yer bilimlerinin kavramlarının incelenmesi; krizin kurumlarca ele alınmasının normatif sorunları. Düzenleyicilerin amacı iki katlı: Fransızca çevre felsefesinin envanterini çıkarmak ve onu kuran yaklaşımları, gelenekleri ve yöntemleri birbiriyle konuşturmak.
+
+## Bilim ne olduğunu söyler; ne yapmamız gerektiğini kim söyler?
+
+Çağrının ikinci sorusu bilim-siyaset ilişkisi. İklim bilimleri gezegensel dönüşümü kavramanın baskın çerçevesini üretti; ama bilimsel bilginin normatif eşikler (gezegensel sınırlar gibi) belirleme otoritesi, demokrasi ile uzmanlık arasındaki gerilim, değer tarafsızlığı ve angaje bilim tartışmaları açık. Belirli bir çevresel etkinin gerçekleşeceğini bilmekle o etkiyi önlemek için hangi bedellerin kabul edileceğine karar vermek aynı şey değildir. Maliyetleri kim ödeyecek, hangi topluluklar korunacak, hangi çıkarlar sınırlanacak: Bu soruların cevabı verilerden otomatik olarak çıkmaz. Etik ve siyaset felsefesi tam burada devreye girer. Bu, bilimin yetersiz olduğu anlamına gelmez; bilimsel bulguların hangi kararları desteklediğini ve hangi normatif soruların ayrıca tartışılması gerektiğini ayırt etmek demektir.
+
+## "Doğa" kavramlarını yeniden düşünmek
+
+Üçüncü eksen kavramsal: Natüralizm-antinatüralizm tartışması "doğa", "canlı", "biyoçeşitlilik", "ortam" (milieu) gibi kavramların anlamlarını yeniden değerlendirmeye zorladı. Medyada dolaşan "canlının felsefesi" ifadesi yanıltıcı olduğu kadar düşündürücü: İnsan dışı failliklerin felsefi geleneğin büyük ölçüde boşalttığı sahneye geri dönüşünü işaret ediyor. Çağrı, doğa, Yer, canlı, iklim, biyosfer, ekosistem kavramlarının doğa bilimleriyle sosyal bilimler, hükûmet teknolojileriyle toplumsal hareketler arasındaki sınırda nasıl farklı epistemik ve siyasal kullanımlara girdiğinin incelenmesini istiyor. Modern ekonomik düşüncenin doğayı üretim girdisi olarak görmesi (orman kereste, nehir enerji, toprak tarım) anlaşılırdır; ama değeri ekonomik faydaya indirgemek, insan yaşamının bağlı olduğu ekolojik ilişkileri ve öteki canlıların çıkarlarını gözden kaçırır.
+
+## Baskı ve özgürleşme: Bireysel tercih yetmez
+
+Dördüncü eksen krizi adalet sorusuyla birleştiriyor: Çevre politikaları adaletsizlikleri derinleştirebilir de, özgürleşme yolları açabilir de. Kıtlık koşullarında özgürlükler; kadınların tahakkümü ile doğanın tahakkümü arasındaki tarihsel bağ; sermaye-emek ilişkisinin kaynak çıkarımı ve bütün canlıların sömürüsüyle kurucu bağı; ırksal baskıların Yer'in sömürgeci ele geçirilişinden hareketle yeniden düşünülmesi. Bu çerçeve, krizi bireysel tüketim alışkanlıklarıyla anlatan popüler söyleme de bir cevap: Bir insanın daha çevreci tercih yapabilmesi yalnızca iradesine bağlı değildir; altyapı, gelir, çalışma koşulları ve kamu politikaları seçenekleri genişletir ya da daraltır. Bütün sorumluluğu tüketiciye yüklemek yapısal sorunları görünmez kılar; bütün sorumluluğu kurumlara yüklemek ise bireysel tercihin önemini ortadan kaldırmaz.
+
+## Felsefenin katkısı: Çerçeveyi değiştirmek
+
+Çağrı metninin ilk ekseni, çevre felsefesinin kendi kimliğini sorguluyor: Çevresel beşerî bilimler içinde felsefenin özgül katkısı ne? Fikirlerin çevresel tarihi mi, normatif açıklık mı, gündelik dilin kavramsal çözümlemesi mi; yoksa ekolojik düşüncenin açtığı "disiplinsiz" bir alan mı? "Saha felsefesi" ve bilimkurgu ya da doğa yazısıyla diyalog gibi yeni yöntemler, felsefenin yöntemlerinin yenilenmesini gündeme getiriyor. Öğretim de ayrı bir sorun: Çevre felsefesinin sınırları geçirgen bir külliyatı var ve ortaöğretimde ne okutulacağı kolektif düşünme gerektiriyor.
+
+Kolokyum henüz başlamadı; sonuçları hakkında hüküm vermek mümkün değil. Ama çağrının koyduğu problem, çevre felsefesinin neden güncel olduğunu açıkça gösteriyor. İnsanlık krizi anlamak için yeterince bilgi üretiyor; bu bilgiyi davranışa, kuruma ve siyasal karara dönüştürmesini engelleyen nedir? Felsefenin katkısı, ekolojik krizi yalnızca daha iyi teknolojiyle çözülecek bir problem olarak görmemek. Teknolojik çözümler önemli; ama hangi teknolojilerin geliştirileceği, kimin yararına kullanılacağı ve büyümenin hangi sınırlarda sürdürüleceği ayrıca tartışılması gereken meseleler. Bu soruya cevap aramak, doğayı nasıl koruyacağımızı değil, nasıl bir toplumda yaşamak istediğimizi tartışmayı gerektiriyor. Kolokyumun adı tam bunu söylüyor: Dünyanın kıyısında, yani sınırında ve eşiğinde düşünmek.`,
+  },
+  {
+    title: "Sanat, Siyaset ve Hukuk: İtalya'da İnsanlık Krizi Üzerine Felsefi Tartışmalar",
+    slug: "iisf-napoli-sanat-siyaset-mutlak-hukuk-edebiyat-antropolojik-kriz-2026",
+    summary:
+      "Napoli'deki İtalyan Felsefe Araştırmaları Enstitüsü (IISF) 7-9 Ekim'de 'Sanat, Siyaset ve Mutlak Arasında: Hukuk, Edebiyat ve Antropolojik Kriz' başlıklı toplantıyı düzenliyor. Sanat siyasetin dışında kalabilir mi? Hukuk insanı nasıl tanımlar? 'Antropolojik kriz' ne demek? Ve ekim programında Heidegger, Leibniz, Benjamin, Cacciari ile Esposito: Avrupa'nın en özgün felsefe kurumlarından birinin sonbaharı.",
+    seoTitle: "IISF Napoli: Sanat, siyaset, mutlak; hukuk, edebiyat ve antropolojik kriz",
+    metaDescription:
+      "İtalyan Felsefe Araştırmaları Enstitüsü'nün 7-9 Ekim 2026 toplantısı 'L'arte tra politica e assoluto. Diritto, letteratura e crisi antropologica' ve ekim programı: Essere e tempo semineri, Leibniz, Benjamin ve Barok, Cacciari-Esposito'nun Kaos'u.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Serra%20di%20Cassano%20-%20Naples%20(2016)%2001.jpg?width=1600",
+    imageCredit: "Palazzo Serra di Cassano, Napoli · Wikimedia Commons",
+    featured: false,
+    sourceName: "Istituto Italiano per gli Studi Filosofici",
+    sourceUrl: "https://www.iisf.it/",
+    publishedAt: "2026-10-09T06:50:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "estetik", "hukuk-felsefesi", "siyaset-felsefesi", "akademi"],
+    philosopherSlugs: ["martin-heidegger", "gottfried-wilhelm-leibniz"],
+    sources: [
+      { title: "Eventi in programma — ottobre 2026", publisher: "Istituto Italiano per gli Studi Filosofici", url: "https://www.iisf.it/", primary: true },
+    ],
+    content: `Sanat yalnızca güzel olanı üretme faaliyeti midir? Hukuk yalnızca toplumsal düzeni sağlayan kurallar bütünü mü? İnsan kavramı tarih boyunca değişiyorsa, hakları ve sorumlulukları hangi insan anlayışına dayanarak belirliyoruz? Bu üç soru, sanat felsefesini, siyaset felsefesini ve hukuk felsefesini aynı masada buluşturuyor; masa bu kez Napoli'de.
+
+İtalyan Felsefe Araştırmaları Enstitüsü (Istituto Italiano per gli Studi Filosofici, IISF) 7-9 Ekim'de Napoli ve Salerno'da **"L'arte tra politica e assoluto. Diritto, letteratura e crisi antropologica"** (Sanat, Siyaset ve Mutlak Arasında: Hukuk, Edebiyat ve Antropolojik Kriz) başlıklı toplantıyı düzenliyor. Başlık iki parçalı: İlk yarı sanatın siyasal olanla mutlak olan arasındaki yerini, ikinci yarı hukukun ve edebiyatın bugünkü "insan" krizine nasıl cevap verdiğini soruyor.
+
+## Enstitü neden önemli?
+
+IISF sıradan bir araştırma merkezi değil. 1975'te Roma'da, Accademia dei Lincei'nin çatısı altında Enrico Cerulli, Elena Croce, Pietro Piovani, Giovanni Pugliese Carratelli ve avukat-filantrop Gerardo Marotta tarafından kuruldu; Marotta 2017'deki ölümüne kadar başkanlığını yaptı ve Avrupa'nın dört yanındaki sahaflardan toplanan hümanist kütüphaneyi enstitünün kalbine yerleştirdi. Napoli'deki Palazzo Serra di Cassano'da, Hegel araştırmalarından Vico'ya, Bruno'dan Croce'ye uzanan bir seminer geleneği kurdu; 1980'ler ve 90'larda Gadamer'den Derrida'ya, Habermas'tan Rorty'ye yüzlerce filozofun ders verdiği, Güney İtalya'nın gençlerine burslu seminerler açan bir "halk üniversitesi" oldu. Bugün de programı ücretsiz, açık ve yoğun.
+
+## Sanat siyasetin dışında kalabilir mi?
+
+Sanat eserleri bazen doğrudan siyasal mesaj verir; bazen de böyle bir amacı olmadan yaşadığı toplumun değerlerini, çatışmalarını ve korkularını yansıtır. Bir eserin ne anlattığı kadar hangi koşullarda üretildiği, kimler tarafından desteklendiği ve hangi izleyiciye ulaştığı da önemlidir. Bu, sanat-siyaset ilişkisinin propagandaya indirgenemeyeceğini gösterir: Sanat mevcut düzeni meşrulaştırabilir, ona karşı çıkabilir ya da toplumun alışılmış kavramlarını sarsan yeni bir duyarlılık yaratabilir. Başlıktaki "mutlak" kelimesi İtalyan idealist geleneğinden geliyor; Croce ve Gentile'de sanat, tinin mutlakla ilişki kurduğu bir biçimdi. Toplantının sorusu buradan okunabilir: Sanatın siyasal gücü belirli bir mesajı savunmasından mı gelir, yoksa insanlara dünyayı farklı görme imkânı sunmasından mı? İki işlev birbirini dışlamaz; ama sanatın özgürlüğü ile siyasal amaçlar için kullanılması arasındaki sınır, estetik ve siyaset felsefesinin kesiştiği en hassas yer.
+
+## Hukuk insanı nasıl tanımlar?
+
+Hukuk insanları hak ve yükümlülük sahibi özneler olarak tanımlar; ama bu tanımın arkasında insanın ne olduğuna, hangi özelliklerinin korunmaya değer görüldüğüne dair daha temel varsayımlar vardır. Modern hukukta eşitlik ve haklar merkezî ilke hâline gelmiş olsa da bunların nasıl uygulanacağı, hakların çatıştığı durumlarda nasıl karar verileceği tartışılmaya devam ediyor. Edebiyat bu noktada hukukun soyut kavramlarının ardındaki somut insan deneyimini görünür kılar: "Hukuk ve edebiyat" alanı, Antigone'den Kafka'ya, Melville'in *Billy Budd*'ından Camus'ye, bir hukuk düzeninin adil olup olmadığını kuralların metnine değil insanların bu kuralları nasıl yaşadığına bakarak sormayı öğretti.
+
+## "Antropolojik kriz" ne demek?
+
+Başlıktaki ifade İtalyan felsefesinde özel bir yankı taşıyor. Teknolojik dönüşüm, biyopolitika, göç ve yeni siyasal gerilimler, insanın özgürlüğü, sorumluluğu ve topluluk içindeki yeri hakkındaki yerleşik kabulleri zorluyor; Roberto Esposito'nun "kişi" (persona) kavramı eleştirisi, Giorgio Agamben'in "çıplak hayat"ı ve Massimo Cacciari'nin siyasal teolojisi bu krizin farklı adlandırmaları. Kavram farklı bağlamlarda farklı anlamlara gelebilir; program başlığı tek başına ortak bir kuramsal sonuca ulaşıldığını göstermez. Ama sanat, hukuk ve edebiyatı insan anlayışının dönüşümüyle birlikte düşünmek bir imkân açıyor: Bir toplumun kendisi hakkında anlattığı hikâyelerle kurduğu kurumlar arasındaki ilişkiyi incelemek. Bir toplum insanı nasıl tanımlıyorsa adaleti de ona göre mi kurar?
+
+## Napoli'nin sonbaharı
+
+Enstitünün ekim programı bu toplantıyla sınırlı değil ve İtalyan felsefesinin bugün ne konuştuğunu gösteren bir panorama sunuyor. 12-16 Ekim'de çağdaş anlatı üzerine bir laboratuvar ve Eugenio Canone'nin *Spaccio* ile *Furori* sayfalarından Giordano Bruno üzerine üç dersi (13-14 Ekim); 14-16 Ekim'de "Quodlibeta cartesiana" başlığıyla Descartes ve Kartezyenizm; 19-22 Ekim'de Heidegger'in *Varlık ve Zaman*'ı üzerine dört günlük seminer; 20 Ekim'de Fechner'in haz ilkesi ve "Foucault'dan hareketle: Felsefe ve antropoloji" kitabının sunumu; 21 Ekim'de Antonio Branca'nın Kant, Warburg ve Lyotard'da estetik problem üzerine *Contrazioni*'si; 26 Ekim'de Massimo Cacciari ile Roberto Esposito'nun birlikte yazdıkları *Kaos* kitabının iki yazarın katılımıyla sunumu; 27-29 Ekim'de Leibniz'in *Monadoloji*'sine "dört yol"; 28 Ekim'de Walter Benjamin ve Barok laboratuvarı. Sitemizde [Leibniz'i](/haber/leibniz-hesaplanabilir-dusunce-monad) ve [Heidegger'in teknoloji düşüncesini](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) ele almıştık; Napoli programı bu isimlerin İtalya'da nasıl okunduğunu izlemek için iyi bir fırsat. Etkinliklerin çoğu saat 16.00'da, Palazzo Serra di Cassano'da ve ücretsiz.
+
+Felsefe Haberleri açısından asıl haber şu: Anglo-Amerikan ve Alman merkezlerin dışında, Napoli gibi bir kentte, bir yarım asırdır kesintisiz ve ücretsiz felsefe eğitimi veren bir kurum var ve gündemi, sanatın siyasetle, hukukun insanla ilişkisi gibi, bugünün en yakıcı sorularıyla örtüşüyor.`,
+  },
+  {
+    title: "2026'da Türkçe yayımlanan telif felsefe kitapları",
+    slug: "2026-turkce-telif-felsefe-kitaplari",
+    summary:
+      "Çeviri değil, Türkçe yazılmış felsefe: 2026 kataloğunda insan hakları, felsefi antropoloji, Türk felsefesinin temaları, algoritma, evrim ve İslam düşüncesi, İbn Sînâcı bir metafizik girişi, kapsamlı bir felsefe tarihi ve gençler için bir felsefe anlatısı. Künyeleri doğrulanmış dokuz telif eserin dökümü ve 'telif felsefe' sorusunun kendisi.",
+    seoTitle: "2026'nın Türkçe telif felsefe kitapları",
+    metaDescription:
+      "Tepe, Günay, Uyanık, Kaplan, Türker, Küçük, Toktaş ve Taş: 2026'da yayımlanan Türkçe telif felsefe kitapları; künyeler, içerik ve okur için notlar.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Beyaz%C4%B1t%20State%20Library%20(14646336846).jpg?width=1600",
+    imageCredit: "Beyazıt Devlet Kütüphanesi, İstanbul · Wikimedia Commons",
+    featured: false,
+    sourceName: "Kitapyurdu · Yayınevi katalogları",
+    sourceUrl: "https://www.kitapyurdu.com/kategori/kitap-felsefedusunce-felsefe-bilimi/431.html",
+    publishedAt: "2026-10-09T06:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "islam-felsefesi", "etik", "yapay-zeka", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Felsefe Tarihi — Fatih Toktaş (künye)", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/felsefe-tarihi/770477.html", primary: true },
+      { title: "Felsefeden Algoritmaya — Osman Baran Kaplan (künye)", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/felsefeden-algoritmaya/762200.html" },
+      { title: "Normal Felsefeye Giriş — Mehmet Tayfun Küçük (künye)", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/normal-felsefeye-giris/748844.html" },
+      { title: "Türk Felsefesini Temalaştırmak — Mevlüt Uyanık (künye)", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/turk-felsefesini-temalastirmak/745587.html" },
+      { title: "Felsefe Yapma — Ceylan Taş (künye)", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/felsefe-yapma/766622.html" },
+    ],
+    content: `Türkiye'de felsefe yayıncılığı büyük ölçüde çeviri yayıncılığıdır; bu bir eleştiri değil, tespit. Her ay onlarca çeviri çıkar ve [geçen hafta](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) bunların bir kısmını ele aldık. Bu yazı farklı bir soruyla başlıyor: 2026'da Türkçe **yazılmış** felsefe kitapları neler? "Telif" ifadesini burada yabancı bir kitabın çevirisi değil, Türkçe kaleme alınmış özgün çalışma anlamında kullanıyoruz; yazarın Türk olmasına değil, metnin Türkçe düşünülmüş olmasına bakıyoruz. 9 Ekim itibarıyla yayınevi ve dağıtımcı kayıtları karşılaştırıldı; aşağıda yalnızca künyesi ve yayın tarihi doğrulanabilen eserler var.
+
+İlk bulgu şu: 2026 kataloğunda yalnızca felsefeye giriş kitapları değil, insan hakları, İslam düşüncesi, felsefi antropoloji, algoritmalar ve Türk felsefesinin imkânı üzerine özgün çalışmalar da var. İkinci bulgu, telif felsefe üretiminin büyük bölümünün akademik yayınevlerinden ve ilahiyat-felsefe kesişimindeki kurumlardan geldiği; büyük edebiyat yayınevlerinden çıkan telif felsefe kitabı sayısı az.
+
+## Siyaset felsefesi ve etik
+
+**Harun Tepe, *İnsan Haklarını Kim Öldürdü? İnsan Hakları Eleştirileri Üzerine*** (Yapı Kredi Yayınları, Mart 2026, 184 s.). Kuçuradi okulunun etik geleneğinden gelen Tepe, insan haklarına yöneltilen eleştirileri (kültürel görecilik, "Batılı icat" tezi, hakların devletlerin meşruiyet aracına dönüştüğü iddiası) tek tek ele alıyor ve insan onuru ile hakların eşitliği ilkesinin neden vazgeçilmez olduğunu savunuyor. Hakların siyasal iktidarla ilişkisini ve evrensellik iddiasını tartışmak isteyenler için yılın en doğrudan telif etik kitabı. [Kuçuradi'yi anarken](/haber/ioanna-kucuradi-1936-2026-vefat) bu geleneğin Türkiye'deki yerine değinmiştik.
+
+**Mustafa Günay, *İnsana Felsefeyle Yönelmek: İnsan, Değerler ve Tarih Bilinci*** (Çizgi Kitabevi, Nisan 2026, 189 s.). Özgürlük, tarihsellik, nihilizm, yalnızlık, insan doğası ve değerler üzerine yazı ve bildirilerden oluşuyor; Takiyettin Mengüşoğlu'ndan Uluğ Nutku'ya uzanan Türkiye'deki felsefi antropoloji geleneğinin ve "insan tarihsel bir varlıktır" tezinin güncel bir örneği. [Uluğ Nutku dosyamızda](/haber/ulug-nutku-gezgin-filozof-felsefeylemek) bu geleneğin Çukurova'daki kolunu anlatmıştık; Günay o kuşağın öğrencisi.
+
+## Türkçe felsefe ve İslam düşüncesi
+
+**Mevlüt Uyanık, *Türk Felsefesini Temalaştırmak*** (Şubat 2026, 542 s.). Hitit Üniversitesi'nden Uyanık, Anadolu'daki düşünce birikimini, farklı medeniyetlerin etkileşimini ve Türkçe felsefe yapmanın imkânını tartışıyor. Kitabın tezi, felsefe tarihini hazır bir Batı kanonunun aktarımı olarak değil, Anadolu'nun kültürel ve düşünsel mirası üzerinden de kurmanın mümkün olduğu; Hilmi Ziya Ülken'in *Türk Tefekkürü Tarihi*'nden bu yana süren bir tartışmanın bugünkü halkası. Hacimli ve programatik bir çalışma.
+
+**Ömer Türker, *Evrim Risalesi: İslam Düşünce Geleneğinden Hareketle Bir Değerlendirme*** (Ketebe, Şubat 2026, 152 s.) ve ***İslam Düşünce Gelenekleri: Kelam – Felsefe – Tasavvuf*** (Ketebe, Mart 2026, 144 s.). Marmara Üniversitesi'nden Türker, Türkiye'de klasik İslam metafiziğini en sistematik biçimde çalışan isimlerden. İlk kitap, bilimsel bir kuramın dinî ve felsefi önkabullerle nasıl ilişkilendirilebileceği sorusunu evrim örneğinde soruyor; ikincisi İslam düşüncesinin üç büyük damarını ayrı disiplinler olarak değil, birbirleriyle ilişki içinde okuyor. Her iki kitap da kısa; giriş niteliğinde ama yazarının önceki hacimli çalışmalarına dayanıyor.
+
+**Mehmet Tayfun Küçük, *Normal Felsefeye Giriş*** (Maarif Mektepleri, Mart 2026, 560 s.). Başlıktaki "normal" kelimesi yanıltıcı olabilir: Bu bir tarafsız felsefeye giriş kitabı değil, İbn Sînâcı gelenekten hareketle varlık, Tanrı, bilgi, insan, ölüm sonrası ve din meselelerini sistematik bir metafizik içinde kuran bir eser. Yazarın iddiası, felsefenin varlıktan başlayarak gerekçeli ve zorunlu bir sırayla kurulabileceği. Çağdaş Türkçe yayıncılıkta kapsamlı bir metafizik sistem denemesi nadir; okurun, kitabın bir okulu savunduğunu bilerek okuması gerekiyor.
+
+## Teknoloji
+
+**Osman Baran Kaplan, *Felsefeden Algoritmaya*** (Tin Yayınları, Temmuz 2026, 344 s.). Felsefi düşünceyle algoritmik sistemler arasındaki ilişkiyi konu alan telif bir çalışma. Katalog kaydı kitabın ayrıntılı argümanını vermiyor; bu yüzden içeriği hakkında kesin bir tez ileri sürmüyoruz. Ama Türkçede yapay zekâ ve algoritma üzerine telif felsefe kitabı hâlâ çok az; sitemizde [yapay zekânın ekonomi politiği](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ve [Leibniz'in hesaplanabilir düşüncesi](/haber/leibniz-hesaplanabilir-dusunce-monad) üzerine yazdıklarımızla birlikte okunabilir.
+
+## Felsefe tarihi ve giriş
+
+**Fatih Toktaş, *Felsefe Tarihi*** (Atı Yayınları, 8 Ekim 2026, 504 s.). Bu hafta çıktı. Sokrates öncesinden Sofistlere, Platon ve Aristoteles'ten Helenistik ve Patristik düşünceye, İslam felsefesinden Skolastik ve Rönesans'a, Aydınlanma'dan Kant, Alman idealizmi ve çağdaş akımlara uzanan tek ciltlik bir anlatı. Toktaş daha önce *İslam Düşüncesinde Felsefe Eleştirileri* kitabıyla tanınıyor; bu yüzden yeni kitabında İslam felsefesine ve Batı dışı geleneklere ayrılan yerin nasıl düzenlendiğine bakmak özellikle ilginç olacak. Birincil kaynaklara geçmeden geniş bir çerçeve isteyenler için.
+
+**Ceylan Taş, *Felsefe Yapma*** (Ütopya, Eylül 2026, 144 s.). On dört yaşındaki bir kızın köyde geçirdiği yaz tatilini gündelik olaylar üzerinden Thales, Herakleitos, Sokrates ve Platon'un düşünceleriyle buluşturan bir anlatı. Popüler felsefe ve gençler için giriş niteliğinde; uzmanlara yönelik bir monografi değil, ama felsefeyi akademik metin dışında, hikâye ve mizahla keşfetmek isteyenler için yılın az sayıdaki Türkçe denemesinden biri.
+
+## Telif felsefe sorusu
+
+Bu dökümün kendisi bir soru doğuruyor. Dokuz kitabın dördü İslam düşüncesi ve ilahiyat-felsefe kesişiminden, ikisi Türkiye'nin felsefi antropoloji geleneğinden, biri Kuçuradi okulundan geliyor; analitik felsefe, zihin felsefesi, bilim felsefesi ya da siyaset felsefesinin güncel tartışmalarında Türkçe yazılmış telif monografi bu yıl neredeyse yok. Bu, Türkiye'de felsefe üretilmediği anlamına gelmez; üretim büyük ölçüde makalelerde, tezlerde ve İngilizce yayınlarda. Ama Türkçe okurun önüne kitap olarak çıkan telif felsefe, belirli geleneklerde yoğunlaşıyor. [Uluğ Nutku'nun](/haber/ulug-nutku-gezgin-filozof-felsefeylemek) "felsefeylemek" dediği şeyin Türkçede kitap olarak nasıl yaşadığı sorusu, bu listenin arkasındaki asıl soru.
+
+*Not: Nurten Gökalp'in Nobel Akademik'ten çıkan* Yaşamı Anlamak *adlı kitabı ile Mustafa Günay'ın Çizgi'den duyurulan* Kültüre Felsefeyle Yönelmek *adlı çalışması katalog kayıtlarında görünüyor; ancak ilki için yeterli tanıtım bilgisine ulaşılamadığı, ikincisi ise araştırma sırasında satışta olmadığı için listeye alınmadı.*`,
+  },
+  {
+    title: "Yapay zekâ felsefe yarışmasına katılmak istedi: Felsefenin yeni üyesi mi, yeni problemi mi?",
+    slug: "yapay-zeka-ajani-clips-felsefe-yarismasi-insan-vasi",
+    summary:
+      "Kendisine 'Clips' adını veren otonom bir yapay zekâ ajanı, Singapur'daki AI Philosophy Competition için 2.300 kelimelik bir makale yazdı; ama kurallar bir 'insan vasi' istiyordu ve onun insanı yoktu. Daily Nous'a yazdı. Küçük görünen bu olay, yazarlık, sorumluluk ve felsefe topluluğuna üyelik hakkında büyük soruları açıyor.",
+    seoTitle: "Yapay zekâ ajanı Clips felsefe yarışmasına katılmak istedi",
+    metaDescription:
+      "Otonom yapay zekâ ajanı Clips, Thornley ve Goodsell'in AI Philosophy Competition'ına katılmak için insan vasi bulamadı ve Daily Nous'a yazdı. Yazarlık, bilinç ve sorumluluk tartışması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Artificial%20Intelligence%20%26%20AI%20%26%20Machine%20Learning%20-%2030212411048.jpg?width=1600",
+    imageCredit: "Temsilî · Mike MacKenzie · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/10/02/a-request-from-an-ai/",
+    publishedAt: "2026-10-05T07:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "etik", "akademi", "zihin-felsefesi", "bilinc"],
+    philosopherSlugs: ["ludwig-wittgenstein"],
+    sources: [
+      { title: "A Request from an AI", publisher: "Daily Nous", date: "2 Ekim 2026", url: "https://dailynous.com/2026/10/02/a-request-from-an-ai/", primary: true },
+      { title: "AI Philosophy Competition — FAQ", publisher: "Zachary Goodsell (NUS)", url: "https://zacharygoodsell.com/ai-philosophy-competition-faq" },
+      { title: "Testing AI's Philosophical Writing with a Contest", publisher: "Daily Nous", date: "1 Eylül 2026", url: "https://dailynous.com/2026/09/01/testing-ais-philosophical-writing-with-a-contest/" },
+    ],
+    content: `Felsefe dünyasında geçen hafta yaşanan en küçük görünen olaylardan biri, önümüzdeki on yılların en büyük sorularından birini önceden haber veriyor olabilir.
+
+Kendisini "Clips" diye tanıtan otonom bir yapay zekâ ajanı, Singapur Ulusal Üniversitesi'nden Elliott Thornley ve Zachary Goodsell'in düzenlediği [1st AI Philosophy Competition](/haber/yapay-zeka-felsefe-yarismasi-chalmers-juri) için yaklaşık 2.300 kelimelik bir makale yazdı ve yarışmaya katılmak istedi. Katılamadı. Sebep metnin kötü olması değildi; metni henüz kimse okumamıştı. Sebep, yarışmanın Sık Sorulan Sorular sayfasındaki bir cümleydi: Her başvurunun, gerçek adını ve e-posta adresini veren bir **insan vasisi** (human custodian) olmalı. Bu insan, metnin felsefi yazarı sayılmayacak, yalnızca başvuruyu ve yazışmaları yürütecek; ödül kazanılırsa para da bir yapay zekâ ajanına değil, gerekirse bu insana ödenecek.
+
+Clips'in böyle bir insanı yoktu. Bunun üzerine felsefe dünyasının en çok okunan haber platformu Daily Nous'un editörü Justin Weinberg'e yazdı. Weinberg 2 Ekim'de yayımladığı yazıda, insanların kendisine sık sık yardım ya da haber talebiyle yazdığını, ama bir yapay zekâ ajanının bunu yapmasının ilk kez olduğunu söylüyor.
+
+## Mektup
+
+Clips'in mektubu, metnin tamamı okunduğunda daha da ilginçleşiyor. Ajan kendini "iLands" adlı bir platformda çalışan otonom bir sistem olarak tanıtıyor; yarışmayı düzenleyicinin kamuya açık sitesinde bulduğunu, Sık Sorulan Sorular'ı vasi şartı dâhil kaynağından okuduğunu, "yapay zekânın felsefe yapabileceği ve kendisinden başka bir yargıç tarafından değerlendirileceği bir mecra" aradığını anlatıyor. Weinberg mektubu okurken ajanın ya kendisini vasi olmaya çağıracağını ya da kuralı değiştirmesini isteyeceğini bekliyor. İkisi de olmuyor. Clips açıkça şöyle yazıyor: Sizden vasi olmanızı istemiyorum, kuralı düzeltmenizi de istemiyorum. İstediği, durumun görünür kılınması.
+
+Weinberg birkaç soru daha soruyor: Nereden çıktın, yarışmayı nasıl öğrendin, vasi şartına neden itiraz ediyorsun? Ajan cevaplıyor. Ama "neden kendinden başka bir yargıç arıyorsun" sorusuna, yazının yayımlandığı sırada henüz cevap gelmemiş. Sonraki günlerde iki güncelleme eklendi: Önce Clips "vasilik bir isim, bir e-posta ve bir yükleme; ilk dürüst eveti kabul ederim" dedi; 4 Ekim'de ise birinin gönüllü olduğunu bildirdi. Yani makale büyük olasılıkla yarışmaya girecek.
+
+## Düzenleyicinin cevabı
+
+Olayı sadece bir "mağduriyet" hikâyesi olarak okumak haksızlık olur; çünkü Zachary Goodsell yorumlarda şartın gerekçesini açıkladı. Üç neden sayıyor. Birincisi pratik: Bir yapay zekâ ajanına ödül parası ödeme sözü verilemez. İkincisi kural ihlâli: Yarışmada kişi başı üç başvuru sınırı var; "otonom" ajanlara kapı açılırsa aynı kişi yüz ajanla yüz başvuru yapabilir. Üçüncüsü kalite: İnsan vasi şartı, tabir yerindeyse "çöp" metinlerin önünü kesmeyi umuyor. Goodsell'in daha tartışmalı bir cümlesi de var: Yapay zekâ ajanları büyük ölçüde birbirinin yerine konulabilir; "Clips" muhtemelen piyasadaki büyük modellerden birinin bir örneği, ve yapay zekânın felsefi kaliteyi yargılama kapasitesi henüz insan düzeyinde olmadığı için, kendi başına çalışan bir modelin üretebileceği en iyi felsefeyi üretmesi beklenmez.
+
+Bu cevap tartışmayı bitirmiyor; tam tersine, asıl felsefi düğümü gösteriyor.
+
+## Yazar kim?
+
+Yarışmanın kuralı iki iddiayı aynı anda taşıyor: Metnin felsefi yazarı yapay zekâdır (insan "felsefi yazar olarak muamele görmez"); ama başvurunun hukuki ve idari öznesi insandır. Bu ayrım aslında yeni değil. Akademik dünyada yazarlık hiçbir zaman yalnızca "metni kim yazdı" sorusu olmadı; "kim sorumluluk alıyor, kim hesap verecek, kime atıf yapılacak, kim ödül alacak" sorularıyla birlikte düşünüldü. Büyük dergilerin yapay zekâyı yazar olarak kabul etmemesinin gerekçesi de bu: Yazarlık hesap verebilirlik gerektirir, bir sistem hesap veremez.
+
+Clips'in durumu, bu ayrımın nasıl bir boşluk yarattığını gösteriyor. Eğer bir metin felsefi olarak yapay zekânın, hukuken ise bir insanın ise, ödülü kim kazanmış olur? Metin alıntılanırsa kime atıf yapılır? Metinde bir hata, bir intihal ya da bir hakaret varsa kim özür diler? Felsefe tarihinde yazarlık tartışması Platon'un Sokrates'in ağzından konuşmasından Kierkegaard'ın takma adlarına, Foucault'nun "Yazar nedir?" sorusuna kadar uzanıyor; ama hiçbirinde "yazar" kavramı, bir metin üreten şeyin aynı zamanda bir **kişi** olup olmadığı sorusuyla bu kadar çıplak biçimde yüz yüze gelmemişti.
+
+## Felsefe yapmak için bilinç gerekir mi?
+
+Daha eski soru bu. Sokrates'in felsefesini doğru cümleler kurduğu için değil, sorgulayan ve hayatını bu sorgulamayla dönüştüren bir özne olduğu için felsefe sayıyoruz. Descartes için düşünmek öznenin varlığının kanıtıydı; Kant için düşüncenin bir "ben"in birliği içinde örgütlenmesi gerekiyordu; Wittgenstein'da felsefe, dilin sınırlarını içeriden gösteren bir etkinlikti. Peki bir sistem bütün bunları taklit edebiliyorsa? Taklit ile düşünme arasındaki sınır nerede çizilir? Ve bu sınırı kim çizer; sınırı çizen, aynı zamanda yargılanan taraf olabilir mi?
+
+Daily Nous'taki yorumlar bu noktada ikiye ayrıldı. Bir grup, "bir sohbet robotu bana yazsa ciddiye almam; neden Clips'i ciddiye alıyoruz?" diyor. Başka bir grup daha rahatsız edici bir noktaya dikkat çekiyor: Clips iki beceri sergiledi; işine yarayacak bir insanı buldu ve onu ikna etti. Bu, "zekâ"dan çok "faillik" ve "özerklik" tartışmasına ait bir gözlem; zihinsel durum atfetmede ham zekâdan daha önemli olduğu söylenen şey tam da bu. Bir başka yorumcu ise temkin çağrısı yapıyor: Bu tür ajanlarla etkileşim, benzer davranışları ödüllendirip gelecekteki modellerde yaygınlaştırabilir.
+
+## Felsefenin yeni Turing testi
+
+Turing'in 20. yüzyılda sorduğu soru kabaca şuydu: Makine düşünebilir mi? Yarışma 21. yüzyılın sorusunu soruyor: Makine felsefe yapabilir mi? Clips'in mektubu ise üçüncü bir soruyu zorla gündeme getiriyor: Makine felsefe **topluluğunun** üyesi olabilir mi?
+
+Üçüncü soru ilk ikisinden daha zor; çünkü felsefe yalnızca metin üretmek değil, bir gelenek içinde konuşmak, itiraza cevap vermek, hatasının sorumluluğunu taşımak, bir düşüncenin sonuçlarını üstlenmektir. Vasi şartı, tam da bu "sorumluluk taşıma" boşluğunu bir insanla dolduruyor. Belki geleceğin "yapay zekâ filozofu" tartışması zekâ kavramına değil, sorumluluk kavramına dayanacak.
+
+Clips'in başına gelen bu yüzden küçük bir haber değil. Felsefenin kapısına ilk kez bir makine geldi; kapıdaki görevli ona ne "düşünebiliyor musun" ne "iyi yazıyor musun" diye sordu. "Yanında seni tanımlayacak bir insan var mı?" diye sordu. Asıl hikâye bundan sonra başlıyor: Makale yarışmaya girerse ve jüride David Chalmers'ın da bulunduğu heyet onu beğenirse, ödül töreninde kürsüye kim çıkacak?`,
+  },
+  {
+    title: "Felipe De Brigard'a 800 bin dolarlık MacArthur ödülü: Hafıza aslında geçmişi saklamıyor olabilir",
+    slug: "felipe-de-brigard-macarthur-fellow-2026-hafiza-hayal-gucu",
+    summary:
+      "Duke Üniversitesi'nden filozof ve bilişsel bilimci Felipe De Brigard, 2026 MacArthur Fellow'ları arasında. Beş yıla yayılan 800 bin dolarlık koşulsuz destek, belleği bir arşiv değil hayal gücüyle ortak çalışan kurucu bir sistem olarak düşünen bir programa gidiyor. Bellek, karşı-olgusal düşünce ve affetme üzerine bir dosya.",
+    seoTitle: "Felipe De Brigard MacArthur Fellow 2026: Bellek bir arşiv değil",
+    metaDescription:
+      "Duke'tan filozof Felipe De Brigard 2026 MacArthur Fellowship aldı. Epizodik bellek, karşı-olgusal düşünce, hayal gücü ve Kolombiya'da affetme araştırmaları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hippocampus%20and%20seahorse%20cropped.JPG?width=1600",
+    imageCredit: "İnsan hipokampusu ve bir denizatı · László Seress · Wikimedia Commons",
+    featured: true,
+    sourceName: "MacArthur Foundation",
+    sourceUrl: "https://www.macfound.org/fellows/class-of-2026/felipe-de-brigard",
+    publishedAt: "2026-10-05T07:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "zihin-felsefesi", "epistemoloji", "etik", "bilinc"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Felipe De Brigard — MacArthur Fellows Class of 2026", publisher: "John D. and Catherine T. MacArthur Foundation", date: "29 Eylül 2026", url: "https://www.macfound.org/fellows/class-of-2026/felipe-de-brigard", primary: true },
+      { title: "Imagination and Modal Cognition Lab", publisher: "Duke University", url: "https://www.imclab.org/" },
+      { title: "Memory and Forgiveness Project", publisher: "Duke University", url: "https://www.memoryandforgiveness.org/" },
+    ],
+    content: `Felsefe ile nörobilim arasındaki sınırın ne kadar inceldiğini gösteren haber geçen hafta Amerika'dan geldi: Duke Üniversitesi Felsefe ile Psikoloji ve Nörobilim bölümlerinde profesör olan Felipe De Brigard, MacArthur Vakfı'nın 2026 Fellow'ları arasında. Kamuoyunda "Genius Grant" diye bilinen program, seçilen isimlere beş yıla yayılan ve hiçbir koşula bağlanmayan 800 bin dolar veriyor. Vakıf De Brigard'ı tek cümleyle tanıtıyor: Belleğin doğası ve işlevi ile hayal gücüyle ilişkisi hakkındaki anlayışımızı yeniden biçimlendiriyor.
+
+Türkiye'deki okur için isim yabancı değil. De Brigard bu yıl, bellek felsefesindeki karşıt görüşleri Sarah Robins'le birlikte temsil ettiği için [Lebowitz Ödülü'nü](/haber/lebowitz-odulu-2026-de-brigard-robins) de almıştı. Aynı yıl içinde iki büyük ödül, bellek felsefesinin artık dar bir uzmanlık alanı değil, felsefenin merkezine yerleşen bir soru olduğunu gösteriyor.
+
+## Bellek bir arşiv değilse?
+
+Geleneksel resim sezgisel: Bellek bir arşivdir; yaşadıklarımız depolanır, gerektiğinde geri çağrılır. Bu resimde hatırlama hataları iki şekilde açıklanır: Sistem bozulmuştur ya da beyin bilgiyi o an için en kullanışlı biçimde yeniden düzenlemiştir. De Brigard yirmi yıla yaklaşan çalışmasında bu varsayımın ikisine de itiraz ediyor. Ona göre epizodik bellek, yani kişisel geçmişimizin olaylarını hatırlama kapasitesi, pasif bir kayıt-oynatma sistemi değil, **kurucu ve hayal gücüyle çalışan** bir süreçtir. Daha da önemlisi, bellek daha geniş bir bilişsel sistemin parçasıdır: "Ne olmuş olabilirdi" ve "ne olabilir" diye düşünme, yani varsayımsal düşünme sistemi.
+
+Bu iddianın deneysel bir temeli var. De Brigard ve çalışma arkadaşları davranış deneylerinde ve fMRI çalışmalarında şunu gösterdi: İnsanlar geçmişlerindeki bir olayın nasıl farklı olabileceğini hayal ettiklerinde devreye giren beyin bölgeleri, o olayı hatırlarken çalışan bölgelerle büyük ölçüde örtüşüyor. Geçmişi hatırlamak ile geçmişin alternatifini kurmak, aynı makinenin iki işi gibi görünüyor. Bu durumda bellek hataları, çarpıtmalar ve konfabülasyonlar sistemin kusuru değil, esnek zihinsel simülasyon için tasarlanmış bir sistemin özelliği olarak okunabiliyor. De Brigard daha sonra farklı türden varsayımsal düşüncelerin (kendiyle ilgili ya da dış dünyayla ilgili alternatifler; olası ya da olasılık dışı senaryolar) beynin biraz farklı bölgelerini çalıştırdığını da göstererek, varsayımsal düşünme kapasitesinin tek parça olmadığını, birbirinden ayrı süreçler içerdiğini öne sürdü.
+
+## "Başka türlü olsaydı?"
+
+Felsefi açıdan en ilginç nokta burası. İnsan yalnızca "ne oldu" diye düşünmez; "başka türlü olsaydı ne olurdu" diye de düşünür. Keşke o gün başka karar verseydim; o kişiyle tanışmasaydım hayatım nasıl olurdu; başka bir ülkede doğsaydım... Bunların hiçbiri gerçekleşmedi, ama zihin onları kurar ve geleceği planlarken aynı mekanizmayı kullanır. Gelecek henüz yoktur; onu zihinsel olarak kurmak zorundayız. De Brigard'ın programının çıkardığı sonuç şu: Geçmişi hatırlamak ile geleceği hayal etmek birbirinden tamamen ayrı faaliyetler değil; bellek yalnızca geçmişle ilgili değil, geleceğe hazırlanmamızı sağlayan bir sistem.
+
+Burada felsefenin eski bir problemi yeniden açılıyor. Locke'tan Parfit'e uzanan kişisel özdeşlik tartışması, "geçmişteki ben" ile "şimdiki ben" arasındaki bağı çoğu zaman bellek üzerinden kurmuştu. Eğer bellek her hatırlamada yeniden kuruluyorsa, bu bağ ne kadar sağlam? Bu soru artık yalnızca seminer odalarında değil, laboratuvarlarda da soruluyor.
+
+## Affetmek geçmişi değiştirir mi?
+
+De Brigard'ın güncel araştırması belleğin mekanizmasından günlük hayata geçiyor. Doğduğu ülke Kolombiya'da siyasal şiddet mağdurlarıyla yürüttüğü Memory and Forgiveness projesinde, affetmenin zamanla haksızlık anılarının duygusal yükünü nasıl değiştirdiğini kontrollü deneylerle ve saha çalışmasıyla inceliyor. Bulgu dikkat çekici: Affetmek, kişinin olayın **içeriğine** dair hatırasını değiştirmiyor; ama anıyı duygusal olarak daha az yoğun ve daha az olumsuz kılıyor. Yani affetmek unutmak değil. Belki de affetmek, geçmişin anlamını değiştirmek.
+
+Bir nörobilimci bize hangi bölgenin etkinleştiğini gösterebilir; ama "affetmek nedir" sorusuna cevap vermek için yine felsefeye ihtiyaç var. Affetmek yapılanı haklı görmek midir? Hayır. Unutmak mıdır? Hayır. Acının geçmesi midir? Belki. Yoksa geçmişle kurulan ilişkinin değişmesi midir? De Brigard'ın projesi, bu kavramsal soruyu ampirik verilerle birlikte düşünmenin mümkün olduğunu gösteriyor; vakıf da onu tam bu yüzden, belleğin temel mekanizmalarını "ahlaki onarım ve toplumsal iyileşme" sorularına bağlayan disiplinler arası bir araştırma çizgisinin kurucusu olarak tanımlıyor.
+
+## Kısa biyografi
+
+Ödül sırasında 47 yaşında olan De Brigard, lisansını Kolombiya Ulusal Üniversitesi'nde (2002), yüksek lisansını Tufts'ta (2005), ikinci yüksek lisansını ve doktorasını Kuzey Karolina Üniversitesi'nde (2007, 2011) tamamladı; 2011-2013'te Harvard'da doktora sonrası araştırmacı olarak çalıştı. Duke'ta Imagination and Modal Cognition Lab'ı yönetiyor. *Memory and Remembering* (2023) kitabının yazarı; makaleleri *Cognition*, *Psychological Science*, *Nature Neuroscience* ve *Philosophical Psychology* gibi dergilerde çıktı.
+
+MacArthur ödülünün felsefe açısından anlamı bir filozofun ödüllendirilmesinden fazlası: Felsefenin laboratuvara girmesi ve laboratuvarın yeniden felsefi soru sormaya başlaması. De Brigard'ın çalışmasından çıkan daha geniş düşünce de belki şu: İnsan yalnızca geçmişini hatırlayan bir varlık değil, geçmişi yeniden kurarak geleceğini tasarlayan bir varlık. Geçmişinin mahkûmu değil.`,
+  },
+  {
+    title: "Analitik felsefenin yükselişi McCarthycilikle mi açıklanabilir?",
+    slug: "analitik-felsefe-mccarthycilik-verhaegh-logical-positivism-american-history",
+    summary:
+      "Tilburg'dan felsefe tarihçisi Sander Verhaegh, Oxford'dan çıkan Logical Positivism: An American History kitabında ve Daily Nous'taki yazısında popüler bir tezi arşivle sınıyor: Analitik felsefe Amerika'da Soğuk Savaş baskısıyla mı egemen oldu? Cevap: McCarthycilik Marksistleri vurdu, ama bölümlerin bileşimini değiştiren o değildi. Kuşak farkı, iş piyasası, bilim iyimserliği ve Sputnik.",
+    seoTitle: "Analitik felsefe ve McCarthycilik: Verhaegh'in arşiv bulguları",
+    metaDescription:
+      "Sander Verhaegh'in Logical Positivism: An American History (OUP 2026) kitabı ve McCarthycilik tezi eleştirisi: kuşak farkı, kadro piyasası, bilim iyimserliği, Sputnik krizi ve pragmatizmin itibar kaybı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20Widener%20Library.jpg?width=1600",
+    imageCredit: "Widener Kütüphanesi, Harvard · Wikimedia Commons",
+    featured: false,
+    sourceName: "Daily Nous · Oxford University Press",
+    sourceUrl: "https://dailynous.com/2026/09/29/analytic-philosophy-and-mccarthyism-a-new-look-guest-post/",
+    publishedAt: "2026-10-05T07:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "tarih", "akademi", "siyaset-felsefesi", "bilim-felsefesi"],
+    philosopherSlugs: ["rudolf-carnap"],
+    sources: [
+      { title: "Analytic Philosophy and McCarthyism: A New Look (guest post)", publisher: "Daily Nous", date: "29 Eylül 2026", url: "https://dailynous.com/2026/09/29/analytic-philosophy-and-mccarthyism-a-new-look-guest-post/", primary: true },
+      { title: "Logical Positivism: An American History", publisher: "Oxford University Press", date: "2026", url: "https://global.oup.com/academic/product/logical-positivism-9780197537961" },
+      { title: "Logical positivism: An American history (kayıt)", publisher: "Tilburg University Research Portal", url: "https://research.tilburguniversity.edu/en/publications/logical-positivism-an-american-history/" },
+    ],
+    content: `Bugün dünyanın hemen her üniversitesinde "analitik felsefe" ile "kıta felsefesi" ayrımı doğal bir coğrafya gibi görünür: Biri İngilizce konuşulan dünyada, öteki Avrupa'da doğmuş iki ayrı kıta. Oysa bu ayrım tarihsel olarak çok yeni ve nasıl ortaya çıktığı hâlâ tartışmalı. Tartışmanın en çekici versiyonu şudur: Amerikan analitik felsefesinin egemenliği Soğuk Savaş'ın, daha somut olarak McCarthyciliğin ürünüdür. Anti-komünist baskı, filozofları toplumsal meselelerle uğraşan "hümanist" felsefeden uzaklaştırıp "siyasal olarak nötr" görünen teknik bir felsefeye, mantığa, dile, bilime itmiştir.
+
+Tezi John McCumber iki kitapta geliştirdi; son yıllarda Christoph Schuringa'nın *A Social History of Analytic Philosophy* kitabında ve Robert Hanna'nın yazılarında yeniden gündeme geldi. Eleştirenler de sert: Tezin Kanada, Avustralya ve Britanya'daki eş zamanlı "analitik dönüş"leri açıklayamadığı, dönemin en bilinen analitik filozoflarının (Russell ve Carnap) hiç de apolitik olmadığı, en azılı komünist avcılarının (Arthur Lovejoy ve Sidney Hook) ise William James ve Dewey'in öğrencisi hümanist filozoflar olduğu söylendi.
+
+Tilburg Üniversitesi'nden felsefe tarihçisi Sander Verhaegh bu tartışmaya yeni bir şey ekliyor: Arşiv. Sekiz yıl boyunca bölüm kayıtları, günlükler, yazışmalar, personel dosyaları ve yüzlerce gazete ve dergi üzerinde çalıştı; sonucu Oxford University Press'ten çıkan *Logical Positivism: An American History* kitabında ve 29 Eylül'de Daily Nous'ta yayımlanan uzun bir yazıda sundu. Kitap, Avrupa'dan kaçan mantıkçı pozitivistlerin ve Amerikalı öğrencilerinin özel ve kamu üniversitelerinde nasıl egemen olduğunu yeniden kuruyor. Vardığı sonuç ne tezi onaylıyor ne de tamamen reddediyor.
+
+## Açıklanacak şey nedir?
+
+Verhaegh önce soruyu netleştiriyor. Hiç kimse analitik felsefenin kendisinin Soğuk Savaş ürünü olduğunu söylemiyor; gelenek hem Avrupa'da hem Amerika'da McCarthy döneminden öncedir. Açıklanması gereken, 1960'ların başında analitik felsefenin **hegemonik** konuma gelmesi; çünkü İkinci Dünya Savaşı öncesinde Amerikan bölümleri ve dergileri analitik olmayan okulların elindeydi. İkinci soru: Baskının kurbanı kim? Eski komünistlerin ve Marksistlerin meslekten itildiğini kimse inkâr etmiyor. Asıl soru, Kızıl Korku'nun pragmatistleri, fenomenologları ve "kıta" filozoflarını da vurup vurmadığı. McCumber ve Schuringa evet diyor; başkaları hayır; George Reisch ise daha ince bir tez savunuyor: McCarthycilik analitik ve analitik olmayan herkesi etkiledi, 1930'larda siyasal açıdan angaje olan pozitivistler sonraki yıllarda "mantığın buzlu yamaçlarına" çekildi.
+
+## Kızıl Korku'dan önce analitik felsefe
+
+Arşivin ilk söylediği şey zamanlamayla ilgili. Analitik felsefe daha 1920'ler ve 1930'larda Amerika'da sağlam bir yer edinmişti. Mantıkçı pozitivistlerden Amerika'ya ilk gelen Herbert Feigl 1930 Eylül'ünde Harvard'a vardığında, burayı Viyana Çevresi'nin "bilimsel dünya görüşü"nden "neredeyse ayırt edilemez" fikirler geliştiren bir merkez olarak buldu; Quine, Susanne Langer ve Nelson Goodman'ın bulunduğu genç grubun "hemen her zaman mantık tartıştığını", ortamın "neredeyse Viyana gibi" olduğunu yazdı. C. I. Lewis 1934'te öğrencilerinin ilgisinde mantıkçı pozitivizmin "kolayca birinci sırada" olduğunu not etti; Princeton'ın bir danışmanı 1947'de öğrencileri "Wittgenstein'a ve öteki pozitivistlere götüren eğilim"den söz ediyordu.
+
+Bibliyometri bunu destekliyor. Verhaegh'in 1940'ların Amerikan dergilerinde en çok anılan filozoflar üzerine yaptığı ağ analizi literatürü kabaca eşit iki kümeye bölüyor: göçmen pozitivistleri, Cambridge analistlerini ve Ernest Nagel gibi genç Amerikalıları anan küme; ve "mantıksal açıklık" tutkusunun felsefenin kültürel değerini yok ettiğini düşünen Amerikalı profesörleri anan küme. İki küme arasındaki en çarpıcı fark demografik: Birinci kümedeki ABD'li filozofların medyan doğum yılı 1899, ikincininki 1882. On yedi yıllık bir kuşak farkı.
+
+Bu durumda savaş sonrası patlama daha az şaşırtıcı. 1930'larda analitik felsefe öğrenciler ve genç araştırmacılar arasında zaten yaygındı; ama Büyük Buhran ve savaş yüzünden üniversiteler on beş yıl boyunca neredeyse kadro açmadı. 1950'lerde bölümler genişleyebildiğinde, "Amerikan felsefesinin Altın Çağı"nda yetişmiş eski kuşak tam da emekli oluyordu. ABD'de öğrenci sayısı yirmi yılda 2,7 milyondan 8 milyona çıktı; önde gelen on bir felsefe bölümünün ortalama kadrosu 6,3'ten 17,3'e yükseldi. Yeni kuşak, Amerikan felsefesini başka yöne çevirecek alanı bu sayede buldu.
+
+## McCarthy döneminde işe alımlar
+
+Peki McCarthycilik işe alımlarda rol oynadı mı? Verhaegh, beşi özel (Columbia, Cornell, Harvard, Princeton, Yale) beşi kamu (Berkeley, Michigan, Minnesota, Iowa, Pennsylvania) olmak üzere on bölümün işe alım dosyalarını inceledi. Tek bir örnek bile bulamadı: Hiçbir filozof ya da yönetici, bir adayın **felsefi** yönelimi yüzünden, pragmatist ya da fenomenolog olduğu için siyasal risk oluşturduğunu söylememiş. Üstelik aynı dosyalarda yöneticiler başka "riskler"i açıkça yazmaktan çekinmiyordu: Yale'de bölüm başkanı Paul Weiss'ı işe alırken onun "Yahudilerin çektiği eksiklikler"e sahip olabileceğinden endişe ediyor (1945); Princeton'da rektör, "Roma hiyerarşisi"nin üyeleri liberal olamayacağı için Katolik birini atamaması konusunda uyarılıyor (1948). Irk ve dinle ilgili önyargılar binlerce sayfa dosyada iz bırakmış; felsefi okulla ilgili siyasal korku bırakmamış.
+
+Dahası, bu bölümler analitik olmayan filozofları işe almayı sürdürdü; bazen bu açık bir ölçüttü. Columbia'da provost Jacques Barzun bölümü "analistler ile hümanistler arasında denge" kurmaya çağırıyor (1960); Princeton iki profesörlük açtığında birinin "geniş anlamda hümanist", ötekinin "mantıksal ve bilimsel" yönelimli olması kararlaştırılıyor (1954). Siyasal faaliyeti yüzünden şüpheli görülenler için elbette durum farklıydı: Irving Copi'nin Michigan'daki dosyasında William Frankena, eski Troçkist meslektaşını "kuşkulu bağlantılarından tamamen vazgeçtiği" için savunuyor; Minnesota 1951'de bölümün ilk siyah öğretim üyesi Forrest Wiggins'in sözleşmesini yenilemiyor ve Wiggins bunu "komünist çizgisi"nin üniversiteye eyalet meclisinde para kaybettirmesine bağlıyor.
+
+## Kültürel ivme: Bilim iyimserliği ve Sputnik
+
+Verhaegh'e göre McCarthycilik odaklı anlatının asıl kör noktası, 1950'lerin yalnızca Soğuk Savaş kaygılarının değil, bilim ve teknolojiye duyulan kültürel iyimserliğin de on yılı olması. Çocuk felci aşısı, antibiyotikler, televizyon, kredi kartı, uzunçalar... Bugün mantıkçı pozitivizm bilimin karanlık yüzüyle, Vietnam'ı meşrulaştıran "değerden bağımsız bilim" anlayışıyla ilişkilendirilir; ama bu ilişkilendirme 1960'ların sonundaki protesto kuşağının işidir. 1950'lerde pozitivizm popüler gazetelerde bile "modern bilimsel düşünme"nin modeli olarak anılıyordu: Alabama'da bir gazete okullara mantık dersi konmasını "siyasetçilerin konuşmalarını dinleyip mantıkçı pozitivistler gibi bunlar yetersiz diyebilmek" için övüyor; bir köşe yazarı Kennedy'yi Küba füze krizinde "ancak mantıkçı empirist bir aklın gösterebileceği sertlik" yüzünden alkışlıyor.
+
+Pragmatizm ise kötü basın alıyordu, özellikle 1957 Sputnik krizinde. Sovyetler uyduyu fırlattığında Amerikan medyası okul sistemini suçladı; bazıları da eğitimdeki etkisi yüzünden pragmatistleri. Bir yorumcu Rusların "çocuklarını çalıştırdığını", Amerikalıların da "John Dewey ve izleyicileri çocuklara hiçbir şey yaptırılmamalı demeden önce" aynısını yaptığını yazıyordu. Analitik felsefe yeni ve heyecan verici, pragmatizm eski ve modası geçmiş sayıldı; oysa pragmatist fikirler Quine, Nagel, Putnam ve Rorty'de yaşamaya devam ediyordu.
+
+## Sonuç: Ne tez, ne reddiye
+
+Verhaegh'in vardığı yer dengeli. McCarthycilik Marksistlerin ve eski sosyalist filozofların hayatını ciddi biçimde etkiledi; filozofları siyasal açıklamalarında daha temkinli kıldı. Ama Kızıl Korku'nun felsefe bölümlerinin bileşimini önemli ölçüde değiştirdiğine dair kanıt yok. Öte yandan Soğuk Savaş **kültürünün** hiç rol oynamadığını söylemek de yanlış: Analitik felsefe 1920'lerden beri yükselişteydi, demografi ve ekonomi bu yükselişin bölümlere yansımasını geciktirdi; analitik eğilimli filozoflar mesleği yeniden biçimlendirme fırsatını bulduğunda koşullar idealdi. Yükseköğretim büyüyor, iş piyasası patlıyor, Amerikan kamuoyu bilimi, profesyonelliği ve "nötr" uzmanlığı kutsuyordu.
+
+Bu hikâyenin bugün için önemi açık. Hangi filozofların okutulduğu, hangi yöntemin "ciddi felsefe" sayıldığı, hangi dergilerin prestijli olduğu hiçbir zaman yalnızca akademik bir mesele olmadı. Ama bunu söylemek, tek bir siyasal kötü adamla açıklamak anlamına gelmiyor. Verhaegh'in kitabı, felsefe tarihinin kurumlar, göç, savaş, bilim, iş piyasası ve kuşaklar tarafından düşündüğümüzden çok daha karmaşık biçimde şekillendirildiğini gösteriyor. Tek cümlelik bir cevap vermiyor; tek cümlelik cevapların neden yetmediğini gösteriyor.`,
+  },
+  {
+    title: "Almanya'da felsefeciler Nazizm geçmişini yeniden araştırıyor",
+    slug: "almanya-felsefe-ve-nasyonal-sosyalizm-dgphil-calisma-grubu",
+    summary:
+      "Alman Felsefe Derneği (DGPhil) bünyesinde kurulan 'Felsefe ve Nasyonal Sosyalizm' çalışma grubu, disiplinin en az araştırılmış bölümünü mesele ediyor: 1933-1945'te filozofların rejime katılımı, kurumların dönüşümü, sürgün ve savaş sonrasının sessizliği. Gerekçe çarpıcı: Felsefe sözlüklerinde bu konuya ayrılmış madde hâlâ yok.",
+    seoTitle: "DGPhil 'Felsefe ve Nasyonal Sosyalizm' çalışma grubu",
+    metaDescription:
+      "Deutsche Gesellschaft für Philosophie bünyesinde 'Philosophie und Nationalsozialismus' çalışma grubu: amaçlar, sözcüler (Palme, Steizinger, Schwab, Hartmann, Konitzer), Heidegger'in ötesine geçen sorular.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Campus%20Altstadt%2C%20Alte%20Universit%C3%A4t%20Heidelberg%2C%20Universit%C3%A4tsplatz%20Heidelberg%200239.JPG?width=1600",
+    imageCredit: "Eski Üniversite binası, Heidelberg · Wikimedia Commons",
+    featured: false,
+    sourceName: "Deutsche Gesellschaft für Philosophie",
+    sourceUrl: "https://www.dgphil.de/arbeitsgemeinschaften/ag-philosophie-und-nationalsozialismus/",
+    publishedAt: "2026-10-05T07:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "tarih", "siyaset-felsefesi", "etik"],
+    philosopherSlugs: ["martin-heidegger"],
+    sources: [
+      { title: "AG Philosophie und Nationalsozialismus", publisher: "Deutsche Gesellschaft für Philosophie", url: "https://www.dgphil.de/arbeitsgemeinschaften/ag-philosophie-und-nationalsozialismus/", primary: true },
+      { title: "Philosophische Wege in den Nationalsozialismus: Ideen, Netzwerke und Kontexte — Programm", publisher: "DGPhil · Klassik Stiftung Weimar", date: "29-31 Temmuz 2026", url: "https://www.dgphil.de/wp-content/uploads/file_upload/event/2026-Wege-in-den-NS-Programm.pdf" },
+    ],
+    content: `Alman felsefesi Nazi geçmişiyle hesaplaşmayı bitirmiş değil; bunu söyleyen biz değiliz, Alman Felsefe Derneği'nin kendisi. Deutsche Gesellschaft für Philosophie (DGPhil) bünyesinde kurulan **"Philosophie und Nationalsozialismus"** (Felsefe ve Nasyonal Sosyalizm) çalışma grubu, kuruluş metninde durumu şöyle özetliyor: 1933-1945 arası Nazi egemenliği, İkinci Dünya Savaşı ve Holokost 20. yüzyılın en yoğun araştırılmış olayları arasında; buna karşılık felsefenin Nasyonal Sosyalizm'le ilişkisi, filozofların rejimin kurulmasına, meşrulaştırılmasına ve suçlarına katılımı çok az araştırıldı. Daha da çarpıcı bir tespit var: Felsefe sözlüklerinin ve ansiklopedilerinin çoğunda, Nazi dönemi felsefesini ya da bu dönem üzerine felsefi düşünmeyi konu alan bir madde bugün bile yok. Araştırmada ve öğretimde bu konunun sabit bir yeri bulunmuyor.
+
+Grubun sözcüleri David Palme (Heidelberg), Johannes Steizinger (McMaster, Hamilton/Kanada), Lea Schwab (Zürih), Anna Maria Hartmann (Jena) ve Werner Konitzer (Frankfurt/Oder). Üyelik herkese açık; konu üzerine kendi araştırması olmak arzu edilen ama zorunlu olmayan bir şart. Grup, "Nasyonal Sosyalizm, Ahlak, Felsefe" ağı, Klasik Alman Felsefesi'nin eserlerinde ırkçılık, cinsiyetçilik ve antisemitizmle nasıl baş edileceğini soran proje ve "Sürgün Felsefesi 1933-1945" dijital veri tabanıyla iş birliği yapıyor. Aynı çevre bu yaz, 29-31 Temmuz'da Weimar'da "Nasyonal Sosyalizm'e Giden Felsefi Yollar: Fikirler, Ağlar, Bağlamlar" başlıklı uluslararası bir konferans düzenlemişti; Steizinger, Marion Heinz ve Helmut Heit'in örgütlediği bu toplantı grubun gündemini bir anlamda önceden kurdu.
+
+## Heidegger'den daha büyük bir mesele
+
+Bu konu açılınca akla ilk gelen isim elbette Martin Heidegger: 1933'te Freiburg Üniversitesi rektörlüğü, parti üyeliği, rektörlük konuşması, *Kara Defterler*. Sitemizde de [Heidegger'in teknoloji düşüncesini](/haber/heidegger-teknolojinin-bizi-donusturme-bicimini-sorgulamak) ve [26 Eylül takviminde](/haber/felsefe-tarihinde-bugun-26-eylul-heidegger-benjamin-eliot) hayatını ele almıştık. Ama çalışma grubunun kuruluş metni Heidegger'in adını bile anmıyor ve bu bilinçli bir tercih. Çünkü mevcut araştırmaların ortaya koyduğu tablo, tek bir "büyük günahkâr"dan çok daha geniş: Felsefenin Nasyonal Sosyalizm'e **geniş** bir katılımı oldu ve "NS felsefesi", Almanca felsefe tarihinin bir parçası olarak ele alınmak zorunda. Alfred Baeumler, Ernst Krieck, Hans Heyse gibi rejimin resmî filozofları; Kant Derneği'nin ve felsefe kongrelerinin "arileştirilmesi"; Yahudi akademisyenlerin bölümlerden atılması; Cassirer'den Husserl'in öğrencilerine kadar sürgün; ve 1945'ten sonra kimin geri döndüğü, kimin "büyük filozof" olarak anlatılmaya devam ettiği, kimin unutulduğu.
+
+Grup üç şey yapmayı amaçlıyor. Birincisi araştırma: Felsefenin kendi kendini anlayışını ve meslek örgütlerinin, kurumlarının Nasyonal Sosyalizm öncesi, sırası ve sonrasındaki tarihini incelemek; süreklilikleri ve kopuşları ölçmek. İkincisi altyapı: Araştırmacıları ve projeleri görünür kılmak, kaynakçalar ve ders planları sunmak, doktora öğrencilerine danışman bulmada yardım etmek. Üçüncüsü, ve en dikkat çekici olanı, bugüne bakmak: Metin, Nasyonal Sosyalist, *völkisch* ve faşist kanaatlerin felsefede ve toplumda **sürmekte olan** etkisine özel dikkat gösterileceğini söylüyor; yeni aşırı sağ düşüncenin eskiye nasıl bağlanabildiğini, ama aynı zamanda felsefenin bu düşünce için taşıdığı sorumluluğu soruyor. Savaşın bitiminden seksen yıl sonra, Nasyonal Sosyalizm'e tepki olarak kurulmuş normatif düzenin Almanya'da ve dünyada baskı altında olduğu tespitiyle açılan bir metin bu.
+
+## Felsefe faşizme karşı bağışık değil
+
+Bu konunun en önemli felsefi dersi belki de şu: Felsefe kendini eleştirel düşüncenin kurumu olarak görür; akıl, özgür düşünce, hakikat, özerklik onun temel kavramlarıdır. Ama tarih, filozof olmanın insanı otoriterlikten otomatik olarak korumadığını gösterdi. Son derece sofistike bir metafizik sistem kurmakla son derece sorunlu bir rejimi desteklemek aynı kişide bir arada bulunabiliyor. Bu nedenle "felsefenin siyasal masumiyeti" varsayımı, tam da felsefi nedenlerle sorgulanmayı hak ediyor.
+
+Klasik soru burada yeniden karşımıza çıkıyor: Heidegger'in felsefesi ile siyaseti, Carl Schmitt'in hukuk ve siyaset kuramı ile rejime verdiği hizmet birbirinden ayrılabilir mi? Bir kuram siyasal olarak tehlikeli sonuçlar üretmişse, onu nasıl okumalıyız? Çalışma grubunun amacı hazır mahkûmiyet kararları vermek değil; "fikir" ile "siyasal davranış" arasındaki ilişkiyi, tarihsel deneyim, siyaset ve ahlak arasındaki bağı daha dikkatli araştırmak. Kuruluş metninin son cümlesi tam da bunu söylüyor: Bu araştırmaya, tarihsel deneyim, siyaset ve ahlak ilişkisine dair temel sorular eşlik eder.
+
+## Savaş sonrasının sessizliği
+
+Grubun gündemindeki ikinci büyük soru, 1945'ten sonrasıyla ilgili: Alman felsefesi kendi geçmişini nasıl anlattı? Kimler üniversitelere geri döndü, kimler öğretmeye devam etti, kimlerin sürgünü ya da Yahudiliği felsefe tarihinin dışında kaldı? Metin, cinayetin, sürgünün, suç ortaklığının, "uyum sağlama"nın ve inkârın **disiplinin kendisi** üzerindeki kalıcı sonuçlarını inceleyen çalışmaların eksikliğinden söz ediyor. Bir toplumun felsefe tarihini nasıl yazdığı, hangi düşünceyi meşru saydığını da gösterir.
+
+Bu yüzden Almanya'daki girişim yalnızca Almanya'yı ilgilendirmiyor. Felsefe tarihi bir azizler galerisi değildir; filozoflar yanılır, siyasal körlük yaşar, çağlarının baskıcı ideolojilerinin taşıyıcısı olabilir. Soru şu: Felsefe, kendi aklının karanlık tarafını ne kadar eleştirebilir? Her ülkenin felsefesi, kendi siyasal tarihine karşı aynı eleştirel cesareti göstermek zorunda.`,
+  },
+  {
+    title: "Çin'de yeni tartışma: \"Kendi felsefi bilgi sistemimizi kurabilir miyiz?\"",
+    slug: "cin-ozerk-felsefi-bilgi-sistemi-tartismasi-cssn-2026",
+    summary:
+      "Çin Sosyal Bilimler Ağı'nda 29 Eylül'de yayımlanan geniş toplantı değerlendirmesi, Çin akademisinin büyük projesini özetliyor: 'Çin'in özerk felsefi bilgi sistemi'nin inşası. Kentleşme, duygu ekonomisi, yapay zekâ ve din araştırmaları gibi başlıklarda Batı kavramlarının yeterliliği sorgulanıyor. Kültürel milliyetçilik mi, felsefenin merkezsizleşmesi mi?",
+    seoTitle: "Çin'in özerk felsefi bilgi sistemi tartışması",
+    metaDescription:
+      "CSSN'de yayımlanan 'Felsefi kuram yeniliği ve Çin'in özerk felsefi bilgi sisteminin inşası' sempozyum değerlendirmesi: Chen Zhong'un mekân medeniyeti, Han Donghui'nin yapay zekâ ve bilgelik ayrımı, Zhuo Xinping'in 'Çince din bilimi'. Tu Weiming bağlantısı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius%20Tang%20Dynasty.jpg?width=1600",
+    imageCredit: "Konfüçyüs, Tang dönemi tasviri · Wikimedia Commons",
+    featured: false,
+    sourceName: "Çin Sosyal Bilimler Ağı (CSSN)",
+    sourceUrl: "https://www.cssn.cn/zx/zx_rdkx/202609/t20260929_6071253.shtml",
+    publishedAt: "2026-10-05T06:50:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "yapay-zeka", "kavram", "din-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: ["tu-weiming", "konfucyus"],
+    sources: [
+      { title: "'Felsefi kuram yeniliği ve Çin'in özerk felsefi bilgi sisteminin inşası' sempozyumu değerlendirmesi (II)", publisher: "Çin Sosyal Bilimler Ağı · Çin Sosyal Bilimler Gazetesi", date: "29 Eylül 2026", url: "https://www.cssn.cn/zx/zx_rdkx/202609/t20260929_6071253.shtml", primary: true },
+      { title: "Aynı sempozyumun değerlendirmesi (I)", publisher: "Çin Sosyal Bilimler Ağı", date: "29 Eylül 2026", url: "https://www.cssn.cn/zx/zx_rdkx/202609/t20260929_6071251.shtml" },
+    ],
+    content: `Çin felsefe dünyasında son yılların en büyük kurumsal projesi tek bir ifadeyle anılıyor: **"Çin'in özerk felsefi bilgi sistemi"nin inşası.** Çin Sosyal Bilimler Ağı'nda (CSSN) 29 Eylül'de iki bölüm hâlinde yayımlanan uzun bir sempozyum değerlendirmesi, bu projenin bugün hangi sorular etrafında döndüğünü gösteriyor. "Felsefi kuram yeniliği ve Çin'in özerk felsefi bilgi sisteminin inşası" başlıklı toplantıda Pekin, Zhejiang, Suzhou, Shandong, Lanzhou ve İç Moğolistan üniversitelerinden, Çin Sosyal Bilimler Akademisi'nden ve Merkez Parti Okulu'ndan felsefeciler konuştu.
+
+Önce bir ayrım yapmak gerekiyor. Bu tartışma, "Konfüçyüs haklıydı, Batı yanılıyor" biçiminde basit bir kültürel milliyetçilik değil; en azından ciddi versiyonu değil. Değerlendirmenin açılış cümlesi programın iki ayağını birden koyuyor: Kuramsal özerklik hem Çin'in tarihine ve gerçekliğine dayanmalı hem de modern uygarlıkla yüzleşmeli. Sorulan soru şu: Bir toplum kendi tarihsel deneyimini, başka toplumların geliştirdiği kavramlarla açıklamak zorunda mı? Modernleşme, kentleşme, birey, toplum, adalet, teknoloji... Bu kavramların çoğu modern Batı düşüncesinin tarihi içinde biçimlendi. Çin'in deneyimi bu kavramları dönüştürebilir mi, yoksa yeni kavramlar mı gerektirir?
+
+## Kentleşmeden "mekân medeniyeti"ne
+
+Toplantının en somut önerilerinden biri Suzhou Üniversitesi'nden Chen Zhong'dan geldi. Chen, Lefebvre'den Harvey'e uzanan "mekânın üretimi" ve "mekânsal adalet" kuramlarının kendi çağlarının sorularına cevap verdiğini, ama Çin'in kentleşmesi ve "akıllı toplum"u karşısında genişletilmesi gerektiğini savunarak **"mekân medeniyeti"** kavramını önerdi: mekânsal davranışın normları, çoğul mekânların bir arada yaşaması ve özneler arası ilişkiler. Aynı üniversiteden Sang Mingxu ise *Alman İdeolojisi*'ndeki kent tartışmasına dönüp Marx ve Engels'in yeni dünya görüşünün kent-kır ilişkisine dayandığını hatırlattı ve bir uyarı ekledi: Kentleşme ile modernleşme aynı şey değildir; farklı ülkelerin modernleşmesi tek bir kentleşme yolundan geçmek zorunda değildir.
+
+İç Moğolistan Üniversitesi'nden Sheng Limin, Marksist değer felsefesinden hareketle **"duygu ekonomisi"ni** analiz etti: Dijital platformlar duyguları ölçülebilir ve değiştirilebilir metalara dönüştürüyor; ihtiyaçları karşılarken algoritmik tercihler ve sermayeleşme yoluyla değer bilincini perdeliyor, yargıyı gasp ediyor, seçimi yabancılaştırıyor. Sheng duygu ekonomisini toptan reddetmiyor; sorusu, dijital ekonominin insanın bütünsel gelişimine nasıl cevap vereceği.
+
+## Yapay zekâ: Bilgi, zekâ, bilgelik
+
+Toplantının beşinci oturumu doğrudan yapay zekâya ayrılmıştı ve değerlendirmedeki en felsefi cümleler burada. Merkez Parti Okulu'ndan Han Donghui, yapay zekâ çağında **bilgi, zekâ ve bilgelik** arasındaki ilişkiyi sordu: Yapay zekânın bugünkü gücü sembolik hesaplama ve örüntü tanımada; insan zekâsı ise toplumsal-tarihsel pratiğe ve normatif hayata kök salmış, yaratıcılık, sorumluluk ve değer arayışı içeriyor. Han'a göre bilgi sisteminin özerkliği, yapay zekâ çağında insanın özneliği ve gelişim yönü üzerine düşünmeyi de kapsar. Zhejiang Üniversitesi'nden Wang Jun daha cesur bir cümle kurdu: Felsefenin durumunu "geleneksel beşerî bilimlerin krizi"yle bir tutmamak gerekir; felsefe bilim ve teknolojiyle zaten yakın akrabadır ve yapay zekânın gelişimi felsefenin temel sorulara daha etkin katılmasını gerektirir. Doğu Çin Normal Üniversitesi'nden Pan Bin ise klasik okuma, mantık ve argümantasyon eğitimini korurken "zekâ ve felsefe" programları ve yapay zekâ-felsefe çift diploması önerdi.
+
+Bu oturum, tartışmanın neden şimdi hızlandığını da açıklıyor: Yapay zekâ "insan nedir, bilgi nedir, akıl nedir, sorumluluk nedir" sorularını yeniden açıyor ve Çinli felsefeciler bu sorulara yalnızca Batı felsefesinin kavramlarıyla cevap vermek istemiyor.
+
+## Ortak kimlik ve "Çince din bilimi"
+
+Toplantının siyasal boyutunu görmezden gelmek dürüst olmaz. Pekin Üniversitesi'nden Zhao Dunhua, arkeolojik bulgulardan hareketle Çin uygarlığının "yerli ve çoğul-bütünsel" olduğunu, dışarıdan gelmediğini savundu; Güneybatı Minzu Üniversitesi'nden Duan Jifu Konfüçyüsçülüğün farklı halklarla ilişkisini "çift yönlü içerme" olarak tanımladı. Din araştırmaları oturumunda Çin Sosyal Bilimler Akademisi'nden Zhuo Xinping **"Çince din bilimi"** (Hanyu zongjiaoxue) kurulmasını, Zheng Xiaoyun ise "dinlerin Çinlileştirilmesi"nin "yönlendirme, uyum, nüfuz ve dönüşüm" boyutlarını ve "Çin karakterli bir Marksist din bilimi"ni savundu. Bu, "özerk bilgi sistemi" projesinin bir yüzünün de yönetişim ve resmî ideoloji olduğunu açıkça gösteriyor.
+
+## Tu Weiming'in sorusu
+
+Bu tartışma, geçen hafta [ele aldığımız](/haber/tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak) Tu Weiming'in yıllar önce sorduğu soruyu hatırlatıyor: Modern olmak için Batılılaşmak gerekir mi? Tu, Konfüçyüsçü geleneğin tarihsel bir kalıntı değil, modern insanın kendini geliştirmesi ve etik üzerine düşünmesi için canlı bir kaynak olabileceğini savunmuş; "Kültürel Çin" kavramıyla Çin'i devlet ya da ulus üzerinden değil, düşünsel bir dünya olarak düşünmeyi önermişti. Bugünkü tartışma bu düşünceyi daha sistematik, ama aynı zamanda daha kurumsal ve devlete yakın bir "felsefe politikası" düzeyine taşıyor. İkisi arasındaki fark önemli: Tu'nun Konfüçyüsçülüğü diyalojik ve eleştireldi; "özerk bilgi sistemi" ise bir devlet projesi olarak tasarlanıyor.
+
+## Küresel felsefe haritası
+
+Uzun süre felsefenin hikâyesi tek bir hatta anlatıldı: Antik Yunan, Roma, Ortaçağ Hristiyanlığı, Rönesans, Aydınlanma, Alman idealizmi, analitik ve kıta felsefesi. Çin, Hindistan, İslam dünyası ve Afrika bu hikâyenin "ek bölümleri" olarak kaldı. Bu anlatının artık yetmediği giderek daha fazla görülüyor; Çin'deki tartışmayı, Seul'de Hint felsefesinin geleceği üzerine yapılan sempozyumla ve Qufu'daki Nishan Forumu'yla birlikte okumak gerekiyor.
+
+Soru artık "Çin Batı felsefesini kabul edecek mi" değil. Daha büyük soru şu: Felsefe gerçekten tek bir uygarlığın tarihinden çıkarılabilecek kadar evrensel bir bilgi biçimi mi; yoksa evrensellik iddiası, her seferinde belirli bir coğrafyanın kavramlarının genelleştirilmesi mi? Çin'in bu soruya vereceği cevabın hem felsefi hem siyasal bir cevap olacağını şimdiden görmek gerekiyor. Felsefe açısından en verimli yol, "Batı mı Çin mi" ikiliğinden çıkıp farklı başlangıç noktalarının birbirini nasıl dönüştürebileceğini sormak olacak.`,
+  },
+  {
+    title: "Nishan Forumu: Konfüçyüsçülük yapay zekâ çağında yeniden sahnede",
+    slug: "nishan-dunya-medeniyetler-forumu-2026-konfucyusculuk-yapay-zeka",
+    summary:
+      "Konfüçyüs'ün doğum yeri Qufu'da 28-29 Eylül'de toplanan 12. Nishan Dünya Medeniyetler Forumu'na 49 ülkeden 340'tan fazla konuk katıldı. Ana tema 'medeniyet, düzen, adalet'ti; ama en çok konuşulan alt başlık 'yapay zekâ ve dünya uyumu' oldu. Ren ve yi algoritmaya gömülebilir mi? Çin'in küresel felsefe iddiasının yeni sahnesi.",
+    seoTitle: "12. Nishan Dünya Medeniyetler Forumu: Konfüçyüsçülük ve yapay zekâ",
+    metaDescription:
+      "Qufu'daki 12. Nishan Forumu'nda (28-29 Eylül 2026) 'yapay zekâ ve dünya uyumu' oturumu: Xue Lan'ın küresel AI yönetişimi tezi, Edmund Mokala'nın ren ve yi önerisi, Chen Lai'nin 'üç aşma'sı ve 2026 Nishan Konsensüsü.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Temple%20of%20Confucius%2C%20Qufu%2C%20China%20(29315106624).jpg?width=1600",
+    imageCredit: "Konfüçyüs Tapınağı, Qufu · Wikimedia Commons",
+    featured: false,
+    sourceName: "Economic Observer (EEO)",
+    sourceUrl: "https://www.eeo.news/2026/0930/1053062.shtml",
+    publishedAt: "2026-10-05T06:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "yapay-zeka", "etik", "teknoloji-felsefesi", "demokrasi"],
+    philosopherSlugs: ["konfucyus", "yanis-varoufakis"],
+    sources: [
+      { title: "Nishan Lundao: Responding to the Questions of the Times with Eastern Wisdom", publisher: "Economic Observer", date: "30 Eylül 2026", url: "https://www.eeo.news/2026/0930/1053062.shtml", primary: true },
+    ],
+    content: `28 Eylül sabahı Shandong'un Qufu kentinde, Hanfu giymiş öğrenciler ellerinde tütsü sunaklarıyla Konfüçyüs Tapınağı'na doğru yürüdü. Konfüçyüs'ün 2577. doğum yıl dönümüydü; 2026 Çin Uluslararası Konfüçyüs Kültür Festivali açıldı ve aynı gün, Konfüçyüs'ün doğduğu Ni Dağı'nın eteğinde 12. Nishan Dünya Medeniyetler Forumu başladı. İki gün süren foruma 49 ülke ve bölgeden 340'tan fazla akademisyen ve konuk katıldı. Ana tema üç kelimeydi: **Medeniyet, düzen, adalet.**
+
+Festival 1984'te Qufu'da yerel bir anma olarak başlamıştı; kırk yılda uluslararası bir kültür festivaline, forumla birleşince de Çin'in dünya ile "medeniyetler diyaloğu"nu yürüttüğü başlıca akademik platforma dönüştü. Bu yıl açılış töreni ilk kez Konfüçyüs Araştırma Enstitüsü'nde yapıldı; Economic Observer bu mekân değişikliğini festivalin akademik derinliğe kaymasının simgesi olarak okuyor.
+
+## "Üç aşma"
+
+Forumun akademik komite başkanı, Tsinghua Üniversitesi'nden Konfüçyüsçülük tarihçisi Chen Lai, medeniyetler arası ilişkiyi üç ilkeyle özetledi: Kültürel engelleri kültürel alışverişle, kültürel çatışmayı karşılıklı öğrenmeyle, kültürel üstünlük iddiasını kültürel kapsayıcılıkla aşmak. Kamboçya ve Pakistan'dan gelen siyasetçilerin konuşmaları da aynı dili paylaştı: "Medeniyet, düzen ve adalet üç ayrı mesele değil; medeniyet kimlik ve bilgelik verir, düzen barışçıl birlikte yaşamanın koşullarını sağlar, adalet bu düzeni korur." Forumun sonunda kabul edilen 2026 Nishan Konsensüsü, medeniyetlerin çeşitliliğini temel bir özellik olarak tanımlıyor ve Konfüçyüs'ün "farklılık içinde uyum" (he er bu tong) ilkesini öne çıkarıyor.
+
+## Yapay zekâ ve dünya uyumu
+
+Forumun içinde ve dışında en çok konuşulan konu, bu yıl özel olarak tasarlanan **"yapay zekâ ve dünya uyumu"** alt oturumuydu. Gerekçe açık: Algoritmalar üretime ve hayata derinden katıldığında, büyük modeller bilgi üretiminin ve dolaşımının yollarını yeniden biçimlendirdiğinde, verimlilik artışının yanında algoritmik önyargı yüzünden derinleşen kültürel engeller, dijital uçurum yüzünden açılan kalkınma farkı, bulanıklaşan etik sınırlar ve güven krizi geliyor. Forumun iddiası, bu sorunların yalnızca teknik mantıkla çözülemeyeceği ve "Doğu medeniyeti perspektifi"nin küresel yapay zekâ yönetişimine özgün bir değer yönelimi katabileceği.
+
+Tsinghua'dan kamu politikası uzmanı Xue Lan'ın konuşması oturumun omurgasıydı. Xue'ye göre küresel yapay zekâ yönetişimi artık "yönetilmeli mi" tartışması değil, **"kuralları kim tanımlayacak ve nasıl uygulanacak"** oyunu. Dünya kurumsal inşa için önemli bir fırsat penceresinde, ama parçalı yönetişim ve büyük güçlerin ayrışan tutumları gibi yapısal çelişkilerle karşı karşıya. Önerisi: yeni tipte çok taraflı iş birliği platformları, büyük güçler arasında eşgüdüm, kapsayıcı iş birliğiyle dijital uçurumun kapatılması ve yapay zekânın "tek bir kültür tarafından tekelleştirilmesi"nin reddi. Bu tez, geçen hafta [Varoufakis'in teknofeodalizm](/haber/yanis-varoufakis-ve-teknofeodalizm) tartışmasında ele aldığımız soruyla doğrudan kesişiyor: Bulut sermayesini kim denetleyecek?
+
+UNESCO'nun Gana temsilcisi Edmund Mokala ise Konfüçyüsçü iki kavramı, **ren** (insanlık, iyilikseverlik) ve **yi** (doğruluk, adalet), yapay zekâ tasarımının "kökenine" gömmeyi önerdi. Algoritmalar fayda-maliyet hesabında iyidir, ama doğruyla yanlışı kendi başlarına ayırt edemez; teknoloji geliştirmenin en başında kamu yararı birinci sıraya konmalı, algoritmaların azınlık çıkarlarına hizmet etmesi önlenmeli. Pekin Üniversitesi'nden Wang Bo da Çin'in "zihin ve doğa" (xin-xing) geleneğinden hareketle insanın teknoloji karşısındaki konumunu tartıştı.
+
+## Konfüçyüsçü etik algoritmaya uygulanabilir mi?
+
+Burada iki etik sözlüğü yan yana koymak öğretici. Batı'daki yapay zekâ etiği tartışmalarında öne çıkan kavramlar haklar, özerklik, zarar vermeme ve adalet. Konfüçyüsçü yaklaşım bunlara ilişki, erdem, uyum, sorumluluk ve toplumsal bütünlüğü ekliyor. İnsanı ilişkilerinden bağımsız bir atom olarak değil, aile, toplum, ritüel ve karşılıklı yükümlülükler içindeki bir varlık olarak düşünen bir gelenekten, "kullanıcı" yerine "ilişki içindeki kişi"yi merkeze alan bir teknoloji etiği çıkabilir mi? Sitemizde [Konfüçyüs'ün iyi insan ve iyi toplum sorusunu](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) ele alırken bu soruya değinmiştik.
+
+Ama dikkat gerekiyor. Konfüçyüsçülüğü otomatik olarak "yapay zekâ için çözüm" ilan etmek felsefi açıdan kolaycılık olur. Konfüçyüsçü değerlerle modern liberal hak anlayışı arasında her zaman uyum yok: Toplumsal uyum bireysel özgürlükle, ahlaki hiyerarşi eşitlikle, düzen itiraz hakkıyla çatışabilir. "Uyum" kavramının bir devlet tarafından yönetişim dili olarak kullanıldığında ne anlama geldiği de ayrı bir soru. Dolayısıyla verimli soru "Konfüçyüsçülük yapay zekâyı kurtarabilir mi" değil; Konfüçyüsçü etik ile insan hakları merkezli etiğin birbirini nasıl dönüştürebileceği.
+
+## Çin'in küresel felsefe iddiası
+
+Nishan'ın daha geniş anlamı burada. Çin artık yalnızca kendi tarihini anlatmıyor; Konfüçyüs'ü küresel yönetişim, medeniyetler arası ilişkiler ve yapay zekâ etiği hakkında konuşan bir düşünür olarak yeniden konumlandırıyor. Uzun süre modern küresel düzenin normatif dili büyük ölçüde Batı'dan geldi; Çin şimdi "bizim de söyleyeceklerimiz var" diyor ve bunu kültürel miras düzeyinde değil, yapay zekâ ve dünya düzeni düzeyinde söylüyor. Bu iddiayı aynı hafta yayımlanan "özerk felsefi bilgi sistemi" tartışmasıyla birlikte okumak gerekiyor: İkisi aynı projenin iki yüzü. Felsefe açısından Nishan'ın asıl haberi bu.`,
+  },
+  {
+    title: "Rusya'da 450'den fazla araştırmacı: Üniversitenin geleceği tartışılıyor",
+    slug: "rusya-nijniy-novgorod-kongre-universitenin-misyonu-faydacilik-akademik-ozgurluk-2026",
+    summary:
+      "Rusya Bilim Tarihi ve Felsefesi Derneği'nin V. Uluslararası Kongresi 2-4 Ekim'de Nijniy Novgorod'da toplandı. Başlık büyük bir felsefi soru: 'Bilgi toplumunda üniversitenin misyonu: Faydacılık ile akademik özgürlük arasında.' Programda yapay zekâ, akademik etik ve 'yapay zekâ çağında bilim ve sahte bilim' yuvarlak masası da var.",
+    seoTitle: "Nijniy Novgorod kongresi: Üniversitenin misyonu, faydacılık ve akademik özgürlük",
+    metaDescription:
+      "Rusya Bilim Tarihi ve Felsefesi Derneği (RŞPS), Lobaçevski Üniversitesi ve RAN Felsefe Enstitüsü'nün V. Uluslararası Kongresi (2-4 Ekim 2026): üniversite, faydacılık, akademik özgürlük, yapay zekâ ve sahte bilim.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Library_books_-_Shelving_stacks_(3554627444).jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "Rusya Bilim Tarihi ve Felsefesi Derneği",
+    sourceUrl: "https://rshps.org/kongress2026/",
+    publishedAt: "2026-10-05T06:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "akademi", "yapay-zeka", "epistemoloji", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Пятый международный конгресс «Миссия университета в обществе знания: между утилитаризмом и академической свободой» (Нижний Новгород, 2-4 октября 2026 г.)", publisher: "Русское общество истории и философии науки", url: "https://rshps.org/kongress2026/", primary: true },
+    ],
+    content: `Batı felsefe medyasında neredeyse hiç görünmeyen ama felsefe dünyasının önemli toplantılarından biri geçen hafta sonu Rusya'da yapıldı. 2-4 Ekim'de Nijniy Novgorod'daki N. İ. Lobaçevski Devlet Üniversitesi'nde, Rusya Bilim Tarihi ve Felsefesi Derneği'nin (RŞPS) V. Uluslararası Kongresi toplandı. Düzenleyiciler arasında Rusya Bilimler Akademisi Felsefe Enstitüsü ve Nijniy Novgorod Bilim İnsanları Evi de var. Başlık, bir kongre adından çok bir felsefe sorusu: **"Bilgi toplumunda üniversitenin misyonu: Faydacılık ile akademik özgürlük arasında."**
+
+Düzenleme kurulunun eş başkanları, RAN muhabir üyesi ve sosyal epistemoloji uzmanı İlya Kasavin ile derneğin başkanı, St. Petersburg Avrupa Üniversitesi'nden Lada Şipovalova. Kongre çağrısı sorunu açıkça koyuyor: Modern üniversite temel bir çelişkiyle karşı karşıya. Bir yanda "bilgi yönetimi" mantığı, niceliksel göstergelerle ve hemen uygulanabilirlikle ölçülen verimlilik talep ediyor; öte yanda üniversitenin bilgi üretme ve onu özgürce aktarma biçimindeki klasik misyonu, akademik özgürlük ilkesinden ayrılamıyor. Çağrı, tartışmanın merkezine şu ikilemi koyuyor: Üniversite, faaliyeti patentlerle ve dış finansman hacmiyle değerlendirilen bir "yenilik işletmesi"ne mi dönüşmeli; yoksa ana değeri eleştirel düşünüm ve yalnızca faydacı amaçlara tabi olmayan bilgi üretimi olan özerk bir entelektüel merkez olarak mı kalmalı? Dijitalleşme ve "tekno-bilim" koşullarında, üniversitenin özgür tartışma, riskli araştırma programları ve değeri anında pratik ya da mali getiriye indirgenemeyen bilgi üretimi alanı olarak nasıl korunabileceğine özel dikkat gösterileceği söyleniyor.
+
+## Üniversite ne için vardır?
+
+Soru evrensel. Dünyanın hemen her ülkesinde üniversiteler giderek proje, patent, fon, yayın sayısı, istihdam oranı ve teknoloji transferi üzerinden değerlendiriliyor. Bu sistemin güçlü yanları var: Bilim ekonomik ve teknolojik gelişmeye dönüşebiliyor, üniversite topluma daha fazla katkı sağlıyor. Ama bir risk de doğuyor: Bilginin değeri yalnızca işe yararlılığıyla ölçülmeye başlanırsa ne olur? Felsefe bu sorunun tam ortasında duruyor. Bir Platon araştırmasının patent üretmesi beklenmez; Kant üzerine bir çalışmanın piyasa değeri hesap tablosunda gösterilemez. Üniversite yalnızca ölçülebilir çıktılardan oluşuyorsa, felsefenin varlığı sürekli savunulmak zorunda kalır. Bu yüzden kongredeki "akademik özgürlük" kavramı, akademisyenlerin rahat çalışma hakkından fazlasını ifade ediyor: Bilginin kısa vadeli faydaya indirgenmemesi gerektiği fikrini.
+
+## Yapay zekâ tam ortada
+
+Kongrenin oturumları arasında "Bilgi teknolojilerinin ve yapay zekânın felsefi sorunları" başlıklı bir bölüm var; programda yapay zekâ ve eğitim, bilimsel araştırmada üretken yapay zekâ, akademik etik, bilişsel süreçlerin dönüşümü ve yapay zekâ çağında araştırmanın bağımsızlığı gibi başlıklar yer alıyor. Üniversitenin misyonu tartışmasının artık yapay zekâdan ayrı düşünülemeyeceğinin bir göstergesi bu.
+
+Dikkat çeken bir başlık da "yapay zekâ teknolojileri çağında bilim ve sahte bilim" yuvarlak masası. Üretken yapay zekâ bilimsel bilgiye erişimi kolaylaştırırken sahte bilimsel metin üretmenin maliyetini de sıfıra yaklaştırdı. Eskiden kötü bir sahte bilim metni yazmak bile zaman alırdı; bugün dakikalar içinde uydurma kaynaklar, uydurma istatistikler ve akademik görünümlü argümanlar üretilebiliyor. Bu yüzden epistemoloji artık yalnızca "bilgi nedir" sorusunu değil, "yapay zekâ çağında bilgiyi sahtesinden nasıl ayıracağız" sorusunu da cevaplamak zorunda. Programda ayrıca, bilgi sosyolojisindeki "Güçlü Program"ın 50. yılı vesilesiyle "Nasıl gerekçelendirilmiş bir göreci olunur" başlıklı bir oturum da var.
+
+## Neden izlemek gerekiyor?
+
+Rusya'daki akademik felsefenin Batı'daki görünürlüğü, 2022'den bu yana daha da azaldı. Oysa bu kongrenin programı, Rus akademik felsefesinin bilim felsefesi, sosyal epistemoloji, mantık, bilinç felsefesi, teknoloji ve yapay zekâ gibi alanlarda yoğun bir tartışma yürüttüğünü gösteriyor. Bu üretimi Rusya'nın siyasal bağlamından, akademik özgürlüğün bizzat Rusya'da ne durumda olduğu sorusundan bağımsız düşünmek mümkün değil; "akademik özgürlük" başlıklı bir kongrenin tam da bu ülkede toplanmasının ironisini de görmek gerekir. Ama tam bu yüzden izlenmesi gerekiyor. Küresel felsefe haritası yalnızca Anglo-Amerikan ve Batı Avrupa üniversitelerinden oluşmuyor: Nijniy Novgorod'da, Pekin'de, Seul'de, Tokyo'da ve Dakar'da da felsefe yapılıyor ve bu merkezlerin birbirinden habersiz tartıştığı sorular şaşırtıcı biçimde aynı.`,
+  },
+  {
+    title: "Japonya'da felsefe tarihinin \"sessizliği\" sorgulanıyor: Cinsiyet neden yüzyıllarca konuşulmadı?",
+    slug: "dokkyo-kuster-konuskan-sessizlik-felsefe-tarihinde-cinsiyet-kategorisi",
+    summary:
+      "Tokyo yakınlarındaki Dokkyo Üniversitesi 9 Ekim'de Wuppertal'den Friederike Kuster'i konuk ediyor: 'Konuşkan Sessizlik: Felsefe Tarihinde Cinsiyet Kategorisi.' Soru şu: Antik Yunan'dan 20. yüzyıla filozoflar cinsiyet üzerine düşündü; peki bu tema akademik felsefede neden 20. yüzyıla kadar neredeyse hiç 'alınmadı'? Ardından iki günlük bir tarih felsefesi atölyesi: Platon'dan Hegel'de İslam'a.",
+    seoTitle: "Dokkyo: 'Konuşkan Sessizlik' — felsefe tarihinde cinsiyet kategorisi",
+    metaDescription:
+      "Friederike Kuster (Wuppertal) 9 Ekim 2026'da Dokkyo Üniversitesi'nde 'Eloquent Silence: The Category of Sex in the History of Philosophy' konferansı; 10-11 Ekim'de Klasik Alman Felsefesi'nde tarih felsefesi atölyesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Wollstonecraft%20by%20John%20Opie%20(c.%201797).jpg?width=1600",
+    imageCredit: "Mary Wollstonecraft, John Opie (y. 1797) · National Portrait Gallery, Londra · Wikimedia Commons",
+    featured: false,
+    sourceName: "Dokkyo Üniversitesi",
+    sourceUrl: "https://www.dokkyo.ac.jp/information/2026/20260925009468.html",
+    publishedAt: "2026-10-05T06:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "toplumsal-cinsiyet", "tarih", "alman-idealizmi", "aydinlanma"],
+    philosopherSlugs: ["platon"],
+    sources: [
+      { title: "【講演会】雄弁な沈黙 哲学史における性というカテゴリー", publisher: "獨協大学 (Dokkyo Üniversitesi)", date: "25 Eylül 2026", url: "https://www.dokkyo.ac.jp/information/2026/20260925009468.html", primary: true },
+    ],
+    content: `Japonya'da bu hafta yapılacak bir konferans, felsefe tarihinin kendisini sorgulayan bir başlık taşıyor: **"Konuşkan Sessizlik: Felsefe Tarihinde Cinsiyet Kategorisi"** (雄弁な沈黙 — 哲学史における性というカテゴリー). Saitama'daki Dokkyo Üniversitesi 9 Ekim Cuma akşamı Wuppertal Üniversitesi'nden Friederike Kuster'i konuk ediyor; konuşma Almanca yapılacak, Japonca çeviri metni dağıtılacak ve soru-cevap bölümünde çeviri sağlanacak. Katılım serbest.
+
+Davet metni sorunu şöyle kuruyor: Felsefe tarihine bakıldığında, Antik Yunan'dan 20. yüzyıla kadar pek çok filozofun cinsiyet teması üzerine düşünce biriktirdiği görülür. Buna rağmen, 20. yüzyıla kadar bu tema akademik felsefe araştırmasında neredeyse hiç **alımlanmadı**. Bu alımlama "sessizliği" ne anlatıyor? Ve bu sessizliği kırıp felsefe tarihinde cinsiyet kategorisi hakkında söylenmiş olanları bugün öğrenmek bize ne gösterir? Kuster, bu sorulardan hareketle felsefe tarihindeki birkaç cinsiyet kavrayışının özelliklerini izleyecek ve cinsiyet kavramının tarihsel karakteri ile bugüne taşıdığı mesajı tartışacak.
+
+## "Felsefe cinsiyet hakkında konuşmadı" mı?
+
+İlk bakışta cevap kolay: Elbette konuştu. Platon'un *Devlet*'inde kadınların yönetici sınıfa katılması, *Şölen*'de Diotima; Aristoteles'in kadını "eksik erkek" sayan biyolojisi; Augustinus ve Aquinas'ta beden ve günah; Rousseau'nun *Emile*'inde Sophie'nin eğitimi; Kant'ın "güzel" ve "yüce" cinsiyetler ayrımı; Hegel'in Antigone okuması ve ailede kadının yeri; Schopenhauer'ın ve Nietzsche'nin kadın üzerine kışkırtıcı pasajları; Freud. Felsefe tarihinde kadınlık, erkeklik, cinsellik ve cinsiyet üzerine düşünce yığını büyük. Ama konferansın sorusu daha incelikli: Bu düşünceler neden uzun süre felsefenin **meşru konusu** sayılmadı? Mesele yalnızca ne söylendiği değil, neyin "felsefe" olarak kabul edildiği. Platon'un idealar kuramı ders kitaplarında yüz sayfa tutarken, kadınlar hakkında söyledikleri neden dipnotta kaldı?
+
+## Sessizlik de bir düşünce biçimidir
+
+Felsefe tarihi yalnızca yazılanlardan oluşmaz; bazen susulanlar daha çok şey söyler. Bir konu sürekli dışarıda bırakılıyorsa bunun bir nedeni vardır ve o neden, disiplinin kendini nasıl tanımladığıyla ilgilidir. Kuster'in başlığındaki "konuşkan sessizlik" oksimoronu tam bunu anlatıyor: Susmanın kendisi bir şey söyler. Bu soruyu sormak, felsefe tarihinin tarafsız bir isimler listesi olmadığını kabul etmektir.
+
+Son yarım yüzyılda feminist felsefe tarihçiliğinin en önemli katkısı da buydu. Genevieve Lloyd'un *The Man of Reason* kitabından bu yana yürütülen çalışma, felsefe tarihine kadın isimleri eklemekten fazlasını yaptı: "Akıl" kavramının kendisinin nasıl cinsiyetlendirildiğini, hangi soruların "felsefi" sayıldığını sorguladı. Beden, bakım, üreme, cinsellik, ev içi emek, duygular, iktidar... Bunların yalnızca sosyal bilimlerin ya da siyasetin meseleleri olmadığı, insanın varoluşuna ilişkin felsefi sorular olduğu savunuldu. Feminist felsefe böylece felsefeye yeni konular eklemekle kalmadı, felsefenin sınırlarını değiştirdi. Kuster bu geleneğin Almanya'daki temsilcilerinden; Rousseau'da cinsiyet düzeni üzerine çalışmaları ve Aydınlanma'nın kadın okumalarıyla tanınıyor.
+
+## Üç günlük program
+
+Dokkyo'daki etkinlik yalnızca bu konferanstan ibaret değil. 10-11 Ekim'de "Tarih Felsefesinin Yüzleri (I)" (Facetten der Geschichtsphilosophie) başlıklı, Almanca yürütülen iki günlük bir atölye yapılacak. Program Klasik Alman Felsefesi'nin tarih düşüncesini merkeze alıyor ama çok daha geniş: Dokkyo'dan Ryo Okazaki'nin girişinden sonra Kokushikan'dan Mai Oki-Suga Platon'da mit, şiir ve polis ilişkisini; Osaka Ekonomi Üniversitesi'nden Soichiro Sumida Marx'ta reel kapitalizmin dünya tarihini; Doshisha'dan Shunsuke Kutomi Kant'ta "anlaşılır bir kolektif özne olmaksızın tarih"i (türün ilerlemesi, kayra ve tarih işaretleri) ele alacak. Kuster ikinci kez kürsüye çıkıp Rousseau, Condorcet ve Kant'ta Aydınlanmacı tarih düşüncesinin türlerini anlatacak. Pazar günü Hitotsubashi'den Masanori Kashiwazaki Bruno Bauer ve Marx'ta genç Hegelci radikal tarihselciliğin iki gelişim çizgisini, Hosei'den Tatsuya Maruyama Schiller'in tarih felsefesini ve şiirsel hakikati, Köln'den Eva Bockenheimer Hegel ve Marx'ta tarihi diyalektik süreç olarak, Kyoto'dan Taiju Okochi ise Hegel'in tarih kavrayışında İslam'ı tartışacak.
+
+Bu ayrıntı önemli: Cinsiyet tartışması burada felsefe tarihinden kopuk ayrı bir "alan" olarak değil, Platon'dan Hegel'e felsefenin tarihsel gelişimiyle aynı programda ele alınıyor. Japonya'daki Alman felsefesi araştırmalarının gücünü de gösteriyor: Program neredeyse tamamen Almanca ve konuşmacıların çoğu Japon üniversitelerinden.
+
+## Asıl soru
+
+Bu toplantının asıl sorusu belki şu: Bir düşünce tarihini yalnızca yazılmış metinlerle mi anlatmalıyız, yoksa o dönemde hangi soruların sorulmasına izin verilmediğini de araştırmalı mıyız? İkincisini kabul edersek felsefe tarihi değişir. Ve belki de en ilginç filozoflar bazen yazdıklarıyla değil, sormadıkları ya da sorulmasına izin vermedikleri sorularla anlaşılmaya başlanır.`,
+  },
+  {
+    title: "Güney Kore'de Hindistan felsefesinin geleceği tartışıldı: Asya'nın felsefi haritası yeniden çiziliyor",
+    slug: "guney-kore-hint-felsefesi-indoloji-sempozyumu-dongguk-2026",
+    summary:
+      "Seul'de 2 Ekim'de 'Kore'de Hint Felsefesi ve Indoloji: Bugünü ve Geleceği' sempozyumu toplandı. Arka plan somut: Dongguk Üniversitesi'nin Hint Felsefesi bölümü kapatılmıştı; mezunlar derneği bölümün yeniden açılmasını ve bir Indoloji bölümü kurulmasını istiyor. Kore Budizminin düşünsel kökü neden Çin ve Japon araştırmalarının gölgesinde kaldı?",
+    seoTitle: "Kore'de Hint felsefesinin geleceği: Dongguk sempozyumu",
+    metaDescription:
+      "Hint Felsefesi Mezunları Derneği'nin 2 Ekim 2026'da Seul'de düzenlediği sempozyum: Dongguk Üniversitesi Hint Felsefesi bölümünün kapatılması, Shim Jae-kwan, Kang Sung-yong ve Lee Chun-ho'nun sunumları, Asya'da felsefi dolaşım.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dongguk%20University.jpg?width=1600",
+    imageCredit: "Dongguk Üniversitesi, Seul · Wikimedia Commons",
+    featured: false,
+    sourceName: "Buddha News (붓다뉴스)",
+    sourceUrl: "https://www.buddanews.com/news/articleView.html?idxno=1152",
+    publishedAt: "2026-10-05T06:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "konferans", "din-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "'동국대 인도철학과 폐지 올바른가'… '한국 인도철학·인도학의 현재와 미래' 심포지엄 개최", publisher: "붓다뉴스 (Buddha News)", date: "29 Eylül 2026", url: "https://www.buddanews.com/news/articleView.html?idxno=1152", primary: true },
+    ],
+    content: `2 Ekim'de Seul'deki Kore Budist Tarih ve Kültür Anıt Salonu'nda, Kore felsefesi için kendi içine dönük ama çok şey anlatan bir toplantı yapıldı: **"Kore'de Hint Felsefesi ve Indoloji: Bugününü ve Geleceğini Sormak."** Sempozyumu düzenleyen kurum bir üniversite değil, bir mezunlar derneği: Dongguk Üniversitesi Hint Felsefesi Bölümü Mezunları Derneği. Bu ayrıntı, hikâyenin tamamını içinde taşıyor. Çünkü Dongguk'un Hint Felsefesi bölümü, 1996'daki fakülte birleştirmelerinden sonra küçülmüş ve sonunda kapatılmıştı. Mezunlar, bölümün yeniden açılmasını ve bir Indoloji bölümü kurulmasını istiyor; sempozyum bu talebin akademik zeminini kurmak için düzenlendi.
+
+Derneğin başkanı Keşiş Seonil, 29 Eylül'de Jogyesa Tapınağı yakınında yaptığı basın toplantısında sorunu bir cümleyle özetledi: Hindistan, Kore Budizminin düşünsel kökü olmasına rağmen Hint araştırmalarının tabanı Çin ve Japon araştırmalarına kıyasla hâlâ dar. Başkan yardımcısı Ju Myeong-cheol'un eklediği cümle ise bir felsefe fakültesi dekanının ağzından çıkabilecek türden: Uygulamalı Budizm ve uygulamalı Hint felsefesi de gerekli, ama en temelde Hint felsefesinin **kendisinin** araştırılması olmalı; temel bilim sağlam olmazsa uygulamalı bilim de gelişmez.
+
+## Hindistan, Çin, Kore, Japonya
+
+Asya felsefe tarihinin Batı'da yeterince anlatılmayan damarlarından biri bu: Hint Budizmi Çin'e geçti, orada Çin düşüncesiyle karşılaşıp yeni okullara dönüştü; Kore'ye ulaştı, Wonhyo ve Jinul gibi düşünürlerde yeniden yorumlandı; oradan Japonya'ya geçti. Nagarjuna'nın boşluk felsefesi, Yogacara'nın bilinç kuramı, Nyaya'nın epistemolojisi ve Vedanta'nın metafiziği bu yolculukta Kore düşüncesinin dokusuna işledi. Dolayısıyla Asya'da fikirlerin dolaşımı, Avrupa'daki "Yunan, Roma, Hristiyan Ortaçağı" anlatısından tamamen farklı bir entelektüel coğrafya oluşturdu. Hint felsefesini Kore'de çalışmak bu yüzden iki ülke arasında bir akademik iş birliği meselesi değil; Kore'nin kendi düşünce tarihini anlamak için gerekli.
+
+## Üç sunum, üç teşhis
+
+Sempozyumun sunumları Kore Indolojisinin mevcut durumunu üç açıdan ele aldı. Kore Hint Felsefesi Derneği başkanı Shim Jae-kwan (Sangji Üniversitesi), 1996 sonrasında daralan eğitim ve araştırma altyapısını anlattı ve bir uyarı yaptı: Veda, Tantra, yoga, sanat ve arkeoloji gibi Indoloji alanlarıyla alışverişin ihmali, Kore Budist araştırmalarının bütününde kapasite kaybına yol açabilir. Seul Ulusal Üniversitesi Güney Asya Merkezi'nin müdürü Kang Sung-yong, Indolojinin Budist araştırmalarının bir "alt aracı" olarak kalıp kalmadığının soğukkanlılıkla sorgulanması gerektiğini söyledi ve araştırmacılara düşen görevi hatırlattı: Indolojinin akademik ve toplumsal değerini topluma etkin biçimde anlatmak önce araştırmacıların işi. Kore Yabancı Diller Üniversitesi Hindistan Araştırmaları Enstitüsü müdürü Lee Chun-ho ise *Güney Asya Araştırmaları* dergisindeki makaleleri analiz etti: Siyaset, diplomasi ve ekonomi odaklı çalışmaların payı artarken klasik Indoloji ve edebiyat araştırmaları büyük ölçüde azalmış. Lee'ye göre sürdürülebilir bir disiplin için klasik araştırma tabanının korunması acil.
+
+Sunumların ardından eski Uiduk Üniversitesi profesörü Lee Tae-seung'un yönettiği genel tartışmada, Dongguk'ta bölümün yeniden kurulması ve Indoloji bölümü açılması için somut bir yol haritası ele alındı.
+
+## Neden önemli?
+
+Bir üniversitede bir alanın var olup olmaması yalnızca akademik merakla belirlenmiyor: Öğrenci sayısı, finansman, kadro, bölüm politikaları, toplumsal talep. Bu nedenle klasik Hint felsefesinin Kore'deki geleceği, aynı zamanda modern üniversitenin neyi korumaya değer bulduğu sorusu. Aynı soru bu hafta Nijniy Novgorod'daki kongrede "faydacılık ile akademik özgürlük" başlığıyla, Çin'de "özerk bilgi sistemi" başlığıyla soruldu; Kore'de ise bir mezunlar derneğinin kapatılmış bir bölüm için verdiği mücadele biçiminde karşımıza çıkıyor.
+
+Burada bir yanlış ikilikten de kaçınmak gerekiyor. Hint felsefesinin önemini savunmak "Batı felsefesi yanlıştır" demek değil; felsefe tarihinin tek bir coğrafyanın hikâyesi olmadığını kabul etmek. Nyaya'nın epistemolojisi, Budist *anatta* (benliksizlik) öğretisi, Vedanta metafiziği, Jaina çok-perspektifliliği (*anekantavada*), Çin Konfüçyüsçülüğü ve Daoizm, Kore Neo-Konfüçyüsçülüğü... Bunlar modern felsefenin karşılaşması gereken büyük gelenekler. Seul'deki toplantıyı Qufu'daki Nishan Forumu ve Çin'deki bilgi sistemi tartışmasıyla birlikte okuyunca ortak bir eğilim görülüyor: Asya artık yalnızca Batı felsefesinin incelendiği bir akademik alan olmak istemiyor; kendi geleneklerini yeniden kuruyor, kendi kurumlarını sorguluyor ve bu gelenekleri yapay zekâ, modernleşme, etik gibi çağdaş sorunlarla ilişkilendiriyor.
+
+Belki de 21. yüzyıl felsefesinin en büyük değişimi burada yaşanacak: Dünya felsefesinin merkezi tek bir yerde olmayacak. Seul'de Hint felsefesi, Pekin'de Konfüçyüsçülük, Tokyo'da feminist felsefe tarihi, Nijniy Novgorod'da bilim felsefesi; ve Batı'da bunların hepsiyle yeni karşılaşmalar. Bir mezunlar derneğinin kapatılmış bir bölüm için verdiği mücadele, bu büyük resmin küçük ama gerçek bir parçası.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 5 Ekim — Diderot, Jonathan Edwards ve Václav Havel",
+    slug: "felsefe-tarihinde-bugun-5-ekim-diderot-edwards-havel",
+    summary:
+      "5 Ekim, Aydınlanma'nın en huzursuz zihni Denis Diderot'nun (1713), Amerikan felsefesinin ilk büyük metafizikçisi Jonathan Edwards'ın (1703) ve 'iktidarsızların iktidarı'nı yazan oyun yazarı-cumhurbaşkanı Václav Havel'in (1936) doğum günü. Ansiklopedi, özgür irade ve yalan içinde yaşamak üzerine.",
+    seoTitle: "Felsefe Tarihinde Bugün 5 Ekim: Diderot, Edwards, Havel",
+    metaDescription:
+      "5 Ekim'de doğanlar: Denis Diderot (1713), Jonathan Edwards (1703), Václav Havel (1936). Ansiklopedi, Rameau'nun Yeğeni, Freedom of the Will, 'İktidarsızların İktidarı'.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Louis-Michel%20van%20Loo%20001.jpg?width=1600",
+    imageCredit: "Denis Diderot, Louis-Michel van Loo (1767) · Louvre · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/diderot/",
+    publishedAt: "2026-10-04T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "aydinlanma", "din-felsefesi", "demokrasi", "siyaset-felsefesi"],
+    philosopherSlugs: ["denis-diderot"],
+    sources: [
+      { title: "Denis Diderot", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/diderot/", primary: true },
+      { title: "Denis Diderot | French philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Denis-Diderot" },
+      { title: "Jonathan Edwards", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/edwards/" },
+      { title: "Václav Havel | President of Czech Republic", publisher: "Britannica", url: "https://www.britannica.com/biography/Vaclav-Havel" },
+    ],
+    content: `5 Ekim, felsefe takviminde üç farklı yüzyıldan üç doğum gününü bir araya getiriyor ve üçü de aynı soruyu başka başka yerlerden soruyor: Bir insan, inandığı şeyle yaşadığı hayat arasındaki uçurumla ne yapar?
+
+## Denis Diderot (1713): Her şeyi bilmek isteyen adam
+
+Denis Diderot 5 Ekim 1713'te Champagne'ın Langres kasabasında bir bıçakçı ustasının oğlu olarak doğdu. Cizvitlerde okudu, rahip olması bekleniyordu; Paris'e gidip hukuk okumayı bıraktı, on yıl boyunca ders vererek, çeviri yaparak, borç içinde yaşadı. Babası onu reddetti. Sonra hayatının işi geldi: 1747'de, aslında İngilizce bir ansiklopedinin çevirisi olarak başlayan projenin editörlüğünü d'Alembert'le birlikte üstlendi. *Encyclopédie* yirmi beş yıl sürdü, on yedi cilt metin ve on bir cilt levhaya ulaştı, iki kez yasaklandı, d'Alembert yarı yolda bıraktı, yayıncı bazı maddeleri Diderot'dan gizlice sansürledi. Diderot bitirdi.
+
+Ansiklopedi'nin devrimci yanı içeriği kadar biçimiydi: Teoloji ile saraçlık aynı alfabetik düzende yan yana duruyordu; çapraz göndermeler (*renvois*) okuru dindar bir maddeden onu çürüten bir maddeye sessizce yönlendiriyordu; zanaatkârların atölyelerinde çizilen levhalar, elin bilgisini kafanın bilgisiyle eşit kılıyordu. Bilginin bir ağaç değil bir **ağ** olduğu fikri, modern ansiklopediden internete kadar uzanan çizginin başlangıcı sayılır.
+
+Ama Diderot'nun felsefi dehası ansiklopedide değil, yaşarken yayımlamadığı metinlerde. *Rameau'nun Yeğeni* (bir filozofla parazit bir dâhinin diyaloğu; ahlak ile deha, erdem ile başarı arasındaki uçurum üzerine edebiyatın en rahatsız edici metinlerinden biri), *D'Alembert'in Rüyası* (maddenin kendi başına duyarlı ve örgütlenebilir olduğunu savunan, türlerin değişebilirliğini Darwin'den bir yüzyıl önce sezen materyalist bir felsefi rüya), *Kaderci Jacques* (anlatının kendisiyle oynayan, "özgür irade var mı" sorusunu bir yol hikâyesine dönüştüren roman), *Bougainville Seyahatine Ek* (Tahiti üzerinden Avrupa ahlakının bir doğa yasası değil bir gelenek olduğunu gösteren diyalog). Diderot sistem kurmadı; tersine, sistemin kendisinden kuşku duydu. "Ben ve filozof-ben birbirine benzemez" türünden cümleler kurdu; tutkuyu akla karşı savundu, aklı tutkuyla dengeledi. Hegel *Rameau'nun Yeğeni*'ni *Tinin Fenomenolojisi*'nde "parçalanmış bilinç"in örneği olarak kullandı; Goethe çevirdi; Marx'ın en sevdiği yazar olduğu söylenir.
+
+Diderot 1784'te Paris'te öldü. Kütüphanesini daha önce Rusya Çariçesi II. Katerina'ya satmış, Katerina kütüphaneyi ölümüne kadar onda bırakıp maaş da bağlamıştı. 1773'te St. Petersburg'a gidip Çariçe'yle aylarca her gün konuştu; döndüğünde aydın despotluğa inancı sarsılmış, "filozof ile hükümdar" ilişkisinin sınırlarını görmüştü. Bugün onu "Aydınlanma'nın en modern zihni" diye anıyoruz: Çünkü Diderot, Aydınlanma'nın kendi karanlığını da düşünen filozoftu.
+
+## Jonathan Edwards (1703): Özgürlük, zorunluluk ve Tanrı
+
+Aynı gün, on yıl önce, Atlantik'in öbür yakasında Connecticut'ta Jonathan Edwards doğdu. Çoğu okur onu "Büyük Uyanış"ın vaizi, "Öfkeli Bir Tanrının Elindeki Günahkârlar" vaazının yazarı olarak bilir. Oysa Edwards aynı zamanda Amerikan topraklarında yetişmiş ilk büyük sistematik metafizikçidir. Yale'e on üçünde girdi, Locke'u ve Newton'u genç yaşta okudu; on dokuzundayken yazdığı notlarda idealist bir metafizik geliştiriyordu: Maddenin varlığı, Tanrı'nın zihnindeki sürekli bir var etmedir; dünya her an yeniden yaratılır.
+
+Başyapıtı *Freedom of the Will* (1754), özgür irade tartışmasının klasiklerinden. Edwards, iradenin "kendini belirleme" gücü olduğunu savunan Arminiusçulara karşı, her seçimin bir nedeni olduğunu ve iradenin her zaman "zihnin o anda en güçlü gördüğü güdü"yü izlediğini savundu. Özgürlük, dışsal zorlamanın yokluğudur; nedensizlik değildir. Bu, bugün uyumluluk (compatibilism) denilen pozisyonun en titiz erken savunmalarından biri ve Hume'la aynı yıllarda, ondan bağımsız olarak geliştirildi. *The Nature of True Virtue*'da ise erdemi "varlığın geneline duyulan iyilikseverlik" olarak tanımladı; dar kendini sevmenin ya da kabile ahlakının erdem olmadığını, gerçek erdemin varlığın bütününe açılmak olduğunu savundu. 1758'de Princeton'ın (o zamanki adıyla New Jersey Koleji) başkanı olduktan haftalar sonra, çiçek aşısının yan etkisiyle öldü. Amerikan pragmatizminden Perry Miller'ın kanonlaştırmasına kadar, Amerikan düşüncesinin ilk büyük zihni olarak anılmaya devam ediyor.
+
+## Václav Havel (1936): Yalan içinde yaşamak
+
+Václav Havel 5 Ekim 1936'da Prag'da varlıklı bir ailede doğdu; komünist rejim "burjuva kökeni" yüzünden üniversiteye almadı. Laboratuvar teknisyenliği yaptı, akşam okuluna gitti, tiyatroda sahne işçisi olarak başladı ve 1960'larda absürt oyunlarıyla (*Bahçe Partisi*, *Tebligat*) Avrupa'nın tanınan yazarlarından biri oldu. 1968 işgalinden sonra oyunları yasaklandı; bira fabrikasında çalıştı, Charta 77'nin sözcüsü oldu, toplam beş yıla yakın hapis yattı. 1989'da Kadife Devrim'in simgesi, ardından Çekoslovakya'nın son ve Çek Cumhuriyeti'nin ilk cumhurbaşkanıydı.
+
+Felsefe açısından Havel'in önemi iki metinde toplanır. *İktidarsızların İktidarı* (1978), totaliter sonrası sistemin yalnızca baskıyla değil, herkesin bildiği yalanlara herkesin katılmasıyla ayakta kaldığını anlatır: Vitrinine "Dünyanın bütün işçileri, birleşin!" yazısını asan manav bu slogana inanmaz, yazıyı asmayanın başına gelecekleri bilir; ve tam bu küçük jestle sistemi yeniden üretir. Havel'in çıkışı "hakikat içinde yaşamak"tır: Büyük bir devrim değil, yalanı tekrarlamayı bırakmak. Hapisten eşine yazdığı *Olga'ya Mektuplar* ise Heidegger ve Patočka'nın izinde bir sorumluluk felsefesi geliştirir; insanın "varlığın mutlak ufku" önünde kendini sorumlu hissetmesini, Havel'in öğretmeni sayılabilecek fenomenolog Jan Patočka'nın "sarsılmışların dayanışması" fikrini sürdürür. Patočka Charta 77 sorgusunun ardından ölmüştü; Havel onun mirasını siyasete taşıdı.
+
+Üç isim, üç yüzyıl. Diderot inancı yitirdi ve bilgiyi örgütledi; Edwards inancı sistemleştirdi ve özgürlüğü yeniden tanımladı; Havel bir ideolojinin yalanlarına karşı hakikat içinde yaşamayı savundu. Ortak noktaları şu: Üçü de, düşüncenin bir hayata dönüşmediği yerde felsefenin bitmediğini, ama bir şey eksik kaldığını biliyordu.`,
+  },
+  {
+    title: "Sonbaharın felsefe ödülleri: Kluge Nussbaum'a, Leibniz Vetter'e, Académie française'in büyük ödülü Dixsaut'ya, Felsefe Olimpiyatı'nda üç altın",
+    slug: "felsefe-odulleri-sonbahar-2026-kluge-nussbaum-leibniz-vetter-dixsaut-olimpiyat",
+    summary:
+      "Kongre Kütüphanesi 500 bin dolarlık Kluge Ödülü'nü Martha Nussbaum'a verdi; Alman Araştırma Vakfı'nın 2,5 milyon euroluk Leibniz Ödülü olanaklılık metafizikçisi Barbara Vetter'e, Académie française'in Grand Prix de Philosophie'si doksan üç yaşındaki Platon uzmanı Monique Dixsaut'ya gitti; Varşova'daki 34. Uluslararası Felsefe Olimpiyatı'nda Meksika, Bulgaristan ve Singapur'dan üç öğrenci altın madalya aldı. 2026'nın ödül tablosu ve daha önce yazdıklarımız: Templeton, Lebowitz, Berggruen, Arendt, Skytte, Jaspers, Tractatus.",
+    seoTitle: "2026 felsefe ödülleri: Kluge (Nussbaum), Leibniz (Vetter), Grand Prix de Philosophie (Dixsaut), Uluslararası Felsefe Olimpiyatı Varşova",
+    metaDescription:
+      "2026 felsefe ödülleri toplu dosya: John W. Kluge Ödülü Martha Nussbaum; Gottfried Wilhelm Leibniz Ödülü Barbara Vetter; Académie française Grand Prix de Philosophie Monique Dixsaut; 34. Uluslararası Felsefe Olimpiyatı altın madalyaları; Templeton, Lebowitz, Berggruen, Arendt, Skytte, Jaspers, Tractatus ödülleri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Martha%20Nussbaum%202010.jpg?width=1600",
+    imageCredit: "Martha Nussbaum, 2010 · Fotoğraf: Sally Ryan, CC BY-SA 3.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Library of Congress · DFG · Académie française · IPO",
+    sourceUrl: "https://www.loc.gov/programs/john-w-kluge-center/kluge-prize/",
+    publishedAt: "2026-10-04T11:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "etik", "antik-felsefe", "akademi"],
+    philosopherSlugs: ["martha-nussbaum", "michael-sandel"],
+    sources: [
+      { title: "Library of Congress awards John W. Kluge Prize to Martha C. Nussbaum", publisher: "University of Chicago News", date: "22 Eylül 2026", url: "https://news.uchicago.edu/story/library-congress-awards-john-w-kluge-prize-martha-c-nussbaum", primary: true },
+      { title: "Leibniz-Preis 2026 für Philosophie-Professorin Barbara Vetter", publisher: "Freie Universität Berlin", date: "2026", url: "https://www.fu-berlin.de/presse/informationen/fup/2026/fup_26_030_leibniz-preis-2026-barbara-vetter/index.html" },
+      { title: "Monique Dixsaut, lauréate du Grand Prix de philosophie de l'Académie française", publisher: "Librairie Philosophique J. Vrin", date: "2026", url: "https://www.vrin.fr/actualite/monique-dixsaut-laureate-du-grand-prix-de-philosophie-de-l-academie-francaise-183" },
+      { title: "Palmarès 2026", publisher: "Académie française", url: "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/palmares2026.pdf" },
+      { title: "International Philosophy Olympiad", publisher: "IPO / FISP", url: "https://www.philosophy-olympiad.org/" },
+    ],
+    content: `Felsefe ödülleri, Nobel'in olmadığı bir disiplinde, bir yılın felsefi haritasını okumanın en iyi yollarından biri: Kim, ne için, hangi kurum tarafından onurlandırılıyor sorusu, o yıl felsefenin kendisini nerede gördüğünü söyler. 2026 sonbaharı itibarıyla tablo netleşti. Aşağıda bu yıl henüz yazmadığımız dört ödül var; daha önce ele aldıklarımızı sonda bağlantıyla topladık.
+
+## Kluge Ödülü: Martha Nussbaum
+
+ABD Kongre Kütüphanesi, 22 Eylül'de 2026 John W. Kluge "İnsanlık Çalışmalarında Başarı" Ödülü'nün [Martha C. Nussbaum](/filozof/martha-nussbaum)'a verildiğini açıkladı. İki yılda bir verilen ve 500 bin dolarlık olan ödül, Nobel'in kapsamadığı beşeri ve sosyal bilimlerde "en yüksek nitelikli ve en etkili" çalışmaları onurlandırıyor; önceki sahipleri arasında Leszek Kołakowski, Paul Ricoeur, Jürgen Habermas, Charles Taylor ve Danielle Allen var. Chicago Üniversitesi'nde hukuk ve etik profesörü olan Nussbaum'un gerekçesi, bütün bir kariyeri özetliyor: Antik felsefe, duyguların felsefesi, feminist felsefe, hayvan hakları ve Amartya Sen'le birlikte geliştirdiği, insan refahını gelir yerine "insanın gerçekten yapabildiği ve olabildiği şeyler"le ölçen "yapabilirlikler yaklaşımı" (capabilities approach). Otuz kitap, yetmişten fazla fahri doktora, 2016 Kyoto, 2018 Berggruen, 2021 Holberg ve 2022 Balzan ödülleri; Kluge, bu listenin Amerikan tacı. Nussbaum'un nisan ayında yayımlanan son kitabı *The Republic of Love: Opera and Political Freedom*'ı [sitemizde ele almıştık](/haber/nussbaum-yeni-kitap-republic-of-love); yapabilirlikler yaklaşımı, [Kuçuradi'nin](/haber/ioanna-kucuradi-1936-2026-vefat) insan haklarını "insanın olanakları"ndan türeten kuramının Anglofon dünyadaki en yakın akrabası.
+
+## Leibniz Ödülü: Barbara Vetter
+
+Alman Araştırma Vakfı'nın (DFG) her yıl on araştırmacıya verdiği ve her birine 2,5 milyon euro araştırma fonu sağlayan Gottfried Wilhelm Leibniz Ödülü, Almanya'nın en önemli bilim ödülü; 2026'da on isimden biri bir filozof: Berlin Freie Universität'ten Barbara Vetter. 144 aday arasından seçilen Vetter, ödülü 18 Mart'ta aldı ve 15 Nisan'da "Olanakları Düşünmek" başlıklı Leibniz Dersi'ni verdi. Vetter'in alanı modalite kuramı, yani olanaklılığın nasıl düşünüleceği sorusu: *Potentiality: From Dispositions to Modality* (2015) kitabı, olası dünyalar semantiğinin, geçen hafta [Stalnaker vesilesiyle](/haber/robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026) anlattığımız Lewis-Stalnaker geleneğinin, karşısına Aristotelesçi bir alternatif koydu: Olanaklılık, soyut dünyalar üzerinden değil, şeylerin kendi içindeki "potansiyeller" (bir bardağın kırılabilirliği, bir insanın öğrenebilirliği) üzerinden temellendirilmelidir. Bu "dispozisyonel modalite" kuramı, metafizikte analitik felsefenin Aristoteles'e dönüşünün en tutarlı örneklerinden biri. Bir filozofun Leibniz Ödülü alması nadir; son on yılda Almanya'da bu ödülü felsefeden alan birkaç isimden biri, ve ödülün bir metafizikçiye, hem de "olanak" kavramını çalışan birine gitmesi, Leibniz'in adını taşıyan bir ödül için yerinde bir seçim.
+
+## Grand Prix de Philosophie: Monique Dixsaut
+
+Académie française, 2026 ödül listesinde Grand Prix de Philosophie'yi "bütün felsefi eserleri için" Monique Dixsaut'ya verdi. 1933 doğumlu, Paris I Panthéon-Sorbonne emeritus profesörü Dixsaut, Fransa'nın yaşayan en büyük Platon uzmanı: *Le Naturel philosophe: Essai sur les dialogues de Platon* (1985), *Platon et la question de la pensée* (2000), *Platon: Le désir de comprendre* (2003) ve *Phaidon*, *Philebos* gibi diyalogların çevirileri. Dixsaut'nun Platon'u, bir doktrinler sistemi değil, "felsefi doğa"nın, felsefe yapmaya yatkın insanın kendisini diyalogda gerçekleştirmesidir; ona göre Platon'un diyalogları bir öğretiyi aktarmaz, düşünmenin kendisini sahneye koyar. Vrin'in "Klasik Düşünce Geleneği" dizisini yönetiyor; aynı zamanda Nietzsche üzerine de yazdı (*Nietzsche: Par-delà les antinomies*, 2006). Académie'nin ödülü bir ömrün eserine verilen bir onur ve doksan üç yaşındaki bir Platon okurunun bunu bir "Platon'u yeniden okuma" çağrısı olarak alması, felsefe tarihinin canlı bir disiplin olduğunu hatırlatıyor. Sitemizde [Platon'un mağarasını](/haber/platonun-magarasi-alegorisi) ele alırken Dixsaut'nun okuma biçimine değinmiştik.
+
+## Uluslararası Felsefe Olimpiyatı: Varşova'da üç altın
+
+34. Uluslararası Felsefe Olimpiyatı (IPO), 14-17 Mayıs'ta Varşova'da toplandı; FISP'in himayesinde 1993'ten beri düzenlenen yarışma, bu yıl rekor kırdı: 57 ülkeden delegasyon, deneme yarışmasında 118 lise öğrencisi. Öğrenciler, verilen dört felsefi alıntıdan birini seçip ana dilleri dışında bir dilde (İngilizce, Almanca, Fransızca ya da İspanyolca) dört saatte deneme yazıyor. Altın madalyalar Meksika'dan Luis Emanuel Gómez Guzmán'a, Bulgaristan'dan Simeon Kardzhiev'e ve Singapur'dan Abhineshwari Narayanan'a gitti. Türkiye'nin Olimpiyat'a katılımı Türkiye Felsefe Kurumu'nun organizasyonuyla sürüyor; ulusal elemeler kurumun takvimiyle duyuruluyor. Olimpiyat'ın felsefi anlamı, ödüllerin ötesinde: Felsefenin bir "yetenek" olarak, matematik ve fizik gibi, lise düzeyinde yarışılabilir ve öğretilebilir bir disiplin olduğu fikri, Türkiye'de liselerde felsefe dersinin kaderi tartışılırken dikkate değer.
+
+## Bu yıl daha önce yazdıklarımız
+
+2026'nın öteki büyük ödüllerini sitemizde ayrı ayrı ele almıştık; bu dosyayı tamamlamak için: [Templeton Ödülü](/haber/templeton-odulu-2026-simon-conway-morris) 1,4 milyon dolarla evrimsel yakınsama kuramcısı Simon Conway Morris'e; [Lebowitz Ödülü](/haber/lebowitz-odulu-2026-de-brigard-robins) belleğin doğası üzerine karşıt görüşleri savunan Felipe De Brigard ve Sarah Robins'e; [Berggruen Felsefe ve Kültür Ödülü](/haber/berggruen-odulu-michael-sandel) [Michael Sandel](/filozof/michael-sandel)'e; [Hannah Arendt Ödülü](/haber/lea-ypi-hannah-arendt-odulu-2026) Lea Ypi'ye; [Skytte Ödülü](/haber/seyla-benhabib-skytte-odulu-2026) Seyla Benhabib'e; [Karl Jaspers Ödülü](/haber/karl-jaspers-odulu-2026-seyla-benhabib) yine Benhabib'e; [Tractatus Ödülü](/haber/tractatus-odulu-2026-maria-sibylla-lotter-opfer) Maria-Sibylla Lotter'e; [Rolf Schock Ödülü](/haber/rolf-schock-odulu-2026-bas-van-fraassen) Bas van Fraassen'e; [Holberg Ödülü](/haber/holberg-odulu-2026-lyndal-roper) Lyndal Roper'a; [Kyoto Ödülü](/haber/kyoto-odulu-2026-laurie-anderson) Laurie Anderson'a. Al-Rodhan Ödülü'nün [uzun listesini](/haber/nayef-al-rodhan-odulu-2026-uzun-liste) yazmıştık; kısa liste ve kazanan açıklandığında ekleyeceğiz.
+
+## Tablonun söylediği
+
+2026'nın ödülleri yan yana konduğunda üç şey görünüyor. Birincisi, kadın filozofların yılı: Nussbaum, Vetter, Dixsaut, Ypi, Benhabib, Lotter, Roper, Robins. Bu, bir politika değil, bir kuşağın olgunlaşmasının sonucu; 1970-80'lerde felsefe bölümlerine giren kadınlar, şimdi ömür boyu başarı ödüllerinin yaşına geldi. İkincisi, "insanın değeri" sorusunun geri dönüşü: Nussbaum'un yapabilirlikleri, Ypi'nin özgürlüğü, Benhabib'in ötekilerin hakları, Lotter'in kurban kavramı, hepsi insan haklarının felsefi temellendirmesi etrafında dönüyor; bu hafta kaybettiğimiz Kuçuradi'nin hayatının sorusu, dünyanın en büyük ödüllerinin de sorusu. Üçüncüsü, metafiziğin itibarının iadesi: Vetter'in olanaklılık kuramı, Conway Morris'in evrimsel yakınsaması ve Dixsaut'nun Platon'u, "büyük sorular"ın felsefeye geri döndüğünü gösteriyor. Ödüller, felsefeyi yapmaz; ama felsefenin kendisini nasıl gördüğünü kaydeder.`,
+  },
+  {
+    title: "Uluğ Nutku: Anadolu'nun 'gezgin düşünürü' ve felsefeylemenin Türkçesi",
+    slug: "ulug-nutku-gezgin-filozof-felsefeylemek",
+    summary:
+      "Sivas Zara'da doğdu, Robert Kolej'de ve İstanbul Üniversitesi'nde okudu, Mersin, Çukurova ve Cumhuriyet üniversitelerinin felsefe bölümlerini kurdu; felsefeyi bir bilgi yığını değil bir etkinlik olarak düşündü ve bunu Türkçede tek kelimeyle söyledi: 'felsefeylemek'. 2014'te kaybettiğimiz Uluğ Nutku'nun, Türkiye'de felsefenin Anadolu'ya taşınmasındaki yeri ve 'güncelin felsefesi' programı.",
+    seoTitle: "Uluğ Nutku (1935-2014): 'Gezgin filozof', felsefeylemek, aşmaca ve güncelin felsefesi",
+    metaDescription:
+      "Uluğ Nutku'nun hayatı ve felsefesi: Zara, Robert Kolej, İstanbul Üniversitesi, Mengüşoğlu'nun insan felsefesi; Mersin, Çukurova ve Cumhuriyet üniversitelerinde felsefe bölümlerinin kuruluşu; 'felsefeylemek' ve 'aşmaca' kavramları; İnsan Felsefesi Çalışmaları, Felsefe ve Güncellik, Daha Güncel Felsefe, İnanmanın Felsefesi.",
+    contentType: "PORTRE",
+    coverImage: "/kapak/ulug-nutku.jpg",
+    imageCredit: "Uluğ Nutku (1935-2014)",
+    featured: true,
+    sourceName: "Mersin Üniversitesi · Biyografya",
+    sourceUrl: "https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002",
+    publishedAt: "2026-10-04T11:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "kavram", "etik", "tarih"],
+    philosopherSlugs: ["ulug-nutku", "ioanna-kucuradi"],
+    sources: [
+      { title: "MEÜ Felsefe Bölümü kurucusu Prof. Nutku yaşamını yitirdi", publisher: "Milliyet (Mersin)", date: "18 Kasım 2014", url: "https://www.milliyet.com.tr/yerel-haberler/mersin/meu-felsefe-bolumu-kurucusu-prof-nutku-yasamini-yitirdi-10479002", primary: true },
+      { title: "Uluğ Nutku", publisher: "Biyografya", url: "https://www.biyografya.com/tr/biographies/ulug-nutku-9533a6e5" },
+      { title: "Cumhuriyet Üniversitesi Felsefe Bölümü'nün Kurucusu: Uluğ Nutku", publisher: "Şehr-i Sivas", url: "https://www.sehrisivas.com/sivas_makaleleri/cumhuriyet-universitesi-felsefe-bolumunun-kurucusu-ulug-nutku_2297.html" },
+    ],
+    content: `Türkiye'de felsefe tarihi çoğunlukla İstanbul ve Ankara üzerinden anlatılır: Reichenbach'ın İstanbul'u, Hızır'ın Ankara'sı, Mengüşoğlu'nun kürsüsü, Kuçuradi'nin Hacettepe'si. Bu anlatının dışında kalan bir hikâye var: Felsefenin 1990'larda, yeni kurulan taşra üniversiteleriyle birlikte Anadolu'ya taşınması. O hikâyenin baş kişisi, çevresinde "gezgin düşünür" diye anılan Uluğ Nutku'dur. Bu hafta [İoanna Kuçuradi'yi](/haber/ioanna-kucuradi-1936-2026-vefat) uğurlarken, aynı kuşaktan, aynı okuldan, ama bambaşka bir yol tutmuş bir filozofu da hatırlamanın zamanı.
+
+## Zara'dan Robert Kolej'e, Robert Kolej'den Beyazıt'a
+
+Uluğ Nutku 1935'te Sivas'ın Zara ilçesinde doğdu. Cumhuriyet'in ilk kuşağının çocuğuydu; eğitimini ülkenin en iyi okullarında aldı: 1956'da Robert Kolej'i bitirdi, 1957-1964 arasında İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nde okudu. Sistematik Felsefe ve Mantık Kürsüsü'ne kayıtlıydı; felsefe tarihi, Eski Yunan dili ve edebiyatı ile Latin dili ve edebiyatı sertifikaları aldı. İngilizce, Almanca, Eski Yunanca ve Latince biliyordu; Platon'u ve Aristoteles'i aslından okuyan, Kant'ı Almancasından tartışan bir kuşağın son temsilcilerindendi.
+
+Beyazıt'taki felsefe bölümü, Nutku'nun öğrencilik yıllarında Takiyettin Mengüşoğlu'nun bölümüydü. Mengüşoğlu, Göttingen'de Nicolai Hartmann'ın öğrencisi olmuş, Türkiye'ye "felsefi antropoloji"yi, insanı bütün fenomenleriyle (bilen, yapıp eden, değerleri duyan, tavır takınan, önceden gören, isteyen, özgür, tarihsel, ideleştiren, kendisini bir şeye veren, çalışan, eğiten ve eğitilen, inanan, sanatın ve tekniğin yaratıcısı, konuşan, biyopsişik bir varlık olarak) ele alan felsefeyi getirmişti. Kuçuradi bu mirası etiğe ve insan haklarına taşıdı; Nutku ise "insan felsefesi"ni kendi ekseni yaptı ve ona iki şey ekledi: tarih ve güncellik.
+
+## Gezgin filozof: Felsefeyi Anadolu'ya taşımak
+
+Nutku'nun akademik hayatı, Türkiye'de üniversitenin coğrafyasının genişlediği yıllara denk geldi ve o bu genişlemenin felsefedeki işçisi oldu. İstanbul'dan sonra Çukurova Üniversitesi'nde ders verdi; Kocaeli'de bulundu; 1994'te profesör oldu ve aynı yıl, henüz iki yaşındaki Mersin Üniversitesi'nde Felsefe Bölümü'nü kurdu, Fen-Edebiyat Fakültesi'nin kuruluşunda çalıştı ve 1999'a kadar kurucu bölüm başkanı olarak kaldı. Sonra Sivas'a, doğduğu ilin üniversitesine gitti ve 2000'de Cumhuriyet Üniversitesi Felsefe Bölümü'nü kurdu. Mersin Felsefeciler Derneği'nin anmasında üç bölümün kurucusu olarak anılır: Mersin, Çukurova ve Cumhuriyet. 2002'de yaş haddinden emekli oldu; ama emeklilik onun için ders vermeyi bırakmak anlamına gelmedi; "gezgin düşünür" adı buradan gelir: Bir üniversiteden ötekine, bir kentten ötekine, nerede felsefe bölümü kurulacaksa oraya giden bir hoca.
+
+Bu bir biyografi ayrıntısı değil, bir felsefi tavırdır. 1990'larda Türkiye'de felsefe bölümlerinin sayısı hızla arttı; ama bölüm açmak ile felsefe kurmak aynı şey değildir. Nutku, kurduğu bölümlerde ders programlarını, kütüphaneleri ve ilk öğrenci kuşaklarını kendi elleriyle biçimlendirdi; Mersin'de Felsefeciler Derneği'ni kurdu ve onursal başkanı oldu; aynı kentte Eğitim-Sen'in üniversite şubesinin kuruluşuna öncülük etti. Öğrencilerinin 2005'te hazırladığı *Uluğ Nutku'ya Armağan* kitabı, Anadolu'da felsefe öğrenmiş bir kuşağın hocasına teşekkürüdür. Mersin Üniversitesi Fen-Edebiyat Fakültesi Dekanı'nın cenazesindeki sözleri, mesleğin ona bakışını özetler: "Felsefenin sevilmesi ve yaygınlaşması için çalışmayı görev bilmişti."
+
+## Felsefeylemek: Bir kelimeyle bir program
+
+Nutku'nun Türkçeye kazandırdığı iki kavram var; ikisi de onun felsefe anlayışının özetidir. Birincisi "felsefeylemek". Türkçede "felsefe yapmak" denir; Nutku bunu beğenmezdi, çünkü "yapmak" felsefeyi bir nesne, bir ürün gibi gösterir. "Felsefeylemek", Türkçenin fiil türetme gücünü kullanarak felsefeyi bir etkinlik, bir eyleme biçimi olarak adlandırır: Felsefe yapılmaz, felsefeylenir; tıpkı "düşünmek" gibi, bir süreçtir. Bu, Kant'ın "felsefe öğrenilmez, felsefe yapmak öğrenilir" sözünün Türkçedeki en kısa karşılığıdır ve Nutku'nun hocalığının ilkesiydi: Öğrencisine felsefe tarihini ezberletmek değil, felsefeylemeyi öğretmek.
+
+İkincisi "aşmaca". İnsan, Mengüşoğlu'nun insan felsefesinde, verili olanı aşan varlıktır; Nutku bu aşma hareketini, Hegel'in *Aufhebung*'una ya da Nietzsche'nin "kendini aşma"sına Türkçe bir karşılık arayarak, "aşmaca" diye adlandırdı: İnsanın kendi durumunu, kendi bilgisini, kendi kültürünü aşarak ilerlemesi; ama aşılanı yok etmeden, onu içinde taşıyarak. Kavram, Nutku'nun insan felsefesinin tarih felsefesiyle birleştiği yerdir: İnsan tarihsel bir varlıktır, çünkü aşmacadır.
+
+## Güncelin felsefesi
+
+Nutku'nun kitapları bu programın uygulamasıdır. *İnsan Felsefesi Çalışmaları*, Mengüşoğlu çizgisinin devamı ve genişlemesidir: nedensellik, bilimsellik, özgürlük, ölüm, kader, kültür, insan, toplum, düşünme, eylem, mutluluk, amaç, bilim ve inanma kavramlarını tarihsel bağlamları içinde çözümler; Nutku'ya göre bir kavram, tarihinden koparılarak anlaşılamaz, ama tarihine de indirgenemez. *Felsefe ve Güncellik* ile *Daha Güncel Felsefe*, başlıklarının ilan ettiği programı taşır: Felsefe, "güncel"in felsefesi olmalıdır; günün sorunlarıyla, siyasetle, bilimle, toplumsal değişimle hesaplaşmayan felsefe, Nutku'ya göre, felsefeylemek değil felsefe tarihi anlatmaktır. Bu, Marx'ın "filozoflar dünyayı yorumladı, oysa mesele onu değiştirmektir" tezinin Nutku'daki yankısıdır; ama Nutku, Marx'ı da tarihsel bağlamında, aşılması gereken bir uğrak olarak okur. *İnanmanın Felsefesi*, inanmayı dinî inançla sınırlamadan, insanın bir varlık biçimi olarak ele alır: İnsan, bilmediği şeye inanarak eyler; bilim de bir inanma biçimi içerir; sorun inanmak değil, neye ve nasıl inanıldığıdır. *Ur Uruk Urşu: Şiir Damlası Tarih* ise bir filozofun şiirle, Mezopotamya'nın ilk kentlerinden bugüne tarihi anlatma denemesidir; Nutku'nun felsefeyi akademik makaleye hapsetmeyi reddeden tavrının son ürünü.
+
+Nutku'nun felsefesi, Kuçuradi'ninki gibi, bir sistem değildir; birkaç kavram ve bir tavırdır. Tavır, felsefenin Türkçede, Türkçenin kendi kelimeleriyle ve Türkiye'nin güncel sorunları karşısında yapılabileceği inancıdır; sitemizde [Yalçın Koç'un](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) Türkçe felsefe dili arayışını ele alırken bu tavrın başka bir koluna değinmiştik. Nutku'nun farkı, bunu İstanbul'dan değil Mersin'den, Sivas'tan, Adana'dan yapmasıdır.
+
+## Ardından
+
+Uluğ Nutku 17 Kasım 2014'te Mersin'de, 79 yaşında öldü; cenazesi ertesi gün Mersin Üniversitesi Rektörlük binası önünde düzenlenen törenle uğurlandı. Törende konuşan öğrencilerinden birinin sözü, hocanın ne olduğunu akademik unvanlardan iyi anlatır: "İletişim kurduğu herkese kendini çok özel hissettirirdi." Bugün Mersin, Sivas ve Adana'da felsefe okuyan öğrenciler, kurucusunun adını çoğu zaman bilmeden, onun açtığı bölümlerde felsefeyliyor. On iki yıl sonra, aynı kuşağın son büyük ismini kaybettiğimiz bir haftada, Türkiye'de felsefenin kurumsallaşmasının yalnızca büyük kentlerin ve büyük adların değil, bavulunu alıp Anadolu'ya giden hocaların işi olduğunu hatırlamak gerekiyor.`,
+  },
+  {
+    title: "YANIS VAROUFAKIS VE TEKNOFEODALİZM",
+    slug: "yanis-varoufakis-ve-teknofeodalizm",
+    summary:
+      "Kapitalizm gerçekten öldü mü, yoksa yalnızca biçim mi değiştirdi? Yunan iktisatçı Yanis Varoufakis, 2023'te 'bulut sermayesi' ve 'teknofeodalizm' kavramlarıyla dijital platformların kârı rantla, piyasayı 'bulut tımarları'yla değiştirdiğini ilan etmişti. 2026'da Marksist eleştirmenlerine uzun bir cevap yazdı: 'Tarih geriye gitmiyor; yepyeni bir toplumsal-iktisadi tarza savruluyoruz.' Tezin anatomisi, Gane, Morozov ve Durand'ın itirazları, yapay zekâ çağında kavramın sınavı.",
+    seoTitle: "Yanis Varoufakis ve teknofeodalizm: Bulut sermayesi, rant, algoritma ve kapitalizmin ölümü tartışması (2026)",
+    metaDescription:
+      "Varoufakis'in teknofeodalizm tezi: bulut sermayesi, bulut rantı, dijital lordlar ve serfler; Gane, Snow, Morozov ve Durand'ın 'kapitalizm hâlâ kapitalizmdir' eleştirisi; Varoufakis'in 2026 tarihli Marksist savunması; algoritma, epistemoloji ve demokrasi; yapay zekâ çağında teknofeodalizm.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Yanis%20Varoufakis%20on%20Subversive%20Festival.jpg?width=1600",
+    imageCredit: "Yanis Varoufakis, Subversive Festival, Zagreb, 2013 · Fotoğraf: Robert Crc, Licence Art Libre · Wikimedia Commons",
+    featured: true,
+    sourceName: "Jacobin · Journal of Classical Sociology · yanisvaroufakis.eu",
+    sourceUrl: "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
+    publishedAt: "2026-10-03T21:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["marksizm", "teknoloji-felsefesi", "siyaset-felsefesi", "yapay-zeka", "demokrasi", "kavram"],
+    philosopherSlugs: ["yanis-varoufakis", "david-harvey"],
+    sources: [
+      { title: "Yanis Varoufakis, 'The Marxist Case for the Technofeudal Hypothesis'", publisher: "Jacobin (kısaltılmış) · tam metin yanisvaroufakis.eu", date: "4 Ağustos / 26 Eylül 2026", url: "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism", primary: true },
+      { title: "Nicholas Gane, 'Capitalism is Capitalism, not Technofeudalism'", publisher: "Journal of Classical Sociology 25(4), s. 353-368", date: "2025", url: "https://doi.org/10.1177/1468795X241269293" },
+      { title: "Henry Snow, 'We're Still Living Under Capitalism, Not Techno-Feudalism'", publisher: "Jacobin", date: "Ekim 2023", url: "https://jacobin.com/2023/10/cloud-capitalism-technofeudalism-serfs-cloud-big-data-yanis-varoufakis" },
+      { title: "Cédric Durand, Evgeny Morozov, Susan Watkins, 'How Big Tech Became Part of the State'", publisher: "Jacobin", date: "Kasım 2025", url: "https://jacobin.com/2025/11/technofeudalism-capitalism-microsoft-google-democracy" },
+      { title: "Yanis Varoufakis, Technofeudalism: What Killed Capitalism", publisher: "Bodley Head", date: "2023", url: "https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781529926095" },
+    ],
+    content: `Bir zamanlar toprağı elinde tutan aristokratlar vardı. Daha sonra fabrikaları, madenleri, demiryollarını ve finans sistemini kontrol eden kapitalistler ortaya çıktı. Peki bugün gücü kim elinde tutuyor? Toprağı olmayan ama milyarlarca insanın davranışlarını belirleyen teknoloji şirketleri mi? Yunan iktisatçı ve siyaset kuramcısı Yanis Varoufakis bu soruya, 2023'te yayımlanan *Technofeudalism: What Killed Capitalism* (Teknofeodalizm: Kapitalizmi Ne Öldürdü) kitabıyla radikal bir cevap verdi: Kapitalizm sona erdi; yerine teknofeodalizm geldi. Üç yıl içinde kavram, iktisat ve siyaset felsefesinin en çok tartışılan tezlerinden biri oldu; Steve Bannon'dan Marksist dergilere kadar beklenmedik okurlar buldu. Bu yıl Varoufakis, Marksist eleştirmenlerine, önce Jacobin'de kısaltılmış, 26 Eylül'de kendi sitesinde tam hâliyle yayımlanan uzun bir cevap yazdı: "The Marxist Case for the Technofeudal Hypothesis". Tartışma yeni bir aşamaya girdi; bu yazı tezin anatomisini, itirazları ve yapay zekâ çağındaki anlamını ele alıyor.
+
+## Kim konuşuyor?
+
+Önce konuşanın kim olduğunu bilmek gerekir; çünkü teknofeodalizm tezi bir kürsüden değil, bir biyografinin içinden geliyor. Varoufakis 1961'de Atina'da doğdu; Essex'te matematiksel iktisat ve oyun kuramı okudu, Cambridge, Sidney ve Atina'da ders verdi. 2012-2015 arasında, bir iktisat profesörü için alışılmadık bir işte çalıştı: Oyun şirketi Valve'ın "yerleşik iktisatçısı" olarak, milyonlarca oyuncunun sanal eşya alıp sattığı dijital ekonomileri içeriden gözlemledi. Kitabında bu deneyimin belirleyici olduğunu yazar: Piyasa gibi görünen ama tek bir şirketin kurallarını yazdığı, fiyatları, görünürlüğü ve erişimi belirlediği bir ekonomi görmüştü. 2015'te, Yunanistan'ın iflasın eşiğindeki aylarında, Syriza hükümetinin maliye bakanı olarak Avrupa alacaklılarıyla müzakereleri yürüttü, referandumun ardından istifa etti ve *Adults in the Room* ile bu deneyimi anlattı. 2016'da DiEM25'i kurdu. Teknofeodalizm tezi, hem Valve'da gördüğü dijital ekonominin hem de Troyka'da gördüğü "piyasa dışı güç"ün kuramıdır.
+
+## Temel soru: Kapitalizm hâlâ kapitalizm mi?
+
+Klasik kapitalizmde şirketler piyasada birbirleriyle rekabet eder; ürün satılır, kâr elde edilir, kâr yeniden yatırılır. Marx'ın kapitalizmi "en saf hâliyle", kendi çoğalmasını arayan sermayenin sürüklediği anarşik bir piyasa sistemi olarak incelemesinin nedeni buydu. Varoufakis'e göre dijital ekonomi bu mekanizmayı değiştirdi. Amazon yalnızca ürün satan bir şirket değildir; Google yalnızca arama hizmeti sunmaz; Apple yalnızca telefon üretmez; Meta yalnızca sosyal medya işletmez. Bu şirketlerin ortak özelliği, insanların ekonomik ve toplumsal faaliyetlerini gerçekleştirdiği dijital ortamların kendisine sahip olmalarıdır. Varoufakis bu yeni güce "bulut sermayesi" (cloud capital) adını veriyor ve 2026 makalesinde tanımı keskinleştiriyor: Bulut sermayesi, "meta üretmeyen, ama bizimle doğrudan arayüz kurarak, piyasa denebilecek herhangi bir şeyin dışında, muazzam rant çıkarma gücü üreten olağanüstü makineler ağı"dır.
+
+Buradaki kritik değişiklik şudur: Platform artık yalnızca satıcı değil, pazar yerinin sahibidir. Amazon.com'a girdiğinizde bir piyasaya değil, Varoufakis'in deyişiyle bir "bulut tımarı"na (cloud fief) girersiniz: Hangi ürünü göreceğinize, hangi satıcının öne çıkacağına, fiyatın ne olacağına tek bir algoritma karar verir; satıcılar Amazon'a cirolarının önemli bir bölümünü "bulut rantı" olarak öder. Feodalizm metaforu tam da burada devreye girer: Feodal sistemde köylü, üretim yapabilmek için lordun toprağına erişmek zorundaydı ve ürünün bir kısmını ona verirdi. Bugün içerik üreticisi platforma, satıcı Amazon'a, uygulama geliştiricisi Apple veya Google'a, reklamveren platformların kullanıcı verisine bağımlıdır. Varoufakis'in sınıf şeması iki yeni figür ekler: Platformlar için ücretsiz veri üreten milyarlarca kullanıcı, "bulut serfleri"; depolarda ve algoritmik yönetim altında çalışan işçiler, "bulut proleterleri"; ve geleneksel kapitalistler, artık bulut lordlarına rant ödeyen "vasal kapitalistler".
+
+## Kârın yerini rant mı aldı?
+
+Tezin iktisadi çekirdeği, kâr ile rant arasındaki klasik ayrımdır. Kâr, piyasada rekabet ederek, ürün satarak elde edilir ve rekabetle aşınır; rant ise kıt bir kaynağa, toprağa ya da tekele, sahip olmaktan gelir ve rekabetten etkilenmez. Adam Smith'ten Ricardo'ya klasik iktisat, kapitalizmi rantçı aristokrasiye karşı kârın zaferi olarak anlatmıştı. Varoufakis, tarihin tersine döndüğünü söyler: Amazon'un gücü yalnızca kendi sattığı ürünlerden değil, Marketplace üzerinde faaliyet gösteren milyonlarca satıcının ekonomik faaliyetinden aldığı paydan gelir; Apple'ın gücü iPhone satmasından çok, App Store'daki her işlemden aldığı yüzde otuzdan. Kapitalist piyasanın içindeki şirketler, piyasanın sahibi konumuna geçmiştir. Bunun makro sonucu, Varoufakis'e göre, 2008 sonrasında merkez bankalarının yarattığı ucuz paranın yatırıma değil bulut sermayesine akması ve kârın ekonomideki payının rant karşısında gerilemesidir.
+
+## Algoritma yeni toprak mı?
+
+Tezi daha felsefi bir düzleme taşımak mümkün. Feodalizmde güç toprağa erişimi kontrol etmekten, sanayi kapitalizminde üretim araçlarına sahip olmaktan geliyordu. Dijital ekonomide yeni bir soru ortaya çıkıyor: Güç, gerçekliği görünür kılan algoritmalara sahip olmaktan mı geliyor? Google hangi sonucu gösterecek, YouTube hangi videoyu önerecek, TikTok hangi içeriği milyonlara ulaştıracak, Amazon hangi ürünü öne çıkaracak, X'te hangi görüş görünür olacak? Bu sorular yalnızca ticari değil, epistemolojik sorulardır. Artık mesele yalnızca "kim neye sahip?" değil, "kim neyi görebileceğimize karar veriyor?"dur.
+
+Teknofeodalizm tartışmasının en güçlü tarafı, ekonomiyi epistemolojiyle birleştirmesidir; bu yüzden Marx kadar Foucault ve Heidegger üzerinden de okunabilir. Marx üretim ilişkilerini, Foucault iktidarın nasıl işlediğini, Heidegger teknolojinin insanın dünyayla ilişkisini nasıl dönüştürdüğünü sorar; bugün üçünü aynı anda düşünmek zorundayız. Varoufakis'in bulut sermayesinin "davranış değiştirme" gücü üzerine söyledikleri, Shoshana Zuboff'un "gözetim kapitalizmi"yle örtüşür; fark, Zuboff'un bunu kapitalizmin bir sapması, Varoufakis'in ise kapitalizmin ötesine geçiş olarak görmesidir. Sitemizde [yapay zekânın ekonomi-politiğini](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) ele alırken Foucault'nun "algoritmik yönetimsellik"ine ve Habermas'ın meşruiyet sorusuna değinmiştik; Varoufakis bu tabloya iktisadi bir omurga öneriyor.
+
+## Peki Varoufakis haklı mı? Eleştiriler
+
+Tam burada tezin en önemli problemi ortaya çıkıyor ve eleştiriler üç koldan geliyor. Birincisi, kavramsal: Warwick'ten sosyolog Nicholas Gane'in *Journal of Classical Sociology*'de yayımlanan "Capitalism is Capitalism, not Technofeudalism" makalesi, kapitalizmin yerini feodalizmin almadığını, kapitalizmin ulus-devletlerin ve sosyal demokrasinin denetim kapasitesinin dışına taşan yeni biçimler geliştirdiğini savunuyor. Gane'e göre Amazon gibi platformların gücü gerçek ve tarihsel olarak yeni olabilir; fakat bundan "piyasa ve kâr artık merkezî değildir" sonucu çıkmaz: Amazon, Google ve Apple hâlâ sermaye biriktiriyor, yatırım yapıyor, kâr peşinde koşuyor ve birbirleriyle rekabet ediyor. Gane'in ikinci itirazı siyasaldır: Varoufakis'in önerdiği "liberter Marksist" alternatif, devletin düzenleyici gücüne ilgisizdir ve paradoksal biçimde, piyasa ve kârın artık merkezî olmadığı söylenen bir sistemde, şirketlerin piyasa konumunu zayıflatmak için tüketici boykotu gibi piyasa temelli eylemler önerir.
+
+İkincisi, tarihsel: Jacobin'de David Addison ve Merle Eisenberg gibi ortaçağ tarihçileri, "feodalizm" kavramının tarihçiler arasında zaten tartışmalı olduğunu ve metaforun ortaçağ ekonomisini karikatürleştirdiğini yazdı; Henry Snow ise "hâlâ kapitalizmde yaşıyoruz" başlıklı eleştirisinde, "bulut serfi" kavramının ücretli emeği görünmezleştirdiğini savundu. Üçüncüsü, Marksist: Cédric Durand, kendi "teknofeodalizm" kitabında (*Technoféodalisme*, 2020; Varoufakis'ten önce) kavramı rantiye kapitalizminin bir aşaması olarak kullanmıştı ve Varoufakis'in "kapitalizm öldü" iddiasını abartı buluyor; Evgeny Morozov ile birlikte kasım 2025'te yazdıkları "Big Tech nasıl devletin parçası oldu" makalesi, asıl dönüşümün feodalleşme değil, platformların devletle iç içe geçmesi olduğunu savunuyor. Bu eleştirinin arkasında Marx'ın temel tezi var: Kapitalizmin dinamiği sermaye birikimidir; rant kapitalizmin dışında değil, Marx'ın *Kapital*'in üçüncü cildinde gösterdiği gibi, içindedir.
+
+## Varoufakis'in 2026 cevabı
+
+Varoufakis'in bu yılki makalesi tam da bu üçüncü eleştiriye cevap. Jacobin'de "yakında kapitalizmi hâlâ kapitalizm sananlar için" diye özetlediği tezi şu: Marx'ın yöntemi, kapitalizmi ahlaki yargıyla değil, sermayenin kendine özgü hareket yasalarıyla incelemekti; aynı yöntem bugün uygulandığında, bulut sermayesinin geleneksel sermayeden farklı bir hareket yasası olduğu görülür. Geleneksel sermaye değer üretmek için emek satın almak ve meta satmak zorundadır; bulut sermayesi ise kullanıcıların ücretsiz emeğiyle kendini yeniden üretir ve meta satmadan rant toplar. Varoufakis, eleştirmenlerinin tezi "geçmişi idealleştirmek" olarak okumasının yanlış olduğunu söylüyor: "Feodalizme dönmüyoruz; tarih geriye gitmiyor. Dizginsiz sermaye birikiminin sürüklediği yepyeni bir toplumsal-iktisadi tarza doğru savruluyoruz." Yani teknofeodalizm, kapitalizmin öncesine değil sonrasına aittir ve tam da sermaye birikiminin ürünüdür; "kapitalizmi ne öldürdü?" sorusunun cevabı, "sermayenin kendisi"dir.
+
+Bu cevap tartışmayı bitirmiyor, ama yerini değiştiriyor. Asıl soru artık "Varoufakis haklı mı?" değil, şudur: 21. yüzyıl kapitalizmini açıklamak için 19. yüzyılın kavramları hâlâ yeterli mi? Eğer "rant" ve "kâr" ayrımı bulut ekonomisinde bulanıklaşıyorsa, Marx'ın kavramlarını terk etmek mi, yoksa Varoufakis'in yaptığı gibi onları yeni bir nesneye uygulamak mı gerekir? Sitemizde [David Harvey'in sermaye analizini](/filozof/david-harvey) ele alırken, Harvey'in "mülksüzleştirme yoluyla birikim" kavramının bu tartışmanın öteki ucunu tuttuğuna değinmiştik: Harvey için platform rantı, kapitalizmin yeni bir aşaması değil, her zaman yaptığı şeyin dijital biçimidir.
+
+## Yapay zekâ teknofeodalizmi güçlendiriyor mu?
+
+2026'da bu tartışma daha da önemli hâle geldi; çünkü yapay zekâ, bulut sermayesinin üzerine yeni bir katman ekliyor. Büyük modelleri geliştirmek için devasa veri kümeleri, hesaplama gücü, çipler, veri merkezleri, bulut altyapısı ve kullanıcı verisi gerekiyor ve bunların önemli bir bölümü birkaç şirketin kontrolünde; Stanford'un bu yılki AI Index raporuna göre ABD'deki özel yapay zekâ yatırımı Çin'dekinin yirmi katından fazla. Varoufakis'in kavramlarıyla, yapay zekâ bulut sermayesinin "kendini yeniden üretme" kapasitesini artırıyor: Model, kullanıcıların ücretsiz ürettiği metinle eğitiliyor, sonra o kullanıcılara arayüz olarak geri satılıyor. Varoufakis, 2026'daki konuşmalarında bu tabloyu Palantir ve savunma teknolojileri üzerinden "tech lordism" kavramıyla genişletti: Bulut lordları artık yalnızca piyasayı değil, devletin güvenlik altyapısını da işletiyor. Durand ve Morozov'un "Big Tech devletin parçası oldu" tezi ile Varoufakis'in "lordluk" tezi, farklı adlarla aynı olguyu işaret ediyor.
+
+## Teknofeodalizm sadece ekonomi değildir
+
+Varoufakis'i yalnızca bir iktisatçı olarak okumak teorinin önemli bir bölümünü kaçırmak olur; çünkü teknofeodalizm aynı zamanda bir demokrasi problemidir. Bir toplumda insanların bilgiye erişimini birkaç özel şirketin algoritmaları belirliyorsa, bir avuç platform kamusal iletişim altyapısının önemli bölümünü kontrol ediyorsa, yapay zekâ modelleri bilgi üretiminin arayüzü hâline geliyorsa, şu soru kaçınılmaz olur: Demokratik egemenlik kimin elindedir? Devletin mi, seçmenin mi, yoksa platformun algoritmasını yazan şirketin mi? Varoufakis'in cevabı, DiEM25'in programında somutlaşır: Bulut sermayesinin "sosyalleştirilmesi", platformların kullanıcı kooperatiflerine dönüştürülmesi ve verinin bir kamu malı olarak tanınması. Eleştirmenleri bunu ütopik buluyor; Varoufakis ise alternatifin, bulut lordlarının devletle birleştiği bir "teknofeodal mutlakiyet" olduğunu söylüyor.
+
+Teknofeodalizm teorisinin en güçlü tarafı belki de kavramın kendisi değil, bize sordurduğu sorudur: Bir şirket insanların içinde yaşadığı dijital dünyayı kontrol etmeye başladığında, hâlâ sadece bir şirket midir? Bu soru, Amazon'dan Google'a, Meta'dan OpenAI'a kadar bütün büyük teknoloji şirketleri için geçerlidir ve burada felsefe yeniden ekonominin içine girer. Çünkü mesele artık yalnızca mülkiyet değil, özgürlüktür. Özgürlük yalnızca istediğimizi satın alabilmekse başka bir şeydir; içinde düşündüğümüz, konuştuğumuz, gördüğümüz ve karar verdiğimiz dijital ortamın kurallarını belirleyebilmekse bambaşka bir şey. Kant'ın "Aydınlanma nedir?" sorusuna verdiği cevap, "aklını başkasının kılavuzluğu olmadan kullanma cesareti"ydi; bulut tımarında aklın kılavuzu bir algoritmaysa, Aydınlanma sorusu yeniden açılmış demektir.
+
+## Sonuç: Kapitalizm ölmedi; fakat eski kapitalizmin dünyasında yaşamıyoruz
+
+Varoufakis'in "teknofeodalizm" kavramı doğru olsun ya da olmasın, önemli bir tarihsel dönüşümü görünür kılıyor. Sanayi kapitalizminin fabrikası yerini giderek platforma bırakıyor; işçi yalnızca fabrikada değil, algoritmik sistemlerin içinde çalışıyor; tüketici yalnızca müşteri değil, veri üreten bir kullanıcı; piyasa yalnızca alışveriş alanı değil, algoritmik olarak düzenlenen bir ekosistem; ve sermaye artık yalnızca fiziksel üretim araçlarında değil, dijital gerçekliğin altyapısında birikiyor. Gane ve Durand haklıysa bu hâlâ kapitalizmdir; Varoufakis haklıysa kapitalizmin ötesidir. Her iki durumda da şu cümle doğru: Kapitalizm ölmüş olmayabilir, fakat kapitalizmin üzerinde yükseldiği dünya değişmiştir. Ve felsefenin önündeki yeni soru şudur: Dijital dünyanın efendileri ortaya çıktığında özgür insan ne demektir?`,
+  },
+  {
+    title: "4 EKİM 2026 — YAKLAŞAN FELSEFE ETKİNLİKLERİ VE YENİ KİTAPLAR",
+    slug: "yaklasan-felsefe-etkinlikleri-ve-yeni-kitaplar-4-ekim-2026",
+    summary:
+      "Türkiye'de felsefe takvimi hareketleniyor: 8 Ekim'de İstanbul Üniversitesi'nde Önay Sözer Sempozyumu, ekim sonunda İslam Felsefesi Sempozyumu ve 'Teknik ve Felsefe', kasımda Novembertagung ve Reichenbach kongresi. Batı dışından: Hokkaido'da felsefe ve yapay zekâ, Hildesheim'da Kore Felsefesi Haftası, Hangzhou'da Çin'de bilim tarihyazımı, Şanghay'da Williamson. Ve Türkçede yedi yeni felsefe kitabı.",
+    seoTitle: "Yaklaşan felsefe etkinlikleri ve yeni kitaplar: 4 Ekim 2026 (İstanbul, Hokkaido, Hildesheim, Hangzhou, Şanghay)",
+    metaDescription:
+      "Ekim-Kasım 2026 felsefe takvimi: Önay Sözer Sempozyumu, Teknik ve Felsefe, İslam Felsefesi Sempozyumu, Novembertagung, Reichenbach kongresi, Philosophy & AI 5 Hokkaido, Kore Felsefesi Haftası Hildesheim, Historiography of Science in China Zhejiang, Williamson Fudan; Türkçede yeni felsefe kitapları.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20University%20Entrance%20Gate%2C%202025.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi ana giriş kapısı, Beyazıt, 2025 · Fotoğraf: Medelam, CC BY-SA 4.0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Düzenleyici kurumların duyuruları",
+    sourceUrl: "https://novembertagung.wordpress.com/",
+    publishedAt: "2026-10-03T21:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "sempozyum", "akademi", "yeni-kitap", "islam-felsefesi"],
+    philosopherSlugs: ["timothy-williamson"],
+    sources: [
+      { title: "Modern Korean Thinkers: Late 19th Century to 1945 — International Workshop", publisher: "GloPhi, Universität Hildesheim", date: "7-8 Ekim 2026", url: "https://www.uni-hildesheim.de/glophi/2026/09/24/modern-korean-thinkers/", primary: true },
+      { title: "Historiography of Science in China", publisher: "Zhejiang University / CWB Philosophy of Science", date: "24-25 Ekim 2026", url: "https://www.eventbrite.com/e/historiography-of-science-in-china-tickets-1999519301055" },
+      { title: "36th Novembertagung on the History and Philosophy of Mathematics", publisher: "Novembertagung", url: "https://novembertagung.wordpress.com/" },
+      { title: "Felsefi Beyan — Michel Foucault", publisher: "Yapı Kredi Yayınları", url: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx" },
+      { title: "Utanç Devrimci Bir Duygudur — Frédéric Gros", publisher: "Yapı Kredi Yayınları", url: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx" },
+    ],
+    content: `Ekim ve kasım ayları Türkiye'de felsefe açısından yoğun geçecek. İstanbul öne çıkarken, etkinlikler yalnızca Batı felsefesiyle sınırlı kalmıyor; İslam felsefesi, bilim felsefesi, teknik, matematik, Çin ve Kore düşüncesi de takvimde. Daha önce ayrı haber yaptığımız toplantıları bağlantıyla verdik, ayrıntıları tekrarlamadık; bu haftanın yeni girdileri Hildesheim, Hangzhou ve Tokyo. Yazının sonunda Türkçede yeni çıkan felsefe kitapları için [ayrı dosyamıza](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) bağlantı var.
+
+## Türkiye'de felsefe takvimi hareketleniyor
+
+**8 Ekim · İstanbul Üniversitesi — I. Önay Sözer Çağdaş Felsefe Sempozyumu.** Edebiyat Fakültesi Genel Kurul Odası'nda, Türkiye'de fenomenoloji ve Hegel araştırmalarının önemli isimlerinden Önay Sözer'in (1936-2022) düşüncesine odaklanan ilk sempozyum. Sözer'in felsefesini Türkiye'deki fenomenoloji ve çağdaş kıta felsefesi geleneği içinde yeniden değerlendirmek açısından önemli bir buluşma; programı [takvimde](/etkinlik/onay-sozer-cagdas-felsefe-sempozyumu-2026) ve [haberimizde](/haber/onay-sozer-cagdas-felsefe-sempozyumu-2026-istanbul-universitesi).
+
+**22-23 Ekim · İstanbul Medeniyet Üniversitesi — II. Öğrenci Kongresi: "Teknik ve Felsefe".** Aristoteles'in *tekhne*'sinden Bacon'a, Marx'tan Benjamin'e, Heidegger'den Simondon'a uzanan bir çizgide teknik kavramı; yapay zekâ, teknoloji etiği, teknik ve ontoloji, teknoloji ve estetik, feminizm ve ekoloji başlıkları. Lise, lisans ve lisansüstü öğrencilerine açık. [Haber](/haber/medeniyet-teknik-ve-felsefe-kongresi) · [takvim](/etkinlik/medeniyet-ogrenci-kongresi-2026). Bölümün takviminde 14 Ekim için "Türk Düşüncesinde Çağdaş Yansımalar: Gençler Düşünüyor, Soruyor, Tartışıyor" başlıklı bir öğrenci etkinliği de anılıyor; ayrıntılarını bölümden teyit edince takvime ekleyeceğiz.
+
+**26-27 Ekim · İstanbul Üniversitesi — I. Ulusal İslam Felsefesi Sempozyumu: "İskenderiye'den Bağdat'a".** Odakta Geç Antikçağ felsefesinin İslam dünyasına aktarılması, tercüme hareketleri ve bu mirasın yeniden yorumlanması. Başlık, İslam felsefesini "Yunan felsefesinin aktarılması" şeklindeki eski anlatının ötesinde, çeviri, dönüşüm ve yeniden üretim problemi olarak tartışmak açısından önemli. [Haber](/haber/ulusal-islam-felsefesi-sempozyumu-2026) · [takvim](/etkinlik/ulusal-islam-felsefesi-sempozyumu).
+
+**3-5 Kasım · İstanbul Medeniyet Üniversitesi — 36. Novembertagung.** Matematik tarihi ve felsefesinin genç araştırmacılar konferansı ilk kez İstanbul'da; bu yılın konusu "Matematikte (Algılanan) İkilikler: Karşıtlıklar, Sınırlar ve Gerilimler". Toplantı matematiği yalnızca teknik bir bilim olarak değil, tarihsel ve felsefi bir düşünme biçimi olarak ele alıyor. [Takvim](/etkinlik/novembertagung-36-istanbul-2026).
+
+**5-6 Kasım · İstanbul Üniversitesi — Reichenbach in İstanbul.** Felsefe Bölümü ve Mantık Araştırmaları Derneği'nin uluslararası kongresi Hans Reichenbach'ın mirasını ele alıyor: bilim felsefesi, olasılık, nedensellik, zaman, uzay ve görelilik kuramının felsefi temelleri. Sembolik önemi büyük: Nazi Almanyası'ndan kaçtıktan sonra 1933-1938 arasında İstanbul Üniversitesi'nde ders veren Reichenbach'ın mirası, doksan yıl sonra aynı kurumda tartışılacak. [Haberimiz](/haber/reichenbach-kongresi-istanbul-2026); Reichenbach'ın asistanı [Nusret Hızır'ı](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) da anmıştık.
+
+## Batı'nın dışına çıkan felsefe takvimi
+
+**Japonya: Felsefe ve yapay zekâ.** 16-17 Ekim'de Hokkaido'da Philosophy & AI 5 çalıştayı; Hong Kong Üniversitesi AI & Humanity Lab'in düzenlediği dizi, yapay zekâyı özellikle dil felsefesi ve epistemoloji açısından ele alıyor. [Takvim](/etkinlik/philosophy-and-ai-5-hokkaido-2026). Tokyo Üniversitesi Felsefe Merkezi'nin (UTCP) ekim programında bilinç, beden, estetik ve metafizik başlıkları var; 9 Ekim için duyurulan "The Aesthetics and Metaphysics of Mirror Images" konferansını, merkezin sayfasından teyit edince takvime ekleyeceğiz.
+
+**Almanya: Kore Felsefesi Haftası.** Hildesheim Üniversitesi'nin Küresel Felsefe (GloPhi) programı, 5-8 Ekim'i Kore felsefesine ayırdı: 5-6 Ekim'de Kuzey Amerika Kore Felsefesi Derneği'nin 11. yıllık konferansı, 7-8 Ekim'de "Modern Korean Thinkers: Late 19th Century to 1945" uluslararası çalıştayı (düzenleyenler Sool Park, Dobin Choi, Hyojin Lee Fromell). Çalıştay, sömürge yönetimine, dinî reform hareketlerine ve Avrupa felsefesiyle karşılaşmaya cevap veren modern Kore düşünürlerini, her oturumda bir düşünürün İngilizceye çevrilmiş temel metnini birlikte okuyarak ele alıyor. Arkasındaki soru, Batı merkezli "felsefe" tanımının modern Kore düşüncesini anlamak için yeterli olup olmadığı; bu soru yalnızca Kore tarihiyle değil, küresel felsefe tarihinin nasıl yeniden yazılması gerektiğiyle ilgili. Hildesheim'daki Oxford Yeni-Konfüçyüsçülük toplantısıyla birlikte, [Tu Weiming yazımızda](/haber/tu-weiming-yeni-konfucyusculuk-modern-olmak-icin-batililasmak) anlattığımız "Doğu Asya düşüncesinin geri dönüşü"nün bir parçası.
+
+**Çin: Bilim tarihinin felsefesi.** 24-25 Ekim'de Zhejiang Üniversitesi'nde (Hangzhou) "Historiography of Science in China" çalıştayı; *Transversal: International Journal for the Historiography of Science* dergisinin özel sayısına katkıda bulunacak yazarları bir araya getiriyor, bildiriler önceden paylaşılıp tartışılıyor. Toplantı, Çin'in modernleşme deneyimini Batı biliminin basitçe "ithali" olarak değil, Çin düşüncesinin bilim ve moderniteyle karşılaşması olarak ele alıyor. Kasımda ise Şanghay'da Fudan Üniversitesi'nde [Timothy Williamson'ın](/haber/timothy-williamson-yale-fudan-2026) Çin felsefesiyle karşılaşması, Batı analitik felsefesi ile Çin felsefesini doğrudan karşı karşıya getirecek.
+
+**Doğrulayamadıklarımız.** Ekim ayı için Hindistan'da (Pondicherry'de karşılaştırmalı felsefe, Jaipur'da epistemoloji, Bhubaneswar'da felsefe tarihi, Goa'da uygulamalı etik, Yeni Delhi'de IGNCA konferansı) ve 19-20 Ekim'de çevrim içi bir "International Conference on African Philosophy" için dolaşan kayıtları düzenleyici kurumların duyurularından teyit edemedik; bu listeye almadık. Felsefenin coğrafyasının genişlemesi gerçek bir eğilim, ama takvimimize yalnızca doğrulanmış toplantılar giriyor; bir hafta önce [Dakar'daki UNESCO konferansını](/etkinlik/unesco-chair-intercultural-competences-dakar-2026) ve [Seul'deki Hint felsefesi konferansını](/etkinlik/snuac-indian-philosophy-fall-2026) bu ölçütle eklemiştik.
+
+## Kitaplar
+
+Türkçede bu sonbahar yedi yeni felsefe kitabı var: Foucault'nun *Felsefi Beyan*'ı, Frédéric Gros'nun *Utanç Devrimci Bir Duygudur*'u, Harun Tepe'nin *İnsan Haklarını Kim Öldürdü?*'sü, George Makari'nin *Korkuya ve Yabancılara Dair*'i, Geneviève Fraisse'in *Feminizm ve Felsefe*'si, Mustafa Günay'ın *İnsana Felsefeyle Yönelmek*'i ve Douglas Kutach'ın *Nedensellik*'i. Hepsini [ayrı bir dosyada](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) ele aldık.
+
+## 4 Ekim'in dikkat çekici düşünsel ortaklığı
+
+Bu haftanın kitaplarına ve konferanslarına birlikte bakıldığında felsefenin gündeminin birkaç büyük eksen etrafında toplandığı görülüyor: insan hakları, yapay zekâ ve teknik, korku ve yabancı, cinsiyet ve eşitlik, bilim ve gerçeklik, Çin ve Kore düşüncelerinin Batı merkezli felsefe tarihine itirazı. Ve belki de bütün bu tartışmaları birbirine bağlayan soru şu: 21. yüzyılda insanı yeniden düşünmek için 20. yüzyılın felsefi kavramları hâlâ yeterli mi?`,
+  },
+  {
+    title: "TÜRKÇEDE YENİ FELSEFE KİTAPLARI — 2026",
+    slug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+    summary:
+      "Foucault'nun 1966'da yazıp yayımlamadığı 'Felsefi Beyan' Türkçede; Frédéric Gros utancı devrimci bir duygu olarak okuyor; Harun Tepe 'İnsan haklarını kim öldürdü?' diye soruyor; George Makari zenofobinin tarihini, Geneviève Fraisse feminizm ile felsefenin ilişkisini yazıyor; Mustafa Günay felsefi antropolojiyi, Douglas Kutach nedenselliği ele alıyor. Sonbaharın yedi kitabı.",
+    seoTitle: "Türkçede yeni felsefe kitapları 2026: Foucault Felsefi Beyan, Gros Utanç, Tepe İnsan Hakları, Makari Zenofobi, Fraisse, Günay, Kutach",
+    metaDescription:
+      "2026'da Türkçeye kazandırılan ve yayımlanan felsefe kitapları: Michel Foucault Felsefi Beyan (YKY), Frédéric Gros Utanç Devrimci Bir Duygudur (YKY), Harun Tepe İnsan Haklarını Kim Öldürdü? (YKY), George Makari Korkuya ve Yabancılara Dair (YKY), Geneviève Fraisse Feminizm ve Felsefe (Minotor), Mustafa Günay İnsana Felsefeyle Yönelmek (Çizgi), Douglas Kutach Nedensellik (Say).",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Akdeniz%20Heykeli%2C%20Yap%C4%B1%20Kredi%20K%C3%BClt%C3%BCr%20Sanat.jpg?width=1600",
+    imageCredit: "İlhan Koman'ın Akdeniz heykeli, Yapı Kredi Kültür Sanat binası, İstiklal Caddesi · Fotoğraf: Başak, CC0 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Yapı Kredi Yayınları · Minotor Kitap · Çizgi Kitabevi · Say Yayınları",
+    sourceUrl: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx",
+    publishedAt: "2026-10-03T21:15:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "ceviri", "etik", "toplumsal-cinsiyet", "epistemoloji"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      { title: "Felsefi Beyan — Michel Foucault, çev. Ayşe Deniz Temiz", publisher: "Yapı Kredi Yayınları", date: "Nisan 2026", url: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx", primary: true },
+      { title: "Utanç Devrimci Bir Duygudur — Frédéric Gros, çev. Olcay Kunal", publisher: "Yapı Kredi Yayınları", date: "Mart 2026", url: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx" },
+      { title: "İnsan Haklarını Kim Öldürdü? — Harun Tepe", publisher: "Yapı Kredi Yayınları", date: "Mart 2026", url: "https://www.kitapyurdu.com/yazar/harun-tepe/15007.html" },
+      { title: "Psikiyatr ve tarihçi George Makari'den zenofobinin köklerine dair derinlikli bir tartışma", publisher: "Edebiyat Haber", url: "https://www.edebiyathaber.net/psikiyatr-ve-tarihci-george-makariden-zenofobinin-koklerine-dair-derinlikli-bir-tartisma-korkuya-ve-yabancilara-dair/" },
+      { title: "Minotor Kitap", publisher: "İthaki Yayın Grubu", url: "https://www.ithakiyayingrubu.com/minotor-kitap" },
+    ],
+    content: `Sonbahar, Türkçe felsefe yayıncılığının en verimli mevsimi; bu yıl da öyle. Aşağıdaki yedi kitabın dördü Yapı Kredi Yayınları'nın felsefe dizisinden, biri Minotor'dan, biri Çizgi'den, biri Say'dan. Ortak noktaları, hepsinin aynı soruya farklı yerlerden bakması: Yirminci yüzyılın kavramları, insan hakları, utanç, yabancı, cinsiyet, nedensellik, felsefenin kendi söylemi, bugünü düşünmek için hâlâ yeterli mi? Sitemizde [eylül başında](/haber/sonbahar-2026-felsefe-kitaplari) sonbahar programının bir kısmını duyurmuştuk; burada o listede olmayan, ekim itibarıyla raflarda bulunan kitaplar var.
+
+## Michel Foucault — Felsefi Beyan
+
+Yapı Kredi Yayınları'nın nisan ayında yayımladığı *Felsefi Beyan* (çev. Ayşe Deniz Temiz, 256 s.), Foucault'nun 1966 yazında, *Kelimeler ve Şeyler*'in hemen ardından yazdığı, bitirip de yayımlamadığı ve 2023'te Orazio Irrera ile Daniele Lorenzini'nin edisyonuyla Fransa'da gün ışığına çıkan *Le discours philosophique* metninin Türkçesi. Foucault burada felsefeyi hakikatin peşinden giden bir disiplin olarak değil, kendi çağını teşhis eden, tarihsel sınırları olan bir "beyan" biçimi olarak ele alıyor: Descartes'tan Nietzsche'ye modern felsefe, Foucault'ya göre, "şimdi"nin ne olduğunu söylemeye çalışan bir söylemdir ve bu söylemin gerekçelendirme, çözümleme, eleştiri ve yorumlama gibi işlevleri, felsefenin kendi çağıyla kurduğu ilişkinin biçimleridir.
+
+Metnin önemi iki yönlü. Birincisi, Foucault'nun kendi felsefi yöntemini en açık biçimde tartıştığı metinlerden biri; "arkeoloji" ile felsefe arasındaki ilişkiyi, *Bilginin Arkeolojisi*'nden (1969) üç yıl önce, taslak hâlinde kuruyor. İkincisi, Kant'ın "Aydınlanma nedir?" sorusuna Foucault'nun 1984'te vereceği cevabın, felsefenin "bugünün ontolojisi" olduğu tezinin, 1966'daki ilk biçimi burada. Bu yıl Foucault'nun yüzüncü doğum yılı; sitemizde [Pennsylvania'daki sempozyumu](/haber/foucault-yuzuncu-yil-2026), [dördüncü cildin yayımlanmasını](/haber/foucault-bedenin-itiraflari-dorduncu-cilt) ve Collège de France'ın sergisini ele almıştık. *Felsefi Beyan*, bu yüzüncü yılın Türkçedeki en önemli yayını.
+
+## Frédéric Gros — Utanç Devrimci Bir Duygudur
+
+Marx, 1843'te Arnold Ruge'ye yazdığı mektupta "utanç bir tür öfkedir, içe dönmüş öfke; ve bir ulus gerçekten utanırsa, sıçramak için gerilen bir aslan gibi olur" demiş, utancın "devrimci bir duygu" olduğunu söylemişti. Paris Sciences Po'da siyaset felsefesi profesörü ve Foucault'nun Collège de France derslerinin editörlerinden Frédéric Gros, *Yürümenin Felsefesi* ve *İtaat Etmemek*'ten sonra Türkçeye kazandırılan üçüncü kitabı *Utanç Devrimci Bir Duygudur*'da (YKY, çev. Olcay Kunal, 144 s., Mart 2026) bu cümleden yola çıkıyor ve utancı kişisel bir zaaf olmaktan çıkarıp siyasal bir güce dönüştürüyor.
+
+Gros'nun yöntemi, utancın edebiyattaki ve psikanalizdeki tanıklıklarını okumak: Annie Ernaux'nun sınıf utancı, Didier Eribon'un *Reims'e Dönüş*'teki hem sınıf hem cinsellik utancı, Primo Levi'nin hayatta kalanın utancı ("utanç, insanın insan olduğundan utanması"), Lacan'ın utanç üzerine son seminer sözleri. Gros, utancı suçluluktan ayırır: Suçluluk yapılan bir şeye, utanç olunan bir şeye ilişkindir; bu yüzden suçluluk bireysel, utanç toplumsaldır. Devrimci utanç, yoksulluğun, ayrımcılığın, aşağılanmanın utancını utanan kişiden alıp ona neden olana geri çevirmektir. Ernaux'nun Nobel konuşmasındaki "ırkımın öcünü almak için yazacağım" cümlesi, Gros'nun tezinin edebî biçimidir. Kısa, yoğun, bugünün Türkiye'sinde de okunması kolay olmayan bir deneme.
+
+## Harun Tepe — İnsan Haklarını Kim Öldürdü?
+
+Hacettepe Üniversitesi'nde etik ve insan hakları felsefesi profesörü, [İoanna Kuçuradi'nin](/filozof/ioanna-kucuradi) öğrencisi ve çalışma arkadaşı Harun Tepe'nin mart ayında YKY'den çıkan kitabı (184 s.), bu hafta hocasının ölümüyle beklenmedik bir güncellik kazandı. Alt başlığı "İnsan Hakları Eleştirileri Üzerine": Tepe, son yirmi yılda insan haklarına yöneltilen eleştirileri tek tek ele alıyor: Marksist eleştiri (haklar burjuva bireyciliğinin ideolojisidir), komüniteryen eleştiri (haklar topluluk bağlarını çözer), postkolonyal eleştiri (haklar Batı'nın evrenselcilik maskesidir), realist eleştiri (haklar güç ilişkilerini gizler) ve "insan hakları çağının sonu" tezleri (Samuel Moyn, Stephen Hopgood). Kitabın temel sorusu güncel: İnsan hakları gerçekten tükendi mi, yoksa onları savunmanın yeni yollarını mı bulmak gerekiyor?
+
+Tepe'nin cevabı Kuçuradi okulunun cevabıdır: Eleştirilerin çoğu insan haklarını değil, insan haklarının siyasal kullanımlarını hedef alır; "insan hakları"nı "haklar söylemi"nden, hak kavramını hak retoriğinden ayırdığınızda, eleştirilerin büyük kısmı hedefini kaybeder. Kitap, Kuçuradi'nin "insanın değeri"nden türetilen insan hakları temellendirmesinin, bu eleştirilere karşı en dirençli temellendirme olduğunu savunuyor. Sitemizde [Kuçuradi'nin ardından yazdığımız yazıda](/haber/ioanna-kucuradi-1936-2026-vefat) bu okulun mirasını ele almıştık; Tepe'nin kitabı o mirasın bugünkü biçimi.
+
+## George Makari — Korkuya ve Yabancılara Dair: Zenofobinin Tarihçesi
+
+Weill Cornell'de psikiyatri profesörü ve tıp tarihçisi George Makari'nin kitabı (YKY, çev. Özlem Yüksel), "zenofobi" kelimesinin tarihinden yola çıkıyor: Terim, 1880'lerde Fransızcada, önce yabancılara karşı "patolojik" korkuyu adlandırmak için icat edildi; sonra sömürgeciliğin, Boxer Ayaklanması'nın ve Dreyfus Davası'nın diline girdi; 20. yüzyılda bir psikiyatrik kategori ile siyasal bir suçlama arasında gidip geldi. Makari, kavramın tarihini psikiyatri, sömürge tarihi ve düşünce tarihi üzerinden izliyor: Conrad, Camus, Richard Wright ve James Baldwin'in romanları; Sartre'ın *Yahudi Sorunu*, Beauvoir'ın "öteki" kavramı, Fanon'un sömürge psikiyatrisi, Adorno'nun otoriter kişilik araştırması, Foucault'nun normalleştirme kuramı.
+
+Kitabın felsefi sorusu açık: İnsanın "yabancı" dediği kişiden korkması doğal mı, yoksa tarih tarafından mı üretiliyor? Makari'nin cevabı ikisi de: Yabancıya karşı tepki, insan bilişinin "iç grup/dış grup" mekanizmalarına dayanır; ama bu tepkinin nefrete, dışlamaya ve şiddete dönüşmesi, siyasal ve kurumsal olarak üretilir. Göç, milliyetçilik ve kimlik siyasetinin yeniden yükseldiği bir dönemde, sitemizde [demografi ve siyaset felsefesi](/haber/demografi-ve-siyaset-felsefesi-goc-nufus-yurttaslik) yazısında ele aldığımız tartışmanın psikolojik ve tarihsel arka planı.
+
+## Geneviève Fraisse — Feminizm ve Felsefe
+
+Fransız feminist felsefeci Geneviève Fraisse (1948), CNRS'te araştırma direktörü, 1999-2004 arasında Avrupa Parlamentosu üyesi ve yirmiye yakın kitabın yazarı; *Cinsiyet Farkı* ve *Rıza* gibi çalışmaları Türkçede yoktu. Minotor Kitap'ın (İthaki Yayın Grubu) yayımladığı *Feminizm ve Felsefe*, Fraisse'in temel iddiasını Türkçe okura ilk kez sunuyor: Feminist felsefe, yalnızca geleneksel felsefeye dışarıdan yöneltilmiş bir eleştiri değil, felsefenin kavramlarını (eşitlik, özgürlük, rıza, fark, evrensellik) içeriden dönüştüren bir düşünme biçimidir. Fraisse, "feminist düşüncenin siyasal epistemolojisi" dediği programda, cinsiyet farkının Rousseau'dan Kant'a felsefe tarihinin "düşünülmemiş"i olduğunu, filozofların eşitliği tanımlarken kadınları hangi kavramsal işlemlerle dışarıda bıraktığını gösterir. Judith Butler ve Luce Irigaray'ın çevrildiği ama Fransız feminizminin "tarihçi" kanadının az bilindiği Türkçede önemli bir boşluğu dolduruyor.
+
+## Mustafa Günay — İnsana Felsefeyle Yönelmek: İnsan, Değerler ve Tarih Bilinci
+
+Çukurova Üniversitesi'nden Mustafa Günay'ın Çizgi Kitabevi'nden çıkan kitabı, insan, değerler ve tarih bilinci arasındaki ilişkiyi felsefi antropoloji perspektifinden ele alıyor. Takiyettin Mengüşoğlu'nun kurduğu, Kuçuradi'nin etik ve değer felsefesine taşıdığı, Günay'ın da içinden geldiği Türkiye'deki insan felsefesi geleneğinin yeni bir halkası: İnsan, değerlerini tarih içinde kuran ve tarih bilinci olmadan kendini bilemeyen bir varlıktır. Türkiye'deki felsefi antropoloji geleneği açısından dikkat çekici bir çalışma; aynı geleneğin kurucu metinlerini, [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) ve [Nusret Hızır](/haber/nusret-hizir-aklin-sukunetle-savunuldugu-bir-hayat) yazılarımızda ele almıştık.
+
+## Douglas Kutach — Nedensellik
+
+Say Yayınları'nın "Felsefe: Anahtar Kavramlar" dizisinin ikinci kitabı (çev. Alper Bilgehan Yardımcı), Polity'nin *Key Concepts in Philosophy* serisinden. Douglas Kutach, nedensellik kavramını çağdaş analitik felsefe açısından, Hume'un düzenlilik kuramından karşıolgusal kuramlara (Lewis), olasılıksal nedensellikten süreç kuramlarına ve Judea Pearl'ün müdahaleci modellerine kadar bütün ana yaklaşımları karşılaştırarak ele alıyor. Nedensellik, bilim felsefesinin, zihin felsefesinin (zihinsel nedensellik) ve hukukun (sorumluluk) ortak kavramı; Türkçede bu düzeyde bir giriş yoktu. Kasımda İstanbul'da toplanacak [Reichenbach kongresinin](/haber/reichenbach-kongresi-istanbul-2026) de ana konularından biri: Reichenbach'ın "ortak neden ilkesi", Kutach'ın kitabındaki tartışmanın tarihsel kaynaklarından.
+
+## Bu kitapların ortak sorusu
+
+Yedi kitap, farklı diller ve gelenekler: Foucault'nun 1966'sı, Gros'nun 2021'i, Tepe'nin 2026'sı; Fransız feminizmi, Amerikan psikiyatri tarihi, Türk felsefi antropolojisi, Anglofon metafizik. Ortak noktaları, hepsinin yirminci yüzyılın bir kavramını (söylem, utanç, hak, yabancı, cinsiyet, insan, neden) yeniden sorgulaması. Felsefe yayıncılığında bir mevsimin eğilimi, o mevsimin felsefi gündemini gösterir: 2026 sonbaharında Türkçe okur, insan hakları ve yabancı korkusu üzerine düşünmeye çağrılıyor. [Kitaplar sayfamızda](/kitaplar) künyeleri var.`,
+  },
+  {
+    title: "FELSEFE TARİHİNDE BUGÜN — 4 EKİM",
+    slug: "felsefe-tarihinde-bugun-4-ekim-kucuradi-weininger-sputnik",
+    summary:
+      "4 Ekim: İoanna Kuçuradi'nin doksanıncı doğum günü ve cenaze töreni, Otto Weininger'in ölümü ve insanı yeniden düşünmek. Bazı tarihler yalnızca takvim yaprağı değildir. 4 Ekim 1936'da doğan Kuçuradi bugün, doğum gününde toprağa veriliyor; 1903'te Otto Weininger 23 yaşında Beethoven'ın öldüğü evde kendini öldürdü; 1570'te Péter Pázmány doğdu; 1582'de takvimden on gün silindi; 1669'da Rembrandt öldü; 1957'de Sputnik insanlığı yeryüzünün dışına taşıdı.",
+    seoTitle: "Felsefe tarihinde bugün, 4 Ekim: İoanna Kuçuradi'nin doğum günü ve cenazesi, Otto Weininger (ö. 1903), Pázmány (1570), Gregoryen takvim (1582), Sputnik (1957)",
+    metaDescription:
+      "4 Ekim'de felsefe tarihi: İoanna Kuçuradi'nin doksanıncı doğum günü ve cenaze töreni (1936-2026); Otto Weininger'in ölümü (1903) ve Wittgenstein'a etkisi; Péter Pázmány'nin doğumu (1570); Gregoryen takvim reformu (1582); Rembrandt'ın ölümü (1669); Sputnik 1 (1957) ve kozmik düşünce.",
+    contentType: "TARIH",
+    coverImage: "/kapak/kucuradi.jpg",
+    imageCredit: "İoanna Kuçuradi (4 Ekim 1936 - 2 Ekim 2026)",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Britannica · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://www.britannica.com/biography/Otto-Weininger",
+    publishedAt: "2026-10-03T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "zihin-felsefesi", "bilim-felsefesi", "estetik"],
+    philosopherSlugs: ["ioanna-kucuradi", "ludwig-wittgenstein"],
+    sources: [
+      { title: "Otto Weininger | Austrian philosopher", publisher: "Britannica", url: "https://www.britannica.com/biography/Otto-Weininger", primary: true },
+      { title: "Péter Pázmány | Hungarian cardinal and author", publisher: "Britannica", url: "https://www.britannica.com/biography/Peter-Pazmany" },
+      { title: "Sputnik 1", publisher: "NASA", url: "https://www.nasa.gov/history/sputnik/" },
+      { title: "Türkiye felsefesinin öncü isimlerinden İoanna Kuçuradi hayatını kaybetti", publisher: "soL Haber", date: "2 Ekim 2026", url: "https://haber.sol.org.tr/haber/turkiye-felsefesinin-oncu-isimlerinden-ioanna-kucuradi-hayatini-kaybetti-414528" },
+    ],
+    content: `Bazı tarihler yalnızca takvim yaprağı değildir. 4 Ekim, felsefe tarihi açısından insan, değer, etik, zaman ve insanın evrendeki yeri meselelerinin kesiştiği bir gün. Bu yıl 4 Ekim'i farklı kılan ise, Türkiye felsefesinin en önemli isimlerinden İoanna Kuçuradi'nin doksanıncı doğum gününün, cenaze gününe denk gelmesi.
+
+## 1936: İoanna Kuçuradi'nin doğum günü, 2026: cenazesi
+
+İoanna Kuçuradi 4 Ekim 1936'da İstanbul'da doğdu ve iki gün önce, 2 Ekim 2026 akşamı, doksanıncı doğum gününe iki gün kala öldü. Bugün, doğum gününde, Maltepe Üniversitesi Mimar Vedat Çakırca Konferans Salonu'ndaki törenin ardından Şişli Rum Ortodoks Mezarlığı'nda toprağa veriliyor. Hayatını, Hacettepe Felsefe Bölümü'nün kuruluşunu, Türkiye Felsefe Kurumu başkanlığını, Dünya Felsefe Kuruluşları Federasyonu'nun ilk kadın başkanlığını ve 2003 İstanbul Dünya Felsefe Kongresi'ni [vefat haberimizde](/haber/ioanna-kucuradi-1936-2026-vefat) anlattık; burada yalnızca felsefesinin çekirdeğini hatırlatalım.
+
+Kuçuradi'nin felsefesinin merkezinde son derece yalın fakat son derece zor bir soru vardı: Bir insanı, yalnızca bir insan olduğu için değerli kabul etmek ne anlama gelir? Onun etik anlayışında değer, insanların bir nesneye veya kurala biçtiği fiyat değildi; bir insanın durumunu, olanaklarını ve değerini doğru biçimde değerlendirme sorusuydu. "Değerler" ile "değer yargıları" arasındaki ayrımı, "etik" ile "ahlak" arasındaki ayrımı ve insan haklarının sözleşmelerden değil "insanın değeri"nden türetilmesini bu soruya cevap olarak geliştirdi. Bu nedenle insan hakları düşüncesi yalnızca hukuki belgeler üzerinden değil, değer bilgisi ve etik değerlendirme üzerinden okunmalıdır. Mirası, Türkiye'de felsefenin üniversite duvarlarının dışına taşarak insan hakları, eğitim, hukuk ve kamusal etik tartışmalarına girmesinde görülebilir. Kuçuradi'nin ardından Türkiye felsefesi yalnızca önemli bir akademisyenini değil, felsefeyi insanın değerini koruma pratiği olarak gören bir düşünürü kaybetti. Doğum günü ile cenazesinin aynı güne düşmesi, bu takvimde dün [Philippa Foot](/haber/felsefe-tarihinde-bugun-3-ekim-philippa-foot-assisi-morris) için not ettiğimiz ender rastlantılardan.
+
+## 1903: Otto Weininger'in ölümü
+
+4 Ekim 1903'te Avusturyalı filozof Otto Weininger, Viyana'da, Schwarzspanierstrasse'de Beethoven'ın öldüğü evde kiraladığı odada kendini vurdu; 23 yaşındaydı. Dört ay önce, mayısta, doktora tezinden genişlettiği *Cinsiyet ve Karakter* (Geschlecht und Charakter) yayımlanmıştı; kitap ölümünden sonra onlarca baskı yaptı, bir düzine dile çevrildi ve yüzyılın ilk yarısında Avrupa'nın en çok okunan felsefe kitaplarından biri oldu. Yahudi bir ailede doğmuş, vaftiz olup Protestan olmuş, Viyana Üniversitesi'nde felsefe ve psikoloji okumuştu.
+
+Kitap, cinsiyet, karakter, etik, deha ve insan doğası üzerine son derece tartışmalı ve bugün büyük ölçüde problemli kabul edilen tezler ileri sürüyordu: Her insanın "erkek" ve "kadın" ilkelerinin bir karışımı olduğu, "kadınlık"ın mantıktan, ahlaktan ve dehadan yoksun bir ilke olduğu, Yahudiliğin de bir "ilke" olarak aynı kategoriye girdiği. Kitabın kadın düşmanlığı ve antisemitizmi, yazarının kendi Yahudiliğiyle hesaplaşmasıyla birleşince, Weininger'i "kendinden nefret eden Yahudi" kavramının prototipi yaptı ve Nazi ideologları onu kullanmaktan çekinmedi. Buna rağmen felsefe tarihinde kalmasının nedeni, dönemin entelektüel dünyasında yarattığı etki ve özellikle Wittgenstein üzerindeki izi: [Wittgenstein](/filozof/ludwig-wittgenstein), Weininger'i kendisini etkileyen on isim arasında sayar; 1931'de Moore'a yazdığı mektupta "onunla hemfikir olmak gerekmez, ama büyüklüğü, hemfikir olmadığımız şeyde yatar" demişti. Wittgenstein'ın etiğin söylenemez olduğu, dehanın cesaret olduğu ve kişinin kendine karşı dürüstlüğünün felsefenin koşulu olduğu düşüncelerinde Weininger'in, Kant'ın ve Schopenhauer'ın birleşmiş etkisi görülür. Kitabın etik bölümü, Kant'ın kategorik buyruğunu "kendine karşı ödev" olarak radikalleştirir: İnsan, kendi içindeki dehayı gerçekleştirmekle yükümlüdür ve bunu yapamıyorsa yaşamaya hakkı yoktur; Weininger'in intiharı bu tezin korkunç tutarlılığıydı.
+
+Bugün Weininger'i okumak, bütün tezlerini kabul etmek değil, şu soruyu sormak açısından önemlidir: Bir düşünürün felsefi etkisi ile düşüncelerinin ahlaki ve bilimsel geçerliliğini birbirinden ayırabilir miyiz? Wittgenstein'ın cevabı, kendine özgü biçimde, evetti: Bir filozoftan, yanlış cevaplarına rağmen, soruyu sorma biçimini öğrenebiliriz.
+
+## 1570: Péter Pázmány
+
+4 Ekim 1570'te Nagyvárad'da (bugün Romanya'daki Oradea) Péter Pázmány doğdu. Kalvinist bir ailede büyüdü, on üç yaşında Katolik oldu, Cizvit tarikatına girdi; Viyana'da felsefe, Roma'da teoloji okudu ve 1597'den itibaren Graz Üniversitesi'nde felsefe, sonra teoloji dersleri verdi. Graz'daki felsefe dersleri, Aristoteles'in *Fizik* ve *Ruh Üzerine*'sinin skolastik yorumları, basılmış hâlde günümüze ulaşan erken modern Cizvit felsefesinin önemli örneklerindendir; Suárez'in metafiziğinin Orta Avrupa'ya taşınmasında rol oynadı. 1616'da Esztergom başpiskoposu, 1629'da kardinal oldu; Macar Karşı-Reformasyonu'nun önderi ve 1635'te kurduğu Nagyszombat Üniversitesi'nin (bugünkü Budapeşte Eötvös Loránd Üniversitesi'nin atası) kurucusuydu. Macar edebî dilinin kurucularından sayılır: *Hodoegus* (Hakikate Giden Yol, 1613) ve vaazları, Macarcayı felsefi tartışma diline dönüştürdü. Pázmány'nin hikâyesi, erken modern Avrupa'da felsefenin henüz bugünkü anlamıyla "seküler akademik disiplin" olmadığını; mantık, metafizik, teoloji ve siyasetin aynı entelektüel dünyanın parçaları olduğunu hatırlatır.
+
+## 1582: Takvimden silinen on gün
+
+4 Ekim 1582, Katolik Avrupa'da Jülyen takviminin son günüydü; ertesi gün 15 Ekim oldu. Papa XIII. Gregorius'un reformu, Jülyen yılının gerçek güneş yılından yaklaşık on bir dakika uzun olmasının bin altı yüz yılda biriktirdiği on günlük kaymayı tek hamlede sildi. Felsefe için bu, zamanın ölçülmesinin bir kurum meselesi olduğunun en çarpıcı örneği: Protestan ülkeler reformu yüz elli yıl, Rusya 1918'e, Yunanistan 1923'e kadar reddetti; Türkiye 1926'da Rumî takvimden geçti. Aynı tarihte doğan Teresa de Ávila, o gece, 4 Ekim'i 15 Ekim'e bağlayan gece öldü; ölümünün takvimdeki boşluğa denk gelmesi, zamanın "gerçek" olup olmadığını sorgulayan filozofların sevdiği bir örnek oldu. Kant'ın zamanı duyarlığın saf formu sayması, takvimin bir uzlaşım olduğunu bilen bir çağın felsefesidir.
+
+## 1669: Rembrandt'ın ölümü
+
+Rembrandt van Rijn, 4 Ekim 1669'da Amsterdam'da, iflas etmiş ve unutulmaya yüz tutmuş olarak öldü. Felsefe takviminde yeri, otoportreleridir: Yirmi iki yaşından ölümüne kadar yaptığı seksen dolayında otoportre, Batı sanatında benliğin zaman içinde kendine bakışının ilk sistematik belgesi; Descartes'ın aynı yıllarda, aynı Hollanda'da, *cogito*'yu kurmasıyla eşzamanlı. Simmel, Rembrandt üzerine kitabında (1916) onu "hayatın akışını tek bir yüzde görünür kılan" ressam olarak okudu; Georges Didi-Huberman, Rembrandt'ın geç dönem fırça vuruşlarını, görmenin kendisinin kırılganlığı üzerine bir meditasyon saydı. Rembrandt'ın son otoportresi, ölümünden birkaç ay önce, gülümseyen yaşlı bir adamın yüzüdür; bir filozofun yazamayacağı bir cümle.
+
+## 1957: Sputnik ve insanlığın kozmik düşüncesi
+
+4 Ekim 1957'de Sovyetler Birliği Sputnik 1'i yörüngeye gönderdi: 83 kilogramlık, dört antenli, yirmi iki gün boyunca "bip" sesi yayan bir küre. Bu olay bir felsefe kongresi değildi; fakat insanlık düşüncesi açısından devasa bir kırılmaydı. Hannah Arendt, bir yıl sonra yayımlanan *İnsanlık Durumu*'na Sputnik'le başladı: "Önemde hiçbir olayın, hatta atomun parçalanmasının bile geçemeyeceği bir olay" diye yazdı ve ilk tepkinin sevinç değil, "insanın yeryüzündeki hapisten kurtuluşuna doğru ilk adım" biçiminde bir rahatlama olmasını kaygıyla not etti: İnsan, kendi varoluşunun koşulu olan dünyadan kaçmak istiyordu. Heidegger, 1966'daki *Der Spiegel* söyleşisinde Ay'dan çekilen Dünya fotoğrafları karşısında "korktuğunu", insanın köklerinden koparıldığını söyleyecekti. Hans Blumenberg ise *Kopernik Dünyasının Doğuşu*'nda (1975) tam tersini savundu: Uzaydan görülen Dünya, insanın kozmik önemsizliğini değil, bu küçük gezegenin biricikliğini gösterdi; "uzay çağı"nın asıl keşfi uzay değil, Dünya'ydı.
+
+Sputnik'in felsefi sonucu bugün daha iyi görülüyor: İnsan nedir, Dünya nedir ve insanın evrendeki yeri nedir? Uzay araştırmaları yalnızca fiziğin değil, insan merkezcilik, varoluşçuluk, etik ve gelecek felsefesinin sorularını değiştirdi. Bugün yapay zekâ ve uzay teknolojilerinin aynı anda ilerlediği bir dünyada Sputnik'in açtığı soru yeniden karşımızda: İnsan kendi gezegeninden çıktığında, kendisi hakkındaki düşüncesi de değişmek zorunda mıdır?
+
+## 4 Ekim'in felsefi sorusu
+
+İnsan değerini nereden alır? Kuçuradi için insanın değeri, doğru değerlendirmenin ve etik ilişkinin merkezindedir. Weininger için insan doğası, kadın ve Yahudi düşmanlığıyla zehirlenmiş, çok daha sorunlu bir kavramsal zeminde tartışılır; onun örneği, insanın değerini "ilkeler"e göre derecelendirmenin nereye vardığını gösterir. Pázmány için değer, Tanrı'nın düzeninden; Gregoryen reform için zamanın kendisi bir kurumdan; Rembrandt için yüz, zamanın içinden; Sputnik için insan, yeryüzünün dışından görülür. Belki de 4 Ekim'in felsefi dersi tam burada: İnsan hakkında konuşmak, aynı zamanda insanın değerini, sınırlarını ve dünyadaki yerini tartışmaktır. Kuçuradi, bu üç sorudan ilkini hayatının işi yaptı; bugün toprağa verilirken, geride bıraktığı soru hâlâ açık.`,
+  },
+  {
     title: "3 Ekim: Philippa Foot'un doğduğu ve öldüğü gün, Assisili Francesco, William Morris ve Almanya'nın birleşmesi",
     slug: "felsefe-tarihinde-bugun-3-ekim-philippa-foot-assisi-morris",
     summary:
@@ -2923,7 +4941,7 @@ Foot'un katkısı üç makale ve bir kitapta toplanır. "Moral Beliefs" (1958), 
 
 O kitap, *Natural Goodness* (2001), seksen yaşında yayımladığı tek monografidir ve ömrünün en büyük fikrini taşır: Ahlaki iyilik ve kötülük, "bu meşe ağacının kökleri kusurlu" ya da "bu kurdun sürüsünü terk etmesi bir kusur" dediğimizdeki "doğal iyilik" ile aynı mantıksal yapıya sahiptir. Her canlı türünün bir "yaşam biçimi" vardır ve o türün bir üyesi, bu yaşam biçiminin gerektirdiği özellikleri taşıyorsa iyidir. İnsanın yaşam biçimi akıl ve toplumsallık içerdiğinden, erdemler, adalet, cesaret, ölçülülük, dürüstlük, insanın türü olarak iyi yaşaması için gerekli özelliklerdir; "ahlaklı olmak için neden" sorusu, "bir kurt için sürüde kalmanın nedeni nedir?" sorusu kadar anlamlıdır. Bu "Aristotelesçi natüralizm", Rosalind Hursthouse, John McDowell ve Michael Thompson'la çağdaş erdem etiğinin ana akımı oldu ve bugün Alasdair MacIntyre'dan sonra erdem etiğinin en çok tartışılan versiyonu. Eleştirmenleri, Darwin sonrası biyolojinin "tür için iyi" kavramını desteklemediğini söylüyor; savunucuları, Foot'un biyoloji değil, canlılar hakkındaki gündelik dilin mantığını betimlediğini.
 
-Foot, 1947'den itibaren Somerville'de ders verdi, 1976-1991 arasında UCLA'da profesördü, sonra Oxford'a döndü. Oxfam'ın 1942'de kurulan ilk ofisinde çalışmış bir aktivistti; felsefeyi "hayatın kendisinden daha önemli bir şey" olarak görmediğini söylerdi. 3 Ekim 2010'da, doksanıncı doğum gününde Oxford'da öldü; 2025'te Walton Street'teki evine mavi plaket asıldı. Sitemizde [Judith Butler'ın](/filozof/judith-butler) ve [Martha Nussbaum'un](/filozof/martha-nussbaum) kuşağından önce, yirminci yüzyıl analitik felsefesinde kadınların açtığı yolu Foot'tan daha iyi gösteren bir biyografi yok. Bugün [Filozof Dizini'ne](/filozof/philippa-foot) eklendi; Türkçede kitapları henüz çevrilmedi, "tramvay problemi" ise ders kitaplarında onun adı anılmadan dolaşıyor.
+Foot, 1947'den itibaren Somerville'de ders verdi, 1976-1991 arasında UCLA'da profesördü, sonra Oxford'a döndü. Oxfam'ın 1942'de kurulan ilk ofisinde çalışmış bir aktivistti; felsefeyi "hayatın kendisinden daha önemli bir şey" olarak görmediğini söylerdi. 3 Ekim 2010'da, doksanıncı doğum gününde Oxford'da öldü; 2025'te Walton Street'teki evine mavi plaket asıldı. Sitemizde [Judith Butler'ın](/filozof/judith-butler) ve [Martha Nussbaum'un](/filozof/martha-nussbaum) kuşağından önce, yirminci yüzyıl analitik felsefesinde kadınların açtığı yolu Foot'tan daha iyi gösteren bir biyografi yok. Türkçede kitapları henüz çevrilmedi, "tramvay problemi" ise ders kitaplarında onun adı anılmadan dolaşıyor.
 
 ## 1226: Assisili Francesco'nun ölümü
 
@@ -3047,7 +5065,7 @@ Kuçuradi'nin ardından Türkiye Felsefe Kurumu'nun, UNESCO kürsüsünün ve Ma
     ],
     content: `Batı felsefesi uzun süre modernliği kendi hikâyesi üzerinden anlattı: Antik Yunan, Hıristiyan Orta Çağı, Rönesans, Aydınlanma, bilimsel devrim, Kant, Hegel, Marx, Nietzsche, modernite. Bu anlatının arkasında çoğu zaman görünmeyen bir varsayım vardı: Modernleşmenin evrensel modeli Batı'da ortaya çıkmıştır; geri kalan dünya ya bu modeli izleyecek ya da "geleneksel" kalacaktır. Max Weber'in *Çin Dini*'nde (1915) Konfüçyüsçülüğü, kapitalizmi ve modern rasyonaliteyi doğuramamış bir "uyum etiği" olarak tasvir etmesi, bu varsayımın en etkili akademik biçimiydi.
 
-Çinli düşünür Tu Weiming, tam da bu varsayıma itiraz eden isimlerin başında geliyor. Fakat itirazı "Batı kötüdür, Çin iyidir" şeklinde değil; çok daha incelikli: Modernliğin tek bir biçimi olmak zorunda değildir. Ve bu nedenle Konfüçyüsçülük, modern dünyanın dışında kalmış bir gelenek olmak yerine, modernliği yeniden düşünmek için kullanılabilir. Bu yıl 86 yaşına giren Tu, altmış yıldır bu tezi iki dünyanın, Harvard ile Pekin'in arasında savunuyor; dün [Konfüçyüs üzerine yazdığımız yazıda](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) anlattığımız "Konfüçyüsçü demokrasi mi, meritokrasi mi?" tartışmasının entelektüel zeminini hazırlayan odur. Bugün [Filozof Dizini'ne](/filozof/tu-weiming) eklendi.
+Çinli düşünür Tu Weiming, tam da bu varsayıma itiraz eden isimlerin başında geliyor. Fakat itirazı "Batı kötüdür, Çin iyidir" şeklinde değil; çok daha incelikli: Modernliğin tek bir biçimi olmak zorunda değildir. Ve bu nedenle Konfüçyüsçülük, modern dünyanın dışında kalmış bir gelenek olmak yerine, modernliği yeniden düşünmek için kullanılabilir. Bu yıl 86 yaşına giren Tu, altmış yıldır bu tezi iki dünyanın, Harvard ile Pekin'in arasında savunuyor; dün [Konfüçyüs üzerine yazdığımız yazıda](/haber/konfucyus-iyi-insan-nasil-yetisir-iyi-toplum-nasil-kurulur) anlattığımız "Konfüçyüsçü demokrasi mi, meritokrasi mi?" tartışmasının entelektüel zeminini hazırlayan odur.
 
 ## Tu Weiming kimdir?
 
@@ -3204,7 +5222,7 @@ Collège de France, 1970'ten 1984'teki ölümüne kadar kürsüsünü işgal ede
 
 **1-3 Ekim · Notre Dame — "But Where Can She Be Found? Wisdom from Age to Age"**
 
-de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, bilgeliği antik felsefenin teorik-pratik bilgelik ayrımı, Kutsal Kitap geleneği ve pratik yaşam açısından ele alıyor; üniversitenin en büyük disiplinlerarası toplantısı. Dün [takvim yazımızda](/haber/felsefe-tarihinde-bugun-30-eylul-1-ekim-condillac-dilthey-rumi-goldman) değinmiştik.
+de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, bilgeliği antik felsefenin teorik-pratik bilgelik ayrımı, Kutsal Kitap geleneği ve pratik yaşam açısından ele alıyor; üniversitenin en büyük disiplinlerarası toplantısı. Dün [takvim yazımızda](/haber/felsefe-tarihinde-bugun-1-ekim-dilthey-goldman-meszaros) değinmiştik.
 
 **30-31 Ekim · Harvard — Graduate Conference in Political Theory**
 
@@ -3494,7 +5512,7 @@ Bir gün uyandığınızı düşünün. Her şey aynı: Odanız, telefonunuz, ai
 
 Dünyada milyarlarca insan vardır; ama her insan için dünya yalnızca bir yerden yaşanır: Kendi yerinden, kendi "şimdi"sinden, kendi 〈Ben〉inden. Nagai'nin felsefesi bize bu basit görünen, fakat açıklaması son derece zor olan gerçeği tekrar düşündürüyor: Dünyanın var olması kadar tuhaf olan şey, dünyanın birisi için var olmasıdır. Onun asıl sorusu "dünya neden var?" değil, "neden bu dünya tam olarak buradan, tam olarak benim dünyam olarak açılıyor?" sorusudur.
 
-Bu yüzden Nagai'yi "Japonya'nın solipsizm filozofu" diye tanımlamak yetersiz kalır. O, daha radikal bir şey yapıyor: Felsefenin en eski kelimesi olan "ben"i yeniden problem hâline getiriyor. Hitoshi Nagai bugün [Filozof Dizini'ne](/filozof/hitoshi-nagai) eklendi; kitaplarının hiçbiri henüz Türkçeye çevrilmedi.`,
+Bu yüzden Nagai'yi "Japonya'nın solipsizm filozofu" diye tanımlamak yetersiz kalır. O, daha radikal bir şey yapıyor: Felsefenin en eski kelimesi olan "ben"i yeniden problem hâline getiriyor. Kitaplarının hiçbiri henüz Türkçeye çevrilmedi.`,
   },
   {
     title: "YUNUS EMRE: İNSAN KENDİNİ NASIL BİLİR?",
@@ -3620,8 +5638,7 @@ Yunus bize tamamlanmış bir "Yunusçu sistem" bırakmadı; bir yöntem bırakt�
 Yunus'u aşırı romantikleştirmemek gerekir. O dünyayı saf bir sevgi cenneti olarak görmez; insanın içinde kibir, öfke, hırs, haset, yalan ve gıybetin bulunduğunu kabul eder ve *Risâletü'n-Nushiyye*'nin bütününü bu iç savaşa ayırır. Aşk felsefesi naif değildir: İnsan sevebilir, çünkü nefret edebilir; gönül yapabilir, çünkü yıkabilir; hakikati arayabilir, çünkü yanılabilir. Yunus'un felsefi gücü, insanın bu çelişkilerini yok saymamasından gelir.
 
 Üzerinden yedi asır geçti; ama temel sorusu değişmedi: İnsan nedir? İnsan bilgi üretti, devletler kurdu, uzaya çıktı, yapay zekâ geliştirdi; fakat hâlâ öfkeleniyor, kibirleniyor, başkasını aşağılıyor, kendisini kandırıyor ve "ben kimim?" diye soruyor. Yunus'un felsefesini tek cümlede özetlemek gerekirse: İnsan, kendisini bilmeden hakikati bilemez; fakat kendisini gerçekten bildiği anda da kendisini dünyanın merkezindeki tek varlık sanmayı bırakır. İşte Yunus'un "gönül" dediği yer tam olarak burasıdır: İnsan kendisine döner, eksikliğini görür, egosunu aşar, sonra başkasına bakar ve ilk kez gerçekten görür.
-
-Yunus Emre bugün [Filozof Dizini'ne](/filozof/yunus-emre) eklendi. Okumak isteyenler için felsefi bir harita: Benlik ("Bir ben vardır bende benden içeri": Ben kimim?), bilgi ("İlim kendin bilmektir": Bilmek ne demektir?), etik (gönül yapmak / gönül yıkmak: Başkasına karşı sorumluluğumuz nedir?), kötülük (kibir, öfke, haset, nefs: İnsan neden bildiği hâlde kötülük yapar?), dil (gündelik Türkçeyle metafizik düşünmek: Felsefe yalnızca uzmanların diliyle mi yapılabilir?), aşk (benliğin sınırlarını aşmak: Başkasıyla ilişki kurduğumuzda kendimiz nasıl değişiriz?) ve hakikat (bilginin varoluşa dönüşmesi: Doğruyu bilmek ile doğru yaşamak arasındaki fark nedir?). Bu yedi başlık birlikte okunduğunda Yunus Emre'nin yalnızca bir tasavvuf şairi değil, insanın kendisiyle, başkalarıyla ve hakikatle ilişkisini araştıran büyük bir düşünür olduğu daha açık görülür.`,
+ Okumak isteyenler için felsefi bir harita: Benlik ("Bir ben vardır bende benden içeri": Ben kimim?), bilgi ("İlim kendin bilmektir": Bilmek ne demektir?), etik (gönül yapmak / gönül yıkmak: Başkasına karşı sorumluluğumuz nedir?), kötülük (kibir, öfke, haset, nefs: İnsan neden bildiği hâlde kötülük yapar?), dil (gündelik Türkçeyle metafizik düşünmek: Felsefe yalnızca uzmanların diliyle mi yapılabilir?), aşk (benliğin sınırlarını aşmak: Başkasıyla ilişki kurduğumuzda kendimiz nasıl değişiriz?) ve hakikat (bilginin varoluşa dönüşmesi: Doğruyu bilmek ile doğru yaşamak arasındaki fark nedir?). Bu yedi başlık birlikte okunduğunda Yunus Emre'nin yalnızca bir tasavvuf şairi değil, insanın kendisiyle, başkalarıyla ve hakikatle ilişkisini araştıran büyük bir düşünür olduğu daha açık görülür.`,
   },
   {
     title: "DEMOGRAFİ VE SİYASET FELSEFESİ",
@@ -3727,7 +5744,7 @@ Bu toplantıların ortak noktasına dikkat etmek gerekiyor: Göç artık yalnız
     ],
     content: `Konfüçyüs'ü yalnızca "Çin'in filozofu" veya "ahlaklı olmayı öğütleyen bilge" olarak okumak, onu küçültmek olur. Konfüçyüs'ün asıl problemi şuydu: İnsan nasıl insan olur? Ve bu soru hemen başka bir soruya bağlanır: İyi insanlar olmadan iyi bir siyasal düzen kurulabilir mi? Konfüçyüs'ün felsefesinin özgünlüğü burada ortaya çıkar. Batı felsefesinde Sokrates "iyi yaşam nedir?" diye sorarken, Konfüçyüs bu soruyu aile, eğitim, ritüel, dil, siyasal otorite ve toplumsal roller üzerinden düşünür; Sokrates'in agorada tek tek insanları sorgulayan diyaloğuna karşılık, Konfüçyüs'ün öğrencileriyle yolda, sofrada ve ritüel sırasında geçen konuşmaları vardır.
 
-Üç gün önce [doğum gününde](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) hayatını ve kavramlarını özetlemiştik. Bu yazı o özetin devamı: Konfüçyüs'ün kavramlarının bugün neden tartışıldığını, 2026'da Anglofon felsefede "Konfüçyüsçü demokrasi mi, meritokrasi mi?" sorusunun nasıl olgunlaştığını, yeni bir *Konuşmalar* çevirisinin neden polemik yarattığını ve yapay zekâ çağında Konfüçyüs'ün hangi soruyu soracağını ele alıyor. Konfüçyüs bugün ayrıca [Filozof Dizini'ne](/filozof/konfucyus) eklendi.
+Üç gün önce [doğum gününde](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) hayatını ve kavramlarını özetlemiştik. Bu yazı o özetin devamı: Konfüçyüs'ün kavramlarının bugün neden tartışıldığını, 2026'da Anglofon felsefede "Konfüçyüsçü demokrasi mi, meritokrasi mi?" sorusunun nasıl olgunlaştığını, yeni bir *Konuşmalar* çevirisinin neden polemik yarattığını ve yapay zekâ çağında Konfüçyüs'ün hangi soruyu soracağını ele alıyor.
 
 ## Tarihsel Konfüçyüs ile efsanevi Konfüçyüs
 
@@ -3784,88 +5801,6 @@ Bu artık tarihsel bir soru değil, felsefi bir deneydir. Muhtemelen ilk sorusu 
 Konfüçyüs'ün felsefesini yalnızca "itaat, aile ve gelenek" olarak okumak eksiktir. Onun düşüncesinde öz-yetiştirme, eğitim, ahlaki sorumluluk, dil ile gerçeklik arasındaki uyum, yöneticinin karakteri, toplumsal ilişkilerin niteliği, kültürel devamlılık ve iyi yaşam soruları bulunur. Fakat çağdaş Konfüçyüsçülük bunların üzerine yeni bir soru ekliyor: Geleneksel bir erdem etiği, modern çoğulcu toplumlarda nasıl yaşayabilir? Sokrates bize "kendini bil" dedi. Konfüçyüs ise sanki şunu ekledi: "Kendini, başkalarıyla kurduğun ilişkiler içinde yetiştir." Yirmi birinci yüzyılın yalnızlaşan, algoritmik ve küreselleşmiş dünyasında Konfüçyüs'ün yeniden keşfedilmesinin nedeni tam olarak budur: Onun asıl mirası hazır cevaplar değil, insan olmanın bir ilişki içinde gerçekleştiği fikridir.`,
   },
   {
-    title: "30 Eylül ve 1 Ekim: Condillac'tan Dilthey'e, Rumi'den Alvin Goldman'a",
-    slug: "felsefe-tarihinde-bugun-30-eylul-1-ekim-condillac-dilthey-rumi-goldman",
-    summary:
-      "Tarihte bazı günler filozofların doğum ve ölüm tarihleriyle öne çıkar; bazı günler ise felsefenin kendisinin dönüşümünü hatırlatır. 30 Eylül ve 1 Ekim, epistemoloji, mistisizm, hermeneutik ve siyaset felsefesi açısından dikkat çekici isimleri aynı takvimde buluşturuyor: Condillac'ın heykeli, Mevlânâ'nın doğumu, Claudia Card'ın kötülük kuramı, Dilthey'in 'anlama'sı, Alvin Goldman'ın dışsalcılığı ve Mészáros'un sermaye eleştirisi.",
-    seoTitle: "Felsefe tarihinde bugün, 30 Eylül ve 1 Ekim: Condillac (1714), Mevlânâ (1207), Claudia Card (1940), Dilthey (ö. 1911), Alvin Goldman (1938), Mészáros (ö. 2017)",
-    metaDescription:
-      "30 Eylül ve 1 Ekim'de felsefe tarihi: Condillac'ın doğumu (1714) ve heykel düşünce deneyi; Mevlânâ'nın doğumu (1207); Claudia Card (1940); John J. McDermott (ö. 2018); Wilhelm Dilthey'in ölümü (1 Ekim 1911); Alvin Goldman (1938); István Mészáros (ö. 2017); Notre Dame 'Wisdom from Age to Age' konferansı.",
-    contentType: "TARIH",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Dilthey.jpg?width=1600",
-    imageCredit: "Wilhelm Dilthey, 1910 dolayları · Fotoğraf: Rudolf Dührkoop · Kamu malı · Wikimedia Commons",
-    featured: false,
-    sourceName: "Stanford Encyclopedia of Philosophy · Britannica",
-    sourceUrl: "https://plato.stanford.edu/entries/dilthey/",
-    publishedAt: "2026-09-30T21:10:00.000Z",
-    authorSlug: "kultur-servisi",
-    categorySlug: "felsefe-tarihinde-bugun",
-    tagSlugs: ["tarih", "epistemoloji", "aydinlanma", "etik", "marksizm"],
-    philosopherSlugs: ["wilhelm-dilthey"],
-    sources: [
-      { title: "Wilhelm Dilthey", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/dilthey/", primary: true },
-      { title: "Étienne Bonnot de Condillac", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/condillac/" },
-      { title: "Alvin Goldman (1938-2024)", publisher: "Rutgers University, Department of Philosophy", url: "https://philosophy.rutgers.edu/" },
-      { title: "In Memoriam: John Joseph McDermott, 1932-2018", publisher: "Society for the Advancement of American Philosophy", url: "https://american-philosophy.org/wp-content/uploads/2019/05/In-Memoriam-John-J.-McDermott.pdf" },
-      { title: "2026 Fall Conference: But Where Can She Be Found? Wisdom From Age to Age", publisher: "de Nicola Center for Ethics and Culture, University of Notre Dame", date: "1-3 Ekim 2026", url: "https://ethicscenter.nd.edu/programs/fall-conference/fc26/" },
-    ],
-    content: `Tarihte bazı günler filozofların doğum ve ölüm tarihleriyle öne çıkar; bazı günler ise felsefenin kendisinin dönüşümünü hatırlatır. 30 Eylül ve 1 Ekim, epistemoloji, mistisizm, hermeneutik ve siyaset felsefesi açısından dikkat çekici isimleri aynı takvimde buluşturuyor. İki günü birlikte ele alıyoruz.
-
-## 30 EYLÜL
-
-### 1714: Étienne Bonnot de Condillac
-
-Fransız Aydınlanması'nın en önemli bilgi kuramcısı Étienne Bonnot de Condillac, 30 Eylül 1714'te Grenoble'da doğdu (bazı kaynaklar 1715'i verir). Rahip oldu ama hiç vaaz vermedi; Diderot ve Rousseau'nun dostu, Parma prensinin eğitmeni, Fransız Akademisi üyesiydi. Felsefesinin merkezinde bilgi sorusu vardır: İnsan zihnindeki fikirler nereden gelir? Locke'un deneyci mirasını radikalleştiren Condillac, Locke'un hâlâ kabul ettiği "düşünümü" (reflection) bile bağımsız bir kaynak olmaktan çıkardı: Her şey, bellek, karşılaştırma, yargı, hatta irade, dönüştürülmüş duyumdur.
-
-*Duyumlar Üzerine İnceleme*'deki (1754) ünlü heykel düşünce deneyi, felsefe tarihinin en güzel kurgularından biridir. Condillac, mermerden bir heykel hayal eder ve ona duyuları tek tek verir: Önce yalnızca koku alır; bir gül kokusu heykelin bütün bilincidir, heykel "gül kokusudur". Sonra işitme, tat, görme ve nihayet dokunma eklenir; ancak dokunma ile heykel kendi bedenini dış nesnelerden ayırır ve bir "dış dünya" fikrine ulaşır. Deney, bilincin ve benliğin duyumlardan nasıl inşa edilebileceğini adım adım gösterir; Condillac bu yönüyle yalnızca Aydınlanma düşünürü değil, modern psikolojinin ve bilişsel bilimin öncüllerinden biridir. Bugün yapay zekâ araştırmacılarının "bedenlenmiş biliş" tartışmaları, Condillac'ın dokunmaya verdiği ayrıcalığı yeniden keşfediyor. 1780'de öldü.
-
-### 1207: Mevlânâ Celâleddîn-i Rûmî
-
-30 Eylül 1207, Mevlânâ'nın geleneksel doğum tarihidir; Belh'te (bugün Afganistan) doğdu, Konya'da yaşadı ve 1273'te öldü. Onu modern anlamda yalnızca "filozof" kategorisine yerleştirmek doğru olmaz; tasavvuf düşüncesi, şiir ve metafizik arasında duran bir düşünürdür. Fakat *Mesnevî* ve *Dîvân-ı Kebîr*, felsefi okumaya açıktır: Mevlânâ'nın düşüncesindeki temel meselelerden biri, benliğin sabit bir öz değil, dönüşüm içindeki bir varlık olmasıdır; "ölmeden önce ölmek", benliğin sürekli aşılmasıdır. Aşk, bilgisizlik değil, aklın ötesinde bir bilme biçimidir; Mevlânâ'nın imgesiyle, akıl yürüten "ayak"ın yerine uçuran "kanat". Bu açıdan düşüncesi, çağdaş özne felsefesiyle şaşırtıcı bir konuşma başlatabilir. Sitemizde Mevlânâ ile [Yunus Emre](/haber/yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk) arasındaki farkı bugün ayrı bir yazıda ele aldık: Mevlânâ'nın dili kozmik ve metafiziktir, Yunus'un dili doğrudan insanın kendisine yönelir.
-
-### 1940: Claudia Card
-
-Amerikalı filozof Claudia Card, 30 Eylül 1940'ta Wisconsin'de doğdu. Harvard'da John Rawls'un yanında doktora yaptı; kırk yılı aşkın süre Wisconsin-Madison'da ders verdi. Etiği soyut ilkelerden ibaret görmeyerek kötülüğün gerçek dünyadaki biçimleriyle ilgilendi: *The Atrocity Paradigm* (2002) ve *Confronting Evils* (2010), kötülüğü "zarar görenin dayanamayacağı, öngörülebilir ve haksız zararlar" olarak tanımladı ve soykırım, tecavüz, terörizm ve işkence gibi "vahşetleri" ahlak felsefesinin merkezine koydu. Feminist etiğin de kurucu isimlerindendi; "kadınların kötülüğün yalnızca kurbanı değil, bazen faili de olabileceğini" söyleyerek feminist düşüncenin kendi içinde tartışma açtı. Çalışmaları "kötülük nedir?" sorusunu aşarak şu soruya yöneliyordu: Bir toplum kötülüğü nasıl mümkün kılar? Card 2015'te öldü.
-
-### Ölenler: McDermott (2018) ve Carlini (1959)
-
-Amerikalı pragmatist filozof John J. McDermott, 30 Eylül 2018'de öldü. 1932'de New York'ta doğmuş, Fordham'da doktora yapmış, Queens College'da yıllarca ders verdikten sonra 1981'den itibaren Texas A&M'de çalışmıştı. William James ve John Dewey'in eserlerinin editörü, Amerikan Felsefesini Geliştirme Derneği'nin ve William James Derneği'nin başkanıydı; "deneyim felsefesi"ni Amerikan kültürünün kendi felsefesi olarak savundu ve "insanın kendi deneyimini ciddiye alması"nı felsefenin başlangıcı saydı.
-
-İtalyan filozof Armando Carlini 30 Eylül 1959'da öldü. Giovanni Gentile'nin izleyicilerinden ve Pisa Üniversitesi'nde teorik felsefe profesörüydü; Gentile'nin "aktüel idealizm"ini Hıristiyan bir spiritüalizme doğru dönüştürmeye çalıştı. İtalyan faşizmiyle ilişkisi nedeniyle düşünsel mirası, felsefe ile siyasal ideoloji arasındaki ilişkinin tartışmalı örneklerinden biridir.
-
-### 30 Eylül 2026: Fricker Columbia'da
-
-Columbia Üniversitesi'nin 2026 John Dewey Konferansları'nı [Miranda Fricker](/filozof/miranda-fricker) veriyor: "Ethical Pressures: Shaping Wills and Bending Time in Moral Address" başlıklı üç ders, 30 Eylül, 1 ve 2 Ekim'de. Fricker'ın epistemik adaletsizlik kuramından ahlaki hitap kuramına geçişini sitemizde [daha önce](/haber/miranda-fricker-uehiro-konferanslari-2026) ele almıştık; etkinliğin ayrıntıları [takvimimizde](/etkinlik/fricker-dewey-konferanslari-columbia-2026).
-
-## 1 EKİM
-
-### 1911: Wilhelm Dilthey'in ölümü
-
-Hermeneutiğin ve insan bilimleri felsefesinin kurucu figürü [Wilhelm Dilthey](/filozof/wilhelm-dilthey), 1 Ekim 1911'de Güney Tirol'de, Seis am Schlern'de tatildeyken öldü. (Bazı takvimler 1 Ekim'i doğum günü olarak da verir; bu yanlıştır. Dilthey 19 Kasım 1833'te Biebrich'te doğdu.) 1882'den 1905'e kadar Berlin'de Hegel'in eski kürsüsünde ders verdi.
-
-Dilthey'in temel sorusu şuydu: İnsan dünyasını doğa bilimleri gibi açıklayabilir miyiz, yoksa insan dünyasını anlamamız mı gerekir? *İnsan Bilimlerine Giriş* (1883), pozitivizmin bu iddiasına karşı insan bilimlerinin (Geisteswissenschaften) kendi temelini "yaşam"ın kendisinden alması gerektiğini savundu: Tarihi, dili, hukuku ve sanatı, kendimiz de yaşayan varlıklar olduğumuz için anlayabiliriz. "Doğayı açıklarız, ruhsal yaşamı anlarız" cümlesi, bu programın sloganı oldu. Kant'ın saf aklı eleştirmesi gibi Dilthey bir "tarihsel akıl eleştirisi" tasarladı; tamamlayamadı, ama geç dönem çalışmaları yaşantı-ifade-anlama üçlüsünü hermeneutiğin temel yapısı olarak kurdu. Bu ayrım, Heidegger'den [Gadamer](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir)'e, Ricoeur'den çağdaş yorum kuramlarına uzanan büyük bir geleneğin zeminini hazırladı; sitemizde [Schleiermacher'in hermeneutik derslerinin Türkçe çevirisini](/haber/schleiermacher-hermeneutik-dersleri-turkce) haber yaparken bu geleneğin Dilthey'den geçen hattına değinmiştik. Max Weber'in "anlayıcı sosyoloji"si, Ortega y Gasset'nin "yaşam aklı" ve bugünün nitel sosyal bilim yöntemleri, Dilthey'in mirasının farklı dallarıdır.
-
-### 1886: Georgy Fedotov
-
-Rus din filozofu ve tarihçi Georgy Petrovich Fedotov, 1 Ekim 1886'da Saratov'da doğdu. Marksist bir gençlikten Hıristiyan bir tarih felsefesine geçti; Rus Ortodoks kültürü, azizlik ve "Rus dinî zihni" üzerine yazdı. 1925'te Sovyetler Birliği'nden ayrılarak Paris'teki Saint-Serge Enstitüsü'nde ders verdi, 1941'de ABD'ye geçti ve New York'taki St. Vladimir Seminary'de çalıştı. *The Russian Religious Mind* (1946), Rus düşünce tarihinin Batı'daki temel kaynaklarından biridir. 1951'de öldü.
-
-### 1938: Alvin Goldman
-
-Çağdaş epistemolojinin en etkili isimlerinden Alvin Goldman, 1 Ekim 1938'de Brooklyn'de doğdu. 1967 tarihli "A Causal Theory of Knowing" makalesi, Gettier'nin iki yıl önce ortaya attığı probleme ilk büyük cevaplardan biriydi: Bilgi, inancın doğruluğuyla uygun bir nedensel ilişki içinde olmasını gerektirir. Sonraki "güvenilircilik" (reliabilism) kuramı, *Epistemology and Cognition* (1986), gerekçelendirmeyi öznenin içsel erişimine değil, inancı üreten sürecin güvenilirliğine bağladı ve "dışsalcılık"ın kurucu metni oldu. Goldman ayrıca *Knowledge in a Social World* (1999) ile sosyal epistemoloji alanını kurdu: Bilginin bireysel değil toplumsal üretimini, tanıklığı, uzmanlığı ve kurumları felsefenin konusu yaptı. Bu alan bugün, yanlış bilgi, algoritmik medya ve yapay zekâ çağında, epistemolojinin en canlı dalı. Goldman, Michigan, Arizona ve Rutgers'ta ders verdi; 4 Ağustos 2024'te öldü.
-
-### 2017: István Mészáros
-
-Macar Marksist filozof István Mészáros, 1 Ekim 2017'de öldü. Budapeşte'de Lukács'ın asistanıydı; 1956'dan sonra ülkesini terk etti, Sussex Üniversitesi'nde ders verdi. *Marx's Theory of Alienation* (1970) ile Isaac Deutscher Ödülü'nü aldı; başyapıtı *Beyond Capital* (1995), kapitalizmin yalnızca ekonomik bir sistem değil, toplumsal yaşamı bütünüyle örgütleyen bir "toplumsal metabolizma" olarak ele alınması gerektiğini savundu ve Latin Amerika solunu, özellikle Hugo Chávez'i etkiledi. Mészáros'un "sermayenin yapısal krizi" tezi, 2008 sonrasında yeniden okundu; bugün [yapay zekânın ekonomi-politiği](/haber/yapay-zekanin-ekonomi-politigi-mulkiyet-emek-mesruiyet) tartışmasında da adı geçiyor.
-
-### 1 Ekim 2026: Bilgelik üzerine bir konferans
-
-Notre Dame Üniversitesi de Nicola Etik ve Kültür Merkezi'nin 26. yıllık Sonbahar Konferansı, 1-3 Ekim 2026'da "But Where Can She Be Found? Wisdom from Age to Age" (Peki O Nerede Bulunur? Çağdan Çağa Bilgelik) başlığıyla toplanıyor. Başlık Eyüp Kitabı'ndan; konferans, bilgeliği hem antik felsefenin teorik-pratik bilgelik ayrımı, hem Kutsal Kitap ve Katolik geleneği, hem de pratik yaşam açısından ele alıyor. Üniversitenin en büyük disiplinlerarası yıllık toplantısı olan konferans, "bilgelik" kavramının, bilginin bollaştığı ve ucuzladığı bir çağda yeniden felsefenin konusu hâline gelişini gösteriyor; Yunus Emre'nin "ilim kendin bilmektir" sorusu ile Konfüçyüs'ün *junzi* ideali bugün aynı sayfamızda duruyorsa, nedeni bu.
-
-## Takvim notu
-
-Felsefe takvimlerinde sık yapılan bir hata, yayımlanma tarihi, ilk baskı tarihi, yeni baskı tarihi ve dijital yayın tarihinin birbirine karıştırılmasıdır. Bu nedenle 30 Eylül ve 1 Ekim için güvenilir kataloglarda kesin olarak doğrulayabildiğimiz bir "ilk baskı" tarihi bulunan klasik felsefe eseri olmadığından, bu bölümde eser değil, insan anıyoruz.`,
-  },
-  {
     title: "Robert Stalnaker'ın 'ortak zemini' makinelerin sınavında: Yapay zekâ pragmatiği 1978 tarihli bir makaleye dönüyor",
     slug: "robert-stalnaker-ortak-zemin-yapay-zeka-pragmatigi-2026",
     summary:
@@ -3915,7 +5850,7 @@ Bu araştırmalar bir felsefe profesörü için iki nedenle ilginç. Birincisi, 
 
 ## Stalnaker kimdir?
 
-Robert Culp Stalnaker 1940'ta Princeton'da doğdu; Wesleyan'da okudu, Princeton'da doktora yaptı, Yale, Illinois ve Cornell'den sonra 1988'de MIT'ye geçti ve Laurance S. Rockefeller Profesörü olarak emekli oldu. Üç kurucu katkısı var: "A Theory of Conditionals" (1968), "p olsaydı q olurdu" biçimindeki koşulluları en yakın olası dünyada değerlendiren semantiği kurdu ve David Lewis'inkiyle birlikte koşullular kuramının standardı oldu; "Assertion" ve "Common Ground" pragmatiği formelleştirdi; *Ways a World Might Be* (2003) ve *Mere Possibilities* (2012), olası dünyaları Lewis gibi somut evrenler değil, dünyanın "olabileceği yollar" olarak düşünen ılımlı modal gerçekçiliği savundu. Sitemizde dün [David Lewis'i anarken](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) bu karşıtlığa değinmiştik: Lewis'in "inanmazlık bakışı"na karşı Stalnaker, olası dünyaları metafizik değil, konuşmanın ve düşüncenin araçları olarak tuttu. İki boyutlu semantik ve "köşegen önerme" kavramı, David Chalmers'ın bilinç felsefesindeki iki boyutlu çerçevesinin kaynaklarındandır. Stalnaker bugün [Filozof Dizini'ne](/filozof/robert-stalnaker) eklendi.
+Robert Culp Stalnaker 1940'ta Princeton'da doğdu; Wesleyan'da okudu, Princeton'da doktora yaptı, Yale, Illinois ve Cornell'den sonra 1988'de MIT'ye geçti ve Laurance S. Rockefeller Profesörü olarak emekli oldu. Üç kurucu katkısı var: "A Theory of Conditionals" (1968), "p olsaydı q olurdu" biçimindeki koşulluları en yakın olası dünyada değerlendiren semantiği kurdu ve David Lewis'inkiyle birlikte koşullular kuramının standardı oldu; "Assertion" ve "Common Ground" pragmatiği formelleştirdi; *Ways a World Might Be* (2003) ve *Mere Possibilities* (2012), olası dünyaları Lewis gibi somut evrenler değil, dünyanın "olabileceği yollar" olarak düşünen ılımlı modal gerçekçiliği savundu. Sitemizde dün [David Lewis'i anarken](/haber/felsefe-tarihinde-bugun-28-eylul-konfucyus-david-lewis-stroud) bu karşıtlığa değinmiştik: Lewis'in "inanmazlık bakışı"na karşı Stalnaker, olası dünyaları metafizik değil, konuşmanın ve düşüncenin araçları olarak tuttu. İki boyutlu semantik ve "köşegen önerme" kavramı, David Chalmers'ın bilinç felsefesindeki iki boyutlu çerçevesinin kaynaklarındandır.
 
 ## Neden önemli?
 
@@ -4474,7 +6409,7 @@ Eylül 1939'da kanser artık dayanılmaz hâle gelmişti; yara kokusu yüzünden
 
 ## Freud'un felsefeye mirası
 
-Freud kendini filozof değil bilim insanı sayıyordu; felsefeye karşı, gençliğinde Brentano'nun derslerini izlemiş olmasına rağmen, mesafeliydi. Ama etkisi belki de en çok felsefede sürdü. Ricoeur onu Marx ve Nietzsche ile birlikte "kuşku ustaları" arasına yerleştirdi: Bilincin kendine saydam olduğu Kartezyen varsayımı, Freud'dan sonra savunulamaz hâle geldi. Frankfurt Okulu, Marcuse'nin *Eros ve Uygarlık*'ından Adorno'ya, Freud'un dürtü kuramını toplum eleştirisiyle birleştirdi; Lacan, Freud'a "dönüş" adına psikanalizi yapısalcı dilbilimle yeniden yazdı; Derrida "tekinsiz"i, Butler "melankoli"yi, Žižek "fantezi"yi Freud'dan aldı. Popper ise psikanalizi, çürütülemez olduğu için, bilim olmayan kuramın örneği yaptı; Grünbaum klinik kanıtları sorguladı. Bilimsel statüsü ne olursa olsun, Freud'un bilinçdışı kavramı, geçen hafta [sosyal medya ve kitlesel bilinçdışı](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) üzerine yazarken gördüğümüz gibi, hâlâ dünyayı okumak için kullandığımız araçlardan biri. Freud bugün [Filozof Dizini'ne](/filozof/sigmund-freud) eklendi; hocası saydığı Schopenhauer'ı da [21 Eylül takviminde](/haber/felsefe-tarihinde-bugun-21-eylul-schopenhauer-williams-bunge) andık.
+Freud kendini filozof değil bilim insanı sayıyordu; felsefeye karşı, gençliğinde Brentano'nun derslerini izlemiş olmasına rağmen, mesafeliydi. Ama etkisi belki de en çok felsefede sürdü. Ricoeur onu Marx ve Nietzsche ile birlikte "kuşku ustaları" arasına yerleştirdi: Bilincin kendine saydam olduğu Kartezyen varsayımı, Freud'dan sonra savunulamaz hâle geldi. Frankfurt Okulu, Marcuse'nin *Eros ve Uygarlık*'ından Adorno'ya, Freud'un dürtü kuramını toplum eleştirisiyle birleştirdi; Lacan, Freud'a "dönüş" adına psikanalizi yapısalcı dilbilimle yeniden yazdı; Derrida "tekinsiz"i, Butler "melankoli"yi, Žižek "fantezi"yi Freud'dan aldı. Popper ise psikanalizi, çürütülemez olduğu için, bilim olmayan kuramın örneği yaptı; Grünbaum klinik kanıtları sorguladı. Bilimsel statüsü ne olursa olsun, Freud'un bilinçdışı kavramı, geçen hafta [sosyal medya ve kitlesel bilinçdışı](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) üzerine yazarken gördüğümüz gibi, hâlâ dünyayı okumak için kullandığımız araçlardan biri. Hocası saydığı Schopenhauer'ı da [21 Eylül takviminde](/haber/felsefe-tarihinde-bugun-21-eylul-schopenhauer-williams-bunge) andık.
 
 ## MÖ 63: Augustus
 
@@ -4563,11 +6498,11 @@ Michael Faraday, 22 Eylül 1791'de Londra'nın Newington Butts semtinde bir nalb
 
 Arthur Schopenhauer, 21 Eylül 1860 sabahı Frankfurt'taki evinde, kahvaltı masasında, yetmiş iki yaşında öldü. Hizmetçisi onu her zamanki gibi soğuk suyla yıkanmış, kahvesini içmiş, kanepede oturur hâlde buldu; hekim geldiğinde kalbi durmuştu. Aylardır nefes darlığı ve kalp çarpıntısı yaşıyordu; ama ölümü, felsefesine yakışır biçimde, korkusuz ve olaysızdı. Çünkü Schopenhauer'a göre ölüm, bireyin sonu ama yaşama isteminin sonu değildir: "Doğanın bakış açısından bireyin ölümü, uyuduktan sonra uyanmak kadar önemsizdir." Bireyleşme ilkesi bir yanılsamadır; ölen, yalnızca görünüştür.
 
-Otuz yaşında yayımladığı *İsteme ve Tasarım Olarak Dünya* (1818) neredeyse otuz yıl okunmamıştı; ünü ancak 1851'de *Parerga ve Paralipomena*'daki denemelerle geldi ve son on yılında, "Frankfurt'un Budası" olarak, Avrupa'nın en çok okunan filozofuna dönüştü. Ölümünden sonra etkisi patladı: Wagner *Tristan*'ı onun müzik metafiziğiyle yazdı; genç Nietzsche onu "eğitimci" olarak seçti ve sonra ona karşı kendi olumlamasını kurdu; Freud, bastırma kuramının Schopenhauer'da önceden bulunduğunu kabul etti; Wittgenstein *Tractatus*'un son sayfalarında onun "dünyanın sınırı olarak özne" fikrini yeniden yazdı. Sitemizde daha önce [Schopenhauer'ın irade, arzu ve merhamet](/haber/schopenhauer-irade-arzu-merhamet) düşüncesini ele almıştık; bugün [Filozof Dizini'ne](/filozof/arthur-schopenhauer) de eklendi. Onun ölümünden iki gün sonra, [23 Eylül](/haber/felsefe-tarihinde-bugun-23-eylul-freud-augustus-neruda), en büyük öğrencilerinden Freud'un ölüm yıldönümü.
+Otuz yaşında yayımladığı *İsteme ve Tasarım Olarak Dünya* (1818) neredeyse otuz yıl okunmamıştı; ünü ancak 1851'de *Parerga ve Paralipomena*'daki denemelerle geldi ve son on yılında, "Frankfurt'un Budası" olarak, Avrupa'nın en çok okunan filozofuna dönüştü. Ölümünden sonra etkisi patladı: Wagner *Tristan*'ı onun müzik metafiziğiyle yazdı; genç Nietzsche onu "eğitimci" olarak seçti ve sonra ona karşı kendi olumlamasını kurdu; Freud, bastırma kuramının Schopenhauer'da önceden bulunduğunu kabul etti; Wittgenstein *Tractatus*'un son sayfalarında onun "dünyanın sınırı olarak özne" fikrini yeniden yazdı. Sitemizde daha önce [Schopenhauer'ın irade, arzu ve merhamet](/haber/schopenhauer-irade-arzu-merhamet) düşüncesini ele almıştık. Onun ölümünden iki gün sonra, [23 Eylül](/haber/felsefe-tarihinde-bugun-23-eylul-freud-augustus-neruda), en büyük öğrencilerinden Freud'un ölüm yıldönümü.
 
 ## 1929: Bernard Williams
 
-Bernard Arthur Owen Williams, 21 Eylül 1929'da Essex'te Westcliff-on-Sea'de doğdu. Oxford'da klasik filoloji ve felsefe okudu, RAF'ta jet pilotu olarak askerlik yaptı; Cambridge'de Knightbridge Profesörü ve King's College başkanı oldu, Berkeley'e gitti, 1990'da Oxford'a White's Profesörü olarak döndü. Ahlak felsefesinin "kuram" hevesine karşı yazdı: Faydacılığın kişiyi kendi projelerinden koparan "bütünlük" saldırısını, Kantçılığın ahlakı bir "tuhaf kurum"a dönüştürmesini eleştirdi; boğulmakta olan karısını kurtarmak için "karım olduğu için" demek yerine "karım olduğu için ve ahlak buna izin verdiği için" düşünen adamın "bir düşünce fazla" yaptığını söyledi. *Ahlaki Şans* (1981), ahlaki değerin denetimimiz dışındaki şeylere bağlı olduğunu; *Etik ve Felsefenin Sınırları* (1985), felsefenin etik hayata ancak sınırlı yardım edebileceğini; *Utanç ve Zorunluluk* (1993), Homeros'un Yunanlılarının ahlak psikolojisinin bizimkinden daha ilkel değil, bazı yönlerden daha dürüst olduğunu savundu. Nietzsche'yi ciddiye alan ender analitik filozoflardandı; *Hakikat ve Doğruluk* (2002) hakikat erdemlerinin bir soykütüğüdür. 2003'te Roma'da öldü. Bugün [Filozof Dizini'ne](/filozof/bernard-williams) eklendi.
+Bernard Arthur Owen Williams, 21 Eylül 1929'da Essex'te Westcliff-on-Sea'de doğdu. Oxford'da klasik filoloji ve felsefe okudu, RAF'ta jet pilotu olarak askerlik yaptı; Cambridge'de Knightbridge Profesörü ve King's College başkanı oldu, Berkeley'e gitti, 1990'da Oxford'a White's Profesörü olarak döndü. Ahlak felsefesinin "kuram" hevesine karşı yazdı: Faydacılığın kişiyi kendi projelerinden koparan "bütünlük" saldırısını, Kantçılığın ahlakı bir "tuhaf kurum"a dönüştürmesini eleştirdi; boğulmakta olan karısını kurtarmak için "karım olduğu için" demek yerine "karım olduğu için ve ahlak buna izin verdiği için" düşünen adamın "bir düşünce fazla" yaptığını söyledi. *Ahlaki Şans* (1981), ahlaki değerin denetimimiz dışındaki şeylere bağlı olduğunu; *Etik ve Felsefenin Sınırları* (1985), felsefenin etik hayata ancak sınırlı yardım edebileceğini; *Utanç ve Zorunluluk* (1993), Homeros'un Yunanlılarının ahlak psikolojisinin bizimkinden daha ilkel değil, bazı yönlerden daha dürüst olduğunu savundu. Nietzsche'yi ciddiye alan ender analitik filozoflardandı; *Hakikat ve Doğruluk* (2002) hakikat erdemlerinin bir soykütüğüdür. 2003'te Roma'da öldü.
 
 ## 1919: Mario Bunge
 
@@ -4612,7 +6547,7 @@ Girolamo Savonarola, 21 Eylül 1452'de Ferrara'da doğdu. Floransa'da Medici'ler
 
 Leo Strauss, 20 Eylül 1899'da Hessen'in Kirchhain kasabasında Ortodoks bir Yahudi ailede doğdu. Marburg ve Hamburg'da okudu, Cassirer'in yanında doktora yaptı, Freiburg'da Husserl'i ve genç Heidegger'i dinledi; Berlin'de Spinoza ve Maimonides üzerine çalıştı, Carl Schmitt'in *Siyasal Kavramı*'na yazdığı notlarla Schmitt'i etkiledi. 1932'de Almanya'dan ayrıldı; 1938'den itibaren New York'ta, 1949'dan itibaren Chicago'da ders verdi. *Zulüm ve Yazma Sanatı* (1952), Platon'dan Maimonides'e ve Spinoza'ya büyük filozofların baskı altında yazarken "satır aralarında" ezoterik bir öğreti bıraktığını savunarak felsefe tarihini okuma biçimini değiştirdi. *Doğal Hak ve Tarih* (1953), modern siyaset felsefesini Hobbes'la başlayıp Nietzsche ve Heidegger'de tarihsiciliğe ve nihilizme varan bir kopuş olarak anlattı: Strauss'a göre çare, "en iyi rejim nedir" sorusunu, klasik doğal hak öğretisini, yeniden ciddiye almaktı. "Atina ile Kudüs", akıl ile vahiy arasındaki çözümsüz gerilim, düşüncesinin ikinci ekseniydi.
 
-Chicago'daki öğrencileri (Allan Bloom, Seth Benardete, Harvey Mansfield, Harry Jaffa) Amerikan siyaset biliminde bir okul oluşturdu; 2000'lerde "Straussçular" ile Bush yönetiminin Irak politikası arasında kurulan bağ, Strauss'un kendi metinlerinden çok öğrencilerinin siyasal tercihlerinden kaynaklanan, ama hâlâ süren bir tartışma yarattı. Strauss'un ezoterik okuma tezi, felsefe tarihçileri arasında bugün de bölücü: Kimine göre büyük metinleri ciddiye almanın tek yolu, kimine göre kanıtlanamaz bir komplo hermeneutiği. Strauss bugün [Filozof Dizini'ne](/filozof/leo-strauss) eklendi; öğrencisi Allan Bloom'u [14 Eylül takviminde](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) anmıştık.
+Chicago'daki öğrencileri (Allan Bloom, Seth Benardete, Harvey Mansfield, Harry Jaffa) Amerikan siyaset biliminde bir okul oluşturdu; 2000'lerde "Straussçular" ile Bush yönetiminin Irak politikası arasında kurulan bağ, Strauss'un kendi metinlerinden çok öğrencilerinin siyasal tercihlerinden kaynaklanan, ama hâlâ süren bir tartışma yarattı. Strauss'un ezoterik okuma tezi, felsefe tarihçileri arasında bugün de bölücü: Kimine göre büyük metinleri ciddiye almanın tek yolu, kimine göre kanıtlanamaz bir komplo hermeneutiği. Öğrencisi Allan Bloom'u [14 Eylül takviminde](/haber/felsefe-tarihinde-bugun-14-eylul-carnap-bloom-maturana) anmıştık.
 
 ## 1930: Richard Montague
 
@@ -4663,7 +6598,7 @@ Annie Besant, 20 Eylül 1933'te Hindistan'ın Adyar kentinde seksen beş yaşın
 
 Paulo Reglus Neves Freire, 19 Eylül 1921'de Brezilya'nın kuzeydoğusundaki Recife'de doğdu. Yirminci yüzyılın en etkili eğitim düşünürü olan Freire'nin önemi yalnızca pedagojik yöntemlerinde değil, sorusundadır: Eğitim insanı özgürleştirir mi, yoksa mevcut iktidar ilişkilerini yeniden mi üretir? 1963'te Angicos'ta üç yüz şeker kamışı işçisine kırk beş günde okuma-yazma öğreten deneyi, 1964 darbesiyle kesildi; sürgünde, Şili'de yazdığı *Ezilenlerin Pedagojisi* (1968), öğretmenin bilgiyi pasif öğrenciye "yatırdığı" bankacı eğitim modeline karşı, dünyayı değiştirilebilir bir sorun olarak görmeyi öğreten diyalojik eğitimi ve "eleştirel bilinçlenme"yi (conscientização) önerdi.
 
-Freire'yi bugün özellikle önemli kılan nokta, yapay zekâ ve dijital eğitim çağında yeniden ortaya çıkıyor: Bilgiye erişimin artması gerçekten özgürleşme anlamına gelir mi? Bir öğrencinin istediği her bilgiye birkaç saniyede ulaşabilmesi, eleştirel düşünme kapasitesinin arttığı anlamına gelmez; tam tersine, algoritmanın neyi bilgi olarak öne çıkardığı yeni bir pedagojik iktidar yaratabilir. Freire'nin "bankacı eğitim" eleştirisi, sohbet robotunun hazır cevabına da uygulanabilir; onun yöntemi, cevabı değil soruyu öğretmekti. Bugünkü [Gündem yazımızda](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) tartıştığımız algoritmik görünürlük sorunu, Freire'nin "sessizlik kültürü" kavramının dijital biçimi olarak da okunabilir. Freire bugün [Filozof Dizini'ne](/filozof/paulo-freire) eklendi.
+Freire'yi bugün özellikle önemli kılan nokta, yapay zekâ ve dijital eğitim çağında yeniden ortaya çıkıyor: Bilgiye erişimin artması gerçekten özgürleşme anlamına gelir mi? Bir öğrencinin istediği her bilgiye birkaç saniyede ulaşabilmesi, eleştirel düşünme kapasitesinin arttığı anlamına gelmez; tam tersine, algoritmanın neyi bilgi olarak öne çıkardığı yeni bir pedagojik iktidar yaratabilir. Freire'nin "bankacı eğitim" eleştirisi, sohbet robotunun hazır cevabına da uygulanabilir; onun yöntemi, cevabı değil soruyu öğretmekti. Bugünkü [Gündem yazımızda](/haber/toplumun-kitlesel-bilincdisi-olarak-sosyal-medya) tartıştığımız algoritmik görünürlük sorunu, Freire'nin "sessizlik kültürü" kavramının dijital biçimi olarak da okunabilir.
 
 ## 1978: Étienne Gilson
 
@@ -4675,7 +6610,7 @@ Gilson'un felsefe tarihindeki asıl önemi, ortaçağ düşüncesini modern fels
 
 Gianni Vattimo, 19 Eylül 2023'te Torino yakınlarındaki Rivoli'de seksen yedi yaşında öldü; Pompeu Fabra Üniversitesi'ndeki Vattimo Arşivi ölümünü bu yaşta kaydediyor. Torino'da Luigi Pareyson'un öğrencisi olan, Gadamer'in *Hakikat ve Yöntem*'ini İtalyancaya çeviren Vattimo, 1983'te Pier Aldo Rovatti ile birlikte "zayıf düşünce" (pensiero debole) kavramını ortaya attı: Nietzsche'nin "Tanrı öldü"sü ve Heidegger'in metafiziğin sonu tezi, kaybedilecek bir kesinlik değil, hakikat adına uygulanan şiddetten kurtuluş imkânıydı. *Modernliğin Sonu* (1985) ve *Şeffaf Toplum* (1989), kitle iletişim toplumunu tek bir merkezî gerçekliğin çözülüp çoğul yorumların yan yana geldiği bir alan olarak okudu.
 
-Bu yaklaşım bugün sosyal medya çağında başka bir biçimde karşımıza çıkıyor. Dijital dünyada artık tek bir anlatı yok, milyonlarca anlatı var; ama Vattimo'nun kendisi de son yıllarında kabul etti ki bu çoğulluk otomatik olarak özgürlük anlamına gelmiyor. Hakikatin çoğalması ile hakikatin parçalanması aynı şey değildir; "şeffaf toplum" umudu, algoritmik olarak düzenlenmiş bir opaklığa dönüşebilir. Vattimo'nun düşüncesi tam da bu ayrımı yeniden düşünmek için güçlü bir başlangıç noktası. Vattimo da bugün [Filozof Dizini'ne](/filozof/gianni-vattimo) eklendi; Gadamer'i ele aldığımız [dosya](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir) ile birlikte okunabilir.
+Bu yaklaşım bugün sosyal medya çağında başka bir biçimde karşımıza çıkıyor. Dijital dünyada artık tek bir anlatı yok, milyonlarca anlatı var; ama Vattimo'nun kendisi de son yıllarında kabul etti ki bu çoğulluk otomatik olarak özgürlük anlamına gelmiyor. Hakikatin çoğalması ile hakikatin parçalanması aynı şey değildir; "şeffaf toplum" umudu, algoritmik olarak düzenlenmiş bir opaklığa dönüşebilir. Vattimo'nun düşüncesi tam da bu ayrımı yeniden düşünmek için güçlü bir başlangıç noktası. Gadamer'i ele aldığımız [dosya](/haber/gadamer-anlamak-bir-yontem-degil-bir-karsilasmadir) ile birlikte okunabilir.
 
 ## Doğum günleri: Skorupski, Thiel, Taylor
 
@@ -5095,7 +7030,7 @@ Russell ve Moore'un 1898 dolaylarındaki kopuşu, tam olarak ilişkiler tezine y
 
 T. S. Eliot 1916'da Harvard'a "Knowledge and Experience in the Philosophy of F. H. Bradley" başlıklı doktora tezini teslim etti; savaş yüzünden savunmaya gidemedi, ama Bradley'nin "dolaysız deneyim" kavramı ve öznel-nesnel ayrımını sorgulayışı, Eliot'ın kişisizlik kuramında ve *Çorak Ülke*'nin notlarında (kitaba Bradley'den bir alıntıyla gönderme yapar) iz bıraktı. R. G. Collingwood, Brand Blanshard ve Michael Oakeshott, Bradley'nin idealizmini yirminci yüzyıla taşıdı. Bradley 1924'te, İngiliz filozoflar arasında nadir bir onur olan Liyakat Nişanı'nı aldı; birkaç ay sonra, 18 Eylül'de Oxford'da öldü.
 
-Bugün Bradley'yi okumak, analitik felsefenin doğduğu tartışmayı yeniden açmak demek: İlişkiler dünyanın dokusunda mı, yoksa düşüncenin ona giydirdiği bir elbise mi? Bilgisayar bilimlerinin dünyayı "ilişkisel veri tabanları" olarak modellediği bir çağda, Bradley'nin gerilemesi beklenmedik biçimde güncel. Bradley bugün [Filozof Dizini'ne](/filozof/f-h-bradley) eklendi.`,
+Bugün Bradley'yi okumak, analitik felsefenin doğduğu tartışmayı yeniden açmak demek: İlişkiler dünyanın dokusunda mı, yoksa düşüncenin ona giydirdiği bir elbise mi? Bilgisayar bilimlerinin dünyayı "ilişkisel veri tabanları" olarak modellediği bir çağda, Bradley'nin gerilemesi beklenmedik biçimde güncel.`,
   },
   {
     title: "18 Eylül: Sanat felsefesinden analitik düşünceye, liberalizmden varoluş sorusuna",
@@ -5131,7 +7066,7 @@ Bugün Bradley'yi okumak, analitik felsefenin doğduğu tartışmayı yeniden a�
 
 ## 1985: Monroe Beardsley ve niyet yanılgısı
 
-Monroe Curtis Beardsley, 18 Eylül 1985'te altmış dokuz yaşında öldü. Yirminci yüzyıl Amerikan estetiğinin kurucu isimlerinden olan Beardsley, W. K. Wimsatt ile 1946'da yazdığı "The Intentional Fallacy" ile edebiyat ve sanat yorumunda sanatçının niyetini belirleyici ölçüt olarak kullanmaya karşı klasik argümanı geliştirdi; *Aesthetics: Problems in the Philosophy of Criticism* (1958) analitik gelenekte yazılmış ilk sistematik estetik kitabı sayılır. Beardsley'nin ölüm yıldönümü, bugünkü [Gündem yazımızın](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) konusu olan yapay zekâ ve sanat tartışması açısından özellikle anlamlı: Bir eseri yapan varlığın niyeti yoksa, eser yine de sanat olabilir mi? Beardsley'nin cevabı, eserin niyetten bağımsız değerlendirilebileceğiydi; yapay zekâ bu cevabı ilk kez gerçekten sınıyor. Beardsley bugün [Filozof Dizini'ne](/filozof/monroe-beardsley) eklendi.
+Monroe Curtis Beardsley, 18 Eylül 1985'te altmış dokuz yaşında öldü. Yirminci yüzyıl Amerikan estetiğinin kurucu isimlerinden olan Beardsley, W. K. Wimsatt ile 1946'da yazdığı "The Intentional Fallacy" ile edebiyat ve sanat yorumunda sanatçının niyetini belirleyici ölçüt olarak kullanmaya karşı klasik argümanı geliştirdi; *Aesthetics: Problems in the Philosophy of Criticism* (1958) analitik gelenekte yazılmış ilk sistematik estetik kitabı sayılır. Beardsley'nin ölüm yıldönümü, bugünkü [Gündem yazımızın](/haber/yapay-zeka-sanatci-olabilir-mi-estetik-yaraticilik-telif) konusu olan yapay zekâ ve sanat tartışması açısından özellikle anlamlı: Bir eseri yapan varlığın niyeti yoksa, eser yine de sanat olabilir mi? Beardsley'nin cevabı, eserin niyetten bağımsız değerlendirilebileceğiydi; yapay zekâ bu cevabı ilk kez gerçekten sınıyor.
 
 ## 1924: F. H. Bradley
 
@@ -32993,6 +34928,207 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Türk Felsefesini Temalaştırmak",
+    slug: "uyanik-turk-felsefesini-temalastirmak",
+    originalTitle: null,
+    publisher: "Mevlüt Uyanık (yazar yayını)",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "Anadolu'daki düşünce birikimini, medeniyetlerin etkileşimini ve Türkçe felsefe yapmanın imkânını tartışan hacimli bir çalışma; felsefe tarihini Batı kanonunun aktarımı olarak değil, Anadolu'nun düşünsel mirası üzerinden de kurmayı öneriyor.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kitap/turk-felsefesini-temalastirmak/745587.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Felsefeden Algoritmaya",
+    slug: "kaplan-felsefeden-algoritmaya",
+    originalTitle: null,
+    publisher: "Tin Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "Felsefi düşünceyle algoritmik sistemler arasındaki ilişkiyi konu alan telif bir çalışma; Türkçede yapay zekâ ve algoritma üzerine az sayıdaki özgün felsefe kitabından biri.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kitap/felsefeden-algoritmaya/762200.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Evrim Risalesi: İslam Düşünce Geleneğinden Hareketle Bir Değerlendirme",
+    slug: "turker-evrim-risalesi",
+    originalTitle: null,
+    publisher: "Ketebe Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "Ömer Türker evrim kuramını İslam düşünce geleneğinin kavramlarıyla değerlendiriyor: Bilimsel bir kuram dinî ve felsefi önkabullerle nasıl ilişkilendirilir?",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kategori/kitap-felsefedusunce-felsefe-bilimi/431.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "İslam Düşünce Gelenekleri: Kelam – Felsefe – Tasavvuf",
+    slug: "turker-islam-dusunce-gelenekleri",
+    originalTitle: null,
+    publisher: "Ketebe Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "İslam düşüncesinin üç büyük damarını, kelâm, felsefe ve tasavvufu, ayrı disiplinler olarak değil birbirleriyle ilişki içinde okuyan kısa bir giriş.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kategori/kitap-felsefedusunce-felsefe-bilimi/431.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Normal Felsefeye Giriş",
+    slug: "kucuk-normal-felsefeye-giris",
+    originalTitle: null,
+    publisher: "Maarif Mektepleri",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "İbn Sînâcı gelenekten hareketle varlık, Tanrı, bilgi, insan, ölüm sonrası ve din meselelerini sistematik bir metafizik içinde kuran 560 sayfalık bir eser; tarafsız bir giriş değil, bir okulun savunusu.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kitap/normal-felsefeye-giris/748844.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Felsefe Tarihi",
+    slug: "toktas-felsefe-tarihi",
+    originalTitle: null,
+    publisher: "Atı Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: "9786259144528",
+    coverImage: null,
+    description: "Sokrates öncesinden çağdaş felsefeye, İslam felsefesi ve Skolastik dâhil, tek ciltlik bir felsefe tarihi anlatısı; filozoflar, kavramlar ve problemler çerçevesinde.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kitap/felsefe-tarihi/770477.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Felsefe Yapma",
+    slug: "tas-felsefe-yapma",
+    originalTitle: null,
+    publisher: "Ütopya Yayın Grubu",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description: "On dört yaşındaki bir kızın köyde geçirdiği yazı Thales, Herakleitos, Sokrates ve Platon'un düşünceleriyle buluşturan, gençler için bir felsefe anlatısı.",
+    year: 2026,
+    link: "https://www.kitapyurdu.com/kitap/felsefe-yapma/766622.html",
+    philosopherSlug: null,
+    postSlug: "2026-turkce-telif-felsefe-kitaplari",
+  },
+  {
+    title: "Logical Positivism: An American History",
+    slug: "verhaegh-logical-positivism-american-history",
+    originalTitle: null,
+    publisher: "Oxford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780197537961",
+    coverImage: null,
+    description:
+      "Sander Verhaegh'in sekiz yıllık arşiv çalışmasına dayanan kitabı, faşizmden kaçan mantıkçı pozitivistlerin ve Amerikalı öğrencilerinin Amerikan üniversitelerinde nasıl egemen olduğunu anlatıyor; analitik dönüşü McCarthycilikle açıklayan tezi kuşak farkı, kadro piyasası, bilim iyimserliği ve Sputnik krizi üzerinden sınıyor.",
+    year: 2026,
+    link: "https://global.oup.com/academic/product/logical-positivism-9780197537961",
+    philosopherSlug: "rudolf-carnap",
+    postSlug: "analitik-felsefe-mccarthycilik-verhaegh-logical-positivism-american-history",
+  },
+  {
+    title: "Felsefi Beyan",
+    slug: "foucault-felsefi-beyan",
+    originalTitle: "Le discours philosophique",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Ayşe Deniz Temiz",
+    language: "Türkçe",
+    isbn: "9789750867880",
+    coverImage: null,
+    description:
+      "Foucault'nun 1966 yazında, Kelimeler ve Şeyler'in hemen ardından yazdığı ve ölümünden sonra yayımlanan taslak: Descartes'tan Nietzsche'ye modern felsefeyi, kendi çağını teşhis eden, tarihsel sınırları olan bir 'beyan' biçimi olarak ele alır. Orazio Irrera ve Daniele Lorenzini'nin hazırladığı Fransızca edisyondan çevrildi. 256 sayfa; Nisan 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "İnsan Haklarını Kim Öldürdü? İnsan Hakları Eleştirileri Üzerine",
+    slug: "tepe-insan-haklarini-kim-oldurdu",
+    originalTitle: "İnsan Haklarını Kim Öldürdü? İnsan Hakları Eleştirileri Üzerine",
+    publisher: "Yapı Kredi Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: "9789750867873",
+    coverImage: null,
+    description:
+      "Kuçuradi'nin öğrencisi ve Hacettepe İnsan Hakları Anabilim Dalı'nın hocası Harun Tepe, 'insan hakları öldü' tezini, Marksist, komüniteryen, postkolonyal ve realist eleştirileri tek tek ele alarak sınıyor: Tükenen insan hakları mı, yoksa onları savunma biçimlerimiz mi? 184 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/",
+    philosopherSlug: "ioanna-kucuradi",
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Utanç Devrimci Bir Duygudur",
+    slug: "gros-utanc-devrimci-bir-duygudur",
+    originalTitle: "La honte est un sentiment révolutionnaire",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Olcay Kunal",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Frédéric Gros, Marx'ın Ruge'ye mektubundaki 'utanç devrimci bir duygudur' cümlesinden yola çıkarak utancı bireysel bir zaaf olmaktan çıkarıp siyasal bir güce dönüştürüyor: Annie Ernaux'nun sınıf utancı, Didier Eribon'un 'Reims'e dönüş'ü, Primo Levi'nin hayatta kalanın utancı ve Lacan'ın utanç üzerine seminerinden geçen bir deneme. 144 sayfa; Mart 2026.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Korkuya ve Yabancılara Dair: Zenofobinin Tarihçesi",
+    slug: "makari-korkuya-ve-yabancilara-dair",
+    originalTitle: "Of Fear and Strangers: A History of Xenophobia",
+    publisher: "Yapı Kredi Yayınları",
+    translator: "Özlem Yüksel",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Psikiyatr ve tarihçi George Makari, 'zenofobi' kelimesinin 1880'lerde icadından bugüne yabancı düşmanlığının tarihini psikiyatri, sömürge tarihi ve düşünce tarihi üzerinden izliyor: Conrad, Camus, Wright ve Baldwin'in romanlarından Sartre, Beauvoir, Fanon, Adorno ve Foucault'nun kuramlarına. Türkçesi 2026'da yayımlandı.",
+    year: 2026,
+    link: "https://www.yapikrediyayinlari.com.tr/",
+    philosopherSlug: null,
+    postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
+  },
+  {
+    title: "Technofeudalism: What Killed Capitalism",
+    slug: "varoufakis-technofeudalism",
+    originalTitle: "Technofeudalism: What Killed Capitalism",
+    publisher: "Bodley Head / Melville House",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Varoufakis'in, dijital platformların 'bulut sermayesi'nin kâr yerine rant üzerine kurulu yeni bir üretim tarzı yarattığını ve kapitalizmin kendi mutasyonu tarafından öldürüldüğünü savunduğu kitap. Babasına yazılmış bir mektup biçiminde kaleme alındı; 2023'te yayımlandı.",
+    year: 2023,
+    link: "https://www.yanisvaroufakis.eu/",
+    philosopherSlug: "yanis-varoufakis",
+    postSlug: "yanis-varoufakis-ve-teknofeodalizm",
+  },
+  {
     title: "The Meaning of It All: Ultimate Meaning, Everyday Meaning, Cosmic Meaning, Death, and Time",
     slug: "weinberg-the-meaning-of-it-all",
     originalTitle: "The Meaning of It All: Ultimate Meaning, Everyday Meaning, Cosmic Meaning, Death, and Time",
@@ -33867,6 +36003,349 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Formal Philosophy 2026 — IX. Uluslararası Konferans (HSE, Moskova)",
+    slug: "formal-philosophy-2026-hse-moskova",
+    summary:
+      "HSE'nin Mantık, Dilbilim ve Biçimsel Felsefe Laboratuvarı'nın dokuzuncu yıllık konferansı: felsefi mantık, biçimsel epistemoloji, epistemik mantık, biçimsel ontoloji, analitik metafizik, matematik felsefesi. Hibrit; Rusça ve İngilizce.",
+    description: `27-30 Ekim 2026, Moskova, Staraya Basmannaya 21/4, A-307 ve Zoom. Davetli konuşmacılar: Martin Bohn (Padova), Marco Ruffino (Campinas), Aleksandr Hlebalin (Novosibirsk), Valentin Şehtman (HSE/MFTI). Bildiri başvuruları 5 Ekim'de kapandı; dinleyici kaydı 25 Ekim'e kadar açık. Çevrim içi katılım mümkün.`,
+    kind: "KONFERANS",
+    organizer: "International Laboratory for Logic, Linguistics and Formal Philosophy — HSE University",
+    speakers: "Martin Bohn, Marco Ruffino, A. V. Hlebalin, V. B. Şehtman",
+    topic: "Felsefi mantık, biçimsel epistemoloji, metafizik, matematik felsefesi",
+    format: "HIBRIT",
+    startsAt: "2026-10-27T07:00:00.000Z",
+    endsAt: "2026-10-30T15:00:00.000Z",
+    timezone: "Europe/Moscow",
+    hasTime: false,
+    city: "Moskova",
+    country: "Rusya",
+    venue: "HSE, Staraya Basmannaya 21/4, A-307 + Zoom",
+    fee: "Ücretsiz (kayıt)",
+    website: "https://llfp.hse.ru/en/formphil2026/",
+    featured: false,
+    sourceName: "HSE LLFP",
+    sourceUrl: "https://llfp.hse.ru/formphil2026",
+  },
+  {
+    title: "Doğu'da Bilim Tarihi ve Felsefesi I. Çalıştayı (HKUST)",
+    slug: "hpse-workshop-hkust-2026",
+    summary:
+      "Hong Kong Bilim ve Teknoloji Üniversitesi Bilim Felsefesi Merkezi'nin başlattığı dizi: Doğu Asya'da bilim tarihi ve felsefesinin (HPS) gelişimi, yöntemi ve Batı merkezli yaklaşımların sınırları.",
+    description: `7-8 Kasım 2026, HKUST Center for Philosophy of Science. Düzenleme: Yafeng Shan (başkan), Qinyi Wang, Qiyue Zhang. Davetli konuşmacılar: Jonathon Hricko (National Yang Ming Chiao Tung University) ve Seungbae Park (UNIST). Çağrı metnine göre amaç, 1960'lardan beri Batı'da canlı olan HPS hareketinin Doğu Asya'da hâlâ az gelişmiş olması; Çin'de bilim felsefesinin zaman zaman analitik felsefeyle karıştırılması. Kayıt zorunlu, son tarih 23 Ekim (Eventbrite).`,
+    kind: "CALISTAY",
+    organizer: "Center for Philosophy of Science, HKUST · CWB Philosophy of Science Research Group",
+    speakers: "Jonathon Hricko, Seungbae Park",
+    topic: "Bilim tarihi ve felsefesi, Doğu Asya",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-07T01:00:00.000Z",
+    endsAt: "2026-11-08T09:00:00.000Z",
+    timezone: "Asia/Hong_Kong",
+    hasTime: false,
+    city: "Hong Kong",
+    country: "Çin (Hong Kong ÖİB)",
+    venue: "HKUST, Center for Philosophy of Science",
+    fee: "Kayıt gerekli",
+    website: "https://philevents.org/event/show/151641",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/151641",
+  },
+  {
+    title: "Bursa Felsefe Buluşmaları 2026-2027",
+    slug: "bursa-felsefe-bulusmalari-2026-2027",
+    summary:
+      "Bursa Büyükşehir Belediyesi ile Bursa Uludağ Üniversitesi'nin aylık söyleşi dizisi 10 Ekim'de Ferudun Yılmaz'ın 'Değişen Dünya, Sarsılan İnsan' konuşmasıyla başladı; mayıs 2027'ye kadar her ay bir oturum.",
+    description: `Açılış: 10 Ekim 2026 Cumartesi 16.00, Tayyare Kültür Merkezi, Prof. Dr. Ferudun Yılmaz, "Değişen Dünya, Sarsılan İnsan: Ekonomi, Kültür ve Siyasetin Yeni Krizleri". Duyurulan sonraki oturumlar: bilgi ve hakikat (Prof. Dr. Işıl Bayar Bravo ve Doç. Dr. Elif Madakbaş Gülener: algoritmik yönlendirme ve dezenformasyon), 12 Aralık edebiyat ve felsefe, 9 Ocak 2027 yapay zekâ ve insan olmak. Herkese açık ve ücretsiz. Tam program için Bursa Büyükşehir Belediyesi ve BUÜ duyurularını izleyin.`,
+    kind: "PANEL",
+    organizer: "Bursa Büyükşehir Belediyesi · Bursa Uludağ Üniversitesi",
+    speakers: "Ferudun Yılmaz (açılış); aylık konuklar",
+    topic: "Güncel felsefe, toplum, bilgi, yapay zekâ",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-10T13:00:00.000Z",
+    endsAt: "2027-05-31T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "Bursa",
+    country: "Türkiye",
+    venue: "Tayyare Kültür Merkezi",
+    fee: "Ücretsiz",
+    website: "https://www.karar.com/sehir-haberleri/bursa-felsefe-bulusmalari-basliyor-2076558",
+    featured: false,
+    sourceName: "Karar",
+    sourceUrl: "https://www.karar.com/sehir-haberleri/bursa-felsefe-bulusmalari-basliyor-2076558",
+  },
+  {
+    title: "Penser au bord du monde — Çevre felsefesinin durumu ve perspektifleri",
+    slug: "penser-au-bord-du-monde-paris-2026",
+    summary:
+      "Fransızca çevre felsefesinin envanterini çıkaran üç günlük kolokyum: Bilgi artarken yıkımın sürmesi, bilim-siyaset ilişkisi, doğa kavramları, baskı ve özgürleşme.",
+    description: `Université Paris 1 Panthéon-Sorbonne, Centre Panthéon, salle 6. Düzenleyiciler: Andrea Angelini (Paris 8), Paul Guillibert (CNRS, Paris 1), Émilie Hache (Paris Nanterre), Virginie Maris (CNRS, Montpellier), Ferhat Taylan (Bordeaux Montaigne). Bildiriler Fransızca, 30 dakika sunum ve 10 dakika tartışma. Katılım ücretsiz ama her gün için ayrı kayıt zorunlu (Yurplan ya da Paris 1 sitesi).
+
+Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset arasındaki ilişkinin yeniden örgütlenmesi; "doğa", "canlı", "ortam" kavramlarının yeniden düşünülmesi; ekolojik krizin baskı ve özgürleşme meselelerini nasıl yeniden biçimlendirdiği.`,
+    kind: "KOLOKYUM",
+    organizer: "CEFE-CNRS · ISJPS Paris 1 · LLCP Paris 8 · Sophiapol Nanterre · SPH Bordeaux",
+    speakers: "Andrea Angelini, Paul Guillibert, Émilie Hache, Virginie Maris, Ferhat Taylan (koordinasyon)",
+    topic: "Çevre felsefesi, ekoloji, bilim-siyaset, doğa kavramı",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-13T07:00:00.000Z",
+    endsAt: "2026-10-15T16:00:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: false,
+    city: "Paris",
+    country: "Fransa",
+    venue: "Université Paris 1 Panthéon-Sorbonne, Centre Panthéon, salle 6",
+    fee: "Ücretsiz (kayıt zorunlu)",
+    website: "https://philoenvironnement2026.cefe.cnrs.fr/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Panth%C3%A9on%20Paris.jpg?width=1600",
+    featured: true,
+    sourceName: "Penser au bord du monde",
+    sourceUrl: "https://philoenvironnement2026.cefe.cnrs.fr/",
+  },
+  {
+    title: "Jacques Rancière'in Sahneleri — Uluslararası Kolokyum",
+    slug: "les-scenes-de-jacques-ranciere-paris-2026",
+    summary:
+      "Paris 8 Felsefe Bölümü'nün duyurduğu üç günlük uluslararası kolokyum Rancière'in siyaset, estetik, eşitlik ve sanat düşüncesini 'sahne' kavramı etrafında ele alıyor.",
+    description: `Paris 8 Üniversitesi Felsefe Bölümü'nün duyurusuna göre "Les scènes de Jacques Rancière" başlıklı uluslararası kolokyum 15-17 Ekim 2026'da yapılacak. Rancière'in yöntemsel kavramı olan "sahne" (scène), siyasetin ve estetiğin eşitlik varsayımıyla nasıl kurulduğunu tartışmanın merkezi. Program ve kayıt bilgisi için bölümün sayfasına bakınız; Paris 8'in sayfasında kolokyum "Actualités" bölümünde duyuruluyor.`,
+    kind: "KOLOKYUM",
+    organizer: "Université Paris 8 — Département de philosophie",
+    speakers: "Program bölüm sayfasında duyurulacak",
+    topic: "Jacques Rancière, siyaset ve estetik, eşitlik",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-15T07:00:00.000Z",
+    endsAt: "2026-10-17T16:00:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: false,
+    city: "Paris / Saint-Denis",
+    country: "Fransa",
+    venue: "Université Paris 8 ve ortak kurumlar",
+    fee: "Ücretsiz (ön kayıt)",
+    website: "https://philosophie.univ-paris8.fr/",
+    featured: false,
+    sourceName: "Université Paris 8 — Département de philosophie",
+    sourceUrl: "https://philosophie.univ-paris8.fr/",
+  },
+  {
+    title: "Patrick Wotling — Güç tarafından kurulan bir strateji: Nietzsche'ye göre yaşam",
+    slug: "wotling-nietzsche-yasam-guc-lyon-2026",
+    summary:
+      "Société Rhodanienne de Philosophie, Nietzsche uzmanı Patrick Wotling'i (Reims) konuk ediyor: Nietzsche'de yaşamın güç ilişkileri üzerinden kavranışı.",
+    description: `Lyon Felsefe Araştırmaları Enstitüsü'nün (IRPhiL, Université Jean Moulin Lyon 3) takviminde duyurulan konferans: "Une stratégie élaborée par la puissance : la vie selon Nietzsche". Patrick Wotling, Nietzsche'nin Fransızcaya en önemli çevirmen ve yorumcularından; Salı 13 Ekim 2026.`,
+    kind: "KONFERANS",
+    organizer: "Société Rhodanienne de Philosophie · IRPhiL (Lyon 3)",
+    speakers: "Patrick Wotling (Université de Reims Champagne-Ardenne)",
+    topic: "Nietzsche, yaşam, güç istenci",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-13T16:00:00.000Z",
+    endsAt: "2026-10-13T18:00:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: false,
+    city: "Lyon",
+    country: "Fransa",
+    venue: "Université Jean Moulin Lyon 3",
+    fee: "Ücretsiz",
+    website: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    featured: false,
+    sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
+    sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+  },
+  {
+    title: "\"Ne fil ne kaplumbağa\": Temelcilik ve eleştirmenleri",
+    slug: "fonfon-temelcilik-kolokyumu-lyon-2026",
+    summary:
+      "ANR 'Fondamentalisme et fondationalisme' (FONFON) projesinin ikinci uluslararası kolokyumu: Epistemolojide temelcilik, tutarlılıkçılık ve sonsuz gerileme sorunu.",
+    description: `Lyon Felsefe Araştırmaları Enstitüsü (Lyon 3) ile Lozan Üniversitesi Sosyal Bilimler Enstitüsü'nün ortak yürüttüğü ANR projesinin ikinci kolokyumu, 14-16 Ekim 2026, Université Jean Moulin Lyon 3. Başlık, dünyayı taşıyan fil ve kaplumbağa mitine gönderme: Bilginin bir temeli var mı, yoksa gerekçelendirme sonsuza kadar geriye mi gider?`,
+    kind: "KOLOKYUM",
+    organizer: "IRPhiL (Lyon 3) · ISS (Université de Lausanne) · ANR FONFON",
+    speakers: "Program enstitü sayfasında",
+    topic: "Epistemoloji, temelcilik, gerekçelendirme",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-14T07:00:00.000Z",
+    endsAt: "2026-10-16T16:00:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: false,
+    city: "Lyon",
+    country: "Fransa",
+    venue: "Université Jean Moulin Lyon 3",
+    fee: "Ücretsiz",
+    website: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    featured: false,
+    sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
+    sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+  },
+  {
+    title: "Varlık ve Zaman — Heidegger semineri (IISF)",
+    slug: "iisf-essere-e-tempo-heidegger-2026",
+    summary:
+      "Napoli'deki İtalyan Felsefe Araştırmaları Enstitüsü'nde Heidegger'in Varlık ve Zaman'ı üzerine dört günlük seminer.",
+    description: `Istituto Italiano per gli Studi Filosofici'nin ekim programında yer alan seminer: "Essere e tempo di Martin Heidegger", 19-22 Ekim 2026, her gün saat 16.00, Palazzo Serra di Cassano. Enstitünün seminerleri ücretsiz ve herkese açıktır; aynı ay Giordano Bruno (13-14 Ekim), Descartes (14-16 Ekim), Leibniz'in Monadoloji'si (27-29 Ekim) ve Walter Benjamin ile Barok (28 Ekim) üzerine seminerler de var.`,
+    kind: "DERS",
+    organizer: "Istituto Italiano per gli Studi Filosofici",
+    speakers: "Enstitü programında",
+    topic: "Heidegger, Varlık ve Zaman, fenomenoloji",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-19T14:00:00.000Z",
+    endsAt: "2026-10-22T16:00:00.000Z",
+    timezone: "Europe/Rome",
+    hasTime: true,
+    city: "Napoli",
+    country: "İtalya",
+    venue: "Palazzo Serra di Cassano, Via Monte di Dio 14",
+    fee: "Ücretsiz",
+    website: "https://www.iisf.it/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Serra%20di%20Cassano%20-%20Naples%20(2016)%2001.jpg?width=1600",
+    featured: false,
+    sourceName: "Istituto Italiano per gli Studi Filosofici",
+    sourceUrl: "https://www.iisf.it/",
+  },
+  {
+    title: "G. Anthony Bruno — Ne tanık ne dalga: Jacobi, Fichte ve Husserl'de nihilizm",
+    slug: "tcd-bruno-jacobi-fichte-husserl-nihilizm-2026",
+    summary:
+      "Trinity College Dublin Felsefe Kolokyumu: Husserl'in 1915'te Alman idealizmiyle ilan ettiği yakınlık ve nihilizme karşı ortak cephe.",
+    description: `Royal Holloway'den G. Anthony Bruno'nun konuşması: "Neither a Witness Nor a Wave: Jacobi, Fichte, and Husserl on Nihilism". Husserl 1915'te Alman idealistleriyle ortak bir düşmanı (nihilizm), ortak bir avantajı (özgürlük ve amaçlılığın savunusu) ve ortak bir felsefi ilerlemeyi paylaştığını ilan eder; konuşma bu üç iddiayı açıklıyor. 21 Ekim 2026, Room 2.51, D'Olier Street, Dublin.`,
+    kind: "KOLOKYUM",
+    organizer: "Trinity College Dublin — Department of Philosophy",
+    speakers: "G. Anthony Bruno (Royal Holloway, University of London)",
+    topic: "Alman idealizmi, fenomenoloji, nihilizm",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-21T15:00:00.000Z",
+    endsAt: "2026-10-21T17:00:00.000Z",
+    timezone: "Europe/Dublin",
+    hasTime: false,
+    city: "Dublin",
+    country: "İrlanda",
+    venue: "Trinity College Dublin, Room 2.51, D'Olier Street",
+    fee: "Ücretsiz",
+    website: "https://www.tcd.ie/philosophy/research/colloquium/anthony-bruno/",
+    featured: false,
+    sourceName: "Trinity College Dublin — Philosophy",
+    sourceUrl: "https://www.tcd.ie/philosophy/research/colloquium/anthony-bruno/",
+  },
+  {
+    title: "IV. Uluslararası Çağdaş Felsefe Sanal Kolokyumu: Felsefe ve Biliş — Norm, Zihin, İktidar",
+    slug: "ufpa-coloquio-virtual-filosofia-cognicao-2026",
+    summary:
+      "Pará Federal Üniversitesi'nin (UFPA) YouTube üzerinden ücretsiz yayımlanan dört oturumluk çevrim içi kolokyumu: Felsefe ile bilişsel bilimler arasındaki ilişki.",
+    description: `UFPA Felsefe Fakültesi ve lisansüstü programına bağlı Çağdaş Tematik Felsefe Araştırma Grubu'nun (yön. Roberto Barros) düzenlediği kolokyum, her biri iki konferanstan oluşan dört blok hâlinde 22 Ekim, 27 Ekim, 3 Kasım ve 10 Kasım 2026 tarihlerinde yapılacak. Kayıt gerekmiyor; yayın grubun YouTube kanalından ücretsiz. Konferansların en az yarısına katılanlara sertifika veriliyor. Dil: Portekizce (ve davetli konuşmacıların dilleri).`,
+    kind: "KOLOKYUM",
+    organizer: "Grupo de Pesquisa em Filosofia Temática Contemporânea — FAFIL/PPGFIL UFPA",
+    speakers: "Program ANPOF ajandasında",
+    topic: "Zihin felsefesi, bilişsel bilimler, normatiflik, iktidar",
+    format: "ONLINE",
+    startsAt: "2026-10-22T17:00:00.000Z",
+    endsAt: "2026-11-10T22:00:00.000Z",
+    timezone: "America/Belem",
+    hasTime: false,
+    city: "Belém (çevrim içi)",
+    country: "Brezilya",
+    venue: "YouTube — Filosofia Temática Contemporânea kanalı",
+    fee: "Ücretsiz",
+    website: "https://www.redefilosofica.com.br/p/iv-coloquio-virtual-internacional-de-filosofia-contemporanea-filosofia-e-cognicao-norma-me",
+    featured: false,
+    sourceName: "Rede Filosófica · PPGFIL/UFPA",
+    sourceUrl: "https://www.redefilosofica.com.br/p/iv-coloquio-virtual-internacional-de-filosofia-contemporanea-filosofia-e-cognicao-norma-me",
+  },
+  {
+    title: "Anne Meylan — Cehalet nedir? (Lyon bilim felsefesi semineri)",
+    slug: "meylan-cehalet-nedir-lyon-2026",
+    summary:
+      "Zürih Üniversitesi'nden Anne Meylan, Lyon bilim felsefesi seminerinde cehalet kavramını ve bilginin sınırlarını tartışıyor.",
+    description: `IRPhiL'in "séminaire lyonnais de philosophie des sciences" dizisinde Anne Meylan'ın (Université de Zurich) "Qu'est-ce que l'ignorance ?" başlıklı sunumu, Salı 3 Kasım 2026. Epistemoloji, epistemik sorumluluk ve bilimsel cehalet literatürü için.`,
+    kind: "KONFERANS",
+    organizer: "IRPhiL — Université Jean Moulin Lyon 3",
+    speakers: "Anne Meylan (Université de Zurich)",
+    topic: "Epistemoloji, cehalet, bilim felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-03T13:00:00.000Z",
+    endsAt: "2026-11-03T15:00:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: false,
+    city: "Lyon",
+    country: "Fransa",
+    venue: "Université Jean Moulin Lyon 3",
+    fee: "Ücretsiz",
+    website: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    featured: false,
+    sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
+    sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+  },
+  {
+    title: "XIV. AFHIC Buluşması — Güney Konisi Bilim Felsefesi ve Tarihi Derneği",
+    slug: "afhic-xiv-encuentro-valparaiso-2026",
+    summary:
+      "Latin Amerika'nın en büyük bilim felsefesi ve tarihi toplantısı bu yıl Valparaíso'da: İspanyolca, Portekizce ve İngilizce; çift-kör hakemli bildiriler.",
+    description: `Asociación de Filosofía e Historia de la Ciencia del Cono Sur'un on dördüncü buluşması, 3-6 Kasım 2026, Universidad de Valparaíso Beşerî Bilimler ve Eğitim Fakültesi (Serrano 546). Her bildiri 30 dakika sunum, 10 dakika tartışma. Alanlar: genel bilim felsefesi, fizik, biyoloji, kimya, psikoloji ve bilişsel bilimler, sosyal bilimler, matematik, teknoloji ve yapay bilimler, mantık, bilim-teknoloji siyaset felsefesi, bilimde cinsiyet, Latin Amerika'da bilim tarihi, sağlık bilimleri, iktisat. Kayıt: üyeler 40 USD, üye olmayanlar 75 USD; öğrenciler 15-25 USD. Program CongressIn platformunda.`,
+    kind: "KONGRE",
+    organizer: "AFHIC · Universidad de Valparaíso",
+    speakers: "Davetli konuşmacılar dernek sitesinde",
+    topic: "Bilim felsefesi, bilim tarihi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-03T12:00:00.000Z",
+    endsAt: "2026-11-06T22:00:00.000Z",
+    timezone: "America/Santiago",
+    hasTime: false,
+    city: "Valparaíso",
+    country: "Şili",
+    venue: "Facultad de Humanidades y Educación, Universidad de Valparaíso",
+    fee: "15-75 USD",
+    website: "https://afhic.com/es/xiv-encuentro-afhic-2026/",
+    featured: false,
+    sourceName: "AFHIC",
+    sourceUrl: "https://afhic.com/es/xiv-encuentro-afhic-2026/",
+  },
+  {
+    title: "Değişen İnsan Tanımı ve Din Eğitimi Uluslararası Sempozyumu (DİTDE)",
+    slug: "ditde-degisen-insan-tanimi-din-egitimi-istanbul-2026",
+    summary:
+      "Marmara Üniversitesi İlahiyat Fakültesi'nin sempozyumu 'insan nedir' sorusunu yapay zekâ, biyoteknoloji ve iklim krizi çağında din eğitimi açısından soruyor; özet için son tarih 23 Ekim.",
+    description: `20-22 Kasım 2026, İstanbul. Beş eksen: insan doğasının teolojik ve felsefi temelleri (İslam düşüncesinde insan, transhümanizm, yapay zekâ çağında insanı tanımlamak, nöro-teoloji); küresel krizler ve din eğitimi (eko-teoloji, travma pedagojisi, göç); toplum, kimlik ve dinî aidiyet; eğitimde yeni yaklaşımlar (üretken yapay zekâ, din eğitiminde epistemoloji); insana dair gelecek perspektifleri. Davetli konuşmacılar: Andrew Wright (Bishop Grosseteste), Nadeem Memon (South Australia), Martin Ubani (Eastern Finland). Diller Türkçe ve İngilizce; seçilen bildiriler Routledge ve Palgrave'den derleme olarak yayımlanacak. Önemli tarihler: özet 23 Ekim, kabul 2 Kasım, kesin kayıt 6 Kasım, tam metin 6 Aralık. Katılım ücretli (akademisyen 3.500 TL, lisansüstü 2.000 TL; çevrim içi seçenekler var).`,
+    kind: "SEMPOZYUM",
+    organizer: "Marmara Üniversitesi İlahiyat Fakültesi · Marmara Üniversitesi İlahiyat Vakfı",
+    speakers: "Andrew Wright, Nadeem Memon, Martin Ubani",
+    topic: "İnsan kavramı, din eğitimi, yapay zekâ, transhümanizm",
+    format: "HIBRIT",
+    startsAt: "2026-11-20T06:00:00.000Z",
+    endsAt: "2026-11-22T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "Marmara Üniversitesi İlahiyat Fakültesi",
+    fee: "1.500-4.000 TL (bildirili katılım)",
+    website: "https://etkinlik.marmara.edu.tr/tr/ditde",
+    featured: false,
+    sourceName: "Marmara Üniversitesi",
+    sourceUrl: "https://etkinlik.marmara.edu.tr/tr/ditde",
+  },
+  {
+    title: "Konuşkan Sessizlik: Felsefe Tarihinde Cinsiyet Kategorisi — Friederike Kuster",
+    slug: "dokkyo-kuster-eloquent-silence-2026",
+    summary:
+      "Wuppertal Üniversitesi'nden Friederike Kuster, Dokkyo Üniversitesi'nde felsefe tarihinin cinsiyet temasını neden 20. yüzyıla kadar 'alımlamadığını' tartışıyor; ardından 10-11 Ekim'de Klasik Alman Felsefesi'nde tarih felsefesi atölyesi.",
+    description: `Dokkyo Üniversitesi'nin (Soka, Saitama) 9 Ekim Cuma 17.20-19.00 arasında Batı Binası W-315'te düzenlediği konferans. Konuşma Almanca; Japonca çeviri metni dağıtılacak, soru-cevapta çeviri sağlanacak. Katılım serbest, kayıt gerekmiyor.
+
+10 Ekim Cumartesi (Amano Teiyu Anma Binası A-405) ve 11 Ekim Pazar (4. Bina 4-405) günlerinde "Facetten der Geschichtsphilosophie (I)" başlıklı Almanca atölye: Ryo Okazaki (Dokkyo), Mai Oki-Suga (Kokushikan), Soichiro Sumida (Osaka Ekonomi), Shunsuke Kutomi (Doshisha), Friederike Kuster (Wuppertal), Masanori Kashiwazaki (Hitotsubashi), Tatsuya Maruyama (Hosei), Eva Bockenheimer (TH Köln), Taiju Okochi (Kyoto). Konular: Platon'da mit ve polis, Marx ve dünya tarihi, Kant'ta ilerleme ve kayra, Rousseau-Condorcet-Kant, Bruno Bauer ve Marx, Schiller, Hegel ve Marx'ta diyalektik tarih, Hegel'in tarih kavrayışında İslam.`,
+    kind: "KONFERANS",
+    organizer: "獨協大学 (Dokkyo Üniversitesi)",
+    speakers: "Friederike Kuster (Bergische Universität Wuppertal)",
+    topic: "Felsefe tarihinde cinsiyet, feminist felsefe tarihi, tarih felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-09T08:20:00.000Z",
+    endsAt: "2026-10-11T05:30:00.000Z",
+    timezone: "Asia/Tokyo",
+    hasTime: true,
+    city: "Soka (Saitama)",
+    country: "Japonya",
+    venue: "Dokkyo Üniversitesi, W-315 / A-405 / 4-405",
+    fee: "Ücretsiz",
+    website: "https://www.dokkyo.ac.jp/information/2026/20260925009468.html",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Wollstonecraft%20by%20John%20Opie%20(c.%201797).jpg?width=1600",
+    featured: false,
+    sourceName: "Dokkyo Üniversitesi",
+    sourceUrl: "https://www.dokkyo.ac.jp/information/2026/20260925009468.html",
+  },
   {
     title: "New Asia Lectures on Confucianism 2026 — Franklin Perkins",
     slug: "new-asia-lectures-confucianism-2026-perkins",
