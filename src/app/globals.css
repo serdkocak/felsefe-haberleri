@@ -21,14 +21,17 @@
 }
 
 .dark {
+  /* Okur geri bildirimi (Ekim 2026): koyu modda metin/arka plan kontrastı
+     yetersiz bulundu. Metin tonları açıldı, ikincil metin (muted) WCAG AA'nın
+     üzerine çıkarıldı (#b8b1a6 / #121212 ≈ 9:1), çizgiler belirginleştirildi. */
   --paper: #121212;
-  --surface: #1a1917;
-  --ink: #ece7de;
-  --ink-soft: #cfc9bf;
-  --muted: #948d83;
-  --line: #2c2a27;
-  --accent: #e0a074;
-  --accent-soft: #2a211c;
+  --surface: #1c1b19;
+  --ink: #f4f0e8;
+  --ink-soft: #e2ddd4;
+  --muted: #b8b1a6;
+  --line: #3b3835;
+  --accent: #eab48c;
+  --accent-soft: #332821;
 }
 
 @theme inline {
@@ -97,6 +100,15 @@
     font-family: var(--font-serif);
     font-size: 1.125rem;
     line-height: 1.85;
+  }
+
+  /* Koyu modda uzun metin gövdesi tam parlaklıkta okunur; ince serif
+     hatlar yarı tonlu renkte silikleşiyordu. */
+  .dark .prose-philo {
+    --tw-prose-body: var(--ink);
+    --tw-prose-lead: var(--ink-soft);
+    --tw-prose-captions: var(--ink-soft);
+    --tw-prose-counters: var(--ink-soft);
   }
 
   /* Gazete dizgisi: gövde metni iki yana yaslanır.
