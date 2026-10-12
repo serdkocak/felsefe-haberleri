@@ -260,6 +260,32 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Afşar Timuçin",
+    slug: "afsar-timucin",
+    headline: "Türk filozof, şair ve estetikçi (1939-2024)",
+    bio: "Düşünce Tarihi, Estetik, Felsefe Bir Sevinçtir ve Descartes Felsefesine Giriş'in yazarı; Mimar Sinan Güzel Sanatlar Üniversitesi'nde yıllarca estetik okutan, Felsefe Dergisi'ni kuran, felsefeyi geniş bir okur kitlesine taşıyan, Nâzım Hikmet'in Şiiri incelemesiyle TDK Eleştiri Ödülü alan şair-felsefeci.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1939,
+    affiliation: "Mimar Sinan Güzel Sanatlar Üniversitesi (1974-2002) · Kocaeli Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    fullName: "Afşar Timuçin",
+    birthDate: "1939, Akhisar, Manisa",
+    deathDate: "26 Temmuz 2024, İstanbul",
+    alive: false,
+    period: "20.-21. yüzyıl",
+    school: "Düşünce tarihi · estetik ve sanat felsefesi · aydınlanmacı hümanizm",
+    areas: "Felsefe tarihi, estetik, sanat felsefesi, aydınlanma, Descartes, edebiyat ve şiir",
+    majorWorks: "Düşünce Tarihi (3 cilt)\nEstetik (1987)\nFelsefe Bir Sevinçtir (1995)\nFelsefeye Giriş (2003)\nEstetik Bakış (2005)\nDescartes Felsefesine Giriş\nNâzım Hikmet'in Şiiri (1978)\nAydınlanma Yazıları (2018)\nEskiçağ Aydınlığı (2020)",
+    keyConcepts: "Felsefe insan hakkında araştırmadır, güzelliği arayan varlık, aydınlanma bir yaşam koşulu ve düşünme biçimidir, gerçekçi düşünce, felsefi sevinç",
+    influencedBy: "Descartes, Aydınlanma, Fransız felsefesi, Nâzım Hikmet",
+    influenced: "Türkiye'de estetik ve sanat felsefesi öğretimi, Felsefe Dergisi çevresi, Mimar Sinan kuşakları",
+    longBio: "1939'da Manisa Akhisar'da doğdu. İstanbul Üniversitesi Fransız Dili ve Edebiyatı Bölümü'nde başladığı öğrenimini Montreal Üniversitesi Felsefe Bölümü'nde sürdürdü; Descartes üzerine doktora yaptı. 1968-1970'te Fransızca okutmanlığı yaptı; 1974'ten 2002'ye kadar Mimar Sinan Güzel Sanatlar Üniversitesi'nde felsefe, estetik, halk bilimi ve sanat tarihi dersleri verdi, 1981'de doçent, 1992'de profesör oldu; Kocaeli Üniversitesi Felsefe Bölümü'nde çalıştı ve 2006'da emekliye ayrıldı. 1987'de Felsefe Dergisi'ni kurdu. Düşünce tarihi, estetik ve aydınlanma üzerine onlarca kitap yazdı; Descartes'ı Türkçeye çevirdi; şiir, roman ve öykü kitapları yayımladı; Nâzım Hikmet'in Şiiri ile 1979 TDK Eleştiri Ödülü'nü aldı. 26 Temmuz 2024'te öldü.",
+    sources: "Mustafa Günay, 'Afşar Timuçin ve Türkiye'de Felsefe', Mavi Atlas 13(1), 2025 — https://dergipark.org.tr/tr/pub/gumusmaviatlas/article/1577422\nTürk Edebiyatı İsimler Sözlüğü, 'Timuçin, Afşar' — https://teis.yesevi.edu.tr/madde-detay/timucin-afsar",
+  },
+  {
     name: "Richard Rorty",
     slug: "richard-rorty",
     headline: "Amerikalı pragmatist filozof (1931-2007)",
@@ -3012,6 +3038,127 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Afşar Timuçin: Felsefeyi Hayata, Şiiri Düşünceye Dönüştüren Bir Aydın",
+    slug: "afsar-timucin-felsefeyi-hayata-siiri-dusunceye-donusturen-aydin",
+    summary:
+      "Felsefeyi üniversite kürsülerinin sınırlarından çıkarıp insanın gündelik varoluşuna, sanatın yaratıcı gücüne ve toplumsal özgürleşme arayışına taşıyan Afşar Timuçin (1939-2024), Türkiye'de düşünce tarihinin, estetiğin ve şiirin kesiştiği özgün bir miras bıraktı. Descartes'tan Nâzım Hikmet'e, Düşünce Tarihi'nden Felsefe Bir Sevinçtir'e: Onun ardından sorulması gereken, ne yazdığı değil, düşünmenin ve insanca yaşamanın imkânları üzerine bugün bize ne söylediği.",
+    seoTitle: "Afşar Timuçin: Felsefe, estetik ve şiir arasında bir aydın",
+    metaDescription:
+      "Afşar Timuçin (1939-2024): Düşünce Tarihi, Estetik, Felsefe Bir Sevinçtir, Descartes Felsefesine Giriş, Nâzım Hikmet'in Şiiri. Mustafa Günay'ın 2025 Mavi Atlas makalesi ışığında felsefe, estetik, aydınlanma ve şiir.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Beyaz%C4%B1t%20State%20Library%20(14646336846).jpg?width=1600",
+    imageCredit: "Beyazıt Devlet Kütüphanesi, İstanbul · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri · Mavi Atlas",
+    sourceUrl: "https://dergipark.org.tr/tr/pub/gumusmaviatlas/article/1577422",
+    publishedAt: "2026-10-12T07:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["estetik", "aydinlanma", "tarih", "akademi", "kavram"],
+    philosopherSlugs: ["afsar-timucin"],
+    sources: [
+      { title: "Afşar Timuçin ve Türkiye'de Felsefe", publisher: "Mustafa Günay, Mavi Atlas 13(1), s. 16-28", date: "27 Nisan 2025", url: "https://dergipark.org.tr/tr/pub/gumusmaviatlas/article/1577422", primary: true },
+      { title: "Timuçin, Afşar", publisher: "Türk Edebiyatı İsimler Sözlüğü (Ahmet Yesevi Üniversitesi)", url: "https://teis.yesevi.edu.tr/madde-detay/timucin-afsar" },
+      { title: "Afşar Timuçin'in ardından: 'Şair duyarlılığı olan bir felsefeciydi'", publisher: "Felsefeciler Derneği", date: "26 Temmuz 2024", url: "https://www.felsefecilerdernegi.org.tr/afsar-timucinin-ardindan-sair-duyarliligi-olan-bir-felsefeciydi/" },
+    ],
+    content: `Bazı düşünürler kavramlarıyla hatırlanır, bazıları kurdukları sistemlerle, bazılarıysa bir toplumun düşünme alışkanlıklarında açtıkları gediklerle. Afşar Timuçin'i bu sınıflandırmalardan yalnızca birine yerleştirmek güçtür. Onun entelektüel uğraşı, felsefenin kavram dünyasıyla şiirin duyarlılığını, estetik düşünceyle toplumsal sorumluluğu aynı insanlık sorununun farklı yüzleri olarak ele alır.
+
+Timuçin'in 26 Temmuz 2024'teki ölümü, Türkiye'de yalnızca bir akademisyenin, şairin ya da yazarın kaybı değildi; felsefeyi yaşayan bir kültür meselesi olarak gören bir aydının ardından yeni bir değerlendirme ihtiyacını da getirdi. Bu ihtiyacın akademik karşılığı geçen yıl ortaya çıktı: Çukurova Üniversitesi'nden Mustafa Günay'ın *Mavi Atlas* dergisinde yayımlanan "Afşar Timuçin ve Türkiye'de Felsefe" başlıklı makalesi (Nisan 2025), Timuçin'in felsefe anlayışını, felsefe tarihçiliğini, sanat görüşünü ve aydınlanma düşüncesini Türkiye'de felsefi düşüncenin gelişimi bağlamında ele aldı. Günay'ın özeti bir cümlede: Timuçin, herhangi bir filozofun ya da felsefenin ardından gitmeyip kendi düşünce yolunda yürüyen bir düşünürdür. Bu dosya, o yolun haritasını çıkarmayı deniyor.
+
+## Hayatın içinden felsefeye
+
+1939'da Manisa'nın Akhisar ilçesinde doğan Afşar Timuçin, İstanbul Üniversitesi Edebiyat Fakültesi Fransız Dili ve Edebiyatı Bölümü'nde başladığı yükseköğrenimini Kanada'da, Montreal Üniversitesi Felsefe Bölümü'nde sürdürdü; bu eğitim, onun Fransız düşüncesiyle ve özellikle Descartes'la kurduğu ilişkinin kaynağıdır. 1968-1970 arasında Fransızca okutmanlığı yaptı; 1974'ten 2002'ye kadar Mimar Sinan Güzel Sanatlar Üniversitesi'nde felsefe, estetik, halk bilimi, sanat tarihi ve halk edebiyatı dersleri verdi; 1981'de doçent, 1992'de profesör oldu; Kocaeli Üniversitesi Felsefe Bölümü'nde görev yaptı ve 2006'da emekliye ayrıldı. Üniversite dışında da yazdı: 1987'de kurduğu *Felsefe Dergisi*, uzun yıllar Türkiye'de felsefenin akademi dışı mecralarından biri oldu; Bulut Yayınları'ndan çıkan onlarca kitabı, geniş bir okur kitlesine ulaştı.
+
+Bu çizginin önemi yalnızca farklı kurumlarda ders vermiş olmasında değil. Timuçin'in ilgilendiği alanlar, Türkiye'de çoğu zaman birbirinden ayrı disiplinler olarak ele alınan felsefe, edebiyat, sanat ve kültür arasındaki geçişleri anlamaya elverişli bir zemin oluşturuyordu. Bir yanda Descartes ve Aristoteles, öte yanda şiir, halk anlatıları ve estetik; bir tarafta kavramların mantıksal düzeni, öte tarafta insanın duygusal deneyimi. Bu alanlar arasında ilişki kurmak, "çok yönlü entelektüel" olmanın ötesinde bir tutum gerektirir: Düşünceyi soyut kavramlara, sanatı duygusal etkilenmeye indirgemeden bakmak.
+
+## Felsefe bir uzmanlık mı, bir yaşam biçimi mi?
+
+Timuçin'in mirasının merkezine konabilecek soru şu: Felsefe, filozofların birbirleri hakkında söylediklerini öğrenmekten mi ibarettir? Bu soru, felsefe eğitiminin isimlerin, akımların ve dönemlerin sıralanmasına indirgendiği yerlerde önem kazanır. Bir insan Platon'u, Kant'ı ayrıntısıyla öğrenebilir; ama bu bilgi kendi yaşamını sorgulamasına, toplumsal gerçekliği eleştirel değerlendirmesine katkıda bulunmuyorsa felsefenin temel imkânlarından biri eksik kalmıştır. *Felsefe Bir Sevinçtir* (1995) ve *Felsefeye Giriş* (2003), felsefeyi uzmanların kapalı dünyasına ait bir faaliyet olarak görmeyen bu yönelimin kitaplarıdır. Günay'ın aktardığı tanım da bu: Timuçin'e göre felsefe, insan hakkında bir araştırmadır.
+
+Buradaki "sevinç"i basit bir iyimserlikle karıştırmamak gerekir. Felsefi sevinç, her sorunun kolay cevabı olduğuna inanmak değil; insanın kendi düşüncesini gözden geçirebilmesinden, alışılmış kabullerin ötesine geçebilmesinden doğan bir imkândır. Düşünmek, kimi zaman insanı rahatlatan inançları sorgulamayı gerektirir: Adalet sandığının ayrıcalık, özgürlük sandığının bağımlılık, mutluluk sandığının tüketim alışkanlığı olduğunu fark etmek kolay değildir. Felsefenin değeri, insanı cevaplarla donatmak yerine sorularının niteliğini değiştirmektir. Timuçin'in felsefeyi geniş bir okur kitlesine ulaştırma çabası bu yüzden bir anlatım tercihi değil, düşüncenin toplumsal dolaşımına ilişkin bir tutumdur; bu tutum onu, aynı kuşaktan [Uluğ Nutku'nun](/haber/ulug-nutku-gezgin-filozof-felsefeylemek) "güncelin felsefesi"ne yaklaştırır.
+
+## Düşünce tarihi: İnsanlığın kendisini yeniden keşfetmesi
+
+Timuçin'in en hacimli alanı düşünce tarihidir. *Düşünce Tarihi* (üç cilt), gerçekçi düşüncenin kaynaklarından gelişimine ve çağdaş görünümüne uzanan bir çerçeve kurar; *Eskiçağ Aydınlığı* (2020) Yunan-Roma dönemine odaklanır. Düşünce tarihi yazmak, filozofları kronolojik sıraya dizmek değildir; asıl güçlük, bir düşüncenin neden belirli bir zamanda ortaya çıktığını, hangi sorunlara cevap aradığını ve sonraki düşünme biçimlerini nasıl etkilediğini anlayabilmektir. Günay'ın vurguladığı ilke burada belirleyici: Timuçin'e göre felsefe tarihi, insanlık ve uygarlık tarihi çerçevesinde ele alınmalıdır. Bilimsel gelişmeler, üretim ilişkileri, siyasal mücadeleler ve kültürel dönüşümler düşüncenin tarihsel koşullarını oluşturur; ama bu, düşünce ile toplum arasında mekanik bir neden-sonuç ilişkisi kurmak anlamına gelmez. İnsanlar yaşadıkları koşullar içinde düşünür; düşündükleri de kurumları ve değerleri dönüştürür. Böyle bakıldığında düşünce tarihi geçmişin müzesi olmaktan çıkar, bugünün kendisini anlamak için başvurduğu eleştirel bir hafızaya dönüşür. Yapay zekânın ve dijital teknolojilerin insanın bilgiye, hakikate, emeğe ve kendisine ilişkin anlayışını değiştirdiği bir dönemde bu yöntemsel miras yeniden önem kazanıyor.
+
+## Descartes'tan gerçekçilik sorununa
+
+Timuçin'in felsefe tarihçiliğinin ilk durağı Descartes'tır: Doktora çalışması ve *Descartes Felsefesine Giriş*, modern felsefenin kurucu problemine verdiği önemi gösterir; Descartes'ın *Metot Üzerine Konuşma* ve *Metafizik Düşünceler*'ini Türkçeye de çevirdi. Descartes'ın felsefesi, insanın bilgiye hangi temeller üzerinde ulaşabileceği sorusunu keskinleştirmiştir: Kuşkunun yöntemsel araç olarak kullanılması, bilginin dayanaklarının yeniden incelenmesi, düşünen öznenin merkeze yerleşmesi. Timuçin'in Descartes çalışması, bir filozofu tanıtma faaliyeti değil, modern felsefenin nasıl bir problem alanı oluşturduğunu anlama çabasının parçasıdır.
+
+Düşünce tarihindeki "gerçekçilik" vurgusu da buradan okunmalı. Gerçekçilik, dünyayı olduğu gibi kabul etmek ya da mevcut düzeni benimsemek değildir; insanın gerçeklikle ilişkisini hangi bilgi biçimleriyle kurduğunu, düşüncesinin nesnel koşullarla nasıl karşılaştığını ve dünyayı değiştirme imkânlarını nasıl değerlendirdiğini sorgulamaktır. Bununla birlikte Timuçin'in gerçekçiliğini tek bir doktrine indirgemek doğru olmaz; onun farklı eserlerde ele aldığı gelenekleri kendi bağlamlarında okumak gerekir. Bir düşünürün önemini belirleyen, hangi görüşe yakın durduğu değil, düşünme eylemini ne ölçüde verimli sorularla buluşturabildiğidir.
+
+## Estetik: Güzellik karşısında insan olmak
+
+Timuçin'i Türkiye'deki felsefe tartışmaları içinde özgün kılan başlıca alan estetiktir. *Estetik* (1987), *Estetik Bakış* (2005) ve *Edebiyat Estetiği* (2019), Günay'ın tespitiyle, onun en fazla emek verdiği alanın ürünleri. Timuçin estetik ile sanat felsefesi arasındaki ayrımı özellikle önemser ve insanı "güzelliği arayan bir varlık" olarak tanımlar: Güzeli araştıran insan, güzelin ne olduğu ve ne olmadığı hakkındaki sorulara cevap arar. Bu eserlerin önemi, estetiği sanat eserlerinin biçimsel özelliklerini değerlendiren dar bir uzmanlık olarak ele almamasında. Bir eseri güzel yapan, nesnel özellikleri midir, öznel deneyim midir, yoksa ikisi arasında kurulan tarihsel ve kültürel ilişki mi? Bir şiir, bir resim, günlük dilin ifade edemediği hangi deneyimleri görünür kılar?
+
+Güzellik deneyimi, insanın dünyayla ilişkisinin fayda hesaplarına indirgenemeyen bir boyutunu açığa çıkarır; bu, estetiğin özgürlükle ilişkisini gündeme getirir. İnsan yalnızca gereksinimlerini karşılamak için yaşayan bir varlık değildir; dünyayı algılar, anlamlandırır, dönüştürür ve yarattığı biçimlerle kendini ifade eder. Ama estetiği hayattan koparmak da mümkün değildir: Sanat eserleri tarihsel koşullarda üretilir. Timuçin'in felsefe ile sanat arasında kurduğu ilişkinin özü burada: Felsefe kavramlarla sanatın anlamını araştırır; sanat, insan deneyiminin kavramlara sığmayan yönlerini görünür kılar. Şiir felsefi bir tezin süslü anlatımı değildir; felsefe de şiirin açıklamalı biçimi değildir.
+
+## Şair Afşar Timuçin
+
+Timuçin'i yalnızca felsefe kitaplarından okumak, kişiliğinin önemli bir boyutunu eksik bırakır. *Çöl*, *Destanlar*, *Savaşçı Türküleri*, *Bu Sevda Böyle Gider* gibi şiir kitaplarının yanında roman, öykü ve deneme de yazdı. Şiirin düşünsel olması, felsefi önermeler sıralaması demek değildir; şiir bazen bir kavramı tanımlamadan onun gerilimini hissettirir. Özgürlüğü ele alan felsefi bir metin özgürlüğün kavramsal sınırlarını açıklar; bir şiir ise özgürlük arzusunun içindeki korkuyu, özlemi, cesareti duyumsatır. İki deneyim birbirini tamamlar, birbirinin yerine geçmez. Şiir, insanı yalnızca akıl yürüten bir özne olarak değil, seven, acı çeken, hatırlayan ve mücadele eden bir varlık olarak kavramaya yardım eder; Timuçin'in şairliği ile felsefeciliği arasındaki bağ, insanın bütünlüğü sorununa döner. Felsefeciler Derneği'nin ardından yazdığı yazının başlığı bu bütünlüğü özetler: "Şair duyarlılığı olan bir felsefeciydi."
+
+## Nâzım Hikmet okumak
+
+Timuçin'in edebiyat eleştirisindeki en önemli durağı *Nâzım Hikmet'in Şiiri*'dir (1978); eser 1979'da Türk Dil Kurumu Eleştiri Ödülü'nü aldı. Toplumsal mücadeleyi, tarihsel değişimi ve bireysel duyarlılığı aynı şiir evreninde buluşturan bir şairi incelemek özel bir sorumluluk gerektirir: Şiiri şairin biyografisine indirgeyemeyiz; ama yalnızca biçimsel özellikleriyle değerlendirmek de tarihsel ve insani boyutunu gözden kaçırır. Timuçin'in incelemesi, şairin hayatından çok şiirlerini merkeze alması ve metinler üzerinde ayrıntılı yorumlar geliştirmesiyle anılır. Buradaki felsefi mesele, sanatın toplumsal gerçeklikle ilişkisi: Bir şiir toplumsal bir düşünceyi dile getirdiği için mi değerlidir, yoksa toplumsal bir deneyimi yeni bir dil ve duyarlılık içinde yeniden kurabildiği için mi? Şiirin değerini savunduğu düşünceye bağlamak onu propagandaya indirger; toplumsal gerçeklikten bağımsız saymak ortaya çıktığı dünyayı görünmez kılar. Timuçin'in estetik çalışmaları iki indirgemeden de kaçınır.
+
+## Aydınlanma: Bir yaşam koşulu
+
+Timuçin'in günümüzde yeniden ele alınması gereken boyutu aydınlanma düşüncesidir; *Aydınlanma Yazıları* (2018) bu alanın kitabı. Günay'ın aktardığı tanım dikkat çekici: Timuçin'e göre aydınlanma, bir tarihsel dönemin adı değil, "bir yaşam koşulu ve bir düşünme biçimi"dir. İnsan, geçmişle gelecek arasında yaşayan ve durumun bilinciyle düşünüp eyleyen bir varlıktır; geçmişin mirası, geleceğe yönelik amaçların temelidir. Ama aydınlanmanın mirası eleştirel değerlendirilmelidir: Akıl, bilim ve ilerleme insanlığa imkânlar sağladı; bu kavramların varlığı toplumların kendiliğinden daha özgür olacağını garanti etmez. Bilgi gelişirken eşitsizlikler sürebilir; bilgiye erişim kolaylaşırken yanlış bilginin dolaşımı da hızlanabilir. Dolayısıyla aydınlanma, daha fazla bilgiye sahip olmak değil, bilginin nasıl üretildiğini, kimin yararına kullanıldığını ve özgürlüğü hangi koşullarda genişlettiğini sorgulamaktır. Dijital çağın hazır kanaatleri karşısında bu sorumluluk daha çok emek gerektiriyor; felsefenin görevi bu emekten kaçınmayı sağlamak değil, onu anlamlı kılmaktır.
+
+## Güçlü yanlar ve açık sorular
+
+Bir düşünürü ciddiye almak onu övmek değildir. Timuçin'in en belirgin katkısı, Türkiye'de felsefe, estetik, şiir ve düşünce tarihi arasında geniş bir çalışma alanı kurmuş olmasıdır. İkincisi, felsefi bilgiyi dar bir akademik çevrenin meselesi olarak görmeyen yaklaşımı: Zor bir düşünceyi açık biçimde ifade edebilmek, çoğu zaman o düşünceye hâkim olmayı gerektirir. Üçüncüsü, sanatın insan deneyimini anlamadaki önemini vurgulaması. Bununla birlikte mirası ilerletmek için cevaplanması gereken sorular var: Gerçekçilik anlayışı farklı felsefi geleneklerle nerede uzlaşır, nerede ayrışır? Estetiğinde eserin biçimsel özgünlüğü ile toplumsal işlevi arasındaki ilişki nasıl kurulur? Felsefenin geniş kitlelere ulaştırılması kavramsal titizlikle nasıl bağdaştırılır? Aydınlanma ve özgürlük anlayışı dijitalleşme, eşitsizlik ve kamusal tartışma sorunları karşısında nasıl yeniden yorumlanır? Bu sorular dışarıdan yöneltilen eleştiriler değil, onun ilgilendiği alanların içinden doğan araştırma başlıkları. Çınar Sekban'ın şiiri (2022) ve Gür'ün öyküleri (2022) üzerine yüksek lisans tezleri, bu araştırmanın başladığını gösteriyor.
+
+## Neden yeniden okumalı?
+
+Türkiye'de felsefenin gelişimini değerlendirmek, bölüm ve yayın sayısını saymakla tamamlanamaz; felsefenin kamusal yaşamdaki yeri, okuma kültürüyle ilişkisi ve sanatla kurduğu bağ da bu değerlendirmenin parçasıdır. Timuçin'in üretimi, felsefenin düşünce tarihi, estetik, şiir ve kültürle ilişki kurabileceğini gösterir ve Türkiye'de felsefenin kendine özgü sorularını açar: Kavramların Türkçede nasıl karşılandığı, Batı felsefesiyle ilişkinin nasıl kurulduğu, yerel deneyimin felsefi araştırmaya nasıl dâhil edildiği. [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) ve [Yalçın Koç](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) dosyalarımızda aynı soruların farklı cevaplarını izlemiştik. Bir toplumun felsefe üretmesi, başka ülkelerde kurulmuş sistemleri öğrenmesiyle gerçekleşmez; onları eleştirel anlamak, kendi sorunlarıyla ilişkilendirmek ve yeni sorular koymak da gerekir. Ama yerel düşünceyi dünya felsefesinden kopuk bir özgünlük arayışına dönüştürmemek de önemli: Felsefi düşüncenin gücü, kendi koşullarını anlamasında ve evrensel tartışmaya katılabilmesinde yatar. Timuçin'in Fransız düşüncesinden estetiğe, Descartes'tan Nâzım Hikmet'e uzanan üretimi bu iki yönelimin birlikte düşünülmesi için elverişli bir örnek.
+
+Afşar Timuçin'in mirası tek bir kitapta, tek bir kavramda ya da tek bir disiplinde tüketilemez; onu anlamak için filozof, şair, estetikçi ve eğitimci kimliklerini koparmadan okumak gerekir. Çalışmalarında felsefe insanın dünyayı anlama çabasıdır; estetik, bu dünyayı duyular ve sanat aracılığıyla deneyimlemenin yolu; şiir, düşünceyle duygunun aynı dilde buluştuğu alan. Bu alanların kesişiminde insanın özgürlüğü ve daha insanca bir dünya arayışı belirir. Onun ardından sorulması gereken soru belki şudur: Felsefeyi yalnızca bilmekle mi yetineceğiz, yoksa onu yaşamımızı, ilişkilerimizi ve ortak dünyamızı sorgulamanın bir imkânı olarak mı göreceğiz? Timuçin'i yeniden okumak, geçmişe dönmek değil, bugünün düşünsel sorumluluklarıyla yüzleşmektir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün: 12 Ekim — Edith Stein, Husserl'in asistanından Auschwitz'e",
+    slug: "felsefe-tarihinde-bugun-12-ekim-edith-stein",
+    summary:
+      "12 Ekim 1891'de Breslau'da doğan Edith Stein, Husserl'in ilk asistanı, empati üzerine doktora tezinin yazarı, Almanya'da doçentliği reddedilen ilk kadın felsefecilerden, sonra Karmelit rahibesi ve 1942'de Auschwitz'de öldürülen bir Yahudi. Fenomenoloji ile Thomizm arasında, 'başkasının deneyimi' sorusunun filozofu.",
+    seoTitle: "Felsefe Tarihinde Bugün 12 Ekim: Edith Stein (1891)",
+    metaDescription:
+      "12 Ekim 1891: Edith Stein'ın doğumu. Empati Problemi Üzerine (1917), Husserl'in asistanlığı, habilitasyonun reddi, Sonlu ve Ezelî Varlık, Karmelit yaşamı, Auschwitz (1942), 1998'de azizlik.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Edith%20Stein.jpg?width=1600",
+    imageCredit: "Edith Stein, 1920'ler · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri · Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/stein/",
+    publishedAt: "2026-10-11T21:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "fenomenoloji", "din-felsefesi", "toplumsal-cinsiyet", "etik"],
+    philosopherSlugs: ["martin-heidegger"],
+    sources: [
+      { title: "Edith Stein", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/stein/", primary: true },
+      { title: "St. Edith Stein | German philosopher and martyr", publisher: "Britannica", url: "https://www.britannica.com/biography/Saint-Edith-Stein" },
+    ],
+    content: `Edith Stein 12 Ekim 1891'de, o yıl Yom Kippur'a denk gelen günde, Breslau'da (bugün Wrocław) on bir çocuklu Yahudi bir ailenin en küçüğü olarak doğdu. Babası o iki yaşındayken öldü; kereste ticaretini annesi yürüttü. On beşinde dindarlığını bıraktı, kendini ateist ilan etti; Breslau'da psikoloji okurken Husserl'in *Mantık Araştırmaları*'nı okudu ve 1913'te Göttingen'e, fenomenolojinin kaynağına gitti.
+
+## Empati: Başkasının deneyimini nasıl biliriz?
+
+Göttingen'de Husserl'in, Max Scheler'in ve Adolf Reinach'ın çevresine katıldı; Birinci Dünya Savaşı'nda Kızıl Haç hemşiresi olarak çalıştı; 1916'da Freiburg'da Husserl'in yanında *Empati Problemi Üzerine* (*Zum Problem der Einfühlung*) teziyle summa cum laude doktora yaptı. Tezin sorusu fenomenolojinin en zor sorularından biridir: Başka bir bilinci nasıl deneyimleriz? Stein'a göre empati ne çıkarım ne de taklit; ötekinin yaşantısının bana "kendi yaşantım olmayan bir yaşantı olarak" verildiği, kendine özgü bir edimdir. Öteki, benim için bir nesne değil, bir "ben"dir ve bunu doğrudan kavrarım; ama onun acısını onun gibi yaşamam, ona eşlik ederim. Bu çözümleme, bugün zihin felsefesinde "öteki zihinler" tartışmasının ve bilişsel bilimde empati araştırmalarının fenomenolojik kaynağı sayılır; Stein'ın yüz yıl önceki ayrımları, aynalayan nöronlar literatüründe yeniden tartışılıyor.
+
+1916-1918'de Husserl'in ilk asistanı oldu: Onun stenografik notlarını, bugün *Ideen II* olarak bilinen metni ve *Zaman Bilinci* derslerini düzenledi; Heidegger daha sonra bu düzenlemeleri kendi adıyla yayımlattığında Stein'ın emeği anılmadı. Doçentlik (habilitasyon) için başvurdu; Göttingen ve Freiburg'da reddedildi, gerekçe açıkça kadın olmasıydı. 1919'da Prusya Eğitim Bakanlığı'na yazdığı dilekçe, kadınların habilitasyonunun önündeki engelin kaldırılmasına yol açan kararnamenin vesilelerinden biri oldu; ama Stein kendisi hiçbir zaman kürsü alamadı. 1920'lerde kadın hareketi içinde konuştu, kadınların eğitimi ve "kadının özü" üzerine fenomenolojik denemeler yazdı.
+
+## Fenomenolojiden Thomizme
+
+1921'de bir gecede Teresa de Ávila'nın otobiyografisini okudu ve "Bu hakikattir" diyerek Katolik olmaya karar verdi; 1922'de vaftiz edildi. Dominiken rahibelerin Speyer'deki okulunda on yıl öğretmenlik yaptı; bu dönemde Aquinas'ın *De veritate*'sini Almancaya çevirdi ve 1929'da Husserl'in 70. yaş armağanına "Husserl'in Fenomenolojisi ve Aquinas'ın Felsefesi" başlıklı, iki düşünürü diyalog hâlinde sunan bir deneme yazdı. 1932'de Münster'deki Alman Bilimsel Pedagoji Enstitüsü'nde ders vermeye başladı; 1933'te Nazi yasaları Yahudi kökenli olduğu için onu uzaklaştırdı. Aynı yıl Papa XI. Pius'a Yahudilere yönelik zulmü açıkça kınamasını isteyen bir mektup yazdı; cevap alamadı. Ekim 1933'te Köln'deki Karmelit manastırına girdi: Teresia Benedicta a Cruce, "Haç'ın Teresa Benedicta'sı".
+
+Manastırda başyapıtını yazdı: *Sonlu ve Ezelî Varlık* (*Endliches und ewiges Sein*, 1936'da tamamlandı, Yahudi bir yazarın kitabı olduğu için yayımlanamadı, 1950'de çıktı). Kitap, Husserl'in fenomenolojisi ile Aquinas'ın varlık metafiziğini birleştirmeyi dener: Sonlu varlığın kendi varlığını ezelî varlıktan alışı, kişi, öz ve varoluş. Heidegger'in *Varlık ve Zaman*'ına uzun bir ek yazdı; Heidegger'in "ölüme doğru varlık" çözümlemesini, insanın sonluluğunu kabul ederken sonsuzla ilişkisini dışarıda bıraktığı için eleştirdi. Son eseri *Haçın Bilimi*, Yuhanna de la Cruz üzerine bitmemiş bir inceleme.
+
+## Auschwitz
+
+1938 Kristal Gece'den sonra Hollanda'daki Echt manastırına gönderildi. 1942 Temmuz'unda Hollanda piskoposlarının Yahudilerin sürgününü kınayan mektubu kiliselerde okununca Naziler misilleme olarak Katolik olmuş Yahudileri de topladı; Stein kız kardeşi Rosa ile birlikte 2 Ağustos'ta manastırdan alındı, 9 Ağustos 1942'de Auschwitz-Birkenau'da gaz odasında öldürüldü. Götürülürken kız kardeşine söylediği cümle aktarılır: "Gel, halkımız için gidiyoruz." 1998'de Papa II. Ioannes Paulus onu aziz ilan etti ve Avrupa'nın koruyucu azizlerinden biri yaptı; azizliği, Yahudi cemaatlerinde, Holokost kurbanı bir Yahudinin Hristiyan şehidi olarak anılmasının anlamı üzerine tartışma açtı. Bu tartışma hâlâ sürüyor.
+
+Felsefe tarihi Stein'ı uzun süre Husserl'in asistanı ya da Katolik bir azize olarak andı; son otuz yılda, Alman fenomenolojisinin en özgün isimlerinden biri olarak yeniden okunuyor. Empati, kişi, topluluk ve devlet üzerine yazdıkları (1920'lerdeki *Psişik Nedensellik* ve *Devlet Üzerine Bir Araştırma*) sosyal ontolojinin öncü metinleri sayılıyor. Hayatı, geçen hafta [Almanya'daki Felsefe ve Nasyonal Sosyalizm çalışma grubu](/haber/almanya-felsefe-ve-nasyonal-sosyalizm-dgphil-calisma-grubu) üzerine yazdığımızda sorduğumuz soruyu tersten sorar: Felsefe faşizme bağışık değildi; ama bazı filozoflar hakikate sonuna kadar bağlı kaldı.`,
+  },
   {
     title: "Felsefe Tarihinde Bugün: 11 Ekim — Samuel Clarke, Hans Kelsen, Tschirnhaus, Zwingli ve Einstein'ın mektubu",
     slug: "felsefe-tarihinde-bugun-11-ekim-clarke-kelsen-tschirnhaus-zwingli-einstein",
@@ -36003,6 +36150,30 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "31. Türkiye Felsefe Olimpiyadı — lise öğrencileri için felsefi deneme yarışması",
+    slug: "turkiye-felsefe-olimpiyadi-31-2026",
+    summary:
+      "Türkiye Felsefe Kurumu'nun 1997'den beri düzenlediği liseler arası felsefi deneme yazma yarışması bu yıl 6 Aralık'ta, 11 ildeki sınav merkezleri aracılığıyla çevrim içi yapılacak; okulların başvurusu için son gün 20 Kasım.",
+    description: `Türkiye Felsefe Olimpiyadı, Türkiye Felsefe Kurumu Derneği Çocuklar için Felsefe Birimi tarafından 1997'den bu yana lise öğrencileri arasında düzenlenen bir felsefi deneme yazma yarışması; dereceye girenler Uluslararası Felsefe Olimpiyadı'na (IPO) giden Türkiye takımına aday olur. Otuz birincisi 6 Aralık 2026 Pazar günü 10.00-13.00 arasında, Ankara, Antalya, Bursa, Denizli, Gaziantep, Hatay, İstanbul, İzmir, Mersin, Adapazarı ve Samsun'daki 11 sınav merkezi okulu aracılığıyla elektronik ortamda çevrim içi yapılacak. Katılmak isteyen okulların, felsefe öğretmeninin ve okul müdürünün imzasıyla, 20 Kasım 2026 Cuma saat 17.00'ye kadar sınava girmek istedikleri merkeze başvurması gerekiyor. Şartname Felsefeciler Derneği'nin duyurusunda ve Türkiye Felsefe Kurumu'nun sayfasında.`,
+    kind: "CFP",
+    organizer: "Türkiye Felsefe Kurumu Derneği — Çocuklar için Felsefe Birimi",
+    speakers: "Lise öğrencileri (yarışma)",
+    topic: "Felsefi deneme yazımı, liselerde felsefe",
+    format: "ONLINE",
+    startsAt: "2026-12-06T07:00:00.000Z",
+    endsAt: "2026-12-06T10:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    city: "Çevrim içi (11 ilde sınav merkezi)",
+    country: "Türkiye",
+    venue: "Sınav merkezi okullar (Ankara, Antalya, Bursa, Denizli, Gaziantep, Hatay, İstanbul, İzmir, Mersin, Adapazarı, Samsun)",
+    fee: "Ücretsiz · Okul başvurusu: 20 Kasım 2026, 17.00",
+    website: "https://www.tfk.org.tr/",
+    featured: false,
+    sourceName: "Felsefeciler Derneği · Türkiye Felsefe Kurumu",
+    sourceUrl: "https://www.felsefecilerdernegi.org.tr/otuz-birinci-turkiye-felsefe-olimpiyadi/",
+  },
   {
     title: "Formal Philosophy 2026 — IX. Uluslararası Konferans (HSE, Moskova)",
     slug: "formal-philosophy-2026-hse-moskova",
