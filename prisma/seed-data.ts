@@ -3210,7 +3210,7 @@ Tartışmayı Afrika'yla sınırlamak sorunun evrensel boyutunu gözden kaçırm
     title: "Yapay Zekâ Türk Aydınının Yerini mi Alıyor?",
     slug: "yapay-zeka-turk-aydininin-yerini-mi-aliyor-hakikat-otoritesi",
     summary:
-      "Tanrı'dan aydına, aydından algoritmaya: Bir zamanlar doğru bilginin kaynağı kutsal metinler ve dinî otoritelerdi; modernleşmeyle bu otorite bilim insanlarına, yazarlara ve siyasal aydınlara geçti. Bugün milyonlarca insan bir sorunun cevabını kitaptan önce yapay zekâya soruyor. Aziz Nesin ve Yalçın Küçük'le temsil edilen aydın geleneği gerilerken, Türkiye'de hakikatin otoritesi el mi değiştiriyor?",
+      "Tanrı'dan aydına, aydından algoritmaya: Türkiye'de hakikatin otoritesi el mi değiştiriyor? Namık Kemal'den Kuçuradi'ye, Aziz Nesin'den Yalçın Küçük'e uzanan aydın geleneği ile yapay zekânın görünmez otoritesi üzerine bir felsefi yorum.",
     seoTitle: "Yapay zekâ Türk aydınının yerini mi alıyor? Hakikat otoritesi",
     metaDescription:
       "Türkiye'de entelektüel otoritenin dönüşümü: teolojik otoriteden modern aydına, aydından algoritmaya. Aziz Nesin, Yalçın Küçük, sosyal epistemoloji, tanıklık, yapay zekânın görünmez otoritesi ve yeni aydın.",
@@ -3231,67 +3231,251 @@ Tartışmayı Afrika'yla sınırlamak sorunun evrensel boyutunu gözden kaçırm
       { title: "Entelektüel/Aydın", publisher: "TÜBİTAK Ansiklopedisi (Burhanettin Duran)", url: "https://ansiklopedi.tubitak.gov.tr/ansiklopedi/entelektuel_aydin" },
       { title: "Guidance for Generative AI in Education and Research", publisher: "UNESCO", url: "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" },
     ],
-    content: `*Bu yazı, doğrulanmış bir toplumsal eğilimi bütün boyutlarıyla ölçtüğü iddiasında değildir; Türkiye'de entelektüel otoritenin dönüşümünü tarihsel örneklerden ve çağdaş epistemoloji tartışmalarından hareketle ele alan bir felsefi yorumdur.*
+    content: `*Bu yazı, doğrulanmış bir toplumsal eğilimi bütün boyutlarıyla ölçtüğü iddiasında değildir. Türkiye'de entelektüel otoritenin dönüşümünü, düşünce tarihinden örnekler ve çağdaş epistemoloji tartışmaları üzerinden ele alan felsefi bir yorumdur.*
 
-Bir soruyla başlayalım: Bugün doğruyu kime soruyoruz? Bir zamanlar insanın hakikat arayışında başvurduğu otorite, toplumunun tarihine göre değişiyordu: Dinî toplumda din âlimi, geleneksel toplulukta bilge, modern toplumda bilim insanı, filozof, gazeteci ya da siyasal aydın. Şimdi yeni bir figür var: İnsan gibi konuşan, soruları yanıtlayan, metinleri yorumlayan, karşılaştırmalar yapan ve çoğu zaman tereddütsüz bir üslupla sonuç sunan yapay zekâ. Bir öğrenci, bir siyasal tartışmada kimin haklı olduğunu anlamak isteyen yurttaş, bir hastalığın belirtilerini araştıran kişi, arama motorunda zıt görüşleri karşılaştırmak yerine doğrudan yapay zekâya soruyor; karşısına bağlantı listesi değil, kendi sorusuna göre biçimlenmiş, tutarlı ve akıcı bir anlatı çıkıyor. Bu yalnızca bilgiye erişim biçiminin değil, bilginin güvenilirliğinin nasıl algılandığının da değişmesi ihtimali.
+Bir soruyla başlayalım: Bugün doğruyu kime soruyoruz?
 
-Sosyal epistemoloji, bilginin toplumsal ilişkiler ve kurumlar içindeki oluşumunu inceleyen alan, burada temel bir ayrım sunar: Bir bilgiyi kendimiz araştırarak edinmekle onu bir kaynağın sözüne güvenerek kabul etmek aynı şey değildir. Üstelik modern insanın bildiklerinin büyük bölümü zaten başkalarının tanıklığına, uzmanlığına ve kurumsal bilgi üretimine dayanır; "tanıklık epistemolojisi" bu güvenin hangi koşullarda gerekçelendirilebileceğini sorar. Yapay zekâ bu eski bağımlılığı kaldırmıyor; ona yeni bir biçim veriyor. Mesele yapay zekânın insanlardan çok şey bilip bilmediği değil; insanın kendi bilgisinin doğruluğuna karar verirken yapay zekâyı ne ölçüde hakem olarak görmeye başladığı.
+Bir zamanlar insanın hakikat arayışında başvurduğu otorite, toplumun tarihine göre değişiyordu. Dinî toplumda din âlimi, geleneksel toplulukta bilge, modern toplumda bilim insanı, filozof, gazeteci ya da siyasal aydın. Şimdi yeni bir figür var: İnsan gibi konuşan, soruları yanıtlayan, metinleri yorumlayan, karşılaştırmalar yapan ve çoğu zaman tereddütsüz bir üslupla sonuç sunan yapay zekâ.
+
+Bir öğrenci, siyasal tartışmada kimin haklı olduğunu anlamak isteyen bir yurttaş ya da tarihsel bir meseleyi araştıran bir okur, arama motorunda farklı kaynakları karşılaştırmak yerine doğrudan yapay zekâya sorabiliyor. Karşısına bağlantı listesi değil, kendi sorusuna göre biçimlenmiş, tutarlı ve akıcı bir anlatı çıkıyor. Bu, yalnızca bilgiye erişim biçiminin değil, bilginin güvenilirliğinin nasıl algılandığının da değişmesi ihtimalini doğuruyor.
+
+Sosyal epistemoloji, bilginin toplumsal ilişkiler ve kurumlar içindeki oluşumunu inceler. Bu alanın temel sorularından biri şudur: Bir bilgiyi kendi araştırmamızla edinmekle bir kaynağın sözüne güvenerek kabul etmek aynı şey midir?
+
+Modern insanın bildiklerinin büyük bölümü zaten başkalarının tanıklığına, uzmanlığına ve kurumsal bilgi üretimine dayanır. Yapay zekâ bu bağımlılığı ortadan kaldırmıyor; ona yeni bir biçim veriyor. Mesele, yapay zekânın insanlardan çok şey bilip bilmediğinden ibaret değil. Asıl soru, insanın kendi bilgisinin doğruluğuna karar verirken yapay zekâyı ne ölçüde hakem olarak görmeye başladığıdır.
 
 ## Teolojik otoriteden modern aydına
 
-Bilgiyle otorite arasındaki ilişki tarih boyunca yalnızca neyin bilindiğiyle değil, kimin konuşma hakkına sahip olduğuyla biçimlendi. Geleneksel toplumlarda dinî kurumlar ve kutsal metinlerin yorumcuları yalnızca inancı değil, iyi ve kötü, doğru ve yanlış, insanın dünyadaki yeri hakkındaki temel soruları da düzenliyordu. Tarihsel gerçeklik elbette daha karmaşık: Antik çağdan itibaren felsefe, gözlem ve matematik gibi bilgi yolları vardı; İslam dünyasında kelam, felsefe, tıp ve astronomi kendi yöntemleriyle gelişti; [Taşköprizâde'nin](/haber/taskoprizade-ahmed-efendi-miftahus-saade-bilgi-felsefesi) ilimler tasnifi, akıl yoluyla bilgi ile arınma yoluyla bilgiyi aynı düzende ele alıyordu. Yine de dinî otoritenin belirleyici olduğu toplumlarda hakikat iddiasının meşruiyeti büyük ölçüde kutsal gelenek ve yorumcularıyla ilişkiliydi.
+Bilgiyle otorite arasındaki ilişki, tarih boyunca yalnızca neyin bilindiğiyle değil, kimin konuşma hakkına sahip olduğuyla da biçimlendi. Geleneksel toplumlarda dinî kurumlar ve kutsal metinlerin yorumcuları, inancın yanı sıra iyi ve kötü, doğru ve yanlış, insanın dünyadaki yeri hakkındaki temel soruların cevaplarını da etkiliyordu.
 
-Modernleşme bu düzenin varsayımlarını değiştirdi: Bir iddianın doğruluğu giderek gözleme, kanıta ve gerekçelendirmeye dayandırıldı; Aydınlanma'nın çağrısı, insanın kendisine söyleneni kabul etmek yerine aklını kullanarak otoriteleri sorgulamasıydı. Ama modernleşme otoriteyi kaldırmadı, biçimini değiştirdi. Din âliminin yanına bilim insanı, filozof, gazeteci, yazar ve öğretmen eklendi; toplum yalnızca bilgi üreten uzmanlara değil, bilginin toplumsal sonuçlarını yorumlayacak kişilere de ihtiyaç duydu. Modern aydın bu dönüşümün figürüdür: Kendi uzmanlığının dışına çıkıp ortak meseleler hakkında konuşan, iktidarın ve çoğunluğun kabullerini sorgulayan kişi. Rolün çelişkisi de burada: Aydın, insanların kendi akıllarını kullanmalarını savunurken onların başvurduğu bir otoriteye dönüşebilir; başkalarını eleştirel düşünmeye çağıran kişi sorgulanmayan bir hakikat makamı olabilir. Bu yüzden aydının meşruiyeti bilgisine değil, eleştiriye ne ölçüde açık olduğuna bağlıydı.
+Ancak bu tarih hiçbir zaman tek bir otoritenin mutlak egemenliğinden ibaret olmadı. Antik çağdan itibaren felsefe, gözlem ve matematik farklı bilgi yolları oluşturdu. İslam dünyasında kelam, felsefe, tıp ve astronomi kendi yöntemleriyle gelişti. [Taşköprizâde](/haber/taskoprizade-ahmed-efendi-miftahus-saade-bilgi-felsefesi) gibi düşünürlerin ilimler tasnifleri, bilginin farklı alanlarını belirli bir düşünsel bütünlük içinde ele aldı.
 
-## Türk aydını: Bilgi üreten mi, yön gösteren mi?
+Modernleşme, bu ilişkilerin niteliğini değiştirdi. Bir iddianın doğruluğu giderek gözleme, kanıta, akla ve gerekçelendirmeye dayandırılmaya başlandı. Aydınlanma'nın çağrısı, insanın kendisine söyleneni yalnızca otorite söylediği için kabul etmemesi, kendi aklını kullanarak otoriteleri sorgulamasıydı.
 
-Türkiye'de "aydın" kavramı Batı Avrupa'daki entelektüel tartışmalarla bağlantılı, ama kendine özgü bir modernleşme tarihi içinde biçimlendi: Osmanlı-Türk modernleşmesinde aydın, düşünce üreten kişi olmaktan çok toplumu dönüştürmesi, eğitmesi ve geleceğe hazırlaması beklenen bir figürdü. TÜBİTAK Ansiklopedisi'nin "Entelektüel/Aydın" maddesinde Burhanettin Duran bu rolü, halka yukarıdan bakan ve toplumu dönüştürme görevini kendine veren seçkinci bir misyonla ilişkilendirir; aynı değerlendirmeye göre 1990'lardan itibaren aydın kavramı tek bir büyük anlatı olma niteliğini kaybetti ve dijitalleşmeyle birlikte aydının "doğruyu bilmede otorite" iddiası zayıfladı; ama eleştirel düşünce üretme ihtiyacı ortadan kalkmadı. Bu saptama bugünkü dönüşümü anlamak için önemli: Yapay zekâ, aydın geleneğinin zaten yaşadığı meşruiyet krizinin üzerine geliyor.
+Fakat modernleşme otoriteyi ortadan kaldırmadı; biçimini değiştirdi. Din âliminin yanına bilim insanı, filozof, gazeteci, yazar ve öğretmen eklendi. Toplum yalnızca bilgi üreten uzmanlara değil, bilginin toplumsal sonuçlarını yorumlayacak kişilere de ihtiyaç duydu.
 
-Türkiye'nin yakın düşünce tarihinde aydın yalnızca bilgi kaynağı değil, siyasal ve ahlaki bir konumun temsilcisiydi; yazarın, gazetecinin ya da akademisyenin sözünün ağırlığı bazen uzmanlığından, bazen edebî gücünden, bazen bedel ödeme ihtimaline rağmen konuşmasından geliyordu. Ama bu otorite hiçbir zaman tek ve tartışmasız olmadı: Aydınlar farklı ideolojilere ve tarih yorumlarına sahipti, topluma tek bir hakikat sunan yekpare bir sınıf değildi. Tam da bu yüzden kamusal işlevleri cevap vermek değil, çatışan iddiaları gerekçeleriyle ortaya koymak ve toplumun düşünme kapasitesini genişletmekti. Bugün soru şu: Bu işlevi kim üstlenecek; birbiriyle tartışan aydınlar mı, uzmanlar mı, dijital topluluklar mı, yoksa bütün görüşleri bir araya getirip cevap üreten sistemler mi?
+Modern aydın bu dönüşümün figürüdür: Kendi uzmanlığının dışına çıkarak ortak meseleler hakkında konuşan, iktidarın ve çoğunluğun kabullerini sorgulayan kişi.
+
+Bu rolün bir çelişkisi vardır. Aydın, insanların kendi akıllarını kullanmalarını savunurken kendisi de bir otoriteye dönüşebilir. Başkalarını eleştirel düşünmeye çağıran kişi, zamanla sorgulanmayan bir hakikat makamı hâline gelebilir. Bu nedenle aydının meşruiyeti yalnızca bilgisine değil, eleştiriye ne ölçüde açık olduğuna da bağlıdır.
+
+## Türk aydını: Birkaç büyük isimden ibaret olmayan gelenek
+
+Türkiye'de aydın kavramı, Batı Avrupa'daki entelektüel tartışmalarla bağlantılı olmakla birlikte kendine özgü bir modernleşme tarihi içinde biçimlendi. Osmanlı-Türk modernleşmesinde aydından yalnızca düşünce üretmesi değil, toplumu dönüştürmesi, eğitmesi ve geleceğe hazırlaması da beklendi.
+
+Bu geleneğin başlangıcını Namık Kemal, Şinasi ve Ziya Paşa gibi Tanzimat düşünürlerinde görebiliriz. Namık Kemal hürriyet, vatan ve meşrutiyet kavramlarını kamusal tartışmanın merkezine taşıdı. Şinasi, gazetecilik ve dil alanındaki çalışmalarıyla modern kamusal düşüncenin gelişmesine katkıda bulundu. Ziya Paşa ise gelenekle modernleşme arasındaki gerilimi düşüncesinin temel meselelerinden biri hâline getirdi.
+
+Ali Suavi, Ahmet Mithat Efendi, Ahmet Vefik Paşa ve Şemseddin Sami gibi isimler de farklı yollarla bilgi, eğitim, dil ve toplum arasındaki ilişkiyi yeniden kurmaya çalıştı. Daha sonra Abdullah Cevdet ve Ahmet Rıza'nın pozitivist düşünceye ilgisi, Prens Sabahattin'in toplumsal yapı ve bireysel girişim üzerine görüşleri, [Ziya Gökalp'in](/haber/ziya-gokalp-turk-sosyolojisinin-kurucu-babasi) kültür ve millet kuramı, Yusuf Akçura'nın siyasal düşünce tarihine müdahalesi bu tartışmayı genişletti. Baha Tevfik ise materyalist düşüncenin Osmanlı'daki temsilcileri arasında yer aldı.
+
+Bu isimlerin aynı düşünsel çizgide buluştuğu söylenemez. Aralarındaki ayrılıklar da en az ortak meseleleri kadar önemlidir. Kimi özgürlüğü ve anayasal yönetimi, kimi bilimsel düşünceyi, kimi toplumsal dayanışmayı, kimi de millî kimliği öne çıkardı. Türk aydın geleneği, tek bir hakikatin temsilcilerinden çok, modern toplumun nasıl kurulacağı üzerine çatışan cevapların tarihidir.
+
+Cumhuriyet döneminde bu tartışma yeni bir biçim aldı. Mustafa Kemal Atatürk'ün eğitim, laiklik, yurttaşlık ve siyasal egemenlik anlayışı ülkenin kurumsal yapısını dönüştürdü. Mehmet Âkif Ersoy, Halide Edib Adıvar, Hasan Âli Yücel ve Sabiha Sertel ise birbirlerinden farklı konumlarda ahlak, din, kadınların toplumsal rolü, eğitim, kültür ve kamusal sorumluluk meselelerine müdahale ettiler.
+
+Yalnızca edebiyatçılara bakmak da yeterli değildir. Cahit Arf, bilimsel üretimin Türkiye'deki simgelerinden biri oldu. Fuat Sezgin, bilim tarihini medeniyetler arasındaki bilgi aktarımı bağlamında araştırdı. İlber Ortaylı, Osmanlı ve modernleşme tarihini geniş kitlelere taşıdı. Bu isimler, aydınlığın yalnızca siyasal muhalefet veya edebî üretimle sınırlı olmadığını gösteriyor.
+
+Aydın, kimi zaman bir siyasal sistemi eleştirir; kimi zaman bilimsel bir problemi çözer, kimi zaman geçmişin unutulmuş bilgisini görünür kılar. Ortak mesele, yalnızca bilgi üretmek değil, bilginin nasıl anlaşılacağı ve toplumun düşünsel hayatında ne tür bir rol oynayacağıdır.
+
+## Felsefe, akıl ve eleştiri: Görünmeyen düşünsel altyapı
+
+Türk aydın geleneğini yalnızca geniş kitlelerce tanınan yazarlar ve siyasal figürler üzerinden anlatmak, önemli bir eksiklik yaratır. Çünkü bir toplumun eleştirel düşünme kapasitesi, görünür kamusal tartışmaların arkasındaki felsefi birikime de dayanır.
+
+Macit Gökberk, felsefe tarihinin Türkçede yerleşmesine ve Aydınlanma düşüncesinin anlaşılmasına katkıda bulundu. Nermi Uygur, dil, kültür ve gündelik hayat üzerine yazılarıyla felsefi düşünceyi akademik uzmanlığın dışına taşıdı. Takiyettin Mengüşoğlu insanı biyolojik, tarihsel, kültürel ve toplumsal boyutlarıyla ele alan felsefi antropolojisiyle; Bedia Akarsu dil, etik ve felsefe tarihi çalışmalarıyla öne çıktı.
+
+Nusret Hızır mantık ve bilim felsefesine, [Arda Denkel](/haber/arda-denkel-nesne-ozellik-tikelcilik) algı ve gerçeklik sorunlarına, Doğan Özlem tarih felsefesi ve hermeneutiğe, Ahmet Cevizci ise felsefe tarihi ve etik alanına önemli katkılar sundu. Selahattin Hilav, Marksizm ve varoluşçuluk gibi düşünce geleneklerinin Türkçede tanınmasında etkili oldu. Oruç Aruoba, felsefe ile şiir arasında kendine özgü bir dil kurdu.
+
+[Hilmi Ziya Ülken'in](/haber/hilmi-ziya-ulken-sorulari) düşünce tarihi çalışmaları, Nurettin Topçu'nun ahlak felsefesi, Teoman Duralı'nın bilim ve medeniyet tartışmaları, Ahmet Arslan'ın Antik Yunan felsefesi araştırmaları ve [İoanna Kuçuradi'nin](/filozof/ioanna-kucuradi) etik ile insan hakları üzerine çalışmaları da bu birikimin farklı yönlerini temsil eder.
+
+Bu düşünürlerin bir kısmı akademik felsefenin sınırları içinde çalıştı; bir kısmı düşünceyi deneme, çeviri veya edebiyat aracılığıyla genişletti. Ancak hepsi, aydının yalnızca hazır cevaplar sunan bir kişi olmadığını hatırlatır. Bazen asıl katkı, bir sorunun daha doğru sorulmasını sağlamaktır.
+
+Yapay zekâ bu düşünürlerin metinlerini özetleyebilir, kavramlarını karşılaştırabilir ve düşünce tarihindeki ilişkileri açıklayabilir. Fakat felsefi bir metnin önemini kavramak, yalnızca içindeki önermeleri sıralamak değildir. Bir düşüncenin hangi soruna cevap verdiğini, hangi varsayımlara dayandığını ve hangi itirazlarla karşılaşabileceğini değerlendirmek gerekir.
+
+Burada yapay zekâya duyulan güven ile düşünsel yetkinlik arasındaki fark belirginleşir: Bir düşünürü birkaç paragrafta tanımak, onun düşüncesini gerçekten anlamakla aynı şey değildir.
+
+## Siyaset, hukuk ve toplum: Aydının farklı sorumlulukları
+
+Aydınlığın bir başka boyutu, devletin ve toplumun nasıl örgütlendiğine ilişkin sorularla ilgilidir.
+
+İdris Küçükömer, Türkiye'deki sağ-sol ayrımlarını ve devlet-toplum ilişkilerini alışılmış kalıpların dışında tartıştı. Tarık Zafer Tunaya, Osmanlı-Türk siyasal düşüncesinin ve siyasal partilerin tarihini araştırdı. Bülent Tanör ve Mümtaz Soysal, anayasa hukuku, demokrasi ve insan hakları alanlarında hem akademik hem kamusal tartışmalara katkıda bulundu.
+
+Taner Timur, tarihsel materyalizm ve modernleşme üzerine çalışmalarıyla Osmanlı'dan Cumhuriyet'e dönüşümü toplumsal ilişkiler içinde ele aldı. Korkut Boratav, Türkiye ekonomisini sınıfsal ilişkiler ve politik iktisat çerçevesinde inceledi. Fikret Başkaya, kalkınma ve bağımlılık düşüncesini eleştirel bir perspektifle sorguladı. Metin Çulhaoğlu ise Marksist kuram ve ideoloji tartışmalarında etkili oldu.
+
+Bu isimlerin yanında Doğan Avcıoğlu'nun kalkınma ve bağımsızlık tartışmaları, Erol Güngör'ün kültür ve sosyal psikoloji çalışmaları, Mübeccel Belik Kıray'ın toplumsal değişim araştırmaları ve Niyazi Berkes'in çağdaşlaşma incelemeleri, toplumun kendisini anlama biçimini etkiledi.
+
+Behice Boran, sosyoloji ile siyasal mücadeleyi birleştirirken Kemal Tahir, Osmanlı toplumsal yapısının Batı Avrupa'daki tarihsel modellerden farklılığını romanları ve düşünceleri üzerinden tartıştı. Şerif Mardin ise merkez-çevre ilişkileri ve siyasal düşünce tarihi çalışmalarıyla Türkiye'yi yorumlama biçimlerinde kalıcı bir etki yarattı.
+
+Bu farklı örnekler bize şunu gösteriyor: Aydın, yalnızca siyasal iktidara karşı çıkan kişi değildir. Devletin yapısını, ekonomik ilişkileri, toplumsal değişimi ve tarihsel anlatıları inceleyen araştırmacı da aydın geleneğinin parçasıdır. Bir toplumun düşünsel hayatı, farklı yöntemlerle üretilen bilgilerin ve bu bilgilere ilişkin anlaşmazlıkların birlikte var olmasıyla gelişir.
+
+Yapay zekâ bu alanlarda önemli bir yardımcı olabilir. Bir anayasa tartışmasının tarihini çıkarabilir, ekonomik göstergeleri karşılaştırabilir, siyasal düşünürlerin tezlerini yan yana getirebilir. Ancak bu işlemlerin yararlı olması, kaynakların doğruluğuna ve yorumların gerekçelendirilebilir olmasına bağlıdır.
+
+Birbirine benzeyen iki anlatıyı yan yana koymak, aralarındaki kanıt farkını kendiliğinden ortaya çıkarmaz. Bir düşüncenin yaygın olması da onu doğru kılmaz. Eleştirel düşünce, bilginin miktarından çok, iddiaların nasıl sınandığıyla ilgilidir.
+
+## Kadın aydınlar ve görünmeyen kamusal emek
+
+Türk aydın tarihinin eksik anlatılmasının bir nedeni de kadınların düşünsel ve siyasal katkılarının zaman zaman ikincil konuma itilmesidir.
+
+Nezihe Muhiddin, kadınların siyasal hakları ve örgütlenmesi için mücadele etti. Suat Derviş, gazetecilik ve edebiyat aracılığıyla sınıf ilişkilerini, yoksulluğu ve kadınların yaşamını görünür kıldı. Sabiha Sertel, basın özgürlüğü ve toplumsal eşitsizlik meselelerini kamusal tartışmaya taşıdı. Halide Edib Adıvar, kadınların toplumsal konumu, eğitim ve millî kimlik üzerine farklı dönemlerde etkili oldu.
+
+Daha sonraki dönemde Şirin Tekeli'nin feminist düşünce ve kadın hareketine katkıları, Füsun Akatlı'nın felsefe ve edebiyat eleştirisi, Jale Parla'nın edebiyat kuramı çalışmaları, Mübeccel Belik Kıray'ın sosyolojisi ve İoanna Kuçuradi'nin etik felsefesi, kadınların entelektüel üretiminin farklı alanlarda nasıl biçimlendiğini gösterir.
+
+Bu isimlerin katkısını yalnızca kadınların kamusal hayatta daha görünür olmasına indirgemek doğru olmaz. Onlar, toplumun hangi deneyimleri önemli saydığı, hangi soruları sorduğu ve hangi kavramlarla düşündüğü üzerinde etkili oldular.
+
+Aydınlık, yalnızca konuşma hakkını kullanmak değil, daha önce duyulmayan deneyimlerin düşünce ve dil içinde yer bulmasını sağlamaktır. Bu yönüyle entelektüel otoritenin dönüşümü, kimin cevap verdiği kadar kimin sorusunun duyulduğuyla da ilgilidir.
 
 ## Yalçın Küçük ve Aziz Nesin: Aydın bir tavırdır
 
-Yalçın Küçük ile Aziz Nesin'i aynı düşünsel çizginin temsilcileri saymak doğru olmaz; üslupları, alanları ve müdahale biçimleri farklıydı. Ama ikisi de Türkiye'de aydın kavramının meslek ya da bilgi birikimiyle açıklanamayacağını gösteren isimler. Küçük, *Türkiye Üzerine Tezler* ve beş ciltlik *Aydın Üzerine Tezler* (1830-1980) ile Türkiye'nin yakın tarihini, sınıfsal ilişkilerini ve aydınların konumunu belirli bir tarihsel ve ideolojik çerçeveden çözümlemeye çalıştı. Tezleri tartışılabilir, eleştirilebilir, reddedilebilir; eleştirel düşünce bakımından önemli olan da budur: Bir düşünürü otorite saymak yerine hangi kanıtlarla hangi sonuçlara ulaştığını incelemek. Küçük'ün örneği, aydının toplumsal yapıyı görünen olayların toplamı olarak kabul etmeyip iktidar ilişkilerini açığa çıkarma iddiasını temsil eder.
+Yalçın Küçük ile Aziz Nesin'i aynı düşünsel çizginin temsilcileri saymak doğru olmaz. Üslupları, alanları ve müdahale biçimleri farklıydı. Ancak ikisi de Türkiye'de aydın kavramının yalnızca meslek veya bilgi birikimiyle açıklanamayacağını gösteren isimlerdir.
 
-Aziz Nesin'in kamusal varlığı ise edebiyat, mizah, toplumsal eleştiri ve örgütlü aydın sorumluluğu ekseninde: Yazarlar Sendikası'nın kurucusu, Nesin Vakfı'nın kurucusu, 1993'te Sivas'ta linç edilmek istenen yazar. Nesin toplumsal çelişkileri görünür kılarken bilgi vermekle yetinmedi; yerleşik kabulleri rahatsız etti, okurun kendisiyle ve toplumuyla hesaplaşmasını sağladı. İki isim için de aydınlık bir veri biriktirme meselesi değildi: Bilgiyi hayatla ilişkilendirmek, iddiaların sonuçlarını göstermek ve hâkim kanaatlere itiraz etmek. Bu geleneğin özelliği, aydının kendi konumunu tartışmanın dışında tutmamasıdır; sözünün ağırlığı hangi soruları sorduğundan ve hangi sonuçların sorumluluğunu üstlendiğinden geliyordu.
+Küçük, *Türkiye Üzerine Tezler* ve *Aydın Üzerine Tezler (1830–1980)* ile Türkiye'nin yakın tarihini, sınıfsal ilişkilerini ve aydınların toplumsal konumunu belirli bir tarihsel ve ideolojik çerçeveden çözümlemeye çalıştı. Tezleri tartışılabilir, eleştirilebilir ve reddedilebilir. Eleştirel düşünce bakımından önemli olan da budur: Bir düşünürü otorite saymak yerine hangi kanıtlarla hangi sonuçlara ulaştığını incelemek.
 
-Yapay zekâ tam burada farklılaşır. Bir metin üretebilir, tarihsel görüşleri karşılaştırabilir, siyasal söylemlerdeki çelişkileri gösterebilir; ama bunları yaparken Nesin'in toplumsal öfkesini ya da Küçük'ün tarihsel müdahale iddiasını insanî anlamda üstlenmez. Bu düşünürlerin metinlerini işleyebilir; ama onların yaşadığı koşulların, kişisel risklerin ve ilişkilerin içinden konuşmaz. Bu, yapay zekânın düşünce üretiminde yararsız olduğu anlamına gelmez; ürettiği metnin düşünsel bir müdahaleyle aynı şey olmadığını kavramak gerekir. [Yapay zekânın hakikati söyleyip söyleyemeyeceği](/haber/yapay-zeka-hakikati-soyleyebilir-mi-heidegger-foucault-parrhesia) tartışmasında vardığımız sonuç buydu: Doğru cümle üretmek ile hakikate tanıklık etmek ve sözünün sorumluluğunu taşımak aynı şey değildir.
+Aziz Nesin'in kamusal varlığı ise edebiyat, mizah, toplumsal eleştiri ve örgütlü aydın sorumluluğu ekseninde şekillendi. Türkiye Yazarlar Sendikası'nın kuruluşunda rol aldı ve ilk genel başkanı oldu, Nesin Vakfı'nı kurdu ve toplumsal baskıların hedefi oldu. 1993'te Sivas'ta yaşanan Madımak Katliamı sırasında hedef alınan aydınlardan biriydi.
+
+Nesin, toplumsal çelişkileri görünür kılarken yalnızca bilgi vermedi; yerleşik kabulleri rahatsız etti, okurun kendisiyle ve toplumuyla hesaplaşmasını sağladı. Mizahı, düşünsel bir mesafe yaratmanın ve normalleştirilmiş çelişkileri açığa çıkarmanın aracı olarak kullandı.
+
+Bu iki ismin yanına, farklı dönemlerden başka örnekler de eklenebilir. Sabahattin Ali'nin toplumsal gerçekçiliği, Nâzım Hikmet'in özgürlük ve insanlık meselelerini şiirle buluşturması, Oğuz Atay'ın modern bireyin yabancılaşmasını sorgulaması ve Attilâ İlhan'ın kültür ile bağımsızlık tartışmaları, edebiyatın düşünsel müdahale gücünü gösterir. Bilge Karasu, dil, özgürlük ve etik meselelerini edebiyatla felsefe arasındaki sınırda ele aldı.
+
+Cemil Meriç, Doğu-Batı ilişkilerini ve aydınların düşünsel bağımlılıklarını sorguladı. Ahmet Hamdi Tanpınar, zaman, hafıza ve modernleşme meselelerini edebiyatın imkânlarıyla işledi. Bu isimler farklı biçimlerde, edebiyatın toplumsal ilişkileri görünür kılma gücünü ortaya koydu.
+
+Uğur Mumcu'nun araştırmacı gazeteciliği, Fethi Naci'nin edebiyat eleştirisi ve İsmail Beşikçi'nin bilimsel özgürlük ve devlet-toplum ilişkileri konusundaki çalışmaları da aydınlığın farklı biçimlerini temsil eder. Her birinin yöntemi, siyasi konumu ve düşünsel amacı farklıdır. Onları bir araya getiren, aynı şeyi söylemeleri değil, yerleşik kabulleri incelemeye açmalarıdır.
+
+Aydınlık, bu anlamda bir unvan değil, bir tavırdır: Bilgiyi hayatla ilişkilendirmek, iddiaların sonuçlarını göstermek, hâkim kanaatlere itiraz etmek ve kendi düşüncesini de eleştirinin dışında tutmamak.
+
+## Yapay zekâ tam burada farklılaşıyor
+
+Yapay zekâ bir metin üretebilir, tarihsel görüşleri karşılaştırabilir, siyasal söylemlerdeki çelişkileri gösterebilir. Ancak bunları yaparken Nesin'in toplumsal öfkesini ya da Küçük'ün tarihsel müdahale iddiasını insanî anlamda üstlenmez.
+
+Bu düşünürlerin metinlerini işleyebilir; fakat onların yaşadığı koşulların, kişisel risklerin ve toplumsal ilişkilerin içinden konuşmaz. Bu, yapay zekânın düşünce üretiminde yararsız olduğu anlamına gelmez. Ürettiği metnin düşünsel bir müdahaleyle aynı şey olmadığını kavramak gerekir.
+
+Üstelik yapay zekânın karşısında duran tek bir aydın modeli yoktur. Bir yanda felsefi kavramları titizlikle inceleyen akademisyen, diğer yanda araştırmacı gazeteci, toplumsal hareketlerin içindeki düşünür, edebiyatçı ve tarihçi bulunur. Bunların her biri farklı türde bilgi üretir ve farklı sorumluluklar üstlenir.
+
+Yapay zekâ bu üretimlerin bir bölümünü özetleme, açıklama ve karşılaştırma yoluyla kolaylaştırabilir. Fakat hangi meselenin önemli olduğu, hangi deneyimin görünmez kaldığı ve hangi iddianın toplumsal sonuçları nedeniyle tartışılması gerektiği, salt bilgi işleme kapasitesine indirgenemez.
+
+[Doğru cümle üretmek](/haber/yapay-zeka-hakikati-soyleyebilir-mi-heidegger-foucault-parrhesia) ile hakikate tanıklık etmek ve sözünün sorumluluğunu taşımak aynı şey değildir.
 
 ## Aydın geleneği sona mı eriyor?
 
-"Aydın geleneği sona erdi" etkileyici bir manşet olabilir; ama kanıtlanması gereken güçlü bir iddia. En az üç gelişmeyi ayırmak gerekir. Birincisi, belirli bir aydın tipinin etkisini kaybetmesi: Gazetelerde uzun düşünce yazıları yayımlayan, kitapları geniş kitlelere ulaşan, televizyonda gündemi belirleyen figürün etkisi dijital medyada parçalanmış olabilir. İkincisi, aydının kendisinin değişmesi: Tek bir aydın kimliği yerine uzman akademisyenler, bağımsız araştırmacılar, dijital yayıncılar, aktivistler ve çevrim içi topluluklar farklı türde bilgi ve yorum üretiyor; ortadan kalkan şey düşünsel faaliyet değil, aydınlığın belirli bir toplumsal biçimi olabilir. Üçüncüsü, toplumun bilgiye erişme ve güvenme alışkanlıklarının değişmesi: Bir düşünürün kitabını okumak yerine aynı konuyu yapay zekâya sorup birkaç paragraflık özet almak. Bu üç gelişme bağlantılı ama aynı değil; aydınların görünürlüğünün azalması düşünsel üretimin bittiğini, üretimin parçalanması da eleştirel düşünceye ihtiyaç kalmadığını göstermez. Daha dikkatli tez şöyle kurulabilir: Türkiye'de geleneksel aydın otoritesi zayıflarken bilgiye aracılık eden yeni sistemler ortaya çıkıyor ve yapay zekâ bu dönüşümde giderek daha önemli bir aday. Bu iddiayı doğrulamak için Türkiye'de insanların yapay zekâyı hangi amaçlarla kullandığını, hangi kaynaklara güvendiğini ve cevapları ne ölçüde denetlediğini inceleyen araştırmalara ihtiyaç var. Ama yeni otorite, insanlar onu sorgulamayı bıraktığında değil, sorgulanmadan kabul edilmeye başlandığında asıl gücünü kazanır; o yüzden dönüşümün tamamlanmasını beklemek gerekmez.
+"Aydın geleneği sona erdi" etkileyici bir manşet olabilir; ama kanıtlanması gereken güçlü bir iddiadır. En az üç gelişmeyi birbirinden ayırmak gerekir.
+
+Birincisi, belirli bir aydın tipinin etkisini kaybetmesi. Gazetelerde uzun düşünce yazıları yayımlayan, kitapları geniş kitlelere ulaşan ve televizyonda gündemi belirleyen figürün etkisi dijital medyada parçalanmış olabilir.
+
+İkincisi, aydının kendisinin değişmesi. Tek bir aydın kimliği yerine uzman akademisyenler, bağımsız araştırmacılar, dijital yayıncılar, aktivistler ve çevrim içi topluluklar farklı türlerde bilgi ve yorum üretiyor. Ortadan kalkan şey düşünsel faaliyet değil, aydınlığın belirli bir toplumsal biçimi olabilir.
+
+Üçüncüsü, toplumun bilgiye erişme ve güvenme alışkanlıklarının değişmesi. Bir düşünürün kitabını okumak yerine aynı konuyu yapay zekâya sorup birkaç paragraflık özet almak, düşünsel üretimle kurulan ilişkinin niteliğini değiştirebilir.
+
+Bu üç gelişme bağlantılıdır ama aynı şey değildir. Aydınların görünürlüğünün azalması düşünsel üretimin bittiğini, üretimin parçalanması da eleştirel düşünceye ihtiyaç kalmadığını göstermez.
+
+Türkiye'de geleneksel aydın otoritesi zayıflarken bilgiye aracılık eden yeni sistemler ortaya çıkıyor. Yapay zekâ bu dönüşümün önemli bir parçası. Ancak bu değişimin kapsamını belirlemek için insanların hangi amaçlarla yapay zekâ kullandığını, hangi kaynaklara güvendiğini ve aldıkları cevapları ne ölçüde denetlediğini inceleyen araştırmalara ihtiyaç var.
+
+Yeni otorite, insanlar onu sorgulamayı bıraktığında asıl gücünü kazanır. Bu nedenle mesele, dönüşümün tamamlanmasını beklemekten çok, onun hangi koşullarda gerçekleştiğini anlamaktır.
 
 ## Neden daha ikna edici görünüyor?
 
-Yapay zekânın geleneksel aydına göre avantajı erişilebilirlik. Bir filozofun eserini okumak zaman, dikkat ve kavramsal hazırlık ister; bir tarihçinin araştırması dipnot takip etmeyi gerektirir; yapay zekâ saniyeler içinde cevap verir, aynı konuyu farklı seviyelerde açıklar, karşıt görüşleri sıralar, itiraza göre anlatımını değiştirir. Bu, özellikle eğitim kaynaklarına ve uzmanlara erişimi sınırlı kişiler için gerçek bir fırsat; kullanıcı bilmediğini sormaktan çekinmeden tekrar tekrar sorabilir. Ama ikna edicilik ile doğruluk aynı şey değildir. Akıcı anlatım sağlam kanıtın yerini tutmaz; zıt görüşleri sıralamak dayanaklarını doğru değerlendirmek değildir; iki tarafı eşit uzunlukta sunmak iki tarafın eşit ölçüde haklı olduğunu göstermez. Yapay zekânın cevabı belirsizlikleri gizleyebilir, yanlış bilgiyi doğru bir üslupla aktarabilir, kaynakları eksik ya da hatalı gösterebilir; daha temel sorun, kullanıcının cevabın hangi verilerden ve hangi yöntemle üretildiğini görememesidir. Uzmanlar da yanılır, önyargı taşır, çıkar ilişkilerinin etkisinde kalır; ama geleneksel bilgi kurumlarında uzmanlığın, kaynakların, yöntemin ve sorumluluğun incelenebileceği mekanizmalar vardır. Yeni epistemolojik sorun şu: Cevabın doğru olup olmadığını değerlendirecek bilgiye sahip olmayan kullanıcı, cevabı hangi ölçütle güvenilir bulacaktır? Bu soru yapay zekâya özgü değil; ama yapay zekâ, uzmanlığın dış görünüşünü çok düşük maliyetle taklit edebildiği için güvenle doğruluk arasındaki mesafeyi daha görünür kılıyor.
+Yapay zekânın geleneksel aydına göre en belirgin avantajı erişilebilirliktir. Bir filozofun eserini okumak zaman, dikkat ve kavramsal hazırlık ister. Bir tarihçinin araştırması dipnotları takip etmeyi gerektirir. Yapay zekâ ise saniyeler içinde cevap verir, aynı konuyu farklı düzeylerde açıklar ve itiraza göre anlatımını değiştirebilir.
+
+Bu, özellikle eğitim kaynaklarına ve uzmanlara erişimi sınırlı kişiler için gerçek bir fırsattır. Kullanıcı bilmediğini sormaktan çekinmeden tekrar tekrar soru sorabilir. Bir düşünürün temel kavramlarını öğrenebilir, anlamadığı bir metni daha sade biçimde inceleyebilir ve farklı görüşler arasında karşılaştırma yapabilir.
+
+Fakat ikna edicilik ile doğruluk aynı şey değildir. Akıcı anlatım sağlam kanıtın yerini tutmaz. Zıt görüşleri sıralamak, dayanaklarını doğru değerlendirmek anlamına gelmez. İki tarafı eşit uzunlukta sunmak da iki tarafın eşit ölçüde haklı olduğunu göstermez.
+
+Yapay zekânın cevabı belirsizlikleri gizleyebilir, yanlış bilgiyi doğru bir üslupla aktarabilir ve kaynakları eksik ya da hatalı gösterebilir. Daha temel sorun, kullanıcının cevabın hangi verilerden ve hangi yöntemle üretildiğini her zaman görememesidir.
+
+Uzmanlar da yanılır, önyargı taşır ve çıkar ilişkilerinin etkisinde kalabilir. Ancak geleneksel bilgi kurumlarında uzmanlığın, kaynakların, yöntemin ve sorumluluğun incelenebileceği mekanizmalar bulunur. Yeni epistemolojik sorun şudur: Cevabın doğru olup olmadığını değerlendirecek bilgiye sahip olmayan kullanıcı, cevabı hangi ölçütle güvenilir bulacaktır?
+
+Bu soru yapay zekâya özgü değildir. Ancak yapay zekâ, uzmanlığın dış görünüşünü çok düşük maliyetle taklit edebildiği için güvenle doğruluk arasındaki mesafeyi daha görünür kılar.
 
 ## Bilgi kaynağı mı değişiyor, bilginin hakemi mi?
 
-Bu dönüşümü Kuhn anlamında bir "paradigma değişimi" saymak için yapay zekânın yalnızca bilgi üretiminde kullanılmasını değil, bilgiye güvenme, iddiaları doğrulama ve uzmanlığı değerlendirme ölçütlerini de dönüştürdüğünü göstermek gerekir. Yine de mekanizma tarif edilebilir. Geleneksel düzende kişi kitaba, uzmana, öğretmene ya da gazeteye başvururdu; arama motorları seçimi ve karşılaştırmayı kullanıcıya bıraktı; üretken yapay zekâ ise sonuçları listelemekle kalmayıp kullanıcı için bir anlatı kuruyor, dağınık bilgiyi birleştiriyor, yorumluyor ve bir sonuç öneriyor. Böylece kullanıcı, kaynakları değerlendirme sürecinin bir bölümünü sistemin cevabına devredebiliyor. Dönüşümü "bilginin kaynağı yapay zekâ oldu" diye tanımlamak eksik: Yapay zekâ bilgiyi bağımsız keşfeden bir özne değil, insan üretimi metinleri olasılıksal yöntemlerle işleyen bir sistem; kaynakların niteliği, eğitim verileri, tasarım ve kullanıcı talimatı cevabın niteliğini belirler. Daha isabetli ifade şu: Yapay zekâ, erişim aracı olmanın ötesinde, bilginin seçilmesi, düzenlenmesi, açıklanması ve güvenilir görünmesi süreçlerinde yeni bir aracı otoriteye dönüşebilir. Aydının işlevlerinin bir kısmının (özetleme, açıklama, karşılaştırma) otomatik sistemlerce üstlenilebilmesi, entelektüel emeğin toplumsal konumunu yeniden tartışmaya açıyor.
+Bu dönüşümü bir paradigma değişimi olarak nitelendirmek için yapay zekânın yalnızca bilgi üretiminde kullanılmasını değil, bilgiye güvenme, iddiaları doğrulama ve uzmanlığı değerlendirme ölçütlerini de dönüştürdüğünü göstermek gerekir.
+
+Yine de mekanizma tarif edilebilir. Geleneksel düzende kişi kitaba, uzmana, öğretmene ya da gazeteye başvururdu. Arama motorları seçimi ve karşılaştırmayı büyük ölçüde kullanıcıya bıraktı. Üretken yapay zekâ ise sonuçları listelemekle kalmayıp kullanıcı için bir anlatı kuruyor, dağınık bilgiyi birleştiriyor ve yorumluyor.
+
+Böylece kullanıcı, kaynakları değerlendirme sürecinin bir bölümünü sistemin cevabına devredebiliyor.
+
+Dönüşümü "bilginin kaynağı artık yapay zekâ oldu" diye tanımlamak eksik kalır. Yapay zekâ, bilgiyi bağımsız biçimde keşfeden bir özne değildir; insan üretimi metinleri ve diğer verileri belirli hesaplama yöntemleriyle işleyen bir sistemdir. Kaynakların niteliği, eğitim verileri, tasarım kararları ve kullanıcı talimatları cevabın niteliğini etkiler.
+
+Daha isabetli ifade şudur: Yapay zekâ, erişim aracı olmanın ötesinde, bilginin seçilmesi, düzenlenmesi, açıklanması ve güvenilir görünmesi süreçlerinde yeni bir aracı otoriteye dönüşebilir.
+
+Aydının işlevlerinin bir kısmının otomatik sistemlerce üstlenilebilmesi, entelektüel emeğin toplumsal konumunu yeniden tartışmaya açıyor. Fakat bu, bütün düşünsel işlevlerin otomatikleştirilebileceği anlamına gelmiyor.
 
 ## Bilgi siyasetten arınabilir mi?
 
-Yapay zekâ hakkındaki en cazip beklenti, insanlardan daha tarafsız olabileceği. İnsan aydınların ideolojik bağlılıkları, çıkarları ve deneyimleri var; yapay zekâ ise kullanıcı istediğinde farklı ideolojilerin argümanlarını karşılaştırabilir, bir iddiaya itirazları sıralayabilir, kullanıcının kendi görüşünü eleştirebilir. Kutuplaşmış ortamlarda bu imkân önemli. Ama buradan yapay zekânın siyasetten arınmış bir kaynak olduğu sonucu çıkmaz: Cevap, eğitim verilerindeki temsil dengesizliklerinden, veri seçiminden, tasarım kararlarından, güvenlik kurallarından ve geliştiren kurumların tercihlerinden etkilenir; Türkçe kaynakların niceliği ve niteliği, farklı düşünce geleneklerinin dijital ortamda temsil edilme biçimi de sonuçları belirler. Tarafsızlık yalnızca açık bir siyasal görüş bildirmemek değildir; hangi soruların önemli sayıldığı, hangi kavramların kullanıldığı, hangi kaynakların güvenilir kabul edildiği ve hangi tartışmaların dışarıda bırakıldığı da siyasal sonuç doğurur. Bir sistem belirli bir partiyi desteklemeden mevcut düzenin varsayımlarını yeniden üretebilir; bunun için propaganda değil, bazı meseleleri sürekli görünür, bazılarını önemsiz kılmak yeter. Öte yandan "bütün bilgi siyasaldır" iddiası da dikkatle ele alınmalı: Bir iddianın toplumsal bağlamı olması doğruluğunun yalnızca siyasete bağlı olduğu anlamına gelmez; tarihsel iddia arşivle, bilimsel iddia deneyle, istatistiksel iddia veriyle sınanabilir. Doğru soru "yapay zekâ tamamen tarafsız mı" değil, "hangi konularda, hangi mekanizmalarla, ne ölçüde önyargı ürettiğini nasıl denetleyebiliriz" sorusudur. UNESCO'nun üretken yapay zekâ rehberi de insan iradesinin korunması, mahremiyet, eşitlik, kültürel ve dilsel çeşitlilik gibi başlıklarla, meseleyi verimlilik değil insan merkezli yönetişim ve etik denetim sorunu olarak koyuyor.
+Yapay zekâ hakkındaki cazip beklentilerden biri, insanlardan daha tarafsız olabileceğidir. İnsan aydınların ideolojik bağlılıkları, çıkarları ve deneyimleri vardır. Yapay zekâ ise farklı ideolojilerin argümanlarını karşılaştırabilir, bir iddiaya yönelik itirazları sıralayabilir ve kullanıcının kendi görüşünü eleştirmesine yardımcı olabilir.
+
+Kutuplaşmış ortamlarda bu imkân önemlidir. Ancak buradan yapay zekânın siyasetten arınmış bir kaynak olduğu sonucu çıkmaz.
+
+Cevaplar, eğitim verilerindeki temsil dengesizliklerinden, veri seçiminden, tasarım kararlarından ve sistemi geliştiren kurumların tercihlerinden etkilenebilir. Türkçe kaynakların niceliği ve niteliği ile farklı düşünce geleneklerinin dijital ortamlarda temsil edilme biçimi de sonuçları belirler.
+
+Tarafsızlık yalnızca açık bir siyasi görüş bildirmemek değildir. Hangi soruların önemli sayıldığı, hangi kavramların kullanıldığı, hangi kaynakların güvenilir kabul edildiği ve hangi tartışmaların dışarıda bırakıldığı da sonuç doğurur.
+
+Bir sistem belirli bir partiyi desteklemeden mevcut düzenin varsayımlarını yeniden üretebilir. Bunun için propaganda yapması gerekmez; bazı meseleleri sürekli görünür, bazılarını önemsiz kılması yeterli olabilir.
+
+Öte yandan "bütün bilgi siyasaldır" iddiası da dikkatle ele alınmalıdır. Bir iddianın toplumsal bağlamı olması, doğruluğunun yalnızca siyasete bağlı olduğu anlamına gelmez. Tarihsel iddialar arşivlerle, bilimsel iddialar deneylerle, istatistiksel iddialar verilerle sınanabilir.
+
+Doğru soru "Yapay zekâ tamamen tarafsız mı?" değil, "Hangi konularda, hangi mekanizmalarla ve ne ölçüde önyargı üretebilir; bunu nasıl denetleyebiliriz?" sorusudur.
 
 ## Görünmez algoritma
 
-Geleneksel aydın otoritesinin sorunlarından biri, kendi ideolojik konumunu evrensel hakikat gibi sunabilmesiydi. Yapay zekâ ilk bakışta çözüm gibi görünür; ama bu kez başka bir sorun çıkar: İdeolojik konumu görünür olan bir aydının yerini, hangi tercihlerle biçimlendiği tam olarak anlaşılamayan bir sistem alabilir. Bir düşünürün kim olduğunu, hangi gelenekten geldiğini, hangi görüşleri savunduğunu araştırabiliriz; bu, argümanlarını geçersiz kılmaz ama konumunu anlamamızı sağlar. Yapay zekâda ise karar zinciri daha karmaşık: Eğitim verileri açık olmayabilir, bir cevabın neden öyle kurulduğu açıklanamayabilir, farklı sistemler aynı soruya farklı yanıt verir. Otorite, kişisel bir figürden teknik bir altyapıya kayar; kimin konuştuğunu bilmek yerine hangi sistemin cevap verdiğine güvenmeye başlarız. Bu otoritenin yüzü yoktur ama etkisi vardır. Bir aydının ideolojisini tartışabiliriz; bir algoritmanın kararlarını tartışmak için önce sistemin nasıl çalıştığını, sınırlarını ve kim tarafından yönetildiğini anlamamız gerekir. Asıl tehlike yapay zekânın belirli bir ideolojiyi savunması değil; siyasal ve ekonomik sonuçlar doğuran tercihlerin teknik zorunluluklarmış gibi görünmesi.
+Geleneksel aydın otoritesinin sorunlarından biri, kendi ideolojik konumunu evrensel hakikat gibi sunabilmesiydi. Yapay zekâ ilk bakışta buna çözüm gibi görünebilir; fakat bu kez başka bir sorun ortaya çıkar: İdeolojik konumu görünür olan bir aydının yerini, hangi tercihlerle biçimlendiği tam olarak anlaşılamayan bir sistem alabilir.
+
+Bir düşünürün kim olduğunu, hangi gelenekten geldiğini ve hangi görüşleri savunduğunu araştırabiliriz. Bu, argümanlarını geçersiz kılmaz; ancak konumunu anlamamızı sağlar.
+
+Yapay zekâda ise karar zinciri daha karmaşıktır. Eğitim verileri açık olmayabilir, bir cevabın neden o şekilde kurulduğu açıklanamayabilir ve farklı sistemler aynı soruya farklı yanıtlar verebilir.
+
+Otorite, kişisel bir figürden teknik bir altyapıya kayar. Kimin konuştuğunu bilmek yerine hangi sistemin cevap verdiğine güvenmeye başlarız.
+
+Bu otoritenin yüzü yoktur ama etkisi vardır. Bir aydının ideolojisini tartışabiliriz; bir algoritmanın kararlarını tartışmak içinse önce sistemin nasıl çalıştığını, sınırlarını ve kim tarafından yönetildiğini anlamamız gerekir.
+
+Asıl tehlike yapay zekânın belirli bir ideolojiyi savunması değil, siyasal ve ekonomik sonuçlar doğuran tercihlerin teknik zorunluluklarmış gibi görünmesidir.
 
 ## Ne kaybederiz, ne kazanırız?
 
-Yapay zekâ büyük metin kütlelerini özetleyebilir, kavramları karşılaştırabilir, bir tartışmanın tarihini çıkarabilir; bunlar düşünsel çalışmayı kolaylaştıran ciddi imkânlar. Ama entelektüel faaliyet bu becerilere indirgenemez. Aydın, toplumun görmezden geldiği bir sorunu gündeme getirir; hâkim dilde ifade edilemeyen bir deneyime kavram kazandırır; herkesin doğru saydığı bir düşüncenin hangi çıkarlarla ayakta kaldığını sorgular; popüler olmayan bir iddiayı savunur. Hangi sorunun acil olduğu, hangi sessizliğin adaletsizlik olduğu ve hangi düşünce için risk alınması gerektiği, bilgi işleme kapasitesine indirgenemez. Düşünceyle sorumluluk arasındaki bağ da öyle: İnsan düşünür, savunduğu fikirlerin sonuçlarından etkilenir ve hesabını verir; yapay zekâ bir cevabın sonuçlarını insan gibi yaşamaz. Sistem yanlış bilgi verdiğinde sorumluluk kullanıcıya mı, geliştiriciye mi, sistemi kullanan kuruma mı, doğrulamadan yayımlayana mı aittir? Cevap bağlama göre değişir; ama sisteme insanî sorumluluk atfetmek gerçek sorumluluk zincirini görünmez kılar.
+Yapay zekâ büyük metin kütlelerini özetleyebilir, kavramları karşılaştırabilir ve bir tartışmanın tarihini çıkarabilir. Bunlar düşünsel çalışmayı kolaylaştıran ciddi imkânlardır.
 
-Öte yandan tarih boyunca bilgiye erişim eşitsizliği düşünsel üretimin önündeki en büyük engellerden biriydi; nitelikli kitaplara, yabancı dillere, uzmanlara ve kütüphanelere erişim herkes için mümkün değildi. Yapay zekâ bu engellerin bazılarını azaltabilir: Öğrenci anlamadığı metni farklı düzeylerde inceleyebilir, gazeteci kavram haritası çıkarabilir, araştırmacı farklı dillerdeki kaynakları tarayabilir. Bu, geleneksel aydınlık modelinin seçkinci yönlerini zayıflatabilir. Ama bilgiye erişimin demokratikleşmesi düşünsel kapasitenin demokratikleşmesi demek değildir: Bir cevaba kolay ulaşmak, onu değerlendirebilmekle aynı şey değildir; hazır açıklamaların çoğalması, kaynakları inceleme ve bağımsız hüküm verme becerisini geliştirmezse düşünsel bağımlılığı artırabilir. Yapay zekânın gerçek demokratikleştirici etkisi insanların yerine düşünmesinde değil, daha iyi düşünebilmelerini sağlamasında aranmalı; bunun için cevapların kaynakları görünür olmalı, kullanıcılar karşıt görüşlere ulaşabilmeli, iddialar bağımsız biçimde doğrulanabilmeli.
+Ama entelektüel faaliyet bu becerilere indirgenemez. Aydın, toplumun görmezden geldiği bir sorunu gündeme getirir; hâkim dilde ifade edilemeyen bir deneyime kavram kazandırır; herkesin doğru saydığı bir düşüncenin hangi varsayımlarla ayakta kaldığını sorgular; popüler olmayan bir iddiayı savunur.
+
+Hangi sorunun acil olduğu, hangi sessizliğin adaletsizlik olduğu ve hangi düşünce için risk alınması gerektiği, bilgi işleme kapasitesine indirgenemez.
+
+Düşünceyle sorumluluk arasındaki bağ da öyledir. İnsan düşünür, savunduğu fikirlerin sonuçlarından etkilenir ve gerektiğinde hesabını verir. Yapay zekâ bir cevabın sonuçlarını insan gibi yaşamaz.
+
+Sistem yanlış bilgi verdiğinde sorumluluk kullanıcıya mı, geliştiriciye mi, sistemi kullanan kuruma mı, yoksa cevabı doğrulamadan yayımlayana mı aittir? Cevap bağlama göre değişir. Ancak sisteme insanî sorumluluk atfetmek, gerçek sorumluluk zincirini görünmez kılabilir.
+
+Öte yandan tarih boyunca bilgiye erişim eşitsizliği, düşünsel üretimin önündeki engellerden biri oldu. Nitelikli kitaplara, yabancı dillere, uzmanlara ve kütüphanelere erişim herkes için mümkün değildi.
+
+Yapay zekâ bu engellerin bazılarını azaltabilir. Öğrenci anlamadığı metni farklı düzeylerde inceleyebilir, gazeteci kavram haritası çıkarabilir, araştırmacı farklı dillerdeki kaynakları karşılaştırabilir. Bu imkân, geleneksel aydınlık modelinin seçkinci yönlerini zayıflatabilir.
+
+Fakat bilgiye erişimin demokratikleşmesi, düşünsel kapasitenin kendiliğinden demokratikleşmesi demek değildir. Bir cevaba kolay ulaşmak, onu değerlendirebilmekle aynı şey değildir. Hazır açıklamaların çoğalması, kaynakları inceleme ve bağımsız hüküm verme becerisini geliştirmiyorsa düşünsel bağımlılığı artırabilir.
+
+Yapay zekânın demokratikleştirici etkisi, insanların yerine düşünmesinde değil, daha iyi düşünebilmelerine yardımcı olmasında aranmalıdır.
 
 ## Yeni aydın
 
-Belki tartışmayı yanlış bir ikilikle yürütüyoruz: Eski aydın karşısında yeni yapay zekâ otoritesi. Yeni dönemde aydın, yapay zekâyı kullanmayan kişi olmayacak; tersine, onu etkin kullanan ama sonuçları sorgulayan, kaynakları denetleyen, farklı görüşleri karşılaştıran ve sistemin sınırlarını görünür kılan kişi olabilir. Böyle bir aydın bilgiyi tek başına elinde tutan değil, bilgiye erişimi kolaylaştıran ama erişilen bilginin niteliği üzerine eleştirel düşünmeyi sürdüren kişidir; bilginin üretildiği ve dolaşıma girdiği sistemlerin eleştirmeni, kaynakların denetçisi, farklı toplumsal deneyimler arasında düşünsel bağ kuran bir aracı. Bu rol yalnızca cevapları denetlemek değil, hangi sorunların otomatik sistemlere bırakılmaması gerektiğini, hangi kararların insanî muhakeme gerektirdiğini ve bilgi üretiminde hangi etik sorumlulukların korunması gerektiğini tartışmayı da içerir. Önemli olan aydının teknolojiden uzak durması değil, teknoloji karşısında eleştirel özerkliğini kaybetmemesi.
+Belki tartışmayı yanlış bir ikilikle yürütüyoruz: Eski aydın karşısında yeni yapay zekâ otoritesi.
+
+Yeni dönemde aydın, yapay zekâyı kullanmayan kişi olmak zorunda değil. Tersine, onu etkin kullanan ama sonuçlarını sorgulayan, kaynakları denetleyen, farklı görüşleri karşılaştıran ve sistemin sınırlarını görünür kılan kişi olabilir.
+
+Böyle bir aydın, bilgiyi tek başına elinde tutan değil, bilgiye erişimi kolaylaştıran ama erişilen bilginin niteliği üzerine eleştirel düşünmeyi sürdüren kişidir. Bilginin üretildiği ve dolaşıma girdiği sistemlerin eleştirmeni, kaynakların denetçisi ve farklı toplumsal deneyimler arasında düşünsel bağ kuran bir aracı olarak işlev görür.
+
+Bu rol yalnızca cevapları denetlemekten ibaret değildir. Hangi sorunların otomatik sistemlere bırakılmaması gerektiğini, hangi kararların insanî muhakeme gerektirdiğini ve bilgi üretiminde hangi etik sorumlulukların korunması gerektiğini tartışmayı da içerir.
+
+Önemli olan aydının teknolojiden uzak durması değil, teknoloji karşısında eleştirel özerkliğini kaybetmemesidir.
 
 ## Hakikat otoritesinin el değiştirmesi
 
-Yapay zekânın Türk aydınının yerini aldığına dair kesin bir hüküm için yeterli kanıt yok. Ama soru, önemli bir dönüşümü anlamak için güçlü bir başlangıç. Hakikat iddiasının meşruiyeti bir zamanlar dinî gelenekle ilişkilendiriliyordu; modernleşmeyle bilim, eğitim kurumları, gazetecilik ve aydınlar yeni otoriteler oldu; dijitalleşme kaynakları çoğalttı ve aydının tekil konumunu zayıflattı; üretken yapay zekâ ise bilgiyi erişilebilir kılmakla kalmayıp onu kullanıcı adına düzenleyen ve yorumlayan yeni bir katman oluşturdu. Bu çizgi doğrusal, evrensel ya da tamamlanmış değil; teoloji, bilim, aydınlar, uzmanlar, medya ve yapay zekâ bugün de bir arada bulunuyor. Ama bilgi otoritesinin nasıl kurulduğu ve insanların neye güvenerek hüküm verdiği sorusu yeniden gündemde.
+Yapay zekânın Türk aydınının yerini aldığına dair kesin bir hüküm için yeterli kanıt yok. Ancak soru, önemli bir dönüşümü anlamak için güçlü bir başlangıç sunuyor.
 
-Aziz Nesin ve Yalçın Küçük'le hatırlanan aydın geleneği, bilgi aktarmanın ötesinde bir kamusal müdahale fikrine dayanıyordu. Bu geleneğin tarihsel biçimi zayıflıyor olabilir; ama bundan eleştirel düşüncenin gereksizleştiği sonucu çıkmaz. Asıl tehlike yapay zekânın aydını ortadan kaldırması değil; insanın kendi yargısını kurma sorumluluğunu, kendisine cevap veren sistemin görünmez otoritesine devretmesidir. Bir toplumun düşünsel özgürlüğü kaç bilgi kaynağına sahip olduğuyla değil, sunulan bilgiyi sorgulama, kaynakları inceleme, karşıt görüşleri değerlendirme ve gerektiğinde kendi kanaatini değiştirme kapasitesiyle ölçülür. Yapay zekâ bu kapasiteyi büyütebilir de, zayıflatabilir de. Önümüzdeki mesele makinelerin ne kadar akıllı olduğu değil, insanların kendi akıllarını kullanmaya devam edip etmeyeceği. Çünkü hakikat, kendinden emin bir sesle sunulduğu için hakikat olmaz; onu hakikat yapan, hangi otoriteden geldiği değil, hangi gerekçelerle savunulabildiği ve eleştiri karşısında ne ölçüde ayakta kalabildiğidir.`,
+Hakikat iddiasının meşruiyeti bir zamanlar dinî gelenekle ilişkilendiriliyordu. Modernleşmeyle bilim, eğitim kurumları, gazetecilik ve aydınlar yeni otoriteler hâline geldi. Dijitalleşme bilgi kaynaklarını çoğalttı ve aydının tekil konumunu zayıflattı. Üretken yapay zekâ ise bilgiyi erişilebilir kılmakla kalmayıp onu kullanıcı adına düzenleyen ve yorumlayan yeni bir katman oluşturdu.
+
+Bu çizgi doğrusal, evrensel ya da tamamlanmış değildir. Teoloji, bilim, aydınlar, uzmanlar, medya ve yapay zekâ bugün de bir arada bulunuyor. Ancak bilgi otoritesinin nasıl kurulduğu ve insanların neye güvenerek hüküm verdiği sorusu yeniden gündemde.
+
+Namık Kemal'den Şinasi'ye, Ziya Gökalp'ten Halide Edib'e, Hilmi Ziya Ülken'den İoanna Kuçuradi'ye, Aziz Nesin'den Yalçın Küçük'e uzanan geniş düşünsel miras, tek bir aydın tipine indirgenemez. Bu mirasın içinde filozoflar, bilim insanları, edebiyatçılar, hukukçular, tarihçiler, gazeteciler ve toplumsal eleştirmenler bulunur. Aralarındaki görüş ayrılıkları, bu geleneğin zayıflığı değil, düşünsel çoğulluğunun göstergesidir.
+
+Bu isimlerin hepsini aynı hakikat anlayışının temsilcileri saymak yanlış olur. Ancak düşüncelerini karşılaştırmak, yöntemlerini incelemek ve iddialarını eleştirmek, Türk aydın tarihini bir isimler listesinden daha fazlasına dönüştürür: Toplumun kendisini nasıl anlamaya çalıştığının tarihine.
+
+Türkiye'nin aydın geleneği, bilgi aktarmanın ötesinde bir kamusal müdahale fikrine dayanıyordu. Bu geleneğin tarihsel biçimi zayıflıyor olabilir; ama bundan eleştirel düşüncenin gereksizleştiği sonucu çıkmaz.
+
+Asıl tehlike, yapay zekânın aydını ortadan kaldırması değil; insanın kendi yargısını kurma sorumluluğunu, kendisine cevap veren sistemin görünmez otoritesine devretmesidir.
+
+Bir toplumun düşünsel özgürlüğü kaç bilgi kaynağına sahip olduğuyla değil, sunulan bilgiyi sorgulama, kaynakları inceleme, karşıt görüşleri değerlendirme ve gerektiğinde kendi kanaatini değiştirme kapasitesiyle ölçülür.
+
+Yapay zekâ bu kapasiteyi büyütebilir de zayıflatabilir de. Önümüzdeki mesele makinelerin ne kadar akıllı olduğu değil, insanların kendi akıllarını kullanmaya devam edip etmeyeceğidir.
+
+Çünkü hakikat, kendinden emin bir sesle sunulduğu için hakikat olmaz. Onu hakikat yapan, hangi otoriteden geldiği değil, hangi gerekçelerle savunulabildiği ve eleştiri karşısında ne ölçüde ayakta kalabildiğidir.`,
   },
   {
     title: "Aktiffelsefe'de ekim: Felsefe Konuşmaları ve 'Mitolojinin Aynasında Sen Kimsin?'",
