@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ArticleCard } from "@/components/article-card";
+import { AwardsCalendar } from "@/components/awards-calendar";
+import { BookShelf } from "@/components/book-shelf";
 import { CategorySidebar } from "@/components/category-sidebar";
 import { Container } from "@/components/container";
 import { Pagination } from "@/components/pagination";
-import { getCategories, getCategoryBySlug, getPosts, getTags } from "@/lib/queries";
+import { SectionHeading } from "@/components/section-heading";
+import { getBooks, getCategories, getCategoryBySlug, getPosts, getTags } from "@/lib/queries";
 
 export const revalidate = 600;
 
@@ -32,10 +35,15 @@ export default async function CategoryPage({ params, searchParams }: Props) {
   const category = await getCategoryBySlug(slug);
   if (!category) notFound();
 
-  const [{ items: posts, pagination }, categories, tags] = await Promise.all([
+  // Bölüme özgü üst alanlar: Ödüller'de takvim, Yeni Kitaplar'da raf.
+  const isAwards = slug === "oduller";
+  const isBooks = slug === "yeni-kitaplar";
+
+  const [{ items: posts, pagination }, categories, tags, books] = await Promise.all([
     getPosts({ page: currentPage, limit: 9, categorySlug: slug }),
     getCategories(),
     getTags(12),
+    isBooks && currentPage === 1 ? getBooks() : Promise.resolve([]),
   ]);
 
   return (
@@ -50,6 +58,24 @@ export default async function CategoryPage({ params, searchParams }: Props) {
 
       <div className="grid gap-12 py-12 lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-16">
         <section>
+          {isAwards && currentPage === 1 && (
+            <div className="mb-12">
+              <AwardsCalendar />
+            </div>
+          )}
+
+          {isBooks && currentPage === 1 && books.length > 0 && (
+            <div className="mb-12">
+              <BookShelf books={books} />
+            </div>
+          )}
+
+          {(isAwards || isBooks) && (
+            <div className="mb-6">
+              <SectionHeading title={isAwards ? "Ödül Haberleri" : "Kitap Haberleri"} />
+            </div>
+          )}
+
           {posts.length === 0 ? (
             <p className="text-sm text-muted">Bu bölümde henüz haber yok.</p>
           ) : (

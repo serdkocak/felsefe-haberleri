@@ -87,6 +87,8 @@ export interface BookSummary {
   year: number | null;
   link: string | null;
   philosopher: { id: string; name: string; slug: string } | null;
+  /** Kitabı duyuran haber (varsa). */
+  post: { slug: string; publishedAt: Date | null } | null;
 }
 
 /** Kart/liste görünümleri için gövdesiz haber. */

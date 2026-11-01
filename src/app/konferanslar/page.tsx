@@ -10,7 +10,7 @@ import { getPastEvents, getPosts, getUpcomingEvents } from "@/lib/queries";
 export const revalidate = 600;
 
 export const metadata: Metadata = {
-  title: "Konferanslar",
+  title: "Konferanslar/Etkinlikler",
   description:
     "Felsefe konferansları, sempozyumlar, seminerler, webinarlar ve bildiri çağrıları. Yaklaşan etkinlikler ve arşiv.",
 };
@@ -30,7 +30,7 @@ export default async function EventsPage() {
     <Container size="wide" className="py-12">
       <header className="border-b-2 border-ink pb-6">
         <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Etkinlik Takvimi</p>
-        <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">Konferanslar</h1>
+        <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">Konferanslar/Etkinlikler</h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted metin-yasli">
           Konferans, kongre, sempozyum, çalıştay, seminer, webinar ve bildiri çağrıları.
           Yalnızca kaynağı doğrulanmış etkinlikler listelenir.
@@ -77,7 +77,7 @@ export default async function EventsPage() {
       {/* Konferans haberleri */}
       {news.length > 0 && (
         <section className="border-t border-line py-10">
-          <SectionHeading title="Konferans Haberleri" href="/kategori/konferanslar" />
+          <SectionHeading title="Konferans ve Etkinlik Haberleri" href="/kategori/konferanslar" />
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {news.map((post) => (
               <ArticleCard key={post.id} post={post} />

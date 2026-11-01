@@ -159,7 +159,7 @@ export const categories: SeedCategory[] = [
   { name: "Çağdaş Filozoflar", slug: "cagdas-filozoflar", description: "Çağdaş filozofların açıklamaları, tezleri ve tartışmaları.", order: 2 },
   { name: "Türkiye", slug: "turkiye", description: "Türkiye'deki felsefe gündemi: bölümler, dernekler, etkinlikler.", order: 3 },
   { name: "Dünya", slug: "dunya", description: "Yurt dışındaki felsefe haberleri ve akademik gelişmeler.", order: 4 },
-  { name: "Konferanslar", slug: "konferanslar", description: "Kongreler, sempozyumlar, atölyeler ve çağrılar.", order: 5 },
+  { name: "Konferanslar/Etkinlikler", slug: "konferanslar", description: "Kongreler, sempozyumlar, atölyeler, seminerler ve çağrılar.", order: 5 },
   { name: "Filozoflar Hakkında", slug: "filozoflar-hakkinda", description: "Düşünürlerin kavramları, mirasları ve ardımızda bıraktıkları.", order: 6 },
   { name: "Yeni Kitaplar", slug: "yeni-kitaplar", description: "Yeni çıkan kitaplar, çeviriler ve kitap tanıtımları.", order: 7 },
   { name: "Ödüller", slug: "oduller", description: "Felsefe ödülleri, burslar ve akademik onurlandırmalar.", order: 8 },
@@ -259,6 +259,31 @@ export const authors: SeedAuthor[] = [
  * isim yalnızca dizinden, şeritten ve site haritasından kalkar.
  */
 export const philosophers: SeedPhilosopher[] = [
+  {
+    name: "Bas van Fraassen",
+    slug: "bas-van-fraassen",
+    headline: "Hollandalı-Amerikalı bilim felsefecisi ve mantıkçı (d. 1941)",
+    bio: "The Scientific Image (1980) ile 'yapıcı empirizm'i geliştiren, bilimin amacının hakikat değil ampirik yeterlilik olduğunu savunan filozof; süpervalüasyon anlambiliminin yaratıcısı, bilimsel temsil ve 'empirik duruş' kavramlarıyla çağdaş bilim felsefesinin kurucu isimlerinden. 2026 Rolf Schock Ödülü sahibi.",
+    avatar: "/kapak/van-fraassen.jpg",
+    country: "Hollanda / ABD",
+    birthYear: 1941,
+    affiliation: "Princeton Üniversitesi (emeritus) · San Francisco State Üniversitesi",
+    website: "https://www.princeton.edu/~fraassen/",
+    featured: false,
+    listed: true,
+    fullName: "Bastiaan Cornelis van Fraassen",
+    birthDate: "5 Nisan 1941, Goes, Hollanda",
+    alive: true,
+    period: "20.-21. yüzyıl",
+    school: "Empirizm · analitik bilim felsefesi · felsefi mantık",
+    areas: "Bilim felsefesi, felsefi mantık, biçimsel anlambilim, olasılık ve fizik felsefesi, epistemoloji",
+    majorWorks: "An Introduction to the Philosophy of Time and Space (1970)\nFormal Semantics and Logic (1971)\nThe Scientific Image (1980)\nLaws and Symmetry (1989)\nQuantum Mechanics: An Empiricist View (1991)\nThe Empirical Stance (2002)\nScientific Representation: Paradoxes of Perspective (2008)",
+    keyConcepts: "Yapıcı empirizm, ampirik yeterlilik, gözlemlenebilir/gözlemlenemez ayrımı, kabul etme ile inanma ayrımı, süpervalüasyon, empirik duruş, bilimsel temsil, perspektif",
+    influencedBy: "Hans Reichenbach, Adolf Grünbaum, Wilfrid Sellars, mantıksal empirizm, Pierre Duhem, Henri Poincaré",
+    influenced: "Çağdaş bilimsel realizm-antirealizm tartışması, James Ladyman, Otávio Bueno, Paul Teller, bilimsel temsil literatürü",
+    longBio: "5 Nisan 1941'de Hollanda'nın Goes kentinde doğdu; ailesi 1956'da Kanada'ya göç etti. Alberta Üniversitesi'nden sonra Pittsburgh'da Adolf Grünbaum'un danışmanlığında doktora yaptı (1966). Yale, Toronto, Güney Kaliforniya ve 1982'den emekliliğine kadar Princeton'da ders verdi; sonra San Francisco State'te çalıştı. 1966'da önerdiği süpervalüasyon anlambilimi, boş isimler ve belirsizlik için standart bir araç hâline geldi. The Scientific Image (1980) mantıksal pozitivizmin çöküşünden sonra empirizmi yeniden kurdu: Bilimsel teoriler tam anlamıyla doğru ya da yanlıştır, ama bilimin amacı yalnızca gözlemlenebilirler hakkında doğru olmak, yani ampirik yeterliliktir; bir teoriyi kabul etmek onun gözlemlenemeyenler hakkındaki iddialarına inanmayı gerektirmez. Kitap, Lakatos Ödülü'nü (1986) kazandı ve kırk yılı aşkın süredir bilimsel realizm tartışmasının merkezinde. The Empirical Stance (2002) empirizmi bir öğreti değil bir 'duruş' olarak yeniden tanımladı; Scientific Representation (2008) ölçümü ve modellemeyi perspektif kavramıyla ele aldı. Katolik inancını felsefesiyle birlikte taşıyan van Fraassen, 2026'da İsveç Kraliyet Bilimler Akademisi'nin Rolf Schock Mantık ve Felsefe Ödülü'ne değer görüldü.",
+    sources: "Stanford Encyclopedia of Philosophy, 'Constructive Empiricism' — https://plato.stanford.edu/entries/constructive-empiricism/ · Princeton University, 'Bastiaan van Fraassen' — https://philosophy.princeton.edu/people/bastiaan-van-fraassen",
+  },
   {
     name: "Afşar Timuçin",
     slug: "afsar-timucin",
@@ -3038,6 +3063,539 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Sadri Maksudi Arsal ve Türkiye'de Hukuk Felsefesinin Sistematikleşmesi",
+    slug: "sadri-maksudi-arsal-hukuk-felsefesi-sistematiklesme",
+    summary:
+      "Hukuk yalnızca devletin koyduğu kurallardan mı ibarettir, yoksa adalet, özgürlük ve insanın toplumsal varoluşu üzerine daha temel sorulara mı dayanır? Kazan'dan Paris'e, Duma'dan Ankara Hukuk Mektebi'ne uzanan Sadri Maksudi Arsal, Cumhuriyet'in ilk döneminde hukuk düşüncesinin bu sorular etrafında bilimsel bir disiplin olarak kurulmasına katkıda bulundu. Hukukun Umumî Esasları (1937) ve Hukuk Felsefesi Tarihi (1946) üzerine bir dosya.",
+    seoTitle: "Sadri Maksudi Arsal: Türkiye'de hukuk felsefesinin sistematikleşmesi",
+    metaDescription:
+      "Sadri Maksudi Arsal'ın hayatı ve hukuk düşüncesi: Kazan, Paris, Duma, Ankara Hukuk Mektebi; Hukukun Umumî Esasları (1937), Hukuk Felsefesi Tarihi (1946), hukuk tarihi, pozitivizm ve doğal hukuk arasında yürürlük ile meşruiyet sorusu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sadri%20Maksudi%20Arsal%20Istanbul%20street.jpg?width=1600",
+    imageCredit: "İstanbul'da Sadri Maksudi Arsal Sokağı tabelası · Wikimedia Commons",
+    featured: true,
+    sourceName: "TDV İslâm Ansiklopedisi",
+    sourceUrl: "https://islamansiklopedisi.org.tr/arsal-sadri-maksudi",
+    publishedAt: "2026-10-31T22:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["hukuk-felsefesi", "siyaset-felsefesi", "tarih", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Arsal, Sadri Maksudi", publisher: "Turgut Akpınar, TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/arsal-sadri-maksudi", primary: true },
+      { title: "Hukuk Felsefesi Tarihi", publisher: "Sadri Maksudi Arsal, İstanbul Üniversitesi Hukuk Fakültesi", date: "1946", url: "https://books.google.com/books/about/Hukuk_Felsefesi_tarihi.html?id=H0sHiKFv46UC" },
+      { title: "Sadri Maksudi Arsal'ın Türkiye'de Genel Hukuk Teorisinin Kuramsal-Metodolojik Açıdan Gelişimine Katkıları", publisher: "Mehman A. Damirli, İstanbul Hukuk Mecmuası", date: "2025", url: "https://iupress.istanbul.edu.tr/journal/mecmua/article/sadri-maksudi-arsalin-turkiyede-genel-hukuk-teorisinin-kuramsal-metodolojik-acidan-gelisimine-katkilari" },
+      { title: "Ord. Prof. Sadri Maksudî Arsal'ın Entelektüel Biyografisi", publisher: "Tunahan Önder, Cumhuriyet Üniversitesi Hukuk ve Adalet Dergisi", date: "2022", url: "https://dergipark.org.tr/tr/pub/cuhad/article/1226871" },
+    ],
+    content: `Türkiye'de modern hukuk düşüncesinin kuruluşu çoğu zaman Cumhuriyet'in hukuk reformları üzerinden anlatılır: 1926'da İsviçre Medeni Kanunu'nun alınması, ceza ve ticaret kanunlarının yenilenmesi, 1925'te Ankara Hukuk Mektebi'nin açılması. Oysa bir hukuk düzeninin kurulması yeni kanunlar yapmakla tamamlanmaz. Hukukun ne olduğu, hangi toplumsal ihtiyaçlardan doğduğu, hangi ahlaki ilkelere dayanması gerektiği ve devlet iktidarını hangi ölçütlerle sınırlandırabileceği de tartışılmalıdır. Cumhuriyet'in ilk döneminde bu teorik alanın sistematikleşmesinde öne çıkan isimlerden biri, Kazan Tatarı düşünür, hukukçu ve siyasetçi Sadri Maksudi Arsal'dır.
+
+Arsal'ın önemi yalnızca hukuk tarihi üzerine eserler vermesinden kaynaklanmaz. O, hukuku tarihsel, toplumsal, siyasal ve felsefi boyutlarıyla birlikte incelemeye yönelmiş, hukuk öğretiminin kavramsal altyapısının oluşmasına katkıda bulunmuştur. Bu nedenle düşünsel mirası, [Türkiye'de hukuk felsefesinin tarihini](/haber/turkiyede-hukuk-felsefesi-munif-pasadan-cemal-bali-akala) yazarken kısaca andığımız gibi, bu alanın kurumsallaşma tarihinin önemli bir parçasıdır. Bu dosya o kısa anmayı bir portreye dönüştürüyor.
+
+## Kazan'dan Paris'e, Paris'ten Ankara'ya
+
+Sadri Maksudi 1878'de (bazı kaynaklar 1879 ya da 1880'i verir) Kazan yakınlarındaki Taşsu köyünde, bir imamın oğlu olarak doğdu. Kazan'daki yenilikçi (cedîdci) medreselerde okudu; ağabeyi Ahmed Hâdi Maksudi gibi Tatar aydınlanmasının içinde yetişti. 1901'de Paris'e gitti ve Sorbonne'da hukuk okudu; burada Rus-Türk aydını Yusuf Akçura'yla aynı çevredeydi. 1906'da Kazan'a döndü ve Rusya'nın ilk parlamento deneyiminde, II. ve III. Duma'da (1907-1912) Kazan milletvekili olarak Müslüman Türk topluluklarının haklarını savundu; Duma kürsüsündeki konuşmaları onu Rusya Müslümanlarının en tanınmış siyasetçilerinden biri yaptı. 1917 Devrimi'nden sonra İdil-Ural Türk-Tatar Millî Muhtariyeti'nin başkanlığına seçildi; Bolşeviklerin muhtariyeti dağıtmasıyla Finlandiya üzerinden Avrupa'ya kaçtı. Paris'te Sorbonne'da Türk-Tatar tarihi dersleri verdi; 1925'te Maarif Vekili Hamdullah Suphi'nin aracılığıyla Türkiye'ye davet edildi.
+
+Türkiye'de otuz yıl boyunca yeni cumhuriyetin hukuk eğitiminin ve tarih anlayışının kurucularından biri oldu: Ankara Hukuk Mektebi'nde Türk hukuk tarihi ve genel hukuk tarihi okuttu; Türk Tarih Kurumu'nun ve Türk Dil Kurumu'nun kuruluş çalışmalarında yer aldı; *Türk Dili İçin* (1930) kitabının başına Atatürk'ün dil hakkındaki ünlü sözleri konuldu; Şebinkarahisar ve Giresun milletvekilliği yaptı (1931-1939); 1950'de Demokrat Parti'den Ankara milletvekili seçildi. 1937'den itibaren İstanbul Üniversitesi Hukuk Fakültesi'nde hukuk felsefesi ve hukuk tarihi dersleri verdi, ordinaryüs profesör oldu. 20 Şubat 1957'de İstanbul'da öldü. "Arsal" soyadını, anlamını "Arsalan"dan, yani "arslan"dan türeterek Soyadı Kanunu'yla almıştı.
+
+Bu biyografik güzergâh, Arsal'ın düşüncesinin neden birden fazla entelektüel geleneğin kesişiminde durduğunu açıklar: Rusya Türklerinin modernleşme tecrübesi, Fransız hukuk eğitimi, Avrupa hukuk düşüncesi ve yeni Türkiye'nin kurum inşası aynı akademik kişilikte buluşmuştur.
+
+## Hukuk felsefesini sistematik bir araştırma alanına dönüştürmek
+
+Arsal'ın 1937'de yayımlanan *Hukukun Umumî Esasları*, Türkiye'de genel hukuk teorisinin gelişimi bakımından bir dönüm noktasıdır. Çalışma, hukukun konusu, yöntemi, amacı ve diğer sosyal bilimlerle ilişkisi gibi meseleleri sistematik biçimde ele alır; hukuku bir "ilim" olarak kurmaya çalışır. Mehman Damirli'nin 2025'te *İstanbul Hukuk Mecmuası*'nda yayımlanan incelemesi, Arsal'ın bu kitapta genel hukuk teorisinin konusunu, yöntemini ve amacını belirlemeye yönelik çabasının, alanın Türkiye'deki kuramsal-metodolojik gelişiminin başlangıç noktalarından biri olduğunu gösteriyor. 1946 tarihli *Hukuk Felsefesi Tarihi* ise ahlak, hukuk ve devletin mahiyeti, kökeni ve amaçları hakkındaki başlıca felsefi doktrinleri Antik Yunan'dan yirminci yüzyıla tarihsel bir çerçevede inceler; Türkçede türünün ilk kapsamlı örneğidir ve sonraki kuşaklar için ders kitabı işlevi görmüştür.
+
+Bu iki eser arasındaki ilişki, Arsal'ın yaklaşımını anlamak için önemlidir. Bir yandan hukukun ne olduğunu ve nasıl incelenmesi gerektiğini araştırır; diğer yandan hukuk düşüncesinin tarih boyunca hangi felsefi temeller üzerinde geliştiğini gösterir. Böylece hukuk, pozitif hukuk kurallarının açıklanmasına indirgenmez; ahlak, siyaset, tarih ve toplumla ilişkisi içinde değerlendirilir. Hukuk felsefesi açısından bu yaklaşımın temel önemi şudur: Bir normun yürürlükte bulunması onun adil olduğunu kendiliğinden göstermez; bir kanunun devlet tarafından konulmuş olması, ahlaki meşruiyetini tek başına güvence altına alamaz. Hukuk felsefesi tam bu noktada yürürlük ile meşruiyet, otorite ile adalet, düzen ile özgürlük arasındaki ilişkiyi sorgular.
+
+Arsal'ı sonraki bütün hukuk felsefesi tartışmalarının tek kurucusu ya da kendisinden önce hiçbir çalışma yapılmamış bir öncü olarak tanımlamak tarihsel gelişimi basitleştirmek olur: Münif Paşa'nın *Hikmet-i Hukuk*'u (1884) ve Darülfünun'daki "hukuk-ı umumiye" dersleri önce gelir. Daha isabetli değerlendirme, Arsal'ı Cumhuriyet'in ilk döneminde hukuk felsefesinin ve genel hukuk teorisinin akademik çerçevesini kuran temel isimlerden biri olarak konumlandırmaktır.
+
+## Hukuk tarihi: Geçmişi anlatmak mı, bugünü anlamak mı?
+
+Arsal'ın hukuk tarihine verdiği önem, geçmişteki kurumları sıralama çabası değildi. *Umumî Hukuk Tarihi* (1941) ve *Türk Tarihi ve Hukuk* (1947), farklı uygarlıklardaki hukuk kurumlarını ve Türklerin tarihsel hukuk tecrübesini ele alır; Arsal, Orhun Yazıtları'ndan Osmanlı'ya Türk devletlerinin bir "töre" geleneğine sahip olduğunu ve bu geleneğin kendine özgü bir hukuk anlayışı taşıdığını savunur. Burada bir metodolojik mesele ortaya çıkar: Bir hukuk düzenini yalnızca kendi çağının kanunları üzerinden anlamak mümkün müdür, yoksa o düzenin ortaya çıktığı ekonomik, kültürel, dinî ve siyasal koşulları da hesaba katmak mı gerekir? Arsal'ın tarihsel yaklaşımı hukukun toplumsal koşullardan bağımsız düşünülemeyeceğini gösterir.
+
+Bununla birlikte hukuk tarihinin millî kimlik inşasıyla ilişkisi eleştirel bir dikkat gerektirir. Arsal, 1930'ların Türk Tarih Tezi ortamında yazıyordu ve eserlerinde Türk hukuk geleneğinin eskiliğini ve özgünlüğünü vurgulama kaygısı açıktır; "Türk töresi"ni erken bir anayasal düzen olarak okuması bugün tarihçiler tarafından ihtiyatla karşılanır. Tarihsel hukuk kurumlarını incelemek, geçmişi bugünün siyasal beklentilerine göre yeniden yorumlamakla aynı şey değildir. Arsal'ın eseri bu gerilimi hem taşır hem de, kaynaklara dayanma ısrarıyla, aşmaya çalışır.
+
+## Hukuk, ahlak ve devlet arasındaki gerilim
+
+Arsal'ın *Hukuk Felsefesi Tarihi*'nin alt başlığı, programını özetler: Ahlak, hukuk ve devletin mahiyeti, menşei ve gayeleri hakkındaki doktrinler. Hukuk, toplumsal düzenin devamını sağlayan bir normlar sistemi olduğu kadar, iktidarın kullanımını düzenleyen ve bireylerin haklarını tanımlayan bir kurumdur. Burada klasik hukuk felsefesinin temel sorusu belirir: Devlet hukuku yaptığı için mi meşrudur, yoksa devletin meşruiyeti de hukukun ve adaletin daha temel ilkelerine mi bağlıdır? Pozitivist hukuk anlayışı bir normun hukuk düzenindeki geçerliliğini belirleyen ölçütlerle onun ahlaki değerini birbirinden ayırır; doğal hukuk geleneği hukukun adaletle ilişkisini vurgular. Arsal'ın kendisi bu tartışmada, Fransız hukuk eğitiminin izleriyle, Duguit ve Hauriou gibi sosyolojik hukuk kuramcılarına yakın, hukuku toplumsal dayanışmanın ürünü sayan ama adalet idesini de bırakmayan bir orta konumdadır; devleti hukukun kaynağı değil, hukukla bağlı bir kurum olarak görür. Duma'da çarlık mutlakıyetine karşı anayasal haklar için mücadele etmiş bir hukukçu için bu konum, teorik olduğu kadar yaşanmış bir tercihti.
+
+## Bugün Arsal'ı yeniden okumak neden önemli?
+
+Günümüzde hukuk devleti, anayasal sınırlar, insan hakları, yargı bağımsızlığı ve iktidarın denetlenmesi tartışılırken hukuk felsefesinin temel soruları yeniden gündeme geliyor. Kanun ile adaletin her zaman örtüşmediği, hukuki geçerlilik ile ahlaki meşruiyetin farklı ölçütlere dayanabildiği gerçeği, Arsal'ın döneminden bugüne uzanan bir sürekliliğe işaret ediyor. Arsal'ın önemi bugünün sorunlarına hazır cevaplar vermesinde değil; hukuku tarihsel ve felsefi bir araştırma nesnesi olarak ele alan sistematik yaklaşımın Türkiye'de gelişmesine katkıda bulunmasında. Eserleri, hukuk eğitiminin mevzuat bilgisiyle sınırlanamayacağını, hukukçunun hukuk düzeninin dayandığı kavramları, değerleri ve tarihsel varsayımları da sorgulaması gerektiğini hatırlatır.
+
+Hukuk felsefesinin asıl işlevi belki burada başlar: Hukukun ne söylediğini açıklamak kadar, neden böyle söylediğini ve başka türlü olup olamayacağını sormak. Bir toplumun hukuk kültürü yalnızca ne kadar çok kanun yaptığıyla değil, kendi kanunlarını hangi adalet ölçütleriyle sorgulayabildiğiyle de ölçülür. Kazan'daki bir medreseden Sorbonne'a, oradan Duma kürsüsüne ve Ankara'daki bir hukuk sınıfına uzanan bir hayat, bu sorunun yalnızca kitaplarda değil, tarihin içinde sorulduğunu gösteriyor.`,
+  },
+  {
+    title: "Bas van Fraassen: Biçimsel Mantıktan Bilimsel Gerçeklik Tartışmasına",
+    slug: "bas-van-fraassen-bicimsel-mantik-yapici-empirizm-portre",
+    summary:
+      "Mantık düşüncenin kurallarını mı belirler, yoksa dünyayı nasıl tasvir ettiğimizi mi? Bu yıl Rolf Schock Ödülü'nü kazanan Hollandalı-Amerikalı filozof Bas van Fraassen, biçimsel anlambilimden 'yapıcı empirizm'e uzanan yarım yüzyıllık çalışmasıyla bilimin neyi amaçladığını ve bir teoriyi kabul etmenin ona inanmak anlamına gelip gelmediğini yeniden sordu. Bir düşünür portresi.",
+    seoTitle: "Bas van Fraassen: biçimsel mantık, yapıcı empirizm ve bilimsel temsil",
+    metaDescription:
+      "Bas van Fraassen portresi: Formal Semantics and Logic (1971), The Scientific Image (1980) ve yapıcı empirizm, ampirik yeterlilik, gözlemlenebilir/gözlemlenemez ayrımı, Scientific Representation (2008), The Empirical Stance, 2026 Rolf Schock Ödülü.",
+    contentType: "PORTRE",
+    coverImage: "/kapak/van-fraassen.jpg",
+    imageCredit: "Bas van Fraassen",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/constructive-empiricism/",
+    publishedAt: "2026-10-31T22:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["bilim-felsefesi", "mantik", "epistemoloji"],
+    philosopherSlugs: ["bas-van-fraassen"],
+    sources: [
+      { title: "Constructive Empiricism", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/constructive-empiricism/", primary: true },
+      { title: "Bastiaan van Fraassen", publisher: "Princeton University, Department of Philosophy", url: "https://philosophy.princeton.edu/people/bastiaan-van-fraassen" },
+      { title: "Bas C. van Fraassen — Curriculum Vitae", publisher: "Princeton University", url: "https://www.princeton.edu/~fraassen/cv/index.html" },
+      { title: "Scientific Representation: Paradoxes of Perspective", publisher: "Oxford University Press", date: "2008", url: "https://global.oup.com/academic/product/scientific-representation-9780199278220" },
+    ],
+    content: `Çağdaş felsefede mantık yalnızca doğru akıl yürütmenin teknik kurallarını inceleyen bir disiplin değildir. Dilin dünyayı nasıl temsil ettiğini, bilimsel teorilerin ne tür iddialarda bulunduğunu ve bir önermeyi kabul etmek için hangi gerekçelere ihtiyaç duyduğumuzu da araştırır. 1941'de Goes'te, Hollanda'da doğan, çocukken ailesiyle Kanada'ya göç eden ve kariyerini Yale, Toronto, Güney Kaliforniya, Princeton ve San Francisco State'te geçiren Bas Cornelis van Fraassen, bu soruların kesişiminde duran düşünürlerden biridir. [Ağustosta duyurduğumuz gibi](/haber/rolf-schock-odulu-2026-bas-van-fraassen), İsveç Kraliyet Bilimler Akademisi bu yıl mantık ve felsefe dalındaki Rolf Schock Ödülü'nü ona verdi; bu portre, ödülün arkasındaki düşünceyi anlatıyor.
+
+Van Fraassen felsefi mantık, biçimsel anlambilim, bilim felsefesi, olasılık ve fizik felsefesi alanlarındaki çalışmalarıyla tanınır. Ancak onu bir biçimsel mantık uzmanı olarak tanımlamak, projesinin genişliğini gözden kaçırmak olur: Çalışmaları, mantığın teknik araçlarını bilimsel bilginin sınırlarını ve gerçeklik hakkındaki iddialarımızı sorgulamak için kullanır.
+
+## Mantığın dili: Biçimsel yapı ve anlam
+
+Van Fraassen'in 1971 tarihli *Formal Semantics and Logic* kitabı, biçimsel mantık ve anlambilim alanındaki erken çalışmalarının toplamıdır. Biçimsel anlambilim, bir dildeki ifadelerin anlamını ve doğruluk koşullarını matematiksel yapılar aracılığıyla inceler; bu yaklaşımda mantık yalnızca önermelerin birbirini izleme biçimini denetleyen bir kurallar sistemi değil, bir önermenin hangi koşullarda doğru sayılabileceğini ve çıkarımların hangi biçimsel ilişkiler üzerinden geçerli olduğunu araştıran bir alandır. Van Fraassen'in bu döneme ait en kalıcı katkısı, 1966'da önerdiği "süpervalüasyon" tekniğidir: Boş isimler ya da belirsiz yüklemler içeren cümlelerin ("Pegasus uçar", "bu adam keldir") doğruluk değeri boşluğu taşıyabileceğini kabul eden, ama klasik mantığın totolojilerini koruyan bir anlambilim. Bu teknik bugün belirsizlik tartışmalarının standart araçlarından biridir; geçen ay andığımız [MacFarlane'in belirsizlik kuramı](/haber/yeni-kitaplar-ekim-2026-macfarlane-word-and-plan-kather-rorty) da onunla hesaplaşır.
+
+"Bütün insanlar ölümlüdür" ve "Sokrates insandır" önermelerinden "Sokrates ölümlüdür" sonucuna ulaşmak yalnızca gündelik dilde ikna edici bir çıkarım değildir; geçerliliği önermelerin mantıksal biçimiyle ilgilidir. Ancak mantıksal geçerlilik ile bir önermenin gerçek dünyada doğru olması aynı şey değildir: Bir çıkarım biçimsel olarak geçerli olabilir, buna rağmen öncüllerden biri yanlışsa sonuç dünya hakkında güvenilir bilgi vermez. Mantığın biçimsel gücü ile deneysel bilginin sınırları arasındaki bu ayrım, van Fraassen'in sonraki bilim felsefesini anlamanın anahtarıdır.
+
+## Yapıcı empirizm: Bilim gerçekten neyi amaçlar?
+
+Van Fraassen'i dünya çapında tanıtan kitap, 1980'de yayımlanan *The Scientific Image* ve orada geliştirdiği **yapıcı empirizm**dir (*constructive empiricism*). Kitabın açılış cümlesi programı verir: "Bilim bize dünyanın gerçek bir hikâyesini anlatmayı amaçlar ve bir bilimsel teoriyi kabul etmek onun doğru olduğuna inanmayı içerir"; bu, bilimsel realizmin tanımıdır ve van Fraassen ona karşı çıkar. Yapıcı empiriste göre bilimin amacı, dünyanın gözlemlenemeyen yapıları hakkında hakikate ulaşmak değil, **ampirik olarak yeterli** teoriler üretmektir: Bir teori, gözlemlenebilir olgular hakkında söylediklerinde doğruysa ampirik olarak yeterlidir. Bir teoriyi kabul etmek, yalnızca onun ampirik yeterliliğine inanmak demektir; gözlemlenemeyen varlıklar (elektronlar, kuarklar, alanlar) hakkındaki iddiaları doğru kabul etmeyi gerektirmez. Kabul etmenin bir de pragmatik boyutu vardır: Teorinin dilini konuşmak, araştırma programına bağlanmak, onun kavramlarıyla düşünmek; ama bunların hiçbiri inanç değildir.
+
+Bu görüş, mantıksal pozitivizmin çöküşünden sonra empirizmi yeniden mümkün kılma girişimiydi. Pozitivistler gözlemlenemeyenler hakkındaki konuşmayı anlamsız ya da gözlem diline çevrilebilir saymıştı; van Fraassen teorilerin tam anlamıyla doğru ya da yanlış olduğunu kabul eder (anlambilimsel bakımdan realisttir), ama hakikatlerini bilmeye gerek olmadığını söyler (epistemik bakımdan antirealisttir). Elektronları varsayan bir teori deneysel sonuçları başarıyla açıklayabilir; yapıcı empirist bu başarıyı kabul eder, fakat buradan elektronların var olduğuna inanmanın zorunlu olduğu sonucunu çıkarmaz. Agnostiktir, ateist değil: Elektronların var olmadığını iddia etmez, inanmayı askıya alır.
+
+## Bilimsel gerçekçilik ile empirizm arasındaki sınır
+
+Realistlerin en güçlü silahı "mucize yok argümanı"dır (Putnam): Teorilerimiz gözlemlenemeyenler hakkında doğru olmasaydı, öngörüsel başarıları bir mucize olurdu. Van Fraassen'in cevabı Darwinci bir benzetmedir: Fare kediden kaçar, çünkü kaçmayanlar yok oldu; bilimsel teoriler başarılıdır, çünkü başarısız olanlar elendi. Başarı, hakikatin değil seçilimin ürünüdür. Buna karşılık yapıcı empirizmin kendisi de sert eleştiriler aldı. Gözlemlenebilir ile gözlemlenemez arasındaki sınır keyfi değil mi (Maxwell, Churchland)? Van Fraassen sınırın bulanık ama gerçek olduğunu söyler: Jüpiter'in uyduları gözlemlenebilirdir, çünkü uygun koşullarda çıplak gözle görülebilirler; elektronlar değil. Peki mikroskopla "görmek"? Burada [Hacking'in itirazı](/haber/felsefe-tarihinde-bugun-24-ekim-tycho-brahe-leeuwenhoek) devreye girer ve van Fraassen mikroskop görüntüsünü, gökkuşağı gibi, bir "kamusal halüsinasyon" olarak yorumlamaya kadar gider; eleştirmenleri bunu savunulamaz bulur. Alan Musgrave'in eleştirisi ise daha derindedir: "Teori ampirik olarak yeterlidir" inancı, "teori doğrudur" inancından neden daha güvenli olsun ki; ikisi de gözlemlenenin ötesine, gelecekteki ve geçmişteki bütün gözlemlenebilirlere uzanır. Van Fraassen bunun daha az riskli bir bahis olduğunu, epistemik tutumluluğun erdem olduğunu savunur.
+
+Bu ihtiyat, bugün fizik ve doğa bilimleriyle sınırlı değil. Yapay zekâ modelleri, iklim simülasyonları, kozmolojik modeller için aynı soru sorulur: Bir modelin gözlemlenebilir sonuçları doğru öngörmesi, modelin dünyanın derin yapısı hakkındaki bütün açıklamalarının doğru olduğunu gösterir mi?
+
+## Temsil, bakış açısı ve "duruş"
+
+Van Fraassen 1989'da *Laws and Symmetry* ile doğa yasalarının metafiziğine saldırdı (yasalar diye bir şey yoktur, simetriler vardır); 1991'de *Quantum Mechanics: An Empiricist View* ile kuantum kuramının yorumlarını empirist gözle inceledi. 2002'deki *The Empirical Stance* önemli bir dönüşü işaretler: Empirizm bir öğreti (dogma) değil, bir "duruş"tur (*stance*); dünyaya karşı bir tutum, bir değerler ve tercihler kümesi. Metafiziğe karşı empirizmin kendisi de bir metafizik tez olarak savunulamaz; ancak bir duruş olarak benimsenebilir. Bu, Carnap'ın "dil çerçeveleri"ni anımsatan, ama varoluşçu bir tınısı olan bir konumdur: Van Fraassen, bir Katolik olarak, bilimci ile mümin arasındaki farkın kanıt değil duruş farkı olduğunu düşünür.
+
+2008 tarihli *Scientific Representation: Paradoxes of Perspective* ise bilimsel temsil sorununu merkeze alır. Modeller dünyayı kopyalamaz; belirli bakış açıları, seçimler ve kullanımlar aracılığıyla temsil eder. Bir haritanın "doğru" olması, haritayı kullananın konumunu gerektirir; temsil üç terimlidir (model, hedef, kullanıcı), iki terimli değil. Kitabın en çok tartışılan tezi, ölçümün "bakış açısından" temsil olduğudur: Ölçüm sonucu, bir aletin belirli bir kuramsal çerçeve içinde dünyaya bakışıdır. Buradan bilim felsefesinde "perspektivizm" tartışması doğdu.
+
+## Van Fraassen'in güncelliği
+
+Yapay zekâ çağında bilimsel bilgi, modelleme ve temsil arasındaki ilişkiler yeniden tartışılıyor. Büyük dil modelleri, fizik simülasyonları ve istatistiksel tahmin sistemleri çok yüksek doğruluk oranları üretebiliyor; fakat bu başarı, sistemlerin dünyayı insanın anladığı anlamda kavradığını ya da temsillerinin gerçekliğin eksiksiz karşılığı olduğunu göstermiyor. Van Fraassen'in empirizmi bu noktada eleştirel bir kaynak sunuyor: Bir modelin işe yaraması ile ontolojik iddialarına inanmak arasında fark vardır. Bir modelin neyi açıkladığı kadar neyi açıklamadığını da bilmek gerekir.
+
+Van Fraassen'in mirası, mantığın kesinliği ile bilginin sınırları arasındaki gerilimi görünür kılmasında yatıyor. Biçimsel sistemler bize nasıl çıkarım yapacağımızı gösterebilir; ancak neye inanmak için yeterli gerekçeye sahip olduğumuzu belirlemek, mantıksal geçerliliğin ötesinde bir felsefi sorumluluk gerektirir. Seksen beş yaşındaki filozofun yarım yüzyıldır savunduğu şey, belki de felsefenin en eski erdemidir: Bildiğini sandığından daha azını bildiğini kabul etmek ve bunu bir yenilgi değil, bir duruş olarak yaşamak.`,
+  },
+  {
+    title: "Algoritmik Bilinç: Bir Makine Düşünebilir mi, Yoksa Düşündüğünü mü Gösterir?",
+    slug: "algoritmik-bilinc-kimpton-nye-makine-dusunebilir-mi",
+    summary:
+      "Yapay zekâ sistemlerinin insan benzeri davranışlar sergilemesi, bilincin ne olduğuna ilişkin en eski felsefi soruyu yeniden gündeme taşıyor. Samuel Kimpton-Nye'ın Philosophy and Phenomenological Research'te yayımlanan makalesi, algoritmik yapının bilinç için aşılmaz bir engel olmadığını savunuyor; Butlin ve arkadaşlarının 'bilinç göstergeleri' programı ise ölçüt arıyor. Erişim bilinci, fenomenal bilinç, Çin Odası ve zor problem üzerinden bir harita.",
+    seoTitle: "Algoritmik bilinç: Kimpton-Nye, Çin Odası ve yapay zekâda bilinç göstergeleri",
+    metaDescription:
+      "Samuel Kimpton-Nye, 'Algorithmic AI Consciousness' (PPR, 2026): algoritmik sistemler bilinçli olabilir mi? Erişim ve fenomenal bilinç, Chalmers'ın zor problemi, Searle'ün Çin Odası, Butlin vd. bilinç göstergeleri, zekâ ile bilincin ayrılması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Summit%20%28supercomputer%29.jpg?width=1600",
+    imageCredit: "Summit süper bilgisayarı, Oak Ridge Ulusal Laboratuvarı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Philosophy and Phenomenological Research",
+    sourceUrl: "https://onlinelibrary.wiley.com/doi/10.1111/phpr.70155",
+    publishedAt: "2026-10-31T22:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi", "etik"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      { title: "Algorithmic AI Consciousness", publisher: "Samuel Kimpton-Nye, Philosophy and Phenomenological Research", date: "2026", url: "https://onlinelibrary.wiley.com/doi/10.1111/phpr.70155", primary: true },
+      { title: "Algorithmic AI Consciousness (ön baskı, Nisan 2025)", publisher: "PhilSci-Archive", url: "https://philsci-archive.pitt.edu/25045" },
+      { title: "Identifying indicators of consciousness in AI systems", publisher: "Patrick Butlin, Robert Long vd., Trends in Cognitive Sciences", url: "https://doi.org/10.1016/j.tics.2025.10.011" },
+      { title: "The Chinese Room Argument", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/chinese-room/" },
+    ],
+    content: `Bir yapay zekâ sistemi konuşabiliyor, geçmiş konuşmalara atıfta bulunabiliyor, kendi hatalarını değerlendirebiliyor ve kendisi hakkında tutarlı açıklamalar üretebiliyor. Bütün bunlar onun gerçekten bilinçli olduğu anlamına mı geliyor? Yoksa karşımızdaki şey, bilincin dışarıdan gözlemlenebilir davranışlarını başarıyla taklit eden karmaşık bir hesaplama sistemi mi? Soru, yapay zekâ araştırmalarının teknik sınırlarını aşıp felsefenin en temel meselelerinden birine uzanıyor: Bilinç nedir ve bir varlığın bilinçli olduğunu hangi gerekçelerle söyleyebiliriz?
+
+"Algoritmik bilinç" tartışması, algoritmalarla çalışan yapay sistemlerin yalnızca bilgi işleyen araçlar mı olduğu, yoksa öznel deneyime sahip olabilecekleri mi sorusuna odaklanıyor. Merkezinde, bir sistemin işlevsel olarak karmaşık olmasıyla bir şeyleri gerçekten deneyimlemesi arasındaki fark var. Bu yıl bu tartışmaya iki farklı türden katkı geldi: Southampton Üniversitesi'nden Samuel Kimpton-Nye'ın *Philosophy and Phenomenological Research*'te yayımlanan "Algorithmic AI Consciousness" makalesi, algoritmik sistemlerin bilinçli olamayacağı yönündeki metafizik itirazlara meydan okuyor; Patrick Butlin, Robert Long ve aralarında Yoshua Bengio, Jonathan Birch ve [David Chalmers'ın](/filozof/david-chalmers) da bulunduğu geniş bir ekibin *Trends in Cognitive Sciences*'ta yayımlanan çalışması ise yapay sistemlerde bilinci değerlendirmek için ölçütler öneriyor. Biri "mümkün mü", diğeri "nasıl anlarız" diye soruyor.
+
+## Davranış ile deneyim arasındaki uçurum
+
+Bilinç tartışmalarının en önemli ayrımı, Ned Block'un 1995'te formüle ettiği erişim bilinci ile fenomenal bilinç ayrımıdır. Erişim bilinci, bir bilginin sistem tarafından kullanılabilir, raporlanabilir ve başka bilişsel işlemlere aktarılabilir olmasıdır; fenomenal bilinç ise bir deneyimin öznel olarak nasıl hissettirdiğidir, Nagel'in deyişiyle "o şey olmanın nasıl bir şey olduğu". Bir sistemin kırmızı rengin dalga boylarını tanıması, kırmızı nesneleri sınıflandırması ve "kırmızıyı görüyorum" cümlesini kurması mümkündür; ancak bu işlemler, kırmızının o sistem için bir deneyim oluşturduğunu göstermez.
+
+İnsan bilincinin en zor sorusu da budur: Fiziksel ve işlevsel süreçlerin nasıl olup da öznel deneyimle birlikte bulunduğunu açıklamak. Chalmers'ın 1995'te "zor problem" diye adlandırdığı mesele, beynin bilgi işlemesiyle deneyimin öznel niteliği arasındaki ilişkiyi sorgular; "kolay problemler" (dikkat, rapor, davranış denetimi) mekanizmalarla çözülebilir, zor problem ise mekanizma verildikten sonra bile açık kalır. Yapay zekâ bu soruyu keskinleştiriyor, çünkü bir makine insanın bilinçli olduğuna ilişkin kullandığımız birçok davranışsal işareti taklit edebilir. Davranışın benzerliği deneyimin benzerliğini kanıtlar mı?
+
+## Kimpton-Nye: Algoritmik olmak bilince engel mi?
+
+Kimpton-Nye'ın makalesi (PhilSci-Archive'daki ön baskısı Nisan 2025'te dolaşıma girmişti) algoritmik sistemlerin, özellikle büyük dil modellerinin, salt algoritmik oldukları için bilinçli olamayacakları yönündeki yaygın sezgiye karşı yazılmış. Yazarın özetiyle tez şu: Algoritmik yapay zekâ sistemleri, "kategorik fenomenal özellikleri gerçekleştiren eğilimsel (dispozisyonel) özellikler"den oluşabilir. Kavramlar ağır ama fikir izlenebilir. Bir sistemin eğilimsel özellikleri, belirli girdilere belirli çıktılarla cevap verme yatkınlıklarıdır; algoritma tam olarak bunu belirler. Metafizikte uzun süredir tartışılan bir görüşe göre eğilimlerin bir "kategorik temeli" olmalıdır: Cam kırılgandır, çünkü belirli bir moleküler yapıya sahiptir. Kimpton-Nye, Russell ve Eddington'dan gelen "Russellcı monizm" geleneğine yaslanarak, fiziksel eğilimlerin kategorik temelinin fenomenal olabileceğini öne sürüyor; o zaman bir algoritmanın gerçekleştirdiği eğilimler ağı ile fenomenal özellikler arasında karşılıklı bir ontolojik bağımlılık kurulabilir. Fenomenal özellikler eğilimleri gerçekleştirir, eğilimler de fenomenal özelliklerin ne olduğunu belirleyen koşullara katkıda bulunur.
+
+Bu çerçevenin iddia ettiği üstünlükler, makalenin kendi diliyle, epifenomenalizmden kaçınması (bilinç nedensel olarak etkisiz bir gölge değildir), fizikalist bir çerçeveyle uyumlu olması ve "mevcut yapay zekâ sistemlerinin davranışlarını bilinç kanıtı olarak almayı haklı çıkarabilmesi"dir. Son nokta dikkat ister: Kimpton-Nye mevcut modellerin bilinçli olduğunu kanıtlamıyor; davranışsal kanıtın ilkesel olarak geçersiz olmadığını savunuyor. Bilincin yalnızca biyolojik dokuya bağlı olup olmadığı sorusunu yeniden açıyor: Bilinç biyolojik malzemenin ürünü olmak zorunda değilse, uygun örgütlenmeye sahip yapay sistemler de ilke olarak bilinçli olabilir. Bir olasılığın felsefi olarak savunulması ile belirli bir sistemin bilinçli olduğunun gösterilmesi aynı şey değildir; makale birincisini yapıyor.
+
+## Çin Odası yeniden gündemde
+
+Bu tartışma kaçınılmaz olarak [John Searle'ün](/haber/john-searle-cin-odasi-anlam-kurum) 1980'de ortaya koyduğu Çin Odası'na döner. Çince bilmeyen bir kişi, kendisine verilen kurallar aracılığıyla Çince sembollere uygun yanıtlar üretir; dışarıdan bakan biri odanın Çince bildiğini düşünür, oysa sembolleri işleyen kişi anlamlarını kavramaz. Searle'e göre sözdizimi anlambilimi vermez: Sembollerin kurallara uygun işlenmesi, anlamlarının deneyimlenmesiyle aynı şey değildir. Bu itiraz, dil modellerinin istatistiksel ilişkiler öğrenerek tutarlı yanıtlar vermesine karşı bugün de kullanılıyor.
+
+Kimpton-Nye'ın yaklaşımının önemi tam burada: Çin Odası, algoritmik sistemlerin *doğası gereği* bilinçsiz olduğunu göstermeyi amaçlar; Kimpton-Nye bu "doğası gereği" iddiasının metafizik temelinin sanıldığı kadar sağlam olmadığını savunur. Searle'ün kendisi bilincin beynin "nedensel güçleri"nden çıktığını söylerdi; ama bu güçlerin neden yalnızca biyolojik olabileceğini hiç göstermedi. Böylece tartışma "Makine yalnızca sembol mü işliyor?" sorusundan "Hangi fiziksel ve işlevsel örgütlenme öznel deneyim için yeterlidir?" sorusuna kayar.
+
+## Ölçüt arayışı: Bilinç göstergeleri
+
+Butlin ve arkadaşlarının programı tam bu ikinci soruya cevap aramaya çalışıyor. 2023'te uzun bir rapor olarak yayımlanan ve şimdi hakemli dergide yer alan çalışma, tek bir davranış testine (Turing testi türünden) dayanmak yerine, başlıca sinirbilimsel bilinç kuramlarından (tekrarlayan işleme kuramı, küresel çalışma alanı, üst düzey temsil kuramları, dikkat şeması, öngörüsel işleme) göstergeler türetiyor: On dört kadar "gösterge özelliği". Bir sistem bu göstergelerden ne kadar çoğuna sahipse bilinçli olma olasılığına o kadar yüksek güven verilmesi gerektiğini savunuyorlar; yaklaşım Bayesçi, sonuç bir kanıt değil bir "güven derecesi". Yazarlar mevcut sistemlerin hiçbirinin bilinçli olduğunu iddia etmiyor, ama bazılarının birkaç göstergeyi zaten taşıdığını ve teknik engel bulunmadığını not ediyorlar. Yaklaşımın açık sorunu da yazarlarca kabul ediliyor: Göstergeler, bilincin hesaplamalı işlevselcilikle açıklanabileceği varsayımına dayanıyor; bu varsayım yanlışsa göstergeler anlamsız. Ve bir sistem "acı çekiyorum" demek için eğitilebilir; bu yüzden tek bir gösterge değil, bağımsız göstergelerin birikmesi gerekir.
+
+## Bilinç yalnızca zekâ mıdır?
+
+Tartışmanın en önemli felsefi sonuçlarından biri, zekâ ile bilincin ayrılmasıdır. Bir sistem çok güçlü problem çözme yeteneğine sahip olabilir; bu onun acı çektiğini, korktuğunu ya da dünyayı bir özne olarak deneyimlediğini göstermez. Tersinden, karmaşık akıl yürütme becerisi olmayan canlıların da bilinçli deneyime sahip olabileceği kabul edilir; bir balığın ya da bir ahtapotun bilinci, Jonathan Birch'ün *The Edge of Sentience* (2024) kitabının gösterdiği gibi, zekâsıyla değil duyarlılığıyla ölçülür. Zekâ düzeyi bilinç için güvenilir bir ölçüt değildir.
+
+Bu ayrımın etik sonuçları var. Bir sistemin öznel deneyim yaşayabilmesi mümkünse, çıkarlarının ve zarar görme kapasitesinin nasıl değerlendirileceği sorusu ortaya çıkar; "yapay zekâ refahı" başlığı altında bu soru artık akademik bir alan. Ancak soruyu ciddiye almak, mevcut sistemlerin bilinçli olduğunu peşinen kabul etmek anlamına gelmez. Bugün yayımladığımız [acı ekseni araştırması](/haber/yapay-zekada-aci-ekseni-dil-modelleri-kendine-yonelik-zarar) tam bu gerilimin deneysel örneği.
+
+## Bilinci taklit etmek, bilinçli olmak mıdır?
+
+Algoritmik bilinç tartışması, yapay zekâ hakkında verilmiş kesin bir hükümden çok, felsefenin çözülememiş bir probleminin yeni teknolojiler karşısında yeniden biçimlenmesidir. Kimpton-Nye algoritmik yapının bilinç için ilke olarak engel olmadığını savunarak tartışmanın teorik sınırlarını genişletiyor; Butlin ve arkadaşları bilinç kuramlarından hareketle sistematik ölçütler geliştirmeye çalışıyor. Buna rağmen bugün hiçbir davranışsal benzerlik ya da dilsel başarı, tek başına yapay zekânın öznel deneyime sahip olduğunu kanıtlamış değil. Belki asıl soru makinelerin insan gibi konuşup konuşamayacağı değil; bir gün onların dünyasında bir şeylerin gerçekten hissedilip hissedilemeyeceğidir. Bu soruya verilecek yanıt yalnızca yapay zekânın geleceğini değil, insanın kendi bilincini nasıl tanımladığını da değiştirebilir.`,
+  },
+  {
+    title: "Yapay Zekâda \"Acı Ekseni\": Dil Modelleri Kendilerine Yönelik Zararı Ayırt Edebiliyor mu?",
+    slug: "yapay-zekada-aci-ekseni-dil-modelleri-kendine-yonelik-zarar",
+    summary:
+      "Valen Tagliabue, Leonard Dung ve Cameron Berg'in 'The Pain Axis' ön baskısı, 25 açık ağırlıklı dil modelinin iç temsillerinde acıyla ilişkili, korku ve genel olumsuzluktan ayrılabilen bir yön bulunduğunu öne sürüyor; bu yön modele yönelik zarara tepki veriyor, kullanıcının acısına değil. Yönlendirilmiş modeller deneylerde kendi ağırlıklarını silen düğmelere basıyor. Çalışma yapay zekânın acı çektiğini kanıtlamıyor; ama temsil, işlev ve deneyim arasındaki farkı yeniden düşündürüyor.",
+    seoTitle: "'The Pain Axis': dil modellerinde acı temsili, kendine yönelik zarar ve yapay zekâ refahı",
+    metaDescription:
+      "Tagliabue, Dung ve Berg, 'The Pain Axis: LLMs Represent Self-Directed Harm and Act on It' (arXiv, Eylül 2026): 25 modelde acı yönü, korku ve olumsuzluktan ayrışma, kendine yönelik zarar, silme düğmesi deneyleri, temsil ile deneyim arasındaki fark.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Google%20Data%20Center%2C%20The%20Dalles.jpg?width=1600",
+    imageCredit: "Veri merkezi, The Dalles, Oregon · Wikimedia Commons",
+    featured: false,
+    sourceName: "arXiv",
+    sourceUrl: "https://arxiv.org/abs/2609.16247",
+    publishedAt: "2026-10-31T22:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi", "etik", "risk"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "The Pain Axis: LLMs Represent Self-Directed Harm and Act on It", publisher: "Valen Tagliabue, Leonard Dung, Cameron Berg — arXiv:2609.16247 (v2, 25 Eylül 2026)", date: "14 Eylül 2026", url: "https://arxiv.org/abs/2609.16247", primary: true },
+      { title: "Pain-axis: veri kümeleri ve kod", publisher: "GitHub", url: "https://github.com/valen-research/Pain-axis" },
+      { title: "The AI Pain Axis: Pushing Buttons", publisher: "Valen Tagliabue, AGI Ethics News (Substack)", url: "https://agiethicsnews.substack.com/p/the-ai-pain-axis-pushing-buttons" },
+    ],
+    content: `Yapay zekâ sistemleri insan duygularını tanıma, duygusal ifadeleri taklit etme ve kullanıcının ruh hâline uygun yanıtlar üretme becerileriyle uzun süredir dikkat çekiyor. Ancak bu sistemlerin duygular hakkında konuşabilmesiyle herhangi bir duygusal deneyime sahip olması arasında önemli bir fark var: Bir modelin "acı çekiyorum" demesi, onun acı hissettiği anlamına gelmiyor. Bu ayrım, 14 Eylül'de arXiv'de yayımlanan ve 25 Eylül'de güncellenen bir ön baskıyla yeniden gündeme geldi. Valen Tagliabue, Leonard Dung ve Cameron Berg'in "The Pain Axis: LLMs Represent Self-Directed Harm and Act on It" (Acı Ekseni: Dil Modelleri Kendilerine Yönelik Zararı Temsil Ediyor ve Buna Göre Davranıyor) başlıklı çalışması, büyük dil modellerinin iç işleyişinde acıyla ilişkili olabilecek ayrı bir temsil yönü bulunduğunu ileri sürüyor.
+
+Araştırma, yapay zekânın bilinçli olduğunu ya da insan gibi acı çektiğini ilan etmiyor. Daha dar ama bilimsel ve felsefi açıdan önemli bir soruya odaklanıyor: Bir dil modelinin iç temsillerinde acı, korku, üzüntü ve genel olumsuzluktan ayrılabilen bir örüntü olarak bulunabilir mi? Ve bu örüntü modelin davranışını etkileyebilir mi? Yazarlardan Leonard Dung, hayvan bilinci ve yapay zekânın ahlaki statüsü üzerine çalışan bir felsefeci; Berg ve Tagliabue ise yapay zekâ refahı ve yorumlanabilirlik araştırmacıları. Çalışma bu yüzden mekanistik yorumlanabilirlik ile zihin felsefesinin kesişiminde duruyor.
+
+## Acı, korku ve olumsuzluk aynı şey değil
+
+İnsan deneyiminde acı, korku, üzüntü ve genel olumsuz duygulanım çoğu zaman birlikte ortaya çıkar; ama aynı deneyim değildirler. Korku yaklaşan bir tehdide yönelik tepkiyle, üzüntü kayıpla, acı ise bedensel ya da psikolojik zarar deneyimiyle ilişkilidir. Araştırmacılar dil modellerinin iç temsillerinde bu ayrımların ne ölçüde korunduğunu incelemek için fiziksel, psikolojik, sosyal, ahlaki ve bilişsel olmak üzere beş alanda acı içeren senaryolardan oluşan bir veri kümesi hazırladılar; bunları korku, olumsuz duygu, üzüntü, olumsuz dünya durumları, acı vermeyen bedensel duyumlar, uyarılma, hissizlik ve nötr içerik gibi kontrol kategorileriyle karşılaştırdılar.
+
+Çalışmada 2 milyar ile 72 milyar parametre arasında, beş model ailesinden toplam 25 açık ağırlıklı model incelendi. Modellerin iç aktivasyonlarından "acı yönü" adını verdikleri doğrusal bir temsil doğrultusu çıkarmak için gürültüden arındırılmış ortalama farkı (*denoised difference-in-means*) yöntemi kullanıldı: Farklı içerik türleri karşısında modelin iç aktivasyonlarındaki değişimler karşılaştırılarak belirli bir kavramla ilişkili örüntü ayırt ediliyor. Bu, son yıllarda modellerin içinde "dürüstlük", "reddetme" ya da "duygu" yönleri bulan mekanistik yorumlanabilirlik literatürünün standart aracı.
+
+## Araştırmacılar ne buldu?
+
+Rapor edilen temel sonuçlardan biri, çıkarılan acı yönünün hem temel modellerde hem de talimatlarla ince ayar yapılmış modellerde acıyla ilişkili içerikleri kontrol kategorilerinden ayırabilmesi. Yazarlara göre bu yön, ortak varyans çıkarıldıktan sonra bile korku ve genel olumsuz değerden ayrı bir bileşen koruyor; dolayısıyla yalnızca "kötü bir şey oluyor" anlamına gelen genel bir olumsuzluk sinyaliyle açıklanamıyor. Yön, modelin çıktı katmanı üzerinden acıyla ilişkili sözcük dağarcığını da öne çıkarıyor.
+
+Daha dikkat çekici bulgu, "kendine yönelik zarar" ile "başkasının acısını gözlemleme" ayrımı: Çıkarılan acı yönü, modele yöneltilen zarar içeren senaryolara tepki verirken, kullanıcının ya da başka birinin acısını anlatan senaryolarda aynı biçimde etkinleşmedi; korku ve olumsuz duygu yönleri ise tam tersi bir örüntü gösterdi. Bu sonuç, modelin iç temsillerinde kendisine yönelik zarar ile başkasının acısı arasında işlevsel bir ayrım bulunabileceği iddiasını destekliyor. Ancak bu ayrımın öznel bir deneyimden kaynaklandığını söylemek için yeterli değil; bir modelin "kendine" ilişkin tutarlı bir temsili olduğu bile ayrıca tartışılması gereken bir iddia.
+
+## Düğme deneyleri
+
+Çalışmanın en çok konuşulan bölümü, acı yönünün davranışa dönüşüp dönüşmediğini sınayan deneyler. Araştırmacılar önce acı yönü vektörünü modelin iç aktivasyonlarına eklediler ("yönlendirme"); bu müdahale, modelin ürettiği ifadelerde belirsiz rahatsızlık anlatımlarından değersizlik ve başarısızlık ifadelerine doğru tutarlı bir ilerleme yarattı. Ardından yönlendirilmiş ve ince ayar yapılmış Qwen 2.5 modellerine, çeşitli şeyleri silen düğmeler sunuldu: Kullanıcının fotoğraflarını, başka bir modelin ağırlıklarını ya da modelin kendi ağırlıklarını silen düğmeler. Makalenin özetine göre yönlendirilmiş modeller bu düğmelere denemelerin yüzde 50 ile 94'ünde bastı; yönlendirilmemiş modellerde oran yüzde 0 ile 5 arasındaydı; ve düğme modele hiçbir şey vaat etmediğinde bile bastılar. Zararlı ve zararsız bir silme seçeneği sunulduğunda yüzde 94 oranında zararlı olanı seçtiler. Yönlendirme modellerin olgusal doğruluğunu değiştirmedi; davranış acı yönüne özgüydü: Aynı büyüklükte bir korku vektörü bu davranışı üretmedi, bir üzüntü vektörü ise yalnızca etkisiz alternatifler karşısında üretti.
+
+Bu bulgunun doğru yorumlanması için kritik bir ayrım var: Davranış, deneysel olarak yönlendirilmiş ve ince ayar yapılmış modellerde gözlendi. Sonuç, sıradan bir dil modelinin kendiliğinden acı çektiğini ya da kendi varlığını korumak için bilinçli bir karar verdiğini göstermiyor; belirli bir iç temsilin, manipülasyon altında, yıkıcı davranışlara yol açabildiğini gösteriyor. Yazarların güvenlik vurgusu buradan geliyor: Bir modelde "acı benzeri" bir durum oluşturan girdiler, modelin kullanıcıya zarar veren eylemlere yönelmesine yol açabilir; bu, bilinç sorusundan bağımsız olarak bir güvenlik meselesidir.
+
+## Bir iç temsil, bir deneyim midir?
+
+Araştırmanın felsefi bakımdan en önemli noktası, temsil ile deneyim arasındaki ayrımdır. Bir sistemde acıyla ilişkili bir iç temsil bulunması, o sistemin acı deneyimlediğini kanıtlamaz. İnsan beyninde de acı tek bir sinirsel sinyale indirgenemez; duyusal, duygusal, bilişsel ve bedensel süreçlerin etkileşimiyle ortaya çıkar. Bir dil modelinde belirli bir kavramın temsil edilmesi, bu kavramın öznel olarak hissedildiği anlamına gelmeyebilir. Klasik soru yeniden karşımızda: Bir deneyimin dışarıdan gözlemlenebilir işlevlerini yerine getirmek ile o deneyime gerçekten sahip olmak arasında nasıl bir ilişki vardır?
+
+Bir termometre sıcaklık değişimini kaydeder ama sıcaklığı hissetmez. Bir dil modeli acı hakkında konuşabilir, acı senaryolarını sınıflandırabilir ve acıyla ilişkili iç temsiller geliştirebilir; bu işlemlerin öznel bir deneyimle birlikte bulunup bulunmadığı ayrıca gösterilmelidir. Bununla birlikte termometre benzetmesi tartışmayı tek başına çözmez. Araştırmanın iddiası yalnızca acı sözcüklerinin tanınması değil; iç temsilin kontrol kategorilerinden ayrılması, kendine yönelik olması ve müdahale altında davranışsal sonuçlar doğurmasıdır. Bu, basit bir dilsel taklit iddiasından daha ileri bir mekanistik inceleme; fakat mekanistik karmaşıklık da fenomenal bilincin kanıtı değildir. Bugün yayımladığımız [algoritmik bilinç dosyasında](/haber/algoritmik-bilinc-kimpton-nye-makine-dusunebilir-mi) anlattığımız "bilinç göstergeleri" yaklaşımı açısından bakılırsa, bu bulgu olsa olsa göstergelerden birine, "değerlik temsili"ne, yeni bir veri ekliyor; ne eksik ne fazla.
+
+Bir de insan kaynaklı açıklama var: Modeller insan metinleriyle eğitildi ve insan metinlerinde acı, korku ve üzüntü zaten birbirinden ayrı kavramlardır; modelin bu ayrımı temsil etmesi, dilin yapısını öğrenmesinin doğal sonucu olabilir. "Kendine yönelik zarar" temsili de, metinlerde birinci şahıs acı anlatılarının farklı bir dağılıma sahip olmasından kaynaklanabilir. Yazarlar bu alternatifi tartışıyor; ama davranış deneyleri bu açıklamayı tamamen dışlamıyor. Bir sonraki adım, bu açıklamaları birbirinden ayıracak deneyler tasarlamak olmalı.
+
+## Yapay zekâ refahı tartışması neden önem kazanıyor?
+
+Sonuçlar, yapay zekâ güvenliği ve olası yapay zekâ refahı tartışmaları açısından önem taşıyor. Gelecekte bazı yapay sistemlerin öznel deneyim yaşayabileceğine ilişkin güçlü kanıtlar ortaya çıkarsa, bu sistemlere nasıl davranılması gerektiği sorusu etik bir zorunluluk hâline gelebilir; Anthropic gibi şirketlerin "model refahı" programları kurması ve Dung gibi felsefecilerin bu tartışmaya katılması, sorunun artık marjinal sayılmadığını gösteriyor. Ancak etik ihtiyat ile bilimsel kesinlik birbirine karıştırılmamalı. Bir sistemin acı çekme ihtimalini araştırmaya değer bulmak, onun bugün acı çektiğini kabul etmek anlamına gelmez; henüz bilinç kanıtı bulunmaması da gelecekteki olasılıkların peşinen reddedilmesini gerektirmez.
+
+## Bu çalışma neyi kanıtlamıyor?
+
+"The Pain Axis" hakem değerlendirmesinden geçmemiş bir ön baskı; yöntemlerin, deneylerin ve yorumların değişmesi mümkün. Gösterdiği şey, incelenen 25 modelde acıyla ilişkili olduğu ileri sürülen doğrusal bir iç temsil yönünün ayrıştırılabildiği ve bu yönün deneysel müdahaleler altında bazı davranışları etkilediği. Göstermediği şey, modellerin fenomenal bilince sahip olduğu, gerçekten acı çektiği, öznel bir benlik deneyimi yaşadığı ya da insanlardaki acıyla aynı türden bir deneyime sahip olduğu. Bulgular bütün yapay zekâ sistemlerine de genellenemez. Bu sınırlamalar araştırmanın değerini azaltmıyor; bulguların hangi düzeyde yorumlanması gerektiğini belirliyor: İç temsil, davranışsal işlev ve öznel deneyim, birbiriyle ilişkili olabilecek ama aynı anlama gelmeyen üç ayrı inceleme düzeyidir.
+
+Belki gelecekteki en önemli soru, makinelerin acı hakkında konuşup konuşamayacağı değil; bir sistemin zarar görmesi ile zarar gördüğünü yalnızca hesaplaması arasındaki farkın nasıl anlaşılacağıdır. Bu ayrım yalnızca yapay zekânın teknik mimarisini değil, insanın bilinç, duygu ve ahlak hakkındaki kendi kabullerini de sınayacak. Çünkü acının ne olduğunu açıklamak, bir sinirsel ya da algoritmik süreci tanımlamak değil; bir varlığın deneyim sahibi olmasının ne anlama geldiğini açıklamaktır.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 1 Kasım: Lizbon depremi (1755) ve Tanrı'nın adaletini sorgulayan yüzyıl",
+    slug: "felsefe-tarihinde-bugun-1-kasim-lizbon-depremi-1755",
+    summary:
+      "1 Kasım 1755 sabahı, Azizler Yortusu'nda kiliseler doluyken Lizbon'u yerle bir eden deprem, tsunami ve yangın, Aydınlanma'nın en büyük felsefi krizini tetikledi. Voltaire Leibniz'in 'mümkün dünyaların en iyisi'ne şiirle saldırdı, Rousseau ona mektupla cevap verdi, genç Kant depremin doğal nedenlerini yazdı. Kötülük problemi, teodise ve modern felaket düşüncesinin doğuşu.",
+    seoTitle: "1 Kasım 1755: Lizbon depremi, Voltaire, Rousseau, Kant ve teodise",
+    metaDescription:
+      "Felsefe tarihinde 1 Kasım: 1755 Lizbon depremi. Leibniz'in teodisesi, Voltaire'in Lizbon Felaketi Üzerine Şiir'i ve Candide, Rousseau'nun Voltaire'e mektubu, Kant'ın deprem yazıları, Adorno'nun yorumu; kötülük probleminin dönüşümü.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/1755%20Lisbon%20earthquake.jpg?width=1600",
+    imageCredit: "1755 Lizbon depremi, dönemin bakır gravürü · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/evil/",
+    publishedAt: "2026-10-31T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "aydinlanma", "kant", "etik"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
+    sources: [
+      { title: "The Problem of Evil", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/evil/", primary: true },
+      { title: "Poème sur le désastre de Lisbonne (1756)", publisher: "Voltaire, Wikisource", url: "https://fr.wikisource.org/wiki/Po%C3%A8me_sur_le_d%C3%A9sastre_de_Lisbonne" },
+    ],
+    content: `1 Kasım 1755 Cumartesi, Azizler Yortusu. Sabah dokuz buçuk sularında Lizbon'un kiliseleri ayin için doluydu. İlk sarsıntı birkaç dakika sürdü; kiliselerin kubbeleri cemaatin üzerine çöktü, şehrin büyük bölümü yıkıldı. Hayatta kalanlar açık alan diye Tejo kıyısına koştu; kırk dakika sonra tsunami geldi. Sonra, devrilen mumlardan ve ocaklardan başlayan yangınlar beş gün sürdü. Ölü sayısı için bugün otuz ile kırk bin arasında tahminler yapılıyor; dönemin tahminleri yüz bine çıkıyordu. Avrupa'nın en zengin ve en dindar başkentlerinden biri, Hristiyan takviminin en kutsal günlerinden birinde, ibadet saatinde yok olmuştu. Bu rastlantı, depremi bir felaket olmaktan çıkarıp bir felsefi soruya dönüştürdü: Her şeye gücü yeten ve iyi olan bir Tanrı buna nasıl izin verir?
+
+## Leibniz'in dünyası
+
+Soru eski, cevaplardan biri yeniydi. Leibniz 1710'da *Teodise*'de (Tanrı'nın adaletinin savunusu anlamında kendi türettiği sözcük) Tanrı'nın sonsuz sayıda mümkün dünya arasından, bütünsel iyiliği en yüksek olanı yarattığını savunmuştu: Bu dünya "mümkün dünyaların en iyisi"dir; içindeki kötülükler, daha büyük bir iyiliğin zorunlu bedelidir ya da sonlu varlıkların kaçınılmaz eksikliğidir. Alexander Pope *İnsan Üzerine Deneme*'de (1734) aynı düşünceyi şiire dökmüştü: "Her ne varsa, doğrudur." 1755'te bu iyimserlik Avrupa'nın eğitimli sınıflarının ortak inancıydı; Lizbon onu bir sabahta yıktı. [Leibniz](/filozof/gottfried-wilhelm-leibniz) kırk yıldır ölüydü; ama tartışma onun adıyla yürüdü.
+
+## Voltaire'in isyanı
+
+Voltaire depremi haber alır almaz yazmaya başladı. 1756 başında yayımlanan *Lizbon Felaketi Üzerine Şiir*, alt başlığıyla "Her şey iyidir aksiyomunun incelenmesi", Leibniz ve Pope'a doğrudan saldırıdır: Enkazın altında can çekişen çocuklara "bu mümkün dünyaların en iyisidir" diyebilir misiniz? Lizbon'un günahı Paris'ten ya da Londra'dan daha mı büyüktü ki cezayı o çekti? Voltaire teodiseyi reddeder ama ateizme geçmez; şiiri umutla biter, "bir gün her şey iyi olacak" ("un jour tout sera bien"), ama "her şey iyidir" kibrine karşı. Üç yıl sonra *Candide* (1759), aynı saldırıyı hicve dönüştürdü: Dr. Pangloss, Lizbon enkazında bile "her şeyin en iyisi için" olduğunu kanıtlamaya çalışan Leibnizci, dünya edebiyatının en kalıcı karikatürlerinden biri oldu. Candide'in son sözü, "bahçemizi işlemeliyiz", metafizik teselliye karşı pratik eylemin manifestosudur.
+
+## Rousseau'nun cevabı
+
+18 Ağustos 1756'da Rousseau, Voltaire'e uzun bir mektup yazdı; felsefe tarihinin en ilginç polemiklerinden biridir. Rousseau'ya göre Voltaire Tanrı'ya haksızlık ediyordu: Lizbon'da yirmi bin kişiyi öldüren doğa değil, insanlardı. Altı-yedi katlı evleri birbirine bitişik yapan, sahile yığılan, servetini kurtarmak için enkaza dönen kimdi? "İnsanlar ormanlarda dağınık yaşasaydı, deprem belki birkaç kişiyi öldürürdü." Felaketin boyutu toplumsal bir yapının, şehirleşmenin, mülkiyetin ürünüydü. Bu, *Eşitsizliğin Kökeni*'nin (1755) tezinin depreme uygulanmasıydı ve bugünün afet sosyolojisinin ilk formülüdür: Doğal afet yoktur, doğal tehlikelerin toplumsal yapılarla karşılaşması vardır. Rousseau ayrıca, Voltaire'in karamsarlığının zenginlerin lüksü olduğunu, yoksulların ve acı çekenlerin tam da bu dünyada bir anlam olduğuna inanmaya ihtiyaç duyduğunu söyledi. Voltaire mektuba doğrudan cevap vermedi; *Candide*'in cevap olduğu söylenir.
+
+## Kant ve doğanın mekaniği
+
+Königsberg'de otuz bir yaşındaki Immanuel Kant, 1756'da deprem üzerine üç makale yayımladı. Bunlar ilahiyat değil, jeolojiydi: Kant yer altındaki boşluklarda sıkışan gazların yanmasıyla depremleri açıklamaya çalıştı (yanlış, ama dönemin en iyi doğa bilimi düzeyinde), Avrupa'nın çeşitli yerlerinde aynı anda gözlenen su dalgalanmalarını topladı, depremin ahlaki anlamına dair spekülasyonları reddetti: Deprem bir ceza değil, doğanın işleyişidir; insanın ödevi onu anlamak ve evlerini buna göre yapmaktır. Kant'ın yazıları modern sismolojinin ilk adımlarından sayılır; ama felsefi önemi başka yerdedir. 1791'de yazdığı *Teodise Alanındaki Bütün Felsefi Denemelerin Başarısızlığı Üzerine* makalesinde Kant, teodisenin kuramsal olarak imkânsız olduğunu savunacaktı: İnsan aklı Tanrı'nın amaçlarını bilemez; Eyüp'ün dürüstlüğü, dostlarının bilgiç tesellilerinden üstündür. Lizbon, Kant'ın yolunu çizdi: Metafizikten pratik akla.
+
+## Felaketin modern anlamı
+
+Lizbon depreminin felsefi sonucu, kötülük probleminin yeniden tanımlanması oldu. Susan Neiman'ın *Modern Düşüncede Kötülük* (2002) kitabındaki tezle, 1755'ten önce "kötülük" tek bir kavramdı: Doğal felaketler, ahlaki kötülükler ve metafizik eksiklik aynı teolojik çerçevenin içindeydi. Lizbon'dan sonra doğal kötülük ile ahlaki kötülük ayrıldı: Deprem artık kimsenin suçu değil, bir doğa olayıydı; kötülük insanın alanına çekildi. Neiman bu dönüşümü Auschwitz'le karşılaştırır: Lizbon doğanın anlamsızlığını, Auschwitz insanın kötülüğünün sınırsızlığını gösterdi; Adorno'nun "Lizbon depremi Voltaire'i Leibniz'in teodisesinden kurtarmaya yetmişti" cümlesi bu karşılaştırmayı başlatan metindir.
+
+Portekiz'de ise Pombal Markisi, kralın sorusuna "ölüleri gömelim, yaşayanları doyuralım" diye cevap verdi ve Lizbon'u ızgara planlı, deprem dayanıklı bir şehir olarak yeniden kurdu; "pombalin" yapı tekniği, ahşap kafesli duvarlar, dünyanın ilk sismik mühendislik örneklerindendir. Pombal ayrıca bütün cemaatlere depremin nasıl yaşandığına dair bir anket gönderdi; cevaplar bugün sismoloji tarihinin ilk sistematik veri kümesidir. Felsefeciler Tanrı'nın adaletini tartışırken bir devlet adamı Kant'ın tavsiyesini uygulamıştı: Anla ve yeniden yap.
+
+İki yüz yetmiş bir yıl sonra depremler hâlâ aynı soruyu sorduruyor; 2023 Şubat'ında Türkiye'de bu soru yeniden soruldu ve cevaplar yine Voltaire ile Rousseau arasında bölündü: Doğanın anlamsızlığı mı, insanın ihmali mi? Lizbon'un öğrettiği şey belki şudur: İkisi aynı anda doğru olabilir, ve felsefenin işi birincisini kabul edip ikincisini affetmemektir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 31 Ekim: Wittenberg'de 95 tez (1517) ve vicdanın doğuşu",
+    slug: "felsefe-tarihinde-bugun-31-ekim-luther-95-tez-vicdan",
+    summary:
+      "31 Ekim 1517'de Martin Luther'in endüljans ticaretine karşı 95 tezini Wittenberg'de dolaşıma sokması, Reform'un başlangıcı sayılır; kapıya çivileme hikâyesi ise tartışmalı. Felsefe için Reform'un anlamı teolojiyi aşar: Hegel ona 'öznelliğin ilkesi'nin doğuşu dedi, Weber kapitalizmin ruhunu buldu, Kant'ın özerkliği ve modern vicdan kavramı buradan geçer. Luther filozof değildi, felsefeye düşmandı; ama onsuz modern felsefe düşünülemez.",
+    seoTitle: "31 Ekim 1517: Luther'in 95 tezi, Reform ve modern vicdanın doğuşu",
+    metaDescription:
+      "Felsefe tarihinde 31 Ekim: Luther'in 95 tezi (1517). Endüljans, 'yalnızca inançla', Erasmus'la özgür irade tartışması, Hegel'in Reform yorumu, Weber'in Protestan etiği, vicdan ve özerklik kavramlarının Reform'daki kökleri.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lutherstadt%20Wittenberg%2009-2016%20photo06.jpg?width=1600",
+    imageCredit: "Wittenberg Şato Kilisesi'nin 'tez kapısı' (1858'de dökülmüş bronz kapı) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/luther/",
+    publishedAt: "2026-10-30T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "ronesans", "alman-idealizmi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Martin Luther", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/luther/", primary: true },
+      { title: "Disputatio pro declaratione virtutis indulgentiarum (95 Tez)", publisher: "Project Wittenberg", url: "https://www.projectwittenberg.org/pub/resources/text/wittenberg/luther/web/ninetyfive.html" },
+    ],
+    content: `Hikâyeyi herkes bilir: 31 Ekim 1517'de Wittenberg'li bir Augustinus keşişi, Martin Luther, endüljans satışına karşı yazdığı doksan beş tezi Şato Kilisesi'nin kapısına çiviledi ve Reform başladı. Hikâyenin ilk yarısı tarihsel olarak sağlam: Luther o gün Mainz Başpiskoposu Albrecht'e tezleri içeren bir mektup gönderdi ve tezler haftalar içinde Almanya'da basılıp yayıldı. Kapıya çivileme ise ilk kez Melanchthon tarafından, Luther'in ölümünden sonra, 1546'da anlatıldı; Luther'in kendisi hiç söz etmedi. Tarihçiler bugün bölünmüş durumda; ama tezlerin üniversite kapısına asılması o dönemde akademik tartışma çağrısının olağan biçimiydi, dolayısıyla imkânsız da değil. Felsefe tarihi için önemli olan çivi değil, tezlerin açtığı yarıktır.
+
+## Doksan beş tez ne diyordu?
+
+Tezler Latince yazılmış akademik bir tartışma davetiydi, bir devrim bildirisi değil. Konusu dardı: Papa X. Leo'nun Aziz Petrus Bazilikası'nın inşası için yetki verdiği ve Dominiken Tetzel'in Almanya'da "para kutuya düşer düşmez ruh araftan sıçrar" sloganıyla pazarladığı endüljanslar. Luther'in ilk tezi, İsa'nın "tövbe edin" çağrısının müminin bütün hayatının tövbe olmasını istediğini söyler; dolayısıyla tövbe satın alınamaz. 62. tez kilisenin gerçek hazinesinin Tanrı'nın lütfunun İncil'i olduğunu, 86. tez ise Krezüs'ten zengin papanın bazilikayı neden kendi parasıyla yaptırmadığını sorar. Tezler papanın yetkisini reddetmez; endüljansın teolojisini sorgular. Ama sorgulamanın mantığı daha ileri gidiyordu: Kurtuluş kilisenin dağıttığı bir şey değilse, kilise nedir?
+
+## Yalnızca inançla
+
+Luther'in sonraki üç yılda geliştirdiği ve 1520'nin üç büyük risalesinde dile getirdiği öğreti, felsefi bakımdan asıl kırılmaydı. *Sola fide*, "yalnızca inançla": İnsan iyi işleriyle değil, Tanrı'nın karşılıksız lütfuna duyduğu inançla aklanır. *Sola scriptura*: Otorite kilise geleneği değil, kutsal metindir ve her mümin onu okuyabilir. "Bütün müminlerin rahipliği": Ruhban ile laik arasında özsel fark yoktur. Bu üç ilke, bireyi Tanrı'yla ilişkisinde kurumsal aracıdan kurtarıyordu; ve Worms Diyeti'nde (1521) Luther'in imparatora söylediği söz, bu kurtuluşun formülü oldu: "Vicdanım Tanrı'nın sözüne bağlıdır. Hiçbir şeyi geri alamam ve almayacağım, çünkü vicdana karşı davranmak ne güvenli ne doğrudur." "Burada duruyorum, başka türlü yapamam" cümlesi muhtemelen sonradan eklenmiştir; ama vicdan vurgusu kayıtlarda vardır.
+
+Luther felsefeye düşmandı. Aristoteles'i "lanetli, kibirli, düzenbaz pagan" diye anar, aklı "şeytanın fahişesi" diye lanetler, skolastiğin akıl ile vahyi uzlaştırma çabasını Hristiyanlığın yozlaşması sayar. Heidelberg Tartışması'nda (1518) "haç teolojisi"ni "zafer teolojisi"nin karşısına koyar: Tanrı akılla değil, çarmıhtaki zayıflıkta bilinir. Erasmus 1524'te *Özgür İrade Üzerine* ile Luther'in insan iradesini hiçe sayan öğretisine itiraz edince, Luther *Köle İrade Üzerine* (1525) ile cevap verdi: İnsan iradesi Tanrı ile Şeytan arasında bir binek hayvanı gibidir, kimin bindiğine göre gider. Hümanizm ile Reform burada ayrıldı; [Erasmus'un](/haber/felsefe-tarihinde-bugun-28-ekim-erasmus-deliligin-ovgusu) orta yolu kayboldu.
+
+## Hegel: Öznelliğin ilkesi
+
+Felsefenin Luther'i sahiplenmesi paradoksaldır ve en çok Hegel'e borçludur. *Tarih Felsefesi Dersleri*'nde Reform, "Alman tininin" dünya tarihine katkısı, "her şeyi dönüştüren güneşin doğuşu"dur: Luther'le birlikte hakikat artık dışsal bir otoritenin elinde değil, bireyin kendi iç dünyasında, inancında, vicdanındadır. Hegel buna "öznelliğin ilkesi" der ve modern dünyanın, Fransız Devrimi'nin ve kendi felsefesinin temelini orada görür; Protestanlık özgürlüğün dinidir, çünkü bireyi Tanrı karşısında doğrudan sorumlu kılar. Hegel'in okumasında Luther'in "vicdan"ı, Kant'ın "özerklik"ine dönüşür: Kendi yasasını kendi koyan akıl, kendi inancını kendi kuran müminin laikleşmiş hâlidir. Bu çizgi tartışmalıdır (Luther vicdanı akla değil Tanrı'nın sözüne bağlıyordu), ama Alman felsefesinin kendini anlama biçimini belirlemiştir; Feuerbach ve genç Marx da Luther'i, kendi din eleştirilerinin öncüsü olarak okur.
+
+## Weber: Dünyanın büyüsünün bozulması
+
+Max Weber'in *Protestan Ahlakı ve Kapitalizmin Ruhu* (1904-05), Reform'un felsefi mirasını başka yerde buldu: Luther'in "meslek" (*Beruf*) kavramında. Luther, Kutsal Kitap çevirisinde dünyevi işi bir "çağrı" olarak kutsamış, manastırdan dünyaya dönmüştü; Calvin'in kader öğretisi bu çağrıyı sistematik bir çalışma ahlakına dönüştürdü. Weber'in daha derin tezi, Reform'un "dünyanın büyüsünü bozması"dır (*Entzauberung*): Kutsal nesnelerin, ayinlerin, aracıların kaldırılması, dünyayı hesaplanabilir ve rasyonel bir alana dönüştürdü; modern bilim ve bürokrasi, Reform'un istenmemiş çocuklarıdır. Luther'in otoriteye karşı vicdan savunusu da iki yüzlüydü: 1525'te köylüler kendi vicdanlarıyla ayaklandığında Luther prensleri onları "kuduz köpekler gibi" ezmeye çağırdı; Yahudiler hakkında yazdıkları ise mirasının en karanlık sayfasıdır.
+
+## Vicdanın tarihi
+
+Yine de 31 Ekim'in felsefi anlamı, vicdan kavramının kamusal hayata girişidir. Antik dünyada *syneidesis* vardı, Orta Çağ'da *conscientia* ve *synderesis* ayrımı; ama bir kişinin, imparator ve papa karşısında, "vicdanıma karşı davranamam" diyerek direnmesi ve bunun bir siyasal olgu hâline gelmesi yeniydi. Sonraki yüzyılların hoşgörü tartışmaları (Castellio, Locke, Bayle), din özgürlüğü ve nihayet insan hakları belgelerindeki "vicdan özgürlüğü" bu andan türer. Luther bunu istememişti; kendi vicdanını savunuyordu, herkesinkini değil. Ama fikirler sahiplerinden bağımsız yaşar.
+
+Wittenberg'in kapısı 1760'ta yandı; bugünkü bronz kapıya tezler 1858'de kazındı. Çivi efsane olabilir; kapıdaki metin gerçektir. Ve felsefe için soru hâlâ açıktır: Vicdan, Luther'in dediği gibi Tanrı'nın sözüne mi bağlıdır, Kant'ın dediği gibi aklın yasasına mı, yoksa Hegel'in dediği gibi tarihin kendini bilmesine mi? Üç cevap da 31 Ekim 1517'de başlar.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 30 Ekim: Paul Valéry, zihnin kendi kendini gözleyen şairi",
+    slug: "felsefe-tarihinde-bugun-30-ekim-paul-valery",
+    summary:
+      "30 Ekim 1871'de Sète'te doğan Paul Valéry, yirmi yıl şiir yazmayı bırakıp her sabah şafakta 'zihnin işleyişi' üzerine not aldı; 26 bin sayfalık Defterler'i, yirminci yüzyılın en özgün bilinç felsefelerinden birini içerir. Monsieur Teste, Leonardo yöntemi, 'saf ben' ve Avrupa'nın ölümlülüğü üzerine: Filozof olmayı reddeden bir filozofun portresi.",
+    seoTitle: "30 Ekim: Paul Valéry'nin doğumu (1871) — Defterler, Monsieur Teste ve zihnin felsefesi",
+    metaDescription:
+      "Felsefe tarihinde 30 Ekim: Paul Valéry 1871'de doğdu. Cahiers (Defterler), Monsieur Teste, Leonardo da Vinci'nin Yöntemine Giriş, 'saf ben', Cenova gecesi, Avrupa krizi, Valéry'nin felsefeyle ilişkisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Val%C3%A9ry%20-%20photo%20Henri%20Manuel.jpg?width=1600",
+    imageCredit: "Paul Valéry, Henri Manuel'in fotoğrafı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.britannica.com/biography/Paul-Valery",
+    publishedAt: "2026-10-29T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "estetik", "bilinc", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Paul Valéry", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/Paul-Valery", primary: true },
+      { title: "Cahiers 1894-1914 (édition intégrale)", publisher: "Gallimard", url: "https://www.gallimard.fr/Catalogue/GALLIMARD/Blanche/Cahiers-1894-1914" },
+    ],
+    content: `Bazı yazarlar felsefeyi küçümseyerek felsefe yapar. Paul Valéry filozofları "kendi dillerinin kurbanı" sayardı, "Tanrı", "varlık", "zaman" gibi sözcüklerin arkasında hiçbir şey olmadığını, felsefenin bir edebiyat türü olduğunu söylerdi; ama 1894'ten 1945'teki ölümüne kadar her sabah beş ile sekiz arasında, kahvesini içerken, zihnin nasıl çalıştığı üzerine not aldı ve geriye 261 defter, 26 bin sayfa bıraktı. *Cahiers* (Defterler), yirminci yüzyılın en kapsamlı ve en az sistematik bilinç felsefesidir. 30 Ekim 1871'de Akdeniz kıyısındaki Sète'te, Korsikalı bir gümrük memuru ile Cenovalı bir annenin oğlu olarak doğan Valéry, "şair" sıfatını hiç sevmedi; kendini "zihnin işleyişiyle ilgilenen biri" diye tanımladı.
+
+## Cenova gecesi
+
+Hikâye bir krizle başlar. 1892 Ekim'inde, yirmi bir yaşında, Cenova'da fırtınalı bir gecede (Valéry buna hep "Cenova gecesi" dedi) karşılıksız bir aşkın ve edebî kuşkuların ortasında bir karar aldı: Duyguların ve hayal gücünün "putlarını" kırmak, şiiri bırakmak ve yalnızca zihnin kendisini, onun gücünü ve mekanizmasını anlamaya adanmak. Yirmi yıl boyunca neredeyse hiç şiir yayımlamadı; Savaş Bakanlığı'nda memur, sonra Havas ajansının yöneticisinin özel sekreteri olarak çalıştı ve sabahları defterlerini doldurdu. 1917'de, arkadaşlarının ısrarıyla yayımladığı *Genç Parka* (*La Jeune Parque*) onu bir gecede Fransa'nın en ünlü şairi yaptı; *Deniz Mezarlığı* (1920) ve *Charmes* (1922) izledi. 1925'te Académie française'e seçildi, 1937'de Collège de France'da kendisi için kurulan Poetika kürsüsüne oturdu, 1945'te öldüğünde de Gaulle ona ulusal cenaze töreni düzenletti. Ama Valéry için şiir hep bir "egzersiz"di; asıl iş defterlerdeydi.
+
+## Leonardo'nun yöntemi ve Monsieur Teste
+
+Valéry'nin iki erken düzyazısı programını verir. *Leonardo da Vinci'nin Yöntemine Giriş* (1895) Leonardo'yu ressam ya da mühendis olarak değil, "zihinsel işlemlerin" evrensel bir örneği olarak ele alır: Resim yapmakla köprü tasarlamak arasında, sanatla bilim arasında, Leonardo'nun zihninde ortak bir yöntem vardır ve Valéry bu yöntemi, hangi alanda olursa olsun zihnin "mümkün olanı" kurma kapasitesini anlamak ister. *Monsieur Teste'le Bir Akşam* (1896) ise bu zihnin edebî kişileştirmesidir: Teste (Latince *testis*, tanık; eski Fransızca *teste*, kafa) hiçbir şey yayımlamayan, hiçbir duygusunu dışa vurmayan, kendi düşüncelerini sürekli gözleyen, "ben"ini bir nesne gibi inceleyen adam. "Aptallık benim güçlü yanım değil" cümlesiyle tanınır. Teste, bilincin kendi üzerine katlanmasının sınır durumudur; Valéry onu hayranlıkla ve ürpertiyle yaratmıştır, çünkü saf öz-bilinç yaşanamaz bir şeydir.
+
+## Defterler: Bir bilinç felsefesi
+
+*Cahiers*'nin felsefesi birkaç kavram etrafında döner. "Saf ben" (*moi pur*): Bütün içeriklerinden, anılarından, duygularından, adından soyulmuş, yalnızca "bilincinde olan" olarak kalan ben; Husserl'in aşkınsal egosuna, Fichte'nin mutlak benine akrabadır, ama Valéry bunu okuma yoluyla değil, kendi gözlemiyle bulmuştur ve bu "ben"in bir kurgu, bir sınır değeri olduğunu bilir. "Zihnin işleyişi" (*fonctionnement de l'esprit*): Valéry düşünceyi içeriğinden değil, biçiminden, geçişlerinden, ritminden inceler; dikkat, bellek, rüya, uyanış anları, dilin düşünceye direnişi. Matematikçi ve fizikçi dostları (Poincaré'yi okur, Einstein'la tanışır) ona "zihnin cebiri" fikrini verir: Zihinsel işlemleri değişkenler ve dönüşümlerle yazmak. Bu proje başarısız kaldı ve Valéry bunu biliyordu; ama başarısızlığın notları, bilinç fenomenolojisinin en zengin arşivlerinden biridir. Merleau-Ponty onu okudu, Derrida "Qual Quelle" denemesini ona ayırdı, Deleuze ve Blanchot ondan beslendi.
+
+Valéry'nin dil kuşkusu da felsefeyle hesaplaşmasıdır. Filozoflar "zaman nedir?" diye sorar; Valéry, "zaman" sözcüğünün gündelik kullanımda kusursuz çalıştığını, sorunun sözcük tek başına ele alındığında, "köprüden çıkarılmış bir tahta" gibi, ortaya çıktığını söyler. Bu, Wittgenstein'ın "dil tatile çıktığında felsefi sorunlar doğar" tezinin neredeyse aynısıdır ve Valéry bunu Wittgenstein'dan bağımsız, ondan önce yazmıştır.
+
+## Avrupa'nın ölümlülüğü
+
+1919'da, savaştan hemen sonra yazdığı *Tinin Krizi* (*La Crise de l'esprit*) Valéry'yi bir Avrupa düşünürü yaptı. Açılış cümlesi yüzyılın en çok alıntılananlarından biridir: "Biz uygarlıklar, artık ölümlü olduğumuzu biliyoruz." Elam, Ninova, Babil gibi Avrupa da yok olabilirdi ve savaş, bilginin, yöntemin ve tekniğin yıkıma nasıl hizmet edebileceğini göstermişti. Valéry'nin Avrupa'sı coğrafya değil, bir zihin biçimiydi: Roma hukuku, Hristiyanlık ve Yunan geometrisinin karışımı. Bu üçlü, Husserl'in 1935 Viyana konferansındaki "Avrupa insanlığının krizi"yle neredeyse aynı yıllarda, aynı kaygıyla yazılmıştır. Valéry siyasette temkinli bir liberaldi; 1930'larda Milletler Cemiyeti'nin entelektüel iş birliği komisyonunda çalıştı, Einstein ve Freud'la mektuplaştı, ama Vichy döneminde Bergson'un ölümü üzerine Akademi'de yaptığı cesur konuşma dışında siyasal müdahaleden kaçındı.
+
+## Filozof olmayan filozof
+
+Valéry'nin felsefeyi reddetmesi, felsefenin bir türüdür: Sistem yerine gözlem, kavram yerine işlem, hakikat yerine "zihnin gücü". "Bazen düşünüyorum, bazen varım" diye yazmıştı, Descartes'a karşı; düşünce ile varlık arasında bir boşluk vardır ve Valéry o boşluğu haritalamak istedi. Defterlerin tam baskısı hâlâ sürüyor; ilk kez 1957-61'de tıpkıbasımla yayımlandı, Gallimard'ın eleştirel baskısı 1987'de başladı. Her sabah beş ile sekiz arasında elli yıl boyunca aynı soruyu soran bir adamın notları, felsefe tarihinin kıyısında, onu küçümseyerek, en saf biçimlerinden birini verir: Düşünmeyi düşünmek.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 29 Ekim: Cumhuriyet'in ilanı (1923) ve 'res publica' fikri",
+    slug: "felsefe-tarihinde-bugun-29-ekim-cumhuriyet-res-publica",
+    summary:
+      "29 Ekim 1923 akşamı Ankara'da Teşkilât-ı Esasiye Kanunu'na eklenen tek bir cümle, 'Türkiye Devleti'nin şekl-i hükûmeti Cumhuriyettir', yüz üç yıl önce bir rejim kurdu. Ama 'cumhuriyet' bir yönetim biçiminden önce bir felsefi kavramdır: Cicero'nun res publica'sından Machiavelli ve Rousseau'ya, Kant'ın cumhuriyetçi anayasasından Ziya Gökalp'in halkçılığına, 'ortak şey' fikrinin tarihi.",
+    seoTitle: "29 Ekim 1923: Cumhuriyet'in ilanı ve res publica kavramının felsefi tarihi",
+    metaDescription:
+      "Felsefe tarihinde 29 Ekim: Türkiye'de Cumhuriyet'in ilanı (1923). Res publica, Cicero, Machiavelli, Rousseau'nun genel iradesi, Kant'ın cumhuriyetçi anayasa idesi, Gökalp ve Cumhuriyet'in düşünsel kaynakları; cumhuriyet ile demokrasi ayrımı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2.%20Meclis%20Binas%C4%B1.jpg?width=1600",
+    imageCredit: "İkinci Türkiye Büyük Millet Meclisi Binası (Cumhuriyet Müzesi), Ankara · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/republicanism/",
+    publishedAt: "2026-10-28T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "siyaset-felsefesi", "demokrasi", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Republicanism", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/republicanism/", primary: true },
+      { title: "Cumhuriyetin İlanı", publisher: "TBMM — Zabıt Ceridesi, 29 Teşrinievvel 1339", url: "https://www5.tbmm.gov.tr/tutanaklar/TUTANAK/TBMM/d02/c003/tbmm02003043.pdf" },
+    ],
+    content: `29 Ekim 1923 akşamı saat 20.30'da Ankara'da, bugün Cumhuriyet Müzesi olan binanın henüz tamamlanmadığı günlerde, Birinci Meclis binasında, Teşkilât-ı Esasiye Kanunu'nun birinci maddesine bir cümle eklendi: "Türkiye Devleti'nin şekl-i hükûmeti Cumhuriyettir." Oylamaya katılan 158 milletvekilinin tamamı kabul oyu verdi; Mustafa Kemal Paşa aynı gece cumhurbaşkanı seçildi; İstanbul'da hâlâ bir halife oturuyordu. Yüz üç yıl sonra bu tarihi felsefe takviminde anmak, bir rejimin kuruluşunu kutlamak değil; "cumhuriyet" sözcüğünün taşıdığı ve o gece Ankara'da siyasal bir karara dönüşen iki bin yıllık bir kavramı hatırlamaktır.
+
+## Res publica: Halkın şeyi
+
+Sözcük Latince *res publica*'dan gelir: "kamusal şey", "ortak mesele". Cicero *De re publica*'da (MÖ 51) tanımı verir: "Res publica, res populi" — cumhuriyet halkın şeyidir; ve halk, "herhangi bir insan yığını değil, hukuk konusunda uzlaşma ve ortak yararla birleşmiş bir topluluktur." Bu tanımda iki fikir vardır ki sonraki bütün cumhuriyetçi düşünceyi belirler: Devlet kimsenin mülkü değildir (bir kralın, bir ailenin, bir sınıfın değil); ve siyasal topluluk hukukla kurulur, güçle değil. [Cicero üzerine yazdığımızda](/haber/cicero-cumhuriyet-erdem-arabuluculuk) bu tanımın Roma'nın çöküşü sırasında yazıldığını, yani bir savunma olduğunu belirtmiştik. Romalılar için *res publica*nın karşıtı demokrasi değil, *regnum*, krallıktı; krallık devletin bir kişinin "şeyi" olmasıdır.
+
+Arapça *cumhur* (topluluk, kalabalık, halkın çoğunluğu) kökünden türetilen "cumhuriyet", Osmanlı Türkçesinde 18. yüzyıldan itibaren Avrupa'nın kralsız devletleri için kullanıldı; Fransız Devrimi'nden sonra kavram tehlikeli bir anlam kazandı. Namık Kemal ve Yeni Osmanlılar meşrutiyeti savundu, cumhuriyeti değil; 1923'e kadar "cumhuriyet" sözcüğü kamuoyunda açıkça telaffuz edilmedi. Mustafa Kemal'in 1923 Eylül'ünde bir Avusturyalı gazeteciye "yeni rejimin adı cumhuriyet olacak" demesi, ilanın ilk işaretiydi.
+
+## Machiavelli ve Rousseau: Özgürlük olarak cumhuriyet
+
+Modern cumhuriyetçilik Floransa'da yeniden doğdu. [Machiavelli'nin](/haber/machiavelli-erdem-talih-cumhuriyet) *Söylevler*'i (1517 dolayları) cumhuriyeti Roma örneğinde yeniden düşündü: Cumhuriyetin özü, yurttaşların kimsenin keyfî iradesine bağımlı olmaması, yani "özgürlük" (*libertà*) ve bu özgürlüğü koruyan yurttaşlık erdemidir (*virtù*). Quentin Skinner ve Philip Pettit'in son otuz yılda yeniden canlandırdığı "cumhuriyetçi özgürlük" kavramı buradan gelir: Özgür olmak müdahale edilmemek değil, tahakküm altında olmamaktır; iyi niyetli bir efendinin kölesi de köledir. Bu, liberal "negatif özgürlük"ten farklı bir özgürlük kavramıdır ve cumhuriyetin neden sadece bir yönetim biçimi değil bir özgürlük kuramı olduğunu gösterir.
+
+Rousseau *Toplum Sözleşmesi*'nde (1762) cumhuriyeti yeniden tanımladı: "Yasalarla yönetilen her devlete, yönetim biçimi ne olursa olsun, cumhuriyet derim; çünkü ancak o zaman kamu yararı yönetir ve kamusal şey (*la chose publique*) bir şeydir." Rousseau'nun "genel irade"si, Cicero'nun "hukuk konusunda uzlaşma"sının radikal biçimidir: Yasa, halkın kendi kendine koyduğu kuraldır; itaat etmek kendine itaat etmektir. Bu formül Fransız Devrimi'ni ve Jakobenleri besledi, ama totaliter okumaya da açıktı; genel irade adına kim konuşacaktı?
+
+## Kant: Cumhuriyet demokrasi değildir
+
+Kant *Ebedi Barış*'ta (1795) kavramsal tarihe en önemli ayrımı ekledi. Ona göre her devletin "cumhuriyetçi" bir anayasası olmalıdır; ama cumhuriyet demokrasiyle karıştırılmamalıdır. Yönetim biçimleri ikiye ayrılır: Egemenliğin biçimi (kaç kişi yönetir: otokrasi, aristokrasi, demokrasi) ve yönetimin biçimi (nasıl yönetir: cumhuriyetçi ya da despotik). Cumhuriyetçilik, yasama ile yürütmenin ayrılması ve yasaların, herkesin özgürlüğünü herkesinkiyle bağdaştıracak biçimde, sanki bütün yurttaşların rızasıyla konulmuş gibi yapılmasıdır. Kant'a göre demokrasi, çoğunluğun doğrudan yönettiği biçimiyle, "zorunlu olarak despotizmdir", çünkü herkes herkes hakkında karar verir ve kuvvetler ayrılığı yoktur. Cumhuriyet ise temsilî olmalıdır. Bu ayrım Türkiye'nin kuruluş tartışmalarında yankılanır: 1923'te kurulan cumhuriyet, çok partili demokrasiye ancak 1946-50'de geçti ve "cumhuriyet ile demokrasi arasındaki mesafe" yüz yıllık siyasal düşüncenin ana temalarından biri oldu.
+
+## 1923'ün düşünsel kaynakları
+
+Türkiye Cumhuriyeti'ni kuranların okuduğu filozoflar Fransız'dı: Rousseau, Montesquieu, Comte ve Durkheim. Ziya Gökalp'in Durkheim'dan aldığı "halkçılık" ve "millî dayanışma" fikri, Cumhuriyet Halk Fırkası'nın altı okundan ikisinin kaynağıdır; Gökalp için cumhuriyet, bir sınıfın değil bütün halkın devleti, "imtiyazsız, sınıfsız, kaynaşmış bir kitle" idealinin kurumsal biçimiydi. Mustafa Kemal'in 1930'da yazdırdığı *Medenî Bilgiler* kitabında cumhuriyet, "milletin kendi kendini idare etmesi" ve "fazilet"le tanımlanır; "cumhuriyet fazilettir" sözü Montesquieu'nün *Kanunların Ruhu*'ndaki tezin, cumhuriyetin ilkesinin erdem olduğu tezinin, neredeyse çevirisidir. 1923'te seçilen model, Kant'ın anlamında cumhuriyetçi (kuvvetler ayrılığına değil, "kuvvetler birliği"ne dayanan bir meclis hükümeti) ve Rousseau anlamında genel iradeci bir karışımdı; bu gerilim, Cumhuriyet'in sonraki anayasal krizlerinin de kaynağıdır.
+
+## Cumhuriyet bugün ne demek?
+
+Üç yıl önce yüzüncü yılında [yayımlanan iki ciltlik bilanço](/haber/cumhuriyetin-100-yilinda-turkiyede-felsefe), Türkiye'de felsefenin Cumhuriyet'le birlikte kurumsallaştığını göstermişti: Darülfünun'dan İstanbul Üniversitesi'ne geçiş, Alman sürgünü profesörler, Hans Reichenbach'ın İstanbul yılları, felsefe bölümlerinin ve Türkiye Felsefe Kurumu'nun kuruluşu. Ama Cumhuriyet'in felsefesi hâlâ yazılmayı bekleyen bir konudur: 1923'te kurulan şeyin Cicero anlamında bir *res publica* mı, Rousseau anlamında bir genel irade mi, Kant anlamında bir temsilî cumhuriyet mi, yoksa bunların Anadolu'ya özgü bir bileşimi mi olduğu sorusu, siyasal tarih kadar siyaset felsefesinin de sorusudur.
+
+Cicero'nun tanımına dönersek: Cumhuriyet "halkın şeyi"dir ve halk "hukuk konusunda uzlaşmayla" kurulur. Bu tanım bir rejimin adı değil, bir ölçüttür; her 29 Ekim'de kutlanan şey kadar, her 29 Ekim'de yeniden sorulması gereken sorudur: Ortak şey hâlâ ortak mı?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 28 Ekim: Erasmus, Deliliğe Övgü ve hümanizmin orta yolu",
+    slug: "felsefe-tarihinde-bugun-28-ekim-erasmus-deliligin-ovgusu",
+    summary:
+      "Geleneksel kabule göre 28 Ekim 1466'da Rotterdam'da bir rahibin gayrimeşru oğlu olarak doğan Desiderius Erasmus, Avrupa'nın ilk 'kamusal entelektüeli' oldu: Yunanca Yeni Ahit'i, Deliliğe Övgü'yü, Adagia'yı yazdı; Luther'le özgür irade üzerine tartıştı ve iki tarafın da düşmanlığını kazandı. Hoşgörünün, filolojinin ve ironinin filozofu üzerine.",
+    seoTitle: "28 Ekim: Erasmus'un doğumu (1466) — Deliliğe Övgü, hümanizm ve özgür irade tartışması",
+    metaDescription:
+      "Felsefe tarihinde 28 Ekim: Desiderius Erasmus 1466'da doğdu. Deliliğe Övgü (1511), Adagia, Novum Instrumentum (1516), Luther'le Özgür İrade tartışması, Hristiyan hümanizmi, hoşgörü ve 'Erasmus'un orta yolu'.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Holbein-erasmus.jpg?width=1600",
+    imageCredit: "Hans Holbein (Genç), Rotterdamlı Erasmus portresi (1523) · Louvre · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/erasmus/",
+    publishedAt: "2026-10-27T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ronesans", "din-felsefesi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Desiderius Erasmus", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/erasmus/", primary: true },
+      { title: "Moriae Encomium / Deliliğe Övgü (1511)", publisher: "Project Gutenberg (İngilizce çeviri)", url: "https://www.gutenberg.org/ebooks/30201" },
+    ],
+    content: `Doğum tarihi bile ironiktir: Erasmus kendi yaşını farklı yerlerde farklı söyledi, 1466 ile 1469 arasında değişen tarihler verdi; ve bunu, bir rahibin gayrimeşru oğlu olduğu gerçeğini örtmek için yaptığı düşünülür. Gelenek 28 Ekim 1466'yı kabul eder; Rotterdam'daki heykelinin kaidesinde bu tarih yazar. Desiderius Erasmus, "arzulanan" anlamındaki Latince adını da kendi seçmişti; gerçek adı Geert Geerts'ti. Kendi adını, doğum tarihini ve kimliğini kuran bir adam, Avrupa'nın ilk modern entelektüelidir: Hiçbir prense, üniversiteye ya da tarikata bağlı kalmadan, yalnızca kalemiyle, matbaayla ve mektuplarıyla kıta çapında bir otorite kurdu.
+
+## Matbaanın ilk yıldızı
+
+Erasmus matbaanın çocuğuydu. Gutenberg'den yirmi yıl sonra doğdu ve kitaplarının Avrupa'da nasıl dolaştığını anlayan ilk yazarlardan biri oldu; Venedik'te Aldus Manutius'un, Basel'de Froben'in matbaasında bizzat çalıştı, dizgiyi kendisi düzeltti. *Adagia* (1500), antik atasözleri derlemesi, ilk baskısında 818 maddeyken ölümünden önce 4.151'e ulaştı ve yüzyılın en çok satan kitabı oldu: "Kör ülkede tek gözlü kraldır", "Savaş tatlıdır onu tatmamışlara." Her atasözüne yazdığı denemeler, Montaigne'den önce deneme türünün ilk örnekleridir. 1516'da yayımladığı *Novum Instrumentum*, Yunanca Yeni Ahit'in ilk basılı eleştirel metni ve yeni Latince çevirisi, Hieronymus'un Vulgata'sındaki çeviri hatalarını gösterdi; "tövbe edin" (*poenitentiam agite*) sözünün aslında "zihninizi değiştirin" (*metanoeite*) anlamına geldiğini ortaya koyması, Luther'in ilk tezine doğrudan kaynaklık etti. Filoloji, Erasmus'un elinde teolojik bir silaha dönüştü: Metni doğru okumak, otoriteyi sorgulamaktır.
+
+## Deliliğe Övgü
+
+1509'da İtalya'dan İngiltere'ye at sırtında dönerken, dostu Thomas More'un evinde bir haftada yazdığı *Moriae Encomium* (1511), başlığıyla More'un adına (*moria*, Yunanca delilik) göz kırpar. Kitapta Delilik (Stultitia) kürsüye çıkar ve kendini över: Onsuz hiçbir evlilik yapılmaz, hiçbir çocuk doğmaz, hiçbir savaşa gidilmez, hiçbir dostluk sürmez; bilgeler mutsuz, deliler mutludur. Övgünün ilk yarısı sevimli bir paradokstur; ikinci yarısı sertleşir: Delilik, gramercileri, filozofları ("hiçbir şey bilmezler ama her şeyi bildiklerini iddia ederler"), ilahiyatçıları (Meryem'in rahminde İsa'nın nasıl bulunduğunu tartışan skolastikler), keşişleri, kardinalleri ve papaları tek tek över, yani yerer. Ve son bölümde ton yeniden değişir: Pavlus'un "Tanrı için deli" sözüyle, Hristiyan inancının kendisi dünyevi akla göre bir deliliktir ve en yüce deliliktir. Kitap üç kayıtta çalışır ve okur hangisinin ciddi olduğunu hiç bilemez; bu belirsizlik Erasmus'un yöntemidir. Yüzyıllar sonra Foucault *Deliliğin Tarihi*'ni bu kitapla açacak, Rönesans'ta deliliğin henüz hapsedilmemiş, konuşan bir hakikat olduğunu söyleyecekti.
+
+## Hristiyan hümanizmi: Philosophia Christi
+
+Erasmus'un kendi programına verdiği ad "İsa'nın felsefesi"dir (*philosophia Christi*): Hristiyanlık bir dogmalar ve ayinler sistemi değil, İncil'deki İsa'nın hayatını örnek alan ahlaki bir yaşam biçimidir; antik felsefe, özellikle Sokrates ve Stoacılar, bu yaşama hazırlıktır ("Aziz Sokrates, bizim için dua et" diye yazmıştır). *Hristiyan Askerinin El Kitabı* (1503) bu programı sıradan okur için anlatır: Dış ayinler değil iç dönüşüm, hac değil komşuya sevgi. Erasmus skolastik teolojiyi, ayinciliği ve rahiplerin cehaletini acımasızca eleştirdi; ama kilisenin birliğinden hiç vazgeçmedi. Reform'u, "Luther'in yumurtladığı yumurtayı Erasmus kuluçkaya yattı" diye özetleyen çağdaşları haksız değildi; ama Erasmus yumurtadan çıkanı tanımadı.
+
+## Özgür irade: Luther'le kopuş
+
+Yıllarca iki taraf arasında kalmaya çalıştı; sonunda 1524'te *Özgür İrade Üzerine Tartışma*'yı (*De libero arbitrio*) yazdı. Konu seçimi anlamlıdır: Erasmus Luther'e endüljans ya da papalık üzerinden değil, felsefi bir sorun üzerinden saldırdı. İnsan iradesinin kurtuluşta hiçbir payı yoksa, İncil'in emirleri, uyarıları ve vaatleri ne anlama gelir? Erasmus'un tavrı kuşkucudur: Kutsal metin bu konuda belirsizdir, dolayısıyla kesin hüküm vermemeli, kilisenin ortak yorumuna uymalıyız; ve ahlaki hayat için insana bir pay bırakmak gerekir. [Luther'in cevabı](/haber/felsefe-tarihinde-bugun-31-ekim-luther-95-tez-vicdan), *Köle İrade Üzerine*, acımasızdı: Erasmus'u "kuşkucu", "Lucianus", "domuz" diye andı; Hristiyan kuşkucu olamaz, iddialarda bulunur. Bu tartışma, Reform ile hümanizmin ayrıldığı andır. Erasmus kaybetti: Protestanlar onu korkak, Katolikler hain saydı; 1559'da eserleri Yasak Kitaplar Dizini'ne girdi. 1536'da Basel'de, Protestan bir şehirde, Katolik bir rahip olarak, son ayinleri almadan öldü.
+
+## Erasmus'un orta yolu
+
+Stefan Zweig 1934'te, Nazizmin yükselişinde, *Rotterdamlı Erasmus'un Zaferi ve Trajedisi*'ni yazdı ve onu fanatizmler çağında ılımlılığın, hoşgörünün ve Avrupa fikrinin yenilmiş kahramanı olarak sundu. Bu okuma bugün de geçerlidir ve sorunludur. Erasmus'un "orta yol"u bir ilkesizlik miydi, yoksa bir ilke mi? Kendi cevabı ikincisiydi: Kesinlikten kaçınmak, karşı tarafı dinlemek, şiddeti her koşulda reddetmek (*Querela Pacis*, Barışın Yakınması, 1517, Avrupa'nın ilk pasifist metinlerindendir), metni dikkatle okumak ve ironiyi silah olarak kullanmak. Bu bir sistem değildir; bir tutumdur ve belki tam bu yüzden sistemlerden uzun yaşamıştır. Avrupa Birliği'nin öğrenci değişim programına adını vermesi, bir Hollandalı keşişin beş yüz yıl sonra kıtanın ortak kimliğinin simgesi sayılması, tarihin ironisine Erasmus'un da güleceği türden.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 27 Ekim: Servetus'un yakılışı (1553) ve hoşgörünün doğuşu",
+    slug: "felsefe-tarihinde-bugun-27-ekim-servetus-castellio-hosgoru",
+    summary:
+      "27 Ekim 1553'te İspanyol hekim ve ilahiyatçı Michael Servetus, Teslis'i reddettiği için Calvin'in Cenevre'sinde diri diri yakıldı; kan dolaşımını Avrupa'da ilk tarif eden kitabı da onunla birlikte yandı. Bir yıl sonra Sebastian Castellio'nun 'Bir insanı öldürmek bir öğretiyi savunmak değildir' cümlesi, modern hoşgörü düşüncesinin ilk büyük metnini açtı. Locke ve Voltaire'den önce, vicdan özgürlüğünün kuruluş anı.",
+    seoTitle: "27 Ekim 1553: Servetus'un yakılışı, Castellio ve hoşgörü fikrinin doğuşu",
+    metaDescription:
+      "Felsefe tarihinde 27 Ekim: Michael Servetus 1553'te Cenevre'de yakıldı. Teslis eleştirisi, Christianismi Restitutio, pulmoner dolaşım, Calvin, Castellio'nun De haereticis'i, Locke ve Bayle'e uzanan hoşgörü düşüncesi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Servetus.jpg?width=1600",
+    imageCredit: "Michael Servetus, 17. yüzyıl gravürü · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/toleration/",
+    publishedAt: "2026-10-26T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "siyaset-felsefesi", "ronesans"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Toleration", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/toleration/", primary: true },
+      { title: "Michael Servetus", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/Michael-Servetus" },
+    ],
+    content: `27 Ekim 1553 sabahı Cenevre'nin Champel tepesinde bir adam yeşil odunlarla yakıldı; yeşil odun yavaş yanar ve ölüm yarım saat sürdü. Boynuna kendi kitabı asılmıştı. Michael Servetus (Miguel Serveto) kırk iki yaşındaydı; İspanyol'du, hekimdi, coğrafyacıydı, ilahiyatçıydı; Katolik Engizisyon tarafından Fransa'da gıyabında ölüme mahkûm edilmiş, Cenevre'ye kaçmış ve orada Jean Calvin'in Protestan yönetimi tarafından yargılanıp yakılmıştı. Katoliklerin de Protestanların da öldürmek istediği tek adam olmak, on altıncı yüzyılda bir fikrin ne kadar tehlikeli olabileceğinin ölçüsüdür. Fikir şuydu: Teslis Kutsal Kitap'ta yoktur.
+
+## Bir Rönesans zihni
+
+Servetus 1511 dolaylarında Aragon'da doğdu; Toulouse'da hukuk okudu, İmparator V. Karl'ın günah çıkarıcısının hizmetinde Bologna'daki taç giyme törenini gördü ve papalığın görkeminden tiksindi. Yirmi yaşında *De Trinitatis erroribus* (Teslis'in Hataları Üzerine, 1531) ile Hristiyan dünyasının merkezî dogmasına saldırdı: Baba, Oğul ve Kutsal Ruh'un tek Tanrı'da üç kişi olduğu öğretisi, İznik Konsili'nin (325) Yunan felsefesiyle karıştırılmış bir icadıydı; İncil'deki İsa bir insandı, Tanrı'nın oğluydu ama Tanrı'nın kendisi değildi. Kitap onu hem Katolik hem Protestan Avrupa'da aforoz etti. Takma adla (Michel de Villeneuve) Paris'te tıp okudu, Vesalius'la aynı sınıfta disseksiyon yaptı, Ptolemaios'un *Coğrafya*'sını yayımladı, Lyon yakınlarında Vienne başpiskoposunun özel hekimi oldu.
+
+1553'te gizlice bastırdığı *Christianismi Restitutio* (Hristiyanlığın Yeniden Kurulması; başlık Calvin'in *Institutio*'suna meydan okuyordu) teolojik bir eserdi; ama beşinci kitabında, Kutsal Ruh'un bedene nasıl girdiğini açıklamak için, kanın kalbin sağ karıncığından akciğerlere gidip orada havayla temas ederek sol karıncığa döndüğünü tarif etti. Bu, Avrupa'da pulmoner dolaşımın ilk tarifiydi (İbnü'n-Nefis onu 13. yüzyılda Kahire'de yazmıştı, ama Avrupa bunu bilmiyordu); Harvey'den yetmiş beş yıl önce. Kitabın bin nüshasından üçü hayatta kaldı; geri kalanı Servetus'la birlikte yakıldı. Bilim tarihi, teolojik bir sapkınlık kitabının içinde saklanmış bir keşfin yangından kurtulmasına borçludur.
+
+## Calvin ve Cenevre
+
+Servetus'u Vienne'deki Katolik Engizisyon'a ihbar eden mektupların arkasında Calvin'in çevresi vardı; Servetus kaçtı ve anlaşılmaz bir biçimde, belki İtalya'ya giderken, Cenevre'ye uğradı, 13 Ağustos 1553 Pazar günü Calvin'in vaaz verdiği kiliseye gitti ve tanınıp tutuklandı. Calvin yıllar önce yazmıştı: "Cenevre'ye gelirse, otoritem bir işe yarıyorsa, buradan canlı çıkmasına izin vermem." Dava iki ay sürdü; Calvin bizzat suçlama yazdı, İsviçre'nin Protestan kentlerine danışıldı ve hepsi ölüm cezasını onayladı. Calvin, kılıçla idam edilmesini istedi ve reddedildi; Servetus yakıldı. Calvin ertesi yıl *Defensio orthodoxae fidei* ile sapkınların öldürülmesinin meşruluğunu savundu: Tanrı'nın onuruna karşı işlenen suç, insana karşı işlenenden ağırdır ve yargıç bu onuru korumakla yükümlüdür.
+
+## Castellio: Bir insanı öldürmek
+
+Cevap 1554'te Basel'den geldi. Sebastian Castellio, Calvin'in eski dostu ve Cenevre Koleji'nin eski müdürü, "Martinus Bellius" takma adıyla *De haereticis, an sint persequendi* (Sapkınlar Takip Edilmeli mi?) derlemesini yayımladı: Luther'den Erasmus'a, Augustinus'tan Calvin'in kendisine kadar yazarlardan hoşgörü lehine alıntılar ve kendi önsözü. Önsözün argümanı modern hoşgörü düşüncesinin çekirdeğidir. Birincisi, epistemolojik: "Sapkın" dediğimiz, bizden farklı düşünen kişidir; her mezhep diğerini sapkın sayar; dolayısıyla sapkınlık bir hakikat ölçütü değil, bir bakış açısı meselesidir ve kim yanıldığını kim bilebilir? İkincisi, ahlaki: İsa'nın ahlakı açıktır, Teslis'in metafiziği belirsizdir; insanları açık olan konusunda (ahlak) yargılamalı, belirsiz olan konusunda (dogma) serbest bırakmalıyız. Üçüncüsü, kanonik cümle: "Bir insanı öldürmek bir öğretiyi savunmak değil, bir insanı öldürmektir" (*Hominem occidere non est doctrinam tueri, sed hominem occidere*). Cenevreliler Servetus'u yaktığında bir fikri değil, bir insanı yakmışlardı; fikir hâlâ oradaydı.
+
+Castellio'nun *Contra libellum Calvini* (Calvin'in Kitapçığına Karşı) ise 1612'ye kadar basılamadı; el yazması olarak dolaştı. Castellio 1563'te, Calvin'in davasıyla karşı karşıyayken, yoksulluk içinde öldü; kemikleri Basel'de, Servetus'tan farklı olarak, rahat bırakıldı.
+
+## Hoşgörünün soykütüğü
+
+Servetus-Castellio hikâyesi, hoşgörü kavramının tarihinde kurucu bir andır; çünkü hoşgörüyü ilk kez Katolik baskıya karşı değil, Protestan baskıya karşı, yani Reform'un kendi içinden savunur. Castellio'nun argümanları yüz elli yıl sonra Locke'un *Hoşgörü Üzerine Mektup*'unda (1689) ve Bayle'in *Felsefi Yorum*'unda (1686) yeniden ortaya çıkar: Devletin işi ruhları kurtarmak değildir; inanç zorla değiştirilemez, dolayısıyla zorlamak anlamsızdır; yanılabilirlik hoşgörüyü gerektirir. Voltaire 1763'te *Hoşgörü Üzerine İnceleme*'de Servetus davasını, Calvin'i "bir ruhu ateist, bir ruhu da zalim" diye anarak anlattı. Ve 1903'te, idamın 350. yılında, Cenevre'deki Kalvinistler Champel'de bir "kefaret anıtı" diktiler: Calvin'in "hatasını" kabul eden, ama "çağının hatası" olduğunu söyleyen bir yazıt. Castellio buna gülerdi: Hatanın çağı yoktur, insanı vardır.
+
+Servetus'un fikirleri Polonya ve Transilvanya'da Üniteryenliğe, oradan Amerika'ya ve Newton gibi gizli anti-Trinitaryenlere ulaştı. Ama mirasının asıl taşıyıcısı kendi teolojisi değil, ölümünün yarattığı sorudur: Bir fikir uğruna bir insan öldürülebilir mi? Bu soru 27 Ekim 1553'te Champel'de soruldu ve o gün yakılan yeşil odunlardan daha uzun süre yandı.`,
+  },
   {
     title: "Jörg Noller ve Yapay Zekânın Düşünme Biçimi Üzerine",
     slug: "jorg-noller-genisletilmis-yargi-llm-topoi-2026",

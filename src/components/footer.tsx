@@ -76,7 +76,7 @@ export async function Footer() {
           <ul className="mt-4 space-y-2 text-sm text-ink-soft">
             <li><Link className="transition-colors hover:text-accent" href="/filozoflar">Filozoflar</Link></li>
             <li><Link className="transition-colors hover:text-accent" href="/kitaplar">Kitaplar</Link></li>
-            <li><Link className="transition-colors hover:text-accent" href="/konferanslar">Konferanslar</Link></li>
+            <li><Link className="transition-colors hover:text-accent" href="/konferanslar">Konferanslar/Etkinlikler</Link></li>
             <li><Link className="transition-colors hover:text-accent" href="/hakkinda">Hakkında</Link></li>
             <li><Link className="transition-colors hover:text-accent" href="/iletisim">İletişim</Link></li>
           </ul>

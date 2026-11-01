@@ -178,7 +178,7 @@ export default function AboutPage() {
           <Alan ad="Dünya" slug="dunya">
             Uluslararası felsefe dünyasından önemli gelişmeler ve düşünce gündemi.
           </Alan>
-          <Alan ad="Konferanslar" slug="konferanslar">
+          <Alan ad="Konferanslar/Etkinlikler" slug="konferanslar">
             Kongre, konferans, sempozyum, panel, söyleşi ve diğer felsefe etkinlikleri.
           </Alan>
           <Alan ad="Filozoflar Hakkında" slug="filozoflar-hakkinda">

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { BookCard } from "@/components/book-card";
+import { BookShelf } from "@/components/book-shelf";
 import { Container } from "@/components/container";
 import { getBooks } from "@/lib/queries";
 
@@ -27,10 +27,8 @@ export default async function BooksPage() {
       {books.length === 0 ? (
         <p className="py-12 text-sm text-muted">Henüz kitap kaydı yok.</p>
       ) : (
-        <div className="grid gap-4 py-12 lg:grid-cols-2">
-          {books.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
+        <div className="py-12">
+          <BookShelf books={books} />
         </div>
       )}
     </Container>

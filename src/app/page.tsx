@@ -124,7 +124,7 @@ export default async function HomePage({
             {/* Yaklaşan konferanslar */}
             {firstPage && events.length > 0 && (
               <div className="mt-16">
-                <SectionHeading title="Yaklaşan Konferanslar" href="/konferanslar" />
+                <SectionHeading title="Yaklaşan Konferanslar ve Etkinlikler" href="/konferanslar" />
                 <div className="mt-6 grid gap-4">
                   {events.map((event) => (
                     <EventCard key={event.id} event={event} />

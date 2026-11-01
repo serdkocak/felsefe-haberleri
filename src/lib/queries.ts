@@ -129,6 +129,8 @@ const bookSelect = {
   year: true,
   link: true,
   philosopher: { select: { id: true, name: true, slug: true } },
+  /** Kitabı duyuran haber: raf görünümünde bağlantı ve ters-kronolojik sıralama için. */
+  post: { select: { slug: true, publishedAt: true } },
 } as const;
 
 /**
@@ -378,7 +380,8 @@ export const getBooksByPhilosopher = cached("getBooksByPhilosopher", getBooksByP
 
 async function getBooksRaw(take?: number): Promise<BookSummary[]> {
   return prisma.book.findMany({
-    orderBy: [{ year: "desc" }, { createdAt: "desc" }],
+    // Raf: en yeni çıkanlar üstte; aynı yıl içinde tanıtım tarihi yeni olan önce.
+    orderBy: [{ year: "desc" }, { post: { publishedAt: "desc" } }, { createdAt: "desc" }],
     take,
     select: bookSelect,
   });
