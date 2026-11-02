@@ -85,6 +85,8 @@ export interface BookSummary {
   coverImage: string | null;
   description: string | null;
   year: number | null;
+  /** İlk baskı yılı; raf sıralaması bunu, yoksa `year`ı kullanır. */
+  originalYear: number | null;
   link: string | null;
   philosopher: { id: string; name: string; slug: string } | null;
   /** Kitabı duyuran haber (varsa). */

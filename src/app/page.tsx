@@ -136,7 +136,7 @@ export default async function HomePage({
             {/* Yeni kitaplar */}
             {firstPage && books.length > 0 && (
               <div className="mt-16">
-                <SectionHeading title="Yeni Kitaplar" href="/kitaplar" />
+                <SectionHeading title="Felsefe Kitapları" href="/kitaplar" />
                 <div className="mt-6 grid gap-4">
                   {books.map((book) => (
                     <BookCard key={book.id} book={book} />

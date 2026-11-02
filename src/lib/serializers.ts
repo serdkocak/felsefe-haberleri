@@ -58,6 +58,7 @@ export interface ApiBook {
   coverImage: string | null;
   description: string | null;
   year: number | null;
+  originalYear: number | null;
   link: string | null;
   philosopher: { id: string; name: string; slug: string } | null;
 }
@@ -191,6 +192,7 @@ export function toApiBook(book: BookSummary): ApiBook {
     coverImage: book.coverImage,
     description: book.description,
     year: book.year,
+    originalYear: book.originalYear,
     link: book.link,
     philosopher: book.philosopher,
   };

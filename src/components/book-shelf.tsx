@@ -32,14 +32,60 @@ function initials(title: string): string {
   return words.slice(0, 2).map((w) => w[0]?.toLocaleUpperCase("tr-TR") ?? "").join("");
 }
 
+/** "Yeni" sayılacak azami yaş (yıl). Ölçüt ilk baskının yılıdır, eldeki baskının değil. */
+const NEW_WINDOW_YEARS = 3;
+
+type GroupKey = "international" | "domestic" | "translation" | "classic";
+
+const GROUPS: { key: GroupKey; title: string; blurb: string }[] = [
+  { key: "international", title: "Yeni Çıkan Uluslararası Felsefe Kitapları", blurb: "Son üç yılda yabancı dillerde yayımlanan kitaplar." },
+  { key: "domestic", title: "Yeni Çıkan Yerli Felsefe Kitapları", blurb: "Son üç yılda Türkçe yazılmış telif kitaplar." },
+  { key: "translation", title: "Yeni Çıkan Çeviri Felsefe Kitapları", blurb: "Aslı son üç yılda yayımlanmış ve Türkçeye çevrilmiş kitaplar." },
+  { key: "classic", title: "Önemli Felsefe Kitapları", blurb: "İlk baskısı üç yıldan eski olan temel eserler, yeni baskı ve çeviriler." },
+];
+
+/** Sıralama ve yaş hesabında esas alınan yıl: ilk baskı, yoksa eldeki baskı. */
+function originYear(book: BookSummary): number | null {
+  return book.originalYear ?? book.year ?? null;
+}
+
+function isTurkish(book: BookSummary): boolean {
+  return (book.language ?? "").toLocaleLowerCase("tr-TR").startsWith("türk");
+}
+
+function isTranslation(book: BookSummary): boolean {
+  if (book.translator) return true;
+  return Boolean(book.originalTitle && book.originalTitle.trim() !== book.title.trim());
+}
+
+function groupOf(book: BookSummary, thisYear: number): GroupKey {
+  const y = originYear(book);
+  if (y === null || y < thisYear - NEW_WINDOW_YEARS) return "classic";
+  if (!isTurkish(book)) return "international";
+  return isTranslation(book) ? "translation" : "domestic";
+}
+
+function byRecency(a: BookSummary, b: BookSummary): number {
+  const ya = originYear(a) ?? -1;
+  const yb = originYear(b) ?? -1;
+  if (yb !== ya) return yb - ya;
+  const pa = a.post?.publishedAt?.getTime() ?? 0;
+  const pb = b.post?.publishedAt?.getTime() ?? 0;
+  return pb - pa;
+}
+
 /**
- * Kitap rafı — "Yeni Kitaplar" bölümünün üstünde, sitede tanıtılan her kitap için bir kutu.
- * Ters kronolojik: en üstte en yeni çıkanlar (yayın yılı, sonra tanıtım tarihi).
- * Kapak görseli olmayan kitaplar için adından türetilen bir "sırt" gösterilir.
+ * Kitap rafı — "Felsefe Kitapları" bölümünün üstünde, sitede tanıtılan her kitap için bir kutu.
+ * Dört grup: yeni uluslararası, yeni yerli, yeni çeviri, önemli (klasik). Her grup ters kronolojik;
+ * ölçüt kitabın ilk baskı yılıdır. Kapağı olmayan kitaplara adından türetilen bir "sırt" gösterilir.
  */
-export function BookShelf({ books, title = "Raf" }: { books: BookSummary[]; title?: string }) {
-  // Yıl gruplarıyla ayraç koymak için önceki yılı izle.
-  let lastYear: number | null | undefined;
+export function BookShelf({ books, title = "Raf", now = new Date() }: { books: BookSummary[]; title?: string; now?: Date }) {
+  const thisYear = now.getFullYear();
+  const grouped = new Map<GroupKey, BookSummary[]>();
+  for (const book of books) {
+    const key = groupOf(book, thisYear);
+    grouped.set(key, [...(grouped.get(key) ?? []), book]);
+  }
 
   return (
     <section aria-labelledby="kitap-rafi">
@@ -50,24 +96,54 @@ export function BookShelf({ books, title = "Raf" }: { books: BookSummary[]; titl
             Sitede tanıtılan kitaplar
           </h2>
         </div>
-        <p className="text-xs text-muted">
-          {books.length} kitap · en yeniden en eskiye
-        </p>
+        <p className="text-xs text-muted">{books.length} kitap · her grupta en yeniden en eskiye</p>
       </div>
 
-      <div className="mt-6 space-y-8">
-        {books.map((book, index) => {
-          const showYear = book.year !== lastYear;
-          lastYear = book.year;
+      {/* Grup içi bağlantılar */}
+      <nav aria-label="Kitap grupları" className="mt-4 flex flex-wrap gap-2 text-xs">
+        {GROUPS.map((g) => {
+          const n = grouped.get(g.key)?.length ?? 0;
+          if (n === 0) return null;
           return (
-            <div key={book.id}>
-              {showYear && (
-                <div className="mb-4 flex items-center gap-3">
-                  <span className="font-serif text-2xl font-bold text-accent">{book.year ?? "Tarihsiz"}</span>
-                  <span className="h-px flex-1 bg-line" aria-hidden />
-                </div>
-              )}
-              <ShelfCard book={book} priority={index < 4} />
+            <a key={g.key} href={`#raf-${g.key}`} className="rounded-full border border-line px-3 py-1 text-ink-soft hover:border-accent hover:text-accent">
+              {g.title} <span className="text-muted">({n})</span>
+            </a>
+          );
+        })}
+      </nav>
+
+      <div className="mt-8 space-y-14">
+        {GROUPS.map((g, gi) => {
+          const items = (grouped.get(g.key) ?? []).sort(byRecency);
+          if (items.length === 0) return null;
+          let lastYear: number | null | undefined;
+          return (
+            <div key={g.key} id={`raf-${g.key}`} className="scroll-mt-24">
+              <div className="flex items-baseline gap-3 border-b border-line pb-2">
+                <span className="font-serif text-sm font-bold text-accent">{gi + 1}</span>
+                <h3 className="font-serif text-lg font-bold">{g.title}</h3>
+                <span className="ml-auto text-xs text-muted">{items.length} kitap</span>
+              </div>
+              <p className="mt-1 text-xs text-muted">{g.blurb}</p>
+
+              <div className="mt-5 space-y-6">
+                {items.map((book, index) => {
+                  const y = originYear(book);
+                  const showYear = y !== lastYear;
+                  lastYear = y;
+                  return (
+                    <div key={book.id}>
+                      {showYear && (
+                        <div className="mb-3 flex items-center gap-3">
+                          <span className="font-serif text-xl font-bold text-accent">{y ?? "Tarihsiz"}</span>
+                          <span className="h-px flex-1 bg-line" aria-hidden />
+                        </div>
+                      )}
+                      <ShelfCard book={book} priority={gi === 0 && index < 3} />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           );
         })}
@@ -103,7 +179,14 @@ function ShelfCard({ book, priority }: { book: BookSummary; priority: boolean })
 
       <div className="min-w-0">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] tracking-wide text-muted uppercase">
-          {book.year && <span className="font-semibold text-accent">{book.year}</span>}
+          {book.originalYear && book.originalYear !== book.year ? (
+            <span className="font-semibold text-accent">
+              İlk baskı {book.originalYear}
+              {book.year ? ` · bu baskı ${book.year}` : ""}
+            </span>
+          ) : (
+            book.year && <span className="font-semibold text-accent">{book.year}</span>
+          )}
           {meta && <span>{meta}</span>}
           {book.translator && <span>Çeviri: {book.translator}</span>}
         </div>

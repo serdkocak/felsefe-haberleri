@@ -144,6 +144,8 @@ model Book {
   description   String?
   /// Yalnızca yıl biliniyorsa `year` kullanılır.
   year          Int?
+  /** İlk baskının (eserin yazıldığı/ilk yayımlandığı) yılı; çeviri ve yeni baskılarda `year`dan farklıdır. */
+  originalYear  Int?
   /// Yayıncı sayfası ya da kaynak bağlantısı.
   link          String?
   createdAt     DateTime  @default(now())

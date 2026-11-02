@@ -118,6 +118,8 @@ export type SeedBook = {
   coverImage: string | null;
   description: string;
   year: number | null;
+  /** İlk baskı yılı (çeviri/yeni baskılarda). Boşsa `year` esas alınır. */
+  originalYear?: number | null;
   link: string | null;
   philosopherSlug: string | null;
   /** Kitabı duyuran haberin slug'ı (varsa). */
@@ -161,7 +163,7 @@ export const categories: SeedCategory[] = [
   { name: "Dünya", slug: "dunya", description: "Yurt dışındaki felsefe haberleri ve akademik gelişmeler.", order: 4 },
   { name: "Konferanslar/Etkinlikler", slug: "konferanslar", description: "Kongreler, sempozyumlar, atölyeler, seminerler ve çağrılar.", order: 5 },
   { name: "Filozoflar Hakkında", slug: "filozoflar-hakkinda", description: "Düşünürlerin kavramları, mirasları ve ardımızda bıraktıkları.", order: 6 },
-  { name: "Yeni Kitaplar", slug: "yeni-kitaplar", description: "Yeni çıkan kitaplar, çeviriler ve kitap tanıtımları.", order: 7 },
+  { name: "Felsefe Kitapları", slug: "yeni-kitaplar", description: "Yeni çıkan uluslararası, yerli ve çeviri felsefe kitapları ile alanın temel eserleri.", order: 7 },
   { name: "Ödüller", slug: "oduller", description: "Felsefe ödülleri, burslar ve akademik onurlandırmalar.", order: 8 },
   { name: "Felsefe Tarihinde Bugün", slug: "felsefe-tarihinde-bugun", description: "Bugün ne oldu? Felsefe tarihinden tarih notları.", order: 9 },
 ];
@@ -3063,6 +3065,166 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Yunus Emre Divanı'nın kayıp 'Türk Yurdu Nüshası' bulundu: Dokuz yeni şiir ve Türk felsefesi için anlamı",
+    slug: "yunus-emre-divani-turk-yurdu-nushasi-dokuz-yeni-siir",
+    summary:
+      "1966'da Türk Yurdu dergisindeki bir mülakatta izi görülen, sonra altmış yıl boyunca kayıp sayılan Yunus Emre Divanı nüshası Süleymaniye Kütüphanesi'nde tespit edildi: 113 Yunus şiiri, dokuzu hiçbir nüshada yok. Prof. Dr. M. Fatih Köksal'ın bulduğu, Prof. Dr. Güler Doğan Averbek'in yayına hazırladığı yazma, 'sahih nüshalar' listesine altıncı halka olarak ekleniyor. Bir filoloji haberinin Türk düşünce tarihi için neden önemli olduğu üzerine.",
+    seoTitle: "Yunus Emre Divanı'nın Türk Yurdu Nüshası bulundu: dokuz yeni şiir",
+    metaDescription:
+      "Yunus Emre Divanı'nın kayıp Türk Yurdu Nüshası: 125 şiir, 113'ü Yunus'a ait, 9'u bilinmeyen; Köksal ve Averbek'in çalışması, sahih nüshalar (Fatih, Karaman, Yelkenci, Ritter, Vahid Paşa), metin tenkidi ve Yunus Emre'nin Türk felsefesindeki yeri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Yunus%20Emre%20Camisi%20in%20Karaman%202168.jpg?width=1600",
+    imageCredit: "Yunus Emre Camii ve Türbesi, Karaman · Wikimedia Commons",
+    featured: true,
+    sourceName: "TRT Haber",
+    sourceUrl: "https://www.trthaber.com/haber/kultur-sanat/yunus-emre-divaninin-kayip-nushasi-bulundu-detaylar-ilk-kez-trt-haberde-961919.html",
+    publishedAt: "2026-11-02T09:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "gundem",
+    tagSlugs: ["islam-felsefesi", "tarih", "etik", "din-felsefesi"],
+    philosopherSlugs: ["yunus-emre"],
+    sources: [
+      { title: "Yunus Emre Divanı'nın kayıp nüshası bulundu: Detaylar ilk kez TRT Haber'de", publisher: "TRT Haber (Cengiz Yalçınkaya)", date: "2 Kasım 2026", url: "https://www.trthaber.com/haber/kultur-sanat/yunus-emre-divaninin-kayip-nushasi-bulundu-detaylar-ilk-kez-trt-haberde-961919.html", primary: true },
+      { title: "Yûnus Emre", publisher: "Mustafa Tatcı, TDV İslâm Ansiklopedisi", url: "https://islamansiklopedisi.org.tr/yunus-emre" },
+    ],
+    content: `Türk düşünce tarihinin en çok okunan ve en az bilinen metni, Yunus Emre'nin Divanı, bu sabah bir nüsha daha kazandı. TRT Haber'den Cengiz Yalçınkaya'nın duyurduğuna göre, altmış yıl boyunca izi kaybolmuş bir yazma, Süleymaniye Yazma Eser Kütüphanesi'nde tespit edildi ve yayına hazırlandı. "Türk Yurdu Nüshası" adı verilen yazmada 125 şiir var; 113'ü Yunus Emre'ye, geri kalanı Âşık Paşa, Said Emre ve Kaygusuz Abdal'a ait. Asıl haber şu: Yunus'a ait şiirlerden dokuzu, erken ya da geç, bugüne kadar bilinen hiçbir nüshada yer almıyor.
+
+## Altmış yıllık bir iz sürme
+
+Hikâye 1966'da başlıyor. *Türk Yurdu* dergisinde, Cumhuriyet döneminin efsanevi sahafı ve yazma koleksiyoncusu Raif Yelkenci'yle yapılan bir mülakatta, dağınık varaklar hâlinde Yunus şiirlerinden söz ediliyor ve bir sayfanın görseli yayımlanıyordu. Yelkenci'nin adını taşıyan başka bir Yunus Divanı nüshası literatürde biliniyordu; ama bu dağınık yapraklar sonradan hiçbir katalogda görünmedi. Berlin Devlet Kütüphanesi'nde İslam yazmaları üzerine çalışan ve Yunus araştırmalarıyla tanınan Prof. Dr. Güler Doğan Averbek, Yelkenci evrakını incelerken sayfalarda sık geçen "Yunus Emre fermâyed" ("Yunus Emre buyurur") başlıklarının izini sürdü. Aynı dönemde Prof. Dr. M. Fatih Köksal, hazırlamakta olduğu Yunus Emre Divanı eleştirel metni için yazma tarıyordu; eksik kataloglama yüzünden gözden kaçmış nüshayı buldu ve 2025'te bir bildiriyle duyurdu. Averbek, Köksal'ın bulduğu yazmanın 1966'daki dergide anılan yazma olduğunu fark etti. Yazmanın Süleymaniye'ye ulaşmasını, son dönem sahaflarından Mevlüt Ceylan sağlamış. Nüsha, Köksal'ın yakında yayımlanacak eleştirel metninde diğer yedi nüshayla birlikte kullanıldı; Averbek ise yazmayı doktora öğrencileriyle birlikte ayrıca yayına hazırladı, kitap matbaa sırasında.
+
+## "Sahih nüsha" ne demek, neden önemli?
+
+Yunus Emre 13. yüzyılın ikinci yarısıyla 14. yüzyılın başında yaşadı (ölümü için 1320-21 kabul edilir); ama şiirleri yüzyıllar boyunca sözlü aktarımla, tekkelerde okunarak ve her kuşakta yeni şiirler eklenerek yaşadı. Sonuç, filolojinin en zor sorunlarından biri: Yunus adıyla dolaşan binlerce şiirden hangileri gerçekten onun? "Yunus" mahlasını kullanan başka şairler de vardı; Said Emre, Âşık Yunus ve Bursa'daki Yunus-ı Sânî, bugün bile halk arasında Yunus Emre'nin sanılan ilahilerin sahipleri. Bu yüzden araştırmacılar, 14.-15. yüzyıla tarihlenen ve Yunus'un dilini en az bozulmuş hâliyle taşıyan sınırlı sayıda yazmayı "kadim" ya da "sahih" nüsha sayar: Fatih Nüshası (Süleymaniye), Karaman Nüshası (Eraslan Güzel koleksiyonu), Raif Yelkenci Nüshası, Ritter Nüshası (Berlin) ve Vahid Paşa Nüshası (Kütahya). Averbek, "Türk Yurdu Nüshası"nı bu listeye altıncı halka olarak eklemenin mutluluğunu TRT Haber'e anlattı. Dokuz yeni şiir kadar, 104 bilinen şiirin bu yazmadaki okunuşları da önemli: Her sahih nüsha, Abdülbaki Gölpınarlı'nın 1943'teki ilk ciddi neşrinden Faruk Kadri Timurtaş'a ve Mustafa Tatcı'nın 1990'daki eleştirel metnine kadar süren "Yunus'un gerçek metni"ni kurma çabasında yeni bir tanıktır. Averbek'in katkıları yeni değil: Daha önce Berlin'de dikkatini çeken bir başka Yunus Divanı, kayıp Yelkenci Nüshası'nı arayan Prof. Dr. Hüseyin Akkaya tarafından tespit edilmiş ve Yunus Emre Külliyatı Yayın Projesi kapsamında yayımlanmıştı.
+
+## Bir filoloji haberi felsefe sitesinde ne arıyor?
+
+Burada soru haklı: Dokuz yeni şiir bir edebiyat tarihi olayıdır; felsefe için anlamı nedir? Cevap, Türkiye'de "Türk felsefesi var mı" tartışmasının tam kalbinde duruyor. Hilmi Ziya Ülken'den Nurettin Topçu'ya, Nermi Uygur'dan İoanna Kuçuradi'ye, Türkiye'de felsefe yapan hemen herkes bir noktada Yunus'a döndü; çünkü Yunus, Anadolu'da Türkçeyle düşünmenin ilk büyük örneğidir. Felsefe tarihçisi Macit Gökberk'in "felsefenin dili" tezine göre bir dil, soyut kavramları taşıyabildiği ölçüde felsefe dili olur; Yunus'un 13. yüzyıl Türkçesiyle varlık ("var"), yokluk ("yok"), benlik ("ben"), bilgi ("bilmek"), gönül ve aşk üzerine kurduğu şiir, Türkçenin bu kapasitesinin ilk kanıtıdır. "İlim ilim bilmektir, ilim kendin bilmektir" dizesi, Sokrates'in Delphoi buyruğunun ve tasavvufun "nefsini bilen Rabbini bilir" hadisinin Türkçe sentezidir; [geçen ay yazdığımız gibi](/haber/yunus-emre-insan-kendini-nasil-bilir-gonul-bilgi-kotuluk), Yunus'ta bilgi kuramı ile ahlak birbirinden ayrılmaz.
+
+Yeni şiirlerin içeriği henüz yayımlanmadı; ama metin tenkidinin felsefi sonuçları açık. Birincisi, kavram tarihi: Yunus'un hangi kelimeyi hangi anlamda kullandığını bilmek, "gönül", "akıl", "can" gibi kavramların Türkçe felsefe sözlüğündeki en eski anlam katmanlarını belirlemek demektir; her sahih nüsha bu katmanları ya doğrular ya düzeltir. İkincisi, Yunus'a atfedilen ama ona ait olmayan şiirlerin ayıklanması, onun düşüncesinin gerçek sınırlarını çizer; popüler Yunus imgesinin bir kısmı, 16.-17. yüzyıl tekke şairlerinin eklemeleriyle kurulmuştur ve "hoşgörü filozofu Yunus" ile "vahdet-i vücûd metafizikçisi Yunus" arasındaki gerilim kısmen bu katmanlardan kaynaklanır. Üçüncüsü, *Risâletü'n-Nushiyye*'nin (1307) gösterdiği gibi Yunus yalnızca lirik bir şair değil, akıl-nefs-ruh ilişkisini alegorik bir sistem içinde düşünen bir ahlak filozofudur; yeni şiirler bu sistematik yanı aydınlatabilir.
+
+## Yunus'u kim okuyacak?
+
+[Türk aydını üzerine yazdığımızda](/haber/yapay-zeka-turk-aydininin-yerini-mi-aliyor-hakikat-otoritesi) Türkiye'de düşünce geleneğinin bir "isimler listesi"nden fazlası olduğunu söylemiştik; bu haber, o geleneğin hâlâ kurulmakta olan bir metin temeline dayandığını gösteriyor. Avrupa felsefesi Platon'un ya da Aristoteles'in eleştirel metinlerini yüz elli yıl önce tamamladı; Türkiye, en temel düşünce metninin eleştirel neşrini 2026'da hâlâ bekliyor. Köksal'ın yakında çıkacak eleştirel metni ve Averbek'in nüsha yayını bu bakımdan yalnızca edebiyat tarihçilerinin değil, Türkçe felsefe yapan herkesin işidir. Bir sahafın çekmecesinde altmış yıl unutulmuş dağınık yapraklardan dokuz yeni Yunus şiiri çıkıyorsa, Türk düşünce tarihinin arşivlerde daha ne kadar okunmamış sayfası olduğunu sormak gerekir. Yunus'un kendi sorusuyla: "Bilmeyen ne bilsin bizi, bilenlere selam olsun."`,
+  },
+  {
+    title: "BERTRAND RUSSELL: BİLGİ ÇAĞINDA AKLIN KRİZİ – 56 YIL ÖNCE ÖLEN FİLOZOF, 2026 DÜNYASINA HÂLÂ RAHATSIZ EDİCİ SORULAR SORUYOR",
+    slug: "bertrand-russell-bilgi-caginda-aklin-krizi-2026",
+    summary:
+      "Yapay zekânın savaş alanına girdiği, dezenformasyonun hakikatle yarıştığı ve siyasi kutuplaşmanın derinleştiği bir dünyada Bertrand Russell'ın düşünceleri yeniden önem kazanıyor. Onun asıl uyarısı, insanlığın bilgi eksikliğinden çok, sahip olduğu bilgiyi sorgulama cesaretinden yoksun kalmasıyla ilgiliydi.",
+    seoTitle: "Bertrand Russell: bilgi çağında aklın krizi",
+    metaDescription:
+      "Bertrand Russell (1872-1970) bugün neden yeniden okunmalı: görünüş ve gerçeklik, Russell-Einstein Manifestosu, otonom silahlar ve yapay zekâ, özgür düşünce, eğitim, Mutluluğun Fethi ve Russell'ın kendi çelişkileri.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bertrand%20Russell%20transparent%20bg.png?width=1600",
+    imageCredit: "Bertrand Russell · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/russell/",
+    publishedAt: "2026-11-01T22:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["epistemoloji", "yapay-zeka", "siyaset-felsefesi", "etik", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Bertrand Russell", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/russell/", primary: true },
+      { title: "The Atomic Bomb — Collected Papers", publisher: "Bertrand Russell Research Centre, McMaster University", url: "https://russell.humanities.mcmaster.ca/our-work/collected-papers/volumes-12-34-of-the-collected-papers/the-atomic-bomb/" },
+      { title: "The Russell-Einstein Manifesto (9 Temmuz 1955)", publisher: "Pugwash Conferences on Science and World Affairs", url: "https://pugwash.org/1955/07/09/statement-manifesto/" },
+      { title: "UC Berkeley professor calls for a halt to AI weapons", publisher: "Berkeley News", date: "Eylül 2026", url: "https://news.berkeley.edu/category/research/technology-engineering/" },
+      { title: "AI and misinformation are supercharging the risk of nuclear war", publisher: "Nature (başyazı)", date: "17 Temmuz 2025", url: "https://www.nature.com/articles/d41586-025-02219-0" },
+    ],
+    content: `İnsanlık, tarihin hiçbir döneminde bilgiye bugünkü kadar hızlı ulaşamadı. Birkaç saniye içinde dünyanın öbür ucunda yaşanan bir gelişmeden haberdar olabiliyor, milyonlarca akademik çalışmaya erişebiliyor, yapay zekâ aracılığıyla karmaşık sorulara yanıtlar üretebiliyoruz. Ancak bu ilerlemenin beraberinde getirdiği tuhaf bir çelişki var: Bilgiye erişim kolaylaştıkça doğruyu yanlıştan ayırmak zorlaşıyor. Hakikat algoritmaların, siyasi çıkarların, propaganda mekanizmalarının ve dijital kalabalıkların arasında sıkışırken, yarım yüzyıldan uzun süre önce ölmüş bir filozofun düşünceleri yeniden karşımıza çıkıyor: Bertrand Arthur William Russell.
+
+2 Şubat 1970'te, 97 yaşında Galler'deki evinde ölen Russell, yalnızca matematiksel mantığın ve analitik felsefenin kurucu isimlerinden biri değildi. İnsanlığın kendi aklına, inançlarına, siyasi otoritelerine ve bilimsel gücüne karşı eleştirel bir mesafeyi koruması gerektiğini savunan, bunun bedelini de ödemiş bir düşünürdü. Bugün onu gündeme taşıyan şey bir anma ya da nostalji değil; yaşadığı yüzyılda gördüğü tehlikelerin, farklı biçimlerde 21. yüzyılda yeniden ortaya çıkması.
+
+## İnsan neden kendi düşüncesinden şüphe etmez?
+
+Russell'a göre felsefe hazır cevaplar üretme sanatı değildi; kendiliğinden doğru kabul edilen düşünceleri sorgulamak, kavramların arkasındaki varsayımları açığa çıkarmak ve akıl yürütmenin sınırlarını incelemekti. *Felsefenin Problemleri*'nin (1912) son bölümünde felsefenin değerini tam da "kesinliğinden" değil "belirsizliğinden" aldığını yazar: Felsefe okumamış insan, sağduyunun, çağının ve ulusunun alışkanlık hâline gelmiş inançlarının "önyargıları içinde hapistir"; felsefe bu hapishanenin duvarlarını gösterir. Şüphe, Russell'da zayıflık değil, düşünsel olgunluğun koşuludur.
+
+Bu yaklaşım dijital iletişim ortamında yeni bir anlam kazanıyor. Platformlar insanlara çoğunlukla kendi görüşlerini doğrulayan içerikleri sunarken karşıt düşünceyle karşılaşma ihtimalini azaltıyor; birey, farklı fikirleri değerlendirmek yerine kendi kanaatlerini sürekli yeniden üreten bir bilgi çevresinde yaşamaya başlıyor. Russell'dan hareketle sorulması gereken soru şu: Sürekli haklı olduğunu gösteren bilgilerle karşılaşan bir insan gerçekten düşünüyor mudur, yoksa inandığı şeyleri tekrar mı ediyordur?
+
+Aynı kitabın ilk bölümü görünüş ile gerçeklik ayrımına ayrılmıştır: Masanın rengi ışığa, bakış açısına ve gözlemciye göre değişir; "masanın gerçek rengi" dediğimiz şey, duyu verilerimizden çıkarılmış bir inşadır. Duyularımızın sunduğu şeylerle nesnel gerçeklik arasında basit bir özdeşlik yoktur. Bu ayrım bugün, yapay zekâ tarafından üretilen görüntüler, sahte videolar ve manipüle edilmiş haberler karşısında çok daha somut bir sorun. Gördüğümüz şeyin gerçek olduğuna inanmak yetmiyor; nasıl üretildiğini, hangi bağlamda sunulduğunu ve hangi kanıtlarla desteklendiğini sormak zorundayız.
+
+## Bilimsel ilerleme ahlaki ilerleme değildir
+
+Russell'ın düşüncesindeki en güçlü gerilim, bilimin insanlığa sunduğu imkânlarla insanın bunları kullanma biçimi arasındadır. Matematiksel mantığa ve bilimsel yönteme büyük önem veren Russell, bilimsel gelişmenin kendiliğinden daha adil ya da barışçıl bir toplum yaratacağına inanmadı; *Icarus, or the Future of Science* (1924) başlığıyla bile bunu söyler: Bilim insanlığa kanat verir, ama güneşe ne kadar yaklaşacağını söylemez. Bu düşüncenin arka planında atom bombası vardı. Hiroşima'dan on gün sonra, 18 Ağustos 1945'te *Glasgow Forward*'da yayımlanan yazısında bombanın "insanlığın sonu" ihtimalini açtığını yazdı; 1955'te Einstein'ın ölümünden günler önce imzaladığı ve 9 Temmuz 1955'te Londra'da açıkladığı **Russell-Einstein Manifestosu**, nükleer savaşın varoluşsal tehdidine dikkat çekti ve bilim insanlarını, hükümetleri ve toplumları çağırdı: "İnsanlığınızı hatırlayın ve gerisini unutun." Manifesto, 1957'den beri süren Pugwash Konferanslarını doğurdu. Belgenin kaygısı yalnızca nükleer silahların gücü değildi; insanlığın kendi teknolojik kapasitesini kontrol edememesi ihtimaliydi.
+
+Bugün yapay zekâ ve otonom silah tartışmalarında karşımıza çıkan sorun bu açıdan benzer: Teknoloji gelişiyor, karar süreçleri hızlanıyor, makineler daha karmaşık görevleri üstleniyor; insanlığın bu sistemleri hangi etik ilkelerle yöneteceği konusunda aynı hızda ilerlediğini söylemek güç. Russell'ın sorusu yeniden önem kazanıyor: Bir şeyi yapabilecek teknik kapasiteye sahip olmak, onu yapmamız gerektiği anlamına gelir mi?
+
+## Yapay zekâ ve savaş: Korkulan gelecek farklı bir biçimde
+
+Otonom silahların askerî kullanımı artık bilim kurgu değil. Berkeley'deki bilgisayar bilimci Stuart Russell, 2015'teki otonom silah karşıtı açık mektubun mimarı ve 2017'deki "Slaughterbots" videosunun yapımcısı, eylülde Berkeley News'ün yayımladığı bir videoda insan hedef alan küçük otonom silahların yasaklanması çağrısını yineledi. Belirtmek gerekir: Stuart Russell ile Bertrand Russell'ın akrabalığı yoktur; ama aynı soyadını taşıyan iki Russell'ın gündeme getirdiği meseleler, teknoloji, insan denetimi ve etik sorumluluk bakımından çarpıcı bir kesişim oluşturuyor. İnsanlık, kendi yarattığı yıkıcı gücü denetleyebilecek siyasi ve ahlaki kurumları kurabilecek mi?
+
+Sorun savaş teknolojileriyle sınırlı değil. *Nature*'ın 17 Temmuz 2025 tarihli başyazısı, yapay zekâ ve dezenformasyonun nükleer savaş riskini artırabilecek yeni bir güvenlik ortamı yarattığına dikkat çekti: Askerî krizler sırasında sahte görüntülerin ve yanlış bilgilerin yayılması karar vericilerin yanlış değerlendirme yapmasına yol açabilir. Russell'ın "bilimsel gelişme ahlaki olgunluktan bağımsız ilerleyebilir" kaygısı, yetmiş yıl sonra aynı yerde duruyor.
+
+## Özgür düşünce, çoğunluğa karşı durabilme cesaretidir
+
+Russell'ın mirasının önemli bir bölümü özgürlük, otorite, eğitim ve toplumsal baskı üzerinedir; *Mutluluğun Fethi* (1930), *Eğitim Üzerine* (1926) ve *İktidar: Yeni Bir Toplumsal Çözümleme* (1938) bunun kitaplarıdır. Russell için özgürlük, istediğini yapabilmek değil, düşüncelerini korku, gelenek, otorite ya da toplumsal kabul baskısı altında biçimlendirmeden değerlendirebilmekti. Bu, kutuplaşma çağında ayrıca önemli: İnsanlar bir düşüncenin doğruluğunu çoğu zaman hangi siyasi ya da ideolojik çevreden geldiğine bakarak değerlendiriyor; fikrin içeriği yerine sahibinin kimliği öne çıkıyor. Oysa felsefi düşüncenin temel koşullarından biri, bir düşünceyi onu savunan kişiden bağımsız değerlendirebilmektir.
+
+Russell'ın hayatı bunun bedelsiz olmadığını gösterir. Birinci Dünya Savaşı'na karşı çıkması ve zorunlu askerliğe direnenleri savunması nedeniyle 1916'da Trinity College'daki öğretim görevinden uzaklaştırıldı; 1918'de savaş karşıtı bir yazısı yüzünden altı ay hapse mahkûm edildi ve Brixton Cezaevi'nde dört buçuk ay yattı; *Matematik Felsefesine Giriş*'i orada yazdı. 1940'ta New York City College'daki kürsüsü, ahlak anlayışı "ahlaksız" bulunduğu için mahkeme kararıyla iptal edildi. Seksen dokuz yaşında, 1961'de, nükleer silahsızlanma eylemi nedeniyle yeniden hapse girdi. Savaş karşıtlığı onun için akademik bir görüş değil, sonuçlarını üstlendiği bir tutumdu.
+
+Ancak Russell'ı eleştirel düşüncenin kusursuz temsilcisi olarak sunmak da doğru olmaz. Gençliğinde Boer Savaşı'nı destekleyen emperyalist görüşleri, 1920'lerde *Evlilik ve Ahlak*'ta öjeniye yaklaşımı ve ırklar hakkındaki bazı değerlendirmeleri, 1948'de Sovyetler Birliği'ne karşı önleyici nükleer savaşı ciddiye alır göründüğü açıklamaları, mirasının eleştirel incelenmesini gerektirir. Bir filozofu anlamak onu hatasız bir otoriteye dönüştürmek değil, güçlü ve sorunlu yönlerini birlikte değerlendirebilmektir; Russell'ın kendisi de bunu isterdi.
+
+## Eğitim neden yalnızca bilgi aktarma değildir?
+
+Russell 1927'de eşi Dora'yla birlikte Beacon Hill Okulu'nu kurdu; deneyi mali ve kişisel olarak başarısız oldu ama eğitim anlayışı kitaplarında kaldı. Eğitimin bilgi depolamaya indirgenmesine karşıydı; hedef, bağımsız düşünebilen, merak eden, kanıt arayan ve entelektüel bakımdan dürüst bireyler yetiştirmekti. Dogmatizmin, gereksiz otoritenin ve korkuya dayalı disiplinin karşısında durdu. Yapay zekâ sistemlerinin öğrencilere saniyeler içinde cevap ürettiği bir dünyada bu yaklaşım daha da önemli: Temel sorun artık bilgiye ulaşmak değil, elde edilen bilginin doğruluğunu değerlendirmek, farklı açıklamaları karşılaştırmak ve kendi düşüncesini oluşturabilmek. Bir öğrenciye her sorunun cevabını veren bir sistem sunmak mümkün; o öğrencinin doğru soruları sormayı öğrenmesini sağlamak çok daha zor bir eğitim meselesi.
+
+## Mutluluk, güç ve modern insanın huzursuzluğu
+
+*Mutluluğun Fethi* modern insanın mutsuzluğunu rekabet, kıskançlık, toplumsal karşılaştırma ve sürekli daha fazlasına sahip olma arzusu üzerinden inceler; Russell'a göre mutsuzluğun kaynaklarından biri, insanın kendi yaşamını başkalarının başarıları üzerinden değerlendirmesidir. Bugün insanlar yalnızca komşularıyla değil, dünyanın her yerindeki milyonlarca insanın idealize edilmiş yaşamlarıyla kendilerini karşılaştırıyor; görünürlüğün arkasında çoğu zaman seçilmiş ve düzenlenmiş hayat kesitleri var. Russell dijital çağ üzerine yazmadı; ama rekabet ve mutluluk üzerine düşünceleri, daha fazla seçenek ve bilgiyle kendi yaşamından memnun olma yeteneğini kaybeden modern insanı anlamak için verimli bir çerçeve sunuyor.
+
+## Asıl mesele: Bugün hangi soruları sormak zorundayız?
+
+Russell 2026 dünyasına bir reçete bırakmadı; yapay zekâyı, algoritmik propagandayı, dijital iletişim ağlarını görmedi. Ama düşüncesi bugünün sorunlarını değerlendirmek için güçlü bir başlangıç noktası: Bilginin doğruluğu nasıl belirlenir? Bilimsel gelişme hangi etik sınırlar içinde tutulmalıdır? Siyasi otorite bireyin düşüncesini ne ölçüde biçimlendirebilir? İnsanlık kendi yarattığı teknolojik gücü denetleyebilecek olgunluğa sahip midir? Çoğunluğun inandığı bir şey, yalnızca çoğunluk inandığı için doğru olabilir mi? Ve hepsinden önemlisi: İnsan, yanlış olabileceğini kabul etmeden gerçekten düşünebilir mi?
+
+Russell'ın 20. yüzyılda karşı çıktığı dogmatizm, 21. yüzyılda farklı araçlarla karşımızda. Geçmişte dinî, siyasi ya da ideolojik otoriteler aracılığıyla güç kazanan kalıplar bugün algoritmalar, dijital topluluklar ve bilgi manipülasyonu üzerinden yeniden üretiliyor. Araçlar değişiyor; insanın hakikati kendi inançlarına göre biçimlendirme eğilimi varlığını koruyor. Russell'ın bugün için en önemli mesajı, daha fazla bilgiye sahip olmamız gerektiğinden çok, sahip olduğumuz bilgiyi sorgulama sorumluluğumuzla ilgili. Bir toplumun entelektüel düzeyi yalnızca ne kadar bilgi ürettiğiyle değil, ne kadar güçlü sorgulayabildiğiyle ölçülür.
+
+Ölümünün üzerinden elli altı yıl geçti; insanlık hâlâ onun sorduğu soruyla karşı karşıya: Akıl kendi yarattığı gücü yönetebilecek mi, yoksa kendi zekâsının sonuçları karşısında yeniden çaresiz mi kalacak? Russell'ı yeniden okumak için en iyi neden belki budur. Çünkü insanlık artık yalnızca ne bildiğini değil, neye inanmak için yeterli gerekçeye sahip olduğunu da sorgulamak zorunda. [Popper üzerine](/haber/karl-popper-uzerine-yanilabilirlik-acik-toplum-elestiri) geçen hafta yazdığımız gibi, bu soru yirminci yüzyılın iki büyük akılcısını birleştirir: Yanılabilirliği kabul etmeyen akıl, akıl değildir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 2 Kasım: Pasolini'nin öldürülüşü (1975) ve tüketim toplumunun 'yeni faşizmi'",
+    slug: "felsefe-tarihinde-bugun-2-kasim-pasolini",
+    summary:
+      "2 Kasım 1975 gecesi Ostia'da dövülerek öldürülen Pier Paolo Pasolini şair, romancı ve film yönetmeniydi; ama son yıllarında yazdığı 'Korsan Yazılar' onu İtalya'nın en rahatsız edici düşünürü yapmıştı. Tezi, Gramsci'den Adorno'ya uzanan bir hattın en sert biçimiydi: Tüketim toplumu, faşizmin başaramadığını başardı; insanları içeriden dönüştürdü.",
+    seoTitle: "2 Kasım 1975: Pasolini'nin ölümü — Korsan Yazılar, tüketim toplumu ve 'yeni faşizm'",
+    metaDescription:
+      "Felsefe tarihinde 2 Kasım: Pier Paolo Pasolini 1975'te Ostia'da öldürüldü. Scritti corsari, Lettere luterane, 'ateşböceklerinin kaybolması', antropolojik mutasyon, Gramsci, tüketim toplumu eleştirisi ve Pasolini'nin bugünkü yankısı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pier%20Paolo%20Pasolini%20by%20Anatole%20Saderman%2C%201962.jpg?width=1600",
+    imageCredit: "Pier Paolo Pasolini, Anatole Saderman'ın fotoğrafı, 1962 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.britannica.com/biography/Pier-Paolo-Pasolini",
+    publishedAt: "2026-11-01T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "sinema", "marksizm", "elestirel-teori", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Pier Paolo Pasolini", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/Pier-Paolo-Pasolini", primary: true },
+      { title: "Scritti corsari (1975)", publisher: "Garzanti", url: "https://www.garzanti.it/libri/pier-paolo-pasolini-scritti-corsari-9788811675129/" },
+    ],
+    content: `2 Kasım 1975 sabahı Roma'nın plaj banliyösü Ostia'da, bir futbol sahasının kenarındaki boş arazide, dövülerek öldürülmüş ve kendi arabasıyla ezilmiş bir ceset bulundu. Elli üç yaşındaki Pier Paolo Pasolini'ydi. On yedi yaşındaki Pino Pelosi suçu üstlendi, 2005'te geri aldı; cinayet bugün hâlâ İtalya'nın çözülmemiş davalarından biri. Pasolini'nin son filmi *Salò ya da Sodom'un 120 Günü* üç hafta sonra gösterime girdi; son romanı *Petrolio* yarım kaldı. Ama 2 Kasım'ı felsefe takvimine taşıyan şey sinema ya da şiir değil, Pasolini'nin 1973-75 arasında *Corriere della Sera*'da yazdığı ve ölümünün hemen ardından *Scritti corsari* (Korsan Yazılar) adıyla toplanan makaleler: İtalya'nın tüketim toplumuna geçişi üzerine, yirminci yüzyılın en sert ve en çok tartışılan kültür eleştirilerinden biri.
+
+## Ateşböceklerinin kaybolması
+
+1 Şubat 1975 tarihli yazı, "Ateşböceklerinin Kaybolması" diye anılır. Pasolini 1960'ların başında İtalya'nın kırsalında ateşböceklerinin kirlilik yüzünden yok olduğunu hatırlar ve bunu bir tarih dönemlendirmesi olarak kullanır: Ateşböceklerinden önce ve sonra. Ondan önceki İtalya, köylü ve alt-proleter kültürlerin, lehçelerin, yerel dünyaların ülkesiydi; faşizm bile bu dünyaları yüzeyden dokunarak geçmişti, çünkü insanları gerçekten değiştirememişti. Sonrası, 1960'ların "ekonomik mucizesi" ve televizyonla gelen tüketim toplumuydu; bu toplum, Pasolini'ye göre, Mussolini'nin başaramadığını başardı: İnsanları içeriden, arzularından, bedenlerinden, dillerinden dönüştürdü. Pasolini buna "antropolojik mutasyon" dedi ve yeni düzene "yeni faşizm", hatta "gerçek faşizm" adını verdi; eski faşizm kılık değiştirmiş bir baskıydı, yenisi gönüllü bir dönüşümdü.
+
+Bu tez felsefi olarak iki kaynaktan besleniyordu. Birincisi Gramsci: Pasolini 1957'de *Gramsci'nin Külleri* şiiriyle ün kazanmıştı ve Gramsci'nin hegemonya kavramı, iktidarın zorla değil rızayla, kültür yoluyla kurulduğu fikri, "yeni faşizm" tezinin omurgasıdır. İkincisi Frankfurt Okulu'nun kültür endüstrisi eleştirisi: Pasolini Adorno'yu sistematik okumamıştı, ama televizyonun "merkezin kültürünü" bütün çevrelere dayatarak farklılıkları yok ettiği teşhisi, *Aydınlanmanın Diyalektiği*'nin İtalyan versiyonudur. Pasolini'nin özgünlüğü, bu eleştiriyi bir sosyolog değil bir şair olarak, bedenler üzerinden yapmasıydı: Roma banliyölerindeki gençlerin yüzlerinin, yürüyüşlerinin, konuşmalarının on yılda nasıl standartlaştığını gördüğünü yazdı. Faşizm bedenlere dokunmamıştı; tüketim toplumu onları yeniden biçimlendirmişti.
+
+## Lüterci mektuplar ve "Ben biliyorum"
+
+*Scritti corsari*'nin en skandal metni 14 Kasım 1974 tarihli "Darbe nedir?" yazısıdır; "Ben biliyorum" (*Io so*) diye başlayan ünlü paragrafta Pasolini, 1969'dan beri İtalya'yı sarsan bombalı saldırıların ve darbe girişimlerinin arkasındaki isimleri "bildiğini" ama kanıtının olmadığını söyler: "Biliyorum, çünkü bir aydınım, bir yazarım; olanları izlemeye, yazılanları okumaya, bilinmeyen ya da sessizliğe gömülen bütün parçaları bir araya getirmeye çalışan biriyim." Bu, aydının bilgi ile kanıt arasındaki konumuna dair bir manifestodur ve İtalyan kamuoyunda hâlâ tartışılır. Ölümünden sonra yayımlanan *Lettere luterane* (Lüterci Mektuplar, 1976) ise bu eleştiriyi pedagojik bir biçime sokar: Hayali bir Napolili gence yazılmış mektuplarda Pasolini, tüketim toplumunun eğitimini, "hedonist" ve "hoşgörülü" yeni iktidarın eski baskıcı iktidardan neden daha etkili olduğunu anlatır. Hoşgörü, ona göre, "sahte"ydi: Sistem farklı olanı yasaklamıyor, onu tüketilebilir hâle getirerek etkisizleştiriyordu.
+
+## İtiraz: Nostalji mi, teşhis mi?
+
+Pasolini'nin tezleri yayımlandığı anda saldırıya uğradı ve bugün de uğrar. Solun eleştirisi: Köylü ve alt-proleter kültürü yüceltmek, yoksulluğu estetize etmek, modernleşmenin getirdiği okur yazarlık, sağlık ve kadınların özgürleşmesi gibi kazanımları görmezden gelmektir; Italo Calvino 1974'te kürtaj tartışmasında Pasolini'ye "geçmişe duyulan dinî özlem" diye cevap vermişti. Pasolini'nin kürtaja karşı çıkışı ve "uzun saçlı gençler" yazısı, onu kendi okur kitlesine de yabancılaştırdı. Daha derin itiraz felsefidir: "Antropolojik mutasyon" tezi, kültürün insanları tamamen belirlediğini varsayar; direniş, yorum, farklı kullanım imkânlarını yok sayar. Pasolini'nin kendisi bu totalleştirici karamsarlığın farkındaydı; son röportajında, öldürülmeden saatler önce, "Hepimiz tehlikedeyiz" dedi ve "cehennem yükseliyor" diye ekledi.
+
+Yine de teşhisin gücü, elli yıl sonra, kaybolmadı. "Yeni faşizm"in zorla değil arzuyla, yasakla değil tüketimle işlediği tezi; iktidarın hoşgörü maskesiyle farklılığı emdiği gözlemi; medyanın merkezin kültürünü dayatarak yerel dünyaları yok ettiği iddiası, bugün algoritmalar ve platformlar çağında yeniden okunuyor. Georges Didi-Huberman'ın *Ateşböceklerinin Hayatta Kalışı* (2009) kitabı, Pasolini'ye karşı Pasolini'yi savunur: Ateşböcekleri kaybolmadı, yalnızca projektörlerin ışığında görünmez oldular; direnişin küçük ışıkları hâlâ var. Bu belki de Pasolini'nin mirasını okumanın en verimli yolu: Karamsarlığını bir hüküm değil bir uyarı olarak almak.
+
+Pasolini filozof değildi ve öyle anılmak istemezdi; "ben bir güç değil, bir kuvvetim" demişti, "geçmişin kuvveti". Ama Ostia'daki o boş arazide ölen adam, İtalya'nın en büyük yaşayan şairi olduğu kadar, tüketim toplumunun felsefi eleştirisini kitaplardan sokağa indiren kişiydi. 2 Kasım, Katolik takviminde Ölüler Günü'dür; Pasolini'nin ölümüne bundan uygun bir tarih düşünmek zor.`,
+  },
   {
     title: "Sadri Maksudi Arsal ve Türkiye'de Hukuk Felsefesinin Sistematikleşmesi",
     slug: "sadri-maksudi-arsal-hukuk-felsefesi-sistematiklesme",
@@ -37337,6 +37499,7 @@ export const books: SeedBook[] = [
     description:
       "Foucault'nun 1966 yazında, Kelimeler ve Şeyler'in hemen ardından yazdığı ve ölümünden sonra yayımlanan taslak: Descartes'tan Nietzsche'ye modern felsefeyi, kendi çağını teşhis eden, tarihsel sınırları olan bir 'beyan' biçimi olarak ele alır. Orazio Irrera ve Daniele Lorenzini'nin hazırladığı Fransızca edisyondan çevrildi. 256 sayfa; Nisan 2026.",
     year: 2026,
+    originalYear: 2023,
     link: "https://www.yapikrediyayinlari.com.tr/felsefi-beyan.aspx",
     philosopherSlug: null,
     postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
@@ -37369,6 +37532,7 @@ export const books: SeedBook[] = [
     description:
       "Frédéric Gros, Marx'ın Ruge'ye mektubundaki 'utanç devrimci bir duygudur' cümlesinden yola çıkarak utancı bireysel bir zaaf olmaktan çıkarıp siyasal bir güce dönüştürüyor: Annie Ernaux'nun sınıf utancı, Didier Eribon'un 'Reims'e dönüş'ü, Primo Levi'nin hayatta kalanın utancı ve Lacan'ın utanç üzerine seminerinden geçen bir deneme. 144 sayfa; Mart 2026.",
     year: 2026,
+    originalYear: 2021,
     link: "https://www.yapikrediyayinlari.com.tr/utanc-devrimci-bir-duygudur.aspx",
     philosopherSlug: null,
     postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
@@ -37385,6 +37549,7 @@ export const books: SeedBook[] = [
     description:
       "Psikiyatr ve tarihçi George Makari, 'zenofobi' kelimesinin 1880'lerde icadından bugüne yabancı düşmanlığının tarihini psikiyatri, sömürge tarihi ve düşünce tarihi üzerinden izliyor: Conrad, Camus, Wright ve Baldwin'in romanlarından Sartre, Beauvoir, Fanon, Adorno ve Foucault'nun kuramlarına. Türkçesi 2026'da yayımlandı.",
     year: 2026,
+    originalYear: 2021,
     link: "https://www.yapikrediyayinlari.com.tr/",
     philosopherSlug: null,
     postSlug: "turkcede-yeni-felsefe-kitaplari-2026-ekim",
@@ -37689,6 +37854,7 @@ export const books: SeedBook[] = [
     description:
       "Modern hermeneutiğin kurucu metinleri ilk kez Almanca aslından Türkçeye çevrildi. Kitap, Kaan H. Ökten'in hazırladığı kapsamlı bir \"Sunuş\" bölümüyle açılıyor: Schleiermacher'in biyografisi, eserleri, hermeneutik kuramın genel hatları ve derslerin özetleri. Ardından 1809/1810 güz ve 1819 bahar yarıyıllarındaki dersler geliyor. 216 sayfa.",
     year: 2026,
+    originalYear: 1809,
     link: "https://www.edebiyathaber.net/schleiermacherin-hermeneutik-dersleri-okurla-bulustu/",
     philosopherSlug: null,
     postSlug: "schleiermacher-hermeneutik-dersleri-turkce",
@@ -37737,6 +37903,7 @@ export const books: SeedBook[] = [
     description:
       "Foucault'nun ölümünden sonra yayın yasağına rağmen, elyazmasının Gallimard'a tesliminden otuz altı yıl sonra 2018'de Frédéric Gros'un editörlüğünde yayımlanan dördüncü cilt. Beklenen modern dönemi değil, ikinci-beşinci yüzyıl Kilise Babaları'nı ele alıyor.",
     year: 2018,
+    originalYear: 2018,
     link: "https://www.theoryculturesociety.org/blog/review-michel-foucault-confessions-of-the-flesh",
     philosopherSlug: null,
     postSlug: "foucault-bedenin-itiraflari-dorduncu-cilt",
@@ -38041,6 +38208,7 @@ export const books: SeedBook[] = [
     description:
       "Han, anlatının hikâye anlatıcılığından 'hikâye satıcılığına' dönüşümünü ve dijitalleşmeyle derinleşen anlatı kaybını tartışıyor.",
     year: null,
+    originalYear: 2023,
     link: "https://www.ketebe.com/anlatinin-krizi-byung-chul-han",
     philosopherSlug: "byung-chul-han",
     postSlug: "byung-chul-han-anlatinin-krizi-turkcede",
@@ -38057,6 +38225,7 @@ export const books: SeedBook[] = [
     description:
       "Han'ın performans toplumu eleştirisinin çıkış metni: disiplin toplumundan başarı toplumuna geçiş ve tükenmişlik.",
     year: null,
+    originalYear: 2010,
     link: null,
     philosopherSlug: "byung-chul-han",
     postSlug: null,
@@ -38073,6 +38242,7 @@ export const books: SeedBook[] = [
     description:
       "Sandel'in Harvard'daki ünlü dersinden doğan kitap; faydacılık, özgürlükçülük ve erdem etiği tartışmalarını güncel vakalarla ele alıyor.",
     year: null,
+    originalYear: 2009,
     link: null,
     philosopherSlug: "michael-sandel",
     postSlug: null,
@@ -38089,6 +38259,7 @@ export const books: SeedBook[] = [
     description:
       "Uygulamalı etiğin en çok tartışılan kitaplarından; türcülük kavramını felsefi gündeme sokan metin.",
     year: null,
+    originalYear: 1975,
     link: null,
     philosopherSlug: "peter-singer",
     postSlug: null,
@@ -38137,6 +38308,7 @@ export const books: SeedBook[] = [
     description:
       "Alasdair MacIntyre'ın 1981 tarihli kitabı, modern ahlak dilinin dağıldığını savunur ve Aristotelesçi erdem etiğini yeniden gündeme getirir. Yirminci yüzyıl ahlak felsefesinin dönüm noktalarından biri sayılıyor.",
     year: 1981,
+    originalYear: 1981,
     link: null,
     philosopherSlug: "alasdair-macintyre",
     postSlug: "alasdair-macintyre-mirasi-erdem-etigi",
@@ -38153,6 +38325,7 @@ export const books: SeedBook[] = [
     description:
       "Jürgen Habermas'ın 1962 tarihli doçentlik çalışması. Kahvehanelerden gazetelere uzanan burjuva kamusal alanının doğuşunu ve çözülüşünü izler; kavram bugün dijital medya tartışmalarında da kullanılıyor.",
     year: 1962,
+    originalYear: 1962,
     link: null,
     philosopherSlug: "jurgen-habermas",
     postSlug: "jurgen-habermas-1929-2026",
@@ -38265,6 +38438,7 @@ export const books: SeedBook[] = [
     description:
       "Nietzsche'nin 1887 tarihli kitabı. Bir önsöz ve üç incelemeden oluşur: değerlerin tersine çevrilişi, kötü vicdanın doğuşu ve çileci idealin anlamı. Ahlakı yargılamak yerine ahlakın tarihini soruşturur.",
     year: 1887,
+    originalYear: 1887,
     link: null,
     philosopherSlug: "friedrich-nietzsche",
     postSlug: "nietzschenin-soykutugu-degerlerin-degeri",
@@ -38754,7 +38928,9 @@ Dersler İngilizce; yüz yüze katılımın yanı sıra çevrim içi katılım d
 
 Tema: **(Perceived) Dichotomies in Mathematics: Opposites, Boundaries, and Tensions in the History and Philosophy of Mathematics.** Saf-uygulamalı, sonlu-sonsuz, keşif-icat, sezgi-biçimselleştirme gibi matematiğin tarihinde ve felsefesinde kurulan ikiliklerin nasıl oluştuğu, nerede çözüldüğü ve neyi gizlediği tartışılacak.
 
-Düzenleyiciler: Emma Baxter (Oxford), Marieke Gelderblom (Utrecht), Thomas Glasman (Oxford), Tiago Hirth (Lizbon), Rami Jreige (Bristol), Mireia Martínez i Sellarès (Utrecht), Esra Nur Osta (İstanbul). Destekleyenler arasında YTB, Uluslararası Matematik Tarihi Komisyonu (ICHM), Descartes Centre, British Society for the History of Mathematics ve Hollanda Türkiye Enstitüsü var. Bildiri çağrısı kapandı.`,
+Düzenleyiciler: Emma Baxter (Oxford), Marieke Gelderblom (Utrecht), Thomas Glasman (Oxford), Tiago Hirth (Lizbon), Rami Jreige (Bristol), Mireia Martínez i Sellarès (Utrecht), Esra Nur Osta (İstanbul). Destekleyenler: Uluslararası Matematik Tarihi Komisyonu (ICHM), British Society for the History of Mathematics (BSHM), Hollanda Türkiye Enstitüsü (NIT), Utrecht Descartes Centre, Associação Ludus ve Fatih Belediyesi. Yerel düzenleyiciler: Naile Hajjar, Kübra Kireçli ve Tarık Likoğlu (İstanbul Medeniyet Üniversitesi). Bildiri çağrısı kapandı.
+
+**Program ve bildiri özetleri kitapçığı yayımlandı** (45 sayfa; İstanbul'a hoş geldiniz, program, davetli konuşmacılar, özetler ve konuşmacı listesi): [Programme and Book of Abstracts (PDF)](https://bilimtarihienstitu.medeniyet.edu.tr/documents/bilimtarihienstitu/boa_v2-1.pdf). İletişim: novembertagung.hpm@gmail.com.`,
     kind: "KONFERANS",
     organizer: "Novembertagung · İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü",
     topic: "Matematik tarihi, matematik felsefesi",
@@ -38765,12 +38941,12 @@ Düzenleyiciler: Emma Baxter (Oxford), Marieke Gelderblom (Utrecht), Thomas Glas
     hasTime: false,
     city: "İstanbul",
     country: "Türkiye",
-    venue: "İstanbul Medeniyet Üniversitesi",
+    venue: "İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü",
     website: "https://novembertagung.wordpress.com/",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/P.%20Oxy.%20I%2029.jpg?width=1600",
     featured: false,
-    sourceName: "Novembertagung",
-    sourceUrl: "https://novembertagung.wordpress.com/",
+    sourceName: "İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü · Novembertagung",
+    sourceUrl: "https://bilimtarihienstitu.medeniyet.edu.tr/documents/bilimtarihienstitu/boa_v2-1.pdf",
   },
   {
     title: "Harvard Graduate Conference in Political Theory 2026",

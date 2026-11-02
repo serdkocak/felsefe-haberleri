@@ -184,7 +184,7 @@ export default function AboutPage() {
           <Alan ad="Filozoflar Hakkında" slug="filozoflar-hakkinda">
             Filozofların yaşamları, eserleri, düşünceleri ve entelektüel mirasları.
           </Alan>
-          <Alan ad="Yeni Kitaplar" slug="yeni-kitaplar">
+          <Alan ad="Felsefe Kitapları" slug="yeni-kitaplar">
             Yeni yayımlanan felsefe kitapları ve felsefe yayıncılığındaki önemli gelişmeler.
           </Alan>
           <Alan ad="Ödüller" slug="oduller">

@@ -127,6 +127,7 @@ const bookSelect = {
   coverImage: true,
   description: true,
   year: true,
+  originalYear: true,
   link: true,
   philosopher: { select: { id: true, name: true, slug: true } },
   /** Kitabı duyuran haber: raf görünümünde bağlantı ve ters-kronolojik sıralama için. */
