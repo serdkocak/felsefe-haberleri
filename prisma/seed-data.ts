@@ -3066,6 +3066,49 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Felsefe Tarihinde Bugün — 3 Kasım: Olympe de Gouges giyotinde (1793) ve 'Kadın Hakları Bildirgesi'",
+    slug: "felsefe-tarihinde-bugun-3-kasim-olympe-de-gouges",
+    summary:
+      "3 Kasım 1793'te Paris'te giyotinle idam edilen Olympe de Gouges, iki yıl önce İnsan ve Yurttaş Hakları Bildirgesi'ni madde madde kadınlar için yeniden yazmıştı: 'Kadının darağacına çıkma hakkı varsa, kürsüye çıkma hakkı da olmalıdır.' Devrimin kendi ilkelerini kendisine karşı okuyan bir düşünürün hikâyesi ve evrenselcilik sorunu.",
+    seoTitle: "3 Kasım 1793: Olympe de Gouges'un idamı — Kadın ve Kadın Yurttaş Hakları Bildirgesi",
+    metaDescription:
+      "Felsefe tarihinde 3 Kasım: Olympe de Gouges 1793'te giyotinle idam edildi. Kadın ve Kadın Yurttaş Hakları Bildirgesi (1791), evrensel hakların dışlamaları, köleliğe karşı oyunu, Jakobenlerle çatışması ve feminist siyaset felsefesindeki yeri.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Olympe%20de%20Gouges.png?width=1600",
+    imageCredit: "Olympe de Gouges, Alexander Kucharsky'ye atfedilen portre (18. yüzyıl sonu) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/feminism-political/",
+    publishedAt: "2026-11-02T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "toplumsal-cinsiyet", "siyaset-felsefesi", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Feminist Perspectives on Power / Feminist Political Philosophy", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/feminism-political/", primary: true },
+      { title: "Déclaration des droits de la femme et de la citoyenne (1791)", publisher: "Wikisource", url: "https://fr.wikisource.org/wiki/D%C3%A9claration_des_droits_de_la_femme_et_de_la_citoyenne" },
+    ],
+    content: `1791 Eylül'ünde Paris'te, Kurucu Meclis anayasayı tamamlarken, Marie Gouze adlı bir kasap kızı, Montauban'dan gelmiş, kendi kendini eğitmiş, "Olympe de Gouges" adıyla oyunlar ve broşürler yazan bir kadın, Devrim'in en kutsal metnini yeniden yazdı. 1789 *İnsan ve Yurttaş Hakları Bildirgesi*'nin on yedi maddesini tek tek alıp "insan" (*homme*, aynı zamanda "erkek") sözcüğünün geçtiği her yere "kadın"ı ekledi: "Kadın özgür doğar ve haklar bakımından erkekle eşit kalır." Metni Kraliçe Marie-Antoinette'e ithaf etti; sonuna bir "toplumsal sözleşme" taslağı, evlilik yerine eşit ortaklığı öneren bir anlaşma metni koydu. *Kadın ve Kadın Yurttaş Hakları Bildirgesi*, Devrim'in evrenselliğinin kimleri dışarıda bıraktığını gösteren ilk büyük felsefi belgedir. İki yıl sonra, 3 Kasım 1793'te, yazarı Devrim Meydanı'nda giyotinle idam edildi.
+
+## Darağacı ve kürsü
+
+Bildirge'nin onuncu maddesi, feminist düşünce tarihinin en çok alıntılanan cümlelerinden birini içerir: "Kadının darağacına çıkma hakkı vardır; kürsüye çıkma hakkı da eşit olarak olmalıdır." Argüman basit ve yıkıcıdır: Devlet kadını cezalandırırken ona tam bir hukuki özne muamelesi yapıyorsa, siyasal haklar konusunda onu yarı özne saymak tutarsızdır. Bu, Aydınlanma'nın kendi mantığını kendisine karşı çevirmektir: Evrensel akıl, evrensel haklar ve "doğal eşitlik" ilkeleri ciddiye alınırsa, kadınların dışlanması bir doğa olgusu değil bir karar olarak görünür hâle gelir. De Gouges, Condorcet'nin 1790'daki "Kadınların Yurttaşlık Haklarına Kabulü Üzerine" denemesiyle birlikte, Devrim'in içinden bu tutarsızlığı gören birkaç kişiden biriydi; Rousseau'nun *Emile*'de kadını erkeğin tamamlayıcısı ve ev alanına ait sayan görüşü ise Jakobenlerin resmî anlayışıydı.
+
+## Evrenselin sınırları
+
+De Gouges'un düşüncesini yalnızca kadın hakları savunusuna indirgemek eksik olur; onu asıl ilginç kılan, dışlamanın mantığını birden fazla cephede görmesidir. 1784'te yazdığı ve 1789'da Comédie-Française'de sahnelenen *Zamora ve Mirza ya da Zencilerin Köleliği*, Fransız sahnesinde köleliğe karşı ilk oyunlardan biriydi; sömürge lobisi oyunu üç gösterimden sonra kapattırdı ve de Gouges'u tehdit etti. 1788'de yayımladığı "Zencilere Dair Düşünceler" broşüründe köleliği "insan doğasına aykırı ticaret" diye niteledi. Kadınlar, köleler, gayrimeşru çocuklar, yoksullar: De Gouges'un yazıları, 1789 Bildirgesi'nin "insan"ının aslında kim olduğunu soran bir dizi deneme olarak okunabilir. Bu soru, Joan Scott'un *Only Paradoxes to Offer* (1996) kitabında gösterdiği gibi, feminist siyaset felsefesinin kurucu paradoksudur: Kadınlar evrensel haklara "kadın olarak" talip olduklarında, evrenselliğin cinsiyetsiz olması gerektiğini söyleyerek cinsiyeti öne çıkarırlar; Scott'a göre de Gouges bu paradoksun ilk ve en net örneğidir.
+
+## Jakobenlerle çatışma ve idam
+
+De Gouges Devrim'in ilkelerini savunuyordu ama Terör'ü değil; anayasal monarşiye yakındı, Girondinlerle birlikte hareket etti, Kral'ın yargılanmasında onu savunmaya gönüllü oldu ("Kral'ın başı düşerse sizinki de düşer" diye uyardı). 1793 yazında, Fransa'nın yönetim biçimine (cumhuriyet, federasyon ya da monarşi) halkoyuyla karar verilmesini öneren bir afiş astırdı; bu, Cumhuriyet'in bölünmezliğini sorgulamak sayıldı ve tutuklandı. Devrim Mahkemesi'nde kendini kendisi savundu, hamile olduğunu iddia ederek idamı geciktirmeye çalıştı, reddedildi. 3 Kasım 1793'te, Marie-Antoinette'ten iki hafta, Girondin milletvekillerinden üç gün sonra idam edildi. İki hafta sonra Jakoben gazetesi, kadınlara "Olympe de Gouges gibi cinsiyetinizin erdemlerini unutmayın" diye uyarıda bulundu; aynı günlerde Komün bütün kadın siyasi kulüplerini kapattı. Kadınların kamusal alandan dışlanması, Terör'ün politikasıydı ve de Gouges'un idamı bu politikanın gösterisiydi.
+
+## Mirası
+
+De Gouges uzun süre unutuldu ya da küçümsendi; Michelet onu "deli", Lombroso "histerik" diye andı. 1970'lerde feminist tarihçiler tarafından yeniden keşfedildi; 1989'da Devrim'in iki yüzüncü yılı onu kamusal figüre dönüştürdü; 2016'da Fransız Ulusal Meclisi'nde büstü dikildi ve Panthéon'a alınması hâlâ tartışılıyor. Felsefi önemi iki yönlü. Birincisi, "evrensel" iddiaların her zaman belirli bir kimlikten yazıldığını ve dışlamalarının görünmezleştirildiğini göstermek; bu, Benhabib'den Fraser'a çağdaş siyaset felsefesinin ana temalarından biridir. İkincisi, dışlananların "evrenselden vazgeçmek" yerine evrenseli daha tutarlı biçimde talep ederek eleştirebileceğini göstermek; de Gouges 1789'u reddetmedi, onu ciddiye aldı. [Elizabeth Cady Stanton'ın](/haber/felsefe-tarihinde-bugun-26-ekim-elizabeth-cady-stanton) 1848'de Bağımsızlık Bildirgesi'yle yaptığı şey, de Gouges'un 1791'de Fransız Bildirgesi'yle yaptığının tekrarıdır ve her ikisi de aynı stratejiyi kullanır: Metni kelimesi kelimesine alıp eksik olanı eklemek.
+
+De Gouges'un Bildirge'sinin önsözü bir soruyla açılır: "Erkek, adil olma yeteneğine sahip misin? Bu soruyu sana bir kadın soruyor; en azından bu hakkı elinden alamazsın." 3 Kasım 1793'te bu hakkı elinden aldılar. Soru yerinde duruyor.`,
+  },
+  {
     title: "Yunus Emre Divanı'nın kayıp 'Türk Yurdu Nüshası' bulundu: Dokuz yeni şiir ve Türk felsefesi için anlamı",
     slug: "yunus-emre-divani-turk-yurdu-nushasi-dokuz-yeni-siir",
     summary:
@@ -38454,6 +38497,205 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "ICON-S Türkiye: Kanun-ı Esasî'den Bugüne Anayasal Birikim",
+    slug: "icon-s-turkiye-kanun-i-esasiden-bugune-anayasal-birikim-2026",
+    summary:
+      "Uluslararası Kamu Hukuku Derneği'nin (ICON-S) Türkiye bölümü, Kanun-ı Esasî'nin 150. yılında anayasal birikimi tarih, kurumlar, insan hakları ve anayasa politikası eksenlerinde tartışıyor. 6 Kasım 2026 Cuma, 09.00-18.30, Koç Üniversitesi.",
+    description: `ICON-S Türkiye'nin (International Society of Public Law, Türkiye Bölümü) düzenlediği tam günlük toplantı, 1876 Kanun-ı Esasî'den 1921, 1924, 1961 ve 1982 anayasalarına uzanan 150 yıllık anayasal birikimi dört eksende ele alıyor: tarih, kurumlar, insan hakları ve anayasa politikası. Konuşmacılar ve oturum programı derneğin duyurusundaki videoda açıklandı.
+
+Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir kurallar metni mi, yoksa bir siyasal topluluğun kendisi hakkındaki bir tasavvuru mu? [Sadri Maksudi Arsal](/haber/sadri-maksudi-arsal-hukuk-felsefesi-sistematiklesme) ve [Türkiye'de hukuk felsefesi](/haber/turkiyede-hukuk-felsefesi-munif-pasadan-cemal-bali-akala) dosyalarımız bu sorunun tarihsel arka planı için okunabilir. ICON-S Türkiye'nin kurucu eş başkanları Bertil Emrah Oder (Koç Üniversitesi) ve Ece Göztepe (Bilkent Üniversitesi).`,
+    kind: "SEMPOZYUM",
+    organizer: "ICON-S Türkiye · Koç Üniversitesi Hukuk Fakültesi",
+    topic: "Anayasa hukuku, anayasa tarihi, insan hakları, hukuk felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-06T06:00:00.000Z",
+    endsAt: "2026-11-06T15:30:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "Koç Üniversitesi, Rumelifeneri Kampüsü",
+    website: "https://x.com/iconsturkiye/status/2117276175257014581",
+    featured: true,
+    sourceName: "ICON-S Türkiye",
+    sourceUrl: "https://x.com/iconsturkiye/status/2117276175257014581",
+  },
+  {
+    title: "Grotius ve Hobbes'ta Savaş Hakkı — Hobbes Scholars 6. Uluslararası Konferansı (ODTÜ)",
+    slug: "hobbes-scholars-6-konferans-grotius-hobbes-savas-hakki-odtu-2026",
+    summary:
+      "Hobbes Scholars International Association'ın altıncı uluslararası konferansı 13-14 Kasım'da ODTÜ Felsefe Bölümü'nde: Grotius ve Hobbes'ta savaş hakkı, doğal hukuk ve egemenlik. İngilizce ve Fransızca; 20 dakikalık bildiriler ve tartışma. Kayıt gerekmiyor.",
+    description: `Thomas Hobbes araştırmacılarının uluslararası derneği Hobbes Scholars International Association, altıncı konferansını Ankara'da, ODTÜ Felsefe Bölümü'nün ev sahipliğinde düzenliyor. Konu, erken modern siyaset felsefesinin kurucu meselelerinden biri: Hugo Grotius'un *De iure belli ac pacis*'i (1625) ile Hobbes'un *Leviathan*'ı (1651) arasında savaş hakkı, doğal hukuk, egemenlik ve "haklı savaş" düşüncesinin dönüşümü. Konferans dili İngilizce ve Fransızca; sunumlar 20 dakika ve tartışma biçiminde. Düzenleyen: James Griffith (ODTÜ). Konferans ODTÜ Üniversiteler Mahallesi kampüsünde yapılacak; kayıt gerekmiyor.`,
+    kind: "KONFERANS",
+    organizer: "Hobbes Scholars International Association · ODTÜ Felsefe Bölümü",
+    speakers: "Düzenleyen: James Griffith (ODTÜ)",
+    topic: "Hobbes, Grotius, savaş hakkı, doğal hukuk, siyaset felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-13T00:00:00.000Z",
+    endsAt: "2026-11-14T00:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "Ankara",
+    country: "Türkiye",
+    venue: "ODTÜ Felsefe Bölümü, Üniversiteler Mah. Dumlupınar Bulv. No. 1",
+    fee: "Ücretsiz · kayıt gerekmiyor",
+    website: "https://hobbesscholarseng.wordpress.com/",
+    featured: false,
+    sourceName: "Hobbes Scholars International Association",
+    sourceUrl: "https://hobbesscholarseng.wordpress.com/",
+  },
+  {
+    title: "Timothy Williamson Çin Felsefesiyle Karşılaşıyor (Fudan Üniversitesi)",
+    slug: "williamson-cin-felsefesiyle-karsilasiyor-fudan-2026",
+    summary:
+      "Fudan Üniversitesi Felsefe Okulu'nun 'Çin Felsefesiyle Karşılaşmalar' dizisinin dördüncüsü, 6-7 Kasım'da Timothy Williamson'a ayrılmış: Çin felsefesi uzmanları Williamson'ın epistemolojisini ve metafiziğini Çin düşüncesi üzerinden eleştiriyor, Williamson cevap veriyor. Önceki konuklar Slote, Sosa ve Blackburn'dü.",
+    description: `Şanghay'daki Fudan Üniversitesi Felsefe Okulu'nun "Fudan Studies of Encountering Chinese Philosophy" konferans ve kitap dizisi, çağdaş Batılı bir filozofu Çin felsefesi araştırmacılarıyla karşı karşıya getiriyor. Daha önce Michael Slote, Ernest Sosa ve Simon Blackburn'e ayrılan dizinin dördüncü toplantısının konuğu [Timothy Williamson](/filozof/timothy-williamson). Bir düzine kadar Çin felsefesi uzmanı, bilgi kuramından belirsizlik ve modal metafiziğe Williamson'ın felsefesinin çeşitli yönlerini Konfüçyüsçü, Taocu ve Budist kaynaklardan hareketle eleştirecek; Williamson her bildiriye cevap verecek. Eleştiriler ve cevaplar aynı başlıkla derlenip dizide kitap olarak yayımlanacak. Düzenleyen: Yong Huang (Fudan). Kayıt gerekmiyor.`,
+    kind: "KONFERANS",
+    organizer: "Fudan Üniversitesi Felsefe Okulu",
+    speakers: "Timothy Williamson ve Çin felsefesi araştırmacıları",
+    topic: "Williamson, Çin felsefesi, karşılaştırmalı felsefe, epistemoloji",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-06T00:00:00.000Z",
+    endsAt: "2026-11-07T00:00:00.000Z",
+    timezone: "Asia/Shanghai",
+    hasTime: false,
+    city: "Şanghay",
+    country: "Çin",
+    venue: "Fudan Üniversitesi Felsefe Okulu, 220 Handan Road",
+    website: "https://philosophy.fudan.edu.cn/",
+    featured: false,
+    sourceName: "Fudan Üniversitesi Felsefe Okulu",
+    sourceUrl: "https://philosophy.fudan.edu.cn/",
+  },
+  {
+    title: "NYU Modern Felsefe Konferansı: Toplum Sözleşmesi",
+    slug: "nyu-issues-in-modern-philosophy-toplum-sozlesmesi-2026",
+    summary:
+      "New York Üniversitesi Felsefe Bölümü'nün her yıl modern felsefenin bir sorununa ayırdığı konferansın yirmi birincisi, 6-7 Kasım'da 'Toplum Sözleşmesi' üzerine: Hobbes, Locke, Rousseau ve Kant'tan çağdaş sözleşmeciliğe.",
+    description: `NYU Felsefe Bölümü'nün "Issues in Modern Philosophy" konferansı, 17.-19. yüzyıl felsefesinin tek bir kavramını tarihçiler ve sistematik felsefeciler arasında tartıştıran, alanın en köklü yıllık toplantılarından biri. 2026 konusu toplum sözleşmesi: Hobbes, Locke, Rousseau ve Kant'ta sözleşme fikrinin kökenleri, Rawls ve Scanlon'daki çağdaş biçimleri, sözleşmecilik ile cumhuriyetçilik ve feminist eleştiri arasındaki tartışma. Program ve konuşmacılar NYU Felsefe Bölümü'nün etkinlik sayfasında.`,
+    kind: "KONFERANS",
+    organizer: "New York University, Department of Philosophy",
+    topic: "Toplum sözleşmesi, modern felsefe tarihi, siyaset felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-06T00:00:00.000Z",
+    endsAt: "2026-11-07T00:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "New York",
+    country: "ABD",
+    venue: "NYU Department of Philosophy, 5 Washington Place",
+    website: "https://as.nyu.edu/departments/philosophy.html",
+    featured: false,
+    sourceName: "NYU Department of Philosophy",
+    sourceUrl: "https://as.nyu.edu/departments/philosophy.html",
+  },
+  {
+    title: "Kitap Kurdu Çağı: Büyük Dil Modelleri Dünyayı Temsil Edebilir mi? (Cenevre)",
+    slug: "age-of-the-bookworm-llm-dunyayi-temsil-cenevre-2026",
+    summary:
+      "Cenevre ve Neuchâtel üniversitelerinin felsefe bölümleri 11 Kasım'da bir soruyu masaya yatırıyor: Yalnızca metinle eğitilen bir dil modeli dünyayı temsil edebilir mi? Zihin felsefesi, bilişsel bilim ve hesaplama felsefesinin kesişiminde bir konferans.",
+    description: `"The Age of the Bookworm" başlıklı toplantı, büyük dil modellerinin anlam ve temsil kapasitesine ilişkin güncel tartışmayı ele alıyor: Yalnızca metinden öğrenen bir sistem, dünyadaki nesnelere ve olgulara gönderme yapabilir mi, yoksa yalnızca metinler arası ilişkileri mi öğrenir? "Kitap kurdu" benzetmesi, dünyayı hiç görmeden yalnızca okuyarak bilen bir varlığın ne bilebileceği sorusunu özetliyor. Konferans, Cenevre Üniversitesi Felsefe Bölümü ile Neuchâtel Üniversitesi'nin ortak düzenlemesi; [Noller](/haber/jorg-noller-genisletilmis-yargi-llm-topoi-2026) ve [Husserl](/haber/husserl-fenomenolojisi-yapay-zeka-yonelimsellik-deneyim) yazılarımızda tartıştığımız sorunun doğrudan devamı.`,
+    kind: "KONFERANS",
+    organizer: "Université de Genève, Département de philosophie · Université de Neuchâtel",
+    topic: "Büyük dil modelleri, temsil, anlam, zihin felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-11T00:00:00.000Z",
+    timezone: "Europe/Zurich",
+    hasTime: false,
+    city: "Cenevre",
+    country: "İsviçre",
+    venue: "Université de Genève",
+    website: "https://www.unige.ch/lettres/philo/",
+    featured: false,
+    sourceName: "Université de Genève — Département de philosophie",
+    sourceUrl: "https://www.unige.ch/lettres/philo/",
+  },
+  {
+    title: "Evrensellik ve Kayıtsızlık: Mantık Tarafsız mıdır? (MCMP, Münih)",
+    slug: "mantik-tarafsiz-midir-mcmp-munih-2026",
+    summary:
+      "Münih Matematiksel Felsefe Merkezi'nin (MCMP) 13 Kasım'daki hibrit konferansı mantığın tarafsızlığını sorguluyor: Mantık konu bağımsız ve evrensel mi, yoksa seçimleri ve bağlılıkları olan bir disiplin mi? Mantıksal çoğulculuk, anti-istisnacılık ve mantığın normatifliği tartışılıyor.",
+    description: `LMU Münih'teki Munich Center for Mathematical Philosophy, mantık felsefesinin en canlı tartışmalarından birine odaklanıyor: Mantık, Frege ve Russell'ın düşündüğü gibi "evrensel ve kayıtsız" (her konuya aynı biçimde uygulanan, konu seçmeyen) bir disiplin midir; yoksa mantıksal çoğulculuk, anti-istisnacılık ve feminist mantık eleştirilerinin öne sürdüğü gibi kendi değer yüklü seçimleri olan bir alan mı? Toplantı MCMP'de yüz yüze ve çevrim içi izlenebilecek; program ve bağlantı merkezin etkinlik sayfasında. [Van Fraassen](/haber/bas-van-fraassen-bicimsel-mantik-yapici-empirizm-portre) portremizde ele aldığımız mantık-dünya ilişkisi sorusunun güncel bir uzantısı.`,
+    kind: "KONFERANS",
+    organizer: "Munich Center for Mathematical Philosophy (MCMP), LMU München",
+    topic: "Mantık felsefesi, mantıksal çoğulculuk, normatiflik",
+    format: "HIBRIT",
+    startsAt: "2026-11-13T00:00:00.000Z",
+    timezone: "Europe/Berlin",
+    hasTime: false,
+    city: "Münih",
+    country: "Almanya",
+    venue: "LMU München, MCMP (ve çevrim içi)",
+    website: "https://www.mcmp.philosophie.uni-muenchen.de/",
+    featured: false,
+    sourceName: "Munich Center for Mathematical Philosophy",
+    sourceUrl: "https://www.mcmp.philosophie.uni-muenchen.de/",
+  },
+  {
+    title: "Çalkantılı Zamanlarda Teknoloji Etiği — 4TU.Ethics & ESDiT Konferansı",
+    slug: "technology-ethics-in-turbulent-times-4tu-esdit-2026",
+    summary:
+      "Hollanda'nın dört teknik üniversitesinin etik merkezi 4TU.Ethics ile ESDiT programının ortak konferansı 4 Kasım'da başlıyor: Savaş, iklim ve yapay zekâ çağında teknoloji etiğinin yöntem ve değer sorunları.",
+    description: `Delft, Eindhoven, Twente ve Wageningen teknik üniversitelerinin ortak etik merkezi 4TU.Ethics ile "Ethics of Socially Disruptive Technologies" (ESDiT) araştırma programı, yıllık konferanslarını "Technology Ethics in Turbulent Times" başlığıyla topluyor. Konu, yapay zekâ, jeopolitik kriz ve iklim acil durumu koşullarında teknoloji etiğinin değer kuramı ve yöntem sorunları: Etik, teknolojik değişimin hızına yetişebilir mi; "toplumsal olarak yıkıcı" teknolojiler kavramlarımızı nasıl dönüştürüyor? Hollanda teknoloji felsefesi okulunun (Verbeek, van den Hoven, Brey) yıllık buluşması. Program 4TU.Ethics'in sitesinde.`,
+    kind: "KONFERANS",
+    organizer: "4TU.Centre for Ethics and Technology · ESDiT",
+    topic: "Teknoloji etiği, yapay zekâ etiği, değer kuramı",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-04T00:00:00.000Z",
+    endsAt: "2026-11-05T00:00:00.000Z",
+    timezone: "Europe/Amsterdam",
+    hasTime: false,
+    city: "Hollanda",
+    country: "Hollanda",
+    venue: "4TU.Ethics (program için siteye bakınız)",
+    website: "https://ethicsandtechnology.eu/",
+    featured: false,
+    sourceName: "4TU.Centre for Ethics and Technology",
+    sourceUrl: "https://ethicsandtechnology.eu/",
+  },
+  {
+    title: "Kuzey Amerika Nietzsche Derneği Toplantısı (Boston)",
+    slug: "north-american-nietzsche-society-boston-2026",
+    summary:
+      "Kuzey Amerika Nietzsche Derneği'nin (NANS) yıllık toplantısı 12 Kasım'da Boston Üniversitesi Felsefe Bölümü'nde: Nietzsche araştırmalarının güncel durumu, soykütük, ahlak psikolojisi ve değerlerin yeniden değerlendirilmesi.",
+    description: `1979'dan beri Nietzsche araştırmalarını bir araya getiren North American Nietzsche Society, 2026 toplantısını Boston Üniversitesi'nin ev sahipliğinde yapıyor. Derneğin toplantıları, Nietzsche'nin ahlak eleştirisi, "güç istenci", ebedi dönüş ve perspektivizm gibi kavramları üzerine analitik ve kıtasal yaklaşımları buluşturmasıyla bilinir. [Nietzsche'nin Soykütüğü](/haber/nietzschenin-soykutugu-degerlerin-degeri) ve [25 Ekim Stirner](/haber/felsefe-tarihinde-bugun-25-ekim-max-stirner) yazılarımız arka plan için okunabilir. Program derneğin sitesinde.`,
+    kind: "KONFERANS",
+    organizer: "North American Nietzsche Society · Boston University Department of Philosophy",
+    topic: "Nietzsche, 19. yüzyıl felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-12T00:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "Boston",
+    country: "ABD",
+    venue: "Boston University, Department of Philosophy",
+    website: "https://www.northamericannietzschesociety.com/",
+    featured: false,
+    sourceName: "North American Nietzsche Society",
+    sourceUrl: "https://www.northamericannietzschesociety.com/",
+  },
+  {
+    title: "Enaktif Biliş ve Japon Felsefesi (Kyoto Üniversitesi)",
+    slug: "enaktif-bilis-ve-japon-felsefesi-kyoto-2026",
+    summary:
+      "Kyoto Üniversitesi Edebiyat Fakültesi'nin 14 Kasım'daki hibrit toplantısı, bedenlenmiş-enaktif biliş kuramları ile Nishida, Watsuji ve Zen geleneğini karşı karşıya getiriyor: Zihin, beden ve dünya arasındaki sınır Japon felsefesinde nasıl düşünüldü?",
+    description: `Varela, Thompson ve Rosch'un 1991'de *The Embodied Mind* ile açtığı enaktif biliş programı, kaynaklarından birini Budist felsefede bulmuştu. Kyoto Üniversitesi'ndeki toplantı bu bağı Japon felsefesi üzerinden yeniden kuruyor: Nishida Kitarō'nun "saf deneyim" ve "yer" (basho) kavramları, Watsuji Tetsurō'nun "aidagara" (aradalık) etiği, Dōgen'in beden-zihin birliği öğretisi ve Zen pratiği, bilişin bedenlenmiş, gömülü ve eyleme dayalı olduğu tezini nasıl zenginleştirir? Toplantı Kyoto'da yüz yüze ve çevrim içi; [Husserl ve yapay zekâ](/haber/husserl-fenomenolojisi-yapay-zeka-yonelimsellik-deneyim) yazımızda değindiğimiz 4E biliş tartışmasının Doğu Asya ayağı.`,
+    kind: "CALISTAY",
+    organizer: "Kyoto University, Graduate School of Letters",
+    topic: "Enaktivizm, Japon felsefesi, Kyoto Okulu, bilişsel bilim felsefesi",
+    format: "HIBRIT",
+    startsAt: "2026-11-14T00:00:00.000Z",
+    timezone: "Asia/Tokyo",
+    hasTime: false,
+    city: "Kyoto",
+    country: "Japonya",
+    venue: "Kyoto University, Graduate School of Letters (ve çevrim içi)",
+    website: "https://www.bun.kyoto-u.ac.jp/",
+    featured: false,
+    sourceName: "Kyoto University, Graduate School of Letters",
+    sourceUrl: "https://www.bun.kyoto-u.ac.jp/",
+  },
   {
     title: "1. Eğitimin Felsefi, Sosyal ve Tarihi Temelleri Öğrenci Sempozyumu (YTÜ)",
     slug: "efstt-ogrenci-sempozyumu-ytu-2026",
