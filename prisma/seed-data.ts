@@ -3066,6 +3066,494 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Peter Sloterdijk: İnsan neden kendisine bir dünya kurmak zorundadır?",
+    slug: "peter-sloterdijk-kureler-kinizm-insan-dunya-kurmak",
+    summary:
+      "Alman filozof, modern insanın yalnızlığını, toplumsal hayatın kırılganlığını ve küreselleşmenin yarattığı yeni varoluş biçimlerini 'küreler', 'köpükler' ve 'iklimler' üzerinden yeniden düşünüyor. Kinik Aklın Eleştirisi'nden üç ciltlik Küreler'e, Sloterdijk'in felsefesi dijital yalnızlık ve kutuplaşma çağında yeniden okunmayı hak ediyor.",
+    seoTitle: "Peter Sloterdijk Kimdir? Küreler, Kinizm ve Çağdaş İnsan",
+    metaDescription:
+      "Peter Sloterdijk'in felsefesini, Kinik Aklın Eleştirisi'ni ve Küreler projesini keşfedin. Alman filozofun insan, toplum, teknoloji ve yalnızlık üzerine düşünceleri.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Sloterdijk%2C%20Karlsruhe%2007-2009%2C%20IMGP3019.jpg?width=1600",
+    imageCredit: "Peter Sloterdijk, Karlsruhe, 2009 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.suhrkamp.de/person/peter-sloterdijk-p-4548",
+    publishedAt: "2026-11-07T22:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["fenomenoloji", "teknoloji-felsefesi", "siyaset-felsefesi", "medya"],
+    philosopherSlugs: ["peter-sloterdijk"],
+    sources: [
+      { title: "Peter Sloterdijk — yazar sayfası", publisher: "Suhrkamp Verlag", url: "https://www.suhrkamp.de/person/peter-sloterdijk-p-4548", primary: true },
+      { title: "Kritik der zynischen Vernunft (1983)", publisher: "Suhrkamp", url: "https://www.suhrkamp.de/buch/peter-sloterdijk-kritik-der-zynischen-vernunft-t-9783518280997" },
+    ],
+    content: `Felsefenin bazı soruları vardır ki insan onları sormaktan vazgeçtiğinde bile hayatını o soruların içinde sürdürür: İnsan dünyada nasıl yaşar? Bir başkasına ne kadar yakındır? Bir toplumun üyelerini bir arada tutan şey ortak fikirler midir, ortak korkular mı, yoksa görünmez bir güvenlik ve aidiyet duygusu mu?
+
+1947'de Karlsruhe'de doğan, Karlsruhe Tasarım Yüksekokulu'nun uzun yıllar rektörlüğünü yapan ve 2002-2012 arasında ZDF'deki "Das Philosophische Quartett" programıyla Almanya'nın en tanınmış kamusal filozofu hâline gelen Peter Sloterdijk, bu soruları alışılmış felsefi güzergâhların dışına çıkararak ele alıyor. Onun düşüncesinde insan yalnızca akıl yürüten, karar veren ve çevresini gözlemleyen bir özne değildir; kendisini koruyacak, anlamlandıracak ve başkalarıyla ilişki kurmasını sağlayacak yaşam alanları üreten bir varlıktır. Bu alanlar bazen bir aile, bazen bir şehir, bazen bir din, bazen de bir ulusun ortak hafızasıdır. Sloterdijk'in felsefesinin merkezinde, insanın bu ortak yaşam alanlarını nasıl kurduğu sorusu bulunur. [Geçen yıl kitabını](/haber/sloterdijk-nitelikleri-olmayan-kita) ele aldığımız filozofun düşüncesine daha geniş bir bakış.
+
+## Kinizmin karşısında: Modern insan gerçekten neye inanıyor?
+
+Sloterdijk'i uluslararası ölçekte tanıtan eser, 1983'te yayımlanan *Kinik Aklın Eleştirisi*'dir (*Kritik der zynischen Vernunft*); iki ciltlik kitap, Almanya'da savaş sonrası dönemin en çok satan felsefe kitabı oldu. Kitap modern toplumun önemli bir çelişkisine dikkat çeker: İnsanlar çoğu zaman içinde yaşadıkları düzenin adaletsizliklerini, çelişkilerini ve ikiyüzlülüklerini bilir; fakat bu bilgi onları düzeni değiştirmeye yöneltmez. Sloterdijk'in formülü, Marx'ın ideoloji tanımının tersine çevrilmişidir: Marx'ın "bilmiyorlar ama yapıyorlar"ı yerine, "çok iyi biliyorlar ama yine de yapıyorlar." Bu "aydınlanmış yanlış bilinç", modern kinizmdir.
+
+Sloterdijk bu modern kinizmin (Almanca *Zynismus*) karşısına antik "kinizmi" (*Kynismus*) koyar: Diogenes'in fıçısı, pazar yerindeki küstahlığı, bedensel ve kahkahalı hakikat söylemi. Antik kinik, iktidara karşı bedeniyle hakikati söyler; modern kinik, hakikati bilir ve iktidarla uzlaşır. Bu teşhis günümüz siyasetine, tüketim kültürüne ve dijital kamusal alana yakındır. Çevre krizinin farkındayız ama tüketim alışkanlıklarımızı değiştirmekte zorlanıyoruz; siyasi manipülasyonları tanıyoruz ama kendi düşüncemizi doğrulayan manipülasyonlara teslim oluyoruz; sosyal medyanın ilişkileri aşındırdığını biliyoruz ama günümüzün önemli bölümünü orada geçiriyoruz. Sloterdijk'in sorusu rahatsız edicidir: Bir şeyi bilmek, onun karşısında ahlaki bir sorumluluk üstlenmek anlamına gelir mi? [Pasolini'nin](/haber/felsefe-tarihinde-bugun-2-kasim-pasolini) tüketim toplumu teşhisiyle akraba bir soru.
+
+## Küreler: İnsan tek başına var olabilir mi?
+
+Sloterdijk'in en kapsamlı felsefi girişimi, 1998-2004 arasında yayımlanan üç ciltlik *Küreler* (*Sphären*) projesidir: *Baloncuklar* (Blasen, 1998), *Küreler/Globuslar* (Globen, 1999) ve *Köpükler* (Schäume, 2004); toplam iki bin beş yüz sayfa. Çalışma, insanın mekânla, yakınlıkla ve ortak yaşamla ilişkisini yeniden düşünür. Temel itiraz, insanı önce bağımsız ve kendi kendine yeterli bir birey olarak tanımlayan yaklaşımlaradır. İnsan dünyaya tek başına gelmez; dili, duyguları, güven duygusunu ve kendilik bilincini ilişkiler içinde edinir. Birinci cilt bu yüzden anne karnındaki "ikili"den, mikro-küreden başlar: İnsan, baştan itibaren bir "iç mekânda", başkasıyla birlikte var olur.
+
+Buradaki "küre" yalnızca geometrik bir biçim değil, insanların birlikte kurduğu korunaklı anlam alanlarının metaforudur; Sloterdijk buna "bağışıklık sistemi" de der: İnsan, kendisini dışarının soğuğundan koruyacak sembolik ve mekânsal kabuklar üretir. Aile, dostluk, inanç toplulukları, kültürler ve siyasi birlikler farklı ölçeklerde bu ortak dünyaların örnekleridir. İkinci cilt, bu kabukların en büyüğünü, metafizik "Küre"yi anlatır: Tanrı'nın merkez olduğu, her şeyi kuşatan tek dünya; Kopernik ve küreselleşmeyle bu kürenin nasıl patladığını. Yaklaşım, Heidegger'in "dünyada-olma"sıyla konuşur; ama Sloterdijk meseleyi daha belirgin biçimde birlikte yaşama, mekânsal yakınlık ve koruyucu çevreler üzerinden geliştirir; Heidegger'in "nerede"yi ihmal ettiğini söyler.
+
+Üçlemenin son halkası *Köpükler*, çağdaş toplumun parçalı yapısını anlatmak için özellikle önemlidir. Artık tek bir ortak dünya içinde yaşadığımızı söylemek güçleşmiştir; insanlar aynı şehirde, aynı ülkede, hatta aynı evde yaşarken farklı bilgi çevrelerine, medya dünyalarına ve gerçeklik algılarına sahip olabilir. Köpük, birbirine değen ama birbirinin içine akmayan sayısız küçük baloncuktur: Her birey kendi anlam dünyasında yaşar; ancak bu dünyalar bağımsız değildir, birbirine temas eder, birbirini etkiler ve kimi zaman birbirinin kırılganlığını artırır. Dijital çağın toplumsal parçalanması, "yankı odaları" ve "filtre baloncukları" tartışması, Sloterdijk'in köpük metaforunu on yıl sonra güncel kıldı.
+
+## İnsan, atmosfer ve teknoloji
+
+Sloterdijk'in düşüncesinde atmosfer önemli bir yer tutar. İnsan yalnızca fiziksel bir çevrede yaşamaz; duygusal, kültürel ve teknolojik atmosferler içinde var olur; hava, iklim ve solunum onun felsefesinde doğa bilimlerinin değil, modern insanın yaşam koşullarını anlamanın konusudur. *Havadan Terör* (*Luftbeben*, 2002) bu düşüncenin en keskin örneğidir: Sloterdijk 20. yüzyılı, 22 Nisan 1915'te Ypres'te Alman ordusunun ilk klor gazı saldırısıyla başlatır. O gün savaş, düşmanın bedenini değil, düşmanın yaşadığı ortamı, soluduğu havayı hedef almaya başladı; "atmoterörizm". Gaz odalarından iklim krizine, modernlik "çevrenin açığa çıkarılması"nın tarihidir: Daha önce fark edilmeden solunan hava, artık tasarlanan, kirletilen, silahlandırılan bir şeydir. Teknoloji burada insanın çevresi üzerindeki hâkimiyetini olduğu kadar, kendi çevresine karşı ne kadar savunmasız olduğunu da gösterir.
+
+Yapay zekâ, dijital ağlar ve küresel iletişim sistemleri bu tartışmaya yeni bir boyut ekliyor. İnsan artık yalnızca fiziksel çevresini değil, dikkatini, ilişkilerini ve bilgiye erişimini düzenleyen teknolojik atmosferleri de paylaşmak zorunda; bu atmosferlerin kim tarafından tasarlandığı ve hangi çıkarlarla yönetildiği felsefi olduğu kadar siyasi bir sorudur. [Dijital iktidar üzerine bugün yayımladığımız yazı](/haber/dijital-iktidarin-yeni-sahipleri-teknoloji-sirketleri-devletler) bu soruyu sürdürüyor. Sloterdijk'in *Hayatını Değiştirmelisin* (2009) kitabı ise atmosferden "antrenman"a geçer: İnsan, Rilke'nin dizesindeki buyruğu dinleyen, kendini alıştırmalarla biçimlendiren bir varlıktır; din dediğimiz şey de bir alıştırma sistemidir.
+
+## Sloterdijk neden tartışmalı?
+
+Sloterdijk'in düşüncesi herkes tarafından aynı ölçüde ikna edici bulunmaz. 1999'da Elmau'da verdiği "İnsan Parkı İçin Kurallar" konferansı, hümanizmi "evcilleştirme" olarak okuması ve gen teknolojisi çağında insanın "seçilmesi"nden söz etmesi nedeniyle Habermas çevresinden sert tepki aldı; Almanya'nın en büyük felsefe skandallarından biri oldu. 2009'da sosyal devleti "kleptokrasi" diye nitelemesi ve vergileri gönüllü bağışla değiştirmeyi önermesi, Axel Honneth'le yeni bir polemik başlattı. Büyük tarihsel anlatıları, geniş metaforları ve provokatif üslubu, eleştirmenlerce kavramsal belirsizlik ya da aşırı genelleme olarak değerlendirildi; akademik felsefe onu uzun süre bir "denemeci" sayıp ciddiye almadı. Bununla birlikte eserlerini parlak metaforlardan ibaret görmek de haksızlık olur. Asıl katkısı, modern insanın kendisini bağımsız, yalıtılmış ve kendi kendine yeterli bir özne olarak düşünme alışkanlığını sorgulamasıdır. İnsan yalnızca kendi zihninin içinde yaşayan bir varlık değildir; onu mümkün kılan ilişkiler, kurumlar, mekânlar, teknik düzenekler ve ortak atmosferler vardır.
+
+Yetmiş dokuz yaşındaki filozof hâlâ üretken: Son yıllarda Avrupa'nın geleceği, yeni imparatorluklar, "nitelikleri olmayan kıta" ve yapay zekâ üzerine yazıları ve söyleşileriyle güncel siyasi tartışmanın içinde. Felsefesi bize basit bir cevap vermiyor; fakat önemli bir soruyu yeniden önümüze koyuyor: Birlikte yaşadığımız dünyayı kim kuruyor, kim koruyor ve kimlerin yaşaması için düzenliyor? Belki de çağdaş insanın en büyük sorunu yalnızlık değildir. Asıl sorun, birlikte yaşadığı dünyayı artık birlikte kuramamasıdır.`,
+  },
+  {
+    title: "Ulus Baker: Toplumu kanaatlerden değil, duygulardan ve imgelerden okumak",
+    slug: "ulus-baker-kanaatlerden-imajlara-duygular-sosyolojisi",
+    summary:
+      "Türkiye'de sosyal bilimlerin sınırlarını zorlayan Ulus Baker, sosyolojiyi anketlerin ve hazır fikirlerin ötesine taşıdı. Spinoza, Deleuze, sinema ve siyaset arasında kurduğu özgün düşünsel hat, bugün dijital görüntülerin ve duyguların toplumu yönlendirdiği bir çağda yeniden önem kazanıyor.",
+    seoTitle: "Ulus Baker Kimdir? Türk Düşüncesine ve Sosyolojiye Katkıları",
+    metaDescription:
+      "Ulus Baker'in Spinoza, Deleuze, duygular sosyolojisi ve sinema üzerine düşüncelerini inceleyin. Türkiye'de sosyal bilimlere bıraktığı özgün miras.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/METU%20Campus.jpg?width=1600",
+    imageCredit: "ODTÜ kampüsü, Ankara · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.birikimdergisi.com/yazarlar/ulus-baker",
+    publishedAt: "2026-11-07T22:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["sinema", "siyaset-felsefesi", "estetik", "postmodernizm"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Ulus Baker yazıları", publisher: "Birikim Dergisi", url: "https://www.birikimdergisi.com/yazarlar/ulus-baker", primary: true },
+      { title: "Kanaatlerden İmajlara: Duygular Sosyolojisine Doğru", publisher: "Birikim Yayınları", date: "2010", url: "https://www.iletisim.com.tr/kitap/kanaatlerden-imajlara/8574" },
+    ],
+    content: `Bir toplumu anlamak için insanlara ne düşündüklerini sormak yeterli midir? Sosyolojik araştırmaların önemli bir bölümü toplumun kanaatlerini, tercihlerini ve tutumlarını ölçmeye çalışır: Anketler yapılır, görüşler sınıflandırılır, eğilimler sayısal verilere dönüştürülür. Fakat bu yöntemlerin arkasında daha derin bir soru vardır: İnsanların söyledikleri, gerçekten nasıl yaşadıklarını ve nasıl etkilendiklerini ne ölçüde açıklar? Ulus Baker'in düşüncesi tam bu noktada başlar. Baker toplumsal hayatı bireylerin zihinlerinde taşıdıkları fikirlerin toplamı olarak görmez; toplum, duyguların, arzuların, imgelerin, karşılaşmaların ve etkilenme biçimlerinin oluşturduğu hareketli bir alandır. Bu nedenle onu anlamak, Türkiye'de sosyal bilimlerin alışılmış yöntemlerine yöneltilmiş önemli bir eleştiriyi anlamak demektir.
+
+## ODTÜ'den Türkiye'nin düşünsel kamusuna
+
+Ulus Baker 1960'ta Ankara'da doğdu; çocukluğu ve gençliği Kıbrıs'ta geçti, Lefkoşa'daki İngiliz Okulu'nda okudu. ODTÜ Sosyoloji Bölümü'nde lisans ve yüksek lisansını tamamladı; aynı bölümde yirmi yıla yakın öğretim görevlisi olarak çalıştı, doktorasını 2002'de "Kanaatlerden İmajlara" teziyle verdi. Sosyoloji, siyaset, felsefe, sinema ve sanat üzerine yazılarıyla Türkiye'de özgün bir düşünsel çevrenin oluşmasına katkıda bulundu; etkisi akademik yayınlarla sınırlı değildi. ODTÜ'deki dersleri efsaneleşti; derslerine bölüm dışından, hatta şehir dışından gelenler oldu; Körotonomedya adıyla kurduğu çevrim içi kolektif, 1990'ların sonunda Türkiye'de felsefenin internete taşınmasının ilk deneyimlerindendi. Onu dinleyenler için felsefe, kitaplardaki soyut bir disiplin değil; gündelik hayatın, siyasetin, sanatın ve insan ilişkilerinin içinde sürdürülen bir düşünme faaliyetiydi.
+
+*Toplum ve Bilim*, *Birikim*, *Cogito*, *Defter* ve *Virgül* gibi dergilerdeki yazıları, Türkiye'de eleştirel düşünce tartışmalarının parçası oldu; Spinoza, Deleuze, Tarde ve Vertov'u Türkçeye taşıdı. Ancak Baker'i özgün kılan, farklı düşünürleri tanıtması kadar bu düşünürlerden hareketle yeni sorular kurabilmesiydi. 12 Temmuz 2007'de, 47 yaşında, Ankara'da öldü; kitapları, *Kanaatlerden İmajlara* (2010), *Yüzeybilim: Fragmanlar* (2009), *Beyin Ekran* (2011), *Sanat ve Arzu* (2014) ve *Dolaylı Eylem* (2012), ölümünden sonra Ege Berensel'in derlemesiyle Birikim Yayınları'ndan çıktı.
+
+## Kanaatlerden imajlara: Sosyoloji neyi görmezden geliyor?
+
+Baker'in en önemli çalışması, doktora tezinden hareketle yayımlanan *Kanaatlerden İmajlara: Duygular Sosyolojisine Doğru*'dur. Merkezinde, sosyolojinin toplumu yalnızca kanaatler üzerinden anlamaya çalışmasının sınırları bulunur. Kanaat (*doxa*), bir insanın belirli bir konuda ne düşündüğünü ifade eder; Baker'e göre modern sosyoloji, Gabriel Tarde'ın "kamuoyu" kavramından kamuoyu araştırmalarına, bir "kanaatler sosyolojisi"ne dönüşmüştür. Oysa insanın toplumsal varoluşu düşüncelerinden ibaret değildir. İnsanlar bazen ne düşündüklerini bilmeden hareket eder; bir görüntüden etkilenir, bir kalabalığın heyecanına kapılır, bir müzikle ortak bir duyguya katılır, bir siyasi sembol karşısında güçlü bir aidiyet hisseder. Baker'in dikkat çektiği mesele, toplumsal hayatın bu duygusal ve imgesel boyutlarının klasik araştırma yöntemlerinde yeterince görünür olmamasıdır.
+
+Bir seçim araştırması seçmenlerin hangi partiye oy vereceğini ölçebilir; ancak bir liderin yüzünün, bir mitingin atmosferinin, bir konuşmanın ritminin ya da bir görüntünün insanlarda yarattığı duygusal etkiyi anket sonuçlarına indirgemek mümkün değildir. Baker'in önerisi, Spinoza'nın duygulanış (*affectus*) kavramından hareketle bir "duygular sosyolojisi" ve bunun aracı olarak, Vertov'un "sine-göz"ünden ilhamla, "imajlarla düşünmek": Kavramların yanına imgeleri koymak, toplumu görsel olarak da düşünmek. Burada önemli bir ayrım vardır: Baker kanaatlerin önemsiz olduğunu söylemez; itirazı, toplumsal gerçekliğin kanaatlere indirgenmesinedir.
+
+## Spinoza: İnsan düşündüğü gibi değil, etkilendiği gibi de yaşar
+
+Baker'in düşüncesinde Spinoza özel bir yere sahiptir. Spinoza insanı yalnızca akıl sahibi bir varlık olarak ele almaz; insan etkilenen, etkileyen, arzulayan ve duygular içinde yaşayan bir varlıktır. *Etika*'nın üçüncü bölümündeki duygular öğretisi, sevinci ve kederi insanın eyleme gücünün artışı ve azalışı olarak tanımlar; Baker bu öğretiyi toplumsal hayata taşır. Bir toplumu yalnızca ideolojiler, çıkarlar ya da düşünceler üzerinden açıklamak eksik kalır; insanların hangi karşılaşmalarla güç kazandığı, hangileriyle güçsüzleştiği ve hangi duygusal ilişkiler içinde ortak hareket edebildiği de önemlidir. Bu yaklaşım siyasetin anlaşılmasında verimlidir: Siyasi iktidar yalnızca yasalar ve kurumlar aracılığıyla işlemez; korku, umut, öfke, aidiyet ve coşku siyasal alanın kuruluşunda rol oynar. Baker'in Spinoza okumaları, toplumsal gücü yukarıdan aşağıya işleyen bir iktidar meselesi olarak değil, insanlar arasındaki karşılıklı etkilenme ilişkileri olarak düşünmeye imkân tanır; Deleuze'ün ve Negri'nin Spinoza'sıyla aynı hatta, ama Türkiye'nin siyasal deneyimine, 12 Eylül sonrasının "depolitizasyon"una bakarak.
+
+## Deleuze: Düşünceyi sabit kategorilerden kurtarmak
+
+Baker'in dünyasında Gilles Deleuze'ün de önemli bir yeri vardır. Deleuze'ün felsefesi sabit kimlikler yerine oluş, farklılık, arzu ve ilişkiler üzerine yoğunlaşır. Baker, Deleuze'ün Türkçede tanınmasına çevirileri (*Spinoza Üzerine On Bir Ders*, Bergson ve Nietzsche yazıları) ve yorumlarıyla katkıda bulundu; bu, yalnızca yeni kitapların Türkçeye kazandırılması değil, Türkiye'de felsefenin daha önce sınırlı tartışılan kavramlarla karşılaşmasıydı. Deleuze'ün düşüncesi toplumsal hayatı durağan bir yapı olarak değil, sürekli değişen ilişkiler ağı olarak ele alır; bu bakış Baker'in sosyolojiye yönelik eleştirisiyle birleşir: Toplum sınıflandırılacak bir nesne değil, sürekli oluşan bir süreçtir. Bu yüzden Baker'in metinleri kesin tanımlar ve kapalı sistemler kurmaktan çok, düşüncenin yeni bağlantılar üretmesine alan açar; "Yüzeybilim" adı da buradan gelir: Derinlik aramak yerine yüzeydeki ilişkileri okumak.
+
+## Sinema: Görüntü yalnızca göstermez, düşündürür
+
+Baker'in düşüncesinin en dikkat çekici boyutu sinemaya verdiği önemdir. Onun için sinema eğlence ya da estetik haz sağlayan bir sanat değil, görüntünün düşüncenin kendisini gerçekleştirebildiği bir alandır. Dziga Vertov'un "sine-göz"ü ve Godard'ın deneysel montajı, Baker'in ilgilendiği hat üzerinde kurucu örneklerdir: Kamera, dünyayı pasifçe kaydeden bir araç olmaktan çıkıp gerçekliğin farklı ilişkilerini görünür kılan bir düşünme aracına dönüşür. Baker ODTÜ'de yıllarca belgesel sinema dersi verdi ve öğrencilerine kamerayla "sosyolojik imaj" üretmeyi öğretti; "görsel sosyoloji" ya da "video-sosyoloji" dediği şey, Türkiye'de henüz adı konmamış bir alanın öncülüğüydü.
+
+Bu yaklaşım sosyal bilimler açısından da önemlidir; çünkü toplumun bazı gerçeklikleri yalnızca yazılı ifadelerle ya da sayısal verilerle kavranamaz. Bir görüntünün kadrajı, bir yüzün ifadesi, bir kalabalığın hareketi ya da bir filmin kurduğu zaman ilişkisi, toplumsal hayatın başka türlü fark edilemeyen boyutlarını açığa çıkarabilir. Bugün video platformlarının, kısa görüntülerin ve algoritmik akışların gündelik hayatı biçimlendirdiği düşünüldüğünde, Baker'in görüntüye ilgisi daha da anlamlı: Görüntüler artık yalnızca dünyayı temsil etmiyor; insanların neye dikkat edeceğini, neye öfkeleneceğini, neyi arzulayacağını ve hangi olayları hatırlayacağını da etkiliyor. Baker'in sorusu güncel bir soruya dönüşüyor: Görüntülerin bu kadar güçlü olduğu bir çağda, toplumu anlamak için hâlâ yalnızca kanaatleri mi ölçüyoruz?
+
+## Ulus Baker'in Türkiye düşünce hayatındaki yeri
+
+Baker'i tek bir disiplinin sınırları içine yerleştirmek doğru olmaz; akademik sosyoloji ile felsefe, sinema, siyaset ve sanat arasında geçişler kuran bir düşünürdü. Bu geçişler zaman zaman sistematik bir teorinin bütünlüğünden çok, kavramların yeni karşılaşmalarını öne çıkarıyordu; yazılarını okurken bunu dikkate almak gerekir. Eleştirmenleri, fragmanter üslubunun ve dizgesizliğinin akademik etkisini sınırladığını, "ders veren filozof"un yazan filozofu gölgelediğini söyler; hayranları ise tam da bunun, Sokratik bir sözlülüğün, onun özgünlüğü olduğunu. Baker'i yalnızca Türkiye'de Deleuze'ü tanıtan bir akademisyen ya da Spinoza üzerine çalışan bir sosyolog olarak tanımlamak eksik kalır. Asıl katkısı, sosyal bilimlerin neyi araştırması gerektiğine ilişkin soruyu genişletmesidir: Toplumu anlamak için yalnızca insanların ne düşündüğünü değil, nasıl hissettiğini, neye dikkat ettiğini, hangi imgelerle hareket ettiğini ve birbirlerinin yaşam gücünü nasıl etkilediğini de araştırmak gerekir. [Türk aydını üzerine yazdığımız](/haber/yapay-zeka-turk-aydininin-yerini-mi-aliyor-hakikat-otoritesi) yazıda saydığımız isimlerin yanında Baker, 1990'ların kuşağının en özgün sesiydi.
+
+Onu yeniden okumak, geçmişte kalmış bir entelektüeli hatırlamak değildir; bugünün toplumunu anlamak için kullandığımız araçları sorgulamaktır. Çünkü Baker'in bıraktığı soru hâlâ günceldir: Toplum, insanların düşüncelerinin toplamı mıdır; yoksa insanların birbirlerine yaptıkları ve birbirlerinden aldıkları etkilerin sürekli değişen bütünü müdür?`,
+  },
+  {
+    title: "Zihin felsefesinin önemli ismi John Heil'i kaybettik",
+    slug: "john-heil-vefat-2026-zihin-felsefesi-metafizik",
+    summary:
+      "Zihnin doğası, nedensellik, özellikler ve gerçeklik üzerine çalışmalarıyla çağdaş analitik felsefenin etkili isimlerinden John Heil, 27 Ekim'de Milton, Massachusetts'te 83 yaşında hayatını kaybetti. Washington Üniversitesi ve Durham'da emeritus profesör olan Heil, Journal of the American Philosophical Association'ın kurucu editörüydü; From an Ontological Point of View ve The Universe as We Find It ile 'ciddi metafizik'in savunucusuydu.",
+    seoTitle: "John Heil Hayatını Kaybetti: Zihin Felsefesinin Önemli İsmi 83 Yaşındaydı",
+    metaDescription:
+      "Çağdaş zihin felsefesi ve metafiziğin önemli isimlerinden John Heil 83 yaşında hayatını kaybetti. Filozofun yaşamı, eserleri ve düşünsel mirası.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Brookings%20Hall%20at%20Washington%20University.jpg?width=1600",
+    imageCredit: "Brookings Hall, Washington University in St. Louis · Wikimedia Commons",
+    featured: false,
+    sourceName: "Leiter Reports · Legacy.com",
+    sourceUrl: "https://leiterreports.com/2026/11/06/in-memoriam-john-heil-1943-2026/",
+    publishedAt: "2026-11-07T22:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["vefat", "zihin-felsefesi", "bilinc", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "In Memoriam: John Heil (1943-2026)", publisher: "Leiter Reports", date: "6 Kasım 2026", url: "https://leiterreports.com/2026/11/06/in-memoriam-john-heil-1943-2026/", primary: true },
+      { title: "John Ferguson Heil Obituary", publisher: "Legacy.com", date: "Kasım 2026", url: "https://www.legacy.com/us/obituaries/name/john-heil-obituary?id=62933853" },
+      { title: "John Heil FAHA", publisher: "Washington University in St. Louis, Department of Philosophy", url: "https://philosophy.washu.edu/people/john-heilFAHA" },
+    ],
+    content: `Felsefe tarihinde bazı düşünürler büyük sistemler kurdukları için değil, en temel soruların yeniden sorulmasını sağladıkları için önem kazanır. John Heil'in çalışmaları bu geleneğin içinde değerlendirilebilir. İnsan zihni nedir? Düşüncelerimiz beynimizde gerçekleşen fiziksel olaylardan mı ibarettir? Bilinç doğanın geri kalanından ayrı bir gerçeklik midir, yoksa fiziksel dünyanın anlaşılmayı bekleyen bir boyutu mu? Heil yaşamı boyunca bu sorular üzerinde çalıştı. 27 Ekim 2026'da Massachusetts'in Milton kentinde, ailesinin yanında hayatını kaybetti; ölümü, ailesinin yayımladığı ilanla ve 6 Kasım'da Brian Leiter'ın felsefe bloğundaki anma yazısıyla duyuruldu. 83 yaşındaydı; eşi ve yedi çocuğu hayatta.
+
+## Zihni anlamak için gerçekliği yeniden düşünmek
+
+John Ferguson Heil 1943'te Washington DC'de doğdu; Vanderbilt Üniversitesi'nde doktorasını 1970'te tamamladı. Randolph-Macon Woman's College, Virginia Commonwealth, Davidson College'da ders verdi; 2001'den emekliliğine kadar Washington University in St. Louis'de, aynı zamanda İngiltere'de Durham Üniversitesi'nde profesördü; Avustralya'da Monash'la uzun süreli bir ilişkisi vardı. Çalışmalarının merkezinde iki alan bulunuyordu: metafizik ve zihin felsefesi; ve Heil'in ayırt edici tezi, ikincisinin birincisi olmadan yapılamayacağıydı.
+
+Zihin felsefesinin en eski sorunu, zihinsel olan ile fiziksel olan arasındaki ilişkidir. Heil bu tartışmayı 1990'ların moda çözümü olan "üstüne gelme" (supervenience) ve "gerçekleşme" (realization) kavramlarıyla değil, daha eski bir soruyla ele aldı: Özellik nedir? *From an Ontological Point of View* (2003) kitabı, analitik felsefenin dilsel alışkanlıklarına, her yüklem için bir özellik varsaymaya karşı yazılmıştı; Heil buna "Resim Kuramı" diyordu: Dilimizin yapısının dünyanın yapısını yansıttığı varsayımı. Ona göre "ağrı" ya da "inanç" gibi yüklemlerin doğru uygulanması, dünyada "ağrı" diye tek bir özellik olduğunu göstermez; aynı yüklem, benzer ama farklı özelliklere sahip çok çeşitli şeylere uygulanabilir. Bu, zihin felsefesinin "çoklu gerçekleşme" argümanını, yani zihinsel durumların fiziksel durumlara indirgenemeyeceği iddiasının temelini, altından oyuyordu.
+
+## Güçler ve nitelikler: C. B. Martin'in izinde
+
+Heil'in metafiziğinin ikinci sütunu, hocası ve yakın arkadaşı C. B. Martin'den aldığı "güçlü nitelikler" (*powerful qualities*) görüşüdür: Her özellik hem bir niteliktir hem de bir güçtür; kırmızılık hem nasıl göründüğüdür hem de ışığı belirli biçimde yansıtma eğilimidir. Felsefe tarihinde Locke'tan beri süren "birincil-ikincil nitelik" ve "kategorik-eğilimsel özellik" ayrımları, Heil'e göre, aynı şeyin iki yüzünü iki ayrı şey sanmaktı. Bu görüş, zihinsel özelliklerin de fiziksel özelliklerin "nitelik yüzü" olarak okunmasına imkân veriyordu; ne indirgemecilik ne düalizm, ama "ciddi metafizik".
+
+*The Universe as We Find It* (2012) bu programın en kapsamlı ifadesidir. Kitabın temel yönelimi, gerçekliğin yapısını gündelik deneyimlerimizden ve bilimsel açıklamalardan hareketle düşünmek; dünyayı insan zihninin kurduğu bir temsil olarak görmek yerine, zihinden bağımsız bir gerçekliğin varlığını ve nasıl anlaşılabileceğini sorgulamaktır. Heil töz ve özellik dışında hiçbir kategoriye izin vermeyen tutumlu bir ontoloji savunur; "düzeyler" (fizik, kimya, biyoloji, psikoloji düzeyleri) gerçekliğin değil, açıklamanın düzeyleridir. Bir masa onu algıladığımız için mi vardır? Bir nesnenin özellikleri ona ilişkin düşüncelerimizden bağımsız mıdır? Heil'in çalışmaları bu soruların birbirinden bağımsız olmadığını gösterir: Zihin hakkında ne düşündüğümüz, gerçeklik hakkında ne düşündüğümüzle doğrudan ilişkilidir. [Kimpton-Nye'ın](/haber/algoritmik-bilinc-kimpton-nye-makine-dusunebilir-mi) algoritmik bilinç tezinde kullandığı "eğilimsel özellikleri gerçekleştiren kategorik fenomenal özellikler" fikri, Heil-Martin çizgisinin doğrudan mirasçısıdır.
+
+## Görünüş ve gerçeklik
+
+2021'de yayımlanan *Appearance in Reality*, Heil'in son büyük kitabı, görünüş ile gerçeklik ilişkisini ele alır. İnsan dünyayı algılar; fakat algıladığı şeyin gerçekliğin kendisiyle ilişkisi her zaman açık değildir. Heil'in tezi, görünüşlerin gerçekliğin dışında ya da üstünde değil, içinde olduğudur: Bilinçli deneyim, evrenin bir parçasıdır ve fizik bize evrenin "içsel doğası" hakkında, nasıl davrandığı dışında, hiçbir şey söylemez; bu boşluğu Russellcı monizmin bir biçimiyle, deneyimin kaliteleriyle doldurmayı önerir. Kitap, bugünün bilinç tartışmasında, panpsişizm ile fizikalizm arasında, kendine özgü bir üçüncü konumdur.
+
+## Öğretmen ve editör
+
+Heil'in etkisi kitaplarıyla sınırlı değildi. Uzun yıllar *Philosophical Quarterly*'nin Kuzey Amerika editörlüğünü yürüttü; 2015'te kurulan *Journal of the American Philosophical Association*'ın ilk baş editörü oldu ve dergiyi alanın saygın yayınlarından biri hâline getirdi. 2020'de Avustralya Beşerî Bilimler Akademisi'ne üye seçildi; Guggenheim ve Fulbright bursları aldı; Ulusal Beşerî Bilimler Merkezi'nde (1996-97) çalıştı. Öğrenciler için yazdığı *Philosophy of Mind: A Contemporary Introduction* (dört baskı) ve *First-Order Logic: A Concise Introduction*, felsefenin temel sorunlarını açık ve sistematik biçimde ele alan kaynaklar arasında yer aldı; ilki Türkiye'deki zihin felsefesi derslerinde de okutuluyor. Edward Craig'in Routledge Felsefe Ansiklopedisi'nde zihin felsefesi alan editörüydü.
+
+Heil'in mirası, zihin felsefesinin bilinç deneyimlerinin betimlenmesiyle sınırlı olmadığını hatırlatıyor. Zihin, beden, nedensellik, özellikler ve gerçeklik üzerine düşünmek, aynı zamanda evrenin nasıl bir yapıya sahip olduğunu sorgulamaktır. Onun ardından geriye yalnızca akademik yayınlar değil, felsefenin en temel sorularına gösterilmiş uzun soluklu bir düşünsel emek kalıyor. Bir insanın zihnini anlamak için evrenin yapısını sorgulamak gerekiyorsa, Heil'in felsefesi bu iki sorunun birbirinden ayrılamayacağını gösterdi.`,
+  },
+  {
+    title: "Matematiğin kesinliği, bilimin ilerleyişi: Gödel, Kuhn ve Feyerabend düşünceyi nasıl sarstı?",
+    slug: "godel-kuhn-feyerabend-matematik-bilim-sinirlari",
+    summary:
+      "Kurt Gödel matematiğin kendi sınırlarını, Thomas Kuhn bilimsel devrimlerin tarihsel karakterini, Paul Feyerabend ise tek bir bilimsel yönteme duyulan inancın sorunlarını ortaya koydu. Üç düşünür, farklı alanlardan hareketle modern aklın kesinlik iddiasını yeniden değerlendirmemizi sağladı; ortak etkileri aklı yıkmak değil, aklın kendi sınırlarını görmesini sağlamaktı.",
+    seoTitle: "Gödel, Kuhn ve Feyerabend: Bilimin ve Matematiğin Sınırları",
+    metaDescription:
+      "Gödel'in eksiklik teoremleri, Kuhn'un paradigma değişimleri ve Feyerabend'in yöntem eleştirisi modern bilim anlayışını nasıl dönüştürdü?",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Principia%20Mathematica%2054-43.png?width=1600",
+    imageCredit: "Whitehead ve Russell, Principia Mathematica (1910): 1+1=2'nin kanıtlandığı sayfa · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/goedel-incompleteness/",
+    publishedAt: "2026-11-07T22:10:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["bilim-felsefesi", "mantik", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Gödel's Incompleteness Theorems", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/goedel-incompleteness/", primary: true },
+      { title: "Thomas Kuhn", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/thomas-kuhn/" },
+      { title: "Paul Feyerabend", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/feyerabend/" },
+    ],
+    content: `Modern insan bilime güvenmeyi öğrendi; çünkü bilim doğayı açıklamakla kalmadı, hastalıkları tedavi etti, teknolojiyi geliştirdi, evrenin yapısını anlamamızı sağladı. Matematik ise bu bilginin en kesin dili olarak görüldü. Ancak 20. yüzyılda üç düşünür bu güvenin felsefi temellerini farklı yönlerden sorguladı. Kurt Gödel, matematiğin kendi içinde bütün doğruları kanıtlayamayacağını gösterdi. Thomas Kuhn, bilimsel gelişmenin yalnızca birikerek ilerlemediğini, kimi zaman dünyayı anlama biçimlerinin kökten değiştiğini savundu. Paul Feyerabend, bilimsel araştırmayı tek bir evrensel yönteme bağlamanın tarihsel ve düşünsel açıdan sorunlu olduğunu ileri sürdü. Bu düşünürleri bir arada önemli kılan, bilime karşı çıkmaları değildir; tam tersine, bilimin nasıl çalıştığını daha dikkatli düşünmeye zorlamalarıdır.
+
+## Gödel: Matematiğin kendi kendisini kanıtlamasının sınırları
+
+Kurt Gödel (1906-1978), 20. yüzyılın en önemli matematiksel mantıkçısıdır. 1931'de, yirmi beş yaşındayken yayımladığı eksiklik teoremleri, matematiğin temelleri tartışmasında bir dönüm noktası oldu. Arka planda David Hilbert'in programı vardı: Matematiğin bütününü tutarlı ve eksiksiz bir aksiyom sisteminden türetmek ve bu sistemin tutarlılığını sonlu araçlarla kanıtlamak. Whitehead ve Russell'ın *Principia Mathematica*'sı (1910-13) bu idealin en görkemli denemesiydi; kapağımızdaki sayfa, 1+1=2'nin 379. sayfada kanıtlandığı yerdir. Gödel'in makalesinin başlığı bu kitaba gönderme yapar: "Principia Mathematica ve İlgili Sistemlerin Biçimsel Olarak Karar Verilemez Önermeleri Üzerine."
+
+Birinci eksiklik teoremi, aritmetiği ifade edebilecek güçte, tutarlı ve etkin biçimde aksiyomlaştırılmış her biçimsel sistemde, sistemin kendi kuralları içinde ne kanıtlanabilen ne çürütülebilen önermeler bulunduğunu gösterir. İkinci teorem, böyle bir sistemin kendi tutarlılığını kendi içinde kanıtlayamayacağını ortaya koyar. Gödel'in dehası, "Bu önerme kanıtlanamaz" diyen bir önermeyi aritmetiğin diliyle, sayılarla kodlayabilmesiydi; Epimenides'in yalancı paradoksunun matematiğe tercümesi. Bu sonuçların anlamı çoğu zaman yanlış aktarılır: Gödel "matematikte hiçbir şey kesin değildir" dememiştir; matematiğin geçersiz olduğunu ya da her önermenin doğru olabileceğini göstermemiştir. Gösterdiği şey daha inceliklidir: Matematiksel doğruluk ile belirli bir biçimsel sistem içinde kanıtlanabilirlik aynı şey değildir. Bir önerme sistemin içinde kanıtlanamıyor diye yanlış ya da anlamsız olmaz; Gödel'in kendisi, bir Platoncu olarak, kanıtlanamayan Gödel cümlesinin *doğru* olduğunu düşünüyordu ve teoremini insan aklının makineden üstünlüğünün kanıtı olarak okumaya eğilimliydi. Bu okuma tartışmalıdır (Lucas ve Penrose savundu, çoğu mantıkçı reddetti), ama felsefi etkisi açıktır: İnsan aklının biçimsel sistemler kurabilmesi, bu sistemlerin bütün sınırlarını aynı sistemlerin içinden kavrayabileceği anlamına gelmez.
+
+## Kuhn: Bilim yalnızca birikerek mi ilerler?
+
+Thomas Kuhn (1922-1996), fizik doktoralı bir tarihçiydi ve 1962'de yayımlanan *Bilimsel Devrimlerin Yapısı*, yirminci yüzyılın en çok atıf alan akademik kitaplarından biri oldu. Geleneksel anlayışta bilimsel ilerleme, yeni bulguların eskilerine eklenmesiyle açıklanır; Kuhn bilim tarihinin bu kadar düzenli ilerlemediğini savundu. Ona göre bilimsel araştırmanın büyük bölümü, bilim topluluğunun paylaştığı bir *paradigma* içinde yürütülür: Paradigma yalnızca bir teori değil, hangi soruların önemli sayılacağını, hangi yöntemlerin kabul edileceğini ve hangi sonuçların başarı sayılacağını belirleyen ortak çerçevedir. Bu döneme "olağan bilim" der; bilim insanı burada "bulmaca çözer". Zamanla paradigma içinde açıklanamayan anomaliler birikir, kriz doğar ve bazen yeni bir paradigma ortaya çıkar: Bilimsel devrim. Kopernik devrimi, Newton fiziğinin yükselişi, Lavoisier'nin kimyası, Einstein'ın göreliliği bunun örnekleridir.
+
+Devrim yalnızca eski teorinin yerine yenisinin konması değildir; hangi soruların sorulduğu, neyin gözlemlendiği ve başarının nasıl ölçüldüğü de değişir. Kuhn'un en tartışmalı kavramı "eşölçülemezlik" (*incommensurability*) buradadır: Farklı paradigmalar aynı kavramları ve ölçütleri paylaşmaz; bu yüzden iki teoriyi tarafsız bir ölçütle karşılaştırmak sanıldığı kadar kolay değildir. "Kütle" Newton'da ve Einstein'da aynı sözcüktür ama aynı kavram değildir. Kuhn buradan görelilik çıkarmadı; 1969'daki sonsözde ve sonraki yazılarında, bilim insanlarının doğruluk, tutarlılık, kapsam, sadelik ve verimlilik gibi ortak değerler kullandığını vurguladı, ama bu değerlerin her durumda tek bir zorunlu karar üretmediğini gösterdi. Kendisini "göreci" sayanlara ömrü boyunca itiraz etti ve "ben Kuhncu değilim" dedi. Etkisi, bilimin tarihini ve bilimsel toplulukların rolünü felsefenin merkezine taşımasıdır; [Popper üzerine yazdığımızda](/haber/karl-popper-uzerine-yanilabilirlik-acik-toplum-elestiri) andığımız gibi, Popper'ın tekil teorilerin sınanmasına dayanan bilim resmini kalıcı biçimde değiştirdi.
+
+## Feyerabend: Bilimin tek bir yöntemi var mı?
+
+Paul Feyerabend (1924-1994), Viyana doğumlu, Popper'ın eski öğrencisi ve en sert eleştirmeni, Berkeley'de otuz yıl ders veren, bilim felsefesinin en tartışmalı ismidir. *Yönteme Karşı* (1975) ile bilimsel araştırmanın tek ve evrensel bir yönteme bağlı olması gerektiği düşüncesini eleştirdi. Temel itirazı tarihseldir: Galileo'nun Kopernikçiliği savunurken kullandığı yöntemleri inceler ve gösterir ki Galileo, dönemin kabul görmüş gözlem ve akıl yürütme kurallarını ihlal etmiş, "propaganda", retorik ve henüz kanıtlanmamış bir teleskop kuramı kullanmıştır. Bilimsel ilerleme çoğu zaman mevcut kuralların çiğnenmesiyle, alternatif açıklamaların geliştirilmesiyle ve farklı düşünme yollarının bir arada tutulmasıyla mümkün olmuştur. Bu yüzden Feyerabend "teorik çoğulculuğu" ve epistemolojik anarşizmi savunur.
+
+"Her şey uyar" (*anything goes*), düşüncesinin en bilinen ve en çok yanlış anlaşılan sloganıdır. Feyerabend bunun kendi ilkesi değil, "her koşulda geçerli tek bir yöntem" arayan rasyonalistin, tarihe baktığında bulacağı tek ilke olduğunu söyler; her iddianın eşit derecede geçerli olduğu anlamına gelmez. Asıl hedefi, bilimsel araştırmayı tek bir yöntem anlayışına hapsederek yeni düşünce imkânlarını baştan dışlayan tutumdur. Yaklaşımı ağır eleştiriler aldı: Yöntemleri fazla esnek yorumlamanın bilim ile bilim dışı iddialar arasındaki ayrımı zayıflattığı, "özgür toplumda bilim" tezinin astrolojiye ve yaratılışçılığa kapı açtığı söylendi; *Nature* 1987'de onu "bilimin en büyük düşmanı" ilan etti. Feyerabend bu yakıştırmayı bir ölçüde kışkırtmıştı; ölümünden sonra yayımlanan *Bolluğun Fethi* (1999), daha ölçülü bir çoğulculuk savunur. Ama sorusu yerinde duruyor: Bilim, kendi yöntemlerini sorgulayamadığı noktada gerçekten ilerleyebilir mi?
+
+## Üç düşünür, üç farklı sınır
+
+Gödel, Kuhn ve Feyerabend çoğu zaman "modern bilimin temellerini sarsan" düşünürler olarak birlikte anılır; ancak ortaya koydukları sorunlar farklıdır ve bu farkı silmek, popüler felsefenin sık düştüğü bir hatadır. Gödel matematiksel mantığın içinden konuşur; teoremleri, belirli biçimsel sistemlerin kanıtlama gücünün sınırlarını matematiksel kesinlikle ortaya koyar ve bilim hakkında hiçbir şey söylemez. Kuhn bilim tarihine ve topluluklarına yönelir; iddiaları tarihsel ve sosyolojiktir. Feyerabend bilimsel yöntemin felsefi statüsünü sorgular; iddiası normatif ve siyasaldır. Gödel'in matematiksel sonuçlarından Kuhn'un paradigma kuramına ya da Feyerabend'in yöntem eleştirisine doğrudan geçilemez; "Gödel gösterdi ki hiçbir şey kesin değil, dolayısıyla bilim de görecelidir" türünden çıkarımlar, üç düşünürün de reddedeceği bir karışıklıktır. Aralarında özdeşlik değil, modern kesinlik anlayışını farklı düzlemlerde sorgulayan bir yakınlık vardır.
+
+## Bilimin gücü, sınırlarını kabul edebilmesinde mi?
+
+Bu üç düşünürün mirası, bugün yapay zekâ ve bilimsel bilgi tartışmaları açısından yeniden önem kazanıyor. Yapay zekâ sistemleri büyük miktarda veriyi işleyebiliyor, karmaşık problemleri çözebiliyor ve bilimsel araştırmalara katkı sunabiliyor; fakat bir sistemin hesaplama kapasitesinin yüksek olması, ürettiği her sonucun doğru ya da bütünlüklü olduğu anlamına gelmiyor. Gödel biçimsel sistemlerin sınırlarını hatırlatıyor (ve bu hatırlatma, "yapay zekâ Gödel yüzünden insan aklına ulaşamaz" türünden hızlı çıkarımlara karşı da geçerli: Teorem insan için de bağlayıcıdır). Kuhn, bilimsel bilginin hangi tarihsel ve kavramsal çerçeveler içinde üretildiğini sorgulatıyor; bir dil modelinin eğitildiği veri, bir paradigmanın içindedir. Feyerabend, yerleşik yöntemlerin dışında kalan alternatiflerin neden korunması gerektiğini düşündürüyor; tek bir modelin tekelleştiği bir bilgi düzeni, onun kâbusudur.
+
+Bilimsel düşüncenin gerçek gücü, hiçbir sınırı olmadığını iddia etmesinde değil; kendi yöntemlerini, varsayımlarını ve kavramsal çerçevelerini eleştirebilmesindedir. Gödel matematiğin her şeyi kendi içinden kanıtlayamayacağını gösterdi. Kuhn bilimin yalnızca doğruların birikimi olmadığını anlattı. Feyerabend bilimsel düşüncenin tek bir yöntemin sınırlarına hapsedilemeyeceğini savundu. Üçünün ortak mirası belki şu cümlede özetlenebilir: Akıl, en güçlü hâline kendi sınırlarını sorgulayabildiğinde ulaşır.`,
+  },
+  {
+    title: "Dijital iktidarın yeni sahipleri: Teknoloji şirketleri devletlerden daha güçlü hâle mi geliyor?",
+    slug: "dijital-iktidarin-yeni-sahipleri-teknoloji-sirketleri-devletler",
+    summary:
+      "Veri merkezlerinden yapay zekâ modellerine, bulut altyapılarından dijital ödeme sistemlerine uzanan yeni güç düzeninde teknoloji şirketleri yalnızca ekonomik aktörler değil, toplumların işleyişini etkileyen altyapı sahipleri hâline geliyor. Devletler sınırları ve yasaları yönetiyor; ama milyarlarca insanın iletişim kurduğu dijital altyapıların önemli bölümü özel şirketlerin elinde. Dijital dünyada egemenlik kime ait?",
+    seoTitle: "Dijital İktidar: Teknoloji Şirketleri Devletlerden Daha mı Güçlü?",
+    metaDescription:
+      "Teknoloji şirketleri veri, yapay zekâ ve dijital altyapıları kontrol ederek devletlerin gücünü nasıl etkiliyor? Dijital egemenlik ve yeni iktidar düzeni üzerine kapsamlı analiz.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Foundation%20Servers-8055%2035.jpg?width=1600",
+    imageCredit: "Sunucu odası · Victorgrigas · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.oecd.org/en/topics/digital-government.html",
+    publishedAt: "2026-11-07T22:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["siyaset-felsefesi", "teknoloji-felsefesi", "yapay-zeka", "demokrasi", "hukuk-felsefesi"],
+    philosopherSlugs: ["yanis-varoufakis"],
+    sources: [
+      { title: "Digital Government Outlook 2026", publisher: "OECD", date: "2026", url: "https://www.oecd.org/en/topics/digital-government.html", primary: true },
+      { title: "Competition and Digital Platforms", publisher: "UNCTAD", url: "https://unctad.org/topic/competition-and-consumer-protection" },
+      { title: "Tech Sovereignty Package / European strategy for technological sovereignty", publisher: "European Commission", date: "3 Haziran 2026", url: "https://digital-strategy.ec.europa.eu/en" },
+      { title: "Politik als Beruf (1919)", publisher: "Max Weber", url: "https://www.gutenberg.org/ebooks/70013" },
+    ],
+    content: `Bir ülkenin sınırlarını kim korur? Yasalarını kim yapar? Vatandaşlarının haklarını kim güvence altına alır? Modern siyaset felsefesinin geleneksel cevabı bellidir: Devlet. Fakat bu cevap giderek karmaşıklaşıyor; çünkü insanların gündelik hayatını belirleyen pek çok temel altyapı devletlerin doğrudan kontrolünde değil. İletişim ağları, arama motorları, sosyal medya platformları, bulut sistemleri, dijital ödeme altyapıları ve yapay zekâ modelleri büyük ölçüde küresel teknoloji şirketleri tarafından işletiliyor. Bu şirketler yalnızca ürün satmıyor; bilginin dolaşımını, ekonomik faaliyetlerin biçimini, kamusal tartışmaların görünürlüğünü ve kimi zaman devletlerin teknolojik kapasitesini de belirliyor. Mesele teknoloji şirketlerinin zenginleşmesi değil; toplumsal hayatın temel koşullarını belirleme gücünün kimlerin elinde toplandığı.
+
+## Güç artık yalnızca toprağı kontrol etmek değil
+
+Modern devletin gücü tarihsel olarak toprak, nüfus, vergi, hukuk ve güvenlik kurumlarıyla ilişkilendirildi. Max Weber'in 1919'daki klasik tanımında devlet, belirli bir toprak parçası üzerinde "meşru fiziksel şiddet tekelini" başarıyla talep eden insan topluluğudur. Dijital çağda güç, fiziksel sınırların ötesine geçen boyutlar kazandı. Bir şirketin milyarlarca insanın iletişimini sağlayan altyapıyı işletmesi, aramaları sıralaması ya da büyük ölçekli bulut hizmeti sunması, ona ekonomik olduğu kadar toplumsal ve siyasal sonuçlar doğuran bir kapasite kazandırıyor: Bir platformun hangi içeriği görünür kıldığı, bir arama motorunun hangi bilgiyi öne çıkardığı, bir bulut sağlayıcısının hangi kuruma hizmet verdiği kamusal hayatı etkiliyor. Bu, şirketlerin devletlerle aynı türden egemenliğe sahip olduğu anlamına gelmez; devletler hâlâ yasama, yargı, vergi, sınır güvenliği ve meşru zor kullanma yetkilerine sahiptir. Ancak teknoloji şirketleri, devletlerin de bağımlı hâle geldiği altyapıları kontrol ederek farklı bir güç biçimi oluşturuyor. Siyaset kuramı bu biçime henüz tam bir ad bulamadı: "platform kapitalizmi" (Srnicek), "gözetim kapitalizmi" (Zuboff), [Varoufakis'in "teknofeodalizm"i](/haber/yanis-varoufakis-ve-teknofeodalizm) ya da "özel düzen" (Bratton'ın "yığın"ı) önerilen adlardan bazıları.
+
+## Veri: Hammadde mi, iktidarın kaynağı mı?
+
+Dijital ekonominin en önemli kaynağı veridir. İnsanların ne aradığı, ne izlediği, ne satın aldığı, kimlerle iletişim kurduğu kaydedilebiliyor; bu veriler ekonomik değer üretmekte, reklam modellerini geliştirmekte, algoritmaları eğitmekte ve davranışları tahmin etmekte kullanılıyor. Ancak verinin siyasal anlamı ekonomik değerinden geniştir: Toplumların nasıl davrandığını anlamak, eğilimleri öngörmek ve tercihleri etkilemek için de kullanılabilir. UNCTAD'ın dijital platform piyasaları üzerine çalışmaları, bu piyasaların ağ etkileri, ölçek ekonomileri ve kullanıcı verisinin kontrolü nedeniyle yoğunlaşmaya eğilimli olduğunu, büyük platformların rakiplerin pazara girişini zorlaştıran yapısal avantajlar edindiğini gösteriyor. Burada yeni bir iktidar biçimi ortaya çıkıyor: İnsanların ne yapabileceğini yasaklamadan, hangi seçeneklerle karşılaşacaklarını belirlemek. Bir platform kullanıcısına hangi içeriğin gösterileceğine karar verdiğinde yalnızca teknik bir sıralama yapmaz; dikkatin dağılımına müdahale eder. Bu müdahale kötü niyetli ya da bilinçli olmak zorunda değildir; ama algoritmik kararların toplumsal sonuçları, bu sistemleri yöneten kurumların hesap verebilirliğini zorunlu kılar. Foucault'nun "yönetimsellik" kavramı burada yardımcı olur: Modern iktidar yasaklayarak değil, davranış olanaklarını düzenleyerek işler; platformlar bu tanımın en saf örnekleridir.
+
+## Devletler teknoloji şirketlerine neden bağımlı?
+
+Devletler dijital dönüşüm için büyük teknik altyapıya ihtiyaç duyuyor: Veri merkezleri, bulut sistemleri, siber güvenlik, yapay zekâ modelleri, yazılım. Her devlet bunları kendi kaynaklarıyla geliştiremiyor; kamu kurumları özel şirketlerden hizmet satın alıyor. Sağlık sistemleri, belediyeler, üniversiteler, güvenlik kurumları dış sağlayıcılara bağımlı hâle gelebiliyor. OECD'nin *Digital Government Outlook 2026* raporu, dijital kamu altyapısının önemini ve veri yönetişimindeki sorunları ele alıyor: Dijital sistemlerin etkili çalışması için kurumlar arasında güvenilir veri paylaşımı ve birlikte işlerlik gerekiyor; bulut teknolojileri kamu altyapısının standart unsurlarından biri hâline geldi. Bu, devletlerin hizmetleri daha verimli sunmasına yardımcı olabilir; fakat bir soruyu gündeme getirir: Kamu hizmetlerinin sürekliliği, özel şirketlerin teknik ve ticari kararlarına ne ölçüde bağlı olmalıdır? Bir devletin kritik sistemleri, sağlayıcı değiştirmenin son derece maliyetli olduğu altyapılara bağlanırsa, teknik bağımlılık zamanla siyasal ve ekonomik bağımlılığa dönüşebilir.
+
+## Dijital egemenlik: Tam bağımsızlık mümkün mü?
+
+Son yıllarda "dijital egemenlik" ve "teknolojik egemenlik" uluslararası siyasetin önemli başlıkları arasına girdi. Avrupa Komisyonu'nun 3 Haziran 2026'da açıkladığı teknoloji egemenliği stratejisi, Avrupa'nın dijital ürünler, hizmetler, altyapılar ve fikrî mülkiyet bakımından AB dışı sağlayıcılara yüksek ölçüde bağımlı olduğunu ve bu bağımlılığın stratejik riskler doğurduğunu vurguluyor. Ancak dijital egemenlik, her ülkenin bütün teknolojileri kendi sınırları içinde üretmesi anlamına gelmek zorunda değil. Gerçekçi bir egemenlik anlayışı, kritik altyapılar üzerinde yeterli kontrol sahibi olmayı, alternatif sağlayıcılara erişebilmeyi, verilerin nasıl işlendiğini denetleyebilmeyi ve gerektiğinde bağımlılıkları azaltabilmeyi gerektirir. Tam bağımsızlık ekonomik ve teknik açıdan çoğu zaman mümkün değildir; önemli olan bağımlılığın yönetilebilir olmasıdır. Bu nedenle açık kaynak yazılımlar, veri taşınabilirliği, birlikte işlerlik standartları, rekabet politikaları ve kamusal dijital altyapılar stratejik önem kazanıyor. Türkiye için de soru aynıdır: Kamu bulutu, yerli yapay zekâ modelleri ve veri yerelleştirme tartışmaları, egemenliğin bu yeni boyutunun ifadeleridir.
+
+## Dijital Leviathan: Hobbes bugün yaşasaydı ne sorardı?
+
+Thomas Hobbes *Leviathan*'da (1651) siyasal düzenin temelini güvenlik ve egemenlik üzerinden açıklamıştı: İnsanlar, herkesin herkese karşı savaştığı doğal durumdan çıkmak için güçlerini ortak bir egemene devrederler; egemenin meşruiyeti, koruma kapasitesinden gelir. Hobbes'un sorusu bugün farklı biçimde karşımızda: İnsanların güvenliğini ve toplumsal düzenini sağlayan altyapılar devletin kontrolünden uzaklaştığında egemenlik nasıl tanımlanmalıdır? Dijital platformlar devlet değildir; seçimle gelmez, yurttaşlara karşı demokratik sorumluluk mekanizmasıyla çalışmaz, devletlerin hukuki yetkilerine sahip değildir. Bununla birlikte insanların iletişim kurma, bilgiye ulaşma ve ekonomik hayata katılma biçimlerini belirleyebilirler; bir hesabın kapatılması, bir kişinin kamusal varoluşunu sona erdirebilir. Klasik siyaset felsefesi burada yeni bir soruyla karşılaşıyor: Bir kurum hukuken egemen olmadığı hâlde insanların yaşam koşullarını belirleyecek kadar güçlü olabilir mi? Hobbes buna "koruma ile itaat karşılıklıdır" derdi: Kim koruyorsa, ona itaat edilir. Platformlar bizi korumuyor; ama onlara, Hobbes'un egemenine gösterilen türden bir bağımlılıkla bağlıyız. [ODTÜ'deki Hobbes konferansı](/etkinlik/hobbes-scholars-6-konferans-grotius-hobbes-savas-hakki-odtu-2026) bu hafta tam bu soruları, savaş hakkı ve egemenlik üzerinden tartışacak.
+
+## Şirketler devletten daha mı güçlü?
+
+Tek kelimelik cevap yanıltıcı olur. Devletler hukuki ve siyasal egemenlik bakımından temel aktörlerdir; yasa yapabilir, şirketleri düzenleyebilir, vergilendirebilir, rekabet kurallarını uygulayabilir, faaliyetleri sınırlandırabilir. AB'nin Dijital Hizmetler ve Dijital Piyasalar Yasaları, ABD'deki tekel davaları, Çin'in kendi teknoloji devlerine karşı 2021 müdahalesi, devletin bu gücü hâlâ kullanabildiğini gösteriyor. Ancak teknoloji şirketleri bazı alanlarda devletlerin sahip olmadığı kapasitelere sahiptir: Küresel kullanıcı ağları, dev veri merkezleri, gelişmiş yapay zekâ modelleri, teknik uzmanlık ve uluslararası sermaye. Doğru soru, şirketlerin devletlerin yerini alıp almadığı değil; devletlerin hangi alanlarda şirketlere bağımlı hâle geldiği ve bu bağımlılığı nasıl yönettiğidir. Güç tek bir merkezde toplanmıyor: Devletler hukuki egemenliği, şirketler kritik dijital altyapıları kontrol ediyor; iki güç biçimi zaman zaman çatışıyor, zaman zaman iş birliği yapıyor ve en tedirgin edici senaryo, ikisinin birleşmesidir.
+
+## Dijital dünyanın anayasası kim tarafından yazılıyor?
+
+Dijital çağın en önemli siyasal tartışması, teknolojinin nasıl kullanılacağından çok, teknolojik düzenin hangi ilkelerle yönetileceği üzerine kurulmalı. Kullanıcıların verileri üzerinde hangi hakları bulunmalı? Algoritmik kararlar nasıl denetlenmeli? Kritik dijital altyapılar hangi koşullarda kamusal hizmet sayılmalı? Bir platformun kararlarına karşı bireyler hangi itiraz mekanizmalarına sahip olmalı? Devletler, güvenliği sağlarken dijital gözetimi hangi sınırlar içinde tutmalı? Bu sorular yalnızca teknoloji uzmanlarının değil, hukukçuların, siyaset bilimcilerin, filozofların ve toplumun tamamının tartışması gereken meselelerdir; çünkü dijital iktidar yalnızca sunucuların bulunduğu bir alanda işlemiyor, insanların dikkatinde, hafızasında, ilişkilerinde ve kararlarında etkili oluyor. [IMF'nin ekim raporunu](/haber/imf-ekim-2026-yapay-zeka-buyume-esitsizlik-dagitici-adalet) yorumlarken sorduğumuz dağıtım sorusu, burada bir egemenlik sorusuna dönüşüyor.
+
+Belki de geleceğin en önemli siyasal mücadelesi, kimin daha fazla veriye sahip olduğu üzerine değil, bu veriler aracılığıyla kurulan düzenin kime karşı sorumlu olduğu üzerine yaşanacak. Devletlerin gücü önemini koruyor; ancak dijital dünyanın yeni gerçekliği, egemenliğin yalnızca sınırları kontrol etmekle açıklanamayacağını gösteriyor. Asıl soru şu: Dijital hayatımızı mümkün kılan sistemlerin sahibi kimse, gelecekte düşünme, iletişim kurma ve birlikte yaşama koşullarımız üzerinde de o mu söz sahibi olacak?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 8 Kasım: Gottlob Frege ve modern mantığın doğuşu",
+    slug: "felsefe-tarihinde-bugun-8-kasim-gottlob-frege",
+    summary:
+      "8 Kasım 1848'de Wismar'da doğan Gottlob Frege, Jena'da neredeyse kimsenin okumadığı bir matematikçiyken Aristoteles'ten beri mantıkta yapılmış en büyük devrimi gerçekleştirdi: Begriffsschrift (1879), nicelik mantığını ve 'anlam ile gönderim' ayrımını getirdi; Russell'ın bulduğu paradoks hayatının eserini yıktı. Analitik felsefenin isimsiz kurucusu üzerine.",
+    seoTitle: "8 Kasım: Gottlob Frege'nin doğumu (1848) — Begriffsschrift, anlam ve gönderim, Russell paradoksu",
+    metaDescription:
+      "Felsefe tarihinde 8 Kasım: Gottlob Frege 1848'de doğdu. Begriffsschrift, nicelik mantığı, mantıkçılık, Aritmetiğin Temelleri, 'Anlam ve Gönderim Üzerine', Russell paradoksu, Wittgenstein ve analitik felsefeye etkisi, günlüklerindeki karanlık.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20frege.jpg?width=1600",
+    imageCredit: "Gottlob Frege, gençlik fotoğrafı (1879 dolayları) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/frege/",
+    publishedAt: "2026-11-07T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "mantik", "epistemoloji"],
+    philosopherSlugs: ["ludwig-wittgenstein"],
+    sources: [
+      { title: "Gottlob Frege", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/frege/", primary: true },
+      { title: "Über Sinn und Bedeutung (1892)", publisher: "Zeitschrift für Philosophie und philosophische Kritik — Wikisource", url: "https://de.wikisource.org/wiki/%C3%9Cber_Sinn_und_Bedeutung" },
+    ],
+    content: `Kant 1787'de mantığın Aristoteles'ten beri "tek bir adım ileri gidemediğini ve gidemeyeceğini", tamamlanmış bir bilim olduğunu yazmıştı. Doksan iki yıl sonra, Jena Üniversitesi'nde maaşı olmayan bir doçent, seksen sekiz sayfalık ince bir kitapçıkla bu hükmü geçersiz kıldı. Friedrich Ludwig Gottlob Frege 8 Kasım 1848'de Baltık kıyısındaki Wismar'da, bir kız okulu müdürünün oğlu olarak doğdu; Jena ve Göttingen'de matematik okudu; hayatının tamamını Jena'da, meslektaşlarının ilgisizliği ve öğrencilerinin azlığı içinde geçirdi. Öldüğünde (1925) gazeteler ölümünü yazmadı. Bugün analitik felsefenin kurucusu, modern mantığın babası ve dil felsefesinin başlangıç noktası sayılıyor.
+
+## Begriffsschrift: Düşüncenin formül dili
+
+1879'da yayımlanan *Begriffsschrift* (Kavram Yazısı), alt başlığıyla "aritmetiğinkini örnek alan saf düşüncenin formül dili", mantık tarihinin en önemli tek eseridir. Frege, Aristoteles'in özne-yüklem mantığının iki bin yıldır yapamadığı şeyi yaptı: "Her" ve "bazı" gibi nicelik sözcüklerini, değişkenler ve niceleyicilerle biçimselleştirdi. "Herkes birini sever" ile "Birini herkes sever" arasındaki fark, geleneksel mantıkta ifade edilemiyordu; Frege'nin sisteminde iki ayrı formüldür. Çoklu genellik, ilişkisel yüklemler, fonksiyon-argüman çözümlemesi: Bugünkü birinci düzey yüklem mantığı, garip iki boyutlu notasyonu dışında, bu kitapta tamamlanmış hâlde durur. Frege dili matematikten ödünç alınan "fonksiyon" kavramıyla çözümlemişti: "Sokrates ölümlüdür" cümlesi özne artı yüklem değil, "ölümlü( )" fonksiyonunun "Sokrates" argümanına uygulanmasıdır ve değeri bir doğruluk değeridir. Bu, felsefe tarihinin dile bakışını değiştirdi.
+
+Frege'nin amacı mantığın kendisi değildi; aritmetiğin mantığa indirgenebileceğini, sayıların saf mantıksal nesneler olduğunu kanıtlamak istiyordu: "mantıkçılık" (*Logizismus*). *Aritmetiğin Temelleri* (1884) bu programın felsefi savunusudur ve analitik felsefenin yöntem ilkelerini koyar: Psikolojik olanı mantıksal olandan ayır (psikolojizme karşı); sözcüklerin anlamını tek başına değil, cümle bağlamında sor (bağlam ilkesi); kavram ile nesneyi karıştırma. Kitap, sayı kavramının Mill'den Kant'a bütün tanımlarını yıkıp sayıyı "kavramların kapsamı" olarak tanımlar: Üç sayısı, "üç nesneye uygulanan bütün kavramlar"ın kapsamıdır. Bu programın teknik gerçekleştirimi *Aritmetiğin Temel Yasaları*'dır (I. cilt 1893, II. cilt 1903).
+
+## Anlam ve gönderim
+
+1892'de yayımlanan "Anlam ve Gönderim Üzerine" (*Über Sinn und Bedeutung*), dil felsefesinin en çok okunan makalesidir. Sorun bir bulmaca gibi başlar: "Sabah Yıldızı Sabah Yıldızı'dır" önermesi boş ve a priori'dir; "Sabah Yıldızı Akşam Yıldızı'dır" ise astronomik bir keşiftir. Oysa iki ad da aynı gezegeni, Venüs'ü gösterir. Fark nereden gelir? Frege'nin cevabı: Bir ifadenin gönderimi (*Bedeutung*, gösterdiği nesne) ile anlamı (*Sinn*, nesnenin "veriliş biçimi") farklıdır. "Sabah Yıldızı" ve "Akşam Yıldızı" aynı gönderime, farklı anlamlara sahiptir. Bir cümlenin gönderimi doğruluk değeri (Doğru ya da Yanlış), anlamı ise ifade ettiği düşüncedir (*Gedanke*). Bu ayrım, Russell'dan Kripke'ye, Dummett'tan Evans'a dil felsefesinin yüz yıllık gündemini belirledi; "bilişsel değer" sorunu, "dolaylı bağlamlar", "boş adlar", hepsi bu makaleden çıkar. Frege'nin "düşünce"leri de ilginçtir: Ne fiziksel ne zihinseldir, zaman dışı bir "üçüncü âlem"de dururlar ve biz onları yaratmaz, "kavrarız." Bu Platonculuk, Frege'nin psikolojizm karşıtlığının bedelidir ve Husserl'in fenomenolojiye dönüşünde payı vardır: Husserl'in 1891'deki psikolojist *Aritmetik Felsefesi*'ne Frege'nin yazdığı acımasız eleştiri, Husserl'i kendi yolunu bulmaya itmiştir.
+
+## 16 Haziran 1902: Russell'ın mektubu
+
+*Temel Yasalar*'ın ikinci cildi baskıdayken, Frege genç bir İngiliz'den bir mektup aldı. Bertrand Russell, sistemin V. Temel Yasası'ndan, kapsamların oluşturulmasını düzenleyen aksiyomdan, bir çelişki türetilebildiğini gösteriyordu: "Kendi kendisinin elemanı olmayan bütün sınıfların sınıfı" kendi elemanı mıdır? Öyleyse değildir; değilse öyledir. Frege'nin cevabı felsefe tarihinin en onurlu metinlerinden biridir: Mektubu aldığında "aritmetiğin sendelediğini" yazdı ve ikinci cilde bir sonsöz ekledi: "Bir bilim insanının başına, eserini tamamladıktan sonra temellerinden birinin sarsılmasından daha istenmeyen bir şey gelemez. Bay Bertrand Russell'dan gelen bir mektup beni bu duruma düşürdü." Russell sonradan Frege'nin bu tepkisini "hakikate adanmışlığın" en yüce örneği olarak andı. Frege onarım denedi, başaramadı; mantıkçılık programından vazgeçti ve son yıllarında aritmetiğin temelini geometride aramaya başladı. Russell ve Whitehead'in *Principia*'sı, Zermelo'nun küme kuramı ve [Gödel'in](/haber/godel-kuhn-feyerabend-matematik-bilim-sinirlari) teoremleri, Frege'nin açtığı ve kapatamadığı sorunun devamıdır.
+
+## Miras ve gölge
+
+Frege'yi tanıtan Russell oldu; onu okuyan ve 1911'de Jena'ya ziyaretine giden Wittgenstein, *Tractatus*'un önsözünde "Frege'nin büyük eserleri"ni anar ve [Wittgenstein'ın](/filozof/ludwig-wittgenstein) bütün erken felsefesi Frege'yle hesaplaşmadır. Carnap 1910-14'te Jena'da onun derslerine girdi (bazen tek öğrenci olarak) ve Viyana Çevresi'ne taşıdı. Michael Dummett 1973'teki *Frege: Philosophy of Language* ile onu analitik felsefenin kurucusu ilan etti ve "dilsel dönüş"ü Frege'nin bağlam ilkesine bağladı. Bugün felsefe bölümlerinde öğretilen mantık, Frege'nin mantığıdır.
+
+Mirasın bir de gölgesi var. 1924'te, ölümünden bir yıl önce tuttuğu günlük, 1994'te yayımlandığında şok yarattı: Yaşlı Frege, Weimar Cumhuriyeti'nden nefret eden, Yahudilerin Almanya'dan çıkarılmasını düşünen, Hitler'e sempati duyan bir siyasal gericiydi. Dummett, kendi deyişiyle "hayran olduğu adamın" bu notlarını okumanın "acı" olduğunu yazdı ve soruyu açıkça sordu: Bir düşünürün mantığı ile hayatı arasında nasıl bir ilişki var? Frege'nin mantığında antisemitizmin izi yoktur; ama düşünürün bütünlüğü sorusu, Heidegger'de olduğu gibi burada da yanıtsız kalır.
+
+Jena'da kimsenin dinlemediği derslerde, kendi icat ettiği ve kimsenin kullanmadığı bir notasyonla, matematiğin temelini kurduğunu sanıp çöktüğünü gören bir adam. Frege'nin hayatı felsefi başarının en tuhaf örneklerinden biridir: Programı başarısız oldu, araçları her şeyi değiştirdi. "Anlam ve Gönderim"deki kendi örneğiyle söylenirse, Frege iki anlama sahip tek bir gönderimdir: Yenilmiş bir mantıkçı ve modern felsefenin kurucusu.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 7 Kasım: Albert Camus, absürt ve başkaldıran insan",
+    slug: "felsefe-tarihinde-bugun-7-kasim-albert-camus",
+    summary:
+      "7 Kasım 1913'te Cezayir'in Mondovi kasabasında, okuma yazma bilmeyen bir annenin oğlu olarak doğan Albert Camus, 'tek ciddi felsefi sorun'un intihar olduğunu yazdı ve absürde karşı başkaldırıyı savundu. Sisifos Söyleni'nden Başkaldıran İnsan'a, Sartre'la kopuştan Nobel'e: Filozof sayılmayı reddeden filozof.",
+    seoTitle: "7 Kasım: Albert Camus'nün doğumu (1913) — absürt, başkaldırı ve Sartre'la kopuş",
+    metaDescription:
+      "Felsefe tarihinde 7 Kasım: Albert Camus 1913'te doğdu. Sisifos Söyleni, absürt, intihar sorusu, Başkaldıran İnsan, Sartre'la 1952 kopuşu, Cezayir sorunu, 1957 Nobel ve Camus'nün felsefedeki yeri.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Camus%2C%20gagnant%20de%20prix%20Nobel%2C%20portrait%20en%20buste%2C%20pos%C3%A9%20au%20bureau%2C%20faisant%20face%20%C3%A0%20gauche%2C%20cigarette%20de%20tabagisme.jpg?width=1600",
+    imageCredit: "Albert Camus, 1957 · United Press · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/camus/",
+    publishedAt: "2026-11-06T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "siyaset-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Albert Camus", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/camus/", primary: true },
+      { title: "Albert Camus — Nobel Prize in Literature 1957", publisher: "NobelPrize.org", url: "https://www.nobelprize.org/prizes/literature/1957/camus/facts/" },
+    ],
+    content: `"Gerçekten ciddi tek bir felsefi sorun vardır: intihar." *Sisifos Söyleni*'nin (1942) bu ilk cümlesi, yirminci yüzyıl felsefesinin en çok alıntılanan açılışıdır ve yazarı, felsefeci olmadığında ısrar ederdi. Albert Camus 7 Kasım 1913'te, Fransız Cezayiri'nin Mondovi kasabasında (bugün Dréan) doğdu; babası bir yıl sonra Marne Savaşı'nda öldü, annesi okuma yazma bilmeyen, yarı sağır İspanyol kökenli bir temizlikçiydi. Cezayir'in yoksul Belcourt mahallesinde, bir öğretmenin (Louis Germain, Nobel konuşmasını ona ithaf edecekti) fark etmesiyle liseye gitti; verem yüzünden felsefe öğretmenliği sınavına giremedi; Cezayir Üniversitesi'nde Plotinos ve Augustinus üzerine yüksek lisans tezi yazdı. Felsefeye Akdeniz'den, yoksulluktan ve güneşten geldi; bu başlangıç her şeyi belirledi.
+
+## Absürt: Dünyanın sessizliği
+
+Camus'nün "absürt" kavramı, varoluşçuluğun popüler sözlüğüne girdiği hâliyle değil, kendi tanımıyla anlaşılmalıdır: Absürt dünyada değildir, insanda da değildir; insanın anlam talebiyle dünyanın "makul olmayan sessizliği" arasındaki karşılaşmadadır. İnsan birlik, açıklık ve ölümsüzlük ister; dünya parçalıdır, opaktır ve ölümlüdür. *Sisifos Söyleni* bu karşılaşmadan çıkan üç yolu inceler: İntihar (absürdü, taraflardan birini ortadan kaldırarak çözmek), "felsefi intihar" (Kierkegaard, Jaspers, Şestov gibi aşkınlığa sıçrayarak absürdü inkâr etmek) ve Camus'nün önerdiği üçüncüsü: Absürdü ayakta tutmak, ona bakmaya devam etmek, "umutsuz ama umut etmeden yaşamak." Sisifos'un kayası buradan gelir; tanrıların cezalandırdığı adam, kayayı her seferinde yeniden yukarı iter ve Camus'ye göre tam da bu bilinçli tekrarda tanrılardan üstündür: "Sisifos'u mutlu olarak düşünmek gerekir."
+
+Bu deneme Nietzsche'nin "Tanrı öldü"sünden sonra nihilizmle yüzleşmenin en etkili denemelerinden biridir; ama felsefeciler ona hep mesafeli durdu. Kavramları gevşek, argümanları eksikti; Camus bunu biliyordu ve umursamıyordu: "Yalnızca imgelerle düşünürüm" diyordu, "filozof olmak istiyorsanız roman yazın." *Yabancı* (1942), aynı yılın romanı, absürdün düşünce değil, deneyim olarak nasıl yaşandığını gösterir; Meursault'nun annesinin cenazesinde ağlamaması, bu dünyanın "hassas kayıtsızlığına" açılmasıdır.
+
+## Başkaldırı: "Başkaldırıyorum, öyleyse varız"
+
+*Başkaldıran İnsan* (1951), Camus'nün asıl felsefi iddiasıdır ve hayatını değiştirdi. Absürtten yalnızca bireysel bir tutum değil, ahlaki bir ilke çıkar: Başkaldıran insan "hayır" derken aynı zamanda bir şeye "evet" der; kendisinde çiğnenemez bir sınır olduğunu ve bu sınırın bütün insanlarda ortak olduğunu keşfeder. Descartes'ın formülü tersine çevrilir: "Başkaldırıyorum, öyleyse varız." Kitabın ikinci yarısı, metafizik ve tarihsel başkaldırının kendi ilkesine nasıl ihanet ettiğinin tarihidir: Sade'dan Saint-Just'e, Hegel'den Marx'a, Lenin'den Stalin'e, başkaldırı "devrim"e dönüştüğünde ve tarihin sonundaki adalet adına bugünün cinayetini meşrulaştırdığında kendini inkâr eder. Camus buna karşı "Akdeniz düşüncesi"ni, ölçüyü (*la mesure*), Yunan sınır bilincini koyar: Mutlak adalet, mutlak özgürlüğü yok eder; başkaldırı sınırsız olduğunda cinayete dönüşür.
+
+Kitap, Fransız solunda bir deprem yarattı. 1952'de Sartre'ın dergisi *Les Temps modernes*'de Francis Jeanson sert bir eleştiri yazdı; Camus Sartre'a hitaben cevap verdi; Sartre'ın cevabı acımasızdı: Camus'nün "felsefi yetersizliğini", "Cezayir'in yoksul çocuğu" rolünü, tarihi reddederek burjuvaziye hizmet ettiğini yazdı. Dostluk bitti. Bugün bakıldığında tartışma, yirminci yüzyılın temel ahlaki sorusunun en net karşılaşmasıdır: Gulag'ın bilgisi karşısında devrimci umut korunabilir mi? Camus hayır dedi ve on yıl boyunca "gerici" sayıldı; 1956'dan sonra tarih ona hak verdi. Sartre bile 1960'ta, Camus'nün ölümü üzerine yazdığı yazıda, onu "bu yüzyılda ahlakın bekçisi" olarak andı.
+
+## Cezayir: Konuşamayan adam
+
+Camus'nün en zor meselesi doğduğu topraktı. Cezayir'in bağımsızlık savaşı (1954-62) onu iki taraf arasında bıraktı: Sömürgeciliğin adaletsizliğini 1939'daki Kabiliye röportajlarından beri yazıyordu; ama FLN'nin sivillere yönelik terörünü de, Fransız ordusunun işkencesini de reddetti; "sivil ateşkes" çağrısı yaptı, başaramadı ve 1956'dan sonra sustu. Stockholm'de Nobel'i aldığı 1957 Aralık'ında, bir Cezayirli öğrencinin sorusuna verdiği cevap, bağlamından koparılarak ününü lekeledi: "Şu anda Cezayir'de tramvaylara bomba atılıyor. Annem o tramvaylardan birinde olabilir. Adaleti savunmam gerekiyorsa, adaletten önce annemi savunurum." Edward Said *Kültür ve Emperyalizm*'de Camus'yü Cezayirlileri romanlarında adsız bırakan sömürgeci bilincin örneği olarak okudu; Camus'nün savunucuları ise ikili şiddete direnen ahlaki konumun o günlerde kimseyi memnun edemeyeceğini söyler. Ölümünden sonra yayımlanan yarım kalmış *İlk Adam* (1994), bu meselenin en dürüst, en acılı ifadesidir.
+
+## Felsefedeki yeri
+
+4 Ocak 1960'ta, kırk altı yaşında, Michel Gallimard'ın arabasında bir kavak ağacına çarparak öldü; cebinde kullanmadığı tren bileti vardı. Felsefe, Camus'yü uzun süre "edebiyatçı" diye kenara koydu; Sartre'ın "felsefi yetersizlik" hükmü etkili oldu. Son yirmi yılda bu değişti: Camus'nün ölçü, sınır, nihilizmle yaşama ve "mutlaksız ahlak" üzerine düşünceleri, Rawls sonrası siyaset felsefesinin ve "yaşamın anlamı" tartışmasının (Weinberg'in [geçen ay ele aldığımız](/haber/rivka-weinberg-the-meaning-of-it-all-anlam-olum-zaman) kitabı gibi) kaynakları arasına girdi. 2010'da Sarkozy onun kalıntılarını Panthéon'a taşımak istedi; oğlu Jean, babasının "resmî anıt olmayı asla istemediğini" söyleyerek reddetti. Camus sistem kurmadı, kavram icat etmedi, felsefeci sayılmayı reddetti; ama yirminci yüzyılın en çok okunan ahlak felsefesini yazdı. Kendi sözüyle: "Hiçbir şeyin anlamı olmadığını düşünen bir filozofun, onu doğrulayacak kadar tutarlı olmaması gerekir." Camus tutarsızdı ve haklıydı.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 6 Kasım: Robert Musil, niteliksiz adam ve 'olabilirlik duygusu'",
+    slug: "felsefe-tarihinde-bugun-6-kasim-robert-musil",
+    summary:
+      "6 Kasım 1880'de Klagenfurt'ta doğan Robert Musil mühendisti, Ernst Mach üzerine doktora yazdı, sonra yirminci yüzyılın en felsefi romanını yazdı: Niteliksiz Adam. 'Gerçeklik duygusu'na karşı 'olabilirlik duygusu', ruh ile kesinlik arasındaki bölünme, 'Kakanya' hicvi ve bitirilemeyen roman üzerine.",
+    seoTitle: "6 Kasım: Robert Musil'in doğumu (1880) — Niteliksiz Adam, Mach ve olabilirlik duygusu",
+    metaDescription:
+      "Felsefe tarihinde 6 Kasım: Robert Musil 1880'de doğdu. Mach üzerine doktora, Genç Törless, Niteliksiz Adam, olabilirlik duygusu, deneme (Essayismus), 'ruh ve kesinlik', Kakanya ve Musil'in felsefeyle ilişkisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Klagenfurt%20-%20Musilhaus%20-%20Christine%20Lavant.jpg?width=1600",
+    imageCredit: "Musil'in doğduğu ev, bugün Robert Musil Edebiyat Müzesi, Klagenfurt · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.britannica.com/biography/Robert-Musil",
+    publishedAt: "2026-11-05T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "estetik", "epistemoloji", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Robert Musil", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/Robert-Musil", primary: true },
+      { title: "Beitrag zur Beurteilung der Lehren Machs (1908)", publisher: "Robert Musil, Berlin doktora tezi — Deutsches Textarchiv", url: "https://www.deutschestextarchiv.de/" },
+    ],
+    content: `"Gerçeklik duygusu varsa, olabilirlik duygusu da olmalıdır." *Niteliksiz Adam*'ın dördüncü bölümünün başlığı budur ve Robert Musil'in bütün düşüncesi bu cümleden türetilebilir. Olabilirlik duygusuna sahip insan, "burada şu ya da bu oldu, olacak, olmalı" demez; "burada şu ya da bu olabilirdi, olabilir, olmalı" der ve ona "gerçek olanın, mümkün olandan daha önemli olduğu" söylendiğinde, bunun bir tercih olduğunu bilir. 6 Kasım 1880'de Klagenfurt'ta, bir makine mühendisliği profesörünün oğlu olarak doğan Musil, kendisi de mühendisti; Brünn'de makine mühendisliği okudu, Stuttgart'ta laboratuvar asistanı olarak çalıştı, bir renk ölçme aleti icat etti ("Musil varyatörü"); sonra Berlin'e gidip felsefe ve deneysel psikoloji okudu ve 1908'de Carl Stumpf'un yanında, Ernst Mach'ın öğretileri üzerine doktora tezi yazdı. Stumpf ona akademik kariyer teklif etti; Musil reddetti ve romancı oldu. Ama hiçbir zaman felsefeyi bırakmadı; yalnızca onu başka bir araçla yapmaya karar verdi.
+
+## Mach'la hesaplaşma
+
+Doktora tezi *Mach'ın Öğretilerinin Değerlendirilmesine Katkı*, Musil'in düşüncesinin anahtarıdır. Mach, fiziksel dünyayı duyumların ("elemanlar") karmaşıklığına indirgeyen, "ben"i kurtarılamaz bir kurgu sayan, bilimsel yasaları "düşünce ekonomisi" olarak gören bir pozitivistti; Viyana modernizminin, Hofmannsthal'dan Bahr'a, felsefi havasıydı. Musil tezi Mach'ı eleştirir: Mach'ın duyumculuğu, bilimin gerçekten yaptığı şeyi, yani yasaları ve zorunlulukları açıklayamaz; ama Musil, Mach'ın "ben"i ve "töz"ü çözmesinden de etkilenmiştir. Bu ikili tutum, Musil'in ömür boyu sürecek sorusunu üretir: Kesinliğin (bilimin, matematiğin) dünyası ile ruhun (etiğin, duygunun, mistik deneyimin) dünyası nasıl birleştirilebilir? 1913'teki "Matematiksel İnsan" denemesinde bunu açıkça yazar: Matematik, "aklın lüksü"dür ve "ruhun bir cesareti"dir; mühendisler ise matematiğin cesaretini makinelere uygular ama kendi hayatlarına uygulamaz. Niteliksiz Adam Ulrich, tam bu çelişkinin adamıdır: Matematikçi, "düşüncenin kesinliğini hayata taşımak" isteyen, ama hayatın buna izin vermediğini gören biri.
+
+## Niteliksiz Adam: Roman olarak felsefe
+
+1930'da birinci cildi, 1933'te ikincinin ilk bölümü yayımlanan ve Musil 1942'de Cenevre'de sürgünde öldüğünde bitmemiş kalan *Niteliksiz Adam* (*Der Mann ohne Eigenschaften*), iki bin sayfaya yaklaşan bir roman-denemedir. Konusu, 1913 Viyana'sında, Avusturya-Macaristan'ın (Musil'in alaycı adıyla "Kakanya", k.u.k., "kaiserlich und königlich"den) imparatorun tahta çıkışının yetmişinci yılı için 1918'de kutlanacak "Paralel Eylem"in hazırlıklarıdır; okur, 1918'de imparatorluğun artık olmayacağını bilir. Hiciv bu bilgiden beslenir. Ama romanın asıl konusu, Ulrich'in deneyidir: Bir yıllığına "hayattan izin alır" ve bütün niteliklerini, mesleğini, kimliğini, görüşlerini askıya alarak, mümkün olanın alanında yaşamayı dener.
+
+Musil'in yöntemi "denemecilik"tir (*Essayismus*); romanın 62. bölümünde tanımlar: Deneme, bir şeyi bütün yönlerinden ele almadan, ama hiçbir yönünü de kesin saymadan dolaşmaktır; "bir insanın iç hayatını belirleyici bir düşüncede ifade etmeksizin, onu birçok açıdan ele almak." Bu, kesinlik ile ruh arasındaki üçüncü yoldur: Ne bilimin yasası ne dinin dogması; "yaşayan düşünce". Romanın felsefi muhatapları açıktır: Nietzsche (değerlerin yeniden değerlendirilmesi, "niteliksizlik" olarak perspektivizm), Mach (çözülen ben), Husserl ve Gestalt psikolojisi (Musil Berlin'de Köhler ve Wertheimer'ın öğrencisiydi), ve romanın ikinci cildinde, Ulrich ile kız kardeşi Agathe'nin "öteki durum" (*der andere Zustand*) arayışında, Meister Eckhart'tan Buber'e mistik gelenek. Musil, mistik deneyimi dinî olmayan, "gün ışığında mistisizm" olarak, psikoloji ve etik arasında bir alan olarak düşünmek istedi ve bu bölümü asla bitiremedi; ölümünde masasında yirmi kez yeniden yazılmış bir bölüm duruyordu.
+
+## Niteliksizlik ve çağ
+
+"Niteliksiz adam" formülü çift anlamlıdır. Ulrich nitelikleri olmayan değil, niteliklerinin kendisine ait olmadığını, modern insanın özelliklerinin "dışarıda", kurumlarda, mesleklerde, dillerde durduğunu gören adamdır; romanın ünlü cümlesiyle, bugün "nitelikleri olmayan bir insan" değil, "insanı olmayan nitelikler" dünyası vardır. Bu, Weber'in rasyonalizasyon teşhisinin ve Simmel'in modern birey çözümlemesinin romansal karşılığıdır; Musil'in Sloterdijk'in [bu hafta ele aldığımız](/haber/peter-sloterdijk-kureler-kinizm-insan-dunya-kurmak) *Nitelikleri Olmayan Kıta* başlığına ilham vermesi tesadüf değil. Romanın ikinci büyük karakteri Moosbrugger, bir kadın katili, Ulrich'in gölgesidir: "İnsanlık toplu olarak rüya görebilseydi, Moosbrugger'i görürdü." Akılcı toplumun bastırdığı şiddet, 1913'te bir deli olarak görünür; 1914'te tarih olarak.
+
+Musil Nazilerden Cenevre'ye kaçtı, yoksulluk içinde, neredeyse unutulmuş öldü; cenazesine sekiz kişi geldi. 1950'lerde yeniden keşfedildi ve bugün Proust ve Joyce'la birlikte yüzyılın üç büyük romancısından biri sayılıyor. Felsefe için önemi, felsefi düşüncenin roman biçiminde yapılabileceğini, hatta bazı soruların (kesinlik ile ruh, olabilirlik ile gerçeklik, etik ile deneyim) yalnızca orada sorulabileceğini göstermesidir. Son yirmi yılda Musil üzerine felsefi literatür hızla büyüdü; Jacques Bouveresse ondan "Mach'ın okulundan çıkmış en büyük filozof" diye söz eder. Musil kendi programını 1930'da bir not defterine yazmıştı: "Roman, zamanın tinsel durumunun deneysel bir çözümlemesi olmalıdır." Yirminci yüzyılın başında Viyana'da bir mühendis, bu deneyi otuz yıl sürdürdü ve bitiremedi; çünkü deney tamamlandığında olabilirlik duygusu ölürdü.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 5 Kasım: Maxwell'in ölümü (1879) ve bilgi ile entropi arasındaki cin",
+    slug: "felsefe-tarihinde-bugun-5-kasim-james-clerk-maxwell",
+    summary:
+      "5 Kasım 1879'da 48 yaşında ölen James Clerk Maxwell, elektrik, manyetizma ve ışığı dört denklemde birleştirdi ve fiziğin 'alan' kavramını kurdu. Ama felsefe için en kalıcı mirası 1867'de bir mektuba yazdığı düşünce deneyidir: 'Maxwell'in cini', termodinamiğin ikinci yasasını bilgiyle delmeye çalışır ve yüz elli yıl sonra bilgi ile fizik arasındaki ilişkinin merkezinde duruyor.",
+    seoTitle: "5 Kasım: James Clerk Maxwell'in ölümü (1879) — alan kavramı ve Maxwell'in cini",
+    metaDescription:
+      "Felsefe tarihinde 5 Kasım: James Clerk Maxwell 1879'da öldü. Elektromanyetik alan kuramı, modeller ve analojiler, Maxwell'in cini, Szilárd ve Landauer, bilgi ile entropi, bilim felsefesine etkisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Clerk%20Maxwell.png?width=1600",
+    imageCredit: "James Clerk Maxwell · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/information-entropy/",
+    publishedAt: "2026-11-04T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Information Processing and Thermodynamic Entropy", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/information-entropy/", primary: true },
+      { title: "James Clerk Maxwell", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/James-Clerk-Maxwell" },
+    ],
+    content: `Einstein çalışma odasının duvarına üç portre asmıştı: Newton, Faraday ve Maxwell. 1931'de Maxwell'in yüzüncü doğum yılı için yazdığı yazıda, kendi görelilik kuramının Maxwell olmadan düşünülemeyeceğini, Maxwell'in çalışmasının "Newton'dan beri fiziğin yaşadığı en derin ve en verimli dönüşüm" olduğunu söyledi. James Clerk Maxwell 5 Kasım 1879'da Cambridge'de, karın kanserinden, kırk sekiz yaşında öldü; annesi de aynı yaşta aynı hastalıktan ölmüştü. Elektromanyetik alan kuramını kurdu, ışığın elektromanyetik dalga olduğunu gösterdi, gazların kinetik kuramını istatistiksel hâle getirdi, Satürn'ün halkalarının yapısını çözdü, ilk renkli fotoğrafı çektirdi, Cavendish Laboratuvarı'nı kurdu. Felsefe için önemi ise iki noktada toplanır: Bilimsel açıklamanın doğası üzerine düşünceleri ve 1867'de bir mektuba yazdığı küçük bir düşünce deneyi.
+
+## Alan: Görünmeyeni düşünmek
+
+Maxwell'den önce fizik, Newton'un uzaktan etki eden kuvvetleriyle çalışıyordu; Faraday'ın deneysel sezgisiyle bulduğu "kuvvet çizgileri" matematiksel eğitimi olmayan bir laboratuvar adamının hayal gücü sayılıyordu. Maxwell 1855-1873 arasında Faraday'ın çizgilerini matematiğe çevirdi ve bunu yaparken yeni bir fiziksel varlık kurdu: Alan. Elektrik ve manyetizma, cisimlerin uzaktan birbirine uyguladığı kuvvetler değil, uzayın her noktasında bir değer alan ve kendi dinamiğine sahip bir ortamın durumlarıydı; ve bu ortamdaki dalgalanmalar ışık hızında yayılıyordu, dolayısıyla ışık bu dalgalanmaların kendisiydi. Dört denklem (bugünkü biçimlerini Heaviside verdi) optiği, elektriği ve manyetizmayı birleştirdi.
+
+Felsefi olarak ilginç olan, Maxwell'in bunu nasıl yaptığıdır. 1861'deki "Fiziksel Kuvvet Çizgileri Üzerine" makalesi, esirde dönen moleküler girdaplar ve aralarındaki "boşta dişliler"den oluşan mekanik bir model kurar; Maxwell bu modelin gerçek olduğuna inanmadığını açıkça söyler: Bu bir "fiziksel analoji"dir, "bir bilimin yasaları ile diğerinin yasaları arasındaki kısmi benzerlik." 1864'teki "Elektromanyetik Alanın Dinamik Kuramı"nda model bütünüyle atılır ve geriye yalnızca denklemler kalır. Pierre Duhem bunu İngiliz zihninin "geniş ama sığ" mekanik hayal gücüne örnek olarak eleştirdi; bugünkü bilim felsefesi ise Maxwell'i modellerin ve analojilerin bilimsel keşifteki rolünün ilk bilinçli kuramcısı sayar. Mary Hesse'in *Models and Analogies in Science* (1963) kitabı, Maxwell'in "fiziksel analoji" kavramından yola çıkar. Maxwell'in sorusu [van Fraassen'in](/haber/bas-van-fraassen-bicimsel-mantik-yapici-empirizm-portre) sorusuydu: Bir model işe yarıyorsa, dünyanın öyle olduğuna inanmak zorunda mıyız? Maxwell'in cevabı ihtiyatlıydı: Model bir merdivendir, denklemlere çıkınca atılabilir.
+
+## Cin: Bilgi, entropiyi yenebilir mi?
+
+11 Aralık 1867'de Maxwell arkadaşı Peter Guthrie Tait'e bir mektup yazdı ve termodinamiğin ikinci yasasında, entropinin kapalı bir sistemde hiç azalmayacağı yasasında, "bir delik açmak" için bir düşünce deneyi önerdi. İki bölmeli bir gaz kabı düşünün; bölmeler arasında küçük bir kapı ve kapıda, molekülleri tek tek görebilen "sonlu bir varlık" (Kelvin ona sonradan "cin" dedi, Maxwell bu adı sevmedi). Varlık, hızlı molekülleri bir tarafa, yavaşları diğer tarafa geçirir; hiç iş yapmadan, yalnızca gözleyip kapıyı açıp kapayarak bir tarafı ısıtır, diğerini soğutur: Entropi azalır, ikinci yasa çiğnenir. Maxwell'in amacı yasayı yıkmak değildi; ikinci yasanın mutlak değil istatistiksel olduğunu, "bir bardak suyu denize dökersek geri alamayız" türünden pratik bir imkânsızlık olduğunu göstermekti. Bu, fizikte istatistiksel düşüncenin doğuşudur ve Boltzmann'ın yolunu açtı.
+
+Ama cin kendi hayatını yaşadı. 1929'da Leo Szilárd, cinin bedava çalışmadığını gösterdi: Molekülü "görmek", yani bilgi edinmek, bir maliyeti olmalıydı ve bu maliyet entropi azalmasını tam karşılıyordu; Szilárd bu hesapta "bit" kavramını Shannon'dan yirmi yıl önce fiilen icat etti. 1961'de Rolf Landauer maliyetin ölçümde değil, cinin hafızasını *silmesinde* olduğunu gösterdi: Bilginin silinmesi kaçınılmaz olarak ısı üretir (Landauer ilkesi); 1982'de Charles Bennett bunu cine uyguladı ve paradoks çözülmüş sayıldı. Böylece Maxwell'in küçük deneyi, bilgi ile fizik arasındaki en derin bağı kurdu: Bilgi fizikseldir; onu işlemek, saklamak ve silmek termodinamik bir bedel ister. Bugün kuantum bilgi kuramı, hesaplamanın fiziksel sınırları ve yapay zekâ veri merkezlerinin enerji tüketimi tartışmaları, dolaylı olarak Maxwell'in cininin torunlarıdır. Felsefi soru ise açık kalır: Entropi "bilgisizliğimizin ölçüsü" müdür (öznel yorum), yoksa dünyanın bir özelliği mi? Cin, bu soruyu soran ilk varlıktı.
+
+## Dindar bir fizikçi
+
+Maxwell İskoç Presbiteryeniydi ve inancı derin, ama bilimsel çalışmasından ayrı tutulmuştu; "bilim ile din" tartışmalarına girmeyi reddetti, ikisinin karıştırılmasını iki tarafa da zarar veren "tehlikeli bir alışkanlık" saydı. 1873'te moleküller üzerine konferansında, bütün hidrojen moleküllerinin özdeş olmasının doğal süreçlerle açıklanamayacağını ve "imal edilmiş eşya" izlenimi verdiğini söylemesi, tasarım argümanının son büyük fizikçi savunması olarak anılır; ama Maxwell bunu bir kanıt değil, bir "imge" olarak sundu. Felsefeye ilgisi gençliğinden geliyordu: Edinburgh'da Sir William Hamilton'ın derslerini dinlemiş, Kant okumuş ve bilginin sınırları üzerine düşünmüştü; "analoji" kuramı Hamilton'ın "görelilik felsefesi"nden izler taşır.
+
+Kırk sekiz yıllık bir hayata sığan bu iş, fiziğin bugünkü biçimini belirledi; ama Maxwell'in en felsefi mirası belki de alçakgönüllülüğüdür. Cavendish'in kapısına şu ayeti yazdırmıştı: "Rab'bin işleri büyüktür; onlardan hoşlananlar onları araştırır." Araştırmanın sonu yoktu ve Maxwell bunun fiziğin bir eksikliği değil, doğası olduğunu biliyordu. Denklemlerinden ışık çıktı; mektubundan bir cin; ikisi de hâlâ aydınlatıyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 4 Kasım: Avrupa İnsan Hakları Sözleşmesi (1950) ve hakların felsefesi",
+    slug: "felsefe-tarihinde-bugun-4-kasim-avrupa-insan-haklari-sozlesmesi",
+    summary:
+      "4 Kasım 1950'de Roma'da imzalanan Avrupa İnsan Hakları Sözleşmesi, 1948 Evrensel Bildirgesi'nin ilkelerini ilk kez bağlayıcı hukuka ve bir mahkemeye dönüştürdü; Türkiye 1954'te onayladı. Yetmiş altı yıl sonra Strasbourg, felsefenin en eski sorularından birinin adresi: Haklar insanın doğasından mı gelir, yoksa hukuk onları yarattığı için mi vardır?",
+    seoTitle: "4 Kasım 1950: Avrupa İnsan Hakları Sözleşmesi — hakların felsefi temeli",
+    metaDescription:
+      "Felsefe tarihinde 4 Kasım: Avrupa İnsan Hakları Sözleşmesi Roma'da imzalandı (1950). Doğal haklar ve pozitif haklar, Bentham'ın 'tahta bacaklı saçmalık'ı, Arendt'in 'haklara sahip olma hakkı', AİHM, Türkiye ve sözleşmenin felsefi anlamı.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom%20European%20Court%20of%20Human%20Rights%2001.JPG?width=1600",
+    imageCredit: "Avrupa İnsan Hakları Mahkemesi duruşma salonu, Strasbourg · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.echr.coe.int/european-convention-on-human-rights",
+    publishedAt: "2026-11-03T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "hukuk-felsefesi", "siyaset-felsefesi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "European Convention on Human Rights", publisher: "European Court of Human Rights", url: "https://www.echr.coe.int/european-convention-on-human-rights", primary: true },
+      { title: "Human Rights", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/rights-human/" },
+    ],
+    content: `4 Kasım 1950'de Roma'daki Barberini Sarayı'nda, Avrupa Konseyi'nin on iki üyesinin (aralarında Türkiye de vardı) dışişleri bakanları bir belge imzaladı: *İnsan Haklarını ve Temel Özgürlükleri Koruma Sözleşmesi*. İki yıl önce Birleşmiş Milletler'in kabul ettiği Evrensel Bildirge'nin ilkelerini alıyor, ama ondan farklı olarak iki şey ekliyordu: Bağlayıcılık ve bir mahkeme. Devletler, kendi yurttaşlarına karşı işledikleri ihlaller için uluslararası bir yargı organı önünde hesap vereceklerdi; bireyin devletini dava edebilmesi, Westphalia'dan beri egemenlik üzerine kurulu uluslararası hukukta bir devrimdi. Sözleşme 1953'te yürürlüğe girdi; Türkiye 1954'te onayladı, 1987'de bireysel başvuru hakkını, 1990'da Mahkeme'nin zorunlu yargı yetkisini tanıdı. Bugün 46 devleti ve yaklaşık 700 milyon insanı kapsıyor. Felsefe takvimine girmesinin nedeni ise hukuki değil: Sözleşme, haklar üzerine iki yüz yıllık bir felsefi tartışmanın kurumsal cevabıdır.
+
+## Haklar nereden gelir?
+
+Modern insan hakları fikri on yedinci ve on sekizinci yüzyılın doğal hukuk geleneğinden çıkar: Locke'un yaşam, özgürlük ve mülkiyet hakları, 1776 Virginia Bildirgesi, 1789 Fransız Bildirgesi, [Olympe de Gouges'un](/haber/felsefe-tarihinde-bugun-3-kasim-olympe-de-gouges) kadınlar için yeniden yazdığı metin. Bu gelenekte haklar insanın doğasından ya da Tanrı'dan gelir; devlet onları yaratmaz, tanır ve korur. Jeremy Bentham 1796'da bu fikri sözlüğün en ünlü hakaretlerinden biriyle reddetti: Doğal haklar "saçmalıktır; doğal ve devredilemez haklar ise tahta bacaklı saçmalık." Bentham için hak yalnızca pozitif hukukun yarattığı şeydir; "hukuktan önce hak" fikri, açlık çeken birine "ekmek hakkın var" demeye benzer: İyi niyetli ama boş. Bu çatışma, doğal haklar ile hukuki pozitivizm, felsefenin en uzun ömürlü tartışmalarından biridir ve 1950 Sözleşmesi bu tartışmaya tuhaf bir cevap verir: Hakları "insanın doğasından" türetir (önsözü "insan haklarının ve temel özgürlüklerin ortak anlayışı ve saygısından" söz eder), ama onları bir mahkemenin uygulayacağı pozitif hukuka dönüştürür. Yani Locke'un içeriğini Bentham'ın biçimiyle korur.
+
+Bu sentezin arkasında 1945'in dersi vardı. Hannah Arendt 1951'de *Totalitarizmin Kaynakları*'nda bu dersi en keskin biçimde formüle etti: İki savaş arasında vatansız kalan milyonlar, "insan hakları"nın aslında yurttaş hakları olduğunu, bir devletin korumadığı insanın haklarının hiçbir anlamı olmadığını gösterdi. Arendt'e göre tek gerçek insan hakkı, "haklara sahip olma hakkı"dır: Bir siyasal topluluğa ait olma hakkı. 1950 Sözleşmesi, Arendt'in sorununa kısmi bir cevaptır: Devletin kendi yurttaşına karşı sorumluluğunu devletin dışında bir yere, Strasbourg'a taşır; ama vatansızın sorununu çözmez, çünkü Sözleşme'ye yalnızca devletler taraftır.
+
+## Yaşayan bir belge
+
+Sözleşmenin felsefi ilginçliği, Mahkeme'nin onu yorumlama biçimindedir. 1978'deki Tyrer kararından beri Mahkeme, Sözleşme'yi "günümüz koşulları ışığında yorumlanması gereken yaşayan bir belge" sayar: 1950'de bedensel cezanın, eşcinselliğin suç sayılmasının ya da evlilik dışı çocukların ayrımcılığa uğramasının Sözleşme'ye aykırı olduğu düşünülmüyordu; Mahkeme sonradan hepsini aykırı buldu. Bu, hukuk felsefesinin temel sorusunu kurumsal bir pratiğe dönüştürür: Bir metnin anlamı yazarlarının niyetinde mi, yoksa yorumcuların bugünkü anlayışında mı? Dworkin'in "hakları ciddiye almak" ve "bütünlük olarak hukuk" tezleri, Strasbourg içtihadının felsefi haritası gibidir; eleştirmenler ise (Britanya'da "yargıçlar hükümeti" tartışması, Rusya'nın 2022'de Konsey'den çıkarılması) Mahkeme'nin demokratik meşruiyetini sorgular. "Takdir marjı" doktrini, ulusal farklılıklara alan bırakan bu doktrin, evrensel haklar ile kültürel çoğulculuk arasındaki felsefi gerilimin hukuki tercümesidir.
+
+## Türkiye ve Sözleşme
+
+Türkiye, Sözleşme'nin ilk imzacılarından ve en çok başvurulan davalılarından biridir; Mahkeme'nin yetmiş yıllık içtihadının önemli bir bölümü Türkiye davalarıyla yazıldı: İfade özgürlüğü, adil yargılanma, yaşam hakkı, mülkiyet. 2010 anayasa değişikliğiyle Anayasa Mahkemesi'ne bireysel başvuru yolunun açılması, Strasbourg'un iç hukuka taşınması girişimiydi. Son yıllarda bazı AİHM kararlarının uygulanmaması, Bentham'ın sorusunu güncel kılıyor: Bir mahkemenin kararını uygulatacak gücü yoksa, tanıdığı hak ne kadar gerçektir? [Harun Tepe'nin](/haber/turkcede-yeni-felsefe-kitaplari-2026-ekim) insan hakları eleştirileri kitabında tartıştığı gibi, hakların araçsallaştırılması, hakların geçersizliğini değil, onları savunma biçimlerimizin tükenişini gösterir.
+
+## Hakların felsefesi bugün
+
+Yetmiş altı yıl sonra Sözleşme, insan haklarının üç büyük felsefi sorusunu aynı anda taşıyor. Temel sorusu: Haklar doğadan mı, hukuktan mı gelir? Sözleşme ikisini de söyler ve bu çelişkiyle yaşar. Kapsam sorusu: Haklar evrensel midir, yoksa belirli bir siyasal topluluğun ürünü mü? Arendt'in vatansızı hâlâ kapıda bekliyor; Akdeniz'deki göçmen davaları Mahkeme'nin en zor dosyaları. Yorum sorusu: Bir hakkın anlamını kim belirler? Yaşayan belge doktrini, hakların tarihsel olduğunu kabul eder ve tam da bu yüzden hem en güçlü hem en kırılgan yanıdır. 4 Kasım 1950'de Roma'da imzalanan belge, bir felsefe metni değildi; ama felsefenin soramadığı bir soruyu sordu: Hakları tartışmak yerine onları uygulayacak bir kurum kurulursa ne olur? Cevap yetmiş altı yıldır yazılıyor ve bitmedi.`,
+  },
+  {
     title: "Felsefe Tarihinde Bugün — 3 Kasım: Olympe de Gouges giyotinde (1793) ve 'Kadın Hakları Bildirgesi'",
     slug: "felsefe-tarihinde-bugun-3-kasim-olympe-de-gouges",
     summary:
@@ -38520,6 +39008,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: true,
     sourceName: "ICON-S Türkiye",
     sourceUrl: "https://x.com/iconsturkiye/status/2117276175257014581",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Grotius ve Hobbes'ta Savaş Hakkı — Hobbes Scholars 6. Uluslararası Konferansı (ODTÜ)",
@@ -38544,29 +39033,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Hobbes Scholars International Association",
     sourceUrl: "https://hobbesscholarseng.wordpress.com/",
-  },
-  {
-    title: "Timothy Williamson Çin Felsefesiyle Karşılaşıyor (Fudan Üniversitesi)",
-    slug: "williamson-cin-felsefesiyle-karsilasiyor-fudan-2026",
-    summary:
-      "Fudan Üniversitesi Felsefe Okulu'nun 'Çin Felsefesiyle Karşılaşmalar' dizisinin dördüncüsü, 6-7 Kasım'da Timothy Williamson'a ayrılmış: Çin felsefesi uzmanları Williamson'ın epistemolojisini ve metafiziğini Çin düşüncesi üzerinden eleştiriyor, Williamson cevap veriyor. Önceki konuklar Slote, Sosa ve Blackburn'dü.",
-    description: `Şanghay'daki Fudan Üniversitesi Felsefe Okulu'nun "Fudan Studies of Encountering Chinese Philosophy" konferans ve kitap dizisi, çağdaş Batılı bir filozofu Çin felsefesi araştırmacılarıyla karşı karşıya getiriyor. Daha önce Michael Slote, Ernest Sosa ve Simon Blackburn'e ayrılan dizinin dördüncü toplantısının konuğu [Timothy Williamson](/filozof/timothy-williamson). Bir düzine kadar Çin felsefesi uzmanı, bilgi kuramından belirsizlik ve modal metafiziğe Williamson'ın felsefesinin çeşitli yönlerini Konfüçyüsçü, Taocu ve Budist kaynaklardan hareketle eleştirecek; Williamson her bildiriye cevap verecek. Eleştiriler ve cevaplar aynı başlıkla derlenip dizide kitap olarak yayımlanacak. Düzenleyen: Yong Huang (Fudan). Kayıt gerekmiyor.`,
-    kind: "KONFERANS",
-    organizer: "Fudan Üniversitesi Felsefe Okulu",
-    speakers: "Timothy Williamson ve Çin felsefesi araştırmacıları",
-    topic: "Williamson, Çin felsefesi, karşılaştırmalı felsefe, epistemoloji",
-    format: "FIZIKSEL",
-    startsAt: "2026-11-06T00:00:00.000Z",
-    endsAt: "2026-11-07T00:00:00.000Z",
-    timezone: "Asia/Shanghai",
-    hasTime: false,
-    city: "Şanghay",
-    country: "Çin",
-    venue: "Fudan Üniversitesi Felsefe Okulu, 220 Handan Road",
-    website: "https://philosophy.fudan.edu.cn/",
-    featured: false,
-    sourceName: "Fudan Üniversitesi Felsefe Okulu",
-    sourceUrl: "https://philosophy.fudan.edu.cn/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "NYU Modern Felsefe Konferansı: Toplum Sözleşmesi",
@@ -38589,6 +39056,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "NYU Department of Philosophy",
     sourceUrl: "https://as.nyu.edu/departments/philosophy.html",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Kitap Kurdu Çağı: Büyük Dil Modelleri Dünyayı Temsil Edebilir mi? (Cenevre)",
@@ -38610,6 +39078,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Université de Genève — Département de philosophie",
     sourceUrl: "https://www.unige.ch/lettres/philo/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Evrensellik ve Kayıtsızlık: Mantık Tarafsız mıdır? (MCMP, Münih)",
@@ -38631,6 +39100,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Munich Center for Mathematical Philosophy",
     sourceUrl: "https://www.mcmp.philosophie.uni-muenchen.de/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Çalkantılı Zamanlarda Teknoloji Etiği — 4TU.Ethics & ESDiT Konferansı",
@@ -38653,6 +39123,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "4TU.Centre for Ethics and Technology",
     sourceUrl: "https://ethicsandtechnology.eu/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Kuzey Amerika Nietzsche Derneği Toplantısı (Boston)",
@@ -38674,6 +39145,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "North American Nietzsche Society",
     sourceUrl: "https://www.northamericannietzschesociety.com/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Enaktif Biliş ve Japon Felsefesi (Kyoto Üniversitesi)",
@@ -38695,6 +39167,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Kyoto University, Graduate School of Letters",
     sourceUrl: "https://www.bun.kyoto-u.ac.jp/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "1. Eğitimin Felsefi, Sosyal ve Tarihi Temelleri Öğrenci Sempozyumu (YTÜ)",
@@ -38720,6 +39193,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Yıldız Teknik Üniversitesi",
     sourceUrl: "https://efstsempozyumlari.yildiz.edu.tr/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Felsefe Konuşmaları — Aktiffelsefe Konak (14, 21, 28 Ekim)",
@@ -38741,6 +39215,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Aktiffelsefe Kültür Derneği",
     sourceUrl: "https://www.aktiffelsefe.org/category/etkinlikler/felsefe/konferanslar/",
+    publishedAt: "2026-10-13T00:00:00.000Z",
   },
   {
     title: "Mitolojinin Aynasında Sen Kimsin? — Aktiffelsefe Üsküdar (17 ve 24 Ekim)",
@@ -38762,6 +39237,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Aktiffelsefe Kültür Derneği",
     sourceUrl: "https://www.aktiffelsefe.org/mitolojinin-aynasinda-sen-kimsin-aktiffelsefe-uskudar/",
+    publishedAt: "2026-10-16T11:00:00.000Z",
   },
   {
     title: "31. Türkiye Felsefe Olimpiyadı — lise öğrencileri için felsefi deneme yarışması",
@@ -38786,6 +39262,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Felsefeciler Derneği · Türkiye Felsefe Kurumu",
     sourceUrl: "https://www.felsefecilerdernegi.org.tr/otuz-birinci-turkiye-felsefe-olimpiyadi/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Formal Philosophy 2026 — IX. Uluslararası Konferans (HSE, Moskova)",
@@ -38810,6 +39287,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "HSE LLFP",
     sourceUrl: "https://llfp.hse.ru/formphil2026",
+    publishedAt: "2026-10-26T07:00:00.000Z",
   },
   {
     title: "Doğu'da Bilim Tarihi ve Felsefesi I. Çalıştayı (HKUST)",
@@ -38834,6 +39312,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "PhilEvents",
     sourceUrl: "https://philevents.org/event/show/151641",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Bursa Felsefe Buluşmaları 2026-2027",
@@ -38858,6 +39337,7 @@ Hukuk felsefesi açısından toplantının sorusu açık: Anayasa yalnızca bir 
     featured: false,
     sourceName: "Karar",
     sourceUrl: "https://www.karar.com/sehir-haberleri/bursa-felsefe-bulusmalari-basliyor-2076558",
+    publishedAt: "2026-10-09T13:00:00.000Z",
   },
   {
     title: "Penser au bord du monde — Çevre felsefesinin durumu ve perspektifleri",
@@ -38885,6 +39365,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: true,
     sourceName: "Penser au bord du monde",
     sourceUrl: "https://philoenvironnement2026.cefe.cnrs.fr/",
+    publishedAt: "2026-10-12T07:00:00.000Z",
   },
   {
     title: "Jacques Rancière'in Sahneleri — Uluslararası Kolokyum",
@@ -38909,6 +39390,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Université Paris 8 — Département de philosophie",
     sourceUrl: "https://philosophie.univ-paris8.fr/",
+    publishedAt: "2026-10-14T07:00:00.000Z",
   },
   {
     title: "Patrick Wotling — Güç tarafından kurulan bir strateji: Nietzsche'ye göre yaşam",
@@ -38933,6 +39415,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
     sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    publishedAt: "2026-10-12T16:00:00.000Z",
   },
   {
     title: "\"Ne fil ne kaplumbağa\": Temelcilik ve eleştirmenleri",
@@ -38957,6 +39440,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
     sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    publishedAt: "2026-10-13T07:00:00.000Z",
   },
   {
     title: "Varlık ve Zaman — Heidegger semineri (IISF)",
@@ -38982,6 +39466,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Istituto Italiano per gli Studi Filosofici",
     sourceUrl: "https://www.iisf.it/",
+    publishedAt: "2026-10-18T14:00:00.000Z",
   },
   {
     title: "G. Anthony Bruno — Ne tanık ne dalga: Jacobi, Fichte ve Husserl'de nihilizm",
@@ -39006,6 +39491,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Trinity College Dublin — Philosophy",
     sourceUrl: "https://www.tcd.ie/philosophy/research/colloquium/anthony-bruno/",
+    publishedAt: "2026-10-20T15:00:00.000Z",
   },
   {
     title: "IV. Uluslararası Çağdaş Felsefe Sanal Kolokyumu: Felsefe ve Biliş — Norm, Zihin, İktidar",
@@ -39030,6 +39516,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Rede Filosófica · PPGFIL/UFPA",
     sourceUrl: "https://www.redefilosofica.com.br/p/iv-coloquio-virtual-internacional-de-filosofia-contemporanea-filosofia-e-cognicao-norma-me",
+    publishedAt: "2026-10-21T17:00:00.000Z",
   },
   {
     title: "Anne Meylan — Cehalet nedir? (Lyon bilim felsefesi semineri)",
@@ -39054,6 +39541,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "IRPhiL — Institut de Recherches Philosophiques de Lyon",
     sourceUrl: "https://irphil.univ-lyon3.fr/manifestations-scientifiques",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "XIV. AFHIC Buluşması — Güney Konisi Bilim Felsefesi ve Tarihi Derneği",
@@ -39078,6 +39566,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "AFHIC",
     sourceUrl: "https://afhic.com/es/xiv-encuentro-afhic-2026/",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Değişen İnsan Tanımı ve Din Eğitimi Uluslararası Sempozyumu (DİTDE)",
@@ -39102,6 +39591,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Marmara Üniversitesi",
     sourceUrl: "https://etkinlik.marmara.edu.tr/tr/ditde",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Konuşkan Sessizlik: Felsefe Tarihinde Cinsiyet Kategorisi — Friederike Kuster",
@@ -39129,6 +39619,7 @@ Dört eksen: Çevre felsefesinin özgüllüğü ve öğretimi; bilim ile siyaset
     featured: false,
     sourceName: "Dokkyo Üniversitesi",
     sourceUrl: "https://www.dokkyo.ac.jp/information/2026/20260925009468.html",
+    publishedAt: "2026-10-08T08:20:00.000Z",
   },
   {
     title: "New Asia Lectures on Confucianism 2026 — Franklin Perkins",
@@ -39160,6 +39651,7 @@ Dersler İngilizce; yüz yüze katılımın yanı sıra çevrim içi katılım d
     featured: false,
     sourceName: "CUHK New Asia College",
     sourceUrl: "https://www.na.cuhk.edu.hk/chinese-culture/lecture-series/new-asia-lectures-on-confucianism/",
+    publishedAt: "2026-10-20T10:30:00.000Z",
   },
   {
     title: "36. Novembertagung — (Perceived) Dichotomies in Mathematics",
@@ -39189,6 +39681,7 @@ Düzenleyiciler: Emma Baxter (Oxford), Marieke Gelderblom (Utrecht), Thomas Glas
     featured: false,
     sourceName: "İstanbul Medeniyet Üniversitesi Bilim Tarihi Enstitüsü · Novembertagung",
     sourceUrl: "https://bilimtarihienstitu.medeniyet.edu.tr/documents/bilimtarihienstitu/boa_v2-1.pdf",
+    publishedAt: "2026-11-02T00:00:00.000Z",
   },
   {
     title: "Harvard Graduate Conference in Political Theory 2026",
@@ -39215,6 +39708,7 @@ Açılış konuşmasını 30 Ekim Cuma günü Brown Üniversitesi Edna ve Richar
     featured: false,
     sourceName: "Harvard Graduate Conference in Political Theory",
     sourceUrl: "https://politicaltheoryconference.hsites.harvard.edu/",
+    publishedAt: "2026-10-29T13:00:00.000Z",
   },
   {
     title: "2026 Annual Fall Conference on Indian Philosophy — SNU Asia Center",
@@ -39238,6 +39732,7 @@ Açılış konuşmasını 30 Ekim Cuma günü Brown Üniversitesi Edna ve Richar
     featured: false,
     sourceName: "SNU Asia Center",
     sourceUrl: "https://snuac.snu.ac.kr/eng/index.php/2026/09/21/indian-philosophy-fall/",
+    publishedAt: "2026-10-16T01:00:00.000Z",
   },
   {
     title: "UNESCO Chair on Intercultural Competences Conference 2026 — Dakar",
@@ -39263,6 +39758,7 @@ Tema: **Exploring Intercultural Competences in African Contexts.** Alt başlıkl
     featured: false,
     sourceName: "Stellenbosch University",
     sourceUrl: "https://www.su.ac.za/en/staff/conferences/unesco-chair-intercultural-competence-conference?language=en",
+    publishedAt: "2026-10-11T08:00:00.000Z",
   },
   {
     title: "I. Önay Sözer Çağdaş Felsefe Sempozyumu",
@@ -39717,6 +40213,7 @@ Konu başlıkları arasında spekülatif realizm, yeni materyalizm, yeni realizm
     featured: false,
     sourceName: "Radboud University",
     sourceUrl: "https://www.ru.nl/en/about-us/events/comet-2026",
+    publishedAt: "2026-10-12T12:00:00.000Z",
   },
   {
     title: "Mantık, Matematik ve Felsefe XI. Ulusal Sempozyumu — ÂRÂF",
@@ -39754,6 +40251,7 @@ Ayrıntılı bilgi ve program (PDF): mmf2026.iku.edu.tr`,
     featured: true,
     sourceName: "İstanbul Kültür Üniversitesi",
     sourceUrl: "https://mmf2026.iku.edu.tr/",
+    publishedAt: "2026-09-30T06:00:00.000Z",
   },
   {
     title: "Hegel and Time — Amerika Hegel Derneği 28. İki Yıllık Toplantısı",
@@ -39783,6 +40281,7 @@ Ele alınacak sorular: Hegel'in farklı eserlerindeki açık zaman tartışmalar
     featured: false,
     sourceName: "Northwestern University Events",
     sourceUrl: "https://planitpurple.northwestern.edu/event/643850",
+    publishedAt: "2026-10-15T18:30:00.000Z",
   },
   {
     title: "North American Sartre Society 31. Yıllık Toplantısı — A.I., Virtual Worlds, and Digital Existentialism",
@@ -39814,6 +40313,7 @@ Dernek başkanı: Dane Sawyer (University of La Verne)
     featured: false,
     sourceName: "North American Sartre Society",
     sourceUrl: "https://www.northamericansartresociety.com/",
+    publishedAt: "2026-10-22T13:00:00.000Z",
   },
   {
     title: "1. Ulusal İslam Felsefesi Sempozyumu — İskenderiye'den Bağdat'a",
@@ -40360,7 +40860,7 @@ Başvuru koşulları, biçimsel kurallar ve değerlendirme süreci için dergini
 
 Programda, Çin felsefesi alanında çalışan akademisyenler Williamson'ın epistemoloji, metafizik ve felsefe yöntemi üzerine tezlerini kendi gelenekleri açısından değerlendirecek. Williamson her oturumun ardından yanıt verecek.
 
-Kongre, analitik felsefe ile Çin felsefesi arasındaki temasın son yıllarda artışını gösteren örneklerden biri.`,
+Toplantı, Fudan'ın "Çin Felsefesiyle Karşılaşmalar" dizisinin dördüncüsü; önceki konuklar Michael Slote, Ernest Sosa ve Simon Blackburn'dü. Eleştiriler ve Williamson'ın cevapları aynı başlıkla kitap olarak yayımlanacak. Düzenleyen: Yong Huang. 6-7 Kasım 2026, Fudan Felsefe Okulu, 220 Handan Road, Şanghay; kayıt gerekmiyor.`,
     kind: "KONGRE",
     organizer: "Fudan Üniversitesi",
     speakers: "Timothy Williamson",
@@ -40371,9 +40871,9 @@ Kongre, analitik felsefe ile Çin felsefesi arasındaki temasın son yıllarda a
     hasTime: false,
     city: "Şanghay",
     country: "Çin",
-    website: "https://philevents.org/event/show/144458",
-    sourceName: "PhilEvents",
-    sourceUrl: "https://philevents.org/event/show/144458",
+    website: "https://philosophy.fudan.edu.cn/",
+    sourceName: "Fudan Üniversitesi Felsefe Okulu",
+    sourceUrl: "https://philosophy.fudan.edu.cn/",
     coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
     featured: false,
     publishedAt: "2026-08-20T13:00:00.000Z",
