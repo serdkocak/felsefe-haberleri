@@ -239,7 +239,15 @@ posts.forEach((post) => {
 });
 
 events.forEach((event) => {
-  if (!event.publishedAt) return;
+  // Site yalnızca publishedAt değeri geçmişte olan etkinlikleri listeler;
+  // alanı boş bırakmak etkinliği sessizce görünmez kılar. Bu yüzden zorunlu.
+  if (!event.publishedAt) {
+    problems.push(
+      `Etkinlik '${event.slug}': publishedAt eksik. Etkinlik sitede görünmez; ` +
+        'geçmiş bir yayın tarihi ekleyin (örn. "2026-11-02T00:00:00.000Z").',
+    );
+    return;
+  }
   const at = new Date(event.publishedAt).getTime();
   if (!Number.isNaN(at) && at > now) {
     problems.push(
