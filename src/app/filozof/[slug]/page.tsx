@@ -9,7 +9,9 @@ import { PhilosopherAvatar } from "@/components/philosopher-card";
 import { PhilosopherProfile } from "@/components/philosopher-profile";
 import { getBooksByPhilosopher, getPhilosopherBySlug, getPosts } from "@/lib/queries";
 
-export const revalidate = 600;
+// İçerik yalnızca yeni yayınla değişir ve her yayın ISR önbelleğini sıfırlar;
+// bu yüzden sayfalar günde bir kez yenilenir (sunucu CPU kullanımını düşürür).
+export const revalidate = 86400;
 
 type Props = { params: Promise<{ slug: string }> };
 

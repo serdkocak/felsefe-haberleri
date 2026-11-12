@@ -7,7 +7,9 @@ import { EventCard } from "@/components/event-card";
 import { SectionHeading } from "@/components/section-heading";
 import { getPastEvents, getPosts, getUpcomingEvents } from "@/lib/queries";
 
-export const revalidate = 600;
+// İçerik yalnızca yeni yayınla değişir ve her yayın ISR önbelleğini sıfırlar;
+// bu yüzden sayfalar günde bir kez yenilenir (sunucu CPU kullanımını düşürür).
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Konferanslar/Etkinlikler",

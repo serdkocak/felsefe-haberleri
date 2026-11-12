@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type ApiComment = {
   id: string;
@@ -33,7 +33,32 @@ export function Comments({ slug }: { slug: string }) {
 
   const [form, setForm] = useState({ authorName: "", email: "", body: "", website: "" });
 
+  // Yorumlar yalnızca bölüm ekrana girince yüklenir: çoğu okur yazının sonuna
+  // inmez; her sayfa görüntülemesinde sunucuya istek gitmesi boşuna CPU harcar.
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [visible, setVisible] = useState(false);
+
   useEffect(() => {
+    const node = sectionRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "400px 0px" },
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!visible) return;
     let active = true;
 
     fetch(`/api/posts/${slug}/comments`)
@@ -47,7 +72,7 @@ export function Comments({ slug }: { slug: string }) {
     return () => {
       active = false;
     };
-  }, [slug]);
+  }, [slug, visible]);
 
   async function submit(event: React.FormEvent) {
     event.preventDefault();
@@ -84,7 +109,7 @@ export function Comments({ slug }: { slug: string }) {
   const repliesOf = (id: string) => comments.filter((comment) => comment.parentId === id);
 
   return (
-    <section id="yorumlar" className="mt-16 border-t border-line pt-10">
+    <section id="yorumlar" ref={sectionRef} className="mt-16 border-t border-line pt-10">
       <div className="flex items-center gap-4 border-b-2 border-ink pb-2">
         <h2 className="font-serif text-lg font-bold tracking-wide">Yorumlar</h2>
         <span className="h-px flex-1 bg-line" aria-hidden />

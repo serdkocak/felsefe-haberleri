@@ -7,12 +7,12 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 /**
  * Dinamik site haritası — haber, bölüm ve filozof adresleri veritabanından üretilir.
  *
- * `force-dynamic`: harita derleme anında değil, istendiği anda hazırlanır. Böylece
- * yayına alırken veritabanı henüz hazır değilse bile derleme durmaz.
+ * Harita günde bir kez yeniden üretilir (ISR); her tarayıcı isteğinde veritabanına
+ * gidilmez. Veritabanına ulaşılamazsa aşağıdaki sabit harita döner.
  *
  * Veritabanına ulaşılamazsa yalnızca sabit sayfaları içeren küçük bir harita döner.
  */
-export const dynamic = "force-dynamic";
+export const revalidate = 86400;
 
 /** Veritabanından bağımsız, her zaman geçerli sayfalar. */
 const staticEntries: MetadataRoute.Sitemap = [

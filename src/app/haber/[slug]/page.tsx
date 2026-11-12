@@ -17,7 +17,9 @@ import { getPostBySlug, getRelatedPosts } from "@/lib/queries";
 import { formatDate, readingTime } from "@/lib/utils";
 
 // Sayfa 10 dakika önbellekte kalır (ISR); veri katmanı da ayrıca önbellekli.
-export const revalidate = 600;
+// İçerik yalnızca yeni yayınla değişir ve her yayın ISR önbelleğini sıfırlar;
+// bu yüzden sayfalar günde bir kez yenilenir (sunucu CPU kullanımını düşürür).
+export const revalidate = 86400;
 
 type Props = { params: Promise<{ slug: string }> };
 

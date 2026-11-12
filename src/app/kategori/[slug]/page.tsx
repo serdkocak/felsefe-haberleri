@@ -10,7 +10,9 @@ import { Pagination } from "@/components/pagination";
 import { SectionHeading } from "@/components/section-heading";
 import { getBooks, getCategories, getCategoryBySlug, getPosts, getTags } from "@/lib/queries";
 
-export const revalidate = 600;
+// İçerik yalnızca yeni yayınla değişir ve her yayın ISR önbelleğini sıfırlar;
+// bu yüzden sayfalar günde bir kez yenilenir (sunucu CPU kullanımını düşürür).
+export const revalidate = 86400;
 
 type Props = {
   params: Promise<{ slug: string }>;

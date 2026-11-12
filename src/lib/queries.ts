@@ -41,7 +41,7 @@ export const MAX_PAGE_SIZE = 50;
  * `reviveDates` bilinen tarih alanlarını geri Date yapar; bileşenler ve API
  * serileştiricileri `toISOString()` çağırdığı için bu gerekli.
  */
-const CACHE_SECONDS = 600;
+const CACHE_SECONDS = 86400;
 
 /** Yayın kimliği: Vercel her derlemede commit SHA'sını verir; yerelde sabit. */
 const DEPLOY_ID = process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? "local";

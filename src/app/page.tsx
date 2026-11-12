@@ -23,7 +23,9 @@ import {
 import { formatDate } from "@/lib/utils";
 
 // İçerik 10 dakikalık aralıklarla tazelenir; sorgular lib/queries.ts'te önbellekli.
-export const revalidate = 600;
+// İçerik yalnızca yeni yayınla değişir ve her yayın ISR önbelleğini sıfırlar;
+// bu yüzden sayfalar günde bir kez yenilenir (sunucu CPU kullanımını düşürür).
+export const revalidate = 86400;
 
 export default async function HomePage({
   searchParams,

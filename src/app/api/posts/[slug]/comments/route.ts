@@ -56,7 +56,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
       select: { id: true, authorName: true, body: true, createdAt: true, parentId: true },
     });
 
-    return jsonOk(comments.map(toApiComment), { count: comments.length });
+    // Yorum listesi CDN'de kısa süre önbelleklenir; her sayfa görüntülemesi sunucuyu çalıştırmaz.
+    return jsonOk(comments.map(toApiComment), { count: comments.length }, {
+      headers: { "Cache-Control": "public, s-maxage=120, stale-while-revalidate=600" },
+    });
   } catch (error) {
     console.error("GET /api/posts/[slug]/comments", error);
     return jsonError("INTERNAL_ERROR", "Yorumlar getirilemedi.", 500);

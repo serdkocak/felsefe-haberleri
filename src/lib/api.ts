@@ -22,7 +22,7 @@ export type ApiError = {
  * Yazma uçlarında (abone, mesaj, yorum) KULLANILMAZ.
  */
 export const PUBLIC_CACHE: ResponseInit = {
-  headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" },
+  headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" },
 };
 
 export function jsonOk<T>(
