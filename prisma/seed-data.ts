@@ -262,6 +262,31 @@ export const authors: SeedAuthor[] = [
  */
 export const philosophers: SeedPhilosopher[] = [
   {
+    name: "Nancy Cartwright",
+    slug: "nancy-cartwright",
+    headline: "Amerikalı bilim felsefecisi (d. 1944)",
+    bio: "How the Laws of Physics Lie (1983) ile fizik yasalarının idealleştirilmiş modeller üzerinden işlediğini savunan, 'benekli dünya' ve nedensel kapasiteler kavramlarıyla bilimin birliği fikrine itiraz eden, kanıta dayalı politikanın sınırlarını gösteren filozof. 2026 BBVA Bilginin Sınırları Ödülü (Beşerî Bilimler) sahibi.",
+    avatar: "/kapak/nancy-cartwright.jpg",
+    country: "ABD / Birleşik Krallık",
+    birthYear: 1944,
+    affiliation: "Durham Üniversitesi · California Üniversitesi, San Diego",
+    website: "https://www.profnancycartwright.com/",
+    featured: false,
+    listed: true,
+    fullName: "Nancy Delaney Cartwright",
+    birthDate: "24 Haziran 1944, New Castle, Pennsylvania",
+    alive: true,
+    period: "20.-21. yüzyıl",
+    school: "Stanford Okulu · pratikte bilim felsefesi",
+    areas: "Bilim felsefesi, fizik felsefesi, nedensellik, sosyal bilimler felsefesi, kanıt ve politika",
+    majorWorks: "How the Laws of Physics Lie (1983)\nNature's Capacities and Their Measurement (1989)\nThe Dappled World (1999)\nHunting Causes and Using Them (2007)\nEvidence-Based Policy: A Practical Guide to Doing It Better (Jeremy Hardie ile, 2012)\nNature, the Artful Modeler (2019)\nA Philosopher Looks at Science (2022)\nCausal Processes and Their Warrant (Eileen Munro ve John Pemberton ile, 2026)",
+    keyConcepts: "Benekli dünya, nomolojik makine, nedensel kapasiteler, ceteris paribus yasaları, varlık gerçekçiliği, destek etkenleri, dış geçerlilik, kanıtın aktarılabilirliği",
+    influencedBy: "Otto Neurath, John Stuart Mill, Aristoteles, Pierre Duhem, Patrick Suppes, Ian Hacking",
+    influenced: "Pratikte bilim felsefesi hareketi, kanıta dayalı politika eleştirisi, Angus Deaton'la rastgele kontrollü deneyler tartışması",
+    longBio: "1944'te Pennsylvania'da doğdu. Pittsburgh Üniversitesi'nde matematik okudu, doktorasını 1971'de Illinois Üniversitesi'nin Chicago kampüsünde tamamladı. 1973-1991 arasında Stanford'da ders verdi; ardından London School of Economics'e geçerek Doğa ve Toplum Bilimleri Felsefesi Merkezi'ni kurdu. Hâlen Durham Üniversitesi ile California Üniversitesi San Diego'da profesör. İlk kitabı How the Laws of Physics Lie'da temel yasaların gerçek durumları değil idealleştirilmiş modelleri betimlediğini savundu; The Dappled World'de dünyanın tek bir yasa piramidiyle değil, yerel olarak geçerli yasaların yamalı bohçasıyla anlaşılabileceğini ileri sürdü. 2000'lerden itibaren rastgele kontrollü deneylerden politika sonuçları çıkarmanın koşullarını inceledi: Bir müdahalenin bir yerde işe yaraması, başka yerde yarayacağını göstermez; bunun için yerel nedensel yapının bilgisi gerekir. 1993'te MacArthur bursunu, 2018'de Bilim Felsefesi Derneği'nin Hempel Ödülü'nü, 2026'da BBVA Vakfı Bilginin Sınırları Ödülü'nü aldı.",
+    sources: "UC San Diego Today, 21 Mayıs 2026 — https://today.ucsd.edu/story/philosopher-nancy-cartwright-receives-the-frontiers-of-knowledge-award",
+  },
+  {
     name: "Bas van Fraassen",
     slug: "bas-van-fraassen",
     headline: "Hollandalı-Amerikalı bilim felsefecisi ve mantıkçı (d. 1941)",
@@ -3065,6 +3090,787 @@ export const philosophers: SeedPhilosopher[] = [
 /* ------------------------------------------------------------------ */
 
 export const posts: SeedPost[] = [
+  {
+    title: "Nancy Cartwright: Bilim dünyayı açıklamakla mı yetinmeli, onu değiştirmeyi de öğrenmeli mi?",
+    slug: "nancy-cartwright-bilim-dunyayi-aciklamak-degistirmek-nedensellik-kanit",
+    summary:
+      "Fizik yasalarının 'yalan söylediğini' yazarak mesleğe giren, kırk yıl sonra kalkınma iktisatçılarına ve sağlık bakanlıklarına 'orada işe yarayan burada da yarar mı' sorusunu sorduran Nancy Cartwright, bilim felsefesini laboratuvardan çıkarıp kamu politikasının ortasına taşıdı. Benekli dünya, nedensel kapasiteler ve kanıtın yolculuğu üzerine bir portre.",
+    seoTitle: "Nancy Cartwright Kimdir? Bilim Felsefesinde Nedensellik ve Kanıtın Önemi",
+    metaDescription:
+      "Nancy Cartwright'ın bilim felsefesi: How the Laws of Physics Lie, benekli dünya, nedensel kapasiteler, rastgele kontrollü deneylerin sınırı, kanıta dayalı politika ve 2026 tarihli Causal Processes and Their Warrant.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Solvay%20conference%201927.jpg?width=1600",
+    imageCredit: "Beşinci Solvay Konferansı, Brüksel, 1927 · Fotoğraf: Benjamin Couprie · Wikimedia Commons",
+    featured: true,
+    sourceName: "UC San Diego Today · El País",
+    sourceUrl: "https://today.ucsd.edu/story/philosopher-nancy-cartwright-receives-the-frontiers-of-knowledge-award",
+    publishedAt: "2026-11-18T04:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["bilim-felsefesi", "epistemoloji", "kavram", "akademi"],
+    philosopherSlugs: ["nancy-cartwright"],
+    sources: [
+      { title: "Philosopher Nancy Cartwright Receives the Frontiers of Knowledge Award", publisher: "UC San Diego Today", date: "21 Mayıs 2026", url: "https://today.ucsd.edu/story/philosopher-nancy-cartwright-receives-the-frontiers-of-knowledge-award", primary: true },
+      { title: "Nancy Cartwright, philosopher: 'People distrust science because they feel the system has abandoned them'", publisher: "El País English", date: "15 Ağustos 2026", url: "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html" },
+      { title: "Causal Processes and Their Warrant", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/causal-processes-and-their-warrant/F49965A7C7B9E164105783C0428BC7FB" },
+      { title: "Nancy Cartwright — kişisel akademik sayfa", publisher: "profnancycartwright.com", url: "https://www.profnancycartwright.com/" },
+    ],
+    content: `Bir köprü mühendisine "Newton yasaları doğru mu?" diye sorarsanız omuz silker; onu ilgilendiren, köprünün ayakta kalıp kalmayacağıdır. Nancy Cartwright'ın yarım yüzyıllık felsefesi bu omuz silkmeyi ciddiye almakla başlar. Bilim felsefecilerinin çoğu teorinin doğruluğunu sorarken o, mühendisin, hekimin, sosyal hizmet uzmanının sorusunu sordu: Elimizdeki bilgi, şu belirli yerde, şu belirli insanlar için işe yarayacak mı? [Mayıs ayında BBVA Vakfı'nın Bilginin Sınırları Ödülü'nü](/haber/frontiers-of-knowledge-2026-nancy-cartwright) alması bu sorunun artık yalnızca felsefe bölümlerinde sorulmadığını gösteriyor.
+
+## Pittsburgh'dan Stanford'a, oradan Londra'ya
+
+Cartwright 1944'te Pennsylvania'nın New Castle kasabasında doğdu. Pittsburgh Üniversitesi'nde matematik okudu, doktorasını 1971'de Illinois Üniversitesi'nin Chicago kampüsünde kuantum mekaniğinin felsefi sorunları üzerine yazdı. 1973'ten 1991'e kadar Stanford'da ders verdi; orada Ian Hacking, Patrick Suppes ve John Dupré ile birlikte sonradan "Stanford Okulu" diye anılacak, bilimin birliği fikrine kuşkuyla bakan bir çevrenin parçası oldu. 1991'de London School of Economics'e geçti, Doğa ve Toplum Bilimleri Felsefesi Merkezi'ni kurdu ve ilgisini fizikten iktisada, oradan da politika değerlendirmesine çevirdi. Bugün Durham Üniversitesi ile California Üniversitesi San Diego arasında bölünmüş bir hayat sürüyor; Durham'da Bilim ve Toplumla İlişkilenen Beşerî Bilimler Merkezi'nin eş yöneticisi.
+
+## Yasalar neden "yalan söyler"?
+
+1983 tarihli *How the Laws of Physics Lie* başlığıyla bile bir meydan okumaydı. Tez şuydu: Fiziğin temel yasaları, kelimesi kelimesine alındıklarında, gerçek dünyadaki hiçbir şeyi doğru betimlemez. Kütleçekim yasası iki cismin birbirini nasıl çekeceğini söyler, ama yalnızca başka hiçbir kuvvet yoksa; Coulomb yasası da öyle. Yüklü ve kütleli iki cisim söz konusu olduğunda ikisi de tek başına yanlıştır. Yasalar "başka her şey eşitse" kaydıyla doğrudur ve başka her şey neredeyse hiç eşit değildir. Fizikçi bunu bilir; bu yüzden laboratuvar kurar, yani yasanın geçerli olacağı yapay bir düzeni emekle inşa eder. Cartwright buna sonradan "nomolojik makine" adını verdi: Düzenlilikler doğada hazır bulunmaz, doğru parçalar doğru biçimde bir araya getirilip dış etkilerden korunduğunda ortaya çıkar.
+
+Buradan bilim düşmanlığı çıkmaz, çıkan şey daha ince bir gerçekçiliktir. Cartwright elektronların var olduğundan kuşku duymaz, çünkü onlarla bir şeyler yaptırabiliyoruz; kuşku duyduğu, bütün evreni tek bir denklem takımının yönettiği inancıdır. [Bas van Fraassen'in yapıcı empirizmiyle](/haber/rolf-schock-odulu-2026-bas-van-fraassen) aynı yıllarda, ama ters yönden gelen bir itirazdı bu: Van Fraassen gözlemlenemeyen varlıklara inanmayı askıya alıyordu, Cartwright varlıkları koruyup büyük teorilerin iddiasını küçültüyordu.
+
+*The Dappled World* (1999) bu sezgiyi bir dünya resmine dönüştürdü. Kitabın adı Gerard Manley Hopkins'in alacalı şeyleri öven şiirinden gelir: Dünya, tek bir piramidin tepesindeki fizikten aşağı doğru türetilen düzenli bir yapı değil, her biri kendi alanında işleyen yasaların yamalı bohçasıdır. İktisadın yasaları fiziğe indirgenmeyi beklemez; kendi sınırlı bölgesinde, kendi koşulları sağlandığında geçerlidir.
+
+## Nedensellik: Kapasiteler ve onları taşıyan koşullar
+
+Hume'dan beri empirist gelenek nedenselliği düzenli ardışıklığa indirgemeye çalıştı. Cartwright *Nature's Capacities and Their Measurement* (1989) ile Aristotelesçi bir kavramı geri çağırdı: Şeylerin kapasiteleri, yani belirli sonuçları üretme güçleri vardır. Aspirinin baş ağrısını dindirme kapasitesi vardır; ama bu kapasitenin ortaya çıkması için uygun bir bedene, uygun bir doza, onu engelleyen başka etkenlerin yokluğuna ihtiyaç vardır. Korelasyon bu gücün bıraktığı izdir, kendisi değildir.
+
+Bu ayrım soyut görünür, sonuçları somuttur. Bir müdahalenin bir yerde işe yaraması, orada o kapasiteyi harekete geçiren "destek etkenlerinin" bulunduğunu gösterir. Aynı etkenler başka yerde yoksa, aynı müdahale hiçbir şey yapmaz, hatta zarar verir.
+
+## "Orada işe yaradı" ile "burada işe yarayacak" arasındaki uçurum
+
+2000'li yıllarda tıptan kalkınma iktisadına yayılan kanıta dayalı politika hareketi, rastgele kontrollü deneyi kanıtın "altın standardı" ilan etti. Cartwright'ın itirazı deneyin kendisine değil, ondan çıkarılan sonucun yolculuğunaydı. İyi yapılmış bir deney şunu gösterir: Bu müdahale, bu nüfusta, ortalamada işe yaradı. Politika yapıcının bilmek istediği ise başka bir şeydir: Benim ilçemde, benim okullarımda işe yarayacak mı? Birinciden ikinciye geçmek için deneyin vermediği bilgiye, yerel nedensel yapının bilgisine ihtiyaç vardır.
+
+Jeremy Hardie ile yazdığı *Evidence-Based Policy* (2012) bunun el kitabıdır; örnekleri unutulmaz. Hindistan'ın Tamil Nadu eyaletinde annelere beslenme eğitimi veren bir program çocuklarda yetersiz beslenmeyi azaltmıştı. Aynı program Bangladeş'e taşındığında sonuç alınamadı, çünkü orada mutfağa giren yiyeceğe anne değil kayınvalide ve koca karar veriyordu. Kaliforniya'da sınıf mevcudunu küçültme politikası, Tennessee'deki başarılı deneye dayanıyordu; fakat eyalet çapında uygulanınca yeterli sayıda nitelikli öğretmen ve derslik bulunamadı. Nobel ödüllü iktisatçı Angus Deaton'la 2018'de yayımladıkları makale, bu eleştiriyi iktisat mesleğinin tam ortasına bıraktı.
+
+Bu yıl Cambridge University Press'ten çıkan, sosyal hizmet uzmanı Eileen Munro ve John Pemberton'la ortak kitabı *Causal Processes and Their Warrant* aynı hattı ilerletiyor: Bir müdahalenin sonuca nasıl ulaşacağını adım adım gösteren süreç modelleri kurmayı ve her adım için elimizdeki gerekçeyi ayrı ayrı tartmayı öneriyor. Refah, eğitim ve tıptan yedi vaka üzerinde sınanan yöntemin hedefi, "kanıt var mı" sorusunu "neyin kanıtı, nerede, hangi halkaya dair" sorusuna çevirmek.
+
+## Güven meselesi
+
+Cartwright ağustosta El País'e verdiği söyleşide bilime duyulan güvensizliği cehaletle açıklamayı reddetti: İnsanlar, ona göre, sistemin kendilerini terk ettiğini hissettikleri için uzmanlara sırt çeviriyor. Bu teşhis onun felsefesinin doğal uzantısıdır. Ortalama etkiler üzerine kurulan politikalar ortalama insana göre tasarlanır; oysa kimse ortalama bir hayat yaşamaz. Kendi koşulları hesaba katılmayan insanın "bilim böyle diyor" cümlesine kulak tıkaması bir akıl tutulması olmayabilir, gayet akılcı bir tepki olabilir.
+
+## Neden şimdi?
+
+Büyük veri ve yapay zekâ çağında karar vericilerin önüne her gün yeni bir model, yeni bir tahmin konuyor. Cartwright'ın sorusu bu modellerin hepsine sorulabilir: Bu model hangi dünyada doğru? O dünya benim dünyama, hangi bakımlardan benziyor? Marx'ın Feuerbach üzerine on birinci tezi filozofları dünyayı yorumlamakla yetinmekle suçlamıştı. Cartwright'ın cevabı daha mütevazı ve belki daha zor: Dünyayı değiştirmek istiyorsak, açıklamalarımızın hangi koşullarda ayakta kaldığını bilmek zorundayız. Köprü mühendisinin omuz silkmesi felsefeye karşı bir kayıtsızlık değildi; felsefenin henüz sormadığı bir sorunun işaretiydi.`,
+  },
+  {
+    title: "Serol Teber'in Düşünsel Yolculuğu: Psikiyatristin laboratuvarından toplumun bilinçaltına",
+    slug: "serol-teber-dusunsel-yolculuk-psikiyatri-goc-melankoli",
+    summary:
+      "Kadıköylü bir motor ustasının oğlu, Almanya'da göçmen işçilerin hekimi, 'Davranışlarımızın Kökeni'nin yazarı, sonra melankolinin ve tutunamayanların yorumcusu: Serol Teber'in ölümünün 22. yılında, Pavlov'dan Freud'a uzanan yolu ve bu yolun Türkiye solunun 1989 sonrası hikâyesiyle nasıl örtüştüğü.",
+    seoTitle: "Serol Teber Kimdir? Düşünsel Yolculuğu, Eserleri ve Felsefi Mirası",
+    metaDescription:
+      "Serol Teber (1938-2004): Davranışlarımızın Kökeni, İşçi Göçü ve Davranış Bozuklukları, Paris Komünü'nde Üç Yurtsever Türk, Politik Psikoloji Notları, Melankoli, Aşiyan'daki Kâhin ve Tutunamayanlar'ın Politik Psikolojisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BCrer%20Melancholia%20I.jpg?width=1600",
+    imageCredit: "Albrecht Dürer, Melencolia I (1514) · Kamu malı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Madde, Diyalektik ve Toplum · Bilim ve Aydınlanma Akademisi",
+    sourceUrl: "https://bilimveaydinlanma.org/serol-teberin-yasami-ve-eserleri-uzerine/index.html",
+    publishedAt: "2026-11-18T04:25:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "turkiye",
+    tagSlugs: ["psikanaliz", "marksizm", "elestirel-teori", "tarih", "kavram"],
+    philosopherSlugs: ["sigmund-freud"],
+    sources: [
+      { title: "Serol Teber'in Yaşamı ve Eserleri Üzerine", publisher: "Erhan Nalçacı, Ekin Şen — Madde, Diyalektik ve Toplum, c. 2, s. 2", date: "Mayıs 2019", url: "https://bilimveaydinlanma.org/serol-teberin-yasami-ve-eserleri-uzerine/index.html", primary: true },
+      { title: "Ünlü psikiyatr Serol Teber 1938 yılında bugün doğdu", publisher: "Cumhuriyet", url: "https://www.cumhuriyet.com.tr/kultur-sanat/unlu-psikiyatr-serol-teber-1938-yilinda-bugun-dogdu-1965987" },
+    ],
+    content: `Kasım 2004'ün ikinci haftasında Bebek'te bir apartmanın kapısında üç günün gazetesi birikti. Kapı açtırıldığında Serol Teber yatağında ölü bulundu; birkaç gün önce son kitabının notlarını yayıncısına teslim etmişti. 12 Kasım'da toprağa verildi. Altmış altı yaşındaydı ve arkasında, aynı kişinin yazdığına inanmakta zorlanacağınız iki ayrı kitaplık bırakmıştı: Birinde sinir sistemi, evrim ve emek vardı, ötekinde melankoli, işkence ve Oğuz Atay.
+
+Yirmi iki yıl sonra bu iki kitaplığı birlikte okumak, yalnızca bir psikiyatristi değil, Türkiye'de bir kuşağın düşünme biçimini anlamanın yollarından biri.
+
+## Kuşdili'nden Viersen'e
+
+Teber 5 Ağustos 1938'de Kadıköy'de doğdu. Babası Kuşdili'nde deniz motoru ustasıydı; atölyede yapılan bir teknenin kapıdan çıkmadığı, duvarın yıkılmak zorunda kaldığı aile hikâyesi, oğlunun sonraki kitaplarındaki zanaatkâr sabrını açıklar gibidir. Haydarpaşa Lisesi'ni, ardından İstanbul Tıp Fakültesi'ni bitirdi ve nöroloji ile psikiyatrinin henüz tek kürsü olduğu yıllarda nöropsikiyatri uzmanı oldu. 1971'de, 12 Mart'ın hemen ardından, yüz binlerce işçinin gittiği yöne, Federal Almanya'ya gitti. Önce Langenfeld Psikiyatri Hastanesi'nde, sonra Düsseldorf Üniversitesi'ne bağlı Viersen kliniğinde çalıştı; bir yabancı hekim için kolay verilmeyen şeflik görevine kadar yükseldi.
+
+Almanya onun hem kliniği hem okulu oldu. Okuma yazma bilmeyen işçilere akşamları tarih ve siyaset anlatan solcu hekimlerden biriydi. *İşçi Göçü ve Davranış Bozuklukları*'nı (1980) "beni aralarına alan, bana yepyeni dünyaların yollarını gösteren" işçi arkadaşlarına adaması bu yüzdendir.
+
+## Birinci kitaplık: Beyin, evrim, emek
+
+*Davranışlarımızın Kökeni* 1975'te yayımlandı ve on yıllarca elden ele dolaştı. Teber, Seçenov ve Pavlov'un açtığı yoldan giderek davranışı sinir sisteminin, sinir sistemini evrimin, evrimi de emeğin ve toplumsal hayatın içine yerleştiriyordu. Ruh diye ayrı bir töz yoktu; düşünce, maddenin en karmaşık örgütlenmesinin işleviydi. Bugünden bakınca kitabın sınırı da görülüyor: Sovyet psikolojisinin Pavlov sonrasındaki büyük sıçraması, Vygotski ve Luria'nın dili ve kültürü zihnin kuruluşuna katan çalışmaları metne girmemiştir. Teber Rusça bilmiyordu ve Soğuk Savaş'ın ortasında o literatür Batı Almanya'daki bir hekimin masasına kolay ulaşmıyordu.
+
+Ardından *Doğanın İnsanlaşması* ve *İlk Toplumların Değişimleri* geldi. 12 Eylül sonrasının kitapçı raflarında, Nâzım dizeleriyle açılan bu popüler bilim kitapları, pek çok genç okur için dünyaya bütünlüklü bakmanın ilk dersiydi.
+
+Bu dönemin en kalıcı işi ise göç kitabıdır. Teber göçmen işçinin bunalımını "uyum sorunu" diye bireye yıkmayı reddetti. Dil bilmeden bantta çalışmak, ailesini yılda bir görmek, hem geldiği köyde hem yaşadığı kentte yabancı olmak: Bunlar kişilik zaafı değil, bir üretim düzeninin bedene ve ruha yazdığı faturaydı. 1986'da yazdığı "Voodoo Death ya da göçmenlik serüveninin sonu" başlıklı yazı, toplumsal ölümün bedensel ölüme nasıl dönüştüğünü sorar. Bugün Türkiye'nin kendisi göç alan bir ülkeyken bu sayfalar başka bir gözle okunuyor.
+
+## Ara kat: Barış, Picasso ve üç Osmanlı komünarı
+
+1980'lerde Teber'in ilgisi genişledi. Nükleer Savaşın Önlenmesi İçin Hekimler örgütüne katıldı; Oya Özügül'le Einstein-Freud yazışmasını Türkçeye kazandırdı (1984), nükleer kışı anlatan bir kitap ve siyasi kimliğiyle bir Picasso portresi yazdı (1985). Einstein'ın Freud'a sorduğu soru, insanları savaşın yazgısından kurtarmanın bir yolu var mı sorusu, sanki Teber'in kendi sorusuydu ve Freud'un cevabındaki temkinli kötümserlik, sonraki yıllarını haber veriyordu.
+
+Aynı yıllarda düşünce tarihçiliğine yöneldi. *Paris Komünü'nde Üç Yurtsever Türk: Mehmet, Reşat ve Nuri Beyler* (1986), 1871'de Paris barikatlarında bulunan üç Yeni Osmanlı'nın izini sürer; Ludwig Büchner'in Osmanlı aydınları üzerindeki etkisini ve 1887'de bileklerini kesip ölürken duyduklarını not eden Beşir Fuad'ı Türkçede materyalizmin soy kütüğüne yerleştirir. [Türk aydını tartışmasında](/haber/yapay-zeka-turk-aydininin-yerini-mi-aliyor-hakikat-otoritesi) sık unutulan bir damardır bu.
+
+## 1989: Zeminin çekilmesi
+
+Teber'in 1975'te Türkiye Komünist Partisi'ne girdiğini, Gelsenkirchen'de fabrika kapılarında gazete sattığını, bir keresinde gözaltına alındığını 2019'a kadar çok az kişi biliyordu. Erhan Nalçacı ile Ekin Şen'in o yıl yayımladığı inceleme bu biyografiyi ilk kez derledi. Aynı inceleme sonraki dönemi sert bir dille yargılar: 1989'dan sonra Teber "Frankfurt Okulu'nun karamsarlığına sürüklenmiş", bir aydın olarak "tükenmiştir".
+
+Olgu doğrudur, yargı ise yazarlarının durduğu yerden verilmiştir ve öyle okunmalıdır. Duvar yıkıldığında Teber elli bir yaşındaydı ve yetişkin hayatının tamamını üzerine kurduğu açıklama çerçevesi çökmüştü. Marx ve Engels'in yerini Adorno, Horkheimer, Fromm ve giderek Freud aldı; Nâzım'ın yerini Kafka. Buna savrulma demek mümkün. Ama bir hekimin, elindeki kuram hastayı açıklamadığında başka bir kurama bakması olarak da görülebilir. Hasta bu kez kendi kuşağıydı.
+
+## İkinci kitaplık: Hiçleşme, kamp, melankoli
+
+*Politik Psikoloji Notları: İnsanın Hiçleşme Serüvenine Giriş* (1990) bu dönüşün belgesidir: Vesayet altında yaşamaya alışmış, itaat etmeyi içselleştirmiş insanın portresi. 1993'te iki klinik kitap yayımladı, *Toplama Kampı Sendromu: Ruhun Ölümü* ve *İşkence Sonrası Yaşam*. 12 Eylül cezaevlerinden çıkmış bir toplumda bu kitapların kime yazıldığı açıktı.
+
+Sonra melankoli geldi. *Melankoli: Normal Bir Anomali* (2001) Freud'un "Yas ve Melankoli"sinden hareket eder: Yas tutan neyi kaybettiğini bilir, melankolik bilmez. Teber bu ayrımı tarihe taşıdı; insan bir ideali, bir geleceği de kaybedebilir ve bunun yasını tutamadığında kayıp içe çöker. *Aşiyan'daki Kâhin* (2002) aynı merceği Tevfik Fikret'e tuttu: "Sis"in ve "Tarih-i Kadim"in şairi, Meşrutiyet'e bağladığı umut dağıldığında Aşiyan'a çekilmişti. Fikret'i anlatırken Teber'in kimi anlattığını sezmemek zordur.
+
+Son yıllarında Freud'a bir biyografi yazdı (*Bilimsel Bir Peri Masalı*, 2003), Açık Radyo'da yirmi altı hafta "Didik Didik Freud" programını yaptı. Masasında kalan *Tutunamayanlar'ın Politik Psikolojisi* ancak 2014'te çıktı; Atay'ın romanını, Türkiye'de aydının devletle ilişkisinin vaka dosyası gibi okur ve en tartışmalı tezlerini içerir.
+
+## Geriye kalan
+
+Teber'in iki kitaplığını birbirine bağlayan bir şey var: İkisinde de ruh hâli hiçbir zaman yalnızca kişiye ait değildir. İlkinde toplum insana emeğin ve üretimin içinden girer, ikincisinde kaybın ve korkunun. [Freud'un felsefeye bıraktığı soru](/haber/sigmund-freud-felsefe-tarihini-degistiren-bilincdisi-fikri), kendimize şeffaf olmadığımız sorusu, Teber'de kolektif bir biçim alır: Bir toplum da kendi tarihine şeffaf değildir ve bastırdığı şey belirti olarak geri döner.
+
+Onu eleştirenler haklı bir noktaya işaret ediyor: Psikanalizin kavramlarını bir toplumun tarihine uygulamak, sınıfları ve kurumları gözden kaçırma riski taşır. Onu savunanlar da haklı: İstatistiklerin ve program metinlerinin anlatamadığı bir yenilgi duygusunu, o duygunun içinden yazabilen pek az kişi çıktı. Teber'i bugün yeniden açmak için bir tarafı seçmek gerekmiyor. Göç, travma ve siyasal umutsuzluk yeniden gündemin ortasındayken, bu üçüne hem hekim hem tanık olarak bakmış birinin not defteri orada duruyor.`,
+  },
+  {
+    title: "Dünya Felsefe Günü 19 Kasım'da kutlanıyor: İstanbul'dan Paris'e düşüncenin ortak soruları",
+    slug: "dunya-felsefe-gunu-19-kasim-2026-istanbul-paris-program",
+    summary:
+      "Yarın Dünya Felsefe Günü. Mimar Sinan Güzel Sanatlar Üniversitesi'nde Fârâbî'den Zeami'ye uzanan bir öğrenci sempozyumu, Paris'te UNESCO Genel Merkezi'nde Souleymane Bachir Diagne'in 'Dünyayı Birlikte Yaşamak' konferansı, akşam da UNESCO Türkiye Millî Komisyonu'nun İoanna Kuçuradi anısına çevrim içi oturumu var. Günün programı ve arkasındaki fikir.",
+    seoTitle: "Dünya Felsefe Günü 2026: 19 Kasım'da İstanbul ve Dünyada Hangi Etkinlikler Var?",
+    metaDescription:
+      "Dünya Felsefe Günü 19 Kasım 2026: MSGSÜ Bomonti'de sempozyum programı, UNESCO Paris'te Souleymane Bachir Diagne konferansı ve öğrenci atölyeleri, UNESCO Türkiye'nin İoanna Kuçuradi anısına çevrim içi etkinliği.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mimar%20Sinan%20Fine%20Arts%20University.jpg?width=1600",
+    imageCredit: "Mimar Sinan Güzel Sanatlar Üniversitesi, İstanbul · Wikimedia Commons",
+    featured: true,
+    sourceName: "UNESCO · Mimar Sinan Güzel Sanatlar Üniversitesi",
+    sourceUrl: "https://www.unesco.org/en/articles/world-philosophy-day-2026",
+    publishedAt: "2026-11-18T04:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["sempozyum", "akademi", "etik", "yapay-zeka", "demokrasi"],
+    philosopherSlugs: ["ioanna-kucuradi", "jacques-ranciere"],
+    sources: [
+      { title: "World Philosophy Day 2026", publisher: "UNESCO", url: "https://www.unesco.org/en/articles/world-philosophy-day-2026", primary: true },
+      { title: "Dünya Felsefe Günü Sempozyumu", publisher: "Mimar Sinan Güzel Sanatlar Üniversitesi", date: "17 Kasım 2026", url: "https://msgsu.edu.tr/etkinlikler/dunya-felsefe-gunu-sempozyumu/", primary: true },
+      { title: "Sempozyum programı", publisher: "MSGSÜ Felsefe Bölümü", url: "https://msgsu.edu.tr/wp-content/uploads/2026/11/dfg2026.jpeg" },
+      { title: "Dünya Felsefe Günü etkinlik duyurusu", publisher: "UNESCO Türkiye Millî Komisyonu", url: "https://www.unesco.org.tr/home/AnnouncementDetail/6815" },
+    ],
+    content: `Kasım ayının üçüncü perşembesi bu yıl 19 Kasım'a düşüyor ve dünyanın pek çok yerinde üniversiteler, liseler, kültür merkezleri aynı gün aynı işe girişecek: Yüksek sesle düşünmeye. Dünya Felsefe Günü ilk kez 2002'de kutlandı, UNESCO Genel Konferansı 2005'te onu resmî takvime aldı. Fikrin Ankara'dan, [İoanna Kuçuradi'nin başkanlığındaki Türkiye Felsefe Kurumu'ndan çıktığını](/haber/dunya-felsefe-gunu-kucuradi-unesco) eylülde yazmıştık. Bu yıl gün, [Kuçuradi'yi kaybettikten](/haber/ioanna-kucuradi-1936-2026-vefat) sonraki ilk Dünya Felsefe Günü olarak kutlanıyor.
+
+## Bomonti'de bir öğleden sonra: Fârâbî, Kafka, Zeami
+
+Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü'nün sempozyumu yarın saat 13.00'te Bomonti Konferans Salonu'nda başlıyor. Açılışı Felsefe Kulübü Başkanı Deniz Başkurt yapacak; ardından iki oturumda altı sunum var.
+
+İlk oturumda Eftelya Uzun "Fârâbî'de Mutluluğun Kazanılması Bağlamında Bilgi, Erdem ve Mutluluk" başlığıyla *Tahsîlü's-Saâde*'nin sorusunu, mutluluğun bir bilgi işi olup olmadığını ele alacak. Selen Kadayifçi "Ötekini Düşünmek" başlıklı sunumuyla başkalık meselesine girecek; bölümün öğretim üyesi, Heidegger çevirileriyle tanıdığımız Kaan H. Ökten ise "Schleiermacher ve Hermenötik" konuşmasıyla anlamanın bir sanat olarak ilk kez kuramlaştırıldığı âna dönecek.
+
+İkinci oturumda Zeynep Aslan "Kafka'nın Dava'sında Adalet"i, Abrim Gürgen "Seneca'da Tranquillitas / Ruh Dinginliği"ni anlatacak. Programın en beklenmedik başlığı Asmin Doğan'ın: "Çiçek Kimin İçin Açar? Zeami ve Rancière'de Sanatçı, Seyirci ve Estetik Deneyim". On beşinci yüzyıl Nô tiyatrosunun kuramcısı Zeami, oyuncunun sahnedeki büyüsüne "çiçek" (*hana*) der ve çiçeğin ancak seyircinin gözünde açtığını söyler; Jacques Rancière'in "özgürleşmiş seyirci"siyle yan yana okunması, Kyoto ile Paris arasında altı yüzyıllık bir köprü demek.
+
+Altı başlığa bakınca bir Bağdat filozofu, bir Romalı Stoacı, bir Alman ilahiyatçı, bir Praglı romancı, bir Japon oyuncu ve bir Fransız çağdaş görülüyor. Bir lisans sempozyumunda bu coğrafyanın kendiliğinden kurulması, felsefe öğretiminde bir şeylerin değiştiğinin küçük ama gerçek bir işareti.
+
+## Paris: "Dünyayı Birlikte Yaşamak"
+
+UNESCO Genel Merkezi'ndeki ana oturum yarın akşam Paris saatiyle 18.30'da, II numaralı salonda başlayacak ve internetten canlı izlenebilecek. Konuşmacı Senegalli filozof Souleymane Bachir Diagne; başlık "Living the Earth Together", konu "evrensel insan" kavramı.
+
+Diagne bu iş için yerinde bir seçim. Saint-Louis doğumlu, Paris'te Althusser ve Derrida'nın öğrencisi olmuş, Dakar'da yıllarca ders verdikten sonra Columbia'ya geçmiş bir mantık tarihçisi ve İslam felsefesi uzmanı. Yıllardır savunduğu fikir, Merleau-Ponty'den ödünç aldığı bir ayrıma dayanır: Bir merkezden bütün dünyaya dayatılan "dikey" evrensel ile dillerin ve geleneklerin birbirine çevrilmesiyle sabırla kurulan "yanal" evrensel. Diagne'e göre sömürgecilik sonrası dünyada evrenselden vazgeçmek gerekmiyor; onu çeviri yoluyla, herkesin katkısıyla yeniden yapmak gerekiyor. UNESCO'nun duyurusu bu tercihi açıkça gerekçelendiriyor: Etno-milliyetçi tasavvurların güç kazandığı bir dönemde evrenselciliği "insanlığın ortak eseri" olarak savunmak, kurumun barışı diyalogla kurma görevinin tam ortasında duruyor.
+
+Konferansın ardından "Birlikte düşünmek ve eylemek: Çoğul sorunlarla dolu bir dünyada yaşamak için felsefe" başlıklı yuvarlak masa var. Dört tema belirlenmiş: iklim, yapay zekâ, göç ve sağlık.
+
+Günün asıl yeniliği sabah başlıyor. Paris-Est Créteil, Caen Normandie ve Côte d'Azur üniversitelerinden öğrenciler dokuz atölyede çalışacak: yurttaş meclisleri, bir yapay zekâ sisteminin yargılandığı duruşma canlandırması, gelecek okuryazarlığı, anlatı tıbbı, barış sözcüklerinin haritalanması. Her üniversiteden bir öğrenci akşamki genel oturumda söz alacak; atölyelerden çıkan öneriler bir "Yurttaş Manifestosu"nda toplanıp UNESCO'nun sitesinde yayımlanacak. Lévi-Strauss'un, Amartya Sen'in, [Edgar Morin'in](/haber/edgar-morin-ardindan-karmasiklik-dusuncesi-104-yil) konuştuğu kürsüde bu kez son sözün öğrencilere bırakılması dikkat çekici.
+
+## Akşam, çevrim içi: Kuçuradi'nin anısına
+
+UNESCO Türkiye Millî Komisyonu'nun duyurusuna göre aynı akşam saat 19.30'da "Felsefe ve Evrensel Bir Fikir Olarak UNESCO" başlıklı çevrim içi bir oturum yapılacak ve oturum Kuçuradi'nin anısına adanacak. Başlık yerinde: Kuçuradi için insan hakları, sözleşme maddelerinden önce, insanın değerinin bilgisine dayanan felsefi bir talepti ve UNESCO kürsüsünü yıllarca bu talebi savunmak için kullandı. Paris'te Diagne'in "yanal evrensel"i ile Ankara'da Kuçuradi'nin "insanın değeri" aynı akşam, farklı dillerde aynı soruya cevap arayacak: Farklılıklarımızdan vazgeçmeden ortak olan neyi savunabiliriz?
+
+## Bir günün yapabileceği
+
+Takvime konmuş bir "gün"ün felsefeye ne katacağını sormak meşru. Sokrates'in agorası için kimse tarih belirlememişti. Ama bu yılın programlarında ortak bir sezgi var ve küçümsenmemeli: İklim, yapay zekâ, göç ve sağlık, teknik bilginin tek başına karara bağlayamayacağı konular. Teknik bilgi neyi yapabileceğimizi söyler; neyi yapmamız gerektiğini, bedelini kimin ödeyeceğini, kimin adına karar verdiğimizi söylemez. Bu soruları sormanın eğitimle edinilen bir beceri olduğunu, yılda bir gün de olsa hatırlamak işe yarar.
+
+Yarın Bomonti'de bir öğrenci Zeami'nin çiçeğini anlatırken Paris'te bir başkası yapay zekâyı sanık sandalyesine oturtacak. İkisi de aynı şeyi yapıyor olacak: Hazır cevabı bir kenara koyup sorunun kendisine bakmayı.`,
+  },
+  {
+    title: "Sigmund Freud: Felsefe tarihini değiştiren bilinçdışı fikri",
+    slug: "sigmund-freud-felsefe-tarihini-degistiren-bilincdisi-fikri",
+    summary:
+      "Kendini filozof değil hekim sayan, felsefeye bilerek mesafeli duran Freud, Descartes'tan beri felsefenin üzerine bastığı zemini, bilincin kendine şeffaf olduğu varsayımını çekip aldı. Bilinçdışı, bastırma ve yapısal modelin felsefi anlamı; Ricoeur'ün 'şüphe ustaları', Lacan'dan Foucault'ya miras ve Popper'in itirazı.",
+    seoTitle: "Sigmund Freud'un Felsefe Tarihindeki Yeri ve Modern Düşünceye Etkisi",
+    metaDescription:
+      "Freud'un bilinçdışı, bastırma, id-ego-süperego kuramı felsefeyi nasıl değiştirdi? Descartes'ın öznesi, Ricoeur'ün şüphe hermeneutiği, Lacan, Marcuse, Foucault, Popper ve Grünbaum eleştirileri.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Freud's%20couch%2C%20London%2C%202004%20(2).jpeg?width=1600",
+    imageCredit: "Freud'un divanı, Freud Müzesi, Londra · Wikimedia Commons",
+    featured: false,
+    sourceName: "Internet Encyclopedia of Philosophy",
+    sourceUrl: "https://iep.utm.edu/freud/",
+    publishedAt: "2026-11-18T04:55:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["psikanaliz", "zihin-felsefesi", "kavram", "bilinc", "elestirel-teori"],
+    philosopherSlugs: ["sigmund-freud", "friedrich-nietzsche", "karl-popper"],
+    sources: [
+      { title: "Sigmund Freud (1856—1939)", publisher: "Internet Encyclopedia of Philosophy", url: "https://iep.utm.edu/freud/", primary: true },
+      { title: "Paul Ricoeur", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/ricoeur/" },
+      { title: "Karl Popper", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/popper/" },
+    ],
+    content: `Freud felsefecileri pek sevmezdi. Gençliğinde Viyana'da Franz Brentano'nun derslerine girmiş, bir ara felsefe doktorası yapmayı bile düşünmüştü; ama olgunluk yıllarında felsefeyi, dünyadaki boşlukları kavramlarla yamayan bir sistem hevesi olarak görüyordu. Nietzsche'yi, kendi buluşlarını onda hazır bulmaktan çekindiği için bilerek okumadığını yazdı. Felsefe tarihinin en büyük müdahalelerinden birinin, felsefe yapmak istemeyen bir sinir hekiminden gelmesi bu yüzden ayrıca öğreticidir.
+
+## Üçüncü yara
+
+1917'de yazdığı kısa bir yazıda Freud insanlığın özsevgisinin bilimden üç darbe yediğini söyler. Kopernik dünyayı evrenin merkezinden indirdi. Darwin insanı hayvanlar âleminin içine yerleştirdi. Üçüncüsü psikolojik darbedir ve onu kendisine ayırır: "Ben, kendi evinin efendisi değildir."
+
+Bu cümlenin kime söylendiğini anlamak için Descartes'a dönmek gerekir. Modern felsefe, her şeyden kuşku duyulsa bile düşünen benin kendine apaçık verildiği kesinliğiyle başlamıştı. Zihin, kendi içeriğine doğrudan ve yanılmaz biçimde erişebilen bir şeydi; bilinç ile zihin aynı sınırlara sahipti. Kant bu özneyi bilginin koşulu yaptı, Husserl fenomenolojiyi onun üzerine kurdu. Bilinçsiz fikirlerden söz edenler olmuştu elbette: Leibniz'in "küçük algılar"ı, Schopenhauer'in kör istemesi, Eduard von Hartmann'ın 1869'da çok satan *Bilinçdışının Felsefesi*. Freud'un getirdiği yenilik kavramın kendisi değil, ona verdiği yapıdır.
+
+## Dinamik bilinçdışı
+
+Freud'da bilinçdışı, farkında olmadığımız şeylerin durduğu bir depo değildir. Orada bir kuvvet iş görür. Bazı arzular ve anılar bilince ulaşamaz, çünkü ulaşmaları engellenir; bu engellemeye bastırma denir ve bastırılan şey yok olmaz, kılık değiştirip geri döner. Rüya, dil sürçmesi, unutulan isim, nevrotik belirti: Hepsi, bastırılanla bastıranın vardığı bir uzlaşmadır. 1900 tarihli *Düşlerin Yorumu* bu yüzden bir rüya tabirnamesi değil, bir yorum kuramıdır; rüyanın görünen içeriğinin ardında, sansürden geçmek için çarpıtılmış bir gizli düşünce arar.
+
+Felsefi sonuç ağırdır. Eğer davranışlarımın gerçek nedeni ile benim ona verdiğim gerekçe ayrışabiliyorsa, içebakış güvenilir bir tanık olmaktan çıkar. "Ne istiyorum" sorusunun yanına daha rahatsız edici bir soru gelir: İstediğimi sandığım şeyi neden istiyorum? Özne artık bir başlangıç noktası değil, çözülmesi gereken bir metindir.
+
+1923'te *Ben ve İd* ile Freud haritayı yeniden çizdi. İd dürtülerin, ben gerçeklikle pazarlığın, üstben içselleştirilmiş yasağın adıdır; bunlar beynin bölmeleri değil, çatışan işlevlerdir. Ben, Freud'un benzetmesiyle, üç efendiye birden hizmet eden bir uşaktır. Platon'un ruhu da üç parçalıydı ama orada akıl arabacıydı; Freud'da dizginlerin kimde olduğu her an yeniden pazarlık konusudur. Üstbenin kuramı ayrıca ahlak felsefesine bir soy kütüğü önerir: Vicdanın sesi, çocuklukta içeri alınmış ebeveyn otoritesinin sesidir. Kant'ın "içimdeki ahlak yasası"nı böyle okumak, yasayı çürütmez belki, ama onu masum da bırakmaz.
+
+## Şüphe ustaları
+
+Paul Ricoeur 1965'te yayımladığı Freud kitabında, sonradan çok tekrarlanacak bir üçlü kurdu: Marx, Nietzsche ve Freud "şüphe okulunun ustaları"dır. Üçü de bilincin kendi hakkında söylediğine güvenmez. [Marx](/haber/karl-marx-yabancilasma-meta-fetisizmi) bilincin ardında sınıf konumunu, [Nietzsche](/haber/nietzschenin-soykutugu-degerlerin-degeri) ahlakın ardında güç istemini ve hıncı, Freud bilinçli gerekçenin ardında arzuyu bulur. Descartes şeylerden kuşku duymuş ama bilinçten duymamıştı; bu üçü kuşkuyu bilincin kendisine çevirdi. Ricoeur'ün ince noktası şudur: Bu bir yıkım değil, bir yorum sanatıdır. Anlam ortadan kalkmaz, katmanlaşır.
+
+Yirminci yüzyıl felsefesinin büyük bölümü bu katmanlarla uğraştı. Frankfurt Okulu, Marx'ın açıklayamadığı soruyu, insanların kendi tahakkümlerine neden rıza gösterdiğini Freud'la sordu; Marcuse *Eros ve Uygarlık*'ta (1955) bastırmanın ne kadarının uygarlık için, ne kadarının egemenlik için gerekli olduğunu ayırmaya çalıştı. Lacan Freud'u Saussure'le okuyup bilinçdışının bir dil gibi yapılandığını ileri sürdü ve "düşünüyorum, öyleyse varım"ı ters yüz etti: Düşündüğüm yerde değilim. Foucault ise mesafeli durdu: *Cinselliğin Tarihi*'nin ilk cildinde psikanalizi, cinselliği konuşturarak yöneten uzun bir itiraf geleneğinin son halkası olarak yerleştirdi. Felsefenin Freud'la ilişkisi hiçbir zaman basit bir kabul olmadı; ama ondan sonra kimse özneyi eskisi gibi verili sayamadı.
+
+## İtiraz: Bu bir bilim mi?
+
+Freud kendini bir doğa bilimci sayıyordu ve en sert eleştiri tam buradan geldi. Karl Popper, 1919 Viyana'sında Einstein'ın kuramı ile Adler ve Freud'un kuramları arasındaki farkı düşünürken yanlışlanabilirlik ölçütüne vardığını anlatır: Einstein'ın kuramı yanılabileceği bir öngörüde bulunuyordu, psikanaliz ise her davranışı, tersini de, açıklayabiliyordu. Her şeyi açıklayan kuram hiçbir şeyi yasaklamaz. Adolf Grünbaum 1984'te Popper'e itiraz etti: Psikanaliz pekâlâ sınanabilir iddialar içerir, sorun bu iddiaların klinik kanıtla desteklenmemesi, divandan gelen verinin de analistin telkiniyle kirlenmiş olmasıdır. Bugün Oidipus karmaşasının evrenselliği ya da rüyaların hep bir arzu doyumu olduğu gibi tezleri savunan araştırmacı azdır.
+
+Öte yandan çağdaş bilişsel bilim, zihinsel işlemlerin büyük bölümünün bilinç dışında yürüdüğünü tartışmasız kabul ediyor. Bu, Freud'un dinamik, bastırılmış bilinçdışı değildir; ama içebakışın kendi nedenlerimiz hakkında bizi düzenli olarak yanılttığını gösteren deneyler, onun temel sezgisini başka bir yoldan doğruladı.
+
+## Geriye kalan soru
+
+Bir düşünürün tarihteki yeri, haklı çıktığı tezlerin sayısıyla ölçülmez. Freud'dan sonra özgürlük, sorumluluk ve kendini bilme üzerine yazan herkes, bilincin tanıklığının yetmeyebileceğini hesaba katmak zorunda kaldı. Delphoi'deki "kendini bil" buyruğu yirmi beş yüzyıl boyunca bir çağrıydı; Freud onu bir soruna çevirdi. Kendimizi bilmek, ne düşündüğümüzü bilmekten ibaret değilse, kimden ve nasıl öğreneceğiz? [23 Eylül 1939'da Londra'da öldüğünde](/haber/felsefe-tarihinde-bugun-23-eylul-freud-augustus-neruda) bu soruyu cevaplamış değildi. Ama onu, bir daha sorulmamış sayılamayacak biçimde sormuştu.`,
+  },
+  {
+    title: "Thomas Nagel, 2026 Berggruen Felsefe ve Kültür Ödülü'nün sahibi oldu: Yarasa olmanın nasıl bir şey olduğunu soran filozofa 1 milyon dolar",
+    slug: "thomas-nagel-2026-berggruen-odulu-yarasa-bilinc",
+    summary:
+      "Berggruen Enstitüsü 17 Kasım'da 2026 ödülünü Thomas Nagel'e verdiğini açıkladı. Seksen dokuz yaşındaki filozof, 1974'te sorduğu 'Yarasa olmak nasıl bir şeydir?' sorusuyla bilinç tartışmasının gündemini elli yıl önce belirlemişti; bugün aynı soru hayvanlara ve yapay zekâya soruluyor. Ödülün gerekçesi, Nagel'in felsefesi ve tartışmalı yanları.",
+    seoTitle: "Thomas Nagel 2026 Berggruen Ödülü'nü Kazandı: 1 Milyon Dolarlık Felsefe Ödülü",
+    metaDescription:
+      "Thomas Nagel 2026 Berggruen Felsefe ve Kültür Ödülü'nü kazandı. Yarasa makalesi, The View from Nowhere, özgecilik ve eşitlik, Mind and Cosmos tartışması, David Chalmers'ın değerlendirmesi ve yapay zekâ bilinci.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Nagel%20(cropped).jpg?width=1600",
+    imageCredit: "Thomas Nagel · Wikimedia Commons",
+    featured: true,
+    sourceName: "Berggruen Institute",
+    sourceUrl: "https://berggruen.org/news/usd1-million-berggruen-philosophy-prize-awarded-to-thomas-nagel",
+    publishedAt: "2026-11-18T05:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["odul", "zihin-felsefesi", "bilinc", "etik", "yapay-zeka"],
+    philosopherSlugs: ["thomas-nagel", "david-chalmers"],
+    sources: [
+      { title: "$1 Million Berggruen Philosophy Prize Awarded to Thomas Nagel", publisher: "Berggruen Institute", date: "17 Kasım 2026", url: "https://berggruen.org/news/usd1-million-berggruen-philosophy-prize-awarded-to-thomas-nagel", primary: true },
+      { title: "Thomas Nagel receives Berggruen Prize for Philosophy & Culture", publisher: "NYU School of Law", date: "17 Kasım 2026", url: "https://www.law.nyu.edu/news/thomas-nagel-berggruen-prize" },
+      { title: "Nagel Wins Berggruen Prize", publisher: "Daily Nous", date: "17 Kasım 2026", url: "https://dailynous.com/2026/11/17/nagel-wins-berggruen-prize/" },
+      { title: "What Is It Like to Be a Bat? (1974)", publisher: "The Philosophical Review, c. 83, s. 4", url: "https://www.jstor.org/stable/2183914" },
+    ],
+    content: `Los Angeles merkezli Berggruen Enstitüsü, 17 Kasım'da yaptığı açıklamayla 2026 Berggruen Felsefe ve Kültür Ödülü'nün Thomas Nagel'e verildiğini duyurdu. Bir milyon dolarlık ödül, enstitünün ifadesiyle, fikirleri insanın kendini anlayışını derinden biçimlendirmiş kişilere veriliyor. New York Üniversitesi'nin emekli profesörü Nagel ödülün onuncu sahibi; tören 2027 ilkbaharında New York'ta yapılacak.
+
+Enstitünün kurucusu Nicolas Berggruen gerekçeyi Nagel'in kendi sorusuyla özetledi: Ben olmak nasıl bir şeydir, bilincimin doğası nedir? Berggruen'e göre bu sorular Veda düşünürlerinden bugüne, belki de geleceğin yapay zekâlarına kadar uzanan bir soruşturmanın merkezinde duruyor.
+
+## Kırk sayfalık bir makale
+
+Nagel 1937'de Belgrad'da doğdu, New York çevresinde büyüdü. Cornell'de lisans, Oxford'da Fulbright bursuyla lisansüstü, Harvard'da John Rawls'un yanında doktora yaptı (1963). Berkeley ve Princeton'dan sonra 1980'de NYU'ya geçti, 2013'te emekli olana kadar orada felsefe ve hukuk profesörüydü.
+
+Onu felsefe dışında da tanınır kılan metin, 1974'te *The Philosophical Review*'da çıkan "What Is It Like to Be a Bat?" başlıklı makaledir. Soru bilerek tuhaf seçilmiştir. Yarasa bir memelidir, deneyimi olduğundan pek kuşku duymayız; ama dünyayı yankıyla, bizde karşılığı olmayan bir duyuyla algılar. Yarasanın sinir sistemini son nöronuna kadar çözsek bile öğrendiğimiz şey, bir yarasa gibi davranmanın nasıl olduğu olur. Yarasa için yarasa olmanın nasıl bir şey olduğu, o çözümlemenin dışında kalır.
+
+Nagel'in buradan çıkardığı sonuç çoğu zaman yanlış aktarılır. Makale ruhun varlığını savunmaz, fizikalizmin yanlış olduğunu da söylemez. Söylediği daha rahatsız edicidir: Fizikalizm doğru olabilir, ama nasıl doğru olabileceğini şu an anlamıyoruz. Bilimsel açıklama, olguyu herhangi bir bakış noktasından bağımsız betimleyerek ilerler; bilinçli deneyim ise tanımı gereği bir bakış noktasına bağlıdır. Bakış noktasını silerek açıklamaya çalıştığınız şey, tam da silinince kaybolan şeydir. Bugün zihin felsefesinde "nasıl bir şey olduğu" ifadesi teknik bir terim olarak kullanılıyorsa bu makale yüzündendir.
+
+## Hiçbir yerden bakış
+
+1986 tarihli *The View from Nowhere* yarasa makalesindeki gerilimi bütün felsefeye yayar. İnsan dünyaya iki yerden bakabilen bir yaratıktır: İçeriden, kendi hayatının merkezinden; ve dışarıdan, kendisinin de milyarlarca insandan biri olduğu "hiçbir yerden". Felsefenin büyük problemleri bu iki bakışın çarpıştığı yerde doğar. İçeriden bakınca özgürce seçiyorum, dışarıdan bakınca seçimim nedensel zincirin bir halkası. İçeriden hayatım her şeydir, dışarıdan bir toz zerresi; Nagel absürd duygusunu buraya yerleştirir. Onun önerisi iki bakıştan birini ötekine feda etmemek ve aradaki gerilimle yaşamayı öğrenmektir.
+
+Ahlak ve siyaset felsefesi de aynı eksende durur. İlk kitabı *The Possibility of Altruism* (1970), başkasının acısının benim için de bir eylem nedeni olabilmesini, kendime dışarıdan, herhangi biri olarak bakabilmeme bağlar. *Equality and Partiality* (1991) tarafsızlığın talep ettiği eşitlik ile insanın kendi hayatına ve yakınlarına duyduğu meşru bağlılığı uzlaştıracak kurumları arar ve henüz bulamadığımızı dürüstçe kabul eder. Ronald Dworkin'le NYU Hukuk Fakültesi'nde yıllarca birlikte yürüttüğü kolokyum, Rawls'tan Habermas'a, Bernard Williams'tan Peter Singer'a bir kuşağın uğrak yeri oldu. Singer, etikte nesnel nedenler konusundaki görüş değişikliğinde Nagel'in payını açıkça teslim ediyor.
+
+## Yapay zekâ ve tartışmalı kitap
+
+Ödül duyurusunda görüşü alınan David Chalmers, Nagel'in çalışmasının elli yıldır bilincin hem felsefesinin hem biliminin gündemini belirlediğini, hayvanlarda ve yapay zekâ sistemlerinde bilinç sorularının merkeze geldiği 2020'lerde daha da güncelleştiğini söyledi. Güncellik açık: Bir dil modeli acı çektiğini yazdığında elimizde yalnızca davranış vardır ve Nagel'in ayrımı, davranışın ne kadar kusursuz olursa olsun deneyimin kanıtı sayılamayacağını hatırlatır. Ödül vesilesiyle Avrupa basınına verdiği söyleşilerin başlıklarına bakılırsa Nagel bugünkü sistemler konusunda kuşkucu ve dilin tek başına bilincin kanıtı olamayacağı görüşünde.
+
+Portrenin gölgeli tarafı da yazılmalı. 2012'de yayımladığı *Mind and Cosmos*, bilincin, aklın ve değerin ortaya çıkışını materyalist neo-Darwinci çerçevenin açıklayamadığını, doğada zihne doğru bir yönelimin temel bir ilke olarak düşünülmesi gerektiğini savundu. Biyologlar ve pek çok filozof kitabı sert biçimde eleştirdi; evrim kuramının gücünü küçümsediği, yerine koyduğu teleolojinin de bir mekanizma sunmadığı söylendi. Nagel geri adım atmadı. Yarasa makalesinin 2024'te çıkan ellinci yıl baskısına yazdığı metinde zihin ile bedenin görünen ikiliğinin altında tek bir gerçeklik bulunabileceğini, köklerini Spinoza'da gördüğü bir fikri öneriyor.
+
+## Ödülün kendisi
+
+Berggruen Ödülü 2016'dan beri veriliyor; önceki sahipleri arasında Charles Taylor, Onora O'Neill, Martha Nussbaum, Ruth Bader Ginsburg, Paul Farmer, Peter Singer, Kojin Karatani, Patricia Hill Collins ve [geçen yılın sahibi Michael Sandel](/haber/berggruen-odulu-michael-sandel) var. Son yıllarda ödül kamusal etkisi yüksek isimlere gitmişti. Nagel başka türden bir seçim: Televizyona çıkmayan, kampanya yürütmeyen, kısa ve soğukkanlı makaleler yazan bir meslek filozofu. Enstitünün açıklamasında alıntılanan bir cümlesi tutumunu özetliyor: Felsefe zihnin çocukluğudur ve onu atlamaya çalışan bir kültür asla büyüyemez.
+
+Nagel için felsefede ilerleme, problemleri kapatmak değil, daha iyi anlamaktır. Elli iki yıl önce sorduğu soruya hâlâ kimse tatmin edici bir cevap veremedi. Onu soran kişiye verilen ödül, sorunun yerinde durduğunun kabulü olarak da okunabilir.`,
+  },
+  {
+    title: "Kasımın ödül gündemi: Berggruen Nagel'e, Barry Ödülü Lara Buchak'a; Lincei'den Esposito ve Ienca'ya",
+    slug: "felsefe-odulleri-kasim-2026-nagel-buchak-lincei",
+    summary:
+      "Thomas Nagel'in Berggruen Ödülü ayın büyük haberi. Onun gölgesinde kalan başka duyurular da var: Risk altında akılcı kararın kuramcısı Lara Buchak'a Barry Ödülü ve Türkiye'de pek duyulmayan Lincei ödülleri: Roberto Esposito, Wang Hui ve nöroetikçi Marcello Ienca.",
+    seoTitle: "Felsefe ödülleri, Kasım 2026: Nagel, Lara Buchak, Roberto Esposito, Wang Hui, Marcello Ienca",
+    metaDescription:
+      "Kasım 2026 felsefe ödülleri: Thomas Nagel Berggruen Ödülü, Lara Buchak Barry Ödülü (AASL), Accademia dei Lincei'den Roberto Esposito, Wang Hui ve Marcello Ienca'ya ödüller.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Nagel%20teaching%20Ethics.JPG?width=1600",
+    imageCredit: "Thomas Nagel, New York Üniversitesi'nde etik dersinde · Wikimedia Commons",
+    featured: false,
+    sourceName: "Berggruen Institute · Princeton University · Accademia dei Lincei",
+    sourceUrl: "https://www.lincei.it/en/notizie/2026-antonio-feltrinelli-international-prizes-and-other-lincei-prized",
+    publishedAt: "2026-11-18T05:25:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "etik", "siyaset-felsefesi"],
+    philosopherSlugs: ["thomas-nagel"],
+    sources: [
+      { title: "$1 Million Berggruen Philosophy Prize Awarded to Thomas Nagel", publisher: "Berggruen Institute", date: "17 Kasım 2026", url: "https://berggruen.org/news/usd1-million-berggruen-philosophy-prize-awarded-to-thomas-nagel", primary: true },
+      { title: "Lara Buchak *09 receives AASL Barry Prize", publisher: "Princeton University Graduate School", date: "6 Kasım 2026", url: "https://gradschool.princeton.edu/news/2026/lara-buchak-09-receives-aasl-barry-prize-four-grad-alums-invested-members" },
+      { title: "The 2026 Antonio Feltrinelli International Prizes and the other Lincei Prizes", publisher: "Accademia Nazionale dei Lincei", date: "8 Haziran 2026", url: "https://www.lincei.it/en/notizie/2026-antonio-feltrinelli-international-prizes-and-other-lincei-prized", primary: true },
+    ],
+    content: `Ayın büyük haberi belli: [Berggruen Felsefe ve Kültür Ödülü Thomas Nagel'e verildi](/haber/thomas-nagel-2026-berggruen-odulu-yarasa-bilinc). Bir milyon dolarlık ödülün töreni 2027 ilkbaharında New York'ta yapılacak. Onun yanında, daha az gürültüyle geçen birkaç duyuruyu da kayda geçirelim.
+
+## Lara Buchak'a Barry Ödülü
+
+Amerikan Bilimler ve Edebiyat Akademisi'nin (AASL) "seçkin entelektüel başarı" için verdiği Barry Ödülü'nün bu yılki on sahibinden biri Princeton'dan filozof Lara Buchak oldu; üniversitenin 6 Kasım tarihli duyurusuna göre ödül 50 bin dolar değerinde. Buchak'ın adı karar kuramında bir dönemeçle anılıyor. *Risk and Rationality* (2013), klasik beklenen fayda kuramının riskten kaçınan insanı "akıldışı" saymasına itiraz eder: Aynı beklenen değere sahip iki seçenekten güvenli olanı tercih etmek bir hesap hatası olmak zorunda değildir, kişinin riske karşı tutumu da akılcı tercihin meşru bir bileşenidir. "Risk ağırlıklı beklenen fayda" adını verdiği model, iktisattan tıp etiğine uzanan bir tartışma başlattı. Buchak aynı araçları inanç felsefesine de taşıdı; imanı, kanıt toplamayı bir noktada bırakıp bir bağlılığa göre eyleme istekliliği olarak çözümleyen yazıları din felsefesinde çok okunuyor.
+
+## Lincei: Esposito, Wang Hui, Ienca
+
+İtalya'nın Galileo'dan kalma akademisi Accademia dei Lincei'nin 2026 ödülleri haziranda açıklanmış ve 12 Haziran'da Roma'da, Cumhurbaşkanı'nın huzurunda verilmişti; Türkiye'de pek yankı bulmadı. Ahlaki, tarihsel ve filolojik bilimler dalında Cumhurbaşkanlığı Ulusal Ödülü, "modern siyasal kategorilerin eleştirel yeniden incelenmesine katkısı" gerekçesiyle Roberto Esposito'ya gitti. *Communitas*, *Immunitas* ve *Bíos* üçlemesiyle topluluk, bağışıklık ve biyopolitika kavramlarını birbirine bağlayan Esposito, pandemi yıllarında "bağışıklık paradigması" çözümlemesiyle felsefe dışında da okunmuştu.
+
+Uluslararası Antonio Feltrinelli Ödülü'nün sosyal bilimler dalındaki sahibi Tsinghua Üniversitesi'nden Wang Hui oldu; gerekçe, Çin modernliğinin tarihsel köklerinin anlaşılmasına katkısı ve küreselleşme süreçlerine yönelttiği eleştiri. Dört ciltlik *Modern Çin Düşüncesinin Yükselişi*, imparatorluktan ulus devlete geçişi Avrupa şablonuna sığdırmadan anlatma denemesidir. Kırk yaş altı araştırmacılara verilen Feltrinelli Giovani ödülünün felsefi bilimler dalındaki sahibi ise Münih Teknik Üniversitesi'nden Marcello Ienca: "Bilişsel özgürlük" ve "zihinsel mahremiyet" gibi nörohakları uluslararası gündeme taşıyan isimlerden biri.
+
+## Sırada ne var?
+
+Aralık ayı ödül takviminde geleneksel olarak sakin geçer. Yeni yılın ilk büyük duyuruları mart ayında, Holberg ve Rolf Schock ödülleriyle gelir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 18 Kasım: Pierre Bayle ve hoşgörünün kuşkucu temeli",
+    slug: "felsefe-tarihinde-bugun-18-kasim-pierre-bayle",
+    summary:
+      "18 Kasım 1647'de Pireneler'in eteğinde bir Protestan papazın oğlu olarak doğan Pierre Bayle, Rotterdam sürgününde yazdığı dev sözlükle Aydınlanma'nın cephaneliğini kurdu. Ateistlerin de erdemli olabileceğini, yanılan vicdanın da hakkı olduğunu savundu; Leibniz Theodicée'yi ona cevap vermek için yazdı.",
+    seoTitle: "18 Kasım: Pierre Bayle'in doğumu (1647) — Tarihsel ve Eleştirel Sözlük, hoşgörü, kötülük problemi",
+    metaDescription:
+      "Felsefe tarihinde 18 Kasım: Pierre Bayle 1647'de doğdu. Kuyrukluyıldız Üzerine Düşünceler, Felsefi Yorum, Tarihsel ve Eleştirel Sözlük, erdemli ateist, yanılan vicdanın hakları, Leibniz'le kötülük tartışması.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Bayle%20by%20Louis%20Ferdinand%20Elle.jpg?width=1600",
+    imageCredit: "Pierre Bayle · Louis Ferdinand Elle'nin portresi (1675 dolayları) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/bayle/",
+    publishedAt: "2026-11-17T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "aydinlanma", "din-felsefesi", "epistemoloji"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
+    sources: [
+      { title: "Pierre Bayle", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/bayle/", primary: true },
+    ],
+    content: `On sekizinci yüzyılın özel kitaplıkları üzerine yapılan dökümlerde en sık rastlanan eser ne Locke'tur ne Voltaire; Pierre Bayle'in *Tarihsel ve Eleştirel Sözlük*'üdür. Bugün adını felsefe bölümlerinin dışında pek az kişi biliyor. Oysa Voltaire'in alayı, Hume'un kuşkuculuğu, Diderot'nun *Ansiklopedi*'si bu dört ciltlik tuhaf kitabın dipnotlarından beslendi.
+
+Bayle 18 Kasım 1647'de Pireneler'in eteğindeki Carla köyünde, yoksul bir Kalvenci papazın oğlu olarak doğdu. Yirmi iki yaşında Toulouse'daki Cizvit kolejinde Katolikliğe geçti, on yedi ay sonra Protestanlığa döndü. Fransa'da bu, yasaların en ağır biçimde cezalandırdığı suçtu: Dönüp tekrar sapan kişi. Cenevre'ye kaçtı, Sedan'daki Protestan akademisinde felsefe okuttu, akademi kapatılınca 1681'de Rotterdam'a sığındı ve orada öldü.
+
+## Kuyrukluyıldız ve erdemli ateist
+
+1680'in sonunda gökyüzünde görülen büyük kuyrukluyıldız Avrupa'da felaket kehanetlerine yol açmıştı. Bayle'in ilk kitabı (1682) bu batıl inancı çürütürken çok daha tehlikeli bir sav ileri sürdü: İnsanlar ilkelerine göre değil, mizaçlarına, alışkanlıklarına ve tutkularına göre yaşar. Bu yüzden Hristiyanlar her gün inançlarına aykırı davranır; aynı nedenle tanrıtanımazlardan oluşan bir toplum da pekâlâ düzenli ve ahlaklı olabilir. Ahlak ile din arasındaki zorunlu bağı koparan bu düşünce, dönemi için neredeyse akıl almazdı.
+
+## Yanılan vicdanın hakkı
+
+1685'te XIV. Louis Nantes Fermanı'nı kaldırdı; aynı yıl Bayle'in ağabeyi Jacob, din değiştirmeyi reddettiği için atıldığı zindanda öldü. Bayle'in cevabı *Felsefi Yorum* oldu. Kitap, Augustinus'tan beri zorla din değiştirmeyi meşrulaştırmak için kullanılan İncil sözünü, "onları içeri girmeye zorla" cümlesini ele alır ve basit bir ilkeye dayanır: Bir yorumu kötülük yapmayı buyuruyorsa o yorum yanlıştır. Asıl radikal adım ardından gelir. İnsan vicdanına karşı davranamaz; öyleyse yanılan vicdanın da, doğruyu bulmuş vicdanla aynı hakları vardır. Locke'un dört yıl sonraki *Hoşgörü Üzerine Mektup*'u Katolikleri ve ateistleri dışarıda bırakır. Bayle kimseyi dışarıda bırakmaz.
+
+## Dipnotların kitabı
+
+1697'de çıkan *Sözlük* görünüşte başkalarının hatalarını düzeltmek için yazılmış bir biyografi derlemesidir. Maddeler kısadır; asıl metin sayfanın dörtte üçünü kaplayan, harflerle işaretlenmiş uzun notlardadır. "Maniciler" ve "Paulusçular" maddelerinin notlarında Bayle kötülük problemini sonuna kadar kovalar: İyi ve her şeye gücü yeten bir Tanrı ile dünyadaki kötülüğü akıl yoluyla bağdaştırmak mümkün değildir; iki ilkeli Mani öğretisi saçmadır ama itirazları cevapsız kalır. "Pyrrhon" maddesi kuşkuculuğun aklın kendi tutarlılığını da kemirdiğini gösterir. Sonuç olarak Bayle imana sığınmayı önerir. Bunun samimi bir Kalvenci teslimiyet mi, ince bir alay mı olduğu üç yüzyıldır tartışılıyor.
+
+[Leibniz](/haber/leibniz-hesaplanabilir-dusunce-monad) tartışmayı ciddiye aldı. Hayattayken yayımladığı tek felsefe kitabı olan *Theodicée* (1710), baştan sona Bayle'e yazılmış bir cevaptır. Bayle onu okuyamadı; 28 Aralık 1706'da, masasında bir polemik yazısının provalarını düzeltirken öldü.
+
+Bugün hoşgörüyü genellikle kendi doğrumuzdan emin olarak, karşımızdakine "katlanmak" biçiminde anlıyoruz. Bayle'in temeli başkadır: Yanılabileceğimi bildiğim için ve vicdanın zorla değişmediğini gördüğüm için hoş görürüm. Kesinliklerin yeniden yükseldiği bir çağda, kuşkudan türetilmiş bu tevazu belki eskisinden de değerli.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 17 Kasım: Pico della Mirandola, insanın onuru ve otuz bir yaşında bir ölüm",
+    slug: "felsefe-tarihinde-bugun-17-kasim-pico-della-mirandola",
+    summary:
+      "17 Kasım 1494'te, Fransız ordusunun Floransa'ya girdiği gün, Rönesans'ın harika çocuğu Giovanni Pico della Mirandola otuz bir yaşında öldü. Dokuz yüz tezi Roma'da tartışmak isteyen, insanı 'kendi kendisinin heykeltıraşı' ilan eden genç kont, beş yüzyıl sonra kemiklerinde bulunan arsenikle yeniden gündeme geldi.",
+    seoTitle: "17 Kasım: Pico della Mirandola'nın ölümü (1494) — İnsanın Onuru Üzerine Söylev, 900 Tez",
+    metaDescription:
+      "Felsefe tarihinde 17 Kasım: Pico della Mirandola 1494'te öldü. İnsanın Onuru Üzerine Söylev, 900 Tez, Kabala ve bağdaştırmacılık, astroloji eleştirisi, Savonarola ve arsenik bulgusu.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pico1.jpg?width=1600",
+    imageCredit: "Giovanni Pico della Mirandola · Uffizi Galerisi'ndeki portre · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/pico-della-mirandola/",
+    publishedAt: "2026-11-16T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ronesans", "din-felsefesi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Giovanni Pico della Mirandola", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/pico-della-mirandola/", primary: true },
+    ],
+    content: `1486'da yirmi üç yaşında bir kont Roma'da dokuz yüz tez yayımladı ve Avrupa'nın bütün bilginlerini bunları kendisiyle tartışmaya çağırdı; yol masraflarını karşılamayı da üstleniyordu. Tezler Platon'dan ve Aristoteles'ten, İbn Rüşd'den ve İbn Sînâ'dan, skolastiklerden, Hermes Trismegistos'a atfedilen metinlerden, Keldani kehanetlerinden ve o güne dek hiçbir Hristiyan düşünürün ciddiye almadığı bir kaynaktan, İbrani Kabalası'ndan derlenmişti. Giovanni Pico della Mirandola'nın inancı şuydu: Bütün bu gelenekler aynı hakikatin farklı dillerdeki ifadeleridir ve yeterince dikkatli okunursa uzlaştırılabilir.
+
+Tartışma hiç yapılmadı. Papa VIII. Innocentius bir komisyon kurdurdu, on üç tezi sakıncalı buldurdu; Pico özür niteliğinde yazdığı savunmayla durumu ağırlaştırınca hepsini mahkûm etti. Pico Fransa'ya kaçtı, yakalandı, Lorenzo de' Medici'nin araya girmesiyle serbest kalıp Floransa'ya yerleşti.
+
+## Bukalemun
+
+Tartışmanın açılış konuşması olarak yazdığı ve sağlığında yayımlanmayan metin, sonradan *İnsanın Onuru Üzerine Söylev* adıyla Rönesans'ın manifestosu sayıldı. Ünlü pasajda Tanrı, yaratılışı tamamladıktan sonra insanı yapar, ama elinde ona verecek ne belirli bir yer ne belirli bir biçim kalmıştır. Bu yüzden Âdem'e şöyle der: Sana sabit bir yurt, kendine ait bir yüz vermedim; öteki yaratıkların doğası koyduğum yasalarla sınırlıdır, sen kendi doğanı kendi istencinle belirleyeceksin. İstersen hayvanlara doğru alçalır, istersen tanrısal olana doğru yükselirsin.
+
+Ortaçağ düşüncesinde insanın değeri, varlık zincirindeki sabit yerinden gelirdi. Pico'da değer, sabit bir yerin olmayışından gelir. Sartre'ın "varoluş özden önce gelir" formülünü beş yüzyıl öncesinden duyanlar haksız sayılmaz; yine de Pico'nun özgürlüğü keyfî bir kendini yaratma değildir, felsefe yoluyla meleksi bir hayata yükselme çağrısıdır.
+
+## Yıldızlara karşı
+
+Son büyük eseri, astrolojiye karşı yazdığı on iki kitaplık reddiyedir. Gerekçesi *Söylev*'le tutarlıdır: Yıldızlar yazgımızı belirliyorsa insanın özgürlüğü boş bir sözdür. Gök cisimleri ışık ve ısı yoluyla genel etkilerde bulunabilir, ama tek tek hayatları yönetemez. Kepler bu eleştiriyi okudu ve ciddiye aldı.
+
+O yıllarda Pico, Floransa'ya gelmesinde kendisinin de payı olan vaiz Girolamo Savonarola'nın etkisine girmiş, mal varlığının bir kısmını dağıtmış, Dominiken olmayı düşünüyordu. 17 Kasım 1494'te, iki haftalık bir ateşli hastalığın sonunda öldü. Aynı gün Fransa kralı VIII. Charles ordusuyla Floransa'ya giriyordu; Medici'ler bir hafta önce kovulmuştu. Yakın dostu şair Poliziano da iki ay önce, benzer belirtilerle ölmüştü.
+
+Zehirlendiği söylentisi o günden beri dolaşır. 2007'de İtalyan araştırmacılar San Marco Kilisesi'ndeki mezarları açtı; sonraki yıllarda yayımlanan incelemeler Pico'nun kalıntılarında öldürücü düzeyde arsenik bulunduğunu bildirdi. Kimin, neden yaptığı bilinmiyor. Şüpheler, Savonarola'ya yakınlaşmasından rahatsız olan Medici çevresine ve kendi kâtibine uzanır.
+
+Bugün aynı gün ölen bir başka düşünür de anılmalı: Görlitzli kunduracı ve mistik Jakob Böhme (1624). Pico'nun sorusu ise yerinde duruyor: İnsanın sabit bir doğası yoksa ve kendini biçimlendirme gücü her kuşakta artıyorsa, bu gücü neye göre kullanacak?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 16 Kasım: Robert Nozick, minimal devlet ve deneyim makinesi",
+    slug: "felsefe-tarihinde-bugun-16-kasim-robert-nozick",
+    summary:
+      "16 Kasım 1938'de Brooklyn'de doğan Robert Nozick, otuz beş yaşında yazdığı Anarşi, Devlet ve Ütopya ile Rawls'a sağdan verilmiş en ciddi cevabı kaleme aldı; sonra o kitabı savunmayı bırakıp bilgiye, benliğe, hayatın anlamına döndü. Aynı gün 1945'te Londra'da UNESCO kuruldu.",
+    seoTitle: "16 Kasım: Robert Nozick'in doğumu (1938) — Anarşi, Devlet ve Ütopya, deneyim makinesi",
+    metaDescription:
+      "Felsefe tarihinde 16 Kasım: Robert Nozick 1938'de doğdu. Hak sahipliği kuramı, Wilt Chamberlain örneği, minimal devlet, deneyim makinesi, bilginin izleme kuramı; 16 Kasım 1945'te UNESCO'nun kuruluşu.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Nozick%201977%20Libertarian%20Review%20cover.jpg?width=1600",
+    imageCredit: "Robert Nozick, Libertarian Review kapağında (1977) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/nozick-political/",
+    publishedAt: "2026-11-15T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "siyaset-felsefesi", "etik", "epistemoloji"],
+    philosopherSlugs: ["thomas-nagel"],
+    sources: [
+      { title: "Robert Nozick's Political Philosophy", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/nozick-political/", primary: true },
+      { title: "UNESCO Constitution (1945)", publisher: "UNESCO", url: "https://www.unesco.org/en/legal-affairs/constitution" },
+    ],
+    content: `Harvard'ın felsefe bölümünde 1970'lerin başında iki oda arasında siyaset felsefesinin sonraki elli yılı belirlendi. Odalardan birinde John Rawls, *Bir Adalet Kuramı*'nı (1971) yeni yayımlamıştı. Ötekinde, 16 Kasım 1938'de Brooklyn'de Rus Yahudisi göçmen bir ailenin oğlu olarak doğmuş, gençliğinde sosyalist öğrenci kulüplerine üye olmuş otuzlu yaşlarında bir profesör, ona cevabını yazıyordu. *Anarşi, Devlet ve Ütopya* 1974'te çıktı, ertesi yıl Ulusal Kitap Ödülü'nü aldı.
+
+## Chamberlain'in çeyrekliği
+
+Kitabın ilk cümlesi tonu verir: Bireylerin hakları vardır ve hiç kimsenin ya da grubun onlara, bu hakları çiğnemeden yapamayacağı şeyler vardır. Nozick'e göre adalet, gelirin belli bir örüntüye uyması değil, kimin neye nasıl sahip olduğunun tarihidir. Bir şeyi adil biçimde edindiysem ve gönüllü bir aktarımla başkasına geçtiyse, ortaya çıkan dağılım ne kadar eşitsiz olursa olsun adildir.
+
+Ünlü örnek dönemin basketbol yıldızı Wilt Chamberlain'dir. En sevdiğiniz eşitlikçi dağılımla başlayın. Chamberlain, her maçta bilet başına yirmi beş sentin kendisine verilmesi koşuluyla oynamayı kabul etsin; sezon sonunda bir milyon kişi seve seve bu parayı ödesin. Artık çeyrek milyon doları vardır ve başlangıçtaki eşitlik bozulmuştur. Kimse zorlanmadıysa adaletsizlik nerede? Örüntüyü korumak isteyen devlet, yetişkinlerin gönüllü alışverişine sürekli karışmak zorundadır. Nozick'in en sert cümlesi buradan çıkar: Emek gelirinin vergilendirilmesi zorla çalıştırmayla aynı ayardadır. Meşru olan yalnızca hırsızlığa, şiddete ve dolandırıcılığa karşı koruyan "gece bekçisi" devlettir.
+
+Eleştiri gecikmedi. [Bu hafta Berggruen Ödülü'nü alan](/haber/thomas-nagel-2026-berggruen-odulu-yarasa-bilinc) Thomas Nagel, 1975'teki yazısına "Temelsiz Liberteryenizm" başlığını koydu: Nozick o güçlü hakları kanıtlamıyor, varsayıyordu. İlk edinimin nasıl adil olabileceği sorusu da ortadaydı, çünkü yeryüzündeki mülkiyetin tarihi fetih ve gaspla doludur ve Nozick'in kendi "düzeltme ilkesi" ciddiye alınırsa çok radikal sonuçlar doğurabilir.
+
+## Makineye bağlanır mıydınız?
+
+Aynı kitabın birkaç sayfalık bir düşünce deneyi, belki ana tezden daha uzun yaşayacak. Size istediğiniz her deneyimi yaşatacak bir makine düşünün: Büyük bir roman yazdığınızı, sevildiğinizi, dünyayı gezdiğinizi sanacaksınız, içeride olduğunuzu da bilmeyeceksiniz. Ömür boyu bağlanır mıydınız? Çoğumuz duraksarız ve Nozick'e göre bu duraksama, hayatta yalnızca iyi hissetmeyi değil, bir şeyleri gerçekten yapmayı, belli bir kişi olmayı ve gerçeklikle temas etmeyi istediğimizi gösterir. Sanal gerçeklik gözlükleri ve durmadan onay veren sohbet robotları çağında deney artık varsayımsal olmaktan çıkıyor.
+
+## Kitabını savunmayan filozof
+
+Nozick eleştirilere cevap yazmadı; aynı konuda ikinci bir kitap yazmak istemediğini söyledi. *Felsefi Açıklamalar* (1981) bambaşka sorulara gider. Bilgiyi, inancın hakikati "izlemesi" olarak tanımlar: Bir şeyi biliyorsam, o şey yanlış olsaydı ona inanmazdım. Kişisel özdeşlik için "en yakın sürdürücü" kuramını önerir ve felsefenin karşısındakini kanıtla teslim almaya çalışan "zorlayıcı" tarzını bırakıp açıklamaya yönelmesini ister. *İncelenmiş Hayat*'ta (1989) gençlik liberteryenizmini "ciddi biçimde yetersiz" bulduğunu yazdı. 2002'de mide kanserinden öldüğünde altmış üç yaşındaydı.
+
+## Aynı gün, Londra, 1945
+
+16 Kasım'ın bir başka kaydı var. 1945'te Londra'da otuz yedi ülke UNESCO Kuruluş Sözleşmesi'ni imzaladı. Başlangıç bölümünün ilk cümlesi bir felsefi tez gibidir: Savaşlar insanların zihninde başladığına göre, barışın savunması da insanların zihninde kurulmalıdır. [Üç gün sonra kutlanacak Dünya Felsefe Günü](/haber/dunya-felsefe-gunu-19-kasim-2026-istanbul-paris-program) o cümlenin uzak bir torunu. Aynı gün 1717'de Paris'te bir kilisenin basamaklarına bırakılan ve *Ansiklopedi*'nin eş editörü olacak bebeğin, Jean le Rond d'Alembert'in de doğum günüdür.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 15 Kasım: Albertus Magnus ve Regensburg'un iki ölüsü",
+    slug: "felsefe-tarihinde-bugun-15-kasim-albertus-magnus-kepler",
+    summary:
+      "15 Kasım 1280'de Köln'de ölen Albertus Magnus, Aristoteles'in bütün külliyatını Latin dünyasına açtı, bitkileri ve hayvanları kendi gözüyle inceledi ve Thomas Aquinas'ı yetiştirdi. Üç buçuk yüzyıl sonra aynı gün, onun bir zamanlar piskoposluk yaptığı Regensburg'da Johannes Kepler öldü.",
+    seoTitle: "15 Kasım: Albertus Magnus'un (1280) ve Kepler'in (1630) ölümü",
+    metaDescription:
+      "Felsefe tarihinde 15 Kasım: Albertus Magnus 1280'de Köln'de, Johannes Kepler 1630'da Regensburg'da öldü. Doctor Universalis, Aristoteles şerhleri, deney ve gözlem, Aquinas'ın hocası, gezegen yasaları.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/AlbertusMagnus.jpg?width=1600",
+    imageCredit: "Albertus Magnus · Tommaso da Modena'nın freski (1352), Treviso · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/albert-great/",
+    publishedAt: "2026-11-14T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ortacag-felsefesi", "bilim-felsefesi", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Albert the Great", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/albert-great/", primary: true },
+      { title: "Johannes Kepler", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/kepler/" },
+    ],
+    content: `Ortaçağ'ın kendi çağdaşlarınca "Büyük" diye anılan tek bilgini, Tuna kıyısındaki Lauingen'de 1200 dolaylarında doğmuş bir Şvabyalı şövalye oğluydu. Albertus Padova'da okurken Dominiken tarikatına girdi, Paris'te ilahiyat kürsüsüne çıktı, 1248'de Köln'de tarikatın yeni yüksek okulunu kurdu. 15 Kasım 1280'de aynı kentte öldüğünde arkasında modern baskısı kırk cildi bulan bir külliyat bırakmıştı.
+
+## Aristoteles'i Latinlere anlaşılır kılmak
+
+On üçüncü yüzyılın başında Aristoteles'in doğa felsefesi ve metafiziği, İbn Rüşd'ün şerhleriyle birlikte Arapçadan ve Yunancadan Latinceye yeni çevrilmişti ve Paris'te okutulması defalarca yasaklanmıştı. Ebedî bir evrenden ve bireysel ölümsüzlüğe yer bırakmayan bir akıl öğretisinden söz eden bu pagan filozof tehlikeli bulunuyordu. Albertus tersine bir karar verdi. Amacını açıkça yazdı: Fiziği, metafiziği ve matematiği bütün bölümleriyle Latinlere anlaşılır kılmak. Yirmi yıl boyunca Aristoteles'in bütün eserlerini tek tek yeniden anlattı, eksik kalan yerleri kendi araştırmalarıyla doldurdu; Fârâbî'yi, İbn Sînâ'yı ve İbn Rüşd'ü sürekli tartışarak.
+
+Bu girişimin arkasında bir ilke vardı. Doğa bilimi yaparken Tanrı'nın mucizeyle neler yapabileceğini değil, doğanın kendi nedenleriyle neler olabileceğini araştırırız. İlahiyat ile felsefenin yöntemleri ayrıdır ve her biri kendi alanında yetkilidir. Bu ayrım, bilimin özerkliği fikrinin Latin Batı'daki ilk açık ifadelerinden biridir.
+
+## "Yalnızca deneyim kesinlik verir"
+
+Albertus kitaptan okuduğuyla yetinmedi. Bitkiler üzerine eserinde tekil türler hakkında kesinliği yalnızca deneyimin verdiğini yazar. Alman ormanlarını ve maden ocaklarını dolaştı, kartal yuvalarına baktırdı, devekuşunun demir yediği söylentisini kuşa demir vererek sınadı (kuş yemedi), balina avcılarını sorguya çekti. *Hayvanlar Üzerine* ve *Mineraller Üzerine* adlı eserleri yüzyıllarca başvuru kaynağı oldu. Halk hayalinde simyacıya ve büyücüye dönüşmesi bu merakın bedelidir.
+
+Paris ve Köln'de sessiz, iri yapılı bir Napolili öğrencisi vardı. Arkadaşları ona "dilsiz öküz" diyordu. Rivayete göre Albertus şöyle demiş: Bu öküz bir gün öyle böğürecek ki sesi dünyayı dolduracak. Thomas Aquinas hocasından önce, 1274'te öldü; yaşlı Albertus'un, 1277'de Paris'te öğrencisinin tezleri mahkûm edilme tehlikesine girdiğinde onu savunmak için yola çıktığı anlatılır.
+
+1260'ta istemeye istemeye Regensburg piskoposu oldu. Piskoposluk bölgesini ata binmeden, yaya dolaştığı için halk ona "çarıklı piskopos" dedi; iki yıl sonra görevi bırakıp derslerine döndü. Kilise onu 1931'de aziz ve kilise doktoru ilan etti, 1941'de doğa bilimcilerin koruyucusu yaptı.
+
+## Aynı kentte, üç yüz elli yıl sonra
+
+15 Kasım 1630'da Regensburg'a alacağını istemeye gelmiş bir imparatorluk matematikçisi, yolda yakalandığı ateşten öldü. Johannes Kepler elli sekiz yaşındaydı. Gezegenlerin elips çizdiğini, eşit sürede eşit alan taradığını ve dönüş süreleriyle uzaklıkları arasındaki oranı bulmuş, annesini cadılık davasından kurtarmak için yıllarını vermişti. Mezarı Otuz Yıl Savaşı'nda yok oldu.
+
+İkisini aynı güne ve aynı kente düşüren şey rastlantı. Ama aralarında gerçek bir bağ var: Albertus doğanın kendi nedenleriyle anlaşılabileceğini savundu, Kepler bu nedenlerin matematikle yazılabildiğini gösterdi. Kepler de işini bir ibadet sayıyordu; yasalarını bulduğunda Tanrı'nın düşüncelerini onun ardından düşündüğünü yazdı. Bilim ile inancın kavgası diye anlatılan uzun hikâyenin, en azından bu iki adamda, öyle başlamadığını hatırlamak iyi olur.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 14 Kasım: Leibniz ve Hegel, aynı gün iki ölüm",
+    slug: "felsefe-tarihinde-bugun-14-kasim-leibniz-hegel-olum",
+    summary:
+      "14 Kasım 1716'da Hannover'de Leibniz, 115 yıl sonra aynı gün Berlin'de Hegel öldü. Biri saraydan kimsenin gelmediği bir cenazeyle gömüldü, öteki bütün bir kentin katıldığı törenle Fichte'nin yanına. Alman felsefesinin iki büyük sistem kurucusunun son günleri ve aralarındaki bitmemiş hesap.",
+    seoTitle: "14 Kasım: Leibniz'in (1716) ve Hegel'in (1831) ölümü",
+    metaDescription:
+      "Felsefe tarihinde 14 Kasım: Leibniz 1716'da Hannover'de, Hegel 1831'de Berlin'de öldü. Yalnız bir cenaze, kolera salgını, Mantık Bilimi'nin son önsözü ve Hegel'in Leibniz eleştirisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Gottfried%20Wilhelm%20Leibniz%2C%20Bernhard%20Christoph%20Francke.jpg?width=1600",
+    imageCredit: "Gottfried Wilhelm Leibniz · Bernhard Christoph Francke'nin portresi (1695 dolayları) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/leibniz/",
+    publishedAt: "2026-11-13T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "alman-idealizmi", "mantik", "kavram"],
+    philosopherSlugs: ["gottfried-wilhelm-leibniz"],
+    sources: [
+      { title: "Gottfried Wilhelm Leibniz", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/leibniz/", primary: true },
+      { title: "Georg Wilhelm Friedrich Hegel", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/hegel/" },
+    ],
+    content: `Takvimin cilvesi: Alman felsefesinin en büyük iki sistem kurucusu aynı gün öldü. Aralarında yüz on beş yıl ve birbirine hiç benzemeyen iki cenaze var.
+
+## Hannover, 1716
+
+Gottfried Wilhelm Leibniz son yıllarını Hannover'de, Welf hanedanının bitmek bilmeyen tarihini yazmakla görevli, gut hastalığından bacakları sargılı bir saray memuru olarak geçirdi. İşvereni Elektör Georg Ludwig 1714'te I. George adıyla İngiltere tahtına çıkmış ve onu yanında götürmemişti. Londra'da kalkülüsün önceliği konusunda Newton'la süren çirkin kavga, Leibniz'i orada istenmeyen adam yapmıştı. Kral, tarih kitabı bitene kadar Hannover'den ayrılmamasını buyurdu.
+
+14 Kasım 1716 akşamı, yetmiş yaşında, bir haftalık hastalığın sonunda öldü. Cenazesine saraydan kimse gelmedi; tabutun ardından yürüyenlerin başında kâtibi Eckhart vardı. O günlerde Hannover'de bulunan bir İskoç gezgin, onun ülkesinin süsü gibi değil, bir soyguncu gibi gömüldüğünü yazdı. Kurucusu olduğu Berlin Akademisi de, üyesi olduğu Londra Kraliyet Derneği de tek satır yayımlamadı. Yalnızca Paris Bilimler Akademisi'nde Fontenelle bir anma konuşması okudu. Mezarı elli yıl işaretsiz kaldı.
+
+Geride on binlerce sayfa yayımlanmamış kâğıt vardı: ikili sayı sistemi, bir hesap makinesi, [düşüncenin hesaplanabileceği fikri](/haber/leibniz-hesaplanabilir-dusunce-monad), monadlar ve *Theodicée*'de savunduğu, Voltaire'in sonradan alaya alacağı "mümkün dünyaların en iyisi". Akademi baskısı üç yüzyıl sonra hâlâ tamamlanmadı.
+
+## Berlin, 1831
+
+Georg Wilhelm Friedrich Hegel öldüğünde durum tersiydi. Altmış bir yaşında, Berlin Üniversitesi'nin en ünlü profesörüydü; dersleri Prusya'nın her yerinden dinleyici çekiyor, öğrencileri bakanlıklara ve kürsülere yerleşiyordu. 1831 yazında kolera Berlin'e ulaşınca ailesiyle Kreuzberg'de bir bahçeli eve çekildi, sonbaharda salgın yatışınca kente dönüp derslere başladı. 7 Kasım'da *Mantık Bilimi*'nin ikinci baskısına önsözünü imzaladı; Platon'un *Devlet*'i yedi kez yeniden yazdığını hatırlatıp kendi kitabı için yetmiş yedi kez gözden geçirme fırsatı dilediği önsözdür bu. 13 Kasım Pazar günü mide ağrısıyla yatağa düştü, ertesi gün öğleden sonra öldü.
+
+Resmî kayıt koleradır. Belirtilerin pek uymadığı o zaman da fark edilmişti; bugünkü biyografi yazarları yıllardır süren bir mide-bağırsak hastalığını daha olası buluyor. Kolera kurbanları için öngörülen gece gömüsü kuralından muaf tutuldu. 16 Kasım'da uzun bir öğrenci alayı tabutu Dorotheenstadt Mezarlığı'na taşıdı; kendi isteği üzerine Fichte'nin yanına gömüldü. Mezarlar bugün de yan yana.
+
+## Bitmemiş hesap
+
+Hegel felsefe tarihi derslerinde Leibniz'e hayranlıkla küçümseme arasında bir yer ayırır. Onu Spinoza'nın tek tözüne karşı bireyselliği ve etkinliği savunduğu için över; monadolojiyi ise birbirine gelişigüzel eklenmiş varsayımlardan kurulu bir "metafizik roman" diye niteler. Önceden kurulmuş uyum, Hegel'e göre, çelişkiyi çözmek yerine Tanrı'ya havale eder.
+
+Yine de borç büyüktür. Tözün aynı zamanda özne olduğu, gerçekliğin içeriden gelişen bir etkinlik olduğu düşüncesi Leibniz'siz anlaşılmaz. Ve ikisi de, çok farklı yollardan, aynı rahatsız edici iddiayı savunmuştur: Dünya, bütün kötülüğüyle birlikte, akılla kavranabilir bir bütündür. Leibniz bunu bir teodise ile, Hegel [tarihin içinde gerçekleşen özgürlük ve tanınma](/haber/hegel-taninma-ozgurluk-zaman) fikriyle söyledi. Yirminci yüzyıl ikisine de aynı itirazı yöneltti: Bazı acılar hiçbir bütünün içinde anlam kazanmaz. O itirazın karşısında sistem kurmak hâlâ mümkün mü? 14 Kasım, bu soruyu sormak için iyi bir gün.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 13 Kasım: Augustinus'un doğumu ve yirminci yüzyılın Augustinus'u",
+    slug: "felsefe-tarihinde-bugun-13-kasim-augustinus-dogum-zaman",
+    summary:
+      "13 Kasım 354'te Kuzey Afrika'nın küçük bir kasabasında doğan Augustinus'u bu kez bir Kilise Babası olarak değil, modern felsefenin gizli muhatabı olarak okuyoruz: Husserl zaman derslerini, Wittgenstein Felsefi Soruşturmalar'ı onunla açtı; Arendt doktorasını onun sevgi kavramına yazdı.",
+    seoTitle: "13 Kasım: Augustinus'un doğumu (354) — zaman, bellek ve 20. yüzyıl felsefesindeki izleri",
+    metaDescription:
+      "Felsefe tarihinde 13 Kasım: Augustinus 354'te Thagaste'de doğdu. İtiraflar XI'de zaman, ruhun gerilmesi, Husserl, Wittgenstein, Heidegger ve Arendt'in Augustinus okumaları.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Augustine%20Lateran.jpg?width=1600",
+    imageCredit: "Augustinus'un bilinen en eski tasviri · Lateran freski, Roma (6. yüzyıl) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/augustine/",
+    publishedAt: "2026-11-12T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ortacag-felsefesi", "fenomenoloji", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Augustine of Hippo", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/augustine/", primary: true },
+    ],
+    content: `Aurelius Augustinus 13 Kasım 354'te, bugün Cezayir'in Souk Ahras kenti olan Thagaste'de doğdu. Babası Patricius küçük bir toprak sahibi ve pagandı, annesi Monica Hristiyan. Ana dili Latinceydi, Yunancayı hiçbir zaman iyi öğrenemedi; ailede Berberi kanı olduğu genellikle kabul edilir. Batı düşüncesinin bin yılına yön verecek adam, imparatorluğun taşrasından gelen bir Afrikalıydı.
+
+Hayatını ve [içe dönüşün felsefesini](/haber/augustinus-ic-dunyanin-filozofu) daha önce yazdık; ağustosta [ölüm yıl dönümünde](/haber/felsefe-tarihinde-bugun-28-agustos-augustinus) yeni bulunan vaazlarından söz ettik. Doğum gününde başka bir şeye bakalım: Yirminci yüzyılın en önemli birkaç felsefe kitabı neden onunla başlıyor?
+
+## "Sormazlarsa biliyorum"
+
+*İtiraflar*'ın on birinci kitabında Augustinus dua etmeyi bırakıp bir bilmeceye saplanır. Zaman nedir? Kimse sormazsa biliyorum; sorana açıklamak istersem bilmiyorum. Geçmiş artık yoktur, gelecek henüz yoktur, şimdi ise uzamı olmayan bir sınırdır; uzasaydı o da geçmişe ve geleceğe bölünürdü. Öyleyse "uzun bir zaman" dediğimizde neyi ölçüyoruz?
+
+Cevabı zamanı dışarıdan içeriye taşır. Üç zaman yoktur, üç şimdi vardır: Geçmişin şimdisi bellektir, şimdinin şimdisi dikkat, geleceğin şimdisi beklenti. Bir ilahiyi okurken daha söylenmemiş dizeler beklentimde, söylenenler belleğimde, dikkatim ikisinin arasındaki geçişte durur. Zaman, ruhun bu üç yöne gerilmesidir.
+
+Edmund Husserl 1905'te Göttingen'de verdiği zaman bilinci derslerini şu sözle açar: Zaman sorunuyla uğraşan herkes bugün de *İtiraflar*'ın on birinci kitabını dikkatle okumalıdır, çünkü bilgisiyle övünen modern çağ bu konuda o büyük düşünürden pek ileri gitmemiştir. Husserl'in bir melodiyi duyarken geçen notayı "elde tutma" ve geleni "önceden kavrama" çözümlemesi, Augustinus'un ilahisinin fenomenolojik dile çevirisidir. Heidegger'in *Varlık ve Zaman*'ındaki kaygı çözümlemesi de 1921'de Freiburg'da verdiği Augustinus derslerinden geçer.
+
+## Wittgenstein'ın ilk paragrafı
+
+*Felsefi Soruşturmalar* da bir Augustinus alıntısıyla başlar: *İtiraflar*'ın birinci kitabında çocuğun, büyüklerin şeyleri gösterip adlandırmasını izleyerek dili öğrendiğini anlattığı pasaj. Wittgenstein bu tabloyu, sözcüklerin nesnelerin adı olduğu fikrini, bütün kitap boyunca söker. Ama neden bir dilbilimciyi değil de Augustinus'u seçtiği sorulduğunda, öğrencilerine göre cevabı açıktı: Bu kadar büyük bir zihin böyle düşündüyse, o düşünce ciddiye alınmayı hak eder. *İtiraflar*, Wittgenstein'ın belki de en sevdiği kitaptı. Zaman bilmecesini de alır: "Sormazlarsa biliyorum" cümlesi ona göre felsefi şaşkınlığın tam tarifidir. Bildiğimiz bir şeyi, ona yanlış bir soru sorduğumuzda bilmez oluruz.
+
+## Arendt ve başlangıç
+
+Hannah Arendt 1929'da Karl Jaspers'in yanında doktora tezini Augustinus'ta sevgi kavramı üzerine yazdı ve ona hayatı boyunca döndü. *Tanrı Devleti*'nden bir cümleyi tekrar tekrar alıntılar: Bir başlangıç olsun diye insan yaratıldı. Arendt'in siyaset düşüncesinin merkezindeki "doğumluluk" buradan gelir. Her doğumla dünyaya yeni bir başlangıç girer; eylemek, önceden hesaplanamayan bir şeyi başlatma yetisidir. Totalitarizmin kökenlerini yazdığı kitabın son sayfasında umut adına koyabildiği tek şey bu Augustinus cümlesidir.
+
+Bin altı yüz yetmiş iki yıl önce bugün doğan adamı okumaya devam etmemizin nedeni inancı paylaşmak zorunda olmamız değil. Augustinus, yanıtını bilmediği bir soruyu okurun önünde, saklamadan düşünen ilk yazarlardan biridir. Zaman konusunda, bellek konusunda, kendi istencinin neden kendisine itaat etmediği konusunda. Felsefenin bir öğreti olmadan önce bir soru sorma biçimi olduğunu ondan öğrenenler arasında bir fenomenolog, bir dil filozofu ve bir siyaset kuramcısı var.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 12 Kasım: Roland Barthes, mitler ve yazarın ölümü",
+    slug: "felsefe-tarihinde-bugun-12-kasim-roland-barthes",
+    summary:
+      "12 Kasım 1915'te Cherbourg'da doğan Roland Barthes, bir güreş maçında, bir deterjan reklamında, bir biftekte ideolojinin nasıl 'doğa' kılığına girdiğini gösterdi; sonra metni yazarından kurtardı. Makinelerin metin yazdığı bir çağda 'Yazarın Ölümü' yeniden okunuyor.",
+    seoTitle: "12 Kasım: Roland Barthes'ın doğumu (1915) — Çağdaş Söylenler, Yazarın Ölümü, Camera Lucida",
+    metaDescription:
+      "Felsefe tarihinde 12 Kasım: Roland Barthes 1915'te doğdu. Mitolojiler, göstergebilim, Yazarın Ölümü, S/Z, Bir Aşk Söyleminden Parçalar, Camera Lucida'da studium ve punctum.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Roland%20Barthes%201969%20(cropped).jpg?width=1600",
+    imageCredit: "Roland Barthes, 1969 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.britannica.com/biography/Roland-Gerard-Barthes",
+    publishedAt: "2026-11-11T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "estetik", "postmodernizm", "medya", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Roland Barthes", publisher: "Encyclopaedia Britannica", url: "https://www.britannica.com/biography/Roland-Gerard-Barthes", primary: true },
+    ],
+    content: `Roland Barthes 12 Kasım 1915'te Normandiya kıyısındaki Cherbourg'da doğdu. Deniz subayı olan babası, oğlu bir yaşına basmadan Kuzey Denizi'nde bir çarpışmada öldü. Barthes annesi Henriette'le büyüdü ve altmış bir yaşına, annesinin ölümüne kadar onunla yaşadı. Gençliğini veremden sanatoryumlarda geçirdi; bu yüzden ne Paris'in seçkin yüksek okuluna girebildi ne de olağan bir akademik kariyer yapabildi. Fransız düşüncesinin en çok okunan isimlerinden biri, mesleğe hep kenardan baktı.
+
+## Biftek ve patates kızartması
+
+1950'lerin ortasında bir dergiye her ay kısa yazılar yazdı: Serbest güreş, yeni Citroën, Garbo'nun yüzü, deterjan reklamları, Einstein'ın beyni, biftek ve patates. 1957'de bunları *Mythologies* adıyla topladı (Türkçede *Çağdaş Söylenler*). Yöntemi Saussure'ün dilbiliminden geliyordu, hedefi Marx'tan. Her gösterge bir şey söyler; ama modern toplumda göstergeler ikinci bir iş daha görür. Paris Match'ın kapağında Fransız bayrağını selamlayan siyah bir asker fotoğrafı, birinci düzeyde tam da budur: Bir asker selam veriyor. İkinci düzeyde ise bir şey fısıldar: Fransa büyük bir imparatorluktur, bütün evlatları renk ayrımı olmadan ona hizmet eder, sömürgecilik eleştirisi asılsızdır.
+
+Barthes'ın "mit" dediği bu ikinci dildir ve en önemli özelliği tarihi doğaya çevirmesidir. Belli bir sınıfın belli bir dönemdeki tercihi, "bu böyledir" kılığına girer. Mit yalan söylemez, saklamaz da; yalnızca tartışılabilir olanı kendiliğinden görünür kılar. Bugün reklamı, haberi ya da bir sosyal medya akışını "okuyan" herkes, farkında olsun olmasın, bu kitabın açtığı yoldan yürüyor.
+
+## Metin kimin?
+
+1967'de yayımladığı birkaç sayfalık deneme, başlığıyla bir slogana dönüştü: Yazarın Ölümü. Bir metni açıklamak için yazarının hayatına, niyetine, psikolojisine bakma alışkanlığı, Barthes'a göre, metnin üzerine bir sahip ve bir son anlam koymaktır. Oysa metin tek bir sesin ifadesi değil, sayısız kültür kaynağından gelen alıntıların dokusudur ve bu doku bir yerde birleşiyorsa, o yer yazar değil okurdur. Denemenin son cümlesi ünlüdür: Okurun doğumu, yazarın ölümü pahasına olmalıdır.
+
+Bu satırlar elli dokuz yıl sonra tuhaf bir güncellik kazandı. Arkasında niyet, hayat ve psikoloji bulunmayan, kelimenin tam anlamıyla "alıntıların dokusu" olan metinler artık her gün üretiliyor. Barthes'ın tezi bir bakıma sınanıyor: Anlam gerçekten yalnızca okurda toplanıyorsa, metni kimin ya da neyin yazdığı önemsiz olmalı. Çoğu okurun buna razı olmaması, yazarın o kadar da ölmediğini düşündürüyor.
+
+## Delen ayrıntı
+
+Sonraki Barthes kuramdan hazza döndü. *Bir Aşk Söyleminden Parçalar* (1977) âşığın tekrar eden cümlelerini bir sözlük gibi dizer ve beklenmedik biçimde çok sattı. Aynı yılın başında Collège de France'taki açılış dersinde dilin, söylemeyi yasakladığı için değil söylemeye zorladığı için baskıcı olduğunu ileri sürdü. Annesi de o yıl öldü.
+
+Son kitabı *Camera Lucida* (1980) görünüşte fotoğraf üzerinedir. Barthes iki kavram önerir: Bir fotoğrafa kültürümüz sayesinde duyduğumuz genel ilgi, *studium*; ve bazı fotoğraflarda bizi nedensizce yaralayan, kişisel ayrıntı, *punctum*. Kitabın merkezinde, annesinin beş yaşındayken bir kış bahçesinde çekilmiş fotoğrafı durur. Barthes onu uzun uzun anlatır ve okura göstermez: Sizin için sıradan bir resim olurdu.
+
+Kitap çıktıktan birkaç hafta sonra, 25 Şubat 1980'de, Collège de France'ın önünde yolun karşısına geçerken bir çamaşırhane kamyonetinin altında kaldı; 26 Mart'ta öldü. Yazarın ölümünü ilan eden adamın en kalıcı kitabı, bir oğulun yas defteri oldu.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 11 Kasım: Kierkegaard'ın ölümü ve Kilise'yle son kavga",
+    slug: "felsefe-tarihinde-bugun-11-kasim-kierkegaard-olum",
+    summary:
+      "11 Kasım 1855'te Kopenhag'da kırk iki yaşında ölen Søren Kierkegaard, son yılını Danimarka Devlet Kilisesi'ne karşı tek kişilik bir savaşla geçirmişti. Ölüm döşeğinde papazdan komünyon almayı reddetti. Varoluşçuluğun atası sayılan adamın son haftaları ve 'öznellik hakikattir' sözünün anlamı.",
+    seoTitle: "11 Kasım: Kierkegaard'ın ölümü (1855) — Øieblikket, Kilise eleştirisi, öznellik ve iman",
+    metaDescription:
+      "Felsefe tarihinde 11 Kasım: Søren Kierkegaard 1855'te Kopenhag'da öldü. An dergisi, Hristiyan âlemi eleştirisi, varoluş evreleri, Korku ve Titreme, kaygı, Regine Olsen; aynı gün 1821'de Dostoyevski doğdu.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kierkegaard.jpg?width=1600",
+    imageCredit: "Søren Kierkegaard · Kuzeni Niels Christian Kierkegaard'ın çizimi (1840 dolayları) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/kierkegaard/",
+    publishedAt: "2026-11-10T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "etik", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Søren Kierkegaard", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/kierkegaard/", primary: true },
+    ],
+    content: `2 Ekim 1855'te Kopenhag'da bir adam sokakta yere yığıldı. Arabayla Frederik Hastanesi'ne götürüldü; kabul defterine belden aşağısının felçli olduğu yazıldı. Søren Aabye Kierkegaard kırk iki yaşındaydı ve bankadan, babasından kalan mirasın son parasını çekmiş dönüyordu. Kırk gün sonra, 11 Kasım akşamı öldü.
+
+## Tek kişilik savaş
+
+Son on ayını, kendi deyişiyle, bir yangın çıkarmakla geçirmişti. 1854'te Danimarka Kilisesi'nin başı Piskopos Mynster öldüğünde, halefi Martensen cenaze vaazında onu "hakikat tanıklarından biri" diye andı. Kierkegaard'ın babasının da papazı olan Mynster, rahat bir evde yaşayan, maaşlı, saygın bir devlet memuruydu. Kierkegaard için hakikat tanığı, yoksulluk içinde yaşayan, alaya alınan, kırbaçlanan kişiydi. Önce gazetede yazdı, sonra kendi parasıyla *Øieblikket* (An) adlı bir broşür dizisi çıkardı. Dokuz sayı yayımlandı; onuncusu öldüğünde masasındaydı.
+
+Suçlaması şuydu: Danimarka'da herkes doğuştan Hristiyan sayıldığına göre, Hristiyanlık ortadan kalkmıştır. Bin papaz, geçimini Yeni Ahit'in istediği şeyin tam tersini vaaz ederek sağlamaktadır. İnsanları resmî ayine katılmamaya çağırdı; katılan, Tanrı'yla alay etmeye ortak oluyordu.
+
+Hastanede çocukluk arkadaşı papaz Emil Boesen her gün ziyaretine geldi ve konuşmaları not etti. Komünyon almak ister miydi? Evet, ama bir papazdan değil, sıradan bir inanandan. Bu mümkün değildi. Öyleyse almadan ölecekti: Papazlar kralın memurudur, kralın memurlarının Hristiyanlıkla bir ilgisi yoktur. Piskopos olan ağabeyi Peter kapıdan geri çevrildi. Cenaze, ironik biçimde, kentin baş kilisesinde yapıldı; mezar başında yeğeni Henrik Lund, onu ömrünün sonunda reddettiği kurumun törenle gömmesini yüksek sesle protesto etti.
+
+## Kalabalık yalandır
+
+Kilise kavgası bir sapma değil, bütün yapıtın vardığı yerdir. Kierkegaard'ın on iki yıl boyunca takma adlarla yazdığı kitaplar aynı soruyu sorar: Bir insan nasıl gerçekten kendisi olur? *Ya/Ya da* (1843) hazzın peşindeki estetik hayat ile seçimin ve sorumluluğun etik hayatını karşı karşıya koyar. *Korku ve Titreme* aynı yıl üçüncü bir olanak açar: Oğlunu kurban etmeye götüren İbrahim, etiğin diliyle bir katildir; onu iman babası yapan şey hiçbir genel kuralla açıklanamaz. *Kaygı Kavramı* (1844) özgürlüğün baş dönmesini anlatır: Uçurumun kenarında düşmekten değil, atlayabilecek olmaktan ürkeriz.
+
+Hedefte hep Hegel vardı. Sistem her şeyi açıklar, yalnızca sistemi yazan profesörün pazartesi sabahı nasıl yaşayacağını açıklamaz. *Sonuçlandırıcı Bilimdışı Ek*'teki (1846) "öznellik hakikattir" sözü görecelik ilanı değildir. Söylediği şudur: Varoluşla ilgili hakikatler bilgi olarak edinilmez, yaşanarak sahiplenilir; doğru öğretiye inanıp yanlış yaşayan, yanlış tanrıya bütün varlığıyla yakaran putperestten daha uzaktadır hakikate.
+
+Bu yolun bedelini kendi hayatında ödedi. 1841'de Regine Olsen'le nişanını bozdu ve nedenini kimseye tam açıklamadı. Vasiyetinde her şeyini ona bıraktı. Regine evliydi, mirası kabul etmedi; yalnızca mektuplarını aldı.
+
+## Aynı gün doğan
+
+Yirminci yüzyıl onu ölümünden yarım yüzyıl sonra keşfetti. Heidegger'in kaygısı, Jaspers'in sınır durumları, Sartre'ın seçimi, Camus'nün absürdü ondan geçer; Wittgenstein onu on dokuzuncu yüzyılın en derin düşünürü sayıyordu.
+
+Takvimin bir cilvesi daha var. 11 Kasım 1821'de Moskova'da Fyodor Dostoyevski doğdu. İkisi birbirini hiç okumadı. Ama Yeraltı Adamı'nın "iki kere iki dört" duvarına isyanı ile Kierkegaard'ın sisteme itirazı, Büyük Engizisyoncu ile "Hristiyan âlemi" eleştirisi aynı damardan gelir: İnsanı mutlu etmek için özgürlüğünü elinden alan her düzene karşı tek kişinin itirazı.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 10 Kasım: Descartes'ın üç rüyası",
+    slug: "felsefe-tarihinde-bugun-10-kasim-descartes-uc-ruya",
+    summary:
+      "10 Kasım 1619 gecesi, Tuna kıyısında soba ile ısıtılan bir odada yirmi üç yaşında bir Fransız asker art arda üç rüya gördü ve sabah, hayatını 'hayranlık verici bir bilimin temellerini' kurmaya adamaya karar verdi. Modern rasyonalizmin bir rüyadan doğmuş olması felsefe tarihinin en güzel ironilerinden.",
+    seoTitle: "10 Kasım 1619: Descartes'ın üç rüyası — Olympica, soba ısıtmalı oda ve yöntemin doğuşu",
+    metaDescription:
+      "Felsefe tarihinde 10 Kasım: Descartes 1619'da Neuburg yakınlarında üç rüya gördü. Baillet'nin aktardığı Olympica, kasırga, gök gürültüsü, Ausonius'un dizesi, Beeckman'la karşılaşma ve Yöntem Üzerine Konuşma.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Frans%20Hals%20-%20Portret%20van%20Ren%C3%A9%20Descartes.jpg?width=1600",
+    imageCredit: "René Descartes · Frans Hals'e atfedilen portre (1649 dolayları), Louvre · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/descartes/",
+    publishedAt: "2026-11-09T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "kavram", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "René Descartes", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/descartes/", primary: true },
+    ],
+    content: `Otuz Yıl Savaşı'nın ikinci kışıydı. Bavyera Dükü Maximilian'ın ordusuna gönüllü yazılmış genç bir Fransız soylusu, Frankfurt'ta imparatorun taç giyme törenini izledikten sonra birliğine dönerken Tuna kıyısında, büyük olasılıkla Neuburg yakınlarında kışa yakalandı. On sekiz yıl sonra *Yöntem Üzerine Konuşma*'da o günleri anlatacaktı: Oyalayacak bir sohbet, rahatsız edecek bir kaygı ya da tutku yoktu; bütün gün soba ile ısıtılan bir odada tek başına kapanıp düşünceleriyle baş başa kalıyordu.
+
+10 Kasım 1619'u 11'ine bağlayan gece René Descartes üç rüya gördü. Bunları *Olympica* adını verdiği küçük bir deftere Latince yazdı. Defter kayıp; içeriğini, onu elinde tutmuş olan ilk biyografi yazarı Adrien Baillet'nin 1691 tarihli aktarımından biliyoruz.
+
+## Kasırga, kıvılcımlar, bir dize
+
+İlk rüyada sokakta yürüyor, sağ yanındaki bir güçsüzlük yüzünden sola eğilerek ilerlemek zorunda kalıyordu. Bir kasırga onu olduğu yerde döndürdü. Sığınmak için bir okulun avlusuna girdi; orada biri ona yabancı bir ülkeden getirilmiş bir şey, Baillet'ye göre bir kavun vereceğini söyledi. Çevresindeki herkes dimdik duruyordu, yalnızca o rüzgârda sendeliyordu. Sancıyla uyandı, kötü bir ruhun işi olmasından korkup dua etti.
+
+İkinci rüya tek bir sesti: Gök gürültüsü sandığı keskin bir patlama. Gözlerini açtığında odanın kıvılcımlarla dolu olduğunu gördü.
+
+Üçüncü rüya sakindi. Masada iki kitap vardı: Bir sözlük ve bir Latin şiiri antolojisi. Antolojiyi açınca gözü Ausonius'un bir dizesine ilişti: *Quod vitae sectabor iter?* Hayatta hangi yolu tutacağım? Tanımadığı bir adam belirip ona "Evet ve Hayır" diye başlayan başka bir şiir gösterdi. Descartes daha uyanmadan rüyayı yorumlamaya başladı: Sözlük bütün bilimlerin toplamıydı, şiir kitabı felsefe ile bilgeliğin birliği, "Evet ve Hayır" insan bilgisindeki doğru ile yanlış. Dize ise bir çağrıydı.
+
+Sabah, hakikat ruhunun kendisine bütün bilimlerin hazinesini açmak istediği sonucuna vardı ve şükran için İtalya'da Loreto'ya hacca gitmeye ant içti. Defterine o günün tarihiyle şunu yazmıştı: Coşkuyla doluyken hayranlık verici bir bilimin temellerini buldum.
+
+## Tam bir yıl önce
+
+Bu "hayranlık verici bilim"in ne olduğu tartışılır. En güçlü yorum, bütün bilimlerin tek bir yöntemle, matematiğin kesinliğiyle birleştirilebileceği fikridir. Tohum bir yıl önce atılmıştı. 10 Kasım 1618'de Hollanda'nın Breda kentinde, bir duvara asılmış matematik problemini okumaya çalışan Descartes, yanındaki adamdan Flamancayı çevirmesini istemişti. Adam, kendinden sekiz yaş büyük hekim Isaac Beeckman'dı; fiziği matematikle yapmanın mümkün olduğunu ona o gösterdi. Descartes ona şöyle yazacaktı: Uyuşuk bir adamı uyandıran yalnızca sizsiniz.
+
+## Rüyadan kuşkuya
+
+İroni açık ve Descartes'ı küçültmez. Her inancı kuşkunun süzgecinden geçiren, "açık ve seçik" olmayanı reddeden filozof, mesleğini bir gecelik rüyaya ve onu tanrısal bir işaret saymasına borçludur. Yirmi iki yıl sonra *Meditasyonlar*'ın ilk sayfalarında rüya geri döner, bu kez bir tehdit olarak: Şu an ateşin başında oturduğumu sanıyorum, ama rüyamda da kaç kez böyle sandım. Uyanıklığı uykudan ayıran kesin bir işaret yoksa duyulara nasıl güveneceğim?
+
+1619'un rüyaları ona bir yol gösterdi, 1641'in rüya argümanı o yolun zeminini kazdı. İkisi arasında, kendi coşkusuna da kuşkuyla bakmayı öğrenmiş bir adam var. Keşif anları sanıldığı kadar akılcı işlemez; akılcılık, sabah olduktan sonra rüyaya hesap sormaktır.
+
+Bugün Türkiye'de 10 Kasım başka bir anmanın günü. "Hayatta en hakiki mürşit ilimdir" diyen Mustafa Kemal Atatürk'ün 1938'deki ölümünün yıl dönümü, yöntemini akılda ve bilimde arayan o geleneğin bu topraklardaki en etkili savunucusunu hatırlatıyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 9 Kasım: Hermann Weyl, simetri ve matematiğin temelleri",
+    slug: "felsefe-tarihinde-bugun-9-kasim-hermann-weyl",
+    summary:
+      "9 Kasım 1885'te doğan Hermann Weyl, Hilbert'in en parlak öğrencisi, Einstein'ın meslektaşı ve Husserl'in dikkatli bir okuruydu. Ayar simetrisi fikrini fiziğe o kazandırdı; matematiğin temelleri kavgasında hocasına karşı sezgicilerin yanında durdu. Doğru ile güzel arasında seçmek zorunda kaldığında hangisini seçtiğini de söyledi.",
+    seoTitle: "9 Kasım: Hermann Weyl'in doğumu (1885) — ayar simetrisi, süreklilik, matematik felsefesi",
+    metaDescription:
+      "Felsefe tarihinde 9 Kasım: Hermann Weyl 1885'te doğdu. Uzay-Zaman-Madde, ayar kuramı, Das Kontinuum, Brouwer ve sezgicilik, Husserl etkisi, Matematik ve Doğa Bilimi Felsefesi, Simetri.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Weyl%20ETH-Bib%20Portr%2000890.jpg?width=1600",
+    imageCredit: "Hermann Weyl · ETH Zürih Kütüphanesi Görsel Arşivi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://plato.stanford.edu/entries/weyl/",
+    publishedAt: "2026-11-08T23:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "mantik", "fenomenoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Hermann Weyl", publisher: "Stanford Encyclopedia of Philosophy", url: "https://plato.stanford.edu/entries/weyl/", primary: true },
+    ],
+    content: `Yirminci yüzyılın büyük matematikçileri arasında felsefeyi en ciddiye alan, belki de Hermann Weyl'di. 9 Kasım 1885'te Hamburg yakınlarındaki Elmshorn'da bir banka müdürünün oğlu olarak doğdu. On sekiz yaşında Göttingen'e gitti ve David Hilbert'in derslerine girdi; sonradan o ilk aylarda önünde yeni bir dünyanın açıldığını yazdı. 1913'te Zürih'te profesör oldu, bir yıl boyunca Einstein'la aynı koridoru paylaştı. 1930'da Hilbert'in kürsüsünü devraldı. Üç yıl sonra, karısı Yahudi olduğu için Nazi Almanyası'ndan ayrılıp Princeton'daki İleri Araştırmalar Enstitüsü'ne, Einstein ve Gödel'in yanına geçti.
+
+## Yanlış bir kuramdan doğan doğru fikir
+
+1918'de yayımladığı *Uzay, Zaman, Madde*, genel göreliliğin ilk büyük sistemli anlatımıdır. Aynı yıl Weyl daha iddialı bir şey denedi: Kütleçekimi ile elektromanyetizmayı tek bir geometride birleştirmek. Einstein yön karşılaştırmasının yola bağlı olduğunu göstermişti; Weyl uzunluk ölçüsünün de yola bağlı olabileceğini, her noktada ölçeği yeniden "ayarlama" özgürlüğümüzün bulunduğunu ve elektromanyetik alanın bu özgürlükten doğduğunu öne sürdü. Einstein hayran kaldı ve hemen itiraz etti: Öyle olsaydı atomların tayf çizgileri geçmişlerine bağlı olurdu, oysa keskindir.
+
+Kuram yanlıştı, fikir değildi. 1929'da Weyl, kuantum mekaniğinin ışığında aynı düşünceyi ölçekten faza taşıdı ve elektromanyetizmanın gerçekten bir yerel simetriden türetilebildiğini gösterdi. "Ayar simetrisi" adı o ilk başarısız denemeden kalmadır. Bugün parçacık fiziğinin standart modelindeki bütün temel etkileşimler bu kalıpla yazılıyor. Güzel bulduğu için peşini bırakmadığı bir fikrin on yıl sonra doğru çıkması, Weyl'in bilim anlayışını da özetler.
+
+## Kum üzerine kurulu ev
+
+Aynı 1918 yılında *Das Kontinuum* çıktı. Weyl, gerçek sayıların ve analizin alışılmış temellerinin bir kısır döngü içerdiğini düşünüyordu: Bir kümeyi, kendisinin de üyesi olduğu bir bütüne başvurarak tanımlamak. Kitabın girişinde analiz binasının önemli bir bölümünün kum üzerine kurulu olduğunu yazar ve yalnızca doğal sayılardan adım adım kurulabilen bir matematik önerir.
+
+Üç yıl sonra daha ileri gitti. Hollandalı L. E. J. Brouwer'in sezgiciliğine, matematiksel nesnelerin ancak zihinsel kuruluşla var olduğunu ve sonsuz toplamlarda üçüncü hâlin imkânsızlığı ilkesinin geçerli sayılamayacağını savunan görüşe katıldığını ilan etti: Brouwer, işte devrim budur. Hocası Hilbert öfkelendi; matematikçinin elinden bu ilkeyi almak boksöre yumruk kullanmayı yasaklamaktır, dedi. Weyl sonraki yıllarda sezgiciliğin matematiğin çok büyük bir bölümünü feda ettiğini kabul edip geri çekildi, ama Hilbert'in biçimciliğiyle de hiç barışmadı. Gödel'in 1931'deki teoremleri, temeller konusundaki huzursuzluğunda haksız olmadığını gösterdi.
+
+## Fenomenolog matematikçi
+
+Weyl'in karısı Helene, Husserl'in öğrencisiydi; Weyl de Husserl'i dikkatle okudu ve *Uzay, Zaman, Madde*'nin girişini bilincin dolaysız verilerinden yola çıkan bir çözümlemeyle açtı. Süreklilik konusundaki ısrarı buradan gelir: Yaşanan zaman akar ve noktalardan oluşmaz; matematiğin noktalardan kurduğu süreklilik, sezgideki sürekliliği yakalayamaz. 1927'de yazdığı *Matematik ve Doğa Bilimi Felsefesi*, bir bilim insanının kaleminden çıkmış en kapsamlı felsefe kitaplarından biri olarak hâlâ okunuyor. Emekliliğinde verdiği derslerden oluşan *Simetri* (1952) ise bir Yunan heykelinden kristallere, oradan grup kuramına yürüyen küçük bir başyapıttır.
+
+Ona atfedilen ve yakınlarının doğruladığı bir söz vardır: Çalışmalarımda hep doğruyu güzelle birleştirmeye çalıştım; ama birini seçmek zorunda kaldığımda genellikle güzeli seçtim. Bir matematikçiden duymayı beklemediğimiz bu itiraf, bilimde kuram seçiminin yalnızca kanıta dayanmadığını söyleyen bilim felsefecilerine erken bir tanıklıktır.
+
+Weyl 1955'te Zürih'te, yetmişinci doğum günü için gelen mektuplara teşekkür yazılarını postaya verdikten sonra yolda kalp krizinden öldü. 9 Kasım, Alman tarihinin başka kayıtlarını da taşır: 1938'de Kasım Pogromu'nun, 1989'da Berlin Duvarı'nın yıkılışının günüdür.`,
+  },
   {
     title: "Peter Sloterdijk: İnsan neden kendisine bir dünya kurmak zorundadır?",
     slug: "peter-sloterdijk-kureler-kinizm-insan-dunya-kurmak",
@@ -38985,6 +39791,125 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Dünya Felsefe Günü Sempozyumu (MSGSÜ Felsefe Bölümü)",
+    slug: "msgsu-dunya-felsefe-gunu-sempozyumu-2026",
+    summary:
+      "Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü'nün Dünya Felsefe Günü sempozyumu: Fârâbî, Schleiermacher, Kafka, Zeami ve Rancière, Seneca üzerine altı sunum.",
+    description: `Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü, Dünya Felsefe Günü kapsamında **19 Kasım 2026 Perşembe** günü saat **13.00**'te Bomonti Konferans Salonu'nda bir sempozyum düzenliyor.
+
+**Açılış:** Deniz Başkurt (Felsefe Kulübü Başkanı)
+
+**Birinci oturum**
+- Eftelya Uzun — Fârâbî'de Mutluluğun Kazanılması Bağlamında Bilgi, Erdem ve Mutluluk
+- Selen Kadayifçi — Ötekini Düşünmek
+- Kaan H. Ökten — Schleiermacher ve Hermenötik
+
+**İkinci oturum**
+- Zeynep Aslan — Kafka'nın Dava'sında Adalet
+- Asmin Doğan — Çiçek Kimin İçin Açar? Zeami ve Rancière'de Sanatçı, Seyirci ve Estetik Deneyim
+- Abrim Gürgen — Seneca'da Tranquillitas / Ruh Dinginliği
+
+Oturum saatleri için üniversitenin yayımladığı program görseline bakınız.`,
+    kind: "SEMPOZYUM",
+    organizer: "Mimar Sinan Güzel Sanatlar Üniversitesi Felsefe Bölümü",
+    speakers: "Eftelya Uzun, Selen Kadayifçi, Kaan H. Ökten, Zeynep Aslan, Asmin Doğan, Abrim Gürgen",
+    topic: "Dünya Felsefe Günü",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-19T10:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "MSGSÜ Bomonti Yerleşkesi, Bomonti Konferans Salonu",
+    fee: "Ücretsiz",
+    website: "https://msgsu.edu.tr/etkinlikler/dunya-felsefe-gunu-sempozyumu/",
+    sourceName: "Mimar Sinan Güzel Sanatlar Üniversitesi",
+    sourceUrl: "https://msgsu.edu.tr/etkinlikler/dunya-felsefe-gunu-sempozyumu/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mimar%20Sinan%20Fine%20Arts%20University.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-11-18T05:30:00.000Z",
+  },
+  {
+    title: "Dünyayı Birlikte Yaşamak — Souleymane Bachir Diagne (UNESCO Dünya Felsefe Günü, Paris)",
+    slug: "unesco-dunya-felsefe-gunu-2026-diagne-paris",
+    summary:
+      "UNESCO Genel Merkezi'nde Dünya Felsefe Günü ana oturumu: Souleymane Bachir Diagne'in 'Living the Earth Together' konferansı ve iklim, yapay zekâ, göç, sağlık temalı yuvarlak masa. Canlı yayınla izlenebiliyor.",
+    description: `UNESCO, Dünya Felsefe Günü'nü **19 Kasım 2026** akşamı Paris'teki Genel Merkezi'nde (II numaralı salon) kutluyor. Genel oturum Paris saatiyle **18.30-20.30** (Türkiye saatiyle 20.30-22.30) arasında.
+
+- **Konferans:** Souleymane Bachir Diagne — "Living the Earth Together" (evrensel insan kavramı üzerine)
+- **Yuvarlak masa:** "Birlikte düşünmek ve eylemek: Çoğul sorunlarla dolu bir dünyada yaşamak için felsefe". Temalar: iklim, yapay zekâ, göç, sağlık. Üç öğrenci atölye sonuçlarını aktaracak.
+- **Gündüz:** Paris-Est Créteil, Caen Normandie ve Côte d'Azur üniversitelerinden öğrencilerle dokuz atölye (yurttaş meclisi, yapay zekâ duruşması canlandırması, gelecek okuryazarlığı, anlatı tıbbı, barış sözcükleri haritası). Sonuçlar bir Yurttaş Manifestosu'nda yayımlanacak.
+
+Genel oturum halka açık; yerinde katılım için kayıt gerekiyor. Oturum UNESCO'nun web yayınından canlı izlenebilir: https://webcast.unesco.org/events/2026-11-WPD/`,
+    kind: "KONFERANS",
+    organizer: "UNESCO",
+    speakers: "Souleymane Bachir Diagne",
+    topic: "Evrensellik, iklim, yapay zekâ, göç, sağlık",
+    format: "HIBRIT",
+    startsAt: "2026-11-19T17:30:00.000Z",
+    endsAt: "2026-11-19T19:30:00.000Z",
+    timezone: "Europe/Paris",
+    hasTime: true,
+    city: "Paris",
+    country: "Fransa",
+    venue: "UNESCO Genel Merkezi, Salon II",
+    registrationUrl: "https://indico.un.org/event/1024266/",
+    fee: "Ücretsiz (kayıt gerekli)",
+    website: "https://www.unesco.org/en/articles/world-philosophy-day-2026",
+    sourceName: "UNESCO",
+    sourceUrl: "https://www.unesco.org/en/articles/world-philosophy-day-2026",
+    featured: false,
+    publishedAt: "2026-11-18T05:31:00.000Z",
+  },
+  {
+    title: "Felsefe ve Evrensel Bir Fikir Olarak UNESCO — İoanna Kuçuradi anısına",
+    slug: "unesco-turkiye-felsefe-ve-evrensel-bir-fikir-olarak-unesco-2026",
+    summary:
+      "UNESCO Türkiye Millî Komisyonu'nun Dünya Felsefe Günü çevrim içi etkinliği, günün fikir annesi İoanna Kuçuradi'nin anısına düzenleniyor.",
+    description: `UNESCO Türkiye Millî Komisyonu, Dünya Felsefe Günü kapsamında **19 Kasım 2026 Perşembe** günü saat **19.30**'da "Felsefe ve Evrensel Bir Fikir Olarak UNESCO" başlıklı çevrim içi bir etkinlik düzenliyor. Etkinlik, 2026'da kaybettiğimiz Prof. Dr. İoanna Kuçuradi'nin anısına adanmış durumda.
+
+Konuşmacılar ve katılım bağlantısı için Komisyon'un duyuru sayfasına bakınız.`,
+    kind: "WEBINAR",
+    organizer: "UNESCO Türkiye Millî Komisyonu",
+    topic: "Felsefe, evrensellik ve UNESCO",
+    format: "ONLINE",
+    startsAt: "2026-11-19T16:30:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    country: "Türkiye",
+    fee: "Ücretsiz",
+    website: "https://www.unesco.org.tr/home/AnnouncementDetail/6815",
+    sourceName: "UNESCO Türkiye Millî Komisyonu",
+    sourceUrl: "https://www.unesco.org.tr/home/AnnouncementDetail/6815",
+    featured: false,
+    publishedAt: "2026-11-18T05:32:00.000Z",
+  },
+  {
+    title: "Uluğ Nutku Sempozyumu: İnsan",
+    slug: "ulug-nutku-sempozyumu-insan-izmir-2026",
+    summary:
+      "Ölümünün 12. yılında 'gezgin filozof' Uluğ Nutku İzmir'de iki günlük bir sempozyumla anılıyor. Tema: İnsan.",
+    description: `Felsefi antropolojinin Türkiye'deki önemli isimlerinden Uluğ Nutku (1935-2014), ölümünün 12. yılında İzmir'de **20-21 Kasım 2026** tarihlerinde iki günlük bir sempozyumla anılıyor. Sempozyumun teması **"İnsan"**. Açılış 20 Kasım Cuma günü saat 18.00'de Yakın Kitabevi'nde yapılacak.
+
+Düzenleyiciler arasında Felsefeciler Derneği de bulunuyor. Ayrıntılı program için düzenleyicilerin duyurularına bakınız.`,
+    kind: "SEMPOZYUM",
+    organizer: "Felsefeciler Derneği ve paydaş kuruluşlar",
+    topic: "Felsefi antropoloji: İnsan",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-20T15:00:00.000Z",
+    endsAt: "2026-11-21T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    city: "İzmir",
+    country: "Türkiye",
+    venue: "Yakın Kitabevi (açılış)",
+    website: "https://medyascope.tv/2026/10/30/gezgin-filozof-ulug-nutku-izmirde-iki-gunluk-sempozyumla-anilacak/",
+    sourceName: "Medyascope · Cumhuriyet",
+    sourceUrl: "https://medyascope.tv/2026/10/30/gezgin-filozof-ulug-nutku-izmirde-iki-gunluk-sempozyumla-anilacak/",
+    featured: false,
+    publishedAt: "2026-11-18T05:33:00.000Z",
+  },
   {
     title: "ICON-S Türkiye: Kanun-ı Esasî'den Bugüne Anayasal Birikim",
     slug: "icon-s-turkiye-kanun-i-esasiden-bugune-anayasal-birikim-2026",
