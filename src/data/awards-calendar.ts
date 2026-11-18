@@ -28,6 +28,7 @@ export type AwardEntry = {
 export const awardsCalendar: AwardEntry[] = [
   { date: "2026-03-01", precision: "month", award: "Rolf Schock Ödülü (Mantık ve Felsefe)", laureate: "Bas van Fraassen", kind: "Duyuru", note: "İsveç Kraliyet Bilimler Akademisi · 600 bin SEK", href: "/haber/rolf-schock-odulu-2026-bas-van-fraassen" },
   { date: "2026-03-01", precision: "month", award: "Holberg Ödülü", laureate: "Lyndal Roper", kind: "Duyuru", note: "Bergen · tören haziranda yapıldı", href: "/haber/holberg-odulu-2026-lyndal-roper" },
+  { date: "2026-06-12", award: "Feltrinelli ve Lincei Ödülleri", laureate: "Wang Hui · Roberto Esposito · Marcello Ienca", kind: "Tören", note: "Accademia dei Lincei, Roma", href: "/haber/felsefe-odulleri-kasim-2026-nagel-buchak-lincei" },
   { date: "2026-07-23", award: "Fields Madalyası", laureate: "Deng, Pardon, Tsimerman, Wang", kind: "Tören", note: "ICM 2026, Philadelphia", href: "/haber/fields-madalyasi-2026-deng-pardon-tsimerman-wang" },
   { date: "2026-08-01", precision: "month", award: "Berggruen Felsefe ve Kültür Ödülü", laureate: "Michael Sandel", kind: "Duyuru", note: "1 milyon dolar", href: "/haber/berggruen-odulu-michael-sandel" },
   { date: "2026-08-25", award: "Lebowitz Felsefi Başarı Ödülü", laureate: "Felipe De Brigard ve Sarah Robins", kind: "Duyuru", note: "APA & Phi Beta Kappa · kişi başı 25 bin dolar", href: "/haber/lebowitz-odulu-2026-de-brigard-robins" },
@@ -44,8 +45,10 @@ export const awardsCalendar: AwardEntry[] = [
   { date: "2026-10-21", award: "Philip Leverhulme Ödülleri (Felsefe)", laureate: "Josh Milburn, Katharine Jenkins", kind: "Duyuru", note: "100 bin sterlin", href: "/haber/oduller-leverhulme-2026-dennett-humphrey-silverman-adams" },
   { date: "2026-11-03", award: "Prix lycéen du livre de philosophie", laureate: "Antoine Vuille", kind: "Tören", note: "Paris, Bibliothèque nationale de France", href: "/haber/oduller-lakatos-2026-norton-prix-lyceen-vuille" },
   { date: "2026-11-04", award: "Nayef Al-Rodhan Ödülü", laureate: "Pinotti · Turello · Owen (kısa liste)", kind: "Açıklanacak", note: "Royal Institute of Philosophy", href: "/haber/nayef-al-rodhan-odulu-2026-uzun-liste" },
+  { date: "2026-11-06", award: "Barry Ödülü (AASL)", laureate: "Lara Buchak", kind: "Duyuru", note: "Karar kuramı · 50 bin dolar", href: "/haber/felsefe-odulleri-kasim-2026-nagel-buchak-lincei" },
   { date: "2026-11-10", award: "Kyoto Ödülü (Sanat ve Felsefe)", laureate: "Laurie Anderson", kind: "Tören", note: "Kyoto", href: "/haber/kyoto-odulu-2026-laurie-anderson" },
   { date: "2026-11-17", award: "Du Châtelet Fizik Felsefesi Ödülü", laureate: "Qiu Lin", kind: "Atölye", note: "Duke Üniversitesi", href: "/haber/oduller-du-chatelet-2026-qiu-lin-psa-bilim-felsefesi-irk-odulu" },
+  { date: "2026-11-17", award: "Berggruen Felsefe ve Kültür Ödülü", laureate: "Thomas Nagel", kind: "Duyuru", note: "1 milyon dolar · tören 2027 ilkbaharı, New York", href: "/haber/thomas-nagel-2026-berggruen-odulu-yarasa-bilinc" },
   { date: "2026-11-19", award: "PSA Bilim Felsefesi ve Irk Ödülü", laureate: "Açıklanacak", kind: "Açıklanacak", note: "PSA2026, San Diego, 19-22 Kasım", href: "/haber/oduller-du-chatelet-2026-qiu-lin-psa-bilim-felsefesi-irk-odulu" },
   { date: "2026-12-06", award: "31. Türkiye Felsefe Olimpiyadı", laureate: "Lise öğrencileri", kind: "Yarışma", note: "Türkiye Felsefe Kurumu · 11 ilde çevrim içi", href: "/etkinlik/turkiye-felsefe-olimpiyadi-31-2026" },
   { date: "2026-12-10", award: "Hannah Arendt Siyasi Düşünce Ödülü", laureate: "Lea Ypi", kind: "Tören", note: "Bremen", href: "/haber/lea-ypi-hannah-arendt-odulu-2026" },
