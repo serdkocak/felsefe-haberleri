@@ -3091,6 +3091,101 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Peter Sloterdijk'in 2026'sı: Prenslerin geri dönüşü, yeni imparatorluklar ve yapay zekâ",
+    slug: "peter-sloterdijk-2026-prens-ve-mirascilari-yeni-imparatorluklar-yapay-zeka",
+    summary:
+      "Yetmiş dokuz yaşındaki Peter Sloterdijk bu yıl iki kez gündemi belirledi. İlkbaharda çıkan 'Der Fürst und seine Erben' ile Machiavelli'nin Prens'ini Trump, Putin ve Modi çağında yeniden okudu ve 'büyüğün bayağılığı' kavramını ortaya attı. Yazın verdiği söyleşilerde ise imparatorlukların dönüşünü, liberalizmin sonunu ve yapay zekâyı Küreler kuramının diliyle konuştu.",
+    seoTitle: "Peter Sloterdijk 2026: Der Fürst und seine Erben, Machiavelli, Trump ve yapay zekâ söyleşileri",
+    metaDescription:
+      "Sloterdijk'in 2026 kitabı Der Fürst und seine Erben (Suhrkamp, 189 s.): Machiavelli'nin Prens'i, III. Napolyon, Victor Hugo, 'büyüğün bayağılığı'. Philosophie Magazine ve Handelsblatt söyleşileri: yeni imparatorluklar, Avrupa, liberalizmin sonu, yapay zekâ.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Sloterdijk%202024.jpg?width=1600",
+    imageCredit: "Peter Sloterdijk, 2024 · Wikimedia Commons",
+    featured: true,
+    sourceName: "ORF · SRF · Philosophie Magazine · Handelsblatt",
+    sourceUrl: "https://orf.at/stories/3426412/",
+    publishedAt: "2026-11-21T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "yapay-zeka", "teknoloji-felsefesi", "yeni-kitap", "soylesi"],
+    philosopherSlugs: ["peter-sloterdijk"],
+    sources: [
+      { title: "Neues Sloterdijk-Buch: Die Renaissance der „Fürsten“", publisher: "ORF (Katja Gasser)", date: "13 Nisan 2026", url: "https://orf.at/stories/3426412/", primary: true },
+      { title: "«Der Fürst und seine Erben»: Peter Sloterdijk und die Banalität des Grossen", publisher: "SRF Kultur (Jan Opielka)", date: "9 Haziran 2026", url: "https://www.srf.ch/kultur/gesellschaft-religion/der-fuerst-und-seine-erben-peter-sloterdijk-und-die-banalitaet-des-grossen" },
+      { title: "Der Fürst und seine Erben. Über große Männer im Zeitalter der gewöhnlichen Leute", publisher: "Suhrkamp Verlag", url: "https://www.suhrkamp.de/buch/peter-sloterdijk-der-fuerst-und-seine-erben-t-9783518001363" },
+      { title: "„Das Böse-Sein-Können wurde zur Kompetenz“", publisher: "The Pioneer (René Scheu) — petersloterdijk.net", date: "28 Mayıs 2026", url: "https://petersloterdijk.net/2026/05/das-boese-sein-koennen-wurde-zur-kompetenz/" },
+      { title: "Les nouveaux empires, l'Europe, l'IA… Comprendre notre nouveau monde avec Peter Sloterdijk", publisher: "Philosophie Magazine — petersloterdijk.net", date: "24 Temmuz 2026", url: "https://petersloterdijk.net/2026/07/les-nouveaux-empires-leurope-lia-comprendre-notre-nouveau-monde-avec-peter-sloterdijk/", primary: true },
+      { title: "„Es läuft auf eine Bottleneck-Wirtschaft hinaus“", publisher: "Handelsblatt — petersloterdijk.net", date: "31 Temmuz 2026", url: "https://petersloterdijk.net/2026/07/es-laeuft-auf-eine-bottleneck-wirtschaft-hinaus/" },
+    ],
+    content: `Bir filozofun yetmiş dokuz yaşında hâlâ haber olması az rastlanır bir şeydir; Peter Sloterdijk bunu bu yıl iki kez başardı. İlkbaharda Suhrkamp'tan çıkan 189 sayfalık bir deneme, Machiavelli'nin beş yüz yıllık kitabını bugünün devlet başkanlarının yüzüne tuttu. Yazın, önce Fransızların *Philosophie Magazine* dergisine, bir hafta sonra Almanya'nın iş dünyası gazetesi *Handelsblatt*'a verdiği söyleşilerde ise aynı teşhisi dünya ölçeğine yaydı: İmparatorluklar geri dönüyor, liberal düzen sona eriyor ve yapay zekâ, insanın dünyada kendine yer açma biçimini değiştiriyor. [Düşüncesinin ana hatlarını](/haber/peter-sloterdijk-kureler-kinizm-insan-dunya-kurmak) geçenlerde anlatmıştık; burada yalnızca bu yılın iki müdahalesine bakacağız.
+
+Kendisine ruh hâli sorulduğunda Avusturya televizyonuna verdiği cevap, tonunu iyi özetliyor: Liberal bir kuşkucunun neşeli olmak için her zaman nedeni vardır, çünkü zor koşullar da ona düşünmek ve büyük sorunlar manzarasının üzerinde uçmak için kapısına kadar malzeme getirir.
+
+## Birinci müdahale: Prens ve mirasçıları
+
+Kitabın tam adı *Der Fürst und seine Erben. Über große Männer im Zeitalter der gewöhnlichen Leute*: "Prens ve Mirasçıları. Sıradan İnsanlar Çağında Büyük Adamlar Üzerine". Alt başlık bir çelişkiyi işaret ediyor. Modern demokrasi, tanımı gereği sıradan insanların çağıdır; soylu doğmuş olmanın, Tanrı tarafından seçilmiş olmanın siyasette hiçbir şey ifade etmediği çağ. Peki öyleyse dünya siyasetinin sahnesinde neden yeniden, kurumlardan büyük olduğunu ilan eden tek adamlar görüyoruz?
+
+Sloterdijk'in cevabı, soruyu soranı rahatsız edecek türden. Otoriter liderlerin bugünkü popülerliği, yazdığına göre, yalnızca modern toplumların öğrenen sistemler olduğuna ve bir gün "emperyalist inat çağından" çıkacaklarına inanmış olanlar için bir skandaldır. ORF'ye söylediği gibi, sona eren şey "kralların ardından başbakanların ve cumhurbaşkanlarının geldiği" yolundaki huzurlu tasavvurdur. Prens hiç gitmemişti; yalnızca kılık değiştirmişti.
+
+Kitap bu yeni tipi tarihsel öncülleriyle birlikte inceliyor. Hindistan Başbakanı Narendra Modi'den Vladimir Putin'e, Şi Cinping'den Viktor Orbán'a uzanan bir galeri var; merkezde ise Donald Trump duruyor.
+
+## "İyi olmamayı öğrenmek"
+
+Anahtar metin Machiavelli'nin 1513'te yazdığı *Prens*'tir. Machiavelli kitabını İtalya yabancı orduların savaş alanıyken, iktidarını miras almayan, kendi becerisiyle kazanan yeni bir hükümdar için yazmıştı. Kitabın yüzyıllardır okurları ürperten cümlesi on beşinci bölümdedir: Ayakta kalmak isteyen hükümdar, iyi olmamayı öğrenmek ve bunu duruma göre kullanıp kullanmamayı bilmek zorundadır.
+
+Sloterdijk bu cümleyi ağırlığıyla okuyor. Machiavelli'de kötülük bir mizaç kusuru ya da doğuştan gelen bir çeyiz değildir; yazdığı gibi, "çalışılması ve inceltilmesi gereken bir yetenektir". The Pioneer'a verdiği söyleşinin başlığı aynı düşünceyi tek cümleye indirir: Kötü olabilmek bir yetkinliğe dönüştü. Siyaset, böylece genel ahlakın dışında, kendi kurallarıyla işleyen bir zanaat olarak düşünülmeye başlar.
+
+Buradan çıkan sonuç daha da tedirgin edicidir. SRF'deki değerlendirmenin alıntıladığı pasaja göre Machiavelli'nin hükümdarı artık Tanrı'nın soluğunu taşıyan biri değildir; "yönetilebilirliği, iyi ve kötü hakkındaki sıradan yargılara bağlılığına dayanan" bir nüfusun üzerinde durmaya çağrılmış kişidir. Yani halkın ahlaka inanması gerekir ki yönetilebilsin; yönetenin ise o ahlakın ötesinde durması gerekir ki yönetebilsin. Nietzsche'nin üç buçuk yüzyıl sonra bir kitap adı yapacağı "iyinin ve kötünün ötesi", Sloterdijk'in okumasında önce bir iktidar tekniğidir.
+
+## Diktatörü oynayan palyaço
+
+Trump hakkındaki cümleler Almanca basında en çok alıntılanan yerler oldu ve yumuşatılacak gibi değil. "Donald Trump'ın şahsında neredeyse okuma yazma bilmeyen biri bir dünya gücünün başına geçmiştir." Bir başka yerde: Yaradılışı bakımından bir siyasetçi değildir, "daha çok bir pazarlıkçı, en çok da diktatörü oynayan bir palyaço".
+
+Ama kitabı bir Trump hicvine indirgemek haksızlık olur; asıl tez demokrasinin kendisi hakkındadır. Sloterdijk'e göre demokrasiler "baştan iki anlamlı kurulmuştur: Diktatörlüğü önlemek için inşa edilmişlerdir, aynı zamanda diktatörlük kurmaya davet ederler." Seçim özgürlüğü kasıtlı olarak basitleştirilip sonunda her türlü dizginden boşanmayla karıştırıldığında, sistemin kapısı içeriden açılır. ORF'nin "demokrasinin içeriden yıkımı" diye özetlediği şey budur. Sloterdijk bu süreci "siyasal dikeyde yabanileşme" olarak adlandırıyor: Çürüme tabanda değil, iktidarın merkezlerinde, yukarıda başlar.
+
+Felsefe tarihini bilen okur burada çok eski bir sesi tanır. Platon *Devlet*'in sekizinci kitabında tiranlığın oligarşiden değil, tam da demokrasiden, özgürlüğe duyulan doymak bilmez iştahtan doğduğunu yazmıştı. Sloterdijk Platon'un soylu kötümserliğini paylaşmıyor, ama uyarıyı ciddiye alıyor: Güçlü lidere duyulan arzu demokrasiye dışarıdan sızan bir yabancı madde değildir, demokrasinin kendi ürettiği bir şeydir.
+
+## III. Napolyon, Hugo ve "büyüğün bayağılığı"
+
+Kitabın en özgün bölümü, bugünün prenslerine bir ata aradığı sayfalardır. Sloterdijk onu Rönesans'ta değil, on dokuzuncu yüzyıl Fransa'sında buluyor: Louis-Napoléon Bonaparte. 1848'de genel oyla cumhurbaşkanı seçildi, Aralık 1851'de darbe yaptı, bir yıl sonra kendini III. Napolyon adıyla imparator ilan ettirdi. Yurttaşları yeniden tebaaya çeviren adam, iktidara sandıktan gelmişti.
+
+Sloterdijk'e göre onunla bir "eğlence siyaseti" başlar: İktidarın dayanağı artık fikir ve program değil, poz ve sahnelemedir. Bu noktada kitabın gizli kahramanı ortaya çıkar. Victor Hugo, darbeden sonra sürgüne gitti ve 1852'de *Küçük Napolyon* adlı öfkeli risaleyi yayımladı; imparatora "cüce" ve "hiç" dedi, onunla birlikte yalan olan her şeyin canlı bir olguya dönüştüğünü yazdı. ORF'nin eleştirmeni Hugo'yu kitapta Sloterdijk'in öteki benliği olarak görüyor.
+
+Kitabın en çok tartışılacak cümlesi burada: "Asıl akıl almaz olan, bu kadar küçük ve silik, neredeyse değersiz denebilecek insanların, kendi benzerleriyle iş birliği içinde böylesine ölçüsüz bir felakete yol açabilmesidir. Hugo, büyüğün bayağılığını açığa çıkararak kötülüğün sıradanlığı teşhisini önceden yapmıştır."
+
+"Büyüğün bayağılığı" (*Banalität des Großen*), Hannah Arendt'in 1961'deki Eichmann davasından çıkardığı "kötülüğün sıradanlığı"nın ikizi olarak öneriliyor. Arendt, milyonların ölümünü örgütleyen adamın şeytani bir deha değil, düşünmeyen bir memur olduğunu görmüştü. Sloterdijk aynı gözlemi tahta çıkarıyor: Tarihin "büyük adam" dediği figürlere yakından bakıldığında ortaya çıkan şey çoğu kez büyüklük değil, sıradanlığın ölçüsüz bir güçle buluşmasıdır. SRF'nin hatırlattığı ayrıntı yerinde: Arendt de Eichmann'ın sorgu tutanaklarını okurken gülmekten kendini alamadığını anlatmıştı. Bayağılığın fark edilmesi bir absürdlük duygusu doğurur; bu iktidar bu kadar öldürücü olmasaydı ona gülünebilirdi.
+
+Aynı III. Napolyon hakkında, aynı 1852 yılında bir kitap daha yazılmıştı: Marx'ın *Louis Bonaparte'ın On Sekiz Brumaire'i*. Tarihin büyük olaylarının iki kez sahneye çıktığını, ilkinde trajedi, ikincisinde fars olarak göründüğünü söyleyen ünlü cümle oradadır. Marx farsı sınıfların dengesiyle açıklıyordu, Hugo ahlaki öfkeyle karşılıyordu. Sloterdijk'in Hugo'yu seçmesi bir tercih: Onu ilgilendiren, yapının çözümlemesinden çok, küçüklüğün teşhir edilmesi.
+
+## Herkes kral
+
+Kitap umutsuzlukla bitmiyor. SRF'nin deyişiyle "acı tatlı bir zevk" ve sıradan insanlara dolaylı bir çağrı. İktidarın absürdlüğünü ve bayağılığını görmek yetmez; her insanın özünde kral ya da kraliçe olduğunu, yani egemenliğin tek tek yurttaşlarda durduğunu hatırlamak gerekir. Sloterdijk'in "aksiyomların aksiyomu" dediği cümle, Alman Anayasası'nın birinci maddesidir: İnsan onuru dokunulmazdır.
+
+Eleştiri de eksik değil. ORF, yazarın kültür endüstrisinden Carl Schmitt'e, oradan absürdün poetikasına uzanan sayısız sapmasının zaman zaman anlamayı kolaylaştırmaktan çok zorlaştırdığını not ediyor. Sloterdijk'in savunması kendine özgü: Sapma, inatçılığı önleyen estetik bir araçtır; yoğunlaşmak iyidir, hafifçe süzülmek daha iyi. Muhafazakâr basından gelen bir başka itiraz, kitabın Machiavelli'nin düşüncesinin ayrıntılı bir çözümlemesi olmadığını ve kendine liberal diyen demokrasilerin de otoriter eğilimler taşıyabileceğini yeterince görmediğini söylüyor. Bizce asıl açık soru başkadır: Trump'ı, Putin'i, Modi'yi ve Şi'yi tek bir "prens" tipinde toplamak, seçimle gelen ile seçimi çoktan anlamsızlaştırmış olan arasındaki farkı bulanıklaştırmıyor mu? Machiavelli bile miras alınan, fethedilen ve halk desteğiyle kazanılan prenslikleri ayrı bölümlerde ele almıştı.
+
+## İkinci müdahale: Yeni imparatorluklar, Avrupa, yapay zekâ
+
+24 Temmuz'da *Philosophie Magazine*'in yeni sayısı Sloterdijk'le uzun bir söyleşiyle çıktı. Başlık üç sözcüğü yan yana koyuyordu: Yeni imparatorluklar, Avrupa, yapay zekâ. Vesile, [Avrupa üzerine kitabının](/haber/sloterdijk-nitelikleri-olmayan-kita) Fransızca yayımlanmasıydı. Derginin sunuşuna göre Sloterdijk söyleşide, dünyadaki konumumuzun imparatorlukların dönüşü ve yapay zekâ tarafından neden altüst edildiğini anlatıyor; hareket noktası da insanlık tarihini, dünyada barınmamızı sağlayan "küreler" açısından yeniden okuyan kendi kuramı.
+
+Bir hafta sonra, 31 Temmuz'da *Handelsblatt* aynı izleği iktisadın diliyle sürdürdü. Gazetenin özetine göre filozof dünya ticaretinin yeni düzenini ve liberalizmin sonunu konuşuyor, teknoloji şirketlerinin kendi yarattıkları sarsıntının kaybedeni olabileceğini açıklıyor. Başlığa çıkan cümle bir teşhis: Gidişat bir "darboğaz ekonomisi"ne varıyor.
+
+İki söyleşi birlikte okunduğunda *Prens* kitabının öbür yüzü görünür. Kitap iktidarın şahsileşmesini anlatıyordu; söyleşiler bu şahısların hükmettiği dünyanın haritasını çiziyor. Serbest ticaretin herkesi zenginleştireceği, karşılıklı bağımlılığın savaşı anlamsız kılacağı inancı liberal düzenin temel vaadiydi. "Darboğaz" sözcüğü bu vaadin tersine döndüğünü söyler: Çipler, nadir toprak elementleri, enerji hatları, boğazlar ve veri merkezleri gibi dar geçitleri elinde tutan, karşılıklı bağımlılığı bir silaha çevirebilir. Prens ile darboğaz birbirini tamamlar; biri iktidarı tek kişide, öteki tek noktada toplar. Avrupa ise iki söyleşide de aynı yerde duruyor: Kuralların geçerli olduğu bir dünya için tasarlanmış, şimdi kuralsız bir dünyada ne olacağını bilemeyen kıta.
+
+## Küreler ve makineler
+
+Yapay zekânın bu tabloda ne aradığını anlamak için Sloterdijk'in asıl eserine dönmek gerekir. 1998-2004 arasında yayımlanan üç ciltlik *Küreler*, Heidegger'in "dünyada olmak" dediği şeyi mekânsal bir soruya çevirir: İnsan nerededir? Cevap: Hiçbir zaman çıplak bir dışarıda değil, hep kurulmuş bir içeridedir. Ana rahminden aileye, köyden kente, dinlerin göğünden ulusun hafızasına, insan kendine bağışıklık sağlayan, havası solunabilir ortak mekânlar üretir. Üçüncü cilt, modern toplumu tek bir büyük küre olarak değil, birbirine duvarlarıyla yaslanan sayısız küçük hücreden oluşan bir "köpük" olarak betimler.
+
+Bu kuramın içinden bakıldığında yapay zekâ ne yalnızca bir alet ne de bir rakiptir; bir iç mekân teknolojisidir. Sloterdijk'in söyleşilerde hangi cümleleri kurduğunu bilmeden, kuramının bizi nereye götürdüğünü söylemek mümkün. Birincisi, kürelerin en küçüğü ikiliktir: İnsan, onu yanıtlayan bir ötekiyle birlikte var olur. Her an erişilebilen, sabırla yanıt veren bir konuşma ortağı, bu en mahrem küreye yerleşen ilk makinedir. İkincisi, köpük hücreleri arasındaki duvarlar kalınlaşır: Herkesin kendi yardımcısıyla, kendi süzülmüş dünyasında yaşadığı bir toplumda ortak hava azalır. Üçüncüsü, büyük ölçekte bu altyapı birkaç şirketin ve birkaç devletin elindedir; yani insanların içinde düşündüğü mekânların mülkiyeti, tam da yeni imparatorlukların ve darboğazların coğrafyasına oturur.
+
+Sloterdijk bu konulara yabancı değil. 1999'daki "İnsanat Bahçesi İçin Kurallar" konuşması, hümanizmin insanı kitapla evcilleştirme projesinin sona erdiğini ve bundan sonra insanı neyin biçimlendireceği sorusunun açık kaldığını söylediği için Almanya'da fırtına koparmıştı. 2009'da *Hayatını Değiştirmelisin* ile insanı, alıştırma yaparak kendini biçimlendiren hayvan olarak tanımladı ve bu alıştırma tekniklerine "antropoteknik" adını verdi. Yazmayı, hesaplamayı, hatırlamayı ve giderek yargıda bulunmayı makinelere devreden bir uygarlık için bu kavramın sorduğu soru açıktır: Artık hangi alıştırmaları yapmıyoruz ve onları yapmayan insan nasıl biri olur?
+
+## İki müdahalenin ortak sorusu
+
+Prens kitabı ile yapay zekâ söyleşileri ilk bakışta ayrı konular gibi görünür. Aralarındaki bağ, "sıradan insanlar çağı"nın kaderidir. Demokrasi, sıradan insanın kendi kendini yönetebileceği iddiasına dayanır; bu iddia hem yukarıdan, kurumları kişisel mülküne çeviren prenslerce, hem de yandan, yurttaşın yargı gücünü kendi üzerine almayı öneren sistemlerce sınanıyor. İkisinde de vaat aynıdır: Sizin yerinize düşünecek, karar verecek biri ya da bir şey var.
+
+Sloterdijk'in cevabı bir program değil, bir tutum. İktidarın bayağılığını görüp gülebilmek ve egemenliğin kimde durduğunu unutmamak. Günlüklerinin dördüncü cildi, 2017-2020 notlarını içeren *Zeilen und Tage IV* bu ay kitapçılara geliyor; yani Trump'ın ilk dönemini gün gün izleyen bir tanığın defteri. Neşeli kuşkucu, anlaşılan, uçuşunu sürdürüyor.`,
+  },
+  {
     title: "Nancy Cartwright: Bilim dünyayı açıklamakla mı yetinmeli, onu değiştirmeyi de öğrenmeli mi?",
     slug: "nancy-cartwright-bilim-dunyayi-aciklamak-degistirmek-nedensellik-kanit",
     summary:
